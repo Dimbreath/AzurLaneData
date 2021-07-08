@@ -1,116 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_144 = {
-	[65572] = {
-		max_hp = 57,
-		name = "威悉技能轰炸机PlusLv2",
-		base = 65561,
-		id = 65572,
-		hp_growth = 1781,
+	[65066] = {
+		max_hp = 69,
+		name = "普林斯顿技能鱼雷机Lv6",
+		base = 65061,
+		id = 65066,
+		hp_growth = 2669,
 		weapon_ID = {
-			65582
+			65076
 		}
 	},
-	[65573] = {
-		max_hp = 64,
-		name = "威悉技能轰炸机PlusLv3",
-		base = 65561,
-		id = 65573,
-		hp_growth = 2013,
+	[65067] = {
+		max_hp = 75,
+		name = "普林斯顿技能鱼雷机Lv7",
+		base = 65061,
+		id = 65067,
+		hp_growth = 2879,
 		weapon_ID = {
-			65583
+			65077
 		}
 	},
-	[65574] = {
-		max_hp = 70,
-		name = "威悉技能轰炸机PlusLv4",
-		base = 65561,
-		id = 65574,
-		hp_growth = 2246,
+	[65068] = {
+		max_hp = 80,
+		name = "普林斯顿技能鱼雷机Lv8",
+		base = 65061,
+		id = 65068,
+		hp_growth = 3090,
 		weapon_ID = {
-			65584
+			65078
 		}
 	},
-	[65575] = {
-		max_hp = 77,
-		name = "威悉技能轰炸机PlusLv5",
-		base = 65561,
-		id = 65575,
-		hp_growth = 2478,
+	[65069] = {
+		max_hp = 86,
+		name = "普林斯顿技能鱼雷机Lv9",
+		base = 65061,
+		id = 65069,
+		hp_growth = 3301,
 		weapon_ID = {
-			65585
+			65079
 		}
 	},
-	[65576] = {
-		max_hp = 84,
-		name = "威悉技能轰炸机PlusLv6",
-		base = 65561,
-		id = 65576,
-		hp_growth = 2710,
+	[65070] = {
+		max_hp = 91,
+		name = "普林斯顿技能鱼雷机Lv10",
+		base = 65061,
+		id = 65070,
+		hp_growth = 3511,
 		weapon_ID = {
-			65586
+			65080
 		}
 	},
-	[65577] = {
-		max_hp = 90,
-		name = "威悉技能轰炸机PlusLv7",
-		base = 65561,
-		id = 65577,
-		hp_growth = 2943,
-		weapon_ID = {
-			65587
-		}
-	},
-	[65578] = {
-		max_hp = 97,
-		name = "威悉技能轰炸机PlusLv8",
-		base = 65561,
-		id = 65578,
-		hp_growth = 3175,
-		weapon_ID = {
-			65588
-		}
-	},
-	[65579] = {
-		max_hp = 103,
-		name = "威悉技能轰炸机PlusLv9",
-		base = 65561,
-		id = 65579,
-		hp_growth = 3407,
-		weapon_ID = {
-			65589
-		}
-	},
-	[65580] = {
-		max_hp = 110,
-		name = "威悉技能轰炸机PlusLv10",
-		base = 65561,
-		id = 65580,
-		hp_growth = 3640,
-		weapon_ID = {
-			65590
-		}
-	},
-	[65841] = {
-		name = "黑方舟技能-特殊鱼雷机Lv1",
-		max_hp = 38,
+	[65121] = {
+		name = "恶毒μ神圣天使轰炸机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "feiji_shenshengtianshi",
 		ACC_growth = 0,
-		crash_DMG = 420,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "feiji_shenshengtianshi",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1459,
-		speed = 40,
-		id = 65841,
+		nationality = 9,
+		hp_growth = 1692,
+		speed = 48,
+		id = 65121,
 		scale = 1,
 		weapon_ID = {
-			65851
+			65131
 		},
 		position_offset = {
 			0,
@@ -153,7 +113,7 @@ pg.aircraft_template_144 = {
 				0
 			},
 			{
-				0.52,
+				0.54,
 				0,
 				0
 			},
@@ -162,6 +122,46 @@ pg.aircraft_template_144 = {
 				0,
 				0
 			}
+		}
+	},
+	[65122] = {
+		max_hp = 48,
+		name = "恶毒μ神圣天使轰炸机Lv2",
+		base = 65121,
+		id = 65122,
+		hp_growth = 1913,
+		weapon_ID = {
+			65132
+		}
+	},
+	[65123] = {
+		max_hp = 54,
+		name = "恶毒μ神圣天使轰炸机Lv3",
+		base = 65121,
+		id = 65123,
+		hp_growth = 2133,
+		weapon_ID = {
+			65133
+		}
+	},
+	[65124] = {
+		max_hp = 61,
+		name = "恶毒μ神圣天使轰炸机Lv4",
+		base = 65121,
+		id = 65124,
+		hp_growth = 2354,
+		weapon_ID = {
+			65134
+		}
+	},
+	[65125] = {
+		max_hp = 67,
+		name = "恶毒μ神圣天使轰炸机Lv5",
+		base = 65121,
+		id = 65125,
+		hp_growth = 2575,
+		weapon_ID = {
+			65135
 		}
 	}
 }

@@ -4254,5 +4254,77 @@ pg.ship_skin_expression_ex = {
 				"1"
 			}
 		}
+	},
+	bailong = {
+		touch = "",
+		feeling3 = "",
+		mission = "",
+		win_mvp = "",
+		main_ex = "",
+		mail = "",
+		painting = "bailong",
+		feeling1 = "",
+		lose = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		}
 	}
 }

@@ -20,7 +20,7 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:SetBossProxy(slot3, slot0.contextData.bossId)
 	slot3:LockCacheBoss(slot0.contextData.bossId)
-	slot0.viewComponent:SetCurrentFleet(slot3:GetFleet())
+	slot0.viewComponent:SetCurrentFleet(slot0.contextData.editingFleetVO or Clone(slot3:GetFleet()))
 	slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
 	slot0:bind(uv0.REMOVE_SHIP, function (slot0, slot1, slot2)
 		if not slot2:canRemove(slot1) then
@@ -32,17 +32,14 @@ function slot0.register(slot0)
 		end
 
 		slot2:removeShip(slot1)
-		uv0:UpdateFleet(slot2)
-		uv1.viewComponent:UpdateFleetView(true)
+		uv0.viewComponent:UpdateFleetView(true)
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIPS_ORDER, function (slot0, slot1)
 		uv0.viewComponent:UpdateFleetView()
 	end)
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
+		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
 		slot3 = uv0.viewComponent._currentFleetVO
-
-		uv1:UpdateFleet(slot2)
-
 		slot4 = {}
 
 		for slot8, slot9 in ipairs(slot2.ships) do
@@ -93,9 +90,6 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
 		uv0.contextData.form = WorldBossFormationLayer.FORM_EDIT
-
-		uv1:UpdateFleet(uv2)
-
 		WorldBossDetailPage.formDock = true
 		slot5 = slot1 and slot1.id or nil
 
@@ -103,7 +97,7 @@ function slot0.register(slot0)
 			selectedMin = 1,
 			selectedMax = 1,
 			ignoredIds = slot2.ships or {},
-			shipVOs = uv3:GetShipVOs(),
+			shipVOs = uv1:GetShipVOs(),
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = tobool(slot1),
 			teamFilter = slot3,
@@ -127,20 +121,18 @@ function slot0.register(slot0)
 				end
 
 				if uv2 == nil then
-					uv1:insertShip(slot2, nil, uv3)
+					uv3:insertShip(slot2, nil, uv4)
 				else
 					slot3 = uv1:getShipPos({
 						id = uv2
 					})
 
-					uv1:removeShipById(uv2)
+					uv3:removeShipById(uv2)
 
 					if slot2 and slot3 then
-						uv1:insertShip(slot2, slot3, uv3)
+						uv3:insertShip(slot2, slot3, uv4)
 					end
 				end
-
-				uv4:UpdateFleet(uv1)
 			end,
 			preView = uv0.viewComponent.__cname,
 			hideTagFlags = ShipStatus.TAG_HIDE_WORLD

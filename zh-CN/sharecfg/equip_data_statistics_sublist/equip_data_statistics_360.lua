@@ -1,294 +1,383 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
-	[85060] = {
-		name = "100mm双联装防空炮SM-5-1s",
-		speciality = "防空",
-		type = 6,
+	[79542] = {
+		id = 79542,
+		name = "专属弹幕-圣女贞德II",
+		base = 79541,
+		weapon_id = {
+			60502
+		}
+	},
+	[79551] = {
+		name = "专属弹幕-柴郡I",
 		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "85060",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "35/轮",
-		nationality = 7,
-		ammo = 5,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		descrip = "技能弹幕",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85060,
+		id = 79551,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			85060
+			79551
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
+		label = {}
 	},
-	[85061] = {
-		id = 85061,
-		damage = "40/轮",
-		base = 85060,
+	[79552] = {
+		id = 79552,
+		name = "专属弹幕-柴郡II",
+		base = 79551,
 		weapon_id = {
-			85061
+			79552
 		}
 	},
-	[85062] = {
-		id = 85062,
-		damage = "45/轮",
-		base = 85060,
-		weapon_id = {
-			85062
-		}
-	},
-	[85063] = {
-		id = 85063,
-		damage = "51/轮",
-		base = 85060,
-		weapon_id = {
-			85063
-		}
-	},
-	[85064] = {
-		id = 85064,
-		damage = "57/轮",
-		base = 85060,
-		weapon_id = {
-			85064
-		}
-	},
-	[85065] = {
-		id = 85065,
-		damage = "63/轮",
-		base = 85060,
-		weapon_id = {
-			85065
-		}
-	},
-	[85066] = {
-		id = 85066,
-		damage = "70/轮",
-		base = 85060,
-		weapon_id = {
-			85066
-		}
-	},
-	[85120] = {
-		name = "B-38 三联装152mm主炮Mk5",
-		speciality = "锁定",
-		type = 2,
+	[79561] = {
+		name = "专属弹幕-德雷克I",
 		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "5 x 6",
-		nationality = 7,
-		ammo = 3,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		descrip = "技能弹幕",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85120,
+		id = 79561,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79561
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79562] = {
+		id = 79562,
+		name = "专属弹幕-德雷克II",
+		base = 79561,
+		weapon_id = {
+			79562
+		}
+	},
+	[79571] = {
+		name = "专属弹幕-美因茨I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		descrip = "技能弹幕",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79571,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79571
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79572] = {
+		id = 79572,
+		name = "专属弹幕-美因茨II",
+		base = 79571,
+		weapon_id = {
+			79572
+		}
+	},
+	[79581] = {
+		name = "专属弹幕-赫敏I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79581,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79581
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79582] = {
+		id = 79582,
+		name = "专属弹幕-赫敏II",
+		base = 79581,
+		weapon_id = {
+			79582
+		}
+	},
+	[79591] = {
+		name = "专属弹幕-U96I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79591,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79591
+		},
+		skill_id = {},
+		part_main = {
 			1
 		},
-		ammo_info = {
-			{
-				1,
-				1201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1201
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85120
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
+		label = {}
 	},
-	[85121] = {
-		id = 85121,
-		base = 85120,
+	[79592] = {
+		id = 79592,
+		name = "专属弹幕-U96II",
+		base = 79591,
 		weapon_id = {
-			85121
+			79592
 		}
 	},
-	[85122] = {
-		id = 85122,
-		damage = "6 x 6",
-		base = 85120,
-		weapon_id = {
-			85122
-		}
-	},
-	[85123] = {
-		id = 85123,
-		damage = "7 x 6",
-		base = 85120,
-		weapon_id = {
-			85123
-		}
-	},
-	[85124] = {
-		id = 85124,
-		damage = "8 x 6",
-		base = 85120,
-		weapon_id = {
-			85124
-		}
-	},
-	[85125] = {
-		id = 85125,
-		damage = "9 x 6",
-		base = 85120,
-		weapon_id = {
-			85125
-		}
-	},
-	[85126] = {
-		id = 85126,
-		damage = "10 x 6",
-		base = 85120,
-		weapon_id = {
-			85126
-		}
-	},
-	[85140] = {
-		name = "B-38 三联装152mm主炮Mk5",
-		speciality = "锁定",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 2,
+	[79601] = {
+		name = "专属弹幕-凉月I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85140,
+		id = 79601,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
-		},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85140
+			60571
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"HE"
+		label = {}
+	},
+	[79602] = {
+		id = 79602,
+		name = "专属弹幕-凉月II",
+		base = 79601,
+		weapon_id = {
+			60572
 		}
 	},
-	[85141] = {
-		id = 85141,
-		base = 85140,
+	[79611] = {
+		name = "专属弹幕-罗恩μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85141
+			79611
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79612] = {
+		id = 79612,
+		name = "专属弹幕-罗恩μII",
+		base = 79611,
+		weapon_id = {
+			79612
 		}
 	},
-	[85142] = {
-		id = 85142,
-		damage = "7 x 6",
-		base = 85140,
+	[79621] = {
+		name = "专属弹幕-恶毒μI",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79621,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85142
+			60581
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79622] = {
+		id = 79622,
+		name = "专属弹幕-恶毒μII",
+		base = 79621,
+		weapon_id = {
+			60582
 		}
 	}
 }

@@ -1,81 +1,78 @@
 pg = pg or {}
 pg.aircraft_template_154 = {
-	[66966] = {
-		max_hp = 55,
-		name = "萨拉托加技能轰炸机Lv6",
-		base = 66960,
-		id = 66966,
-		hp_growth = 2157,
+	[65846] = {
+		max_hp = 66,
+		name = "黑方舟技能-特殊鱼雷机Lv6",
+		base = 65841,
+		id = 65846,
+		hp_growth = 2554,
 		weapon_ID = {
-			67006,
-			67026
+			65856
 		}
 	},
-	[66967] = {
-		max_hp = 59,
-		name = "萨拉托加技能轰炸机Lv7",
-		base = 66960,
-		id = 66967,
-		hp_growth = 2320,
+	[65847] = {
+		max_hp = 72,
+		name = "黑方舟技能-特殊鱼雷机Lv7",
+		base = 65841,
+		id = 65847,
+		hp_growth = 2772,
 		weapon_ID = {
-			67007,
-			67027
+			65857
 		}
 	},
-	[66968] = {
-		max_hp = 63,
-		name = "萨拉托加技能轰炸机Lv8",
-		base = 66960,
-		id = 66968,
-		hp_growth = 2483,
+	[65848] = {
+		max_hp = 78,
+		name = "黑方舟技能-特殊鱼雷机Lv8",
+		base = 65841,
+		id = 65848,
+		hp_growth = 2991,
 		weapon_ID = {
-			67008,
-			67028
+			65858
 		}
 	},
-	[66969] = {
-		max_hp = 68,
-		name = "萨拉托加技能轰炸机Lv9",
-		base = 66960,
-		id = 66969,
-		hp_growth = 2646,
+	[65849] = {
+		max_hp = 83,
+		name = "黑方舟技能-特殊鱼雷机Lv9",
+		base = 65841,
+		id = 65849,
+		hp_growth = 3210,
 		weapon_ID = {
-			67009,
-			67029
+			65859
 		}
 	},
-	[66970] = {
-		max_hp = 73,
-		name = "萨拉托加技能轰炸机Lv10",
-		base = 66960,
-		id = 66970,
-		hp_growth = 2809,
+	[65850] = {
+		max_hp = 89,
+		name = "黑方舟技能-特殊鱼雷机Lv10",
+		base = 65841,
+		id = 65850,
+		hp_growth = 3429,
 		weapon_ID = {
-			67010,
-			67030
+			65860
 		}
 	},
-	[67140] = {
-		name = "半人马技能鱼雷机Lv0",
-		max_hp = 35,
+	[65911] = {
+		name = "天鹰技能G.50Lv1",
+		max_hp = 46,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "g50",
 		ACC_growth = 0,
-		crash_DMG = 306,
-		dodge = 1,
+		crash_DMG = 160,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "g50",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1338,
-		speed = 45,
-		id = 67140,
+		nationality = 6,
+		hp_growth = 1785,
+		speed = 50,
+		id = 65911,
 		scale = 1,
 		weapon_ID = {
-			67180
+			50041,
+			50541,
+			65921
 		},
 		position_offset = {
 			0,
@@ -118,7 +115,7 @@ pg.aircraft_template_154 = {
 				0
 			},
 			{
-				0.52,
+				0.27,
 				0,
 				0
 			},
@@ -129,44 +126,52 @@ pg.aircraft_template_154 = {
 			}
 		}
 	},
-	[67141] = {
-		max_hp = 40,
-		name = "半人马技能鱼雷机Lv1",
-		base = 67140,
-		id = 67141,
-		hp_growth = 1538,
+	[65912] = {
+		max_hp = 52,
+		name = "天鹰技能G.50Lv2",
+		base = 65911,
+		id = 65912,
+		hp_growth = 2018,
 		weapon_ID = {
-			67181
+			50042,
+			50542,
+			65922
 		}
 	},
-	[67142] = {
-		max_hp = 45,
-		name = "半人马技能鱼雷机Lv2",
-		base = 67140,
-		id = 67142,
-		hp_growth = 1739,
+	[65913] = {
+		max_hp = 59,
+		name = "天鹰技能G.50Lv3",
+		base = 65911,
+		id = 65913,
+		hp_growth = 2251,
 		weapon_ID = {
-			67182
+			50043,
+			50543,
+			65923
 		}
 	},
-	[67143] = {
-		max_hp = 50,
-		name = "半人马技能鱼雷机Lv3",
-		base = 67140,
-		id = 67143,
-		hp_growth = 1940,
+	[65914] = {
+		max_hp = 65,
+		name = "天鹰技能G.50Lv4",
+		base = 65911,
+		id = 65914,
+		hp_growth = 2484,
 		weapon_ID = {
-			67183
+			50044,
+			50544,
+			65924
 		}
 	},
-	[67144] = {
-		max_hp = 56,
-		name = "半人马技能鱼雷机Lv4",
-		base = 67140,
-		id = 67144,
-		hp_growth = 2140,
+	[65915] = {
+		max_hp = 71,
+		name = "天鹰技能G.50Lv5",
+		base = 65911,
+		id = 65915,
+		hp_growth = 2717,
 		weapon_ID = {
-			67184
+			50045,
+			50545,
+			65925
 		}
 	}
 }

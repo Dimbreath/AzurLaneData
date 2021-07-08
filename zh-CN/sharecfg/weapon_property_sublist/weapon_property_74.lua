@@ -2,197 +2,6 @@ pg = pg or {}
 pg.weapon_property_74 = {}
 
 function ()
-	uv0.weapon_property_74[47044] = {
-		reload_max = 1620,
-		damage = 37,
-		base = 47040,
-		id = 47044,
-		bullet_ID = {
-			47044
-		}
-	}
-	uv0.weapon_property_74[47045] = {
-		reload_max = 1595,
-		damage = 40,
-		base = 47040,
-		id = 47045,
-		bullet_ID = {
-			47045
-		}
-	}
-	uv0.weapon_property_74[47046] = {
-		reload_max = 1570,
-		damage = 43,
-		base = 47040,
-		id = 47046,
-		bullet_ID = {
-			47046
-		}
-	}
-	uv0.weapon_property_74[47047] = {
-		reload_max = 1545,
-		damage = 46,
-		base = 47040,
-		id = 47047,
-		bullet_ID = {
-			47047
-		}
-	}
-	uv0.weapon_property_74[47048] = {
-		reload_max = 1520,
-		damage = 49,
-		base = 47040,
-		id = 47048,
-		bullet_ID = {
-			47048
-		}
-	}
-	uv0.weapon_property_74[47049] = {
-		reload_max = 1495,
-		damage = 52,
-		base = 47040,
-		id = 47049,
-		bullet_ID = {
-			47049
-		}
-	}
-	uv0.weapon_property_74[47050] = {
-		reload_max = 1470,
-		damage = 56,
-		base = 47040,
-		id = 47050,
-		bullet_ID = {
-			47050
-		}
-	}
-	uv0.weapon_property_74[47051] = {
-		reload_max = 1470,
-		damage = 56,
-		base = 47040,
-		id = 47051,
-		bullet_ID = {
-			47050
-		}
-	}
-	uv0.weapon_property_74[47060] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Ar-197舰载战斗机",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 47060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2208,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_74[47061] = {
-		id = 47061,
-		reload_max = 2142,
-		base = 47060
-	}
-	uv0.weapon_property_74[47062] = {
-		id = 47062,
-		reload_max = 2076,
-		base = 47060
-	}
-	uv0.weapon_property_74[47063] = {
-		id = 47063,
-		reload_max = 2010,
-		base = 47060
-	}
-	uv0.weapon_property_74[47064] = {
-		id = 47064,
-		reload_max = 1944,
-		base = 47060
-	}
-	uv0.weapon_property_74[47065] = {
-		id = 47065,
-		reload_max = 1878,
-		base = 47060
-	}
-	uv0.weapon_property_74[47066] = {
-		id = 47066,
-		reload_max = 1812,
-		base = 47060
-	}
-	uv0.weapon_property_74[47067] = {
-		id = 47067,
-		reload_max = 1812,
-		base = 47060
-	}
-	uv0.weapon_property_74[47080] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "试作型舰载FW-190 A-5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 47080,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2020,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_74[47081] = {
 		id = 47081,
 		reload_max = 1989,
@@ -641,6 +450,154 @@ function ()
 			47150
 		}
 	}
+	uv0.weapon_property_74[47160] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "试作舰载型BF-109G",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 47160,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1841,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			47160
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_74[47161] = {
+		id = 47161,
+		reload_max = 1816,
+		base = 47160,
+		bullet_ID = {
+			47161
+		}
+	}
+	uv0.weapon_property_74[47162] = {
+		id = 47162,
+		reload_max = 1791,
+		base = 47160,
+		bullet_ID = {
+			47162
+		}
+	}
+	uv0.weapon_property_74[47163] = {
+		id = 47163,
+		reload_max = 1766,
+		base = 47160,
+		bullet_ID = {
+			47163
+		}
+	}
+	uv0.weapon_property_74[47164] = {
+		id = 47164,
+		reload_max = 1741,
+		base = 47160,
+		bullet_ID = {
+			47164
+		}
+	}
+	uv0.weapon_property_74[47165] = {
+		id = 47165,
+		reload_max = 1716,
+		base = 47160,
+		bullet_ID = {
+			47165
+		}
+	}
+	uv0.weapon_property_74[47166] = {
+		id = 47166,
+		reload_max = 1691,
+		base = 47160,
+		bullet_ID = {
+			47166
+		}
+	}
+	uv0.weapon_property_74[47167] = {
+		id = 47167,
+		reload_max = 1666,
+		base = 47160,
+		bullet_ID = {
+			47167
+		}
+	}
+	uv0.weapon_property_74[47168] = {
+		id = 47168,
+		reload_max = 1641,
+		base = 47160,
+		bullet_ID = {
+			47168
+		}
+	}
+	uv0.weapon_property_74[47169] = {
+		id = 47169,
+		reload_max = 1616,
+		base = 47160,
+		bullet_ID = {
+			47169
+		}
+	}
+	uv0.weapon_property_74[47170] = {
+		id = 47170,
+		reload_max = 1591,
+		base = 47160,
+		bullet_ID = {
+			47170
+		}
+	}
+	uv0.weapon_property_74[47171] = {
+		id = 47171,
+		reload_max = 1591,
+		base = 47160,
+		bullet_ID = {
+			47170
+		}
+	}
+	uv0.weapon_property_74[47172] = {
+		id = 47172,
+		reload_max = 1591,
+		base = 47160,
+		bullet_ID = {
+			47170
+		}
+	}
+	uv0.weapon_property_74[47173] = {
+		id = 47173,
+		reload_max = 1591,
+		base = 47160,
+		bullet_ID = {
+			47170
+		}
+	}
 	uv0.weapon_property_74[48000] = {
 		action_index = "attack",
 		range = 90,
@@ -686,6 +643,26 @@ function ()
 	uv0.weapon_property_74[48001] = {
 		id = 48001,
 		reload_max = 2325,
+		base = 48000
+	}
+	uv0.weapon_property_74[48002] = {
+		id = 48002,
+		reload_max = 2288,
+		base = 48000
+	}
+	uv0.weapon_property_74[48003] = {
+		id = 48003,
+		reload_max = 2251,
+		base = 48000
+	}
+	uv0.weapon_property_74[48004] = {
+		id = 48004,
+		reload_max = 2214,
+		base = 48000
+	}
+	uv0.weapon_property_74[48005] = {
+		id = 48005,
+		reload_max = 2177,
 		base = 48000
 	}
 end()

@@ -57,46 +57,46 @@ end
 
 function slot0.updateSkillTF(slot0, slot1, slot2)
 	slot3 = slot0:findTF("frame", slot1)
-	slot4 = slot0:findTF("skillInfo", slot3)
-	slot5 = slot0:findTF("mask", slot3)
-	slot6 = slot0:findTF("Slider", slot3)
-	slot8 = slot0:findTF("ExpProgressText", slot4)
-	slot11 = slot0:findTF("Tag/learing", slot3)
-	slot12 = slot0:findTF("Tag/unlockable", slot3)
-	slot15 = getSkillConfig(slot2)
+	slot4 = slot0:findTF("check_mark", slot1)
+	slot5 = slot0:findTF("skillInfo", slot3)
+	slot6 = slot0:findTF("mask", slot3)
+	slot7 = slot0:findTF("Slider", slot3)
+	slot9 = slot0:findTF("ExpProgressText", slot5)
+	slot12 = slot0:findTF("Tag/learing", slot3)
+	slot13 = slot0:findTF("Tag/unlockable", slot3)
+	slot16 = getSkillConfig(slot2)
 
-	setImageSprite(slot0:findTF("icon", slot4), LoadSprite("skillicon/" .. slot15.icon))
-	setText(slot0:findTF("name_contain/name", slot4), getSkillName(slot15.id))
-	setText(slot0:findTF("name_contain/level_contain/Text", slot4), getProxy(BayProxy):getShipById(slot0.metaShipID):getMetaSkillLevelBySkillID(slot2))
+	setImageSprite(slot0:findTF("icon", slot5), LoadSprite("skillicon/" .. slot16.icon))
+	setText(slot0:findTF("name_contain/name", slot5), shortenString(getSkillName(slot16.id), 8))
+	setText(slot0:findTF("name_contain/level_contain/Text", slot5), getProxy(BayProxy):getShipById(slot0.metaShipID):getMetaSkillLevelBySkillID(slot2))
 
-	slot17 = slot2 == slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.metaShipID).curSkillID
-	slot19 = slot13:isSkillLevelMax(slot2)
-	slot20 = slot16:getSkillExp(slot2)
+	slot18 = slot2 == slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.metaShipID).curSkillID
+	slot20 = slot14:isSkillLevelMax(slot2)
+	slot21 = slot17:getSkillExp(slot2)
 
-	if not (pg.skill_data_template[slot2].max_level <= slot14) then
-		if slot14 > 0 then
-			slot24 = MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot14).need_exp
+	if not (pg.skill_data_template[slot2].max_level <= slot15) then
+		if slot15 > 0 then
+			slot25 = MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot15).need_exp
 
-			setText(slot8, slot20 .. "/" .. slot24)
-			setSlider(slot6, 0, slot24, slot20)
-			setActive(slot8, true)
-			setActive(slot6, true)
+			setText(slot9, slot21 .. "/" .. slot25)
+			setSlider(slot7, 0, slot25, slot21)
+			setActive(slot9, true)
+			setActive(slot7, true)
 		else
-			setActive(slot8, false)
-			setActive(slot6, false)
+			setActive(slot9, false)
+			setActive(slot7, false)
 		end
 	else
-		setText(slot8, slot20 .. "/Max")
-		setSlider(slot6, 0, 1, 1)
-		setActive(slot8, true)
-		setActive(slot6, true)
+		setText(slot9, slot21 .. "/Max")
+		setSlider(slot7, 0, 1, 1)
+		setActive(slot9, true)
+		setActive(slot7, true)
 	end
 
-	print(tostring(slot11), tostring(slot17))
-	print(tostring(slot12), tostring(not slot18))
-	setActive(slot11, slot17)
-	setActive(slot12, not slot18)
-	setActive(slot5, not slot18)
+	setActive(slot4, slot18 and not slot20)
+	setActive(slot12, slot18 and not slot20)
+	setActive(slot13, not slot19)
+	setActive(slot6, not slot19)
 	onToggle(slot0, slot1, function (slot0)
 		if slot0 then
 			if not uv0 then
@@ -119,6 +119,8 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 					end,
 					weight = LayerWeightConst.TOP_LAYER
 				})
+			elseif uv4 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("meta_skill_maxtip2"))
 			end
 		end
 	end, SFX_PANEL)

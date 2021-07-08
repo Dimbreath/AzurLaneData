@@ -254,7 +254,7 @@ function slot0.initTecPanel(slot0)
 		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				if uv0.phaseId < uv1 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_7"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_not_open_tip"))
 					triggerToggle(uv0.tecToggles[uv0.cachePageID], true)
 				else
 					uv0:updateTecPanel(uv1)
@@ -474,17 +474,23 @@ end
 
 function slot0.setPhrase(slot0)
 	slot1 = 1
-	slot2 = slot0.activity
+	slot2 = slot0.activity:getConfig("config_data")[3]
 
-	for slot8 = #slot2:getConfig("config_data")[3], 1, -1 do
-		if _.all(slot2[slot8][1], function (slot0)
-			return uv0.taskProxy:getTaskVO(slot0) ~= nil
-		end) or function (slot0)
+	for slot9 = #slot2, 1, -1 do
+		slot12 = function (slot0)
 			if slot0 > 1 then
 				return uv1.taskProxy:getFinishTaskById(uv0[slot0 - 1][2]) ~= nil
 			end
-		end(slot8) then
-			slot1 = slot8
+		end(slot9)
+
+		if slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP and slot9 == 2 and not _.all(slot2[slot9][1], function (slot0)
+			return uv0.taskProxy:getTaskVO(slot0) ~= nil
+		end) and _.all(slot2[1][1], function (slot0)
+			return uv0.taskProxy:getTaskVO(slot0) ~= nil
+		end) then
+			slot1 = 1
+		elseif slot11 or slot12 then
+			slot1 = slot9
 
 			break
 		end

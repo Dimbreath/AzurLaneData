@@ -1,5 +1,129 @@
 pg = pg or {}
 pg.ship_skin_template_18 = {
+	[900201] = {
+		ship_group = 900201,
+		name = "？？？",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "B级驱逐舰—大斗犬，舷号H91",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "dadouquan_dark_shadow",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 900201,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dadouquan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 16,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.61,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.61,
+					0.92,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.43,
+					0.39,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					0.92,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.61,
+							-1.03
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							0.49,
+							-0.12
+						}
+					}
+				}
+			}
+		}
+	},
 	[900202] = {
 		ship_group = 900202,
 		name = "？？？",
@@ -7539,103 +7663,6 @@ pg.ship_skin_template_18 = {
 				{
 					1.438,
 					1.204,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900271] = {
-		ship_group = 900271,
-		name = "邦克山",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "埃塞克斯级航空母舰—邦克山，舷号CV-17",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "bangkeshan",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 900271,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "bangkeshan",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.29,
-					1.03,
-					0
-				}
-			},
-			plane = {
-				{
-					1.41,
-					1.07,
 					0
 				}
 			}

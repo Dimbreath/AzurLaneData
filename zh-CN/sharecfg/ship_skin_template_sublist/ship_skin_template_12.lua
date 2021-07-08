@@ -1981,6 +1981,119 @@ pg.ship_skin_template_12 = {
 			main_1 = 0.33
 		}
 	},
+	[305142] = {
+		ship_group = 30514,
+		name = "偶遇的优等生",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "哎呀，在这里碰上还真是有缘呢。…欸，一起去学校？好、好吧，我走前面，赶紧跟上来！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "junhe_3",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "103",
+		skin_type = 4,
+		id = 305142,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "junhe_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70571,
+		voice_actor = 215,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.019,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.195,
+					1.005,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.193,
+					0.998,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.422,
+							2.417,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[306010] = {
 		ship_group = 30601,
 		name = "{namecode:85}",
@@ -7223,105 +7336,6 @@ pg.ship_skin_template_12 = {
 				{
 					1.1,
 					0.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[308012] = {
-		ship_group = 30801,
-		name = "枕头天堂",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "好困……嗯，指挥官？要和“鱼雷先生”一起睡会吗？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "I19_3",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "109",
-		skin_type = 4,
-		id = 308012,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "I19_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70391,
-		voice_actor = 83,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.563,
-					0.382,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.011,
-					-0.417,
 					0
 				}
 			}

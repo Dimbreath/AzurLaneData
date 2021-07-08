@@ -1,15 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_356 = {
-	[79502] = {
-		id = 79502,
-		name = "专属弹幕-塔什干II",
-		base = 79501,
+	[79182] = {
+		id = 79182,
+		name = "专属弹幕-鞍山II",
+		base = 79181,
 		weapon_id = {
-			79502
+			79182
 		}
 	},
-	[79511] = {
-		name = "专属弹幕-恰巴耶夫I",
+	[79191] = {
+		name = "专属弹幕-阿芙乐尔I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -21,14 +21,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79511,
+		id = 79191,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79511
+			79191
 		},
 		skill_id = {},
 		part_main = {
@@ -47,16 +47,16 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79512] = {
-		id = 79512,
-		name = "专属弹幕-恰巴耶夫II",
-		base = 79511,
+	[79192] = {
+		id = 79192,
+		name = "专属弹幕-阿芙乐尔II",
+		base = 79191,
 		weapon_id = {
-			79512
+			79192
 		}
 	},
-	[79521] = {
-		name = "专属弹幕-里诺I",
+	[79201] = {
+		name = "专属弹幕-Z23I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -68,14 +68,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79521,
+		id = 79201,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79521
+			79201
 		},
 		skill_id = {},
 		part_main = {
@@ -94,16 +94,16 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79522] = {
-		id = 79522,
-		name = "专属弹幕-里诺II",
-		base = 79521,
+	[79202] = {
+		id = 79202,
+		name = "专属弹幕-Z23II",
+		base = 79201,
 		weapon_id = {
-			79522
+			79202
 		}
 	},
-	[79541] = {
-		name = "专属弹幕-圣女贞德I",
+	[79211] = {
+		name = "专属弹幕-Z46I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -115,14 +115,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79541,
+		id = 79211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60501
+			79211
 		},
 		skill_id = {},
 		part_main = {
@@ -141,154 +141,16 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79542] = {
-		id = 79542,
-		name = "专属弹幕-圣女贞德II",
-		base = 79541,
+	[79212] = {
+		id = 79212,
+		name = "专属弹幕-Z46II",
+		base = 79211,
 		weapon_id = {
-			60502
+			79212
 		}
 	},
-	[79551] = {
-		name = "专属弹幕-柴郡I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		descrip = "技能弹幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79551,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79551
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79552] = {
-		id = 79552,
-		name = "专属弹幕-柴郡II",
-		base = 79551,
-		weapon_id = {
-			79552
-		}
-	},
-	[79561] = {
-		name = "专属弹幕-德雷克I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		descrip = "技能弹幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79561,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79561
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79562] = {
-		id = 79562,
-		name = "专属弹幕-德雷克II",
-		base = 79561,
-		weapon_id = {
-			79562
-		}
-	},
-	[79571] = {
-		name = "专属弹幕-美因茨I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		descrip = "技能弹幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79571,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79571
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79572] = {
-		id = 79572,
-		name = "专属弹幕-美因茨II",
-		base = 79571,
-		weapon_id = {
-			79572
-		}
-	},
-	[79581] = {
-		name = "专属弹幕-赫敏I",
+	[79221] = {
+		name = "专属弹幕-伊吹I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -300,14 +162,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79581,
+		id = 79221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79581
+			79221
 		},
 		skill_id = {},
 		part_main = {
@@ -326,16 +188,16 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79582] = {
-		id = 79582,
-		name = "专属弹幕-赫敏II",
-		base = 79581,
+	[79222] = {
+		id = 79222,
+		name = "专属弹幕-伊吹II",
+		base = 79221,
 		weapon_id = {
-			79582
+			79222
 		}
 	},
-	[79591] = {
-		name = "专属弹幕-U96I",
+	[79231] = {
+		name = "专属弹幕-海王星I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -347,18 +209,19 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79591,
+		id = 79231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79591
+			79231
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -372,12 +235,153 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79592] = {
-		id = 79592,
-		name = "专属弹幕-U96II",
-		base = 79591,
+	[79232] = {
+		id = 79232,
+		name = "专属弹幕-海王星II",
+		base = 79231,
 		weapon_id = {
-			79592
+			79232
+		}
+	},
+	[79241] = {
+		name = "专属弹幕-罗恩I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79241,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79241
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79242] = {
+		id = 79242,
+		name = "专属弹幕-罗恩II",
+		base = 79241,
+		weapon_id = {
+			79242
+		}
+	},
+	[79251] = {
+		name = "专属弹幕-路易九世I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79251
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79252] = {
+		id = 79252,
+		name = "专属弹幕-路易九世II",
+		base = 79251,
+		weapon_id = {
+			79252
+		}
+	},
+	[79261] = {
+		name = "专属弹幕-I19I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79261
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79262] = {
+		id = 79262,
+		name = "专属弹幕-I19II",
+		base = 79261,
+		weapon_id = {
+			79262
 		}
 	}
 }

@@ -48,13 +48,12 @@ function slot0.execute(slot0, slot1)
 					if _.any(pg.equip_skin_template[slot1.skinId].equip_type, function (slot0)
 						return slot0 == uv0.config.type
 					end) then
-						slot2.skinId = slot1.skinId
+						uv0:updateEquipmentSkin(uv1, slot1.skinId)
 					else
 						uv2:addEquipmentSkin(slot1.skinId, 1)
+						uv0:updateEquipmentSkin(uv1, 0)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unmatch_equipment"))
 					end
-
-					slot1.skinId = 0
 				end
 
 				uv2:addEquipment(slot1)

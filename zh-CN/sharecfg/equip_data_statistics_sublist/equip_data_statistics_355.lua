@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_355 = {
-	[79421] = {
-		name = "专属弹幕-I168I",
+	[79101] = {
+		name = "专属弹幕-贝尔法斯特I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -13,14 +13,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79421,
+		id = 79101,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79421
+			79101
 		},
 		skill_id = {},
 		part_main = {
@@ -39,16 +39,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79422] = {
-		id = 79422,
-		name = "专属弹幕-I168II",
-		base = 79421,
+	[79102] = {
+		id = 79102,
+		name = "专属弹幕-贝尔法斯特II",
+		base = 79101,
 		weapon_id = {
-			79422
+			79102
 		}
 	},
-	[79431] = {
-		name = "专属弹幕-U101I",
+	[79111] = {
+		name = "专属弹幕-绫波I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -60,14 +60,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79431,
+		id = 79111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79431
+			79111
 		},
 		skill_id = {},
 		part_main = {
@@ -86,16 +86,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79432] = {
-		id = 79432,
-		name = "专属弹幕-U101II",
-		base = 79431,
+	[79112] = {
+		id = 79112,
+		name = "专属弹幕-绫波II",
+		base = 79111,
 		weapon_id = {
-			79432
+			79112
 		}
 	},
-	[79441] = {
-		name = "专属弹幕-棘鳍I",
+	[79121] = {
+		name = "专属弹幕-夕立I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -107,14 +107,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79441,
+		id = 79121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79441
+			79121
 		},
 		skill_id = {},
 		part_main = {
@@ -133,16 +133,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79442] = {
-		id = 79442,
-		name = "专属弹幕-棘鳍II",
-		base = 79441,
+	[79122] = {
+		id = 79122,
+		name = "专属弹幕-夕立II",
+		base = 79121,
 		weapon_id = {
-			79442
+			79122
 		}
 	},
-	[79451] = {
-		name = "全弹发射-克利夫兰μI",
+	[79131] = {
+		name = "专属弹幕-雪风I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -154,14 +154,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79451,
+		id = 79131,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79451
+			79131
 		},
 		skill_id = {},
 		part_main = {
@@ -180,16 +180,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79452] = {
-		id = 79452,
-		name = "全弹发射-克利夫兰μII",
-		base = 79451,
+	[79132] = {
+		id = 79132,
+		name = "专属弹幕-雪风II",
+		base = 79131,
 		weapon_id = {
-			79452
+			79132
 		}
 	},
-	[79461] = {
-		name = "全弹发射-南安普顿μI",
+	[79141] = {
+		name = "专属弹幕-岛风I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -201,14 +201,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79461,
+		id = 79141,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79461
+			79141
 		},
 		skill_id = {},
 		part_main = {
@@ -227,16 +227,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79462] = {
-		id = 79462,
-		name = "全弹发射-南安普顿μII",
-		base = 79461,
+	[79142] = {
+		id = 79142,
+		name = "专属弹幕-岛风II",
+		base = 79141,
 		weapon_id = {
-			79462
+			79142
 		}
 	},
-	[79471] = {
-		name = "全弹发射-希佩尔海军上将μI",
+	[79151] = {
+		name = "专属弹幕-北上I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -248,14 +248,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79471,
+		id = 79151,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79471
+			79151
 		},
 		skill_id = {},
 		part_main = {
@@ -274,16 +274,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79472] = {
-		id = 79472,
-		name = "全弹发射-希佩尔海军上将μII",
-		base = 79471,
+	[79152] = {
+		id = 79152,
+		name = "专属弹幕-北上II",
+		base = 79151,
 		weapon_id = {
-			79472
+			79152
 		}
 	},
-	[79481] = {
-		name = "专属弹幕-能代I",
+	[79161] = {
+		name = "专属弹幕-大井I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -295,14 +295,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79481,
+		id = 79161,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60481
+			79161
 		},
 		skill_id = {},
 		part_main = {
@@ -321,16 +321,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79482] = {
-		id = 79482,
-		name = "专属弹幕-能代II",
-		base = 79481,
+	[79162] = {
+		id = 79162,
+		name = "专属弹幕-大井II",
+		base = 79161,
 		weapon_id = {
-			60482
+			79162
 		}
 	},
-	[79491] = {
-		name = "专属弹幕-黛朵I",
+	[79171] = {
+		name = "专属弹幕-Z1I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -342,14 +342,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79491,
+		id = 79171,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79491
+			79171
 		},
 		skill_id = {},
 		part_main = {
@@ -368,16 +368,16 @@ pg.equip_data_statistics_355 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79492] = {
-		id = 79492,
-		name = "专属弹幕-黛朵II",
-		base = 79491,
+	[79172] = {
+		id = 79172,
+		name = "专属弹幕-Z1II",
+		base = 79171,
 		weapon_id = {
-			79492
+			79172
 		}
 	},
-	[79501] = {
-		name = "专属弹幕-塔什干I",
+	[79181] = {
+		name = "专属弹幕-鞍山I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -389,14 +389,14 @@ pg.equip_data_statistics_355 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79501,
+		id = 79181,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79501
+			79181
 		},
 		skill_id = {},
 		part_main = {

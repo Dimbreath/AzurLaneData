@@ -72,6 +72,10 @@ function slot0.BindConditions(slot0)
 		return getProxy(PlayerProxy):IsShowCommssionTip()
 	end)
 	slot0:BindCondition(uv0.TYPES.COMMANDER, function ()
+		if getProxy(PlayerProxy):getRawData().level < 40 then
+			return false
+		end
+
 		if not LOCK_CATTERY then
 			return getProxy(CommanderProxy):haveFinishedBox() or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
 		else

@@ -50,18 +50,9 @@ function slot0.register(slot0)
 			end,
 			onSelected = function (slot0)
 				if getProxy(BayProxy):getShipById(slot0[1]):isMetaShip() then
-					if not NEW_META_EXP then
-						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
-							autoOpenTactics = true,
-							autoOpenShipConfigID = slot2.configId
-						})
+					uv0.contextData.metaShipID = slot1
 
-						return
-					else
-						uv0.contextData.metaShipID = slot1
-
-						return
-					end
+					return
 				end
 
 				if uv1 and slot0[1] then
@@ -144,11 +135,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setSKillClassNum(slot3)
 		slot0.viewComponent:updateLockStudentPos(slot3, true)
 	elseif slot2 == GAME.TACTICS_META_UNLOCK_SKILL_DONE then
-		slot0.viewComponent:closeMetaSkillPanel()
-		slot0.viewComponent:showMetaSkillPanel(slot3.metaShipID)
+		slot0.viewComponent:updateMetaSkillPanel(slot3.metaShipID)
 	elseif slot2 == GAME.TACTICS_META_SWITCH_SKILL_DONE then
-		slot0.viewComponent:closeMetaSkillPanel()
-		slot0.viewComponent:showMetaSkillPanel(slot3.metaShipID)
+		slot0.viewComponent:updateMetaSkillPanel(slot3.metaShipID)
 	end
 end
 

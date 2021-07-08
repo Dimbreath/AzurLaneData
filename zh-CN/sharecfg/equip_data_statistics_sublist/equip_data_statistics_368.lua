@@ -1,200 +1,229 @@
 pg = pg or {}
 pg.equip_data_statistics_368 = {
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
+	[85283] = {
+		id = 85283,
+		damage = "61/轮",
+		base = 85280,
 		weapon_id = {
-			85446
+			85283
 		}
 	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
+	[85284] = {
+		id = 85284,
+		damage = "68/轮",
+		base = 85280,
 		weapon_id = {
-			85447
+			85284
 		}
 	},
-	[85460] = {
-		name = "B-1-P 三联装180mm主炮Model1932",
-		speciality = "锁定",
-		type = 2,
+	[85285] = {
+		id = 85285,
+		damage = "75/轮",
+		base = 85280,
+		weapon_id = {
+			85285
+		}
+	},
+	[85286] = {
+		id = 85286,
+		damage = "82/轮",
+		base = 85280,
+		weapon_id = {
+			85286
+		}
+	},
+	[85287] = {
+		id = 85287,
+		damage = "89/轮",
+		base = 85280,
+		weapon_id = {
+			85287
+		}
+	},
+	[85288] = {
+		id = 85288,
+		damage = "96/轮",
+		base = 85280,
+		weapon_id = {
+			85288
+		}
+	},
+	[85289] = {
+		id = 85289,
+		damage = "103/轮",
+		base = 85280,
+		weapon_id = {
+			85289
+		}
+	},
+	[85290] = {
+		id = 85290,
+		damage = "110/轮",
+		base = 85280,
+		weapon_id = {
+			85290
+		}
+	},
+	[85291] = {
+		anti_siren = 100,
+		damage = "110/轮",
+		base = 85280,
+		id = 85291,
+		weapon_id = {
+			85291
+		}
+	},
+	[85300] = {
+		name = "B-37 三联装406mm主炮Mk-1",
+		speciality = "跨射",
+		type = 4,
 		tech = 1,
-		descrip = "北方联合开发的180mm三联装舰炮，拥有相当优秀的射程",
+		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "85460",
+		icon = "85300",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "16 x 3",
+		damage = "50 x 3",
 		nationality = 7,
-		ammo = 1,
+		ammo = 3,
 		value_3 = 0,
-		id = 85460,
+		id = 85300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			1
 		},
 		ammo_info = {
 			{
-				1,
-				1712
+				2,
+				1570
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1712
-			},
-			{
-				4,
-				1108
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			85460
+			85300
 		},
 		skill_id = {},
 		part_main = {
-			2
+			4,
+			5,
+			10,
+			13
 		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
-		weapon_id = {
-			85461
-		}
-	},
-	[85462] = {
-		id = 85462,
-		damage = "17 x 3",
-		base = 85460,
-		weapon_id = {
-			85462
-		}
-	},
-	[85463] = {
-		id = 85463,
-		damage = "18 x 3",
-		base = 85460,
-		weapon_id = {
-			85463
-		}
-	},
-	[85464] = {
-		id = 85464,
-		damage = "19 x 3",
-		base = 85460,
-		weapon_id = {
-			85464
-		}
-	},
-	[85465] = {
-		id = 85465,
-		damage = "20 x 3",
-		base = 85460,
-		weapon_id = {
-			85465
-		}
-	},
-	[85466] = {
-		id = 85466,
-		damage = "21 x 3",
-		base = 85460,
-		weapon_id = {
-			85466
-		}
-	},
-	[89000] = {
-		name = "随机单词生成器",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89000,
-		value_2 = 6,
-		icon = "89000",
-		value_1 = "16",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "在构思企划时非常好用的道具。据说在在很稀有的情况下会开口说话…？",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6380
-		},
-		part_main = {},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"BB",
+			"MG"
 		}
 	},
-	[89001] = {
-		id = 89001,
-		base = 89000
+	[85301] = {
+		id = 85301,
+		damage = "59 x 3",
+		base = 85300,
+		weapon_id = {
+			85301
+		}
 	},
-	[89002] = {
-		id = 89002,
-		value_2 = 7,
-		value_1 = "17",
-		base = 89000
+	[85302] = {
+		id = 85302,
+		damage = "67 x 3",
+		base = 85300,
+		weapon_id = {
+			85302
+		}
 	},
-	[89003] = {
-		id = 89003,
-		value_2 = 8,
-		value_1 = "18",
-		base = 89000
+	[85303] = {
+		id = 85303,
+		damage = "76 x 3",
+		base = 85300,
+		weapon_id = {
+			85303
+		}
 	},
-	[89004] = {
-		id = 89004,
-		value_2 = 9,
-		value_1 = "19",
-		base = 89000
+	[85304] = {
+		id = 85304,
+		damage = "84 x 3",
+		base = 85300,
+		weapon_id = {
+			85304
+		}
 	},
-	[89005] = {
-		id = 89005,
-		value_2 = 10,
-		value_1 = "20",
-		base = 89000
+	[85305] = {
+		id = 85305,
+		damage = "92 x 3",
+		base = 85300,
+		weapon_id = {
+			85305
+		}
 	},
-	[89006] = {
-		id = 89006,
-		value_2 = 11,
-		value_1 = "21",
-		base = 89000
+	[85306] = {
+		id = 85306,
+		damage = "101 x 3",
+		base = 85300,
+		weapon_id = {
+			85306
+		}
 	},
-	[89007] = {
-		id = 89007,
-		value_2 = 12,
-		value_1 = "22",
-		base = 89000
+	[85320] = {
+		name = "B-37 三联装406mm主炮Mk-1",
+		speciality = "跨射",
+		type = 4,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "85300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "56 x 3",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1571
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"AP"
+		}
 	}
 }

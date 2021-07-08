@@ -1017,6 +1017,8 @@ function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
 		if AutoBotCommand.autoBotSatisfied() then
 			PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(), 1)
 		end
+
+		getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
 	end
 
 	slot0.facade:sendNotification(uv0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED, slot2 and 1 or 0)

@@ -1,116 +1,72 @@
 pg = pg or {}
 pg.aircraft_template_136 = {
-	[65122] = {
-		max_hp = 48,
-		name = "恶毒μ神圣天使轰炸机Lv2",
-		base = 65121,
-		id = 65122,
-		hp_growth = 1913,
+	[49023] = {
+		id = 49023,
+		base = 49020,
+		max_hp = 53,
+		hp_growth = 2042,
 		weapon_ID = {
-			65132
+			59323,
+			52623,
+			53023
 		}
 	},
-	[65123] = {
-		max_hp = 54,
-		name = "恶毒μ神圣天使轰炸机Lv3",
-		base = 65121,
-		id = 65123,
-		hp_growth = 2133,
+	[49024] = {
+		id = 49024,
+		base = 49020,
+		max_hp = 59,
+		hp_growth = 2253,
 		weapon_ID = {
-			65133
+			59324,
+			52624,
+			53024
 		}
 	},
-	[65124] = {
-		max_hp = 61,
-		name = "恶毒μ神圣天使轰炸机Lv4",
-		base = 65121,
-		id = 65124,
-		hp_growth = 2354,
+	[49025] = {
+		id = 49025,
+		base = 49020,
+		max_hp = 64,
+		hp_growth = 2464,
 		weapon_ID = {
-			65134
+			59325,
+			52625,
+			53025
 		}
 	},
-	[65125] = {
-		max_hp = 67,
-		name = "恶毒μ神圣天使轰炸机Lv5",
-		base = 65121,
-		id = 65125,
-		hp_growth = 2575,
+	[49026] = {
+		id = 49026,
+		base = 49020,
+		max_hp = 70,
+		hp_growth = 2675,
 		weapon_ID = {
-			65135
+			59326,
+			52626,
+			53026
 		}
 	},
-	[65126] = {
-		max_hp = 73,
-		name = "恶毒μ神圣天使轰炸机Lv6",
-		base = 65121,
-		id = 65126,
-		hp_growth = 2796,
-		weapon_ID = {
-			65136
-		}
-	},
-	[65127] = {
-		max_hp = 79,
-		name = "恶毒μ神圣天使轰炸机Lv7",
-		base = 65121,
-		id = 65127,
-		hp_growth = 3016,
-		weapon_ID = {
-			65137
-		}
-	},
-	[65128] = {
-		max_hp = 86,
-		name = "恶毒μ神圣天使轰炸机Lv8",
-		base = 65121,
-		id = 65128,
-		hp_growth = 3237,
-		weapon_ID = {
-			65138
-		}
-	},
-	[65129] = {
-		max_hp = 92,
-		name = "恶毒μ神圣天使轰炸机Lv9",
-		base = 65121,
-		id = 65129,
-		hp_growth = 3458,
-		weapon_ID = {
-			65139
-		}
-	},
-	[65130] = {
-		max_hp = 98,
-		name = "恶毒μ神圣天使轰炸机Lv10",
-		base = 65121,
-		id = 65130,
-		hp_growth = 3678,
-		weapon_ID = {
-			65140
-		}
-	},
-	[65181] = {
-		name = "大凤μ技能鱼雷机Lv1",
-		max_hp = 42,
+	[49040] = {
+		name = "Ju-87C俯冲轰炸机T3",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "JU87C",
 		ACC_growth = 0,
-		crash_DMG = 188,
-		dodge = 1,
+		crash_DMG = 112,
+		dodge = 3.33,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "JU87C",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1605,
-		speed = 52,
-		id = 65181,
+		nationality = 4,
+		hp_growth = 1549,
+		speed = 46,
+		id = 49040,
 		scale = 1,
 		weapon_ID = {
-			65191
+			59340,
+			52640,
+			53040
 		},
 		position_offset = {
 			0,
@@ -130,13 +86,13 @@ pg.aircraft_template_136 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -153,7 +109,7 @@ pg.aircraft_template_136 = {
 				0
 			},
 			{
-				0.26,
+				0,
 				0,
 				0
 			},
@@ -162,6 +118,61 @@ pg.aircraft_template_136 = {
 				0,
 				0
 			}
+		}
+	},
+	[49041] = {
+		id = 49041,
+		base = 49040,
+		max_hp = 46,
+		hp_growth = 1781,
+		weapon_ID = {
+			59341,
+			52641,
+			53041
+		}
+	},
+	[49042] = {
+		id = 49042,
+		base = 49040,
+		max_hp = 52,
+		hp_growth = 2013,
+		weapon_ID = {
+			59342,
+			52642,
+			53042
+		}
+	},
+	[49043] = {
+		id = 49043,
+		base = 49040,
+		max_hp = 58,
+		hp_growth = 2246,
+		weapon_ID = {
+			59343,
+			52643,
+			53043
+		}
+	},
+	[49044] = {
+		id = 49044,
+		base = 49040,
+		max_hp = 64,
+		hp_growth = 2478,
+		weapon_ID = {
+			59344,
+			52644,
+			53044
+		}
+	},
+	[49045] = {
+		id = 49045,
+		base = 49040,
+		max_hp = 70,
+		hp_growth = 2710,
+		weapon_ID = {
+			59345,
+			52645,
+			53045
 		}
 	}
 }

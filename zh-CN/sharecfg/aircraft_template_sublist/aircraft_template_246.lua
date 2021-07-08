@@ -1,27 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_246 = {
-	[84060] = {
-		name = "Ar-197舰载战斗机",
-		max_hp = 35,
+	[83320] = {
+		name = "烈风",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "Ar197",
+		model_ID = "liefeng",
 		ACC_growth = 0,
-		crash_DMG = 40,
-		dodge = 0.345,
+		crash_DMG = 162,
+		dodge = 0.309,
 		attack_power = 2,
-		dodge_limit = 8,
+		dodge_limit = 9.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "Ar197",
+		icon = "liefeng",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1344,
-		speed = 49,
-		id = 84060,
+		nationality = 3,
+		hp_growth = 1404,
+		speed = 60,
+		id = 83320,
 		scale = 1,
 		weapon_ID = {
-			59040,
-			59440
+			59520
 		},
 		position_offset = {
 			0,
@@ -41,13 +40,13 @@ pg.aircraft_template_246 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.62,
-					-1.03,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.62,
-					1.32,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -64,153 +63,7 @@ pg.aircraft_template_246 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[84061] = {
-		id = 84061,
-		base = 84060,
-		max_hp = 40,
-		hp_growth = 1546,
-		weapon_ID = {
-			59041,
-			59441
-		}
-	},
-	[84062] = {
-		id = 84062,
-		base = 84060,
-		max_hp = 45,
-		hp_growth = 1747,
-		weapon_ID = {
-			59042,
-			59442
-		}
-	},
-	[84063] = {
-		id = 84063,
-		base = 84060,
-		max_hp = 51,
-		hp_growth = 1949,
-		weapon_ID = {
-			59043,
-			59443
-		}
-	},
-	[84064] = {
-		id = 84064,
-		base = 84060,
-		max_hp = 56,
-		hp_growth = 2150,
-		weapon_ID = {
-			59044,
-			59444
-		}
-	},
-	[84065] = {
-		id = 84065,
-		base = 84060,
-		max_hp = 61,
-		hp_growth = 2352,
-		weapon_ID = {
-			59045,
-			59445
-		}
-	},
-	[84066] = {
-		id = 84066,
-		base = 84060,
-		max_hp = 66,
-		hp_growth = 2554,
-		weapon_ID = {
-			59046,
-			59446
-		}
-	},
-	[84067] = {
-		id = 84067,
-		base = 84060,
-		max_hp = 72,
-		hp_growth = 2755,
-		weapon_ID = {
-			59047,
-			59447
-		}
-	},
-	[84080] = {
-		name = "试作型舰载FW-190 A-5",
-		max_hp = 38,
-		accuracy = 23,
-		model_ID = "Fw190A5",
-		ACC_growth = 0,
-		crash_DMG = 70,
-		dodge = 0.315,
-		attack_power = 2,
-		dodge_limit = 10,
-		type = 1,
-		AP_growth = 2000,
-		icon = "Fw190A5",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1478,
-		speed = 51,
-		id = 84080,
-		scale = 1,
-		weapon_ID = {
-			59040,
-			59440,
-			59140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.66,
-					-0.9,
-					0
-				},
-				{
-					1.06,
-					1.54,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -221,15 +74,85 @@ pg.aircraft_template_246 = {
 			}
 		}
 	},
-	[84081] = {
-		id = 84081,
-		base = 84080,
-		max_hp = 44,
-		hp_growth = 1700,
+	[83321] = {
+		id = 83321,
+		base = 83320,
+		max_hp = 42,
+		hp_growth = 1615,
 		weapon_ID = {
-			59041,
-			59441,
-			59141
+			59521
+		}
+	},
+	[83322] = {
+		id = 83322,
+		base = 83320,
+		max_hp = 47,
+		hp_growth = 1826,
+		weapon_ID = {
+			59522
+		}
+	},
+	[83323] = {
+		id = 83323,
+		base = 83320,
+		max_hp = 53,
+		hp_growth = 2036,
+		weapon_ID = {
+			59523
+		}
+	},
+	[83324] = {
+		id = 83324,
+		base = 83320,
+		max_hp = 58,
+		hp_growth = 2247,
+		weapon_ID = {
+			59524
+		}
+	},
+	[83325] = {
+		id = 83325,
+		base = 83320,
+		max_hp = 64,
+		hp_growth = 2458,
+		weapon_ID = {
+			59525
+		}
+	},
+	[83326] = {
+		id = 83326,
+		base = 83320,
+		max_hp = 69,
+		hp_growth = 2669,
+		weapon_ID = {
+			59526
+		}
+	},
+	[83327] = {
+		id = 83327,
+		base = 83320,
+		max_hp = 75,
+		hp_growth = 2879,
+		weapon_ID = {
+			59527
+		}
+	},
+	[83328] = {
+		id = 83328,
+		base = 83320,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			59528
+		}
+	},
+	[83329] = {
+		id = 83329,
+		base = 83320,
+		max_hp = 86,
+		hp_growth = 3301,
+		weapon_ID = {
+			59529
 		}
 	}
 }

@@ -13,6 +13,7 @@ function slot0.register(slot0)
 	slot0.data = {}
 	slot0.boxes = {}
 	slot0.prefabFleet = {}
+	slot0.openCommanderScene = false
 
 	for slot4 = 1, uv0.MAX_PREFAB_FLEET do
 		slot0.prefabFleet[slot4] = CommnaderFleet.New({
@@ -68,7 +69,9 @@ function slot0.register(slot0)
 			uv0:notification()
 		end)
 
-		uv0:sendNotification(GAME.GET_COMMANDER_HOME)
+		if not LOCK_CATTERY then
+			uv0:sendNotification(GAME.GET_COMMANDER_HOME)
+		end
 	end)
 end
 
@@ -200,6 +203,8 @@ function slot0.onRemove(slot0)
 
 	slot0:RemoveCalcExpTimer()
 	uv0.super.onRemove(slot0)
+
+	slot0.openCommanderScene = false
 end
 
 function slot0.AddCommanderHome(slot0, slot1)
@@ -256,6 +261,14 @@ function slot0.IsHome(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.UpdateOpenCommanderScene(slot0, slot1)
+	slot0.openCommanderScene = slot1
+end
+
+function slot0.InCommanderScene(slot0)
+	return slot0.openCommanderScene
 end
 
 return slot0

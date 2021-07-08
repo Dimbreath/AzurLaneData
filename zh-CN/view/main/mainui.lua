@@ -936,18 +936,6 @@ function slot0.updateMonopolyBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateBossBattleBtn(slot0, slot1)
-	slot2 = slot1 and not slot1:isEnd()
-
-	setActive(slot0._bossBattleBtn, slot2)
-
-	if slot2 then
-		onButton(slot0, slot0._bossBattleBtn, function ()
-			uv0:emit(MainUIMediator.ON_BOSS_BATTLE)
-		end, SFX_PANEL)
-	end
-end
-
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 

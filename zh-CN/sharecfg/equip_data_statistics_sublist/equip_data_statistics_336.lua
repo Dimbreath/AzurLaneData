@@ -1,7 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_336 = {
-	[60531] = {
-		name = "航空攻击展示-鹰I",
+	[60313] = {
+		id = 60313,
+		name = "航空攻击展示-半人马III",
+		base = 60311,
+		weapon_id = {
+			60313
+		}
+	},
+	[60321] = {
+		name = "航空攻击展示-埃塞克斯I",
 		tech = 1,
 		speciality = "无",
 		type = 99,
@@ -13,14 +21,14 @@ pg.equip_data_statistics_336 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60531,
+		id = 60321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60531
+			60321
 		},
 		skill_id = {},
 		part_main = {},
@@ -28,24 +36,24 @@ pg.equip_data_statistics_336 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60532] = {
-		id = 60532,
-		name = "航空攻击展示-鹰II",
-		base = 60531,
+	[60322] = {
+		id = 60322,
+		name = "航空攻击展示-埃塞克斯II",
+		base = 60321,
 		weapon_id = {
-			60532
+			60322
 		}
 	},
-	[60533] = {
-		id = 60533,
-		name = "航空攻击展示-鹰III",
-		base = 60531,
+	[60323] = {
+		id = 60323,
+		name = "航空攻击展示-埃塞克斯II",
+		base = 60321,
 		weapon_id = {
-			60533
+			60323
 		}
 	},
-	[60541] = {
-		name = "航空攻击展示-千岁I",
+	[60331] = {
+		name = "航空攻击展示-大凤I",
 		tech = 1,
 		speciality = "无",
 		type = 99,
@@ -57,14 +65,14 @@ pg.equip_data_statistics_336 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60541,
+		id = 60331,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60541
+			60331
 		},
 		skill_id = {},
 		part_main = {},
@@ -72,24 +80,24 @@ pg.equip_data_statistics_336 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60542] = {
-		id = 60542,
-		name = "航空攻击展示-千岁II",
-		base = 60541,
+	[60332] = {
+		id = 60332,
+		name = "航空攻击展示-大凤II",
+		base = 60331,
 		weapon_id = {
-			60542
+			60332
 		}
 	},
-	[60543] = {
-		id = 60543,
-		name = "航空攻击展示-千岁III",
-		base = 60541,
+	[60333] = {
+		id = 60333,
+		name = "航空攻击展示-大凤III",
+		base = 60331,
 		weapon_id = {
-			60543
+			60333
 		}
 	},
-	[60551] = {
-		name = "航空攻击展示-千代田I",
+	[60341] = {
+		name = "航空攻击展示-芙米露露I",
 		tech = 1,
 		speciality = "无",
 		type = 99,
@@ -101,14 +109,14 @@ pg.equip_data_statistics_336 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60551,
+		id = 60341,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60551
+			60341
 		},
 		skill_id = {},
 		part_main = {},
@@ -116,24 +124,24 @@ pg.equip_data_statistics_336 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60552] = {
-		id = 60552,
-		name = "航空攻击展示-千代田II",
-		base = 60551,
+	[60342] = {
+		id = 60342,
+		name = "航空攻击展示-芙米露露II",
+		base = 60341,
 		weapon_id = {
-			60552
+			60342
 		}
 	},
-	[60553] = {
-		id = 60553,
-		name = "航空攻击展示-千代田III",
-		base = 60551,
+	[60343] = {
+		id = 60343,
+		name = "航空攻击展示-芙米露露III",
+		base = 60341,
 		weapon_id = {
-			60553
+			60343
 		}
 	},
-	[60561] = {
-		name = "航空攻击展示-信浓I",
+	[60351] = {
+		name = "航空攻击展示-乌璐露I",
 		tech = 1,
 		speciality = "无",
 		type = 99,
@@ -145,14 +153,14 @@ pg.equip_data_statistics_336 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60561,
+		id = 60351,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60561
+			60351
 		},
 		skill_id = {},
 		part_main = {},
@@ -160,24 +168,24 @@ pg.equip_data_statistics_336 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60562] = {
-		id = 60562,
-		name = "航空攻击展示-信浓II",
-		base = 60561,
+	[60352] = {
+		id = 60352,
+		name = "航空攻击展示-乌璐露II",
+		base = 60351,
 		weapon_id = {
-			60562
+			60352
 		}
 	},
-	[60563] = {
-		id = 60563,
-		name = "航空攻击展示-信浓III",
-		base = 60561,
+	[60353] = {
+		id = 60353,
+		name = "航空攻击展示-乌璐露III",
+		base = 60351,
 		weapon_id = {
-			60563
+			60353
 		}
 	},
-	[60591] = {
-		name = "航空攻击展示-威悉II",
+	[60361] = {
+		name = "航空攻击展示-萨拉娜I",
 		tech = 1,
 		speciality = "无",
 		type = 99,
@@ -189,14 +197,14 @@ pg.equip_data_statistics_336 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60591,
+		id = 60361,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60591
+			60361
 		},
 		skill_id = {},
 		part_main = {},
@@ -204,24 +212,24 @@ pg.equip_data_statistics_336 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60592] = {
-		id = 60592,
-		name = "航空攻击展示-威悉III",
-		base = 60591,
+	[60362] = {
+		id = 60362,
+		name = "航空攻击展示-萨拉娜II",
+		base = 60361,
 		weapon_id = {
-			60592
+			60362
 		}
 	},
-	[60593] = {
-		id = 60593,
-		name = "航空攻击展示-威悉III",
-		base = 60591,
+	[60363] = {
+		id = 60363,
+		name = "航空攻击展示-萨拉娜III",
+		base = 60361,
 		weapon_id = {
-			60593
+			60363
 		}
 	},
-	[60601] = {
-		name = "航空攻击展示-彼得史特拉塞I",
+	[60371] = {
+		name = "航空攻击展示-龙骧I",
 		tech = 1,
 		speciality = "无",
 		type = 99,
@@ -233,27 +241,19 @@ pg.equip_data_statistics_336 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60601,
+		id = 60371,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60601
+			60371
 		},
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
-	},
-	[60602] = {
-		id = 60602,
-		name = "航空攻击展示-彼得史特拉塞II",
-		base = 60601,
-		weapon_id = {
-			60602
-		}
 	}
 }

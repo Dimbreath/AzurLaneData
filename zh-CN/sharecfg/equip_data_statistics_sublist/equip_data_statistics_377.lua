@@ -1,83 +1,48 @@
 pg = pg or {}
 pg.equip_data_statistics_377 = {
-	[89204] = {
-		id = 89204,
-		value_2 = 2,
-		value_1 = "17",
-		base = 89200
-	},
-	[89205] = {
-		id = 89205,
-		value_2 = 2,
-		value_1 = "18",
-		base = 89200
-	},
-	[89206] = {
-		id = 89206,
-		value_2 = 3,
-		value_1 = "20",
-		base = 89200
-	},
-	[89207] = {
-		id = 89207,
-		value_2 = 3,
-		value_1 = "22",
-		base = 89200
-	},
-	[89208] = {
-		id = 89208,
-		value_2 = 4,
+	[89110] = {
+		id = 89110,
+		value_2 = 120,
 		value_1 = "24",
-		base = 89200
+		base = 89100
 	},
-	[89209] = {
-		id = 89209,
-		value_2 = 4,
-		value_1 = "26",
-		base = 89200
-	},
-	[89210] = {
-		id = 89210,
-		value_2 = 5,
-		value_1 = "28",
-		base = 89200
-	},
-	[89211] = {
-		id = 89211,
+	[89111] = {
+		id = 89111,
 		anti_siren = 100,
-		base = 89200,
-		value_2 = 5,
+		base = 89100,
+		value_2 = 130,
+		value_1 = "26"
+	},
+	[89112] = {
+		id = 89112,
+		anti_siren = 200,
+		base = 89100,
+		value_2 = 140,
+		value_1 = "28"
+	},
+	[89113] = {
+		id = 89113,
+		anti_siren = 300,
+		base = 89100,
+		value_2 = 150,
 		value_1 = "30"
 	},
-	[89212] = {
-		id = 89212,
-		anti_siren = 200,
-		base = 89200,
-		value_2 = 5,
-		value_1 = "32"
-	},
-	[89213] = {
-		id = 89213,
-		anti_siren = 300,
-		base = 89200,
-		value_2 = 5,
-		value_1 = "34"
-	},
-	[89220] = {
-		name = "星云舞裙",
+	[89120] = {
+		name = "鮟鱇肝",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "89220",
-		value_1 = "250",
-		descrip = "星云般华丽的舞裙，穿上以后似乎能够成为…偶像？",
+		id = 89120,
+		value_2 = 3,
+		icon = "89120",
+		value_1 = "98",
+		attribute_2 = "speed",
 		rarity = 5,
-		nationality = 0,
+		descrip = "hololive社内自由行动的吉祥物...不动的时候会埋在地里！？",
+		nationality = 105,
 		ammo = 10,
 		value_3 = 0,
-		id = 89220,
+		attribute_1 = "durability",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -87,7 +52,7 @@ pg.equip_data_statistics_377 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6700
+			6520
 		},
 		part_main = {},
 		part_sub = {},
@@ -96,34 +61,77 @@ pg.equip_data_statistics_377 = {
 			"DEV"
 		}
 	},
-	[89221] = {
-		id = 89221,
-		value_1 = "280",
-		base = 89220
+	[89121] = {
+		id = 89121,
+		value_1 = "112",
+		base = 89120
 	},
-	[89222] = {
-		id = 89222,
-		value_1 = "310",
-		base = 89220
+	[89122] = {
+		id = 89122,
+		value_2 = 4,
+		value_1 = "127",
+		base = 89120
 	},
-	[89223] = {
-		id = 89223,
-		value_1 = "340",
-		base = 89220
+	[89123] = {
+		id = 89123,
+		value_2 = 4,
+		value_1 = "142",
+		base = 89120
 	},
-	[89224] = {
-		id = 89224,
-		value_1 = "370",
-		base = 89220
+	[89124] = {
+		id = 89124,
+		value_2 = 5,
+		value_1 = "156",
+		base = 89120
 	},
-	[89225] = {
-		id = 89225,
-		value_1 = "400",
-		base = 89220
+	[89125] = {
+		id = 89125,
+		value_2 = 5,
+		value_1 = "171",
+		base = 89120
 	},
-	[89226] = {
-		id = 89226,
-		value_1 = "430",
-		base = 89220
+	[89126] = {
+		id = 89126,
+		value_2 = 6,
+		value_1 = "186",
+		base = 89120
+	},
+	[89127] = {
+		id = 89127,
+		value_2 = 6,
+		value_1 = "200",
+		base = 89120
+	},
+	[89128] = {
+		id = 89128,
+		value_2 = 7,
+		value_1 = "215",
+		base = 89120
+	},
+	[89129] = {
+		id = 89129,
+		value_2 = 7,
+		value_1 = "230",
+		base = 89120
+	},
+	[89130] = {
+		id = 89130,
+		value_2 = 8,
+		value_1 = "245",
+		base = 89120
+	},
+	[89131] = {
+		id = 89131,
+		anti_siren = 100,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "260"
+	},
+	[89132] = {
+		id = 89132,
+		anti_siren = 200,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "275"
 	}
 }

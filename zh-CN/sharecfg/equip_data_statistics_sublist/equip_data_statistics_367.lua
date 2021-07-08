@@ -1,236 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_367 = {
-	[85409] = {
-		id = 85409,
-		damage = "89/轮",
-		base = 85400,
+	[85225] = {
+		id = 85225,
+		damage = "29/轮",
+		base = 85220,
 		weapon_id = {
-			85409
+			85225
 		}
 	},
-	[85410] = {
-		id = 85410,
-		damage = "96/轮",
-		base = 85400,
+	[85226] = {
+		id = 85226,
+		damage = "32/轮",
+		base = 85220,
 		weapon_id = {
-			85410
+			85226
 		}
 	},
-	[85411] = {
+	[85227] = {
+		id = 85227,
+		damage = "35/轮",
+		base = 85220,
+		weapon_id = {
+			85227
+		}
+	},
+	[85228] = {
+		id = 85228,
+		damage = "38/轮",
+		base = 85220,
+		weapon_id = {
+			85228
+		}
+	},
+	[85229] = {
+		id = 85229,
+		damage = "41/轮",
+		base = 85220,
+		weapon_id = {
+			85229
+		}
+	},
+	[85230] = {
+		id = 85230,
+		damage = "44/轮",
+		base = 85220,
+		weapon_id = {
+			85230
+		}
+	},
+	[85231] = {
 		anti_siren = 100,
-		damage = "96/轮",
-		base = 85400,
-		id = 85411,
+		damage = "44/轮",
+		base = 85220,
+		id = 85231,
 		weapon_id = {
-			85411
+			85231
 		}
 	},
-	[85420] = {
-		name = "三联装305mm主炮Model1907",
-		speciality = "跨射",
-		type = 4,
-		tech = 3,
+	[85260] = {
+		name = "B-54 100mm双联装防空炮",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
 		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "85420",
-		attribute_2 = "cannon",
+		icon = "85240",
+		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "54 x 3",
+		damage = "36/轮",
 		nationality = 7,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 85420,
+		id = 85260,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85420
+			85260
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"BB",
-			"MG",
-			"GangutMG"
+			"ST",
+			"AA"
 		}
 	},
-	[85421] = {
-		id = 85421,
-		damage = "59 x 3",
-		base = 85420,
+	[85261] = {
+		id = 85261,
+		damage = "41/轮",
+		base = 85260,
 		weapon_id = {
-			85421
+			85261
 		}
 	},
-	[85422] = {
-		id = 85422,
-		damage = "64 x 3",
-		base = 85420,
+	[85262] = {
+		id = 85262,
+		damage = "47/轮",
+		base = 85260,
 		weapon_id = {
-			85422
+			85262
 		}
 	},
-	[85423] = {
-		id = 85423,
-		damage = "70 x 3",
-		base = 85420,
+	[85263] = {
+		id = 85263,
+		damage = "52/轮",
+		base = 85260,
 		weapon_id = {
-			85423
+			85263
 		}
 	},
-	[85424] = {
-		id = 85424,
-		damage = "76 x 3",
-		base = 85420,
+	[85264] = {
+		id = 85264,
+		damage = "59/轮",
+		base = 85260,
 		weapon_id = {
-			85424
+			85264
 		}
 	},
-	[85425] = {
-		id = 85425,
-		damage = "84 x 3",
-		base = 85420,
+	[85265] = {
+		id = 85265,
+		damage = "66/轮",
+		base = 85260,
 		weapon_id = {
-			85425
+			85265
 		}
 	},
-	[85426] = {
-		id = 85426,
-		damage = "92 x 3",
-		base = 85420,
+	[85266] = {
+		id = 85266,
+		damage = "73/轮",
+		base = 85260,
 		weapon_id = {
-			85426
+			85266
 		}
 	},
-	[85427] = {
-		id = 85427,
-		damage = "92 x 3",
-		base = 85420,
-		weapon_id = {
-			85427
-		}
-	},
-	[85440] = {
-		name = "双联装152mm主炮Model1892",
-		speciality = "锁定",
-		type = 2,
+	[85280] = {
+		name = "B-54 100mm双联装防空炮",
+		speciality = "防空",
+		type = 6,
 		tech = 3,
 		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "85440",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 4",
+		value_2 = 25,
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "43/轮",
 		nationality = 7,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 85440,
+		id = 85280,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85440
+			85280
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"CL",
-			"MG"
+			"ST",
+			"AA"
 		}
 	},
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
+	[85281] = {
+		id = 85281,
+		damage = "48/轮",
+		base = 85280,
 		weapon_id = {
-			85441
+			85281
 		}
 	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
+	[85282] = {
+		id = 85282,
+		damage = "54/轮",
+		base = 85280,
 		weapon_id = {
-			85442
-		}
-	},
-	[85443] = {
-		id = 85443,
-		damage = "11 x 4",
-		base = 85440,
-		weapon_id = {
-			85443
-		}
-	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
-		weapon_id = {
-			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
+			85282
 		}
 	}
 }

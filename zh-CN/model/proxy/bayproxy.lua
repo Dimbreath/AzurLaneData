@@ -490,19 +490,25 @@ end
 
 function slot0.getEquipmentSkinInShips(slot0, slot1, slot2)
 	function slot3(slot0)
-		return _.any(pg.equip_skin_template[slot0].equip_type, function (slot0)
-			return not uv0 or slot0 == uv0
-		end)
+		slot1 = false
+
+		if slot0 and slot0 > 0 then
+			slot1 = _.any(pg.equip_skin_template[slot0].equip_type, function (slot0)
+				return not uv0 or table.contains(uv0, slot0)
+			end)
+		end
+
+		return slot1
 	end
 
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.data) do
 		if not slot1 or slot1.id ~= slot9.id then
-			for slot13, slot14 in pairs(slot9.equipments) do
-				if slot14 and slot14:hasSkin() and slot3(slot14.skinId) then
+			for slot13, slot14 in pairs(slot9:getEquipSkins()) do
+				if slot14 and slot3(slot14) then
 					table.insert(slot4, {
-						id = slot14.skinId,
+						id = slot14,
 						shipId = slot9.id,
 						shipPos = slot13
 					})

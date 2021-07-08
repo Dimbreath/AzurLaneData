@@ -1,189 +1,244 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
-	[90910] = {
-		id = 90910,
-		damage = "52 x 4",
-		base = 90900,
+	[90748] = {
+		id = 90748,
+		damage = "15 x 4",
+		base = 90740,
 		weapon_id = {
-			90910
+			90748
 		}
 	},
-	[90911] = {
+	[90749] = {
+		id = 90749,
+		damage = "17 x 4",
+		base = 90740,
+		weapon_id = {
+			90749
+		}
+	},
+	[90750] = {
+		id = 90750,
+		damage = "19 x 4",
+		base = 90740,
+		weapon_id = {
+			90750
+		}
+	},
+	[90751] = {
 		anti_siren = 100,
-		damage = "52 x 4",
-		base = 90900,
-		id = 90911,
+		damage = "19 x 4",
+		base = 90740,
+		id = 90751,
 		weapon_id = {
-			90911
+			90751
 		}
 	},
-	[90912] = {
-		anti_siren = 200,
-		damage = "52 x 4",
-		base = 90900,
-		id = 90912,
-		weapon_id = {
-			90912
-		}
-	},
-	[90913] = {
-		anti_siren = 300,
-		damage = "52 x 4",
-		base = 90900,
-		id = 90913,
-		weapon_id = {
-			90913
-		}
-	},
-	[91000] = {
-		name = "试作型三联装406mm/50主炮",
-		speciality = "跨射",
-		type = 4,
+	[90780] = {
+		name = "双联装155mm主炮Mle1920",
+		speciality = "锁定",
+		type = 2,
 		tech = 0,
 		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "51000",
+		value_2 = 12,
+		icon = "50780",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "54 x 3",
+		rarity = 3,
+		damage = "10 x 4",
 		nationality = 8,
-		ammo = 1,
+		ammo = 3,
 		value_3 = 0,
-		id = 91000,
+		id = 90780,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			1
 		},
 		ammo_info = {
 			{
-				2,
-				1580
+				1,
+				2200
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1001
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			91000
+			90780
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
-			"KMS",
-			"BB",
+			"FFNF",
+			"CL",
 			"MG",
 			"AP"
 		}
 	},
-	[91001] = {
-		id = 91001,
-		damage = "64 x 3",
-		base = 91000,
+	[90781] = {
+		id = 90781,
+		damage = "12 x 4",
+		base = 90780,
 		weapon_id = {
-			91001
+			90781
 		}
 	},
-	[91002] = {
-		id = 91002,
-		damage = "72 x 3",
-		base = 91000,
+	[90782] = {
+		id = 90782,
+		damage = "14 x 4",
+		base = 90780,
 		weapon_id = {
-			91002
+			90782
 		}
 	},
-	[91003] = {
-		id = 91003,
-		damage = "82 x 3",
-		base = 91000,
+	[90783] = {
+		id = 90783,
+		damage = "16 x 4",
+		base = 90780,
 		weapon_id = {
-			91003
+			90783
 		}
 	},
-	[91004] = {
-		id = 91004,
-		damage = "92 x 3",
-		base = 91000,
+	[90784] = {
+		id = 90784,
+		damage = "17 x 4",
+		base = 90780,
 		weapon_id = {
-			91004
+			90784
 		}
 	},
-	[91005] = {
-		id = 91005,
-		damage = "102 x 3",
-		base = 91000,
+	[90785] = {
+		id = 90785,
+		damage = "18 x 4",
+		base = 90780,
 		weapon_id = {
-			91005
+			90785
 		}
 	},
-	[91006] = {
-		id = 91006,
-		damage = "112 x 3",
-		base = 91000,
+	[90786] = {
+		id = 90786,
+		damage = "19 x 4",
+		base = 90780,
 		weapon_id = {
-			91006
+			90786
 		}
 	},
-	[91007] = {
-		id = 91007,
-		damage = "120 x 3",
-		base = 91000,
+	[90787] = {
+		id = 90787,
+		damage = "19 x 4",
+		base = 90780,
 		weapon_id = {
-			91007
+			90787
 		}
 	},
-	[91008] = {
-		id = 91008,
-		damage = "130 x 3",
-		base = 91000,
+	[90800] = {
+		name = "单装155mm副炮Mle1920",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50800",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			91008
+			90800
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[91009] = {
-		id = 91009,
-		damage = "140 x 3",
-		base = 91000,
+	[90801] = {
+		id = 90801,
+		damage = "12 x 4",
+		base = 90800,
 		weapon_id = {
-			91009
+			90801
 		}
 	},
-	[91010] = {
-		id = 91010,
-		damage = "150 x 3",
-		base = 91000,
+	[90802] = {
+		id = 90802,
+		damage = "14 x 4",
+		base = 90800,
 		weapon_id = {
-			91010
+			90802
 		}
 	},
-	[91011] = {
-		anti_siren = 100,
-		damage = "150 x 3",
-		base = 91000,
-		id = 91011,
+	[90803] = {
+		id = 90803,
+		damage = "16 x 4",
+		base = 90800,
 		weapon_id = {
-			91011
+			90803
 		}
 	},
-	[91012] = {
-		anti_siren = 200,
-		damage = "150 x 3",
-		base = 91000,
-		id = 91012,
+	[90804] = {
+		id = 90804,
+		damage = "17 x 4",
+		base = 90800,
 		weapon_id = {
-			91012
+			90804
 		}
 	}
 }

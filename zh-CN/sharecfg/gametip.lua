@@ -6882,6 +6882,22 @@ $3]]
 			},
 			{
 				info = [[
+※机制优化：
+·当倾向期数内某个方案舰已经养成完毕后，不再刷新该方案舰的定向研发。
+·同时剩余未研发完成的方案舰的定向研发，将根据权重重新分配刷新概率。
+·无论倾向期数内未养成完毕的方案舰数量多少，定向研发总刷新概率固定。
+
+名词解释：
+·定向研发：指研发选项中标注有角色背景的研发项目
+·养成完毕：如果方案舰拥有天运拟合，则需要拥有足够将天运拟合提升至满级的蓝图；如果没有天运拟合，则需要拥有将研发等级提升至满级的蓝图
+
+其他说明
+·如果倾向期数的所有方案舰都养成完毕了，则会重新按权重刷新该倾向期数的定向研发
+·如果未选择研发倾向，则刷新判断范围扩大至所有方案舰
+]]
+			},
+			{
+				info = [[
 ※新增功能：研发倾向
     ·选择一个研发版本倾向后，每次刷新研发项目时，将有三个项目固定刷新对应倾向的研发项目
 
@@ -7058,9 +7074,16 @@ $3]]
 
 进行开发
 1. 获得方案舰后，会解锁该方案舰的开发功能
-2. 开发需要消耗对应方案舰的蓝图，当没有蓝图时无法进行开发
+2. 通常情况下，开发需要消耗对应方案舰的蓝图，当没有蓝图时无法进行开发
 3. 蓝图主要在军部科研室中通过完成科研项目获得
-4. 开发可以提高方案舰的能力，到开发等级达到指定等级后，还能解锁开发加成能力]]
+4. 开发可以提高方案舰的能力，到开发等级达到指定等级后，还能解锁开发加成能力
+
+物资追赶
+1. 方案舰角色开放达到一定时间后，将会解锁物资追赶功能
+2. 解锁物资追赶功能的方案舰，当没有蓝图可以进行开发时，可以使用物资替代蓝图进行开发
+3. 物资追赶每日有折扣次数，分别为免费-2次，1折-2次，2折-3次，4折-3次，7折-5次，折扣次数所有方案舰共享，每日凌晨4点重置
+4. 《天运拟合》系统同样可使用物资代替蓝图提升完成度，折扣次数与通常开发共用
+]]
 			}
 		}
 	},
@@ -7733,6 +7756,12 @@ $3]]
 	tec_notice_1 = {
 		tip = "完成科研一期研发加速所有任务后解锁"
 	},
+	tec_notice_2 = {
+		tip = "完成科研二期研发加速所有任务后解锁"
+	},
+	tec_notice_not_open_tip = {
+		tip = "完成前一阶段所有研发加速任务后开启"
+	},
 	apply_permission_camera_tip1 = {
 		tip = "为了ar录像的使用，需要有权限访问录音功能"
 	},
@@ -7804,6 +7833,18 @@ $3]]
 					atlas = "helpbg/commander_skill2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 2,
@@ -7871,6 +7912,18 @@ $3]]
 					atlas = "helpbg/commander_skill2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 4,
@@ -7936,6 +7989,18 @@ $3]]
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_skill2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
 				}
 			},
 			disableScroll = true,
@@ -8009,6 +8074,18 @@ $3]]
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_skill2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
 				}
 			},
 			disableScroll = true,
@@ -8398,62 +8475,33 @@ $3]]
 			},
 			{
 				info = [[
-1.「EX」演习战斗具有一定难度，可以在「EX」演习的
-舰队选择界面点击<color=#92fc63>「模拟战」</color>按钮进行尝试，「模拟战」
-不消耗石油、心情、「特别挑战券」
-2.进行「EX」演习战斗时，中途掉线或者主动退出等中止
-战斗的情况都会扣除「特别挑战券」且<color=#ff5c5c>不会获得任何奖励</color>
-<color=#ff5c5c>请在网络状态良好的情况下进行「EX」演习战斗</color>
-3.进行「简单」、「普通」、「困难」演习战斗时，中途
-掉线或者主动退出等中止战斗的情况会保留「额外收益次
-数」且不会获得任何奖励
-4.在所有难度的演习战斗中，舰船被击破不会消耗心情值
-其余情况的心情值正常增减
-5.所有难度的演习战斗都会正常消耗石油，正常获得指挥
-官、出战角色和指挥喵经验
+1.「EX」演习战斗具有一定难度，可以在「EX」演习的舰队选择界面点击<color=#92fc63>「模拟战」</color>按钮进行尝试，「模拟战」不消耗石油、心情、「特别挑战券」
+2.进行「EX」演习战斗时，中途掉线或者主动退出等中止战斗的情况都会扣除「特别挑战券」且<color=#ff5c5c>不会获得任何奖励</color><color=#ff5c5c>请在网络状态良好的情况下进行「EX」演习战斗</color>
+3.进行「简单」、「普通」、「困难」演习战斗时，中途掉线或者主动退出等中止战斗的情况会保留「额外收益次数」且不会获得任何奖励
+4.在所有难度的演习战斗中，舰船被击破不会消耗心情值，其余情况的心情值正常增减
+5.所有难度的演习战斗都会正常消耗石油，正常获得指挥官、出战角色和指挥喵经验
 ]]
 			},
 			{
 				info = [[
 <color=#92fc63>活动说明</color>：
-1.在活动期间，参与演习战斗获取<color=#92fc63>「贡献值」</color>,和本服
-玩家协力攻略演习据点，获取据点阶段奖励和个人贡献
-奖励
-2.本次活动分为「简单」、「普通」、「困难」、「EX」
-4个难度的演习
-3.「简单」、「普通」、「困难」演习会获得固定「贡
-献值」,「EX」演习会根据<color=#92fc63>战斗中造成的伤害总量</color>获得
-「贡献值」和奖励，造成伤害越多「贡献值」越多，获得
-奖励越丰厚
-4.「简单」、「普通」、「困难」演习每次通关时可以获
-得额外收益， 额外收益每日有获得次数上限，每日
-「额外收益次数」上限3个难度各为<color=#92fc63>15次</color>
-5.「简单」、「普通」、「困难」演习每日挑战次数无限
-制，「EX」演习需要消耗<color=#92fc63>1个「特别挑战券」</color>才可以挑战
-6.演习战斗的出击队伍可以通过点击不同难度的按钮进行
-编成，允许携带潜艇和指挥喵
-7.活动期间，根据本服所有玩家获得的「贡献值」，消耗
-「演习据点」的耐久
-8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全
-耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中
-获得过「贡献值」的玩家可以获得相应奖励
-9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如
-果活动结束时耐久未被耗尽，则会根据据点推进进度，为
-在演习中获得过「贡献值」的玩家发放对应进度的奖励
-10.活动期间，可以领取个人贡献奖励，个人贡献奖励需
-要当据点攻略进度和拥有的「贡献值」达到指定要求后才
-能领取
-11.6.24-7.9期间可以参与演习战斗，奖励领取的截止时
-间为7.15]]
+1.在活动期间，参与演习战斗获取<color=#92fc63>「贡献值」</color>,和本服玩家协力攻略演习据点，获取据点阶段奖励和个人贡献奖励
+2.本次活动分为「简单」、「普通」、「困难」、「EX」4个难度的演习
+3.「简单」、「普通」、「困难」演习会获得固定「贡献值」,「EX」演习会根据<color=#92fc63>战斗中造成的伤害总量</color>获得「贡献值」和奖励，造成伤害越多「贡献值」越多，获得奖励越丰厚
+4.「简单」、「普通」、「困难」演习每次通关时可以获得额外收益， 额外收益每日有获得次数上限，每日「额外收益次数」上限3个难度各为<color=#92fc63>15次</color>
+5.「简单」、「普通」、「困难」演习每日挑战次数无限制，「EX」演习需要消耗<color=#92fc63>1个「特别挑战券」</color>才可以挑战
+6.演习战斗的出击队伍可以通过点击不同难度的按钮进行编成，允许携带潜艇和指挥喵
+7.活动期间，根据本服所有玩家获得的「贡献值」，消耗「演习据点」的耐久
+8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
+9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
+10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
+11.7.8-7.22期间可以参与演习战斗，奖励领取的截止时间为7.22]]
 			},
 			{
 				info = [[
 <color=#92fc63>特别挑战券说明</color>：
-1.特别挑战券可以通过活动期间的特殊每日任务获得，数
-量可以累积，活动结束后会被清空
-2.「简单」、「普通」、「困难」演习的「额外收益次数
-」为<color=#92fc63>0</color>的情况下，进行演习战斗时可以消耗<color=#92fc63>1个</color>「特别挑
-战券」增加1次对应难度演习的「额外收益次数」
+1.特别挑战券可以通过活动期间的特殊每日任务获得，数量可以累积，活动结束后会被清空
+2.「简单」、「普通」、「困难」演习的「额外收益次数」为<color=#92fc63>0</color>的情况下，进行演习战斗时可以消耗<color=#92fc63>1个</color>「特别挑战券」增加1次对应难度演习的「额外收益次数」
 3.「EX」演习需要消耗<color=#92fc63>1个</color>「特别挑战券」]]
 			}
 		}
@@ -8943,6 +8991,61 @@ Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
 试作型三联装406mm/50主炮
 三联装152mm主炮Mle1930
 双联37mm高射炮Mle1936
+</color></size>]]
+	},
+	blueprint_simulation_confirm_19903 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+三联装203mm主炮Mk15
+四联装533mm鱼雷Mk17
+四联装28mm“芝加哥钢琴”
+</color></size>]]
+	},
+	blueprint_simulation_confirm_39905 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型彩云（舰攻型）
+试作舰载型天雷
+试作型彩云（舰攻型）
+</color></size>]]
+	},
+	blueprint_simulation_confirm_49905 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装305mmSKC39主炮（超巡用）
+四联装533mm磁性鱼雷
+双联105mmSKC高炮
+</color></size>]]
+	},
+	blueprint_simulation_confirm_49906 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作舰载型BF-109G
+Ju-87C俯冲轰炸机
+Ju-87 D-4
+</color></size>]]
+	},
+	blueprint_simulation_confirm_69901 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装406mm主炮Model1940
+三联装152mm主炮Model1934 
+试作型双联90mm高角炮Model1939
 </color></size>]]
 	},
 	electrotherapy_wanning = {
@@ -11692,6 +11795,9 @@ BUFF加成也会增加
 	tec_tendency_3 = {
 		tip = "科研三期"
 	},
+	tec_tendency_4 = {
+		tip = "科研四期"
+	},
 	tec_tendency_cur_0 = {
 		tip = "科研倾向 / 无倾向"
 	},
@@ -11704,11 +11810,41 @@ BUFF加成也会增加
 	tec_tendency_cur_3 = {
 		tip = "科研倾向 / 三期"
 	},
-	tec_target_catchup_none = {
-		tip = "定向追赶 / 未选择"
+	tec_tendency_cur_4 = {
+		tip = "科研倾向 / 四期"
 	},
-	tec_target_catchup_selected = {
-		tip = "定向追赶"
+	tec_target_catchup_none_1 = {
+		tip = "定向追赶:一期/未选"
+	},
+	tec_target_catchup_none_2 = {
+		tip = "定向追赶:二期/未选"
+	},
+	tec_target_catchup_selected_1 = {
+		tip = "定向追赶:一期/进行"
+	},
+	tec_target_catchup_selected_2 = {
+		tip = "定向追赶:二期/进行"
+	},
+	tec_target_catchup_finish_1 = {
+		tip = "定向追赶:一期/完成"
+	},
+	tec_target_catchup_finish_2 = {
+		tip = "定向追赶:二期/完成"
+	},
+	tec_target_catchup_dr_finish_tip = {
+		tip = "已完成"
+	},
+	tec_target_catchup_all_finish_tip = {
+		tip = "定向追赶已完成"
+	},
+	tec_target_catchup_show_the_finished_version = {
+		tip = "显示已完成的科研追赶版本"
+	},
+	tec_target_catchup_pry_char = {
+		tip = "最高方案"
+	},
+	tec_target_catchup_dr_char = {
+		tip = "决战方案"
 	},
 	tec_target_need_print = {
 		tip = "需求蓝图"
@@ -11728,7 +11864,10 @@ BUFF加成也会增加
 定向追赶功能中，玩家可选择一名对应版本的科研角色，在完成科研项目时，可额外获取对应角色的科研蓝图。
 选择一名角色后，可通过切换角色功能，重新选择角色。
 若在确定改变选择角色前退出，则保持原来选择的角色不变。
-每期定向追赶功能可获得的最大蓝图数量为300，切换选择角色后保持已获得数量不变。]]
+
+可获取数量
+每期最高方案角色可获得的最大蓝图数量为300，切换选择角色后保持已获得数量不变。
+每名决战方案舰可获得的最大蓝图数量为150，该数量与最高方案舰及其他决战方案舰分别计算。]]
 			}
 		}
 	},
@@ -13438,6 +13577,15 @@ BUFF加成也会增加
 	cumulative_victory_now_tip = {
 		tip = "当前胜利次数："
 	},
+	word_files_repair = {
+		tip = "点击修复"
+	},
+	repair_setting_label = {
+		tip = "资源修复"
+	},
+	voice_control = {
+		tip = "声音"
+	},
 	index_equip = {
 		tip = "装备中"
 	},
@@ -14066,13 +14214,13 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "移除指挥喵成功"
 	},
 	commander_box_quickly_tool_tip_1 = {
-		tip = "是否使用"
+		tip = "是否使用喵箱训练加速工具？"
 	},
 	commander_box_quickly_tool_tip_2 = {
-		tip = "个喵箱训练加速工具"
+		tip = "（单个道具可加速20分钟）"
 	},
 	commander_box_quickly_tool_tip_3 = {
-		tip = "减少$1分钟训练时间?"
+		tip = "剩余时间："
 	},
 	commander_box_was_finished = {
 		tip = "该喵箱已训练完成"
@@ -14082,6 +14230,20 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	comander_tool_max_cnt = {
 		tip = "当前拥有 : $1个"
+	},
+	cat_home_help = {
+		tip = {
+			{
+				info = [[
+1.放入喵窝中的指挥喵可以随时间自动获得经验，单位时间内自动获得的经验<color=#92fc63>不变</color>
+2.每日零点或新解锁的喵窝会刷新清扫，喂食，逗喵互动各一次。互动只能在刷新后的喵窝中有<color=#92fc63>未互动</color>过的指挥喵时才能进行。
+清扫会增加喵窝等级所需经验；
+喂食会增加喵窝等级所需经验与对应放入的指挥喵的经验；
+逗喵会增加喵窝等级所需经验并获取喵箱训练加速道具等；
+互动点击一次可对所有可互动喵窝生效，<color=#92fc63>且进行互动的指挥喵越多，获得的收益也越多。</color>
+3.进行互动可获得喵窝经验，喵窝经验可提升喵窝等级，获得更多喵窝数量和样式，并提升互动获得的指挥喵经验与奖励]]
+			}
+		}
 	},
 	cat_accelfrate_notenough = {
 		tip = "喵箱训练加速工具数量不足"
@@ -14103,6 +14265,15 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	cat_accelerate_left = {
 		tip = "使用后剩余："
+	},
+	common_clean = {
+		tip = "清扫"
+	},
+	common_feed = {
+		tip = "喂食"
+	},
+	common_play = {
+		tip = "逗喵"
 	},
 	game_stopwords = {
 		tip = "主界面台词框已隐藏"
@@ -14250,5 +14421,83 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	memory_activity_others = {
 		tip = "其他"
+	},
+	battle_end_title = {
+		tip = "战斗统计"
+	},
+	battle_end_subtitle1 = {
+		tip = "作战奖励"
+	},
+	battle_end_subtitle2 = {
+		tip = "战术研修"
+	},
+	meta_skill_dailyexp = {
+		tip = "每日可获取经验"
+	},
+	meta_skill_learn = {
+		tip = "※点击技能可进行学习或切换"
+	},
+	meta_skill_maxtip = {
+		tip = "$1的当前研修技能已达满级，是否前往切换研修技能？"
+	},
+	meta_tactics_detail = {
+		tip = "查看详情"
+	},
+	meta_tactics_unlock = {
+		tip = "习得技能"
+	},
+	meta_tactics_switch = {
+		tip = "研修技能"
+	},
+	meta_skill_maxtip2 = {
+		tip = "该技能已满级"
+	},
+	cattery_settlement_dialogue_1 = {
+		tip = "指挥官不在的"
+	},
+	cattery_settlement_dialogue_2 = {
+		tip = "里指挥喵得到充分的休息!"
+	},
+	cattery_settlement_dialogue_3 = {
+		tip = "一共获得"
+	},
+	cattery_settlement_dialogue_4 = {
+		tip = "的经验~"
+	},
+	blueprint_catchup_by_gold_confirm = {
+		tip = "本次强化操作需要消耗$1物资，是否确认？"
+	},
+	tec_tip_no_consumption = {
+		tip = "无消耗"
+	},
+	tec_tip_material_stock = {
+		tip = "库存"
+	},
+	tec_tip_to_consumption = {
+		tip = "消耗物资"
+	},
+	onebutton_max_tip = {
+		tip = "一键MAX"
+	},
+	target_get_tip = {
+		tip = "目标"
+	},
+	fleet_select_title = {
+		tip = "舰队选择"
+	},
+	equip_add = {
+		tip = "— 点击添加装备 —"
+	},
+	equipskin_add = {
+		tip = "— 点击添加装备外观 —"
+	},
+	equipskin_none = {
+		tip = "— 该装备无法使用外观 —"
+	},
+	equipskin_typewrong = {
+		tip = "— 该外观与装备类型不符 —"
+	},
+	equipskin_typewrong_en = {
+		tip = "GEAR SKIN UNAVAILABLE"
 	}
 }

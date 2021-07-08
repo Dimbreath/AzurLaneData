@@ -1,81 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_179 = {
-	[68776] = {
-		max_hp = 73,
-		name = "赤城μ技能舰爆Lv6",
-		base = 68771,
-		id = 68776,
-		hp_growth = 2796,
-		weapon_ID = {
-			68786,
-			68796
-		}
-	},
-	[68777] = {
-		max_hp = 79,
-		name = "赤城μ技能舰爆Lv7",
-		base = 68771,
-		id = 68777,
-		hp_growth = 3016,
-		weapon_ID = {
-			68787,
-			68797
-		}
-	},
-	[68778] = {
+	[68010] = {
 		max_hp = 86,
-		name = "赤城μ技能舰爆Lv8",
-		base = 68771,
-		id = 68778,
-		hp_growth = 3237,
+		name = "邦克山技能鱼雷机Lv10",
+		base = 68001,
+		id = 68010,
+		hp_growth = 3301,
 		weapon_ID = {
-			68788,
-			68798
+			68020
 		}
 	},
-	[68779] = {
-		max_hp = 92,
-		name = "赤城μ技能舰爆Lv9",
-		base = 68771,
-		id = 68779,
-		hp_growth = 3458,
-		weapon_ID = {
-			68789,
-			68799
-		}
-	},
-	[68780] = {
-		max_hp = 98,
-		name = "赤城μ技能舰爆Lv10",
-		base = 68771,
-		id = 68780,
-		hp_growth = 3678,
-		weapon_ID = {
-			68790,
-			68800
-		}
-	},
-	[68801] = {
-		name = "赤城μ技能舰攻Lv1",
-		max_hp = 42,
+	[68021] = {
+		name = "邦克山技能战斗机Lv1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "f6f",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 156,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "F4U",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1692,
-		speed = 48,
-		id = 68801,
+		nationality = 1,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68021,
 		scale = 1,
 		weapon_ID = {
-			68811
+			50441,
+			68051
 		},
 		position_offset = {
 			0,
@@ -95,13 +51,13 @@ pg.aircraft_template_179 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -118,7 +74,7 @@ pg.aircraft_template_179 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -129,44 +85,92 @@ pg.aircraft_template_179 = {
 			}
 		}
 	},
-	[68802] = {
-		max_hp = 48,
-		name = "赤城μ技能舰攻Lv2",
-		base = 68801,
-		id = 68802,
-		hp_growth = 1913,
+	[68022] = {
+		max_hp = 57,
+		name = "邦克山技能战斗机Lv2",
+		base = 68021,
+		id = 68022,
+		hp_growth = 2201,
 		weapon_ID = {
-			68812
+			50442,
+			68052
 		}
 	},
-	[68803] = {
-		max_hp = 54,
-		name = "赤城μ技能舰攻Lv3",
-		base = 68801,
-		id = 68803,
-		hp_growth = 2133,
+	[68023] = {
+		max_hp = 64,
+		name = "邦克山技能战斗机Lv3",
+		base = 68021,
+		id = 68023,
+		hp_growth = 2455,
 		weapon_ID = {
-			68813
+			50443,
+			68053
 		}
 	},
-	[68804] = {
-		max_hp = 61,
-		name = "赤城μ技能舰攻Lv4",
-		base = 68801,
-		id = 68804,
-		hp_growth = 2354,
+	[68024] = {
+		max_hp = 70,
+		name = "邦克山技能战斗机Lv4",
+		base = 68021,
+		id = 68024,
+		hp_growth = 2710,
 		weapon_ID = {
-			68814
+			50444,
+			68054
 		}
 	},
-	[68805] = {
-		max_hp = 67,
-		name = "赤城μ技能舰攻Lv5",
-		base = 68801,
-		id = 68805,
-		hp_growth = 2575,
+	[68025] = {
+		max_hp = 77,
+		name = "邦克山技能战斗机Lv5",
+		base = 68021,
+		id = 68025,
+		hp_growth = 2964,
 		weapon_ID = {
-			68815
+			50445,
+			68055
+		}
+	},
+	[68026] = {
+		max_hp = 84,
+		name = "邦克山技能战斗机Lv6",
+		base = 68021,
+		id = 68026,
+		hp_growth = 3218,
+		weapon_ID = {
+			50446,
+			68056
+		}
+	},
+	[68027] = {
+		max_hp = 90,
+		name = "邦克山技能战斗机Lv7",
+		base = 68021,
+		id = 68027,
+		hp_growth = 3472,
+		weapon_ID = {
+			50447,
+			68057
+		}
+	},
+	[68028] = {
+		max_hp = 97,
+		name = "邦克山技能战斗机Lv8",
+		base = 68021,
+		id = 68028,
+		hp_growth = 3726,
+		weapon_ID = {
+			50448,
+			68058
+		}
+	},
+	[68029] = {
+		max_hp = 103,
+		name = "邦克山技能战斗机Lv9",
+		base = 68021,
+		id = 68029,
+		hp_growth = 3980,
+		weapon_ID = {
+			50449,
+			68059
 		}
 	}
 }

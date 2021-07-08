@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_91 = {}
 
 function ()
-	uv0.weapon_property_91[52245] = {
-		id = 52245,
-		damage = 249,
-		base = 52240
-	}
-	uv0.weapon_property_91[52246] = {
-		id = 52246,
-		damage = 270,
-		base = 52240
-	}
-	uv0.weapon_property_91[52247] = {
-		id = 52247,
-		damage = 293,
-		base = 52240
-	}
-	uv0.weapon_property_91[52248] = {
-		id = 52248,
-		damage = 315,
-		base = 52240
-	}
-	uv0.weapon_property_91[52249] = {
-		id = 52249,
-		damage = 338,
-		base = 52240
-	}
-	uv0.weapon_property_91[52250] = {
-		id = 52250,
-		damage = 360,
-		base = 52240
-	}
 	uv0.weapon_property_91[52251] = {
 		id = 52251,
 		damage = 374,
@@ -467,5 +437,79 @@ function ()
 		id = 52370,
 		damage = 380,
 		base = 52360
+	}
+	uv0.weapon_property_91[52371] = {
+		id = 52371,
+		damage = 395,
+		base = 52360
+	}
+	uv0.weapon_property_91[52372] = {
+		id = 52372,
+		damage = 418,
+		base = 52360
+	}
+	uv0.weapon_property_91[52373] = {
+		id = 52373,
+		damage = 448,
+		base = 52360
+	}
+	uv0.weapon_property_91[52400] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "3 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 120,
+		corrected = 100,
+		min_range = 0,
+		id = 52400,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2122
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52401] = {
+		id = 52401,
+		damage = 138,
+		base = 52400
+	}
+	uv0.weapon_property_91[52402] = {
+		id = 52402,
+		damage = 156,
+		base = 52400
+	}
+	uv0.weapon_property_91[52403] = {
+		id = 52403,
+		damage = 174,
+		base = 52400
 	}
 end()

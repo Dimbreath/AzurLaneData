@@ -1,94 +1,238 @@
 pg = pg or {}
 pg.equip_data_statistics_285 = {
-	[41063] = {
-		id = 41063,
-		damage = "6 x 4",
-		base = 41060,
+	[39345] = {
+		base = 39340,
+		id = 39345,
+		ammo_info = {
+			{
+				6,
+				59785
+			},
+			{
+				6,
+				59805
+			},
+			{
+				5,
+				53325
+			}
+		},
 		weapon_id = {
-			41063
+			39345
+		},
+		skill_id = {
+			6865
 		}
 	},
-	[41064] = {
-		id = 41064,
-		damage = "6 x 4",
-		base = 41060,
+	[39346] = {
+		base = 39340,
+		id = 39346,
+		ammo_info = {
+			{
+				6,
+				59786
+			},
+			{
+				6,
+				59806
+			},
+			{
+				5,
+				53326
+			}
+		},
 		weapon_id = {
-			41064
+			39346
+		},
+		skill_id = {
+			6866
 		}
 	},
-	[41065] = {
-		id = 41065,
-		damage = "7 x 4",
-		base = 41060,
+	[39347] = {
+		base = 39340,
+		id = 39347,
+		ammo_info = {
+			{
+				6,
+				59787
+			},
+			{
+				6,
+				59807
+			},
+			{
+				5,
+				53327
+			}
+		},
 		weapon_id = {
-			41065
+			39347
+		},
+		skill_id = {
+			6867
 		}
 	},
-	[41066] = {
-		id = 41066,
-		damage = "7 x 4",
-		base = 41060,
+	[39348] = {
+		base = 39340,
+		id = 39348,
+		ammo_info = {
+			{
+				6,
+				59788
+			},
+			{
+				6,
+				59808
+			},
+			{
+				5,
+				53328
+			}
+		},
 		weapon_id = {
-			41066
+			39348
+		},
+		skill_id = {
+			6868
 		}
 	},
-	[41067] = {
-		id = 41067,
-		damage = "8 x 4",
-		base = 41060,
+	[39349] = {
+		base = 39340,
+		id = 39349,
+		ammo_info = {
+			{
+				6,
+				59789
+			},
+			{
+				6,
+				59809
+			},
+			{
+				5,
+				53329
+			}
+		},
 		weapon_id = {
-			41067
+			39349
+		},
+		skill_id = {
+			6869
 		}
 	},
-	[41068] = {
-		id = 41068,
-		damage = "8 x 4",
-		base = 41060,
+	[39350] = {
+		base = 39340,
+		id = 39350,
+		ammo_info = {
+			{
+				6,
+				59790
+			},
+			{
+				6,
+				59810
+			},
+			{
+				5,
+				53330
+			}
+		},
 		weapon_id = {
-			41068
+			39350
+		},
+		skill_id = {
+			6870
 		}
 	},
-	[41069] = {
-		id = 41069,
-		damage = "9 x 4",
-		base = 41060,
-		weapon_id = {
-			41069
-		}
-	},
-	[41070] = {
-		id = 41070,
-		damage = "10 x 4",
-		base = 41060,
-		weapon_id = {
-			41070
-		}
-	},
-	[41071] = {
+	[39351] = {
 		anti_siren = 100,
-		damage = "10 x 4",
-		base = 41060,
-		id = 41071,
+		base = 39340,
+		id = 39351,
+		ammo_info = {
+			{
+				6,
+				59791
+			},
+			{
+				6,
+				59811
+			},
+			{
+				5,
+				53331
+			}
+		},
 		weapon_id = {
-			41071
+			39351
+		},
+		skill_id = {
+			6871
 		}
 	},
-	[41100] = {
-		name = "双联装128mmSKC41高平两用炮",
+	[39352] = {
+		anti_siren = 200,
+		base = 39340,
+		id = 39352,
+		ammo_info = {
+			{
+				6,
+				59792
+			},
+			{
+				6,
+				59812
+			},
+			{
+				5,
+				53332
+			}
+		},
+		weapon_id = {
+			39352
+		},
+		skill_id = {
+			6872
+		}
+	},
+	[39353] = {
+		anti_siren = 300,
+		base = 39340,
+		id = 39353,
+		ammo_info = {
+			{
+				6,
+				59793
+			},
+			{
+				6,
+				59813
+			},
+			{
+				5,
+				53333
+			}
+		},
+		weapon_id = {
+			39353
+		},
+		skill_id = {
+			6873
+		}
+	},
+	[41000] = {
+		name = "单装127mm主炮",
 		speciality = "锁定",
 		type = 1,
-		attribute_3 = "antiaircraft",
 		tech = 1,
-		value_2 = 3,
-		icon = "41100",
-		attribute_2 = "cannon",
-		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
-		rarity = 2,
-		damage = "4 x 4",
+		rarity = 1,
+		descrip = "单装127mm主炮，大部分驱逐都可以使用",
+		value_2 = 0,
+		icon = "41000",
+		damage = "4 x 1",
 		nationality = 4,
 		ammo = 1,
-		value_3 = 2,
-		id = 41100,
+		value_3 = 0,
+		id = 41000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -109,7 +253,7 @@ pg.equip_data_statistics_285 = {
 			},
 			{
 				4,
-				1001
+				1000
 			},
 			6,
 			10,
@@ -117,7 +261,7 @@ pg.equip_data_statistics_285 = {
 			12
 		},
 		weapon_id = {
-			41100
+			41000
 		},
 		skill_id = {},
 		part_main = {
@@ -141,46 +285,44 @@ pg.equip_data_statistics_285 = {
 			"AP"
 		}
 	},
-	[41101] = {
-		id = 41101,
-		damage = "5 x 4",
-		base = 41100,
+	[41001] = {
+		id = 41001,
+		base = 41000,
 		weapon_id = {
-			41101
+			41001
 		}
 	},
-	[41102] = {
-		id = 41102,
-		damage = "5 x 4",
-		base = 41100,
+	[41002] = {
+		id = 41002,
+		damage = "6 x 1",
+		base = 41000,
 		weapon_id = {
-			41102
+			41002
 		}
 	},
-	[41103] = {
-		id = 41103,
-		damage = "6 x 4",
-		base = 41100,
+	[41003] = {
+		id = 41003,
+		damage = "6 x 1",
+		base = 41000,
 		weapon_id = {
-			41103
+			41003
 		}
 	},
-	[41120] = {
-		name = "双联装128mmSKC41高平两用炮",
+	[41020] = {
+		name = "单装127mm主炮",
 		speciality = "锁定",
 		type = 1,
-		attribute_3 = "antiaircraft",
 		tech = 2,
-		value_2 = 7,
-		icon = "41100",
+		descrip = "单装127mm主炮，大部分驱逐都可以使用",
+		value_2 = 5,
+		icon = "41000",
 		attribute_2 = "cannon",
-		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
-		rarity = 3,
-		damage = "4 x 4",
+		rarity = 2,
+		damage = "4 x 1",
 		nationality = 4,
 		ammo = 1,
-		value_3 = 5,
-		id = 41120,
+		value_3 = 0,
+		id = 41020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -201,7 +343,7 @@ pg.equip_data_statistics_285 = {
 			},
 			{
 				4,
-				1001
+				1000
 			},
 			6,
 			10,
@@ -209,7 +351,7 @@ pg.equip_data_statistics_285 = {
 			12
 		},
 		weapon_id = {
-			41120
+			41020
 		},
 		skill_id = {},
 		part_main = {
@@ -233,28 +375,27 @@ pg.equip_data_statistics_285 = {
 			"AP"
 		}
 	},
-	[41121] = {
-		id = 41121,
-		damage = "5 x 4",
-		base = 41120,
+	[41021] = {
+		id = 41021,
+		base = 41020,
 		weapon_id = {
-			41121
+			41021
 		}
 	},
-	[41122] = {
-		id = 41122,
-		damage = "5 x 4",
-		base = 41120,
+	[41022] = {
+		id = 41022,
+		damage = "6 x 1",
+		base = 41020,
 		weapon_id = {
-			41122
+			41022
 		}
 	},
-	[41123] = {
-		id = 41123,
-		damage = "6 x 4",
-		base = 41120,
+	[41023] = {
+		id = 41023,
+		damage = "6 x 1",
+		base = 41020,
 		weapon_id = {
-			41123
+			41023
 		}
 	}
 }

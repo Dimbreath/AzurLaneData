@@ -1,251 +1,135 @@
 pg = pg or {}
 pg.equip_data_statistics_382 = {
-	[90130] = {
-		id = 90130,
-		damage = "14 x 5",
-		base = 90120,
-		weapon_id = {
-			90130
-		}
-	},
-	[90140] = {
-		name = "138.6mm单装炮Mle1929",
-		speciality = "锁定",
-		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 35,
-		icon = "50100",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "5 x 5",
-		nationality = 8,
-		ammo = 2,
-		value_3 = 0,
-		id = 90140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				2206
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2206
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90140
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG",
-			"HE"
-		}
-	},
-	[90141] = {
-		id = 90141,
-		damage = "6 x 5",
-		base = 90140,
-		weapon_id = {
-			90141
-		}
-	},
-	[90142] = {
-		id = 90142,
-		damage = "7 x 5",
-		base = 90140,
-		weapon_id = {
-			90142
-		}
-	},
-	[90143] = {
-		id = 90143,
-		damage = "8 x 5",
-		base = 90140,
-		weapon_id = {
-			90143
-		}
-	},
-	[90144] = {
-		id = 90144,
-		damage = "9 x 5",
-		base = 90140,
-		weapon_id = {
-			90144
-		}
-	},
-	[90145] = {
-		id = 90145,
-		damage = "10 x 5",
-		base = 90140,
-		weapon_id = {
-			90145
-		}
-	},
-	[90146] = {
-		id = 90146,
-		damage = "11 x 5",
-		base = 90140,
-		weapon_id = {
-			90146
-		}
-	},
-	[90147] = {
-		id = 90147,
-		damage = "12 x 5",
-		base = 90140,
-		weapon_id = {
-			90147
-		}
-	},
-	[90148] = {
-		id = 90148,
-		damage = "13 x 5",
-		base = 90140,
-		weapon_id = {
-			90148
-		}
-	},
-	[90149] = {
-		id = 90149,
-		damage = "14 x 5",
-		base = 90140,
-		weapon_id = {
-			90149
-		}
-	},
-	[90150] = {
-		id = 90150,
-		damage = "15 x 5",
-		base = 90140,
-		weapon_id = {
-			90150
-		}
-	},
-	[90151] = {
+	[89231] = {
+		id = 89231,
 		anti_siren = 100,
-		damage = "15 x 5",
-		base = 90140,
-		id = 90151,
-		weapon_id = {
-			90151
-		}
+		value_1 = "580",
+		base = 89220
 	},
-	[90152] = {
+	[89232] = {
+		id = 89232,
 		anti_siren = 200,
-		damage = "15 x 5",
-		base = 90140,
-		id = 90152,
-		weapon_id = {
-			90152
-		}
+		value_1 = "610",
+		base = 89220
 	},
-	[90153] = {
+	[89233] = {
+		id = 89233,
 		anti_siren = 300,
-		damage = "15 x 5",
-		base = 90140,
-		id = 90153,
-		weapon_id = {
-			90153
-		}
+		value_1 = "640",
+		base = 89220
 	},
-	[90200] = {
-		name = "三联装152mm主炮Mle1930",
-		speciality = "散射",
-		type = 2,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "50200",
-		damage = "7 x 6",
-		nationality = 8,
-		ammo = 3,
+	[89240] = {
+		name = "觉醒宝珠",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89240,
+		value_2 = 16,
+		icon = "89240",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "说明占坑",
+		nationality = 106,
+		ammo = 10,
 		value_3 = 0,
-		id = 90200,
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			90200
+		weapon_id = {},
+		skill_id = {
+			6720
 		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"CL",
-			"MG"
+			"DEV"
 		}
 	},
-	[90201] = {
-		id = 90201,
-		damage = "8 x 6",
-		base = 90200,
-		weapon_id = {
-			90201
-		}
+	[89241] = {
+		id = 89241,
+		value_1 = "7",
+		base = 89240
+	},
+	[89242] = {
+		id = 89242,
+		value_2 = 17,
+		value_1 = "7",
+		base = 89240
+	},
+	[89243] = {
+		id = 89243,
+		value_2 = 18,
+		value_1 = "8",
+		base = 89240
+	},
+	[89244] = {
+		id = 89244,
+		value_2 = 19,
+		value_1 = "9",
+		base = 89240
+	},
+	[89245] = {
+		id = 89245,
+		value_2 = 20,
+		value_1 = "10",
+		base = 89240
+	},
+	[89246] = {
+		id = 89246,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89240
+	},
+	[89247] = {
+		id = 89247,
+		value_2 = 22,
+		value_1 = "12",
+		base = 89240
+	},
+	[89248] = {
+		id = 89248,
+		value_2 = 23,
+		value_1 = "13",
+		base = 89240
+	},
+	[89249] = {
+		id = 89249,
+		value_2 = 24,
+		value_1 = "14",
+		base = 89240
+	},
+	[89250] = {
+		id = 89250,
+		value_2 = 25,
+		value_1 = "15",
+		base = 89240
+	},
+	[89251] = {
+		id = 89251,
+		anti_siren = 100,
+		base = 89240,
+		value_2 = 26,
+		value_1 = "16"
+	},
+	[89252] = {
+		id = 89252,
+		anti_siren = 200,
+		base = 89240,
+		value_2 = 27,
+		value_1 = "17"
+	},
+	[89253] = {
+		id = 89253,
+		anti_siren = 300,
+		base = 89240,
+		value_2 = 28,
+		value_1 = "18"
 	}
 }

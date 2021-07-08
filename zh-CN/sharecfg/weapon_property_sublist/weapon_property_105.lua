@@ -2,6 +2,85 @@ pg = pg or {}
 pg.weapon_property_105 = {}
 
 function ()
+	uv0.weapon_property_105[59640] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x 机载鱼雷-通用",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 24,
+		charge_param = "",
+		damage = 127,
+		corrected = 100,
+		min_range = 0,
+		id = 59640,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2111
+		},
+		barrage_ID = {
+			2112
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[59641] = {
+		id = 59641,
+		damage = 148,
+		base = 59640
+	}
+	uv0.weapon_property_105[59642] = {
+		id = 59642,
+		damage = 169,
+		base = 59640
+	}
+	uv0.weapon_property_105[59643] = {
+		id = 59643,
+		damage = 190,
+		base = 59640
+	}
+	uv0.weapon_property_105[59644] = {
+		id = 59644,
+		damage = 211,
+		base = 59640
+	}
+	uv0.weapon_property_105[59645] = {
+		id = 59645,
+		damage = 232,
+		base = 59640
+	}
+	uv0.weapon_property_105[59646] = {
+		id = 59646,
+		damage = 253,
+		base = 59640
+	}
+	uv0.weapon_property_105[59647] = {
+		id = 59647,
+		damage = 274,
+		base = 59640
+	}
 	uv0.weapon_property_105[59648] = {
 		id = 59648,
 		damage = 295,
@@ -439,48 +518,6 @@ function ()
 		id = 59726,
 		reload_max = 52,
 		damage = 12,
-		base = 59720
-	}
-	uv0.weapon_property_105[59727] = {
-		id = 59727,
-		reload_max = 50,
-		damage = 13,
-		base = 59720
-	}
-	uv0.weapon_property_105[59728] = {
-		id = 59728,
-		reload_max = 48,
-		damage = 14,
-		base = 59720
-	}
-	uv0.weapon_property_105[59729] = {
-		id = 59729,
-		reload_max = 46,
-		damage = 15,
-		base = 59720
-	}
-	uv0.weapon_property_105[59730] = {
-		id = 59730,
-		reload_max = 44,
-		damage = 16,
-		base = 59720
-	}
-	uv0.weapon_property_105[59731] = {
-		id = 59731,
-		reload_max = 44,
-		damage = 17,
-		base = 59720
-	}
-	uv0.weapon_property_105[59732] = {
-		id = 59732,
-		reload_max = 44,
-		damage = 18,
-		base = 59720
-	}
-	uv0.weapon_property_105[59733] = {
-		id = 59733,
-		reload_max = 44,
-		damage = 19,
 		base = 59720
 	}
 end()

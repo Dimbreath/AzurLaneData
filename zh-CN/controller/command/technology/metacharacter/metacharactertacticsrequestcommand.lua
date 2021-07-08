@@ -18,7 +18,6 @@ function slot0.execute(slot0, slot1)
 				taskID = slot6.task_id,
 				finishCount = slot6.finish_cnt
 			})
-			print("task", slot6.task_id, slot6.finish_cnt)
 		end
 
 		for slot6, slot7 in ipairs(slot0.skill_exp or {}) do

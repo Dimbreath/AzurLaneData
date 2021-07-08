@@ -73,16 +73,6 @@ function slot0.InitEvent(slot0)
 			return
 		end
 
-		slot2 = uv0:GetShipVO().equipments
-
-		if _.all(uv1.UNLOCK_EQUIPMENT_SKIN_POS, function (slot0)
-			return not uv0[slot0]
-		end) and not uv0.contextData.isInEquipmentSkinPage then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_no_equipment_tip"))
-
-			return
-		end
-
 		uv0:switch2EquipmentSkinPage()
 	end)
 

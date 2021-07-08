@@ -1,160 +1,241 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
-	[89060] = {
-		name = "组徽",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89060,
-		value_2 = 16,
-		icon = "89060",
-		value_1 = "6",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "本来应该作为组徽设计的才对，变...变身？",
-		nationality = 105,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6490
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
+	[85421] = {
+		id = 85421,
+		damage = "59 x 3",
+		base = 85420,
+		weapon_id = {
+			85421
 		}
 	},
-	[89061] = {
-		id = 89061,
-		value_1 = "7",
-		base = 89060
-	},
-	[89062] = {
-		id = 89062,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89060
-	},
-	[89063] = {
-		id = 89063,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89060
-	},
-	[89064] = {
-		id = 89064,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89060
-	},
-	[89065] = {
-		id = 89065,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89060
-	},
-	[89066] = {
-		id = 89066,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89060
-	},
-	[89067] = {
-		id = 89067,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89060
-	},
-	[89068] = {
-		id = 89068,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89060
-	},
-	[89069] = {
-		id = 89069,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89060
-	},
-	[89070] = {
-		id = 89070,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89060
-	},
-	[89071] = {
-		id = 89071,
-		anti_siren = 100,
-		base = 89060,
-		value_2 = 26,
-		value_1 = "16"
-	},
-	[89072] = {
-		id = 89072,
-		anti_siren = 200,
-		base = 89060,
-		value_2 = 27,
-		value_1 = "17"
-	},
-	[89073] = {
-		id = 89073,
-		anti_siren = 300,
-		base = 89060,
-		value_2 = 28,
-		value_1 = "18"
-	},
-	[89080] = {
-		name = "Gamers的证明",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "89080",
-		value_1 = "245",
-		descrip = "hololivegamers成员的证明徽章！ ",
-		rarity = 5,
-		nationality = 105,
-		ammo = 10,
-		value_3 = 0,
-		id = 89080,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6500
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
+	[85422] = {
+		id = 85422,
+		damage = "64 x 3",
+		base = 85420,
+		weapon_id = {
+			85422
 		}
 	},
-	[89081] = {
-		id = 89081,
-		value_1 = "280",
-		base = 89080
+	[85423] = {
+		id = 85423,
+		damage = "70 x 3",
+		base = 85420,
+		weapon_id = {
+			85423
+		}
 	},
-	[89082] = {
-		id = 89082,
-		value_1 = "310",
-		base = 89080
+	[85424] = {
+		id = 85424,
+		damage = "76 x 3",
+		base = 85420,
+		weapon_id = {
+			85424
+		}
+	},
+	[85425] = {
+		id = 85425,
+		damage = "84 x 3",
+		base = 85420,
+		weapon_id = {
+			85425
+		}
+	},
+	[85426] = {
+		id = 85426,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85426
+		}
+	},
+	[85427] = {
+		id = 85427,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85427
+		}
+	},
+	[85440] = {
+		name = "双联装152mm主炮Model1892",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "85440",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 4",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85440
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85441] = {
+		id = 85441,
+		damage = "9 x 4",
+		base = 85440,
+		weapon_id = {
+			85441
+		}
+	},
+	[85442] = {
+		id = 85442,
+		damage = "10 x 4",
+		base = 85440,
+		weapon_id = {
+			85442
+		}
+	},
+	[85443] = {
+		id = 85443,
+		damage = "11 x 4",
+		base = 85440,
+		weapon_id = {
+			85443
+		}
+	},
+	[85444] = {
+		id = 85444,
+		damage = "12 x 4",
+		base = 85440,
+		weapon_id = {
+			85444
+		}
+	},
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
+		weapon_id = {
+			85445
+		}
+	},
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
+	},
+	[85447] = {
+		id = 85447,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85447
+		}
+	},
+	[85460] = {
+		name = "B-1-P 三联装180mm主炮Model1932",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		descrip = "北方联合开发的180mm三联装舰炮，拥有相当优秀的射程",
+		value_2 = 12,
+		icon = "85460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "16 x 3",
+		nationality = 7,
+		ammo = 1,
+		value_3 = 0,
+		id = 85460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1712
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1712
+			},
+			{
+				4,
+				1108
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85460
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[85461] = {
+		id = 85461,
+		base = 85460,
+		weapon_id = {
+			85461
+		}
 	}
 }

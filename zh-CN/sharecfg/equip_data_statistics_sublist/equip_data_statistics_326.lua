@@ -1,41 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_326 = {
-	[49051] = {
-		anti_siren = 100,
-		base = 49040,
-		id = 49051,
-		ammo_info = {
-			{
-				6,
-				59351
-			},
-			{
-				5,
-				52651
-			},
-			{
-				5,
-				53051
-			}
-		},
-		weapon_id = {
-			49051
-		}
-	},
-	[49060] = {
-		name = "He-50b舰载轰炸机",
-		type = 9,
-		speciality = "轰炸",
+	[48000] = {
+		name = "Ar-195舰载鱼雷机",
+		type = 8,
+		speciality = "雷击",
 		rarity = 3,
 		tech = 0,
 		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "49060",
+		icon = "48000",
 		attribute_2 = "air",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 49060,
+		id = 48000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -45,8 +23,8 @@ pg.equip_data_statistics_326 = {
 				59760
 			},
 			{
-				5,
-				52240
+				4,
+				59660
 			}
 		},
 		equip_info = {
@@ -56,7 +34,7 @@ pg.equip_data_statistics_326 = {
 			9
 		},
 		weapon_id = {
-			49060
+			48000
 		},
 		skill_id = {},
 		part_main = {
@@ -71,230 +49,314 @@ pg.equip_data_statistics_326 = {
 		label = {
 			"KMS",
 			"CV",
-			"DB"
+			"TB"
 		}
 	},
-	[49061] = {
-		id = 49061,
-		base = 49060,
+	[48001] = {
+		id = 48001,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59761
 			},
 			{
-				5,
-				52241
+				4,
+				59661
 			}
 		},
 		weapon_id = {
-			49061
+			48001
 		}
 	},
-	[49062] = {
-		id = 49062,
-		base = 49060,
+	[48002] = {
+		id = 48002,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59762
 			},
 			{
-				5,
-				52242
+				4,
+				59662
 			}
 		},
 		weapon_id = {
-			49062
+			48002
 		}
 	},
-	[49063] = {
-		id = 49063,
-		base = 49060,
+	[48003] = {
+		id = 48003,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59763
 			},
 			{
-				5,
-				52243
+				4,
+				59663
 			}
 		},
 		weapon_id = {
-			49063
+			48003
 		}
 	},
-	[49064] = {
-		id = 49064,
-		base = 49060,
+	[48004] = {
+		id = 48004,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59764
 			},
 			{
-				5,
-				52244
+				4,
+				59664
 			}
 		},
 		weapon_id = {
-			49064
+			48004
 		}
 	},
-	[49065] = {
-		id = 49065,
-		base = 49060,
+	[48005] = {
+		id = 48005,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59765
 			},
 			{
-				5,
-				52245
+				4,
+				59665
 			}
 		},
 		weapon_id = {
-			49065
+			48005
 		}
 	},
-	[49066] = {
-		id = 49066,
-		base = 49060,
+	[48006] = {
+		id = 48006,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59766
 			},
 			{
-				5,
-				52246
+				4,
+				59666
 			}
 		},
 		weapon_id = {
-			49066
+			48006
 		}
 	},
-	[49067] = {
-		id = 49067,
-		base = 49060,
+	[48007] = {
+		id = 48007,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59767
 			},
 			{
-				5,
-				52247
+				4,
+				59667
 			}
 		},
 		weapon_id = {
-			49067
+			48007
 		}
 	},
-	[54010] = {
-		name = "轻航专用空中支援技能-轰炸Lv1",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
+	[48020] = {
+		name = "Fi-167舰载鱼雷机",
+		type = 8,
+		speciality = "雷击",
+		rarity = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "48020",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 54010,
+		id = 48020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				4,
+				59680
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			54010
+			48020
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[54011] = {
-		id = 54011,
-		name = "轻航专用空中支援技能-轰炸Lv2",
-		base = 54010,
-		weapon_id = {
-			54011
-		}
-	},
-	[54012] = {
-		id = 54012,
-		name = "轻航专用空中支援技能-轰炸Lv3",
-		base = 54010,
-		weapon_id = {
-			54012
-		}
-	},
-	[54013] = {
-		id = 54013,
-		name = "正航专用空中支援技能-轰炸Lv1",
-		base = 54010,
-		weapon_id = {
-			54013
-		}
-	},
-	[54014] = {
-		id = 54014,
-		name = "正航专用空中支援技能-轰炸Lv2",
-		base = 54010,
-		weapon_id = {
-			54014
-		}
-	},
-	[54015] = {
-		id = 54015,
-		name = "正航专用空中支援技能-轰炸Lv3",
-		base = 54010,
-		weapon_id = {
-			54015
-		}
-	},
-	[60001] = {
-		name = "航空攻击展示-长岛I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60001,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60001
+		part_main = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
-		label = {}
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
 	},
-	[60002] = {
-		id = 60002,
-		name = "航空攻击展示-长岛II",
-		base = 60001,
+	[48021] = {
+		id = 48021,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59681
+			}
+		},
 		weapon_id = {
-			60002
+			48021
+		}
+	},
+	[48022] = {
+		id = 48022,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				4,
+				59682
+			}
+		},
+		weapon_id = {
+			48022
+		}
+	},
+	[48023] = {
+		id = 48023,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				4,
+				59683
+			}
+		},
+		weapon_id = {
+			48023
+		}
+	},
+	[48024] = {
+		id = 48024,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				4,
+				59684
+			}
+		},
+		weapon_id = {
+			48024
+		}
+	},
+	[48025] = {
+		id = 48025,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				4,
+				59685
+			}
+		},
+		weapon_id = {
+			48025
+		}
+	},
+	[48026] = {
+		id = 48026,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				4,
+				59686
+			}
+		},
+		weapon_id = {
+			48026
+		}
+	},
+	[48027] = {
+		id = 48027,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				4,
+				59687
+			}
+		},
+		weapon_id = {
+			48027
+		}
+	},
+	[48028] = {
+		id = 48028,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59768
+			},
+			{
+				4,
+				59688
+			}
+		},
+		weapon_id = {
+			48028
 		}
 	}
 }

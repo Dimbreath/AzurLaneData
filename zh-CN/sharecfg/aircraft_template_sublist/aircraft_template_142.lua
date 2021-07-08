@@ -1,116 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_142 = {
-	[65492] = {
-		max_hp = 44,
-		name = "彼得史特拉塞技能JU87鱼雷机LV2",
-		base = 65491,
-		id = 65492,
-		hp_growth = 1678,
+	[64316] = {
+		max_hp = 84,
+		name = "白龙搭载彩云舰攻型 Lv6",
+		base = 64311,
+		id = 64316,
+		hp_growth = 2681,
 		weapon_ID = {
-			65502
+			64336
 		}
 	},
-	[65493] = {
-		max_hp = 49,
-		name = "彼得史特拉塞技能JU87鱼雷机LV3",
-		base = 65491,
-		id = 65493,
-		hp_growth = 1897,
+	[64317] = {
+		max_hp = 90,
+		name = "白龙搭载彩云舰攻型 Lv7",
+		base = 64311,
+		id = 64317,
+		hp_growth = 2911,
 		weapon_ID = {
-			65503
+			64337
 		}
 	},
-	[65494] = {
-		max_hp = 55,
-		name = "彼得史特拉塞技能JU87鱼雷机LV4",
-		base = 65491,
-		id = 65494,
-		hp_growth = 2116,
+	[64318] = {
+		max_hp = 97,
+		name = "白龙搭载彩云舰攻型 Lv8",
+		base = 64311,
+		id = 64318,
+		hp_growth = 3141,
 		weapon_ID = {
-			65504
+			64338
 		}
 	},
-	[65495] = {
-		max_hp = 61,
-		name = "彼得史特拉塞技能JU87鱼雷机LV5",
-		base = 65491,
-		id = 65495,
-		hp_growth = 2335,
+	[64319] = {
+		max_hp = 103,
+		name = "白龙搭载彩云舰攻型 Lv9",
+		base = 64311,
+		id = 64319,
+		hp_growth = 3371,
 		weapon_ID = {
-			65505
+			64339
 		}
 	},
-	[65496] = {
-		max_hp = 66,
-		name = "彼得史特拉塞技能JU87鱼雷机LV6",
-		base = 65491,
-		id = 65496,
-		hp_growth = 2554,
+	[64320] = {
+		max_hp = 110,
+		name = "白龙搭载彩云舰攻型 Lv10",
+		base = 64311,
+		id = 64320,
+		hp_growth = 3601,
 		weapon_ID = {
-			65506
+			64340
 		}
 	},
-	[65497] = {
-		max_hp = 72,
-		name = "彼得史特拉塞技能JU87鱼雷机LV7",
-		base = 65491,
-		id = 65497,
-		hp_growth = 2772,
-		weapon_ID = {
-			65507
-		}
-	},
-	[65498] = {
-		max_hp = 78,
-		name = "彼得史特拉塞技能JU87鱼雷机LV8",
-		base = 65491,
-		id = 65498,
-		hp_growth = 2991,
-		weapon_ID = {
-			65508
-		}
-	},
-	[65499] = {
-		max_hp = 83,
-		name = "彼得史特拉塞技能JU87鱼雷机LV9",
-		base = 65491,
-		id = 65499,
-		hp_growth = 3210,
-		weapon_ID = {
-			65509
-		}
-	},
-	[65500] = {
-		max_hp = 89,
-		name = "彼得史特拉塞技能JU87鱼雷机LV10",
-		base = 65491,
-		id = 65500,
-		hp_growth = 3429,
-		weapon_ID = {
-			65510
-		}
-	},
-	[65561] = {
-		name = "威悉技能轰炸机Lv1",
-		max_hp = 51,
+	[64341] = {
+		name = "奥古斯特技能版BF-109G",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "JU87C",
+		model_ID = "BF109G",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 65,
 		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 11,
-		type = 3,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
-		icon = "JU87C",
+		icon = "BF109G",
 		funnel_behavior = "",
 		nationality = 4,
-		hp_growth = 1549,
+		hp_growth = 1613,
 		speed = 50,
-		id = 65561,
+		id = 64341,
 		scale = 1,
 		weapon_ID = {
-			65581
+			64351
 		},
 		position_offset = {
 			0,
@@ -130,13 +90,13 @@ pg.aircraft_template_142 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -153,7 +113,7 @@ pg.aircraft_template_142 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -162,6 +122,42 @@ pg.aircraft_template_142 = {
 				0,
 				0
 			}
+		}
+	},
+	[64342] = {
+		id = 64342,
+		base = 64341,
+		max_hp = 48,
+		hp_growth = 1855,
+		weapon_ID = {
+			64352
+		}
+	},
+	[64343] = {
+		id = 64343,
+		base = 64341,
+		max_hp = 55,
+		hp_growth = 2097,
+		weapon_ID = {
+			64353
+		}
+	},
+	[64344] = {
+		id = 64344,
+		base = 64341,
+		max_hp = 61,
+		hp_growth = 2339,
+		weapon_ID = {
+			64354
+		}
+	},
+	[64345] = {
+		id = 64345,
+		base = 64341,
+		max_hp = 67,
+		hp_growth = 2580,
+		weapon_ID = {
+			64355
 		}
 	}
 }

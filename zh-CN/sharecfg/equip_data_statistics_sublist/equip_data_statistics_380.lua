@@ -1,310 +1,134 @@
 pg = pg or {}
 pg.equip_data_statistics_380 = {
-	[89273] = {
-		id = 89273,
+	[89185] = {
+		id = 89185,
+		value_2 = 20,
+		value_1 = "24",
+		base = 89180
+	},
+	[89186] = {
+		id = 89186,
+		value_2 = 22,
+		value_1 = "26",
+		base = 89180
+	},
+	[89187] = {
+		id = 89187,
+		value_2 = 24,
+		value_1 = "28",
+		base = 89180
+	},
+	[89188] = {
+		id = 89188,
+		value_2 = 26,
+		value_1 = "30",
+		base = 89180
+	},
+	[89189] = {
+		id = 89189,
+		value_2 = 28,
+		value_1 = "32",
+		base = 89180
+	},
+	[89190] = {
+		id = 89190,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89180
+	},
+	[89191] = {
+		id = 89191,
+		anti_siren = 100,
+		base = 89180,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89192] = {
+		id = 89192,
+		anti_siren = 200,
+		base = 89180,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89193] = {
+		id = 89193,
 		anti_siren = 300,
-		base = 89260,
+		base = 89180,
 		value_2 = 36,
 		value_1 = "44"
 	},
-	[90000] = {
-		name = "130mm单装炮Mle1924",
-		speciality = "锁定",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "50000",
-		damage = "3 x 5",
-		nationality = 8,
-		ammo = 3,
+	[89200] = {
+		name = "引力舞鞋",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89200,
+		value_2 = 1,
+		icon = "89200",
+		value_1 = "13",
+		attribute_2 = "speed",
+		rarity = 5,
+		descrip = "引人瞩目的舞鞋，穿上以后似乎能够成为……偶像？",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 90000,
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			90000
+		weapon_id = {},
+		skill_id = {
+			6690
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"DD",
-			"MG"
+			"DEV"
 		}
 	},
-	[90001] = {
-		id = 90001,
-		base = 90000,
-		weapon_id = {
-			90001
-		}
+	[89201] = {
+		id = 89201,
+		value_1 = "14",
+		base = 89200
 	},
-	[90002] = {
-		id = 90002,
-		damage = "4 x 5",
-		base = 90000,
-		weapon_id = {
-			90002
-		}
+	[89202] = {
+		id = 89202,
+		value_1 = "15",
+		base = 89200
 	},
-	[90003] = {
-		id = 90003,
-		damage = "4 x 5",
-		base = 90000,
-		weapon_id = {
-			90003
-		}
+	[89203] = {
+		id = 89203,
+		value_2 = 2,
+		value_1 = "16",
+		base = 89200
 	},
-	[90020] = {
-		name = "130mm单装炮Mle1924",
-		speciality = "锁定",
-		type = 1,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "3 x 5",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
+	[89204] = {
+		id = 89204,
+		value_2 = 2,
+		value_1 = "17",
+		base = 89200
 	},
-	[90021] = {
-		id = 90021,
-		damage = "4 x 5",
-		base = 90020,
-		weapon_id = {
-			90021
-		}
+	[89205] = {
+		id = 89205,
+		value_2 = 2,
+		value_1 = "18",
+		base = 89200
 	},
-	[90022] = {
-		id = 90022,
-		damage = "4 x 5",
-		base = 90020,
-		weapon_id = {
-			90022
-		}
+	[89206] = {
+		id = 89206,
+		value_2 = 3,
+		value_1 = "20",
+		base = 89200
 	},
-	[90023] = {
-		id = 90023,
-		damage = "5 x 5",
-		base = 90020,
-		weapon_id = {
-			90023
-		}
-	},
-	[90040] = {
-		name = "130mm单装炮Mle1924",
-		speciality = "锁定",
-		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 5",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90041] = {
-		id = 90041,
-		damage = "5 x 5",
-		base = 90040,
-		weapon_id = {
-			90041
-		}
-	},
-	[90042] = {
-		id = 90042,
-		damage = "5 x 5",
-		base = 90040,
-		weapon_id = {
-			90042
-		}
-	},
-	[90043] = {
-		id = 90043,
-		damage = "6 x 5",
-		base = 90040,
-		weapon_id = {
-			90043
-		}
-	},
-	[90044] = {
-		id = 90044,
-		damage = "6 x 5",
-		base = 90040,
-		weapon_id = {
-			90044
-		}
-	},
-	[90045] = {
-		id = 90045,
-		damage = "7 x 5",
-		base = 90040,
-		weapon_id = {
-			90045
-		}
-	},
-	[90046] = {
-		id = 90046,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90046
-		}
-	},
-	[90047] = {
-		id = 90047,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90047
-		}
+	[89207] = {
+		id = 89207,
+		value_2 = 3,
+		value_1 = "22",
+		base = 89200
 	}
 }

@@ -15,7 +15,7 @@ return {
 			trigger = {},
 			arg_list = {
 				buff_id = 74001,
-				target = "TargetAllHarm"
+				target = "TargetAllFoe"
 			}
 		}
 	}

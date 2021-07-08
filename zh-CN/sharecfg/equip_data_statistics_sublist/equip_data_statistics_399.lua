@@ -1,244 +1,196 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
-	[95242] = {
-		id = 95242,
-		damage = "37 x 8",
-		base = 95240,
+	[95042] = {
+		id = 95042,
+		damage = "70 x 3",
+		base = 95040,
 		weapon_id = {
-			95242
+			95042
 		}
 	},
-	[95243] = {
-		id = 95243,
-		damage = "38 x 8",
-		base = 95240,
+	[95043] = {
+		id = 95043,
+		damage = "80 x 3",
+		base = 95040,
 		weapon_id = {
-			95243
+			95043
 		}
 	},
-	[95244] = {
-		id = 95244,
-		damage = "38 x 8",
-		base = 95240,
+	[95044] = {
+		id = 95044,
+		damage = "90 x 3",
+		base = 95040,
 		weapon_id = {
-			95244
+			95044
 		}
 	},
-	[95245] = {
-		id = 95245,
-		damage = "39 x 8",
-		base = 95240,
+	[95045] = {
+		id = 95045,
+		damage = "100 x 3",
+		base = 95040,
 		weapon_id = {
-			95245
+			95045
 		}
 	},
-	[95246] = {
-		id = 95246,
-		damage = "39 x 8",
-		base = 95240,
+	[95046] = {
+		id = 95046,
+		damage = "110 x 3",
+		base = 95040,
 		weapon_id = {
-			95246
+			95046
 		}
 	},
-	[95247] = {
-		id = 95247,
-		damage = "40 x 8",
-		base = 95240,
+	[95047] = {
+		id = 95047,
+		damage = "118 x 3",
+		base = 95040,
 		weapon_id = {
-			95247
+			95047
 		}
 	},
-	[95248] = {
-		id = 95248,
-		damage = "41 x 8",
-		base = 95240,
+	[95048] = {
+		id = 95048,
+		damage = "128 x 3",
+		base = 95040,
 		weapon_id = {
-			95248
+			95048
 		}
 	},
-	[95249] = {
-		id = 95249,
-		damage = "42 x 8",
-		base = 95240,
+	[95049] = {
+		id = 95049,
+		damage = "138 x 3",
+		base = 95040,
 		weapon_id = {
-			95249
+			95049
 		}
 	},
-	[95250] = {
-		id = 95250,
-		damage = "43 x 8",
-		base = 95240,
+	[95050] = {
+		id = 95050,
+		damage = "148 x 3",
+		base = 95040,
 		weapon_id = {
-			95250
+			95050
 		}
 	},
-	[95251] = {
+	[95051] = {
 		anti_siren = 100,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95251,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95051,
 		weapon_id = {
-			95251
+			95051
 		}
 	},
-	[95252] = {
+	[95052] = {
 		anti_siren = 200,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95252,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95052,
 		weapon_id = {
-			95252
+			95052
 		}
 	},
-	[95253] = {
+	[95053] = {
 		anti_siren = 300,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95253,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95053,
 		weapon_id = {
-			95253
+			95053
 		}
 	},
-	[95300] = {
-		name = "双联203mm主炮Model1924",
-		speciality = "锁定",
-		type = 3,
+	[95100] = {
+		name = "90mm单装高角炮Model1939",
+		speciality = "防空",
+		type = 6,
 		tech = 1,
 		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "55300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "22 x 6",
-		nationality = 6,
-		ammo = 3,
-		value_3 = 0,
-		id = 95300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1400
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1400
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95300
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"CA",
-			"MG",
-			"CM"
-		}
-	},
-	[95301] = {
-		id = 95301,
-		damage = "24 x 6",
-		base = 95300,
-		weapon_id = {
-			95301
-		}
-	},
-	[95302] = {
-		id = 95302,
-		damage = "26 x 6",
-		base = 95300,
-		weapon_id = {
-			95302
-		}
-	},
-	[95303] = {
-		id = 95303,
-		damage = "28 x 6",
-		base = 95300,
-		weapon_id = {
-			95303
-		}
-	},
-	[95320] = {
-		name = "双联203mm主炮Model1924",
-		speciality = "锁定",
-		type = 3,
-		tech = 2,
-		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "55300",
-		attribute_2 = "cannon",
+		icon = "55100",
+		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "24 x 6",
+		damage = "34/轮",
 		nationality = 6,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 95320,
+		id = 95100,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1205
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			95320
+			95100
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"CA",
-			"MG",
-			"HE"
+			"ST",
+			"AA"
+		}
+	},
+	[95101] = {
+		id = 95101,
+		damage = "38/轮",
+		base = 95100,
+		weapon_id = {
+			95101
+		}
+	},
+	[95102] = {
+		id = 95102,
+		damage = "42/轮",
+		base = 95100,
+		weapon_id = {
+			95102
+		}
+	},
+	[95103] = {
+		id = 95103,
+		damage = "46/轮",
+		base = 95100,
+		weapon_id = {
+			95103
+		}
+	},
+	[95104] = {
+		id = 95104,
+		damage = "51/轮",
+		base = 95100,
+		weapon_id = {
+			95104
 		}
 	}
 }

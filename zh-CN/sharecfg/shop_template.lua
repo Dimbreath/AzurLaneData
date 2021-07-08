@@ -11574,6 +11574,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60257] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给（骏河BOSS复刻）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60257,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -31777,6 +31831,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70571] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:骏河JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70571,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305142
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -36115,6 +36218,7 @@ pg.shop_template = {
 		60254,
 		60255,
 		60256,
+		60257,
 		61001,
 		61002,
 		61003,
@@ -36672,6 +36776,7 @@ pg.shop_template = {
 		70568,
 		70569,
 		70570,
+		70571,
 		90001,
 		90002,
 		90003,

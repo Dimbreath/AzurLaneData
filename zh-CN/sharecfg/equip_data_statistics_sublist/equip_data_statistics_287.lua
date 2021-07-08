@@ -1,119 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_287 = {
-	[41162] = {
-		id = 41162,
-		damage = "8 x 4",
-		base = 41160,
-		weapon_id = {
-			41162
-		}
-	},
-	[41163] = {
-		id = 41163,
+	[41069] = {
+		id = 41069,
 		damage = "9 x 4",
-		base = 41160,
+		base = 41060,
 		weapon_id = {
-			41163
+			41069
 		}
 	},
-	[41164] = {
-		id = 41164,
+	[41070] = {
+		id = 41070,
 		damage = "10 x 4",
-		base = 41160,
+		base = 41060,
 		weapon_id = {
-			41164
+			41070
 		}
 	},
-	[41165] = {
-		id = 41165,
-		damage = "11 x 4",
-		base = 41160,
-		weapon_id = {
-			41165
-		}
-	},
-	[41166] = {
-		id = 41166,
-		damage = "12 x 4",
-		base = 41160,
-		weapon_id = {
-			41166
-		}
-	},
-	[41167] = {
-		id = 41167,
-		damage = "13 x 4",
-		base = 41160,
-		weapon_id = {
-			41167
-		}
-	},
-	[41168] = {
-		id = 41168,
-		damage = "14 x 4",
-		base = 41160,
-		weapon_id = {
-			41168
-		}
-	},
-	[41169] = {
-		id = 41169,
-		damage = "15 x 4",
-		base = 41160,
-		weapon_id = {
-			41169
-		}
-	},
-	[41170] = {
-		id = 41170,
-		damage = "16 x 4",
-		base = 41160,
-		weapon_id = {
-			41170
-		}
-	},
-	[41171] = {
+	[41071] = {
 		anti_siren = 100,
-		damage = "16 x 4",
-		base = 41160,
-		id = 41171,
+		damage = "10 x 4",
+		base = 41060,
+		id = 41071,
 		weapon_id = {
-			41171
+			41071
 		}
 	},
-	[41172] = {
-		anti_siren = 200,
-		damage = "16 x 4",
-		base = 41160,
-		id = 41172,
-		weapon_id = {
-			41172
-		}
-	},
-	[41173] = {
-		anti_siren = 300,
-		damage = "16 x 4",
-		base = 41160,
-		id = 41173,
-		weapon_id = {
-			41173
-		}
-	},
-	[42000] = {
-		name = "单装SKC28式150mm主炮",
+	[41100] = {
+		name = "双联装128mmSKC41高平两用炮",
 		speciality = "锁定",
-		type = 2,
+		type = 1,
+		attribute_3 = "antiaircraft",
 		tech = 1,
-		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
-		value_2 = 5,
-		icon = "42000",
+		value_2 = 3,
+		icon = "41100",
 		attribute_2 = "cannon",
+		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 		rarity = 2,
-		damage = "7 x 1",
+		damage = "4 x 4",
 		nationality = 4,
 		ammo = 1,
-		value_3 = 0,
-		id = 42000,
+		value_3 = 2,
+		id = 41100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -122,7 +49,7 @@ pg.equip_data_statistics_287 = {
 		ammo_info = {
 			{
 				1,
-				1304
+				1303
 			}
 		},
 		equip_info = {
@@ -130,11 +57,11 @@ pg.equip_data_statistics_287 = {
 			2,
 			{
 				3,
-				1304
+				1303
 			},
 			{
 				4,
-				1000
+				1001
 			},
 			6,
 			10,
@@ -142,62 +69,70 @@ pg.equip_data_statistics_287 = {
 			12
 		},
 		weapon_id = {
-			42000
+			41100
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
+			"DD",
 			"MG",
 			"AP"
 		}
 	},
-	[42001] = {
-		id = 42001,
-		damage = "8 x 1",
-		base = 42000,
+	[41101] = {
+		id = 41101,
+		damage = "5 x 4",
+		base = 41100,
 		weapon_id = {
-			42001
+			41101
 		}
 	},
-	[42002] = {
-		id = 42002,
-		damage = "9 x 1",
-		base = 42000,
+	[41102] = {
+		id = 41102,
+		damage = "5 x 4",
+		base = 41100,
 		weapon_id = {
-			42002
+			41102
 		}
 	},
-	[42003] = {
-		id = 42003,
-		damage = "10 x 1",
-		base = 42000,
+	[41103] = {
+		id = 41103,
+		damage = "6 x 4",
+		base = 41100,
 		weapon_id = {
-			42003
+			41103
 		}
 	},
-	[42020] = {
-		name = "单装SKC28式150mm主炮",
+	[41120] = {
+		name = "双联装128mmSKC41高平两用炮",
 		speciality = "锁定",
-		type = 2,
+		type = 1,
+		attribute_3 = "antiaircraft",
 		tech = 2,
-		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
-		value_2 = 12,
-		icon = "42000",
+		value_2 = 7,
+		icon = "41100",
 		attribute_2 = "cannon",
+		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 		rarity = 3,
-		damage = "8 x 1",
+		damage = "4 x 4",
 		nationality = 4,
 		ammo = 1,
-		value_3 = 0,
-		id = 42020,
+		value_3 = 5,
+		id = 41120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -206,7 +141,7 @@ pg.equip_data_statistics_287 = {
 		ammo_info = {
 			{
 				1,
-				1304
+				1303
 			}
 		},
 		equip_info = {
@@ -214,11 +149,11 @@ pg.equip_data_statistics_287 = {
 			2,
 			{
 				3,
-				1304
+				1303
 			},
 			{
 				4,
-				1000
+				1001
 			},
 			6,
 			10,
@@ -226,21 +161,160 @@ pg.equip_data_statistics_287 = {
 			12
 		},
 		weapon_id = {
-			42020
+			41120
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
+			"DD",
 			"MG",
 			"AP"
+		}
+	},
+	[41121] = {
+		id = 41121,
+		damage = "5 x 4",
+		base = 41120,
+		weapon_id = {
+			41121
+		}
+	},
+	[41122] = {
+		id = 41122,
+		damage = "5 x 4",
+		base = 41120,
+		weapon_id = {
+			41122
+		}
+	},
+	[41123] = {
+		id = 41123,
+		damage = "6 x 4",
+		base = 41120,
+		weapon_id = {
+			41123
+		}
+	},
+	[41124] = {
+		id = 41124,
+		damage = "6 x 4",
+		base = 41120,
+		weapon_id = {
+			41124
+		}
+	},
+	[41125] = {
+		id = 41125,
+		damage = "7 x 4",
+		base = 41120,
+		weapon_id = {
+			41125
+		}
+	},
+	[41126] = {
+		id = 41126,
+		damage = "8 x 4",
+		base = 41120,
+		weapon_id = {
+			41126
+		}
+	},
+	[41140] = {
+		name = "双联装128mmSKC41高平两用炮",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 3,
+		value_2 = 15,
+		icon = "41100",
+		attribute_2 = "cannon",
+		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
+		rarity = 4,
+		damage = "5 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 10,
+		id = 41140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			41140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41141] = {
+		id = 41141,
+		damage = "6 x 4",
+		base = 41140,
+		weapon_id = {
+			41141
+		}
+	},
+	[41142] = {
+		id = 41142,
+		damage = "6 x 4",
+		base = 41140,
+		weapon_id = {
+			41142
 		}
 	}
 }

@@ -1,131 +1,206 @@
 pg = pg or {}
 pg.equip_data_statistics_391 = {
-	[90842] = {
-		id = 90842,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51562
-			}
-		},
+	[90503] = {
+		id = 90503,
+		damage = "10 x 2",
+		base = 90500,
 		weapon_id = {
-			90842
+			90503
 		}
 	},
-	[90843] = {
-		id = 90843,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51563
-			}
+	[90600] = {
+		name = "双联37mm高射炮Mle1936",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "50600",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "38/轮",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
 		},
 		weapon_id = {
-			90843
-		}
-	},
-	[90844] = {
-		id = 90844,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51564
-			}
+			90600
 		},
-		weapon_id = {
-			90844
-		}
-	},
-	[90845] = {
-		id = 90845,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51565
-			}
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		weapon_id = {
-			90845
-		}
-	},
-	[90846] = {
-		id = 90846,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51566
-			}
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		weapon_id = {
-			90846
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
 		}
 	},
-	[90847] = {
-		id = 90847,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50027
-			},
-			{
-				4,
-				51567
-			}
-		},
+	[90601] = {
+		id = 90601,
+		damage = "42/轮",
+		base = 90600,
 		weapon_id = {
-			90847
+			90601
 		}
 	},
-	[90860] = {
-		name = "双联装203mm主炮Mle1924",
+	[90602] = {
+		id = 90602,
+		damage = "46/轮",
+		base = 90600,
+		weapon_id = {
+			90602
+		}
+	},
+	[90603] = {
+		id = 90603,
+		damage = "50/轮",
+		base = 90600,
+		weapon_id = {
+			90603
+		}
+	},
+	[90604] = {
+		id = 90604,
+		damage = "54/轮",
+		base = 90600,
+		weapon_id = {
+			90604
+		}
+	},
+	[90605] = {
+		id = 90605,
+		damage = "58/轮",
+		base = 90600,
+		weapon_id = {
+			90605
+		}
+	},
+	[90606] = {
+		id = 90606,
+		damage = "62/轮",
+		base = 90600,
+		weapon_id = {
+			90606
+		}
+	},
+	[90607] = {
+		id = 90607,
+		damage = "66/轮",
+		base = 90600,
+		weapon_id = {
+			90607
+		}
+	},
+	[90608] = {
+		id = 90608,
+		damage = "70/轮",
+		base = 90600,
+		weapon_id = {
+			90608
+		}
+	},
+	[90609] = {
+		id = 90609,
+		damage = "74/轮",
+		base = 90600,
+		weapon_id = {
+			90609
+		}
+	},
+	[90610] = {
+		id = 90610,
+		damage = "78/轮",
+		base = 90600,
+		weapon_id = {
+			90610
+		}
+	},
+	[90611] = {
+		anti_siren = 100,
+		damage = "78/轮",
+		base = 90600,
+		id = 90611,
+		weapon_id = {
+			90611
+		}
+	},
+	[90612] = {
+		anti_siren = 200,
+		damage = "78/轮",
+		base = 90600,
+		id = 90612,
+		weapon_id = {
+			90612
+		}
+	},
+	[90613] = {
+		anti_siren = 300,
+		damage = "78/轮",
+		base = 90600,
+		id = 90613,
+		weapon_id = {
+			90613
+		}
+	},
+	[90700] = {
+		name = "138.6mm单装炮Mle1927",
 		speciality = "锁定",
-		type = 3,
+		type = 1,
 		tech = 1,
 		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50860",
+		value_2 = 5,
+		icon = "50700",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "26 x 4",
+		rarity = 2,
+		damage = "4 x 4",
 		nationality = 8,
-		ammo = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 90860,
+		id = 90700,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1416
+				2200
 			}
 		},
 		equip_info = {
@@ -133,11 +208,11 @@ pg.equip_data_statistics_391 = {
 			2,
 			{
 				3,
-				1416
+				2200
 			},
 			{
 				4,
-				1205
+				1025
 			},
 			6,
 			10,
@@ -145,151 +220,34 @@ pg.equip_data_statistics_391 = {
 			12
 		},
 		weapon_id = {
-			90860
+			90700
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CA",
-			"MG",
-			"HE"
-		}
-	},
-	[90861] = {
-		id = 90861,
-		damage = "28 x 4",
-		base = 90860,
-		weapon_id = {
-			90861
-		}
-	},
-	[90862] = {
-		id = 90862,
-		damage = "30 x 4",
-		base = 90860,
-		weapon_id = {
-			90862
-		}
-	},
-	[90863] = {
-		id = 90863,
-		damage = "32 x 4",
-		base = 90860,
-		weapon_id = {
-			90863
-		}
-	},
-	[90864] = {
-		id = 90864,
-		damage = "34 x 4",
-		base = 90860,
-		weapon_id = {
-			90864
-		}
-	},
-	[90865] = {
-		id = 90865,
-		damage = "36 x 4",
-		base = 90860,
-		weapon_id = {
-			90865
-		}
-	},
-	[90866] = {
-		id = 90866,
-		damage = "38 x 4",
-		base = 90860,
-		weapon_id = {
-			90866
-		}
-	},
-	[90880] = {
-		name = "双联装203mm主炮Mle1924",
-		speciality = "锁定",
-		type = 3,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "50860",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "28 x 4",
-		nationality = 8,
-		ammo = 2,
-		value_3 = 0,
-		id = 90880,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1416
-			}
-		},
-		equip_info = {
 			1,
+			19
+		},
+		part_sub = {
 			2,
-			{
-				3,
-				1416
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90880
-		},
-		skill_id = {},
-		part_main = {
 			3,
+			4,
+			5,
+			8,
+			13,
 			18
 		},
-		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"CA",
-			"MG",
-			"HE"
+			"DD",
+			"MG"
 		}
 	},
-	[90881] = {
-		id = 90881,
-		damage = "30 x 4",
-		base = 90880,
+	[90701] = {
+		id = 90701,
+		base = 90700,
 		weapon_id = {
-			90881
-		}
-	},
-	[90882] = {
-		id = 90882,
-		damage = "32 x 4",
-		base = 90880,
-		weapon_id = {
-			90882
-		}
-	},
-	[90883] = {
-		id = 90883,
-		damage = "34 x 4",
-		base = 90880,
-		weapon_id = {
-			90883
+			90701
 		}
 	}
 }

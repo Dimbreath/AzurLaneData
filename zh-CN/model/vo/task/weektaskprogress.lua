@@ -74,6 +74,7 @@ end
 function slot0.GetAllPhaseDrops(slot0)
 	return {
 		type = 1,
+		resIcon = "Props/weekly_pt",
 		dropList = slot0.dropData,
 		targets = slot0.targets,
 		level = slot0.index,

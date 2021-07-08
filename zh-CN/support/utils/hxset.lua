@@ -180,7 +180,9 @@ slot0.hxPathList = {
 	"shipYardIcon",
 	"paintingface",
 	"char",
-	"shipmodels"
+	"shipmodels",
+	"technologycard",
+	"shipdesignicon"
 }
 slot0.folderBundle = {
 	"paintingface"

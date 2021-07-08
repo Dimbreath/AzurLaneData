@@ -1,286 +1,198 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
-	[90202] = {
-		id = 90202,
-		damage = "9 x 6",
-		base = 90200,
-		weapon_id = {
-			90202
-		}
-	},
-	[90203] = {
-		id = 90203,
-		damage = "10 x 6",
-		base = 90200,
-		weapon_id = {
-			90203
-		}
-	},
-	[90220] = {
-		name = "三联装152mm主炮Mle1930",
-		speciality = "散射",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50200",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "8 x 6",
-		nationality = 8,
-		ammo = 3,
+	[89260] = {
+		name = "心之钥匙",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89260,
+		value_2 = 15,
+		icon = "89260",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "说明占坑",
+		nationality = 106,
+		ammo = 10,
 		value_3 = 0,
-		id = 90220,
+		attribute_1 = "antiaircraft",
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			90220
+		weapon_id = {},
+		skill_id = {
+			6730
 		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG"
-		}
-	},
-	[90221] = {
-		id = 90221,
-		damage = "9 x 6",
-		base = 90220,
-		weapon_id = {
-			90221
-		}
-	},
-	[90222] = {
-		id = 90222,
-		damage = "10 x 6",
-		base = 90220,
-		weapon_id = {
-			90222
-		}
-	},
-	[90223] = {
-		id = 90223,
-		damage = "11 x 6",
-		base = 90220,
-		weapon_id = {
-			90223
-		}
-	},
-	[90240] = {
-		name = "三联装152mm主炮Mle1930",
-		speciality = "散射",
-		type = 2,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "9 x 6",
-		nationality = 8,
-		ammo = 1,
-		value_3 = 0,
-		id = 90240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				2204
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2204
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90240
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[90241] = {
-		id = 90241,
-		damage = "10 x 6",
-		base = 90240,
-		weapon_id = {
-			90241
-		}
-	},
-	[90242] = {
-		id = 90242,
-		damage = "11 x 6",
-		base = 90240,
-		weapon_id = {
-			90242
-		}
-	},
-	[90243] = {
-		id = 90243,
-		damage = "12 x 6",
-		base = 90240,
-		weapon_id = {
-			90243
-		}
-	},
-	[90244] = {
-		id = 90244,
-		damage = "13 x 6",
-		base = 90240,
-		weapon_id = {
-			90244
-		}
-	},
-	[90245] = {
-		id = 90245,
-		damage = "14 x 6",
-		base = 90240,
-		weapon_id = {
-			90245
-		}
-	},
-	[90246] = {
-		id = 90246,
-		damage = "15 x 6",
-		base = 90240,
-		weapon_id = {
-			90246
-		}
-	},
-	[90247] = {
-		id = 90247,
-		damage = "15 x 6",
-		base = 90240,
-		weapon_id = {
-			90247
-		}
-	},
-	[90300] = {
-		name = "四联装330mm主炮Mle1931",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "34 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1550
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90300
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
+		part_main = {},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"DEV"
+		}
+	},
+	[89261] = {
+		id = 89261,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89260
+	},
+	[89262] = {
+		id = 89262,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89260
+	},
+	[89263] = {
+		id = 89263,
+		value_2 = 18,
+		value_1 = "20",
+		base = 89260
+	},
+	[89264] = {
+		id = 89264,
+		value_2 = 19,
+		value_1 = "22",
+		base = 89260
+	},
+	[89265] = {
+		id = 89265,
+		value_2 = 20,
+		value_1 = "24",
+		base = 89260
+	},
+	[89266] = {
+		id = 89266,
+		value_2 = 22,
+		value_1 = "26",
+		base = 89260
+	},
+	[89267] = {
+		id = 89267,
+		value_2 = 24,
+		value_1 = "28",
+		base = 89260
+	},
+	[89268] = {
+		id = 89268,
+		value_2 = 26,
+		value_1 = "30",
+		base = 89260
+	},
+	[89269] = {
+		id = 89269,
+		value_2 = 28,
+		value_1 = "32",
+		base = 89260
+	},
+	[89270] = {
+		id = 89270,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89260
+	},
+	[89271] = {
+		id = 89271,
+		anti_siren = 100,
+		base = 89260,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89272] = {
+		id = 89272,
+		anti_siren = 200,
+		base = 89260,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89273] = {
+		id = 89273,
+		anti_siren = 300,
+		base = 89260,
+		value_2 = 36,
+		value_1 = "44"
+	},
+	[90000] = {
+		name = "130mm单装炮Mle1924",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "50000",
+		damage = "3 x 5",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1021
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
 			"FFNF",
-			"BB",
+			"DD",
 			"MG"
 		}
 	},
-	[90301] = {
-		id = 90301,
-		damage = "39 x 4",
-		base = 90300,
+	[90001] = {
+		id = 90001,
+		base = 90000,
 		weapon_id = {
-			90301
+			90001
 		}
 	},
-	[90302] = {
-		id = 90302,
-		damage = "44 x 4",
-		base = 90300,
+	[90002] = {
+		id = 90002,
+		damage = "4 x 5",
+		base = 90000,
 		weapon_id = {
-			90302
+			90002
 		}
 	}
 }

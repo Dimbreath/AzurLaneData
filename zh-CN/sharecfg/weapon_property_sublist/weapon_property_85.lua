@@ -2,115 +2,6 @@ pg = pg or {}
 pg.weapon_property_85 = {}
 
 function ()
-	uv0.weapon_property_85[51131] = {
-		id = 51131,
-		damage = 266,
-		base = 51120
-	}
-	uv0.weapon_property_85[51132] = {
-		id = 51132,
-		damage = 282,
-		base = 51120
-	}
-	uv0.weapon_property_85[51133] = {
-		id = 51133,
-		damage = 302,
-		base = 51120
-	}
-	uv0.weapon_property_85[51140] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "3 x 机载鱼雷-通用",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 108,
-		corrected = 100,
-		min_range = 0,
-		id = 51140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2112
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_85[51141] = {
-		id = 51141,
-		damage = 126,
-		base = 51140
-	}
-	uv0.weapon_property_85[51142] = {
-		id = 51142,
-		damage = 144,
-		base = 51140
-	}
-	uv0.weapon_property_85[51143] = {
-		id = 51143,
-		damage = 162,
-		base = 51140
-	}
-	uv0.weapon_property_85[51144] = {
-		id = 51144,
-		damage = 180,
-		base = 51140
-	}
-	uv0.weapon_property_85[51145] = {
-		id = 51145,
-		damage = 198,
-		base = 51140
-	}
-	uv0.weapon_property_85[51146] = {
-		id = 51146,
-		damage = 216,
-		base = 51140
-	}
-	uv0.weapon_property_85[51147] = {
-		id = 51147,
-		damage = 234,
-		base = 51140
-	}
-	uv0.weapon_property_85[51148] = {
-		id = 51148,
-		damage = 252,
-		base = 51140
-	}
-	uv0.weapon_property_85[51149] = {
-		id = 51149,
-		damage = 270,
-		base = 51140
-	}
-	uv0.weapon_property_85[51150] = {
-		id = 51150,
-		damage = 288,
-		base = 51140
-	}
 	uv0.weapon_property_85[51151] = {
 		id = 51151,
 		damage = 300,
@@ -506,5 +397,119 @@ function ()
 		id = 51302,
 		damage = 72,
 		base = 51300
+	}
+	uv0.weapon_property_85[51303] = {
+		id = 51303,
+		damage = 88,
+		base = 51300
+	}
+	uv0.weapon_property_85[51304] = {
+		id = 51304,
+		damage = 104,
+		base = 51300
+	}
+	uv0.weapon_property_85[51305] = {
+		id = 51305,
+		damage = 120,
+		base = 51300
+	}
+	uv0.weapon_property_85[51306] = {
+		id = 51306,
+		damage = 136,
+		base = 51300
+	}
+	uv0.weapon_property_85[51307] = {
+		id = 51307,
+		damage = 152,
+		base = 51300
+	}
+	uv0.weapon_property_85[51308] = {
+		id = 51308,
+		damage = 168,
+		base = 51300
+	}
+	uv0.weapon_property_85[51309] = {
+		id = 51309,
+		damage = 184,
+		base = 51300
+	}
+	uv0.weapon_property_85[51310] = {
+		id = 51310,
+		damage = 200,
+		base = 51300
+	}
+	uv0.weapon_property_85[51311] = {
+		id = 51311,
+		damage = 208,
+		base = 51300
+	}
+	uv0.weapon_property_85[51312] = {
+		id = 51312,
+		damage = 220,
+		base = 51300
+	}
+	uv0.weapon_property_85[51313] = {
+		id = 51313,
+		damage = 236,
+		base = 51300
+	}
+	uv0.weapon_property_85[51320] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-重樱",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 44,
+		corrected = 100,
+		min_range = 0,
+		id = 51320,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_85[51321] = {
+		id = 51321,
+		damage = 62,
+		base = 51320
+	}
+	uv0.weapon_property_85[51322] = {
+		id = 51322,
+		damage = 79,
+		base = 51320
+	}
+	uv0.weapon_property_85[51323] = {
+		id = 51323,
+		damage = 97,
+		base = 51320
 	}
 end()

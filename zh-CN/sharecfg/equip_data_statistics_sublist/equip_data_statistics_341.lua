@@ -1,7 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_341 = {
-	[71041] = {
-		name = "全弹发射-F级I",
+	[61009] = {
+		id = 61009,
+		name = "约克城技能随机扫射海面LV3",
+		base = 61007,
+		weapon_id = {
+			61009
+		}
+	},
+	[61010] = {
+		name = "皇家方舟技能LV1",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -13,14 +21,14 @@ pg.equip_data_statistics_341 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 71041,
+		id = 61010,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			71041
+			61010
 		},
 		skill_id = {},
 		part_main = {
@@ -39,16 +47,24 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[71042] = {
-		id = 71042,
-		name = "全弹发射-F级II",
-		base = 71041,
+	[61011] = {
+		id = 61011,
+		name = "皇家方舟技能LV2",
+		base = 61010,
 		weapon_id = {
-			71042
+			61011
 		}
 	},
-	[71051] = {
-		name = "全弹发射-G级I",
+	[61012] = {
+		id = 61012,
+		name = "皇家方舟技能LV3",
+		base = 61010,
+		weapon_id = {
+			61012
+		}
+	},
+	[61031] = {
+		name = "十姊妹展示",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -56,18 +72,18 @@ pg.equip_data_statistics_341 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "技能弹幕",
+		descrip = "技能弹幕展示用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 71051,
+		id = 61031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			71051
+			61031
 		},
 		skill_id = {},
 		part_main = {
@@ -86,16 +102,8 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[71052] = {
-		id = 71052,
-		name = "全弹发射-G级II",
-		base = 71051,
-		weapon_id = {
-			71052
-		}
-	},
-	[71061] = {
-		name = "全弹发射-H级I",
+	[61041] = {
+		name = "夕星展示",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -103,18 +111,18 @@ pg.equip_data_statistics_341 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "技能弹幕",
+		descrip = "技能弹幕展示用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 71061,
+		id = 61041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			71061
+			61041
 		},
 		skill_id = {},
 		part_main = {
@@ -133,16 +141,266 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[71062] = {
-		id = 71062,
-		name = "全弹发射-H级II",
-		base = 71061,
+	[61051] = {
+		name = "百合根1段展示",
+		tech = 1,
+		speciality = "无",
+		type = 5,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			71062
-		}
+			61051
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {}
 	},
-	[71026] = {
-		name = "全弹发射-I级I",
+	[61052] = {
+		name = "百合根2段展示",
+		tech = 1,
+		speciality = "无",
+		type = 5,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61052,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61052
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[61053] = {
+		name = "百合根3段展示",
+		tech = 1,
+		speciality = "无",
+		type = 5,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61053,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61053
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[61054] = {
+		name = "百合根4段展示",
+		tech = 1,
+		speciality = "无",
+		type = 2,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61054,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61054
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[61501] = {
+		name = "轰炸机外观预览飞机",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61501,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61501
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[61503] = {
+		name = "鱼雷机外观预览飞机",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61503,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61503
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[61504] = {
+		name = "鱼雷机外观预览鱼雷",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61504,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61504
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[61505] = {
+		name = "战斗机外观预览飞机",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 61505,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61505
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[66200] = {
+		name = "提尔比茨磁性鱼雷",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -154,14 +412,14 @@ pg.equip_data_statistics_341 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 71026,
+		id = 66200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			71026
+			66200
 		},
 		skill_id = {},
 		part_main = {
@@ -180,16 +438,8 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[71027] = {
-		id = 71027,
-		name = "全弹发射-I级II",
-		base = 71026,
-		weapon_id = {
-			71027
-		}
-	},
-	[71071] = {
-		name = "全弹发射-J级I",
+	[66220] = {
+		name = "沙恩霍斯特级鱼雷",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -201,14 +451,14 @@ pg.equip_data_statistics_341 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 71071,
+		id = 66220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			71071
+			66220
 		},
 		skill_id = {},
 		part_main = {
@@ -227,16 +477,8 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[71072] = {
-		id = 71072,
-		name = "全弹发射-J级II",
-		base = 71071,
-		weapon_id = {
-			71072
-		}
-	},
-	[71081] = {
-		name = "全弹发射-M级I",
+	[70011] = {
+		name = "全弹发射-法拉格特级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -248,155 +490,14 @@ pg.equip_data_statistics_341 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 71081,
+		id = 70011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			71081
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71082] = {
-		id = 71082,
-		name = "全弹发射-M级II",
-		base = 71081,
-		weapon_id = {
-			71082
-		}
-	},
-	[71091] = {
-		name = "全弹发射-E级I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "技能弹幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 71091,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71091
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71092] = {
-		id = 71092,
-		name = "全弹发射-E级II",
-		base = 71091,
-		weapon_id = {
-			71092
-		}
-	},
-	[71016] = {
-		name = "全弹发射-部族级I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "技能弹幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 71016,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71016
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71017] = {
-		id = 71017,
-		name = "全弹发射-部族级II",
-		base = 71016,
-		weapon_id = {
-			71017
-		}
-	},
-	[71111] = {
-		name = "全弹发射-利安得级I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "技能弹幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 71111,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71111
+			70011
 		},
 		skill_id = {},
 		part_main = {

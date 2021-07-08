@@ -18,6 +18,12 @@ function slot3.Ctor(slot0, slot1, slot2)
 		slot0._effectList[slot6] = uv0.Battle[slot7.type].New(slot7, slot2)
 	end
 
+	if BATTLE_DEBUG then
+		for slot6, slot7 in ipairs(slot0._effectList) do
+			slot7:SetSrc(slot0)
+		end
+	end
+
 	slot0._dataProxy = uv0.Battle.BattleDataProxy.GetInstance()
 end
 

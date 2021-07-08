@@ -41,6 +41,37 @@ end
 function slot0.initResDownloadPanel(slot0, slot1)
 	setActive(slot1, false)
 
+	slot0.resRepairGroup = {}
+	slot3 = slot0:findTF("main/resources/mask/main_panel"):Find("repair")
+	slot0.resRepairGroup.Button = slot3
+	slot0.resRepairGroup.Progress = slot3:Find("progress")
+	slot0.resRepairGroup.ProgressHandle = slot3:Find("progress/handle")
+	slot0.resRepairGroup.Info1 = slot3:Find("status")
+	slot0.resRepairGroup.Info2 = slot3:Find("version")
+	slot0.resRepairGroup.LabelNew = slot3:Find("version/new")
+	slot0.resRepairGroup.Dot = slot3:Find("new")
+	slot0.resRepairGroup.Loading = slot3:Find("loading")
+
+	setText(slot3:Find("title"), i18n("repair_setting_label"))
+	function ()
+		setSlider(uv0.resRepairGroup.Progress, 0, 1, 0)
+		setActive(uv0.resRepairGroup.Dot, false)
+		setActive(uv0.resRepairGroup.Loading, false)
+		setText(uv0.resRepairGroup.Info1, i18n("word_files_repair"))
+		setText(uv0.resRepairGroup.Info2, "")
+
+		slot2 = 1
+
+		setSlider(uv0.resRepairGroup.Progress, 0, 1, slot2)
+		setActive(uv0.resRepairGroup.ProgressHandle, slot2 ~= 0 and slot2 ~= 1)
+		setActive(uv0.resRepairGroup.Dot, false)
+		setActive(uv0.resRepairGroup.Loading, false)
+		setActive(uv0.resRepairGroup.LabelNew, false)
+	end()
+	onButton(slot0, slot0.resRepairGroup.Button, function ()
+		showRepairMsgbox()
+	end, SFX_PANEL)
+
 	slot0.live2DDownloadBtn = slot0:findTF("main/resources/mask/main_panel/live2d")
 	slot0.live2DDownloadProgress = slot0:findTF("main/resources/mask/main_panel/live2d/progress")
 	slot0.live2DDownloadProgressHandle = slot0:findTF("main/resources/mask/main_panel/live2d/progress/handle")
@@ -62,7 +93,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	slot0:updateLive2DDownloadState()
 
 	if Live2DUpdateMgr.Inst.state == DownloadState.None then
-		slot2:CheckD()
+		slot5:CheckD()
 	end
 
 	onButton(slot0, slot0.live2DDownloadBtn, function ()
@@ -156,49 +187,111 @@ function slot0.initResDownloadPanel(slot0, slot1)
 			uv0:UpdateD(true)
 		end
 	end, SFX_PANEL)
-
-	slot0.repairBtn = slot0:findTF("main/resources/mask/main_panel/settings/buttons/repair")
-	slot0.repairProgress = slot0.repairBtn:Find("progress")
-
-	onButton(slot0, slot0.repairBtn, function ()
-		showRepairMsgbox()
-	end, SFX_PANEL)
 end
 
 function slot0.initSoundPanel(slot0, slot1)
 	setActive(slot1, false)
 
-	slot0.revertBtn = slot0:findTF("main/resources/mask/main_panel/settings/buttons/reset")
-	slot0.bgmSlider = slot0:findTF("main/resources/mask/main_panel/settings/bgm/slider")
+	slot2 = slot0:findTF("main/resources/mask/main_panel")
+	slot3 = PlayerPrefs.GetInt("mute_audio", 0) == 1
+	slot0.bgmSlider = slot2:Find("settings/bgm/slider")
 
-	setSlider(slot0.bgmSlider, 0, 1, pg.CriMgr.GetInstance():getBGMVolume())
+	function ()
+		slot0 = pg.CriMgr.GetInstance():getBGMVolume()
+
+		if uv0 then
+			slot0 = PlayerPrefs.GetFloat("bgm_vol_mute_setting", DEFAULT_BGMVOLUME)
+		end
+
+		setSlider(uv1.bgmSlider, 0, 1, slot0)
+	end()
 	slot0:initSoundSlider(slot0.bgmSlider, function (slot0)
+		if uv0 then
+			return
+		end
+
 		pg.CriMgr.GetInstance():setBGMVolume(slot0)
 	end)
 
-	slot0.effectSlider = slot0:findTF("main/resources/mask/main_panel/settings/sfx/slider")
+	slot0.effectSlider = slot2:Find("settings/sfx/slider")
 
-	setSlider(slot0.effectSlider, 0, 1, pg.CriMgr.GetInstance():getSEVolume())
+	function ()
+		slot0 = pg.CriMgr.GetInstance():getSEVolume()
+
+		if uv0 then
+			slot0 = PlayerPrefs.GetFloat("se_vol_mute_setting", DEFAULT_SEVOLUME)
+		end
+
+		setSlider(uv1.effectSlider, 0, 1, slot0)
+	end()
 	slot0:initSoundSlider(slot0.effectSlider, function (slot0)
+		if uv0 then
+			return
+		end
+
 		pg.CriMgr.GetInstance():setSEVolume(slot0)
 	end)
 
-	slot0.mainSlider = slot0:findTF("main/resources/mask/main_panel/settings/cv/slider")
+	slot0.mainSlider = slot2:Find("settings/cv/slider")
 
-	setSlider(slot0.mainSlider, 0, 1, pg.CriMgr.GetInstance():getCVVolume())
+	function ()
+		slot0 = pg.CriMgr.GetInstance():getCVVolume()
+
+		if uv0 then
+			slot0 = PlayerPrefs.GetFloat("cv_vol_mute_setting", DEFAULT_CVVOLUME)
+		end
+
+		setSlider(uv1.mainSlider, 0, 1, slot0)
+	end()
 	slot0:initSoundSlider(slot0.mainSlider, function (slot0)
+		if uv0 then
+			return
+		end
+
 		pg.CriMgr.GetInstance():setCVVolume(slot0)
 	end)
-	onButton(slot0, slot0.revertBtn, function ()
+	setText(slot2:Find("settings/buttons/soundswitch/Text"), i18n("voice_control"))
+
+	slot7 = slot2:Find("settings/buttons/soundswitch/on")
+
+	triggerToggle(slot7, not slot3)
+	triggerToggle(slot2:Find("settings/buttons/soundswitch/off"), slot3)
+	onToggle(slot0, slot7, function (slot0)
+		if not slot0 then
+			PlayerPrefs.SetFloat("bgm_vol_mute_setting", pg.CriMgr.GetInstance():getBGMVolume())
+			PlayerPrefs.SetFloat("se_vol_mute_setting", pg.CriMgr.GetInstance():getSEVolume())
+			PlayerPrefs.SetFloat("cv_vol_mute_setting", pg.CriMgr.GetInstance():getCVVolume())
+			pg.CriMgr.GetInstance():setBGMVolume(0)
+			pg.CriMgr.GetInstance():setSEVolume(0)
+			pg.CriMgr.GetInstance():setCVVolume(0)
+			PlayerPrefs.SetInt("mute_audio", 1)
+		else
+			pg.CriMgr.GetInstance():setBGMVolume(PlayerPrefs.GetFloat("bgm_vol_mute_setting", DEFAULT_BGMVOLUME))
+			pg.CriMgr.GetInstance():setSEVolume(PlayerPrefs.GetFloat("se_vol_mute_setting", DEFAULT_SEVOLUME))
+			pg.CriMgr.GetInstance():setCVVolume(PlayerPrefs.GetFloat("cv_vol_mute_setting", DEFAULT_CVVOLUME))
+			PlayerPrefs.SetInt("mute_audio", 0)
+		end
+
+		uv0:setSliderEnable(uv0.bgmSlider, slot0)
+		uv0:setSliderEnable(uv0.effectSlider, slot0)
+		uv0:setSliderEnable(uv0.mainSlider, slot0)
+
+		uv1 = not slot0
+	end, SFX_UI_TAG, SFX_UI_TAG)
+	slot0:setSliderEnable(slot0.bgmSlider, not slot3)
+	slot0:setSliderEnable(slot0.effectSlider, not slot3)
+	slot0:setSliderEnable(slot0.mainSlider, not slot3)
+
+	slot0.soundRevertBtn = slot2:Find("settings/buttons/reset")
+
+	onButton(slot0, slot0.soundRevertBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("sure_resume_volume"),
 			onYes = function ()
-				pg.CriMgr.GetInstance():setBGMVolume(DEFAULT_BGMVOLUME)
-				pg.CriMgr.GetInstance():setSEVolume(DEFAULT_SEVOLUME)
-				pg.CriMgr.GetInstance():setCVVolume(DEFAULT_CVVOLUME)
-				setSlider(uv0.bgmSlider, 0, 1, DEFAULT_BGMVOLUME)
-				setSlider(uv0.effectSlider, 0, 1, DEFAULT_SEVOLUME)
-				setSlider(uv0.mainSlider, 0, 1, DEFAULT_CVVOLUME)
+				triggerToggle(uv0, true)
+				setSlider(uv1.bgmSlider, 0, 1, DEFAULT_BGMVOLUME)
+				setSlider(uv1.effectSlider, 0, 1, DEFAULT_SEVOLUME)
+				setSlider(uv1.mainSlider, 0, 1, DEFAULT_CVVOLUME)
 			end
 		})
 	end, SFX_UI_CLICK)
@@ -219,6 +312,14 @@ function slot0.initSoundSlider(slot0, slot1, slot2)
 	onButton(slot0, slot1:Find("down"), function ()
 		uv0.value = math.clamp(uv0.value - uv1, uv0.minValue, uv0.maxValue)
 	end, SFX_PANEL)
+end
+
+function slot0.setSliderEnable(slot0, slot1, slot2)
+	slot2 = tobool(slot2)
+	slot1:GetComponent("Slider").interactable = slot2
+
+	setButtonEnabled(slot1:Find("up"), slot2)
+	setButtonEnabled(slot1:Find("down"), slot2)
 end
 
 slot1 = {}

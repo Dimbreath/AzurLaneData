@@ -1,244 +1,195 @@
 pg = pg or {}
 pg.equip_data_statistics_307 = {
-	[45242] = {
-		id = 45242,
-		damage = "85 x 5",
-		base = 45240,
+	[45127] = {
+		id = 45127,
+		damage = "112 x 4",
+		base = 45120,
 		weapon_id = {
-			45242
+			45127
 		}
 	},
-	[45243] = {
-		id = 45243,
-		damage = "92 x 5",
-		base = 45240,
+	[45128] = {
+		id = 45128,
+		damage = "119 x 4",
+		base = 45120,
 		weapon_id = {
-			45243
+			45128
 		}
 	},
-	[45244] = {
-		id = 45244,
-		damage = "100 x 5",
-		base = 45240,
+	[45129] = {
+		id = 45129,
+		damage = "126 x 4",
+		base = 45120,
 		weapon_id = {
-			45244
+			45129
 		}
 	},
-	[45245] = {
-		id = 45245,
-		damage = "107 x 5",
-		base = 45240,
+	[45130] = {
+		id = 45130,
+		damage = "133 x 4",
+		base = 45120,
 		weapon_id = {
-			45245
+			45130
 		}
 	},
-	[45246] = {
-		id = 45246,
-		damage = "115 x 5",
-		base = 45240,
+	[45140] = {
+		name = "四联装533mm磁性鱼雷",
+		speciality = "雷击",
+		type = 5,
+		tech = 3,
+		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
+		value_2 = 45,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 4",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			45246
+			45140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[45247] = {
-		id = 45247,
-		damage = "122 x 5",
-		base = 45240,
+	[45141] = {
+		id = 45141,
+		damage = "77 x 4",
+		base = 45140,
 		weapon_id = {
-			45247
+			45141
 		}
 	},
-	[45248] = {
-		id = 45248,
-		damage = "130 x 5",
-		base = 45240,
+	[45142] = {
+		id = 45142,
+		damage = "85 x 4",
+		base = 45140,
 		weapon_id = {
-			45248
+			45142
 		}
 	},
-	[45249] = {
-		id = 45249,
-		damage = "137 x 5",
-		base = 45240,
+	[45143] = {
+		id = 45143,
+		damage = "92 x 4",
+		base = 45140,
 		weapon_id = {
-			45249
+			45143
 		}
 	},
-	[45250] = {
-		id = 45250,
-		damage = "145 x 5",
-		base = 45240,
+	[45144] = {
+		id = 45144,
+		damage = "100 x 4",
+		base = 45140,
 		weapon_id = {
-			45250
+			45144
 		}
 	},
-	[45251] = {
+	[45145] = {
+		id = 45145,
+		damage = "107 x 4",
+		base = 45140,
+		weapon_id = {
+			45145
+		}
+	},
+	[45146] = {
+		id = 45146,
+		damage = "115 x 4",
+		base = 45140,
+		weapon_id = {
+			45146
+		}
+	},
+	[45147] = {
+		id = 45147,
+		damage = "122 x 4",
+		base = 45140,
+		weapon_id = {
+			45147
+		}
+	},
+	[45148] = {
+		id = 45148,
+		damage = "130 x 4",
+		base = 45140,
+		weapon_id = {
+			45148
+		}
+	},
+	[45149] = {
+		id = 45149,
+		damage = "137 x 4",
+		base = 45140,
+		weapon_id = {
+			45149
+		}
+	},
+	[45150] = {
+		id = 45150,
+		damage = "145 x 4",
+		base = 45140,
+		weapon_id = {
+			45150
+		}
+	},
+	[45151] = {
 		anti_siren = 100,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45251,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45151,
 		weapon_id = {
-			45251
+			45151
 		}
 	},
-	[45252] = {
+	[45152] = {
 		anti_siren = 200,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45252,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45152,
 		weapon_id = {
-			45252
-		}
-	},
-	[45253] = {
-		anti_siren = 300,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45253,
-		weapon_id = {
-			45253
-		}
-	},
-	[45300] = {
-		name = "潜艇用G7a鱼雷",
-		speciality = "雷击",
-		type = 13,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "45300",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "46 x 2",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 45300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45300
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45301] = {
-		id = 45301,
-		damage = "52 x 2",
-		base = 45300,
-		weapon_id = {
-			45301
-		}
-	},
-	[45302] = {
-		id = 45302,
-		damage = "59 x 2",
-		base = 45300,
-		weapon_id = {
-			45302
-		}
-	},
-	[45303] = {
-		id = 45303,
-		damage = "66 x 2",
-		base = 45300,
-		weapon_id = {
-			45303
-		}
-	},
-	[45320] = {
-		name = "潜艇用G7a鱼雷",
-		speciality = "雷击",
-		type = 13,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "45300",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "52 x 2",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 45320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45320
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
+			45152
 		}
 	}
 }

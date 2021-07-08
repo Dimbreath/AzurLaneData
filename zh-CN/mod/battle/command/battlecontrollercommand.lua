@@ -15,51 +15,6 @@ function slot0.Battle.BattleControllerCommand.Initialize(slot0)
 	slot0:InitBattleEvent()
 end
 
-function slot0.Battle.BattleControllerCommand.CheckDebugCombinedKey(slot0)
-	if Input.GetKey(KeyCode.LeftControl) then
-		if Input.GetKeyUp(KeyCode.Keypad0) then
-			if slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name) == nil then
-				slot0._state:AddMediator(uv0.Battle.BattleReferenceBoxMediator.New())
-				pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
-				pg.TipsMgr.GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ战斗调试模块初始化成功！(ง •̀_•́)ง┃")
-				pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
-			else
-				pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
-				pg.TipsMgr.GetInstance():ShowTips("┃ヽ(･ω･｡)ﾉ 战斗调试模块已经存在！(ﾉ･ω･)ﾉﾞ┃")
-				pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
-			end
-		elseif Input.GetKeyUp(KeyCode.Keypad1) then
-			slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitBoxes(true)
-		elseif Input.GetKeyUp(KeyCode.Keypad4) then
-			slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitBoxes(false)
-		elseif Input.GetKeyUp(KeyCode.Keypad2) then
-			slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveBulletBoxes(true)
-		elseif Input.GetKeyUp(KeyCode.Keypad5) then
-			slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveBulletBoxes(false)
-		elseif Input.GetKeyUp(KeyCode.Keypad3) then
-			slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitDetail(true)
-		elseif Input.GetKeyUp(KeyCode.Keypad6) then
-			slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitDetail(false)
-		elseif Input.GetKeyUp(KeyCode.KeypadPlus) then
-			if uv0.Battle.BattleConfig.BASIC_TIME_SCALE < 1 then
-				slot0.removeSpeed(2)
-			elseif slot1 >= 1 then
-				slot0.addSpeed(2)
-			end
-
-			slot0:scaleTime()
-		elseif Input.GetKeyUp(KeyCode.KeypadMinus) then
-			if uv0.Battle.BattleConfig.BASIC_TIME_SCALE > 1 then
-				slot0.removeSpeed(0.5)
-			elseif slot1 <= 1 then
-				slot0.addSpeed(0.5)
-			end
-
-			slot0:scaleTime()
-		end
-	end
-end
-
 function slot0.Battle.BattleControllerCommand.InitBattleEvent(slot0)
 end
 

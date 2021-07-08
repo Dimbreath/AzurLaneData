@@ -77,12 +77,18 @@ function slot0.register(slot0)
 				isMainOpen = uv0.viewComponent.isMainOpenLayerTag and true or nil
 			},
 			onRemoved = function ()
-				uv0.viewComponent:enterMenuPage(false)
+				if uv0.contextData.isFromNavalMeta == true then
+					uv0.viewComponent:closeView()
 
-				uv0.viewComponent.curPageIndex = nil
+					uv0.contextData.isFromNavalMeta = nil
+				else
+					uv0.viewComponent:enterMenuPage(false)
 
-				uv0.viewComponent:resetToggleList()
-				uv0.viewComponent:updateRedPoints()
+					uv0.viewComponent.curPageIndex = nil
+
+					uv0.viewComponent:resetToggleList()
+					uv0.viewComponent:updateRedPoints()
+				end
 			end
 		}), slot2)
 	end)

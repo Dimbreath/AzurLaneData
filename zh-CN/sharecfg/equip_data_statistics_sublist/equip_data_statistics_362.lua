@@ -1,304 +1,378 @@
 pg = pg or {}
 pg.equip_data_statistics_362 = {
-	[85169] = {
-		id = 85169,
-		damage = "15 x 6",
-		base = 85160,
+	[79712] = {
+		id = 79712,
+		name = "专属弹幕-旧金山II",
+		base = 79711,
 		weapon_id = {
-			85169
+			79712
 		}
 	},
-	[85170] = {
-		id = 85170,
-		damage = "16 x 6",
-		base = 85160,
-		weapon_id = {
-			85170
-		}
-	},
-	[85171] = {
-		anti_siren = 100,
-		damage = "16 x 6",
-		base = 85160,
-		id = 85171,
-		weapon_id = {
-			85171
-		}
-	},
-	[85172] = {
-		anti_siren = 200,
-		damage = "16 x 6",
-		base = 85160,
-		id = 85172,
-		weapon_id = {
-			85172
-		}
-	},
-	[85173] = {
-		anti_siren = 300,
-		damage = "16 x 6",
-		base = 85160,
-		id = 85173,
-		weapon_id = {
-			85173
-		}
-	},
-	[85180] = {
-		name = "37mm防空炮70-K",
-		speciality = "防空",
-		type = 6,
+	[79721] = {
+		name = "专属弹幕-射水鱼I",
 		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "9/轮",
-		nationality = 7,
-		ammo = 5,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85180,
+		id = 79721,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			85180
+			79721
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
+		label = {}
 	},
-	[85181] = {
-		id = 85181,
-		damage = "11/轮",
-		base = 85180,
+	[79722] = {
+		id = 79722,
+		name = "专属弹幕-射水鱼II",
+		base = 79721,
 		weapon_id = {
-			85181
+			79722
 		}
 	},
-	[85182] = {
-		id = 85182,
-		damage = "13/轮",
-		base = 85180,
+	[79731] = {
+		name = "专属弹幕-海伦娜.META I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79731,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85182
-		}
+			79731
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
 	},
-	[85183] = {
-		id = 85183,
-		damage = "16/轮",
-		base = 85180,
+	[79732] = {
+		id = 79732,
+		name = "专属弹幕-海伦娜.META II",
+		base = 79731,
 		weapon_id = {
-			85183
+			79732
 		}
 	},
-	[85200] = {
-		name = "37mm防空炮70-K",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "说明未填写",
+	[79741] = {
+		name = "专属弹幕-风云I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79741,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60651
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79742] = {
+		id = 79742,
+		name = "专属弹幕-风云II",
+		base = 79741,
+		weapon_id = {
+			60652
+		}
+	},
+	[79751] = {
+		name = "专属弹幕-安克雷奇I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79751,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60661
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79752] = {
+		id = 79752,
+		name = "专属弹幕-安克雷奇II",
+		base = 79751,
+		weapon_id = {
+			60662
+		}
+	},
+	[85000] = {
+		name = "B-13 双联装130mm主炮B-2LM",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
 		value_2 = 12,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
+		icon = "85000",
+		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "11/轮",
+		damage = "3 x 6",
 		nationality = 7,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 85200,
+		id = 85000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1700
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1700
+			},
+			{
+				4,
+				1024
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85200
+			85000
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"ST",
-			"AA"
+			"DD",
+			"MG"
 		}
 	},
-	[85201] = {
-		id = 85201,
-		damage = "13/轮",
-		base = 85200,
+	[85001] = {
+		id = 85001,
+		base = 85000,
 		weapon_id = {
-			85201
+			85001
 		}
 	},
-	[85202] = {
-		id = 85202,
-		damage = "16/轮",
-		base = 85200,
+	[85002] = {
+		id = 85002,
+		damage = "4 x 6",
+		base = 85000,
 		weapon_id = {
-			85202
+			85002
 		}
 	},
-	[85203] = {
-		id = 85203,
-		damage = "19/轮",
-		base = 85200,
+	[85003] = {
+		id = 85003,
+		damage = "4 x 6",
+		base = 85000,
 		weapon_id = {
-			85203
+			85003
 		}
 	},
-	[85204] = {
-		id = 85204,
-		damage = "22/轮",
-		base = 85200,
+	[85004] = {
+		id = 85004,
+		damage = "5 x 6",
+		base = 85000,
 		weapon_id = {
-			85204
+			85004
 		}
 	},
-	[85205] = {
-		id = 85205,
-		damage = "25/轮",
-		base = 85200,
+	[85005] = {
+		id = 85005,
+		damage = "6 x 6",
+		base = 85000,
 		weapon_id = {
-			85205
+			85005
 		}
 	},
-	[85206] = {
-		id = 85206,
-		damage = "28/轮",
-		base = 85200,
+	[85006] = {
+		id = 85006,
+		damage = "7 x 6",
+		base = 85000,
 		weapon_id = {
-			85206
+			85006
 		}
 	},
-	[85220] = {
-		name = "37mm防空炮70-K",
-		speciality = "防空",
-		type = 6,
+	[85040] = {
+		name = "B-13 双联装130mm主炮B-2LM",
+		speciality = "锁定",
+		type = 1,
 		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "14/轮",
+		descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
+		value_2 = 35,
+		icon = "85000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
 		nationality = 7,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 85220,
+		id = 85040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1710
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1710
+			},
+			{
+				4,
+				1024
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85220
+			85040
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"ST",
-			"AA"
+			"DD",
+			"MG"
 		}
 	}
 }

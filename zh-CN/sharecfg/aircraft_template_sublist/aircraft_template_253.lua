@@ -1,72 +1,67 @@
 pg = pg or {}
 pg.aircraft_template_253 = {
-	[86047] = {
-		id = 86047,
-		base = 86040,
-		max_hp = 83,
-		hp_growth = 3182,
+	[84023] = {
+		id = 84023,
+		base = 84020,
+		max_hp = 51,
+		hp_growth = 1949,
 		weapon_ID = {
-			50747
+			59023,
+			59423
 		}
 	},
-	[86048] = {
-		id = 86048,
-		base = 86040,
-		max_hp = 89,
-		hp_growth = 3415,
+	[84024] = {
+		id = 84024,
+		base = 84020,
+		max_hp = 56,
+		hp_growth = 2150,
 		weapon_ID = {
-			50748
+			59024,
+			59424
 		}
 	},
-	[86049] = {
-		id = 86049,
-		base = 86040,
-		max_hp = 95,
-		hp_growth = 3648,
+	[84025] = {
+		id = 84025,
+		base = 84020,
+		max_hp = 61,
+		hp_growth = 2352,
 		weapon_ID = {
-			50749
+			59025,
+			59425
 		}
 	},
-	[86050] = {
-		id = 86050,
-		base = 86040,
-		max_hp = 101,
-		hp_growth = 3881,
+	[84026] = {
+		id = 84026,
+		base = 84020,
+		max_hp = 66,
+		hp_growth = 2554,
 		weapon_ID = {
-			50750
+			59026,
+			59426
 		}
 	},
-	[86051] = {
-		id = 86051,
-		base = 86040,
-		max_hp = 107,
-		hp_growth = 4114,
-		weapon_ID = {
-			50751
-		}
-	},
-	[86060] = {
-		name = "Re.2001公羊T1",
-		max_hp = 30,
+	[84040] = {
+		name = "BF-109T舰载战斗机T3",
+		max_hp = 38,
 		accuracy = 23,
-		model_ID = "re2001",
+		model_ID = "BF109T",
 		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.339,
+		crash_DMG = 42,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 8,
+		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "re2001",
+		icon = "BF109T",
 		funnel_behavior = "",
-		nationality = 6,
-		hp_growth = 1149,
-		speed = 46,
-		id = 86060,
+		nationality = 4,
+		hp_growth = 1478,
+		speed = 50,
+		id = 84040,
 		scale = 1,
 		weapon_ID = {
-			50000,
-			50700
+			59040,
+			59440
 		},
 		position_offset = {
 			0,
@@ -120,109 +115,54 @@ pg.aircraft_template_253 = {
 			}
 		}
 	},
-	[86061] = {
-		id = 86061,
-		base = 86060,
-		max_hp = 34,
-		hp_growth = 1321,
+	[84041] = {
+		id = 84041,
+		base = 84040,
+		max_hp = 44,
+		hp_growth = 1700,
 		weapon_ID = {
-			50001,
-			50701
+			59041,
+			59441
 		}
 	},
-	[86062] = {
-		id = 86062,
-		base = 86060,
-		max_hp = 39,
-		hp_growth = 1494,
+	[84042] = {
+		id = 84042,
+		base = 84040,
+		max_hp = 50,
+		hp_growth = 1922,
 		weapon_ID = {
-			50002,
-			50702
+			59042,
+			59442
 		}
 	},
-	[86063] = {
-		id = 86063,
-		base = 86060,
-		max_hp = 43,
-		hp_growth = 1666,
+	[84043] = {
+		id = 84043,
+		base = 84040,
+		max_hp = 56,
+		hp_growth = 2144,
 		weapon_ID = {
-			50003,
-			50703
+			59043,
+			59443
 		}
 	},
-	[86080] = {
-		name = "Re.2001公羊T2",
-		max_hp = 33,
-		accuracy = 23,
-		model_ID = "re2001",
-		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.327,
-		attack_power = 2,
-		dodge_limit = 8.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "re2001",
-		funnel_behavior = "",
-		nationality = 6,
-		hp_growth = 1277,
-		speed = 46,
-		id = 86080,
-		scale = 1,
+	[84044] = {
+		id = 84044,
+		base = 84040,
+		max_hp = 62,
+		hp_growth = 2365,
 		weapon_ID = {
-			50020,
-			50720
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			59044,
+			59444
+		}
+	},
+	[84045] = {
+		id = 84045,
+		base = 84040,
+		max_hp = 67,
+		hp_growth = 2587,
+		weapon_ID = {
+			59045,
+			59445
 		}
 	}
 }

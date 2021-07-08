@@ -1,5 +1,118 @@
 pg = pg or {}
 pg.ship_skin_template_16 = {
+	[702021] = {
+		ship_group = 70202,
+		name = "囚牢与诱惑",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "呜…这演习算什么啦！我可没听说还有这种演出啊！喂，快给我解开啦！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shuixingjinian_2",
+		air_bullet_skin = "",
+		shop_type_id = 12,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "130",
+		skin_type = 4,
+		id = 702021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shuixingjinian_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70326,
+		voice_actor = 219,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.038,
+					1.026,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.074,
+					0.969,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.013,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.152,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.225,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[702022] = {
 		ship_group = 70202,
 		name = "樱桃与休息时间",
@@ -7933,130 +8046,6 @@ pg.ship_skin_template_16 = {
 							0.453,
 							0.524,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900002] = {
-		ship_group = 900002,
-		name = "卡尔斯鲁厄",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = 0,
-		desc = "无描述",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "kaersilue",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 0,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 900002,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "kaersilue",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 0,
-		air_bomb_skin = "",
-		illustrator = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.36,
-					0.73,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.36,
-					0.73,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.35,
-					0.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.82,
-							0.86,
-							-0.31
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.6,
-							2.59,
-							-0.38
 						}
 					}
 				}

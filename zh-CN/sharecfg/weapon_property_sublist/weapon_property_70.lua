@@ -2,122 +2,6 @@ pg = pg or {}
 pg.weapon_property_70 = {}
 
 function ()
-	uv0.weapon_property_70[45128] = {
-		id = 45128,
-		reload_max = 4240,
-		damage = 119,
-		base = 45120
-	}
-	uv0.weapon_property_70[45129] = {
-		id = 45129,
-		reload_max = 4135,
-		damage = 126,
-		base = 45120
-	}
-	uv0.weapon_property_70[45130] = {
-		id = 45130,
-		reload_max = 4030,
-		damage = 133,
-		base = 45120
-	}
-	uv0.weapon_property_70[45140] = {
-		action_index = "attack",
-		range = 52,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "四联装533mm磁性鱼雷T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 70,
-		corrected = 100,
-		min_range = 0,
-		id = 45140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 4830,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			1403
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_70[45141] = {
-		id = 45141,
-		reload_max = 4730,
-		damage = 77,
-		base = 45140
-	}
-	uv0.weapon_property_70[45142] = {
-		id = 45142,
-		reload_max = 4630,
-		damage = 85,
-		base = 45140
-	}
-	uv0.weapon_property_70[45143] = {
-		id = 45143,
-		reload_max = 4530,
-		damage = 92,
-		base = 45140
-	}
-	uv0.weapon_property_70[45144] = {
-		id = 45144,
-		reload_max = 4430,
-		damage = 100,
-		base = 45140
-	}
-	uv0.weapon_property_70[45145] = {
-		id = 45145,
-		reload_max = 4330,
-		damage = 107,
-		base = 45140
-	}
-	uv0.weapon_property_70[45146] = {
-		id = 45146,
-		reload_max = 4230,
-		damage = 115,
-		base = 45140
-	}
-	uv0.weapon_property_70[45147] = {
-		id = 45147,
-		reload_max = 4130,
-		damage = 122,
-		base = 45140
-	}
-	uv0.weapon_property_70[45148] = {
-		id = 45148,
-		reload_max = 4030,
-		damage = 130,
-		base = 45140
-	}
-	uv0.weapon_property_70[45149] = {
-		id = 45149,
-		reload_max = 3930,
-		damage = 137,
-		base = 45140
-	}
 	uv0.weapon_property_70[45150] = {
 		id = 45150,
 		reload_max = 3830,
@@ -609,5 +493,129 @@ function ()
 		reload_max = 2850,
 		damage = 82,
 		base = 45320
+	}
+	uv0.weapon_property_70[45325] = {
+		id = 45325,
+		reload_max = 2775,
+		damage = 90,
+		base = 45320
+	}
+	uv0.weapon_property_70[45326] = {
+		id = 45326,
+		reload_max = 2700,
+		damage = 98,
+		base = 45320
+	}
+	uv0.weapon_property_70[45340] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇用G7a鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 4,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 45340,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0.5,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1825
+		},
+		barrage_ID = {
+			1601
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_70[45341] = {
+		id = 45341,
+		reload_max = 2920,
+		damage = 66,
+		base = 45340
+	}
+	uv0.weapon_property_70[45342] = {
+		id = 45342,
+		reload_max = 2840,
+		damage = 74,
+		base = 45340
+	}
+	uv0.weapon_property_70[45343] = {
+		id = 45343,
+		reload_max = 2760,
+		damage = 82,
+		base = 45340
+	}
+	uv0.weapon_property_70[45344] = {
+		id = 45344,
+		reload_max = 2680,
+		damage = 90,
+		base = 45340
+	}
+	uv0.weapon_property_70[45345] = {
+		id = 45345,
+		reload_max = 2600,
+		damage = 99,
+		base = 45340
+	}
+	uv0.weapon_property_70[45346] = {
+		id = 45346,
+		reload_max = 2520,
+		damage = 108,
+		base = 45340
+	}
+	uv0.weapon_property_70[45347] = {
+		id = 45347,
+		reload_max = 2440,
+		damage = 117,
+		base = 45340
+	}
+	uv0.weapon_property_70[45348] = {
+		id = 45348,
+		reload_max = 2360,
+		damage = 126,
+		base = 45340
+	}
+	uv0.weapon_property_70[45349] = {
+		id = 45349,
+		reload_max = 2280,
+		damage = 135,
+		base = 45340
+	}
+	uv0.weapon_property_70[45350] = {
+		id = 45350,
+		reload_max = 2200,
+		damage = 144,
+		base = 45340
+	}
+	uv0.weapon_property_70[45351] = {
+		reload_max = 2200,
+		damage = 144,
+		base = 45340,
+		id = 45351,
+		corrected = 104
 	}
 end()

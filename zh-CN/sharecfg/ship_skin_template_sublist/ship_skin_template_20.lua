@@ -1,5 +1,109 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
+	[10300060] = {
+		ship_group = 1030006,
+		name = "芙米露露",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "初次见面，指挥官大人。我是芙米露露。听说小久她在这里才过来的……她在吧？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "fumilulu",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 10300060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "fumilulu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 156,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10300061] = {
 		ship_group = 1030006,
 		name = "芙米露露(传颂之物)",
@@ -6464,8 +6568,6 @@ pg.ship_skin_template_20 = {
 		bgm = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
 		bg = "",
 		skin_type = -1,
 		id = 399040,
@@ -6549,6 +6651,27 @@ pg.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				29,
+				-699,
+				0
+			},
+			{
+				0.9
+			}
+		},
+		special_effects = {
+			"lihui_wuqi",
+			{
+				0,
+				-8,
+				0
+			},
+			{
+				1
 			}
 		}
 	},
@@ -8434,6 +8557,564 @@ pg.ship_skin_template_20 = {
 							-0.51,
 							2.507,
 							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[199030] = {
+		ship_group = 19903,
+		name = "安克雷奇",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "重巡洋舰-—安克雷奇",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ankeleiqi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 199030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ankeleiqi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 59,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.535,
+					1.025,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.512,
+					1.042,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.016,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.509,
+					1.027,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.439,
+							2.519,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[399050] = {
+		ship_group = 39905,
+		name = "{namecode:204}",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "航空母舰—{namecode:204}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bailong",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 399050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bailong",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 109,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					2.035,
+					1.012,
+					0
+				}
+			},
+			plane = {
+				{
+					2.021,
+					1.013,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.441,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				20,
+				-627,
+				0
+			},
+			{
+				0.61
+			}
+		},
+		special_effects = {
+			"lihui_bailong",
+			{
+				0,
+				-51,
+				0
+			},
+			{
+				1
+			}
+		}
+	},
+	[499050] = {
+		ship_group = 49905,
+		name = "埃吉尔",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "大型重巡洋舰-—埃吉尔",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aijier",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 499050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aijier",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.212,
+					1.006,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.222,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.426,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				315,
+				-510,
+				0
+			},
+			{
+				0.75
+			}
+		},
+		special_effects = {
+			"lihui_aijier",
+			{
+				315,
+				123,
+				0
+			},
+			{
+				1.75
+			}
+		}
+	},
+	[499060] = {
+		ship_group = 49906,
+		name = "奥古斯特·冯·帕塞瓦尔",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "航空母舰—奥古斯特·冯·帕塞瓦尔",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aogusite",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 499060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aogusite",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			-30,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.67,
+					1.021,
+					0
+				}
+			},
+			plane = {
+				{
+					2.644,
+					1.021,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.405,
+							2.502,
+							-1.89
+						}
+					}
+				}
+			}
+		}
+	},
+	[699010] = {
+		ship_group = 69901,
+		name = "马可波罗",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "战列舰-—马可波罗",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "makeboluo",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 699010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "makeboluo",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 280,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.505,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.462,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					-0.014,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.417,
+					0.993,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.437,
+							0
 						}
 					}
 				}

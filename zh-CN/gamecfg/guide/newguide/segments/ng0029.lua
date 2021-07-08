@@ -118,7 +118,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "清扫会增加喵窝经验，一次清扫对所有喵窝生效，喵窝中的指挥喵越多获得的总经验越多。",
+				text = "清扫会增加喵窝经验，一次清扫对所有喵窝生效，进行互动的指挥喵越多，获得的喵窝总经验越多。",
 				mode = 1,
 				dir = -1,
 				posY = 0,
@@ -137,9 +137,9 @@ return {
 		},
 		{
 			alpha = 0.4,
-			delay = 1,
+			delay = 2,
 			style = {
-				text = "喂食会增加喵窝经验与指挥喵经验，一次喂食对所有喵窝生效，喵窝中的指挥喵越多获得的总经验越多。",
+				text = "喂食会增加喵窝经验与指挥喵经验，一次喂食对所有喵窝生效，进行互动的指挥喵越多，获得的收益越多。",
 				mode = 1,
 				dir = -1,
 				posY = 0,
@@ -158,7 +158,7 @@ return {
 		},
 		{
 			alpha = 0.4,
-			delay = 1,
+			delay = 2,
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/play",
 				triggerType = {
@@ -166,7 +166,7 @@ return {
 				}
 			},
 			style = {
-				text = "逗喵会加喵窝经验并有概率获得喵箱训练加速道具与家具币，喵窝中的指挥喵越多获得的总奖励越多",
+				text = "逗喵会加喵窝经验并有概率获得喵箱训练加速道具与家具币，进行互动的指挥喵越多，获得的总奖励越多",
 				mode = 1,
 				dir = -1,
 				posY = 122.14,

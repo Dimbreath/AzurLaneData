@@ -24,7 +24,6 @@ function slot0.execute(slot0, slot1)
 
 			underscore.each(PlayerConst.addTranDrop(slot0.catchup_list), function (slot0)
 				getProxy(TechnologyProxy):addCatupPrintsNum(slot0.count)
-				getProxy(TechnologyProxy):judgeOnCatchupOldAndFinished()
 			end)
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot4:isEnd() then

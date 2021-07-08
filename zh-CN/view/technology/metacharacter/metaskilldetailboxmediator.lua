@@ -23,8 +23,10 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 
-			slot4[slot6].isUpLevel = false
-			slot4[slot6].isMaxLevel = false
+			if slot6 then
+				slot4[slot6].isUpLevel = false
+				slot4[slot6].isMaxLevel = false
+			end
 		end
 
 		slot0.viewComponent:updateSkillList()

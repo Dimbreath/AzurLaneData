@@ -62,7 +62,7 @@ function slot0.InitMainView(slot0)
 	slot1 = slot0.home
 	slot0.levelTxt.text = "LV." .. slot1:GetLevel()
 	slot7 = slot1
-	slot0.expTxt.text = "EXP:" .. slot1.exp .. "/" .. slot1.GetNextLevelExp(slot7)
+	slot0.expTxt.text = "EXP " .. slot1.exp .. "/" .. slot1.GetNextLevelExp(slot7)
 	slot0.displays = {}
 	slot3 = slot1:bindConfigTable()
 

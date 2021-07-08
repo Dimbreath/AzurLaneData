@@ -1,128 +1,94 @@
 pg = pg or {}
 pg.equip_data_statistics_300 = {
-	[44142] = {
-		id = 44142,
-		damage = "72 x 2",
-		base = 44140,
+	[44044] = {
+		id = 44044,
+		damage = "60 x 3",
+		base = 44040,
 		weapon_id = {
-			44142
+			44044
 		}
 	},
-	[44143] = {
-		id = 44143,
-		damage = "80 x 2",
-		base = 44140,
+	[44045] = {
+		id = 44045,
+		damage = "64 x 3",
+		base = 44040,
 		weapon_id = {
-			44143
+			44045
 		}
 	},
-	[44144] = {
-		id = 44144,
-		damage = "86 x 2",
-		base = 44140,
+	[44046] = {
+		id = 44046,
+		damage = "70 x 3",
+		base = 44040,
 		weapon_id = {
-			44144
+			44046
 		}
 	},
-	[44145] = {
-		id = 44145,
-		damage = "94 x 2",
-		base = 44140,
+	[44047] = {
+		id = 44047,
+		damage = "74 x 3",
+		base = 44040,
 		weapon_id = {
-			44145
+			44047
 		}
 	},
-	[44146] = {
-		id = 44146,
-		damage = "100 x 2",
-		base = 44140,
+	[44048] = {
+		id = 44048,
+		damage = "80 x 3",
+		base = 44040,
 		weapon_id = {
-			44146
+			44048
 		}
 	},
-	[44147] = {
-		id = 44147,
-		damage = "108 x 2",
-		base = 44140,
+	[44049] = {
+		id = 44049,
+		damage = "84 x 3",
+		base = 44040,
 		weapon_id = {
-			44147
+			44049
 		}
 	},
-	[44148] = {
-		id = 44148,
-		damage = "118 x 2",
-		base = 44140,
+	[44050] = {
+		id = 44050,
+		damage = "88 x 3",
+		base = 44040,
 		weapon_id = {
-			44148
+			44050
 		}
 	},
-	[44149] = {
-		id = 44149,
-		damage = "124 x 2",
-		base = 44140,
-		weapon_id = {
-			44149
-		}
-	},
-	[44150] = {
-		id = 44150,
-		damage = "132 x 2",
-		base = 44140,
-		weapon_id = {
-			44150
-		}
-	},
-	[44151] = {
+	[44051] = {
 		anti_siren = 100,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44151,
+		damage = "88 x 3",
+		base = 44040,
+		id = 44051,
 		weapon_id = {
-			44151
+			44051
 		}
 	},
-	[44152] = {
-		anti_siren = 200,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44152,
-		weapon_id = {
-			44152
-		}
-	},
-	[44153] = {
-		anti_siren = 300,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44153,
-		weapon_id = {
-			44153
-		}
-	},
-	[44200] = {
-		name = "试作型双联装406mmSKC主炮",
+	[44100] = {
+		name = "双联380mmSKC主炮",
 		speciality = "跨射",
 		type = 4,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "44200",
+		tech = 1,
+		descrip = "双联380mmSKC主炮，俾斯麦级战列舰主炮，战巡和战列可以使用",
+		value_2 = 12,
+		icon = "44100",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "58 x 2",
+		rarity = 3,
+		damage = "48 x 2",
 		nationality = 4,
-		ammo = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 44200,
+		id = 44100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				2,
-				1502
+				1500
 			}
 		},
 		equip_info = {
@@ -134,7 +100,107 @@ pg.equip_data_statistics_300 = {
 			12
 		},
 		weapon_id = {
-			44200
+			44100
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44101] = {
+		id = 44101,
+		damage = "55 x 2",
+		base = 44100,
+		weapon_id = {
+			44101
+		}
+	},
+	[44102] = {
+		id = 44102,
+		damage = "61 x 2",
+		base = 44100,
+		weapon_id = {
+			44102
+		}
+	},
+	[44103] = {
+		id = 44103,
+		damage = "67 x 2",
+		base = 44100,
+		weapon_id = {
+			44103
+		}
+	},
+	[44104] = {
+		id = 44104,
+		damage = "73 x 2",
+		base = 44100,
+		weapon_id = {
+			44104
+		}
+	},
+	[44105] = {
+		id = 44105,
+		damage = "79 x 2",
+		base = 44100,
+		weapon_id = {
+			44105
+		}
+	},
+	[44106] = {
+		id = 44106,
+		damage = "86 x 2",
+		base = 44100,
+		weapon_id = {
+			44106
+		}
+	},
+	[44120] = {
+		name = "双联380mmSKC主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 2,
+		descrip = "双联380mmSKC主炮，俾斯麦级战列舰主炮，战巡和战列可以使用",
+		value_2 = 25,
+		icon = "44100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "55 x 2",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 44120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1501
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			44120
 		},
 		skill_id = {},
 		part_main = {
@@ -149,39 +215,15 @@ pg.equip_data_statistics_300 = {
 			"KMS",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[44201] = {
-		id = 44201,
-		damage = "68 x 2",
-		base = 44200,
+	[44121] = {
+		id = 44121,
+		damage = "61 x 2",
+		base = 44120,
 		weapon_id = {
-			44201
-		}
-	},
-	[44202] = {
-		id = 44202,
-		damage = "76 x 2",
-		base = 44200,
-		weapon_id = {
-			44202
-		}
-	},
-	[44203] = {
-		id = 44203,
-		damage = "86 x 2",
-		base = 44200,
-		weapon_id = {
-			44203
-		}
-	},
-	[44204] = {
-		id = 44204,
-		damage = "96 x 2",
-		base = 44200,
-		weapon_id = {
-			44204
+			44121
 		}
 	}
 }

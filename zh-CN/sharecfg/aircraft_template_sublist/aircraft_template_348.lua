@@ -1,316 +1,10 @@
 pg = pg or {}
 pg.aircraft_template_348 = {
-	[620501] = {
-		name = "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮",
-		max_hp = 20000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 2000,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 620501,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70087
-		},
-		weapon_ID = {
-			620503
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620502] = {
-		name = "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮",
-		max_hp = 20000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 2000,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 620502,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70088
-		},
-		weapon_ID = {
-			620503
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620510] = {
-		name = "【2020美系活动EX】塞壬构建者 第四波电饭锅终身浮游炮",
-		max_hp = 20000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 2000,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 620510,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70089
-		},
-		weapon_ID = {
-			620512,
-			620513
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620511] = {
-		name = "【2020美系活动EX】塞壬构建者 第四波电饭锅终身浮游炮",
-		max_hp = 20000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 2000,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 620511,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70090
-		},
-		weapon_ID = {
-			620512,
-			620513
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[650010] = {
-		name = "【2020法系活动A2】精英贝亚恩级量产型 战斗机",
+	[610022] = {
+		name = "【俾斯麦活动A2】战斗机",
 		max_hp = 86,
 		accuracy = 23,
-		model_ID = "GL2",
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
@@ -318,15 +12,16 @@ pg.aircraft_template_348 = {
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "GL2",
+		icon = "haipenhuo",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 1960,
 		speed = 33,
-		id = 650010,
+		id = 610022,
 		scale = 0.75,
 		weapon_ID = {
-			650013
+			610024,
+			610025
 		},
 		position_offset = {
 			0,
@@ -346,13 +41,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -369,7 +64,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -380,27 +75,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[650011] = {
-		name = "【2020法系活动A2】精英贝亚恩级量产型 鱼雷机",
+	[610023] = {
+		name = "【俾斯麦活动A2】鱼雷机",
 		max_hp = 96,
 		accuracy = 23,
-		model_ID = "PL7",
+		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "PL7",
+		icon = "jianyu",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2380,
 		speed = 30,
-		id = 650011,
+		id = 610023,
 		scale = 0.75,
 		weapon_ID = {
-			650014
+			610026
 		},
 		position_offset = {
 			0,
@@ -420,13 +115,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -443,7 +138,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.54,
+				0.51,
 				0,
 				0
 			},
@@ -454,27 +149,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[650012] = {
-		name = "【2020法系活动A2】精英贝亚恩级量产型 轰炸机",
-		max_hp = 104,
-		accuracy = 23,
-		model_ID = "v156f",
+	[610030] = {
+		name = "【俾斯麦活动A3】鱼雷封锁",
+		max_hp = 200,
+		accuracy = 50,
+		model_ID = "jianyu810",
 		ACC_growth = 0,
-		crash_DMG = 74,
+		crash_DMG = 120,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "v156f",
+		icon = "jianyu810",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2580,
+		hp_growth = 0,
 		speed = 30,
-		id = 650012,
+		id = 610030,
 		scale = 0.75,
 		weapon_ID = {
-			650015
+			610041
 		},
 		position_offset = {
 			0,
@@ -517,7 +212,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -528,11 +223,160 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[650210] = {
-		name = "【2020法系活动C2】精英贝亚恩级量产型 战斗机",
+	[610036] = {
+		name = "【俾斯麦活动A3】战斗机",
+		max_hp = 86,
+		accuracy = 23,
+		model_ID = "haipenhuo",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haipenhuo",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		id = 610036,
+		scale = 0.75,
+		weapon_ID = {
+			610038,
+			610039
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[610037] = {
+		name = "【俾斯麦活动A3】鱼雷机",
+		max_hp = 96,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 69,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2380,
+		speed = 30,
+		id = 610037,
+		scale = 0.75,
+		weapon_ID = {
+			610040
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[610092] = {
+		name = "【俾斯麦活动C2】战斗机",
 		max_hp = 141,
 		accuracy = 23,
-		model_ID = "GL2",
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
@@ -540,15 +384,16 @@ pg.aircraft_template_348 = {
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "GL2",
+		icon = "haipenhuo",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2520,
 		speed = 33,
-		id = 650210,
+		id = 610092,
 		scale = 0.75,
 		weapon_ID = {
-			650213
+			610094,
+			610095
 		},
 		position_offset = {
 			0,
@@ -568,13 +413,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -591,7 +436,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -602,27 +447,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[650211] = {
-		name = "【2020法系活动C2】精英贝亚恩级量产型 鱼雷机",
+	[610093] = {
+		name = "【俾斯麦活动C2】鱼雷机",
 		max_hp = 154,
 		accuracy = 23,
-		model_ID = "PL7",
+		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "PL7",
+		icon = "jianyu",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2880,
 		speed = 30,
-		id = 650211,
+		id = 610093,
 		scale = 0.75,
 		weapon_ID = {
-			650214
+			610096
 		},
 		position_offset = {
 			0,
@@ -642,13 +487,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -665,7 +510,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.54,
+				0.51,
 				0,
 				0
 			},
@@ -676,27 +521,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[650212] = {
-		name = "【2020法系活动C2】精英贝亚恩级量产型 轰炸机",
-		max_hp = 162,
-		accuracy = 23,
-		model_ID = "v156f",
+	[610100] = {
+		name = "【俾斯麦活动C3】鱼雷封锁",
+		max_hp = 600,
+		accuracy = 50,
+		model_ID = "jianyu810",
 		ACC_growth = 0,
-		crash_DMG = 126,
+		crash_DMG = 240,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "v156f",
+		icon = "jianyu810",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3060,
+		hp_growth = 0,
 		speed = 30,
-		id = 650212,
+		id = 610100,
 		scale = 0.75,
 		weapon_ID = {
-			650215
+			610111
 		},
 		position_offset = {
 			0,
@@ -739,7 +584,156 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
+				0.64,
 				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[610106] = {
+		name = "【俾斯麦活动C3】战斗机",
+		max_hp = 141,
+		accuracy = 23,
+		model_ID = "haipenhuo",
+		ACC_growth = 0,
+		crash_DMG = 79,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haipenhuo",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 610106,
+		scale = 0.75,
+		weapon_ID = {
+			610108,
+			610109
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[610107] = {
+		name = "【俾斯麦活动C3】鱼雷机",
+		max_hp = 154,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 114,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2880,
+		speed = 30,
+		id = 610107,
+		scale = 0.75,
+		weapon_ID = {
+			610110
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
 				0,
 				0
 			},

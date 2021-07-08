@@ -1,87 +1,69 @@
 pg = pg or {}
 pg.equip_data_statistics_317 = {
-	[46346] = {
-		id = 46346,
-		damage = "91/轮",
-		base = 46340,
+	[46246] = {
+		id = 46246,
+		damage = "38/轮",
+		base = 46240,
 		weapon_id = {
-			46346
+			46246
 		}
 	},
-	[46347] = {
-		id = 46347,
-		damage = "98/轮",
-		base = 46340,
+	[46247] = {
+		id = 46247,
+		damage = "41/轮",
+		base = 46240,
 		weapon_id = {
-			46347
+			46247
 		}
 	},
-	[46348] = {
-		id = 46348,
-		damage = "106/轮",
-		base = 46340,
+	[46248] = {
+		id = 46248,
+		damage = "44/轮",
+		base = 46240,
 		weapon_id = {
-			46348
+			46248
 		}
 	},
-	[46349] = {
-		id = 46349,
-		damage = "114/轮",
-		base = 46340,
+	[46249] = {
+		id = 46249,
+		damage = "47/轮",
+		base = 46240,
 		weapon_id = {
-			46349
+			46249
 		}
 	},
-	[46350] = {
-		id = 46350,
-		damage = "122/轮",
-		base = 46340,
+	[46250] = {
+		id = 46250,
+		damage = "50/轮",
+		base = 46240,
 		weapon_id = {
-			46350
+			46250
 		}
 	},
-	[46351] = {
+	[46251] = {
 		anti_siren = 100,
-		damage = "122/轮",
-		base = 46340,
-		id = 46351,
+		damage = "50/轮",
+		base = 46240,
+		id = 46251,
 		weapon_id = {
-			46351
+			46251
 		}
 	},
-	[46352] = {
-		anti_siren = 200,
-		damage = "122/轮",
-		base = 46340,
-		id = 46352,
-		weapon_id = {
-			46352
-		}
-	},
-	[46353] = {
-		anti_siren = 300,
-		damage = "122/轮",
-		base = 46340,
-		id = 46353,
-		weapon_id = {
-			46353
-		}
-	},
-	[46360] = {
-		name = "双联105mmSKC高炮改进型",
+	[46260] = {
+		name = "双联37mm Flak M43机枪",
 		speciality = "防空",
 		type = 6,
 		tech = 0,
 		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "46360",
+		value_2 = 25,
+		icon = "46260",
 		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "55/轮",
+		rarity = 4,
+		damage = "26/轮",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46360,
+		id = 46260,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -93,7 +75,7 @@ pg.equip_data_statistics_317 = {
 			10
 		},
 		weapon_id = {
-			46360
+			46260
 		},
 		skill_id = {},
 		part_main = {
@@ -129,68 +111,84 @@ pg.equip_data_statistics_317 = {
 			"AA"
 		}
 	},
-	[46361] = {
-		id = 46361,
-		damage = "62/轮",
-		base = 46360,
+	[46261] = {
+		id = 46261,
+		damage = "29/轮",
+		base = 46260,
 		weapon_id = {
-			46361
+			46261
 		}
 	},
-	[46362] = {
-		id = 46362,
-		damage = "69/轮",
-		base = 46360,
+	[46262] = {
+		id = 46262,
+		damage = "32/轮",
+		base = 46260,
 		weapon_id = {
-			46362
+			46262
 		}
 	},
-	[46363] = {
-		id = 46363,
-		damage = "76/轮",
-		base = 46360,
+	[46263] = {
+		id = 46263,
+		damage = "35/轮",
+		base = 46260,
 		weapon_id = {
-			46363
+			46263
 		}
 	},
-	[46364] = {
-		id = 46364,
-		damage = "83/轮",
-		base = 46360,
+	[46264] = {
+		id = 46264,
+		damage = "38/轮",
+		base = 46260,
 		weapon_id = {
-			46364
+			46264
 		}
 	},
-	[46365] = {
-		id = 46365,
-		damage = "90/轮",
-		base = 46360,
+	[46265] = {
+		id = 46265,
+		damage = "41/轮",
+		base = 46260,
 		weapon_id = {
-			46365
+			46265
 		}
 	},
-	[46366] = {
-		id = 46366,
-		damage = "97/轮",
-		base = 46360,
+	[46266] = {
+		id = 46266,
+		damage = "44/轮",
+		base = 46260,
 		weapon_id = {
-			46366
+			46266
 		}
 	},
-	[46367] = {
-		id = 46367,
-		damage = "104/轮",
-		base = 46360,
+	[46267] = {
+		id = 46267,
+		damage = "47/轮",
+		base = 46260,
 		weapon_id = {
-			46367
+			46267
 		}
 	},
-	[46368] = {
-		id = 46368,
-		damage = "112/轮",
-		base = 46360,
+	[46268] = {
+		id = 46268,
+		damage = "50/轮",
+		base = 46260,
 		weapon_id = {
-			46368
+			46268
+		}
+	},
+	[46269] = {
+		id = 46269,
+		damage = "53/轮",
+		base = 46260,
+		weapon_id = {
+			46269
+		}
+	},
+	[46270] = {
+		id = 46270,
+		damage = "56/轮",
+		base = 46260,
+		weapon_id = {
+			46270
 		}
 	}
 }

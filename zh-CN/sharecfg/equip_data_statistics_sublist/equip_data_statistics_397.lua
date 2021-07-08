@@ -1,189 +1,180 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
-	[95140] = {
-		name = "90mm单装高角炮Model1939",
-		speciality = "防空",
-		type = 6,
-		tech = 3,
+	[91000] = {
+		name = "试作型三联装406mm/50主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
 		descrip = "说明未填写",
 		value_2 = 45,
-		icon = "55100",
-		attribute_2 = "antiaircraft",
+		icon = "51000",
+		attribute_2 = "cannon",
 		rarity = 5,
-		damage = "40/轮",
-		nationality = 6,
-		ammo = 5,
+		damage = "54 x 3",
+		nationality = 8,
+		ammo = 1,
 		value_3 = 0,
-		id = 95140,
+		id = 91000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1580
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			95140
+			91000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"RN",
-			"ST",
-			"AA"
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[95141] = {
-		id = 95141,
-		damage = "45/轮",
-		base = 95140,
+	[91001] = {
+		id = 91001,
+		damage = "64 x 3",
+		base = 91000,
 		weapon_id = {
-			95141
+			91001
 		}
 	},
-	[95142] = {
-		id = 95142,
-		damage = "50/轮",
-		base = 95140,
+	[91002] = {
+		id = 91002,
+		damage = "72 x 3",
+		base = 91000,
 		weapon_id = {
-			95142
+			91002
 		}
 	},
-	[95143] = {
-		id = 95143,
-		damage = "56/轮",
-		base = 95140,
+	[91003] = {
+		id = 91003,
+		damage = "82 x 3",
+		base = 91000,
 		weapon_id = {
-			95143
+			91003
 		}
 	},
-	[95144] = {
-		id = 95144,
-		damage = "62/轮",
-		base = 95140,
+	[91004] = {
+		id = 91004,
+		damage = "92 x 3",
+		base = 91000,
 		weapon_id = {
-			95144
+			91004
 		}
 	},
-	[95145] = {
-		id = 95145,
-		damage = "68/轮",
-		base = 95140,
+	[91005] = {
+		id = 91005,
+		damage = "102 x 3",
+		base = 91000,
 		weapon_id = {
-			95145
+			91005
 		}
 	},
-	[95146] = {
-		id = 95146,
-		damage = "74/轮",
-		base = 95140,
+	[91006] = {
+		id = 91006,
+		damage = "112 x 3",
+		base = 91000,
 		weapon_id = {
-			95146
+			91006
 		}
 	},
-	[95147] = {
-		id = 95147,
-		damage = "80/轮",
-		base = 95140,
+	[91007] = {
+		id = 91007,
+		damage = "120 x 3",
+		base = 91000,
 		weapon_id = {
-			95147
+			91007
 		}
 	},
-	[95148] = {
-		id = 95148,
-		damage = "86/轮",
-		base = 95140,
+	[91008] = {
+		id = 91008,
+		damage = "130 x 3",
+		base = 91000,
 		weapon_id = {
-			95148
+			91008
 		}
 	},
-	[95149] = {
-		id = 95149,
-		damage = "92/轮",
-		base = 95140,
+	[91009] = {
+		id = 91009,
+		damage = "140 x 3",
+		base = 91000,
 		weapon_id = {
-			95149
+			91009
 		}
 	},
-	[95150] = {
-		id = 95150,
-		damage = "98/轮",
-		base = 95140,
+	[91010] = {
+		id = 91010,
+		damage = "150 x 3",
+		base = 91000,
 		weapon_id = {
-			95150
+			91010
 		}
 	},
-	[95151] = {
+	[91011] = {
 		anti_siren = 100,
-		damage = "98/轮",
-		base = 95140,
-		id = 95151,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91011,
 		weapon_id = {
-			95151
+			91011
 		}
 	},
-	[95152] = {
+	[91012] = {
 		anti_siren = 200,
-		damage = "98/轮",
-		base = 95140,
-		id = 95152,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91012,
 		weapon_id = {
-			95152
+			91012
 		}
 	},
-	[95153] = {
+	[91013] = {
 		anti_siren = 300,
-		damage = "98/轮",
-		base = 95140,
-		id = 95153,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91013,
 		weapon_id = {
-			95153
+			91013
 		}
 	},
-	[95200] = {
-		name = "双联203mm主炮Model1927",
-		speciality = "锁定",
-		type = 3,
+	[95000] = {
+		name = "三联装381mm主炮Model1934",
+		speciality = "跨射",
+		type = 4,
 		tech = 1,
-		descrip = "说明未填写",
+		descrip = "三联装381mm主炮，维托里奥·维内托级战列舰主炮，战巡和战列可以使用",
 		value_2 = 12,
-		icon = "55200",
+		icon = "55000",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "19 x 8",
+		damage = "42 x 3",
 		nationality = 6,
 		ammo = 3,
 		value_3 = 0,
-		id = 95200,
+		id = 95000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -191,57 +182,50 @@ pg.equip_data_statistics_397 = {
 		},
 		ammo_info = {
 			{
-				1,
-				1400
+				2,
+				1560
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1400
-			},
-			{
-				4,
-				1221
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			95200
+			95000
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			4,
+			5,
+			10,
+			13
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"CA",
-			"MG",
-			"CM"
+			"BB",
+			"MG"
 		}
 	},
-	[95201] = {
-		id = 95201,
-		damage = "20 x 8",
-		base = 95200,
+	[95001] = {
+		id = 95001,
+		damage = "50 x 3",
+		base = 95000,
 		weapon_id = {
-			95201
+			95001
 		}
 	},
-	[95202] = {
-		id = 95202,
-		damage = "21 x 8",
-		base = 95200,
+	[95002] = {
+		id = 95002,
+		damage = "58 x 3",
+		base = 95000,
 		weapon_id = {
-			95202
+			95002
 		}
 	}
 }

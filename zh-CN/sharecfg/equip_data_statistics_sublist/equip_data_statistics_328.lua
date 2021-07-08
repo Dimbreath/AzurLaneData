@@ -1,259 +1,465 @@
 pg = pg or {}
 pg.equip_data_statistics_328 = {
-	[60062] = {
-		id = 60062,
-		name = "航空攻击展示-约克城II",
-		base = 60061,
-		weapon_id = {
-			60062
-		}
-	},
-	[60063] = {
-		id = 60063,
-		name = "航空攻击展示-约克城III",
-		base = 60061,
-		weapon_id = {
-			60063
-		}
-	},
-	[60071] = {
-		name = "航空攻击展示-企业I",
+	[49000] = {
+		name = "Ju-87C俯冲轰炸机",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 2,
 		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
+		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
+		value_2 = 5,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 60071,
+		id = 49000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59300
+			},
+			{
+				5,
+				52600
+			},
+			{
+				5,
+				53000
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			60071
+			49000
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
-		label = {}
-	},
-	[60072] = {
-		id = 60072,
-		name = "航空攻击展示-企业II",
-		base = 60071,
-		weapon_id = {
-			60072
+		label = {
+			"KMS",
+			"CV",
+			"DB"
 		}
 	},
-	[60073] = {
-		id = 60073,
-		name = "航空攻击展示-企业III",
-		base = 60071,
+	[49001] = {
+		id = 49001,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59301
+			},
+			{
+				5,
+				52601
+			},
+			{
+				5,
+				53001
+			}
+		},
 		weapon_id = {
-			60073
+			49001
 		}
 	},
-	[60081] = {
-		name = "航空攻击展示-大黄蜂I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
+	[49002] = {
+		id = 49002,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59302
+			},
+			{
+				5,
+				52602
+			},
+			{
+				5,
+				53002
+			}
+		},
+		weapon_id = {
+			49002
+		}
+	},
+	[49003] = {
+		id = 49003,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59303
+			},
+			{
+				5,
+				52603
+			},
+			{
+				5,
+				53003
+			}
+		},
+		weapon_id = {
+			49003
+		}
+	},
+	[49020] = {
+		name = "Ju-87C俯冲轰炸机",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 3,
+		tech = 2,
+		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
+		value_2 = 12,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 60081,
+		id = 49020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59320
+			},
+			{
+				5,
+				52620
+			},
+			{
+				5,
+				53020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			60081
+			49020
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
-		label = {}
-	},
-	[60082] = {
-		id = 60082,
-		name = "航空攻击展示-大黄蜂II",
-		base = 60081,
-		weapon_id = {
-			60082
+		label = {
+			"KMS",
+			"CV",
+			"DB"
 		}
 	},
-	[60083] = {
-		id = 60083,
-		name = "航空攻击展示-大黄蜂III",
-		base = 60081,
+	[49021] = {
+		id = 49021,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59321
+			},
+			{
+				5,
+				52621
+			},
+			{
+				5,
+				53021
+			}
+		},
 		weapon_id = {
-			60083
+			49021
 		}
 	},
-	[60091] = {
-		name = "航空攻击展示-竞技神I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
+	[49022] = {
+		id = 49022,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59322
+			},
+			{
+				5,
+				52622
+			},
+			{
+				5,
+				53022
+			}
+		},
+		weapon_id = {
+			49022
+		}
+	},
+	[49023] = {
+		id = 49023,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59323
+			},
+			{
+				5,
+				52623
+			},
+			{
+				5,
+				53023
+			}
+		},
+		weapon_id = {
+			49023
+		}
+	},
+	[49024] = {
+		id = 49024,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59324
+			},
+			{
+				5,
+				52624
+			},
+			{
+				5,
+				53024
+			}
+		},
+		weapon_id = {
+			49024
+		}
+	},
+	[49025] = {
+		id = 49025,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59325
+			},
+			{
+				5,
+				52625
+			},
+			{
+				5,
+				53025
+			}
+		},
+		weapon_id = {
+			49025
+		}
+	},
+	[49026] = {
+		id = 49026,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59326
+			},
+			{
+				5,
+				52626
+			},
+			{
+				5,
+				53026
+			}
+		},
+		weapon_id = {
+			49026
+		}
+	},
+	[49040] = {
+		name = "Ju-87C俯冲轰炸机",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 4,
+		tech = 3,
+		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
+		value_2 = 25,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 60091,
+		id = 49040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59340
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				53040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			60091
+			49040
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60092] = {
-		id = 60092,
-		name = "航空攻击展示-竞技神II",
-		base = 60091,
-		weapon_id = {
-			60092
-		}
-	},
-	[60101] = {
-		name = "航空攻击展示-皇家方舟I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60101,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60101
+		part_main = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60102] = {
-		id = 60102,
-		name = "航空攻击展示-皇家方舟II",
-		base = 60101,
-		weapon_id = {
-			60102
-		}
-	},
-	[60103] = {
-		id = 60103,
-		name = "航空攻击展示-皇家方舟III",
-		base = 60101,
-		weapon_id = {
-			60103
-		}
-	},
-	[60111] = {
-		name = "航空攻击展示-光辉I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60111,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60111
+		part_sub = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
 		equip_parameters = {},
-		label = {}
-	},
-	[60112] = {
-		id = 60112,
-		name = "航空攻击展示-光辉II",
-		base = 60111,
-		weapon_id = {
-			60112
+		label = {
+			"KMS",
+			"CV",
+			"DB"
 		}
 	},
-	[60113] = {
-		id = 60113,
-		name = "航空攻击展示-光辉III",
-		base = 60111,
-		weapon_id = {
-			60113
-		}
-	},
-	[60121] = {
-		name = "航空攻击展示-祥凤I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60121,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60121
+	[49041] = {
+		id = 49041,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59341
+			},
+			{
+				5,
+				52641
+			},
+			{
+				5,
+				53041
+			}
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
+		weapon_id = {
+			49041
+		}
+	},
+	[49042] = {
+		id = 49042,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59342
+			},
+			{
+				5,
+				52642
+			},
+			{
+				5,
+				53042
+			}
+		},
+		weapon_id = {
+			49042
+		}
+	},
+	[49043] = {
+		id = 49043,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59343
+			},
+			{
+				5,
+				52643
+			},
+			{
+				5,
+				53043
+			}
+		},
+		weapon_id = {
+			49043
+		}
+	},
+	[49044] = {
+		id = 49044,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59344
+			},
+			{
+				5,
+				52644
+			},
+			{
+				5,
+				53044
+			}
+		},
+		weapon_id = {
+			49044
+		}
+	},
+	[49045] = {
+		id = 49045,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59345
+			},
+			{
+				5,
+				52645
+			},
+			{
+				5,
+				53045
+			}
+		},
+		weapon_id = {
+			49045
+		}
 	}
 }

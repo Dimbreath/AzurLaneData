@@ -1,5 +1,116 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
+	[502018] = {
+		ship_group = 50201,
+		name = "凤冠霞帔",
+		bg_sp = "",
+		group_index = 8,
+		illustrator2 = -1,
+		desc = "呼…让您久等了，指挥官。逸仙不才，烦请指挥官多多包涵了——",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yixian_h",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 9,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = 1,
+		id = 502018,
+		voice_actor_2 = 197,
+		air_torpedo_skin = "",
+		prefab = "yixian_h",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 74,
+		air_bomb_skin = "",
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.064,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.07,
+					0.921,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.005,
+					0.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.097,
+					0.961,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.946,
+							4.368,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502020] = {
 		ship_group = 50202,
 		name = "宁海",
@@ -7867,119 +7978,6 @@ pg.ship_skin_template_15 = {
 						{
 							-0.38,
 							2.196,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702021] = {
-		ship_group = 70202,
-		name = "囚牢与诱惑",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "呜…这演习算什么啦！我可没听说还有这种演出啊！喂，快给我解开啦！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "shuixingjinian_2",
-		air_bullet_skin = "",
-		shop_type_id = 12,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "130",
-		skin_type = 4,
-		id = 702021,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "shuixingjinian_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70326,
-		voice_actor = 219,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.038,
-					1.026,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.074,
-					0.969,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					0.013,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.152,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.38,
-							2.225,
 							0
 						}
 					}

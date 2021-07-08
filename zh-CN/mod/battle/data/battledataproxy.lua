@@ -514,6 +514,10 @@ function slot8.GetCommander(slot0)
 	return slot0._commander
 end
 
+function slot8.GetCommanderBuff(slot0)
+	return slot0._commanderBuff, slot0._subCommanderBuff
+end
+
 function slot8.GetStageInfo(slot0)
 	return slot0._currentStageData
 end

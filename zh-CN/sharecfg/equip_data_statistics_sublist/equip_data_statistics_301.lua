@@ -1,104 +1,101 @@
 pg = pg or {}
 pg.equip_data_statistics_301 = {
-	[44205] = {
-		id = 44205,
-		damage = "106 x 2",
-		base = 44200,
+	[44122] = {
+		id = 44122,
+		damage = "67 x 2",
+		base = 44120,
 		weapon_id = {
-			44205
+			44122
 		}
 	},
-	[44206] = {
-		id = 44206,
-		damage = "116 x 2",
-		base = 44200,
+	[44123] = {
+		id = 44123,
+		damage = "74 x 2",
+		base = 44120,
 		weapon_id = {
-			44206
+			44123
 		}
 	},
-	[44207] = {
-		id = 44207,
-		damage = "124 x 2",
-		base = 44200,
+	[44124] = {
+		id = 44124,
+		damage = "80 x 2",
+		base = 44120,
 		weapon_id = {
-			44207
+			44124
 		}
 	},
-	[44208] = {
-		id = 44208,
-		damage = "134 x 2",
-		base = 44200,
+	[44125] = {
+		id = 44125,
+		damage = "87 x 2",
+		base = 44120,
 		weapon_id = {
-			44208
+			44125
 		}
 	},
-	[44209] = {
-		id = 44209,
-		damage = "144 x 2",
-		base = 44200,
+	[44126] = {
+		id = 44126,
+		damage = "93 x 2",
+		base = 44120,
 		weapon_id = {
-			44209
+			44126
 		}
 	},
-	[44210] = {
-		id = 44210,
-		damage = "154 x 2",
-		base = 44200,
+	[44127] = {
+		id = 44127,
+		damage = "100 x 2",
+		base = 44120,
 		weapon_id = {
-			44210
+			44127
 		}
 	},
-	[44211] = {
-		anti_siren = 100,
-		damage = "154 x 2",
-		base = 44200,
-		id = 44211,
+	[44128] = {
+		id = 44128,
+		damage = "107 x 2",
+		base = 44120,
 		weapon_id = {
-			44211
+			44128
 		}
 	},
-	[44212] = {
-		anti_siren = 200,
-		damage = "154 x 2",
-		base = 44200,
-		id = 44212,
+	[44129] = {
+		id = 44129,
+		damage = "114 x 2",
+		base = 44120,
 		weapon_id = {
-			44212
+			44129
 		}
 	},
-	[44213] = {
-		anti_siren = 300,
-		damage = "154 x 2",
-		base = 44200,
-		id = 44213,
+	[44130] = {
+		id = 44130,
+		damage = "122 x 2",
+		base = 44120,
 		weapon_id = {
-			44213
+			44130
 		}
 	},
-	[44300] = {
-		name = "试作型三联装305mmSKC39主炮",
+	[44140] = {
+		name = "双联380mmSKC主炮",
 		speciality = "跨射",
 		type = 4,
-		tech = 0,
-		descrip = "说明未填写",
+		tech = 3,
+		descrip = "双联380mmSKC主炮，俾斯麦级战列舰主炮，战巡和战列可以使用",
 		value_2 = 45,
-		icon = "44300",
+		icon = "44100",
 		attribute_2 = "cannon",
 		rarity = 5,
-		damage = "57 x 3",
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 2,
+		ammo = 1,
 		value_3 = 0,
-		id = 44300,
+		id = 44140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1590
+				1501
 			}
 		},
 		equip_info = {
@@ -110,7 +107,7 @@ pg.equip_data_statistics_301 = {
 			12
 		},
 		weapon_id = {
-			44300
+			44140
 		},
 		skill_id = {},
 		part_main = {
@@ -125,63 +122,63 @@ pg.equip_data_statistics_301 = {
 			"KMS",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[44301] = {
-		id = 44301,
-		damage = "63 x 3",
-		base = 44300,
+	[44141] = {
+		id = 44141,
+		damage = "64 x 2",
+		base = 44140,
 		weapon_id = {
-			44301
+			44141
 		}
 	},
-	[44302] = {
-		id = 44302,
-		damage = "67 x 3",
-		base = 44300,
+	[44142] = {
+		id = 44142,
+		damage = "72 x 2",
+		base = 44140,
 		weapon_id = {
-			44302
+			44142
 		}
 	},
-	[44303] = {
-		id = 44303,
-		damage = "73 x 3",
-		base = 44300,
+	[44143] = {
+		id = 44143,
+		damage = "80 x 2",
+		base = 44140,
 		weapon_id = {
-			44303
+			44143
 		}
 	},
-	[44304] = {
-		id = 44304,
-		damage = "77 x 3",
-		base = 44300,
+	[44144] = {
+		id = 44144,
+		damage = "86 x 2",
+		base = 44140,
 		weapon_id = {
-			44304
+			44144
 		}
 	},
-	[44305] = {
-		id = 44305,
-		damage = "81 x 3",
-		base = 44300,
+	[44145] = {
+		id = 44145,
+		damage = "94 x 2",
+		base = 44140,
 		weapon_id = {
-			44305
+			44145
 		}
 	},
-	[44306] = {
-		id = 44306,
-		damage = "87 x 3",
-		base = 44300,
+	[44146] = {
+		id = 44146,
+		damage = "100 x 2",
+		base = 44140,
 		weapon_id = {
-			44306
+			44146
 		}
 	},
-	[44307] = {
-		id = 44307,
-		damage = "91 x 3",
-		base = 44300,
+	[44147] = {
+		id = 44147,
+		damage = "108 x 2",
+		base = 44140,
 		weapon_id = {
-			44307
+			44147
 		}
 	}
 }

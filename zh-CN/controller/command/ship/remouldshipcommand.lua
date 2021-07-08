@@ -164,12 +164,25 @@ function slot0.execute(slot0, slot1)
 			uv0:updateName()
 			uv7:updateShip(uv0)
 
-			for slot9, slot10 in ipairs(uv8 or {}) do
-				uv7:removeShipById(slot10)
+			slot6 = getProxy(EquipmentProxy)
+
+			for slot10, slot11 in ipairs(uv8 or {}) do
+				for slot16, slot17 in ipairs(uv7:getShipById(slot11).equipments) do
+					if slot17 then
+						slot6:addEquipment(slot17)
+					end
+
+					if slot12:getEquipSkin(slot16) ~= 0 then
+						slot6:addEquipmentSkin(slot12:getEquipSkin(slot16), 1)
+						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
+					end
+				end
+
+				uv7:removeShipById(slot11)
 			end
 
-			slot6 = nil
-			slot6 = coroutine.create(function ()
+			slot7 = nil
+			slot7 = coroutine.create(function ()
 				for slot3, slot4 in ipairs(uv0.equipments) do
 					if slot4 and not uv0:canEquipAtPos(slot4, slot3) then
 						uv1:sendNotification(GAME.UNEQUIP_FROM_SHIP, {

@@ -1,138 +1,239 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
-	[89031] = {
-		id = 89031,
-		anti_siren = 100,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "530"
+	[85383] = {
+		id = 85383,
+		damage = "45/轮",
+		base = 85380,
+		weapon_id = {
+			85383
+		}
 	},
-	[89032] = {
-		id = 89032,
-		anti_siren = 200,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "560"
+	[85384] = {
+		id = 85384,
+		damage = "51/轮",
+		base = 85380,
+		weapon_id = {
+			85384
+		}
 	},
-	[89033] = {
-		id = 89033,
-		anti_siren = 300,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "590"
+	[85385] = {
+		id = 85385,
+		damage = "57/轮",
+		base = 85380,
+		weapon_id = {
+			85385
+		}
 	},
-	[89040] = {
-		name = "智慧模块",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89040,
-		value_2 = 3,
-		icon = "89040",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#ff5c5c>（该装备绊爱联动活动结束后装备技能失效）</color>",
-		nationality = 104,
-		ammo = 10,
+	[85386] = {
+		id = 85386,
+		damage = "64/轮",
+		base = 85380,
+		weapon_id = {
+			85386
+		}
+	},
+	[85400] = {
+		name = "B-34 100mm双联装防空炮MZ-14",
+		speciality = "防空",
+		type = 6,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "38/轮",
+		nationality = 7,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 85400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6400
+		weapon_id = {
+			85400
 		},
-		part_main = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85401] = {
+		id = 85401,
+		damage = "42/轮",
+		base = 85400,
+		weapon_id = {
+			85401
+		}
+	},
+	[85402] = {
+		id = 85402,
+		damage = "47/轮",
+		base = 85400,
+		weapon_id = {
+			85402
+		}
+	},
+	[85403] = {
+		id = 85403,
+		damage = "53/轮",
+		base = 85400,
+		weapon_id = {
+			85403
+		}
+	},
+	[85404] = {
+		id = 85404,
+		damage = "59/轮",
+		base = 85400,
+		weapon_id = {
+			85404
+		}
+	},
+	[85405] = {
+		id = 85405,
+		damage = "65/轮",
+		base = 85400,
+		weapon_id = {
+			85405
+		}
+	},
+	[85406] = {
+		id = 85406,
+		damage = "71/轮",
+		base = 85400,
+		weapon_id = {
+			85406
+		}
+	},
+	[85407] = {
+		id = 85407,
+		damage = "77/轮",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/轮",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/轮",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/轮",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/轮",
+		base = 85400,
+		id = 85411,
+		weapon_id = {
+			85411
+		}
+	},
+	[85420] = {
+		name = "三联装305mm主炮Model1907",
+		speciality = "跨射",
+		type = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "85420",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "54 x 3",
+		nationality = 7,
+		ammo = 2,
+		value_3 = 0,
+		id = 85420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
 		}
-	},
-	[89041] = {
-		id = 89041,
-		value_1 = "112",
-		base = 89040
-	},
-	[89042] = {
-		id = 89042,
-		value_2 = 4,
-		value_1 = "127",
-		base = 89040
-	},
-	[89043] = {
-		id = 89043,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89040
-	},
-	[89044] = {
-		id = 89044,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89040
-	},
-	[89045] = {
-		id = 89045,
-		value_2 = 5,
-		value_1 = "171",
-		base = 89040
-	},
-	[89046] = {
-		id = 89046,
-		value_2 = 6,
-		value_1 = "186",
-		base = 89040
-	},
-	[89047] = {
-		id = 89047,
-		value_2 = 6,
-		value_1 = "200",
-		base = 89040
-	},
-	[89048] = {
-		id = 89048,
-		value_2 = 7,
-		value_1 = "215",
-		base = 89040
-	},
-	[89049] = {
-		id = 89049,
-		value_2 = 7,
-		value_1 = "230",
-		base = 89040
-	},
-	[89050] = {
-		id = 89050,
-		value_2 = 8,
-		value_1 = "245",
-		base = 89040
-	},
-	[89051] = {
-		id = 89051,
-		anti_siren = 100,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "260"
-	},
-	[89052] = {
-		id = 89052,
-		anti_siren = 200,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "275"
-	},
-	[89053] = {
-		id = 89053,
-		anti_siren = 300,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "290"
 	}
 }

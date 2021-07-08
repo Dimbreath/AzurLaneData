@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot9:getEquip(slot4) or not slot10:hasSkin() then
+	if slot9:getEquipSkin(slot4) == 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_no_old_skinorequipment"))
 
 		return
@@ -25,15 +25,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot11:getEquip(slot6) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_no_new_equipment"))
-
-		return
-	end
-
-	slot13 = slot10.skinId
-
-	function slot14()
+	function slot12()
 		if not uv0:getEquipmnentSkinById(uv1) or slot0.count == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
 
@@ -46,17 +38,16 @@ function slot0.execute(slot0, slot1)
 			pos = uv3
 		}, 12037, function (slot0)
 			if slot0.result == 0 then
-				uv1:updateEquipmentSkin(uv2, uv3)
-				uv4:updateShip(uv1)
-
-				if uv0.skinId ~= 0 then
-					uv5:addEquipmentSkin(slot1, 1)
+				if uv0:getEquipSkin(uv1) ~= 0 then
+					uv2:addEquipmentSkin(slot1, 1)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 				end
 
-				uv5:useageEquipmnentSkin(uv3)
+				uv0:updateEquipmentSkin(uv1, uv3)
+				uv4:updateShip(uv0)
+				uv2:useageEquipmnentSkin(uv3)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_replace_done"))
-				uv6:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE)
+				uv5:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload_failed" .. slot0.result))
 			end

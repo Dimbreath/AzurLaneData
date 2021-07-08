@@ -1,48 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_309 = {
-	[45351] = {
-		anti_siren = 100,
-		damage = "144 x 2",
-		base = 45340,
-		id = 45351,
+	[45225] = {
+		id = 45225,
+		damage = "99 x 5",
+		base = 45220,
 		weapon_id = {
-			45351
+			45225
 		}
 	},
-	[45400] = {
-		name = "潜艇用G7e声导鱼雷",
+	[45226] = {
+		id = 45226,
+		damage = "106 x 5",
+		base = 45220,
+		weapon_id = {
+			45226
+		}
+	},
+	[45227] = {
+		id = 45227,
+		damage = "112 x 5",
+		base = 45220,
+		weapon_id = {
+			45227
+		}
+	},
+	[45228] = {
+		id = 45228,
+		damage = "119 x 5",
+		base = 45220,
+		weapon_id = {
+			45228
+		}
+	},
+	[45229] = {
+		id = 45229,
+		damage = "126 x 5",
+		base = 45220,
+		weapon_id = {
+			45229
+		}
+	},
+	[45230] = {
+		id = 45230,
+		damage = "133 x 5",
+		base = 45220,
+		weapon_id = {
+			45230
+		}
+	},
+	[45240] = {
+		name = "五联装533mm磁性鱼雷",
 		speciality = "雷击",
-		type = 13,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "45400",
+		type = 5,
+		tech = 3,
+		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
+		value_2 = 70,
+		icon = "45200",
 		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "52 x 2",
+		rarity = 6,
+		damage = "70 x 5",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45400,
+		id = 45240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1826
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1826
+				1803
 			},
 			{
 				4,
-				1601
+				1404
 			},
 			6,
 			10,
@@ -50,193 +87,107 @@ pg.equip_data_statistics_309 = {
 			12
 		},
 		weapon_id = {
-			45400
+			45240
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45401] = {
-		id = 45401,
-		damage = "59 x 2",
-		base = 45400,
-		weapon_id = {
-			45401
-		}
-	},
-	[45402] = {
-		id = 45402,
-		damage = "66 x 2",
-		base = 45400,
-		weapon_id = {
-			45402
-		}
-	},
-	[45403] = {
-		id = 45403,
-		damage = "74 x 2",
-		base = 45400,
-		weapon_id = {
-			45403
-		}
-	},
-	[45404] = {
-		id = 45404,
-		damage = "82 x 2",
-		base = 45400,
-		weapon_id = {
-			45404
-		}
-	},
-	[45405] = {
-		id = 45405,
-		damage = "90 x 2",
-		base = 45400,
-		weapon_id = {
-			45405
-		}
-	},
-	[45406] = {
-		id = 45406,
-		damage = "98 x 2",
-		base = 45400,
-		weapon_id = {
-			45406
-		}
-	},
-	[45420] = {
-		name = "潜艇用G7e声导鱼雷",
-		speciality = "雷击",
-		type = 13,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "45400",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "58 x 2",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1826
-			}
-		},
-		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1826
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45420
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
+			3,
+			18
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"SS",
-			"TP"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[45421] = {
-		id = 45421,
-		damage = "66 x 2",
-		base = 45420,
+	[45241] = {
+		id = 45241,
+		damage = "77 x 5",
+		base = 45240,
 		weapon_id = {
-			45421
+			45241
 		}
 	},
-	[45422] = {
-		id = 45422,
-		damage = "74 x 2",
-		base = 45420,
+	[45242] = {
+		id = 45242,
+		damage = "85 x 5",
+		base = 45240,
 		weapon_id = {
-			45422
+			45242
 		}
 	},
-	[45423] = {
-		id = 45423,
-		damage = "82 x 2",
-		base = 45420,
+	[45243] = {
+		id = 45243,
+		damage = "92 x 5",
+		base = 45240,
 		weapon_id = {
-			45423
+			45243
 		}
 	},
-	[45424] = {
-		id = 45424,
-		damage = "90 x 2",
-		base = 45420,
+	[45244] = {
+		id = 45244,
+		damage = "100 x 5",
+		base = 45240,
 		weapon_id = {
-			45424
+			45244
 		}
 	},
-	[45425] = {
-		id = 45425,
-		damage = "99 x 2",
-		base = 45420,
+	[45245] = {
+		id = 45245,
+		damage = "107 x 5",
+		base = 45240,
 		weapon_id = {
-			45425
+			45245
 		}
 	},
-	[45426] = {
-		id = 45426,
-		damage = "108 x 2",
-		base = 45420,
+	[45246] = {
+		id = 45246,
+		damage = "115 x 5",
+		base = 45240,
 		weapon_id = {
-			45426
+			45246
 		}
 	},
-	[45427] = {
-		id = 45427,
-		damage = "117 x 2",
-		base = 45420,
+	[45247] = {
+		id = 45247,
+		damage = "122 x 5",
+		base = 45240,
 		weapon_id = {
-			45427
+			45247
 		}
 	},
-	[45428] = {
-		id = 45428,
-		damage = "126 x 2",
-		base = 45420,
+	[45248] = {
+		id = 45248,
+		damage = "130 x 5",
+		base = 45240,
 		weapon_id = {
-			45428
+			45248
+		}
+	},
+	[45249] = {
+		id = 45249,
+		damage = "137 x 5",
+		base = 45240,
+		weapon_id = {
+			45249
+		}
+	},
+	[45250] = {
+		id = 45250,
+		damage = "145 x 5",
+		base = 45240,
+		weapon_id = {
+			45250
 		}
 	}
 }

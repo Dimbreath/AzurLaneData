@@ -102,16 +102,15 @@ function slot0.updateSettingsBtn(slot0)
 			setActive(slot2, true)
 		else
 			slot13 = slot7:getCurCatchupTecInfo()
-			slot15 = slot13.groupID
 
-			if pg.technology_catchup_template[slot13.tecID].obtain_max <= slot13.printNum then
+			if (slot7:getCatchupData(slot13.tecID):isUr(slot13.groupID) and pg.technology_catchup_template[slot14].obtain_max_per_ur or pg.technology_catchup_template[slot14].obtain_max) <= slot13.printNum then
 				setActive(slot5, false)
 				setActive(slot2, false)
 			else
 				setActive(slot5, true)
 				setActive(slot2, false)
 				setImageSprite(slot0:findTF("CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot15, tostring(slot15)))
-				setText(slot0:findTF("ProgressText", slot5), slot16 .. "/" .. slot17)
+				setText(slot0:findTF("ProgressText", slot5), slot16 .. "/" .. slot19)
 			end
 		end
 	else
@@ -552,7 +551,7 @@ end
 
 function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	setImageSprite(slot0:findTF("frame", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. (slot3 and "_l" or "")))
-	setImageSprite(slot0:findTF("frame/icon_mask/icon", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg_icon")), true)
+	LoadImageSpriteAtlasAsync("technologyshipicon/" .. slot2:getConfig("bg_icon"), slot2:getConfig("bg_icon"), slot0:findTF("frame/icon_mask/icon", slot1), true)
 	setImageSprite(slot0:findTF("frame/label", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
 	setImageSprite(slot0:findTF("frame/label/text", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("label_color")), true)
 	setImageSprite(slot0:findTF("frame/label/version", slot1), GetSpriteFromAtlas("technologycard", "version_" .. slot2:getConfig("blueprint_version")), true)

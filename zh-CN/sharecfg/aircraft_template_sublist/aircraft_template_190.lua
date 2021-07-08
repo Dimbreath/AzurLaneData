@@ -1,81 +1,36 @@
 pg = pg or {}
 pg.aircraft_template_190 = {
-	[69696] = {
-		max_hp = 73,
-		name = "英仙座技能海黄蜂Lv6",
-		base = 69691,
-		id = 69696,
-		hp_growth = 2796,
-		weapon_ID = {
-			50666,
-			69726
-		}
-	},
-	[69697] = {
-		max_hp = 79,
-		name = "英仙座技能海黄蜂Lv7",
-		base = 69691,
-		id = 69697,
-		hp_growth = 3016,
-		weapon_ID = {
-			50667,
-			69727
-		}
-	},
-	[69698] = {
-		max_hp = 86,
-		name = "英仙座技能海黄蜂Lv8",
-		base = 69691,
-		id = 69698,
-		hp_growth = 3237,
-		weapon_ID = {
-			50668,
-			69728
-		}
-	},
-	[69699] = {
-		max_hp = 92,
-		name = "英仙座技能海黄蜂Lv9",
-		base = 69691,
-		id = 69699,
-		hp_growth = 3458,
-		weapon_ID = {
-			50669,
-			69729
-		}
-	},
-	[69700] = {
+	[68870] = {
 		max_hp = 98,
-		name = "英仙座技能海黄蜂Lv10",
-		base = 69691,
-		id = 69700,
+		name = "大神澪技能鱼雷机Lv10",
+		base = 68861,
+		id = 68870,
 		hp_growth = 3678,
 		weapon_ID = {
-			50670,
-			69730
+			68880
 		}
 	},
-	[69701] = {
-		name = "英仙座技能TBFLv1",
-		max_hp = 44,
+	[68881] = {
+		name = "大神澪技能轰炸机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "feiji_vtuber2",
 		ACC_growth = 0,
-		crash_DMG = 300,
-		dodge = 1.05,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 6,
+		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "feiji_vtuber2",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1674,
+		nationality = 3,
+		hp_growth = 1692,
 		speed = 48,
-		id = 69701,
+		id = 68881,
 		scale = 1,
 		weapon_ID = {
-			69731
+			68891
 		},
 		position_offset = {
 			0,
@@ -118,8 +73,8 @@ pg.aircraft_template_190 = {
 				0
 			},
 			{
-				0.15,
-				-0.08,
+				0.54,
+				0,
 				0
 			},
 			{
@@ -129,44 +84,84 @@ pg.aircraft_template_190 = {
 			}
 		}
 	},
-	[69702] = {
-		max_hp = 49,
-		name = "英仙座技能TBFLv2",
-		base = 69701,
-		id = 69702,
-		hp_growth = 1892,
+	[68882] = {
+		max_hp = 48,
+		name = "大神澪技能轰炸机Lv2",
+		base = 68881,
+		id = 68882,
+		hp_growth = 1913,
 		weapon_ID = {
-			69732
+			68892
 		}
 	},
-	[69703] = {
-		max_hp = 55,
-		name = "英仙座技能TBFLv3",
-		base = 69701,
-		id = 69703,
-		hp_growth = 2111,
+	[68883] = {
+		max_hp = 54,
+		name = "大神澪技能轰炸机Lv3",
+		base = 68881,
+		id = 68883,
+		hp_growth = 2133,
 		weapon_ID = {
-			69733
+			68893
 		}
 	},
-	[69704] = {
+	[68884] = {
 		max_hp = 61,
-		name = "英仙座技能TBFLv4",
-		base = 69701,
-		id = 69704,
-		hp_growth = 2329,
+		name = "大神澪技能轰炸机Lv4",
+		base = 68881,
+		id = 68884,
+		hp_growth = 2354,
 		weapon_ID = {
-			69734
+			68894
 		}
 	},
-	[69705] = {
-		max_hp = 66,
-		name = "英仙座技能TBFLv5",
-		base = 69701,
-		id = 69705,
-		hp_growth = 2547,
+	[68885] = {
+		max_hp = 67,
+		name = "大神澪技能轰炸机Lv5",
+		base = 68881,
+		id = 68885,
+		hp_growth = 2575,
 		weapon_ID = {
-			69735
+			68895
+		}
+	},
+	[68886] = {
+		max_hp = 73,
+		name = "大神澪技能轰炸机Lv6",
+		base = 68881,
+		id = 68886,
+		hp_growth = 2796,
+		weapon_ID = {
+			68896
+		}
+	},
+	[68887] = {
+		max_hp = 79,
+		name = "大神澪技能轰炸机Lv7",
+		base = 68881,
+		id = 68887,
+		hp_growth = 3016,
+		weapon_ID = {
+			68897
+		}
+	},
+	[68888] = {
+		max_hp = 86,
+		name = "大神澪技能轰炸机Lv8",
+		base = 68881,
+		id = 68888,
+		hp_growth = 3237,
+		weapon_ID = {
+			68898
+		}
+	},
+	[68889] = {
+		max_hp = 92,
+		name = "大神澪技能轰炸机Lv9",
+		base = 68881,
+		id = 68889,
+		hp_growth = 3458,
+		weapon_ID = {
+			68899
 		}
 	}
 }

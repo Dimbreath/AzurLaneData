@@ -1,109 +1,126 @@
 pg = pg or {}
 pg.equip_data_statistics_363 = {
-	[85221] = {
-		id = 85221,
-		damage = "17/轮",
-		base = 85220,
+	[85041] = {
+		id = 85041,
+		base = 85040,
 		weapon_id = {
-			85221
+			85041
 		}
 	},
-	[85222] = {
-		id = 85222,
-		damage = "20/轮",
-		base = 85220,
+	[85042] = {
+		id = 85042,
+		damage = "7 x 6",
+		base = 85040,
 		weapon_id = {
-			85222
+			85042
 		}
 	},
-	[85223] = {
-		id = 85223,
-		damage = "23/轮",
-		base = 85220,
+	[85043] = {
+		id = 85043,
+		damage = "8 x 6",
+		base = 85040,
 		weapon_id = {
-			85223
+			85043
 		}
 	},
-	[85224] = {
-		id = 85224,
-		damage = "26/轮",
-		base = 85220,
+	[85044] = {
+		id = 85044,
+		damage = "9 x 6",
+		base = 85040,
 		weapon_id = {
-			85224
+			85044
 		}
 	},
-	[85225] = {
-		id = 85225,
-		damage = "29/轮",
-		base = 85220,
+	[85045] = {
+		id = 85045,
+		damage = "10 x 6",
+		base = 85040,
 		weapon_id = {
-			85225
+			85045
 		}
 	},
-	[85226] = {
-		id = 85226,
-		damage = "32/轮",
-		base = 85220,
+	[85046] = {
+		id = 85046,
+		damage = "11 x 6",
+		base = 85040,
 		weapon_id = {
-			85226
+			85046
 		}
 	},
-	[85227] = {
-		id = 85227,
-		damage = "35/轮",
-		base = 85220,
+	[85047] = {
+		id = 85047,
+		damage = "12 x 6",
+		base = 85040,
 		weapon_id = {
-			85227
+			85047
 		}
 	},
-	[85228] = {
-		id = 85228,
-		damage = "38/轮",
-		base = 85220,
+	[85048] = {
+		id = 85048,
+		damage = "13 x 6",
+		base = 85040,
 		weapon_id = {
-			85228
+			85048
 		}
 	},
-	[85229] = {
-		id = 85229,
-		damage = "41/轮",
-		base = 85220,
+	[85049] = {
+		id = 85049,
+		damage = "14 x 6",
+		base = 85040,
 		weapon_id = {
-			85229
+			85049
 		}
 	},
-	[85230] = {
-		id = 85230,
-		damage = "44/轮",
-		base = 85220,
+	[85050] = {
+		id = 85050,
+		damage = "15 x 6",
+		base = 85040,
 		weapon_id = {
-			85230
+			85050
 		}
 	},
-	[85231] = {
+	[85051] = {
 		anti_siren = 100,
-		damage = "44/轮",
-		base = 85220,
-		id = 85231,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85051,
 		weapon_id = {
-			85231
+			85051
 		}
 	},
-	[85260] = {
-		name = "B-54 100mm双联装防空炮",
+	[85052] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85052,
+		weapon_id = {
+			85052
+		}
+	},
+	[85053] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85053,
+		weapon_id = {
+			85053
+		}
+	},
+	[85060] = {
+		name = "100mm双联装防空炮SM-5-1s",
 		speciality = "防空",
 		type = 6,
-		tech = 2,
+		tech = 1,
 		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "85240",
+		icon = "85060",
 		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "36/轮",
+		damage = "35/轮",
 		nationality = 7,
 		ammo = 5,
 		value_3 = 0,
-		id = 85260,
+		id = 85060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -115,7 +132,7 @@ pg.equip_data_statistics_363 = {
 			10
 		},
 		weapon_id = {
-			85260
+			85060
 		},
 		skill_id = {},
 		part_main = {
@@ -151,44 +168,28 @@ pg.equip_data_statistics_363 = {
 			"AA"
 		}
 	},
-	[85261] = {
-		id = 85261,
-		damage = "41/轮",
-		base = 85260,
+	[85061] = {
+		id = 85061,
+		damage = "40/轮",
+		base = 85060,
 		weapon_id = {
-			85261
+			85061
 		}
 	},
-	[85262] = {
-		id = 85262,
-		damage = "47/轮",
-		base = 85260,
+	[85062] = {
+		id = 85062,
+		damage = "45/轮",
+		base = 85060,
 		weapon_id = {
-			85262
+			85062
 		}
 	},
-	[85263] = {
-		id = 85263,
-		damage = "52/轮",
-		base = 85260,
+	[85063] = {
+		id = 85063,
+		damage = "51/轮",
+		base = 85060,
 		weapon_id = {
-			85263
-		}
-	},
-	[85264] = {
-		id = 85264,
-		damage = "59/轮",
-		base = 85260,
-		weapon_id = {
-			85264
-		}
-	},
-	[85265] = {
-		id = 85265,
-		damage = "66/轮",
-		base = 85260,
-		weapon_id = {
-			85265
+			85063
 		}
 	}
 }

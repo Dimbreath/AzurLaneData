@@ -2,90 +2,6 @@ pg = pg or {}
 pg.weapon_property_94 = {}
 
 function ()
-	uv0.weapon_property_94[52649] = {
-		id = 52649,
-		damage = 377,
-		base = 52640
-	}
-	uv0.weapon_property_94[52650] = {
-		id = 52650,
-		damage = 402,
-		base = 52640
-	}
-	uv0.weapon_property_94[52651] = {
-		id = 52651,
-		damage = 418,
-		base = 52640
-	}
-	uv0.weapon_property_94[52652] = {
-		id = 52652,
-		damage = 442,
-		base = 52640
-	}
-	uv0.weapon_property_94[52653] = {
-		id = 52653,
-		damage = 474,
-		base = 52640
-	}
-	uv0.weapon_property_94[52660] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 19,
-		shakescreen = 0,
-		name = "1 x 1000lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 19,
-		charge_param = "",
-		damage = 170,
-		corrected = 100,
-		min_range = 0,
-		id = 52660,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2123
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_94[52661] = {
-		id = 52661,
-		damage = 197,
-		base = 52660
-	}
-	uv0.weapon_property_94[52662] = {
-		id = 52662,
-		damage = 224,
-		base = 52660
-	}
-	uv0.weapon_property_94[52663] = {
-		id = 52663,
-		damage = 251,
-		base = 52660
-	}
 	uv0.weapon_property_94[52664] = {
 		id = 52664,
 		damage = 278,
@@ -506,5 +422,55 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_94[52761] = {
+		id = 52761,
+		damage = 190,
+		base = 52760
+	}
+	uv0.weapon_property_94[52762] = {
+		id = 52762,
+		damage = 215,
+		base = 52760
+	}
+	uv0.weapon_property_94[52763] = {
+		id = 52763,
+		damage = 240,
+		base = 52760
+	}
+	uv0.weapon_property_94[52764] = {
+		id = 52764,
+		damage = 265,
+		base = 52760
+	}
+	uv0.weapon_property_94[52765] = {
+		id = 52765,
+		damage = 290,
+		base = 52760
+	}
+	uv0.weapon_property_94[52766] = {
+		id = 52766,
+		damage = 315,
+		base = 52760
+	}
+	uv0.weapon_property_94[52767] = {
+		id = 52767,
+		damage = 340,
+		base = 52760
+	}
+	uv0.weapon_property_94[52768] = {
+		id = 52768,
+		damage = 365,
+		base = 52760
+	}
+	uv0.weapon_property_94[52769] = {
+		id = 52769,
+		damage = 390,
+		base = 52760
+	}
+	uv0.weapon_property_94[52770] = {
+		id = 52770,
+		damage = 416,
+		base = 52760
 	}
 end()

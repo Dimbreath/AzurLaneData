@@ -1,52 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_306 = {
-	[45207] = {
-		id = 45207,
-		damage = "105 x 5",
-		base = 45200,
+	[45049] = {
+		id = 45049,
+		damage = "137 x 3",
+		base = 45040,
 		weapon_id = {
-			45207
+			45049
 		}
 	},
-	[45208] = {
-		id = 45208,
-		damage = "111 x 5",
-		base = 45200,
+	[45050] = {
+		id = 45050,
+		damage = "145 x 3",
+		base = 45040,
 		weapon_id = {
-			45208
+			45050
 		}
 	},
-	[45209] = {
-		id = 45209,
-		damage = "117 x 5",
-		base = 45200,
+	[45051] = {
+		anti_siren = 100,
+		damage = "145 x 3",
+		base = 45040,
+		id = 45051,
 		weapon_id = {
-			45209
+			45051
 		}
 	},
-	[45210] = {
-		id = 45210,
-		damage = "123 x 5",
-		base = 45200,
+	[45100] = {
+		name = "四联装533mm磁性鱼雷",
+		speciality = "雷击",
+		type = 5,
+		tech = 1,
+		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
+		value_2 = 12,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "63 x 4",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			45210
+			45100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[45220] = {
-		name = "五联装533mm磁性鱼雷",
+	[45101] = {
+		id = 45101,
+		damage = "69 x 4",
+		base = 45100,
+		weapon_id = {
+			45101
+		}
+	},
+	[45102] = {
+		id = 45102,
+		damage = "75 x 4",
+		base = 45100,
+		weapon_id = {
+			45102
+		}
+	},
+	[45103] = {
+		id = 45103,
+		damage = "81 x 4",
+		base = 45100,
+		weapon_id = {
+			45103
+		}
+	},
+	[45104] = {
+		id = 45104,
+		damage = "87 x 4",
+		base = 45100,
+		weapon_id = {
+			45104
+		}
+	},
+	[45105] = {
+		id = 45105,
+		damage = "93 x 4",
+		base = 45100,
+		weapon_id = {
+			45105
+		}
+	},
+	[45106] = {
+		id = 45106,
+		damage = "99 x 4",
+		base = 45100,
+		weapon_id = {
+			45106
+		}
+	},
+	[45120] = {
+		name = "四联装533mm磁性鱼雷",
 		speciality = "雷击",
 		type = 5,
 		tech = 2,
-		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
-		value_2 = 45,
-		icon = "45200",
+		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
+		value_2 = 25,
+		icon = "45100",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "66 x 5",
+		rarity = 4,
+		damage = "66 x 4",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45220,
+		id = 45120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -63,7 +166,7 @@ pg.equip_data_statistics_306 = {
 			},
 			{
 				4,
-				1404
+				1403
 			},
 			6,
 			10,
@@ -71,7 +174,7 @@ pg.equip_data_statistics_306 = {
 			12
 		},
 		weapon_id = {
-			45220
+			45120
 		},
 		skill_id = {},
 		part_main = {
@@ -91,157 +194,55 @@ pg.equip_data_statistics_306 = {
 			"KMS",
 			"ST",
 			"TP",
-			"QUINT"
+			"QUAD"
 		}
 	},
-	[45221] = {
-		id = 45221,
-		damage = "72 x 5",
-		base = 45220,
+	[45121] = {
+		id = 45121,
+		damage = "72 x 4",
+		base = 45120,
 		weapon_id = {
-			45221
+			45121
 		}
 	},
-	[45222] = {
-		id = 45222,
-		damage = "79 x 5",
-		base = 45220,
+	[45122] = {
+		id = 45122,
+		damage = "79 x 4",
+		base = 45120,
 		weapon_id = {
-			45222
+			45122
 		}
 	},
-	[45223] = {
-		id = 45223,
-		damage = "86 x 5",
-		base = 45220,
+	[45123] = {
+		id = 45123,
+		damage = "86 x 4",
+		base = 45120,
 		weapon_id = {
-			45223
+			45123
 		}
 	},
-	[45224] = {
-		id = 45224,
-		damage = "92 x 5",
-		base = 45220,
+	[45124] = {
+		id = 45124,
+		damage = "92 x 4",
+		base = 45120,
 		weapon_id = {
-			45224
+			45124
 		}
 	},
-	[45225] = {
-		id = 45225,
-		damage = "99 x 5",
-		base = 45220,
+	[45125] = {
+		id = 45125,
+		damage = "99 x 4",
+		base = 45120,
 		weapon_id = {
-			45225
+			45125
 		}
 	},
-	[45226] = {
-		id = 45226,
-		damage = "106 x 5",
-		base = 45220,
+	[45126] = {
+		id = 45126,
+		damage = "106 x 4",
+		base = 45120,
 		weapon_id = {
-			45226
-		}
-	},
-	[45227] = {
-		id = 45227,
-		damage = "112 x 5",
-		base = 45220,
-		weapon_id = {
-			45227
-		}
-	},
-	[45228] = {
-		id = 45228,
-		damage = "119 x 5",
-		base = 45220,
-		weapon_id = {
-			45228
-		}
-	},
-	[45229] = {
-		id = 45229,
-		damage = "126 x 5",
-		base = 45220,
-		weapon_id = {
-			45229
-		}
-	},
-	[45230] = {
-		id = 45230,
-		damage = "133 x 5",
-		base = 45220,
-		weapon_id = {
-			45230
-		}
-	},
-	[45240] = {
-		name = "五联装533mm磁性鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 3,
-		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
-		value_2 = 70,
-		icon = "45200",
-		attribute_2 = "torpedo",
-		rarity = 6,
-		damage = "70 x 5",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1404
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"QUINT"
-		}
-	},
-	[45241] = {
-		id = 45241,
-		damage = "77 x 5",
-		base = 45240,
-		weapon_id = {
-			45241
+			45126
 		}
 	}
 }

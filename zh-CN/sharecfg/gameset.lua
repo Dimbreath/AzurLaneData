@@ -1682,6 +1682,10 @@ pg.gameset = {
 			{
 				20101,
 				10000
+			},
+			{
+				20102,
+				10000
 			}
 		}
 	},
@@ -2124,5 +2128,34 @@ pg.gameset = {
 	permanent_mark = {
 		description = "20210610",
 		key_value = 0
+	},
+	blueprint_pursue_discount_ssr = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				0
+			},
+			{
+				3,
+				10
+			},
+			{
+				5,
+				20
+			},
+			{
+				8,
+				40
+			},
+			{
+				11,
+				70
+			},
+			{
+				16,
+				100
+			}
+		}
 	}
 }

@@ -1,191 +1,94 @@
 pg = pg or {}
 pg.aircraft_template_121 = {
-	[47051] = {
-		id = 47051,
-		base = 47040,
-		max_hp = 102,
-		hp_growth = 3918,
+	[39348] = {
+		id = 39348,
+		base = 39340,
+		max_hp = 99,
+		hp_growth = 3826,
 		weapon_ID = {
-			59051,
-			59451
+			59788,
+			59808,
+			53348
 		}
 	},
-	[47060] = {
-		name = "Ar-197舰载战斗机",
-		max_hp = 35,
-		accuracy = 23,
-		model_ID = "Ar197",
-		ACC_growth = 0,
-		crash_DMG = 40,
-		dodge = 0.345,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 1,
-		AP_growth = 2000,
-		icon = "Ar197",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1344,
-		speed = 49,
-		id = 47060,
-		scale = 1,
+	[39349] = {
+		id = 39349,
+		base = 39340,
+		max_hp = 106,
+		hp_growth = 4086,
 		weapon_ID = {
-			59040,
-			59440,
-			53040
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.62,
-					-1.03,
-					0
-				},
-				{
-					0.62,
-					1.32,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			59789,
+			59809,
+			53349
 		}
 	},
-	[47061] = {
-		id = 47061,
-		base = 47060,
-		max_hp = 40,
-		hp_growth = 1546,
+	[39350] = {
+		id = 39350,
+		base = 39340,
+		max_hp = 113,
+		hp_growth = 4347,
 		weapon_ID = {
-			59041,
-			59441,
-			53041
+			59790,
+			59810,
+			53350
 		}
 	},
-	[47062] = {
-		id = 47062,
-		base = 47060,
+	[39351] = {
+		id = 39351,
+		base = 39340,
+		max_hp = 120,
+		hp_growth = 4608,
+		weapon_ID = {
+			59791,
+			59811,
+			53351
+		}
+	},
+	[39352] = {
+		id = 39352,
+		base = 39340,
+		max_hp = 127,
+		hp_growth = 4869,
+		weapon_ID = {
+			59792,
+			59812,
+			53352
+		}
+	},
+	[39353] = {
+		id = 39353,
+		base = 39340,
+		max_hp = 133,
+		hp_growth = 5130,
+		weapon_ID = {
+			59793,
+			59813,
+			53353
+		}
+	},
+	[39360] = {
+		name = "天雷",
 		max_hp = 45,
-		hp_growth = 1747,
-		weapon_ID = {
-			59042,
-			59442,
-			53042
-		}
-	},
-	[47063] = {
-		id = 47063,
-		base = 47060,
-		max_hp = 51,
-		hp_growth = 1949,
-		weapon_ID = {
-			59043,
-			59443,
-			53043
-		}
-	},
-	[47064] = {
-		id = 47064,
-		base = 47060,
-		max_hp = 56,
-		hp_growth = 2150,
-		weapon_ID = {
-			59044,
-			59444,
-			53044
-		}
-	},
-	[47065] = {
-		id = 47065,
-		base = 47060,
-		max_hp = 61,
-		hp_growth = 2352,
-		weapon_ID = {
-			59045,
-			59445,
-			53045
-		}
-	},
-	[47066] = {
-		id = 47066,
-		base = 47060,
-		max_hp = 66,
-		hp_growth = 2554,
-		weapon_ID = {
-			59046,
-			59446,
-			53046
-		}
-	},
-	[47067] = {
-		id = 47067,
-		base = 47060,
-		max_hp = 72,
-		hp_growth = 2755,
-		weapon_ID = {
-			59047,
-			59447,
-			53047
-		}
-	},
-	[47080] = {
-		name = "试作型舰载FW-190 A-5",
-		max_hp = 38,
 		accuracy = 23,
-		model_ID = "Fw190A5",
+		model_ID = "tianlei",
 		ACC_growth = 0,
-		crash_DMG = 70,
-		dodge = 0.315,
+		crash_DMG = 208,
+		dodge = 3.27,
 		attack_power = 2,
-		dodge_limit = 10,
-		type = 1,
+		dodge_limit = 1.1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "Fw190A5",
+		icon = "tianlei",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1478,
-		speed = 51,
-		id = 47080,
+		nationality = 3,
+		hp_growth = 1739,
+		speed = 52,
+		id = 39360,
 		scale = 1,
 		weapon_ID = {
-			59040,
-			59440,
-			59140
+			59780,
+			59800,
+			53320
 		},
 		position_offset = {
 			0,
@@ -205,13 +108,13 @@ pg.aircraft_template_121 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.66,
-					-0.9,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					1.06,
-					1.54,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -237,6 +140,39 @@ pg.aircraft_template_121 = {
 				0,
 				0
 			}
+		}
+	},
+	[39361] = {
+		id = 39361,
+		base = 39360,
+		max_hp = 52,
+		hp_growth = 2000,
+		weapon_ID = {
+			59781,
+			59801,
+			53321
+		}
+	},
+	[39362] = {
+		id = 39362,
+		base = 39360,
+		max_hp = 59,
+		hp_growth = 2261,
+		weapon_ID = {
+			59782,
+			59802,
+			53322
+		}
+	},
+	[39363] = {
+		id = 39363,
+		base = 39360,
+		max_hp = 66,
+		hp_growth = 2521,
+		weapon_ID = {
+			59783,
+			59803,
+			53323
 		}
 	}
 }

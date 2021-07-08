@@ -1,77 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_293 = {
-	[42345] = {
-		id = 42345,
-		damage = "10 x 3",
-		base = 42340,
-		weapon_id = {
-			42345
-		}
-	},
-	[42346] = {
-		id = 42346,
-		damage = "11 x 3",
-		base = 42340,
-		weapon_id = {
-			42346
-		}
-	},
-	[42347] = {
-		id = 42347,
-		damage = "12 x 3",
-		base = 42340,
-		weapon_id = {
-			42347
-		}
-	},
-	[42348] = {
-		id = 42348,
-		damage = "13 x 3",
-		base = 42340,
-		weapon_id = {
-			42348
-		}
-	},
-	[42349] = {
-		id = 42349,
-		damage = "14 x 3",
-		base = 42340,
-		weapon_id = {
-			42349
-		}
-	},
-	[42350] = {
-		id = 42350,
-		damage = "15 x 3",
-		base = 42340,
-		weapon_id = {
-			42350
-		}
-	},
-	[42351] = {
-		anti_siren = 100,
-		damage = "15 x 3",
-		base = 42340,
-		id = 42351,
-		weapon_id = {
-			42351
-		}
-	},
-	[43000] = {
-		name = "双联装203mmSKC主炮",
+	[42220] = {
+		name = "双联装TbtsKC36式150mm主炮",
 		speciality = "锁定",
-		type = 3,
-		tech = 1,
-		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
+		type = 2,
+		tech = 2,
+		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 		value_2 = 12,
-		icon = "43000",
+		icon = "42200",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "25 x 6",
+		damage = "8 x 4",
 		nationality = 4,
 		ammo = 1,
 		value_3 = 0,
-		id = 43000,
+		id = 42220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -80,7 +23,7 @@ pg.equip_data_statistics_293 = {
 		ammo_info = {
 			{
 				1,
-				1401
+				1304
 			}
 		},
 		equip_info = {
@@ -88,11 +31,11 @@ pg.equip_data_statistics_293 = {
 			2,
 			{
 				3,
-				1401
+				1304
 			},
 			{
 				4,
-				1206
+				1001
 			},
 			6,
 			10,
@@ -100,85 +43,86 @@ pg.equip_data_statistics_293 = {
 			12
 		},
 		weapon_id = {
-			43000
+			42220
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CA",
+			"CL",
 			"MG",
 			"AP"
 		}
 	},
-	[43001] = {
-		id = 43001,
-		damage = "27 x 6",
-		base = 43000,
+	[42221] = {
+		id = 42221,
+		damage = "9 x 4",
+		base = 42220,
 		weapon_id = {
-			43001
+			42221
 		}
 	},
-	[43002] = {
-		id = 43002,
-		damage = "29 x 6",
-		base = 43000,
+	[42222] = {
+		id = 42222,
+		damage = "10 x 4",
+		base = 42220,
 		weapon_id = {
-			43002
+			42222
 		}
 	},
-	[43003] = {
-		id = 43003,
-		damage = "31 x 6",
-		base = 43000,
+	[42223] = {
+		id = 42223,
+		damage = "11 x 4",
+		base = 42220,
 		weapon_id = {
-			43003
+			42223
 		}
 	},
-	[43004] = {
-		id = 43004,
-		damage = "33 x 6",
-		base = 43000,
+	[42224] = {
+		id = 42224,
+		damage = "12 x 4",
+		base = 42220,
 		weapon_id = {
-			43004
+			42224
 		}
 	},
-	[43005] = {
-		id = 43005,
-		damage = "35 x 6",
-		base = 43000,
+	[42225] = {
+		id = 42225,
+		damage = "13 x 4",
+		base = 42220,
 		weapon_id = {
-			43005
+			42225
 		}
 	},
-	[43006] = {
-		id = 43006,
-		damage = "37 x 6",
-		base = 43000,
+	[42226] = {
+		id = 42226,
+		damage = "14 x 4",
+		base = 42220,
 		weapon_id = {
-			43006
+			42226
 		}
 	},
-	[43020] = {
-		name = "双联装203mmSKC主炮",
+	[42240] = {
+		name = "双联装TbtsKC36式150mm主炮",
 		speciality = "锁定",
-		type = 3,
-		tech = 2,
-		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
+		type = 2,
+		tech = 3,
+		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 		value_2 = 25,
-		icon = "43000",
+		icon = "42200",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "27 x 6",
+		damage = "9 x 4",
 		nationality = 4,
 		ammo = 1,
 		value_3 = 0,
-		id = 43020,
+		id = 42240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -187,7 +131,7 @@ pg.equip_data_statistics_293 = {
 		ammo_info = {
 			{
 				1,
-				1401
+				1304
 			}
 		},
 		equip_info = {
@@ -195,11 +139,11 @@ pg.equip_data_statistics_293 = {
 			2,
 			{
 				3,
-				1401
+				1304
 			},
 			{
 				4,
-				1206
+				1001
 			},
 			6,
 			10,
@@ -207,36 +151,93 @@ pg.equip_data_statistics_293 = {
 			12
 		},
 		weapon_id = {
-			43020
+			42240
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CA",
+			"CL",
 			"MG",
 			"AP"
 		}
 	},
-	[43021] = {
-		id = 43021,
-		damage = "29 x 6",
-		base = 43020,
+	[42241] = {
+		id = 42241,
+		damage = "10 x 4",
+		base = 42240,
 		weapon_id = {
-			43021
+			42241
 		}
 	},
-	[43022] = {
-		id = 43022,
-		damage = "31 x 6",
-		base = 43020,
+	[42242] = {
+		id = 42242,
+		damage = "11 x 4",
+		base = 42240,
 		weapon_id = {
-			43022
+			42242
+		}
+	},
+	[42243] = {
+		id = 42243,
+		damage = "12 x 4",
+		base = 42240,
+		weapon_id = {
+			42243
+		}
+	},
+	[42244] = {
+		id = 42244,
+		damage = "13 x 4",
+		base = 42240,
+		weapon_id = {
+			42244
+		}
+	},
+	[42245] = {
+		id = 42245,
+		damage = "14 x 4",
+		base = 42240,
+		weapon_id = {
+			42245
+		}
+	},
+	[42246] = {
+		id = 42246,
+		damage = "15 x 4",
+		base = 42240,
+		weapon_id = {
+			42246
+		}
+	},
+	[42247] = {
+		id = 42247,
+		damage = "16 x 4",
+		base = 42240,
+		weapon_id = {
+			42247
+		}
+	},
+	[42248] = {
+		id = 42248,
+		damage = "17 x 4",
+		base = 42240,
+		weapon_id = {
+			42248
+		}
+	},
+	[42249] = {
+		id = 42249,
+		damage = "19 x 4",
+		base = 42240,
+		weapon_id = {
+			42249
 		}
 	}
 }

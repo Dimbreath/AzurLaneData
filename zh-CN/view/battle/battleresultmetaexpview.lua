@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 	slot0:initUITip()
 	slot0:initData()
 	slot0:initUI()
@@ -14,8 +13,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.closeCB()
+	slot0:cleanManagedTween(true)
 end
 
 function slot0.setData(slot0, slot1, slot2)
@@ -98,37 +97,38 @@ function slot0.updateIconList(slot0)
 	slot0.iconUIItemList:align(#slot1)
 end
 
+slot1 = 0.3
+
 function slot0.openPanel(slot0)
-	if slot0.isAni == true then
-		return
-	end
-
-	slot0.isAni = true
-
+	slot0:cleanManagedTween(true)
 	Canvas.ForceUpdateCanvases()
-	LeanTween.value(go(slot0.panelTF), 0, slot0.panelTF.sizeDelta.x, 0.5):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = 400
+
+	slot0:managedTween(LeanTween.value, nil, go(slot0.panelTF), System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.panelTF, {
-			x = -slot0
+			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
-		uv0.isAni = false
+	end), 400, -slot0.panelTF.sizeDelta.x, uv0):setOnComplete(System.Action(function ()
+		setAnchoredPosition(uv0.panelTF, {
+			x = -uv1
+		})
 	end))
 end
 
 function slot0.closePanel(slot0)
-	if slot0.isAni == true then
-		return
-	end
+	slot0:cleanManagedTween(true)
 
-	slot0.isAni = true
+	slot1 = 400
 
-	LeanTween.value(go(slot0.panelTF), -slot0.panelTF.sizeDelta.x, 0, 0.5):setOnUpdate(System.Action_float(function (slot0)
+	slot0:managedTween(LeanTween.value, nil, go(slot0.panelTF), System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.panelTF, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
-		uv0.isAni = false
-
+	end), -slot0.panelTF.sizeDelta.x, 400, uv0):setOnComplete(System.Action(function ()
+		setAnchoredPosition(uv0.panelTF, {
+			x = 0
+		})
 		uv0:Destroy()
 	end))
 end

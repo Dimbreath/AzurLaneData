@@ -1,250 +1,187 @@
 pg = pg or {}
 pg.equip_data_statistics_302 = {
-	[44308] = {
-		id = 44308,
-		damage = "97 x 3",
-		base = 44300,
+	[44148] = {
+		id = 44148,
+		damage = "118 x 2",
+		base = 44140,
 		weapon_id = {
-			44308
+			44148
 		}
 	},
-	[44309] = {
-		id = 44309,
-		damage = "101 x 3",
-		base = 44300,
+	[44149] = {
+		id = 44149,
+		damage = "124 x 2",
+		base = 44140,
 		weapon_id = {
-			44309
+			44149
 		}
 	},
-	[44310] = {
-		id = 44310,
-		damage = "105 x 3",
-		base = 44300,
+	[44150] = {
+		id = 44150,
+		damage = "132 x 2",
+		base = 44140,
 		weapon_id = {
-			44310
+			44150
 		}
 	},
-	[44311] = {
+	[44151] = {
 		anti_siren = 100,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44311,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44151,
 		weapon_id = {
-			44311
+			44151
 		}
 	},
-	[44312] = {
+	[44152] = {
 		anti_siren = 200,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44312,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44152,
 		weapon_id = {
-			44312
+			44152
 		}
 	},
-	[44313] = {
+	[44153] = {
 		anti_siren = 300,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44313,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44153,
 		weapon_id = {
-			44313
+			44153
 		}
 	},
-	[45000] = {
-		name = "三联装533mm磁性鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 1,
-		descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
-		value_2 = 5,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "63 x 3",
+	[44200] = {
+		name = "试作型双联装406mmSKC主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "44200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 4,
+		ammo = 2,
 		value_3 = 0,
-		id = 45000,
+		id = 44200,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				3,
-				1803
+				2,
+				1502
 			}
 		},
 		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
+			1,
+			2,
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			45000
+			44200
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[45001] = {
-		id = 45001,
-		damage = "69 x 3",
-		base = 45000,
-		weapon_id = {
-			45001
-		}
-	},
-	[45002] = {
-		id = 45002,
-		damage = "75 x 3",
-		base = 45000,
-		weapon_id = {
-			45002
-		}
-	},
-	[45003] = {
-		id = 45003,
-		damage = "81 x 3",
-		base = 45000,
-		weapon_id = {
-			45003
-		}
-	},
-	[45020] = {
-		name = "三联装533mm磁性鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 2,
-		descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
-		value_2 = 12,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "66 x 3",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
-			6,
+			4,
+			5,
 			10,
-			11,
-			12
+			13
 		},
-		weapon_id = {
-			45020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"TP",
-			"TRI"
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[45021] = {
-		id = 45021,
-		damage = "72 x 3",
-		base = 45020,
+	[44201] = {
+		id = 44201,
+		damage = "68 x 2",
+		base = 44200,
 		weapon_id = {
-			45021
+			44201
 		}
 	},
-	[45022] = {
-		id = 45022,
-		damage = "79 x 3",
-		base = 45020,
+	[44202] = {
+		id = 44202,
+		damage = "76 x 2",
+		base = 44200,
 		weapon_id = {
-			45022
+			44202
 		}
 	},
-	[45023] = {
-		id = 45023,
-		damage = "86 x 3",
-		base = 45020,
+	[44203] = {
+		id = 44203,
+		damage = "86 x 2",
+		base = 44200,
 		weapon_id = {
-			45023
+			44203
 		}
 	},
-	[45024] = {
-		id = 45024,
-		damage = "92 x 3",
-		base = 45020,
+	[44204] = {
+		id = 44204,
+		damage = "96 x 2",
+		base = 44200,
 		weapon_id = {
-			45024
+			44204
 		}
 	},
-	[45025] = {
-		id = 45025,
-		damage = "99 x 3",
-		base = 45020,
+	[44205] = {
+		id = 44205,
+		damage = "106 x 2",
+		base = 44200,
 		weapon_id = {
-			45025
+			44205
 		}
 	},
-	[45026] = {
-		id = 45026,
-		damage = "106 x 3",
-		base = 45020,
+	[44206] = {
+		id = 44206,
+		damage = "116 x 2",
+		base = 44200,
 		weapon_id = {
-			45026
+			44206
+		}
+	},
+	[44207] = {
+		id = 44207,
+		damage = "124 x 2",
+		base = 44200,
+		weapon_id = {
+			44207
+		}
+	},
+	[44208] = {
+		id = 44208,
+		damage = "134 x 2",
+		base = 44200,
+		weapon_id = {
+			44208
+		}
+	},
+	[44209] = {
+		id = 44209,
+		damage = "144 x 2",
+		base = 44200,
+		weapon_id = {
+			44209
+		}
+	},
+	[44210] = {
+		id = 44210,
+		damage = "154 x 2",
+		base = 44200,
+		weapon_id = {
+			44210
 		}
 	}
 }

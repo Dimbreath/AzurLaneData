@@ -160,7 +160,7 @@ function slot1.LayerSortHandler(slot0)
 			elseif slot4 ~= nil and slot4 == slot20 then
 				slot26()
 			else
-				slot0:SetToOrigin(slot17, slot10, slot15.interactableAlways)
+				slot0:SetToOrigin(slot17, slot21, slot10, slot15.interactableAlways)
 
 				if slot1 or slot2 then
 					slot0:ShowOrHideTF(slot17, false)
@@ -231,16 +231,31 @@ function slot1.SetToOverlayParent(slot0, slot1, slot2, slot3)
 	slot5.blocksRaycasts = true
 end
 
-function slot1.SetToOrigin(slot0, slot1, slot2, slot3)
-	SetParent((slot0:GetAdaptObjFromUI(slot1) == nil or slot1.parent) and slot1, slot0.uiOrigin, false)
+function slot1.SetToOrigin(slot0, slot1, slot2, slot3, slot4)
+	slot5 = nil
 
-	if slot2 ~= nil then
-		slot4:SetSiblingIndex(slot2)
+	if slot2 == LayerWeightConst.OVERLAY_UI_ADAPT then
+		if slot0:GetAdaptObjFromUI(slot1) ~= nil then
+			slot5 = slot1.parent
+		else
+			slot5 = slot0:GetAdaptObj()
+			slot5.name = slot0:GetAdatpObjName(slot1)
+
+			SetParent(slot1, slot5, false)
+		end
+	else
+		slot5 = slot1
 	end
 
-	slot5 = GetOrAddComponent(slot4, typeof(CanvasGroup))
-	slot5.interactable = slot3 and true or false
-	slot5.blocksRaycasts = slot3 and true or false
+	SetParent(slot5, slot0.uiOrigin, false)
+
+	if slot3 ~= nil then
+		slot5:SetSiblingIndex(slot3)
+	end
+
+	slot6 = GetOrAddComponent(slot5, typeof(CanvasGroup))
+	slot6.interactable = slot4 and true or false
+	slot6.blocksRaycasts = slot4 and true or false
 end
 
 function slot1.SortStoreUIs(slot0)

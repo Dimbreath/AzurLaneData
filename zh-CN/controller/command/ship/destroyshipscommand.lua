@@ -30,14 +30,6 @@ function slot0.execute(slot0, slot1)
 
 				for slot15, slot16 in ipairs(slot11.equipments) do
 					if slot16 then
-						if slot16:hasSkin() then
-							slot1:addEquipmentSkin(slot16.skinId, 1)
-
-							slot16.skinId = 0
-
-							pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
-						end
-
 						slot1:addEquipment(slot16)
 
 						if not slot2[slot16.id] then
@@ -45,6 +37,12 @@ function slot0.execute(slot0, slot1)
 						else
 							slot2[slot16.id].count = slot2[slot16.id].count + 1
 						end
+					end
+
+					if slot11:getEquipSkin(slot15) ~= 0 then
+						slot1:addEquipmentSkin(slot11:getEquipSkin(slot15), 1)
+						slot11:updateEquipmentSkin(slot15, 0)
+						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 					end
 				end
 

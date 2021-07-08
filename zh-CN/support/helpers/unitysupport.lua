@@ -182,6 +182,10 @@ function setToggleEnabled(slot0, slot1)
 	GetComponent(slot0, typeof(Toggle)).interactable = slot1
 end
 
+function setSliderEnable(slot0, slot1)
+	GetComponent(slot0, typeof(Slider)).interactable = slot1
+end
+
 function triggerButton(slot0)
 	uv0 = false
 	uv1 = -1

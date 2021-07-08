@@ -1,59 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
-	[89227] = {
-		id = 89227,
-		value_1 = "460",
-		base = 89220
-	},
-	[89228] = {
-		id = 89228,
-		value_1 = "490",
-		base = 89220
-	},
-	[89229] = {
-		id = 89229,
-		value_1 = "520",
-		base = 89220
-	},
-	[89230] = {
-		id = 89230,
-		value_1 = "550",
-		base = 89220
-	},
-	[89231] = {
-		id = 89231,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 89220
-	},
-	[89232] = {
-		id = 89232,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 89220
-	},
-	[89233] = {
-		id = 89233,
+	[89133] = {
+		id = 89133,
 		anti_siren = 300,
-		value_1 = "640",
-		base = 89220
+		base = 89120,
+		value_2 = 8,
+		value_1 = "290"
 	},
-	[89240] = {
-		name = "觉醒宝珠",
+	[89140] = {
+		name = "炽烈之歌",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 89240,
-		value_2 = 16,
-		icon = "89240",
-		value_1 = "6",
+		id = 89140,
+		value_2 = 15,
+		icon = "89140",
+		value_1 = "14",
 		attribute_2 = "hit",
 		rarity = 5,
-		descrip = "说明占坑",
-		nationality = 106,
+		descrip = "偶像组合「Verheerender」所使用的麦克风",
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		attribute_1 = "antiaircraft",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -63,7 +32,7 @@ pg.equip_data_statistics_378 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6720
+			6710
 		},
 		part_main = {},
 		part_sub = {},
@@ -72,57 +41,125 @@ pg.equip_data_statistics_378 = {
 			"DEV"
 		}
 	},
-	[89241] = {
-		id = 89241,
-		value_1 = "7",
-		base = 89240
+	[89141] = {
+		id = 89141,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89140
 	},
-	[89242] = {
-		id = 89242,
+	[89142] = {
+		id = 89142,
 		value_2 = 17,
-		value_1 = "7",
-		base = 89240
+		value_1 = "18",
+		base = 89140
 	},
-	[89243] = {
-		id = 89243,
+	[89143] = {
+		id = 89143,
 		value_2 = 18,
-		value_1 = "8",
-		base = 89240
+		value_1 = "20",
+		base = 89140
 	},
-	[89244] = {
-		id = 89244,
+	[89144] = {
+		id = 89144,
 		value_2 = 19,
-		value_1 = "9",
-		base = 89240
+		value_1 = "22",
+		base = 89140
 	},
-	[89245] = {
-		id = 89245,
+	[89145] = {
+		id = 89145,
 		value_2 = 20,
-		value_1 = "10",
-		base = 89240
+		value_1 = "24",
+		base = 89140
 	},
-	[89246] = {
-		id = 89246,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89240
-	},
-	[89247] = {
-		id = 89247,
+	[89146] = {
+		id = 89146,
 		value_2 = 22,
-		value_1 = "12",
-		base = 89240
+		value_1 = "26",
+		base = 89140
 	},
-	[89248] = {
-		id = 89248,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89240
-	},
-	[89249] = {
-		id = 89249,
+	[89147] = {
+		id = 89147,
 		value_2 = 24,
+		value_1 = "28",
+		base = 89140
+	},
+	[89148] = {
+		id = 89148,
+		value_2 = 26,
+		value_1 = "30",
+		base = 89140
+	},
+	[89149] = {
+		id = 89149,
+		value_2 = 28,
+		value_1 = "32",
+		base = 89140
+	},
+	[89150] = {
+		id = 89150,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89140
+	},
+	[89151] = {
+		id = 89151,
+		anti_siren = 100,
+		base = 89140,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89152] = {
+		id = 89152,
+		anti_siren = 200,
+		base = 89140,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89153] = {
+		id = 89153,
+		anti_siren = 300,
+		base = 89140,
+		value_2 = 36,
+		value_1 = "44"
+	},
+	[89160] = {
+		name = "活力之歌",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89160,
+		value_2 = 15,
+		icon = "89160",
 		value_1 = "14",
-		base = 89240
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "偶像组合「Lumière」所使用的麦克风",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6711
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89161] = {
+		id = 89161,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89160
 	}
 }

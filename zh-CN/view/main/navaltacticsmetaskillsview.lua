@@ -9,6 +9,7 @@ function slot0.OnInit(slot0)
 	slot0:initUI()
 	slot0:addListener()
 	slot0:updateSkillList()
+	triggerToggle(slot0.skillToggleList[1], true)
 	slot0:Show()
 end
 
@@ -16,8 +17,9 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.setData(slot0, slot1, slot2)
-	slot0.metaShipVO = getProxy(BayProxy):getShipById(slot1)
-	slot0.closeCB = slot2
+	slot0.metaShipID = slot1 or slot0.metaShipID
+	slot0.metaShipVO = getProxy(BayProxy):getShipById(slot0.metaShipID)
+	slot0.closeCB = slot2 or slot0.closeCB
 	slot0.metaProxy = getProxy(MetaCharacterProxy)
 	slot0.metaTacticsInfo = slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.metaShipVO.id)
 	slot0.selectSkillID = slot0.selectSkillID or nil
@@ -79,30 +81,34 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	slot4 = slot0:findTF("skillInfo", slot3)
 	slot5 = slot0:findTF("empty", slot3)
 	slot6 = slot0:findTF("mask", slot3)
-	slot12 = slot0:findTF("Tag/learing", slot3)
-	slot13 = slot0:findTF("Tag/unlockable", slot3)
-	slot14 = slot0.metaShipVO:getMetaSkillLevelBySkillID(slot2)
+	slot10 = slot0:findTF("next_contain/Text", slot4)
+	slot13 = slot0:findTF("Tag/learing", slot3)
+	slot14 = slot0:findTF("Tag/unlockable", slot3)
+	slot15 = slot0.metaShipVO:getMetaSkillLevelBySkillID(slot2)
 
 	setImageSprite(slot0:findTF("icon", slot4), LoadSprite("skillicon/" .. getSkillConfig(slot2).icon))
-	setText(slot0:findTF("descView/Viewport/desc", slot4), getSkillDesc(slot2, isUnlocked and slot14 or 1))
-	setText(slot0:findTF("name_contain/name", slot4), getSkillName(slot15.id))
-	setText(slot0:findTF("name_contain/level_contain/Text", slot4), slot14)
+	setText(slot0:findTF("descView/Viewport/desc", slot4), getSkillDesc(slot2, isUnlocked and slot15 or 1))
+	setText(slot0:findTF("name_contain/name", slot4), getSkillName(slot16.id))
+	setText(slot0:findTF("name_contain/level_contain/Text", slot4), slot15)
 
-	slot16 = slot2 == slot0.metaTacticsInfo.curSkillID
+	slot17 = slot2 == slot0.metaTacticsInfo.curSkillID
 
-	if not (pg.skill_data_template[slot2].max_level <= slot14) then
-		if slot14 > 0 then
-			setText(slot0:findTF("next_contain/Text", slot4), slot0.metaTacticsInfo:getSkillExp(slot2) .. "/" .. MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot14).need_exp)
+	if not (pg.skill_data_template[slot2].max_level <= slot15) then
+		if slot15 > 0 then
+			setText(slot10, setColorStr(slot0.metaTacticsInfo:getSkillExp(slot2), COLOR_GREEN) .. "/" .. MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot15).need_exp)
+			setActive(slot0:findTF("next_contain/label", slot4), true)
+			setActive(slot10, true)
 		else
 			setActive(slot9, false)
+			setActive(slot10, false)
 		end
 	else
-		setText(slot9, slot18 .. "/Max")
+		setText(slot10, "Max")
 	end
 
-	setActive(slot12, slot16)
-	setActive(slot13, not slot17)
-	setActive(slot6, not slot17)
+	setActive(slot13, slot17 and not slot21)
+	setActive(slot14, not slot18)
+	setActive(slot6, not slot18)
 	onToggle(slot0, slot1, function (slot0)
 		if slot0 then
 			uv0.selectSkillID = uv1
@@ -115,7 +121,11 @@ end
 function slot0.updateSkillList(slot0)
 	slot0.skillUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv1:updateSkillTF(slot2, uv0[slot1 + 1])
+			slot1 = slot1 + 1
+			uv0.skillToggleList = uv0.skillToggleList or {}
+			uv0.skillToggleList[slot1] = slot2
+
+			uv0:updateSkillTF(slot2, uv1[slot1])
 		end
 	end)
 	slot0.skillUIItemList:align(#MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot0.metaShipVO.configId))
@@ -138,6 +148,12 @@ function slot0.updateButtons(slot0, slot1)
 		setActive(slot0.unlockBtn, false)
 		setActive(slot0.switchBtn, true)
 	end
+end
+
+function slot0.reUpdate(slot0, slot1, slot2)
+	slot0:setData(slot1, slot2)
+	slot0:updateSkillList()
+	slot0:updateButtons()
 end
 
 return slot0

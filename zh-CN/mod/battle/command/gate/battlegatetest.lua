@@ -39,7 +39,7 @@ function slot0.Exit(slot0, slot1)
 	slot7 = {}
 
 	slot1:SendRequest(slot1.GeneralPackage(slot0, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))), function (slot0)
-		uv0.statistics.mvpShipID = slot0.mvp
+		uv0.statistics.mvpShipID = -1
 
 		uv2:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_TEST,

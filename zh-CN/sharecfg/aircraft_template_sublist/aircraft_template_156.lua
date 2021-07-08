@@ -1,97 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_156 = {
-	[67164] = {
-		max_hp = 56,
-		name = "半人马技能鱼雷机Lv4",
-		base = 67160,
-		id = 67164,
-		hp_growth = 2140,
+	[65936] = {
+		max_hp = 64,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv6",
+		base = 65931,
+		id = 65936,
+		hp_growth = 2458,
 		weapon_ID = {
-			67204
+			65946
 		}
 	},
-	[67165] = {
-		max_hp = 61,
-		name = "半人马技能鱼雷机Lv5",
-		base = 67160,
-		id = 67165,
-		hp_growth = 2341,
+	[65937] = {
+		max_hp = 69,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv7",
+		base = 65931,
+		id = 65937,
+		hp_growth = 2669,
 		weapon_ID = {
-			67205
+			65947
 		}
 	},
-	[67166] = {
-		max_hp = 66,
-		name = "半人马技能鱼雷机Lv6",
-		base = 67160,
-		id = 67166,
-		hp_growth = 2541,
+	[65938] = {
+		max_hp = 75,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv8",
+		base = 65931,
+		id = 65938,
+		hp_growth = 2879,
 		weapon_ID = {
-			67206
+			65948
 		}
 	},
-	[67167] = {
-		max_hp = 71,
-		name = "半人马技能鱼雷机Lv7",
-		base = 67160,
-		id = 67167,
-		hp_growth = 2742,
+	[65939] = {
+		max_hp = 80,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv9",
+		base = 65931,
+		id = 65939,
+		hp_growth = 3090,
 		weapon_ID = {
-			67207
+			65949
 		}
 	},
-	[67168] = {
-		max_hp = 77,
-		name = "半人马技能鱼雷机Lv8",
-		base = 67160,
-		id = 67168,
-		hp_growth = 2943,
+	[65940] = {
+		max_hp = 86,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv10",
+		base = 65931,
+		id = 65940,
+		hp_growth = 3301,
 		weapon_ID = {
-			67208
+			65950
 		}
 	},
-	[67169] = {
-		max_hp = 82,
-		name = "半人马技能鱼雷机Lv9",
-		base = 67160,
-		id = 67169,
-		hp_growth = 3143,
-		weapon_ID = {
-			67209
-		}
-	},
-	[67170] = {
-		max_hp = 87,
-		name = "半人马技能鱼雷机Lv10",
-		base = 67160,
-		id = 67170,
-		hp_growth = 3344,
-		weapon_ID = {
-			67210
-		}
-	},
-	[67240] = {
-		name = "伊势技能轰炸机Lv0",
-		max_hp = 42,
+	[66240] = {
+		name = "山城改技能Lv0",
+		max_hp = 27,
 		accuracy = 23,
-		model_ID = "huixing",
+		model_ID = "ruiyun",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 120,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "huixing",
+		icon = "ruiyun",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1605,
-		speed = 48,
-		id = 67240,
+		hp_growth = 1023,
+		speed = 46,
+		id = 66240,
 		scale = 1,
 		weapon_ID = {
-			67260,
-			67280
+			66260
 		},
 		position_offset = {
 			0,
@@ -111,13 +90,13 @@ pg.aircraft_template_156 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -134,7 +113,7 @@ pg.aircraft_template_156 = {
 				0
 			},
 			{
-				0.64,
+				0.26,
 				0,
 				0
 			},
@@ -145,26 +124,44 @@ pg.aircraft_template_156 = {
 			}
 		}
 	},
-	[67241] = {
-		max_hp = 48,
-		name = "伊势技能轰炸机Lv1",
-		base = 67240,
-		id = 67241,
-		hp_growth = 1846,
+	[66241] = {
+		max_hp = 32,
+		name = "山城改技能Lv1",
+		base = 66240,
+		id = 66241,
+		hp_growth = 1233,
 		weapon_ID = {
-			67261,
-			67281
+			66261
 		}
 	},
-	[67242] = {
-		max_hp = 54,
-		name = "伊势技能轰炸机Lv2",
-		base = 67240,
-		id = 67242,
-		hp_growth = 2087,
+	[66242] = {
+		max_hp = 37,
+		name = "山城改技能Lv2",
+		base = 66240,
+		id = 66242,
+		hp_growth = 1443,
 		weapon_ID = {
-			67262,
-			67282
+			66262
+		}
+	},
+	[66243] = {
+		max_hp = 42,
+		name = "山城改技能Lv3",
+		base = 66240,
+		id = 66243,
+		hp_growth = 1653,
+		weapon_ID = {
+			66263
+		}
+	},
+	[66244] = {
+		max_hp = 47,
+		name = "山城改技能Lv4",
+		base = 66240,
+		id = 66244,
+		hp_growth = 1863,
+		weapon_ID = {
+			66264
 		}
 	}
 }

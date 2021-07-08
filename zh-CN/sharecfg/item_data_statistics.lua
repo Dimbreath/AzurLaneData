@@ -5510,6 +5510,120 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13025] = {
+		drop_gold_max = 0,
+		name = "试作型三联装305mmSKC39主炮（超巡用）T0设计图",
+		display = "试作型三联装305mmSKC39主炮（超巡用）T0设计图",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/44400",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13025,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13026] = {
+		drop_gold_max = 0,
+		name = "试作舰载型BF-109GT0设计图",
+		display = "试作舰载型BF-109GT0设计图",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/47160",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13026,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13027] = {
+		drop_gold_max = 0,
+		name = "试作型双联90mm高角炮Model1939T0设计图",
+		display = "试作型双联90mm高角炮Model1939T0设计图",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/55160",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13027,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13028] = {
+		drop_gold_max = 0,
+		name = "试作型三联装406mm主炮Model1940T0设计图",
+		display = "试作型三联装406mm主炮Model1940T0设计图",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/55900",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13028,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13029] = {
+		drop_gold_max = 0,
+		name = "试作型彩云（舰攻型）T0设计图",
+		display = "试作型彩云（舰攻型）T0设计图",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/38300",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13029,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13030] = {
+		drop_gold_max = 0,
+		name = "试作舰载型天雷T0设计图",
+		display = "试作舰载型天雷T0设计图",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/39340",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13030,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		drop_gold_max = 0,
 		name = "原型科研图纸·S-I",
@@ -5584,7 +5698,7 @@ pg.item_data_statistics = {
 		shop_id = -1,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/14001",
+		icon = "Props/14002",
 		rarity = 4,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -5614,6 +5728,59 @@ pg.item_data_statistics = {
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[14003] = {
+		drop_gold_max = 0,
+		name = "原型科研图纸·S-III",
+		display = [[
+使用后可从超稀有科研装备(III期)的设计图中任意选择一张
+兑换列表如下：
+「试作型双联装234mm主炮T0设计图」
+「双联装114mm高平两用炮MarkIVT0设计图」
+「六联装40mm博福斯对空机炮T0设计图」
+「试作型三联装305mmSKC39主炮T0设计图」
+「试作型三联装406mm/50主炮T0设计图」
+]],
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/14003",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 14003,
+		display_icon = {
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -7281,6 +7448,28 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 20101,
+		display_icon = {},
+		price = {
+			9,
+			2
+		},
+		index = {}
+	},
+	[20102] = {
+		drop_gold_max = 0,
+		name = "科研测试数据・二期",
+		display = "研发部门总结的测试数据，<color=#92fc63>在开发船坞内使用</color>可增加10000点科研二期角色技术测试经验进度<color=#ff5c5c>（在仓库中解析会获得设计原型，无法获得经验）</color>",
+		type = 18,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/20102",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 20102,
 		display_icon = {},
 		price = {
 			9,
@@ -32429,8 +32618,8 @@ pg.item_data_statistics = {
 	},
 	[42003] = {
 		drop_gold_max = 0,
-		name = "蓝图：峦",
-		display = "重樱巡洋「{namecode:152}」的设计蓝图。\n<color=#92fc63>获得「峦」后，可在「开发船坞」中用于增强「{namecode:152}」的能力。</color>",
+		name = "蓝图：{namecode:152}",
+		display = "重樱巡洋「{namecode:152}」的设计蓝图。\n<color=#92fc63>获得「{namecode:152}」后，可在「开发船坞」中用于增强「{namecode:152}」的能力。</color>",
 		type = 12,
 		is_world = 0,
 		shop_id = -1,
@@ -32451,8 +32640,8 @@ pg.item_data_statistics = {
 	},
 	[42004] = {
 		drop_gold_max = 0,
-		name = "蓝图：侌",
-		display = "重樱战列「{namecode:151}」的设计蓝图。\n<color=#92fc63>获得「侌」后，可在「开发船坞」中用于增强「{namecode:151}」的能力。</color>",
+		name = "蓝图：{namecode:151}",
+		display = "重樱战列「{namecode:151}」的设计蓝图。\n<color=#92fc63>获得「{namecode:151}」后，可在「开发船坞」中用于增强「{namecode:151}」的能力。</color>",
 		type = 12,
 		is_world = 0,
 		shop_id = -1,
@@ -32631,8 +32820,8 @@ pg.item_data_statistics = {
 	},
 	[42013] = {
 		drop_gold_max = 0,
-		name = "蓝图：苝",
-		display = "重樱驱逐「苝」的设计蓝图。\n<color=#92fc63>获得「苝」后，可在「开发船坞」中用于增强「苝」的能力。</color>",
+		name = "蓝图：{namecode:164}",
+		display = "重樱驱逐「{namecode:164}」的设计蓝图。\n<color=#92fc63>获得「{namecode:164}」后，可在「开发船坞」中用于增强「{namecode:164}」的能力。</color>",
 		type = 12,
 		is_world = 0,
 		shop_id = -1,
@@ -32653,8 +32842,8 @@ pg.item_data_statistics = {
 	},
 	[42014] = {
 		drop_gold_max = 0,
-		name = "蓝图：猉",
-		display = "重樱超巡「猉」的设计蓝图。\n<color=#92fc63>获得「猉」后，可在「开发船坞」中用于增强「猉」的能力。</color>",
+		name = "蓝图：{namecode:165}",
+		display = "重樱超巡「{namecode:165}」的设计蓝图。\n<color=#92fc63>获得「{namecode:165}」后，可在「开发船坞」中用于增强「{namecode:165}」的能力。</color>",
 		type = 12,
 		is_world = 0,
 		shop_id = -1,
@@ -32963,6 +33152,266 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		id = 42026,
 		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42030] = {
+		drop_gold_max = 0,
+		name = "定向蓝图・四期",
+		display = "使用后可从第一期、第二期、第三期、第四期方案舰的最高方案蓝图中任意选择一张",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42030",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42030,
+		display_icon = {
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42031] = {
+		drop_gold_max = 0,
+		name = "蓝图：安克雷奇",
+		display = "白鹰巡洋「安克雷奇」的设计蓝图。\n<color=#92fc63>获得「安克雷奇」后，可在「开发船坞」中用于增强「安克雷奇」的能力。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42031",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42031,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42032] = {
+		drop_gold_max = 0,
+		name = "蓝图：{namecode:204}",
+		display = "重樱航母「{namecode:204}」的设计蓝图。\n<color=#92fc63>获得「{namecode:204}」后，可在「开发船坞」中用于增强「{namecode:204}」的能力。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42032",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42032,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42033] = {
+		drop_gold_max = 0,
+		name = "蓝图：埃吉尔",
+		display = "铁血超巡「埃吉尔」的设计蓝图。\n<color=#92fc63>获得「埃吉尔」后，可在「开发船坞」中用于增强「埃吉尔」的能力。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42033",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42033,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42034] = {
+		drop_gold_max = 0,
+		name = "蓝图：奥古斯特·冯·帕塞瓦尔",
+		display = "铁血航母「奥古斯特·冯·帕塞瓦尔」的设计蓝图。\n<color=#92fc63>获得「奥古斯特·冯·帕塞瓦尔」后，可在「开发船坞」中用于增强「奥古斯特·冯·帕塞瓦尔」的能力。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42034",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42034,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42035] = {
+		drop_gold_max = 0,
+		name = "蓝图：马可波罗",
+		display = "撒丁战列「马可波罗」的设计蓝图。\n<color=#92fc63>获得「马可波罗」后，可在「开发船坞」中用于增强「马可波罗」的能力。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42035",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42035,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42036] = {
+		drop_gold_max = 0,
+		name = "高级定向蓝图・四期",
+		display = "使用后可从第二期、第三期、第四期方案舰的决战方案蓝图中任意选择一张",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42036",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42036,
+		display_icon = {
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
 			{
 				2,
 				42022,
@@ -41831,6 +42280,126 @@ pg.item_data_statistics = {
 			{
 				2,
 				13023,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52031] = {
+		drop_gold_max = 0,
+		name = "未知蓝图",
+		display = "有几率获得以下蓝图",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/52001",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 52031,
+		display_icon = {
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52032] = {
+		drop_gold_max = 0,
+		name = "未知限定装备设计图",
+		display = "有几率获得以下设计图",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 52032,
+		display_icon = {
+			{
+				2,
+				13030,
+				1
+			},
+			{
+				2,
+				13029,
+				1
+			},
+			{
+				2,
+				13028,
+				1
+			},
+			{
+				2,
+				13027,
+				1
+			},
+			{
+				2,
+				13026,
+				1
+			},
+			{
+				2,
+				13025,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13007,
+				1
+			},
+			{
+				2,
+				13009,
 				1
 			}
 		},
@@ -134963,6 +135532,44 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59225] = {
+		drop_gold_max = 0,
+		name = "贡献值",
+		display = "参与『穿越彼方的水线』获得的点数，累计一定程度可以领取报酬",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/junhe_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59225,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59226] = {
+		drop_gold_max = 0,
+		name = "特别挑战券",
+		display = "参与『穿越彼方的水线』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/special_ticket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59226,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "船模-茳",
@@ -145153,8 +145760,15 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		13022,
 		13023,
 		13024,
+		13025,
+		13026,
+		13027,
+		13028,
+		13029,
+		13030,
 		14001,
 		14002,
+		14003,
 		15001,
 		15002,
 		15003,
@@ -145242,6 +145856,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		20012,
 		20013,
 		20101,
+		20102,
 		21001,
 		21002,
 		21003,
@@ -146219,6 +146834,13 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		42024,
 		42025,
 		42026,
+		42030,
+		42031,
+		42032,
+		42033,
+		42034,
+		42035,
+		42036,
 		43001,
 		43002,
 		43003,
@@ -146664,6 +147286,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		52012,
 		52021,
 		52022,
+		52031,
+		52032,
 		53000,
 		53010,
 		53011,
@@ -148052,6 +148676,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59222,
 		59223,
 		59224,
+		59225,
+		59226,
 		59601,
 		59602,
 		59603,

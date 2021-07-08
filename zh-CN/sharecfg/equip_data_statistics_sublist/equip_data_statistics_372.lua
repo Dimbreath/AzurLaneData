@@ -1,79 +1,61 @@
 pg = pg or {}
 pg.equip_data_statistics_372 = {
-	[89083] = {
-		id = 89083,
-		value_1 = "340",
-		base = 89080
+	[85462] = {
+		id = 85462,
+		damage = "17 x 3",
+		base = 85460,
+		weapon_id = {
+			85462
+		}
 	},
-	[89084] = {
-		id = 89084,
-		value_1 = "370",
-		base = 89080
+	[85463] = {
+		id = 85463,
+		damage = "18 x 3",
+		base = 85460,
+		weapon_id = {
+			85463
+		}
 	},
-	[89085] = {
-		id = 89085,
-		value_1 = "400",
-		base = 89080
+	[85464] = {
+		id = 85464,
+		damage = "19 x 3",
+		base = 85460,
+		weapon_id = {
+			85464
+		}
 	},
-	[89086] = {
-		id = 89086,
-		value_1 = "430",
-		base = 89080
+	[85465] = {
+		id = 85465,
+		damage = "20 x 3",
+		base = 85460,
+		weapon_id = {
+			85465
+		}
 	},
-	[89087] = {
-		id = 89087,
-		value_1 = "460",
-		base = 89080
+	[85466] = {
+		id = 85466,
+		damage = "21 x 3",
+		base = 85460,
+		weapon_id = {
+			85466
+		}
 	},
-	[89088] = {
-		id = 89088,
-		value_1 = "490",
-		base = 89080
-	},
-	[89089] = {
-		id = 89089,
-		value_1 = "520",
-		base = 89080
-	},
-	[89090] = {
-		id = 89090,
-		value_1 = "550",
-		base = 89080
-	},
-	[89091] = {
-		id = 89091,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 89080
-	},
-	[89092] = {
-		id = 89092,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 89080
-	},
-	[89093] = {
-		id = 89093,
-		anti_siren = 300,
-		value_1 = "640",
-		base = 89080
-	},
-	[89100] = {
-		name = "玉米灯笼",
+	[89000] = {
+		name = "随机单词生成器",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 89100,
-		value_2 = 50,
-		icon = "89100",
-		value_1 = "9",
-		attribute_2 = "durability",
+		id = 89000,
+		value_2 = 6,
+		icon = "89000",
+		value_1 = "16",
+		attribute_2 = "dodge",
 		rarity = 5,
-		descrip = "印着玉米图案的灯笼.......夏色吹雪？！ ",
-		nationality = 105,
+		descrip = "在构思企划时非常好用的道具。据说在在很稀有的情况下会开口说话…？",
+		nationality = 104,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antisub",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -83,7 +65,7 @@ pg.equip_data_statistics_372 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6510
+			6380
 		},
 		part_main = {},
 		part_sub = {},
@@ -92,34 +74,69 @@ pg.equip_data_statistics_372 = {
 			"DEV"
 		}
 	},
-	[89101] = {
-		id = 89101,
-		value_2 = 55,
-		value_1 = "10",
-		base = 89100
+	[89001] = {
+		id = 89001,
+		base = 89000
 	},
-	[89102] = {
-		id = 89102,
-		value_2 = 60,
-		value_1 = "11",
-		base = 89100
+	[89002] = {
+		id = 89002,
+		value_2 = 7,
+		value_1 = "17",
+		base = 89000
 	},
-	[89103] = {
-		id = 89103,
-		value_2 = 65,
-		value_1 = "12",
-		base = 89100
+	[89003] = {
+		id = 89003,
+		value_2 = 8,
+		value_1 = "18",
+		base = 89000
 	},
-	[89104] = {
-		id = 89104,
-		value_2 = 70,
-		value_1 = "13",
-		base = 89100
+	[89004] = {
+		id = 89004,
+		value_2 = 9,
+		value_1 = "19",
+		base = 89000
 	},
-	[89105] = {
-		id = 89105,
-		value_2 = 75,
-		value_1 = "14",
-		base = 89100
+	[89005] = {
+		id = 89005,
+		value_2 = 10,
+		value_1 = "20",
+		base = 89000
+	},
+	[89006] = {
+		id = 89006,
+		value_2 = 11,
+		value_1 = "21",
+		base = 89000
+	},
+	[89007] = {
+		id = 89007,
+		value_2 = 12,
+		value_1 = "22",
+		base = 89000
+	},
+	[89008] = {
+		id = 89008,
+		value_2 = 13,
+		value_1 = "23",
+		base = 89000
+	},
+	[89009] = {
+		id = 89009,
+		value_2 = 14,
+		value_1 = "24",
+		base = 89000
+	},
+	[89010] = {
+		id = 89010,
+		value_2 = 15,
+		value_1 = "25",
+		base = 89000
+	},
+	[89011] = {
+		id = 89011,
+		anti_siren = 100,
+		base = 89000,
+		value_2 = 16,
+		value_1 = "26"
 	}
 }

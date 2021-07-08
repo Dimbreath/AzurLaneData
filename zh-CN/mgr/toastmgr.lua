@@ -300,12 +300,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	else
 		setText(slot7.transform:Find("ExpAdd/Value"), string.format("+%d", slot15))
 		setActive(slot21, false)
-
-		if not NEW_META_EXP then
-			setActive(slot22, true)
-		else
-			setActive(slot22, slot20)
-		end
+		setActive(slot22, slot20)
 	end
 
 	if slot20 then
@@ -334,7 +329,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	GetComponent(slot7, "CanvasGroup").alpha = 0
 	GetComponent(slot8, "CanvasGroup").alpha = 0
 
-	if NEW_META_EXP and (slot16 or slot20) or true then
+	if slot16 or slot20 then
 		function slot28()
 			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
 			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()

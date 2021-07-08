@@ -1,301 +1,242 @@
 pg = pg or {}
 pg.equip_data_statistics_311 = {
-	[46001] = {
-		id = 46001,
-		damage = "20/轮",
-		base = 46000,
+	[45343] = {
+		id = 45343,
+		damage = "82 x 2",
+		base = 45340,
 		weapon_id = {
-			46001
+			45343
 		}
 	},
-	[46002] = {
-		id = 46002,
-		damage = "23/轮",
-		base = 46000,
+	[45344] = {
+		id = 45344,
+		damage = "90 x 2",
+		base = 45340,
 		weapon_id = {
-			46002
+			45344
 		}
 	},
-	[46003] = {
-		id = 46003,
-		damage = "26/轮",
-		base = 46000,
+	[45345] = {
+		id = 45345,
+		damage = "99 x 2",
+		base = 45340,
 		weapon_id = {
-			46003
+			45345
 		}
 	},
-	[46020] = {
-		name = "四联装20mm MG机枪",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "四联装20mm MG机枪，可以用于防空",
-		value_2 = 5,
-		icon = "46000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "20/轮",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[45346] = {
+		id = 45346,
+		damage = "108 x 2",
+		base = 45340,
 		weapon_id = {
-			46020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
+			45346
 		}
 	},
-	[46021] = {
-		id = 46021,
-		damage = "23/轮",
-		base = 46020,
+	[45347] = {
+		id = 45347,
+		damage = "117 x 2",
+		base = 45340,
 		weapon_id = {
-			46021
+			45347
 		}
 	},
-	[46022] = {
-		id = 46022,
-		damage = "27/轮",
-		base = 46020,
+	[45348] = {
+		id = 45348,
+		damage = "126 x 2",
+		base = 45340,
 		weapon_id = {
-			46022
+			45348
 		}
 	},
-	[46023] = {
-		id = 46023,
-		damage = "31/轮",
-		base = 46020,
+	[45349] = {
+		id = 45349,
+		damage = "135 x 2",
+		base = 45340,
 		weapon_id = {
-			46023
+			45349
 		}
 	},
-	[46040] = {
-		name = "四联装20mm MG机枪",
-		speciality = "防空",
-		type = 6,
-		tech = 3,
-		descrip = "四联装20mm MG机枪，可以用于防空",
+	[45350] = {
+		id = 45350,
+		damage = "144 x 2",
+		base = 45340,
+		weapon_id = {
+			45350
+		}
+	},
+	[45351] = {
+		anti_siren = 100,
+		damage = "144 x 2",
+		base = 45340,
+		id = 45351,
+		weapon_id = {
+			45351
+		}
+	},
+	[45400] = {
+		name = "潜艇用G7e声导鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 1,
+		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "46000",
-		attribute_2 = "antiaircraft",
+		icon = "45400",
+		attribute_2 = "torpedo",
 		rarity = 3,
-		damage = "23/轮",
+		damage = "52 x 2",
 		nationality = 4,
-		ammo = 5,
+		ammo = 4,
 		value_3 = 0,
-		id = 46040,
+		id = 45400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				3,
+				1826
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1826
+			},
+			{
+				4,
+				1601
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			46040
+			45400
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			8,
+			17
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			8,
+			17
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"AA"
+			"SS",
+			"TP"
 		}
 	},
-	[46041] = {
-		id = 46041,
-		damage = "26/轮",
-		base = 46040,
+	[45401] = {
+		id = 45401,
+		damage = "59 x 2",
+		base = 45400,
 		weapon_id = {
-			46041
+			45401
 		}
 	},
-	[46042] = {
-		id = 46042,
-		damage = "30/轮",
-		base = 46040,
+	[45402] = {
+		id = 45402,
+		damage = "66 x 2",
+		base = 45400,
 		weapon_id = {
-			46042
+			45402
 		}
 	},
-	[46043] = {
-		id = 46043,
-		damage = "34/轮",
-		base = 46040,
+	[45403] = {
+		id = 45403,
+		damage = "74 x 2",
+		base = 45400,
 		weapon_id = {
-			46043
+			45403
 		}
 	},
-	[46044] = {
-		id = 46044,
-		damage = "38/轮",
-		base = 46040,
+	[45404] = {
+		id = 45404,
+		damage = "82 x 2",
+		base = 45400,
 		weapon_id = {
-			46044
+			45404
 		}
 	},
-	[46045] = {
-		id = 46045,
-		damage = "42/轮",
-		base = 46040,
+	[45405] = {
+		id = 45405,
+		damage = "90 x 2",
+		base = 45400,
 		weapon_id = {
-			46045
+			45405
 		}
 	},
-	[46046] = {
-		id = 46046,
-		damage = "46/轮",
-		base = 46040,
+	[45406] = {
+		id = 45406,
+		damage = "98 x 2",
+		base = 45400,
 		weapon_id = {
-			46046
+			45406
 		}
 	},
-	[46047] = {
-		id = 46047,
-		damage = "46/轮",
-		base = 46040,
-		weapon_id = {
-			46047
-		}
-	},
-	[46060] = {
-		name = "双联装88mmSKC32高炮",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
+	[45420] = {
+		name = "潜艇用G7e声导鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 2,
 		descrip = "说明未填写",
 		value_2 = 25,
-		icon = "46060",
-		attribute_2 = "antiaircraft",
+		icon = "45400",
+		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "28/轮",
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 5,
+		ammo = 4,
 		value_3 = 0,
-		id = 46060,
+		id = 45420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				3,
+				1826
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1826
+			},
+			{
+				4,
+				1601
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			46060
+			45420
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			8,
+			17
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			8,
+			17
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"AA"
-		}
-	},
-	[46061] = {
-		id = 46061,
-		damage = "34/轮",
-		base = 46060,
-		weapon_id = {
-			46061
+			"SS",
+			"TP"
 		}
 	}
 }

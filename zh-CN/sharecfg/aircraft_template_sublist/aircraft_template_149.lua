@@ -1,28 +1,81 @@
 pg = pg or {}
 pg.aircraft_template_149 = {
-	[66420] = {
-		name = "胡蜂技能LV0",
-		max_hp = 31,
+	[65386] = {
+		max_hp = 73,
+		name = "女天狗沙排啾轰炸机Lv6",
+		base = 65381,
+		id = 65386,
+		hp_growth = 3050,
+		weapon_ID = {
+			65396,
+			65406
+		}
+	},
+	[65387] = {
+		max_hp = 79,
+		name = "女天狗沙排啾轰炸机Lv7",
+		base = 65381,
+		id = 65387,
+		hp_growth = 3290,
+		weapon_ID = {
+			65397,
+			65407
+		}
+	},
+	[65388] = {
+		max_hp = 86,
+		name = "女天狗沙排啾轰炸机Lv8",
+		base = 65381,
+		id = 65388,
+		hp_growth = 3531,
+		weapon_ID = {
+			65398,
+			65408
+		}
+	},
+	[65389] = {
+		max_hp = 92,
+		name = "女天狗沙排啾轰炸机Lv9",
+		base = 65381,
+		id = 65389,
+		hp_growth = 3772,
+		weapon_ID = {
+			65399,
+			65409
+		}
+	},
+	[65390] = {
+		max_hp = 98,
+		name = "女天狗沙排啾轰炸机Lv10",
+		base = 65381,
+		id = 65390,
+		hp_growth = 4013,
+		weapon_ID = {
+			65400,
+			65410
+		}
+	},
+	[65451] = {
+		name = "META飞龙鱼雷机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "97jiangong",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1210,
-		speed = 50,
-		id = 66420,
+		nationality = 3,
+		hp_growth = 1692,
+		speed = 48,
+		id = 65451,
 		scale = 1,
 		weapon_ID = {
-			50140,
-			50540,
-			52240
+			65461
 		},
 		position_offset = {
 			0,
@@ -42,13 +95,13 @@ pg.aircraft_template_149 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -65,7 +118,7 @@ pg.aircraft_template_149 = {
 				0
 			},
 			{
-				0.62,
+				0.54,
 				0,
 				0
 			},
@@ -76,112 +129,44 @@ pg.aircraft_template_149 = {
 			}
 		}
 	},
-	[66421] = {
-		max_hp = 37,
-		name = "胡蜂技能LV1",
-		base = 66420,
-		id = 66421,
-		hp_growth = 1458,
+	[65452] = {
+		max_hp = 48,
+		name = "META飞龙鱼雷机Lv2",
+		base = 65451,
+		id = 65452,
+		hp_growth = 1913,
 		weapon_ID = {
-			50141,
-			50541,
-			52241
+			65462
 		}
 	},
-	[66422] = {
-		max_hp = 43,
-		name = "胡蜂技能LV2",
-		base = 66420,
-		id = 66422,
-		hp_growth = 1706,
+	[65453] = {
+		max_hp = 54,
+		name = "META飞龙鱼雷机Lv3",
+		base = 65451,
+		id = 65453,
+		hp_growth = 2133,
 		weapon_ID = {
-			50142,
-			50542,
-			52242
+			65463
 		}
 	},
-	[66423] = {
-		max_hp = 49,
-		name = "胡蜂技能LV3",
-		base = 66420,
-		id = 66423,
-		hp_growth = 1954,
-		weapon_ID = {
-			50143,
-			50543,
-			52243
-		}
-	},
-	[66424] = {
-		max_hp = 55,
-		name = "胡蜂技能LV4",
-		base = 66420,
-		id = 66424,
-		hp_growth = 2202,
-		weapon_ID = {
-			50144,
-			50544,
-			52244
-		}
-	},
-	[66425] = {
+	[65454] = {
 		max_hp = 61,
-		name = "胡蜂技能LV5",
-		base = 66420,
-		id = 66425,
-		hp_growth = 2451,
+		name = "META飞龙鱼雷机Lv4",
+		base = 65451,
+		id = 65454,
+		hp_growth = 2354,
 		weapon_ID = {
-			50145,
-			50545,
-			52245
+			65464
 		}
 	},
-	[66426] = {
-		max_hp = 68,
-		name = "胡蜂技能LV6",
-		base = 66420,
-		id = 66426,
-		hp_growth = 2700,
+	[65455] = {
+		max_hp = 67,
+		name = "META飞龙鱼雷机Lv5",
+		base = 65451,
+		id = 65455,
+		hp_growth = 2575,
 		weapon_ID = {
-			50146,
-			50546,
-			52246
-		}
-	},
-	[66427] = {
-		max_hp = 75,
-		name = "胡蜂技能LV7",
-		base = 66420,
-		id = 66427,
-		hp_growth = 2949,
-		weapon_ID = {
-			50147,
-			50547,
-			52247
-		}
-	},
-	[66428] = {
-		max_hp = 82,
-		name = "胡蜂技能LV8",
-		base = 66420,
-		id = 66428,
-		hp_growth = 3198,
-		weapon_ID = {
-			50148,
-			50548,
-			52248
-		}
-	},
-	[66429] = {
-		max_hp = 89,
-		name = "胡蜂技能LV9",
-		base = 66420,
-		id = 66429,
-		hp_growth = 3447,
-		weapon_ID = {
-			50149,
-			50549,
-			52249
+			65465
 		}
 	}
 }

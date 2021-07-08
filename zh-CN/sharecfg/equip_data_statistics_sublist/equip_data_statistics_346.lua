@@ -1,15 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_346 = {
-	[72257] = {
-		id = 72257,
-		name = "全弹发射-最上级铃谷型II增强",
-		base = 72251,
+	[71142] = {
+		id = 71142,
+		name = "全弹发射-爱丁堡级II",
+		base = 71141,
 		weapon_id = {
-			72257
+			71142
 		}
 	},
-	[72261] = {
-		name = "全弹发射-高雄级I",
+	[71151] = {
+		name = "全弹发射-南安普顿级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -21,14 +21,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 72261,
+		id = 71151,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			72261
+			71151
 		},
 		skill_id = {},
 		part_main = {
@@ -47,16 +47,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[72262] = {
-		id = 72262,
-		name = "全弹发射-高雄级II",
-		base = 72261,
+	[71152] = {
+		id = 71152,
+		name = "全弹发射-南安普顿级II",
+		base = 71151,
 		weapon_id = {
-			72262
+			71152
 		}
 	},
-	[72311] = {
-		name = "全弹发射-伊乙级I",
+	[71161] = {
+		name = "全弹发射-斐济级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -68,14 +68,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 72311,
+		id = 71161,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			72311
+			71161
 		},
 		skill_id = {},
 		part_main = {
@@ -94,16 +94,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[72312] = {
-		id = 72312,
-		name = "全弹发射-伊乙级II",
-		base = 72311,
+	[71162] = {
+		id = 71162,
+		name = "全弹发射-斐济级II",
+		base = 71161,
 		weapon_id = {
-			72312
+			71162
 		}
 	},
-	[72411] = {
-		name = "全弹发射-樫野I",
+	[71171] = {
+		name = "全弹发射-谷物女神级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -115,14 +115,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 72411,
+		id = 71171,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			72411
+			71171
 		},
 		skill_id = {},
 		part_main = {
@@ -141,16 +141,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[72412] = {
-		id = 72412,
-		name = "全弹发射-樫野II",
-		base = 72411,
+	[71172] = {
+		id = 71172,
+		name = "全弹发射-谷物女神级II",
+		base = 71171,
 		weapon_id = {
-			72412
+			71172
 		}
 	},
-	[73011] = {
-		name = "全弹发射-1934型I",
+	[71181] = {
+		name = "全弹发射-格罗斯特级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -162,14 +162,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73011,
+		id = 71181,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73011
+			71181
 		},
 		skill_id = {},
 		part_main = {
@@ -188,16 +188,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73012] = {
-		id = 73012,
-		name = "全弹发射-1934型II",
-		base = 73011,
+	[71182] = {
+		id = 71182,
+		name = "全弹发射-格罗斯特级II",
+		base = 71181,
 		weapon_id = {
-			73012
+			71182
 		}
 	},
-	[73031] = {
-		name = "全弹发射-1936型I",
+	[71211] = {
+		name = "全弹发射-伦敦级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -209,14 +209,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73031,
+		id = 71211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73031
+			71211
 		},
 		skill_id = {},
 		part_main = {
@@ -235,16 +235,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73032] = {
-		id = 73032,
-		name = "全弹发射-1936型II",
-		base = 73031,
+	[71212] = {
+		id = 71212,
+		name = "全弹发射-伦敦级II",
+		base = 71211,
 		weapon_id = {
-			73032
+			71212
 		}
 	},
-	[73041] = {
-		name = "全弹发射-1936A型I",
+	[71221] = {
+		name = "全弹发射-肯特级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -256,14 +256,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73041,
+		id = 71221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73041
+			71221
 		},
 		skill_id = {},
 		part_main = {
@@ -282,16 +282,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73042] = {
-		id = 73042,
-		name = "全弹发射-1936A型II",
-		base = 73041,
+	[71222] = {
+		id = 71222,
+		name = "全弹发射-肯特级II",
+		base = 71221,
 		weapon_id = {
-			73042
+			71222
 		}
 	},
-	[73051] = {
-		name = "全弹发射-1936B型I",
+	[71231] = {
+		name = "全弹发射-诺福克级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -303,14 +303,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73051,
+		id = 71231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73051
+			71231
 		},
 		skill_id = {},
 		part_main = {
@@ -329,16 +329,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73052] = {
-		id = 73052,
-		name = "全弹发射-1936B型II",
-		base = 73051,
+	[71232] = {
+		id = 71232,
+		name = "全弹发射-诺福克级II",
+		base = 71231,
 		weapon_id = {
-			73052
+			71232
 		}
 	},
-	[73111] = {
-		name = "全弹发射-柯尼斯堡级I",
+	[71241] = {
+		name = "全弹发射-约克级I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -350,14 +350,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73111,
+		id = 71241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73111
+			71241
 		},
 		skill_id = {},
 		part_main = {
@@ -376,12 +376,12 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73112] = {
-		id = 73112,
-		name = "全弹发射-柯尼斯堡级II",
-		base = 73111,
+	[71242] = {
+		id = 71242,
+		name = "全弹发射-约克级II",
+		base = 71241,
 		weapon_id = {
-			73112
+			71242
 		}
 	}
 }

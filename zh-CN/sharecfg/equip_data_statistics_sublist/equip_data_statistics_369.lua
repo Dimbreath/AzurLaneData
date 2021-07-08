@@ -1,127 +1,247 @@
 pg = pg or {}
 pg.equip_data_statistics_369 = {
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
-		base = 89000
+	[85321] = {
+		id = 85321,
+		damage = "65 x 3",
+		base = 85320,
+		weapon_id = {
+			85321
+		}
 	},
-	[89009] = {
-		id = 89009,
-		value_2 = 14,
-		value_1 = "24",
-		base = 89000
+	[85322] = {
+		id = 85322,
+		damage = "73 x 3",
+		base = 85320,
+		weapon_id = {
+			85322
+		}
 	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
-		base = 89000
+	[85323] = {
+		id = 85323,
+		damage = "83 x 3",
+		base = 85320,
+		weapon_id = {
+			85323
+		}
 	},
-	[89011] = {
-		id = 89011,
-		anti_siren = 100,
-		base = 89000,
-		value_2 = 16,
-		value_1 = "26"
+	[85324] = {
+		id = 85324,
+		damage = "92 x 3",
+		base = 85320,
+		weapon_id = {
+			85324
+		}
 	},
-	[89012] = {
-		id = 89012,
-		anti_siren = 200,
-		base = 89000,
-		value_2 = 17,
-		value_1 = "27"
+	[85325] = {
+		id = 85325,
+		damage = "102 x 3",
+		base = 85320,
+		weapon_id = {
+			85325
+		}
 	},
-	[89013] = {
-		id = 89013,
-		anti_siren = 300,
-		base = 89000,
-		value_2 = 18,
-		value_1 = "28"
+	[85326] = {
+		id = 85326,
+		damage = "112 x 3",
+		base = 85320,
+		weapon_id = {
+			85326
+		}
 	},
-	[89020] = {
-		name = "晃悠悠",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89020,
-		value_2 = 1,
-		icon = "89020",
-		value_1 = "200",
-		attribute_2 = "luck",
-		rarity = 5,
-		descrip = "绊爱的发箍。有一种说法是晃悠悠才是本体。拿掉晃悠悠的话会怎么样呢…话说真的拿得掉么？",
-		nationality = 104,
-		ammo = 10,
+	[85327] = {
+		id = 85327,
+		damage = "120 x 3",
+		base = 85320,
+		weapon_id = {
+			85327
+		}
+	},
+	[85328] = {
+		id = 85328,
+		damage = "129 x 3",
+		base = 85320,
+		weapon_id = {
+			85328
+		}
+	},
+	[85329] = {
+		id = 85329,
+		damage = "139 x 3",
+		base = 85320,
+		weapon_id = {
+			85329
+		}
+	},
+	[85330] = {
+		id = 85330,
+		damage = "149 x 3",
+		base = 85320,
+		weapon_id = {
+			85330
+		}
+	},
+	[85360] = {
+		name = "B-34 100mm双联装防空炮MZ-14",
+		speciality = "防空",
+		type = 6,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "14/轮",
+		nationality = 7,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 85360,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6390
+		weapon_id = {
+			85360
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"ST",
+			"AA"
 		}
 	},
-	[89021] = {
-		id = 89021,
-		value_1 = "230",
-		base = 89020
+	[85361] = {
+		id = 85361,
+		damage = "16/轮",
+		base = 85360,
+		weapon_id = {
+			85361
+		}
 	},
-	[89022] = {
-		id = 89022,
-		value_1 = "260",
-		base = 89020
+	[85362] = {
+		id = 85362,
+		damage = "19/轮",
+		base = 85360,
+		weapon_id = {
+			85362
+		}
 	},
-	[89023] = {
-		id = 89023,
-		value_1 = "290",
-		base = 89020
+	[85363] = {
+		id = 85363,
+		damage = "22/轮",
+		base = 85360,
+		weapon_id = {
+			85363
+		}
 	},
-	[89024] = {
-		id = 89024,
-		value_1 = "320",
-		base = 89020
+	[85380] = {
+		name = "B-34 100mm双联装防空炮MZ-14",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "33/轮",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85380,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85380
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
 	},
-	[89025] = {
-		id = 89025,
-		value_1 = "350",
-		base = 89020
+	[85381] = {
+		id = 85381,
+		damage = "36/轮",
+		base = 85380,
+		weapon_id = {
+			85381
+		}
 	},
-	[89026] = {
-		id = 89026,
-		value_1 = "380",
-		base = 89020
-	},
-	[89027] = {
-		id = 89027,
-		value_1 = "410",
-		base = 89020
-	},
-	[89028] = {
-		id = 89028,
-		value_1 = "440",
-		base = 89020
-	},
-	[89029] = {
-		id = 89029,
-		value_1 = "470",
-		base = 89020
-	},
-	[89030] = {
-		id = 89030,
-		value_2 = 2,
-		value_1 = "500",
-		base = 89020
+	[85382] = {
+		id = 85382,
+		damage = "41/轮",
+		base = 85380,
+		weapon_id = {
+			85382
+		}
 	}
 }

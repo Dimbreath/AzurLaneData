@@ -1,15 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_354 = {
-	[79332] = {
-		id = 79332,
-		name = "专属弹幕-凯旋II",
-		base = 79321,
+	[79012] = {
+		id = 79012,
+		name = "专属弹幕-英格兰II",
+		base = 79011,
 		weapon_id = {
-			60304
+			79012
 		}
 	},
-	[79341] = {
-		name = "专属弹幕-大青花鱼I",
+	[79021] = {
+		name = "专属弹幕-埃尔德里奇I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -21,14 +21,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79341,
+		id = 79021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79341
+			79021
 		},
 		skill_id = {},
 		part_main = {
@@ -47,16 +47,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79342] = {
-		id = 79342,
-		name = "专属弹幕-大青花鱼II",
-		base = 79341,
+	[79022] = {
+		id = 79022,
+		name = "专属弹幕-埃尔德里奇II",
+		base = 79021,
 		weapon_id = {
-			79342
+			79022
 		}
 	},
-	[79361] = {
-		name = "专属弹幕-天狼星I",
+	[79031] = {
+		name = "专属弹幕-威廉·D·波特I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -68,14 +68,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79361,
+		id = 79031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79361
+			79031
 		},
 		skill_id = {},
 		part_main = {
@@ -94,16 +94,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79362] = {
-		id = 79362,
-		name = "专属弹幕-天狼星II",
-		base = 79361,
+	[79032] = {
+		id = 79032,
+		name = "专属弹幕-威廉·D·波特II",
+		base = 79031,
 		weapon_id = {
-			79362
+			79032
 		}
 	},
-	[79371] = {
-		name = "专属弹幕-I13I",
+	[79041] = {
+		name = "专属弹幕-约翰斯顿I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -115,14 +115,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79371,
+		id = 79041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79371
+			79041
 		},
 		skill_id = {},
 		part_main = {
@@ -141,16 +141,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79372] = {
-		id = 79372,
-		name = "专属弹幕-I13II",
-		base = 79371,
+	[79042] = {
+		id = 79042,
+		name = "专属弹幕-约翰斯顿II",
+		base = 79041,
 		weapon_id = {
-			79372
+			79042
 		}
 	},
-	[79381] = {
-		name = "专属弹幕-北风I",
+	[79051] = {
+		name = "专属弹幕-拉菲I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -162,14 +162,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79381,
+		id = 79051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79381
+			79051
 		},
 		skill_id = {},
 		part_main = {
@@ -188,16 +188,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79382] = {
-		id = 79382,
-		name = "专属弹幕-北风II",
-		base = 79381,
+	[79052] = {
+		id = 79052,
+		name = "专属弹幕-拉菲II",
+		base = 79051,
 		weapon_id = {
-			79382
+			79052
 		}
 	},
-	[79383] = {
-		name = "专属弹幕鱼雷-北风I",
+	[79061] = {
+		name = "专属弹幕-萤火虫I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -209,14 +209,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79383,
+		id = 79061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79383
+			79061
 		},
 		skill_id = {},
 		part_main = {
@@ -235,16 +235,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79384] = {
-		id = 79384,
-		name = "专属弹幕鱼雷-北风II",
-		base = 79383,
+	[79062] = {
+		id = 79062,
+		name = "专属弹幕-萤火虫II",
+		base = 79061,
 		weapon_id = {
-			79384
+			79062
 		}
 	},
-	[79391] = {
-		name = "专属弹幕-西雅图I",
+	[79071] = {
+		name = "专属弹幕-勇敢I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -256,14 +256,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79391,
+		id = 79071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79391
+			79071
 		},
 		skill_id = {},
 		part_main = {
@@ -282,16 +282,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79392] = {
-		id = 79392,
-		name = "专属弹幕-西雅图II",
-		base = 79391,
+	[79072] = {
+		id = 79072,
+		name = "专属弹幕-勇敢II",
+		base = 79071,
 		weapon_id = {
-			79392
+			79072
 		}
 	},
-	[79401] = {
-		name = "专属弹幕-确捷I",
+	[79081] = {
+		name = "专属弹幕-标枪I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -303,14 +303,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79401,
+		id = 79081,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79401
+			79081
 		},
 		skill_id = {},
 		part_main = {
@@ -329,16 +329,16 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79402] = {
-		id = 79402,
-		name = "专属弹幕-确捷II",
-		base = 79401,
+	[79082] = {
+		id = 79082,
+		name = "专属弹幕-标枪II",
+		base = 79081,
 		weapon_id = {
-			79402
+			79082
 		}
 	},
-	[79411] = {
-		name = "专属弹幕-恶毒I",
+	[79091] = {
+		name = "专属弹幕-吸血鬼I",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -350,14 +350,14 @@ pg.equip_data_statistics_354 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79411,
+		id = 79091,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79411
+			79091
 		},
 		skill_id = {},
 		part_main = {
@@ -376,12 +376,12 @@ pg.equip_data_statistics_354 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79412] = {
-		id = 79412,
-		name = "专属弹幕-恶毒II",
-		base = 79411,
+	[79092] = {
+		id = 79092,
+		name = "专属弹幕-吸血鬼II",
+		base = 79091,
 		weapon_id = {
-			79412
+			79092
 		}
 	}
 }

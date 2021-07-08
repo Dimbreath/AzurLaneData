@@ -138,10 +138,6 @@ function slot0.SetCurrentFleet(slot0, slot1)
 	slot0._curFleetIndex = 1
 end
 
-function slot0.MarkEdited(slot0)
-	slot0._editedFlag = true
-end
-
 function slot0.UpdateFleetView(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0:resetGrid(TeamType.Vanguard)
@@ -176,7 +172,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = false,
@@ -204,40 +200,49 @@ function slot0.didEnter(slot0)
 		end)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._startBtn, function ()
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = false,
-				zIndex = -100,
-				content = i18n("battle_preCombatLayer_save_march"),
-				onYes = function ()
-					uv0:emit(WorldBossFormationMediator.ON_COMMIT_EDIT, function ()
-						pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
-						uv0:emit(WorldBossFormationMediator.ON_START, uv0._currentFleetVO.id)
-					end)
-				end
-			})
-		else
-			uv0:emit(WorldBossFormationMediator.ON_START, uv0._currentFleetVO.id)
+		slot0 = {}
+
+		if uv0._currentForm == uv1.FORM_EDIT then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					hideNo = false,
+					zIndex = -100,
+					content = i18n("battle_preCombatLayer_save_march"),
+					onYes = function ()
+						uv0:emit(WorldBossFormationMediator.ON_COMMIT_EDIT, function ()
+							pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
+							uv0()
+						end)
+					end
+				})
+			end)
 		end
+
+		seriesAsync(slot0, function ()
+			uv0:emit(WorldBossFormationMediator.ON_START, uv0._currentFleetVO.id)
+		end)
 	end, SFX_UI_WEIGHANCHOR)
+	onButton(slot0, slot0._checkBtn, function ()
+		if uv0._currentForm == uv1.FORM_EDIT then
+			uv0:emit(WorldBossFormationMediator.ON_COMMIT_EDIT, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
+				uv0:swtichToPreviewMode()
+			end)
+		elseif uv0._currentForm == uv1.FORM_PREVIEW then
+			uv0:switchToEditMode()
+		end
+	end, SFX_PANEL)
+
+	slot0._currentForm = slot0.contextData.form
+	slot0.contextData.form = nil
+
 	slot0:UpdateFleetView(true)
 
-	if slot0.contextData.form == uv0.FORM_EDIT then
-		slot0._editedFlag = true
-
+	if slot0._currentForm == uv0.FORM_EDIT then
 		slot0:switchToEditMode()
-
-		if slot0._characterList then
-			slot0:enabledTeamCharacter(TeamType.Vanguard, true)
-			slot0:enabledTeamCharacter(TeamType.Main, true)
-		end
-
-		slot0:setAllCharacterPos(false)
 	else
 		slot0:swtichToPreviewMode()
 	end
-
-	slot0.contextData.form = nil
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -283,7 +288,6 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.swtichToPreviewMode(slot0)
-	slot0._editedFlag = nil
 	slot0._currentForm = uv0.FORM_PREVIEW
 	slot0._checkBtn:GetComponent("Button").interactable = true
 
@@ -292,23 +296,10 @@ function slot0.swtichToPreviewMode(slot0)
 	slot0:resetGrid(TeamType.Vanguard)
 	slot0:resetGrid(TeamType.Main)
 	slot0:setAllCharacterPos(false)
-	onButton(slot0, slot0._checkBtn, function ()
-		uv0:switchToEditMode()
-
-		if uv0._characterList then
-			uv0:enabledTeamCharacter(TeamType.Vanguard, true)
-			uv0:enabledTeamCharacter(TeamType.Main, true)
-		end
-
-		uv0:setAllCharacterPos(false)
-	end, SFX_PANEL)
 	slot0:disableAllStepper()
 	slot0:SetFleetStepper()
-
-	if slot0._characterList then
-		slot0:enabledTeamCharacter(TeamType.Vanguard, false)
-		slot0:enabledTeamCharacter(TeamType.Main, false)
-	end
+	slot0:enabledTeamCharacter(TeamType.Vanguard, false)
+	slot0:enabledTeamCharacter(TeamType.Main, false)
 end
 
 function slot0.switchToEditMode(slot0)
@@ -317,15 +308,6 @@ function slot0.switchToEditMode(slot0)
 
 	setActive(slot0._checkBtn:Find("save"), true)
 	setActive(slot0._checkBtn:Find("edit"), false)
-	onButton(slot0, slot0._checkBtn, function ()
-		uv0:emit(WorldBossFormationMediator.ON_COMMIT_EDIT, function ()
-			if uv0._editedFlag then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
-			end
-
-			uv0:swtichToPreviewMode()
-		end)
-	end, SFX_CONFIRM)
 	slot0:EnableAddGrid(TeamType.Main)
 	slot0:EnableAddGrid(TeamType.Vanguard)
 
@@ -350,7 +332,10 @@ function slot0.switchToEditMode(slot0)
 
 	slot0._shiftIndex = nil
 
+	slot0:setAllCharacterPos(false)
 	slot0:disableAllStepper()
+	slot0:enabledTeamCharacter(TeamType.Vanguard, true)
+	slot0:enabledTeamCharacter(TeamType.Main, true)
 end
 
 function slot0.switchToShiftMode(slot0, slot1, slot2)
@@ -436,7 +421,7 @@ function slot0.loadAllCharacter(slot0)
 
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
 
-		uv0:enabledCharacter(slot0, true, slot7, slot2)
+		uv0:enabledCharacter(slot0, uv0._currentForm == uv1.FORM_EDIT, slot7, slot2)
 		uv0:setCharacterPos(slot2, slot3, slot0)
 		uv0:sortSiblingIndex()
 
@@ -792,6 +777,10 @@ function slot0.recycleCharacterList(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
+	if slot0._currentForm == uv0.FORM_EDIT then
+		slot0.contextData.editingFleetVO = slot0._currentFleetVO
+	end
+
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)

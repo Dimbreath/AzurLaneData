@@ -12,30 +12,12 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onFlagShip",
+				"onAttach",
 				"onStack"
 			},
 			arg_list = {
 				buff_id = 45021,
-				target = "TargetAllHelp"
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onSubLeader",
-				"onStack"
-			},
-			arg_list = {
-				buff_id = 45021,
-				target = {
-					"TargetAllHelp",
-					"TargetShipType"
-				},
-				ship_type_list = {
-					8,
-					17
-				}
+				CMDBuff_id = 45020
 			}
 		}
 	}

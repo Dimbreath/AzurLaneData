@@ -1,20 +1,22 @@
 slot0 = class("SelectTecTargetCatchupCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+
 	pg.ConnectionMgr.GetInstance():Send(63011, {
-		target = slot1:getBody().charID
+		version = slot2.tecID,
+		target = slot2.charID
 	}, 63012, function (slot0)
 		if slot0.result == 0 then
-			slot2 = getProxy(TechnologyProxy):getNewestCatchupTecID()
-			slot3 = uv0
+			slot2 = uv0.tecID
 
-			if uv0 == 0 then
-				slot1:setCurCatchupTecInfo(0, 0, 0)
-			else
-				slot1:setCurCatchupTecInfo(slot2, slot3, 0)
+			if uv1 ~= 0 then
+				getProxy(TechnologyProxy):setCurCatchupTecInfo(slot2, uv1)
 			end
 
-			uv1:sendNotification(GAME.SELECT_TEC_TARGET_CATCHUP_DONE)
+			uv2:sendNotification(GAME.SELECT_TEC_TARGET_CATCHUP_DONE, {
+				tecID = slot2
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips("Error Code" .. slot0.result)
 		end

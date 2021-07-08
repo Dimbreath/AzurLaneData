@@ -248,7 +248,6 @@ end
 
 function slot6.UpdateAOECld(slot0, slot1)
 	slot2 = slot1:GetCldBox()
-	slot4 = slot1:GetAngle() * math.deg2Rad
 	slot5 = nil
 
 	if slot1:GetFieldType() == uv0.BulletField.SURFACE then
@@ -256,14 +255,16 @@ function slot6.UpdateAOECld(slot0, slot1)
 		slot8 = nil
 		slot8 = (not slot1:OpponentAffected() or (slot6 ~= slot0._foeCode or slot0._shipTree) and slot0._foeShipTree) and (slot6 ~= slot0._foeCode or slot0._foeShipTree) and slot0._shipTree
 
-		if math.abs(math.cos(slot4)) ~= 1 then
-			if slot1:GetIFF() == -1 then
-				slot4 = slot4 + math.pi
-			end
+		if slot1:GetIFF() == slot0._foeCode then
+			slot4 = slot1:GetAngle() * math.deg2Rad + math.pi
+		end
 
-			slot5 = slot8:GetCldListGradient(slot4, slot1:GetHeight(), slot1:GetWidth(), slot1:GetPosition())
-		else
+		slot10 = Vector3(math.cos(slot4), math.sin(slot4))
+
+		if slot1:GetAreaType() == uv0.AreaType.COLUMN or slot1:GetAnchorPointAlignment() == Vector3.zero then
 			slot5 = slot8:GetCldList(slot2, uv1)
+		else
+			slot5 = slot8:GetCldListGradient(slot4, slot1:GetHeight(), slot1:GetWidth(), slot1:GetPosition())
 		end
 	else
 		slot5 = slot0._aircraftTree:GetCldList(slot2, uv1)

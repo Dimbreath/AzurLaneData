@@ -99,21 +99,23 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot4 = slot0.displays[slot1 + 1]
+	slot5 = slot0.displays[slot1 + 1]
 
-	slot3:update(slot4)
+	slot3:update(slot5)
 
-	if slot4 then
-		slot5 = slot0.selectedID == slot4.id
+	if slot5 then
+		slot6 = slot0.selectedID == slot5.id
 
-		setActive(slot3.mark2, slot5)
+		setActive(slot3.mark2, slot6)
 
-		if slot5 then
+		if slot6 then
 			slot0.mark = slot3.mark2
 		end
 
-		setActive(slot3._tf:Find("info/home"), not slot0:CheckIncludeSelf(slot4.id))
+		setActive(slot3._tf:Find("info/home"), not slot0:CheckIncludeSelf(slot5.id))
 	end
+
+	setActive(slot3._tf:Find("line"), slot4 % 4 == 1)
 end
 
 function slot0.Update(slot0, slot1, slot2)

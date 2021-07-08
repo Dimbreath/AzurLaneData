@@ -2,120 +2,6 @@ pg = pg or {}
 pg.weapon_property_86 = {}
 
 function ()
-	uv0.weapon_property_86[51303] = {
-		id = 51303,
-		damage = 88,
-		base = 51300
-	}
-	uv0.weapon_property_86[51304] = {
-		id = 51304,
-		damage = 104,
-		base = 51300
-	}
-	uv0.weapon_property_86[51305] = {
-		id = 51305,
-		damage = 120,
-		base = 51300
-	}
-	uv0.weapon_property_86[51306] = {
-		id = 51306,
-		damage = 136,
-		base = 51300
-	}
-	uv0.weapon_property_86[51307] = {
-		id = 51307,
-		damage = 152,
-		base = 51300
-	}
-	uv0.weapon_property_86[51308] = {
-		id = 51308,
-		damage = 168,
-		base = 51300
-	}
-	uv0.weapon_property_86[51309] = {
-		id = 51309,
-		damage = 184,
-		base = 51300
-	}
-	uv0.weapon_property_86[51310] = {
-		id = 51310,
-		damage = 200,
-		base = 51300
-	}
-	uv0.weapon_property_86[51311] = {
-		id = 51311,
-		damage = 208,
-		base = 51300
-	}
-	uv0.weapon_property_86[51312] = {
-		id = 51312,
-		damage = 220,
-		base = 51300
-	}
-	uv0.weapon_property_86[51313] = {
-		id = 51313,
-		damage = 236,
-		base = 51300
-	}
-	uv0.weapon_property_86[51320] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x 机载鱼雷-重樱",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 44,
-		corrected = 100,
-		min_range = 0,
-		id = 51320,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_86[51321] = {
-		id = 51321,
-		damage = 62,
-		base = 51320
-	}
-	uv0.weapon_property_86[51322] = {
-		id = 51322,
-		damage = 79,
-		base = 51320
-	}
-	uv0.weapon_property_86[51323] = {
-		id = 51323,
-		damage = 97,
-		base = 51320
-	}
 	uv0.weapon_property_86[51324] = {
 		id = 51324,
 		damage = 114,
@@ -274,6 +160,115 @@ function ()
 		id = 51353,
 		damage = 283,
 		base = 51340
+	}
+	uv0.weapon_property_86[51360] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-重樱",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 0,
+		id = 51360,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_86[51361] = {
+		id = 51361,
+		damage = 92,
+		base = 51360
+	}
+	uv0.weapon_property_86[51362] = {
+		id = 51362,
+		damage = 122,
+		base = 51360
+	}
+	uv0.weapon_property_86[51363] = {
+		id = 51363,
+		damage = 152,
+		base = 51360
+	}
+	uv0.weapon_property_86[51364] = {
+		id = 51364,
+		damage = 182,
+		base = 51360
+	}
+	uv0.weapon_property_86[51365] = {
+		id = 51365,
+		damage = 212,
+		base = 51360
+	}
+	uv0.weapon_property_86[51366] = {
+		id = 51366,
+		damage = 242,
+		base = 51360
+	}
+	uv0.weapon_property_86[51367] = {
+		id = 51367,
+		damage = 272,
+		base = 51360
+	}
+	uv0.weapon_property_86[51368] = {
+		id = 51368,
+		damage = 302,
+		base = 51360
+	}
+	uv0.weapon_property_86[51369] = {
+		id = 51369,
+		damage = 332,
+		base = 51360
+	}
+	uv0.weapon_property_86[51370] = {
+		id = 51370,
+		damage = 362,
+		base = 51360
+	}
+	uv0.weapon_property_86[51371] = {
+		id = 51371,
+		damage = 376,
+		base = 51360
+	}
+	uv0.weapon_property_86[51372] = {
+		id = 51372,
+		damage = 398,
+		base = 51360
+	}
+	uv0.weapon_property_86[51373] = {
+		id = 51373,
+		damage = 427,
+		base = 51360
 	}
 	uv0.weapon_property_86[51400] = {
 		action_index = "",
@@ -466,6 +461,16 @@ function ()
 	uv0.weapon_property_86[51428] = {
 		id = 51428,
 		damage = 185,
+		base = 51420
+	}
+	uv0.weapon_property_86[51429] = {
+		id = 51429,
+		damage = 202,
+		base = 51420
+	}
+	uv0.weapon_property_86[51430] = {
+		id = 51430,
+		damage = 220,
 		base = 51420
 	}
 end()

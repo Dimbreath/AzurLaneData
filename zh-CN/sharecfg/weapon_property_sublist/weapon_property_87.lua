@@ -2,16 +2,6 @@ pg = pg or {}
 pg.weapon_property_87 = {}
 
 function ()
-	uv0.weapon_property_87[51429] = {
-		id = 51429,
-		damage = 202,
-		base = 51420
-	}
-	uv0.weapon_property_87[51430] = {
-		id = 51430,
-		damage = 220,
-		base = 51420
-	}
 	uv0.weapon_property_87[51431] = {
 		id = 51431,
 		damage = 229,
@@ -506,5 +496,20 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_87[51521] = {
+		id = 51521,
+		damage = 62,
+		base = 51520
+	}
+	uv0.weapon_property_87[51522] = {
+		id = 51522,
+		damage = 79,
+		base = 51520
+	}
+	uv0.weapon_property_87[51523] = {
+		id = 51523,
+		damage = 97,
+		base = 51520
 	}
 end()
