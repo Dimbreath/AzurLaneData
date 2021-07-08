@@ -1,82 +1,135 @@
 pg = pg or {}
 pg.equip_data_statistics_41 = {
-	[1902] = {
-		id = 1902,
+	[2043] = {
+		id = 2043,
+		value_1 = "203",
+		base = 2040
+	},
+	[2044] = {
+		id = 2044,
+		value_2 = 3,
+		value_1 = "224",
+		base = 2040
+	},
+	[2045] = {
+		id = 2045,
+		value_2 = 3,
+		value_1 = "245",
+		base = 2040
+	},
+	[2046] = {
+		id = 2046,
+		value_2 = 3,
+		value_1 = "266",
+		base = 2040
+	},
+	[2047] = {
+		id = 2047,
+		value_2 = 4,
+		value_1 = "287",
+		base = 2040
+	},
+	[2048] = {
+		id = 2048,
+		value_2 = 4,
+		value_1 = "308",
+		base = 2040
+	},
+	[2049] = {
+		id = 2049,
+		value_2 = 4,
+		value_1 = "329",
+		base = 2040
+	},
+	[2050] = {
+		id = 2050,
+		value_2 = 5,
+		value_1 = "350",
+		base = 2040
+	},
+	[2051] = {
+		id = 2051,
+		anti_siren = 100,
+		base = 2040,
+		value_2 = 6,
+		value_1 = "371"
+	},
+	[2100] = {
+		name = "空母燃料タンク",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		id = 2100,
+		value_2 = 14,
+		icon = "2100",
+		value_1 = "10",
+		attribute_2 = "durability",
+		rarity = 2,
+		descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6070
+		},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2101] = {
+		id = 2101,
+		value_2 = 16,
+		value_1 = "11",
+		base = 2100
+	},
+	[2102] = {
+		id = 2102,
 		value_2 = 18,
-		value_1 = "3",
-		base = 1900
+		value_1 = "13",
+		base = 2100
 	},
-	[1903] = {
-		id = 1903,
+	[2103] = {
+		id = 2103,
 		value_2 = 20,
-		value_1 = "3",
-		base = 1900
+		value_1 = "14",
+		base = 2100
 	},
-	[1920] = {
-		name = "迷彩塗装",
+	[2120] = {
+		name = "空母燃料タンク",
 		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 1920,
+		id = 2120,
 		value_2 = 16,
-		icon = "1900",
-		value_1 = "5",
-		attribute_2 = "durability",
-		rarity = 2,
-		descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1921] = {
-		id = 1921,
-		value_2 = 19,
-		base = 1920
-	},
-	[1922] = {
-		id = 1922,
-		value_2 = 22,
-		value_1 = "6",
-		base = 1920
-	},
-	[1923] = {
-		id = 1923,
-		value_2 = 25,
-		value_1 = "7",
-		base = 1920
-	},
-	[1940] = {
-		name = "迷彩塗装",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 1940,
-		value_2 = 20,
-		icon = "1900",
-		value_1 = "9",
+		icon = "2100",
+		value_1 = "18",
 		attribute_2 = "durability",
 		rarity = 3,
-		descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
+		descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		attribute_1 = "air",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -85,93 +138,40 @@ pg.equip_data_statistics_41 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1941] = {
-		id = 1941,
-		value_2 = 24,
-		value_1 = "10",
-		base = 1940
-	},
-	[1942] = {
-		id = 1942,
-		value_2 = 28,
-		value_1 = "11",
-		base = 1940
-	},
-	[1943] = {
-		id = 1943,
-		value_2 = 32,
-		value_1 = "13",
-		base = 1940
-	},
-	[1944] = {
-		id = 1944,
-		value_2 = 36,
-		value_1 = "14",
-		base = 1940
-	},
-	[1945] = {
-		id = 1945,
-		value_2 = 40,
-		value_1 = "15",
-		base = 1940
-	},
-	[1946] = {
-		id = 1946,
-		value_2 = 44,
-		value_1 = "17",
-		base = 1940
-	},
-	[1947] = {
-		id = 1947,
-		value_2 = 48,
-		value_1 = "19",
-		base = 1940
-	},
-	[1960] = {
-		name = "マリニエール魂（迷彩）",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 1960,
-		value_2 = 35,
-		icon = "1960",
-		value_1 = "8",
-		attribute_2 = "durability",
-		rarity = 4,
-		descrip = "ちょっとだけ戦闘力（？）を上げる迷彩塗装",
-		nationality = 7,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
+		skill_id = {
+			6080
 		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
 		equip_parameters = {},
 		label = {
-			"SN",
 			"DEV"
 		}
 	},
-	[1961] = {
-		id = 1961,
-		value_2 = 40,
-		value_1 = "9",
-		base = 1960
+	[2121] = {
+		id = 2121,
+		value_2 = 19,
+		value_1 = "20",
+		base = 2120
+	},
+	[2122] = {
+		id = 2122,
+		value_2 = 22,
+		value_1 = "23",
+		base = 2120
+	},
+	[2123] = {
+		id = 2123,
+		value_2 = 25,
+		value_1 = "26",
+		base = 2120
 	}
 }

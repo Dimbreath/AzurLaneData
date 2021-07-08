@@ -1,49 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_43 = {
-	[2022] = {
-		id = 2022,
-		value_1 = "117",
-		base = 2020
+	[2202] = {
+		id = 2202,
+		value_1 = "6",
+		base = 2200
 	},
-	[2023] = {
-		id = 2023,
-		value_1 = "130",
-		base = 2020
+	[2203] = {
+		id = 2203,
+		value_2 = 2,
+		value_1 = "7",
+		base = 2200
 	},
-	[2024] = {
-		id = 2024,
-		value_2 = 3,
-		value_1 = "144",
-		base = 2020
-	},
-	[2025] = {
-		id = 2025,
-		value_2 = 3,
-		value_1 = "157",
-		base = 2020
-	},
-	[2026] = {
-		id = 2026,
-		value_2 = 3,
-		value_1 = "171",
-		base = 2020
-	},
-	[2040] = {
-		name = "燃料フィルター",
-		tech = 3,
+	[2220] = {
+		name = "自動装填機構",
+		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 2040,
+		id = 2220,
 		value_2 = 2,
-		icon = "2000",
-		value_1 = "140",
-		attribute_2 = "dodge",
-		rarity = 4,
-		descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
+		icon = "2200",
+		value_1 = "9",
+		attribute_2 = "cannon",
+		rarity = 3,
+		descrip = "改良された給弾装置。人力よりずっとマシ",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		attribute_1 = "reload",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -53,68 +36,173 @@ pg.equip_data_statistics_43 = {
 		},
 		weapon_id = {},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[2041] = {
-		id = 2041,
-		value_1 = "161",
-		base = 2040
+	[2221] = {
+		id = 2221,
+		value_1 = "10",
+		base = 2220
 	},
-	[2042] = {
-		id = 2042,
-		value_1 = "182",
-		base = 2040
+	[2222] = {
+		id = 2222,
+		value_1 = "11",
+		base = 2220
 	},
-	[2043] = {
-		id = 2043,
-		value_1 = "203",
-		base = 2040
-	},
-	[2044] = {
-		id = 2044,
+	[2223] = {
+		id = 2223,
 		value_2 = 3,
-		value_1 = "224",
-		base = 2040
+		value_1 = "13",
+		base = 2220
 	},
-	[2045] = {
-		id = 2045,
+	[2224] = {
+		id = 2224,
 		value_2 = 3,
-		value_1 = "245",
-		base = 2040
+		value_1 = "14",
+		base = 2220
 	},
-	[2046] = {
-		id = 2046,
+	[2225] = {
+		id = 2225,
+		value_2 = 4,
+		value_1 = "15",
+		base = 2220
+	},
+	[2226] = {
+		id = 2226,
+		value_2 = 4,
+		value_1 = "17",
+		base = 2220
+	},
+	[2240] = {
+		name = "自動装填機構",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 2240,
 		value_2 = 3,
-		value_1 = "266",
-		base = 2040
+		icon = "2200",
+		value_1 = "14",
+		attribute_2 = "cannon",
+		rarity = 4,
+		descrip = "改良された給弾装置。人力よりずっとマシ",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "reload",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
-	[2047] = {
-		id = 2047,
+	[2241] = {
+		id = 2241,
+		value_1 = "16",
+		base = 2240
+	},
+	[2242] = {
+		id = 2242,
+		value_1 = "18",
+		base = 2240
+	},
+	[2243] = {
+		id = 2243,
 		value_2 = 4,
-		value_1 = "287",
-		base = 2040
+		value_1 = "20",
+		base = 2240
 	},
-	[2048] = {
-		id = 2048,
+	[2244] = {
+		id = 2244,
 		value_2 = 4,
-		value_1 = "308",
-		base = 2040
+		value_1 = "22",
+		base = 2240
 	},
-	[2049] = {
-		id = 2049,
-		value_2 = 4,
-		value_1 = "329",
-		base = 2040
-	},
-	[2050] = {
-		id = 2050,
+	[2245] = {
+		id = 2245,
 		value_2 = 5,
-		value_1 = "350",
-		base = 2040
+		value_1 = "24",
+		base = 2240
+	},
+	[2246] = {
+		id = 2246,
+		value_2 = 5,
+		value_1 = "26",
+		base = 2240
+	},
+	[2247] = {
+		id = 2247,
+		value_2 = 6,
+		value_1 = "28",
+		base = 2240
 	}
 }

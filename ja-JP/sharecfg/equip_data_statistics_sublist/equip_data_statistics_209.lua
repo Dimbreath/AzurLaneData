@@ -1,345 +1,310 @@
 pg = pg or {}
 pg.equip_data_statistics_209 = {
-	[28104] = {
-		id = 28104,
-		base = 28100,
+	[31068] = {
+		id = 31068,
+		damage = "8 x 4",
+		base = 31060,
+		weapon_id = {
+			31068
+		}
+	},
+	[31069] = {
+		id = 31069,
+		damage = "8 x 4",
+		base = 31060,
+		weapon_id = {
+			31069
+		}
+	},
+	[31070] = {
+		id = 31070,
+		damage = "9 x 4",
+		base = 31060,
+		weapon_id = {
+			31070
+		}
+	},
+	[31071] = {
+		anti_siren = 100,
+		damage = "9 x 4",
+		base = 31060,
+		id = 31071,
+		weapon_id = {
+			31071
+		}
+	},
+	[31100] = {
+		name = "120mm単装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "31100",
+		damage = "3 x 1",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 0,
+		id = 31100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50004
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
 			},
 			{
 				4,
-				51104
-			}
-		},
-		weapon_id = {
-			28104
-		}
-	},
-	[28105] = {
-		id = 28105,
-		base = 28100,
-		ammo_info = {
-			{
-				6,
-				50005
+				1000
 			},
-			{
-				4,
-				51105
-			}
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28105
-		}
-	},
-	[28106] = {
-		id = 28106,
-		base = 28100,
-		ammo_info = {
-			{
-				6,
-				50006
-			},
-			{
-				4,
-				51106
-			}
+			31100
 		},
-		weapon_id = {
-			28106
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[28120] = {
-		name = "バラクーダ",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
+	[31101] = {
+		id = 31101,
+		base = 31100,
+		weapon_id = {
+			31101
+		}
+	},
+	[31102] = {
+		id = 31102,
+		damage = "4 x 1",
+		base = 31100,
+		weapon_id = {
+			31102
+		}
+	},
+	[31103] = {
+		id = 31103,
+		damage = "4 x 1",
+		base = 31100,
+		weapon_id = {
+			31103
+		}
+	},
+	[31120] = {
+		name = "120mm単装砲",
+		speciality = "追尾",
+		type = 1,
 		tech = 2,
 		descrip = "0",
-		value_2 = 25,
-		icon = "28100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
+		value_2 = 5,
+		icon = "31100",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "3 x 1",
+		nationality = 3,
+		ammo = 3,
 		value_3 = 0,
-		id = 28120,
+		id = 31120,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50020
-			},
-			{
-				4,
-				51120
+				1,
+				1200
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1000
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28120
+			31120
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"HMS",
-			"CV",
-			"TB"
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[28121] = {
-		id = 28121,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51121
-			}
-		},
+	[31121] = {
+		id = 31121,
+		base = 31120,
 		weapon_id = {
-			28121
+			31121
 		}
 	},
-	[28122] = {
-		id = 28122,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51122
-			}
-		},
+	[31122] = {
+		id = 31122,
+		damage = "4 x 1",
+		base = 31120,
 		weapon_id = {
-			28122
+			31122
 		}
 	},
-	[28123] = {
-		id = 28123,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51123
-			}
-		},
+	[31123] = {
+		id = 31123,
+		damage = "4 x 1",
+		base = 31120,
 		weapon_id = {
-			28123
+			31123
 		}
 	},
-	[28124] = {
-		id = 28124,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51124
-			}
-		},
-		weapon_id = {
-			28124
-		}
-	},
-	[28125] = {
-		id = 28125,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51125
-			}
-		},
-		weapon_id = {
-			28125
-		}
-	},
-	[28126] = {
-		id = 28126,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51126
-			}
-		},
-		weapon_id = {
-			28126
-		}
-	},
-	[28127] = {
-		id = 28127,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50027
-			},
-			{
-				4,
-				51127
-			}
-		},
-		weapon_id = {
-			28127
-		}
-	},
-	[28128] = {
-		id = 28128,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50028
-			},
-			{
-				4,
-				51128
-			}
-		},
-		weapon_id = {
-			28128
-		}
-	},
-	[28129] = {
-		id = 28129,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50029
-			},
-			{
-				4,
-				51129
-			}
-		},
-		weapon_id = {
-			28129
-		}
-	},
-	[28130] = {
-		id = 28130,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50030
-			},
-			{
-				4,
-				51130
-			}
-		},
-		weapon_id = {
-			28130
-		}
-	},
-	[28140] = {
-		name = "バラクーダ",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
+	[31140] = {
+		name = "120mm単装砲",
+		speciality = "追尾",
+		type = 1,
 		tech = 3,
 		descrip = "0",
-		value_2 = 45,
-		icon = "28100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
+		value_2 = 12,
+		icon = "31100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 1",
+		nationality = 3,
+		ammo = 3,
 		value_3 = 0,
-		id = 28140,
+		id = 31140,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50040
-			},
-			{
-				4,
-				51140
+				1,
+				1200
 			}
 		},
 		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28141] = {
-		id = 28141,
-		base = 28140,
-		ammo_info = {
+			1,
+			2,
 			{
-				6,
-				50041
+				3,
+				1200
 			},
 			{
 				4,
-				51141
-			}
+				1000
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28141
+			31140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31141] = {
+		id = 31141,
+		base = 31140,
+		weapon_id = {
+			31141
+		}
+	},
+	[31142] = {
+		id = 31142,
+		damage = "4 x 1",
+		base = 31140,
+		weapon_id = {
+			31142
+		}
+	},
+	[31143] = {
+		id = 31143,
+		damage = "4 x 1",
+		base = 31140,
+		weapon_id = {
+			31143
+		}
+	},
+	[31144] = {
+		id = 31144,
+		damage = "7 x 1",
+		base = 31140,
+		weapon_id = {
+			31144
 		}
 	}
 }

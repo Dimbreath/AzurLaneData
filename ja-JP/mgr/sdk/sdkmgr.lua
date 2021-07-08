@@ -80,8 +80,8 @@ function slot0.SdkPay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, sl
 	slot0:Call("SdkPay", slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 end
 
-function slot0.LogoutSDK(slot0)
-	slot0:Call("LogoutSDK")
+function slot0.LogoutSDK(slot0, slot1)
+	slot0:Call("LogoutSDK", slot1)
 end
 
 function slot0.BindCPU(slot0)

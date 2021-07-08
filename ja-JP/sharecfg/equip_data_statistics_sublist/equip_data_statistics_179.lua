@@ -1,185 +1,195 @@
 pg = pg or {}
 pg.equip_data_statistics_179 = {
-	[25042] = {
-		id = 25042,
-		damage = "84 x 5",
-		base = 25040,
+	[26347] = {
+		id = 26347,
+		damage = "43/回",
+		base = 26340,
 		weapon_id = {
-			25042
+			26347
 		}
 	},
-	[25043] = {
-		id = 25043,
-		damage = "95 x 5",
-		base = 25040,
+	[26348] = {
+		id = 26348,
+		damage = "46/回",
+		base = 26340,
 		weapon_id = {
-			25043
+			26348
 		}
 	},
-	[25044] = {
-		id = 25044,
-		damage = "106 x 5",
-		base = 25040,
+	[26349] = {
+		id = 26349,
+		damage = "50/回",
+		base = 26340,
 		weapon_id = {
-			25044
+			26349
 		}
 	},
-	[25045] = {
-		id = 25045,
-		damage = "117 x 5",
-		base = 25040,
+	[26350] = {
+		id = 26350,
+		damage = "54/回",
+		base = 26340,
 		weapon_id = {
-			25045
+			26350
 		}
 	},
-	[25046] = {
-		id = 25046,
-		damage = "128 x 5",
-		base = 25040,
-		weapon_id = {
-			25046
-		}
-	},
-	[25047] = {
-		id = 25047,
-		damage = "139 x 5",
-		base = 25040,
-		weapon_id = {
-			25047
-		}
-	},
-	[25048] = {
-		id = 25048,
-		damage = "150 x 5",
-		base = 25040,
-		weapon_id = {
-			25048
-		}
-	},
-	[25049] = {
-		id = 25049,
-		damage = "161 x 5",
-		base = 25040,
-		weapon_id = {
-			25049
-		}
-	},
-	[25050] = {
-		id = 25050,
-		damage = "172 x 5",
-		base = 25040,
-		weapon_id = {
-			25050
-		}
-	},
-	[25051] = {
+	[26351] = {
 		anti_siren = 100,
-		damage = "172 x 5",
-		base = 25040,
-		id = 25051,
+		damage = "54/回",
+		base = 26340,
+		id = 26351,
 		weapon_id = {
-			25051
+			26351
 		}
 	},
-	[25052] = {
-		anti_siren = 200,
-		damage = "172 x 5",
-		base = 25040,
-		id = 25052,
-		weapon_id = {
-			25052
-		}
-	},
-	[25053] = {
-		anti_siren = 300,
-		damage = "172 x 5",
-		base = 25040,
-		id = 25053,
-		weapon_id = {
-			25053
-		}
-	},
-	[25100] = {
-		name = "潜水艦用MarkVIII魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 1,
+	[26360] = {
+		name = "20mmエリコン高角砲MkII",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
 		descrip = "0",
-		value_2 = 5,
-		icon = "25100",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "51 x 3",
+		value_2 = 25,
+		icon = "26360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "16/回",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 25100,
+		id = 26360,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			25100
+			26360
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[25101] = {
-		id = 25101,
-		damage = "57 x 3",
-		base = 25100,
+	[26361] = {
+		id = 26361,
+		damage = "18/回",
+		base = 26360,
 		weapon_id = {
-			25101
+			26361
 		}
 	},
-	[25102] = {
-		id = 25102,
-		damage = "65 x 3",
-		base = 25100,
+	[26362] = {
+		id = 26362,
+		damage = "20/回",
+		base = 26360,
 		weapon_id = {
-			25102
+			26362
 		}
 	},
-	[25103] = {
-		id = 25103,
-		damage = "73 x 3",
-		base = 25100,
+	[26363] = {
+		id = 26363,
+		damage = "22/回",
+		base = 26360,
 		weapon_id = {
-			25103
+			26363
+		}
+	},
+	[26364] = {
+		id = 26364,
+		damage = "24/回",
+		base = 26360,
+		weapon_id = {
+			26364
+		}
+	},
+	[26365] = {
+		id = 26365,
+		damage = "26/回",
+		base = 26360,
+		weapon_id = {
+			26365
+		}
+	},
+	[26366] = {
+		id = 26366,
+		damage = "28/回",
+		base = 26360,
+		weapon_id = {
+			26366
+		}
+	},
+	[26367] = {
+		id = 26367,
+		damage = "28/回",
+		base = 26360,
+		weapon_id = {
+			26367
+		}
+	},
+	[26368] = {
+		id = 26368,
+		damage = "30/回",
+		base = 26360,
+		weapon_id = {
+			26368
+		}
+	},
+	[26369] = {
+		id = 26369,
+		damage = "30/回",
+		base = 26360,
+		weapon_id = {
+			26369
+		}
+	},
+	[26370] = {
+		id = 26370,
+		damage = "32/回",
+		base = 26360,
+		weapon_id = {
+			26370
+		}
+	},
+	[26371] = {
+		anti_siren = 100,
+		damage = "32/回",
+		base = 26360,
+		id = 26371,
+		weapon_id = {
+			26371
 		}
 	}
 }

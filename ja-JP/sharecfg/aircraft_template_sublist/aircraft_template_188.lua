@@ -1,75 +1,38 @@
 pg = pg or {}
 pg.aircraft_template_188 = {
-	[69486] = {
-		max_hp = 66,
-		name = "小光辉技能鱼雷机Lv6",
-		base = 69481,
-		id = 69486,
-		hp_growth = 2541,
+	[68780] = {
+		max_hp = 98,
+		name = "赤城μ技能舰爆Lv10",
+		base = 68771,
+		id = 68780,
+		hp_growth = 3678,
 		weapon_ID = {
-			69496
+			68790,
+			68800
 		}
 	},
-	[69487] = {
-		max_hp = 71,
-		name = "小光辉技能鱼雷机Lv7",
-		base = 69481,
-		id = 69487,
-		hp_growth = 2742,
-		weapon_ID = {
-			69497
-		}
-	},
-	[69488] = {
-		max_hp = 77,
-		name = "小光辉技能鱼雷机Lv8",
-		base = 69481,
-		id = 69488,
-		hp_growth = 2943,
-		weapon_ID = {
-			69498
-		}
-	},
-	[69489] = {
-		max_hp = 82,
-		name = "小光辉技能鱼雷机Lv9",
-		base = 69481,
-		id = 69489,
-		hp_growth = 3143,
-		weapon_ID = {
-			69499
-		}
-	},
-	[69490] = {
-		max_hp = 87,
-		name = "小光辉技能鱼雷机Lv10",
-		base = 69481,
-		id = 69490,
-		hp_growth = 3344,
-		weapon_ID = {
-			69500
-		}
-	},
-	[69501] = {
-		name = "小光辉圣光飞机Lv1",
+	[68801] = {
+		name = "赤城μ技能舰攻Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 306,
-		dodge = 1.11,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "97jiangong",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1615,
-		speed = 60,
-		id = 69501,
+		nationality = 3,
+		hp_growth = 1692,
+		speed = 48,
+		id = 68801,
 		scale = 1,
-		weapon_ID = {},
+		weapon_ID = {
+			68811
+		},
 		position_offset = {
 			0,
 			5,
@@ -111,7 +74,7 @@ pg.aircraft_template_188 = {
 				0
 			},
 			{
-				0.37,
+				0.54,
 				0,
 				0
 			},
@@ -122,36 +85,84 @@ pg.aircraft_template_188 = {
 			}
 		}
 	},
-	[69502] = {
+	[68802] = {
 		max_hp = 48,
-		name = "小光辉圣光飞机Lv2",
-		base = 69501,
-		id = 69502,
-		hp_growth = 1826,
-		weapon_ID = {}
+		name = "赤城μ技能舰攻Lv2",
+		base = 68801,
+		id = 68802,
+		hp_growth = 1913,
+		weapon_ID = {
+			68812
+		}
 	},
-	[69503] = {
+	[68803] = {
 		max_hp = 54,
-		name = "小光辉圣光飞机Lv3",
-		base = 69501,
-		id = 69503,
-		hp_growth = 2036,
-		weapon_ID = {}
+		name = "赤城μ技能舰攻Lv3",
+		base = 68801,
+		id = 68803,
+		hp_growth = 2133,
+		weapon_ID = {
+			68813
+		}
 	},
-	[69504] = {
+	[68804] = {
 		max_hp = 61,
-		name = "小光辉圣光飞机Lv4",
-		base = 69501,
-		id = 69504,
-		hp_growth = 2247,
-		weapon_ID = {}
+		name = "赤城μ技能舰攻Lv4",
+		base = 68801,
+		id = 68804,
+		hp_growth = 2354,
+		weapon_ID = {
+			68814
+		}
 	},
-	[69505] = {
+	[68805] = {
 		max_hp = 67,
-		name = "小光辉圣光飞机Lv5",
-		base = 69501,
-		id = 69505,
-		hp_growth = 2458,
-		weapon_ID = {}
+		name = "赤城μ技能舰攻Lv5",
+		base = 68801,
+		id = 68805,
+		hp_growth = 2575,
+		weapon_ID = {
+			68815
+		}
+	},
+	[68806] = {
+		max_hp = 73,
+		name = "赤城μ技能舰攻Lv6",
+		base = 68801,
+		id = 68806,
+		hp_growth = 2796,
+		weapon_ID = {
+			68816
+		}
+	},
+	[68807] = {
+		max_hp = 79,
+		name = "赤城μ技能舰攻Lv7",
+		base = 68801,
+		id = 68807,
+		hp_growth = 3016,
+		weapon_ID = {
+			68817
+		}
+	},
+	[68808] = {
+		max_hp = 86,
+		name = "赤城μ技能舰攻Lv8",
+		base = 68801,
+		id = 68808,
+		hp_growth = 3237,
+		weapon_ID = {
+			68818
+		}
+	},
+	[68809] = {
+		max_hp = 92,
+		name = "赤城μ技能舰攻Lv9",
+		base = 68801,
+		id = 68809,
+		hp_growth = 3458,
+		weapon_ID = {
+			68819
+		}
 	}
 }

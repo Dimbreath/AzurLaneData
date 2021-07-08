@@ -1,233 +1,301 @@
 pg = pg or {}
 pg.equip_data_statistics_180 = {
-	[25120] = {
-		name = "潜水艦用MarkVIII魚雷",
-		speciality = "雷撃",
-		type = 13,
+	[26400] = {
+		name = "102mm高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "26400",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26401] = {
+		id = 26401,
+		damage = "22/回",
+		base = 26400,
+		weapon_id = {
+			26401
+		}
+	},
+	[26402] = {
+		id = 26402,
+		damage = "25/回",
+		base = 26400,
+		weapon_id = {
+			26402
+		}
+	},
+	[26403] = {
+		id = 26403,
+		damage = "28/回",
+		base = 26400,
+		weapon_id = {
+			26403
+		}
+	},
+	[26420] = {
+		name = "102mm高角砲",
+		speciality = "対空",
+		type = 6,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "25100",
-		attribute_2 = "torpedo",
+		icon = "26400",
+		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "57 x 3",
+		damage = "21/回",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 25120,
+		id = 26420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			25120
+			26420
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[25121] = {
-		id = 25121,
-		damage = "65 x 3",
-		base = 25120,
+	[26421] = {
+		id = 26421,
+		damage = "24/回",
+		base = 26420,
 		weapon_id = {
-			25121
+			26421
 		}
 	},
-	[25122] = {
-		id = 25122,
-		damage = "73 x 3",
-		base = 25120,
+	[26422] = {
+		id = 26422,
+		damage = "27/回",
+		base = 26420,
 		weapon_id = {
-			25122
+			26422
 		}
 	},
-	[25123] = {
-		id = 25123,
-		damage = "81 x 3",
-		base = 25120,
+	[26423] = {
+		id = 26423,
+		damage = "30/回",
+		base = 26420,
 		weapon_id = {
-			25123
+			26423
 		}
 	},
-	[25124] = {
-		id = 25124,
-		damage = "90 x 3",
-		base = 25120,
+	[26424] = {
+		id = 26424,
+		damage = "34/回",
+		base = 26420,
 		weapon_id = {
-			25124
+			26424
 		}
 	},
-	[25125] = {
-		id = 25125,
-		damage = "99 x 3",
-		base = 25120,
+	[26425] = {
+		id = 26425,
+		damage = "38/回",
+		base = 26420,
 		weapon_id = {
-			25125
+			26425
 		}
 	},
-	[25126] = {
-		id = 25126,
-		damage = "108 x 3",
-		base = 25120,
+	[26426] = {
+		id = 26426,
+		damage = "42/回",
+		base = 26420,
 		weapon_id = {
-			25126
+			26426
 		}
 	},
-	[25140] = {
-		name = "潜水艦用MarkVIII魚雷",
-		speciality = "雷撃",
-		type = 13,
+	[26440] = {
+		name = "102mm高角砲",
+		speciality = "対空",
+		type = 6,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "25100",
-		attribute_2 = "torpedo",
+		icon = "26400",
+		attribute_2 = "antiaircraft",
 		rarity = 4,
-		damage = "64 x 3",
+		damage = "25/回",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 25140,
+		id = 26440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1829
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1829
-			},
-			{
-				4,
-				1602
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			25140
+			26440
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[25141] = {
-		id = 25141,
-		damage = "73 x 3",
-		base = 25140,
+	[26441] = {
+		id = 26441,
+		damage = "28/回",
+		base = 26440,
 		weapon_id = {
-			25141
+			26441
 		}
 	},
-	[25142] = {
-		id = 25142,
-		damage = "82 x 3",
-		base = 25140,
+	[26442] = {
+		id = 26442,
+		damage = "31/回",
+		base = 26440,
 		weapon_id = {
-			25142
+			26442
 		}
 	},
-	[25143] = {
-		id = 25143,
-		damage = "91 x 3",
-		base = 25140,
+	[26443] = {
+		id = 26443,
+		damage = "35/回",
+		base = 26440,
 		weapon_id = {
-			25143
+			26443
 		}
 	},
-	[25144] = {
-		id = 25144,
-		damage = "100 x 3",
-		base = 25140,
+	[26444] = {
+		id = 26444,
+		damage = "39/回",
+		base = 26440,
 		weapon_id = {
-			25144
+			26444
 		}
 	},
-	[25145] = {
-		id = 25145,
-		damage = "109 x 3",
-		base = 25140,
+	[26445] = {
+		id = 26445,
+		damage = "43/回",
+		base = 26440,
 		weapon_id = {
-			25145
-		}
-	},
-	[25146] = {
-		id = 25146,
-		damage = "119 x 3",
-		base = 25140,
-		weapon_id = {
-			25146
-		}
-	},
-	[25147] = {
-		id = 25147,
-		damage = "129 x 3",
-		base = 25140,
-		weapon_id = {
-			25147
-		}
-	},
-	[25148] = {
-		id = 25148,
-		damage = "139 x 3",
-		base = 25140,
-		weapon_id = {
-			25148
+			26445
 		}
 	}
 }

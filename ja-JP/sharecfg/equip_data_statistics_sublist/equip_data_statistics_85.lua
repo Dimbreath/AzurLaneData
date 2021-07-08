@@ -1,183 +1,78 @@
 pg = pg or {}
 pg.equip_data_statistics_85 = {
-	[7323] = {
-		id = 7323,
-		damage = "7 x 4",
-		base = 7320,
-		weapon_id = {
-			7323
-		}
-	},
-	[7324] = {
-		id = 7324,
-		damage = "8 x 4",
-		base = 7320,
-		weapon_id = {
-			7324
-		}
-	},
-	[7325] = {
-		id = 7325,
+	[11225] = {
+		id = 11225,
 		damage = "9 x 4",
-		base = 7320,
+		base = 11220,
 		weapon_id = {
-			7325
+			11225
 		}
 	},
-	[7326] = {
-		id = 7326,
+	[11226] = {
+		id = 11226,
 		damage = "10 x 4",
-		base = 7320,
+		base = 11220,
 		weapon_id = {
-			7326
+			11226
 		}
 	},
-	[7327] = {
-		id = 7327,
-		damage = "10 x 4",
-		base = 7320,
+	[11227] = {
+		id = 11227,
+		damage = "11 x 4",
+		base = 11220,
 		weapon_id = {
-			7327
+			11227
 		}
 	},
-	[7340] = {
-		name = "潜水艦用203mm連装砲Mle1924",
-		speciality = "追尾",
-		type = 3,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "7340",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "22 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 7340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1411
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1411
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[11228] = {
+		id = 11228,
+		damage = "12 x 4",
+		base = 11220,
 		weapon_id = {
-			7340
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"SS",
-			"MG",
-			"CM"
+			11228
 		}
 	},
-	[7341] = {
-		id = 7341,
-		damage = "24 x 4",
-		base = 7340,
+	[11229] = {
+		id = 11229,
+		damage = "13 x 4",
+		base = 11220,
 		weapon_id = {
-			7341
+			11229
 		}
 	},
-	[7342] = {
-		id = 7342,
-		damage = "26 x 4",
-		base = 7340,
+	[11230] = {
+		id = 11230,
+		damage = "14 x 4",
+		base = 11220,
 		weapon_id = {
-			7342
+			11230
 		}
 	},
-	[7343] = {
-		id = 7343,
-		damage = "28 x 4",
-		base = 7340,
-		weapon_id = {
-			7343
-		}
-	},
-	[7344] = {
-		id = 7344,
-		damage = "30 x 4",
-		base = 7340,
-		weapon_id = {
-			7344
-		}
-	},
-	[7345] = {
-		id = 7345,
-		damage = "32 x 4",
-		base = 7340,
-		weapon_id = {
-			7345
-		}
-	},
-	[7346] = {
-		id = 7346,
-		damage = "34 x 4",
-		base = 7340,
-		weapon_id = {
-			7346
-		}
-	},
-	[7347] = {
-		id = 7347,
-		damage = "34 x 4",
-		base = 7340,
-		weapon_id = {
-			7347
-		}
-	},
-	[11000] = {
-		name = "76mm砲",
+	[11240] = {
+		name = "127mm連装両用砲MK12",
 		speciality = "追尾",
 		type = 1,
-		tech = 1,
-		rarity = 1,
+		attribute_3 = "antiaircraft",
+		tech = 3,
+		value_2 = 20,
+		icon = "11200",
+		attribute_2 = "cannon",
 		descrip = "0",
-		value_2 = 0,
-		icon = "11000",
-		damage = "3 x 1",
+		rarity = 5,
+		damage = "4 x 4",
 		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 11000,
+		ammo = 2,
+		value_3 = 25,
+		id = 11240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				1,
-				999
+				1006
 			}
 		},
 		equip_info = {
@@ -185,11 +80,11 @@ pg.equip_data_statistics_85 = {
 			2,
 			{
 				3,
-				999
+				1006
 			},
 			{
 				4,
-				1000
+				1001
 			},
 			6,
 			10,
@@ -197,7 +92,7 @@ pg.equip_data_statistics_85 = {
 			12
 		},
 		weapon_id = {
-			11000
+			11240
 		},
 		skill_id = {},
 		part_main = {
@@ -217,22 +112,87 @@ pg.equip_data_statistics_85 = {
 		label = {
 			"USS",
 			"DD",
-			"MG"
+			"MG",
+			"HE"
 		}
 	},
-	[11001] = {
-		id = 11001,
-		base = 11000,
+	[11241] = {
+		id = 11241,
+		base = 11240,
 		weapon_id = {
-			11001
+			11241
 		}
 	},
-	[11002] = {
-		id = 11002,
-		damage = "4 x 1",
-		base = 11000,
+	[11242] = {
+		id = 11242,
+		damage = "7 x 4",
+		base = 11240,
 		weapon_id = {
-			11002
+			11242
+		}
+	},
+	[11243] = {
+		id = 11243,
+		damage = "8 x 4",
+		base = 11240,
+		weapon_id = {
+			11243
+		}
+	},
+	[11244] = {
+		id = 11244,
+		damage = "9 x 4",
+		base = 11240,
+		weapon_id = {
+			11244
+		}
+	},
+	[11245] = {
+		id = 11245,
+		damage = "10 x 4",
+		base = 11240,
+		weapon_id = {
+			11245
+		}
+	},
+	[11246] = {
+		id = 11246,
+		damage = "11 x 4",
+		base = 11240,
+		weapon_id = {
+			11246
+		}
+	},
+	[11247] = {
+		id = 11247,
+		damage = "12 x 4",
+		base = 11240,
+		weapon_id = {
+			11247
+		}
+	},
+	[11248] = {
+		id = 11248,
+		damage = "13 x 4",
+		base = 11240,
+		weapon_id = {
+			11248
+		}
+	},
+	[11249] = {
+		id = 11249,
+		damage = "14 x 4",
+		base = 11240,
+		weapon_id = {
+			11249
+		}
+	},
+	[11250] = {
+		id = 11250,
+		damage = "15 x 4",
+		base = 11240,
+		weapon_id = {
+			11250
 		}
 	}
 }

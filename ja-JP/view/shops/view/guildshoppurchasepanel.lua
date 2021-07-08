@@ -81,7 +81,7 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 	}
 
 	updateDropCfg(slot5)
-	slot3:Find("name_bg/Text"):GetComponent("ScrollText"):SetText(slot5.cfg.name)
+	slot3:Find("name_bg/Text"):GetComponent("ScrollText"):SetText(HXSet.hxName(slot5.cfg.name))
 
 	slot7 = slot3:Find("cnt/Text"):GetComponent(typeof(Text))
 

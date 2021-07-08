@@ -1,67 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_59 = {
-	[3150] = {
-		base = 3140,
-		id = 3150,
-		value_1 = "15",
-		skill_id = {
-			6291
-		},
-		equip_parameters = {
-			hunting_lv = 2
-		}
-	},
-	[3151] = {
-		anti_siren = 100,
-		base = 3140,
-		id = 3151,
-		value_1 = "17",
-		skill_id = {
-			6291
-		},
-		equip_parameters = {
-			hunting_lv = 2
-		}
-	},
-	[3152] = {
-		anti_siren = 200,
-		base = 3140,
-		id = 3152,
-		value_1 = "19",
-		skill_id = {
-			6291
-		},
-		equip_parameters = {
-			hunting_lv = 2
-		}
-	},
-	[3153] = {
-		anti_siren = 300,
-		base = 3140,
-		id = 3153,
-		value_1 = "21",
-		skill_id = {
-			6291
-		},
-		equip_parameters = {
-			hunting_lv = 2
-		}
-	},
-	[3200] = {
-		name = "VH装甲鋼板",
+	[3500] = {
+		name = "航空戦資材(積載)",
 		tech = 0,
-		type = 10,
+		type = 18,
 		speciality = "なし",
 		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3200",
-		value_1 = "350",
-		descrip = "生産性・弾丸破砕効果の強化が図られた新型鋼板。浸炭処理を省略し、焼き入れにおける新技術で装甲の表面硬化で耐弾抗力を向上させた",
-		rarity = 5,
-		nationality = 3,
+		icon = "3500",
+		value_1 = "250",
+		descrip = "航空戦用の各種資材",
+		rarity = 4,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 3200,
+		id = 3500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -71,82 +24,130 @@ pg.equip_data_statistics_59 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6460
+			6660
 		},
 		part_main = {
-			4,
-			5,
-			7,
-			10,
-			18
+			19
 		},
 		part_sub = {
-			4,
-			5,
-			7,
-			10,
-			18
+			19
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"DEV"
+			"GDS"
 		}
 	},
-	[3201] = {
-		id = 3201,
-		value_1 = "380",
-		base = 3200
+	[3501] = {
+		id = 3501,
+		value_1 = "280",
+		base = 3500
 	},
-	[3202] = {
-		id = 3202,
-		value_1 = "410",
-		base = 3200
+	[3502] = {
+		id = 3502,
+		value_1 = "310",
+		base = 3500
 	},
-	[3203] = {
-		id = 3203,
-		value_1 = "440",
-		base = 3200
+	[3503] = {
+		id = 3503,
+		value_1 = "340",
+		base = 3500
 	},
-	[3204] = {
-		id = 3204,
-		value_1 = "470",
-		base = 3200
+	[3504] = {
+		id = 3504,
+		value_1 = "370",
+		base = 3500
 	},
-	[3205] = {
-		id = 3205,
-		value_1 = "500",
-		base = 3200
+	[3505] = {
+		id = 3505,
+		value_1 = "400",
+		base = 3500
 	},
-	[3206] = {
-		id = 3206,
-		value_1 = "530",
-		base = 3200
+	[3506] = {
+		id = 3506,
+		value_1 = "430",
+		base = 3500
 	},
-	[3207] = {
-		id = 3207,
-		value_1 = "560",
-		base = 3200
+	[3507] = {
+		id = 3507,
+		value_1 = "460",
+		base = 3500
 	},
-	[3208] = {
-		id = 3208,
-		value_1 = "590",
-		base = 3200
+	[3508] = {
+		id = 3508,
+		value_1 = "490",
+		base = 3500
 	},
-	[3209] = {
-		id = 3209,
-		value_1 = "620",
-		base = 3200
+	[3509] = {
+		id = 3509,
+		value_1 = "520",
+		base = 3500
 	},
-	[3210] = {
-		id = 3210,
-		value_1 = "650",
-		base = 3200
+	[3510] = {
+		id = 3510,
+		value_1 = "550",
+		base = 3500
 	},
-	[3211] = {
-		id = 3211,
+	[3511] = {
+		id = 3511,
 		anti_siren = 100,
-		value_1 = "680",
-		base = 3200
+		value_1 = "580",
+		base = 3500
+	},
+	[3520] = {
+		name = "小口径主砲砲戦資材(積載)",
+		tech = 0,
+		type = 18,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3520",
+		value_1 = "250",
+		descrip = "運送艦に搭載できる火砲兵装補給",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 3520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6670
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3521] = {
+		id = 3521,
+		value_1 = "280",
+		base = 3520
+	},
+	[3522] = {
+		id = 3522,
+		value_1 = "310",
+		base = 3520
+	},
+	[3523] = {
+		id = 3523,
+		value_1 = "340",
+		base = 3520
+	},
+	[3524] = {
+		id = 3524,
+		value_1 = "370",
+		base = 3520
 	}
 }

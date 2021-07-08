@@ -1,90 +1,62 @@
 pg = pg or {}
 pg.equip_data_statistics_295 = {
-	[42046] = {
-		id = 42046,
-		damage = "15 x 1",
-		base = 42040,
+	[45049] = {
+		id = 45049,
+		damage = "137 x 3",
+		base = 45040,
 		weapon_id = {
-			42046
+			45049
 		}
 	},
-	[42047] = {
-		id = 42047,
-		damage = "16 x 1",
-		base = 42040,
+	[45050] = {
+		id = 45050,
+		damage = "145 x 3",
+		base = 45040,
 		weapon_id = {
-			42047
+			45050
 		}
 	},
-	[42048] = {
-		id = 42048,
-		damage = "17 x 1",
-		base = 42040,
-		weapon_id = {
-			42048
-		}
-	},
-	[42049] = {
-		id = 42049,
-		damage = "19 x 1",
-		base = 42040,
-		weapon_id = {
-			42049
-		}
-	},
-	[42050] = {
-		id = 42050,
-		damage = "21 x 1",
-		base = 42040,
-		weapon_id = {
-			42050
-		}
-	},
-	[42051] = {
+	[45051] = {
 		anti_siren = 100,
-		damage = "21 x 1",
-		base = 42040,
-		id = 42051,
+		damage = "145 x 3",
+		base = 45040,
+		id = 45051,
 		weapon_id = {
-			42051
+			45051
 		}
 	},
-	[42060] = {
-		name = "150mmSKC28連装副砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 0,
-		descrip = "0",
-		value_2 = 25,
-		icon = "42060",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 4",
+	[45100] = {
+		name = "533mm四連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 1,
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 12,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "63 x 4",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42060,
+		id = 45100,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1027
+				1403
 			},
 			6,
 			10,
@@ -92,93 +64,185 @@ pg.equip_data_statistics_295 = {
 			12
 		},
 		weapon_id = {
-			42060
+			45100
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[42061] = {
-		id = 42061,
-		damage = "10 x 4",
-		base = 42060,
+	[45101] = {
+		id = 45101,
+		damage = "69 x 4",
+		base = 45100,
 		weapon_id = {
-			42061
+			45101
 		}
 	},
-	[42062] = {
-		id = 42062,
-		damage = "11 x 4",
-		base = 42060,
+	[45102] = {
+		id = 45102,
+		damage = "75 x 4",
+		base = 45100,
 		weapon_id = {
-			42062
+			45102
 		}
 	},
-	[42063] = {
-		id = 42063,
-		damage = "12 x 4",
-		base = 42060,
+	[45103] = {
+		id = 45103,
+		damage = "81 x 4",
+		base = 45100,
 		weapon_id = {
-			42063
+			45103
 		}
 	},
-	[42064] = {
-		id = 42064,
-		damage = "13 x 4",
-		base = 42060,
+	[45104] = {
+		id = 45104,
+		damage = "87 x 4",
+		base = 45100,
 		weapon_id = {
-			42064
+			45104
 		}
 	},
-	[42065] = {
-		id = 42065,
-		damage = "14 x 4",
-		base = 42060,
+	[45105] = {
+		id = 45105,
+		damage = "93 x 4",
+		base = 45100,
 		weapon_id = {
-			42065
+			45105
 		}
 	},
-	[42066] = {
-		id = 42066,
-		damage = "15 x 4",
-		base = 42060,
+	[45106] = {
+		id = 45106,
+		damage = "99 x 4",
+		base = 45100,
 		weapon_id = {
-			42066
+			45106
 		}
 	},
-	[42067] = {
-		id = 42067,
-		damage = "16 x 4",
-		base = 42060,
+	[45120] = {
+		name = "533mm四連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 2,
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 25,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "66 x 4",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			42067
+			45120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[42068] = {
-		id = 42068,
-		damage = "17 x 4",
-		base = 42060,
+	[45121] = {
+		id = 45121,
+		damage = "72 x 4",
+		base = 45120,
 		weapon_id = {
-			42068
+			45121
 		}
 	},
-	[42069] = {
-		id = 42069,
-		damage = "19 x 4",
-		base = 42060,
+	[45122] = {
+		id = 45122,
+		damage = "79 x 4",
+		base = 45120,
 		weapon_id = {
-			42069
+			45122
+		}
+	},
+	[45123] = {
+		id = 45123,
+		damage = "86 x 4",
+		base = 45120,
+		weapon_id = {
+			45123
+		}
+	},
+	[45124] = {
+		id = 45124,
+		damage = "92 x 4",
+		base = 45120,
+		weapon_id = {
+			45124
+		}
+	},
+	[45125] = {
+		id = 45125,
+		damage = "99 x 4",
+		base = 45120,
+		weapon_id = {
+			45125
+		}
+	},
+	[45126] = {
+		id = 45126,
+		damage = "106 x 4",
+		base = 45120,
+		weapon_id = {
+			45126
 		}
 	}
 }

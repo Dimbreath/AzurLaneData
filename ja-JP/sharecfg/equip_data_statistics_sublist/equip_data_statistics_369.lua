@@ -1,278 +1,135 @@
 pg = pg or {}
 pg.equip_data_statistics_369 = {
-	[79732] = {
-		id = 79732,
-		name = "专属弹幕-海伦娜.META II",
-		base = 79731,
-		weapon_id = {
-			79732
-		}
+	[89189] = {
+		id = 89189,
+		value_2 = 28,
+		value_1 = "32",
+		base = 89180
 	},
-	[79741] = {
-		name = "专属弹幕-风云I",
-		tech = 1,
+	[89190] = {
+		id = 89190,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89180
+	},
+	[89191] = {
+		id = 89191,
+		anti_siren = 100,
+		base = 89180,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89192] = {
+		id = 89192,
+		anti_siren = 200,
+		base = 89180,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89193] = {
+		id = 89193,
+		anti_siren = 300,
+		base = 89180,
+		value_2 = 36,
+		value_1 = "44"
+	},
+	[89200] = {
+		name = "グラヴィティシューズ",
+		tech = 0,
+		type = 10,
 		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
+		id = 89200,
+		value_2 = 1,
+		icon = "89200",
+		value_1 = "13",
+		attribute_2 = "speed",
+		rarity = 5,
+		descrip = "「名付けて、なりきりアイドルにゃ！」装備艦船は「μ兵装」としても扱われます",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79741,
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60651
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79742] = {
-		id = 79742,
-		name = "专属弹幕-风云II",
-		base = 79741,
-		weapon_id = {
-			60652
-		}
-	},
-	[85000] = {
-		name = "130mm連装砲B-2LM",
-		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
-		value_2 = 12,
-		icon = "85000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "3 x 6",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1700
-			}
-		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1700
-			},
-			{
-				4,
-				1024
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			85000
+		weapon_id = {},
+		skill_id = {
+			6690
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"DD",
-			"MG"
+			"DEV"
 		}
 	},
-	[85001] = {
-		id = 85001,
-		damage = "3 x 6",
-		base = 85000,
-		weapon_id = {
-			85001
-		}
+	[89201] = {
+		id = 89201,
+		value_1 = "14",
+		base = 89200
 	},
-	[85002] = {
-		id = 85002,
-		damage = "4 x 6",
-		base = 85000,
-		weapon_id = {
-			85002
-		}
+	[89202] = {
+		id = 89202,
+		value_1 = "15",
+		base = 89200
 	},
-	[85003] = {
-		id = 85003,
-		damage = "4 x 6",
-		base = 85000,
-		weapon_id = {
-			85003
-		}
+	[89203] = {
+		id = 89203,
+		value_2 = 2,
+		value_1 = "16",
+		base = 89200
 	},
-	[85004] = {
-		id = 85004,
-		damage = "5 x 6",
-		base = 85000,
-		weapon_id = {
-			85004
-		}
+	[89204] = {
+		id = 89204,
+		value_2 = 2,
+		value_1 = "17",
+		base = 89200
 	},
-	[85005] = {
-		id = 85005,
-		damage = "6 x 6",
-		base = 85000,
-		weapon_id = {
-			85005
-		}
+	[89205] = {
+		id = 89205,
+		value_2 = 2,
+		value_1 = "18",
+		base = 89200
 	},
-	[85006] = {
-		id = 85006,
-		damage = "7 x 6",
-		base = 85000,
-		weapon_id = {
-			85006
-		}
+	[89206] = {
+		id = 89206,
+		value_2 = 3,
+		value_1 = "20",
+		base = 89200
 	},
-	[85040] = {
-		name = "130mm連装砲B-2LM",
-		speciality = "追尾",
-		type = 1,
-		tech = 3,
-		descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
-		value_2 = 35,
-		icon = "85000",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1710
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1710
-			},
-			{
-				4,
-				1024
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"DD",
-			"MG"
-		}
+	[89207] = {
+		id = 89207,
+		value_2 = 3,
+		value_1 = "22",
+		base = 89200
 	},
-	[85041] = {
-		id = 85041,
-		damage = "6 x 6",
-		base = 85040,
-		weapon_id = {
-			85041
-		}
+	[89208] = {
+		id = 89208,
+		value_2 = 4,
+		value_1 = "24",
+		base = 89200
 	},
-	[85042] = {
-		id = 85042,
-		damage = "7 x 6",
-		base = 85040,
-		weapon_id = {
-			85042
-		}
+	[89209] = {
+		id = 89209,
+		value_2 = 4,
+		value_1 = "26",
+		base = 89200
 	},
-	[85043] = {
-		id = 85043,
-		damage = "8 x 6",
-		base = 85040,
-		weapon_id = {
-			85043
-		}
+	[89210] = {
+		id = 89210,
+		value_2 = 5,
+		value_1 = "28",
+		base = 89200
 	},
-	[85044] = {
-		id = 85044,
-		damage = "9 x 6",
-		base = 85040,
-		weapon_id = {
-			85044
-		}
-	},
-	[85045] = {
-		id = 85045,
-		damage = "10 x 6",
-		base = 85040,
-		weapon_id = {
-			85045
-		}
+	[89211] = {
+		id = 89211,
+		anti_siren = 100,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "30"
 	}
 }

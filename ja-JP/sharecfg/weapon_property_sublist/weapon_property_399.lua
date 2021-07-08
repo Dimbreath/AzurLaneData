@@ -2,6 +2,742 @@ pg = pg or {}
 pg.weapon_property_399 = {}
 
 function ()
+	uv0.weapon_property_399[2965030] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 2,
+		corrected = 100,
+		min_range = 0,
+		id = 2965030,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965031] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 4,
+		corrected = 100,
+		min_range = 0,
+		id = 2965031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965032] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 2965032,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965033] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 2965033,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965034] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 2965034,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965040] = {
+		aim_type = 1,
+		range = 30,
+		damage = 12,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV1",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965040,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_399[2965041] = {
+		aim_type = 1,
+		range = 30,
+		damage = 24,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV2",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965041,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_399[2965042] = {
+		aim_type = 1,
+		range = 30,
+		damage = 36,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV3",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965042,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_399[2965043] = {
+		aim_type = 1,
+		range = 30,
+		damage = 48,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV4",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965043,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_399[2965044] = {
+		aim_type = 1,
+		range = 30,
+		damage = 60,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV5",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965044,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_399[2965050] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 2965050,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965051] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 2965051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965052] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 2965052,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965053] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV4",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 85,
+		corrected = 100,
+		min_range = 0,
+		id = 2965053,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965054] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV5",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 2965054,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965060] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 2965060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965061] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 2965061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965062] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 2965062,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965063] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 85,
+		corrected = 100,
+		min_range = 0,
+		id = 2965063,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_399[2965064] = {
 		action_index = "attack",
 		range = 120,
@@ -1550,554 +2286,6 @@ function ()
 			29643061,
 			29643062,
 			29643063
-		}
-	}
-	uv0.weapon_property_399[2965143] = {
-		aim_type = 0,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光束弹幕 LV4",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2965143,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29643028,
-			29643028,
-			29643028,
-			29643028,
-			29643028,
-			29643028
-		},
-		barrage_ID = {
-			29643058,
-			29643059,
-			29643060,
-			29643061,
-			29643062,
-			29643063
-		}
-	}
-	uv0.weapon_property_399[2965144] = {
-		aim_type = 0,
-		range = 120,
-		damage = 10,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光束弹幕 LV5",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2965144,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29643028,
-			29643028,
-			29643028,
-			29643028,
-			29643028,
-			29643028
-		},
-		barrage_ID = {
-			29643058,
-			29643059,
-			29643060,
-			29643061,
-			29643062,
-			29643063
-		}
-	}
-	uv0.weapon_property_399[2965150] = {
-		aim_type = 0,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 旋转弹幕 LV1",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2965150,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643029,
-			29643029,
-			29643029,
-			29643029,
-			29643029
-		},
-		barrage_ID = {
-			29643064,
-			29643065,
-			29643066,
-			29643067,
-			29643068
-		}
-	}
-	uv0.weapon_property_399[2965151] = {
-		aim_type = 0,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 旋转弹幕 LV2",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2965151,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643029,
-			29643029,
-			29643029,
-			29643029,
-			29643029
-		},
-		barrage_ID = {
-			29643064,
-			29643065,
-			29643066,
-			29643067,
-			29643068
-		}
-	}
-	uv0.weapon_property_399[2965152] = {
-		aim_type = 0,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 旋转弹幕 LV3",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2965152,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643029,
-			29643029,
-			29643029,
-			29643029,
-			29643029
-		},
-		barrage_ID = {
-			29643064,
-			29643065,
-			29643066,
-			29643067,
-			29643068
-		}
-	}
-	uv0.weapon_property_399[2965153] = {
-		aim_type = 0,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 旋转弹幕 LV4",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2965153,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643029,
-			29643029,
-			29643029,
-			29643029,
-			29643029
-		},
-		barrage_ID = {
-			29643064,
-			29643065,
-			29643066,
-			29643067,
-			29643068
-		}
-	}
-	uv0.weapon_property_399[2965154] = {
-		aim_type = 0,
-		range = 120,
-		damage = 10,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 旋转弹幕 LV5",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2965154,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643029,
-			29643029,
-			29643029,
-			29643029,
-			29643029
-		},
-		barrage_ID = {
-			29643064,
-			29643065,
-			29643066,
-			29643067,
-			29643068
-		}
-	}
-	uv0.weapon_property_399[2965160] = {
-		aim_type = 0,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光翼终身弹幕 LV1",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 10,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2965160,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643030,
-			29643030,
-			29643030,
-			29643030,
-			29643032,
-			29643032,
-			29643032,
-			29643032
-		},
-		barrage_ID = {
-			29643069,
-			29643070,
-			29643071,
-			29643072,
-			29643074,
-			29643075,
-			29643076,
-			29643077
-		}
-	}
-	uv0.weapon_property_399[2965161] = {
-		aim_type = 0,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光翼终身弹幕 LV2",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 10,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2965161,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643030,
-			29643030,
-			29643030,
-			29643030,
-			29643032,
-			29643032,
-			29643032,
-			29643032
-		},
-		barrage_ID = {
-			29643069,
-			29643070,
-			29643071,
-			29643072,
-			29643074,
-			29643075,
-			29643076,
-			29643077
-		}
-	}
-	uv0.weapon_property_399[2965162] = {
-		aim_type = 0,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光翼终身弹幕 LV3",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 10,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2965162,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643030,
-			29643030,
-			29643030,
-			29643030,
-			29643032,
-			29643032,
-			29643032,
-			29643032
-		},
-		barrage_ID = {
-			29643069,
-			29643070,
-			29643071,
-			29643072,
-			29643074,
-			29643075,
-			29643076,
-			29643077
-		}
-	}
-	uv0.weapon_property_399[2965163] = {
-		aim_type = 0,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光翼终身弹幕 LV4",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 10,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2965163,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643030,
-			29643030,
-			29643030,
-			29643030,
-			29643032,
-			29643032,
-			29643032,
-			29643032
-		},
-		barrage_ID = {
-			29643069,
-			29643070,
-			29643071,
-			29643072,
-			29643074,
-			29643075,
-			29643076,
-			29643077
-		}
-	}
-	uv0.weapon_property_399[2965164] = {
-		aim_type = 0,
-		range = 120,
-		damage = 10,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光翼终身弹幕 LV5",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 10,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2965164,
-		type = 1,
-		action_index = "stand",
-		bullet_ID = {
-			29643030,
-			29643030,
-			29643030,
-			29643030,
-			29643032,
-			29643032,
-			29643032,
-			29643032
-		},
-		barrage_ID = {
-			29643069,
-			29643070,
-			29643071,
-			29643072,
-			29643074,
-			29643075,
-			29643076,
-			29643077
-		}
-	}
-	uv0.weapon_property_399[2966000] = {
-		aim_type = 1,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 尖锥子弹 1+2+3 LV1",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966000,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644000,
-			29644000,
-			29644000
-		},
-		barrage_ID = {
-			29644000,
-			29644001,
-			29644002
-		}
-	}
-	uv0.weapon_property_399[2966001] = {
-		aim_type = 1,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 尖锥子弹 1+2+3 LV2",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966001,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644000,
-			29644000,
-			29644000
-		},
-		barrage_ID = {
-			29644000,
-			29644001,
-			29644002
-		}
-	}
-	uv0.weapon_property_399[2966002] = {
-		aim_type = 1,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 尖锥子弹 1+2+3 LV3",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966002,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644000,
-			29644000,
-			29644000
-		},
-		barrage_ID = {
-			29644000,
-			29644001,
-			29644002
-		}
-	}
-	uv0.weapon_property_399[2966003] = {
-		aim_type = 1,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 尖锥子弹 1+2+3 LV4",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966003,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644000,
-			29644000,
-			29644000
-		},
-		barrage_ID = {
-			29644000,
-			29644001,
-			29644002
-		}
-	}
-	uv0.weapon_property_399[2966004] = {
-		aim_type = 1,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 尖锥子弹 1+2+3 LV5",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966004,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644000,
-			29644000,
-			29644000
-		},
-		barrage_ID = {
-			29644000,
-			29644001,
-			29644002
-		}
-	}
-	uv0.weapon_property_399[2966010] = {
-		aim_type = 1,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV1",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2966010,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644006,
-			29644007
-		},
-		barrage_ID = {
-			29644008,
-			29644009
 		}
 	}
 end()

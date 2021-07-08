@@ -1,178 +1,194 @@
 pg = pg or {}
 pg.equip_data_statistics_168 = {
-	[23205] = {
-		id = 23205,
-		damage = "38 x 6",
-		base = 23200,
+	[25025] = {
+		id = 25025,
+		damage = "117 x 4",
+		base = 25020,
 		weapon_id = {
-			23205
+			25025
 		}
 	},
-	[23206] = {
-		id = 23206,
-		damage = "40 x 6",
-		base = 23200,
+	[25026] = {
+		id = 25026,
+		damage = "128 x 4",
+		base = 25020,
 		weapon_id = {
-			23206
+			25026
 		}
 	},
-	[23207] = {
-		id = 23207,
-		damage = "42 x 6",
-		base = 23200,
+	[25027] = {
+		id = 25027,
+		damage = "139 x 4",
+		base = 25020,
 		weapon_id = {
-			23207
+			25027
 		}
 	},
-	[23208] = {
-		id = 23208,
-		damage = "44 x 6",
-		base = 23200,
+	[25028] = {
+		id = 25028,
+		damage = "150 x 4",
+		base = 25020,
 		weapon_id = {
-			23208
+			25028
 		}
 	},
-	[23209] = {
-		id = 23209,
-		damage = "46 x 6",
-		base = 23200,
+	[25029] = {
+		id = 25029,
+		damage = "161 x 4",
+		base = 25020,
 		weapon_id = {
-			23209
+			25029
 		}
 	},
-	[23210] = {
-		id = 23210,
-		damage = "49 x 6",
-		base = 23200,
+	[25030] = {
+		id = 25030,
+		damage = "172 x 4",
+		base = 25020,
 		weapon_id = {
-			23210
+			25030
 		}
 	},
-	[23211] = {
+	[25031] = {
 		anti_siren = 100,
-		damage = "49 x 6",
-		base = 23200,
-		id = 23211,
+		damage = "172 x 4",
+		base = 25020,
+		id = 25031,
 		weapon_id = {
-			23211
+			25031
 		}
 	},
-	[23212] = {
-		anti_siren = 200,
-		damage = "49 x 6",
-		base = 23200,
-		id = 23212,
-		weapon_id = {
-			23212
-		}
-	},
-	[23213] = {
-		anti_siren = 300,
-		damage = "49 x 6",
-		base = 23200,
-		id = 23213,
-		weapon_id = {
-			23213
-		}
-	},
-	[24000] = {
-		name = "356mm四連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 1,
+	[25040] = {
+		name = "533mm五連装魚雷MarkIX",
+		speciality = "雷撃",
+		type = 5,
+		tech = 0,
 		descrip = "0",
-		value_2 = 12,
-		icon = "24000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "40 x 4",
+		value_2 = 45,
+		icon = "25040",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "62 x 5",
 		nationality = 2,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 24000,
+		id = 25040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1520
+				3,
+				1828
 			}
 		},
 		equip_info = {
-			1,
-			2,
+			{
+				3,
+				1828
+			},
+			{
+				4,
+				1404
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			24000
+			25040
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			1,
+			2,
+			3,
+			18
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[24001] = {
-		id = 24001,
-		damage = "46 x 4",
-		base = 24000,
+	[25041] = {
+		id = 25041,
+		damage = "73 x 5",
+		base = 25040,
 		weapon_id = {
-			24001
+			25041
 		}
 	},
-	[24002] = {
-		id = 24002,
-		damage = "50 x 4",
-		base = 24000,
+	[25042] = {
+		id = 25042,
+		damage = "84 x 5",
+		base = 25040,
 		weapon_id = {
-			24002
+			25042
 		}
 	},
-	[24003] = {
-		id = 24003,
-		damage = "56 x 4",
-		base = 24000,
+	[25043] = {
+		id = 25043,
+		damage = "95 x 5",
+		base = 25040,
 		weapon_id = {
-			24003
+			25043
 		}
 	},
-	[24004] = {
-		id = 24004,
-		damage = "60 x 4",
-		base = 24000,
+	[25044] = {
+		id = 25044,
+		damage = "106 x 5",
+		base = 25040,
 		weapon_id = {
-			24004
+			25044
 		}
 	},
-	[24005] = {
-		id = 24005,
-		damage = "66 x 4",
-		base = 24000,
+	[25045] = {
+		id = 25045,
+		damage = "117 x 5",
+		base = 25040,
 		weapon_id = {
-			24005
+			25045
 		}
 	},
-	[24006] = {
-		id = 24006,
-		damage = "70 x 4",
-		base = 24000,
+	[25046] = {
+		id = 25046,
+		damage = "128 x 5",
+		base = 25040,
 		weapon_id = {
-			24006
+			25046
+		}
+	},
+	[25047] = {
+		id = 25047,
+		damage = "139 x 5",
+		base = 25040,
+		weapon_id = {
+			25047
+		}
+	},
+	[25048] = {
+		id = 25048,
+		damage = "150 x 5",
+		base = 25040,
+		weapon_id = {
+			25048
+		}
+	},
+	[25049] = {
+		id = 25049,
+		damage = "161 x 5",
+		base = 25040,
+		weapon_id = {
+			25049
 		}
 	}
 }

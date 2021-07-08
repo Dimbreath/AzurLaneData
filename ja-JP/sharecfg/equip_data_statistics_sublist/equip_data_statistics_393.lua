@@ -1,52 +1,219 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
-	[90103] = {
-		id = 90103,
-		damage = "6 x 5",
-		base = 90100,
+	[95253] = {
+		anti_siren = 300,
+		damage = "43 x 8",
+		base = 95240,
+		id = 95253,
 		weapon_id = {
-			90103
+			95253
 		}
 	},
-	[90104] = {
-		id = 90104,
-		damage = "7 x 5",
-		base = 90100,
-		weapon_id = {
-			90104
-		}
-	},
-	[90105] = {
-		id = 90105,
-		damage = "8 x 5",
-		base = 90100,
-		weapon_id = {
-			90105
-		}
-	},
-	[90106] = {
-		id = 90106,
-		damage = "9 x 5",
-		base = 90100,
-		weapon_id = {
-			90106
-		}
-	},
-	[90120] = {
-		name = "138.6mm単装砲Mle1929",
+	[95300] = {
+		name = "203mm連装砲Model1924",
 		speciality = "追尾",
-		type = 1,
+		type = 3,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "55300",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "22 x 6",
+		nationality = 6,
+		ammo = 3,
+		value_3 = 0,
+		id = 95300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1400
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1400
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95300
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CA",
+			"MG",
+			"CM"
+		}
+	},
+	[95301] = {
+		id = 95301,
+		damage = "24 x 6",
+		base = 95300,
+		weapon_id = {
+			95301
+		}
+	},
+	[95302] = {
+		id = 95302,
+		damage = "26 x 6",
+		base = 95300,
+		weapon_id = {
+			95302
+		}
+	},
+	[95303] = {
+		id = 95303,
+		damage = "28 x 6",
+		base = 95300,
+		weapon_id = {
+			95303
+		}
+	},
+	[95320] = {
+		name = "203mm連装砲Model1924",
+		speciality = "追尾",
+		type = 3,
 		tech = 2,
-		descrip = "说明未填写",
+		descrip = "0",
+		value_2 = 12,
+		icon = "55300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "24 x 6",
+		nationality = 6,
+		ammo = 2,
+		value_3 = 0,
+		id = 95320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95320
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[95321] = {
+		id = 95321,
+		damage = "26 x 6",
+		base = 95320,
+		weapon_id = {
+			95321
+		}
+	},
+	[95322] = {
+		id = 95322,
+		damage = "28 x 6",
+		base = 95320,
+		weapon_id = {
+			95322
+		}
+	},
+	[95323] = {
+		id = 95323,
+		damage = "30 x 6",
+		base = 95320,
+		weapon_id = {
+			95323
+		}
+	},
+	[95324] = {
+		id = 95324,
+		damage = "32 x 6",
+		base = 95320,
+		weapon_id = {
+			95324
+		}
+	},
+	[95325] = {
+		id = 95325,
+		damage = "34 x 6",
+		base = 95320,
+		weapon_id = {
+			95325
+		}
+	},
+	[95326] = {
+		id = 95326,
+		damage = "36 x 6",
+		base = 95320,
+		weapon_id = {
+			95326
+		}
+	},
+	[95340] = {
+		name = "203mm連装砲Model1924",
+		speciality = "追尾",
+		type = 3,
+		tech = 3,
+		descrip = "0",
 		value_2 = 25,
-		icon = "50100",
+		icon = "55300",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "4 x 5",
-		nationality = 8,
+		damage = "26 x 6",
+		nationality = 6,
 		ammo = 2,
 		value_3 = 0,
-		id = 90120,
+		id = 95340,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -55,7 +222,7 @@ pg.equip_data_statistics_393 = {
 		ammo_info = {
 			{
 				1,
-				2206
+				1402
 			}
 		},
 		equip_info = {
@@ -63,11 +230,11 @@ pg.equip_data_statistics_393 = {
 			2,
 			{
 				3,
-				2206
+				1402
 			},
 			{
 				4,
-				1021
+				1205
 			},
 			6,
 			10,
@@ -75,175 +242,52 @@ pg.equip_data_statistics_393 = {
 			12
 		},
 		weapon_id = {
-			90120
+			95340
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
 			3,
-			4,
-			5,
-			8,
-			13,
 			18
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"DD",
+			"RN",
+			"CA",
 			"MG",
 			"HE"
 		}
 	},
-	[90121] = {
-		id = 90121,
-		damage = "5 x 5",
-		base = 90120,
+	[95341] = {
+		id = 95341,
+		damage = "28 x 6",
+		base = 95340,
 		weapon_id = {
-			90121
+			95341
 		}
 	},
-	[90122] = {
-		id = 90122,
-		damage = "6 x 5",
-		base = 90120,
+	[95342] = {
+		id = 95342,
+		damage = "30 x 6",
+		base = 95340,
 		weapon_id = {
-			90122
+			95342
 		}
 	},
-	[90123] = {
-		id = 90123,
-		damage = "7 x 5",
-		base = 90120,
+	[95343] = {
+		id = 95343,
+		damage = "32 x 6",
+		base = 95340,
 		weapon_id = {
-			90123
+			95343
 		}
 	},
-	[90124] = {
-		id = 90124,
-		damage = "8 x 5",
-		base = 90120,
+	[95344] = {
+		id = 95344,
+		damage = "34 x 6",
+		base = 95340,
 		weapon_id = {
-			90124
-		}
-	},
-	[90125] = {
-		id = 90125,
-		damage = "9 x 5",
-		base = 90120,
-		weapon_id = {
-			90125
-		}
-	},
-	[90126] = {
-		id = 90126,
-		damage = "10 x 5",
-		base = 90120,
-		weapon_id = {
-			90126
-		}
-	},
-	[90127] = {
-		id = 90127,
-		damage = "11 x 5",
-		base = 90120,
-		weapon_id = {
-			90127
-		}
-	},
-	[90128] = {
-		id = 90128,
-		damage = "12 x 5",
-		base = 90120,
-		weapon_id = {
-			90128
-		}
-	},
-	[90129] = {
-		id = 90129,
-		damage = "13 x 5",
-		base = 90120,
-		weapon_id = {
-			90129
-		}
-	},
-	[90130] = {
-		id = 90130,
-		damage = "14 x 5",
-		base = 90120,
-		weapon_id = {
-			90130
-		}
-	},
-	[90140] = {
-		name = "138.6mm単装砲Mle1929",
-		speciality = "追尾",
-		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 35,
-		icon = "50100",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "5 x 5",
-		nationality = 8,
-		ammo = 2,
-		value_3 = 0,
-		id = 90140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				2206
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2206
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90140
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG",
-			"HE"
+			95344
 		}
 	}
 }

@@ -1,239 +1,198 @@
 pg = pg or {}
 pg.equip_data_statistics_78 = {
-	[5544] = {
-		id = 5544,
-		damage = "86 x 2",
-		base = 5540,
+	[7221] = {
+		id = 7221,
+		damage = "6 x 3",
+		base = 7220,
 		weapon_id = {
-			5544
+			7221
 		}
 	},
-	[5545] = {
-		id = 5545,
-		damage = "94 x 2",
-		base = 5540,
+	[7222] = {
+		id = 7222,
+		damage = "7 x 3",
+		base = 7220,
 		weapon_id = {
-			5545
+			7222
 		}
 	},
-	[5546] = {
-		id = 5546,
-		damage = "102 x 2",
-		base = 5540,
+	[7223] = {
+		id = 7223,
+		damage = "8 x 3",
+		base = 7220,
 		weapon_id = {
-			5546
+			7223
 		}
 	},
-	[5547] = {
-		id = 5547,
-		damage = "110 x 2",
-		base = 5540,
+	[7224] = {
+		id = 7224,
+		damage = "9 x 3",
+		base = 7220,
 		weapon_id = {
-			5547
+			7224
 		}
 	},
-	[5548] = {
-		id = 5548,
-		damage = "118 x 2",
-		base = 5540,
+	[7225] = {
+		id = 7225,
+		damage = "10 x 3",
+		base = 7220,
 		weapon_id = {
-			5548
+			7225
 		}
 	},
-	[5549] = {
-		id = 5549,
-		damage = "126 x 2",
-		base = 5540,
+	[7226] = {
+		id = 7226,
+		damage = "12 x 3",
+		base = 7220,
 		weapon_id = {
-			5549
+			7226
 		}
 	},
-	[5550] = {
-		id = 5550,
-		damage = "135 x 2",
-		base = 5540,
-		weapon_id = {
-			5550
-		}
-	},
-	[5551] = {
-		anti_siren = 100,
-		damage = "135 x 2",
-		base = 5540,
-		id = 5551,
-		weapon_id = {
-			5551
-		}
-	},
-	[6000] = {
-		name = "12.7mm対空機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		rarity = 1,
+	[7240] = {
+		name = "130mm単装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
 		descrip = "0",
-		value_2 = 0,
-		icon = "6000",
-		damage = "6/回",
-		nationality = 0,
-		ammo = 5,
+		value_2 = 25,
+		icon = "7200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 3",
+		nationality = 7,
+		ammo = 2,
 		value_3 = 0,
-		id = 6000,
+		id = 7240,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1006
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1006
+			},
+			{
+				4,
+				1018
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			6000
+			7240
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"UN",
-			"ST",
-			"AA"
+			"SN",
+			"DD",
+			"MG",
+			"HE"
 		}
 	},
-	[6001] = {
-		id = 6001,
-		damage = "7/回",
-		base = 6000,
+	[7241] = {
+		id = 7241,
+		damage = "7 x 3",
+		base = 7240,
 		weapon_id = {
-			6001
+			7241
 		}
 	},
-	[6002] = {
-		id = 6002,
-		damage = "8/回",
-		base = 6000,
+	[7242] = {
+		id = 7242,
+		damage = "8 x 3",
+		base = 7240,
 		weapon_id = {
-			6002
+			7242
 		}
 	},
-	[6003] = {
-		id = 6003,
-		damage = "9/回",
-		base = 6000,
+	[7243] = {
+		id = 7243,
+		damage = "9 x 3",
+		base = 7240,
 		weapon_id = {
-			6003
+			7243
 		}
 	},
-	[6020] = {
-		name = "12.7mm対空機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "6000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "8/回",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 6020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[7244] = {
+		id = 7244,
+		damage = "10 x 3",
+		base = 7240,
 		weapon_id = {
-			6020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"AA"
+			7244
 		}
 	},
-	[6021] = {
-		id = 6021,
-		damage = "9/回",
-		base = 6020,
+	[7245] = {
+		id = 7245,
+		damage = "11 x 3",
+		base = 7240,
 		weapon_id = {
-			6021
+			7245
 		}
 	},
-	[6022] = {
-		id = 6022,
-		damage = "10/回",
-		base = 6020,
+	[7246] = {
+		id = 7246,
+		damage = "12 x 3",
+		base = 7240,
 		weapon_id = {
-			6022
+			7246
 		}
 	},
-	[6023] = {
-		id = 6023,
-		damage = "11/回",
-		base = 6020,
+	[7247] = {
+		id = 7247,
+		damage = "13 x 3",
+		base = 7240,
 		weapon_id = {
-			6023
+			7247
+		}
+	},
+	[7248] = {
+		id = 7248,
+		damage = "14 x 3",
+		base = 7240,
+		weapon_id = {
+			7248
+		}
+	},
+	[7249] = {
+		id = 7249,
+		damage = "15 x 3",
+		base = 7240,
+		weapon_id = {
+			7249
+		}
+	},
+	[7250] = {
+		id = 7250,
+		damage = "17 x 3",
+		base = 7240,
+		weapon_id = {
+			7250
 		}
 	}
 }

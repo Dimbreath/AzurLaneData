@@ -1,137 +1,182 @@
 pg = pg or {}
 pg.equip_data_statistics_80 = {
-	[6140] = {
-		name = "100mm連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
+	[7322] = {
+		id = 7322,
+		damage = "6 x 4",
+		base = 7320,
+		weapon_id = {
+			7322
+		}
+	},
+	[7323] = {
+		id = 7323,
+		damage = "7 x 4",
+		base = 7320,
+		weapon_id = {
+			7323
+		}
+	},
+	[7324] = {
+		id = 7324,
+		damage = "8 x 4",
+		base = 7320,
+		weapon_id = {
+			7324
+		}
+	},
+	[7325] = {
+		id = 7325,
+		damage = "9 x 4",
+		base = 7320,
+		weapon_id = {
+			7325
+		}
+	},
+	[7326] = {
+		id = 7326,
+		damage = "10 x 4",
+		base = 7320,
+		weapon_id = {
+			7326
+		}
+	},
+	[7327] = {
+		id = 7327,
+		damage = "10 x 4",
+		base = 7320,
+		weapon_id = {
+			7327
+		}
+	},
+	[7340] = {
+		name = "潜水艦用203mm連装砲Mle1924",
+		speciality = "追尾",
+		type = 3,
+		tech = 0,
+		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "6100",
-		attribute_2 = "antiaircraft",
+		icon = "7340",
+		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "22/回",
+		damage = "22 x 4",
 		nationality = 8,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 6140,
+		id = 7340,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1411
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1411
+			},
+			{
+				4,
+				1205
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			6140
+			7340
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			8,
+			17
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"ST",
-			"AA"
+			"SS",
+			"MG",
+			"CM"
 		}
 	},
-	[6141] = {
-		id = 6141,
-		damage = "25/回",
-		base = 6140,
+	[7341] = {
+		id = 7341,
+		damage = "24 x 4",
+		base = 7340,
 		weapon_id = {
-			6141
+			7341
 		}
 	},
-	[6142] = {
-		id = 6142,
-		damage = "28/回",
-		base = 6140,
+	[7342] = {
+		id = 7342,
+		damage = "26 x 4",
+		base = 7340,
 		weapon_id = {
-			6142
+			7342
 		}
 	},
-	[6143] = {
-		id = 6143,
-		damage = "32/回",
-		base = 6140,
+	[7343] = {
+		id = 7343,
+		damage = "28 x 4",
+		base = 7340,
 		weapon_id = {
-			6143
+			7343
 		}
 	},
-	[6144] = {
-		id = 6144,
-		damage = "36/回",
-		base = 6140,
+	[7344] = {
+		id = 7344,
+		damage = "30 x 4",
+		base = 7340,
 		weapon_id = {
-			6144
+			7344
 		}
 	},
-	[6145] = {
-		id = 6145,
-		damage = "40/回",
-		base = 6140,
+	[7345] = {
+		id = 7345,
+		damage = "32 x 4",
+		base = 7340,
 		weapon_id = {
-			6145
+			7345
 		}
 	},
-	[6146] = {
-		id = 6146,
-		damage = "44/回",
-		base = 6140,
+	[7346] = {
+		id = 7346,
+		damage = "34 x 4",
+		base = 7340,
 		weapon_id = {
-			6146
+			7346
 		}
 	},
-	[6147] = {
-		id = 6147,
-		damage = "44/回",
-		base = 6140,
+	[7347] = {
+		id = 7347,
+		damage = "34 x 4",
+		base = 7340,
 		weapon_id = {
-			6147
+			7347
 		}
 	},
-	[7000] = {
-		name = "152mm単装砲",
-		speciality = "通常",
-		type = 2,
+	[11000] = {
+		name = "76mm砲",
+		speciality = "追尾",
+		type = 1,
 		tech = 1,
 		rarity = 1,
 		descrip = "0",
 		value_2 = 0,
-		icon = "7000",
-		damage = "16 x 3",
-		nationality = 7,
+		icon = "11000",
+		damage = "3 x 1",
+		nationality = 1,
 		ammo = 3,
 		value_3 = 0,
-		id = 7000,
+		id = 11000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -140,7 +185,7 @@ pg.equip_data_statistics_80 = {
 		ammo_info = {
 			{
 				1,
-				1101
+				999
 			}
 		},
 		equip_info = {
@@ -148,11 +193,11 @@ pg.equip_data_statistics_80 = {
 			2,
 			{
 				3,
-				1101
+				999
 			},
 			{
 				4,
-				1103
+				1000
 			},
 			6,
 			10,
@@ -160,127 +205,42 @@ pg.equip_data_statistics_80 = {
 			12
 		},
 		weapon_id = {
-			7000
+			11000
 		},
 		skill_id = {},
 		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[7001] = {
-		id = 7001,
-		damage = "18 x 3",
-		base = 7000,
-		weapon_id = {
-			7001
-		}
-	},
-	[7002] = {
-		id = 7002,
-		damage = "20 x 3",
-		base = 7000,
-		weapon_id = {
-			7002
-		}
-	},
-	[7003] = {
-		id = 7003,
-		damage = "22 x 3",
-		base = 7000,
-		weapon_id = {
-			7003
-		}
-	},
-	[7020] = {
-		name = "152mm単装砲",
-		speciality = "通常",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "7000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "18 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 7020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1101
-			}
-		},
-		equip_info = {
 			1,
-			2,
-			{
-				3,
-				1101
-			},
-			{
-				4,
-				1103
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7020
-		},
-		skill_id = {},
-		part_main = {
-			2
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"CL",
+			"USS",
+			"DD",
 			"MG"
 		}
 	},
-	[7021] = {
-		id = 7021,
-		damage = "20 x 3",
-		base = 7020,
+	[11001] = {
+		id = 11001,
+		base = 11000,
 		weapon_id = {
-			7021
+			11001
 		}
 	},
-	[7022] = {
-		id = 7022,
-		damage = "22 x 3",
-		base = 7020,
+	[11002] = {
+		id = 11002,
+		damage = "4 x 1",
+		base = 11000,
 		weapon_id = {
-			7022
-		}
-	},
-	[7023] = {
-		id = 7023,
-		damage = "24 x 3",
-		base = 7020,
-		weapon_id = {
-			7023
+			11002
 		}
 	}
 }

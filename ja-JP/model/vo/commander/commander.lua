@@ -79,6 +79,9 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.maxLevel = uv0.all[#uv0.all]
 	slot0.groupId = slot0:getConfig("group_type")
+	slot0.cleanTime = slot1.home_clean_time or 0
+	slot0.playTime = slot1.home_play_time or 0
+	slot0.feedTime = slot1.home_feed_time or 0
 end
 
 function slot0.getRenameTime(slot0)
@@ -350,6 +353,15 @@ function slot0.addExp(slot0, slot1)
 	end
 end
 
+function slot0.ReduceExp(slot0, slot1)
+	slot0.exp = slot0.exp - slot1
+
+	while slot0.exp < 0 do
+		slot0.level = slot0.level - 1
+		slot0.exp = slot0:getNextLevelExp() + slot0.exp
+	end
+end
+
 function slot0.canLevelUp(slot0)
 	return slot0:getNextLevelExp() <= slot0.exp
 end
@@ -373,7 +385,7 @@ function slot0.updateLevel(slot0)
 end
 
 function slot0.getConfigExp(slot0, slot1)
-	return uv0[slot1]["exp_" .. slot0:getRarity()] or slot2.exp
+	return uv0[math.max(slot1, 1)]["exp_" .. slot0:getRarity()] or slot2.exp
 end
 
 function slot0.getNextLevelExp(slot0)
@@ -478,6 +490,28 @@ function slot0.canEquipToFleetList(slot0, slot1, slot2, slot3)
 	end
 
 	return true
+end
+
+function slot0.ExistCleanFlag(slot0)
+	return not pg.TimeMgr.GetInstance():IsSameDay(slot0.cleanTime, pg.TimeMgr.GetInstance():GetServerTime())
+end
+
+function slot0.ExitFeedFlag(slot0)
+	return not pg.TimeMgr.GetInstance():IsSameDay(slot0.feedTime, pg.TimeMgr.GetInstance():GetServerTime())
+end
+
+function slot0.ExitPlayFlag(slot0)
+	return not pg.TimeMgr.GetInstance():IsSameDay(slot0.playTime, pg.TimeMgr.GetInstance():GetServerTime())
+end
+
+function slot0.UpdateHomeOpTime(slot0, slot1, slot2)
+	if slot1 == 1 then
+		slot0.cleanTime = slot2
+	elseif slot1 == 2 then
+		slot0.feedTime = slot2
+	elseif slot1 == 3 then
+		slot0.playTime = slot2
+	end
 end
 
 return slot0

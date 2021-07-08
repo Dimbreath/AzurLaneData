@@ -1,240 +1,379 @@
 pg = pg or {}
 pg.equip_data_statistics_310 = {
-	[45024] = {
-		id = 45024,
-		damage = "92 x 3",
-		base = 45020,
-		weapon_id = {
-			45024
-		}
-	},
-	[45025] = {
-		id = 45025,
-		damage = "99 x 3",
-		base = 45020,
-		weapon_id = {
-			45025
-		}
-	},
-	[45026] = {
-		id = 45026,
-		damage = "106 x 3",
-		base = 45020,
-		weapon_id = {
-			45026
-		}
-	},
-	[45040] = {
-		name = "533mm三連装磁気魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 3,
-		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
-		value_2 = 25,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "70 x 3",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[45041] = {
-		id = 45041,
-		damage = "77 x 3",
-		base = 45040,
-		weapon_id = {
-			45041
-		}
-	},
-	[45042] = {
-		id = 45042,
-		damage = "85 x 3",
-		base = 45040,
-		weapon_id = {
-			45042
-		}
-	},
-	[45043] = {
-		id = 45043,
-		damage = "92 x 3",
-		base = 45040,
-		weapon_id = {
-			45043
-		}
-	},
-	[45044] = {
-		id = 45044,
-		damage = "100 x 3",
-		base = 45040,
-		weapon_id = {
-			45044
-		}
-	},
-	[45045] = {
-		id = 45045,
-		damage = "107 x 3",
-		base = 45040,
-		weapon_id = {
-			45045
-		}
-	},
-	[45046] = {
-		id = 45046,
-		damage = "115 x 3",
-		base = 45040,
-		weapon_id = {
-			45046
-		}
-	},
-	[45047] = {
-		id = 45047,
-		damage = "122 x 3",
-		base = 45040,
-		weapon_id = {
-			45047
-		}
-	},
-	[45048] = {
-		id = 45048,
-		damage = "130 x 3",
-		base = 45040,
-		weapon_id = {
-			45048
-		}
-	},
-	[45049] = {
-		id = 45049,
-		damage = "137 x 3",
-		base = 45040,
-		weapon_id = {
-			45049
-		}
-	},
-	[45050] = {
-		id = 45050,
-		damage = "145 x 3",
-		base = 45040,
-		weapon_id = {
-			45050
-		}
-	},
-	[45051] = {
-		anti_siren = 100,
-		damage = "145 x 3",
-		base = 45040,
-		id = 45051,
-		weapon_id = {
-			45051
-		}
-	},
-	[45100] = {
-		name = "533mm四連装磁気魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 1,
-		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
-		value_2 = 12,
-		icon = "45100",
-		attribute_2 = "torpedo",
+	[47020] = {
+		name = "BF-109T艦上戦闘機",
+		type = 7,
+		speciality = "航空",
 		rarity = 3,
-		damage = "63 x 4",
+		tech = 2,
+		descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
+		value_2 = 12,
+		icon = "47000",
+		attribute_2 = "air",
 		nationality = 4,
-		ammo = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 45100,
+		id = 47020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				3,
-				1803
+				6,
+				59020
+			},
+			{
+				6,
+				59420
 			}
 		},
 		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1403
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			45100
+			47020,
+			84020
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
+			6,
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			18
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"TP",
-			"QUAD"
+			"CV",
+			"FT"
+		}
+	},
+	[47021] = {
+		id = 47021,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59021
+			},
+			{
+				6,
+				59421
+			}
+		},
+		weapon_id = {
+			47021,
+			84021
+		}
+	},
+	[47022] = {
+		id = 47022,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59022
+			},
+			{
+				6,
+				59422
+			}
+		},
+		weapon_id = {
+			47022,
+			84022
+		}
+	},
+	[47023] = {
+		id = 47023,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59023
+			},
+			{
+				6,
+				59423
+			}
+		},
+		weapon_id = {
+			47023,
+			84023
+		}
+	},
+	[47024] = {
+		id = 47024,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59024
+			},
+			{
+				6,
+				59424
+			}
+		},
+		weapon_id = {
+			47024,
+			84024
+		}
+	},
+	[47025] = {
+		id = 47025,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59025
+			},
+			{
+				6,
+				59425
+			}
+		},
+		weapon_id = {
+			47025,
+			84025
+		}
+	},
+	[47026] = {
+		id = 47026,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59026
+			},
+			{
+				6,
+				59426
+			}
+		},
+		weapon_id = {
+			47026,
+			84026
+		}
+	},
+	[47040] = {
+		name = "BF-109T艦上戦闘機",
+		type = 7,
+		speciality = "航空",
+		rarity = 4,
+		tech = 3,
+		descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
+		value_2 = 25,
+		icon = "47000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59040
+			},
+			{
+				6,
+				59440
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47040,
+			84040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47041] = {
+		id = 47041,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59041
+			},
+			{
+				6,
+				59441
+			}
+		},
+		weapon_id = {
+			47041,
+			84041
+		}
+	},
+	[47042] = {
+		id = 47042,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59042
+			},
+			{
+				6,
+				59442
+			}
+		},
+		weapon_id = {
+			47042,
+			84042
+		}
+	},
+	[47043] = {
+		id = 47043,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59043
+			},
+			{
+				6,
+				59443
+			}
+		},
+		weapon_id = {
+			47043,
+			84043
+		}
+	},
+	[47044] = {
+		id = 47044,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59044
+			},
+			{
+				6,
+				59444
+			}
+		},
+		weapon_id = {
+			47044,
+			84044
+		}
+	},
+	[47045] = {
+		id = 47045,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59045
+			},
+			{
+				6,
+				59445
+			}
+		},
+		weapon_id = {
+			47045,
+			84045
+		}
+	},
+	[47046] = {
+		id = 47046,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59046
+			},
+			{
+				6,
+				59446
+			}
+		},
+		weapon_id = {
+			47046,
+			84046
+		}
+	},
+	[47047] = {
+		id = 47047,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59047
+			},
+			{
+				6,
+				59447
+			}
+		},
+		weapon_id = {
+			47047,
+			84047
+		}
+	},
+	[47048] = {
+		id = 47048,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59048
+			},
+			{
+				6,
+				59448
+			}
+		},
+		weapon_id = {
+			47048,
+			84048
+		}
+	},
+	[47049] = {
+		id = 47049,
+		base = 47040,
+		ammo_info = {
+			{
+				6,
+				59049
+			},
+			{
+				6,
+				59449
+			}
+		},
+		weapon_id = {
+			47049,
+			84049
 		}
 	}
 }

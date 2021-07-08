@@ -155,11 +155,12 @@ function slot0.didEnter(slot0)
 			uv0:switchToEditMode()
 		end
 	end, SFX_PANEL)
+
+	slot0._editedFlag = slot0.contextData.form == uv0.FORM_EDIT
+
 	slot0:UpdateFleetView(true)
 
 	if slot0.contextData.form == uv0.FORM_EDIT then
-		slot0._editedFlag = true
-
 		slot0:switchToEditMode()
 	else
 		slot0:swtichToPreviewMode()
@@ -329,63 +330,56 @@ function slot0.loadAllCharacter(slot0)
 		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
 
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
-		slot8 = nil
 
-		if uv0._currentForm == uv1.FORM_PREVIEW then
-			slot8 = false
-		elseif uv0._currentForm == uv1.FORM_EDIT then
-			slot8 = true
-		end
-
-		uv0:enabledCharacter(slot0, slot8, slot7, slot2)
+		uv0:enabledCharacter(slot0, tobool(uv0._editedFlag), slot7, slot2)
 		uv0:setCharacterPos(slot2, slot3, slot0)
 		uv0:sortSiblingIndex()
 
-		slot9 = cloneTplTo(uv0._heroInfo, slot0)
+		slot8 = cloneTplTo(uv0._heroInfo, slot0)
 
-		setAnchoredPosition(slot9, {
+		setAnchoredPosition(slot8, {
 			x = 0,
 			y = 0
 		})
 
-		slot9.localScale = Vector3(2, 2, 1)
+		slot8.localScale = Vector3(2, 2, 1)
 
-		SetActive(slot9, true)
+		SetActive(slot8, true)
 
-		slot9.name = "info"
-		slot11 = findTF(findTF(slot9, "info"), "stars")
-		slot13 = findTF(slot10, "energy")
+		slot8.name = "info"
+		slot10 = findTF(findTF(slot8, "info"), "stars")
+		slot12 = findTF(slot9, "energy")
 
 		if slot7.energy <= Ship.ENERGY_MID then
-			slot14, slot15 = slot7:getEnergyPrint()
+			slot13, slot14 = slot7:getEnergyPrint()
 
-			if not GetSpriteFromAtlas("energy", slot14) then
+			if not GetSpriteFromAtlas("energy", slot13) then
 				warning("找不到疲劳")
 			end
 
-			setImageSprite(slot13, slot16)
+			setImageSprite(slot12, slot15)
 		end
 
-		setActive(slot13, slot12 and uv0.contextData.system ~= SYSTEM_DUEL)
+		setActive(slot12, slot11 and uv0.contextData.system ~= SYSTEM_DUEL)
 
-		for slot18 = 1, slot7:getStar() do
-			cloneTplTo(uv0._starTpl, slot11)
+		for slot17 = 1, slot7:getStar() do
+			cloneTplTo(uv0._starTpl, slot10)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot7:getShipType())) then
 			warning("找不到船形, shipConfigId: " .. slot7.configId)
 		end
 
-		setImageSprite(findTF(slot10, "type"), slot15, true)
-		setText(findTF(slot10, "frame/lv_contain/lv"), slot7.level)
-		setActive(slot10:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot7:getGroupId()] ~= nil)
+		setImageSprite(findTF(slot9, "type"), slot14, true)
+		setText(findTF(slot9, "frame/lv_contain/lv"), slot7.level)
+		setActive(slot9:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot7:getGroupId()] ~= nil)
 
-		if slot18 then
-			if slot18 % 100 > 0 then
-				slot22 = tostring(slot18 / 100) .. "." .. tostring(slot21)
+		if slot17 then
+			if slot17 % 100 > 0 then
+				slot21 = tostring(slot17 / 100) .. "." .. tostring(slot20)
 			end
 
-			setText(slot19:Find("text"), string.format("EXP +%s%%", slot22))
+			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
 		end
 	end
 

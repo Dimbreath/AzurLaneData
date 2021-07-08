@@ -1,53 +1,80 @@
 pg = pg or {}
 pg.aircraft_template_212 = {
-	[81371] = {
-		id = 81371,
-		base = 81360,
-		max_hp = 140,
-		hp_growth = 5385,
+	[81146] = {
+		id = 81146,
+		base = 81140,
+		max_hp = 77,
+		hp_growth = 2949,
 		weapon_ID = {
-			50671
+			50446
 		}
 	},
-	[81372] = {
-		id = 81372,
-		base = 81360,
-		max_hp = 148,
-		hp_growth = 5690,
+	[81147] = {
+		id = 81147,
+		base = 81140,
+		max_hp = 83,
+		hp_growth = 3182,
 		weapon_ID = {
-			50672
+			50447
 		}
 	},
-	[81373] = {
-		id = 81373,
-		base = 81360,
-		max_hp = 156,
-		hp_growth = 5995,
+	[81148] = {
+		id = 81148,
+		base = 81140,
+		max_hp = 89,
+		hp_growth = 3415,
 		weapon_ID = {
-			50673
+			50448
 		}
 	},
-	[81380] = {
-		name = "F8F熊猫",
-		max_hp = 48,
+	[81149] = {
+		id = 81149,
+		base = 81140,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50449
+		}
+	},
+	[81150] = {
+		id = 81150,
+		base = 81140,
+		max_hp = 101,
+		hp_growth = 3881,
+		weapon_ID = {
+			50450
+		}
+	},
+	[81151] = {
+		id = 81151,
+		base = 81140,
+		max_hp = 107,
+		hp_growth = 4114,
+		weapon_ID = {
+			50451
+		}
+	},
+	[81200] = {
+		name = "F4U海盗",
+		max_hp = 33,
 		accuracy = 23,
-		model_ID = "f8f",
+		model_ID = "F4U",
 		ACC_growth = 0,
-		crash_DMG = 162,
-		dodge = 0.303,
+		crash_DMG = 66,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 12,
+		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "f8f",
+		icon = "F4U",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1829,
-		speed = 50,
-		id = 81380,
+		hp_growth = 1270,
+		speed = 48,
+		id = 81200,
 		scale = 1,
 		weapon_ID = {
-			50660
+			50400
 		},
 		position_offset = {
 			0,
@@ -67,13 +94,13 @@ pg.aircraft_template_212 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.84,
-					-1.25,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.77,
-					1.48,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -90,7 +117,7 @@ pg.aircraft_template_212 = {
 				0
 			},
 			{
-				0,
+				0.41,
 				0,
 				0
 			},
@@ -101,58 +128,31 @@ pg.aircraft_template_212 = {
 			}
 		}
 	},
-	[81381] = {
-		id = 81381,
-		base = 81380,
-		max_hp = 55,
-		hp_growth = 2103,
+	[81201] = {
+		id = 81201,
+		base = 81200,
+		max_hp = 38,
+		hp_growth = 1461,
 		weapon_ID = {
-			50661
+			50401
 		}
 	},
-	[81382] = {
-		id = 81382,
-		base = 81380,
-		max_hp = 62,
-		hp_growth = 2378,
+	[81202] = {
+		id = 81202,
+		base = 81200,
+		max_hp = 43,
+		hp_growth = 1651,
 		weapon_ID = {
-			50662
+			50402
 		}
 	},
-	[81383] = {
-		id = 81383,
-		base = 81380,
-		max_hp = 69,
-		hp_growth = 2652,
+	[81203] = {
+		id = 81203,
+		base = 81200,
+		max_hp = 48,
+		hp_growth = 1842,
 		weapon_ID = {
-			50663
-		}
-	},
-	[81384] = {
-		id = 81384,
-		base = 81380,
-		max_hp = 76,
-		hp_growth = 2926,
-		weapon_ID = {
-			50664
-		}
-	},
-	[81385] = {
-		id = 81385,
-		base = 81380,
-		max_hp = 83,
-		hp_growth = 3201,
-		weapon_ID = {
-			50665
-		}
-	},
-	[81386] = {
-		id = 81386,
-		base = 81380,
-		max_hp = 90,
-		hp_growth = 3475,
-		weapon_ID = {
-			50666
+			50403
 		}
 	}
 }

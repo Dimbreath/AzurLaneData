@@ -1,376 +1,200 @@
 pg = pg or {}
 pg.equip_data_statistics_147 = {
-	[19167] = {
-		id = 19167,
-		base = 19160,
-		ammo_info = {
-			{
-				6,
-				50647
-			},
-			{
-				5,
-				52947
-			},
-			{
-				5,
-				52347
-			}
-		},
+	[21461] = {
+		id = 21461,
+		damage = "7 x 4",
+		base = 21460,
 		weapon_id = {
-			19167
+			21461
 		}
 	},
-	[19168] = {
-		id = 19168,
-		base = 19160,
-		ammo_info = {
-			{
-				6,
-				50648
-			},
-			{
-				5,
-				52948
-			},
-			{
-				5,
-				52348
-			}
-		},
+	[21462] = {
+		id = 21462,
+		damage = "8 x 4",
+		base = 21460,
 		weapon_id = {
-			19168
+			21462
 		}
 	},
-	[19169] = {
-		id = 19169,
-		base = 19160,
-		ammo_info = {
-			{
-				6,
-				50649
-			},
-			{
-				5,
-				52949
-			},
-			{
-				5,
-				52349
-			}
-		},
+	[21463] = {
+		id = 21463,
+		damage = "9 x 4",
+		base = 21460,
 		weapon_id = {
-			19169
+			21463
 		}
 	},
-	[19170] = {
-		id = 19170,
-		base = 19160,
-		ammo_info = {
-			{
-				6,
-				50650
-			},
-			{
-				5,
-				52950
-			},
-			{
-				5,
-				52350
-			}
-		},
+	[21464] = {
+		id = 21464,
+		damage = "10 x 4",
+		base = 21460,
 		weapon_id = {
-			19170
+			21464
 		}
 	},
-	[19171] = {
+	[21465] = {
+		id = 21465,
+		damage = "11 x 4",
+		base = 21460,
+		weapon_id = {
+			21465
+		}
+	},
+	[21466] = {
+		id = 21466,
+		damage = "12 x 4",
+		base = 21460,
+		weapon_id = {
+			21466
+		}
+	},
+	[21467] = {
+		id = 21467,
+		damage = "13 x 4",
+		base = 21460,
+		weapon_id = {
+			21467
+		}
+	},
+	[21468] = {
+		id = 21468,
+		damage = "14 x 4",
+		base = 21460,
+		weapon_id = {
+			21468
+		}
+	},
+	[21469] = {
+		id = 21469,
+		damage = "15 x 4",
+		base = 21460,
+		weapon_id = {
+			21469
+		}
+	},
+	[21470] = {
+		id = 21470,
+		damage = "17 x 4",
+		base = 21460,
+		weapon_id = {
+			21470
+		}
+	},
+	[21471] = {
 		anti_siren = 100,
-		base = 19160,
-		id = 19171,
-		ammo_info = {
-			{
-				6,
-				50651
-			},
-			{
-				5,
-				52951
-			},
-			{
-				5,
-				52351
-			}
-		},
+		damage = "17 x 4",
+		base = 21460,
+		id = 21471,
 		weapon_id = {
-			19171
+			21471
 		}
 	},
-	[19172] = {
+	[21472] = {
 		anti_siren = 200,
-		base = 19160,
-		id = 19172,
-		ammo_info = {
-			{
-				6,
-				50652
-			},
-			{
-				5,
-				52952
-			},
-			{
-				5,
-				52352
-			}
-		},
+		damage = "17 x 4",
+		base = 21460,
+		id = 21472,
 		weapon_id = {
-			19172
+			21472
 		}
 	},
-	[19173] = {
+	[21473] = {
 		anti_siren = 300,
-		base = 19160,
-		id = 19173,
-		ammo_info = {
-			{
-				6,
-				50653
-			},
-			{
-				5,
-				52953
-			},
-			{
-				5,
-				52353
-			}
-		},
+		damage = "17 x 4",
+		base = 21460,
+		id = 21473,
 		weapon_id = {
-			19173
+			21473
 		}
 	},
-	[19200] = {
-		name = "BTD-1デストロイヤー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
+	[21500] = {
+		name = "134mm連装高角砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
 		tech = 1,
+		value_2 = 2,
+		icon = "21500",
+		attribute_2 = "cannon",
 		descrip = "0",
-		value_2 = 12,
-		icon = "19200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19200,
+		rarity = 2,
+		damage = "4 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 3,
+		id = 21500,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50500
-			},
-			{
-				5,
-				52800
+				1,
+				1100
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1011
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			19200
+			21500
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19201] = {
-		id = 19201,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52801
-			}
-		},
-		weapon_id = {
-			19201
-		}
-	},
-	[19202] = {
-		id = 19202,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52802
-			}
-		},
-		weapon_id = {
-			19202
-		}
-	},
-	[19203] = {
-		id = 19203,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50503
-			},
-			{
-				5,
-				52803
-			}
-		},
-		weapon_id = {
-			19203
-		}
-	},
-	[19204] = {
-		id = 19204,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50504
-			},
-			{
-				5,
-				52804
-			}
-		},
-		weapon_id = {
-			19204
-		}
-	},
-	[19205] = {
-		id = 19205,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50505
-			},
-			{
-				5,
-				52805
-			}
-		},
-		weapon_id = {
-			19205
-		}
-	},
-	[19206] = {
-		id = 19206,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50506
-			},
-			{
-				5,
-				52806
-			}
-		},
-		weapon_id = {
-			19206
-		}
-	},
-	[19220] = {
-		name = "BTD-1デストロイヤー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "19200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50520
-			},
-			{
-				5,
-				52820
-			}
-		},
-		equip_info = {
-			6,
-			7,
+			2,
+			3,
+			4,
+			5,
 			8,
-			9
-		},
-		weapon_id = {
-			19220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"DB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[19221] = {
-		id = 19221,
-		base = 19220,
-		ammo_info = {
-			{
-				6,
-				50521
-			},
-			{
-				5,
-				52821
-			}
-		},
+	[21501] = {
+		id = 21501,
+		base = 21500,
 		weapon_id = {
-			19221
+			21501
+		}
+	},
+	[21502] = {
+		id = 21502,
+		damage = "6 x 2",
+		base = 21500,
+		weapon_id = {
+			21502
+		}
+	},
+	[21503] = {
+		id = 21503,
+		damage = "6 x 2",
+		base = 21500,
+		weapon_id = {
+			21503
 		}
 	}
 }

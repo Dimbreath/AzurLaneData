@@ -271,16 +271,23 @@ end
 
 function slot5.GetDamageSUM(slot0)
 	slot1 = 0
+	slot2 = 0
 
-	for slot5, slot6 in ipairs(slot0._hiveList) do
-		for slot10, slot11 in ipairs(slot6:GetATKAircraftList()) do
-			for slot16, slot17 in ipairs(slot11:GetWeapon()) do
-				slot1 = slot1 + slot17:GetDamageSUM()
+	for slot6, slot7 in ipairs(slot0._hiveList) do
+		for slot11, slot12 in ipairs(slot7:GetATKAircraftList()) do
+			for slot17, slot18 in ipairs(slot12:GetWeapon()) do
+				slot1 = slot1 + slot18:GetDamageSUM()
 			end
 		end
 	end
 
-	return slot1
+	for slot7, slot8 in ipairs(slot0._skill:GetSkillEffectList()) do
+		if slot8:GetDamageSum() then
+			slot2 = slot2 + slot9
+		end
+	end
+
+	return slot1, slot2
 end
 
 function slot5.GetStrikeSkillID(slot0)

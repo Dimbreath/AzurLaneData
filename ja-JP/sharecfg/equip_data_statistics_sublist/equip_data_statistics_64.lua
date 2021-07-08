@@ -1,163 +1,287 @@
 pg = pg or {}
 pg.equip_data_statistics_64 = {
-	[3530] = {
-		id = 3530,
-		value_1 = "550",
-		base = 3520
-	},
-	[3531] = {
-		id = 3531,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 3520
-	},
-	[3540] = {
-		name = "雷撃戦資材(積載)",
-		tech = 0,
-		type = 18,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "3540",
-		value_1 = "250",
-		descrip = "運送艦に搭載できる魚雷兵装補給",
-		rarity = 4,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 3540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
+	[4226] = {
+		id = 4226,
+		base = 4220,
+		ammo_info = {
+			{
+				8,
+				53126
+			}
 		},
-		weapon_id = {},
-		skill_id = {
-			6680
-		},
-		part_main = {
-			19
-		},
-		part_sub = {
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"GDS"
+		weapon_id = {
+			4226
 		}
 	},
-	[3541] = {
-		id = 3541,
-		value_1 = "280",
-		base = 3540
-	},
-	[3542] = {
-		id = 3542,
-		value_1 = "310",
-		base = 3540
-	},
-	[3543] = {
-		id = 3543,
-		value_1 = "340",
-		base = 3540
-	},
-	[3544] = {
-		id = 3544,
-		value_1 = "370",
-		base = 3540
-	},
-	[3545] = {
-		id = 3545,
-		value_1 = "400",
-		base = 3540
-	},
-	[3546] = {
-		id = 3546,
-		value_1 = "430",
-		base = 3540
-	},
-	[3547] = {
-		id = 3547,
-		value_1 = "460",
-		base = 3540
-	},
-	[3548] = {
-		id = 3548,
-		value_1 = "490",
-		base = 3540
-	},
-	[3549] = {
-		id = 3549,
-		value_1 = "520",
-		base = 3540
-	},
-	[3550] = {
-		id = 3550,
-		value_1 = "550",
-		base = 3540
-	},
-	[3551] = {
-		id = 3551,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 3540
-	},
-	[4000] = {
-		name = "従来型爆雷投射機",
+	[4240] = {
+		name = "ソードフィッシュMarkⅡ-ASV（対潜）",
+		type = 15,
 		speciality = "対潜",
-		type = 14,
-		tech = 1,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "4000",
-		damage = "16 x 3",
+		rarity = 4,
+		tech = 3,
+		descrip = "ハードポイントを増設し、ASVを装備したソードフィッシュ ",
+		value_2 = 25,
+		icon = "4200",
+		attribute_2 = "antisub",
 		nationality = 2,
-		ammo = 8,
+		ammo = 5,
 		value_3 = 0,
-		id = 4000,
+		id = 4240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				7,
-				1811
+				8,
+				53140
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			4000
+			4240
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2
+			6
 		},
 		part_sub = {
-			1,
-			2
+			6
 		},
 		equip_parameters = {},
 		label = {
-			"DC"
+			"ASA"
 		}
 	},
-	[4001] = {
-		id = 4001,
-		damage = "17 x 3",
-		base = 4000,
+	[4241] = {
+		id = 4241,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53141
+			}
+		},
 		weapon_id = {
-			4001
+			4241
+		}
+	},
+	[4242] = {
+		id = 4242,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53142
+			}
+		},
+		weapon_id = {
+			4242
+		}
+	},
+	[4243] = {
+		id = 4243,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53143
+			}
+		},
+		weapon_id = {
+			4243
+		}
+	},
+	[4244] = {
+		id = 4244,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53144
+			}
+		},
+		weapon_id = {
+			4244
+		}
+	},
+	[4245] = {
+		id = 4245,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53145
+			}
+		},
+		weapon_id = {
+			4245
+		}
+	},
+	[4246] = {
+		id = 4246,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53146
+			}
+		},
+		weapon_id = {
+			4246
+		}
+	},
+	[4247] = {
+		id = 4247,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53147
+			}
+		},
+		weapon_id = {
+			4247
+		}
+	},
+	[4248] = {
+		id = 4248,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53148
+			}
+		},
+		weapon_id = {
+			4248
+		}
+	},
+	[4249] = {
+		id = 4249,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53149
+			}
+		},
+		weapon_id = {
+			4249
+		}
+	},
+	[4250] = {
+		id = 4250,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53150
+			}
+		},
+		weapon_id = {
+			4250
+		}
+	},
+	[4251] = {
+		anti_siren = 100,
+		base = 4240,
+		id = 4251,
+		ammo_info = {
+			{
+				8,
+				53150
+			}
+		},
+		weapon_id = {
+			4251
+		}
+	},
+	[4300] = {
+		name = "TBM-3アベンジャー（対潜）",
+		type = 15,
+		speciality = "対潜",
+		rarity = 2,
+		tech = 1,
+		descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
+		value_2 = 5,
+		icon = "4300",
+		attribute_2 = "antisub",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 4300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				8,
+				53200
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			4300
+		},
+		skill_id = {},
+		part_main = {
+			6
+		},
+		part_sub = {
+			6
+		},
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
+	},
+	[4301] = {
+		id = 4301,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53201
+			}
+		},
+		weapon_id = {
+			4301
+		}
+	},
+	[4302] = {
+		id = 4302,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53202
+			}
+		},
+		weapon_id = {
+			4302
+		}
+	},
+	[4303] = {
+		id = 4303,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53203
+			}
+		},
+		weapon_id = {
+			4303
 		}
 	}
 }

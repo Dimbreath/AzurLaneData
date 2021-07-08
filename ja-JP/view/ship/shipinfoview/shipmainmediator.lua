@@ -285,11 +285,7 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 		return {}
 	end
 
-	if not slot1:getEquip(slot2) then
-		return {}
-	end
-
-	slot7 = _.map(getProxy(EquipmentProxy):getSkinsByType(slot3.config.type), function (slot0)
+	slot6 = _.map(getProxy(EquipmentProxy):getSkinsByTypes(slot1:getSkinTypes(slot2)), function (slot0)
 		return {
 			isSkin = true,
 			id = slot0.id,
@@ -297,7 +293,7 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 		}
 	end)
 
-	for slot11, slot12 in ipairs(_.map(getProxy(BayProxy):getEquipmentSkinInShips(slot1, slot3.config.type), function (slot0)
+	for slot10, slot11 in ipairs(_.map(getProxy(BayProxy):getEquipmentSkinInShips(slot1, slot1:getSkinTypes(slot2)), function (slot0)
 		return {
 			isSkin = true,
 			count = 1,
@@ -306,10 +302,10 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 			shipPos = slot0.shipPos
 		}
 	end) or {}) do
-		table.insert(slot7, slot12)
+		table.insert(slot6, slot11)
 	end
 
-	return slot7
+	return slot6
 end
 
 function slot0.nextPage(slot0, slot1, slot2)
@@ -364,8 +360,8 @@ function slot0.nextPage(slot0, slot1, slot2)
 			slot0:closeUpgrade()
 		elseif slot7 == ShipViewConst.PAGE.INTENSIFY and not slot0.intensifyContext then
 			slot0:closeIntensify()
-		elseif slot7 == ShipViewConst.PAGE.EQUIPMENT and slot0.contextData.isInEquipmentSkinPage and (not slot6:hasEquipEquipmentSkin() or not ShipStatus.ShipStatusCheck("onModify", slot6)) then
-			slot0.viewComponent:switch2EquipmentSkinPage()
+		elseif slot7 == ShipViewConst.PAGE.EQUIPMENT and slot0.contextData.isInEquipmentSkinPage and slot6:hasEquipEquipmentSkin() and not ShipStatus.ShipStatusCheck("onModify", slot6) then
+			-- Nothing
 		end
 
 		slot0.viewComponent:switchToPage(slot7, true)

@@ -2,110 +2,6 @@ pg = pg or {}
 pg.weapon_property_12 = {}
 
 function ()
-	uv0.weapon_property_12[13140] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联装203mm主炮改进型T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 28,
-		corrected = 105,
-		min_range = 0,
-		id = 13140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1053,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1402
-		},
-		barrage_ID = {
-			1204
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_12[13141] = {
-		id = 13141,
-		reload_max = 1032,
-		damage = 31,
-		base = 13140
-	}
-	uv0.weapon_property_12[13142] = {
-		id = 13142,
-		reload_max = 1011,
-		damage = 34,
-		base = 13140
-	}
-	uv0.weapon_property_12[13143] = {
-		id = 13143,
-		reload_max = 989,
-		damage = 36,
-		base = 13140
-	}
-	uv0.weapon_property_12[13144] = {
-		id = 13144,
-		reload_max = 969,
-		damage = 38,
-		base = 13140
-	}
-	uv0.weapon_property_12[13145] = {
-		id = 13145,
-		reload_max = 946,
-		damage = 40,
-		base = 13140
-	}
-	uv0.weapon_property_12[13146] = {
-		id = 13146,
-		reload_max = 926,
-		damage = 43,
-		base = 13140
-	}
-	uv0.weapon_property_12[13147] = {
-		id = 13147,
-		reload_max = 905,
-		damage = 46,
-		base = 13140
-	}
-	uv0.weapon_property_12[13148] = {
-		id = 13148,
-		reload_max = 883,
-		damage = 48,
-		base = 13140
-	}
-	uv0.weapon_property_12[13149] = {
-		id = 13149,
-		reload_max = 863,
-		damage = 50,
-		base = 13140
-	}
-	uv0.weapon_property_12[13150] = {
-		id = 13150,
-		reload_max = 841,
-		damage = 52,
-		base = 13140
-	}
 	uv0.weapon_property_12[13151] = {
 		reload_max = 841,
 		damage = 52,
@@ -661,5 +557,200 @@ function ()
 		base = 14180,
 		id = 14187,
 		corrected = 114
+	}
+	uv0.weapon_property_12[14200] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装406mm主炮MK5T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 48,
+		corrected = 110,
+		min_range = 50,
+		id = 14200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1500
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_12[14201] = {
+		id = 14201,
+		reload_max = 3840,
+		damage = 56,
+		base = 14200
+	}
+	uv0.weapon_property_12[14202] = {
+		id = 14202,
+		reload_max = 3780,
+		damage = 64,
+		base = 14200
+	}
+	uv0.weapon_property_12[14203] = {
+		id = 14203,
+		reload_max = 3720,
+		damage = 72,
+		base = 14200
+	}
+	uv0.weapon_property_12[14220] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装406mm主炮MK5T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 53,
+		corrected = 110,
+		min_range = 50,
+		id = 14220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3820,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1501
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_12[14221] = {
+		id = 14221,
+		reload_max = 3760,
+		damage = 62,
+		base = 14220
+	}
+	uv0.weapon_property_12[14222] = {
+		id = 14222,
+		reload_max = 3700,
+		damage = 70,
+		base = 14220
+	}
+	uv0.weapon_property_12[14223] = {
+		id = 14223,
+		reload_max = 3640,
+		damage = 79,
+		base = 14220
+	}
+	uv0.weapon_property_12[14224] = {
+		id = 14224,
+		reload_max = 3580,
+		damage = 88,
+		base = 14220
+	}
+	uv0.weapon_property_12[14225] = {
+		id = 14225,
+		reload_max = 3520,
+		damage = 97,
+		base = 14220
+	}
+	uv0.weapon_property_12[14226] = {
+		id = 14226,
+		reload_max = 3460,
+		damage = 106,
+		base = 14220
+	}
+	uv0.weapon_property_12[14240] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装406mm主炮MK5T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 58,
+		corrected = 110,
+		min_range = 50,
+		id = 14240,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3780,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1501
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
 	}
 end()

@@ -1,273 +1,193 @@
 pg = pg or {}
 pg.equip_data_statistics_69 = {
-	[4320] = {
-		name = "TBM-3アベンジャー（対潜）",
-		type = 15,
-		speciality = "対潜",
-		rarity = 3,
-		tech = 2,
-		descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
-		value_2 = 12,
-		icon = "4300",
-		attribute_2 = "antisub",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 4320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				8,
-				53220
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+	[5223] = {
+		id = 5223,
+		damage = "77 x 5",
+		base = 5220,
 		weapon_id = {
-			4320
-		},
-		skill_id = {},
-		part_main = {
-			6
-		},
-		part_sub = {
-			6
-		},
-		equip_parameters = {},
-		label = {
-			"ASA"
+			5223
 		}
 	},
-	[4321] = {
-		id = 4321,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53221
-			}
-		},
+	[5224] = {
+		id = 5224,
+		damage = "86 x 5",
+		base = 5220,
 		weapon_id = {
-			4321
+			5224
 		}
 	},
-	[4322] = {
-		id = 4322,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53222
-			}
-		},
+	[5225] = {
+		id = 5225,
+		damage = "95 x 5",
+		base = 5220,
 		weapon_id = {
-			4322
+			5225
 		}
 	},
-	[4323] = {
-		id = 4323,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53223
-			}
-		},
+	[5226] = {
+		id = 5226,
+		damage = "104 x 5",
+		base = 5220,
 		weapon_id = {
-			4323
+			5226
 		}
 	},
-	[4324] = {
-		id = 4324,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53224
-			}
-		},
+	[5227] = {
+		id = 5227,
+		damage = "113 x 5",
+		base = 5220,
 		weapon_id = {
-			4324
+			5227
 		}
 	},
-	[4325] = {
-		id = 4325,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53225
-			}
-		},
+	[5228] = {
+		id = 5228,
+		damage = "122 x 5",
+		base = 5220,
 		weapon_id = {
-			4325
+			5228
 		}
 	},
-	[4326] = {
-		id = 4326,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53226
-			}
-		},
+	[5229] = {
+		id = 5229,
+		damage = "131 x 5",
+		base = 5220,
 		weapon_id = {
-			4326
+			5229
 		}
 	},
-	[4340] = {
-		name = "TBM-3アベンジャー（対潜）",
-		type = 15,
-		speciality = "対潜",
-		rarity = 4,
+	[5230] = {
+		id = 5230,
+		damage = "140 x 5",
+		base = 5220,
+		weapon_id = {
+			5230
+		}
+	},
+	[5240] = {
+		name = "533mm五連装魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 3,
-		descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
-		value_2 = 25,
-		icon = "4300",
-		attribute_2 = "antisub",
-		nationality = 1,
+		descrip = "0",
+		value_2 = 45,
+		icon = "5200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "56 x 5",
+		nationality = 0,
 		ammo = 5,
 		value_3 = 0,
-		id = 4340,
+		id = 5240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				8,
-				53240
+				3,
+				1800
 			}
 		},
 		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			4340
+			5240
 		},
 		skill_id = {},
 		part_main = {
-			6
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			6
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"ASA"
+			"UN",
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[4341] = {
-		id = 4341,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53241
-			}
-		},
+	[5241] = {
+		id = 5241,
+		damage = "66 x 5",
+		base = 5240,
 		weapon_id = {
-			4341
+			5241
 		}
 	},
-	[4342] = {
-		id = 4342,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53242
-			}
-		},
+	[5242] = {
+		id = 5242,
+		damage = "76 x 5",
+		base = 5240,
 		weapon_id = {
-			4342
+			5242
 		}
 	},
-	[4343] = {
-		id = 4343,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53243
-			}
-		},
+	[5243] = {
+		id = 5243,
+		damage = "86 x 5",
+		base = 5240,
 		weapon_id = {
-			4343
+			5243
 		}
 	},
-	[4344] = {
-		id = 4344,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53244
-			}
-		},
+	[5244] = {
+		id = 5244,
+		damage = "96 x 5",
+		base = 5240,
 		weapon_id = {
-			4344
+			5244
 		}
 	},
-	[4345] = {
-		id = 4345,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53245
-			}
-		},
+	[5245] = {
+		id = 5245,
+		damage = "106 x 5",
+		base = 5240,
 		weapon_id = {
-			4345
+			5245
 		}
 	},
-	[4346] = {
-		id = 4346,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53246
-			}
-		},
+	[5246] = {
+		id = 5246,
+		damage = "116 x 5",
+		base = 5240,
 		weapon_id = {
-			4346
+			5246
 		}
 	},
-	[4347] = {
-		id = 4347,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53247
-			}
-		},
+	[5247] = {
+		id = 5247,
+		damage = "126 x 5",
+		base = 5240,
 		weapon_id = {
-			4347
+			5247
 		}
 	},
-	[4348] = {
-		id = 4348,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53248
-			}
-		},
+	[5248] = {
+		id = 5248,
+		damage = "136 x 5",
+		base = 5240,
 		weapon_id = {
-			4348
+			5248
 		}
 	}
 }

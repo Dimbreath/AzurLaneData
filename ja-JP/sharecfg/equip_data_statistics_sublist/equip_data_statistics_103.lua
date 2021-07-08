@@ -1,177 +1,295 @@
 pg = pg or {}
 pg.equip_data_statistics_103 = {
-	[14241] = {
-		id = 14241,
-		damage = "68 x 2",
-		base = 14240,
+	[14509] = {
+		id = 14509,
+		damage = "194 x 2",
+		base = 14500,
 		weapon_id = {
-			14241
+			14509
 		}
 	},
-	[14242] = {
-		id = 14242,
-		damage = "76 x 2",
-		base = 14240,
+	[14510] = {
+		id = 14510,
+		damage = "207 x 2",
+		base = 14500,
 		weapon_id = {
-			14242
+			14510
 		}
 	},
-	[14243] = {
-		id = 14243,
-		damage = "86 x 2",
-		base = 14240,
-		weapon_id = {
-			14243
-		}
-	},
-	[14244] = {
-		id = 14244,
-		damage = "96 x 2",
-		base = 14240,
-		weapon_id = {
-			14244
-		}
-	},
-	[14245] = {
-		id = 14245,
-		damage = "106 x 2",
-		base = 14240,
-		weapon_id = {
-			14245
-		}
-	},
-	[14246] = {
-		id = 14246,
-		damage = "116 x 2",
-		base = 14240,
-		weapon_id = {
-			14246
-		}
-	},
-	[14247] = {
-		id = 14247,
-		damage = "124 x 2",
-		base = 14240,
-		weapon_id = {
-			14247
-		}
-	},
-	[14248] = {
-		id = 14248,
-		damage = "134 x 2",
-		base = 14240,
-		weapon_id = {
-			14248
-		}
-	},
-	[14249] = {
-		id = 14249,
-		damage = "144 x 2",
-		base = 14240,
-		weapon_id = {
-			14249
-		}
-	},
-	[14250] = {
-		id = 14250,
-		damage = "154 x 2",
-		base = 14240,
-		weapon_id = {
-			14250
-		}
-	},
-	[14251] = {
+	[14511] = {
 		anti_siren = 100,
-		damage = "154 x 2",
-		base = 14240,
-		id = 14251,
+		damage = "207 x 2",
+		base = 14500,
+		id = 14511,
 		weapon_id = {
-			14251
+			14511
 		}
 	},
-	[14260] = {
-		name = "406mm連装砲Mk8",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
+	[14512] = {
+		anti_siren = 200,
+		damage = "207 x 2",
+		base = 14500,
+		id = 14512,
+		weapon_id = {
+			14512
+		}
+	},
+	[14513] = {
+		anti_siren = 300,
+		damage = "207 x 2",
+		base = 14500,
+		id = 14513,
+		weapon_id = {
+			14513
+		}
+	},
+	[15000] = {
+		name = "潜水艦用Mark14魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
-		icon = "14260",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "58 x 2",
+		value_2 = 5,
+		icon = "15000",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "42 x 3",
 		nationality = 1,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 14260,
+		id = 15000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1501
+				3,
+				1821
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1821
+			},
+			{
+				4,
+				1602
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			14260
+			15000
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"BB",
-			"MG",
-			"AP"
+			"SS",
+			"TP"
 		}
 	},
-	[14261] = {
-		id = 14261,
-		damage = "68 x 2",
-		base = 14260,
+	[15001] = {
+		id = 15001,
+		damage = "48 x 3",
+		base = 15000,
 		weapon_id = {
-			14261
+			15001
 		}
 	},
-	[14262] = {
-		id = 14262,
-		damage = "76 x 2",
-		base = 14260,
+	[15002] = {
+		id = 15002,
+		damage = "54 x 3",
+		base = 15000,
 		weapon_id = {
-			14262
+			15002
 		}
 	},
-	[14263] = {
-		id = 14263,
-		damage = "86 x 2",
-		base = 14260,
+	[15003] = {
+		id = 15003,
+		damage = "60 x 3",
+		base = 15000,
 		weapon_id = {
-			14263
+			15003
 		}
 	},
-	[14264] = {
-		id = 14264,
-		damage = "96 x 2",
-		base = 14260,
+	[15020] = {
+		name = "潜水艦用Mark14魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "15000",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "47 x 3",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1821
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1821
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			14264
+			15020
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
+	[15021] = {
+		id = 15021,
+		damage = "53 x 3",
+		base = 15020,
+		weapon_id = {
+			15021
+		}
+	},
+	[15022] = {
+		id = 15022,
+		damage = "60 x 3",
+		base = 15020,
+		weapon_id = {
+			15022
+		}
+	},
+	[15023] = {
+		id = 15023,
+		damage = "67 x 3",
+		base = 15020,
+		weapon_id = {
+			15023
+		}
+	},
+	[15024] = {
+		id = 15024,
+		damage = "74 x 3",
+		base = 15020,
+		weapon_id = {
+			15024
+		}
+	},
+	[15025] = {
+		id = 15025,
+		damage = "81 x 3",
+		base = 15020,
+		weapon_id = {
+			15025
+		}
+	},
+	[15026] = {
+		id = 15026,
+		damage = "88 x 3",
+		base = 15020,
+		weapon_id = {
+			15026
+		}
+	},
+	[15040] = {
+		name = "潜水艦用Mark14魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "15000",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "52 x 3",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1821
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1821
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15040
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
 		}
 	}
 }

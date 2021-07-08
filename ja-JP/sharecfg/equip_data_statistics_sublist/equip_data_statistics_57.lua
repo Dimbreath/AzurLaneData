@@ -1,63 +1,51 @@
 pg = pg or {}
 pg.equip_data_statistics_57 = {
-	[3104] = {
-		id = 3104,
-		value_1 = "27",
-		base = 3100
+	[3226] = {
+		id = 3226,
+		value_1 = "400",
+		base = 3220
 	},
-	[3105] = {
-		id = 3105,
-		value_1 = "30",
-		base = 3100
+	[3227] = {
+		id = 3227,
+		value_1 = "430",
+		base = 3220
 	},
-	[3106] = {
-		id = 3106,
-		value_1 = "33",
-		base = 3100
+	[3228] = {
+		id = 3228,
+		value_1 = "460",
+		base = 3220
 	},
-	[3107] = {
-		id = 3107,
-		value_1 = "36",
-		base = 3100
+	[3229] = {
+		id = 3229,
+		value_1 = "490",
+		base = 3220
 	},
-	[3108] = {
-		id = 3108,
-		value_1 = "39",
-		base = 3100
+	[3230] = {
+		id = 3230,
+		value_1 = "520",
+		base = 3220
 	},
-	[3109] = {
-		id = 3109,
-		value_1 = "42",
-		base = 3100
-	},
-	[3110] = {
-		id = 3110,
-		value_1 = "45",
-		base = 3100
-	},
-	[3111] = {
-		value_2 = 10,
+	[3231] = {
+		id = 3231,
 		anti_siren = 100,
-		base = 3100,
-		id = 3111,
-		value_1 = "45",
-		attribute_2 = "hit"
+		value_1 = "550",
+		base = 3220
 	},
-	[3120] = {
-		name = "改良型シュノーケル",
+	[3300] = {
+		name = "四神の印",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "oxy_max",
+		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3120",
-		value_1 = "34",
-		descrip = "潜望鏡深度でも空気交換を可能とする装置 ",
+		icon = "3300",
+		value_1 = "250",
+		descrip = "東煌の四神獣が刻印された玉器(ぎょくき)。東煌の神秘なる力が秘められている",
 		rarity = 5,
-		nationality = 4,
+		nationality = 5,
 		ammo = 10,
 		value_3 = 0,
-		id = 3120,
+		id = 3300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -66,54 +54,69 @@ pg.equip_data_statistics_57 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6480
+		},
 		part_main = {
-			8,
-			17
+			1
 		},
 		part_sub = {
-			8,
-			17
+			1
 		},
 		equip_parameters = {},
 		label = {
-			"KMS",
+			"PRAN",
 			"DEV"
 		}
 	},
-	[3121] = {
-		id = 3121,
-		value_1 = "39",
-		base = 3120
+	[3301] = {
+		id = 3301,
+		value_1 = "280",
+		base = 3300
 	},
-	[3122] = {
-		id = 3122,
-		value_1 = "44",
-		base = 3120
+	[3302] = {
+		id = 3302,
+		value_1 = "310",
+		base = 3300
 	},
-	[3123] = {
-		id = 3123,
-		value_1 = "49",
-		base = 3120
+	[3303] = {
+		id = 3303,
+		value_1 = "340",
+		base = 3300
 	},
-	[3124] = {
-		id = 3124,
-		value_1 = "54",
-		base = 3120
+	[3304] = {
+		id = 3304,
+		value_1 = "370",
+		base = 3300
 	},
-	[3125] = {
-		id = 3125,
-		value_1 = "59",
-		base = 3120
+	[3305] = {
+		id = 3305,
+		value_1 = "400",
+		base = 3300
 	},
-	[3126] = {
-		id = 3126,
-		value_1 = "64",
-		base = 3120
+	[3306] = {
+		id = 3306,
+		value_1 = "430",
+		base = 3300
 	},
-	[3127] = {
-		id = 3127,
-		value_1 = "69",
-		base = 3120
+	[3307] = {
+		id = 3307,
+		value_1 = "460",
+		base = 3300
+	},
+	[3308] = {
+		id = 3308,
+		value_1 = "490",
+		base = 3300
+	},
+	[3309] = {
+		id = 3309,
+		value_1 = "520",
+		base = 3300
+	},
+	[3310] = {
+		id = 3310,
+		value_1 = "550",
+		base = 3300
 	}
 }

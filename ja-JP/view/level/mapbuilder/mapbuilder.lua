@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)
 
 	slot0.sceneParent = slot2
-	slot0.map = slot1:Find("map")
+	slot0.map = slot1:Find("maps")
 	slot0.float = slot1:Find("float")
 	slot0.tweens = {}
 	slot0.mapWidth = 1920
@@ -46,10 +46,6 @@ end
 
 function slot0.OnLoaded(slot0)
 	slot0._tf:SetParent(slot0.float, false)
-end
-
-function slot0.OnInit(slot0)
-	slot0.map = slot0._parentTf:Find("map")
 end
 
 function slot0.Destroy(slot0)

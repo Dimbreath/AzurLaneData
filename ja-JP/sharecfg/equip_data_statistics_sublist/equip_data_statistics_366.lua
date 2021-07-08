@@ -1,376 +1,163 @@
 pg = pg or {}
 pg.equip_data_statistics_366 = {
-	[79482] = {
-		id = 79482,
-		name = "专属弹幕-能代II",
-		base = 79481,
-		weapon_id = {
-			60482
-		}
-	},
-	[79491] = {
-		name = "专属弹幕-黛朵I",
-		tech = 1,
+	[89120] = {
+		name = "あん肝",
+		tech = 0,
+		type = 10,
 		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
+		id = 89120,
+		value_2 = 3,
+		icon = "89120",
+		value_1 = "98",
+		attribute_2 = "speed",
+		rarity = 5,
+		descrip = "ホロライブ社内で自由に行動できるマスコット...動かないときはたまに地面に埋まったりする！？",
+		nationality = 105,
 		ammo = 10,
 		value_3 = 0,
-		id = 79491,
+		attribute_1 = "durability",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79491
+		equip_info = {
+			6
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
+		weapon_id = {},
+		skill_id = {
+			6520
 		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {}
-	},
-	[79492] = {
-		id = 79492,
-		name = "专属弹幕-黛朵II",
-		base = 79491,
-		weapon_id = {
-			79492
+		label = {
+			"DEV"
 		}
 	},
-	[79501] = {
-		name = "专属弹幕-塔什干I",
-		tech = 1,
+	[89121] = {
+		id = 89121,
+		value_1 = "112",
+		base = 89120
+	},
+	[89122] = {
+		id = 89122,
+		value_2 = 4,
+		value_1 = "127",
+		base = 89120
+	},
+	[89123] = {
+		id = 89123,
+		value_2 = 4,
+		value_1 = "142",
+		base = 89120
+	},
+	[89124] = {
+		id = 89124,
+		value_2 = 5,
+		value_1 = "156",
+		base = 89120
+	},
+	[89125] = {
+		id = 89125,
+		value_2 = 5,
+		value_1 = "171",
+		base = 89120
+	},
+	[89126] = {
+		id = 89126,
+		value_2 = 6,
+		value_1 = "186",
+		base = 89120
+	},
+	[89127] = {
+		id = 89127,
+		value_2 = 6,
+		value_1 = "200",
+		base = 89120
+	},
+	[89128] = {
+		id = 89128,
+		value_2 = 7,
+		value_1 = "215",
+		base = 89120
+	},
+	[89129] = {
+		id = 89129,
+		value_2 = 7,
+		value_1 = "230",
+		base = 89120
+	},
+	[89130] = {
+		id = 89130,
+		value_2 = 8,
+		value_1 = "245",
+		base = 89120
+	},
+	[89131] = {
+		id = 89131,
+		anti_siren = 100,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "260"
+	},
+	[89132] = {
+		id = 89132,
+		anti_siren = 200,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "275"
+	},
+	[89133] = {
+		id = 89133,
+		anti_siren = 300,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "290"
+	},
+	[89140] = {
+		name = "熱愛のフィリンエッター",
+		tech = 0,
+		type = 10,
 		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
+		id = 89140,
+		value_2 = 15,
+		icon = "89140",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "「私の歌は指揮官様、あなただけのため――」",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79501,
+		attribute_1 = "antiaircraft",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79501
+		equip_info = {
+			6
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
+		weapon_id = {},
+		skill_id = {
+			6710
 		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {}
-	},
-	[79502] = {
-		id = 79502,
-		name = "专属弹幕-塔什干II",
-		base = 79501,
-		weapon_id = {
-			79502
+		label = {
+			"DEV"
 		}
 	},
-	[79511] = {
-		name = "专属弹幕-恰巴耶夫I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79511,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79511
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
+	[89141] = {
+		id = 89141,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89140
 	},
-	[79512] = {
-		id = 79512,
-		name = "专属弹幕-恰巴耶夫II",
-		base = 79511,
-		weapon_id = {
-			79512
-		}
-	},
-	[79521] = {
-		name = "专属弹幕-里诺I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79521,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79521
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79522] = {
-		id = 79522,
-		name = "专属弹幕-里诺II",
-		base = 79521,
-		weapon_id = {
-			79522
-		}
-	},
-	[79541] = {
-		name = "专属弹幕-圣女贞德I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79541,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60501
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79542] = {
-		id = 79542,
-		name = "专属弹幕-圣女贞德II",
-		base = 79541,
-		weapon_id = {
-			60502
-		}
-	},
-	[79551] = {
-		name = "专属弹幕-柴郡I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		descrip = "スキル弾幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79551,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79551
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79552] = {
-		id = 79552,
-		name = "专属弹幕-柴郡II",
-		base = 79551,
-		weapon_id = {
-			79552
-		}
-	},
-	[79561] = {
-		name = "专属弹幕-德雷克I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		descrip = "スキル弾幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79561,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79561
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79562] = {
-		id = 79562,
-		name = "专属弹幕-德雷克II",
-		base = 79561,
-		weapon_id = {
-			79562
-		}
-	},
-	[79571] = {
-		name = "专属弹幕-美因茨I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		descrip = "スキル弾幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79571,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79571
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
+	[89142] = {
+		id = 89142,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89140
 	}
 }

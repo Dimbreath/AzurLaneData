@@ -1,185 +1,230 @@
 pg = pg or {}
 pg.equip_data_statistics_377 = {
-	[85381] = {
-		id = 85381,
-		damage = "36/回",
-		base = 85380,
-		weapon_id = {
-			85381
-		}
-	},
-	[85382] = {
-		id = 85382,
-		damage = "41/回",
-		base = 85380,
-		weapon_id = {
-			85382
-		}
-	},
-	[85383] = {
-		id = 85383,
-		damage = "45/回",
-		base = 85380,
-		weapon_id = {
-			85383
-		}
-	},
-	[85384] = {
-		id = 85384,
-		damage = "51/回",
-		base = 85380,
-		weapon_id = {
-			85384
-		}
-	},
-	[85385] = {
-		id = 85385,
-		damage = "57/回",
-		base = 85380,
-		weapon_id = {
-			85385
-		}
-	},
-	[85386] = {
-		id = 85386,
-		damage = "64/回",
-		base = 85380,
-		weapon_id = {
-			85386
-		}
-	},
-	[85400] = {
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
+	[90340] = {
+		name = "330mm四連装砲Mle1931",
+		speciality = "投射",
+		type = 4,
 		tech = 3,
-		descrip = "0",
+		descrip = "说明未填写",
 		value_2 = 25,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
+		icon = "50300",
+		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "38/回",
-		nationality = 7,
-		ammo = 5,
+		damage = "41 x 4",
+		nationality = 8,
+		ammo = 1,
 		value_3 = 0,
-		id = 85400,
+		id = 90340,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1551
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85400
+			90340
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"ST",
-			"AA"
+			"FFNF",
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[85401] = {
-		id = 85401,
-		damage = "42/回",
-		base = 85400,
+	[90341] = {
+		id = 90341,
+		damage = "47 x 4",
+		base = 90340,
 		weapon_id = {
-			85401
+			90341
 		}
 	},
-	[85402] = {
-		id = 85402,
-		damage = "47/回",
-		base = 85400,
+	[90342] = {
+		id = 90342,
+		damage = "53 x 4",
+		base = 90340,
 		weapon_id = {
-			85402
+			90342
 		}
 	},
-	[85403] = {
-		id = 85403,
-		damage = "53/回",
-		base = 85400,
+	[90343] = {
+		id = 90343,
+		damage = "59 x 4",
+		base = 90340,
 		weapon_id = {
-			85403
+			90343
 		}
 	},
-	[85404] = {
-		id = 85404,
-		damage = "59/回",
-		base = 85400,
+	[90344] = {
+		id = 90344,
+		damage = "65 x 4",
+		base = 90340,
 		weapon_id = {
-			85404
+			90344
 		}
 	},
-	[85405] = {
-		id = 85405,
-		damage = "65/回",
-		base = 85400,
+	[90345] = {
+		id = 90345,
+		damage = "71 x 4",
+		base = 90340,
 		weapon_id = {
-			85405
+			90345
 		}
 	},
-	[85406] = {
-		id = 85406,
-		damage = "71/回",
-		base = 85400,
+	[90346] = {
+		id = 90346,
+		damage = "77 x 4",
+		base = 90340,
 		weapon_id = {
-			85406
+			90346
 		}
 	},
-	[85407] = {
-		id = 85407,
-		damage = "77/回",
-		base = 85400,
+	[90347] = {
+		id = 90347,
+		damage = "83 x 4",
+		base = 90340,
 		weapon_id = {
-			85407
+			90347
 		}
 	},
-	[85408] = {
-		id = 85408,
-		damage = "83/回",
-		base = 85400,
+	[90348] = {
+		id = 90348,
+		damage = "89 x 4",
+		base = 90340,
 		weapon_id = {
-			85408
+			90348
 		}
 	},
-	[85409] = {
-		id = 85409,
-		damage = "89/回",
-		base = 85400,
+	[90349] = {
+		id = 90349,
+		damage = "95 x 4",
+		base = 90340,
 		weapon_id = {
-			85409
+			90349
+		}
+	},
+	[90350] = {
+		id = 90350,
+		damage = "102 x 4",
+		base = 90340,
+		weapon_id = {
+			90350
+		}
+	},
+	[90351] = {
+		anti_siren = 100,
+		damage = "102 x 4",
+		base = 90340,
+		id = 90351,
+		weapon_id = {
+			90351
+		}
+	},
+	[90400] = {
+		name = "380mm四連装砲Mle1935",
+		speciality = "投射",
+		type = 4,
+		tech = 1,
+		descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
+		value_2 = 12,
+		icon = "50400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "40 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90400
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
+	},
+	[90401] = {
+		id = 90401,
+		damage = "46 x 4",
+		base = 90400,
+		weapon_id = {
+			90401
+		}
+	},
+	[90402] = {
+		id = 90402,
+		damage = "52 x 4",
+		base = 90400,
+		weapon_id = {
+			90402
+		}
+	},
+	[90403] = {
+		id = 90403,
+		damage = "58 x 4",
+		base = 90400,
+		weapon_id = {
+			90403
+		}
+	},
+	[90404] = {
+		id = 90404,
+		damage = "64 x 4",
+		base = 90400,
+		weapon_id = {
+			90404
 		}
 	}
 }

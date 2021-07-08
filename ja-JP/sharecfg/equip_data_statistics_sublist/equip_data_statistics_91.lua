@@ -1,178 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_91 = {
-	[11246] = {
-		id = 11246,
-		damage = "11 x 4",
-		base = 11240,
+	[13023] = {
+		id = 13023,
+		damage = "30 x 3",
+		base = 13020,
 		weapon_id = {
-			11246
+			13023
 		}
 	},
-	[11247] = {
-		id = 11247,
-		damage = "12 x 4",
-		base = 11240,
-		weapon_id = {
-			11247
-		}
-	},
-	[11248] = {
-		id = 11248,
-		damage = "13 x 4",
-		base = 11240,
-		weapon_id = {
-			11248
-		}
-	},
-	[11249] = {
-		id = 11249,
-		damage = "14 x 4",
-		base = 11240,
-		weapon_id = {
-			11249
-		}
-	},
-	[11250] = {
-		id = 11250,
-		damage = "15 x 4",
-		base = 11240,
-		weapon_id = {
-			11250
-		}
-	},
-	[11251] = {
-		anti_siren = 100,
-		damage = "15 x 4",
-		base = 11240,
-		id = 11251,
-		weapon_id = {
-			11251
-		}
-	},
-	[11252] = {
-		anti_siren = 200,
-		damage = "15 x 4",
-		base = 11240,
-		id = 11252,
-		weapon_id = {
-			11252
-		}
-	},
-	[11253] = {
-		anti_siren = 300,
-		damage = "15 x 4",
-		base = 11240,
-		id = 11253,
-		weapon_id = {
-			11253
-		}
-	},
-	[12000] = {
-		name = "152mm連装砲",
+	[13040] = {
+		name = "203mm三連装砲",
 		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		rarity = 1,
+		type = 3,
+		tech = 3,
 		descrip = "0",
-		value_2 = 0,
-		icon = "12000",
-		damage = "7 x 4",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12001] = {
-		id = 12001,
-		damage = "8 x 4",
-		base = 12000,
-		weapon_id = {
-			12001
-		}
-	},
-	[12002] = {
-		id = 12002,
-		damage = "9 x 4",
-		base = 12000,
-		weapon_id = {
-			12002
-		}
-	},
-	[12003] = {
-		id = 12003,
-		damage = "10 x 4",
-		base = 12000,
-		weapon_id = {
-			12003
-		}
-	},
-	[12020] = {
-		name = "152mm連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "12000",
+		value_2 = 12,
+		icon = "13000",
 		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "8 x 4",
+		rarity = 3,
+		damage = "26 x 3",
 		nationality = 1,
-		ammo = 3,
+		ammo = 2,
 		value_3 = 0,
-		id = 12020,
+		id = 13040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				1,
-				1001
+				1402
 			}
 		},
 		equip_info = {
@@ -180,11 +39,11 @@ pg.equip_data_statistics_91 = {
 			2,
 			{
 				3,
-				1001
+				1402
 			},
 			{
 				4,
-				1101
+				1204
 			},
 			6,
 			10,
@@ -192,44 +51,191 @@ pg.equip_data_statistics_91 = {
 			12
 		},
 		weapon_id = {
-			12020
+			13040
 		},
 		skill_id = {},
 		part_main = {
-			2
+			3,
+			18
 		},
-		part_sub = {
-			5
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"CL",
-			"MG"
+			"CA",
+			"MG",
+			"HE"
 		}
 	},
-	[12021] = {
-		id = 12021,
-		damage = "9 x 4",
-		base = 12020,
+	[13041] = {
+		id = 13041,
+		damage = "28 x 3",
+		base = 13040,
 		weapon_id = {
-			12021
+			13041
 		}
 	},
-	[12022] = {
-		id = 12022,
-		damage = "10 x 4",
-		base = 12020,
+	[13042] = {
+		id = 13042,
+		damage = "30 x 3",
+		base = 13040,
 		weapon_id = {
-			12022
+			13042
 		}
 	},
-	[12023] = {
-		id = 12023,
-		damage = "11 x 4",
-		base = 12020,
+	[13043] = {
+		id = 13043,
+		damage = "32 x 3",
+		base = 13040,
 		weapon_id = {
-			12023
+			13043
+		}
+	},
+	[13044] = {
+		id = 13044,
+		damage = "34 x 3",
+		base = 13040,
+		weapon_id = {
+			13044
+		}
+	},
+	[13045] = {
+		id = 13045,
+		damage = "36 x 3",
+		base = 13040,
+		weapon_id = {
+			13045
+		}
+	},
+	[13046] = {
+		id = 13046,
+		damage = "39 x 3",
+		base = 13040,
+		weapon_id = {
+			13046
+		}
+	},
+	[13047] = {
+		id = 13047,
+		damage = "39 x 3",
+		base = 13040,
+		weapon_id = {
+			13047
+		}
+	},
+	[13060] = {
+		name = "203mm三連装砲Mk13",
+		speciality = "追尾",
+		type = 3,
+		tech = 0,
+		descrip = "0",
+		value_2 = 12,
+		icon = "13060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "23 x 3",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 13060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1204
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			13060
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[13061] = {
+		id = 13061,
+		damage = "26 x 3",
+		base = 13060,
+		weapon_id = {
+			13061
+		}
+	},
+	[13062] = {
+		id = 13062,
+		damage = "29 x 3",
+		base = 13060,
+		weapon_id = {
+			13062
+		}
+	},
+	[13063] = {
+		id = 13063,
+		damage = "32 x 3",
+		base = 13060,
+		weapon_id = {
+			13063
+		}
+	},
+	[13064] = {
+		id = 13064,
+		damage = "36 x 3",
+		base = 13060,
+		weapon_id = {
+			13064
+		}
+	},
+	[13065] = {
+		id = 13065,
+		damage = "40 x 3",
+		base = 13060,
+		weapon_id = {
+			13065
+		}
+	},
+	[13066] = {
+		id = 13066,
+		damage = "44 x 3",
+		base = 13060,
+		weapon_id = {
+			13066
+		}
+	},
+	[13067] = {
+		id = 13067,
+		damage = "44 x 3",
+		base = 13060,
+		weapon_id = {
+			13067
 		}
 	}
 }

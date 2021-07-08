@@ -1,221 +1,295 @@
 pg = pg or {}
 pg.equip_data_statistics_169 = {
-	[24020] = {
-		name = "356mm四連装砲",
-		speciality = "投射",
-		type = 4,
+	[25050] = {
+		id = 25050,
+		damage = "172 x 5",
+		base = 25040,
+		weapon_id = {
+			25050
+		}
+	},
+	[25051] = {
+		anti_siren = 100,
+		damage = "172 x 5",
+		base = 25040,
+		id = 25051,
+		weapon_id = {
+			25051
+		}
+	},
+	[25052] = {
+		anti_siren = 200,
+		damage = "172 x 5",
+		base = 25040,
+		id = 25052,
+		weapon_id = {
+			25052
+		}
+	},
+	[25053] = {
+		anti_siren = 300,
+		damage = "172 x 5",
+		base = 25040,
+		id = 25053,
+		weapon_id = {
+			25053
+		}
+	},
+	[25100] = {
+		name = "潜水艦用MarkVIII魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "51 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25100
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25101] = {
+		id = 25101,
+		damage = "57 x 3",
+		base = 25100,
+		weapon_id = {
+			25101
+		}
+	},
+	[25102] = {
+		id = 25102,
+		damage = "65 x 3",
+		base = 25100,
+		weapon_id = {
+			25102
+		}
+	},
+	[25103] = {
+		id = 25103,
+		damage = "73 x 3",
+		base = 25100,
+		weapon_id = {
+			25103
+		}
+	},
+	[25120] = {
+		name = "潜水艦用MarkVIII魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 2,
 		descrip = "0",
-		value_2 = 25,
-		icon = "24000",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "44 x 4",
+		value_2 = 12,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "57 x 3",
 		nationality = 2,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 24020,
+		id = 25120,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1522
+				3,
+				1825
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			24020
+			25120
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG",
-			"HE"
+			"SS",
+			"TP"
 		}
 	},
-	[24021] = {
-		id = 24021,
-		damage = "50 x 4",
-		base = 24020,
+	[25121] = {
+		id = 25121,
+		damage = "65 x 3",
+		base = 25120,
 		weapon_id = {
-			24021
+			25121
 		}
 	},
-	[24022] = {
-		id = 24022,
-		damage = "55 x 4",
-		base = 24020,
+	[25122] = {
+		id = 25122,
+		damage = "73 x 3",
+		base = 25120,
 		weapon_id = {
-			24022
+			25122
 		}
 	},
-	[24023] = {
-		id = 24023,
-		damage = "61 x 4",
-		base = 24020,
+	[25123] = {
+		id = 25123,
+		damage = "81 x 3",
+		base = 25120,
 		weapon_id = {
-			24023
+			25123
 		}
 	},
-	[24024] = {
-		id = 24024,
-		damage = "66 x 4",
-		base = 24020,
+	[25124] = {
+		id = 25124,
+		damage = "90 x 3",
+		base = 25120,
 		weapon_id = {
-			24024
+			25124
 		}
 	},
-	[24025] = {
-		id = 24025,
-		damage = "72 x 4",
-		base = 24020,
+	[25125] = {
+		id = 25125,
+		damage = "99 x 3",
+		base = 25120,
 		weapon_id = {
-			24025
+			25125
 		}
 	},
-	[24026] = {
-		id = 24026,
-		damage = "77 x 4",
-		base = 24020,
+	[25126] = {
+		id = 25126,
+		damage = "108 x 3",
+		base = 25120,
 		weapon_id = {
-			24026
+			25126
 		}
 	},
-	[24027] = {
-		id = 24027,
-		damage = "83 x 4",
-		base = 24020,
-		weapon_id = {
-			24027
-		}
-	},
-	[24028] = {
-		id = 24028,
-		damage = "88 x 4",
-		base = 24020,
-		weapon_id = {
-			24028
-		}
-	},
-	[24029] = {
-		id = 24029,
-		damage = "94 x 4",
-		base = 24020,
-		weapon_id = {
-			24029
-		}
-	},
-	[24030] = {
-		id = 24030,
-		damage = "99 x 4",
-		base = 24020,
-		weapon_id = {
-			24030
-		}
-	},
-	[24040] = {
-		name = "356mm四連装砲",
-		speciality = "投射",
-		type = 4,
+	[25140] = {
+		name = "潜水艦用MarkVIII魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 3,
 		descrip = "0",
-		value_2 = 45,
-		icon = "24000",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "48 x 4",
+		value_2 = 25,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "64 x 3",
 		nationality = 2,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 24040,
+		id = 25140,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1522
+				3,
+				1829
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1829
+			},
+			{
+				4,
+				1602
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			24040
+			25140
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG",
-			"HE"
+			"SS",
+			"TP"
 		}
 	},
-	[24041] = {
-		id = 24041,
-		damage = "55 x 4",
-		base = 24040,
+	[25141] = {
+		id = 25141,
+		damage = "73 x 3",
+		base = 25140,
 		weapon_id = {
-			24041
-		}
-	},
-	[24042] = {
-		id = 24042,
-		damage = "60 x 4",
-		base = 24040,
-		weapon_id = {
-			24042
-		}
-	},
-	[24043] = {
-		id = 24043,
-		damage = "67 x 4",
-		base = 24040,
-		weapon_id = {
-			24043
-		}
-	},
-	[24044] = {
-		id = 24044,
-		damage = "72 x 4",
-		base = 24040,
-		weapon_id = {
-			24044
+			25141
 		}
 	}
 }

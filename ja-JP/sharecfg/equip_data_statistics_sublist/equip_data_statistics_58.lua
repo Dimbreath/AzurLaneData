@@ -1,59 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_58 = {
-	[3128] = {
-		id = 3128,
-		value_1 = "74",
-		base = 3120
-	},
-	[3129] = {
-		id = 3129,
-		value_1 = "79",
-		base = 3120
-	},
-	[3130] = {
-		id = 3130,
-		value_1 = "85",
-		base = 3120
-	},
-	[3131] = {
-		value_2 = 10,
+	[3311] = {
+		id = 3311,
 		anti_siren = 100,
-		base = 3120,
-		id = 3131,
-		value_1 = "85",
-		attribute_2 = "hit"
+		value_1 = "580",
+		base = 3300
 	},
-	[3132] = {
-		value_2 = 24,
+	[3312] = {
+		id = 3312,
 		anti_siren = 200,
-		base = 3120,
-		id = 3132,
-		value_1 = "85",
-		attribute_2 = "hit"
+		value_1 = "610",
+		base = 3300
 	},
-	[3133] = {
-		value_2 = 35,
+	[3313] = {
+		id = 3313,
 		anti_siren = 300,
-		base = 3120,
-		id = 3133,
-		value_1 = "85",
-		attribute_2 = "hit"
+		value_1 = "640",
+		base = 3300
 	},
-	[3140] = {
-		name = "改良型蓄電池群",
+	[3400] = {
+		name = "九四式四十糎砲(積載)",
 		tech = 0,
-		type = 10,
+		type = 18,
 		speciality = "なし",
-		attribute_1 = "dodge",
+		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3140",
-		value_1 = "2",
-		descrip = "改良された蓄電池群。潜水艦の性能向上に貢献する ",
+		icon = "3400",
+		value_1 = "450",
+		descrip = "「九四式四十糎砲」と呼ばれていた主砲兵装…？",
 		rarity = 5,
-		nationality = 4,
+		nationality = 3,
 		ammo = 10,
 		value_3 = 0,
-		id = 3140,
+		id = 3400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -63,67 +42,85 @@ pg.equip_data_statistics_58 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6290
+			6590
 		},
 		part_main = {
-			8,
-			17
+			19
 		},
 		part_sub = {
-			8,
-			17
+			19
 		},
-		equip_parameters = {
-			hunting_lv = 1
-		},
+		equip_parameters = {},
 		label = {
-			"KMS",
-			"DEV"
+			"GDS"
 		}
 	},
-	[3141] = {
-		id = 3141,
-		value_1 = "3",
-		base = 3140
+	[3401] = {
+		id = 3401,
+		value_1 = "480",
+		base = 3400
 	},
-	[3142] = {
-		id = 3142,
-		value_1 = "4",
-		base = 3140
+	[3402] = {
+		id = 3402,
+		value_1 = "510",
+		base = 3400
 	},
-	[3143] = {
-		id = 3143,
-		value_1 = "5",
-		base = 3140
+	[3403] = {
+		id = 3403,
+		value_1 = "540",
+		base = 3400
 	},
-	[3144] = {
-		id = 3144,
-		value_1 = "6",
-		base = 3140
+	[3404] = {
+		id = 3404,
+		value_1 = "570",
+		base = 3400
 	},
-	[3145] = {
-		id = 3145,
-		value_1 = "7",
-		base = 3140
+	[3405] = {
+		id = 3405,
+		value_1 = "600",
+		base = 3400
 	},
-	[3146] = {
-		id = 3146,
-		value_1 = "8",
-		base = 3140
+	[3406] = {
+		id = 3406,
+		value_1 = "630",
+		base = 3400
 	},
-	[3147] = {
-		id = 3147,
-		value_1 = "9",
-		base = 3140
+	[3407] = {
+		id = 3407,
+		value_1 = "660",
+		base = 3400
 	},
-	[3148] = {
-		id = 3148,
-		value_1 = "11",
-		base = 3140
+	[3408] = {
+		id = 3408,
+		value_1 = "690",
+		base = 3400
 	},
-	[3149] = {
-		id = 3149,
-		value_1 = "13",
-		base = 3140
+	[3409] = {
+		id = 3409,
+		value_1 = "720",
+		base = 3400
+	},
+	[3410] = {
+		id = 3410,
+		value_1 = "750",
+		base = 3400
+	},
+	[3411] = {
+		id = 3411,
+		anti_siren = 100,
+		value_1 = "780",
+		base = 3400
+	},
+	[3412] = {
+		id = 3412,
+		anti_siren = 200,
+		value_1 = "810",
+		base = 3400
+	},
+	[3413] = {
+		id = 3413,
+		anti_siren = 300,
+		value_1 = "840",
+		base = 3400
 	}
 }

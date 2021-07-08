@@ -1,21 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_33 = {
-	[1420] = {
-		name = "油圧カタパルト",
+	[1520] = {
+		name = "SGレーダー",
 		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 1420,
-		value_2 = 20,
-		icon = "1400",
-		value_1 = "28",
-		attribute_2 = "durability",
+		id = 1520,
+		value_2 = 4,
+		icon = "1500",
+		value_1 = "9",
+		attribute_2 = "dodge",
 		rarity = 4,
-		descrip = "発艦用カタパルト。航空を上げることができる",
-		nationality = 0,
+		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -24,98 +24,124 @@ pg.equip_data_statistics_33 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6050
+		},
 		part_main = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		part_sub = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
-		equip_parameters = {},
+		equip_parameters = {
+			avoid_extra = 800,
+			ambush_extra = 800
+		},
 		label = {
-			"DEV"
+			"USS",
+			"DEV",
+			"SG"
 		}
 	},
-	[1421] = {
-		id = 1421,
-		value_2 = 24,
-		value_1 = "32",
-		base = 1420
+	[1521] = {
+		id = 1521,
+		value_1 = "11",
+		base = 1520
 	},
-	[1422] = {
-		id = 1422,
-		value_2 = 28,
-		value_1 = "36",
-		base = 1420
+	[1522] = {
+		id = 1522,
+		value_2 = 5,
+		value_1 = "12",
+		base = 1520
 	},
-	[1423] = {
-		id = 1423,
-		value_2 = 32,
-		value_1 = "40",
-		base = 1420
+	[1523] = {
+		id = 1523,
+		value_2 = 6,
+		value_1 = "14",
+		base = 1520
 	},
-	[1424] = {
-		id = 1424,
-		value_2 = 36,
-		value_1 = "44",
-		base = 1420
+	[1524] = {
+		id = 1524,
+		value_2 = 6,
+		value_1 = "15",
+		base = 1520
 	},
-	[1425] = {
-		id = 1425,
-		value_2 = 40,
-		value_1 = "49",
-		base = 1420
+	[1525] = {
+		id = 1525,
+		value_2 = 7,
+		value_1 = "17",
+		base = 1520
 	},
-	[1426] = {
-		id = 1426,
-		value_2 = 44,
-		value_1 = "53",
-		base = 1420
+	[1526] = {
+		id = 1526,
+		value_2 = 7,
+		value_1 = "18",
+		base = 1520
 	},
-	[1427] = {
-		id = 1427,
-		value_2 = 48,
-		value_1 = "57",
-		base = 1420
+	[1527] = {
+		id = 1527,
+		value_2 = 8,
+		value_1 = "20",
+		base = 1520
 	},
-	[1428] = {
-		id = 1428,
-		value_2 = 52,
-		value_1 = "61",
-		base = 1420
+	[1528] = {
+		id = 1528,
+		value_2 = 9,
+		value_1 = "21",
+		base = 1520
 	},
-	[1429] = {
-		id = 1429,
-		value_2 = 56,
-		value_1 = "65",
-		base = 1420
+	[1529] = {
+		id = 1529,
+		value_2 = 9,
+		value_1 = "23",
+		base = 1520
 	},
-	[1430] = {
-		id = 1430,
-		value_2 = 60,
-		value_1 = "70",
-		base = 1420
+	[1530] = {
+		id = 1530,
+		value_2 = 10,
+		value_1 = "24",
+		base = 1520
 	},
-	[1440] = {
-		name = "油圧カタパルト",
+	[1540] = {
+		name = "SGレーダー",
 		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 1440,
-		value_2 = 25,
-		icon = "1400",
-		value_1 = "40",
-		attribute_2 = "durability",
+		id = 1540,
+		value_2 = 6,
+		icon = "1500",
+		value_1 = "14",
+		attribute_2 = "dodge",
 		rarity = 5,
-		descrip = "発艦用カタパルト。航空を上げることができる",
-		nationality = 0,
+		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -124,44 +150,76 @@ pg.equip_data_statistics_33 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6060
+		},
 		part_main = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		part_sub = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
-		equip_parameters = {},
+		equip_parameters = {
+			avoid_extra = 1200,
+			ambush_extra = 1200
+		},
 		label = {
-			"DEV"
+			"USS",
+			"DEV",
+			"SG"
 		}
 	},
-	[1441] = {
-		id = 1441,
-		value_2 = 30,
-		value_1 = "46",
-		base = 1440
+	[1541] = {
+		id = 1541,
+		value_1 = "16",
+		base = 1540
 	},
-	[1442] = {
-		id = 1442,
-		value_2 = 35,
-		value_1 = "52",
-		base = 1440
+	[1542] = {
+		id = 1542,
+		value_2 = 7,
+		value_1 = "18",
+		base = 1540
 	},
-	[1443] = {
-		id = 1443,
-		value_2 = 40,
-		value_1 = "58",
-		base = 1440
+	[1543] = {
+		id = 1543,
+		value_2 = 8,
+		value_1 = "20",
+		base = 1540
 	},
-	[1444] = {
-		id = 1444,
-		value_2 = 45,
-		value_1 = "64",
-		base = 1440
+	[1544] = {
+		id = 1544,
+		value_2 = 9,
+		value_1 = "22",
+		base = 1540
+	},
+	[1545] = {
+		id = 1545,
+		value_2 = 10,
+		value_1 = "24",
+		base = 1540
 	}
 }

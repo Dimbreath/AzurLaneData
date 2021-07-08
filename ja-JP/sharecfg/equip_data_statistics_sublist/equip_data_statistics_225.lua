@@ -1,200 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_225 = {
-	[31224] = {
-		id = 31224,
-		damage = "7 x 4",
-		base = 31220,
-		weapon_id = {
-			31224
-		}
-	},
-	[31225] = {
-		id = 31225,
-		damage = "7 x 4",
-		base = 31220,
-		weapon_id = {
-			31225
-		}
-	},
-	[31226] = {
-		id = 31226,
-		damage = "8 x 4",
-		base = 31220,
-		weapon_id = {
-			31226
-		}
-	},
-	[31240] = {
-		name = "127mm連装砲",
-		speciality = "追尾",
-		type = 1,
-		tech = 3,
+	[34100] = {
+		name = "410mm連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
-		icon = "31200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 31240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1206
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1206
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			31240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG",
-			"HE"
-		}
-	},
-	[31241] = {
-		id = 31241,
-		base = 31240,
-		weapon_id = {
-			31241
-		}
-	},
-	[31242] = {
-		id = 31242,
-		damage = "5 x 4",
-		base = 31240,
-		weapon_id = {
-			31242
-		}
-	},
-	[31243] = {
-		id = 31243,
-		damage = "5 x 4",
-		base = 31240,
-		weapon_id = {
-			31243
-		}
-	},
-	[31244] = {
-		id = 31244,
-		damage = "8 x 4",
-		base = 31240,
-		weapon_id = {
-			31244
-		}
-	},
-	[31245] = {
-		id = 31245,
-		damage = "8 x 4",
-		base = 31240,
-		weapon_id = {
-			31245
-		}
-	},
-	[31246] = {
-		id = 31246,
-		damage = "9 x 4",
-		base = 31240,
-		weapon_id = {
-			31246
-		}
-	},
-	[31247] = {
-		id = 31247,
-		damage = "10 x 4",
-		base = 31240,
-		weapon_id = {
-			31247
-		}
-	},
-	[31248] = {
-		id = 31248,
-		damage = "10 x 4",
-		base = 31240,
-		weapon_id = {
-			31248
-		}
-	},
-	[31249] = {
-		id = 31249,
-		damage = "11 x 4",
-		base = 31240,
-		weapon_id = {
-			31249
-		}
-	},
-	[31250] = {
-		id = 31250,
-		damage = "12 x 4",
-		base = 31240,
-		weapon_id = {
-			31250
-		}
-	},
-	[31251] = {
-		anti_siren = 100,
-		damage = "12 x 4",
-		base = 31240,
-		id = 31251,
-		weapon_id = {
-			31251
-		}
-	},
-	[31260] = {
-		name = "127mm両用砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
 		value_2 = 5,
-		icon = "31260",
+		icon = "34100",
 		attribute_2 = "cannon",
-		descrip = "0",
-		rarity = 3,
-		damage = "3 x 2",
+		rarity = 2,
+		damage = "48 x 2",
 		nationality = 3,
 		ammo = 3,
-		value_3 = 7,
-		id = 31260,
+		value_3 = 0,
+		id = 34100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -202,48 +22,252 @@ pg.equip_data_statistics_225 = {
 		},
 		ammo_info = {
 			{
-				1,
-				1200
+				2,
+				1500
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1200
-			},
-			{
-				4,
-				1007
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			31260
+			34100
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"DD",
+			"BB",
 			"MG"
+		}
+	},
+	[34101] = {
+		id = 34101,
+		damage = "56 x 2",
+		base = 34100,
+		weapon_id = {
+			34101
+		}
+	},
+	[34102] = {
+		id = 34102,
+		damage = "64 x 2",
+		base = 34100,
+		weapon_id = {
+			34102
+		}
+	},
+	[34103] = {
+		id = 34103,
+		damage = "72 x 2",
+		base = 34100,
+		weapon_id = {
+			34103
+		}
+	},
+	[34120] = {
+		name = "410mm連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "34100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "53 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34120
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[34121] = {
+		id = 34121,
+		damage = "62 x 2",
+		base = 34120,
+		weapon_id = {
+			34121
+		}
+	},
+	[34122] = {
+		id = 34122,
+		damage = "70 x 2",
+		base = 34120,
+		weapon_id = {
+			34122
+		}
+	},
+	[34123] = {
+		id = 34123,
+		damage = "79 x 2",
+		base = 34120,
+		weapon_id = {
+			34123
+		}
+	},
+	[34124] = {
+		id = 34124,
+		damage = "88 x 2",
+		base = 34120,
+		weapon_id = {
+			34124
+		}
+	},
+	[34125] = {
+		id = 34125,
+		damage = "97 x 2",
+		base = 34120,
+		weapon_id = {
+			34125
+		}
+	},
+	[34126] = {
+		id = 34126,
+		damage = "106 x 2",
+		base = 34120,
+		weapon_id = {
+			34126
+		}
+	},
+	[34140] = {
+		name = "410mm連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "34100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34140
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[34141] = {
+		id = 34141,
+		damage = "68 x 2",
+		base = 34140,
+		weapon_id = {
+			34141
+		}
+	},
+	[34142] = {
+		id = 34142,
+		damage = "76 x 2",
+		base = 34140,
+		weapon_id = {
+			34142
+		}
+	},
+	[34143] = {
+		id = 34143,
+		damage = "86 x 2",
+		base = 34140,
+		weapon_id = {
+			34143
+		}
+	},
+	[34144] = {
+		id = 34144,
+		damage = "96 x 2",
+		base = 34140,
+		weapon_id = {
+			34144
+		}
+	},
+	[34145] = {
+		id = 34145,
+		damage = "106 x 2",
+		base = 34140,
+		weapon_id = {
+			34145
 		}
 	}
 }

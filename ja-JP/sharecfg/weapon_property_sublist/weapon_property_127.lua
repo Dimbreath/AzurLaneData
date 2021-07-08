@@ -2,43 +2,739 @@ pg = pg or {}
 pg.weapon_property_127 = {}
 
 function ()
-	uv0.weapon_property_127[66140] = {
+	uv0.weapon_property_127[65809] = {
+		name = "水星纪念改造技能弹幕Lv9",
+		damage = 33,
+		base = 65801,
+		id = 65809,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_127[65810] = {
+		name = "水星纪念改造技能弹幕Lv10",
+		damage = 35,
+		base = 65801,
+		id = 65810,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_127[65811] = {
 		action_index = "attack",
-		range = 50,
+		range = 60,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "基洛夫技能-无易伤点燃效果Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 22,
+		corrected = 118,
+		min_range = 0,
+		id = 65811,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19272
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_127[65812] = {
+		id = 65812,
+		name = "基洛夫技能-无易伤点燃效果Lv2",
+		damage = 29,
+		base = 65811
+	}
+	uv0.weapon_property_127[65813] = {
+		id = 65813,
+		name = "基洛夫技能-无易伤点燃效果Lv3",
+		damage = 36,
+		base = 65811
+	}
+	uv0.weapon_property_127[65814] = {
+		id = 65814,
+		name = "基洛夫技能-无易伤点燃效果Lv4",
+		damage = 43,
+		base = 65811
+	}
+	uv0.weapon_property_127[65815] = {
+		id = 65815,
+		name = "基洛夫技能-无易伤点燃效果Lv5",
+		damage = 50,
+		base = 65811
+	}
+	uv0.weapon_property_127[65816] = {
+		id = 65816,
+		name = "基洛夫技能-无易伤点燃效果Lv6",
+		damage = 57,
+		base = 65811
+	}
+	uv0.weapon_property_127[65817] = {
+		id = 65817,
+		name = "基洛夫技能-无易伤点燃效果Lv7",
+		damage = 64,
+		base = 65811
+	}
+	uv0.weapon_property_127[65818] = {
+		id = 65818,
+		name = "基洛夫技能-无易伤点燃效果Lv8",
+		damage = 71,
+		base = 65811
+	}
+	uv0.weapon_property_127[65819] = {
+		id = 65819,
+		name = "基洛夫技能-无易伤点燃效果Lv9",
+		damage = 78,
+		base = 65811
+	}
+	uv0.weapon_property_127[65820] = {
+		id = 65820,
+		name = "基洛夫技能-无易伤点燃效果Lv10",
+		damage = 85,
+		base = 65811
+	}
+	uv0.weapon_property_127[65821] = {
+		action_index = "attack",
+		range = 150,
 		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "黑方舟技能-红蓝枪焰-枪Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 65821,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19278
+		},
+		barrage_ID = {
+			81045
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_127[65822] = {
+		id = 65822,
+		name = "黑方舟技能-红蓝枪焰-枪Lv2",
+		damage = 7,
+		base = 65821
+	}
+	uv0.weapon_property_127[65823] = {
+		id = 65823,
+		name = "黑方舟技能-红蓝枪焰-枪Lv3",
+		damage = 8,
+		base = 65821
+	}
+	uv0.weapon_property_127[65824] = {
+		id = 65824,
+		name = "黑方舟技能-红蓝枪焰-枪Lv4",
+		damage = 9,
+		base = 65821
+	}
+	uv0.weapon_property_127[65825] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv5",
+		damage = 10,
+		base = 65821,
+		id = 65825,
+		barrage_ID = {
+			81046
+		}
+	}
+	uv0.weapon_property_127[65826] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv6",
+		damage = 11,
+		base = 65821,
+		id = 65826,
+		barrage_ID = {
+			81046
+		}
+	}
+	uv0.weapon_property_127[65827] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv7",
+		damage = 12,
+		base = 65821,
+		id = 65827,
+		barrage_ID = {
+			81046
+		}
+	}
+	uv0.weapon_property_127[65828] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv8",
+		damage = 13,
+		base = 65821,
+		id = 65828,
+		barrage_ID = {
+			81046
+		}
+	}
+	uv0.weapon_property_127[65829] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv9",
+		damage = 14,
+		base = 65821,
+		id = 65829,
+		bullet_ID = {
+			19278,
+			19278
+		},
+		barrage_ID = {
+			81045,
+			81046
+		}
+	}
+	uv0.weapon_property_127[65830] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv10",
+		damage = 15,
+		base = 65821,
+		id = 65830,
+		bullet_ID = {
+			19278,
+			19278
+		},
+		barrage_ID = {
+			81045,
+			81046
+		}
+	}
+	uv0.weapon_property_127[65831] = {
+		action_index = "attack",
+		range = 200,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "黑方舟技能-虚影强袭Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 65831,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19275,
+			19276
+		},
+		barrage_ID = {
+			81042,
+			81043
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_127[65832] = {
+		id = 65832,
+		name = "黑方舟技能-虚影强袭Lv2",
+		damage = 29,
+		base = 65831
+	}
+	uv0.weapon_property_127[65833] = {
+		id = 65833,
+		name = "黑方舟技能-虚影强袭Lv3",
+		damage = 36,
+		base = 65831
+	}
+	uv0.weapon_property_127[65834] = {
+		id = 65834,
+		name = "黑方舟技能-虚影强袭Lv4",
+		damage = 43,
+		base = 65831
+	}
+	uv0.weapon_property_127[65835] = {
+		id = 65835,
+		name = "黑方舟技能-虚影强袭Lv5",
+		damage = 50,
+		base = 65831
+	}
+	uv0.weapon_property_127[65836] = {
+		id = 65836,
+		name = "黑方舟技能-虚影强袭Lv6",
+		damage = 57,
+		base = 65831
+	}
+	uv0.weapon_property_127[65837] = {
+		id = 65837,
+		name = "黑方舟技能-虚影强袭Lv7",
+		damage = 64,
+		base = 65831
+	}
+	uv0.weapon_property_127[65838] = {
+		id = 65838,
+		name = "黑方舟技能-虚影强袭Lv8",
+		damage = 71,
+		base = 65831
+	}
+	uv0.weapon_property_127[65839] = {
+		id = 65839,
+		name = "黑方舟技能-虚影强袭Lv9",
+		damage = 78,
+		base = 65831
+	}
+	uv0.weapon_property_127[65840] = {
+		id = 65840,
+		name = "黑方舟技能-虚影强袭Lv10",
+		damage = 85,
+		base = 65831
+	}
+	uv0.weapon_property_127[65841] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "黑方舟技能-特殊鱼雷机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 65841,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65841
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_127[65842] = {
+		id = 65842,
+		name = "黑方舟技能-特殊鱼雷机Lv2",
+		base = 65841,
+		bullet_ID = {
+			65842
+		}
+	}
+	uv0.weapon_property_127[65843] = {
+		id = 65843,
+		name = "黑方舟技能-特殊鱼雷机Lv3",
+		base = 65841,
+		bullet_ID = {
+			65843
+		}
+	}
+	uv0.weapon_property_127[65844] = {
+		id = 65844,
+		name = "黑方舟技能-特殊鱼雷机Lv4",
+		base = 65841,
+		bullet_ID = {
+			65844
+		}
+	}
+	uv0.weapon_property_127[65845] = {
+		id = 65845,
+		name = "黑方舟技能-特殊鱼雷机Lv5",
+		base = 65841,
+		bullet_ID = {
+			65845
+		}
+	}
+	uv0.weapon_property_127[65846] = {
+		id = 65846,
+		name = "黑方舟技能-特殊鱼雷机Lv6",
+		base = 65841,
+		bullet_ID = {
+			65846
+		}
+	}
+	uv0.weapon_property_127[65847] = {
+		id = 65847,
+		name = "黑方舟技能-特殊鱼雷机Lv7",
+		base = 65841,
+		bullet_ID = {
+			65847
+		}
+	}
+	uv0.weapon_property_127[65848] = {
+		id = 65848,
+		name = "黑方舟技能-特殊鱼雷机Lv8",
+		base = 65841,
+		bullet_ID = {
+			65848
+		}
+	}
+	uv0.weapon_property_127[65849] = {
+		id = 65849,
+		name = "黑方舟技能-特殊鱼雷机Lv9",
+		base = 65841,
+		bullet_ID = {
+			65849
+		}
+	}
+	uv0.weapon_property_127[65850] = {
+		id = 65850,
+		name = "黑方舟技能-特殊鱼雷机Lv10",
+		base = 65841,
+		bullet_ID = {
+			65850
+		}
+	}
+	uv0.weapon_property_127[65851] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "机载鱼雷 – 特殊 3-5枚",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 0,
+		id = 65851,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19277
+		},
+		barrage_ID = {
+			2142
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_127[65852] = {
+		id = 65852,
+		damage = 74,
+		base = 65851,
+		barrage_ID = {
+			2142
+		}
+	}
+	uv0.weapon_property_127[65853] = {
+		id = 65853,
+		damage = 86,
+		base = 65851,
+		barrage_ID = {
+			2142
+		}
+	}
+	uv0.weapon_property_127[65854] = {
+		id = 65854,
+		damage = 98,
+		base = 65851,
+		barrage_ID = {
+			2143
+		}
+	}
+	uv0.weapon_property_127[65855] = {
+		id = 65855,
+		damage = 110,
+		base = 65851,
+		barrage_ID = {
+			2143
+		}
+	}
+	uv0.weapon_property_127[65856] = {
+		id = 65856,
+		damage = 122,
+		base = 65851,
+		barrage_ID = {
+			2143
+		}
+	}
+	uv0.weapon_property_127[65857] = {
+		id = 65857,
+		damage = 134,
+		base = 65851,
+		barrage_ID = {
+			81044
+		}
+	}
+	uv0.weapon_property_127[65858] = {
+		id = 65858,
+		damage = 146,
+		base = 65851,
+		barrage_ID = {
+			81044
+		}
+	}
+	uv0.weapon_property_127[65859] = {
+		id = 65859,
+		damage = 158,
+		base = 65851,
+		barrage_ID = {
+			81044
+		}
+	}
+	uv0.weapon_property_127[65860] = {
+		id = 65860,
+		damage = 174,
+		base = 65851,
+		barrage_ID = {
+			81044
+		}
+	}
+	uv0.weapon_property_127[65861] = {
+		action_index = "attack",
+		range = 30,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 65,
+		corrected = 100,
+		min_range = 0,
+		id = 65861,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 156,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_127[65862] = {
+		id = 65862,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv2",
+		damage = 73,
+		base = 65861
+	}
+	uv0.weapon_property_127[65863] = {
+		id = 65863,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv3",
+		damage = 81,
+		base = 65861
+	}
+	uv0.weapon_property_127[65864] = {
+		id = 65864,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv4",
+		damage = 90,
+		base = 65861
+	}
+	uv0.weapon_property_127[65865] = {
+		id = 65865,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv5",
+		damage = 98,
+		base = 65861
+	}
+	uv0.weapon_property_127[65866] = {
+		id = 65866,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv6",
+		damage = 106,
+		base = 65861
+	}
+	uv0.weapon_property_127[65867] = {
+		id = 65867,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv7",
+		damage = 115,
+		base = 65861
+	}
+	uv0.weapon_property_127[65868] = {
+		id = 65868,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv8",
+		damage = 123,
+		base = 65861
+	}
+	uv0.weapon_property_127[65869] = {
+		id = 65869,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv9",
+		damage = 132,
+		base = 65861
+	}
+	uv0.weapon_property_127[65870] = {
+		id = 65870,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv10",
+		damage = 142,
+		base = 65861
+	}
+	uv0.weapon_property_127[65871] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "BigSeven技能LV0",
+		name = "艾伦萨姆纳技能弹幕Lv1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 32,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 66140,
+		id = 65871,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 500,
+		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19929,
-			19929
+			19279,
+			19279,
+			19279
 		},
 		barrage_ID = {
-			199791,
-			199781
+			81047,
+			81048,
+			81049
 		},
 		oxy_type = {
 			1
@@ -47,619 +743,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_127[66141] = {
-		id = 66141,
-		name = "BigSeven技能LV1",
-		damage = 44,
-		base = 66140
-	}
-	uv0.weapon_property_127[66142] = {
-		id = 66142,
-		name = "BigSeven技能LV2",
-		damage = 56,
-		base = 66140
-	}
-	uv0.weapon_property_127[66143] = {
-		id = 66143,
-		name = "BigSeven技能LV3",
-		damage = 68,
-		base = 66140
-	}
-	uv0.weapon_property_127[66144] = {
-		name = "BigSeven技能LV4",
-		damage = 80,
-		base = 66140,
-		id = 66144,
-		barrage_ID = {
-			199792,
-			199782
-		}
-	}
-	uv0.weapon_property_127[66145] = {
-		name = "BigSeven技能LV5",
-		damage = 92,
-		base = 66140,
-		id = 66145,
-		barrage_ID = {
-			199792,
-			199782
-		}
-	}
-	uv0.weapon_property_127[66146] = {
-		name = "BigSeven技能LV6",
-		damage = 104,
-		base = 66140,
-		id = 66146,
-		barrage_ID = {
-			199792,
-			199782
-		}
-	}
-	uv0.weapon_property_127[66147] = {
-		name = "BigSeven技能LV7",
-		damage = 116,
-		base = 66140,
-		id = 66147,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_127[66148] = {
-		name = "BigSeven技能LV8",
-		damage = 128,
-		base = 66140,
-		id = 66148,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_127[66149] = {
-		name = "BigSeven技能LV9",
-		damage = 140,
-		base = 66140,
-		id = 66149,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_127[66150] = {
-		name = "BigSeven技能LV10",
-		damage = 156,
-		base = 66140,
-		id = 66150,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_127[66160] = {
-		action_index = "",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "吸血鬼技能三发鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 55,
-		corrected = 100,
-		min_range = 0,
-		id = 66160,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1802
-		},
-		barrage_ID = {
-			19969
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_127[66161] = {
-		id = 66161,
-		damage = 62,
-		base = 66160
-	}
-	uv0.weapon_property_127[66162] = {
-		id = 66162,
-		damage = 70,
-		base = 66160
-	}
-	uv0.weapon_property_127[66163] = {
-		id = 66163,
-		damage = 77,
-		base = 66160
-	}
-	uv0.weapon_property_127[66164] = {
-		id = 66164,
-		damage = 85,
-		base = 66160
-	}
-	uv0.weapon_property_127[66165] = {
-		id = 66165,
-		damage = 92,
-		base = 66160
-	}
-	uv0.weapon_property_127[66166] = {
-		id = 66166,
-		damage = 100,
-		base = 66160
-	}
-	uv0.weapon_property_127[66167] = {
-		id = 66167,
-		damage = 107,
-		base = 66160
-	}
-	uv0.weapon_property_127[66168] = {
-		id = 66168,
-		damage = 115,
-		base = 66160
-	}
-	uv0.weapon_property_127[66169] = {
-		id = 66169,
-		damage = 122,
-		base = 66160
-	}
-	uv0.weapon_property_127[66170] = {
-		id = 66170,
-		damage = 130,
-		base = 66160
-	}
-	uv0.weapon_property_127[66180] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "沙恩霍斯特技能Lv0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 37,
-		corrected = 110,
-		min_range = 35,
-		id = 66180,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19983
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_127[66181] = {
-		id = 66181,
-		name = "沙恩霍斯特技能Lv1",
-		damage = 43,
-		base = 66180
-	}
-	uv0.weapon_property_127[66182] = {
-		id = 66182,
-		name = "沙恩霍斯特技能Lv2",
-		damage = 50,
-		base = 66180
-	}
-	uv0.weapon_property_127[66183] = {
-		id = 66183,
-		name = "沙恩霍斯特技能Lv3",
-		damage = 57,
-		base = 66180
-	}
-	uv0.weapon_property_127[66184] = {
-		id = 66184,
-		name = "沙恩霍斯特技能Lv4",
-		damage = 64,
-		base = 66180
-	}
-	uv0.weapon_property_127[66185] = {
-		id = 66185,
-		name = "沙恩霍斯特技能Lv5",
-		damage = 71,
-		base = 66180
-	}
-	uv0.weapon_property_127[66186] = {
-		name = "沙恩霍斯特技能Lv6",
-		damage = 78,
-		base = 66180,
-		id = 66186,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_127[66187] = {
-		name = "沙恩霍斯特技能Lv7",
-		damage = 85,
-		base = 66180,
-		id = 66187,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_127[66188] = {
-		name = "沙恩霍斯特技能Lv8",
-		damage = 92,
-		base = 66180,
-		id = 66188,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_127[66189] = {
-		name = "沙恩霍斯特技能Lv9",
-		damage = 99,
-		base = 66180,
-		id = 66189,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_127[66190] = {
-		name = "沙恩霍斯特技能Lv10",
-		damage = 106,
-		base = 66180,
-		id = 66190,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_127[66200] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "提尔比茨技能磁性鱼雷Lv0",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 55,
-		corrected = 100,
-		min_range = 0,
-		id = 66200,
-		attack_attribute_ratio = 150,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1804
-		},
-		barrage_ID = {
-			1409
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_127[66201] = {
-		id = 66201,
-		name = "提尔比茨技能磁性鱼雷Lv1",
-		damage = 63,
-		base = 66200
-	}
-	uv0.weapon_property_127[66202] = {
-		id = 66202,
-		name = "提尔比茨技能磁性鱼雷Lv2",
-		damage = 71,
-		base = 66200
-	}
-	uv0.weapon_property_127[66203] = {
-		id = 66203,
-		name = "提尔比茨技能磁性鱼雷Lv3",
-		damage = 79,
-		base = 66200
-	}
-	uv0.weapon_property_127[66204] = {
-		id = 66204,
-		name = "提尔比茨技能磁性鱼雷Lv4",
-		damage = 87,
-		base = 66200
-	}
-	uv0.weapon_property_127[66205] = {
-		id = 66205,
-		name = "提尔比茨技能磁性鱼雷Lv5",
-		damage = 95,
-		base = 66200
-	}
-	uv0.weapon_property_127[66206] = {
-		id = 66206,
-		name = "提尔比茨技能磁性鱼雷Lv6",
-		damage = 103,
-		base = 66200
-	}
-	uv0.weapon_property_127[66207] = {
-		id = 66207,
-		name = "提尔比茨技能磁性鱼雷Lv7",
-		damage = 111,
-		base = 66200
-	}
-	uv0.weapon_property_127[66208] = {
-		id = 66208,
-		name = "提尔比茨技能磁性鱼雷Lv8",
-		damage = 119,
-		base = 66200
-	}
-	uv0.weapon_property_127[66209] = {
-		id = 66209,
-		name = "提尔比茨技能磁性鱼雷Lv9",
-		damage = 128,
-		base = 66200
-	}
-	uv0.weapon_property_127[66210] = {
-		id = 66210,
-		name = "提尔比茨技能磁性鱼雷Lv10",
-		damage = 137,
-		base = 66200
-	}
-	uv0.weapon_property_127[66220] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "沙恩霍斯特级技能鱼雷Lv0",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 55,
-		corrected = 100,
-		min_range = 0,
-		id = 66220,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1805
-		},
-		barrage_ID = {
-			1408
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_127[66221] = {
-		id = 66221,
-		name = "沙恩霍斯特级技能鱼雷Lv1",
-		damage = 63,
-		base = 66220
-	}
-	uv0.weapon_property_127[66222] = {
-		id = 66222,
-		name = "沙恩霍斯特级技能鱼雷Lv2",
-		damage = 71,
-		base = 66220
-	}
-	uv0.weapon_property_127[66223] = {
-		id = 66223,
-		name = "沙恩霍斯特级技能鱼雷Lv3",
-		damage = 79,
-		base = 66220
-	}
-	uv0.weapon_property_127[66224] = {
-		id = 66224,
-		name = "沙恩霍斯特级技能鱼雷Lv4",
-		damage = 87,
-		base = 66220
-	}
-	uv0.weapon_property_127[66225] = {
-		id = 66225,
-		name = "沙恩霍斯特级技能鱼雷Lv5",
-		damage = 95,
-		base = 66220
-	}
-	uv0.weapon_property_127[66226] = {
-		id = 66226,
-		name = "沙恩霍斯特级技能鱼雷Lv6",
-		damage = 103,
-		base = 66220
-	}
-	uv0.weapon_property_127[66227] = {
-		id = 66227,
-		name = "沙恩霍斯特级技能鱼雷Lv7",
-		damage = 111,
-		base = 66220
-	}
-	uv0.weapon_property_127[66228] = {
-		id = 66228,
-		name = "沙恩霍斯特级技能鱼雷Lv8",
-		damage = 119,
-		base = 66220
-	}
-	uv0.weapon_property_127[66229] = {
-		id = 66229,
-		name = "沙恩霍斯特级技能鱼雷Lv9",
-		damage = 128,
-		base = 66220
-	}
-	uv0.weapon_property_127[66230] = {
-		id = 66230,
-		name = "沙恩霍斯特级技能鱼雷Lv10",
-		damage = 137,
-		base = 66220
-	}
-	uv0.weapon_property_127[66240] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "山城改技能Lv0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 120,
-		corrected = 100,
-		min_range = 0,
-		id = 66240,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			66240
-		},
-		barrage_ID = {
-			12010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.8,
-			isBound = true,
-			fx = "jineng"
-		}
-	}
-	uv0.weapon_property_127[66241] = {
-		name = "山城改技能Lv1",
-		damage = 144,
-		base = 66240,
-		id = 66241,
-		bullet_ID = {
-			66241
-		}
-	}
-	uv0.weapon_property_127[66242] = {
-		name = "山城改技能Lv2",
-		damage = 168,
-		base = 66240,
-		id = 66242,
-		bullet_ID = {
-			66242
-		}
-	}
-	uv0.weapon_property_127[66243] = {
-		name = "山城改技能Lv3",
-		damage = 192,
-		base = 66240,
-		id = 66243,
-		bullet_ID = {
-			66243
-		}
-	}
-	uv0.weapon_property_127[66244] = {
-		name = "山城改技能Lv4",
-		damage = 216,
-		base = 66240,
-		id = 66244,
-		bullet_ID = {
-			66244
-		}
-	}
-	uv0.weapon_property_127[66245] = {
-		name = "山城改技能Lv5",
-		damage = 240,
-		base = 66240,
-		id = 66245,
-		bullet_ID = {
-			66245
-		}
-	}
-	uv0.weapon_property_127[66246] = {
-		name = "山城改技能Lv6",
-		damage = 264,
-		base = 66240,
-		id = 66246,
-		bullet_ID = {
-			66246
-		}
 	}
 end()

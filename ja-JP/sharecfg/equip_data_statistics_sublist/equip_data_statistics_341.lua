@@ -1,108 +1,18 @@
 pg = pg or {}
 pg.equip_data_statistics_341 = {
-	[60272] = {
-		id = 60272,
-		base = 60271,
+	[74132] = {
+		id = 74132,
+		name = "全弹发射-肇和级II",
+		base = 74131,
 		weapon_id = {
-			60272
+			74132
 		}
 	},
-	[60273] = {
-		id = 60273,
-		base = 60271,
-		weapon_id = {
-			60273
-		}
-	},
-	[60281] = {
-		name = "0",
+	[75011] = {
+		name = "全弹发射-索尔达蒂级I",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60281,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60281
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60282] = {
-		id = 60282,
-		base = 60281,
-		weapon_id = {
-			60282
-		}
-	},
-	[60283] = {
-		id = 60283,
-		base = 60281,
-		weapon_id = {
-			60283
-		}
-	},
-	[60291] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60291,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60291
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60292] = {
-		id = 60292,
-		base = 60291,
-		weapon_id = {
-			60292
-		}
-	},
-	[60293] = {
-		id = 60293,
-		base = 60291,
-		weapon_id = {
-			60293
-		}
-	},
-	[60301] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
@@ -111,115 +21,367 @@ pg.equip_data_statistics_341 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60301,
+		id = 75011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60301
+			75011
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60302] = {
-		id = 60302,
-		name = "0",
-		base = 60301,
+	[75012] = {
+		id = 75012,
+		name = "全弹发射-索尔达蒂级II",
+		base = 75011,
 		weapon_id = {
-			60302
+			75012
 		}
 	},
-	[60311] = {
-		name = "0",
+	[75021] = {
+		name = "全弹发射-诗人级I",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60311,
+		id = 75021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60311
+			75021
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60312] = {
-		id = 60312,
-		base = 60311,
+	[75022] = {
+		id = 75022,
+		name = "全弹发射-诗人级II",
+		base = 75021,
 		weapon_id = {
-			60312
+			75022
 		}
 	},
-	[60313] = {
-		id = 60313,
-		base = 60311,
-		weapon_id = {
-			60313
-		}
-	},
-	[60321] = {
-		name = "航空攻击展示-埃塞克斯I",
+	[75031] = {
+		name = "全弹发射-西北风级I",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60321,
+		id = 75031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60321
+			75031
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60322] = {
-		descrip = "外观空袭展示用",
-		name = "航空攻击展示-埃塞克斯II",
-		base = 60321,
-		id = 60322,
+	[75032] = {
+		id = 75032,
+		name = "全弹发射-西北风级II",
+		base = 75031,
 		weapon_id = {
-			60322
+			75032
 		}
 	},
-	[60323] = {
-		descrip = "外观空袭展示用",
-		name = "航空攻击展示-埃塞克斯II",
-		base = 60321,
-		id = 60323,
+	[75041] = {
+		name = "全弹发射-航海家级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 75041,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			60323
+			75041
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75042] = {
+		id = 75042,
+		name = "全弹发射-航海家级II",
+		base = 75041,
+		weapon_id = {
+			75042
+		}
+	},
+	[75211] = {
+		name = "全弹发射-特伦托级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 75211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75211
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75212] = {
+		id = 75212,
+		name = "全弹发射-特伦托级II",
+		base = 75211,
+		weapon_id = {
+			75212
+		}
+	},
+	[75221] = {
+		name = "全弹发射-扎拉级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 75221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75221
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75222] = {
+		id = 75222,
+		name = "全弹发射-扎拉级II",
+		base = 75221,
+		weapon_id = {
+			75222
+		}
+	},
+	[75511] = {
+		name = "全弹发射-布林级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 75511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75511
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75512] = {
+		id = 75512,
+		name = "全弹发射-布林级II",
+		base = 75511,
+		weapon_id = {
+			75512
+		}
+	},
+	[76011] = {
+		name = "全弹发射-愤怒级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 76011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			76011
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[76012] = {
+		id = 76012,
+		name = "全弹发射-愤怒级II",
+		base = 76011,
+		weapon_id = {
+			76012
 		}
 	}
 }

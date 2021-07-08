@@ -1,119 +1,193 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
-	[89211] = {
-		id = 89211,
-		anti_siren = 100,
-		base = 89200,
-		value_2 = 5,
-		value_1 = "30"
+	[95122] = {
+		id = 95122,
+		damage = "44/回",
+		base = 95120,
+		weapon_id = {
+			95122
+		}
 	},
-	[89212] = {
-		id = 89212,
-		anti_siren = 200,
-		base = 89200,
-		value_2 = 5,
-		value_1 = "32"
+	[95123] = {
+		id = 95123,
+		damage = "49/回",
+		base = 95120,
+		weapon_id = {
+			95123
+		}
 	},
-	[89213] = {
-		id = 89213,
-		anti_siren = 300,
-		base = 89200,
-		value_2 = 5,
-		value_1 = "34"
+	[95124] = {
+		id = 95124,
+		damage = "54/回",
+		base = 95120,
+		weapon_id = {
+			95124
+		}
 	},
-	[89220] = {
-		name = "ネビュラドレス",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "89220",
-		value_1 = "250",
-		descrip = "「見た目だけでも、『あいどる』に仕上げて差し上げましょう…」装備艦船は「μ兵装」としても扱われます",
+	[95125] = {
+		id = 95125,
+		damage = "59/回",
+		base = 95120,
+		weapon_id = {
+			95125
+		}
+	},
+	[95126] = {
+		id = 95126,
+		damage = "65/回",
+		base = 95120,
+		weapon_id = {
+			95126
+		}
+	},
+	[95127] = {
+		id = 95127,
+		damage = "71/回",
+		base = 95120,
+		weapon_id = {
+			95127
+		}
+	},
+	[95128] = {
+		id = 95128,
+		damage = "77/回",
+		base = 95120,
+		weapon_id = {
+			95128
+		}
+	},
+	[95129] = {
+		id = 95129,
+		damage = "83/回",
+		base = 95120,
+		weapon_id = {
+			95129
+		}
+	},
+	[95130] = {
+		id = 95130,
+		damage = "90/回",
+		base = 95120,
+		weapon_id = {
+			95130
+		}
+	},
+	[95140] = {
+		name = "90mm単装高角砲Model1939",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 45,
+		icon = "55100",
+		attribute_2 = "antiaircraft",
 		rarity = 5,
-		nationality = 0,
-		ammo = 10,
+		damage = "40/回",
+		nationality = 6,
+		ammo = 5,
 		value_3 = 0,
-		id = 89220,
+		id = 95140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6700
+		weapon_id = {
+			95140
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"RN",
+			"ST",
+			"AA"
 		}
 	},
-	[89221] = {
-		id = 89221,
-		value_1 = "280",
-		base = 89220
+	[95141] = {
+		id = 95141,
+		damage = "45/回",
+		base = 95140,
+		weapon_id = {
+			95141
+		}
 	},
-	[89222] = {
-		id = 89222,
-		value_1 = "310",
-		base = 89220
+	[95142] = {
+		id = 95142,
+		damage = "50/回",
+		base = 95140,
+		weapon_id = {
+			95142
+		}
 	},
-	[89223] = {
-		id = 89223,
-		value_1 = "340",
-		base = 89220
+	[95143] = {
+		id = 95143,
+		damage = "56/回",
+		base = 95140,
+		weapon_id = {
+			95143
+		}
 	},
-	[89224] = {
-		id = 89224,
-		value_1 = "370",
-		base = 89220
+	[95144] = {
+		id = 95144,
+		damage = "62/回",
+		base = 95140,
+		weapon_id = {
+			95144
+		}
 	},
-	[89225] = {
-		id = 89225,
-		value_1 = "400",
-		base = 89220
+	[95145] = {
+		id = 95145,
+		damage = "68/回",
+		base = 95140,
+		weapon_id = {
+			95145
+		}
 	},
-	[89226] = {
-		id = 89226,
-		value_1 = "430",
-		base = 89220
+	[95146] = {
+		id = 95146,
+		damage = "74/回",
+		base = 95140,
+		weapon_id = {
+			95146
+		}
 	},
-	[89227] = {
-		id = 89227,
-		value_1 = "460",
-		base = 89220
-	},
-	[89228] = {
-		id = 89228,
-		value_1 = "490",
-		base = 89220
-	},
-	[89229] = {
-		id = 89229,
-		value_1 = "520",
-		base = 89220
-	},
-	[89230] = {
-		id = 89230,
-		value_1 = "550",
-		base = 89220
-	},
-	[89231] = {
-		id = 89231,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 89220
-	},
-	[89232] = {
-		id = 89232,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 89220
+	[95147] = {
+		id = 95147,
+		damage = "80/回",
+		base = 95140,
+		weapon_id = {
+			95147
+		}
 	}
 }

@@ -1,33 +1,33 @@
 pg = pg or {}
 pg.equip_data_statistics_349 = {
-	[70132] = {
-		id = 70132,
-		base = 70131,
+	[79562] = {
+		id = 79562,
+		name = "专属弹幕-德雷克II",
+		base = 79561,
 		weapon_id = {
-			70132
+			79562
 		}
 	},
-	[70141] = {
-		name = "0",
+	[79571] = {
+		name = "专属弹幕-美因茨I",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
 		rarity = 1,
+		descrip = "スキル弾幕",
 		value_2 = 0,
 		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70141,
+		id = 79571,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70141
+			79571
 		},
 		skill_id = {},
 		part_main = {
@@ -46,15 +46,16 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70142] = {
-		id = 70142,
-		base = 70141,
+	[79572] = {
+		id = 79572,
+		name = "专属弹幕-美因茨II",
+		base = 79571,
 		weapon_id = {
-			70142
+			79572
 		}
 	},
-	[70211] = {
-		name = "0",
+	[79581] = {
+		name = "专属弹幕-赫敏I",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -66,14 +67,14 @@ pg.equip_data_statistics_349 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70211,
+		id = 79581,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70211
+			79581
 		},
 		skill_id = {},
 		part_main = {
@@ -92,15 +93,16 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70212] = {
-		id = 70212,
-		base = 70211,
+	[79582] = {
+		id = 79582,
+		name = "专属弹幕-赫敏II",
+		base = 79581,
 		weapon_id = {
-			70212
+			79582
 		}
 	},
-	[70221] = {
-		name = "0",
+	[79591] = {
+		name = "专属弹幕-U96I",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -112,14 +114,60 @@ pg.equip_data_statistics_349 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70221,
+		id = 79591,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70221
+			79591
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79592] = {
+		id = 79592,
+		name = "专属弹幕-U96II",
+		base = 79591,
+		weapon_id = {
+			79592
+		}
+	},
+	[79601] = {
+		name = "专属弹幕-凉月I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79601,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60571
 		},
 		skill_id = {},
 		part_main = {
@@ -138,15 +186,16 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70222] = {
-		id = 70222,
-		base = 70221,
+	[79602] = {
+		id = 79602,
+		name = "专属弹幕-凉月II",
+		base = 79601,
 		weapon_id = {
-			70222
+			60572
 		}
 	},
-	[70231] = {
-		name = "0",
+	[79611] = {
+		name = "专属弹幕-罗恩μI",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -158,14 +207,14 @@ pg.equip_data_statistics_349 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70231,
+		id = 79611,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70231
+			79611
 		},
 		skill_id = {},
 		part_main = {
@@ -184,15 +233,16 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70232] = {
-		id = 70232,
-		base = 70231,
+	[79612] = {
+		id = 79612,
+		name = "专属弹幕-罗恩μII",
+		base = 79611,
 		weapon_id = {
-			70232
+			79612
 		}
 	},
-	[70241] = {
-		name = "0",
+	[79621] = {
+		name = "专属弹幕-恶毒μI",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -204,14 +254,14 @@ pg.equip_data_statistics_349 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70241,
+		id = 79621,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70241
+			60581
 		},
 		skill_id = {},
 		part_main = {
@@ -230,15 +280,16 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70242] = {
-		id = 70242,
-		base = 70241,
+	[79622] = {
+		id = 79622,
+		name = "专属弹幕-恶毒μII",
+		base = 79621,
 		weapon_id = {
-			70242
+			60582
 		}
 	},
-	[70251] = {
-		name = "0",
+	[79631] = {
+		name = "专属弹幕-黛朵μI",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -250,14 +301,14 @@ pg.equip_data_statistics_349 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70251,
+		id = 79631,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70251
+			79631
 		},
 		skill_id = {},
 		part_main = {
@@ -276,15 +327,16 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70252] = {
-		id = 70252,
-		base = 70251,
+	[79632] = {
+		id = 79632,
+		name = "专属弹幕-黛朵μII",
+		base = 79631,
 		weapon_id = {
-			70252
+			79632
 		}
 	},
-	[70261] = {
-		name = "0",
+	[79641] = {
+		name = "专属弹幕-塔什干μI",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -296,14 +348,14 @@ pg.equip_data_statistics_349 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 70261,
+		id = 79641,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			70261
+			79641
 		},
 		skill_id = {},
 		part_main = {
@@ -322,50 +374,12 @@ pg.equip_data_statistics_349 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[70262] = {
-		id = 70262,
-		base = 70261,
+	[79642] = {
+		id = 79642,
+		name = "专属弹幕-塔什干μII",
+		base = 79641,
 		weapon_id = {
-			70262
+			79642
 		}
-	},
-	[70271] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70271,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70271
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
 	}
 }

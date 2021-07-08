@@ -1,157 +1,196 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
-	[89233] = {
-		id = 89233,
-		anti_siren = 300,
-		value_1 = "640",
-		base = 89220
-	},
-	[89240] = {
-		name = "ヴィーナス覚醒ジェム",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89240,
-		value_2 = 16,
-		icon = "89240",
-		value_1 = "6",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "",
-		nationality = 106,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6720
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
+	[95148] = {
+		id = 95148,
+		damage = "86/回",
+		base = 95140,
+		weapon_id = {
+			95148
 		}
 	},
-	[89241] = {
-		id = 89241,
-		value_1 = "7",
-		base = 89240
+	[95149] = {
+		id = 95149,
+		damage = "92/回",
+		base = 95140,
+		weapon_id = {
+			95149
+		}
 	},
-	[89242] = {
-		id = 89242,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89240
+	[95150] = {
+		id = 95150,
+		damage = "98/回",
+		base = 95140,
+		weapon_id = {
+			95150
+		}
 	},
-	[89243] = {
-		id = 89243,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89240
-	},
-	[89244] = {
-		id = 89244,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89240
-	},
-	[89245] = {
-		id = 89245,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89240
-	},
-	[89246] = {
-		id = 89246,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89240
-	},
-	[89247] = {
-		id = 89247,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89240
-	},
-	[89248] = {
-		id = 89248,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89240
-	},
-	[89249] = {
-		id = 89249,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89240
-	},
-	[89250] = {
-		id = 89250,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89240
-	},
-	[89251] = {
-		id = 89251,
+	[95151] = {
 		anti_siren = 100,
-		base = 89240,
-		value_2 = 26,
-		value_1 = "16"
+		damage = "98/回",
+		base = 95140,
+		id = 95151,
+		weapon_id = {
+			95151
+		}
 	},
-	[89252] = {
-		id = 89252,
+	[95152] = {
 		anti_siren = 200,
-		base = 89240,
-		value_2 = 27,
-		value_1 = "17"
+		damage = "98/回",
+		base = 95140,
+		id = 95152,
+		weapon_id = {
+			95152
+		}
 	},
-	[89253] = {
-		id = 89253,
+	[95153] = {
 		anti_siren = 300,
-		base = 89240,
-		value_2 = 28,
-		value_1 = "18"
+		damage = "98/回",
+		base = 95140,
+		id = 95153,
+		weapon_id = {
+			95153
+		}
 	},
-	[89260] = {
-		name = "ココロの鍵",
+	[95160] = {
+		name = "試作型90mm連装高角砲Model1939",
+		speciality = "対空",
+		type = 6,
 		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89260,
-		value_2 = 15,
-		icon = "89260",
-		value_1 = "14",
-		attribute_2 = "hit",
+		descrip = "0",
+		value_2 = 45,
+		icon = "55160",
+		attribute_2 = "antiaircraft",
 		rarity = 5,
-		descrip = "",
-		nationality = 106,
-		ammo = 10,
+		damage = "40/回",
+		nationality = 6,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 95160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6730
+		weapon_id = {
+			95160
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"RN",
+			"ST",
+			"AA"
+		}
+	},
+	[95161] = {
+		id = 95161,
+		damage = "45/回",
+		base = 95160,
+		weapon_id = {
+			95161
+		}
+	},
+	[95162] = {
+		id = 95162,
+		damage = "50/回",
+		base = 95160,
+		weapon_id = {
+			95162
+		}
+	},
+	[95163] = {
+		id = 95163,
+		damage = "56/回",
+		base = 95160,
+		weapon_id = {
+			95163
+		}
+	},
+	[95164] = {
+		id = 95164,
+		damage = "62/回",
+		base = 95160,
+		weapon_id = {
+			95164
+		}
+	},
+	[95165] = {
+		id = 95165,
+		damage = "68/回",
+		base = 95160,
+		weapon_id = {
+			95165
+		}
+	},
+	[95166] = {
+		id = 95166,
+		damage = "74/回",
+		base = 95160,
+		weapon_id = {
+			95166
+		}
+	},
+	[95167] = {
+		id = 95167,
+		damage = "80/回",
+		base = 95160,
+		weapon_id = {
+			95167
+		}
+	},
+	[95168] = {
+		id = 95168,
+		damage = "86/回",
+		base = 95160,
+		weapon_id = {
+			95168
+		}
+	},
+	[95169] = {
+		id = 95169,
+		damage = "92/回",
+		base = 95160,
+		weapon_id = {
+			95169
+		}
+	},
+	[95170] = {
+		id = 95170,
+		damage = "98/回",
+		base = 95160,
+		weapon_id = {
+			95170
 		}
 	}
 }

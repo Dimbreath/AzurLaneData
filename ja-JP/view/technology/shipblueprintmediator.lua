@@ -4,6 +4,7 @@ slot0.ON_START = "ShipBluePrintMediator:ON_START"
 slot0.ON_FINISHED = "ShipBluePrintMediator:ON_FINISHED"
 slot0.ON_FINISH_TASK = "ShipBluePrintMediator:ON_FINISH_TASK"
 slot0.ON_MOD = "ShipBluePrintMediator:ON_MOD"
+slot0.ON_PURSUING = "ShipBluePrintMediator:ON_PURSUING"
 slot0.ON_TASK_OPEN = "ShipBluePrintMediator:ON_TASK_OPEN"
 slot0.ON_MAIN = "ShipBluePrintMediator:ON_MAIN"
 slot0.ON_CHECK_TAKES = "ShipBluePrintMediator:ON_CHECK_TAKES"
@@ -80,6 +81,12 @@ function slot0.register(slot0)
 			count = slot2
 		})
 	end)
+	slot0:bind(uv0.ON_PURSUING, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.PURSUING_BLUEPRINT, {
+			id = slot1,
+			count = slot2
+		})
+	end)
 	slot0:bind(uv0.ON_TASK_OPEN, function (slot0, slot1)
 		if not getProxy(TaskProxy):isFinishPrevTasks(slot1) then
 			return
@@ -114,7 +121,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0.viewComponent:setShipBluePrints(slot1:getBluePrints())
-	slot0.viewComponent:setItemVOs(getProxy(BagProxy):getItemsByType(Item.BLUEPRINT_TYPE))
 	slot0.viewComponent:setShipVOs(getProxy(BayProxy):getRawData())
 	slot0.viewComponent:setVersion(slot1:getVersion())
 	slot0.viewComponent:setTaskVOs(getProxy(TaskProxy):getTasksForBluePrint())
@@ -124,8 +130,6 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BUILD_SHIP_BLUEPRINT_DONE,
 		TechnologyProxy.BLUEPRINT_UPDATED,
-		BagProxy.ITEM_UPDATED,
-		BagProxy.ITEM_ADDED,
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
@@ -136,15 +140,14 @@ function slot0.listNotificationInterests(slot0)
 		BayProxy.SHIP_ADDED,
 		BayProxy.SHIP_UPDATED,
 		GAME.BEGIN_STAGE_DONE,
-		GAME.MOD_BLUEPRINT_ANIM_LOCK
+		GAME.MOD_BLUEPRINT_ANIM_LOCK,
+		GAME.PURSUING_RESET_DONE
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == TechnologyProxy.BLUEPRINT_UPDATED then
 		slot0.viewComponent:updateShipBluePrintVO(slot1:getBody())
-	elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
-		slot0.viewComponent:setItemVOs(getProxy(BagProxy):getItemsByType(Item.BLUEPRINT_TYPE))
 	elseif slot2 == GAME.EXCHANG_BLUEPRINT_DONE then
 		slot0.viewComponent:clearSelected()
 		slot0.viewComponent:updateExchangeItems()
@@ -186,6 +189,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == GAME.MOD_BLUEPRINT_ANIM_LOCK then
 		slot0.viewComponent.noUpdateMod = true
+	elseif slot2 == GAME.PURSUING_RESET_DONE then
+		-- Nothing
 	end
 end
 

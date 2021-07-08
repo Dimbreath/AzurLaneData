@@ -84,9 +84,12 @@ function slot0.init(slot0)
 			end
 		end
 	end, SFX_PANEL)
-end
-
-function slot0.didEnter(slot0)
+	onButton(slot0, slot0.fleetToggleMask, function ()
+		uv0:showOrHideToggleMask(false)
+	end, SFX_CANCEL)
+	onButton(slot0, slot0.btnFleet, function ()
+		uv0:showOrHideToggleMask(true)
+	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("item/reset_btn"), function ()
 		uv0.contextData.onResetInfo({
 			count = 1,
@@ -94,23 +97,33 @@ function slot0.didEnter(slot0)
 			id = uv0.itemVO.id
 		})
 	end)
+end
+
+function slot0.didEnter(slot0)
+	setActive(slot0.fleetToggleMask, true)
+
+	for slot5, slot6 in ipairs(slot0.fleetList) do
+		if slot6.id == (slot0.contextData.fleetIndex or 1) then
+			triggerToggle(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot5), true)
+
+			break
+		end
+	end
+
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		blurLevelCamera = true
 	})
 end
 
+function slot0.showOrHideToggleMask(slot0, slot1)
+	setActive(slot0.fleetToggleMask, slot1)
+	slot0:tweenTabArrow(not slot1)
+end
+
 function slot0.setFleets(slot0, slot1, slot2)
 	slot0.fleetList = slot1
 
-	onButton(slot0, slot0.fleetToggleMask, function ()
-		setActive(uv0.fleetToggleMask, false)
-		uv0:tweenTabArrow(true)
-	end, SFX_CANCEL)
-	onButton(slot0, slot0.btnFleet, function ()
-		setActive(uv0.fleetToggleMask, true)
-		uv0:tweenTabArrow(false)
-	end, SFX_PANEL)
-	slot0:updateToggleList(slot0.fleetList, slot2 or 1)
+	slot0:updateToggleList(slot1)
 end
 
 function slot0.setConfirmCallback(slot0, slot1)
@@ -152,33 +165,27 @@ function slot0.flush(slot0, slot1)
 	end
 end
 
-function slot0.updateToggleList(slot0, slot1, slot2)
-	setActive(slot0.fleetToggleMask, true)
+function slot0.updateToggleList(slot0, slot1)
+	for slot5 = 1, slot0.fleetToggleList.childCount do
+		setActive(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot5), slot1[slot5])
 
-	for slot7 = 1, slot0.fleetToggleList.childCount do
-		setActive(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot7), slot1[slot7])
-
-		if slot1[slot7] then
-			setActive(slot8:Find("lock"), false)
-			setText(slot8:Find("on/mask/text"), i18n("world_fleetName" .. slot7))
-			setText(slot8:Find("on/mask/en"), uv0.TeamNum[slot7] .. " FLEET")
-			setText(slot8:Find("on/mask/number"), slot7)
-			setText(slot8:Find("off/mask/text"), i18n("world_fleetName" .. slot7))
-			setText(slot8:Find("off/mask/en"), uv0.TeamNum[slot7] .. " FLEET")
-			setText(slot8:Find("off/mask/number"), slot7)
-			onToggle(slot0, slot8, function (slot0)
+		if slot1[slot5] then
+			setActive(slot6:Find("lock"), false)
+			setText(slot6:Find("on/mask/text"), i18n("world_fleetName" .. slot5))
+			setText(slot6:Find("on/mask/en"), uv0.TeamNum[slot5] .. " FLEET")
+			setText(slot6:Find("on/mask/number"), slot5)
+			setText(slot6:Find("off/mask/text"), i18n("world_fleetName" .. slot5))
+			setText(slot6:Find("off/mask/en"), uv0.TeamNum[slot5] .. " FLEET")
+			setText(slot6:Find("off/mask/number"), slot5)
+			onToggle(slot0, slot6, function (slot0)
 				if slot0 then
-					triggerButton(uv0.fleetToggleMask)
+					uv0:showOrHideToggleMask(false)
 					uv0:setFleet(uv1[uv2].id)
 					uv0:updateQuota()
 				end
 			end, SFX_UI_TAG)
-
-			slot3 = nil or slot1[slot7].id == slot2 and slot8
 		end
 	end
-
-	triggerToggle(slot3, true)
 end
 
 function slot0.updateFleetButton(slot0, slot1)

@@ -213,15 +213,25 @@ function slot3.initComponent(slot0)
 		uv0._state:GetMediatorByName("BattleSceneMediator"):InitDetailAntiSubArea()
 	end)
 
-	slot1 = false
+	slot0._instantReload = slot0._common:Find("instant_reload")
+
+	onButton(nil, slot0._instantReload, function ()
+		slot0 = uv0._dataProxy._fleetList[1]
+
+		function slot1(slot0)
+			for slot5, slot6 in ipairs(slot0:GetWeaponList()) do
+				slot6:QuickCoolDown()
+			end
+		end
+
+		slot1(slot0:GetChargeWeaponVO())
+		slot1(slot0:GetTorpedoWeaponVO())
+		slot1(slot0:GetAirAssistVO())
+	end)
+
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
-		uv0 = not uv0
-
-		for slot3, slot4 in pairs(uv1._dataProxy._fleetList[1]._unitList) do
-			slot4:AddBuff(uv2.Battle.BattleBuffUnit.New(10331))
-		end
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)
 end
@@ -263,7 +273,9 @@ end
 
 function slot3.activeReference(slot0)
 	slot0._state:ActiveReference()
-	slot0._state:AddMediator(uv0.Battle.BattleReferenceBoxMediator.New())
+
+	slot1 = slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name) or slot0._state:AddMediator(uv0.Battle.BattleReferenceBoxMediator.New())
+
 	pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
 	pg.TipsMgr.GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ战斗调试模块初始化成功！(ง •̀_•́)ง┃")
 	pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
@@ -301,7 +313,6 @@ function slot3.activeReference(slot0)
 		uv1._state:ScaleTimer()
 	end, SFX_PANEL)
 
-	slot1 = slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name)
 	slot0._shipBox = slot0._referenceConsole:Find("ship_box")
 	slot0._bulletBox = slot0._referenceConsole:Find("bullet_box")
 	slot0._pp = slot0._referenceConsole:Find("property_panel")

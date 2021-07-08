@@ -1,113 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_39 = {
-	[1767] = {
-		id = 1767,
-		value_2 = 48,
-		value_1 = "31",
-		base = 1760
-	},
-	[1768] = {
-		id = 1768,
-		value_2 = 52,
-		value_1 = "34",
-		base = 1760
-	},
-	[1769] = {
-		id = 1769,
-		value_2 = 56,
-		value_1 = "37",
-		base = 1760
-	},
-	[1770] = {
-		id = 1770,
-		value_2 = 60,
-		value_1 = "40",
-		base = 1760
-	},
-	[1771] = {
-		id = 1771,
-		anti_siren = 100,
-		base = 1760,
-		value_2 = 64,
-		value_1 = "43"
-	},
-	[1772] = {
-		id = 1772,
-		anti_siren = 200,
-		base = 1760,
-		value_2 = 68,
-		value_1 = "46"
-	},
-	[1773] = {
-		id = 1773,
-		anti_siren = 300,
-		base = 1760,
-		value_2 = 72,
-		value_1 = "49"
-	},
-	[1800] = {
-		name = "改良型缶",
-		tech = 1,
+	[1940] = {
+		name = "迷彩塗装",
+		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 1800,
-		value_2 = 1,
-		icon = "1800",
-		value_1 = "35",
-		attribute_2 = "speed",
-		rarity = 2,
-		descrip = "改良されたボイラー。速力と耐久を上げることができる",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1801] = {
-		id = 1801,
-		value_1 = "40",
-		base = 1800
-	},
-	[1802] = {
-		id = 1802,
-		value_1 = "45",
-		base = 1800
-	},
-	[1803] = {
-		id = 1803,
-		value_1 = "50",
-		base = 1800
-	},
-	[1820] = {
-		name = "改良型缶",
-		tech = 2,
-		type = 10,
-		speciality = "なし",
-		id = 1820,
-		value_2 = 2,
-		icon = "1800",
-		value_1 = "63",
-		attribute_2 = "speed",
+		id = 1940,
+		value_2 = 20,
+		icon = "1900",
+		value_1 = "9",
+		attribute_2 = "durability",
 		rarity = 3,
-		descrip = "改良されたボイラー。速力と耐久を上げることができる",
+		descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -124,26 +32,127 @@ pg.equip_data_statistics_39 = {
 			"DEV"
 		}
 	},
-	[1821] = {
-		id = 1821,
-		value_1 = "72",
-		base = 1820
+	[1941] = {
+		id = 1941,
+		value_2 = 24,
+		value_1 = "10",
+		base = 1940
 	},
-	[1822] = {
-		id = 1822,
-		value_1 = "81",
-		base = 1820
+	[1942] = {
+		id = 1942,
+		value_2 = 28,
+		value_1 = "11",
+		base = 1940
 	},
-	[1823] = {
-		id = 1823,
-		value_2 = 3,
-		value_1 = "91",
-		base = 1820
+	[1943] = {
+		id = 1943,
+		value_2 = 32,
+		value_1 = "13",
+		base = 1940
 	},
-	[1824] = {
-		id = 1824,
-		value_2 = 3,
-		value_1 = "100",
-		base = 1820
+	[1944] = {
+		id = 1944,
+		value_2 = 36,
+		value_1 = "14",
+		base = 1940
+	},
+	[1945] = {
+		id = 1945,
+		value_2 = 40,
+		value_1 = "15",
+		base = 1940
+	},
+	[1946] = {
+		id = 1946,
+		value_2 = 44,
+		value_1 = "17",
+		base = 1940
+	},
+	[1947] = {
+		id = 1947,
+		value_2 = 48,
+		value_1 = "19",
+		base = 1940
+	},
+	[1960] = {
+		name = "マリニエール魂（迷彩）",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 1960,
+		value_2 = 35,
+		icon = "1960",
+		value_1 = "8",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "ちょっとだけ戦闘力（？）を上げる迷彩塗装",
+		nationality = 7,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DEV"
+		}
+	},
+	[1961] = {
+		id = 1961,
+		value_2 = 40,
+		value_1 = "9",
+		base = 1960
+	},
+	[1962] = {
+		id = 1962,
+		value_2 = 45,
+		value_1 = "10",
+		base = 1960
+	},
+	[1963] = {
+		id = 1963,
+		value_2 = 50,
+		value_1 = "11",
+		base = 1960
+	},
+	[1964] = {
+		id = 1964,
+		value_2 = 55,
+		value_1 = "12",
+		base = 1960
+	},
+	[1965] = {
+		id = 1965,
+		value_2 = 60,
+		value_1 = "13",
+		base = 1960
+	},
+	[1966] = {
+		id = 1966,
+		value_2 = 65,
+		value_1 = "14",
+		base = 1960
+	},
+	[1967] = {
+		id = 1967,
+		value_2 = 70,
+		value_1 = "15",
+		base = 1960
+	},
+	[1968] = {
+		id = 1968,
+		value_2 = 80,
+		value_1 = "16",
+		base = 1960
 	}
 }

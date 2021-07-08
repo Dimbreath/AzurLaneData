@@ -1,240 +1,394 @@
 pg = pg or {}
 pg.equip_data_statistics_125 = {
-	[16347] = {
-		id = 16347,
-		damage = "50/回",
-		base = 16340,
-		weapon_id = {
-			16347
-		}
-	},
-	[16348] = {
-		id = 16348,
-		damage = "54/回",
-		base = 16340,
-		weapon_id = {
-			16348
-		}
-	},
-	[16349] = {
-		id = 16349,
-		damage = "58/回",
-		base = 16340,
-		weapon_id = {
-			16349
-		}
-	},
-	[16350] = {
-		id = 16350,
-		damage = "62/回",
-		base = 16340,
-		weapon_id = {
-			16350
-		}
-	},
-	[16351] = {
+	[17251] = {
 		anti_siren = 100,
-		damage = "62/回",
-		base = 16340,
-		id = 16351,
+		base = 17240,
+		id = 17251,
+		ammo_info = {
+			{
+				6,
+				50451
+			},
+			{
+				5,
+				52351
+			}
+		},
 		weapon_id = {
-			16351
+			17251,
+			81251
 		}
 	},
-	[16400] = {
-		name = "四連装ボフォース40mm機関砲",
-		speciality = "対空",
-		type = 6,
+	[17260] = {
+		name = "F4U（VF-17中隊）",
+		type = 7,
+		speciality = "航空",
+		rarity = 5,
+		tech = 0,
+		descrip = "海賊旗の記章で知られる海軍航空隊に配備されていたF4Uコルセア",
+		value_2 = 45,
+		icon = "17260",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50460
+			},
+			{
+				5,
+				52360
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17260,
+			81260
+		},
+		skill_id = {
+			6250
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17261] = {
+		id = 17261,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50461
+			},
+			{
+				5,
+				52361
+			}
+		},
+		weapon_id = {
+			17261,
+			81261
+		}
+	},
+	[17262] = {
+		id = 17262,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50462
+			},
+			{
+				5,
+				52362
+			}
+		},
+		weapon_id = {
+			17262,
+			81262
+		}
+	},
+	[17263] = {
+		id = 17263,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50463
+			},
+			{
+				5,
+				52363
+			}
+		},
+		weapon_id = {
+			17263,
+			81263
+		}
+	},
+	[17264] = {
+		id = 17264,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50464
+			},
+			{
+				5,
+				52364
+			}
+		},
+		weapon_id = {
+			17264,
+			81264
+		}
+	},
+	[17265] = {
+		id = 17265,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50465
+			},
+			{
+				5,
+				52365
+			}
+		},
+		weapon_id = {
+			17265,
+			81265
+		}
+	},
+	[17266] = {
+		id = 17266,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50466
+			},
+			{
+				5,
+				52366
+			}
+		},
+		weapon_id = {
+			17266,
+			81266
+		}
+	},
+	[17267] = {
+		id = 17267,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50467
+			},
+			{
+				5,
+				52367
+			}
+		},
+		weapon_id = {
+			17267,
+			81267
+		}
+	},
+	[17268] = {
+		id = 17268,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50468
+			},
+			{
+				5,
+				52368
+			}
+		},
+		weapon_id = {
+			17268,
+			81268
+		}
+	},
+	[17269] = {
+		id = 17269,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50469
+			},
+			{
+				5,
+				52369
+			}
+		},
+		weapon_id = {
+			17269,
+			81269
+		}
+	},
+	[17270] = {
+		id = 17270,
+		base = 17260,
+		ammo_info = {
+			{
+				6,
+				50470
+			},
+			{
+				5,
+				52370
+			}
+		},
+		weapon_id = {
+			17270,
+			81270
+		}
+	},
+	[17271] = {
+		anti_siren = 100,
+		base = 17260,
+		id = 17271,
+		ammo_info = {
+			{
+				6,
+				50471
+			},
+			{
+				5,
+				52371
+			}
+		},
+		weapon_id = {
+			17271,
+			81271
+		}
+	},
+	[17272] = {
+		anti_siren = 200,
+		base = 17260,
+		id = 17272,
+		ammo_info = {
+			{
+				6,
+				50472
+			},
+			{
+				5,
+				52372
+			}
+		},
+		weapon_id = {
+			17272,
+			81272
+		}
+	},
+	[17273] = {
+		anti_siren = 300,
+		base = 17260,
+		id = 17273,
+		ammo_info = {
+			{
+				6,
+				50473
+			},
+			{
+				5,
+				52373
+			}
+		},
+		weapon_id = {
+			17273,
+			81273
+		}
+	},
+	[17300] = {
+		name = "F6Fヘルキャット",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
 		tech = 1,
 		descrip = "0",
 		value_2 = 12,
-		icon = "16400",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "38/回",
+		icon = "17300",
+		attribute_2 = "air",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16400,
+		id = 17300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50300
+			},
+			{
+				6,
+				50500
+			},
+			{
+				5,
+				52300
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			16400
+			17300,
+			81300
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"ST",
-			"AA"
+			"CV",
+			"FT",
+			"F6F"
 		}
 	},
-	[16401] = {
-		id = 16401,
-		damage = "44/回",
-		base = 16400,
-		weapon_id = {
-			16401
-		}
-	},
-	[16402] = {
-		id = 16402,
-		damage = "50/回",
-		base = 16400,
-		weapon_id = {
-			16402
-		}
-	},
-	[16403] = {
-		id = 16403,
-		damage = "56/回",
-		base = 16400,
-		weapon_id = {
-			16403
-		}
-	},
-	[16404] = {
-		id = 16404,
-		damage = "62/回",
-		base = 16400,
-		weapon_id = {
-			16404
-		}
-	},
-	[16405] = {
-		id = 16405,
-		damage = "69/回",
-		base = 16400,
-		weapon_id = {
-			16405
-		}
-	},
-	[16406] = {
-		id = 16406,
-		damage = "76/回",
-		base = 16400,
-		weapon_id = {
-			16406
-		}
-	},
-	[16420] = {
-		name = "四連装ボフォース40mm機関砲",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "16400",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "43/回",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
+	[17301] = {
+		id = 17301,
+		base = 17300,
+		ammo_info = {
+			{
+				6,
+				50301
+			},
+			{
+				6,
+				50501
+			},
+			{
+				5,
+				52301
+			}
 		},
 		weapon_id = {
-			16420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16421] = {
-		id = 16421,
-		damage = "49/回",
-		base = 16420,
-		weapon_id = {
-			16421
-		}
-	},
-	[16422] = {
-		id = 16422,
-		damage = "55/回",
-		base = 16420,
-		weapon_id = {
-			16422
-		}
-	},
-	[16423] = {
-		id = 16423,
-		damage = "61/回",
-		base = 16420,
-		weapon_id = {
-			16423
+			17301,
+			81301
 		}
 	}
 }

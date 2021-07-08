@@ -1,29 +1,100 @@
 pg = pg or {}
 pg.equip_data_statistics_300 = {
-	[43000] = {
-		name = "203mmSKC連装砲",
-		speciality = "追尾",
-		type = 3,
+	[45343] = {
+		id = 45343,
+		damage = "82 x 2",
+		base = 45340,
+		weapon_id = {
+			45343
+		}
+	},
+	[45344] = {
+		id = 45344,
+		damage = "90 x 2",
+		base = 45340,
+		weapon_id = {
+			45344
+		}
+	},
+	[45345] = {
+		id = 45345,
+		damage = "99 x 2",
+		base = 45340,
+		weapon_id = {
+			45345
+		}
+	},
+	[45346] = {
+		id = 45346,
+		damage = "108 x 2",
+		base = 45340,
+		weapon_id = {
+			45346
+		}
+	},
+	[45347] = {
+		id = 45347,
+		damage = "117 x 2",
+		base = 45340,
+		weapon_id = {
+			45347
+		}
+	},
+	[45348] = {
+		id = 45348,
+		damage = "126 x 2",
+		base = 45340,
+		weapon_id = {
+			45348
+		}
+	},
+	[45349] = {
+		id = 45349,
+		damage = "135 x 2",
+		base = 45340,
+		weapon_id = {
+			45349
+		}
+	},
+	[45350] = {
+		id = 45350,
+		damage = "144 x 2",
+		base = 45340,
+		weapon_id = {
+			45350
+		}
+	},
+	[45351] = {
+		anti_siren = 100,
+		damage = "144 x 2",
+		base = 45340,
+		id = 45351,
+		weapon_id = {
+			45351
+		}
+	},
+	[45400] = {
+		name = "潜水艦用G7e音響追跡魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 1,
-		descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
+		descrip = "0",
 		value_2 = 12,
-		icon = "43000",
-		attribute_2 = "cannon",
+		icon = "45400",
+		attribute_2 = "torpedo",
 		rarity = 3,
-		damage = "25 x 6",
+		damage = "52 x 2",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 43000,
+		id = 45400,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1401
+				3,
+				1826
 			}
 		},
 		equip_info = {
@@ -31,11 +102,11 @@ pg.equip_data_statistics_300 = {
 			2,
 			{
 				3,
-				1401
+				1826
 			},
 			{
 				4,
-				1206
+				1601
 			},
 			6,
 			10,
@@ -43,94 +114,94 @@ pg.equip_data_statistics_300 = {
 			12
 		},
 		weapon_id = {
-			43000
+			45400
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CA",
-			"MG",
-			"AP"
+			"SS",
+			"TP"
 		}
 	},
-	[43001] = {
-		id = 43001,
-		damage = "27 x 6",
-		base = 43000,
+	[45401] = {
+		id = 45401,
+		damage = "59 x 2",
+		base = 45400,
 		weapon_id = {
-			43001
+			45401
 		}
 	},
-	[43002] = {
-		id = 43002,
-		damage = "29 x 6",
-		base = 43000,
+	[45402] = {
+		id = 45402,
+		damage = "66 x 2",
+		base = 45400,
 		weapon_id = {
-			43002
+			45402
 		}
 	},
-	[43003] = {
-		id = 43003,
-		damage = "31 x 6",
-		base = 43000,
+	[45403] = {
+		id = 45403,
+		damage = "74 x 2",
+		base = 45400,
 		weapon_id = {
-			43003
+			45403
 		}
 	},
-	[43004] = {
-		id = 43004,
-		damage = "33 x 6",
-		base = 43000,
+	[45404] = {
+		id = 45404,
+		damage = "82 x 2",
+		base = 45400,
 		weapon_id = {
-			43004
+			45404
 		}
 	},
-	[43005] = {
-		id = 43005,
-		damage = "35 x 6",
-		base = 43000,
+	[45405] = {
+		id = 45405,
+		damage = "90 x 2",
+		base = 45400,
 		weapon_id = {
-			43005
+			45405
 		}
 	},
-	[43006] = {
-		id = 43006,
-		damage = "37 x 6",
-		base = 43000,
+	[45406] = {
+		id = 45406,
+		damage = "98 x 2",
+		base = 45400,
 		weapon_id = {
-			43006
+			45406
 		}
 	},
-	[43020] = {
-		name = "203mmSKC連装砲",
-		speciality = "追尾",
-		type = 3,
+	[45420] = {
+		name = "潜水艦用G7e音響追跡魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 2,
-		descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
+		descrip = "0",
 		value_2 = 25,
-		icon = "43000",
-		attribute_2 = "cannon",
+		icon = "45400",
+		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "27 x 6",
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 43020,
+		id = 45420,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1401
+				3,
+				1826
 			}
 		},
 		equip_info = {
@@ -138,11 +209,11 @@ pg.equip_data_statistics_300 = {
 			2,
 			{
 				3,
-				1401
+				1826
 			},
 			{
 				4,
-				1206
+				1601
 			},
 			6,
 			10,
@@ -150,84 +221,22 @@ pg.equip_data_statistics_300 = {
 			12
 		},
 		weapon_id = {
-			43020
+			45420
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CA",
-			"MG",
-			"AP"
-		}
-	},
-	[43021] = {
-		id = 43021,
-		damage = "29 x 6",
-		base = 43020,
-		weapon_id = {
-			43021
-		}
-	},
-	[43022] = {
-		id = 43022,
-		damage = "31 x 6",
-		base = 43020,
-		weapon_id = {
-			43022
-		}
-	},
-	[43023] = {
-		id = 43023,
-		damage = "33 x 6",
-		base = 43020,
-		weapon_id = {
-			43023
-		}
-	},
-	[43024] = {
-		id = 43024,
-		damage = "35 x 6",
-		base = 43020,
-		weapon_id = {
-			43024
-		}
-	},
-	[43025] = {
-		id = 43025,
-		damage = "37 x 6",
-		base = 43020,
-		weapon_id = {
-			43025
-		}
-	},
-	[43026] = {
-		id = 43026,
-		damage = "39 x 6",
-		base = 43020,
-		weapon_id = {
-			43026
-		}
-	},
-	[43027] = {
-		id = 43027,
-		damage = "41 x 6",
-		base = 43020,
-		weapon_id = {
-			43027
-		}
-	},
-	[43028] = {
-		id = 43028,
-		damage = "43 x 6",
-		base = 43020,
-		weapon_id = {
-			43028
+			"SS",
+			"TP"
 		}
 	}
 }

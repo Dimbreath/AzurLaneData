@@ -1,188 +1,256 @@
 pg = pg or {}
 pg.equip_data_statistics_325 = {
-	[46345] = {
-		id = 46345,
-		damage = "84/回",
-		base = 46340,
+	[60313] = {
+		id = 60313,
+		base = 60311,
 		weapon_id = {
-			46345
+			60313
 		}
 	},
-	[46346] = {
-		id = 46346,
-		damage = "91/回",
-		base = 46340,
-		weapon_id = {
-			46346
-		}
-	},
-	[46347] = {
-		id = 46347,
-		damage = "98/回",
-		base = 46340,
-		weapon_id = {
-			46347
-		}
-	},
-	[46348] = {
-		id = 46348,
-		damage = "106/回",
-		base = 46340,
-		weapon_id = {
-			46348
-		}
-	},
-	[46349] = {
-		id = 46349,
-		damage = "114/回",
-		base = 46340,
-		weapon_id = {
-			46349
-		}
-	},
-	[46350] = {
-		id = 46350,
-		damage = "122/回",
-		base = 46340,
-		weapon_id = {
-			46350
-		}
-	},
-	[46351] = {
-		anti_siren = 100,
-		damage = "122/回",
-		base = 46340,
-		id = 46351,
-		weapon_id = {
-			46351
-		}
-	},
-	[46352] = {
-		anti_siren = 200,
-		damage = "122/回",
-		base = 46340,
-		id = 46352,
-		weapon_id = {
-			46352
-		}
-	},
-	[46353] = {
-		anti_siren = 300,
-		damage = "122/回",
-		base = 46340,
-		id = 46353,
-		weapon_id = {
-			46353
-		}
-	},
-	[46360] = {
-		name = "105mmSKC高角連装砲改修型",
-		speciality = "対空",
-		type = 6,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "46360",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "55/回",
-		nationality = 4,
-		ammo = 5,
+	[60321] = {
+		name = "航空攻击展示-埃塞克斯I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 46360,
+		id = 60321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			46360
+			60321
 		},
 		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
+		label = {}
+	},
+	[60322] = {
+		descrip = "外观空袭展示用",
+		name = "航空攻击展示-埃塞克斯II",
+		base = 60321,
+		id = 60322,
+		weapon_id = {
+			60322
 		}
 	},
-	[46361] = {
-		id = 46361,
-		damage = "62/回",
-		base = 46360,
+	[60323] = {
+		descrip = "外观空袭展示用",
+		name = "航空攻击展示-埃塞克斯II",
+		base = 60321,
+		id = 60323,
 		weapon_id = {
-			46361
+			60323
 		}
 	},
-	[46362] = {
-		id = 46362,
-		damage = "69/回",
-		base = 46360,
+	[60331] = {
+		name = "航空攻击展示-大凤I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60331,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			46362
+			60331
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60332] = {
+		descrip = "外观空袭展示用",
+		name = "航空攻击展示-大凤II",
+		base = 60331,
+		id = 60332,
+		weapon_id = {
+			60332
 		}
 	},
-	[46363] = {
-		id = 46363,
-		damage = "76/回",
-		base = 46360,
+	[60333] = {
+		descrip = "外观空袭展示用",
+		name = "航空攻击展示-大凤III",
+		base = 60331,
+		id = 60333,
 		weapon_id = {
-			46363
+			60333
 		}
 	},
-	[46364] = {
-		id = 46364,
-		damage = "83/回",
-		base = 46360,
+	[60341] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60341,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			46364
+			60341
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60342] = {
+		id = 60342,
+		base = 60341,
+		weapon_id = {
+			60342
 		}
 	},
-	[46365] = {
-		id = 46365,
-		damage = "90/回",
-		base = 46360,
+	[60343] = {
+		id = 60343,
+		base = 60341,
 		weapon_id = {
-			46365
+			60343
 		}
 	},
-	[46366] = {
-		id = 46366,
-		damage = "97/回",
-		base = 46360,
+	[60351] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			46366
+			60351
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60352] = {
+		id = 60352,
+		base = 60351,
+		weapon_id = {
+			60352
 		}
+	},
+	[60353] = {
+		id = 60353,
+		base = 60351,
+		weapon_id = {
+			60353
+		}
+	},
+	[60361] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60361
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60362] = {
+		id = 60362,
+		base = 60361,
+		weapon_id = {
+			60362
+		}
+	},
+	[60363] = {
+		id = 60363,
+		base = 60361,
+		weapon_id = {
+			60363
+		}
+	},
+	[60371] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "外观空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60371
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
 	}
 }

@@ -57,7 +57,7 @@ function slot0.handleNotification(slot0, slot1)
 		seriesAsync({
 			function (slot0)
 				uv0.viewComponent:OnCatteryOPDone()
-				uv0.viewComponent:OnOpAnimtion(uv1.cmd, slot0)
+				uv0.viewComponent:OnOpAnimtion(uv1.cmd, uv1.opCatteries, slot0)
 			end,
 			function (slot0)
 				uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.awards, slot0)
@@ -65,13 +65,7 @@ function slot0.handleNotification(slot0, slot1)
 				uv0.viewComponent.forbiddenClose = false
 			end,
 			function (slot0)
-				if uv0.cmd == 1 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_op_clean_success"))
-				elseif slot1 == 2 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_op_feed_success"))
-				elseif slot1 == 3 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_op_play_success"))
-				end
+				slot1 = uv0.cmd
 
 				uv1.viewComponent:OnDisplayAwardDone(uv0)
 			end
@@ -79,7 +73,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
 		slot0.viewComponent:OnZeroHour()
 	elseif slot2 == GAME.CALC_CATTERY_EXP_DONE then
-		slot0.viewComponent:OnCommanderExpChange()
+		slot0.viewComponent:OnCommanderExpChange(slot3.commanderExps)
 	end
 end
 

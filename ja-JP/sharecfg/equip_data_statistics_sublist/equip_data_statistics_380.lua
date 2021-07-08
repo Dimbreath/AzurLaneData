@@ -1,122 +1,258 @@
 pg = pg or {}
 pg.equip_data_statistics_380 = {
-	[89007] = {
-		id = 89007,
-		value_2 = 12,
-		value_1 = "22",
-		base = 89000
-	},
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
-		base = 89000
-	},
-	[89009] = {
-		id = 89009,
-		value_2 = 14,
-		value_1 = "24",
-		base = 89000
-	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
-		base = 89000
-	},
-	[89011] = {
-		id = 89011,
-		anti_siren = 100,
-		base = 89000,
-		value_2 = 16,
-		value_1 = "26"
-	},
-	[89012] = {
-		id = 89012,
-		anti_siren = 200,
-		base = 89000,
-		value_2 = 17,
-		value_1 = "27"
-	},
-	[89013] = {
-		id = 89013,
-		anti_siren = 300,
-		base = 89000,
-		value_2 = 18,
-		value_1 = "28"
-	},
-	[89020] = {
-		name = "ぴょこぴょこ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89020,
-		value_2 = 1,
-		icon = "89020",
-		value_1 = "200",
-		attribute_2 = "luck",
-		rarity = 5,
-		descrip = "キズナアイのトレードマーク。ぴょこぴょこが本体という説も未だ根強く、ぴょこぴょこを取ると何が起こるのか……そもそもこれ、取れるんですか？",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6390
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
+	[90603] = {
+		id = 90603,
+		damage = "50/回",
+		base = 90600,
+		weapon_id = {
+			90603
 		}
 	},
-	[89021] = {
-		id = 89021,
-		value_1 = "230",
-		base = 89020
+	[90604] = {
+		id = 90604,
+		damage = "54/回",
+		base = 90600,
+		weapon_id = {
+			90604
+		}
 	},
-	[89022] = {
-		id = 89022,
-		value_1 = "260",
-		base = 89020
+	[90605] = {
+		id = 90605,
+		damage = "58/回",
+		base = 90600,
+		weapon_id = {
+			90605
+		}
 	},
-	[89023] = {
-		id = 89023,
-		value_1 = "290",
-		base = 89020
+	[90606] = {
+		id = 90606,
+		damage = "62/回",
+		base = 90600,
+		weapon_id = {
+			90606
+		}
 	},
-	[89024] = {
-		id = 89024,
-		value_1 = "320",
-		base = 89020
+	[90607] = {
+		id = 90607,
+		damage = "66/回",
+		base = 90600,
+		weapon_id = {
+			90607
+		}
 	},
-	[89025] = {
-		id = 89025,
-		value_1 = "350",
-		base = 89020
+	[90608] = {
+		id = 90608,
+		damage = "70/回",
+		base = 90600,
+		weapon_id = {
+			90608
+		}
 	},
-	[89026] = {
-		id = 89026,
-		value_1 = "380",
-		base = 89020
+	[90609] = {
+		id = 90609,
+		damage = "74/回",
+		base = 90600,
+		weapon_id = {
+			90609
+		}
 	},
-	[89027] = {
-		id = 89027,
-		value_1 = "410",
-		base = 89020
+	[90610] = {
+		id = 90610,
+		damage = "78/回",
+		base = 90600,
+		weapon_id = {
+			90610
+		}
 	},
-	[89028] = {
-		id = 89028,
-		value_1 = "440",
-		base = 89020
+	[90611] = {
+		anti_siren = 100,
+		damage = "78/回",
+		base = 90600,
+		id = 90611,
+		weapon_id = {
+			90611
+		}
+	},
+	[90612] = {
+		anti_siren = 200,
+		damage = "78/回",
+		base = 90600,
+		id = 90612,
+		weapon_id = {
+			90612
+		}
+	},
+	[90613] = {
+		anti_siren = 300,
+		damage = "78/回",
+		base = 90600,
+		id = 90613,
+		weapon_id = {
+			90613
+		}
+	},
+	[90700] = {
+		name = "138.6mm単装砲Mle1927",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "50700",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "4 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90700
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90701] = {
+		id = 90701,
+		damage = "4 x 4",
+		base = 90700,
+		weapon_id = {
+			90701
+		}
+	},
+	[90702] = {
+		id = 90702,
+		damage = "5 x 4",
+		base = 90700,
+		weapon_id = {
+			90702
+		}
+	},
+	[90703] = {
+		id = 90703,
+		damage = "6 x 4",
+		base = 90700,
+		weapon_id = {
+			90703
+		}
+	},
+	[90720] = {
+		name = "138.6mm単装砲Mle1927",
+		speciality = "追尾",
+		type = 1,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50700",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "6 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90720,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90720
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90721] = {
+		id = 90721,
+		damage = "7 x 4",
+		base = 90720,
+		weapon_id = {
+			90721
+		}
 	}
 }

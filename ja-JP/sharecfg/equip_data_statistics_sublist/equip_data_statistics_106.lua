@@ -1,178 +1,190 @@
 pg = pg or {}
 pg.equip_data_statistics_106 = {
-	[14362] = {
-		id = 14362,
-		damage = "76 x 3",
-		base = 14360,
+	[15124] = {
+		id = 15124,
+		damage = "103 x 3",
+		base = 15120,
 		weapon_id = {
-			14362
+			15124
 		}
 	},
-	[14363] = {
-		id = 14363,
-		damage = "86 x 3",
-		base = 14360,
+	[15125] = {
+		id = 15125,
+		damage = "113 x 3",
+		base = 15120,
 		weapon_id = {
-			14363
+			15125
 		}
 	},
-	[14364] = {
-		id = 14364,
-		damage = "96 x 3",
-		base = 14360,
+	[15126] = {
+		id = 15126,
+		damage = "123 x 3",
+		base = 15120,
 		weapon_id = {
-			14364
+			15126
 		}
 	},
-	[14365] = {
-		id = 14365,
-		damage = "106 x 3",
-		base = 14360,
+	[15127] = {
+		id = 15127,
+		damage = "133 x 3",
+		base = 15120,
 		weapon_id = {
-			14365
+			15127
 		}
 	},
-	[14366] = {
-		id = 14366,
-		damage = "116 x 3",
-		base = 14360,
+	[15128] = {
+		id = 15128,
+		damage = "143 x 3",
+		base = 15120,
 		weapon_id = {
-			14366
+			15128
 		}
 	},
-	[14367] = {
-		id = 14367,
-		damage = "124 x 3",
-		base = 14360,
+	[15129] = {
+		id = 15129,
+		damage = "153 x 3",
+		base = 15120,
 		weapon_id = {
-			14367
+			15129
 		}
 	},
-	[14368] = {
-		id = 14368,
-		damage = "134 x 3",
-		base = 14360,
+	[15130] = {
+		id = 15130,
+		damage = "163 x 3",
+		base = 15120,
 		weapon_id = {
-			14368
+			15130
 		}
 	},
-	[14369] = {
-		id = 14369,
-		damage = "144 x 3",
-		base = 14360,
-		weapon_id = {
-			14369
-		}
-	},
-	[14370] = {
-		id = 14370,
-		damage = "154 x 3",
-		base = 14360,
-		weapon_id = {
-			14370
-		}
-	},
-	[14371] = {
-		anti_siren = 100,
-		damage = "154 x 3",
-		base = 14360,
-		id = 14371,
-		weapon_id = {
-			14371
-		}
-	},
-	[14372] = {
-		anti_siren = 200,
-		damage = "154 x 3",
-		base = 14360,
-		id = 14372,
-		weapon_id = {
-			14372
-		}
-	},
-	[14373] = {
-		anti_siren = 300,
-		damage = "154 x 3",
-		base = 14360,
-		id = 14373,
-		weapon_id = {
-			14373
-		}
-	},
-	[14380] = {
-		name = "406mm三連装砲Mk2",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
+	[15140] = {
+		name = "潜水艦用Mark16魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "14380",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "60 x 3",
+		value_2 = 45,
+		icon = "15100",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "72 x 3",
 		nationality = 1,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 14380,
+		id = 15140,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1510
+				3,
+				1822
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1822
+			},
+			{
+				4,
+				1602
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			14380
+			15140
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"BB",
-			"MG"
+			"SS",
+			"TP"
 		}
 	},
-	[14381] = {
-		id = 14381,
-		damage = "70 x 3",
-		base = 14380,
+	[15141] = {
+		id = 15141,
+		damage = "82 x 3",
+		base = 15140,
 		weapon_id = {
-			14381
+			15141
 		}
 	},
-	[14382] = {
-		id = 14382,
-		damage = "80 x 3",
-		base = 14380,
+	[15142] = {
+		id = 15142,
+		damage = "93 x 3",
+		base = 15140,
 		weapon_id = {
-			14382
+			15142
 		}
 	},
-	[14383] = {
-		id = 14383,
-		damage = "88 x 3",
-		base = 14380,
+	[15143] = {
+		id = 15143,
+		damage = "104 x 3",
+		base = 15140,
 		weapon_id = {
-			14383
+			15143
+		}
+	},
+	[15144] = {
+		id = 15144,
+		damage = "115 x 3",
+		base = 15140,
+		weapon_id = {
+			15144
+		}
+	},
+	[15145] = {
+		id = 15145,
+		damage = "126 x 3",
+		base = 15140,
+		weapon_id = {
+			15145
+		}
+	},
+	[15146] = {
+		id = 15146,
+		damage = "137 x 3",
+		base = 15140,
+		weapon_id = {
+			15146
+		}
+	},
+	[15147] = {
+		id = 15147,
+		damage = "148 x 3",
+		base = 15140,
+		weapon_id = {
+			15147
+		}
+	},
+	[15148] = {
+		id = 15148,
+		damage = "159 x 3",
+		base = 15140,
+		weapon_id = {
+			15148
+		}
+	},
+	[15149] = {
+		id = 15149,
+		damage = "170 x 3",
+		base = 15140,
+		weapon_id = {
+			15149
 		}
 	}
 }

@@ -1,236 +1,304 @@
 pg = pg or {}
 pg.equip_data_statistics_113 = {
-	[15140] = {
-		name = "潜水艦用Mark16魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 3,
+	[16090] = {
+		id = 16090,
+		damage = "94/回",
+		base = 16080,
+		weapon_id = {
+			16090
+		}
+	},
+	[16091] = {
+		anti_siren = 100,
+		damage = "94/回",
+		base = 16080,
+		id = 16091,
+		weapon_id = {
+			16091
+		}
+	},
+	[16092] = {
+		anti_siren = 200,
+		damage = "94/回",
+		base = 16080,
+		id = 16092,
+		weapon_id = {
+			16092
+		}
+	},
+	[16093] = {
+		anti_siren = 300,
+		damage = "94/回",
+		base = 16080,
+		id = 16093,
+		weapon_id = {
+			16093
+		}
+	},
+	[16100] = {
+		name = "20mm二連装エリコン機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
-		icon = "15100",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "72 x 3",
+		value_2 = 5,
+		icon = "16100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "14/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 15140,
+		id = 16100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1822
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1822
-			},
-			{
-				4,
-				1602
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15140
+			16100
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[15141] = {
-		id = 15141,
-		damage = "82 x 3",
-		base = 15140,
+	[16101] = {
+		id = 16101,
+		damage = "16/回",
+		base = 16100,
 		weapon_id = {
-			15141
+			16101
 		}
 	},
-	[15142] = {
-		id = 15142,
-		damage = "93 x 3",
-		base = 15140,
+	[16102] = {
+		id = 16102,
+		damage = "18/回",
+		base = 16100,
 		weapon_id = {
-			15142
+			16102
 		}
 	},
-	[15143] = {
-		id = 15143,
-		damage = "104 x 3",
-		base = 15140,
+	[16103] = {
+		id = 16103,
+		damage = "20/回",
+		base = 16100,
 		weapon_id = {
-			15143
+			16103
 		}
 	},
-	[15144] = {
-		id = 15144,
-		damage = "115 x 3",
-		base = 15140,
-		weapon_id = {
-			15144
-		}
-	},
-	[15145] = {
-		id = 15145,
-		damage = "126 x 3",
-		base = 15140,
-		weapon_id = {
-			15145
-		}
-	},
-	[15146] = {
-		id = 15146,
-		damage = "137 x 3",
-		base = 15140,
-		weapon_id = {
-			15146
-		}
-	},
-	[15147] = {
-		id = 15147,
-		damage = "148 x 3",
-		base = 15140,
-		weapon_id = {
-			15147
-		}
-	},
-	[15148] = {
-		id = 15148,
-		damage = "159 x 3",
-		base = 15140,
-		weapon_id = {
-			15148
-		}
-	},
-	[15149] = {
-		id = 15149,
-		damage = "170 x 3",
-		base = 15140,
-		weapon_id = {
-			15149
-		}
-	},
-	[15150] = {
-		id = 15150,
-		damage = "181 x 3",
-		base = 15140,
-		weapon_id = {
-			15150
-		}
-	},
-	[15151] = {
-		anti_siren = 100,
-		damage = "181 x 3",
-		base = 15140,
-		id = 15151,
-		weapon_id = {
-			15151
-		}
-	},
-	[15152] = {
-		anti_siren = 200,
-		damage = "181 x 3",
-		base = 15140,
-		id = 15152,
-		weapon_id = {
-			15152
-		}
-	},
-	[15153] = {
-		anti_siren = 300,
-		damage = "181 x 3",
-		base = 15140,
-		id = 15153,
-		weapon_id = {
-			15153
-		}
-	},
-	[15160] = {
-		name = "潜水艦用Mark28魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 0,
+	[16120] = {
+		name = "20mm二連装エリコン機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
 		descrip = "0",
-		value_2 = 45,
-		icon = "15160",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "53 x 2",
+		value_2 = 12,
+		icon = "16100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "15/回",
 		nationality = 1,
-		ammo = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 15160,
+		id = 16120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1833
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1833
-			},
-			{
-				4,
-				1601
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15160
+			16120
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[15161] = {
-		id = 15161,
-		damage = "62 x 2",
-		base = 15160,
+	[16121] = {
+		id = 16121,
+		damage = "17/回",
+		base = 16120,
 		weapon_id = {
-			15161
+			16121
+		}
+	},
+	[16122] = {
+		id = 16122,
+		damage = "19/回",
+		base = 16120,
+		weapon_id = {
+			16122
+		}
+	},
+	[16123] = {
+		id = 16123,
+		damage = "21/回",
+		base = 16120,
+		weapon_id = {
+			16123
+		}
+	},
+	[16124] = {
+		id = 16124,
+		damage = "24/回",
+		base = 16120,
+		weapon_id = {
+			16124
+		}
+	},
+	[16125] = {
+		id = 16125,
+		damage = "27/回",
+		base = 16120,
+		weapon_id = {
+			16125
+		}
+	},
+	[16126] = {
+		id = 16126,
+		damage = "30/回",
+		base = 16120,
+		weapon_id = {
+			16126
+		}
+	},
+	[16140] = {
+		name = "20mm二連装エリコン機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "16100",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "18/回",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16141] = {
+		id = 16141,
+		damage = "20/回",
+		base = 16140,
+		weapon_id = {
+			16141
 		}
 	}
 }

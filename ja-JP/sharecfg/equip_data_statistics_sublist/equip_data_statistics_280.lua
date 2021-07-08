@@ -1,409 +1,244 @@
 pg = pg or {}
 pg.equip_data_statistics_280 = {
-	[38204] = {
-		id = 38204,
-		base = 38200,
+	[42065] = {
+		id = 42065,
+		damage = "14 x 4",
+		base = 42060,
+		weapon_id = {
+			42065
+		}
+	},
+	[42066] = {
+		id = 42066,
+		damage = "15 x 4",
+		base = 42060,
+		weapon_id = {
+			42066
+		}
+	},
+	[42067] = {
+		id = 42067,
+		damage = "16 x 4",
+		base = 42060,
+		weapon_id = {
+			42067
+		}
+	},
+	[42068] = {
+		id = 42068,
+		damage = "17 x 4",
+		base = 42060,
+		weapon_id = {
+			42068
+		}
+	},
+	[42069] = {
+		id = 42069,
+		damage = "19 x 4",
+		base = 42060,
+		weapon_id = {
+			42069
+		}
+	},
+	[42070] = {
+		id = 42070,
+		damage = "21 x 4",
+		base = 42060,
+		weapon_id = {
+			42070
+		}
+	},
+	[42071] = {
+		anti_siren = 100,
+		damage = "21 x 4",
+		base = 42060,
+		id = 42071,
+		weapon_id = {
+			42071
+		}
+	},
+	[42100] = {
+		name = "150mmSKC/25三連装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
+		value_2 = 5,
+		icon = "42100",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "7 x 3",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50504
-			},
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
 			{
-				6,
-				50804
+				3,
+				1304
 			},
 			{
 				4,
-				51424
-			}
+				1003
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38204
-		}
-	},
-	[38205] = {
-		id = 38205,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50505
-			},
-			{
-				6,
-				50805
-			},
-			{
-				4,
-				51425
-			}
+			42100
 		},
-		weapon_id = {
-			38205
-		}
-	},
-	[38206] = {
-		id = 38206,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50506
-			},
-			{
-				6,
-				50806
-			},
-			{
-				4,
-				51426
-			}
+		skill_id = {},
+		part_main = {
+			2
 		},
-		weapon_id = {
-			38206
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[38220] = {
-		name = "流星",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
+	[42101] = {
+		id = 42101,
+		damage = "8 x 3",
+		base = 42100,
+		weapon_id = {
+			42101
+		}
+	},
+	[42102] = {
+		id = 42102,
+		damage = "9 x 3",
+		base = 42100,
+		weapon_id = {
+			42102
+		}
+	},
+	[42103] = {
+		id = 42103,
+		damage = "10 x 3",
+		base = 42100,
+		weapon_id = {
+			42103
+		}
+	},
+	[42120] = {
+		name = "150mmSKC/25三連装砲",
+		speciality = "追尾",
+		type = 2,
 		tech = 2,
-		descrip = "20mm機銃2挺、13mm機銃1挺、800kg魚雷を装備した新鋭艦上攻撃機",
-		value_2 = 25,
-		icon = "38200",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
+		descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
+		value_2 = 12,
+		icon = "42100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 3",
+		nationality = 4,
+		ammo = 1,
 		value_3 = 0,
-		id = 38220,
+		id = 42120,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50520
-			},
-			{
-				6,
-				50820
-			},
-			{
-				4,
-				51440
+				1,
+				1304
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38220
+			42120
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			2
 		},
 		part_sub = {
-			6,
-			7
+			5
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"CV",
-			"TB"
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[38221] = {
-		id = 38221,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50521
-			},
-			{
-				6,
-				50821
-			},
-			{
-				4,
-				51441
-			}
-		},
+	[42121] = {
+		id = 42121,
+		damage = "9 x 3",
+		base = 42120,
 		weapon_id = {
-			38221
+			42121
 		}
 	},
-	[38222] = {
-		id = 38222,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50522
-			},
-			{
-				6,
-				50822
-			},
-			{
-				4,
-				51442
-			}
-		},
+	[42122] = {
+		id = 42122,
+		damage = "10 x 3",
+		base = 42120,
 		weapon_id = {
-			38222
+			42122
 		}
 	},
-	[38223] = {
-		id = 38223,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50523
-			},
-			{
-				6,
-				50823
-			},
-			{
-				4,
-				51443
-			}
-		},
+	[42123] = {
+		id = 42123,
+		damage = "11 x 3",
+		base = 42120,
 		weapon_id = {
-			38223
+			42123
 		}
 	},
-	[38224] = {
-		id = 38224,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50524
-			},
-			{
-				6,
-				50824
-			},
-			{
-				4,
-				51444
-			}
-		},
+	[42124] = {
+		id = 42124,
+		damage = "12 x 3",
+		base = 42120,
 		weapon_id = {
-			38224
+			42124
 		}
 	},
-	[38225] = {
-		id = 38225,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50525
-			},
-			{
-				6,
-				50825
-			},
-			{
-				4,
-				51445
-			}
-		},
+	[42125] = {
+		id = 42125,
+		damage = "13 x 3",
+		base = 42120,
 		weapon_id = {
-			38225
-		}
-	},
-	[38226] = {
-		id = 38226,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50526
-			},
-			{
-				6,
-				50826
-			},
-			{
-				4,
-				51446
-			}
-		},
-		weapon_id = {
-			38226
-		}
-	},
-	[38227] = {
-		id = 38227,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50527
-			},
-			{
-				6,
-				50827
-			},
-			{
-				4,
-				51447
-			}
-		},
-		weapon_id = {
-			38227
-		}
-	},
-	[38228] = {
-		id = 38228,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50528
-			},
-			{
-				6,
-				50828
-			},
-			{
-				4,
-				51448
-			}
-		},
-		weapon_id = {
-			38228
-		}
-	},
-	[38229] = {
-		id = 38229,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50529
-			},
-			{
-				6,
-				50829
-			},
-			{
-				4,
-				51449
-			}
-		},
-		weapon_id = {
-			38229
-		}
-	},
-	[38230] = {
-		id = 38230,
-		base = 38220,
-		ammo_info = {
-			{
-				6,
-				50530
-			},
-			{
-				6,
-				50830
-			},
-			{
-				4,
-				51450
-			}
-		},
-		weapon_id = {
-			38230
-		}
-	},
-	[38240] = {
-		name = "流星",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
-		tech = 3,
-		descrip = "20mm機銃2挺、13mm機銃1挺、800kg魚雷を装備した新鋭艦上攻撃機",
-		value_2 = 45,
-		icon = "38200",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50540
-			},
-			{
-				6,
-				50840
-			},
-			{
-				4,
-				51460
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38240
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38241] = {
-		id = 38241,
-		base = 38240,
-		ammo_info = {
-			{
-				6,
-				50541
-			},
-			{
-				6,
-				50841
-			},
-			{
-				4,
-				51461
-			}
-		},
-		weapon_id = {
-			38241
+			42125
 		}
 	}
 }

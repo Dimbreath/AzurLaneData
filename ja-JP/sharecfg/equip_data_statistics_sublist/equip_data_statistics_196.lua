@@ -1,190 +1,392 @@
 pg = pg or {}
 pg.equip_data_statistics_196 = {
-	[26610] = {
-		id = 26610,
-		damage = "96/回",
-		base = 26600,
+	[28065] = {
+		base = 28060,
+		id = 28065,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51065
+			}
+		},
 		weapon_id = {
-			26610
+			28065
+		},
+		skill_id = {
+			6815
 		}
 	},
-	[26611] = {
+	[28066] = {
+		base = 28060,
+		id = 28066,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51066
+			}
+		},
+		weapon_id = {
+			28066
+		},
+		skill_id = {
+			6816
+		}
+	},
+	[28067] = {
+		base = 28060,
+		id = 28067,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51067
+			}
+		},
+		weapon_id = {
+			28067
+		},
+		skill_id = {
+			6817
+		}
+	},
+	[28068] = {
+		base = 28060,
+		id = 28068,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				4,
+				51068
+			}
+		},
+		weapon_id = {
+			28068
+		},
+		skill_id = {
+			6818
+		}
+	},
+	[28069] = {
+		base = 28060,
+		id = 28069,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				4,
+				51069
+			}
+		},
+		weapon_id = {
+			28069
+		},
+		skill_id = {
+			6819
+		}
+	},
+	[28070] = {
+		base = 28060,
+		id = 28070,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				4,
+				51070
+			}
+		},
+		weapon_id = {
+			28070
+		},
+		skill_id = {
+			6820
+		}
+	},
+	[28071] = {
 		anti_siren = 100,
-		damage = "96/回",
-		base = 26600,
-		id = 26611,
+		base = 28060,
+		id = 28071,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51071
+			}
+		},
 		weapon_id = {
-			26611
+			28071
+		},
+		skill_id = {
+			6821
 		}
 	},
-	[26612] = {
+	[28072] = {
 		anti_siren = 200,
-		damage = "96/回",
-		base = 26600,
-		id = 26612,
+		base = 28060,
+		id = 28072,
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				4,
+				51072
+			}
+		},
 		weapon_id = {
-			26612
+			28072
+		},
+		skill_id = {
+			6822
 		}
 	},
-	[26613] = {
+	[28073] = {
 		anti_siren = 300,
-		damage = "96/回",
-		base = 26600,
-		id = 26613,
+		base = 28060,
+		id = 28073,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				51073
+			}
+		},
 		weapon_id = {
-			26613
+			28073
+		},
+		skill_id = {
+			6823
 		}
 	},
-	[26620] = {
-		name = "連装ボフォース40mm機関砲「Hazemeyer」",
-		speciality = "対空",
-		type = 6,
-		attribute_3 = "hit",
-		tech = 0,
-		value_2 = 45,
-		icon = "26620",
-		attribute_2 = "antiaircraft",
+	[28100] = {
+		name = "バラクーダ",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 3,
+		tech = 1,
 		descrip = "0",
-		rarity = 5,
-		damage = "38/回",
+		value_2 = 12,
+		icon = "28100",
+		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 5,
-		id = 26620,
+		value_3 = 0,
+		id = 28100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				4,
+				51100
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26620
+			28100
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"TB"
 		}
 	},
-	[26621] = {
-		id = 26621,
-		damage = "43/回",
-		base = 26620,
+	[28101] = {
+		id = 28101,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				4,
+				51101
+			}
+		},
 		weapon_id = {
-			26621
+			28101
 		}
 	},
-	[26622] = {
-		id = 26622,
-		damage = "48/回",
-		base = 26620,
+	[28102] = {
+		id = 28102,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51102
+			}
+		},
 		weapon_id = {
-			26622
+			28102
 		}
 	},
-	[26623] = {
-		id = 26623,
-		damage = "54/回",
-		base = 26620,
+	[28103] = {
+		id = 28103,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51103
+			}
+		},
 		weapon_id = {
-			26623
+			28103
 		}
 	},
-	[26624] = {
-		id = 26624,
-		damage = "60/回",
-		base = 26620,
+	[28104] = {
+		id = 28104,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50004
+			},
+			{
+				4,
+				51104
+			}
+		},
 		weapon_id = {
-			26624
+			28104
 		}
 	},
-	[26625] = {
-		id = 26625,
-		damage = "66/回",
-		base = 26620,
+	[28105] = {
+		id = 28105,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50005
+			},
+			{
+				4,
+				51105
+			}
+		},
 		weapon_id = {
-			26625
+			28105
 		}
 	},
-	[26626] = {
-		id = 26626,
-		damage = "72/回",
-		base = 26620,
+	[28106] = {
+		id = 28106,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50006
+			},
+			{
+				4,
+				51106
+			}
+		},
 		weapon_id = {
-			26626
+			28106
 		}
 	},
-	[26627] = {
-		id = 26627,
-		damage = "78/回",
-		base = 26620,
+	[28120] = {
+		name = "バラクーダ",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 4,
+		tech = 2,
+		descrip = "0",
+		value_2 = 25,
+		icon = "28100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			26627
-		}
-	},
-	[26628] = {
-		id = 26628,
-		damage = "84/回",
-		base = 26620,
-		weapon_id = {
-			26628
-		}
-	},
-	[26629] = {
-		id = 26629,
-		damage = "90/回",
-		base = 26620,
-		weapon_id = {
-			26629
-		}
-	},
-	[26630] = {
-		id = 26630,
-		damage = "96/回",
-		base = 26620,
-		weapon_id = {
-			26630
-		}
-	},
-	[26631] = {
-		anti_siren = 100,
-		damage = "96/回",
-		base = 26620,
-		id = 26631,
-		weapon_id = {
-			26631
+			28120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
 		}
 	}
 }

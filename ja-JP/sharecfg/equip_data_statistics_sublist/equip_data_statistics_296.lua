@@ -1,250 +1,69 @@
 pg = pg or {}
 pg.equip_data_statistics_296 = {
-	[42070] = {
-		id = 42070,
-		damage = "21 x 4",
-		base = 42060,
+	[45127] = {
+		id = 45127,
+		damage = "112 x 4",
+		base = 45120,
 		weapon_id = {
-			42070
+			45127
 		}
 	},
-	[42071] = {
-		anti_siren = 100,
-		damage = "21 x 4",
-		base = 42060,
-		id = 42071,
+	[45128] = {
+		id = 45128,
+		damage = "119 x 4",
+		base = 45120,
 		weapon_id = {
-			42071
+			45128
 		}
 	},
-	[42100] = {
-		name = "150mmSKC/25三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
-		value_2 = 5,
-		icon = "42100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 3",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[45129] = {
+		id = 45129,
+		damage = "126 x 4",
+		base = 45120,
 		weapon_id = {
-			42100
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			45129
 		}
 	},
-	[42101] = {
-		id = 42101,
-		damage = "8 x 3",
-		base = 42100,
+	[45130] = {
+		id = 45130,
+		damage = "133 x 4",
+		base = 45120,
 		weapon_id = {
-			42101
+			45130
 		}
 	},
-	[42102] = {
-		id = 42102,
-		damage = "9 x 3",
-		base = 42100,
-		weapon_id = {
-			42102
-		}
-	},
-	[42103] = {
-		id = 42103,
-		damage = "10 x 3",
-		base = 42100,
-		weapon_id = {
-			42103
-		}
-	},
-	[42120] = {
-		name = "150mmSKC/25三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 2,
-		descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
-		value_2 = 12,
-		icon = "42100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 3",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42120
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42121] = {
-		id = 42121,
-		damage = "9 x 3",
-		base = 42120,
-		weapon_id = {
-			42121
-		}
-	},
-	[42122] = {
-		id = 42122,
-		damage = "10 x 3",
-		base = 42120,
-		weapon_id = {
-			42122
-		}
-	},
-	[42123] = {
-		id = 42123,
-		damage = "11 x 3",
-		base = 42120,
-		weapon_id = {
-			42123
-		}
-	},
-	[42124] = {
-		id = 42124,
-		damage = "12 x 3",
-		base = 42120,
-		weapon_id = {
-			42124
-		}
-	},
-	[42125] = {
-		id = 42125,
-		damage = "13 x 3",
-		base = 42120,
-		weapon_id = {
-			42125
-		}
-	},
-	[42126] = {
-		id = 42126,
-		damage = "14 x 3",
-		base = 42120,
-		weapon_id = {
-			42126
-		}
-	},
-	[42140] = {
-		name = "150mmSKC/25三連装砲",
-		speciality = "追尾",
-		type = 2,
+	[45140] = {
+		name = "533mm四連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 3,
-		descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
-		value_2 = 25,
-		icon = "42100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 3",
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 45,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 4",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42140,
+		id = 45140,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1003
+				1403
 			},
 			6,
 			10,
@@ -252,37 +71,125 @@ pg.equip_data_statistics_296 = {
 			12
 		},
 		weapon_id = {
-			42140
+			45140
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[42141] = {
-		id = 42141,
-		damage = "10 x 3",
-		base = 42140,
+	[45141] = {
+		id = 45141,
+		damage = "77 x 4",
+		base = 45140,
 		weapon_id = {
-			42141
+			45141
 		}
 	},
-	[42142] = {
-		id = 42142,
-		damage = "11 x 3",
-		base = 42140,
+	[45142] = {
+		id = 45142,
+		damage = "85 x 4",
+		base = 45140,
 		weapon_id = {
-			42142
+			45142
+		}
+	},
+	[45143] = {
+		id = 45143,
+		damage = "92 x 4",
+		base = 45140,
+		weapon_id = {
+			45143
+		}
+	},
+	[45144] = {
+		id = 45144,
+		damage = "100 x 4",
+		base = 45140,
+		weapon_id = {
+			45144
+		}
+	},
+	[45145] = {
+		id = 45145,
+		damage = "107 x 4",
+		base = 45140,
+		weapon_id = {
+			45145
+		}
+	},
+	[45146] = {
+		id = 45146,
+		damage = "115 x 4",
+		base = 45140,
+		weapon_id = {
+			45146
+		}
+	},
+	[45147] = {
+		id = 45147,
+		damage = "122 x 4",
+		base = 45140,
+		weapon_id = {
+			45147
+		}
+	},
+	[45148] = {
+		id = 45148,
+		damage = "130 x 4",
+		base = 45140,
+		weapon_id = {
+			45148
+		}
+	},
+	[45149] = {
+		id = 45149,
+		damage = "137 x 4",
+		base = 45140,
+		weapon_id = {
+			45149
+		}
+	},
+	[45150] = {
+		id = 45150,
+		damage = "145 x 4",
+		base = 45140,
+		weapon_id = {
+			45150
+		}
+	},
+	[45151] = {
+		anti_siren = 100,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45151,
+		weapon_id = {
+			45151
+		}
+	},
+	[45152] = {
+		anti_siren = 200,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45152,
+		weapon_id = {
+			45152
 		}
 	}
 }

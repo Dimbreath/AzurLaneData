@@ -1,182 +1,214 @@
 pg = pg or {}
 pg.equip_data_statistics_110 = {
-	[15021] = {
-		id = 15021,
-		damage = "53 x 3",
-		base = 15020,
+	[15253] = {
+		anti_siren = 300,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15253,
 		weapon_id = {
-			15021
+			15253
 		}
 	},
-	[15022] = {
-		id = 15022,
-		damage = "60 x 3",
-		base = 15020,
-		weapon_id = {
-			15022
-		}
-	},
-	[15023] = {
-		id = 15023,
-		damage = "67 x 3",
-		base = 15020,
-		weapon_id = {
-			15023
-		}
-	},
-	[15024] = {
-		id = 15024,
-		damage = "74 x 3",
-		base = 15020,
-		weapon_id = {
-			15024
-		}
-	},
-	[15025] = {
-		id = 15025,
-		damage = "81 x 3",
-		base = 15020,
-		weapon_id = {
-			15025
-		}
-	},
-	[15026] = {
-		id = 15026,
-		damage = "88 x 3",
-		base = 15020,
-		weapon_id = {
-			15026
-		}
-	},
-	[15040] = {
-		name = "潜水艦用Mark14魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "15000",
-		attribute_2 = "torpedo",
+	[15500] = {
+		name = "PBY-5Aカタリナ",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 15500,
+		value_2 = 10,
+		icon = "15500",
+		value_1 = "14",
+		attribute_2 = "antisub",
 		rarity = 4,
-		damage = "52 x 3",
+		descrip = "対潜哨戒、海難救助などでよく用いられる飛行艇。",
 		nationality = 1,
-		ammo = 5,
+		ammo = 10,
 		value_3 = 0,
-		id = 15040,
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1821
-			}
+		ammo_info = {},
+		equip_info = {
+			6
 		},
+		weapon_id = {},
+		skill_id = {
+			6530
+		},
+		part_main = {
+			1,
+			2,
+			3,
+			11,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			11,
+			18
+		},
+		equip_parameters = {
+			avoid_extra = 1000,
+			ambush_extra = 1000
+		},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[15501] = {
+		id = 15501,
+		value_2 = 12,
+		value_1 = "16",
+		base = 15500
+	},
+	[15502] = {
+		id = 15502,
+		value_2 = 14,
+		value_1 = "18",
+		base = 15500
+	},
+	[15503] = {
+		id = 15503,
+		value_2 = 16,
+		value_1 = "20",
+		base = 15500
+	},
+	[15504] = {
+		id = 15504,
+		value_2 = 18,
+		value_1 = "22",
+		base = 15500
+	},
+	[15505] = {
+		id = 15505,
+		value_2 = 20,
+		value_1 = "24",
+		base = 15500
+	},
+	[15506] = {
+		id = 15506,
+		value_2 = 22,
+		value_1 = "26",
+		base = 15500
+	},
+	[15507] = {
+		id = 15507,
+		value_2 = 24,
+		value_1 = "28",
+		base = 15500
+	},
+	[15508] = {
+		id = 15508,
+		value_2 = 26,
+		value_1 = "30",
+		base = 15500
+	},
+	[15509] = {
+		id = 15509,
+		value_2 = 28,
+		value_1 = "32",
+		base = 15500
+	},
+	[15510] = {
+		id = 15510,
+		value_2 = 30,
+		value_1 = "35",
+		base = 15500
+	},
+	[15511] = {
+		id = 15511,
+		anti_siren = 100,
+		base = 15500,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[16000] = {
+		name = "20mmエリコン機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "16000",
+		damage = "8/回",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1821
-			},
-			{
-				4,
-				1602
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15040
+			16000
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[15041] = {
-		id = 15041,
-		damage = "59 x 3",
-		base = 15040,
+	[16001] = {
+		id = 16001,
+		damage = "9/回",
+		base = 16000,
 		weapon_id = {
-			15041
+			16001
 		}
 	},
-	[15042] = {
-		id = 15042,
-		damage = "67 x 3",
-		base = 15040,
+	[16002] = {
+		id = 16002,
+		damage = "10/回",
+		base = 16000,
 		weapon_id = {
-			15042
+			16002
 		}
 	},
-	[15043] = {
-		id = 15043,
-		damage = "75 x 3",
-		base = 15040,
+	[16003] = {
+		id = 16003,
+		damage = "12/回",
+		base = 16000,
 		weapon_id = {
-			15043
-		}
-	},
-	[15044] = {
-		id = 15044,
-		damage = "83 x 3",
-		base = 15040,
-		weapon_id = {
-			15044
-		}
-	},
-	[15045] = {
-		id = 15045,
-		damage = "91 x 3",
-		base = 15040,
-		weapon_id = {
-			15045
-		}
-	},
-	[15046] = {
-		id = 15046,
-		damage = "99 x 3",
-		base = 15040,
-		weapon_id = {
-			15046
-		}
-	},
-	[15047] = {
-		id = 15047,
-		damage = "107 x 3",
-		base = 15040,
-		weapon_id = {
-			15047
-		}
-	},
-	[15048] = {
-		id = 15048,
-		damage = "115 x 3",
-		base = 15040,
-		weapon_id = {
-			15048
-		}
-	},
-	[15049] = {
-		id = 15049,
-		damage = "123 x 3",
-		base = 15040,
-		weapon_id = {
-			15049
+			16003
 		}
 	}
 }

@@ -276,6 +276,11 @@ function slot0.LoadSkinBg(slot0, slot1)
 				slot0.transform.localScale = Vector3(1, 1, 1)
 
 				slot0.transform:SetSiblingIndex(1)
+
+				if slot0:GetComponent("Canvas") then
+					slot1.sortingOrder = -90
+				end
+
 				setActive(slot0, true)
 			end)
 		end

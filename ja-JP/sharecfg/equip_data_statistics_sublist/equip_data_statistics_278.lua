@@ -1,311 +1,246 @@
 pg = pg or {}
 pg.equip_data_statistics_278 = {
-	[38123] = {
-		id = 38123,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51423
-			}
-		},
+	[41168] = {
+		id = 41168,
+		damage = "14 x 4",
+		base = 41160,
 		weapon_id = {
-			38123
+			41168
 		}
 	},
-	[38124] = {
-		id = 38124,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51424
-			}
-		},
+	[41169] = {
+		id = 41169,
+		damage = "15 x 4",
+		base = 41160,
 		weapon_id = {
-			38124
+			41169
 		}
 	},
-	[38125] = {
-		id = 38125,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51425
-			}
-		},
+	[41170] = {
+		id = 41170,
+		damage = "16 x 4",
+		base = 41160,
 		weapon_id = {
-			38125
+			41170
 		}
 	},
-	[38126] = {
-		id = 38126,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51426
-			}
-		},
+	[41171] = {
+		anti_siren = 100,
+		damage = "16 x 4",
+		base = 41160,
+		id = 41171,
 		weapon_id = {
-			38126
+			41171
 		}
 	},
-	[38140] = {
-		name = "天山",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "38100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
+	[41172] = {
+		anti_siren = 200,
+		damage = "16 x 4",
+		base = 41160,
+		id = 41172,
+		weapon_id = {
+			41172
+		}
+	},
+	[41173] = {
+		anti_siren = 300,
+		damage = "16 x 4",
+		base = 41160,
+		id = 41173,
+		weapon_id = {
+			41173
+		}
+	},
+	[42000] = {
+		name = "150mmSKC/28単装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+		value_2 = 5,
+		icon = "42000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "7 x 1",
+		nationality = 4,
+		ammo = 1,
 		value_3 = 0,
-		id = 38140,
+		id = 42000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50040
-			},
-			{
-				4,
-				51440
+				1,
+				1304
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1000
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38140
+			42000
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			2
 		},
 		part_sub = {
-			6,
-			7
+			5
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"CV",
-			"TB"
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[38141] = {
-		id = 38141,
-		base = 38140,
+	[42001] = {
+		id = 42001,
+		damage = "8 x 1",
+		base = 42000,
+		weapon_id = {
+			42001
+		}
+	},
+	[42002] = {
+		id = 42002,
+		damage = "9 x 1",
+		base = 42000,
+		weapon_id = {
+			42002
+		}
+	},
+	[42003] = {
+		id = 42003,
+		damage = "10 x 1",
+		base = 42000,
+		weapon_id = {
+			42003
+		}
+	},
+	[42020] = {
+		name = "150mmSKC/28単装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 2,
+		descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+		value_2 = 12,
+		icon = "42000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 1",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50041
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
 			},
 			{
 				4,
-				51441
-			}
+				1000
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38141
+			42020
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[38142] = {
-		id = 38142,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				4,
-				51442
-			}
-		},
+	[42021] = {
+		id = 42021,
+		damage = "9 x 1",
+		base = 42020,
 		weapon_id = {
-			38142
+			42021
 		}
 	},
-	[38143] = {
-		id = 38143,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				51443
-			}
-		},
+	[42022] = {
+		id = 42022,
+		damage = "10 x 1",
+		base = 42020,
 		weapon_id = {
-			38143
+			42022
 		}
 	},
-	[38144] = {
-		id = 38144,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51444
-			}
-		},
+	[42023] = {
+		id = 42023,
+		damage = "11 x 1",
+		base = 42020,
 		weapon_id = {
-			38144
+			42023
 		}
 	},
-	[38145] = {
-		id = 38145,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51445
-			}
-		},
+	[42024] = {
+		id = 42024,
+		damage = "12 x 1",
+		base = 42020,
 		weapon_id = {
-			38145
+			42024
 		}
 	},
-	[38146] = {
-		id = 38146,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51446
-			}
-		},
+	[42025] = {
+		id = 42025,
+		damage = "13 x 1",
+		base = 42020,
 		weapon_id = {
-			38146
+			42025
 		}
 	},
-	[38147] = {
-		id = 38147,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51447
-			}
-		},
+	[42026] = {
+		id = 42026,
+		damage = "14 x 1",
+		base = 42020,
 		weapon_id = {
-			38147
-		}
-	},
-	[38148] = {
-		id = 38148,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51448
-			}
-		},
-		weapon_id = {
-			38148
-		}
-	},
-	[38149] = {
-		id = 38149,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51449
-			}
-		},
-		weapon_id = {
-			38149
-		}
-	},
-	[38150] = {
-		id = 38150,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51450
-			}
-		},
-		weapon_id = {
-			38150
-		}
-	},
-	[38151] = {
-		anti_siren = 100,
-		base = 38140,
-		id = 38151,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51451
-			}
-		},
-		weapon_id = {
-			38151
+			42026
 		}
 	}
 }

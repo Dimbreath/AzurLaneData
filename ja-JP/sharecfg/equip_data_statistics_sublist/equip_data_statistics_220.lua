@@ -1,109 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_220 = {
-	[31021] = {
-		id = 31021,
-		base = 31020,
+	[33002] = {
+		id = 33002,
+		damage = "26 x 4",
+		base = 33000,
 		weapon_id = {
-			31021
+			33002
 		}
 	},
-	[31022] = {
-		id = 31022,
-		damage = "6 x 4",
-		base = 31020,
+	[33003] = {
+		id = 33003,
+		damage = "28 x 4",
+		base = 33000,
 		weapon_id = {
-			31022
+			33003
 		}
 	},
-	[31023] = {
-		id = 31023,
-		damage = "6 x 4",
-		base = 31020,
-		weapon_id = {
-			31023
-		}
-	},
-	[31024] = {
-		id = 31024,
-		damage = "7 x 4",
-		base = 31020,
-		weapon_id = {
-			31024
-		}
-	},
-	[31025] = {
-		id = 31025,
-		damage = "8 x 4",
-		base = 31020,
-		weapon_id = {
-			31025
-		}
-	},
-	[31026] = {
-		id = 31026,
-		damage = "8 x 4",
-		base = 31020,
-		weapon_id = {
-			31026
-		}
-	},
-	[31027] = {
-		id = 31027,
-		damage = "9 x 4",
-		base = 31020,
-		weapon_id = {
-			31027
-		}
-	},
-	[31028] = {
-		id = 31028,
-		damage = "9 x 4",
-		base = 31020,
-		weapon_id = {
-			31028
-		}
-	},
-	[31029] = {
-		id = 31029,
-		damage = "10 x 4",
-		base = 31020,
-		weapon_id = {
-			31029
-		}
-	},
-	[31030] = {
-		id = 31030,
-		damage = "11 x 4",
-		base = 31020,
-		weapon_id = {
-			31030
-		}
-	},
-	[31040] = {
-		name = "100mm二連装九八式高角砲",
+	[33020] = {
+		name = "203mm連装砲",
 		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 3,
-		value_2 = 15,
-		icon = "31000",
-		attribute_2 = "cannon",
+		type = 3,
+		tech = 2,
 		descrip = "0",
-		rarity = 5,
-		damage = "4 x 4",
+		value_2 = 12,
+		icon = "33000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "24 x 4",
 		nationality = 3,
-		ammo = 3,
-		value_3 = 30,
-		id = 31040,
+		ammo = 2,
+		value_3 = 0,
+		id = 33020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				1,
-				1200
+				1402
 			}
 		},
 		equip_info = {
@@ -111,11 +47,11 @@ pg.equip_data_statistics_220 = {
 			2,
 			{
 				3,
-				1200
+				1402
 			},
 			{
 				4,
-				1001
+				1205
 			},
 			6,
 			10,
@@ -123,66 +59,183 @@ pg.equip_data_statistics_220 = {
 			12
 		},
 		weapon_id = {
-			31040
+			33020
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
 			3,
-			4,
-			5,
-			8,
-			13,
 			18
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"DD",
-			"MG"
+			"CA",
+			"MG",
+			"HE"
 		}
 	},
-	[31041] = {
-		id = 31041,
-		base = 31040,
+	[33021] = {
+		id = 33021,
+		damage = "26 x 4",
+		base = 33020,
 		weapon_id = {
-			31041
+			33021
 		}
 	},
-	[31042] = {
-		id = 31042,
-		damage = "7 x 4",
-		base = 31040,
+	[33022] = {
+		id = 33022,
+		damage = "28 x 4",
+		base = 33020,
 		weapon_id = {
-			31042
+			33022
 		}
 	},
-	[31043] = {
-		id = 31043,
-		damage = "7 x 4",
-		base = 31040,
+	[33023] = {
+		id = 33023,
+		damage = "30 x 4",
+		base = 33020,
 		weapon_id = {
-			31043
+			33023
 		}
 	},
-	[31044] = {
-		id = 31044,
-		damage = "8 x 4",
-		base = 31040,
+	[33024] = {
+		id = 33024,
+		damage = "32 x 4",
+		base = 33020,
 		weapon_id = {
-			31044
+			33024
 		}
 	},
-	[31045] = {
-		id = 31045,
-		damage = "9 x 4",
-		base = 31040,
+	[33025] = {
+		id = 33025,
+		damage = "34 x 4",
+		base = 33020,
 		weapon_id = {
-			31045
+			33025
+		}
+	},
+	[33026] = {
+		id = 33026,
+		damage = "36 x 4",
+		base = 33020,
+		weapon_id = {
+			33026
+		}
+	},
+	[33040] = {
+		name = "203mm連装砲",
+		speciality = "追尾",
+		type = 3,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "33000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "26 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 33040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			33040
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[33041] = {
+		id = 33041,
+		damage = "28 x 4",
+		base = 33040,
+		weapon_id = {
+			33041
+		}
+	},
+	[33042] = {
+		id = 33042,
+		damage = "30 x 4",
+		base = 33040,
+		weapon_id = {
+			33042
+		}
+	},
+	[33043] = {
+		id = 33043,
+		damage = "32 x 4",
+		base = 33040,
+		weapon_id = {
+			33043
+		}
+	},
+	[33044] = {
+		id = 33044,
+		damage = "34 x 4",
+		base = 33040,
+		weapon_id = {
+			33044
+		}
+	},
+	[33045] = {
+		id = 33045,
+		damage = "36 x 4",
+		base = 33040,
+		weapon_id = {
+			33045
+		}
+	},
+	[33046] = {
+		id = 33046,
+		damage = "38 x 4",
+		base = 33040,
+		weapon_id = {
+			33046
+		}
+	},
+	[33047] = {
+		id = 33047,
+		damage = "40 x 4",
+		base = 33040,
+		weapon_id = {
+			33047
 		}
 	}
 }

@@ -2,31 +2,6 @@ pg = pg or {}
 pg.weapon_property_90 = {}
 
 function ()
-	uv0.weapon_property_90[52422] = {
-		id = 52422,
-		damage = 171,
-		base = 52420
-	}
-	uv0.weapon_property_90[52423] = {
-		id = 52423,
-		damage = 191,
-		base = 52420
-	}
-	uv0.weapon_property_90[52424] = {
-		id = 52424,
-		damage = 210,
-		base = 52420
-	}
-	uv0.weapon_property_90[52425] = {
-		id = 52425,
-		damage = 230,
-		base = 52420
-	}
-	uv0.weapon_property_90[52426] = {
-		id = 52426,
-		damage = 249,
-		base = 52420
-	}
 	uv0.weapon_property_90[52427] = {
 		id = 52427,
 		damage = 269,
@@ -466,6 +441,36 @@ function ()
 	uv0.weapon_property_90[52547] = {
 		id = 52547,
 		damage = 293,
+		base = 52540
+	}
+	uv0.weapon_property_90[52548] = {
+		id = 52548,
+		damage = 315,
+		base = 52540
+	}
+	uv0.weapon_property_90[52549] = {
+		id = 52549,
+		damage = 338,
+		base = 52540
+	}
+	uv0.weapon_property_90[52550] = {
+		id = 52550,
+		damage = 360,
+		base = 52540
+	}
+	uv0.weapon_property_90[52551] = {
+		id = 52551,
+		damage = 374,
+		base = 52540
+	}
+	uv0.weapon_property_90[52552] = {
+		id = 52552,
+		damage = 396,
+		base = 52540
+	}
+	uv0.weapon_property_90[52553] = {
+		id = 52553,
+		damage = 425,
 		base = 52540
 	}
 end()

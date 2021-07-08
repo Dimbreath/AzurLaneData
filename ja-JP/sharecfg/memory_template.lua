@@ -17160,6 +17160,50 @@ pg.memory_template = {
 		icon = "memory_boyixi",
 		is_open = 0
 	},
+	[1732] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新しい旅-チェシャー",
+		condition = "特別計画艦強化レベル30達成",
+		story = "LUCK29903",
+		id = 1732,
+		icon = "memory_chaijun",
+		is_open = 0
+	},
+	[1733] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新しい旅-シャンパーニュ",
+		condition = "特別計画艦強化レベル30達成",
+		story = "LUCK89902",
+		id = 1733,
+		icon = "memory_xiangbin",
+		is_open = 0
+	},
+	[1734] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新しい旅-オーディン",
+		condition = "特別計画艦強化レベル30達成",
+		story = "LUCK49904",
+		id = 1734,
+		icon = "memory_aoding",
+		is_open = 0
+	},
+	[1735] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新しい旅-マインツ",
+		condition = "特別計画艦強化レベル30達成",
+		story = "LUCK49903",
+		id = 1735,
+		icon = "memory_meiyinci",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -19612,6 +19656,10 @@ pg.memory_template = {
 		1729,
 		1730,
 		1731,
+		1732,
+		1733,
+		1734,
+		1735,
 		10000,
 		10001,
 		10002,

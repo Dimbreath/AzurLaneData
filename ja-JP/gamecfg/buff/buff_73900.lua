@@ -16,7 +16,7 @@ return {
 			arg_list = {
 				buff_id = 73901,
 				target = {
-					"TargetAllHarm"
+					"TargetAllFoe"
 				}
 			}
 		}

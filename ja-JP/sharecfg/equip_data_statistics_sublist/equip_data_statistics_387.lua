@@ -1,130 +1,231 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
-	[89167] = {
-		id = 89167,
-		value_2 = 24,
-		value_1 = "28",
-		base = 89160
-	},
-	[89168] = {
-		id = 89168,
-		value_2 = 26,
-		value_1 = "30",
-		base = 89160
-	},
-	[89169] = {
-		id = 89169,
-		value_2 = 28,
-		value_1 = "32",
-		base = 89160
-	},
-	[89170] = {
-		id = 89170,
-		value_2 = 30,
-		value_1 = "35",
-		base = 89160
-	},
-	[89171] = {
-		id = 89171,
-		anti_siren = 100,
-		base = 89160,
-		value_2 = 32,
-		value_1 = "38"
-	},
-	[89172] = {
-		id = 89172,
-		anti_siren = 200,
-		base = 89160,
-		value_2 = 34,
-		value_1 = "41"
-	},
-	[89173] = {
-		id = 89173,
-		anti_siren = 300,
-		base = 89160,
-		value_2 = 36,
-		value_1 = "44"
-	},
-	[89180] = {
-		name = "輝けるアストラム",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89180,
-		value_2 = 15,
-		icon = "89180",
-		value_1 = "14",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "「私たちの歌で、愛と平和、そして光を遠くへと届けましょう」",
-		nationality = 0,
-		ammo = 10,
+	[95020] = {
+		name = "381mm三連装砲Model1934",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+		value_2 = 25,
+		icon = "55000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "47 x 3",
+		nationality = 6,
+		ammo = 1,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 95020,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1561
+			}
+		},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
 		},
-		weapon_id = {},
-		skill_id = {
-			6712
+		weapon_id = {
+			95020
 		},
-		part_main = {},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"RN",
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[89181] = {
-		id = 89181,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89180
+	[95021] = {
+		id = 95021,
+		damage = "56 x 3",
+		base = 95020,
+		weapon_id = {
+			95021
+		}
 	},
-	[89182] = {
-		id = 89182,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89180
+	[95022] = {
+		id = 95022,
+		damage = "64 x 3",
+		base = 95020,
+		weapon_id = {
+			95022
+		}
 	},
-	[89183] = {
-		id = 89183,
-		value_2 = 18,
-		value_1 = "20",
-		base = 89180
+	[95023] = {
+		id = 95023,
+		damage = "73 x 3",
+		base = 95020,
+		weapon_id = {
+			95023
+		}
 	},
-	[89184] = {
-		id = 89184,
-		value_2 = 19,
-		value_1 = "22",
-		base = 89180
+	[95024] = {
+		id = 95024,
+		damage = "82 x 3",
+		base = 95020,
+		weapon_id = {
+			95024
+		}
 	},
-	[89185] = {
-		id = 89185,
-		value_2 = 20,
-		value_1 = "24",
-		base = 89180
+	[95025] = {
+		id = 95025,
+		damage = "91 x 3",
+		base = 95020,
+		weapon_id = {
+			95025
+		}
 	},
-	[89186] = {
-		id = 89186,
-		value_2 = 22,
-		value_1 = "26",
-		base = 89180
+	[95026] = {
+		id = 95026,
+		damage = "100 x 3",
+		base = 95020,
+		weapon_id = {
+			95026
+		}
 	},
-	[89187] = {
-		id = 89187,
-		value_2 = 24,
-		value_1 = "28",
-		base = 89180
+	[95027] = {
+		id = 95027,
+		damage = "108 x 3",
+		base = 95020,
+		weapon_id = {
+			95027
+		}
 	},
-	[89188] = {
-		id = 89188,
-		value_2 = 26,
-		value_1 = "30",
-		base = 89180
+	[95028] = {
+		id = 95028,
+		damage = "117 x 3",
+		base = 95020,
+		weapon_id = {
+			95028
+		}
+	},
+	[95029] = {
+		id = 95029,
+		damage = "126 x 3",
+		base = 95020,
+		weapon_id = {
+			95029
+		}
+	},
+	[95030] = {
+		id = 95030,
+		damage = "135 x 3",
+		base = 95020,
+		weapon_id = {
+			95030
+		}
+	},
+	[95040] = {
+		name = "381mm三連装砲Model1934",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+		value_2 = 45,
+		icon = "55000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "52 x 3",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1563
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95040
+		},
+		skill_id = {
+			6450
+		},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[95041] = {
+		id = 95041,
+		damage = "62 x 3",
+		base = 95040,
+		weapon_id = {
+			95041
+		}
+	},
+	[95042] = {
+		id = 95042,
+		damage = "70 x 3",
+		base = 95040,
+		weapon_id = {
+			95042
+		}
+	},
+	[95043] = {
+		id = 95043,
+		damage = "80 x 3",
+		base = 95040,
+		weapon_id = {
+			95043
+		}
+	},
+	[95044] = {
+		id = 95044,
+		damage = "90 x 3",
+		base = 95040,
+		weapon_id = {
+			95044
+		}
+	},
+	[95045] = {
+		id = 95045,
+		damage = "100 x 3",
+		base = 95040,
+		weapon_id = {
+			95045
+		}
 	}
 }

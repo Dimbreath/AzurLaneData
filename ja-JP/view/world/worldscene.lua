@@ -1281,6 +1281,7 @@ function slot0.NewMapRight(slot0, slot1)
 
 			seriesAsync(slot1, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_begin"))
+				getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
 				triggerToggle(uv0.wsMapRight.toggleSkipPrecombat, true)
 				PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
 				nowWorld:TriggerAutoFight(true)

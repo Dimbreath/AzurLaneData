@@ -1,8 +1,98 @@
 pg = pg or {}
 pg.aircraft_template_160 = {
-	[67340] = {
-		name = "埃塞克斯技能鱼雷机Lv0",
+	[66822] = {
+		max_hp = 30,
+		name = "飞鹰隼鹰技能Lv2",
+		base = 66820,
+		id = 66822,
+		hp_growth = 1178,
+		weapon_ID = {
+			66842
+		}
+	},
+	[66823] = {
+		max_hp = 33,
+		name = "飞鹰隼鹰技能Lv3",
+		base = 66820,
+		id = 66823,
+		hp_growth = 1305,
+		weapon_ID = {
+			66843
+		}
+	},
+	[66824] = {
 		max_hp = 37,
+		name = "飞鹰隼鹰技能Lv4",
+		base = 66820,
+		id = 66824,
+		hp_growth = 1432,
+		weapon_ID = {
+			66844
+		}
+	},
+	[66825] = {
+		max_hp = 40,
+		name = "飞鹰隼鹰技能Lv5",
+		base = 66820,
+		id = 66825,
+		hp_growth = 1559,
+		weapon_ID = {
+			66845
+		}
+	},
+	[66826] = {
+		max_hp = 43,
+		name = "飞鹰隼鹰技能Lv6",
+		base = 66820,
+		id = 66826,
+		hp_growth = 1686,
+		weapon_ID = {
+			66846
+		}
+	},
+	[66827] = {
+		max_hp = 47,
+		name = "飞鹰隼鹰技能Lv7",
+		base = 66820,
+		id = 66827,
+		hp_growth = 1813,
+		weapon_ID = {
+			66847
+		}
+	},
+	[66828] = {
+		max_hp = 50,
+		name = "飞鹰隼鹰技能Lv8",
+		base = 66820,
+		id = 66828,
+		hp_growth = 1940,
+		weapon_ID = {
+			66848
+		}
+	},
+	[66829] = {
+		max_hp = 53,
+		name = "飞鹰隼鹰技能Lv9",
+		base = 66820,
+		id = 66829,
+		hp_growth = 2067,
+		weapon_ID = {
+			66849
+		}
+	},
+	[66830] = {
+		max_hp = 57,
+		name = "飞鹰隼鹰技能Lv10",
+		base = 66820,
+		id = 66830,
+		hp_growth = 2195,
+		weapon_ID = {
+			66850
+		}
+	},
+	[66940] = {
+		name = "萨拉托加技能鱼雷机Lv0",
+		max_hp = 30,
 		accuracy = 23,
 		model_ID = "tbf",
 		ACC_growth = 0,
@@ -15,12 +105,12 @@ pg.aircraft_template_160 = {
 		icon = "tbf",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1404,
+		hp_growth = 1149,
 		speed = 48,
-		id = 67340,
+		id = 66940,
 		scale = 1,
 		weapon_ID = {
-			67440
+			66980
 		},
 		position_offset = {
 			0,
@@ -72,96 +162,6 @@ pg.aircraft_template_160 = {
 				0,
 				0
 			}
-		}
-	},
-	[67341] = {
-		max_hp = 42,
-		name = "埃塞克斯技能鱼雷机Lv1",
-		base = 67340,
-		id = 67341,
-		hp_growth = 1615,
-		weapon_ID = {
-			67441
-		}
-	},
-	[67342] = {
-		max_hp = 47,
-		name = "埃塞克斯技能鱼雷机Lv2",
-		base = 67340,
-		id = 67342,
-		hp_growth = 1826,
-		weapon_ID = {
-			67442
-		}
-	},
-	[67343] = {
-		max_hp = 53,
-		name = "埃塞克斯技能鱼雷机Lv3",
-		base = 67340,
-		id = 67343,
-		hp_growth = 2036,
-		weapon_ID = {
-			67443
-		}
-	},
-	[67344] = {
-		max_hp = 58,
-		name = "埃塞克斯技能鱼雷机Lv4",
-		base = 67340,
-		id = 67344,
-		hp_growth = 2247,
-		weapon_ID = {
-			67444
-		}
-	},
-	[67345] = {
-		max_hp = 64,
-		name = "埃塞克斯技能鱼雷机Lv5",
-		base = 67340,
-		id = 67345,
-		hp_growth = 2458,
-		weapon_ID = {
-			67445
-		}
-	},
-	[67346] = {
-		max_hp = 69,
-		name = "埃塞克斯技能鱼雷机Lv6",
-		base = 67340,
-		id = 67346,
-		hp_growth = 2669,
-		weapon_ID = {
-			67446
-		}
-	},
-	[67347] = {
-		max_hp = 75,
-		name = "埃塞克斯技能鱼雷机Lv7",
-		base = 67340,
-		id = 67347,
-		hp_growth = 2879,
-		weapon_ID = {
-			67447
-		}
-	},
-	[67348] = {
-		max_hp = 80,
-		name = "埃塞克斯技能鱼雷机Lv8",
-		base = 67340,
-		id = 67348,
-		hp_growth = 3090,
-		weapon_ID = {
-			67448
-		}
-	},
-	[67349] = {
-		max_hp = 86,
-		name = "埃塞克斯技能鱼雷机Lv9",
-		base = 67340,
-		id = 67349,
-		hp_growth = 3301,
-		weapon_ID = {
-			67449
 		}
 	}
 }

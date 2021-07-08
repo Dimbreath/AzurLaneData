@@ -1,312 +1,243 @@
 pg = pg or {}
 pg.equip_data_statistics_217 = {
-	[29148] = {
-		id = 29148,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50248
-			},
-			{
-				5,
-				52148
-			}
-		},
+	[32206] = {
+		id = 32206,
+		damage = "12 x 6",
+		base = 32200,
 		weapon_id = {
-			29148
+			32206
 		}
 	},
-	[29149] = {
-		id = 29149,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50249
-			},
-			{
-				5,
-				52149
-			}
-		},
-		weapon_id = {
-			29149
-		}
-	},
-	[29150] = {
-		id = 29150,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50250
-			},
-			{
-				5,
-				52150
-			}
-		},
-		weapon_id = {
-			29150
-		}
-	},
-	[29151] = {
-		anti_siren = 100,
-		base = 29140,
-		id = 29151,
-		ammo_info = {
-			{
-				6,
-				50251
-			},
-			{
-				5,
-				52151
-			}
-		},
-		weapon_id = {
-			29151
-		}
-	},
-	[29200] = {
-		name = "ファイアフライ",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 5,
-		tech = 0,
-		descrip = "フルマーの後継機として開発された艦載機。本機は多数のバリエーションモデルの中での基本型であり、20mm機関砲四門と1000lb爆弾を2発装備可能 ",
-		value_2 = 45,
-		icon = "29200",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
+	[32220] = {
+		name = "155mm三連装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 2,
+		descrip = "0",
+		value_2 = 25,
+		icon = "32200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "7 x 6",
+		nationality = 3,
+		ammo = 2,
 		value_3 = 0,
-		id = 29200,
+		id = 32220,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				6,
-				50660
-			},
-			{
-				5,
-				52740
+				1,
+				1207
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1105
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			29200
+			32220
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			2
 		},
 		part_sub = {
-			6,
-			7
+			5
 		},
 		equip_parameters = {},
 		label = {
-			"HMS",
-			"CV",
-			"DB"
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
 		}
 	},
-	[29201] = {
-		id = 29201,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50661
-			},
-			{
-				5,
-				52741
-			}
-		},
+	[32221] = {
+		id = 32221,
+		damage = "8 x 6",
+		base = 32220,
 		weapon_id = {
-			29201
+			32221
 		}
 	},
-	[29202] = {
-		id = 29202,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				5,
-				52742
-			}
-		},
+	[32222] = {
+		id = 32222,
+		damage = "9 x 6",
+		base = 32220,
 		weapon_id = {
-			29202
+			32222
 		}
 	},
-	[29203] = {
-		id = 29203,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50663
-			},
-			{
-				5,
-				52743
-			}
-		},
+	[32223] = {
+		id = 32223,
+		damage = "10 x 6",
+		base = 32220,
 		weapon_id = {
-			29203
+			32223
 		}
 	},
-	[29204] = {
-		id = 29204,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50664
-			},
-			{
-				5,
-				52744
-			}
-		},
+	[32224] = {
+		id = 32224,
+		damage = "11 x 6",
+		base = 32220,
 		weapon_id = {
-			29204
+			32224
 		}
 	},
-	[29205] = {
-		id = 29205,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50665
-			},
-			{
-				5,
-				52745
-			}
-		},
+	[32225] = {
+		id = 32225,
+		damage = "12 x 6",
+		base = 32220,
 		weapon_id = {
-			29205
+			32225
 		}
 	},
-	[29206] = {
-		id = 29206,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50666
-			},
-			{
-				5,
-				52746
-			}
-		},
+	[32226] = {
+		id = 32226,
+		damage = "13 x 6",
+		base = 32220,
 		weapon_id = {
-			29206
+			32226
 		}
 	},
-	[29207] = {
-		id = 29207,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50667
-			},
-			{
-				5,
-				52747
-			}
-		},
+	[32227] = {
+		id = 32227,
+		damage = "14 x 6",
+		base = 32220,
 		weapon_id = {
-			29207
+			32227
 		}
 	},
-	[29208] = {
-		id = 29208,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50668
-			},
-			{
-				5,
-				52748
-			}
-		},
+	[32228] = {
+		id = 32228,
+		damage = "15 x 6",
+		base = 32220,
 		weapon_id = {
-			29208
+			32228
 		}
 	},
-	[29209] = {
-		id = 29209,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50669
-			},
-			{
-				5,
-				52749
-			}
-		},
+	[32229] = {
+		id = 32229,
+		damage = "16 x 6",
+		base = 32220,
 		weapon_id = {
-			29209
+			32229
 		}
 	},
-	[29210] = {
-		id = 29210,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50670
-			},
-			{
-				5,
-				52750
-			}
-		},
+	[32230] = {
+		id = 32230,
+		damage = "17 x 6",
+		base = 32220,
 		weapon_id = {
-			29210
+			32230
 		}
 	},
-	[29211] = {
-		anti_siren = 100,
-		base = 29200,
-		id = 29211,
+	[32240] = {
+		name = "155mm三連装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
+		descrip = "0",
+		value_2 = 45,
+		icon = "32200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "8 x 6",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 32240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				6,
-				50671
-			},
-			{
-				5,
-				52751
+				1,
+				1207
 			}
 		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1105
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			29211
+			32240
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[32241] = {
+		id = 32241,
+		damage = "9 x 6",
+		base = 32240,
+		weapon_id = {
+			32241
+		}
+	},
+	[32242] = {
+		id = 32242,
+		damage = "10 x 6",
+		base = 32240,
+		weapon_id = {
+			32242
+		}
+	},
+	[32243] = {
+		id = 32243,
+		damage = "11 x 6",
+		base = 32240,
+		weapon_id = {
+			32243
+		}
+	},
+	[32244] = {
+		id = 32244,
+		damage = "12 x 6",
+		base = 32240,
+		weapon_id = {
+			32244
 		}
 	}
 }

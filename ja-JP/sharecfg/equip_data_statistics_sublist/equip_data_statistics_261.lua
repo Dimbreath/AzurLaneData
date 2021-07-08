@@ -1,186 +1,397 @@
 pg = pg or {}
 pg.equip_data_statistics_261 = {
-	[36541] = {
-		id = 36541,
-		damage = "25/回",
-		base = 36540,
+	[38063] = {
+		id = 38063,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51343
+			}
+		},
 		weapon_id = {
-			36541
+			38063
 		}
 	},
-	[36542] = {
-		id = 36542,
-		damage = "28/回",
-		base = 36540,
+	[38064] = {
+		id = 38064,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51344
+			}
+		},
 		weapon_id = {
-			36542
+			38064
 		}
 	},
-	[36543] = {
-		id = 36543,
-		damage = "31/回",
-		base = 36540,
+	[38065] = {
+		id = 38065,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51345
+			}
+		},
 		weapon_id = {
-			36543
+			38065
 		}
 	},
-	[36544] = {
-		id = 36544,
-		damage = "34/回",
-		base = 36540,
+	[38066] = {
+		id = 38066,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51346
+			}
+		},
 		weapon_id = {
-			36544
+			38066
 		}
 	},
-	[36545] = {
-		id = 36545,
-		damage = "37/回",
-		base = 36540,
+	[38067] = {
+		id = 38067,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
 		weapon_id = {
-			36545
+			38067
 		}
 	},
-	[36546] = {
-		id = 36546,
-		damage = "40/回",
-		base = 36540,
-		weapon_id = {
-			36546
-		}
-	},
-	[36547] = {
-		id = 36547,
-		damage = "43/回",
-		base = 36540,
-		weapon_id = {
-			36547
-		}
-	},
-	[36548] = {
-		id = 36548,
-		damage = "46/回",
-		base = 36540,
-		weapon_id = {
-			36548
-		}
-	},
-	[36549] = {
-		id = 36549,
-		damage = "50/回",
-		base = 36540,
-		weapon_id = {
-			36549
-		}
-	},
-	[36550] = {
-		id = 36550,
-		damage = "54/回",
-		base = 36540,
-		weapon_id = {
-			36550
-		}
-	},
-	[36551] = {
-		anti_siren = 100,
-		damage = "54/回",
-		base = 36540,
-		id = 36551,
-		weapon_id = {
-			36551
-		}
-	},
-	[36560] = {
-		name = "100mm連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 0,
+	[38100] = {
+		name = "天山",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 2,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
-		icon = "36560",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "50/回",
+		value_2 = 5,
+		icon = "38100",
+		attribute_2 = "air",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 36560,
+		id = 38100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				4,
+				51400
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			36560
+			38100
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"ST",
-			"AA"
+			"CV",
+			"TB"
 		}
 	},
-	[36561] = {
-		id = 36561,
-		damage = "57/回",
-		base = 36560,
+	[38101] = {
+		id = 38101,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				4,
+				51401
+			}
+		},
 		weapon_id = {
-			36561
+			38101
 		}
 	},
-	[36562] = {
-		id = 36562,
-		damage = "64/回",
-		base = 36560,
+	[38102] = {
+		id = 38102,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51402
+			}
+		},
 		weapon_id = {
-			36562
+			38102
 		}
 	},
-	[36563] = {
-		id = 36563,
-		damage = "71/回",
-		base = 36560,
+	[38103] = {
+		id = 38103,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51403
+			}
+		},
 		weapon_id = {
-			36563
+			38103
 		}
 	},
-	[36564] = {
-		id = 36564,
-		damage = "78/回",
-		base = 36560,
+	[38120] = {
+		name = "天山",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 3,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "38100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51420
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			36564
+			38120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38121] = {
+		id = 38121,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51421
+			}
+		},
+		weapon_id = {
+			38121
+		}
+	},
+	[38122] = {
+		id = 38122,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51422
+			}
+		},
+		weapon_id = {
+			38122
+		}
+	},
+	[38123] = {
+		id = 38123,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51423
+			}
+		},
+		weapon_id = {
+			38123
+		}
+	},
+	[38124] = {
+		id = 38124,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51424
+			}
+		},
+		weapon_id = {
+			38124
+		}
+	},
+	[38125] = {
+		id = 38125,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51425
+			}
+		},
+		weapon_id = {
+			38125
+		}
+	},
+	[38126] = {
+		id = 38126,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51426
+			}
+		},
+		weapon_id = {
+			38126
+		}
+	},
+	[38140] = {
+		name = "天山",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 4,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "38100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51440
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
 		}
 	}
 }

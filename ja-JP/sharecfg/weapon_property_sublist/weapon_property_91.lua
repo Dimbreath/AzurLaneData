@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_91 = {}
 
 function ()
-	uv0.weapon_property_91[52548] = {
-		id = 52548,
-		damage = 315,
-		base = 52540
-	}
-	uv0.weapon_property_91[52549] = {
-		id = 52549,
-		damage = 338,
-		base = 52540
-	}
-	uv0.weapon_property_91[52550] = {
-		id = 52550,
-		damage = 360,
-		base = 52540
-	}
-	uv0.weapon_property_91[52551] = {
-		id = 52551,
-		damage = 374,
-		base = 52540
-	}
-	uv0.weapon_property_91[52552] = {
-		id = 52552,
-		damage = 396,
-		base = 52540
-	}
-	uv0.weapon_property_91[52553] = {
-		id = 52553,
-		damage = 425,
-		base = 52540
-	}
 	uv0.weapon_property_91[52600] = {
 		action_index = "",
 		range = 500,
@@ -467,5 +437,79 @@ function ()
 		id = 52673,
 		damage = 519,
 		base = 52660
+	}
+	uv0.weapon_property_91[52700] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 19,
+		shakescreen = 0,
+		name = "2 x 1000lb 爆弾",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 19,
+		charge_param = "",
+		damage = 134,
+		corrected = 100,
+		min_range = 0,
+		id = 52700,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2123
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52701] = {
+		id = 52701,
+		damage = 153,
+		base = 52700
+	}
+	uv0.weapon_property_91[52702] = {
+		id = 52702,
+		damage = 173,
+		base = 52700
+	}
+	uv0.weapon_property_91[52703] = {
+		id = 52703,
+		damage = 192,
+		base = 52700
+	}
+	uv0.weapon_property_91[52704] = {
+		id = 52704,
+		damage = 212,
+		base = 52700
+	}
+	uv0.weapon_property_91[52705] = {
+		id = 52705,
+		damage = 231,
+		base = 52700
+	}
+	uv0.weapon_property_91[52706] = {
+		id = 52706,
+		damage = 251,
+		base = 52700
 	}
 end()

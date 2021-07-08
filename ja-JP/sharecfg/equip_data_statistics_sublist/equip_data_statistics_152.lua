@@ -1,256 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_152 = {
-	[21169] = {
-		id = 21169,
-		damage = "9 x 2",
-		base = 21160,
-		weapon_id = {
-			21169
-		}
-	},
-	[21170] = {
-		id = 21170,
-		damage = "10 x 2",
-		base = 21160,
-		weapon_id = {
-			21170
-		}
-	},
-	[21171] = {
-		anti_siren = 100,
-		damage = "10 x 2",
-		base = 21160,
-		id = 21171,
-		weapon_id = {
-			21171
-		}
-	},
-	[21200] = {
-		name = "102mm三連装砲(副砲)",
+	[22140] = {
+		name = "152mm連装砲",
 		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "21200",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "3 x 3",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21200
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21201] = {
-		id = 21201,
-		base = 21200,
-		weapon_id = {
-			21201
-		}
-	},
-	[21202] = {
-		id = 21202,
-		damage = "4 x 3",
-		base = 21200,
-		weapon_id = {
-			21202
-		}
-	},
-	[21203] = {
-		id = 21203,
-		damage = "4 x 3",
-		base = 21200,
-		weapon_id = {
-			21203
-		}
-	},
-	[21220] = {
-		name = "102mm三連装砲(副砲)",
-		speciality = "追尾",
-		type = 1,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "21200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "3 x 3",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21221] = {
-		id = 21221,
-		base = 21220,
-		weapon_id = {
-			21221
-		}
-	},
-	[21222] = {
-		id = 21222,
-		damage = "4 x 3",
-		base = 21220,
-		weapon_id = {
-			21222
-		}
-	},
-	[21223] = {
-		id = 21223,
-		damage = "4 x 3",
-		base = 21220,
-		weapon_id = {
-			21223
-		}
-	},
-	[21224] = {
-		id = 21224,
-		damage = "5 x 3",
-		base = 21220,
-		weapon_id = {
-			21224
-		}
-	},
-	[21225] = {
-		id = 21225,
-		damage = "5 x 3",
-		base = 21220,
-		weapon_id = {
-			21225
-		}
-	},
-	[21226] = {
-		id = 21226,
-		damage = "7 x 3",
-		base = 21220,
-		weapon_id = {
-			21226
-		}
-	},
-	[21240] = {
-		name = "102mm三連装砲(副砲)",
-		speciality = "追尾",
-		type = 1,
+		type = 2,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "21200",
+		icon = "22100",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "3 x 3",
+		damage = "10 x 4",
 		nationality = 2,
-		ammo = 3,
+		ammo = 1,
 		value_3 = 0,
-		id = 21240,
+		id = 22140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			2
 		},
 		ammo_info = {
 			{
 				1,
-				1100
+				1104
 			}
 		},
 		equip_info = {
@@ -258,11 +31,11 @@ pg.equip_data_statistics_152 = {
 			2,
 			{
 				3,
-				1100
+				1104
 			},
 			{
 				4,
-				1003
+				1101
 			},
 			6,
 			10,
@@ -270,34 +43,254 @@ pg.equip_data_statistics_152 = {
 			12
 		},
 		weapon_id = {
-			21240
+			22140
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
+			2
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
+			5
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"DD",
-			"MG"
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[21241] = {
-		id = 21241,
-		base = 21240,
+	[22141] = {
+		id = 22141,
+		damage = "11 x 4",
+		base = 22140,
 		weapon_id = {
-			21241
+			22141
+		}
+	},
+	[22142] = {
+		id = 22142,
+		damage = "12 x 4",
+		base = 22140,
+		weapon_id = {
+			22142
+		}
+	},
+	[22143] = {
+		id = 22143,
+		damage = "13 x 4",
+		base = 22140,
+		weapon_id = {
+			22143
+		}
+	},
+	[22144] = {
+		id = 22144,
+		damage = "14 x 4",
+		base = 22140,
+		weapon_id = {
+			22144
+		}
+	},
+	[22145] = {
+		id = 22145,
+		damage = "15 x 4",
+		base = 22140,
+		weapon_id = {
+			22145
+		}
+	},
+	[22146] = {
+		id = 22146,
+		damage = "16 x 4",
+		base = 22140,
+		weapon_id = {
+			22146
+		}
+	},
+	[22147] = {
+		id = 22147,
+		damage = "17 x 4",
+		base = 22140,
+		weapon_id = {
+			22147
+		}
+	},
+	[22148] = {
+		id = 22148,
+		damage = "18 x 4",
+		base = 22140,
+		weapon_id = {
+			22148
+		}
+	},
+	[22149] = {
+		id = 22149,
+		damage = "20 x 4",
+		base = 22140,
+		weapon_id = {
+			22149
+		}
+	},
+	[22150] = {
+		id = 22150,
+		damage = "22 x 4",
+		base = 22140,
+		weapon_id = {
+			22150
+		}
+	},
+	[22151] = {
+		anti_siren = 100,
+		damage = "22 x 4",
+		base = 22140,
+		id = 22151,
+		weapon_id = {
+			22151
+		}
+	},
+	[22200] = {
+		name = "152mm三連装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "22200",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "8 x 6",
+		nationality = 2,
+		ammo = 1,
+		value_3 = 0,
+		id = 22200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1104
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1104
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			22200
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[22201] = {
+		id = 22201,
+		damage = "9 x 6",
+		base = 22200,
+		weapon_id = {
+			22201
+		}
+	},
+	[22202] = {
+		id = 22202,
+		damage = "10 x 6",
+		base = 22200,
+		weapon_id = {
+			22202
+		}
+	},
+	[22203] = {
+		id = 22203,
+		damage = "11 x 6",
+		base = 22200,
+		weapon_id = {
+			22203
+		}
+	},
+	[22220] = {
+		name = "152mm三連装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "22200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "9 x 6",
+		nationality = 2,
+		ammo = 1,
+		value_3 = 0,
+		id = 22220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1104
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1104
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			22220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG",
+			"AP"
 		}
 	}
 }

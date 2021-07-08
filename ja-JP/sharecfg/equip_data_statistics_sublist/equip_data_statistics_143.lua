@@ -1,430 +1,312 @@
 pg = pg or {}
 pg.equip_data_statistics_143 = {
-	[18230] = {
-		id = 18230,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59750
-			},
-			{
-				4,
-				51250
-			}
-		},
+	[21167] = {
+		id = 21167,
+		damage = "8 x 2",
+		base = 21160,
 		weapon_id = {
-			18230
+			21167
 		}
 	},
-	[18231] = {
+	[21168] = {
+		id = 21168,
+		damage = "9 x 2",
+		base = 21160,
+		weapon_id = {
+			21168
+		}
+	},
+	[21169] = {
+		id = 21169,
+		damage = "9 x 2",
+		base = 21160,
+		weapon_id = {
+			21169
+		}
+	},
+	[21170] = {
+		id = 21170,
+		damage = "10 x 2",
+		base = 21160,
+		weapon_id = {
+			21170
+		}
+	},
+	[21171] = {
 		anti_siren = 100,
-		base = 18220,
-		id = 18231,
-		ammo_info = {
-			{
-				6,
-				59751
-			},
-			{
-				4,
-				51251
-			}
-		},
+		damage = "10 x 2",
+		base = 21160,
+		id = 21171,
 		weapon_id = {
-			18231
+			21171
 		}
 	},
-	[18232] = {
-		anti_siren = 200,
-		base = 18220,
-		id = 18232,
-		ammo_info = {
-			{
-				6,
-				59752
-			},
-			{
-				4,
-				51252
-			}
-		},
-		weapon_id = {
-			18232
-		}
-	},
-	[18233] = {
-		anti_siren = 300,
-		base = 18220,
-		id = 18233,
-		ammo_info = {
-			{
-				6,
-				59753
-			},
-			{
-				4,
-				51253
-			}
-		},
-		weapon_id = {
-			18233
-		}
-	},
-	[19000] = {
-		name = "SBDドーントレス",
+	[21200] = {
+		name = "102mm三連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
 		tech = 1,
-		speciality = "爆撃",
-		type = 9,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "19000",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50700
-			},
-			{
-				5,
-				52900
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19001] = {
-		id = 19001,
-		base = 19000,
-		ammo_info = {
-			{
-				6,
-				50701
-			},
-			{
-				5,
-				52901
-			},
-			{
-				5,
-				52101
-			}
-		},
-		weapon_id = {
-			19001
-		}
-	},
-	[19002] = {
-		id = 19002,
-		base = 19000,
-		ammo_info = {
-			{
-				6,
-				50702
-			},
-			{
-				5,
-				52902
-			},
-			{
-				5,
-				52102
-			}
-		},
-		weapon_id = {
-			19002
-		}
-	},
-	[19003] = {
-		id = 19003,
-		base = 19000,
-		ammo_info = {
-			{
-				6,
-				50703
-			},
-			{
-				5,
-				52903
-			},
-			{
-				5,
-				52103
-			}
-		},
-		weapon_id = {
-			19003
-		}
-	},
-	[19020] = {
-		name = "SBDドーントレス",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
-		tech = 2,
 		descrip = "0",
 		value_2 = 5,
-		icon = "19000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
+		icon = "21200",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "3 x 3",
+		nationality = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 19020,
+		id = 21200,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50720
-			},
-			{
-				5,
-				52920
-			},
-			{
-				5,
-				52120
+				1,
+				1100
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1003
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			19020
+			21200
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"DB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[19021] = {
-		id = 19021,
-		base = 19020,
-		ammo_info = {
-			{
-				6,
-				50721
-			},
-			{
-				5,
-				52921
-			},
-			{
-				5,
-				52121
-			}
-		},
+	[21201] = {
+		id = 21201,
+		base = 21200,
 		weapon_id = {
-			19021
+			21201
 		}
 	},
-	[19022] = {
-		id = 19022,
-		base = 19020,
-		ammo_info = {
-			{
-				6,
-				50722
-			},
-			{
-				5,
-				52922
-			},
-			{
-				5,
-				52122
-			}
-		},
+	[21202] = {
+		id = 21202,
+		damage = "4 x 3",
+		base = 21200,
 		weapon_id = {
-			19022
+			21202
 		}
 	},
-	[19023] = {
-		id = 19023,
-		base = 19020,
-		ammo_info = {
-			{
-				6,
-				50723
-			},
-			{
-				5,
-				52923
-			},
-			{
-				5,
-				52123
-			}
-		},
+	[21203] = {
+		id = 21203,
+		damage = "4 x 3",
+		base = 21200,
 		weapon_id = {
-			19023
+			21203
 		}
 	},
-	[19040] = {
-		name = "SBDドーントレス",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
-		tech = 3,
+	[21220] = {
+		name = "102mm三連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "19000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
+		icon = "21200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 3",
+		nationality = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 19040,
+		id = 21220,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50740
-			},
-			{
-				5,
-				52940
-			},
-			{
-				5,
-				52140
+				1,
+				1100
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1003
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			19040
+			21220
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"DB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[19041] = {
-		id = 19041,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50741
-			},
-			{
-				5,
-				52941
-			},
-			{
-				5,
-				52141
-			}
-		},
+	[21221] = {
+		id = 21221,
+		base = 21220,
 		weapon_id = {
-			19041
+			21221
 		}
 	},
-	[19042] = {
-		id = 19042,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50742
-			},
-			{
-				5,
-				52942
-			},
-			{
-				5,
-				52142
-			}
-		},
+	[21222] = {
+		id = 21222,
+		damage = "4 x 3",
+		base = 21220,
 		weapon_id = {
-			19042
+			21222
 		}
 	},
-	[19043] = {
-		id = 19043,
-		base = 19040,
+	[21223] = {
+		id = 21223,
+		damage = "4 x 3",
+		base = 21220,
+		weapon_id = {
+			21223
+		}
+	},
+	[21224] = {
+		id = 21224,
+		damage = "5 x 3",
+		base = 21220,
+		weapon_id = {
+			21224
+		}
+	},
+	[21225] = {
+		id = 21225,
+		damage = "5 x 3",
+		base = 21220,
+		weapon_id = {
+			21225
+		}
+	},
+	[21226] = {
+		id = 21226,
+		damage = "7 x 3",
+		base = 21220,
+		weapon_id = {
+			21226
+		}
+	},
+	[21240] = {
+		name = "102mm三連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "21200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "3 x 3",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50743
-			},
-			{
-				5,
-				52943
-			},
-			{
-				5,
-				52143
+				1,
+				1100
 			}
 		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			19043
+			21240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
 		}
 	}
 }

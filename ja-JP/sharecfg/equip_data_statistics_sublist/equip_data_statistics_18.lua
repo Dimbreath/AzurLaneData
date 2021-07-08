@@ -1,89 +1,51 @@
 pg = pg or {}
 pg.equip_data_statistics_18 = {
-	[781] = {
-		id = 781,
-		value_2 = 105,
-		value_1 = "11",
-		base = 780
+	[806] = {
+		id = 806,
+		value_2 = 70,
+		value_1 = "27",
+		base = 800
 	},
-	[782] = {
-		id = 782,
-		value_2 = 110,
-		value_1 = "12",
-		base = 780
+	[807] = {
+		id = 807,
+		value_2 = 75,
+		value_1 = "29",
+		base = 800
 	},
-	[783] = {
-		id = 783,
-		value_2 = 115,
-		value_1 = "13",
-		base = 780
+	[808] = {
+		id = 808,
+		value_2 = 80,
+		value_1 = "31",
+		base = 800
 	},
-	[784] = {
-		id = 784,
-		value_2 = 120,
-		value_1 = "14",
-		base = 780
+	[809] = {
+		id = 809,
+		value_2 = 90,
+		value_1 = "33",
+		base = 800
 	},
-	[785] = {
-		id = 785,
-		value_2 = 125,
-		value_1 = "15",
-		base = 780
+	[810] = {
+		id = 810,
+		value_2 = 100,
+		value_1 = "35",
+		base = 800
 	},
-	[786] = {
-		id = 786,
-		value_2 = 135,
-		value_1 = "16",
-		base = 780
-	},
-	[787] = {
-		id = 787,
-		value_2 = 150,
-		value_1 = "17",
-		base = 780
-	},
-	[788] = {
-		id = 788,
-		value_2 = 160,
-		value_1 = "18",
-		base = 780
-	},
-	[789] = {
-		id = 789,
-		value_2 = 170,
-		value_1 = "19",
-		base = 780
-	},
-	[790] = {
-		id = 790,
-		value_2 = 180,
-		value_1 = "20",
-		base = 780
-	},
-	[791] = {
-		id = 791,
-		anti_siren = 100,
-		base = 780,
-		value_2 = 190,
-		value_1 = "21"
-	},
-	[800] = {
-		name = "強化耐圧殻設計案",
-		tech = 2,
+	[820] = {
+		name = "フロンティアメダル",
+		tech = 0,
 		type = 10,
 		speciality = "なし",
-		attribute_3 = "raid_distance",
-		id = 800,
-		value_2 = 40,
-		icon = "800",
-		value_1 = "15",
+		id = 820,
+		value_2 = 20,
+		icon = "820",
+		value_1 = "40",
 		attribute_2 = "durability",
-		rarity = 4,
-		nationality = 4,
-		descrip = "再設計された耐圧殻によって船体強度が強化し、速力と最大航続距離が向上した",
+		rarity = 5,
+		descrip = "航空戦術の先駆者に与えられし勲章。大艦巨砲主義の時代は終わりを告げ、鋼鉄の翼は空母より海へと羽ばたく",
+		nationality = 0,
 		ammo = 10,
-		value_3 = -8,
-		attribute_1 = "torpedo",
+		value_3 = 0,
+		attribute_1 = "air",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -93,44 +55,86 @@ pg.equip_data_statistics_18 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6560
+			6740
 		},
 		part_main = {
-			8,
-			17
+			6,
+			7
 		},
 		part_sub = {
-			8,
-			17
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
-			"KMS",
 			"DEV"
 		}
 	},
-	[801] = {
-		id = 801,
-		value_2 = 45,
-		value_1 = "17",
-		base = 800
+	[821] = {
+		id = 821,
+		value_2 = 24,
+		value_1 = "46",
+		base = 820
 	},
-	[802] = {
-		id = 802,
-		value_2 = 50,
-		value_1 = "19",
-		base = 800
+	[822] = {
+		id = 822,
+		value_2 = 28,
+		value_1 = "52",
+		base = 820
 	},
-	[803] = {
-		id = 803,
-		value_2 = 55,
-		value_1 = "21",
-		base = 800
+	[823] = {
+		id = 823,
+		value_2 = 32,
+		value_1 = "58",
+		base = 820
 	},
-	[804] = {
-		id = 804,
+	[824] = {
+		id = 824,
+		value_2 = 36,
+		value_1 = "64",
+		base = 820
+	},
+	[825] = {
+		id = 825,
+		value_2 = 40,
+		value_1 = "70",
+		base = 820
+	},
+	[826] = {
+		id = 826,
+		value_2 = 44,
+		value_1 = "76",
+		base = 820
+	},
+	[827] = {
+		id = 827,
+		value_2 = 48,
+		value_1 = "82",
+		base = 820
+	},
+	[828] = {
+		id = 828,
+		value_2 = 52,
+		value_1 = "88",
+		base = 820
+	},
+	[829] = {
+		id = 829,
+		value_2 = 56,
+		value_1 = "94",
+		base = 820
+	},
+	[830] = {
+		id = 830,
 		value_2 = 60,
-		value_1 = "23",
-		base = 800
+		value_1 = "100",
+		base = 820
+	},
+	[831] = {
+		id = 831,
+		anti_siren = 100,
+		base = 820,
+		value_2 = 64,
+		value_1 = "106"
 	}
 }

@@ -143,7 +143,7 @@ return {
 	name = "",
 	init_effect = "jinengchufared",
 	id = 19325,
-	time = 10,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,

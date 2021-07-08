@@ -1,173 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_203 = {
-	[27151] = {
-		anti_siren = 100,
-		base = 27140,
-		id = 27151,
+	[29045] = {
+		id = 29045,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50651
+				50145
 			},
 			{
 				5,
-				52351
+				52245
 			}
 		},
 		weapon_id = {
-			27151,
-			82151
+			29045
 		}
 	},
-	[27152] = {
-		anti_siren = 200,
-		base = 27140,
-		id = 27152,
+	[29046] = {
+		id = 29046,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50652
+				50146
 			},
 			{
 				5,
-				52352
+				52246
 			}
 		},
 		weapon_id = {
-			27152,
-			82152
+			29046
 		}
 	},
-	[27153] = {
-		anti_siren = 300,
-		base = 27140,
-		id = 27153,
+	[29047] = {
+		id = 29047,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50653
+				50147
 			},
 			{
 				5,
-				52353
+				52247
 			}
 		},
 		weapon_id = {
-			27153,
-			82153
+			29047
 		}
 	},
-	[27200] = {
-		name = "シーグラディエーター",
-		tech = 1,
-		speciality = "航空",
-		type = 7,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "27200",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27200,
-			82200
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27201] = {
-		id = 27201,
-		base = 27200,
-		ammo_info = {
-			{
-				6,
-				50101
-			}
-		},
-		weapon_id = {
-			27201,
-			82201
-		}
-	},
-	[27202] = {
-		id = 27202,
-		base = 27200,
-		ammo_info = {
-			{
-				6,
-				50102
-			}
-		},
-		weapon_id = {
-			27202,
-			82202
-		}
-	},
-	[27203] = {
-		id = 27203,
-		base = 27200,
-		ammo_info = {
-			{
-				6,
-				50103
-			}
-		},
-		weapon_id = {
-			27203,
-			82203
-		}
-	},
-	[27220] = {
-		name = "シーグラディエーター",
-		type = 7,
-		speciality = "航空",
+	[29100] = {
+		name = "フルマー",
+		type = 9,
+		speciality = "爆撃",
 		rarity = 2,
-		tech = 2,
+		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "27200",
+		icon = "29100",
 		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 27220,
+		id = 29100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50120
+				50200
+			},
+			{
+				5,
+				52100
 			}
 		},
 		equip_info = {
@@ -177,8 +85,7 @@ pg.equip_data_statistics_203 = {
 			9
 		},
 		weapon_id = {
-			27220,
-			82220
+			29100
 		},
 		skill_id = {},
 		part_main = {
@@ -193,72 +100,85 @@ pg.equip_data_statistics_203 = {
 		label = {
 			"HMS",
 			"CV",
-			"FT"
+			"DB"
 		}
 	},
-	[27221] = {
-		id = 27221,
-		base = 27220,
+	[29101] = {
+		id = 29101,
+		base = 29100,
 		ammo_info = {
 			{
 				6,
-				50121
+				50201
+			},
+			{
+				5,
+				52101
 			}
 		},
 		weapon_id = {
-			27221,
-			82221
+			29101
 		}
 	},
-	[27222] = {
-		id = 27222,
-		base = 27220,
+	[29102] = {
+		id = 29102,
+		base = 29100,
 		ammo_info = {
 			{
 				6,
-				50122
+				50202
+			},
+			{
+				5,
+				52102
 			}
 		},
 		weapon_id = {
-			27222,
-			82222
+			29102
 		}
 	},
-	[27223] = {
-		id = 27223,
-		base = 27220,
+	[29103] = {
+		id = 29103,
+		base = 29100,
 		ammo_info = {
 			{
 				6,
-				50123
+				50203
+			},
+			{
+				5,
+				52103
 			}
 		},
 		weapon_id = {
-			27223,
-			82223
+			29103
 		}
 	},
-	[27240] = {
-		name = "シーグラディエーター",
-		type = 7,
-		speciality = "航空",
+	[29120] = {
+		name = "フルマー",
+		type = 9,
+		speciality = "爆撃",
 		rarity = 3,
-		tech = 3,
+		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "27200",
+		icon = "29100",
 		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 27240,
+		id = 29120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50140
+				50220
+			},
+			{
+				5,
+				52120
 			}
 		},
 		equip_info = {
@@ -268,8 +188,7 @@ pg.equip_data_statistics_203 = {
 			9
 		},
 		weapon_id = {
-			27240,
-			82240
+			29120
 		},
 		skill_id = {},
 		part_main = {
@@ -284,63 +203,195 @@ pg.equip_data_statistics_203 = {
 		label = {
 			"HMS",
 			"CV",
-			"FT"
+			"DB"
 		}
 	},
-	[27241] = {
-		id = 27241,
-		base = 27240,
+	[29121] = {
+		id = 29121,
+		base = 29120,
 		ammo_info = {
 			{
 				6,
-				50141
+				50221
+			},
+			{
+				5,
+				52121
 			}
 		},
 		weapon_id = {
-			27241,
-			82241
+			29121
 		}
 	},
-	[27242] = {
-		id = 27242,
-		base = 27240,
+	[29122] = {
+		id = 29122,
+		base = 29120,
 		ammo_info = {
 			{
 				6,
-				50142
+				50222
+			},
+			{
+				5,
+				52122
 			}
 		},
 		weapon_id = {
-			27242,
-			82242
+			29122
 		}
 	},
-	[27243] = {
-		id = 27243,
-		base = 27240,
+	[29123] = {
+		id = 29123,
+		base = 29120,
 		ammo_info = {
 			{
 				6,
-				50143
+				50223
+			},
+			{
+				5,
+				52123
 			}
 		},
 		weapon_id = {
-			27243,
-			82243
+			29123
 		}
 	},
-	[27244] = {
-		id = 27244,
-		base = 27240,
+	[29124] = {
+		id = 29124,
+		base = 29120,
 		ammo_info = {
 			{
 				6,
-				50144
+				50224
+			},
+			{
+				5,
+				52124
 			}
 		},
 		weapon_id = {
-			27244,
-			82244
+			29124
+		}
+	},
+	[29125] = {
+		id = 29125,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50225
+			},
+			{
+				5,
+				52125
+			}
+		},
+		weapon_id = {
+			29125
+		}
+	},
+	[29126] = {
+		id = 29126,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50226
+			},
+			{
+				5,
+				52126
+			}
+		},
+		weapon_id = {
+			29126
+		}
+	},
+	[29140] = {
+		name = "フルマー",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 4,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "29100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50240
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[29141] = {
+		id = 29141,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50241
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			29141
+		}
+	},
+	[29142] = {
+		id = 29142,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50242
+			},
+			{
+				5,
+				52142
+			}
+		},
+		weapon_id = {
+			29142
 		}
 	}
 }

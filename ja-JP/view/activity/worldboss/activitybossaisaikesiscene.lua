@@ -5,10 +5,6 @@ function slot0.getUIName(slot0)
 	return "ActivityBossAisaikesiUI"
 end
 
-function slot0.GetPTActivityID(slot0)
-	return ActivityConst.ACTIVITY_BOSS_AISAIKESI_PT
-end
-
 function slot0.init(slot0)
 	uv0.super.init(slot0)
 

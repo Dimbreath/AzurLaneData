@@ -214,15 +214,13 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 
 	slot20 = uv0.FADE_TIME
 
-	function slot19()
-		LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
-	end
-
 	LeanTween.value(go(slot9), 0, 1, slot20):setOnUpdate(System.Action_float(function (slot0)
 		uv0.alpha = slot0
-	end)):setOnComplete(System.Action(slot19))
+	end)):setOnComplete(System.Action(function ()
+		LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
+	end))
 
-	function itemDisplay(slot0, slot1, slot2)
+	function slot16(slot0, slot1, slot2)
 		slot3 = GetComponent(slot0.transform, "CanvasGroup")
 
 		function slot5()
@@ -244,9 +242,9 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 		end))
 	end
 
-	for slot19, slot20 in ipairs(slot10) do
-		LeanTween.delayedCall(slot12, slot19 * uv0.DELAY_TIME, System.Action(function ()
-			itemDisplay(uv0, uv1, uv1 == #uv2)
+	for slot20, slot21 in ipairs(slot10) do
+		LeanTween.delayedCall(slot12, slot20 * uv0.DELAY_TIME, System.Action(function ()
+			uv0(uv1, uv2, uv2 == #uv3)
 		end))
 	end
 end
@@ -300,12 +298,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	else
 		setText(slot7.transform:Find("ExpAdd/Value"), string.format("+%d", slot15))
 		setActive(slot21, false)
-
-		if not NEW_META_EXP then
-			setActive(slot22, true)
-		else
-			setActive(slot22, slot20)
-		end
+		setActive(slot22, slot20)
 	end
 
 	if slot20 then
@@ -334,7 +327,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	GetComponent(slot7, "CanvasGroup").alpha = 0
 	GetComponent(slot8, "CanvasGroup").alpha = 0
 
-	if NEW_META_EXP and (slot16 or slot20) or true then
+	if slot16 or slot20 then
 		function slot28()
 			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
 			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()

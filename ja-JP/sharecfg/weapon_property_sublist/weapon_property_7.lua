@@ -2,80 +2,6 @@ pg = pg or {}
 pg.weapon_property_7 = {}
 
 function ()
-	uv0.weapon_property_7[6040] = {
-		action_index = "attack",
-		range = 15,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "12.7mm防空機銃T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 6040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 57,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_7[6041] = {
-		id = 6041,
-		reload_max = 55,
-		damage = 9,
-		base = 6040
-	}
-	uv0.weapon_property_7[6042] = {
-		id = 6042,
-		reload_max = 54,
-		damage = 10,
-		base = 6040
-	}
-	uv0.weapon_property_7[6043] = {
-		id = 6043,
-		reload_max = 53,
-		damage = 11,
-		base = 6040
-	}
-	uv0.weapon_property_7[6044] = {
-		id = 6044,
-		reload_max = 53,
-		damage = 12,
-		base = 6040
-	}
-	uv0.weapon_property_7[6045] = {
-		id = 6045,
-		reload_max = 52,
-		damage = 13,
-		base = 6040
-	}
 	uv0.weapon_property_7[6046] = {
 		id = 6046,
 		reload_max = 50,
@@ -833,5 +759,85 @@ function ()
 		reload_max = 244,
 		damage = 6,
 		base = 7220
+	}
+	uv0.weapon_property_7[7222] = {
+		id = 7222,
+		reload_max = 238,
+		damage = 7,
+		base = 7220
+	}
+	uv0.weapon_property_7[7223] = {
+		id = 7223,
+		reload_max = 232,
+		damage = 8,
+		base = 7220
+	}
+	uv0.weapon_property_7[7224] = {
+		id = 7224,
+		reload_max = 226,
+		damage = 9,
+		base = 7220
+	}
+	uv0.weapon_property_7[7225] = {
+		id = 7225,
+		reload_max = 220,
+		damage = 10,
+		base = 7220
+	}
+	uv0.weapon_property_7[7226] = {
+		id = 7226,
+		reload_max = 214,
+		damage = 12,
+		base = 7220
+	}
+	uv0.weapon_property_7[7240] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "130mm单装炮T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 7240,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 240,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.2,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1006
+		},
+		barrage_ID = {
+			1018
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_7[7241] = {
+		id = 7241,
+		reload_max = 234,
+		damage = 7,
+		base = 7240
 	}
 end()

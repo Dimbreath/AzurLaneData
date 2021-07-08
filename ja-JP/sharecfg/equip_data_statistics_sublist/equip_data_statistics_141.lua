@@ -1,334 +1,308 @@
 pg = pg or {}
 pg.equip_data_statistics_141 = {
-	[18144] = {
-		id = 18144,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51144
-			}
-		},
+	[21021] = {
+		id = 21021,
+		base = 21020,
 		weapon_id = {
-			18144
+			21021
 		}
 	},
-	[18145] = {
-		id = 18145,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51145
-			}
-		},
+	[21022] = {
+		id = 21022,
+		damage = "4 x 1",
+		base = 21020,
 		weapon_id = {
-			18145
+			21022
 		}
 	},
-	[18146] = {
-		id = 18146,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51146
-			}
-		},
+	[21023] = {
+		id = 21023,
+		damage = "4 x 1",
+		base = 21020,
 		weapon_id = {
-			18146
+			21023
 		}
 	},
-	[18147] = {
-		id = 18147,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51147
-			}
-		},
-		weapon_id = {
-			18147
-		}
-	},
-	[18148] = {
-		id = 18148,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51148
-			}
-		},
-		weapon_id = {
-			18148
-		}
-	},
-	[18149] = {
-		id = 18149,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51149
-			}
-		},
-		weapon_id = {
-			18149
-		}
-	},
-	[18150] = {
-		id = 18150,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51150
-			}
-		},
-		weapon_id = {
-			18150
-		}
-	},
-	[18151] = {
-		anti_siren = 100,
-		base = 18140,
-		id = 18151,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51151
-			}
-		},
-		weapon_id = {
-			18151
-		}
-	},
-	[18180] = {
-		name = "TBMアベンジャー(VT-18中隊)",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
-		tech = 0,
-		descrip = "空母イントレピッドとともに活躍していた攻撃機中隊",
-		value_2 = 45,
-		icon = "18180",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
+	[21040] = {
+		name = "102mm単装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "21000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 1",
+		nationality = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 18180,
+		id = 21040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50040
-			},
-			{
-				4,
-				59620
+				1,
+				999
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			18180
+			21040
 		},
-		skill_id = {
-			6790
-		},
+		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"TB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[18181] = {
-		base = 18180,
-		id = 18181,
+	[21041] = {
+		id = 21041,
+		base = 21040,
+		weapon_id = {
+			21041
+		}
+	},
+	[21042] = {
+		id = 21042,
+		damage = "4 x 1",
+		base = 21040,
+		weapon_id = {
+			21042
+		}
+	},
+	[21043] = {
+		id = 21043,
+		damage = "4 x 1",
+		base = 21040,
+		weapon_id = {
+			21043
+		}
+	},
+	[21044] = {
+		id = 21044,
+		damage = "5 x 1",
+		base = 21040,
+		weapon_id = {
+			21044
+		}
+	},
+	[21045] = {
+		id = 21045,
+		damage = "5 x 1",
+		base = 21040,
+		weapon_id = {
+			21045
+		}
+	},
+	[21046] = {
+		id = 21046,
+		damage = "7 x 1",
+		base = 21040,
+		weapon_id = {
+			21046
+		}
+	},
+	[21047] = {
+		id = 21047,
+		damage = "7 x 1",
+		base = 21040,
+		weapon_id = {
+			21047
+		}
+	},
+	[21100] = {
+		name = "102mm連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "21100",
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50041
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
 			},
 			{
 				4,
-				59621
-			}
+				1007
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			18181
+			21100
 		},
-		skill_id = {
-			6791
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[18182] = {
-		base = 18180,
-		id = 18182,
+	[21101] = {
+		id = 21101,
+		base = 21100,
+		weapon_id = {
+			21101
+		}
+	},
+	[21102] = {
+		id = 21102,
+		damage = "4 x 2",
+		base = 21100,
+		weapon_id = {
+			21102
+		}
+	},
+	[21103] = {
+		id = 21103,
+		damage = "4 x 2",
+		base = 21100,
+		weapon_id = {
+			21103
+		}
+	},
+	[21120] = {
+		name = "102mm連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "21100",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50042
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
 			},
 			{
 				4,
-				59622
-			}
+				1007
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			18182
+			21120
 		},
-		skill_id = {
-			6792
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[18183] = {
-		base = 18180,
-		id = 18183,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				59623
-			}
-		},
+	[21121] = {
+		id = 21121,
+		base = 21120,
 		weapon_id = {
-			18183
-		},
-		skill_id = {
-			6793
-		}
-	},
-	[18184] = {
-		base = 18180,
-		id = 18184,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				59624
-			}
-		},
-		weapon_id = {
-			18184
-		},
-		skill_id = {
-			6794
-		}
-	},
-	[18185] = {
-		base = 18180,
-		id = 18185,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				59625
-			}
-		},
-		weapon_id = {
-			18185
-		},
-		skill_id = {
-			6795
-		}
-	},
-	[18186] = {
-		base = 18180,
-		id = 18186,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				59626
-			}
-		},
-		weapon_id = {
-			18186
-		},
-		skill_id = {
-			6796
-		}
-	},
-	[18187] = {
-		base = 18180,
-		id = 18187,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				59627
-			}
-		},
-		weapon_id = {
-			18187
-		},
-		skill_id = {
-			6797
+			21121
 		}
 	}
 }

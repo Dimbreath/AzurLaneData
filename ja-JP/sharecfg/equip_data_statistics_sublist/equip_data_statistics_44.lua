@@ -1,28 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_44 = {
-	[2051] = {
-		id = 2051,
-		anti_siren = 100,
-		base = 2040,
+	[2248] = {
+		id = 2248,
 		value_2 = 6,
-		value_1 = "371"
+		value_1 = "30",
+		base = 2240
 	},
-	[2100] = {
-		name = "空母燃料タンク",
+	[2249] = {
+		id = 2249,
+		value_2 = 7,
+		value_1 = "32",
+		base = 2240
+	},
+	[2250] = {
+		id = 2250,
+		value_2 = 7,
+		value_1 = "35",
+		base = 2240
+	},
+	[2251] = {
+		id = 2251,
+		anti_siren = 100,
+		base = 2240,
+		value_2 = 8,
+		value_1 = "38"
+	},
+	[2300] = {
+		name = "ジャイロスコープ",
 		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 2100,
-		value_2 = 14,
-		icon = "2100",
-		value_1 = "10",
-		attribute_2 = "durability",
+		id = 2300,
+		value_2 = 1,
+		icon = "2300",
+		value_1 = "5",
+		attribute_2 = "speed",
 		rarity = 2,
-		descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+		descrip = "艦の安定性を向上させ、命中と速力を高める",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -31,58 +49,72 @@ pg.equip_data_statistics_44 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6070
-		},
+		skill_id = {},
 		part_main = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		part_sub = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[2101] = {
-		id = 2101,
-		value_2 = 16,
-		value_1 = "11",
-		base = 2100
+	[2301] = {
+		id = 2301,
+		base = 2300
 	},
-	[2102] = {
-		id = 2102,
-		value_2 = 18,
-		value_1 = "13",
-		base = 2100
+	[2302] = {
+		id = 2302,
+		value_1 = "6",
+		base = 2300
 	},
-	[2103] = {
-		id = 2103,
-		value_2 = 20,
-		value_1 = "14",
-		base = 2100
+	[2303] = {
+		id = 2303,
+		value_1 = "7",
+		base = 2300
 	},
-	[2120] = {
-		name = "空母燃料タンク",
+	[2320] = {
+		name = "ジャイロスコープ",
 		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 2120,
-		value_2 = 16,
-		icon = "2100",
-		value_1 = "18",
-		attribute_2 = "durability",
+		id = 2320,
+		value_2 = 2,
+		icon = "2300",
+		value_1 = "9",
+		attribute_2 = "speed",
 		rarity = 3,
-		descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+		descrip = "艦の安定性を向上させ、命中と速力を高める",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -91,76 +123,92 @@ pg.equip_data_statistics_44 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6080
-		},
+		skill_id = {},
 		part_main = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		part_sub = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[2121] = {
-		id = 2121,
-		value_2 = 19,
-		value_1 = "20",
-		base = 2120
+	[2321] = {
+		id = 2321,
+		value_1 = "10",
+		base = 2320
 	},
-	[2122] = {
-		id = 2122,
-		value_2 = 22,
-		value_1 = "23",
-		base = 2120
+	[2322] = {
+		id = 2322,
+		value_1 = "11",
+		base = 2320
 	},
-	[2123] = {
-		id = 2123,
-		value_2 = 25,
-		value_1 = "26",
-		base = 2120
+	[2323] = {
+		id = 2323,
+		value_2 = 3,
+		value_1 = "13",
+		base = 2320
 	},
-	[2124] = {
-		id = 2124,
-		value_2 = 28,
-		value_1 = "28",
-		base = 2120
+	[2324] = {
+		id = 2324,
+		value_2 = 3,
+		value_1 = "14",
+		base = 2320
 	},
-	[2125] = {
-		id = 2125,
-		value_2 = 31,
-		value_1 = "31",
-		base = 2120
+	[2325] = {
+		id = 2325,
+		value_2 = 3,
+		value_1 = "15",
+		base = 2320
 	},
-	[2126] = {
-		id = 2126,
-		value_2 = 34,
-		value_1 = "34",
-		base = 2120
+	[2326] = {
+		id = 2326,
+		value_2 = 4,
+		value_1 = "17",
+		base = 2320
 	},
-	[2140] = {
-		name = "空母燃料タンク",
+	[2340] = {
+		name = "ジャイロスコープ",
 		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 2140,
-		value_2 = 20,
-		icon = "2100",
-		value_1 = "28",
-		attribute_2 = "durability",
+		id = 2340,
+		value_2 = 3,
+		icon = "2300",
+		value_1 = "14",
+		attribute_2 = "speed",
 		rarity = 4,
-		descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+		descrip = "艦の安定性を向上させ、命中と速力を高める",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -169,40 +217,45 @@ pg.equip_data_statistics_44 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6090
-		},
+		skill_id = {},
 		part_main = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		part_sub = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[2141] = {
-		id = 2141,
-		value_2 = 24,
-		value_1 = "32",
-		base = 2140
-	},
-	[2142] = {
-		id = 2142,
-		value_2 = 28,
-		value_1 = "36",
-		base = 2140
-	},
-	[2143] = {
-		id = 2143,
-		value_2 = 32,
-		value_1 = "40",
-		base = 2140
+	[2341] = {
+		id = 2341,
+		value_1 = "16",
+		base = 2340
 	}
 }

@@ -1,228 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_116 = {
-	[15240] = {
-		name = "533mm五連装魚雷Mk17",
-		speciality = "雷撃",
-		type = 5,
-		tech = 0,
+	[16241] = {
+		id = 16241,
+		damage = "33/回",
+		base = 16240,
+		weapon_id = {
+			16241
+		}
+	},
+	[16242] = {
+		id = 16242,
+		damage = "37/回",
+		base = 16240,
+		weapon_id = {
+			16242
+		}
+	},
+	[16243] = {
+		id = 16243,
+		damage = "41/回",
+		base = 16240,
+		weapon_id = {
+			16243
+		}
+	},
+	[16244] = {
+		id = 16244,
+		damage = "45/回",
+		base = 16240,
+		weapon_id = {
+			16244
+		}
+	},
+	[16245] = {
+		id = 16245,
+		damage = "49/回",
+		base = 16240,
+		weapon_id = {
+			16245
+		}
+	},
+	[16246] = {
+		id = 16246,
+		damage = "53/回",
+		base = 16240,
+		weapon_id = {
+			16246
+		}
+	},
+	[16247] = {
+		id = 16247,
+		damage = "57/回",
+		base = 16240,
+		weapon_id = {
+			16247
+		}
+	},
+	[16248] = {
+		id = 16248,
+		damage = "62/回",
+		base = 16240,
+		weapon_id = {
+			16248
+		}
+	},
+	[16249] = {
+		id = 16249,
+		damage = "67/回",
+		base = 16240,
+		weapon_id = {
+			16249
+		}
+	},
+	[16250] = {
+		id = 16250,
+		damage = "72/回",
+		base = 16240,
+		weapon_id = {
+			16250
+		}
+	},
+	[16251] = {
+		anti_siren = 100,
+		damage = "72/回",
+		base = 16240,
+		id = 16251,
+		weapon_id = {
+			16251
+		}
+	},
+	[16300] = {
+		name = "二連装ボフォース40mm機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
-		icon = "15240",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "60 x 5",
+		value_2 = 5,
+		icon = "16300",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 15240,
+		id = 16300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
+		ammo_info = {},
 		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1404
-			},
+			1,
+			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15240
+			16300
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
 			"ST",
-			"TP",
-			"QUINT"
+			"AA"
 		}
 	},
-	[15241] = {
-		id = 15241,
-		damage = "70 x 5",
-		base = 15240,
+	[16301] = {
+		id = 16301,
+		damage = "22/回",
+		base = 16300,
 		weapon_id = {
-			15241
+			16301
 		}
 	},
-	[15242] = {
-		id = 15242,
-		damage = "80 x 5",
-		base = 15240,
+	[16302] = {
+		id = 16302,
+		damage = "25/回",
+		base = 16300,
 		weapon_id = {
-			15242
+			16302
 		}
 	},
-	[15243] = {
-		id = 15243,
-		damage = "90 x 5",
-		base = 15240,
+	[16303] = {
+		id = 16303,
+		damage = "29/回",
+		base = 16300,
 		weapon_id = {
-			15243
+			16303
 		}
 	},
-	[15244] = {
-		id = 15244,
-		damage = "100 x 5",
-		base = 15240,
-		weapon_id = {
-			15244
-		}
-	},
-	[15245] = {
-		id = 15245,
-		damage = "110 x 5",
-		base = 15240,
-		weapon_id = {
-			15245
-		}
-	},
-	[15246] = {
-		id = 15246,
-		damage = "120 x 5",
-		base = 15240,
-		weapon_id = {
-			15246
-		}
-	},
-	[15247] = {
-		id = 15247,
-		damage = "130 x 5",
-		base = 15240,
-		weapon_id = {
-			15247
-		}
-	},
-	[15248] = {
-		id = 15248,
-		damage = "140 x 5",
-		base = 15240,
-		weapon_id = {
-			15248
-		}
-	},
-	[15249] = {
-		id = 15249,
-		damage = "150 x 5",
-		base = 15240,
-		weapon_id = {
-			15249
-		}
-	},
-	[15250] = {
-		id = 15250,
-		damage = "160 x 5",
-		base = 15240,
-		weapon_id = {
-			15250
-		}
-	},
-	[15251] = {
-		anti_siren = 100,
-		damage = "160 x 5",
-		base = 15240,
-		id = 15251,
-		weapon_id = {
-			15251
-		}
-	},
-	[15252] = {
-		anti_siren = 200,
-		damage = "160 x 5",
-		base = 15240,
-		id = 15252,
-		weapon_id = {
-			15252
-		}
-	},
-	[15253] = {
-		anti_siren = 300,
-		damage = "160 x 5",
-		base = 15240,
-		id = 15253,
-		weapon_id = {
-			15253
-		}
-	},
-	[15500] = {
-		name = "PBY-5Aカタリナ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 15500,
-		value_2 = 10,
-		icon = "15500",
-		value_1 = "14",
-		attribute_2 = "antisub",
-		rarity = 4,
-		descrip = "対潜哨戒、海難救助などでよく用いられる飛行艇。",
+	[16320] = {
+		name = "二連装ボフォース40mm機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "16300",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "23/回",
 		nationality = 1,
-		ammo = 10,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 16320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6530
+		weapon_id = {
+			16320
 		},
+		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			11,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			11,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		equip_parameters = {
-			avoid_extra = 1000,
-			ambush_extra = 1000
-		},
+		equip_parameters = {},
 		label = {
 			"USS",
-			"DEV"
+			"ST",
+			"AA"
 		}
 	},
-	[15501] = {
-		id = 15501,
-		value_2 = 12,
-		value_1 = "16",
-		base = 15500
+	[16321] = {
+		id = 16321,
+		damage = "26/回",
+		base = 16320,
+		weapon_id = {
+			16321
+		}
 	}
 }

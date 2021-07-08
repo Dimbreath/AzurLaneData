@@ -1,249 +1,301 @@
 pg = pg or {}
 pg.equip_data_statistics_67 = {
-	[4147] = {
-		id = 4147,
-		damage = "49 x 3",
-		base = 4140,
+	[5047] = {
+		id = 5047,
+		damage = "116 x 3",
+		base = 5040,
 		weapon_id = {
-			4147
+			5047
 		}
 	},
-	[4148] = {
-		id = 4148,
-		damage = "53 x 3",
-		base = 4140,
-		weapon_id = {
-			4148
-		}
-	},
-	[4149] = {
-		id = 4149,
-		damage = "57 x 3",
-		base = 4140,
-		weapon_id = {
-			4149
-		}
-	},
-	[4150] = {
-		id = 4150,
-		damage = "61 x 3",
-		base = 4140,
-		weapon_id = {
-			4150
-		}
-	},
-	[4151] = {
-		anti_siren = 100,
-		damage = "61 x 3",
-		base = 4140,
-		id = 4151,
-		weapon_id = {
-			4151
-		}
-	},
-	[4200] = {
-		name = "ソードフィッシュMarkⅡ-ASV（対潜）",
-		type = 15,
-		speciality = "対潜",
-		rarity = 2,
+	[5100] = {
+		name = "533mm四連装魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 1,
-		descrip = "ハードポイントを増設し、ASVを装備したソードフィッシュ ",
+		descrip = "0",
 		value_2 = 5,
-		icon = "4200",
-		attribute_2 = "antisub",
-		nationality = 2,
+		icon = "5100",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "46 x 4",
+		nationality = 0,
 		ammo = 5,
 		value_3 = 0,
-		id = 4200,
+		id = 5100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				8,
-				53100
+				3,
+				1800
 			}
 		},
 		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1403
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			4200
+			5100
 		},
 		skill_id = {},
 		part_main = {
-			6
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			6
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"ASA"
+			"UN",
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[4201] = {
-		id = 4201,
-		base = 4200,
-		ammo_info = {
-			{
-				8,
-				53101
-			}
-		},
+	[5101] = {
+		id = 5101,
+		damage = "54 x 4",
+		base = 5100,
 		weapon_id = {
-			4201
+			5101
 		}
 	},
-	[4202] = {
-		id = 4202,
-		base = 4200,
-		ammo_info = {
-			{
-				8,
-				53102
-			}
-		},
+	[5102] = {
+		id = 5102,
+		damage = "62 x 4",
+		base = 5100,
 		weapon_id = {
-			4202
+			5102
 		}
 	},
-	[4203] = {
-		id = 4203,
-		base = 4200,
-		ammo_info = {
-			{
-				8,
-				53103
-			}
-		},
+	[5103] = {
+		id = 5103,
+		damage = "70 x 4",
+		base = 5100,
 		weapon_id = {
-			4203
+			5103
 		}
 	},
-	[4220] = {
-		name = "ソードフィッシュMarkⅡ-ASV（対潜）",
-		type = 15,
-		speciality = "対潜",
-		rarity = 3,
+	[5120] = {
+		name = "533mm四連装魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 2,
-		descrip = "ハードポイントを増設し、ASVを装備したソードフィッシュ ",
+		descrip = "0",
 		value_2 = 12,
-		icon = "4200",
-		attribute_2 = "antisub",
-		nationality = 2,
+		icon = "5100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "50 x 4",
+		nationality = 0,
 		ammo = 5,
 		value_3 = 0,
-		id = 4220,
+		id = 5120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				8,
-				53120
+				3,
+				1800
 			}
 		},
 		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1403
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			4220
+			5120
 		},
 		skill_id = {},
 		part_main = {
-			6
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			6
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"ASA"
+			"UN",
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[4221] = {
-		id = 4221,
-		base = 4220,
-		ammo_info = {
-			{
-				8,
-				53121
-			}
-		},
+	[5121] = {
+		id = 5121,
+		damage = "59 x 4",
+		base = 5120,
 		weapon_id = {
-			4221
+			5121
 		}
 	},
-	[4222] = {
-		id = 4222,
-		base = 4220,
-		ammo_info = {
-			{
-				8,
-				53122
-			}
-		},
+	[5122] = {
+		id = 5122,
+		damage = "68 x 4",
+		base = 5120,
 		weapon_id = {
-			4222
+			5122
 		}
 	},
-	[4223] = {
-		id = 4223,
-		base = 4220,
-		ammo_info = {
-			{
-				8,
-				53123
-			}
-		},
+	[5123] = {
+		id = 5123,
+		damage = "77 x 4",
+		base = 5120,
 		weapon_id = {
-			4223
+			5123
 		}
 	},
-	[4224] = {
-		id = 4224,
-		base = 4220,
-		ammo_info = {
-			{
-				8,
-				53124
-			}
-		},
+	[5124] = {
+		id = 5124,
+		damage = "86 x 4",
+		base = 5120,
 		weapon_id = {
-			4224
+			5124
 		}
 	},
-	[4225] = {
-		id = 4225,
-		base = 4220,
-		ammo_info = {
-			{
-				8,
-				53125
-			}
-		},
+	[5125] = {
+		id = 5125,
+		damage = "95 x 4",
+		base = 5120,
 		weapon_id = {
-			4225
+			5125
 		}
 	},
-	[4226] = {
-		id = 4226,
-		base = 4220,
+	[5126] = {
+		id = 5126,
+		damage = "104 x 4",
+		base = 5120,
+		weapon_id = {
+			5126
+		}
+	},
+	[5140] = {
+		name = "533mm四連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "5100",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "56 x 4",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				8,
-				53126
+				3,
+				1800
 			}
 		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			4226
+			5140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[5141] = {
+		id = 5141,
+		damage = "66 x 4",
+		base = 5140,
+		weapon_id = {
+			5141
+		}
+	},
+	[5142] = {
+		id = 5142,
+		damage = "76 x 4",
+		base = 5140,
+		weapon_id = {
+			5142
+		}
+	},
+	[5143] = {
+		id = 5143,
+		damage = "86 x 4",
+		base = 5140,
+		weapon_id = {
+			5143
+		}
+	},
+	[5144] = {
+		id = 5144,
+		damage = "96 x 4",
+		base = 5140,
+		weapon_id = {
+			5144
 		}
 	}
 }

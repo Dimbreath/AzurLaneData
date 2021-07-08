@@ -1,76 +1,36 @@
 pg = pg or {}
 pg.aircraft_template_185 = {
-	[69206] = {
-		max_hp = 73,
-		name = "库珀反潜PBY-Lv6",
-		base = 69201,
-		id = 69206,
-		hp_growth = 2669,
-		weapon_ID = {
-			53146
-		}
-	},
-	[69207] = {
-		max_hp = 79,
-		name = "库珀反潜PBY-Lv7",
-		base = 69201,
-		id = 69207,
-		hp_growth = 2879,
-		weapon_ID = {
-			53147
-		}
-	},
-	[69208] = {
-		max_hp = 86,
-		name = "库珀反潜PBY-Lv8",
-		base = 69201,
-		id = 69208,
-		hp_growth = 3090,
-		weapon_ID = {
-			53148
-		}
-	},
-	[69209] = {
-		max_hp = 92,
-		name = "库珀反潜PBY-Lv9",
-		base = 69201,
-		id = 69209,
-		hp_growth = 3301,
-		weapon_ID = {
-			53149
-		}
-	},
-	[69210] = {
+	[68550] = {
 		max_hp = 98,
-		name = "库珀反潜PBY-Lv10",
-		base = 69201,
-		id = 69210,
+		name = "伊25技能零侦LV10",
+		base = 68541,
+		id = 68550,
 		hp_growth = 3511,
-		weapon_ID = {
-			53150
-		}
+		weapon_ID = {}
 	},
-	[69211] = {
-		name = "库珀轰炸PBY-Lv1",
-		max_hp = 42,
+	[68621] = {
+		name = "巴丹技能F6FLV1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "pby",
+		model_ID = "f6f",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 156,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 11,
+		type = 1,
 		AP_growth = 2000,
-		icon = "pby",
+		icon = "f6f",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1615,
-		speed = 66,
-		id = 69211,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68621,
 		scale = 1,
 		weapon_ID = {
-			69221
+			50341,
+			50541,
+			68631
 		},
 		position_offset = {
 			0,
@@ -90,13 +50,13 @@ pg.aircraft_template_185 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -113,7 +73,7 @@ pg.aircraft_template_185 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -124,44 +84,100 @@ pg.aircraft_template_185 = {
 			}
 		}
 	},
-	[69212] = {
-		max_hp = 48,
-		name = "库珀轰炸PBY-Lv2",
-		base = 69211,
-		id = 69212,
-		hp_growth = 1826,
+	[68622] = {
+		max_hp = 57,
+		name = "巴丹技能F6FLV2",
+		base = 68621,
+		id = 68622,
+		hp_growth = 2201,
 		weapon_ID = {
-			69222
+			50342,
+			50542,
+			68632
 		}
 	},
-	[69213] = {
-		max_hp = 54,
-		name = "库珀轰炸PBY-Lv3",
-		base = 69211,
-		id = 69213,
-		hp_growth = 2036,
+	[68623] = {
+		max_hp = 64,
+		name = "巴丹技能F6FLV3",
+		base = 68621,
+		id = 68623,
+		hp_growth = 2455,
 		weapon_ID = {
-			69223
+			50343,
+			50543,
+			68633
 		}
 	},
-	[69214] = {
-		max_hp = 61,
-		name = "库珀轰炸PBY-Lv4",
-		base = 69211,
-		id = 69214,
-		hp_growth = 2247,
+	[68624] = {
+		max_hp = 70,
+		name = "巴丹技能F6FLV4",
+		base = 68621,
+		id = 68624,
+		hp_growth = 2710,
 		weapon_ID = {
-			69224
+			50344,
+			50544,
+			68634
 		}
 	},
-	[69215] = {
-		max_hp = 67,
-		name = "库珀轰炸PBY-Lv5",
-		base = 69211,
-		id = 69215,
-		hp_growth = 2458,
+	[68625] = {
+		max_hp = 77,
+		name = "巴丹技能F6FLV5",
+		base = 68621,
+		id = 68625,
+		hp_growth = 2964,
 		weapon_ID = {
-			69225
+			50345,
+			50545,
+			68635
+		}
+	},
+	[68626] = {
+		max_hp = 84,
+		name = "巴丹技能F6FLV6",
+		base = 68621,
+		id = 68626,
+		hp_growth = 3218,
+		weapon_ID = {
+			50346,
+			50546,
+			68636
+		}
+	},
+	[68627] = {
+		max_hp = 90,
+		name = "巴丹技能F6FLV7",
+		base = 68621,
+		id = 68627,
+		hp_growth = 3472,
+		weapon_ID = {
+			50347,
+			50547,
+			68637
+		}
+	},
+	[68628] = {
+		max_hp = 97,
+		name = "巴丹技能F6FLV8",
+		base = 68621,
+		id = 68628,
+		hp_growth = 3726,
+		weapon_ID = {
+			50348,
+			50548,
+			68638
+		}
+	},
+	[68629] = {
+		max_hp = 103,
+		name = "巴丹技能F6FLV9",
+		base = 68621,
+		id = 68629,
+		hp_growth = 3980,
+		weapon_ID = {
+			50349,
+			50549,
+			68639
 		}
 	}
 }

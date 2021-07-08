@@ -52,13 +52,13 @@ function slot0.register(slot0)
 		slot0.contextData.DisplayItems = pg.extraenemy_template[slot4.boss_id[1]] and slot6.reward_display or {}
 	end
 
-	slot0.contextData.cbAfterReq = {}
+	slot0.cbAfterReq = {}
 
 	slot0:RequestAndUpdateView()
 
 	slot0.contextData.actFleets = slot2:getActivityFleets()[slot1.id]
 
-	if slot0.activityProxy:getActivityById(slot0.viewComponent:GetPTActivityID()) then
+	if slot0.activityProxy:getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
 		slot0.contextData.ptData = ActivityBossPtData.New(slot7)
 	end
 
@@ -400,7 +400,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ACT_NEW_PT_DONE,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
 		GAME.GET_POWERRANK_DONE,
-		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE
+		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
+		CommanderProxy.PREFAB_FLEET_UPDATE
 	}
 end
 
@@ -408,7 +409,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3.id == slot0.viewComponent:GetPTActivityID() then
+		if slot3.id == ActivityConst.ACTIVITY_BOSS_PT_ID then
 			if slot0.contextData.ptData then
 				slot0.contextData.ptData:Update(slot3)
 			else
@@ -428,13 +429,13 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 
-			if #slot0.contextData.cbAfterReq > 0 then
-				for slot8, slot9 in ipairs(slot0.contextData.cbAfterReq) do
+			if #slot0.cbAfterReq > 0 then
+				for slot8, slot9 in ipairs(slot0.cbAfterReq) do
 					slot9()
 				end
 
-				for slot8 = #slot0.contextData.cbAfterReq, 1, -1 do
-					table.remove(slot0.contextData.cbAfterReq, slot8)
+				for slot8 = #slot0.cbAfterReq, 1, -1 do
+					table.remove(slot0.cbAfterReq, slot8)
 				end
 			end
 
@@ -466,6 +467,9 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.viewComponent:updateEditPanel()
 		slot0.viewComponent:updateCommanderFleet(slot4[slot3.fleetId])
+	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
+		slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
+		slot0.viewComponent:updateCommanderPrefab()
 	end
 end
 
@@ -473,7 +477,7 @@ function slot0.RequestAndUpdateView(slot0, slot1)
 	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
 		activity_id = slot0.contextData.activityID
 	})
-	table.insert(slot0.contextData.cbAfterReq, slot1)
+	table.insert(slot0.cbAfterReq, slot1)
 end
 
 function slot0.UpdateView(slot0)

@@ -25,11 +25,11 @@ function slot0.OnUpdate(slot0, slot1)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0.onYes then
-			uv0.onYes()
-		end
+		uv0:Hide()
 
-		uv1:Hide()
+		if uv1.onYes then
+			uv1.onYes()
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()

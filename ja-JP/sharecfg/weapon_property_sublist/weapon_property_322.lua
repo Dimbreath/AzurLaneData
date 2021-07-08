@@ -2,1252 +2,1274 @@ pg = pg or {}
 pg.weapon_property_322 = {}
 
 function ()
-	uv0.weapon_property_322[712031] = {
+	uv0.weapon_property_322[697605] = {
 		aim_type = 1,
-		range = 120,
-		damage = 21,
+		range = 80,
 		base = 1000,
-		name = "【2020普林斯顿SP3】BOSS 瑞鹤第三波弹幕",
-		fire_fx = "fangkongpaohuoshe2",
+		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 三角状弹幕",
 		suppress = 1,
-		reload_max = 5000,
-		type = 2,
+		reload_max = 1400,
 		queue = 1,
-		id = 712031,
+		id = 697605,
 		bullet_ID = {
-			770034,
-			770035
+			700001,
+			700002,
+			700003,
+			700004,
+			700005,
+			700001,
+			700002,
+			700003,
+			700004,
+			700005
 		},
 		barrage_ID = {
-			780015,
-			780016
+			680003,
+			680004,
+			680005,
+			680006,
+			680007,
+			680008,
+			680009,
+			680010,
+			680011,
+			680012
 		}
 	}
-	uv0.weapon_property_322[720001] = {
+	uv0.weapon_property_322[697606] = {
+		range = 70,
+		damage = 9,
+		base = 1000,
+		type = 2,
+		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 旋转穿透弹",
+		suppress = 1,
+		reload_max = 1250,
+		queue = 2,
+		id = 697606,
+		bullet_ID = {
+			8070,
+			8071
+		},
+		barrage_ID = {
+			21056,
+			21057
+		}
+	}
+	uv0.weapon_property_322[698001] = {
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698001,
+		bullet_ID = {
+			760088,
+			760089,
+			760090,
+			760091,
+			760092,
+			760093,
+			760094,
+			760095
+		},
+		barrage_ID = {
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067
+		}
+	}
+	uv0.weapon_property_322[698002] = {
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698002,
+		bullet_ID = {
+			760096,
+			760097
+		},
+		barrage_ID = {
+			770069,
+			770070
+		}
+	}
+	uv0.weapon_property_322[698003] = {
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698003,
+		bullet_ID = {
+			760103,
+			760108,
+			760104,
+			760109
+		},
+		barrage_ID = {
+			770072,
+			770073,
+			770074,
+			770075
+		}
+	}
+	uv0.weapon_property_322[698004] = {
+		range = 120,
+		damage = 5,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕 普通下篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698004,
+		bullet_ID = {
+			760088,
+			760089,
+			760090,
+			760091,
+			760092,
+			760093,
+			760094,
+			760095
+		},
+		barrage_ID = {
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067
+		}
+	}
+	uv0.weapon_property_322[698005] = {
+		range = 120,
+		damage = 5,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹 普通下篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698005,
+		bullet_ID = {
+			760096,
+			760097
+		},
+		barrage_ID = {
+			770069,
+			770070
+		}
+	}
+	uv0.weapon_property_322[698006] = {
+		range = 120,
+		damage = 5,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 普通下篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698006,
+		bullet_ID = {
+			760103,
+			760108,
+			760104,
+			760109
+		},
+		barrage_ID = {
+			770072,
+			770073,
+			770074,
+			770075
+		}
+	}
+	uv0.weapon_property_322[698007] = {
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕 困难上篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698007,
+		bullet_ID = {
+			760088,
+			760089,
+			760090,
+			760091,
+			760092,
+			760093,
+			760094,
+			760095
+		},
+		barrage_ID = {
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067
+		}
+	}
+	uv0.weapon_property_322[698008] = {
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹 困难上篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698008,
+		bullet_ID = {
+			760096,
+			760097
+		},
+		barrage_ID = {
+			770069,
+			770070
+		}
+	}
+	uv0.weapon_property_322[698009] = {
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 困难上篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698009,
+		bullet_ID = {
+			760103,
+			760108,
+			760104,
+			760109
+		},
+		barrage_ID = {
+			770072,
+			770073,
+			770074,
+			770075
+		}
+	}
+	uv0.weapon_property_322[698010] = {
 		range = 120,
 		damage = 8,
 		base = 1000,
-		name = "【2020偶像活动二期SP1】精英人形恶毒 专属弹幕",
+		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕 困难下篇",
 		type = 2,
-		reload_max = 900,
-		id = 720001,
+		reload_max = 9999,
+		queue = 7,
+		id = 698010,
 		bullet_ID = {
-			780002,
-			780002
+			760088,
+			760089,
+			760090,
+			760091,
+			760092,
+			760093,
+			760094,
+			760095
 		},
 		barrage_ID = {
-			79413,
-			79414
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067,
+			770067
 		}
 	}
-	uv0.weapon_property_322[720002] = {
-		aim_type = 0,
-		damage = 34,
-		base = 1001,
-		name = "【2020偶像活动二期SP1】精英人形恶毒 专属弹幕鱼雷",
-		suppress = 1,
-		reload_max = 900,
-		queue = 4,
-		id = 720002,
-		bullet_ID = {
-			79412
-		},
-		barrage_ID = {
-			79415
-		}
-	}
-	uv0.weapon_property_322[720003] = {
-		range = 120,
-		name = "【2020偶像活动二期SP1】精英人形黛朵 侧翼穿透弹",
-		damage = 12,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1155,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 720003,
-		bullet_ID = {
-			680012,
-			680013
-		},
-		barrage_ID = {
-			680013,
-			680014
-		}
-	}
-	uv0.weapon_property_322[720004] = {
-		range = 120,
-		name = "【2020偶像活动二期SP1】精英人形黛朵 扩散弹",
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1200,
-		fire_sfx = "battle/cannon-main",
-		id = 720004,
-		bullet_ID = {
-			780010,
-			780011
-		},
-		barrage_ID = {
-			680015,
-			680016
-		}
-	}
-	uv0.weapon_property_322[720101] = {
-		aim_type = 1,
-		range = 38,
-		damage = 8,
-		base = 1000,
-		name = "【2020偶像活动二期SP1】BOSS 巴尔的摩 近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 600,
-		queue = 1,
-		id = 720101,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			13
-		}
-	}
-	uv0.weapon_property_322[720102] = {
-		name = "【2020偶像活动二期SP1】BOSS 巴尔的摩 联装主炮射击",
-		damage = 16,
-		base = 1000,
-		initial_over_heat = 1,
-		fire_fx = "CAFire",
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 720102,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			1203
-		}
-	}
-	uv0.weapon_property_322[720103] = {
-		aim_type = 1,
-		range = 60,
-		damage = 16,
-		base = 1000,
-		name = "【2020偶像活动二期SP1】BOSS 巴尔的摩 前排跨射",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 3000,
-		type = 19,
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 720103,
-		bullet_ID = {
-			780017
-		},
-		barrage_ID = {
-			790024
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_322[720104] = {
-		range = 100,
-		name = "【2020偶像活动二期SP1】BOSS 巴尔的摩 音符散射",
-		damage = 16,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1000,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 720104,
-		bullet_ID = {
-			780003,
-			780003
-		},
-		barrage_ID = {
-			200102,
-			200103
-		}
-	}
-	uv0.weapon_property_322[720105] = {
-		name = "【2020偶像活动二期SP1】BOSS 巴尔的摩 两翼穿甲弹幕",
-		damage = 14,
-		base = 1000,
-		suppress = 1,
-		reload_max = 1000,
-		queue = 2,
-		id = 720105,
-		bullet_ID = {
-			950050,
-			950050,
-			950050,
-			950050
-		},
-		barrage_ID = {
-			790020,
-			790021,
-			790022,
-			790023
-		}
-	}
-	uv0.weapon_property_322[721001] = {
+	uv0.weapon_property_322[698011] = {
 		range = 120,
 		damage = 8,
 		base = 1000,
-		name = "【2020偶像活动二期SP2】精英人形恶毒 专属弹幕",
+		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹 困难下篇",
 		type = 2,
-		reload_max = 900,
-		id = 721001,
+		reload_max = 9999,
+		queue = 7,
+		id = 698011,
 		bullet_ID = {
-			780002,
-			780002
+			760096,
+			760097
 		},
 		barrage_ID = {
-			79413,
-			79414
+			770069,
+			770070
 		}
 	}
-	uv0.weapon_property_322[721002] = {
-		aim_type = 0,
-		damage = 34,
-		base = 1001,
-		name = "【2020偶像活动二期SP2】精英人形恶毒 专属弹幕鱼雷",
-		suppress = 1,
-		reload_max = 900,
-		queue = 4,
-		id = 721002,
-		bullet_ID = {
-			79412
-		},
-		barrage_ID = {
-			79415
-		}
-	}
-	uv0.weapon_property_322[721003] = {
+	uv0.weapon_property_322[698012] = {
 		range = 120,
-		name = "【2020偶像活动二期SP2】精英人形黛朵 侧翼穿透弹",
-		damage = 12,
+		damage = 8,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 困难下篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698012,
+		bullet_ID = {
+			760103,
+			760108,
+			760104,
+			760109
+		},
+		barrage_ID = {
+			770072,
+			770073,
+			770074,
+			770075
+		}
+	}
+	uv0.weapon_property_322[695001] = {
+		range = 120,
+		name = "【2020信浓活动EX】BOSS 信浓 第一波 蝴蝶子母弹",
 		base = 1000,
 		fire_fx = "CAFire",
-		reload_max = 1155,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 721003,
-		bullet_ID = {
-			680012,
-			680013
-		},
-		barrage_ID = {
-			680013,
-			680014
-		}
-	}
-	uv0.weapon_property_322[721004] = {
-		range = 120,
-		name = "【2020偶像活动二期SP2】精英人形黛朵 扩散弹",
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1200,
-		fire_sfx = "battle/cannon-main",
-		id = 721004,
-		bullet_ID = {
-			780010,
-			780011
-		},
-		barrage_ID = {
-			680015,
-			680016
-		}
-	}
-	uv0.weapon_property_322[721005] = {
-		aim_type = 0,
-		name = "【2020偶像活动二期SP3】精英人形大青花鱼 开幕鱼雷",
-		damage = 40,
-		base = 1001,
 		action_index = "",
 		reload_max = 9999,
-		id = 721005,
+		queue = 1,
+		id = 695001,
 		bullet_ID = {
-			750001,
-			750002,
-			750003,
-			750004,
-			750005
+			760110,
+			760110
 		},
 		barrage_ID = {
-			760001,
-			760002,
-			760003,
-			760004,
-			760005
+			770078,
+			770082
 		}
 	}
-	uv0.weapon_property_322[721006] = {
-		aim_type = 1,
+	uv0.weapon_property_322[695002] = {
 		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【2020偶像活动二期SP2】精英人形大青花鱼 3way驱逐炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		action_index = "",
-		queue = 1,
-		id = 721006,
-		bullet_ID = {
-			1201,
-			1201,
-			1201
-		},
-		barrage_ID = {
-			1417,
-			1001,
-			1418
-		}
-	}
-	uv0.weapon_property_322[721007] = {
-		aim_type = 0,
-		name = "【2020偶像活动二期SP2】精英人形大青花鱼 专属弹幕鱼雷",
-		damage = 36,
-		base = 1001,
-		action_index = "",
-		reload_max = 2400,
-		id = 721007,
-		bullet_ID = {
-			79341,
-			79341
-		},
-		barrage_ID = {
-			79341,
-			79342
-		}
-	}
-	uv0.weapon_property_322[721008] = {
-		name = "【2020偶像活动二期SP2】精英人形大青花鱼 快速自机狙鱼雷",
-		damage = 36,
-		base = 1001,
-		action_index = "",
-		suppress = 1,
-		reload_max = 1500,
-		id = 721008,
-		bullet_ID = {
-			750007
-		},
-		barrage_ID = {
-			700020
-		}
-	}
-	uv0.weapon_property_322[721009] = {
-		name = "【2020偶像活动二期SP2】精英人形大青花鱼 3way自机狙鱼雷",
-		damage = 36,
-		base = 1001,
-		action_index = "",
-		suppress = 1,
-		reload_max = 1800,
-		id = 721009,
-		bullet_ID = {
-			1821,
-			1821,
-			1821
-		},
-		barrage_ID = {
-			760008,
-			760010,
-			760012
-		}
-	}
-	uv0.weapon_property_322[721101] = {
-		aim_type = 1,
-		range = 38,
-		base = 1000,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 600,
-		queue = 5,
-		id = 721101,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			13
-		}
-	}
-	uv0.weapon_property_322[721102] = {
-		reload_max = 150,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符鱼雷机",
-		damage = 28,
-		base = 1002,
-		id = 721102,
-		range = 110,
-		queue = 2,
-		barrage_ID = {
-			12017
-		}
-	}
-	uv0.weapon_property_322[721103] = {
-		reload_max = 150,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符轰炸机",
-		damage = 36,
-		base = 1002,
-		id = 721103,
-		queue = 1,
-		barrage_ID = {
-			12012
-		}
-	}
-	uv0.weapon_property_322[721104] = {
-		reload_max = 150,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符战斗机",
-		damage = 16,
-		base = 1002,
-		id = 721104,
-		queue = 1,
-		barrage_ID = {
-			12012
-		}
-	}
-	uv0.weapon_property_322[721105] = {
-		range = 60,
-		damage = 28,
-		base = 1001,
-		suppress = 1,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符鱼雷机武器",
-		min_range = 20,
-		action_index = "",
-		reload_max = 6000,
-		attack_attribute = 4,
-		queue = 1,
-		id = 721105,
-		angle = 90,
-		bullet_ID = {
-			780008
-		},
-		barrage_ID = {
-			790025
-		}
-	}
-	uv0.weapon_property_322[721106] = {
-		range = 10,
-		damage = 36,
-		base = 1000,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符轰炸机武器",
-		fire_fx = "",
-		action_index = "",
-		type = 2,
-		reload_max = 6000,
-		attack_attribute = 4,
-		fire_sfx = "",
-		queue = 1,
-		id = 721106,
-		bullet_ID = {
-			780020
-		},
-		barrage_ID = {
-			790026
-		}
-	}
-	uv0.weapon_property_322[721107] = {
-		aim_type = 1,
-		range = 85,
-		damage = 16,
-		base = 1000,
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符战斗机武器",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 6000,
-		action_index = "",
-		fire_sfx = "battle/air-atk",
-		queue = 1,
-		id = 721107,
-		attack_attribute = 4,
-		bullet_ID = {
-			780019,
-			780019,
-			780019,
-			780019
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		}
-	}
-	uv0.weapon_property_322[721108] = {
-		name = "【2020偶像活动二期SP2】BOSS 光辉 常规扫射弹幕",
-		damage = 14,
+		name = "【2020信浓活动EX】BOSS 信浓 第一波 横排武士刀",
+		damage = 120,
 		base = 1000,
 		fire_fx = "CAFire",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 721108,
+		action_index = "",
+		reload_max = 9999,
+		queue = 2,
+		id = 695002,
 		bullet_ID = {
-			780018,
-			780018,
-			780018,
-			780018,
-			780018
+			760115
 		},
 		barrage_ID = {
-			690134,
-			690135,
-			690136,
-			690137,
-			690138
+			770080
 		}
 	}
-	uv0.weapon_property_322[721109] = {
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符扩散弹幕",
+	uv0.weapon_property_322[695003] = {
+		aim_type = 1,
+		range = 120,
+		damage = 40,
+		base = 1000,
+		name = "【2020信浓活动EX】BOSS 信浓 第一波 连续斩击弹",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		action_index = "",
+		queue = 3,
+		id = 695003,
+		bullet_ID = {
+			760116
+		},
+		barrage_ID = {
+			770081
+		}
+	}
+	uv0.weapon_property_322[695004] = {
+		range = 120,
+		name = "【2020信浓活动EX】BOSS 信浓 第二波 埋骨于弘川 固定弹",
 		damage = 15,
 		base = 1000,
-		initial_over_heat = 1,
-		suppress = 1,
-		reload_max = 6000,
-		queue = 3,
-		id = 721109,
-		bullet_ID = {
-			780016,
-			780016,
-			780016,
-			780016,
-			780016,
-			780016,
-			780016,
-			780016
-		},
-		barrage_ID = {
-			568421,
-			568422,
-			568423,
-			568424,
-			568425,
-			568426,
-			568427,
-			568428
-		}
-	}
-	uv0.weapon_property_322[722001] = {
-		range = 120,
-		name = "【2020偶像活动二期SP3】精英人形黛朵 侧翼穿透弹",
-		damage = 14,
-		base = 1000,
 		fire_fx = "CAFire",
-		reload_max = 1155,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 722001,
-		bullet_ID = {
-			680012,
-			680013
-		},
-		barrage_ID = {
-			680013,
-			680014
-		}
-	}
-	uv0.weapon_property_322[722002] = {
-		range = 120,
-		name = "【2020偶像活动二期SP3】精英人形黛朵 扩散弹",
-		damage = 12,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1200,
-		fire_sfx = "battle/cannon-main",
-		id = 722002,
-		bullet_ID = {
-			780010,
-			780011
-		},
-		barrage_ID = {
-			680015,
-			680016
-		}
-	}
-	uv0.weapon_property_322[722003] = {
-		range = 100,
-		name = "【2020偶像活动二期SP3】精英人形巴尔的摩 音符散射",
-		damage = 20,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 722003,
-		bullet_ID = {
-			780003,
-			780003
-		},
-		barrage_ID = {
-			200102,
-			200103
-		}
-	}
-	uv0.weapon_property_322[722004] = {
-		range = 100,
-		name = "【2020偶像活动二期SP3】精英人形巴尔的摩 中下上连续弹幕",
-		damage = 18,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 750,
-		fire_sfx = "battle/cannon-main",
-		id = 722004,
-		bullet_ID = {
-			780012,
-			780012,
-			780012,
-			780012,
-			780012,
-			780012
-		},
-		barrage_ID = {
-			790008,
-			790009,
-			790010,
-			790011,
-			790012,
-			790013
-		}
-	}
-	uv0.weapon_property_322[722005] = {
-		aim_type = 0,
-		name = "【2020偶像活动二期SP3】精英人形大青花鱼 开幕鱼雷",
-		damage = 46,
-		base = 1001,
 		action_index = "",
 		reload_max = 9999,
-		id = 722005,
+		queue = 1,
+		id = 695004,
 		bullet_ID = {
-			750001,
-			750002,
-			750003,
-			750004,
-			750005
+			760118,
+			760126,
+			760135,
+			760136,
+			760127,
+			760117
 		},
 		barrage_ID = {
-			760001,
-			760002,
-			760003,
-			760004,
-			760005
+			770083,
+			770084,
+			770085,
+			770085,
+			770086,
+			770087
 		}
 	}
-	uv0.weapon_property_322[722006] = {
-		aim_type = 1,
+	uv0.weapon_property_322[695005] = {
 		range = 120,
+		name = "【2020信浓活动EX】BOSS 信浓 第二波 埋骨于弘川 自机狙",
+		damage = 25,
 		base = 1000,
-		name = "【2020偶像活动二期SP3】精英人形大青花鱼 3way驱逐炮",
-		type = 2,
-		suppress = 1,
+		fire_fx = "CAFire",
 		action_index = "",
+		reload_max = 9999,
+		queue = 2,
+		id = 695005,
+		bullet_ID = {
+			760144,
+			760152
+		},
+		barrage_ID = {
+			770089,
+			770090
+		}
+	}
+	uv0.weapon_property_322[695006] = {
+		range = 120,
+		name = "【2020信浓活动EX】BOSS 信浓 第三波 蝴蝶子母弹",
+		base = 1000,
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 9999,
+		queue = 1,
+		id = 695006,
+		bullet_ID = {
+			760167,
+			760167
+		},
+		barrage_ID = {
+			770092,
+			770093
+		}
+	}
+	uv0.weapon_property_322[695007] = {
+		aim_type = 0,
+		name = "【2020信浓活动EX】BOSS 信浓 第四波 大规模飞机",
+		damage = 20,
+		base = 1002,
+		range = 120,
+		suppress = 0,
 		reload_max = 500,
 		queue = 1,
-		id = 722006,
-		bullet_ID = {
-			1201,
-			1201,
-			1201
-		},
+		id = 695007,
 		barrage_ID = {
-			1417,
-			1001,
-			1418
+			770094
 		}
 	}
-	uv0.weapon_property_322[722007] = {
+	uv0.weapon_property_322[695008] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020信浓活动EX】BOSS 信浓 第四波 飞机轰炸武器",
 		aim_type = 0,
-		name = "【2020偶像活动二期SP3】精英人形大青花鱼 专属弹幕鱼雷",
-		damage = 40,
-		base = 1001,
-		action_index = "",
-		reload_max = 2400,
-		id = 722007,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 200,
+		corrected = 100,
+		min_range = 0,
+		id = 695008,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9999,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			79341,
-			79341
+			130301
 		},
 		barrage_ID = {
-			79341,
-			79342
+			770095
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_322[695009] = {
+		aim_type = 1,
+		range = 25,
+		damage = 100,
+		base = 1000,
+		name = "【2020信浓活动EX】BOSS 信浓 第四波 飞机弹幕武器",
+		fire_fx = "fangkongpaohuoshe2",
+		suppress = 1,
+		reload_max = 9999,
+		action_index = "",
+		fire_sfx = "battle/air-atk",
+		queue = 2,
+		id = 695009,
+		attack_attribute = 4,
+		bullet_ID = {
+			760165
+		},
+		barrage_ID = {
+			770096
 		}
 	}
-	uv0.weapon_property_322[722008] = {
-		name = "【2020偶像活动二期SP3】精英人形大青花鱼 快速自机狙鱼雷",
-		damage = 40,
-		base = 1001,
+	uv0.weapon_property_322[695010] = {
+		range = 120,
+		name = "【2020信浓活动EX】BOSS 信浓 第四波 两翼封锁蝴蝶弹幕",
+		damage = 80,
+		base = 1000,
+		fire_fx = "CAFire",
 		action_index = "",
+		reload_max = 9999,
+		queue = 2,
+		id = 695010,
+		bullet_ID = {
+			760168,
+			760168
+		},
+		barrage_ID = {
+			770098,
+			770099
+		}
+	}
+	uv0.weapon_property_322[695011] = {
+		range = 120,
+		name = "【2020信浓活动EX】BOSS 信浓 第五波 反魂蝶八分饱蓝紫子弹",
+		damage = 30,
+		base = 1000,
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 9999,
+		queue = 1,
+		id = 695011,
+		bullet_ID = {
+			760169
+		},
+		barrage_ID = {
+			770100
+		}
+	}
+	uv0.weapon_property_322[695012] = {
+		range = 120,
+		damage = 30,
+		base = 1000,
+		name = "【2020信浓活动EX】BOSS 信浓 第五波 反魂蝶八分饱红色子弹",
+		type = 2,
+		reload_max = 9999,
+		queue = 2,
+		id = 695012,
+		bullet_ID = {
+			760103,
+			760108,
+			760104,
+			760109
+		},
+		barrage_ID = {
+			770104,
+			770105,
+			770106,
+			770107
+		}
+	}
+	uv0.weapon_property_322[710001] = {
+		aim_type = 1,
+		range = 100,
+		damage = 6,
+		base = 1000,
+		name = "【2020普林斯顿SP1】雪风 专属弹幕攻击",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 710001,
+		bullet_ID = {
+			20005
+		},
+		barrage_ID = {
+			200042
+		}
+	}
+	uv0.weapon_property_322[710002] = {
+		aim_type = 1,
+		range = 100,
+		damage = 8,
+		base = 1000,
+		name = "【2020普林斯顿SP1】雪风 单发瞄准随机弹",
+		type = 2,
+		suppress = 1,
+		reload_max = 400,
+		queue = 1,
+		id = 710002,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1006
+		}
+	}
+	uv0.weapon_property_322[710003] = {
+		aim_type = 1,
+		range = 100,
+		damage = 26,
+		base = 1000,
+		name = "【2020普林斯顿SP1】雪风 四联装鱼雷",
+		fire_fx = "",
 		suppress = 1,
 		reload_max = 1500,
-		id = 722008,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 710003,
+		type = 3,
 		bullet_ID = {
-			750007
+			1801
 		},
 		barrage_ID = {
-			700020
+			1403
 		}
 	}
-	uv0.weapon_property_322[722009] = {
-		name = "【2020偶像活动二期SP3】精英人形大青花鱼 3way自机狙鱼雷",
-		damage = 40,
-		base = 1001,
-		action_index = "",
-		suppress = 1,
-		reload_max = 1800,
-		id = 722009,
-		bullet_ID = {
-			1821,
-			1821,
-			1821
-		},
-		barrage_ID = {
-			760008,
-			760010,
-			760012
-		}
-	}
-	uv0.weapon_property_322[722101] = {
+	uv0.weapon_property_322[710004] = {
 		aim_type = 1,
-		range = 38,
+		range = 40,
+		damage = 6,
 		base = 1000,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 近程自卫火炮",
+		name = "【2020普林斯顿SP1】浦风 近程自卫火炮",
 		type = 2,
 		suppress = 1,
 		reload_max = 600,
-		queue = 5,
-		id = 722101,
+		queue = 1,
+		id = 710004,
 		bullet_ID = {
 			999
 		},
 		barrage_ID = {
-			13
+			12
 		}
 	}
-	uv0.weapon_property_322[722102] = {
-		range = 120,
-		damage = 14,
-		base = 1000,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第一波 音符弹幕",
-		suppress = 1,
-		reload_max = 6000,
-		queue = 1,
-		id = 722102,
-		bullet_ID = {
-			780002,
-			780002
-		},
-		barrage_ID = {
-			790039,
-			790040
-		}
-	}
-	uv0.weapon_property_322[722103] = {
-		range = 120,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第一波 扩散旋转弹",
-		base = 1000,
-		suppress = 1,
-		reload_max = 600,
-		queue = 2,
-		id = 722103,
-		bullet_ID = {
-			780024
-		},
-		barrage_ID = {
-			790030
-		}
-	}
-	uv0.weapon_property_322[722104] = {
-		base = 1000,
-		range = 120,
-		type = 2,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第二波 扩散子母弹",
-		reload_max = 6000,
-		queue = 1,
-		id = 722104,
-		bullet_ID = {
-			780025
-		},
-		barrage_ID = {
-			790031
-		}
-	}
-	uv0.weapon_property_322[722105] = {
-		aim_type = 1,
-		range = 999,
-		base = 1000,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第三波 中心穿透弹",
-		suppress = 1,
-		reload_max = 9999,
-		queue = 1,
-		id = 722105,
-		bullet_ID = {
-			780028
-		},
-		barrage_ID = {
-			730009
-		}
-	}
-	uv0.weapon_property_322[722106] = {
-		aim_type = 1,
-		range = 999,
-		base = 1000,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第三波 两翼子弹",
-		action_index = "",
-		suppress = 1,
-		reload_max = 9999,
-		queue = 2,
-		id = 722106,
-		bullet_ID = {
-			780029,
-			780030,
-			780029,
-			780030,
-			780029,
-			780030
-		},
-		barrage_ID = {
-			730010,
-			730011,
-			730012,
-			730013,
-			730014,
-			730015
-		}
-	}
-	uv0.weapon_property_322[722107] = {
-		aim_type = 0,
-		range = 999,
-		damage = 36,
-		base = 1001,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第四波 横排鱼雷",
-		recover_time = 0,
-		spawn_bound = "cannon",
-		reload_max = 6000,
-		action_index = "",
-		queue = 1,
-		id = 722107,
-		bullet_ID = {
-			780032,
-			780032
-		},
-		barrage_ID = {
-			790035,
-			790036
-		}
-	}
-	uv0.weapon_property_322[722108] = {
-		base = 1000,
-		range = 120,
-		type = 2,
-		name = "【2020偶像活动二期SP3】BOSS 恶毒 第四波 横排弹幕",
-		reload_max = 6000,
-		queue = 2,
-		id = 722108,
-		bullet_ID = {
-			780031,
-			780031,
-			780031,
-			780031
-		},
-		barrage_ID = {
-			790034,
-			790037,
-			790038,
-			790041
-		}
-	}
-	uv0.weapon_property_322[723001] = {
+	uv0.weapon_property_322[710005] = {
 		range = 100,
-		name = "【2020偶像活动二期SP4】精英人形斯佩 音符弹幕",
-		damage = 24,
+		damage = 8,
 		base = 1000,
-		fire_fx = "CAFire",
+		name = "【2020普林斯顿SP1】浦风 穿透弹交叉三横射",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 800,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 710005,
+		bullet_ID = {
+			300112,
+			300113,
+			300114
+		},
+		barrage_ID = {
+			300112,
+			300113,
+			300114
+		}
+	}
+	uv0.weapon_property_322[710006] = {
+		aim_type = 0,
+		range = 100,
+		damage = 24,
+		base = 1001,
+		name = "【2020普林斯顿SP1】浦风 四联装鱼雷",
+		suppress = 1,
+		action_index = "",
+		reload_max = 1500,
+		id = 710006,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			130994
+		}
+	}
+	uv0.weapon_property_322[710007] = {
+		aim_type = 1,
+		range = 40,
+		damage = 8,
+		base = 1000,
+		name = "【2020普林斯顿SP1】能代 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 500,
+		queue = 1,
+		id = 710007,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_322[710008] = {
+		aim_type = 1,
+		range = 80,
+		base = 1000,
+		name = "【2020普林斯顿SP1】能代 旋转子弹散射8连",
+		suppress = 1,
 		reload_max = 750,
 		fire_sfx = "battle/cannon-main",
-		id = 723001,
+		queue = 1,
+		id = 710008,
 		bullet_ID = {
-			650032
+			300109,
+			300110,
+			300111
 		},
 		barrage_ID = {
-			200102
+			300109,
+			300110,
+			300111
 		}
 	}
-	uv0.weapon_property_322[723002] = {
+	uv0.weapon_property_322[710009] = {
 		range = 100,
-		damage = 16,
+		damage = 14,
+		base = 1000,
+		name = "【2020普林斯顿SP1】能代 专属弹幕",
+		type = 2,
+		reload_max = 1500,
+		queue = 2,
+		id = 710009,
+		bullet_ID = {
+			79481,
+			79481
+		},
+		barrage_ID = {
+			79483,
+			79484
+		}
+	}
+	uv0.weapon_property_322[710010] = {
+		aim_type = 0,
+		range = 100,
+		damage = 22,
+		base = 1001,
+		fire_fx = "CAFire",
+		name = "【2020普林斯顿SP1】能代 竖排四联装鱼雷",
+		reload_max = 1500,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 710010,
+		bullet_ID = {
+			79482
+		},
+		barrage_ID = {
+			79485
+		}
+	}
+	uv0.weapon_property_322[710011] = {
+		aim_type = 1,
+		range = 38,
+		base = 1000,
+		name = "【2020普林斯顿SP1】妙高 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 600,
+		queue = 1,
+		id = 710011,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_322[710012] = {
+		name = "【2020普林斯顿SP1】妙高 重巡联装主炮x4",
+		damage = 14,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1300,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 710012,
+		bullet_ID = {
+			1419
+		},
+		barrage_ID = {
+			200101
+		}
+	}
+	uv0.weapon_property_322[710013] = {
+		range = 60,
+		damage = 20,
+		base = 1001,
+		name = "【2020普林斯顿SP1】妙高 双联装鱼雷",
+		suppress = 1,
+		reload_max = 1500,
+		queue = 1,
+		id = 710013,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1401
+		}
+	}
+	uv0.weapon_property_322[710014] = {
+		aim_type = 1,
+		range = 80,
+		damage = 12,
+		base = 1000,
+		name = "【2020普林斯顿SP1】妙高 旋转子弹两翼散射",
+		fire_fx = "zhupao",
+		suppress = 1,
+		reload_max = 1500,
+		type = 2,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 710014,
+		bullet_ID = {
+			300603,
+			300604
+		},
+		barrage_ID = {
+			300603,
+			300604
+		}
+	}
+	uv0.weapon_property_322[710015] = {
+		aim_type = 1,
+		range = 38,
+		base = 1000,
+		name = "【2020普林斯顿SP1】隼鹰&飞鹰 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 500,
+		queue = 3,
+		id = 710015,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_322[710016] = {
+		range = 60,
+		damage = 14,
 		base = 1000,
 		type = 2,
-		name = "【2020偶像活动二期SP4】精英人形克利夫兰 音符弹幕",
+		name = "【2020普林斯顿SP1】隼鹰&飞鹰 单发x6随机",
 		suppress = 1,
-		reload_max = 750,
-		id = 723002,
+		reload_max = 1000,
+		queue = 3,
+		id = 710016,
 		bullet_ID = {
-			650034
+			1201
 		},
 		barrage_ID = {
 			1106
 		}
 	}
-	uv0.weapon_property_322[723003] = {
-		range = 100,
-		name = "【2020偶像活动二期SP4】精英人形希佩尔 音符弹幕",
-		damage = 22,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 750,
-		fire_sfx = "battle/cannon-main",
-		id = 723003,
-		bullet_ID = {
-			650035,
-			650035
-		},
-		barrage_ID = {
-			200142,
-			200143
-		}
-	}
-	uv0.weapon_property_322[723101] = {
+	uv0.weapon_property_322[710021] = {
 		aim_type = 1,
-		range = 38,
-		damage = 14,
+		damage = 12,
 		base = 1000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 近程自卫火炮",
 		type = 2,
+		name = "【2020普林斯顿SP2】蛋船BOSS近程自卫火炮",
 		suppress = 1,
-		reload_max = 500,
-		queue = 5,
-		id = 723101,
+		reload_max = 930,
+		id = 710021,
 		bullet_ID = {
-			999
+			1202
 		},
 		barrage_ID = {
-			13
+			780009
 		}
 	}
-	uv0.weapon_property_322[723102] = {
-		range = 100,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第一波 十字子母弹",
-		damage = 18,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 723102,
-		bullet_ID = {
-			780039,
-			780039,
-			780039
-		},
-		barrage_ID = {
-			790046,
-			790047,
-			790050
-		}
-	}
-	uv0.weapon_property_322[723103] = {
-		aim_type = 1,
-		range = 100,
-		damage = 46,
-		base = 1000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第二波 前排跨射",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 6000,
-		type = 19,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 723103,
-		bullet_ID = {
-			780033,
-			780034
-		},
-		barrage_ID = {
-			790042,
-			790043
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_322[723104] = {
-		range = 150,
-		damage = 48,
-		base = 1000,
-		type = 19,
-		fire_fx = "CAFire",
-		min_range = 90,
-		suppress = 1,
-		reload_max = 6000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第二波 后排跨射",
-		fire_sfx = "battle/cannon-main",
-		aim_type = 1,
-		id = 723104,
-		bullet_ID = {
-			780035,
-			780036
-		},
-		barrage_ID = {
-			790044,
-			790045
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_322[723105] = {
-		aim_type = 1,
-		range = 80,
-		damage = 18,
-		base = 1000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第三波 上下音符扩散",
-		suppress = 1,
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 723105,
-		bullet_ID = {
-			780037,
-			780038
-		},
-		barrage_ID = {
-			650001,
-			650002
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_322[723106] = {
-		aim_type = 1,
-		range = 50,
-		damage = 16,
-		base = 1000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第三波 交叉穿透弹",
-		suppress = 1,
-		reload_max = 6000,
-		queue = 1,
-		id = 723106,
-		bullet_ID = {
-			650012,
-			650012,
-			650012,
-			650012
-		},
-		barrage_ID = {
-			650031,
-			650032,
-			650033,
-			650034
-		}
-	}
-	uv0.weapon_property_322[723107] = {
-		aim_type = 1,
-		range = 100,
-		damage = 46,
-		base = 1000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第四波 精密跨射",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 6000,
-		type = 19,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 723107,
-		bullet_ID = {
-			780041,
-			780042
-		},
-		barrage_ID = {
-			790051,
-			790052
-		},
-		precast_param = {
-			time = 0.1,
-			fx = "jinengenemy",
-			alertTime = 0.5
-		}
-	}
-	uv0.weapon_property_322[723108] = {
-		range = 120,
-		damage = 16,
-		base = 1000,
-		name = "【2020偶像活动二期SP4】BOSS 加斯科涅 第四波 全图弹幕",
-		fire_fx = "CAFire",
-		type = 2,
-		reload_max = 6000,
-		queue = 1,
-		id = 723108,
-		bullet_ID = {
-			730119,
-			730120,
-			730119,
-			730120,
-			730119,
-			730120,
-			730119,
-			730120,
-			730119,
-			730120,
-			730119,
-			730120
-		},
-		barrage_ID = {
-			730185,
-			730186,
-			730187,
-			730188,
-			730189,
-			730190,
-			730191,
-			730192,
-			730193,
-			730194,
-			730195,
-			730196
-		}
-	}
-	uv0.weapon_property_322[724001] = {
-		range = 100,
-		name = "【2020偶像活动二期SP5】精英人形巴尔的摩 音符散射",
-		damage = 24,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 724001,
-		bullet_ID = {
-			780003,
-			780003
-		},
-		barrage_ID = {
-			200102,
-			200103
-		}
-	}
-	uv0.weapon_property_322[724002] = {
-		range = 100,
-		name = "【2020偶像活动二期SP5】精英人形巴尔的摩 中下上连续弹幕",
-		damage = 16,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 600,
-		fire_sfx = "battle/cannon-main",
-		id = 724002,
-		bullet_ID = {
-			780012,
-			780012,
-			780012,
-			780012,
-			780012,
-			780012,
-			780012,
-			780012,
-			780012,
-			780012
-		},
-		barrage_ID = {
-			790008,
-			790009,
-			790010,
-			790011,
-			790012,
-			790013,
-			790016,
-			790017,
-			790018,
-			790019
-		}
-	}
-	uv0.weapon_property_322[724003] = {
-		range = 100,
-		name = "【2020偶像活动二期SP5】精英人形罗恩 专属弹幕",
-		damage = 24,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 724003,
-		bullet_ID = {
-			780004,
-			780005,
-			780006,
-			780007
-		},
-		barrage_ID = {
-			79245,
-			79246,
-			79247,
-			79248
-		}
-	}
-	uv0.weapon_property_322[724004] = {
-		aim_type = 0,
-		damage = 38,
+	uv0.weapon_property_322[710022] = {
+		range = 90,
+		damage = 32,
 		base = 1001,
-		name = "【2020偶像活动二期SP5】精英人形罗恩 鱼雷弹幕",
+		name = "【2020普林斯顿SP2】蛋船BOSS两翼鱼雷",
+		initial_over_heat = 1,
 		suppress = 1,
-		reload_max = 800,
-		queue = 4,
-		id = 724004,
+		reload_max = 2100,
+		queue = 5,
+		id = 710022,
 		bullet_ID = {
-			780013
+			1800,
+			1800,
+			1800
 		},
 		barrage_ID = {
-			790014
+			780003,
+			780004,
+			780005
 		}
 	}
-	uv0.weapon_property_322[724005] = {
-		name = "【2020偶像活动二期SP5】精英人形光辉 扫射弹幕",
+	uv0.weapon_property_322[710023] = {
+		aim_type = 1,
+		name = "【2020普林斯顿SP2】高雄级蛋船BOSS 高爆弹主炮射击",
 		damage = 18,
 		base = 1000,
 		fire_fx = "CAFire",
+		reload_max = 640,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 710023,
+		bullet_ID = {
+			770002,
+			770002
+		},
+		barrage_ID = {
+			780001,
+			780002
+		}
+	}
+	uv0.weapon_property_322[710024] = {
+		aim_type = 1,
+		name = "【2020普林斯顿SP2】妙高级蛋船BOSS 穿甲弹主炮子弹",
+		damage = 18,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 580,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 710024,
+		bullet_ID = {
+			770003,
+			770003,
+			770003
+		},
+		barrage_ID = {
+			780006,
+			780007,
+			780008
+		}
+	}
+	uv0.weapon_property_322[711001] = {
+		aim_type = 1,
+		range = 100,
+		damage = 8,
+		base = 1000,
+		name = "【2020普林斯顿SP2】雪风 专属弹幕攻击",
+		fire_fx = "CAFire",
+		suppress = 1,
 		reload_max = 1000,
 		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 724005,
+		queue = 1,
+		id = 711001,
 		bullet_ID = {
-			780015,
-			780015,
-			780015,
-			780015,
-			780015
+			20005
 		},
 		barrage_ID = {
-			690134,
-			690135,
-			690136,
-			690137,
-			690138
+			200042
 		}
 	}
-	uv0.weapon_property_322[724101] = {
+	uv0.weapon_property_322[711002] = {
 		aim_type = 1,
-		range = 38,
+		range = 100,
 		base = 1000,
-		name = "【2020偶像活动二期SP5】BOSS 通用近程自卫火炮",
+		name = "【2020普林斯顿SP2】雪风 单发瞄准随机弹",
 		type = 2,
 		suppress = 1,
-		reload_max = 500,
-		queue = 5,
-		id = 724101,
+		reload_max = 400,
+		queue = 1,
+		id = 711002,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1006
+		}
+	}
+	uv0.weapon_property_322[711003] = {
+		aim_type = 1,
+		range = 100,
+		damage = 32,
+		base = 1000,
+		name = "【2020普林斯顿SP2】雪风 四联装鱼雷",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 1500,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 711003,
+		type = 3,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		}
+	}
+	uv0.weapon_property_322[711004] = {
+		aim_type = 1,
+		range = 40,
+		damage = 8,
+		base = 1000,
+		name = "【2020普林斯顿SP2】浦风 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 600,
+		queue = 1,
+		id = 711004,
 		bullet_ID = {
 			999
 		},
 		barrage_ID = {
-			13
+			12
+		}
+	}
+	uv0.weapon_property_322[711005] = {
+		range = 100,
+		name = "【2020普林斯顿SP2】浦风 穿透弹交叉三横射",
+		base = 1000,
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 800,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 711005,
+		bullet_ID = {
+			300112,
+			300113,
+			300114
+		},
+		barrage_ID = {
+			300112,
+			300113,
+			300114
+		}
+	}
+	uv0.weapon_property_322[711006] = {
+		aim_type = 0,
+		range = 100,
+		damage = 30,
+		base = 1001,
+		name = "【2020普林斯顿SP2】浦风 四联装鱼雷",
+		suppress = 1,
+		action_index = "",
+		reload_max = 1500,
+		id = 711006,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			130994
+		}
+	}
+	uv0.weapon_property_322[711007] = {
+		aim_type = 1,
+		range = 40,
+		base = 1000,
+		name = "【2020普林斯顿SP2】能代 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 500,
+		queue = 1,
+		id = 711007,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_322[711008] = {
+		aim_type = 1,
+		range = 80,
+		damage = 12,
+		base = 1000,
+		name = "【2020普林斯顿SP2】能代 旋转子弹散射8连",
+		suppress = 1,
+		reload_max = 750,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 711008,
+		bullet_ID = {
+			300109,
+			300110,
+			300111
+		},
+		barrage_ID = {
+			300109,
+			300110,
+			300111
+		}
+	}
+	uv0.weapon_property_322[711009] = {
+		range = 100,
+		damage = 16,
+		base = 1000,
+		name = "【2020普林斯顿SP2】能代 专属弹幕",
+		type = 2,
+		reload_max = 1500,
+		queue = 2,
+		id = 711009,
+		bullet_ID = {
+			79481,
+			79481
+		},
+		barrage_ID = {
+			79483,
+			79484
+		}
+	}
+	uv0.weapon_property_322[711010] = {
+		aim_type = 0,
+		range = 100,
+		damage = 28,
+		base = 1001,
+		fire_fx = "CAFire",
+		name = "【2020普林斯顿SP2】能代 竖排四联装鱼雷",
+		reload_max = 1500,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 711010,
+		bullet_ID = {
+			79482
+		},
+		barrage_ID = {
+			79485
+		}
+	}
+	uv0.weapon_property_322[711011] = {
+		aim_type = 1,
+		range = 38,
+		damage = 12,
+		base = 1000,
+		name = "【2020普林斯顿SP2】妙高 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 600,
+		queue = 1,
+		id = 711011,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_322[711012] = {
+		name = "【2020普林斯顿SP2】妙高 重巡联装主炮x4",
+		damage = 16,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1300,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 711012,
+		bullet_ID = {
+			1419
+		},
+		barrage_ID = {
+			200101
+		}
+	}
+	uv0.weapon_property_322[711013] = {
+		range = 60,
+		damage = 26,
+		base = 1001,
+		name = "【2020普林斯顿SP2】妙高 双联装鱼雷",
+		suppress = 1,
+		reload_max = 1500,
+		queue = 1,
+		id = 711013,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1401
+		}
+	}
+	uv0.weapon_property_322[711014] = {
+		aim_type = 1,
+		range = 80,
+		damage = 14,
+		base = 1000,
+		name = "【2020普林斯顿SP2】妙高 旋转子弹两翼散射",
+		fire_fx = "zhupao",
+		suppress = 1,
+		reload_max = 1500,
+		type = 2,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 711014,
+		bullet_ID = {
+			300603,
+			300604
+		},
+		barrage_ID = {
+			300603,
+			300604
+		}
+	}
+	uv0.weapon_property_322[711015] = {
+		aim_type = 1,
+		range = 38,
+		damage = 12,
+		base = 1000,
+		name = "【2020普林斯顿SP2】隼鹰&飞鹰 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 500,
+		queue = 3,
+		id = 711015,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_322[711016] = {
+		range = 60,
+		damage = 16,
+		base = 1000,
+		type = 2,
+		name = "【2020普林斯顿SP2】隼鹰&飞鹰 单发x6随机",
+		suppress = 1,
+		reload_max = 1000,
+		queue = 3,
+		id = 711016,
+		bullet_ID = {
+			1201
+		},
+		barrage_ID = {
+			1106
+		}
+	}
+	uv0.weapon_property_322[711021] = {
+		aim_type = 0,
+		range = 120,
+		damage = 18,
+		base = 1002,
+		name = "【2020普林斯顿SP2】BOSS 大凤 红色弹幕战斗机（自机狙）",
+		action_index = "",
+		reload_max = 200,
+		fire_sfx = "battle/air-atk",
+		queue = 1,
+		id = 711021,
+		barrage_ID = {
+			130411
 		}
 	}
 end()

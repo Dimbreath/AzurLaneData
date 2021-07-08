@@ -1,39 +1,40 @@
 pg = pg or {}
 pg.equip_data_statistics_46 = {
-	[2224] = {
-		id = 2224,
-		value_2 = 3,
-		value_1 = "14",
-		base = 2220
+	[2423] = {
+		id = 2423,
+		value_1 = "203",
+		base = 2420
 	},
-	[2225] = {
-		id = 2225,
-		value_2 = 4,
-		value_1 = "15",
-		base = 2220
+	[2424] = {
+		id = 2424,
+		value_1 = "224",
+		base = 2420
 	},
-	[2226] = {
-		id = 2226,
-		value_2 = 4,
-		value_1 = "17",
-		base = 2220
+	[2425] = {
+		id = 2425,
+		value_1 = "245",
+		base = 2420
 	},
-	[2240] = {
-		name = "自動装填機構",
+	[2426] = {
+		id = 2426,
+		value_1 = "266",
+		base = 2420
+	},
+	[2440] = {
+		name = "応急修理装置",
 		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 2240,
-		value_2 = 3,
-		icon = "2200",
-		value_1 = "14",
-		attribute_2 = "cannon",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2400",
+		value_1 = "200",
+		descrip = "応急修理チーム導入セット。ただし自分の耐久しか回復できない",
 		rarity = 4,
-		descrip = "改良された給弾装置。人力よりずっとマシ",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "reload",
+		id = 2440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -42,123 +43,87 @@ pg.equip_data_statistics_46 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
+		skill_id = {
+			6120
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[2241] = {
-		id = 2241,
-		value_1 = "16",
-		base = 2240
+	[2441] = {
+		id = 2441,
+		value_1 = "230",
+		base = 2440
 	},
-	[2242] = {
-		id = 2242,
-		value_1 = "18",
-		base = 2240
+	[2442] = {
+		id = 2442,
+		value_1 = "260",
+		base = 2440
 	},
-	[2243] = {
-		id = 2243,
-		value_2 = 4,
-		value_1 = "20",
-		base = 2240
+	[2443] = {
+		id = 2443,
+		value_1 = "290",
+		base = 2440
 	},
-	[2244] = {
-		id = 2244,
-		value_2 = 4,
-		value_1 = "22",
-		base = 2240
+	[2444] = {
+		id = 2444,
+		value_1 = "320",
+		base = 2440
 	},
-	[2245] = {
-		id = 2245,
-		value_2 = 5,
-		value_1 = "24",
-		base = 2240
+	[2445] = {
+		id = 2445,
+		value_1 = "350",
+		base = 2440
 	},
-	[2246] = {
-		id = 2246,
-		value_2 = 5,
-		value_1 = "26",
-		base = 2240
+	[2446] = {
+		id = 2446,
+		value_1 = "380",
+		base = 2440
 	},
-	[2247] = {
-		id = 2247,
-		value_2 = 6,
-		value_1 = "28",
-		base = 2240
+	[2447] = {
+		id = 2447,
+		value_1 = "410",
+		base = 2440
 	},
-	[2248] = {
-		id = 2248,
-		value_2 = 6,
-		value_1 = "30",
-		base = 2240
+	[2448] = {
+		id = 2448,
+		value_1 = "440",
+		base = 2440
 	},
-	[2249] = {
-		id = 2249,
-		value_2 = 7,
-		value_1 = "32",
-		base = 2240
+	[2449] = {
+		id = 2449,
+		value_1 = "470",
+		base = 2440
 	},
-	[2250] = {
-		id = 2250,
-		value_2 = 7,
-		value_1 = "35",
-		base = 2240
+	[2450] = {
+		id = 2450,
+		value_1 = "500",
+		base = 2440
 	},
-	[2251] = {
-		id = 2251,
+	[2451] = {
+		id = 2451,
 		anti_siren = 100,
-		base = 2240,
-		value_2 = 8,
-		value_1 = "38"
+		value_1 = "530",
+		base = 2440
 	},
-	[2300] = {
-		name = "ジャイロスコープ",
+	[2500] = {
+		name = "消火装置",
 		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 2300,
-		value_2 = 1,
-		icon = "2300",
-		value_1 = "5",
-		attribute_2 = "speed",
-		rarity = 2,
-		descrip = "艦の安定性を向上させ、命中と速力を高める",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "50",
+		descrip = "ダメージコントロールに欠かせない",
+		rarity = 1,
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 2500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -167,37 +132,11 @@ pg.equip_data_statistics_46 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
+		skill_id = {
+			6140
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"DEV"

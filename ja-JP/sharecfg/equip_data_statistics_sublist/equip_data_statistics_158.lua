@@ -1,70 +1,119 @@
 pg = pg or {}
 pg.equip_data_statistics_158 = {
-	[21546] = {
-		id = 21546,
-		damage = "9 x 2",
-		base = 21540,
+	[23202] = {
+		id = 23202,
+		damage = "32 x 6",
+		base = 23200,
 		weapon_id = {
-			21546
+			23202
 		}
 	},
-	[21547] = {
-		id = 21547,
-		damage = "9 x 2",
-		base = 21540,
+	[23203] = {
+		id = 23203,
+		damage = "34 x 6",
+		base = 23200,
 		weapon_id = {
-			21547
+			23203
 		}
 	},
-	[21548] = {
-		id = 21548,
-		damage = "10 x 2",
-		base = 21540,
+	[23204] = {
+		id = 23204,
+		damage = "36 x 6",
+		base = 23200,
 		weapon_id = {
-			21548
+			23204
 		}
 	},
-	[21549] = {
-		id = 21549,
-		damage = "10 x 2",
-		base = 21540,
+	[23205] = {
+		id = 23205,
+		damage = "38 x 6",
+		base = 23200,
 		weapon_id = {
-			21549
+			23205
 		}
 	},
-	[21550] = {
-		id = 21550,
-		damage = "11 x 2",
-		base = 21540,
+	[23206] = {
+		id = 23206,
+		damage = "40 x 6",
+		base = 23200,
 		weapon_id = {
-			21550
+			23206
 		}
 	},
-	[21551] = {
+	[23207] = {
+		id = 23207,
+		damage = "42 x 6",
+		base = 23200,
+		weapon_id = {
+			23207
+		}
+	},
+	[23208] = {
+		id = 23208,
+		damage = "44 x 6",
+		base = 23200,
+		weapon_id = {
+			23208
+		}
+	},
+	[23209] = {
+		id = 23209,
+		damage = "46 x 6",
+		base = 23200,
+		weapon_id = {
+			23209
+		}
+	},
+	[23210] = {
+		id = 23210,
+		damage = "49 x 6",
+		base = 23200,
+		weapon_id = {
+			23210
+		}
+	},
+	[23211] = {
 		anti_siren = 100,
-		damage = "11 x 2",
-		base = 21540,
-		id = 21551,
+		damage = "49 x 6",
+		base = 23200,
+		id = 23211,
 		weapon_id = {
-			21551
+			23211
 		}
 	},
-	[21600] = {
-		name = "114mm連装両用砲MarkIV",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 25,
-		icon = "21600",
-		attribute_2 = "cannon",
+	[23212] = {
+		anti_siren = 200,
+		damage = "49 x 6",
+		base = 23200,
+		id = 23212,
+		weapon_id = {
+			23212
+		}
+	},
+	[23213] = {
+		anti_siren = 300,
+		damage = "49 x 6",
+		base = 23200,
+		id = 23213,
+		weapon_id = {
+			23213
+		}
+	},
+	[24000] = {
+		name = "356mm四連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 1,
 		descrip = "0",
-		rarity = 5,
-		damage = "4 x 4",
+		value_2 = 12,
+		icon = "24000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "40 x 4",
 		nationality = 2,
 		ammo = 3,
-		value_3 = 20,
-		id = 21600,
+		value_3 = 0,
+		id = 24000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -72,121 +121,66 @@ pg.equip_data_statistics_158 = {
 		},
 		ammo_info = {
 			{
-				1,
-				1100
+				2,
+				1520
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1001
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			21600
+			24000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"DD",
-			"MG",
-			"CM"
+			"BB",
+			"MG"
 		}
 	},
-	[21601] = {
-		id = 21601,
-		damage = "4 x 4",
-		base = 21600,
+	[24001] = {
+		id = 24001,
+		damage = "46 x 4",
+		base = 24000,
 		weapon_id = {
-			21601
+			24001
 		}
 	},
-	[21602] = {
-		id = 21602,
-		damage = "5 x 4",
-		base = 21600,
+	[24002] = {
+		id = 24002,
+		damage = "50 x 4",
+		base = 24000,
 		weapon_id = {
-			21602
+			24002
 		}
 	},
-	[21603] = {
-		id = 21603,
-		damage = "6 x 4",
-		base = 21600,
+	[24003] = {
+		id = 24003,
+		damage = "56 x 4",
+		base = 24000,
 		weapon_id = {
-			21603
+			24003
 		}
 	},
-	[21604] = {
-		id = 21604,
-		damage = "7 x 4",
-		base = 21600,
+	[24004] = {
+		id = 24004,
+		damage = "60 x 4",
+		base = 24000,
 		weapon_id = {
-			21604
-		}
-	},
-	[21605] = {
-		id = 21605,
-		damage = "8 x 4",
-		base = 21600,
-		weapon_id = {
-			21605
-		}
-	},
-	[21606] = {
-		id = 21606,
-		damage = "9 x 4",
-		base = 21600,
-		weapon_id = {
-			21606
-		}
-	},
-	[21607] = {
-		id = 21607,
-		damage = "10 x 4",
-		base = 21600,
-		weapon_id = {
-			21607
-		}
-	},
-	[21608] = {
-		id = 21608,
-		damage = "11 x 4",
-		base = 21600,
-		weapon_id = {
-			21608
-		}
-	},
-	[21609] = {
-		id = 21609,
-		damage = "12 x 4",
-		base = 21600,
-		weapon_id = {
-			21609
+			24004
 		}
 	}
 }

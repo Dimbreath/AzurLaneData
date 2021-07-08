@@ -1,60 +1,126 @@
 pg = pg or {}
 pg.aircraft_template_175 = {
-	[68396] = {
-		id = 68396,
-		name = "科隆改直升机Lv6",
-		base = 68391,
-		max_hp = 73,
-		hp_growth = 2796
+	[67892] = {
+		max_hp = 45,
+		name = "追赶者剑鱼 Lv2",
+		base = 67891,
+		id = 67892,
+		hp_growth = 1739,
+		weapon_ID = {
+			67902,
+			67912
+		}
 	},
-	[68397] = {
-		id = 68397,
-		name = "科隆改直升机Lv7",
-		base = 68391,
-		max_hp = 79,
-		hp_growth = 3016
+	[67893] = {
+		max_hp = 50,
+		name = "追赶者剑鱼 Lv3",
+		base = 67891,
+		id = 67893,
+		hp_growth = 1940,
+		weapon_ID = {
+			67903,
+			67913
+		}
 	},
-	[68398] = {
-		id = 68398,
-		name = "科隆改直升机Lv8",
-		base = 68391,
-		max_hp = 86,
-		hp_growth = 3237
+	[67894] = {
+		max_hp = 56,
+		name = "追赶者剑鱼 Lv4",
+		base = 67891,
+		id = 67894,
+		hp_growth = 2140,
+		weapon_ID = {
+			67904,
+			67914
+		}
 	},
-	[68399] = {
-		id = 68399,
-		name = "科隆改直升机Lv9",
-		base = 68391,
-		max_hp = 92,
-		hp_growth = 3458
+	[67895] = {
+		max_hp = 61,
+		name = "追赶者剑鱼 Lv5",
+		base = 67891,
+		id = 67895,
+		hp_growth = 2341,
+		weapon_ID = {
+			67905,
+			67915
+		}
 	},
-	[68400] = {
-		id = 68400,
-		name = "科隆改直升机Lv10",
-		base = 68391,
-		max_hp = 98,
-		hp_growth = 3678
+	[67896] = {
+		max_hp = 66,
+		name = "追赶者剑鱼 Lv6",
+		base = 67891,
+		id = 67896,
+		hp_growth = 2541,
+		weapon_ID = {
+			67906,
+			67916
+		}
 	},
-	[68541] = {
-		name = "伊25技能零侦LV1",
+	[67897] = {
+		max_hp = 71,
+		name = "追赶者剑鱼 Lv7",
+		base = 67891,
+		id = 67897,
+		hp_growth = 2742,
+		weapon_ID = {
+			67907,
+			67917
+		}
+	},
+	[67898] = {
+		max_hp = 77,
+		name = "追赶者剑鱼 Lv8",
+		base = 67891,
+		id = 67898,
+		hp_growth = 2943,
+		weapon_ID = {
+			67908,
+			67918
+		}
+	},
+	[67899] = {
+		max_hp = 82,
+		name = "追赶者剑鱼 Lv9",
+		base = 67891,
+		id = 67899,
+		hp_growth = 3143,
+		weapon_ID = {
+			67909,
+			67919
+		}
+	},
+	[67900] = {
+		max_hp = 87,
+		name = "追赶者剑鱼 Lv10",
+		base = 67891,
+		id = 67900,
+		hp_growth = 3344,
+		weapon_ID = {
+			67910,
+			67920
+		}
+	},
+	[67921] = {
+		name = "独立技能鱼雷机Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "glen",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 406,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "glen",
+		icon = "tbf",
 		funnel_behavior = "",
-		nationality = 3,
+		nationality = 1,
 		hp_growth = 1615,
-		speed = 66,
-		id = 68541,
+		speed = 48,
+		id = 67921,
 		scale = 1,
-		weapon_ID = {},
+		weapon_ID = {
+			67941
+		},
 		position_offset = {
 			0,
 			5,
@@ -73,13 +139,13 @@ pg.aircraft_template_175 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -96,7 +162,7 @@ pg.aircraft_template_175 = {
 				0
 			},
 			{
-				0.64,
+				0.52,
 				0,
 				0
 			},
@@ -106,37 +172,5 @@ pg.aircraft_template_175 = {
 				0
 			}
 		}
-	},
-	[68542] = {
-		max_hp = 48,
-		name = "伊25技能零侦LV2",
-		base = 68541,
-		id = 68542,
-		hp_growth = 1826,
-		weapon_ID = {}
-	},
-	[68543] = {
-		max_hp = 54,
-		name = "伊25技能零侦LV3",
-		base = 68541,
-		id = 68543,
-		hp_growth = 2036,
-		weapon_ID = {}
-	},
-	[68544] = {
-		max_hp = 61,
-		name = "伊25技能零侦LV4",
-		base = 68541,
-		id = 68544,
-		hp_growth = 2247,
-		weapon_ID = {}
-	},
-	[68545] = {
-		max_hp = 67,
-		name = "伊25技能零侦LV5",
-		base = 68541,
-		id = 68545,
-		hp_growth = 2458,
-		weapon_ID = {}
 	}
 }

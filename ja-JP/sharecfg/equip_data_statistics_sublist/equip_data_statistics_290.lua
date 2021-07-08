@@ -1,126 +1,92 @@
 pg = pg or {}
 pg.equip_data_statistics_290 = {
-	[41002] = {
-		id = 41002,
-		damage = "6 x 1",
-		base = 41000,
+	[44122] = {
+		id = 44122,
+		damage = "67 x 2",
+		base = 44120,
 		weapon_id = {
-			41002
+			44122
 		}
 	},
-	[41003] = {
-		id = 41003,
-		damage = "6 x 1",
-		base = 41000,
+	[44123] = {
+		id = 44123,
+		damage = "74 x 2",
+		base = 44120,
 		weapon_id = {
-			41003
+			44123
 		}
 	},
-	[41020] = {
-		name = "127mm単装砲",
-		speciality = "追尾",
-		type = 1,
-		tech = 2,
-		descrip = "127mm単装砲。ほとんどの駆逐艦に装備可能",
-		value_2 = 5,
-		icon = "41000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "4 x 1",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 41020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1303
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[44124] = {
+		id = 44124,
+		damage = "80 x 2",
+		base = 44120,
 		weapon_id = {
-			41020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
+			44124
 		}
 	},
-	[41021] = {
-		id = 41021,
-		base = 41020,
+	[44125] = {
+		id = 44125,
+		damage = "87 x 2",
+		base = 44120,
 		weapon_id = {
-			41021
+			44125
 		}
 	},
-	[41022] = {
-		id = 41022,
-		damage = "6 x 1",
-		base = 41020,
+	[44126] = {
+		id = 44126,
+		damage = "93 x 2",
+		base = 44120,
 		weapon_id = {
-			41022
+			44126
 		}
 	},
-	[41023] = {
-		id = 41023,
-		damage = "6 x 1",
-		base = 41020,
+	[44127] = {
+		id = 44127,
+		damage = "100 x 2",
+		base = 44120,
 		weapon_id = {
-			41023
+			44127
 		}
 	},
-	[41040] = {
-		name = "127mm単装砲",
-		speciality = "追尾",
-		type = 1,
+	[44128] = {
+		id = 44128,
+		damage = "107 x 2",
+		base = 44120,
+		weapon_id = {
+			44128
+		}
+	},
+	[44129] = {
+		id = 44129,
+		damage = "114 x 2",
+		base = 44120,
+		weapon_id = {
+			44129
+		}
+	},
+	[44130] = {
+		id = 44130,
+		damage = "122 x 2",
+		base = 44120,
+		weapon_id = {
+			44130
+		}
+	},
+	[44140] = {
+		name = "380mmSKC連装砲",
+		speciality = "投射",
+		type = 4,
 		tech = 3,
-		descrip = "127mm単装砲。ほとんどの駆逐艦に装備可能",
-		value_2 = 12,
-		icon = "41000",
+		descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
+		value_2 = 45,
+		icon = "44100",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 1",
+		rarity = 5,
+		damage = "58 x 2",
 		nationality = 4,
 		ammo = 1,
 		value_3 = 0,
-		id = 41040,
+		id = 44140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -128,179 +94,91 @@ pg.equip_data_statistics_290 = {
 		},
 		ammo_info = {
 			{
-				1,
-				1303
+				2,
+				1501
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1000
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			41040
+			44140
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
-		}
-	},
-	[41041] = {
-		id = 41041,
-		base = 41040,
-		weapon_id = {
-			41041
-		}
-	},
-	[41042] = {
-		id = 41042,
-		damage = "7 x 1",
-		base = 41040,
-		weapon_id = {
-			41042
-		}
-	},
-	[41043] = {
-		id = 41043,
-		damage = "7 x 1",
-		base = 41040,
-		weapon_id = {
-			41043
-		}
-	},
-	[41044] = {
-		id = 41044,
-		damage = "8 x 1",
-		base = 41040,
-		weapon_id = {
-			41044
-		}
-	},
-	[41045] = {
-		id = 41045,
-		damage = "8 x 1",
-		base = 41040,
-		weapon_id = {
-			41045
-		}
-	},
-	[41046] = {
-		id = 41046,
-		damage = "9 x 1",
-		base = 41040,
-		weapon_id = {
-			41046
-		}
-	},
-	[41047] = {
-		id = 41047,
-		damage = "9 x 1",
-		base = 41040,
-		weapon_id = {
-			41047
-		}
-	},
-	[41060] = {
-		name = "127mmKM40連装砲",
-		speciality = "追尾",
-		type = 1,
-		tech = 0,
-		descrip = "0",
-		value_2 = 25,
-		icon = "41060",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 4",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 41060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1303
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1001
-			},
-			6,
 			10,
-			11,
-			12
+			13
 		},
-		weapon_id = {
-			41060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"DD",
+			"BB",
 			"MG",
 			"AP"
 		}
 	},
-	[41061] = {
-		id = 41061,
-		damage = "5 x 4",
-		base = 41060,
+	[44141] = {
+		id = 44141,
+		damage = "64 x 2",
+		base = 44140,
 		weapon_id = {
-			41061
+			44141
+		}
+	},
+	[44142] = {
+		id = 44142,
+		damage = "72 x 2",
+		base = 44140,
+		weapon_id = {
+			44142
+		}
+	},
+	[44143] = {
+		id = 44143,
+		damage = "80 x 2",
+		base = 44140,
+		weapon_id = {
+			44143
+		}
+	},
+	[44144] = {
+		id = 44144,
+		damage = "86 x 2",
+		base = 44140,
+		weapon_id = {
+			44144
+		}
+	},
+	[44145] = {
+		id = 44145,
+		damage = "94 x 2",
+		base = 44140,
+		weapon_id = {
+			44145
+		}
+	},
+	[44146] = {
+		id = 44146,
+		damage = "100 x 2",
+		base = 44140,
+		weapon_id = {
+			44146
+		}
+	},
+	[44147] = {
+		id = 44147,
+		damage = "108 x 2",
+		base = 44140,
+		weapon_id = {
+			44147
 		}
 	}
 }

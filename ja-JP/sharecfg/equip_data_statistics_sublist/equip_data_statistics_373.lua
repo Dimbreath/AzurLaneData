@@ -1,239 +1,314 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
-	[85181] = {
-		id = 85181,
-		damage = "11/回",
-		base = 85180,
+	[90023] = {
+		id = 90023,
+		damage = "5 x 5",
+		base = 90020,
 		weapon_id = {
-			85181
+			90023
 		}
 	},
-	[85182] = {
-		id = 85182,
-		damage = "13/回",
-		base = 85180,
-		weapon_id = {
-			85182
-		}
-	},
-	[85183] = {
-		id = 85183,
-		damage = "16/回",
-		base = 85180,
-		weapon_id = {
-			85183
-		}
-	},
-	[85200] = {
-		name = "37mm対空機関砲70-K",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "11/回",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85200
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85201] = {
-		id = 85201,
-		damage = "13/回",
-		base = 85200,
-		weapon_id = {
-			85201
-		}
-	},
-	[85202] = {
-		id = 85202,
-		damage = "16/回",
-		base = 85200,
-		weapon_id = {
-			85202
-		}
-	},
-	[85203] = {
-		id = 85203,
-		damage = "19/回",
-		base = 85200,
-		weapon_id = {
-			85203
-		}
-	},
-	[85204] = {
-		id = 85204,
-		damage = "22/回",
-		base = 85200,
-		weapon_id = {
-			85204
-		}
-	},
-	[85205] = {
-		id = 85205,
-		damage = "25/回",
-		base = 85200,
-		weapon_id = {
-			85205
-		}
-	},
-	[85206] = {
-		id = 85206,
-		damage = "28/回",
-		base = 85200,
-		weapon_id = {
-			85206
-		}
-	},
-	[85220] = {
-		name = "37mm対空機関砲70-K",
-		speciality = "対空",
-		type = 6,
+	[90040] = {
+		name = "130mm単装砲Mle1924",
+		speciality = "追尾",
+		type = 1,
 		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "14/回",
-		nationality = 7,
-		ammo = 5,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 5",
+		nationality = 8,
+		ammo = 3,
 		value_3 = 0,
-		id = 85220,
+		id = 90040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1021
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85220
+			90040
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"ST",
-			"AA"
+			"FFNF",
+			"DD",
+			"MG"
 		}
 	},
-	[85221] = {
-		id = 85221,
-		damage = "17/回",
-		base = 85220,
+	[90041] = {
+		id = 90041,
+		damage = "5 x 5",
+		base = 90040,
 		weapon_id = {
-			85221
+			90041
 		}
 	},
-	[85222] = {
-		id = 85222,
-		damage = "20/回",
-		base = 85220,
+	[90042] = {
+		id = 90042,
+		damage = "5 x 5",
+		base = 90040,
 		weapon_id = {
-			85222
+			90042
 		}
 	},
-	[85223] = {
-		id = 85223,
-		damage = "23/回",
-		base = 85220,
+	[90043] = {
+		id = 90043,
+		damage = "6 x 5",
+		base = 90040,
 		weapon_id = {
-			85223
+			90043
 		}
 	},
-	[85224] = {
-		id = 85224,
-		damage = "26/回",
-		base = 85220,
+	[90044] = {
+		id = 90044,
+		damage = "6 x 5",
+		base = 90040,
 		weapon_id = {
-			85224
+			90044
 		}
 	},
-	[85225] = {
-		id = 85225,
-		damage = "29/回",
-		base = 85220,
+	[90045] = {
+		id = 90045,
+		damage = "7 x 5",
+		base = 90040,
 		weapon_id = {
-			85225
+			90045
+		}
+	},
+	[90046] = {
+		id = 90046,
+		damage = "8 x 5",
+		base = 90040,
+		weapon_id = {
+			90046
+		}
+	},
+	[90047] = {
+		id = 90047,
+		damage = "8 x 5",
+		base = 90040,
+		weapon_id = {
+			90047
+		}
+	},
+	[90100] = {
+		name = "138.6mm単装砲Mle1929",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 5",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1021
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90101] = {
+		id = 90101,
+		damage = "4 x 5",
+		base = 90100,
+		weapon_id = {
+			90101
+		}
+	},
+	[90102] = {
+		id = 90102,
+		damage = "5 x 5",
+		base = 90100,
+		weapon_id = {
+			90102
+		}
+	},
+	[90103] = {
+		id = 90103,
+		damage = "6 x 5",
+		base = 90100,
+		weapon_id = {
+			90103
+		}
+	},
+	[90104] = {
+		id = 90104,
+		damage = "7 x 5",
+		base = 90100,
+		weapon_id = {
+			90104
+		}
+	},
+	[90105] = {
+		id = 90105,
+		damage = "8 x 5",
+		base = 90100,
+		weapon_id = {
+			90105
+		}
+	},
+	[90106] = {
+		id = 90106,
+		damage = "9 x 5",
+		base = 90100,
+		weapon_id = {
+			90106
+		}
+	},
+	[90120] = {
+		name = "138.6mm単装砲Mle1929",
+		speciality = "追尾",
+		type = 1,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "50100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 5",
+		nationality = 8,
+		ammo = 2,
+		value_3 = 0,
+		id = 90120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				2206
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2206
+			},
+			{
+				4,
+				1021
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG",
+			"HE"
 		}
 	}
 }

@@ -2,6 +2,104 @@ pg = pg or {}
 pg.weapon_property_102 = {}
 
 function ()
+	uv0.weapon_property_102[59570] = {
+		id = 59570,
+		reload_max = 57,
+		damage = 34,
+		base = 59560
+	}
+	uv0.weapon_property_102[59571] = {
+		id = 59571,
+		reload_max = 57,
+		damage = 35,
+		base = 59560
+	}
+	uv0.weapon_property_102[59572] = {
+		id = 59572,
+		reload_max = 57,
+		damage = 37,
+		base = 59560
+	}
+	uv0.weapon_property_102[59573] = {
+		id = 59573,
+		reload_max = 57,
+		damage = 40,
+		base = 59560
+	}
+	uv0.weapon_property_102[59580] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 航空魚雷-通用",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 20,
+		charge_param = "",
+		damage = 116,
+		corrected = 100,
+		min_range = 0,
+		id = 59580,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2111
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_102[59581] = {
+		id = 59581,
+		damage = 134,
+		base = 59580
+	}
+	uv0.weapon_property_102[59582] = {
+		id = 59582,
+		damage = 152,
+		base = 59580
+	}
+	uv0.weapon_property_102[59583] = {
+		id = 59583,
+		damage = 170,
+		base = 59580
+	}
+	uv0.weapon_property_102[59584] = {
+		id = 59584,
+		damage = 188,
+		base = 59580
+	}
+	uv0.weapon_property_102[59585] = {
+		id = 59585,
+		damage = 206,
+		base = 59580
+	}
+	uv0.weapon_property_102[59586] = {
+		id = 59586,
+		damage = 224,
+		base = 59580
+	}
 	uv0.weapon_property_102[59587] = {
 		id = 59587,
 		damage = 242,
@@ -416,56 +514,6 @@ function ()
 	uv0.weapon_property_102[59662] = {
 		id = 59662,
 		damage = 74,
-		base = 59660
-	}
-	uv0.weapon_property_102[59663] = {
-		id = 59663,
-		damage = 92,
-		base = 59660
-	}
-	uv0.weapon_property_102[59664] = {
-		id = 59664,
-		damage = 109,
-		base = 59660
-	}
-	uv0.weapon_property_102[59665] = {
-		id = 59665,
-		damage = 127,
-		base = 59660
-	}
-	uv0.weapon_property_102[59666] = {
-		id = 59666,
-		damage = 145,
-		base = 59660
-	}
-	uv0.weapon_property_102[59667] = {
-		id = 59667,
-		damage = 162,
-		base = 59660
-	}
-	uv0.weapon_property_102[59668] = {
-		id = 59668,
-		damage = 180,
-		base = 59660
-	}
-	uv0.weapon_property_102[59669] = {
-		id = 59669,
-		damage = 197,
-		base = 59660
-	}
-	uv0.weapon_property_102[59670] = {
-		id = 59670,
-		damage = 215,
-		base = 59660
-	}
-	uv0.weapon_property_102[59671] = {
-		id = 59671,
-		damage = 224,
-		base = 59660
-	}
-	uv0.weapon_property_102[59672] = {
-		id = 59672,
-		damage = 237,
 		base = 59660
 	}
 end()

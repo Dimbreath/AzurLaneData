@@ -1,128 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_102 = {
-	[14184] = {
-		id = 14184,
-		damage = "88 x 2",
-		base = 14180,
+	[14466] = {
+		id = 14466,
+		damage = "129 x 3",
+		base = 14460,
 		weapon_id = {
-			14184
+			14466
 		}
 	},
-	[14185] = {
-		id = 14185,
-		damage = "97 x 2",
-		base = 14180,
+	[14467] = {
+		id = 14467,
+		damage = "139 x 3",
+		base = 14460,
 		weapon_id = {
-			14185
+			14467
 		}
 	},
-	[14186] = {
-		id = 14186,
-		damage = "106 x 2",
-		base = 14180,
+	[14468] = {
+		id = 14468,
+		damage = "147 x 3",
+		base = 14460,
 		weapon_id = {
-			14186
+			14468
 		}
 	},
-	[14187] = {
-		id = 14187,
-		damage = "106 x 2",
-		base = 14180,
+	[14469] = {
+		id = 14469,
+		damage = "157 x 3",
+		base = 14460,
 		weapon_id = {
-			14187
+			14469
 		}
 	},
-	[14200] = {
-		name = "406mm連装砲MK5",
+	[14470] = {
+		id = 14470,
+		damage = "167 x 3",
+		base = 14460,
+		weapon_id = {
+			14470
+		}
+	},
+	[14471] = {
+		anti_siren = 100,
+		damage = "167 x 3",
+		base = 14460,
+		id = 14471,
+		weapon_id = {
+			14471
+		}
+	},
+	[14472] = {
+		anti_siren = 200,
+		damage = "167 x 3",
+		base = 14460,
+		id = 14472,
+		weapon_id = {
+			14472
+		}
+	},
+	[14473] = {
+		anti_siren = 300,
+		damage = "167 x 3",
+		base = 14460,
+		id = 14473,
+		weapon_id = {
+			14473
+		}
+	},
+	[14500] = {
+		name = "試作型457mm連装砲MKA",
 		speciality = "投射",
 		type = 4,
-		tech = 1,
+		tech = 0,
 		descrip = "0",
-		value_2 = 5,
-		icon = "14200",
+		value_2 = 65,
+		icon = "14500",
 		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "48 x 2",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 14200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14200
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
-		}
-	},
-	[14201] = {
-		id = 14201,
-		damage = "56 x 2",
-		base = 14200,
-		weapon_id = {
-			14201
-		}
-	},
-	[14202] = {
-		id = 14202,
-		damage = "64 x 2",
-		base = 14200,
-		weapon_id = {
-			14202
-		}
-	},
-	[14203] = {
-		id = 14203,
-		damage = "72 x 2",
-		base = 14200,
-		weapon_id = {
-			14203
-		}
-	},
-	[14220] = {
-		name = "406mm連装砲MK5",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "14200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "53 x 2",
+		rarity = 6,
+		damage = "78 x 2",
 		nationality = 1,
 		ammo = 1,
 		value_3 = 0,
-		id = 14220,
+		id = 14500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -131,7 +90,7 @@ pg.equip_data_statistics_102 = {
 		ammo_info = {
 			{
 				2,
-				1501
+				1503
 			}
 		},
 		equip_info = {
@@ -143,7 +102,7 @@ pg.equip_data_statistics_102 = {
 			12
 		},
 		weapon_id = {
-			14220
+			14500
 		},
 		skill_id = {},
 		part_main = {
@@ -161,105 +120,68 @@ pg.equip_data_statistics_102 = {
 			"AP"
 		}
 	},
-	[14221] = {
-		id = 14221,
-		damage = "62 x 2",
-		base = 14220,
+	[14501] = {
+		id = 14501,
+		damage = "91 x 2",
+		base = 14500,
 		weapon_id = {
-			14221
+			14501
 		}
 	},
-	[14222] = {
-		id = 14222,
-		damage = "70 x 2",
-		base = 14220,
+	[14502] = {
+		id = 14502,
+		damage = "102 x 2",
+		base = 14500,
 		weapon_id = {
-			14222
+			14502
 		}
 	},
-	[14223] = {
-		id = 14223,
-		damage = "79 x 2",
-		base = 14220,
+	[14503] = {
+		id = 14503,
+		damage = "116 x 2",
+		base = 14500,
 		weapon_id = {
-			14223
+			14503
 		}
 	},
-	[14224] = {
-		id = 14224,
-		damage = "88 x 2",
-		base = 14220,
+	[14504] = {
+		id = 14504,
+		damage = "129 x 2",
+		base = 14500,
 		weapon_id = {
-			14224
+			14504
 		}
 	},
-	[14225] = {
-		id = 14225,
-		damage = "97 x 2",
-		base = 14220,
+	[14505] = {
+		id = 14505,
+		damage = "143 x 2",
+		base = 14500,
 		weapon_id = {
-			14225
+			14505
 		}
 	},
-	[14226] = {
-		id = 14226,
-		damage = "106 x 2",
-		base = 14220,
+	[14506] = {
+		id = 14506,
+		damage = "156 x 2",
+		base = 14500,
 		weapon_id = {
-			14226
+			14506
 		}
 	},
-	[14240] = {
-		name = "406mm連装砲MK5",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "14200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "58 x 2",
-		nationality = 1,
-		ammo = 1,
-		value_3 = 0,
-		id = 14240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
+	[14507] = {
+		id = 14507,
+		damage = "167 x 2",
+		base = 14500,
 		weapon_id = {
-			14240
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"AP"
+			14507
+		}
+	},
+	[14508] = {
+		id = 14508,
+		damage = "180 x 2",
+		base = 14500,
+		weapon_id = {
+			14508
 		}
 	}
 }

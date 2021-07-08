@@ -1,131 +1,284 @@
 pg = pg or {}
 pg.equip_data_statistics_382 = {
-	[89051] = {
-		id = 89051,
-		anti_siren = 100,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "260"
-	},
-	[89052] = {
-		id = 89052,
-		anti_siren = 200,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "275"
-	},
-	[89053] = {
-		id = 89053,
-		anti_siren = 300,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "290"
-	},
-	[89060] = {
-		name = "チームエンブレム",
+	[90780] = {
+		name = "155mm連装砲Mle1920",
+		speciality = "追尾",
+		type = 2,
 		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89060,
-		value_2 = 16,
-		icon = "89060",
-		value_1 = "6",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "元々はチームエンブレムとしてデザインされたはずのもの。ヘン...变身？",
-		nationality = 105,
-		ammo = 10,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50780",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 8,
+		ammo = 3,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		id = 90780,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90780
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90781] = {
+		id = 90781,
+		damage = "12 x 4",
+		base = 90780,
+		weapon_id = {
+			90781
+		}
+	},
+	[90782] = {
+		id = 90782,
+		damage = "14 x 4",
+		base = 90780,
+		weapon_id = {
+			90782
+		}
+	},
+	[90783] = {
+		id = 90783,
+		damage = "16 x 4",
+		base = 90780,
+		weapon_id = {
+			90783
+		}
+	},
+	[90784] = {
+		id = 90784,
+		damage = "17 x 4",
+		base = 90780,
+		weapon_id = {
+			90784
+		}
+	},
+	[90785] = {
+		id = 90785,
+		damage = "18 x 4",
+		base = 90780,
+		weapon_id = {
+			90785
+		}
+	},
+	[90786] = {
+		id = 90786,
+		damage = "19 x 4",
+		base = 90780,
+		weapon_id = {
+			90786
+		}
+	},
+	[90787] = {
+		id = 90787,
+		damage = "19 x 4",
+		base = 90780,
+		weapon_id = {
+			90787
+		}
+	},
+	[90800] = {
+		name = "155mm単装副砲Mle1920",
+		speciality = "追尾",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50800",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90800
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90801] = {
+		id = 90801,
+		damage = "12 x 4",
+		base = 90800,
+		weapon_id = {
+			90801
+		}
+	},
+	[90802] = {
+		id = 90802,
+		damage = "14 x 4",
+		base = 90800,
+		weapon_id = {
+			90802
+		}
+	},
+	[90803] = {
+		id = 90803,
+		damage = "16 x 4",
+		base = 90800,
+		weapon_id = {
+			90803
+		}
+	},
+	[90804] = {
+		id = 90804,
+		damage = "17 x 4",
+		base = 90800,
+		weapon_id = {
+			90804
+		}
+	},
+	[90805] = {
+		id = 90805,
+		damage = "18 x 4",
+		base = 90800,
+		weapon_id = {
+			90805
+		}
+	},
+	[90806] = {
+		id = 90806,
+		damage = "19 x 4",
+		base = 90800,
+		weapon_id = {
+			90806
+		}
+	},
+	[90807] = {
+		id = 90807,
+		damage = "19 x 4",
+		base = 90800,
+		weapon_id = {
+			90807
+		}
+	},
+	[90820] = {
+		name = "グールドゥ・ルスールGL.2戦闘機",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50820",
+		attribute_2 = "air",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90820,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			}
+		},
 		equip_info = {
-			6
+			6,
+			7,
+			8,
+			9
 		},
-		weapon_id = {},
-		skill_id = {
-			6490
+		weapon_id = {
+			90820,
+			88000
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"FFNF",
+			"CV",
+			"FT"
 		}
-	},
-	[89061] = {
-		id = 89061,
-		value_1 = "7",
-		base = 89060
-	},
-	[89062] = {
-		id = 89062,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89060
-	},
-	[89063] = {
-		id = 89063,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89060
-	},
-	[89064] = {
-		id = 89064,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89060
-	},
-	[89065] = {
-		id = 89065,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89060
-	},
-	[89066] = {
-		id = 89066,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89060
-	},
-	[89067] = {
-		id = 89067,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89060
-	},
-	[89068] = {
-		id = 89068,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89060
-	},
-	[89069] = {
-		id = 89069,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89060
-	},
-	[89070] = {
-		id = 89070,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89060
-	},
-	[89071] = {
-		id = 89071,
-		anti_siren = 100,
-		base = 89060,
-		value_2 = 26,
-		value_1 = "16"
-	},
-	[89072] = {
-		id = 89072,
-		anti_siren = 200,
-		base = 89060,
-		value_2 = 27,
-		value_1 = "17"
 	}
 }

@@ -1,239 +1,429 @@
 pg = pg or {}
 pg.equip_data_statistics_187 = {
-	[26200] = {
-		name = "QF 2ポンド八連装ポンポン砲",
-		speciality = "対空",
-		type = 6,
+	[26670] = {
+		id = 26670,
+		damage = "150/回",
+		base = 26660,
+		weapon_id = {
+			26670
+		}
+	},
+	[26671] = {
+		anti_siren = 100,
+		damage = "150/回",
+		base = 26660,
+		id = 26671,
+		weapon_id = {
+			26671
+		}
+	},
+	[26672] = {
+		anti_siren = 200,
+		damage = "150/回",
+		base = 26660,
+		id = 26672,
+		weapon_id = {
+			26672
+		}
+	},
+	[26673] = {
+		anti_siren = 300,
+		damage = "150/回",
+		base = 26660,
+		id = 26673,
+		weapon_id = {
+			26673
+		}
+	},
+	[27000] = {
+		name = "シーファイア",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
 		tech = 1,
 		descrip = "0",
-		value_2 = 12,
-		icon = "26200",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "42/回",
+		value_2 = 5,
+		icon = "27000",
+		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 26200,
+		id = 27000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50100
+			},
+			{
+				6,
+				50500
+			},
+			{
+				5,
+				52200
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26200
+			27000,
+			82000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[26201] = {
-		id = 26201,
-		damage = "48/回",
-		base = 26200,
+	[27001] = {
+		id = 27001,
+		base = 27000,
+		ammo_info = {
+			{
+				6,
+				50101
+			},
+			{
+				6,
+				50501
+			},
+			{
+				5,
+				52201
+			}
+		},
 		weapon_id = {
-			26201
+			27001,
+			82001
 		}
 	},
-	[26202] = {
-		id = 26202,
-		damage = "54/回",
-		base = 26200,
+	[27002] = {
+		id = 27002,
+		base = 27000,
+		ammo_info = {
+			{
+				6,
+				50102
+			},
+			{
+				6,
+				50502
+			},
+			{
+				5,
+				52202
+			}
+		},
 		weapon_id = {
-			26202
+			27002,
+			82002
 		}
 	},
-	[26203] = {
-		id = 26203,
-		damage = "60/回",
-		base = 26200,
+	[27003] = {
+		id = 27003,
+		base = 27000,
+		ammo_info = {
+			{
+				6,
+				50103
+			},
+			{
+				6,
+				50503
+			},
+			{
+				5,
+				52203
+			}
+		},
 		weapon_id = {
-			26203
+			27003,
+			82003
 		}
 	},
-	[26204] = {
-		id = 26204,
-		damage = "66/回",
-		base = 26200,
-		weapon_id = {
-			26204
-		}
-	},
-	[26205] = {
-		id = 26205,
-		damage = "73/回",
-		base = 26200,
-		weapon_id = {
-			26205
-		}
-	},
-	[26206] = {
-		id = 26206,
-		damage = "80/回",
-		base = 26200,
-		weapon_id = {
-			26206
-		}
-	},
-	[26220] = {
-		name = "QF 2ポンド八連装ポンポン砲",
-		speciality = "対空",
-		type = 6,
+	[27020] = {
+		name = "シーファイア",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
 		tech = 2,
 		descrip = "0",
-		value_2 = 25,
-		icon = "26200",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "46/回",
+		value_2 = 12,
+		icon = "27000",
+		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 26220,
+		id = 27020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50120
+			},
+			{
+				6,
+				50520
+			},
+			{
+				5,
+				52220
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26220
+			27020,
+			82020
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[26221] = {
-		id = 26221,
-		damage = "53/回",
-		base = 26220,
+	[27021] = {
+		id = 27021,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50121
+			},
+			{
+				6,
+				50521
+			},
+			{
+				5,
+				52221
+			}
+		},
 		weapon_id = {
-			26221
+			27021,
+			82021
 		}
 	},
-	[26222] = {
-		id = 26222,
-		damage = "60/回",
-		base = 26220,
+	[27022] = {
+		id = 27022,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50122
+			},
+			{
+				6,
+				50522
+			},
+			{
+				5,
+				52222
+			}
+		},
 		weapon_id = {
-			26222
+			27022,
+			82022
 		}
 	},
-	[26223] = {
-		id = 26223,
-		damage = "67/回",
-		base = 26220,
+	[27023] = {
+		id = 27023,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50123
+			},
+			{
+				6,
+				50523
+			},
+			{
+				5,
+				52223
+			}
+		},
 		weapon_id = {
-			26223
+			27023,
+			82023
 		}
 	},
-	[26224] = {
-		id = 26224,
-		damage = "74/回",
-		base = 26220,
+	[27024] = {
+		id = 27024,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50124
+			},
+			{
+				6,
+				50524
+			},
+			{
+				5,
+				52224
+			}
+		},
 		weapon_id = {
-			26224
+			27024,
+			82024
 		}
 	},
-	[26225] = {
-		id = 26225,
-		damage = "81/回",
-		base = 26220,
+	[27025] = {
+		id = 27025,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50125
+			},
+			{
+				6,
+				50525
+			},
+			{
+				5,
+				52225
+			}
+		},
 		weapon_id = {
-			26225
+			27025,
+			82025
 		}
 	},
-	[26226] = {
-		id = 26226,
-		damage = "88/回",
-		base = 26220,
+	[27026] = {
+		id = 27026,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50126
+			},
+			{
+				6,
+				50526
+			},
+			{
+				5,
+				52226
+			}
+		},
 		weapon_id = {
-			26226
+			27026,
+			82026
 		}
 	},
-	[26227] = {
-		id = 26227,
-		damage = "95/回",
-		base = 26220,
+	[27040] = {
+		name = "シーファイア",
+		type = 7,
+		speciality = "航空",
+		rarity = 4,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "27000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 27040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50140
+			},
+			{
+				6,
+				50540
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			26227
+			27040,
+			82040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
 		}
 	},
-	[26228] = {
-		id = 26228,
-		damage = "102/回",
-		base = 26220,
+	[27041] = {
+		id = 27041,
+		base = 27040,
+		ammo_info = {
+			{
+				6,
+				50141
+			},
+			{
+				6,
+				50541
+			},
+			{
+				5,
+				52241
+			}
+		},
 		weapon_id = {
-			26228
+			27041,
+			82041
 		}
 	}
 }

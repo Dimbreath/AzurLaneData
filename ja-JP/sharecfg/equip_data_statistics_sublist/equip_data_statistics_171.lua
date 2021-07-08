@@ -1,221 +1,193 @@
 pg = pg or {}
 pg.equip_data_statistics_171 = {
-	[24067] = {
-		id = 24067,
-		damage = "99 x 2",
-		base = 24060,
+	[25207] = {
+		id = 25207,
+		damage = "113 x 3",
+		base = 25200,
 		weapon_id = {
-			24067
+			25207
 		}
 	},
-	[24068] = {
-		id = 24068,
-		damage = "104 x 2",
-		base = 24060,
+	[25208] = {
+		id = 25208,
+		damage = "122 x 3",
+		base = 25200,
 		weapon_id = {
-			24068
+			25208
 		}
 	},
-	[24069] = {
-		id = 24069,
-		damage = "111 x 2",
-		base = 24060,
+	[25209] = {
+		id = 25209,
+		damage = "130 x 3",
+		base = 25200,
 		weapon_id = {
-			24069
+			25209
 		}
 	},
-	[24070] = {
-		id = 24070,
-		damage = "116 x 2",
-		base = 24060,
+	[25210] = {
+		id = 25210,
+		damage = "139 x 3",
+		base = 25200,
 		weapon_id = {
-			24070
+			25210
 		}
 	},
-	[24071] = {
+	[25211] = {
 		anti_siren = 100,
-		damage = "116 x 2",
-		base = 24060,
-		id = 24071,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25211,
 		weapon_id = {
-			24071
+			25211
 		}
 	},
-	[24100] = {
-		name = "381mm連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 1,
+	[25212] = {
+		anti_siren = 200,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25212,
+		weapon_id = {
+			25212
+		}
+	},
+	[25213] = {
+		anti_siren = 300,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25213,
+		weapon_id = {
+			25213
+		}
+	},
+	[25300] = {
+		name = "潜水艦用Mark20(S)魚雷“Bidder”",
+		speciality = "雷撃",
+		type = 13,
+		tech = 0,
 		descrip = "0",
-		value_2 = 5,
-		icon = "24100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "46 x 2",
+		value_2 = 45,
+		icon = "25300",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 3",
 		nationality = 2,
-		ammo = 3,
+		ammo = 4,
 		value_3 = 0,
-		id = 24100,
+		id = 25300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1500
+				3,
+				1831
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1831
+			},
+			{
+				4,
+				1602
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			24100
+			25300
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG"
+			"SS",
+			"TP"
 		}
 	},
-	[24101] = {
-		id = 24101,
-		damage = "52 x 2",
-		base = 24100,
+	[25301] = {
+		id = 25301,
+		damage = "80 x 3",
+		base = 25300,
 		weapon_id = {
-			24101
+			25301
 		}
 	},
-	[24102] = {
-		id = 24102,
-		damage = "58 x 2",
-		base = 24100,
+	[25302] = {
+		id = 25302,
+		damage = "90 x 3",
+		base = 25300,
 		weapon_id = {
-			24102
+			25302
 		}
 	},
-	[24103] = {
-		id = 24103,
-		damage = "64 x 2",
-		base = 24100,
+	[25303] = {
+		id = 25303,
+		damage = "100 x 3",
+		base = 25300,
 		weapon_id = {
-			24103
+			25303
 		}
 	},
-	[24120] = {
-		name = "381mm連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "24100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "51 x 2",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 24120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
+	[25304] = {
+		id = 25304,
+		damage = "110 x 3",
+		base = 25300,
 		weapon_id = {
-			24120
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG",
-			"AP"
+			25304
 		}
 	},
-	[24121] = {
-		id = 24121,
-		damage = "57 x 2",
-		base = 24120,
+	[25305] = {
+		id = 25305,
+		damage = "121 x 3",
+		base = 25300,
 		weapon_id = {
-			24121
+			25305
 		}
 	},
-	[24122] = {
-		id = 24122,
-		damage = "64 x 2",
-		base = 24120,
+	[25306] = {
+		id = 25306,
+		damage = "132 x 3",
+		base = 25300,
 		weapon_id = {
-			24122
+			25306
 		}
 	},
-	[24123] = {
-		id = 24123,
-		damage = "70 x 2",
-		base = 24120,
+	[25307] = {
+		id = 25307,
+		damage = "143 x 3",
+		base = 25300,
 		weapon_id = {
-			24123
+			25307
 		}
 	},
-	[24124] = {
-		id = 24124,
-		damage = "77 x 2",
-		base = 24120,
+	[25308] = {
+		id = 25308,
+		damage = "154 x 3",
+		base = 25300,
 		weapon_id = {
-			24124
+			25308
 		}
 	},
-	[24125] = {
-		id = 24125,
-		damage = "84 x 2",
-		base = 24120,
+	[25309] = {
+		id = 25309,
+		damage = "165 x 3",
+		base = 25300,
 		weapon_id = {
-			24125
-		}
-	},
-	[24126] = {
-		id = 24126,
-		damage = "90 x 2",
-		base = 24120,
-		weapon_id = {
-			24126
+			25309
 		}
 	}
 }

@@ -1015,6 +1015,11 @@ pg.name_code = {
 		name = "風雲",
 		code = "風雲"
 	},
+	{
+		id = 204,
+		name = "白龍",
+		code = "白龍"
+	},
 	[250] = {
 		id = 250,
 		name = "伊9",

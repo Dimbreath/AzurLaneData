@@ -1,67 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_32 = {
-	[1343] = {
-		id = 1343,
-		value_1 = "203",
-		base = 1340
+	[1444] = {
+		id = 1444,
+		value_2 = 45,
+		value_1 = "64",
+		base = 1440
 	},
-	[1344] = {
-		id = 1344,
-		value_1 = "224",
-		base = 1340
+	[1445] = {
+		id = 1445,
+		value_2 = 50,
+		value_1 = "70",
+		base = 1440
 	},
-	[1345] = {
-		id = 1345,
-		value_1 = "245",
-		base = 1340
+	[1446] = {
+		id = 1446,
+		value_2 = 55,
+		value_1 = "76",
+		base = 1440
 	},
-	[1346] = {
-		id = 1346,
-		value_1 = "266",
-		base = 1340
+	[1447] = {
+		id = 1447,
+		value_2 = 60,
+		value_1 = "82",
+		base = 1440
 	},
-	[1347] = {
-		id = 1347,
-		value_1 = "287",
-		base = 1340
+	[1448] = {
+		id = 1448,
+		value_2 = 65,
+		value_1 = "88",
+		base = 1440
 	},
-	[1348] = {
-		id = 1348,
-		value_1 = "308",
-		base = 1340
+	[1449] = {
+		id = 1449,
+		value_2 = 70,
+		value_1 = "94",
+		base = 1440
 	},
-	[1349] = {
-		id = 1349,
-		value_1 = "329",
-		base = 1340
+	[1450] = {
+		id = 1450,
+		value_2 = 75,
+		value_1 = "100",
+		base = 1440
 	},
-	[1350] = {
-		id = 1350,
-		value_1 = "350",
-		base = 1340
-	},
-	[1351] = {
-		id = 1351,
+	[1451] = {
+		id = 1451,
 		anti_siren = 100,
-		value_1 = "371",
-		base = 1340
+		base = 1440,
+		value_2 = 80,
+		value_1 = "106"
 	},
-	[1400] = {
-		name = "油圧カタパルト",
+	[1452] = {
+		id = 1452,
+		anti_siren = 200,
+		base = 1440,
+		value_2 = 85,
+		value_1 = "112"
+	},
+	[1453] = {
+		id = 1453,
+		anti_siren = 300,
+		base = 1440,
+		value_2 = 90,
+		value_1 = "118"
+	},
+	[1500] = {
+		name = "SGレーダー",
 		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 1400,
-		value_2 = 18,
-		icon = "1400",
-		value_1 = "18",
-		attribute_2 = "durability",
+		id = 1500,
+		value_2 = 2,
+		icon = "1500",
+		value_1 = "6",
+		attribute_2 = "dodge",
 		rarity = 3,
-		descrip = "発艦用カタパルト。航空を上げることができる",
-		nationality = 0,
+		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "air",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -70,56 +87,83 @@ pg.equip_data_statistics_32 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6040
+		},
 		part_main = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
 		part_sub = {
-			6,
-			7,
-			10
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
 		},
-		equip_parameters = {},
+		equip_parameters = {
+			avoid_extra = 500,
+			ambush_extra = 500
+		},
 		label = {
-			"DEV"
+			"USS",
+			"DEV",
+			"SG"
 		}
 	},
-	[1401] = {
-		id = 1401,
-		value_2 = 21,
-		value_1 = "20",
-		base = 1400
+	[1501] = {
+		id = 1501,
+		value_2 = 3,
+		value_1 = "7",
+		base = 1500
 	},
-	[1402] = {
-		id = 1402,
-		value_2 = 24,
-		value_1 = "23",
-		base = 1400
+	[1502] = {
+		id = 1502,
+		value_2 = 3,
+		value_1 = "8",
+		base = 1500
 	},
-	[1403] = {
-		id = 1403,
-		value_2 = 27,
-		value_1 = "26",
-		base = 1400
+	[1503] = {
+		id = 1503,
+		value_2 = 3,
+		value_1 = "9",
+		base = 1500
 	},
-	[1404] = {
-		id = 1404,
-		value_2 = 30,
-		value_1 = "28",
-		base = 1400
+	[1504] = {
+		id = 1504,
+		value_2 = 4,
+		value_1 = "10",
+		base = 1500
 	},
-	[1405] = {
-		id = 1405,
-		value_2 = 33,
-		value_1 = "31",
-		base = 1400
+	[1505] = {
+		id = 1505,
+		value_2 = 4,
+		value_1 = "11",
+		base = 1500
 	},
-	[1406] = {
-		id = 1406,
-		value_2 = 36,
-		value_1 = "34",
-		base = 1400
+	[1506] = {
+		id = 1506,
+		value_2 = 5,
+		value_1 = "11",
+		base = 1500
 	}
 }

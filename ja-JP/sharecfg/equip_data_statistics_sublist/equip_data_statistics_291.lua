@@ -1,252 +1,187 @@
 pg = pg or {}
 pg.equip_data_statistics_291 = {
-	[41062] = {
-		id = 41062,
-		damage = "5 x 4",
-		base = 41060,
+	[44148] = {
+		id = 44148,
+		damage = "118 x 2",
+		base = 44140,
 		weapon_id = {
-			41062
+			44148
 		}
 	},
-	[41063] = {
-		id = 41063,
-		damage = "6 x 4",
-		base = 41060,
+	[44149] = {
+		id = 44149,
+		damage = "124 x 2",
+		base = 44140,
 		weapon_id = {
-			41063
+			44149
 		}
 	},
-	[41064] = {
-		id = 41064,
-		damage = "6 x 4",
-		base = 41060,
+	[44150] = {
+		id = 44150,
+		damage = "132 x 2",
+		base = 44140,
 		weapon_id = {
-			41064
+			44150
 		}
 	},
-	[41065] = {
-		id = 41065,
-		damage = "7 x 4",
-		base = 41060,
-		weapon_id = {
-			41065
-		}
-	},
-	[41066] = {
-		id = 41066,
-		damage = "7 x 4",
-		base = 41060,
-		weapon_id = {
-			41066
-		}
-	},
-	[41067] = {
-		id = 41067,
-		damage = "8 x 4",
-		base = 41060,
-		weapon_id = {
-			41067
-		}
-	},
-	[41068] = {
-		id = 41068,
-		damage = "8 x 4",
-		base = 41060,
-		weapon_id = {
-			41068
-		}
-	},
-	[41069] = {
-		id = 41069,
-		damage = "9 x 4",
-		base = 41060,
-		weapon_id = {
-			41069
-		}
-	},
-	[41070] = {
-		id = 41070,
-		damage = "10 x 4",
-		base = 41060,
-		weapon_id = {
-			41070
-		}
-	},
-	[41071] = {
+	[44151] = {
 		anti_siren = 100,
-		damage = "10 x 4",
-		base = 41060,
-		id = 41071,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44151,
 		weapon_id = {
-			41071
+			44151
 		}
 	},
-	[41100] = {
-		name = "128mmSKC41連装両用砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 1,
-		value_2 = 3,
-		icon = "41100",
+	[44152] = {
+		anti_siren = 200,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44152,
+		weapon_id = {
+			44152
+		}
+	},
+	[44153] = {
+		anti_siren = 300,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44153,
+		weapon_id = {
+			44153
+		}
+	},
+	[44200] = {
+		name = "試作型406mmSKC連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "44200",
 		attribute_2 = "cannon",
-		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
-		rarity = 2,
-		damage = "4 x 4",
+		rarity = 5,
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 1,
-		value_3 = 2,
-		id = 41100,
+		ammo = 2,
+		value_3 = 0,
+		id = 44200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		ammo_info = {
 			{
-				1,
-				1303
+				2,
+				1502
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1001
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			41100
+			44200
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
-		}
-	},
-	[41101] = {
-		id = 41101,
-		damage = "5 x 4",
-		base = 41100,
-		weapon_id = {
-			41101
-		}
-	},
-	[41102] = {
-		id = 41102,
-		damage = "5 x 4",
-		base = 41100,
-		weapon_id = {
-			41102
-		}
-	},
-	[41103] = {
-		id = 41103,
-		damage = "6 x 4",
-		base = 41100,
-		weapon_id = {
-			41103
-		}
-	},
-	[41120] = {
-		name = "128mmSKC41連装両用砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 2,
-		value_2 = 7,
-		icon = "41100",
-		attribute_2 = "cannon",
-		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
-		rarity = 3,
-		damage = "4 x 4",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 5,
-		id = 41120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1303
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1001
-			},
-			6,
 			10,
-			11,
-			12
+			13
 		},
-		weapon_id = {
-			41120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"DD",
+			"BB",
 			"MG",
-			"AP"
+			"HE"
 		}
 	},
-	[41121] = {
-		id = 41121,
-		damage = "5 x 4",
-		base = 41120,
+	[44201] = {
+		id = 44201,
+		damage = "68 x 2",
+		base = 44200,
 		weapon_id = {
-			41121
+			44201
+		}
+	},
+	[44202] = {
+		id = 44202,
+		damage = "76 x 2",
+		base = 44200,
+		weapon_id = {
+			44202
+		}
+	},
+	[44203] = {
+		id = 44203,
+		damage = "86 x 2",
+		base = 44200,
+		weapon_id = {
+			44203
+		}
+	},
+	[44204] = {
+		id = 44204,
+		damage = "96 x 2",
+		base = 44200,
+		weapon_id = {
+			44204
+		}
+	},
+	[44205] = {
+		id = 44205,
+		damage = "106 x 2",
+		base = 44200,
+		weapon_id = {
+			44205
+		}
+	},
+	[44206] = {
+		id = 44206,
+		damage = "116 x 2",
+		base = 44200,
+		weapon_id = {
+			44206
+		}
+	},
+	[44207] = {
+		id = 44207,
+		damage = "124 x 2",
+		base = 44200,
+		weapon_id = {
+			44207
+		}
+	},
+	[44208] = {
+		id = 44208,
+		damage = "134 x 2",
+		base = 44200,
+		weapon_id = {
+			44208
+		}
+	},
+	[44209] = {
+		id = 44209,
+		damage = "144 x 2",
+		base = 44200,
+		weapon_id = {
+			44209
+		}
+	},
+	[44210] = {
+		id = 44210,
+		damage = "154 x 2",
+		base = 44200,
+		weapon_id = {
+			44210
 		}
 	}
 }

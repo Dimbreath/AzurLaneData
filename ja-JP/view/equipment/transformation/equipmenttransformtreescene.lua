@@ -191,7 +191,7 @@ function slot0.UpdateEquipmentTypes(slot0)
 		slot6 = slot0.equipmentTypeToggles[slot5]
 		slot6:GetComponent(typeof(Toggle)).isOn = false
 
-		slot0.loader:GetSprite(uv1, "equipmentType" .. slot1[slot5], slot6:Find("itemName"))
+		slot0.loader:GetSprite(uv1, "equipmentType" .. slot1[slot5], slot6:Find("itemName"), true)
 		setActive(slot6:Find("selectedframe"), false)
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 and uv0.contextData.equipmentTypeIndex ~= uv1 then

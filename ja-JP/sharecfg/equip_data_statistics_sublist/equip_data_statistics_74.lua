@@ -1,241 +1,300 @@
 pg = pg or {}
 pg.equip_data_statistics_74 = {
-	[5244] = {
-		id = 5244,
-		damage = "96 x 5",
-		base = 5240,
+	[6001] = {
+		id = 6001,
+		damage = "7/回",
+		base = 6000,
 		weapon_id = {
-			5244
+			6001
 		}
 	},
-	[5245] = {
-		id = 5245,
-		damage = "106 x 5",
-		base = 5240,
+	[6002] = {
+		id = 6002,
+		damage = "8/回",
+		base = 6000,
 		weapon_id = {
-			5245
+			6002
 		}
 	},
-	[5246] = {
-		id = 5246,
-		damage = "116 x 5",
-		base = 5240,
+	[6003] = {
+		id = 6003,
+		damage = "9/回",
+		base = 6000,
 		weapon_id = {
-			5246
+			6003
 		}
 	},
-	[5247] = {
-		id = 5247,
-		damage = "126 x 5",
-		base = 5240,
+	[6020] = {
+		name = "12.7mm対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "6000",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "8/回",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 6020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			5247
+			6020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
 		}
 	},
-	[5248] = {
-		id = 5248,
-		damage = "136 x 5",
-		base = 5240,
+	[6021] = {
+		id = 6021,
+		damage = "9/回",
+		base = 6020,
 		weapon_id = {
-			5248
+			6021
 		}
 	},
-	[5249] = {
-		id = 5249,
-		damage = "146 x 5",
-		base = 5240,
+	[6022] = {
+		id = 6022,
+		damage = "10/回",
+		base = 6020,
 		weapon_id = {
-			5249
+			6022
 		}
 	},
-	[5250] = {
-		id = 5250,
-		damage = "156 x 5",
-		base = 5240,
+	[6023] = {
+		id = 6023,
+		damage = "11/回",
+		base = 6020,
 		weapon_id = {
-			5250
+			6023
 		}
 	},
-	[5251] = {
-		anti_siren = 100,
-		damage = "156 x 5",
-		base = 5240,
-		id = 5251,
+	[6040] = {
+		name = "12.7mm対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "6000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "8/回",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 6040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			5251
+			6040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
 		}
 	},
-	[5252] = {
-		anti_siren = 200,
-		damage = "156 x 5",
-		base = 5240,
-		id = 5252,
+	[6041] = {
+		id = 6041,
+		damage = "9/回",
+		base = 6040,
 		weapon_id = {
-			5252
+			6041
 		}
 	},
-	[5253] = {
-		anti_siren = 300,
-		damage = "156 x 5",
-		base = 5240,
-		id = 5253,
+	[6042] = {
+		id = 6042,
+		damage = "10/回",
+		base = 6040,
 		weapon_id = {
-			5253
+			6042
 		}
 	},
-	[5300] = {
-		name = "550mm連装魚雷発射管",
-		speciality = "雷撃",
-		type = 5,
+	[6043] = {
+		id = 6043,
+		damage = "11/回",
+		base = 6040,
+		weapon_id = {
+			6043
+		}
+	},
+	[6044] = {
+		id = 6044,
+		damage = "12/回",
+		base = 6040,
+		weapon_id = {
+			6044
+		}
+	},
+	[6045] = {
+		id = 6045,
+		damage = "13/回",
+		base = 6040,
+		weapon_id = {
+			6045
+		}
+	},
+	[6046] = {
+		id = 6046,
+		damage = "15/回",
+		base = 6040,
+		weapon_id = {
+			6046
+		}
+	},
+	[6047] = {
+		id = 6047,
+		damage = "15/回",
+		base = 6040,
+		weapon_id = {
+			6047
+		}
+	},
+	[6100] = {
+		name = "100mm連装高角砲",
+		speciality = "対空",
+		type = 6,
 		tech = 1,
 		rarity = 1,
 		descrip = "0",
 		value_2 = 0,
-		icon = "5300",
-		damage = "42 x 2",
+		icon = "6100",
+		damage = "18/回",
 		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5300,
+		id = 6100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
+		ammo_info = {},
 		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1401
-			},
+			1,
+			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			5300
+			6100
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"TP",
-			"DUO"
-		}
-	},
-	[5301] = {
-		id = 5301,
-		damage = "49 x 2",
-		base = 5300,
-		weapon_id = {
-			5301
-		}
-	},
-	[5302] = {
-		id = 5302,
-		damage = "57 x 2",
-		base = 5300,
-		weapon_id = {
-			5302
-		}
-	},
-	[5303] = {
-		id = 5303,
-		damage = "65 x 2",
-		base = 5300,
-		weapon_id = {
-			5303
-		}
-	},
-	[5320] = {
-		name = "550mm連装魚雷発射管",
-		speciality = "雷撃",
-		type = 5,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "5300",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "47 x 2",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 5320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1401
-			},
+			4,
+			5,
 			6,
 			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
 			"ST",
-			"TP",
-			"DUO"
+			"AA"
 		}
 	},
-	[5321] = {
-		id = 5321,
-		damage = "55 x 2",
-		base = 5320,
+	[6101] = {
+		id = 6101,
+		damage = "20/回",
+		base = 6100,
 		weapon_id = {
-			5321
+			6101
 		}
 	}
 }

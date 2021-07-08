@@ -320,7 +320,9 @@ function slot0.addDeleteStudentQueue(slot0, slot1, slot2, slot3, slot4)
 		slot0.lessonOverTimer[slot1] = nil
 	end
 
-	slot0:pushDeleteStudentQueue()
+	if not slot0.metaSkillPanel then
+		slot0:pushDeleteStudentQueue()
+	end
 end
 
 function slot0.pushDeleteStudentQueue(slot0)
@@ -731,6 +733,14 @@ function slot0.closeMetaSkillPanel(slot0)
 		slot0.metaSkillPanel:Destroy()
 
 		slot0.metaSkillPanel = nil
+
+		slot0:pushDeleteStudentQueue()
+	end
+end
+
+function slot0.updateMetaSkillPanel(slot0)
+	if slot0.metaSkillPanel then
+		slot0.metaSkillPanel:reUpdate()
 	end
 end
 

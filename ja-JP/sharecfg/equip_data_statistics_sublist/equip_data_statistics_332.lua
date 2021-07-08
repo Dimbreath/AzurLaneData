@@ -1,311 +1,410 @@
 pg = pg or {}
 pg.equip_data_statistics_332 = {
-	[48026] = {
-		id = 48026,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59766
-			},
-			{
-				4,
-				59686
-			}
-		},
-		weapon_id = {
-			48026
-		}
-	},
-	[48027] = {
-		id = 48027,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59767
-			},
-			{
-				4,
-				59687
-			}
-		},
-		weapon_id = {
-			48027
-		}
-	},
-	[48028] = {
-		id = 48028,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59768
-			},
-			{
-				4,
-				59688
-			}
-		},
-		weapon_id = {
-			48028
-		}
-	},
-	[48029] = {
-		id = 48029,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59769
-			},
-			{
-				4,
-				59689
-			}
-		},
-		weapon_id = {
-			48029
-		}
-	},
-	[48030] = {
-		id = 48030,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59770
-			},
-			{
-				4,
-				59690
-			}
-		},
-		weapon_id = {
-			48030
-		}
-	},
-	[48031] = {
-		anti_siren = 100,
-		base = 48020,
-		id = 48031,
-		ammo_info = {
-			{
-				6,
-				59771
-			},
-			{
-				4,
-				59691
-			}
-		},
-		weapon_id = {
-			48031
-		}
-	},
-	[48040] = {
-		name = "Ju-87 D-4",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "48040",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
+	[70121] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 48040,
+		id = 70121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59340
-			},
-			{
-				4,
-				59700
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48040
+			70121
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"TB"
+		label = {}
+	},
+	[70122] = {
+		id = 70122,
+		base = 70121,
+		weapon_id = {
+			70122
 		}
 	},
-	[48041] = {
-		id = 48041,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59341
-			},
-			{
-				4,
-				59701
-			}
-		},
+	[70131] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70131,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48041
+			70131
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70132] = {
+		id = 70132,
+		base = 70131,
+		weapon_id = {
+			70132
 		}
 	},
-	[48042] = {
-		id = 48042,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59342
-			},
-			{
-				4,
-				59702
-			}
-		},
+	[70141] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70141,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48042
+			70141
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70142] = {
+		id = 70142,
+		base = 70141,
+		weapon_id = {
+			70142
 		}
 	},
-	[48043] = {
-		id = 48043,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59343
-			},
-			{
-				4,
-				59703
-			}
-		},
+	[70211] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48043
+			70211
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70212] = {
+		id = 70212,
+		base = 70211,
+		weapon_id = {
+			70212
 		}
 	},
-	[48044] = {
-		id = 48044,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59344
-			},
-			{
-				4,
-				59704
-			}
-		},
+	[70221] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48044
+			70221
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70222] = {
+		id = 70222,
+		base = 70221,
+		weapon_id = {
+			70222
 		}
 	},
-	[48045] = {
-		id = 48045,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59345
-			},
-			{
-				4,
-				59705
-			}
-		},
+	[70231] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70231,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48045
+			70231
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70232] = {
+		id = 70232,
+		base = 70231,
+		weapon_id = {
+			70232
 		}
 	},
-	[48046] = {
-		id = 48046,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59346
-			},
-			{
-				4,
-				59706
-			}
-		},
+	[70241] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70241,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48046
+			70241
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70242] = {
+		id = 70242,
+		base = 70241,
+		weapon_id = {
+			70242
 		}
 	},
-	[48047] = {
-		id = 48047,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59347
-			},
-			{
-				4,
-				59707
-			}
-		},
+	[70251] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48047
+			70251
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70252] = {
+		id = 70252,
+		base = 70251,
+		weapon_id = {
+			70252
 		}
 	},
-	[48048] = {
-		id = 48048,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59348
-			},
-			{
-				4,
-				59708
-			}
-		},
+	[70261] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			48048
-		}
-	},
-	[48049] = {
-		id = 48049,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59349
-			},
-			{
-				4,
-				59709
-			}
+			70261
 		},
-		weapon_id = {
-			48049
-		}
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
 	}
 }

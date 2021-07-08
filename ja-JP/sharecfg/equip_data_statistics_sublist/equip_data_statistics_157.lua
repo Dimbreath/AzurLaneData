@@ -1,53 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_157 = {
-	[21501] = {
-		id = 21501,
-		base = 21500,
+	[23113] = {
+		anti_siren = 300,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23113,
 		weapon_id = {
-			21501
+			23113
 		}
 	},
-	[21502] = {
-		id = 21502,
-		damage = "6 x 2",
-		base = 21500,
-		weapon_id = {
-			21502
-		}
-	},
-	[21503] = {
-		id = 21503,
-		damage = "6 x 2",
-		base = 21500,
-		weapon_id = {
-			21503
-		}
-	},
-	[21520] = {
-		name = "134mm連装高角砲",
+	[23120] = {
+		name = "試作型234mm三連装砲",
 		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 2,
-		value_2 = 5,
-		icon = "21500",
-		attribute_2 = "cannon",
+		type = 3,
+		tech = 0,
 		descrip = "0",
-		rarity = 3,
-		damage = "4 x 2",
+		value_2 = 65,
+		icon = "23120",
+		attribute_2 = "cannon",
+		rarity = 6,
+		damage = "35 x 6",
 		nationality = 2,
-		ammo = 1,
-		value_3 = 7,
-		id = 21520,
+		ammo = 3,
+		value_3 = 0,
+		id = 23120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1103
+				1418
 			}
 		},
 		equip_info = {
@@ -55,11 +40,11 @@ pg.equip_data_statistics_157 = {
 			2,
 			{
 				3,
-				1103
+				1418
 			},
 			{
 				4,
-				1011
+				1222
 			},
 			6,
 			10,
@@ -67,102 +52,153 @@ pg.equip_data_statistics_157 = {
 			12
 		},
 		weapon_id = {
-			21520
+			23120
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
 			3,
-			4,
-			5,
-			8,
-			13,
 			18
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"DD",
+			"CA",
 			"MG",
-			"AP"
+			"CM"
 		}
 	},
-	[21521] = {
-		id = 21521,
-		base = 21520,
+	[23121] = {
+		id = 23121,
+		damage = "36 x 6",
+		base = 23120,
 		weapon_id = {
-			21521
+			23121
 		}
 	},
-	[21522] = {
-		id = 21522,
-		damage = "6 x 2",
-		base = 21520,
+	[23122] = {
+		id = 23122,
+		damage = "38 x 6",
+		base = 23120,
 		weapon_id = {
-			21522
+			23122
 		}
 	},
-	[21523] = {
-		id = 21523,
-		damage = "6 x 2",
-		base = 21520,
+	[23123] = {
+		id = 23123,
+		damage = "40 x 6",
+		base = 23120,
 		weapon_id = {
-			21523
+			23123
 		}
 	},
-	[21524] = {
-		id = 21524,
-		damage = "7 x 2",
-		base = 21520,
+	[23124] = {
+		id = 23124,
+		damage = "42 x 6",
+		base = 23120,
 		weapon_id = {
-			21524
+			23124
 		}
 	},
-	[21525] = {
-		id = 21525,
-		damage = "7 x 2",
-		base = 21520,
+	[23125] = {
+		id = 23125,
+		damage = "44 x 6",
+		base = 23120,
 		weapon_id = {
-			21525
+			23125
 		}
 	},
-	[21526] = {
-		id = 21526,
-		damage = "8 x 2",
-		base = 21520,
+	[23126] = {
+		id = 23126,
+		damage = "46 x 6",
+		base = 23120,
 		weapon_id = {
-			21526
+			23126
 		}
 	},
-	[21540] = {
-		name = "134mm連装高角砲",
+	[23127] = {
+		id = 23127,
+		damage = "48 x 6",
+		base = 23120,
+		weapon_id = {
+			23127
+		}
+	},
+	[23128] = {
+		id = 23128,
+		damage = "50 x 6",
+		base = 23120,
+		weapon_id = {
+			23128
+		}
+	},
+	[23129] = {
+		id = 23129,
+		damage = "52 x 6",
+		base = 23120,
+		weapon_id = {
+			23129
+		}
+	},
+	[23130] = {
+		id = 23130,
+		damage = "54 x 6",
+		base = 23120,
+		weapon_id = {
+			23130
+		}
+	},
+	[23131] = {
+		anti_siren = 100,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23131,
+		weapon_id = {
+			23131
+		}
+	},
+	[23132] = {
+		anti_siren = 200,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23132,
+		weapon_id = {
+			23132
+		}
+	},
+	[23133] = {
+		anti_siren = 300,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23133,
+		weapon_id = {
+			23133
+		}
+	},
+	[23200] = {
+		name = "試作型203mm三連装砲MarkIX",
 		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 3,
-		value_2 = 10,
-		icon = "21500",
-		attribute_2 = "cannon",
+		type = 3,
+		tech = 0,
 		descrip = "0",
-		rarity = 4,
-		damage = "4 x 2",
+		value_2 = 45,
+		icon = "23200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "28 x 6",
 		nationality = 2,
-		ammo = 1,
-		value_3 = 15,
-		id = 21540,
+		ammo = 2,
+		value_3 = 0,
+		id = 23200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		ammo_info = {
 			{
 				1,
-				1103
+				1402
 			}
 		},
 		equip_info = {
@@ -170,11 +206,11 @@ pg.equip_data_statistics_157 = {
 			2,
 			{
 				3,
-				1103
+				1402
 			},
 			{
 				4,
-				1011
+				1214
 			},
 			6,
 			10,
@@ -182,67 +218,28 @@ pg.equip_data_statistics_157 = {
 			12
 		},
 		weapon_id = {
-			21540
+			23200
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
 			3,
-			4,
-			5,
-			8,
-			13,
 			18
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"DD",
+			"CA",
 			"MG",
-			"AP"
+			"HE"
 		}
 	},
-	[21541] = {
-		id = 21541,
-		base = 21540,
+	[23201] = {
+		id = 23201,
+		damage = "30 x 6",
+		base = 23200,
 		weapon_id = {
-			21541
-		}
-	},
-	[21542] = {
-		id = 21542,
-		damage = "7 x 2",
-		base = 21540,
-		weapon_id = {
-			21542
-		}
-	},
-	[21543] = {
-		id = 21543,
-		damage = "7 x 2",
-		base = 21540,
-		weapon_id = {
-			21543
-		}
-	},
-	[21544] = {
-		id = 21544,
-		damage = "8 x 2",
-		base = 21540,
-		weapon_id = {
-			21544
-		}
-	},
-	[21545] = {
-		id = 21545,
-		damage = "8 x 2",
-		base = 21540,
-		weapon_id = {
-			21545
+			23201
 		}
 	}
 }

@@ -1,138 +1,89 @@
 pg = pg or {}
 pg.equip_data_statistics_17 = {
-	[749] = {
-		id = 749,
-		value_1 = "22",
-		base = 740
-	},
-	[750] = {
-		id = 750,
-		value_1 = "24",
-		base = 740
-	},
-	[751] = {
-		id = 751,
-		anti_siren = 100,
-		value_1 = "27",
-		base = 740
-	},
-	[760] = {
-		name = "偵察レポート・NY周辺海域",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 760,
-		value_2 = 50,
-		icon = "760",
-		value_1 = "5",
-		attribute_2 = "durability",
-		rarity = 4,
-		descrip = "ユニオン拠点【NYシティ】周辺海域の偵察レポート。敵のジャミングを受け偵察作戦は途中で中止となったが多くのデータを手に入れた ",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6440
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[761] = {
-		id = 761,
-		value_2 = 55,
-		value_1 = "6",
-		base = 760
-	},
-	[762] = {
-		id = 762,
-		value_2 = 60,
-		value_1 = "7",
-		base = 760
-	},
-	[763] = {
-		id = 763,
-		value_2 = 65,
-		value_1 = "8",
-		base = 760
-	},
-	[764] = {
-		id = 764,
-		value_2 = 70,
-		value_1 = "9",
-		base = 760
-	},
-	[765] = {
-		id = 765,
-		value_2 = 75,
-		value_1 = "10",
-		base = 760
-	},
-	[766] = {
-		id = 766,
-		value_2 = 80,
+	[781] = {
+		id = 781,
+		value_2 = 105,
 		value_1 = "11",
-		base = 760
+		base = 780
 	},
-	[767] = {
-		id = 767,
-		value_2 = 90,
-		value_1 = "12",
-		base = 760
-	},
-	[768] = {
-		id = 768,
-		value_2 = 100,
-		value_1 = "13",
-		base = 760
-	},
-	[769] = {
-		id = 769,
+	[782] = {
+		id = 782,
 		value_2 = 110,
-		value_1 = "14",
-		base = 760
+		value_1 = "12",
+		base = 780
 	},
-	[770] = {
-		id = 770,
+	[783] = {
+		id = 783,
+		value_2 = 115,
+		value_1 = "13",
+		base = 780
+	},
+	[784] = {
+		id = 784,
 		value_2 = 120,
+		value_1 = "14",
+		base = 780
+	},
+	[785] = {
+		id = 785,
+		value_2 = 125,
 		value_1 = "15",
-		base = 760
+		base = 780
 	},
-	[771] = {
-		id = 771,
+	[786] = {
+		id = 786,
+		value_2 = 135,
+		value_1 = "16",
+		base = 780
+	},
+	[787] = {
+		id = 787,
+		value_2 = 150,
+		value_1 = "17",
+		base = 780
+	},
+	[788] = {
+		id = 788,
+		value_2 = 160,
+		value_1 = "18",
+		base = 780
+	},
+	[789] = {
+		id = 789,
+		value_2 = 170,
+		value_1 = "19",
+		base = 780
+	},
+	[790] = {
+		id = 790,
+		value_2 = 180,
+		value_1 = "20",
+		base = 780
+	},
+	[791] = {
+		id = 791,
 		anti_siren = 100,
-		base = 760,
-		value_2 = 130,
-		value_1 = "16"
+		base = 780,
+		value_2 = 190,
+		value_1 = "21"
 	},
-	[780] = {
-		name = "情報レポート・北極要塞",
-		tech = 0,
+	[800] = {
+		name = "強化耐圧殻設計案",
+		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 780,
-		value_2 = 100,
-		icon = "780",
-		value_1 = "10",
+		attribute_3 = "raid_distance",
+		id = 800,
+		value_2 = 40,
+		icon = "800",
+		value_1 = "15",
 		attribute_2 = "durability",
 		rarity = 4,
-		descrip = "極秘情報・北方連合の領域内に位置するセイレーン要塞の分析レポート。",
-		nationality = 0,
+		nationality = 4,
+		descrip = "再設計された耐圧殻によって船体強度が強化し、速力と最大航続距離が向上した",
 		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "cannon",
+		value_3 = -8,
+		attribute_1 = "torpedo",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -142,13 +93,50 @@ pg.equip_data_statistics_17 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6440
+			6560
 		},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
+	},
+	[801] = {
+		id = 801,
+		value_2 = 45,
+		value_1 = "17",
+		base = 800
+	},
+	[802] = {
+		id = 802,
+		value_2 = 50,
+		value_1 = "19",
+		base = 800
+	},
+	[803] = {
+		id = 803,
+		value_2 = 55,
+		value_1 = "21",
+		base = 800
+	},
+	[804] = {
+		id = 804,
+		value_2 = 60,
+		value_1 = "23",
+		base = 800
+	},
+	[805] = {
+		id = 805,
+		value_2 = 65,
+		value_1 = "25",
+		base = 800
 	}
 }

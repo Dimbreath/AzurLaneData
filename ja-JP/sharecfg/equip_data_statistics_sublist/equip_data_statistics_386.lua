@@ -1,130 +1,186 @@
 pg = pg or {}
 pg.equip_data_statistics_386 = {
-	[89145] = {
-		id = 89145,
-		value_2 = 20,
-		value_1 = "24",
-		base = 89140
+	[91004] = {
+		id = 91004,
+		damage = "92 x 3",
+		base = 91000,
+		weapon_id = {
+			91004
+		}
 	},
-	[89146] = {
-		id = 89146,
-		value_2 = 22,
-		value_1 = "26",
-		base = 89140
+	[91005] = {
+		id = 91005,
+		damage = "102 x 3",
+		base = 91000,
+		weapon_id = {
+			91005
+		}
 	},
-	[89147] = {
-		id = 89147,
-		value_2 = 24,
-		value_1 = "28",
-		base = 89140
+	[91006] = {
+		id = 91006,
+		damage = "112 x 3",
+		base = 91000,
+		weapon_id = {
+			91006
+		}
 	},
-	[89148] = {
-		id = 89148,
-		value_2 = 26,
-		value_1 = "30",
-		base = 89140
+	[91007] = {
+		id = 91007,
+		damage = "120 x 3",
+		base = 91000,
+		weapon_id = {
+			91007
+		}
 	},
-	[89149] = {
-		id = 89149,
-		value_2 = 28,
-		value_1 = "32",
-		base = 89140
+	[91008] = {
+		id = 91008,
+		damage = "130 x 3",
+		base = 91000,
+		weapon_id = {
+			91008
+		}
 	},
-	[89150] = {
-		id = 89150,
-		value_2 = 30,
-		value_1 = "35",
-		base = 89140
+	[91009] = {
+		id = 91009,
+		damage = "140 x 3",
+		base = 91000,
+		weapon_id = {
+			91009
+		}
 	},
-	[89151] = {
-		id = 89151,
+	[91010] = {
+		id = 91010,
+		damage = "150 x 3",
+		base = 91000,
+		weapon_id = {
+			91010
+		}
+	},
+	[91011] = {
 		anti_siren = 100,
-		base = 89140,
-		value_2 = 32,
-		value_1 = "38"
+		damage = "150 x 3",
+		base = 91000,
+		id = 91011,
+		weapon_id = {
+			91011
+		}
 	},
-	[89152] = {
-		id = 89152,
+	[91012] = {
 		anti_siren = 200,
-		base = 89140,
-		value_2 = 34,
-		value_1 = "41"
+		damage = "150 x 3",
+		base = 91000,
+		id = 91012,
+		weapon_id = {
+			91012
+		}
 	},
-	[89153] = {
-		id = 89153,
+	[91013] = {
 		anti_siren = 300,
-		base = 89140,
-		value_2 = 36,
-		value_1 = "44"
+		damage = "150 x 3",
+		base = 91000,
+		id = 91013,
+		weapon_id = {
+			91013
+		}
 	},
-	[89160] = {
-		name = "神聖なるリュミエール",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89160,
-		value_2 = 15,
-		icon = "89160",
-		value_1 = "14",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "「罪のヒトよ、アイリスの救いの歌に身を、心を清めよ」",
-		nationality = 0,
-		ammo = 10,
+	[95000] = {
+		name = "381mm三連装砲Model1934",
+		speciality = "投射",
+		type = 4,
+		tech = 1,
+		descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+		value_2 = 12,
+		icon = "55000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "42 x 3",
+		nationality = 6,
+		ammo = 3,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 95000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1560
+			}
+		},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
 		},
-		weapon_id = {},
-		skill_id = {
-			6711
+		weapon_id = {
+			95000
 		},
-		part_main = {},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"RN",
+			"BB",
+			"MG"
 		}
 	},
-	[89161] = {
-		id = 89161,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89160
+	[95001] = {
+		id = 95001,
+		damage = "50 x 3",
+		base = 95000,
+		weapon_id = {
+			95001
+		}
 	},
-	[89162] = {
-		id = 89162,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89160
+	[95002] = {
+		id = 95002,
+		damage = "58 x 3",
+		base = 95000,
+		weapon_id = {
+			95002
+		}
 	},
-	[89163] = {
-		id = 89163,
-		value_2 = 18,
-		value_1 = "20",
-		base = 89160
+	[95003] = {
+		id = 95003,
+		damage = "66 x 3",
+		base = 95000,
+		weapon_id = {
+			95003
+		}
 	},
-	[89164] = {
-		id = 89164,
-		value_2 = 19,
-		value_1 = "22",
-		base = 89160
+	[95004] = {
+		id = 95004,
+		damage = "74 x 3",
+		base = 95000,
+		weapon_id = {
+			95004
+		}
 	},
-	[89165] = {
-		id = 89165,
-		value_2 = 20,
-		value_1 = "24",
-		base = 89160
+	[95005] = {
+		id = 95005,
+		damage = "82 x 3",
+		base = 95000,
+		weapon_id = {
+			95005
+		}
 	},
-	[89166] = {
-		id = 89166,
-		value_2 = 22,
-		value_1 = "26",
-		base = 89160
+	[95006] = {
+		id = 95006,
+		damage = "90 x 3",
+		base = 95000,
+		weapon_id = {
+			95006
+		}
 	}
 }

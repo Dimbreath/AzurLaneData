@@ -1,21 +1,110 @@
 pg = pg or {}
 pg.equip_data_statistics_35 = {
-	[1520] = {
-		name = "SGレーダー",
+	[1641] = {
+		id = 1641,
+		value_1 = "10",
+		base = 1640
+	},
+	[1642] = {
+		id = 1642,
+		value_1 = "11",
+		base = 1640
+	},
+	[1643] = {
+		id = 1643,
+		value_2 = 4,
+		value_1 = "12",
+		base = 1640
+	},
+	[1644] = {
+		id = 1644,
+		value_2 = 4,
+		value_1 = "13",
+		base = 1640
+	},
+	[1645] = {
+		id = 1645,
+		value_2 = 5,
+		value_1 = "15",
+		base = 1640
+	},
+	[1646] = {
+		id = 1646,
+		value_2 = 5,
+		value_1 = "17",
+		base = 1640
+	},
+	[1647] = {
+		id = 1647,
+		value_2 = 6,
+		value_1 = "19",
+		base = 1640
+	},
+	[1700] = {
+		name = "油圧舵",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		id = 1700,
+		value_2 = 14,
+		icon = "1700",
+		value_1 = "2",
+		attribute_2 = "durability",
+		rarity = 1,
+		descrip = "操艦用の舵。回避能力を上げることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1701] = {
+		id = 1701,
+		value_2 = 16,
+		base = 1700
+	},
+	[1702] = {
+		id = 1702,
+		value_2 = 18,
+		value_1 = "3",
+		base = 1700
+	},
+	[1703] = {
+		id = 1703,
+		value_2 = 20,
+		value_1 = "3",
+		base = 1700
+	},
+	[1720] = {
+		name = "油圧舵",
 		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 1520,
-		value_2 = 4,
-		icon = "1500",
-		value_1 = "9",
-		attribute_2 = "dodge",
-		rarity = 4,
-		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
-		nationality = 1,
+		id = 1720,
+		value_2 = 16,
+		icon = "1700",
+		value_1 = "5",
+		attribute_2 = "durability",
+		rarity = 2,
+		descrip = "操艦用の舵。回避能力を上げることができる",
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -24,124 +113,47 @@ pg.equip_data_statistics_35 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6050
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {
-			avoid_extra = 800,
-			ambush_extra = 800
-		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
 		label = {
-			"USS",
-			"DEV",
-			"SG"
+			"DEV"
 		}
 	},
-	[1521] = {
-		id = 1521,
-		value_1 = "11",
-		base = 1520
+	[1721] = {
+		id = 1721,
+		value_2 = 19,
+		base = 1720
 	},
-	[1522] = {
-		id = 1522,
-		value_2 = 5,
-		value_1 = "12",
-		base = 1520
+	[1722] = {
+		id = 1722,
+		value_2 = 22,
+		value_1 = "6",
+		base = 1720
 	},
-	[1523] = {
-		id = 1523,
-		value_2 = 6,
-		value_1 = "14",
-		base = 1520
+	[1723] = {
+		id = 1723,
+		value_2 = 25,
+		value_1 = "7",
+		base = 1720
 	},
-	[1524] = {
-		id = 1524,
-		value_2 = 6,
-		value_1 = "15",
-		base = 1520
-	},
-	[1525] = {
-		id = 1525,
-		value_2 = 7,
-		value_1 = "17",
-		base = 1520
-	},
-	[1526] = {
-		id = 1526,
-		value_2 = 7,
-		value_1 = "18",
-		base = 1520
-	},
-	[1527] = {
-		id = 1527,
-		value_2 = 8,
-		value_1 = "20",
-		base = 1520
-	},
-	[1528] = {
-		id = 1528,
-		value_2 = 9,
-		value_1 = "21",
-		base = 1520
-	},
-	[1529] = {
-		id = 1529,
-		value_2 = 9,
-		value_1 = "23",
-		base = 1520
-	},
-	[1530] = {
-		id = 1530,
-		value_2 = 10,
-		value_1 = "24",
-		base = 1520
-	},
-	[1540] = {
-		name = "SGレーダー",
+	[1740] = {
+		name = "油圧舵",
 		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 1540,
-		value_2 = 6,
-		icon = "1500",
-		value_1 = "14",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
-		nationality = 1,
+		id = 1740,
+		value_2 = 20,
+		icon = "1700",
+		value_1 = "9",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "操艦用の舵。回避能力を上げることができる",
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -150,70 +162,18 @@ pg.equip_data_statistics_35 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6060
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {
-			avoid_extra = 1200,
-			ambush_extra = 1200
-		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
 		label = {
-			"USS",
-			"DEV",
-			"SG"
+			"DEV"
 		}
 	},
-	[1541] = {
-		id = 1541,
-		value_1 = "16",
-		base = 1540
-	},
-	[1542] = {
-		id = 1542,
-		value_2 = 7,
-		value_1 = "18",
-		base = 1540
-	},
-	[1543] = {
-		id = 1543,
-		value_2 = 8,
-		value_1 = "20",
-		base = 1540
-	},
-	[1544] = {
-		id = 1544,
-		value_2 = 9,
-		value_1 = "22",
-		base = 1540
+	[1741] = {
+		id = 1741,
+		value_2 = 24,
+		value_1 = "10",
+		base = 1740
 	}
 }

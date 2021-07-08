@@ -1,29 +1,36 @@
 pg = pg or {}
 pg.equip_data_statistics_40 = {
-	[1825] = {
-		id = 1825,
-		value_2 = 3,
-		value_1 = "110",
-		base = 1820
+	[1969] = {
+		id = 1969,
+		value_2 = 90,
+		value_1 = "17",
+		base = 1960
 	},
-	[1826] = {
-		id = 1826,
-		value_2 = 4,
-		value_1 = "119",
-		base = 1820
+	[1970] = {
+		id = 1970,
+		value_2 = 100,
+		value_1 = "18",
+		base = 1960
 	},
-	[1840] = {
-		name = "改良型缶",
-		tech = 3,
+	[1971] = {
+		id = 1971,
+		anti_siren = 100,
+		base = 1960,
+		value_2 = 110,
+		value_1 = "19"
+	},
+	[2000] = {
+		name = "燃料フィルター",
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 1840,
-		value_2 = 3,
-		icon = "1800",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 4,
-		descrip = "改良されたボイラー。速力と耐久を上げることができる",
+		id = 2000,
+		value_2 = 2,
+		icon = "2000",
+		value_1 = "50",
+		attribute_2 = "dodge",
+		rarity = 2,
+		descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
@@ -44,88 +51,37 @@ pg.equip_data_statistics_40 = {
 			"DEV"
 		}
 	},
-	[1841] = {
-		id = 1841,
-		value_1 = "112",
-		base = 1840
+	[2001] = {
+		id = 2001,
+		value_1 = "57",
+		base = 2000
 	},
-	[1842] = {
-		id = 1842,
-		value_2 = 4,
-		value_1 = "127",
-		base = 1840
+	[2002] = {
+		id = 2002,
+		value_1 = "65",
+		base = 2000
 	},
-	[1843] = {
-		id = 1843,
-		value_2 = 4,
-		value_1 = "142",
-		base = 1840
+	[2003] = {
+		id = 2003,
+		value_1 = "72",
+		base = 2000
 	},
-	[1844] = {
-		id = 1844,
-		value_2 = 5,
-		value_1 = "156",
-		base = 1840
-	},
-	[1845] = {
-		id = 1845,
-		value_2 = 5,
-		value_1 = "171",
-		base = 1840
-	},
-	[1846] = {
-		id = 1846,
-		value_2 = 6,
-		value_1 = "186",
-		base = 1840
-	},
-	[1847] = {
-		id = 1847,
-		value_2 = 6,
-		value_1 = "200",
-		base = 1840
-	},
-	[1848] = {
-		id = 1848,
-		value_2 = 7,
-		value_1 = "215",
-		base = 1840
-	},
-	[1849] = {
-		id = 1849,
-		value_2 = 7,
-		value_1 = "230",
-		base = 1840
-	},
-	[1850] = {
-		id = 1850,
-		value_2 = 8,
-		value_1 = "245",
-		base = 1840
-	},
-	[1851] = {
-		id = 1851,
-		anti_siren = 100,
-		base = 1840,
-		value_2 = 8,
-		value_1 = "260"
-	},
-	[1900] = {
-		name = "迷彩塗装",
-		tech = 1,
+	[2020] = {
+		name = "燃料フィルター",
+		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 1900,
-		value_2 = 14,
-		icon = "1900",
-		value_1 = "2",
-		attribute_2 = "durability",
-		rarity = 1,
-		descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
+		id = 2020,
+		value_2 = 2,
+		icon = "2000",
+		value_1 = "90",
+		attribute_2 = "dodge",
+		rarity = 3,
+		descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		attribute_1 = "durability",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -142,9 +98,79 @@ pg.equip_data_statistics_40 = {
 			"DEV"
 		}
 	},
-	[1901] = {
-		id = 1901,
-		value_2 = 16,
-		base = 1900
+	[2021] = {
+		id = 2021,
+		value_1 = "103",
+		base = 2020
+	},
+	[2022] = {
+		id = 2022,
+		value_1 = "117",
+		base = 2020
+	},
+	[2023] = {
+		id = 2023,
+		value_1 = "130",
+		base = 2020
+	},
+	[2024] = {
+		id = 2024,
+		value_2 = 3,
+		value_1 = "144",
+		base = 2020
+	},
+	[2025] = {
+		id = 2025,
+		value_2 = 3,
+		value_1 = "157",
+		base = 2020
+	},
+	[2026] = {
+		id = 2026,
+		value_2 = 3,
+		value_1 = "171",
+		base = 2020
+	},
+	[2040] = {
+		name = "燃料フィルター",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 2040,
+		value_2 = 2,
+		icon = "2000",
+		value_1 = "140",
+		attribute_2 = "dodge",
+		rarity = 4,
+		descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2041] = {
+		id = 2041,
+		value_1 = "161",
+		base = 2040
+	},
+	[2042] = {
+		id = 2042,
+		value_1 = "182",
+		base = 2040
 	}
 }

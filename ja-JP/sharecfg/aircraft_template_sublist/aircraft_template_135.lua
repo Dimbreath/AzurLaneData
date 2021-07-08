@@ -1,116 +1,58 @@
 pg = pg or {}
 pg.aircraft_template_135 = {
-	[65062] = {
-		max_hp = 47,
-		name = "普林斯顿技能鱼雷机Lv2",
-		base = 65061,
-		id = 65062,
-		hp_growth = 1826,
+	[48051] = {
+		id = 48051,
+		base = 48040,
+		max_hp = 101,
+		hp_growth = 3867,
 		weapon_ID = {
-			65072
+			59351,
+			59711
 		}
 	},
-	[65063] = {
-		max_hp = 53,
-		name = "普林斯顿技能鱼雷机Lv3",
-		base = 65061,
-		id = 65063,
-		hp_growth = 2036,
+	[48052] = {
+		id = 48052,
+		base = 48040,
+		max_hp = 106,
+		hp_growth = 4086,
 		weapon_ID = {
-			65073
+			59352,
+			59712
 		}
 	},
-	[65064] = {
-		max_hp = 58,
-		name = "普林斯顿技能鱼雷机Lv4",
-		base = 65061,
-		id = 65064,
-		hp_growth = 2247,
+	[48053] = {
+		id = 48053,
+		base = 48040,
+		max_hp = 112,
+		hp_growth = 4305,
 		weapon_ID = {
-			65074
+			59353,
+			59713
 		}
 	},
-	[65065] = {
-		max_hp = 64,
-		name = "普林斯顿技能鱼雷机Lv5",
-		base = 65061,
-		id = 65065,
-		hp_growth = 2458,
-		weapon_ID = {
-			65075
-		}
-	},
-	[65066] = {
-		max_hp = 69,
-		name = "普林斯顿技能鱼雷机Lv6",
-		base = 65061,
-		id = 65066,
-		hp_growth = 2669,
-		weapon_ID = {
-			65076
-		}
-	},
-	[65067] = {
-		max_hp = 75,
-		name = "普林斯顿技能鱼雷机Lv7",
-		base = 65061,
-		id = 65067,
-		hp_growth = 2879,
-		weapon_ID = {
-			65077
-		}
-	},
-	[65068] = {
-		max_hp = 80,
-		name = "普林斯顿技能鱼雷机Lv8",
-		base = 65061,
-		id = 65068,
-		hp_growth = 3090,
-		weapon_ID = {
-			65078
-		}
-	},
-	[65069] = {
-		max_hp = 86,
-		name = "普林斯顿技能鱼雷机Lv9",
-		base = 65061,
-		id = 65069,
-		hp_growth = 3301,
-		weapon_ID = {
-			65079
-		}
-	},
-	[65070] = {
-		max_hp = 91,
-		name = "普林斯顿技能鱼雷机Lv10",
-		base = 65061,
-		id = 65070,
-		hp_growth = 3511,
-		weapon_ID = {
-			65080
-		}
-	},
-	[65121] = {
-		name = "恶毒μ神圣天使轰炸机Lv1",
-		max_hp = 42,
+	[49000] = {
+		name = "Ju-87C俯冲轰炸机T1",
+		max_hp = 33,
 		accuracy = 23,
-		model_ID = "feiji_shenshengtianshi",
+		model_ID = "JU87C",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 112,
+		dodge = 3.57,
 		attack_power = 2,
-		dodge_limit = 0,
+		dodge_limit = 0.8,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_shenshengtianshi",
+		icon = "JU87C",
 		funnel_behavior = "",
-		nationality = 9,
-		hp_growth = 1692,
-		speed = 48,
-		id = 65121,
+		nationality = 4,
+		hp_growth = 1267,
+		speed = 46,
+		id = 49000,
 		scale = 1,
 		weapon_ID = {
-			65131
+			59300,
+			52600,
+			53000
 		},
 		position_offset = {
 			0,
@@ -130,13 +72,13 @@ pg.aircraft_template_135 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -153,7 +95,7 @@ pg.aircraft_template_135 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -162,6 +104,137 @@ pg.aircraft_template_135 = {
 				0,
 				0
 			}
+		}
+	},
+	[49001] = {
+		id = 49001,
+		base = 49000,
+		max_hp = 38,
+		hp_growth = 1457,
+		weapon_ID = {
+			59301,
+			52601,
+			53001
+		}
+	},
+	[49002] = {
+		id = 49002,
+		base = 49000,
+		max_hp = 43,
+		hp_growth = 1647,
+		weapon_ID = {
+			59302,
+			52602,
+			53002
+		}
+	},
+	[49003] = {
+		id = 49003,
+		base = 49000,
+		max_hp = 48,
+		hp_growth = 1837,
+		weapon_ID = {
+			59303,
+			52603,
+			53003
+		}
+	},
+	[49020] = {
+		name = "Ju-87C俯冲轰炸机T2",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 112,
+		dodge = 3.45,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1408,
+		speed = 46,
+		id = 49020,
+		scale = 1,
+		weapon_ID = {
+			59320,
+			52620,
+			53020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[49021] = {
+		id = 49021,
+		base = 49020,
+		max_hp = 42,
+		hp_growth = 1619,
+		weapon_ID = {
+			59321,
+			52621,
+			53021
+		}
+	},
+	[49022] = {
+		id = 49022,
+		base = 49020,
+		max_hp = 48,
+		hp_growth = 1830,
+		weapon_ID = {
+			59322,
+			52622,
+			53022
 		}
 	}
 }

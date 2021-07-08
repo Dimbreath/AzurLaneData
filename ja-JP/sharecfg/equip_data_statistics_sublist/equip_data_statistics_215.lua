@@ -1,380 +1,293 @@
 pg = pg or {}
 pg.equip_data_statistics_215 = {
-	[29003] = {
-		id = 29003,
-		base = 29000,
-		ammo_info = {
-			{
-				6,
-				50103
-			},
-			{
-				5,
-				52203
-			}
-		},
+	[32063] = {
+		id = 32063,
+		damage = "12 x 3",
+		base = 32060,
 		weapon_id = {
-			29003
+			32063
 		}
 	},
-	[29020] = {
-		name = "スクア",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "29000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50120
-			},
-			{
-				5,
-				52220
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+	[32064] = {
+		id = 32064,
+		damage = "14 x 3",
+		base = 32060,
 		weapon_id = {
-			29020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
+			32064
 		}
 	},
-	[29021] = {
-		id = 29021,
-		base = 29020,
-		ammo_info = {
-			{
-				6,
-				50121
-			},
-			{
-				5,
-				52221
-			}
-		},
+	[32065] = {
+		id = 32065,
+		damage = "15 x 3",
+		base = 32060,
 		weapon_id = {
-			29021
+			32065
 		}
 	},
-	[29022] = {
-		id = 29022,
-		base = 29020,
-		ammo_info = {
-			{
-				6,
-				50122
-			},
-			{
-				5,
-				52222
-			}
-		},
+	[32066] = {
+		id = 32066,
+		damage = "16 x 3",
+		base = 32060,
 		weapon_id = {
-			29022
+			32066
 		}
 	},
-	[29023] = {
-		id = 29023,
-		base = 29020,
-		ammo_info = {
-			{
-				6,
-				50123
-			},
-			{
-				5,
-				52223
-			}
-		},
+	[32067] = {
+		id = 32067,
+		damage = "16 x 3",
+		base = 32060,
 		weapon_id = {
-			29023
+			32067
 		}
 	},
-	[29040] = {
-		name = "スクア",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "29000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50140
-			},
-			{
-				5,
-				52240
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			29040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
-		}
-	},
-	[29041] = {
-		id = 29041,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50141
-			},
-			{
-				5,
-				52241
-			}
-		},
-		weapon_id = {
-			29041
-		}
-	},
-	[29042] = {
-		id = 29042,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50142
-			},
-			{
-				5,
-				52242
-			}
-		},
-		weapon_id = {
-			29042
-		}
-	},
-	[29043] = {
-		id = 29043,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50143
-			},
-			{
-				5,
-				52243
-			}
-		},
-		weapon_id = {
-			29043
-		}
-	},
-	[29044] = {
-		id = 29044,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50144
-			},
-			{
-				5,
-				52244
-			}
-		},
-		weapon_id = {
-			29044
-		}
-	},
-	[29045] = {
-		id = 29045,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50145
-			},
-			{
-				5,
-				52245
-			}
-		},
-		weapon_id = {
-			29045
-		}
-	},
-	[29046] = {
-		id = 29046,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50146
-			},
-			{
-				5,
-				52246
-			}
-		},
-		weapon_id = {
-			29046
-		}
-	},
-	[29047] = {
-		id = 29047,
-		base = 29040,
-		ammo_info = {
-			{
-				6,
-				50147
-			},
-			{
-				5,
-				52247
-			}
-		},
-		weapon_id = {
-			29047
-		}
-	},
-	[29100] = {
-		name = "フルマー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
+	[32100] = {
+		name = "140mm連装砲",
+		speciality = "拡散",
+		type = 2,
 		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "29100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
+		icon = "32100",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "5 x 4",
+		nationality = 3,
+		ammo = 3,
 		value_3 = 0,
-		id = 29100,
+		id = 32100,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50200
-			},
-			{
-				5,
-				52100
+				1,
+				1201
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1201
+			},
+			{
+				4,
+				1101
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			29100
+			32100
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			2
 		},
 		part_sub = {
-			6,
-			7
+			5
 		},
 		equip_parameters = {},
 		label = {
-			"HMS",
-			"CV",
-			"DB"
+			"IJN",
+			"CL",
+			"MG"
 		}
 	},
-	[29101] = {
-		id = 29101,
-		base = 29100,
-		ammo_info = {
-			{
-				6,
-				50201
-			},
-			{
-				5,
-				52101
-			}
-		},
+	[32101] = {
+		id = 32101,
+		damage = "6 x 4",
+		base = 32100,
 		weapon_id = {
-			29101
+			32101
 		}
 	},
-	[29102] = {
-		id = 29102,
-		base = 29100,
+	[32102] = {
+		id = 32102,
+		damage = "7 x 4",
+		base = 32100,
+		weapon_id = {
+			32102
+		}
+	},
+	[32103] = {
+		id = 32103,
+		damage = "8 x 4",
+		base = 32100,
+		weapon_id = {
+			32103
+		}
+	},
+	[32120] = {
+		name = "140mm連装砲",
+		speciality = "拡散",
+		type = 2,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "32100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "6 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 32120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50202
-			},
-			{
-				5,
-				52102
+				1,
+				1207
 			}
 		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			29102
+			32120
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
+	},
+	[32121] = {
+		id = 32121,
+		damage = "7 x 4",
+		base = 32120,
+		weapon_id = {
+			32121
+		}
+	},
+	[32122] = {
+		id = 32122,
+		damage = "8 x 4",
+		base = 32120,
+		weapon_id = {
+			32122
+		}
+	},
+	[32123] = {
+		id = 32123,
+		damage = "9 x 4",
+		base = 32120,
+		weapon_id = {
+			32123
+		}
+	},
+	[32124] = {
+		id = 32124,
+		damage = "10 x 4",
+		base = 32120,
+		weapon_id = {
+			32124
+		}
+	},
+	[32125] = {
+		id = 32125,
+		damage = "11 x 4",
+		base = 32120,
+		weapon_id = {
+			32125
+		}
+	},
+	[32126] = {
+		id = 32126,
+		damage = "12 x 4",
+		base = 32120,
+		weapon_id = {
+			32126
+		}
+	},
+	[32140] = {
+		name = "140mm連装砲",
+		speciality = "拡散",
+		type = 2,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "32100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "7 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 32140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1207
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			32140
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
 		}
 	}
 }

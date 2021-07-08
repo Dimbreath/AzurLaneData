@@ -1,118 +1,262 @@
 pg = pg or {}
 pg.equip_data_statistics_62 = {
-	[3404] = {
-		id = 3404,
-		value_1 = "570",
-		base = 3400
+	[4047] = {
+		id = 4047,
+		damage = "37 x 3",
+		base = 4040,
+		weapon_id = {
+			4047
+		}
 	},
-	[3405] = {
-		id = 3405,
-		value_1 = "600",
-		base = 3400
-	},
-	[3406] = {
-		id = 3406,
-		value_1 = "630",
-		base = 3400
-	},
-	[3407] = {
-		id = 3407,
-		value_1 = "660",
-		base = 3400
-	},
-	[3408] = {
-		id = 3408,
-		value_1 = "690",
-		base = 3400
-	},
-	[3409] = {
-		id = 3409,
-		value_1 = "720",
-		base = 3400
-	},
-	[3410] = {
-		id = 3410,
-		value_1 = "750",
-		base = 3400
-	},
-	[3411] = {
-		id = 3411,
-		anti_siren = 100,
-		value_1 = "780",
-		base = 3400
-	},
-	[3412] = {
-		id = 3412,
-		anti_siren = 200,
-		value_1 = "810",
-		base = 3400
-	},
-	[3413] = {
-		id = 3413,
-		anti_siren = 300,
-		value_1 = "840",
-		base = 3400
-	},
-	[3500] = {
-		name = "航空戦資材(積載)",
-		tech = 0,
-		type = 18,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "3500",
-		value_1 = "250",
-		descrip = "航空戦用の各種資材",
-		rarity = 4,
-		nationality = 0,
-		ammo = 10,
+	[4100] = {
+		name = "改良型爆雷投射機",
+		speciality = "対潜",
+		type = 14,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "4100",
+		attribute_2 = "antisub",
+		rarity = 2,
+		damage = "20 x 3",
+		nationality = 1,
+		ammo = 8,
 		value_3 = 0,
-		id = 3500,
+		id = 4100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				7,
+				1812
+			}
+		},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
 		},
-		weapon_id = {},
-		skill_id = {
-			6660
+		weapon_id = {
+			4100
 		},
+		skill_id = {},
 		part_main = {
-			19
+			1,
+			2
 		},
 		part_sub = {
-			19
+			1,
+			2
 		},
 		equip_parameters = {},
 		label = {
-			"GDS"
+			"DC"
 		}
 	},
-	[3501] = {
-		id = 3501,
-		value_1 = "280",
-		base = 3500
+	[4101] = {
+		id = 4101,
+		damage = "22 x 3",
+		base = 4100,
+		weapon_id = {
+			4101
+		}
 	},
-	[3502] = {
-		id = 3502,
-		value_1 = "310",
-		base = 3500
+	[4102] = {
+		id = 4102,
+		damage = "24 x 3",
+		base = 4100,
+		weapon_id = {
+			4102
+		}
 	},
-	[3503] = {
-		id = 3503,
-		value_1 = "340",
-		base = 3500
+	[4103] = {
+		id = 4103,
+		damage = "26 x 3",
+		base = 4100,
+		weapon_id = {
+			4103
+		}
 	},
-	[3504] = {
-		id = 3504,
-		value_1 = "370",
-		base = 3500
+	[4120] = {
+		name = "改良型爆雷投射機",
+		speciality = "対潜",
+		type = 14,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "4100",
+		attribute_2 = "antisub",
+		rarity = 3,
+		damage = "24 x 3",
+		nationality = 1,
+		ammo = 8,
+		value_3 = 0,
+		id = 4120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				7,
+				1812
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			4120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
-	[3505] = {
-		id = 3505,
-		value_1 = "400",
-		base = 3500
+	[4121] = {
+		id = 4121,
+		damage = "26 x 3",
+		base = 4120,
+		weapon_id = {
+			4121
+		}
+	},
+	[4122] = {
+		id = 4122,
+		damage = "28 x 3",
+		base = 4120,
+		weapon_id = {
+			4122
+		}
+	},
+	[4123] = {
+		id = 4123,
+		damage = "30 x 3",
+		base = 4120,
+		weapon_id = {
+			4123
+		}
+	},
+	[4124] = {
+		id = 4124,
+		damage = "33 x 3",
+		base = 4120,
+		weapon_id = {
+			4124
+		}
+	},
+	[4125] = {
+		id = 4125,
+		damage = "36 x 3",
+		base = 4120,
+		weapon_id = {
+			4125
+		}
+	},
+	[4126] = {
+		id = 4126,
+		damage = "39 x 3",
+		base = 4120,
+		weapon_id = {
+			4126
+		}
+	},
+	[4140] = {
+		name = "改良型爆雷投射機",
+		speciality = "対潜",
+		type = 14,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "4100",
+		attribute_2 = "antisub",
+		rarity = 4,
+		damage = "27 x 3",
+		nationality = 1,
+		ammo = 8,
+		value_3 = 0,
+		id = 4140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				7,
+				1812
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			4140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
+	},
+	[4141] = {
+		id = 4141,
+		damage = "30 x 3",
+		base = 4140,
+		weapon_id = {
+			4141
+		}
+	},
+	[4142] = {
+		id = 4142,
+		damage = "33 x 3",
+		base = 4140,
+		weapon_id = {
+			4142
+		}
+	},
+	[4143] = {
+		id = 4143,
+		damage = "36 x 3",
+		base = 4140,
+		weapon_id = {
+			4143
+		}
+	},
+	[4144] = {
+		id = 4144,
+		damage = "39 x 3",
+		base = 4140,
+		weapon_id = {
+			4144
+		}
 	}
 }

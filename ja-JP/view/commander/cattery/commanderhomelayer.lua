@@ -38,16 +38,22 @@ function slot0.OnCatteryStyleUpdate(slot0, slot1)
 	end
 end
 
-function slot0.OnCommanderExpChange(slot0)
-	for slot4, slot5 in pairs(slot0.cards) do
-		if slot5.cattery:ExistCommander() then
-			slot5:Update(slot6)
+function slot0.OnCommanderExpChange(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.cards) do
+		if slot6.cattery:ExistCommander() then
+			slot6:Update(slot7)
 		end
 	end
 
 	if slot0.catteryDescPage:GetLoaded() and slot0.catteryDescPage:isShowing() then
 		slot0.catteryDescPage:FlushCatteryInfo()
 	end
+
+	slot0.awardDisplayView:ExecuteAction("AddPlan", {
+		homeExp = 0,
+		commanderExps = slot1,
+		awards = {}
+	})
 end
 
 function slot0.OnCatteryOPDone(slot0)
@@ -58,7 +64,7 @@ function slot0.OnZeroHour(slot0)
 	slot0:UpdateMain()
 end
 
-function slot0.OnOpAnimtion(slot0, slot1, slot2)
+function slot0.OnOpAnimtion(slot0, slot1, slot2, slot3)
 	setActive(slot0.opAnim.gameObject, true)
 
 	if not ({
@@ -66,7 +72,7 @@ function slot0.OnOpAnimtion(slot0, slot1, slot2)
 		"feed",
 		"play"
 	})[slot1] then
-		slot2()
+		slot3()
 
 		return
 	end
@@ -77,21 +83,21 @@ function slot0.OnOpAnimtion(slot0, slot1, slot2)
 		slot0.timer = nil
 	end
 
-	slot8 = 1
+	slot9 = 1
 	slot0.timer = Timer.New(function ()
 		uv0:CancelOpAnim()
-	end, 1, slot8)
+	end, 0.8, slot9)
 
 	slot0.timer:Start()
-	slot0.opAnim:SetTrigger(slot4)
+	slot0.opAnim:SetTrigger(slot5)
 
-	for slot8, slot9 in pairs(slot0.cards) do
-		if slot9.cattery:ExistCommander() then
-			floatAni(slot9.char, 20, 0.1, 2)
+	for slot9, slot10 in pairs(slot0.cards) do
+		if table.contains(slot2, slot10.cattery.id) then
+			floatAni(slot10.char, 20, 0.1, 2)
 		end
 	end
 
-	slot0.callback = slot2
+	slot0.callback = slot3
 end
 
 function slot0.CancelOpAnim(slot0)
@@ -110,21 +116,23 @@ function slot0.CancelOpAnim(slot0)
 end
 
 function slot0.OnDisplayAwardDone(slot0, slot1)
-	slot0.awardDisplayView:AddPlan(slot1)
+	slot0.awardDisplayView:ExecuteAction("AddPlan", slot1)
 end
 
 function slot0.init(slot0)
 	slot0.closeBtn = slot0:findTF("bg/frame/close_btn")
-	slot0.helpBtn = slot0:findTF("bg/frame/title/help")
+	slot0.levelInfoBtn = slot0:findTF("bg/frame/title/help")
 	slot0.levelTxt = slot0:findTF("bg/frame/title/Text"):GetComponent(typeof(Text))
 	slot0.scrollRect = slot0:findTF("bg/frame/scrollrect"):GetComponent("ScrollRect")
 	slot0.scrollRectContent = slot0:findTF("bg/frame/scrollrect/content")
 	slot0.opAnim = slot0:findTF("animation"):GetComponent(typeof(Animator))
 	slot0.UIlist = UIItemList.New(slot0.scrollRectContent, slot0.scrollRectContent:Find("tpl"))
+	slot0.helpBtn = slot0:findTF("bg/frame/help")
+	slot0.cntTxt = slot0:findTF("bg/frame/cnt/Text"):GetComponent(typeof(Text))
 	slot0.cards = {}
 	slot0.catteryDescPage = CatteryDescPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.levelInfoPage = CommanderHomeLevelInfoPage.New(slot0._tf, slot0.event, slot0.contextData)
-	slot0.awardDisplayView = CommanderHomeAwardDisplayView.New(slot0._tf, slot0.cards)
+	slot0.awardDisplayView = CatteryOpAnimPage.New(slot0._tf, slot0.event)
 	slot0.flower = CatteryFlowerView.New(slot0:findTF("bg/frame/flower"))
 	slot0.bubbleTF = slot0:findTF("bg/bubble")
 	slot0.bubbleClean = slot0.bubbleTF:Find("clean")
@@ -143,8 +151,14 @@ function slot0.didEnter(slot0)
 
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.helpBtn, function ()
+	onButton(slot0, slot0.levelInfoBtn, function ()
 		uv0.levelInfoPage:ExecuteAction("Show", uv0.home)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.helpBtn, function (slot0)
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.cat_home_help.tip
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.bubbleClean, function ()
 		uv0:CancelOpAnim()
@@ -194,35 +208,56 @@ end
 
 function slot0.InitCatteries(slot0)
 	slot0.displays = {}
+	slot3 = 0
 
-	for slot6, slot7 in pairs(slot0.home:GetCatteries()) do
-		table.insert(slot0.displays, slot7)
+	for slot8, slot9 in pairs(slot0.home:GetCatteries()) do
+		table.insert(slot0.displays, slot9)
+
+		if slot9:ExistCommander() then
+			slot4 = 0 + 1
+		end
+
+		if not slot9:IsLocked() then
+			slot3 = slot3 + 1
+		end
 	end
 
 	slot0.UIlist:align(#slot0.displays)
 	slot0:UpdateBubble()
+
+	slot0.cntTxt.text = slot4 .. "/" .. slot3
 end
 
 function slot0.UpdateBubble(slot0)
-	slot2 = nil
+	slot2 = false
+	slot3 = false
+	slot4 = false
 
-	for slot6, slot7 in pairs(slot0.home:GetCatteries()) do
-		if slot7:ExiseFeedOP() or slot7:ExistPlayOP() or slot7:ExistCleanOP() then
-			slot2 = slot7
+	for slot8, slot9 in pairs(slot0.home:GetCatteries()) do
+		if slot9:ExistCleanOP() and slot9:CommanderCanClean() then
+			slot2 = true
+		end
+
+		if slot9:ExiseFeedOP() and slot9:CommanderCanFeed() then
+			slot3 = true
+		end
+
+		if slot9:ExistPlayOP() and slot9:CommanderCanPlay() then
+			slot4 = true
 		end
 	end
 
-	setActive(slot0.bubbleTF, slot2 ~= nil)
+	setActive(slot0.bubbleTF, slot2 or slot3 or slot4)
 
 	if LeanTween.isTweening(slot0.bubbleTF.gameObject) then
 		LeanTween.cancel(slot0.bubbleTF.gameObject)
 	end
 
-	if slot3 then
+	if slot5 then
 		floatAni(slot0.bubbleTF, 20, 0.5, -1)
-		setActive(slot0.bubbleClean, slot2:ExistCleanOP())
-		setActive(slot0.bubbleFeed, slot2:ExiseFeedOP() and not slot4)
-		setActive(slot0.bubblePlay, slot2:ExistPlayOP() and not slot5)
+		setActive(slot0.bubbleClean, slot2)
+		setActive(slot0.bubbleFeed, slot3 and not slot2)
+		setActive(slot0.bubblePlay, slot4 and not slot3)
 	end
 end
 
@@ -257,7 +292,7 @@ function slot0.willExit(slot0)
 
 	slot0.levelInfoPage = nil
 
-	slot0.awardDisplayView:Dispose()
+	slot0.awardDisplayView:Destroy()
 end
 
 function slot0.onBackPressed(slot0)

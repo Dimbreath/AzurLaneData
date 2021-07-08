@@ -1,72 +1,34 @@
 pg = pg or {}
 pg.equip_data_statistics_23 = {
-	[942] = {
-		id = 942,
-		value_1 = "310",
-		base = 940
+	[972] = {
+		id = 972,
+		anti_siren = 200,
+		base = 960,
+		value_2 = 30,
+		value_1 = "33"
 	},
-	[943] = {
-		id = 943,
-		value_1 = "340",
-		base = 940
+	[973] = {
+		id = 973,
+		anti_siren = 300,
+		base = 960,
+		value_2 = 32,
+		value_1 = "35"
 	},
-	[944] = {
-		id = 944,
-		value_1 = "360",
-		base = 940
-	},
-	[945] = {
-		id = 945,
-		value_1 = "410",
-		base = 940
-	},
-	[946] = {
-		id = 946,
-		value_1 = "430",
-		base = 940
-	},
-	[947] = {
-		id = 947,
-		value_1 = "460",
-		base = 940
-	},
-	[948] = {
-		id = 948,
-		value_1 = "500",
-		base = 940
-	},
-	[949] = {
-		id = 949,
-		value_1 = "520",
-		base = 940
-	},
-	[950] = {
-		id = 950,
-		value_1 = "550",
-		base = 940
-	},
-	[951] = {
-		id = 951,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 940
-	},
-	[960] = {
-		name = "FuMO 25",
-		tech = 0,
+	[1000] = {
+		name = "艦艇修理施設",
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 960,
-		value_2 = 8,
-		icon = "960",
-		value_1 = "11",
-		attribute_2 = "cannon",
-		rarity = 5,
-		descrip = "鉄血が開発した艦艇用レーダー。目標走査と火器制御に用いられる",
-		nationality = 4,
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1000",
+		value_1 = "90",
+		descrip = "損傷修理用の装置。工作艦のみ装備可能",
+		rarity = 3,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 1000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -75,61 +37,120 @@ pg.equip_data_statistics_23 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			10
+		},
 		part_main = {
-			2,
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
+			12
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
+			12
 		},
 		equip_parameters = {},
 		label = {
-			"KMS",
 			"DEV"
 		}
 	},
-	[961] = {
-		id = 961,
-		value_2 = 9,
-		value_1 = "12",
-		base = 960
+	[1001] = {
+		id = 1001,
+		value_1 = "103",
+		base = 1000
 	},
-	[962] = {
-		id = 962,
-		value_2 = 10,
-		value_1 = "13",
-		base = 960
+	[1002] = {
+		id = 1002,
+		value_1 = "117",
+		base = 1000
 	},
-	[963] = {
-		id = 963,
-		value_2 = 12,
-		value_1 = "15",
-		base = 960
+	[1003] = {
+		id = 1003,
+		value_1 = "130",
+		base = 1000
 	},
-	[964] = {
-		id = 964,
-		value_2 = 14,
-		value_1 = "17",
-		base = 960
+	[1004] = {
+		id = 1004,
+		value_1 = "144",
+		base = 1000
 	},
-	[965] = {
-		id = 965,
-		value_2 = 16,
-		value_1 = "19",
-		base = 960
+	[1005] = {
+		id = 1005,
+		value_1 = "157",
+		base = 1000
+	},
+	[1006] = {
+		id = 1006,
+		value_1 = "171",
+		base = 1000
+	},
+	[1020] = {
+		name = "艦艇修理施設",
+		tech = 2,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1000",
+		value_1 = "140",
+		descrip = "損傷修理用の装置。工作艦のみ装備可能",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			11
+		},
+		part_main = {
+			12
+		},
+		part_sub = {
+			12
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1021] = {
+		id = 1021,
+		value_1 = "161",
+		base = 1020
+	},
+	[1022] = {
+		id = 1022,
+		value_1 = "182",
+		base = 1020
+	},
+	[1023] = {
+		id = 1023,
+		value_1 = "203",
+		base = 1020
+	},
+	[1024] = {
+		id = 1024,
+		value_1 = "224",
+		base = 1020
+	},
+	[1025] = {
+		id = 1025,
+		value_1 = "245",
+		base = 1020
+	},
+	[1026] = {
+		id = 1026,
+		value_1 = "266",
+		base = 1020
+	},
+	[1027] = {
+		id = 1027,
+		value_1 = "287",
+		base = 1020
 	}
 }

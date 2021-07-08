@@ -1,77 +1,38 @@
 pg = pg or {}
 pg.aircraft_template_186 = {
-	[69216] = {
-		max_hp = 73,
-		name = "库珀轰炸PBY-Lv6",
-		base = 69211,
-		id = 69216,
-		hp_growth = 2669,
+	[68630] = {
+		max_hp = 110,
+		name = "巴丹技能F6FLV10",
+		base = 68621,
+		id = 68630,
+		hp_growth = 4234,
 		weapon_ID = {
-			69226
+			50350,
+			50550,
+			68640
 		}
 	},
-	[69217] = {
-		max_hp = 79,
-		name = "库珀轰炸PBY-Lv7",
-		base = 69211,
-		id = 69217,
-		hp_growth = 2879,
-		weapon_ID = {
-			69227
-		}
-	},
-	[69218] = {
-		max_hp = 86,
-		name = "库珀轰炸PBY-Lv8",
-		base = 69211,
-		id = 69218,
-		hp_growth = 3090,
-		weapon_ID = {
-			69228
-		}
-	},
-	[69219] = {
-		max_hp = 92,
-		name = "库珀轰炸PBY-Lv9",
-		base = 69211,
-		id = 69219,
-		hp_growth = 3301,
-		weapon_ID = {
-			69229
-		}
-	},
-	[69220] = {
-		max_hp = 98,
-		name = "库珀轰炸PBY-Lv10",
-		base = 69211,
-		id = 69220,
-		hp_growth = 3511,
-		weapon_ID = {
-			69230
-		}
-	},
-	[69451] = {
-		name = "贝亚恩V-156F-LV1",
-		max_hp = 51,
+	[68651] = {
+		name = "可畏技能鱼雷机Lv1",
+		max_hp = 36,
 		accuracy = 23,
-		model_ID = "v156f",
+		model_ID = "qinghuayu",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 406,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 11,
-		type = 1,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
-		icon = "v156f",
+		icon = "qinghuayu",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1947,
-		speed = 50,
-		id = 69451,
+		hp_growth = 1385,
+		speed = 60,
+		id = 68651,
 		scale = 1,
 		weapon_ID = {
-			50701,
-			69461
+			68661
 		},
 		position_offset = {
 			0,
@@ -91,13 +52,13 @@ pg.aircraft_template_186 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -114,8 +75,8 @@ pg.aircraft_template_186 = {
 				0
 			},
 			{
-				0,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -125,48 +86,84 @@ pg.aircraft_template_186 = {
 			}
 		}
 	},
-	[69452] = {
-		max_hp = 57,
-		name = "贝亚恩V-156F-LV2",
-		base = 69451,
-		id = 69452,
-		hp_growth = 2201,
+	[68652] = {
+		max_hp = 42,
+		name = "可畏技能鱼雷机Lv2",
+		base = 68651,
+		id = 68652,
+		hp_growth = 1621,
 		weapon_ID = {
-			50702,
-			69462
+			68662
 		}
 	},
-	[69453] = {
-		max_hp = 64,
-		name = "贝亚恩V-156F-LV3",
-		base = 69451,
-		id = 69453,
-		hp_growth = 2455,
+	[68653] = {
+		max_hp = 48,
+		name = "可畏技能鱼雷机Lv3",
+		base = 68651,
+		id = 68653,
+		hp_growth = 1857,
 		weapon_ID = {
-			50703,
-			69463
+			68663
 		}
 	},
-	[69454] = {
-		max_hp = 70,
-		name = "贝亚恩V-156F-LV4",
-		base = 69451,
-		id = 69454,
-		hp_growth = 2710,
+	[68654] = {
+		max_hp = 54,
+		name = "可畏技能鱼雷机Lv4",
+		base = 68651,
+		id = 68654,
+		hp_growth = 2093,
 		weapon_ID = {
-			50704,
-			69464
+			68664
 		}
 	},
-	[69455] = {
-		max_hp = 77,
-		name = "贝亚恩V-156F-LV5",
-		base = 69451,
-		id = 69455,
-		hp_growth = 2964,
+	[68655] = {
+		max_hp = 60,
+		name = "可畏技能鱼雷机Lv5",
+		base = 68651,
+		id = 68655,
+		hp_growth = 2329,
 		weapon_ID = {
-			50705,
-			69465
+			68665
+		}
+	},
+	[68656] = {
+		max_hp = 66,
+		name = "可畏技能鱼雷机Lv6",
+		base = 68651,
+		id = 68656,
+		hp_growth = 2565,
+		weapon_ID = {
+			68666
+		}
+	},
+	[68657] = {
+		max_hp = 72,
+		name = "可畏技能鱼雷机Lv7",
+		base = 68651,
+		id = 68657,
+		hp_growth = 2801,
+		weapon_ID = {
+			68667
+		}
+	},
+	[68658] = {
+		max_hp = 78,
+		name = "可畏技能鱼雷机Lv8",
+		base = 68651,
+		id = 68658,
+		hp_growth = 3037,
+		weapon_ID = {
+			68668
+		}
+	},
+	[68659] = {
+		max_hp = 84,
+		name = "可畏技能鱼雷机Lv9",
+		base = 68651,
+		id = 68659,
+		hp_growth = 3274,
+		weapon_ID = {
+			68669
 		}
 	}
 }

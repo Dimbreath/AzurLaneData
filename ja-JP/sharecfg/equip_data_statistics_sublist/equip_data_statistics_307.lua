@@ -1,179 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_307 = {
-	[44142] = {
-		id = 44142,
-		damage = "72 x 2",
-		base = 44140,
-		weapon_id = {
-			44142
-		}
-	},
-	[44143] = {
-		id = 44143,
-		damage = "80 x 2",
-		base = 44140,
-		weapon_id = {
-			44143
-		}
-	},
-	[44144] = {
-		id = 44144,
-		damage = "86 x 2",
-		base = 44140,
-		weapon_id = {
-			44144
-		}
-	},
-	[44145] = {
-		id = 44145,
-		damage = "94 x 2",
-		base = 44140,
-		weapon_id = {
-			44145
-		}
-	},
-	[44146] = {
-		id = 44146,
-		damage = "100 x 2",
-		base = 44140,
-		weapon_id = {
-			44146
-		}
-	},
-	[44147] = {
-		id = 44147,
-		damage = "108 x 2",
-		base = 44140,
-		weapon_id = {
-			44147
-		}
-	},
-	[44148] = {
-		id = 44148,
-		damage = "118 x 2",
-		base = 44140,
-		weapon_id = {
-			44148
-		}
-	},
-	[44149] = {
-		id = 44149,
-		damage = "124 x 2",
-		base = 44140,
-		weapon_id = {
-			44149
-		}
-	},
-	[44150] = {
-		id = 44150,
-		damage = "132 x 2",
-		base = 44140,
-		weapon_id = {
-			44150
-		}
-	},
-	[44151] = {
+	[46271] = {
 		anti_siren = 100,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44151,
+		damage = "56/回",
+		base = 46260,
+		id = 46271,
 		weapon_id = {
-			44151
+			46271
 		}
 	},
-	[44152] = {
-		anti_siren = 200,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44152,
-		weapon_id = {
-			44152
-		}
-	},
-	[44153] = {
-		anti_siren = 300,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44153,
-		weapon_id = {
-			44153
-		}
-	},
-	[44200] = {
-		name = "試作型406mmSKC連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "44200",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "58 x 2",
+	[46300] = {
+		name = "105mmSKC連装高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "対空火器・105mmSKC高角砲",
+		value_2 = 12,
+		icon = "46300",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "34/回",
 		nationality = 4,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 44200,
+		id = 46300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			44200
+			46300
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"BB",
-			"MG",
-			"HE"
+			"ST",
+			"AA"
 		}
 	},
-	[44201] = {
-		id = 44201,
-		damage = "68 x 2",
-		base = 44200,
+	[46301] = {
+		id = 46301,
+		damage = "39/回",
+		base = 46300,
 		weapon_id = {
-			44201
+			46301
 		}
 	},
-	[44202] = {
-		id = 44202,
-		damage = "76 x 2",
-		base = 44200,
+	[46302] = {
+		id = 46302,
+		damage = "44/回",
+		base = 46300,
 		weapon_id = {
-			44202
+			46302
 		}
 	},
-	[44203] = {
-		id = 44203,
-		damage = "86 x 2",
-		base = 44200,
+	[46303] = {
+		id = 46303,
+		damage = "50/回",
+		base = 46300,
 		weapon_id = {
-			44203
+			46303
+		}
+	},
+	[46304] = {
+		id = 46304,
+		damage = "56/回",
+		base = 46300,
+		weapon_id = {
+			46304
+		}
+	},
+	[46305] = {
+		id = 46305,
+		damage = "62/回",
+		base = 46300,
+		weapon_id = {
+			46305
+		}
+	},
+	[46306] = {
+		id = 46306,
+		damage = "68/回",
+		base = 46300,
+		weapon_id = {
+			46306
+		}
+	},
+	[46320] = {
+		name = "105mmSKC連装高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "対空火器・105mmSKC高角砲",
+		value_2 = 25,
+		icon = "46300",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "41/回",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46320
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46321] = {
+		id = 46321,
+		damage = "47/回",
+		base = 46320,
+		weapon_id = {
+			46321
+		}
+	},
+	[46322] = {
+		id = 46322,
+		damage = "53/回",
+		base = 46320,
+		weapon_id = {
+			46322
+		}
+	},
+	[46323] = {
+		id = 46323,
+		damage = "59/回",
+		base = 46320,
+		weapon_id = {
+			46323
+		}
+	},
+	[46324] = {
+		id = 46324,
+		damage = "65/回",
+		base = 46320,
+		weapon_id = {
+			46324
+		}
+	},
+	[46325] = {
+		id = 46325,
+		damage = "71/回",
+		base = 46320,
+		weapon_id = {
+			46325
+		}
+	},
+	[46326] = {
+		id = 46326,
+		damage = "77/回",
+		base = 46320,
+		weapon_id = {
+			46326
+		}
+	},
+	[46327] = {
+		id = 46327,
+		damage = "83/回",
+		base = 46320,
+		weapon_id = {
+			46327
+		}
+	},
+	[46328] = {
+		id = 46328,
+		damage = "89/回",
+		base = 46320,
+		weapon_id = {
+			46328
 		}
 	}
 }

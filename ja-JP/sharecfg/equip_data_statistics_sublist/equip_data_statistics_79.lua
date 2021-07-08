@@ -1,292 +1,252 @@
 pg = pg or {}
 pg.equip_data_statistics_79 = {
-	[6040] = {
-		name = "12.7mm対空機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
+	[7251] = {
+		anti_siren = 100,
+		damage = "17 x 3",
+		base = 7240,
+		id = 7251,
+		weapon_id = {
+			7251
+		}
+	},
+	[7300] = {
+		name = "試製203mm三連装砲",
+		speciality = "追尾",
+		type = 3,
+		tech = 0,
 		descrip = "0",
+		value_2 = 45,
+		icon = "7300",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "30 x 3",
+		nationality = 8,
+		ammo = 2,
+		value_3 = 0,
+		id = 7300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1213
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			7300
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[7301] = {
+		id = 7301,
+		damage = "32 x 3",
+		base = 7300,
+		weapon_id = {
+			7301
+		}
+	},
+	[7302] = {
+		id = 7302,
+		damage = "34 x 3",
+		base = 7300,
+		weapon_id = {
+			7302
+		}
+	},
+	[7303] = {
+		id = 7303,
+		damage = "36 x 3",
+		base = 7300,
+		weapon_id = {
+			7303
+		}
+	},
+	[7304] = {
+		id = 7304,
+		damage = "38 x 3",
+		base = 7300,
+		weapon_id = {
+			7304
+		}
+	},
+	[7305] = {
+		id = 7305,
+		damage = "40 x 3",
+		base = 7300,
+		weapon_id = {
+			7305
+		}
+	},
+	[7306] = {
+		id = 7306,
+		damage = "42 x 3",
+		base = 7300,
+		weapon_id = {
+			7306
+		}
+	},
+	[7307] = {
+		id = 7307,
+		damage = "44 x 3",
+		base = 7300,
+		weapon_id = {
+			7307
+		}
+	},
+	[7308] = {
+		id = 7308,
+		damage = "46 x 3",
+		base = 7300,
+		weapon_id = {
+			7308
+		}
+	},
+	[7309] = {
+		id = 7309,
+		damage = "49 x 3",
+		base = 7300,
+		weapon_id = {
+			7309
+		}
+	},
+	[7310] = {
+		id = 7310,
+		damage = "52 x 3",
+		base = 7300,
+		weapon_id = {
+			7310
+		}
+	},
+	[7311] = {
+		anti_siren = 100,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7311,
+		weapon_id = {
+			7311
+		}
+	},
+	[7312] = {
+		anti_siren = 200,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7312,
+		weapon_id = {
+			7312
+		}
+	},
+	[7313] = {
+		anti_siren = 300,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7313,
+		weapon_id = {
+			7313
+		}
+	},
+	[7320] = {
+		name = "130mm副砲Mle1932",
+		speciality = "追尾",
+		type = 1,
+		tech = 0,
+		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "6000",
-		attribute_2 = "antiaircraft",
+		icon = "7320",
+		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "8/回",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 6040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"AA"
-		}
-	},
-	[6041] = {
-		id = 6041,
-		damage = "9/回",
-		base = 6040,
-		weapon_id = {
-			6041
-		}
-	},
-	[6042] = {
-		id = 6042,
-		damage = "10/回",
-		base = 6040,
-		weapon_id = {
-			6042
-		}
-	},
-	[6043] = {
-		id = 6043,
-		damage = "11/回",
-		base = 6040,
-		weapon_id = {
-			6043
-		}
-	},
-	[6044] = {
-		id = 6044,
-		damage = "12/回",
-		base = 6040,
-		weapon_id = {
-			6044
-		}
-	},
-	[6045] = {
-		id = 6045,
-		damage = "13/回",
-		base = 6040,
-		weapon_id = {
-			6045
-		}
-	},
-	[6046] = {
-		id = 6046,
-		damage = "15/回",
-		base = 6040,
-		weapon_id = {
-			6046
-		}
-	},
-	[6047] = {
-		id = 6047,
-		damage = "15/回",
-		base = 6040,
-		weapon_id = {
-			6047
-		}
-	},
-	[6100] = {
-		name = "100mm連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "6100",
-		damage = "18/回",
+		damage = "4 x 4",
 		nationality = 8,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 6100,
+		id = 7320,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1019
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			6100
+			7320
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"ST",
-			"AA"
+			"DD",
+			"MG"
 		}
 	},
-	[6101] = {
-		id = 6101,
-		damage = "20/回",
-		base = 6100,
+	[7321] = {
+		id = 7321,
+		damage = "5 x 4",
+		base = 7320,
 		weapon_id = {
-			6101
-		}
-	},
-	[6102] = {
-		id = 6102,
-		damage = "22/回",
-		base = 6100,
-		weapon_id = {
-			6102
-		}
-	},
-	[6103] = {
-		id = 6103,
-		damage = "25/回",
-		base = 6100,
-		weapon_id = {
-			6103
-		}
-	},
-	[6120] = {
-		name = "100mm連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "6100",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "20/回",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 6120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"AA"
-		}
-	},
-	[6121] = {
-		id = 6121,
-		damage = "23/回",
-		base = 6120,
-		weapon_id = {
-			6121
-		}
-	},
-	[6122] = {
-		id = 6122,
-		damage = "26/回",
-		base = 6120,
-		weapon_id = {
-			6122
-		}
-	},
-	[6123] = {
-		id = 6123,
-		damage = "29/回",
-		base = 6120,
-		weapon_id = {
-			6123
+			7321
 		}
 	}
 }

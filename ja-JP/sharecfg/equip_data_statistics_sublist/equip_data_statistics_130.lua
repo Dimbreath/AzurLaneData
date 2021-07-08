@@ -1,68 +1,169 @@
 pg = pg or {}
 pg.equip_data_statistics_130 = {
-	[17101] = {
-		id = 17101,
-		base = 17100,
+	[17410] = {
+		id = 17410,
+		base = 17400,
 		ammo_info = {
 			{
 				6,
-				50401
+				50550
+			},
+			{
+				6,
+				50750
 			}
 		},
 		weapon_id = {
-			17101,
-			81101
+			17410,
+			81410
 		}
 	},
-	[17102] = {
-		id = 17102,
-		base = 17100,
+	[17411] = {
+		anti_siren = 100,
+		base = 17400,
+		id = 17411,
 		ammo_info = {
 			{
 				6,
-				50402
+				50551
+			},
+			{
+				6,
+				50751
 			}
 		},
 		weapon_id = {
-			17102,
-			81102
+			17411,
+			81411
 		}
 	},
-	[17103] = {
-		id = 17103,
-		base = 17100,
+	[18000] = {
+		name = "TBDデバステイター",
+		tech = 1,
+		speciality = "雷撃",
+		type = 8,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "18000",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50403
+				50000
+			},
+			{
+				4,
+				51000
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18001] = {
+		id = 18001,
+		base = 18000,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				4,
+				51001
 			}
 		},
 		weapon_id = {
-			17103,
-			81103
+			18001
 		}
 	},
-	[17120] = {
-		name = "F4Fワイルドキャット",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
+	[18002] = {
+		id = 18002,
+		base = 18000,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51002
+			}
+		},
+		weapon_id = {
+			18002
+		}
+	},
+	[18003] = {
+		id = 18003,
+		base = 18000,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51003
+			}
+		},
+		weapon_id = {
+			18003
+		}
+	},
+	[18020] = {
+		name = "TBDデバステイター",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 2,
 		tech = 2,
 		descrip = "0",
-		value_2 = 12,
-		icon = "17100",
+		value_2 = 5,
+		icon = "18000",
 		attribute_2 = "air",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 17120,
+		id = 18020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50420
+				50020
+			},
+			{
+				4,
+				51020
 			}
 		},
 		equip_info = {
@@ -72,8 +173,7 @@ pg.equip_data_statistics_130 = {
 			9
 		},
 		weapon_id = {
-			17120,
-			81120
+			18020
 		},
 		skill_id = {},
 		part_main = {
@@ -88,114 +188,85 @@ pg.equip_data_statistics_130 = {
 		label = {
 			"USS",
 			"CV",
-			"FT"
+			"TB"
 		}
 	},
-	[17121] = {
-		id = 17121,
-		base = 17120,
+	[18021] = {
+		id = 18021,
+		base = 18020,
 		ammo_info = {
 			{
 				6,
-				50421
+				50021
+			},
+			{
+				4,
+				51021
 			}
 		},
 		weapon_id = {
-			17121,
-			81121
+			18021
 		}
 	},
-	[17122] = {
-		id = 17122,
-		base = 17120,
+	[18022] = {
+		id = 18022,
+		base = 18020,
 		ammo_info = {
 			{
 				6,
-				50422
+				50022
+			},
+			{
+				4,
+				51022
 			}
 		},
 		weapon_id = {
-			17122,
-			81122
+			18022
 		}
 	},
-	[17123] = {
-		id = 17123,
-		base = 17120,
+	[18023] = {
+		id = 18023,
+		base = 18020,
 		ammo_info = {
 			{
 				6,
-				50423
-			}
-		},
-		weapon_id = {
-			17123,
-			81123
-		}
-	},
-	[17124] = {
-		id = 17124,
-		base = 17120,
-		ammo_info = {
+				50023
+			},
 			{
-				6,
-				50424
+				4,
+				51023
 			}
 		},
 		weapon_id = {
-			17124,
-			81124
+			18023
 		}
 	},
-	[17125] = {
-		id = 17125,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50425
-			}
-		},
-		weapon_id = {
-			17125,
-			81125
-		}
-	},
-	[17126] = {
-		id = 17126,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50426
-			}
-		},
-		weapon_id = {
-			17126,
-			81126
-		}
-	},
-	[17140] = {
-		name = "F4Fワイルドキャット",
-		type = 7,
-		speciality = "航空",
-		rarity = 4,
+	[18040] = {
+		name = "TBDデバステイター",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 3,
 		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "17100",
+		value_2 = 12,
+		icon = "18000",
 		attribute_2 = "air",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 17140,
+		id = 18040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50440
+				50040
+			},
+			{
+				4,
+				51040
 			}
 		},
 		equip_info = {
@@ -205,8 +276,7 @@ pg.equip_data_statistics_130 = {
 			9
 		},
 		weapon_id = {
-			17140,
-			81140
+			18040
 		},
 		skill_id = {},
 		part_main = {
@@ -221,77 +291,109 @@ pg.equip_data_statistics_130 = {
 		label = {
 			"USS",
 			"CV",
-			"FT"
+			"TB"
 		}
 	},
-	[17141] = {
-		id = 17141,
-		base = 17140,
+	[18041] = {
+		id = 18041,
+		base = 18040,
 		ammo_info = {
 			{
 				6,
-				50441
+				50041
+			},
+			{
+				4,
+				51041
 			}
 		},
 		weapon_id = {
-			17141,
-			81141
+			18041
 		}
 	},
-	[17142] = {
-		id = 17142,
-		base = 17140,
+	[18042] = {
+		id = 18042,
+		base = 18040,
 		ammo_info = {
 			{
 				6,
-				50442
+				50042
+			},
+			{
+				4,
+				51042
 			}
 		},
 		weapon_id = {
-			17142,
-			81142
+			18042
 		}
 	},
-	[17143] = {
-		id = 17143,
-		base = 17140,
+	[18043] = {
+		id = 18043,
+		base = 18040,
 		ammo_info = {
 			{
 				6,
-				50443
+				50043
+			},
+			{
+				4,
+				51043
 			}
 		},
 		weapon_id = {
-			17143,
-			81143
+			18043
 		}
 	},
-	[17144] = {
-		id = 17144,
-		base = 17140,
+	[18044] = {
+		id = 18044,
+		base = 18040,
 		ammo_info = {
 			{
 				6,
-				50444
+				50044
+			},
+			{
+				4,
+				51044
 			}
 		},
 		weapon_id = {
-			17144,
-			81144
+			18044
 		}
 	},
-	[17145] = {
-		id = 17145,
-		base = 17140,
+	[18045] = {
+		id = 18045,
+		base = 18040,
 		ammo_info = {
 			{
 				6,
-				50445
+				50045
+			},
+			{
+				4,
+				51045
 			}
 		},
 		weapon_id = {
-			17145,
-			81145
+			18045
+		}
+	},
+	[18046] = {
+		id = 18046,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51046
+			}
+		},
+		weapon_id = {
+			18046
 		}
 	}
 }

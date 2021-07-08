@@ -1,227 +1,303 @@
 pg = pg or {}
 pg.equip_data_statistics_302 = {
-	[43060] = {
-		name = "試作203mmSKC三連装砲",
-		speciality = "追尾",
-		type = 3,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "43060",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "30 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1401
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1401
-			},
-			{
-				4,
-				1214
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[45447] = {
+		id = 45447,
+		damage = "130 x 2",
+		base = 45440,
 		weapon_id = {
-			43060
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CA",
-			"MG",
-			"AP"
+			45447
 		}
 	},
-	[43061] = {
-		id = 43061,
-		damage = "32 x 6",
-		base = 43060,
+	[45448] = {
+		id = 45448,
+		damage = "140 x 2",
+		base = 45440,
 		weapon_id = {
-			43061
+			45448
 		}
 	},
-	[43062] = {
-		id = 43062,
-		damage = "34 x 6",
-		base = 43060,
+	[45449] = {
+		id = 45449,
+		damage = "150 x 2",
+		base = 45440,
 		weapon_id = {
-			43062
+			45449
 		}
 	},
-	[43063] = {
-		id = 43063,
-		damage = "36 x 6",
-		base = 43060,
+	[45450] = {
+		id = 45450,
+		damage = "160 x 2",
+		base = 45440,
 		weapon_id = {
-			43063
+			45450
 		}
 	},
-	[43064] = {
-		id = 43064,
-		damage = "38 x 6",
-		base = 43060,
-		weapon_id = {
-			43064
-		}
-	},
-	[43065] = {
-		id = 43065,
-		damage = "40 x 6",
-		base = 43060,
-		weapon_id = {
-			43065
-		}
-	},
-	[43066] = {
-		id = 43066,
-		damage = "42 x 6",
-		base = 43060,
-		weapon_id = {
-			43066
-		}
-	},
-	[43067] = {
-		id = 43067,
-		damage = "44 x 6",
-		base = 43060,
-		weapon_id = {
-			43067
-		}
-	},
-	[43068] = {
-		id = 43068,
-		damage = "46 x 6",
-		base = 43060,
-		weapon_id = {
-			43068
-		}
-	},
-	[43069] = {
-		id = 43069,
-		damage = "48 x 6",
-		base = 43060,
-		weapon_id = {
-			43069
-		}
-	},
-	[43070] = {
-		id = 43070,
-		damage = "50 x 6",
-		base = 43060,
-		weapon_id = {
-			43070
-		}
-	},
-	[43071] = {
+	[45451] = {
 		anti_siren = 100,
-		damage = "50 x 6",
-		base = 43060,
-		id = 43071,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45451,
 		weapon_id = {
-			43071
+			45451
 		}
 	},
-	[43072] = {
+	[45452] = {
 		anti_siren = 200,
-		damage = "50 x 6",
-		base = 43060,
-		id = 43072,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45452,
 		weapon_id = {
-			43072
+			45452
 		}
 	},
-	[43073] = {
+	[45453] = {
 		anti_siren = 300,
-		damage = "50 x 6",
-		base = 43060,
-		id = 43073,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45453,
 		weapon_id = {
-			43073
+			45453
 		}
 	},
-	[43100] = {
-		name = "283mmSKC28三連装砲",
-		speciality = "投射",
-		type = 11,
+	[46000] = {
+		name = "20mm四連装MG機銃",
+		speciality = "対空",
+		type = 6,
 		tech = 1,
-		descrip = "ドイッチュランドの主砲、283mmSKC28三連装砲。ドイッチュランド級にのみ装備可能",
-		value_2 = 5,
-		icon = "43100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "30 x 6",
+		rarity = 1,
+		descrip = "対空火器・四連装20mmMG機銃",
+		value_2 = 0,
+		icon = "46000",
+		damage = "17/回",
 		nationality = 4,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 43100,
+		id = 46000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1406
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			43100
+			46000
 		},
 		skill_id = {},
 		part_main = {
-			18
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CB",
-			"MG",
-			"AP"
+			"ST",
+			"AA"
 		}
 	},
-	[43101] = {
-		id = 43101,
-		damage = "32 x 6",
-		base = 43100,
+	[46001] = {
+		id = 46001,
+		damage = "20/回",
+		base = 46000,
 		weapon_id = {
-			43101
+			46001
+		}
+	},
+	[46002] = {
+		id = 46002,
+		damage = "23/回",
+		base = 46000,
+		weapon_id = {
+			46002
+		}
+	},
+	[46003] = {
+		id = 46003,
+		damage = "26/回",
+		base = 46000,
+		weapon_id = {
+			46003
+		}
+	},
+	[46020] = {
+		name = "20mm四連装MG機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "対空火器・四連装20mmMG機銃",
+		value_2 = 5,
+		icon = "46000",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "20/回",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46021] = {
+		id = 46021,
+		damage = "23/回",
+		base = 46020,
+		weapon_id = {
+			46021
+		}
+	},
+	[46022] = {
+		id = 46022,
+		damage = "27/回",
+		base = 46020,
+		weapon_id = {
+			46022
+		}
+	},
+	[46023] = {
+		id = 46023,
+		damage = "31/回",
+		base = 46020,
+		weapon_id = {
+			46023
+		}
+	},
+	[46040] = {
+		name = "20mm四連装MG機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "対空火器・四連装20mmMG機銃",
+		value_2 = 12,
+		icon = "46000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "23/回",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46041] = {
+		id = 46041,
+		damage = "26/回",
+		base = 46040,
+		weapon_id = {
+			46041
 		}
 	}
 }

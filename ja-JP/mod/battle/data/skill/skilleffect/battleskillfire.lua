@@ -5,8 +5,8 @@ slot2 = class("BattleSkillFire", slot0.Battle.BattleSkillEffect)
 slot0.Battle.BattleSkillFire = slot2
 slot2.__name = "BattleSkillFire"
 
-function slot2.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1, lv)
+function slot2.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
 	slot0._emitter = slot0._tempData.arg_list.emitter
@@ -57,4 +57,8 @@ function slot2.Interrupt(slot0)
 		slot0._weapon:Cease()
 		slot0._weapon:Clear()
 	end
+end
+
+function slot2.GetDamageSum(slot0)
+	return not slot0._weapon and 0 or slot0._weapon:GetDamageSUM()
 end

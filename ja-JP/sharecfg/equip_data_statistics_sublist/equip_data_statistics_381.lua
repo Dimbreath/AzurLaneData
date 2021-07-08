@@ -1,128 +1,198 @@
 pg = pg or {}
 pg.equip_data_statistics_381 = {
-	[89029] = {
-		id = 89029,
-		value_1 = "470",
-		base = 89020
-	},
-	[89030] = {
-		id = 89030,
-		value_2 = 2,
-		value_1 = "500",
-		base = 89020
-	},
-	[89031] = {
-		id = 89031,
-		anti_siren = 100,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "530"
-	},
-	[89032] = {
-		id = 89032,
-		anti_siren = 200,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "560"
-	},
-	[89033] = {
-		id = 89033,
-		anti_siren = 300,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "590"
-	},
-	[89040] = {
-		name = "インテリジェントチップ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89040,
-		value_2 = 3,
-		icon = "89040",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "キズナアイがプラグインを導入するときに使用するチップ…？――もうポンコツだなんて言わせません！",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6400
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
+	[90722] = {
+		id = 90722,
+		damage = "8 x 4",
+		base = 90720,
+		weapon_id = {
+			90722
 		}
 	},
-	[89041] = {
-		id = 89041,
-		value_1 = "112",
-		base = 89040
+	[90723] = {
+		id = 90723,
+		damage = "9 x 4",
+		base = 90720,
+		weapon_id = {
+			90723
+		}
 	},
-	[89042] = {
-		id = 89042,
-		value_2 = 4,
-		value_1 = "127",
-		base = 89040
+	[90724] = {
+		id = 90724,
+		damage = "10 x 4",
+		base = 90720,
+		weapon_id = {
+			90724
+		}
 	},
-	[89043] = {
-		id = 89043,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89040
+	[90725] = {
+		id = 90725,
+		damage = "12 x 4",
+		base = 90720,
+		weapon_id = {
+			90725
+		}
 	},
-	[89044] = {
-		id = 89044,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89040
+	[90726] = {
+		id = 90726,
+		damage = "14 x 4",
+		base = 90720,
+		weapon_id = {
+			90726
+		}
 	},
-	[89045] = {
-		id = 89045,
-		value_2 = 5,
-		value_1 = "171",
-		base = 89040
+	[90740] = {
+		name = "138.6mm単装砲Mle1927",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "50700",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90740,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90740
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
-	[89046] = {
-		id = 89046,
-		value_2 = 6,
-		value_1 = "186",
-		base = 89040
+	[90741] = {
+		id = 90741,
+		damage = "7 x 4",
+		base = 90740,
+		weapon_id = {
+			90741
+		}
 	},
-	[89047] = {
-		id = 89047,
-		value_2 = 6,
-		value_1 = "200",
-		base = 89040
+	[90742] = {
+		id = 90742,
+		damage = "8 x 4",
+		base = 90740,
+		weapon_id = {
+			90742
+		}
 	},
-	[89048] = {
-		id = 89048,
-		value_2 = 7,
-		value_1 = "215",
-		base = 89040
+	[90743] = {
+		id = 90743,
+		damage = "9 x 4",
+		base = 90740,
+		weapon_id = {
+			90743
+		}
 	},
-	[89049] = {
-		id = 89049,
-		value_2 = 7,
-		value_1 = "230",
-		base = 89040
+	[90744] = {
+		id = 90744,
+		damage = "10 x 4",
+		base = 90740,
+		weapon_id = {
+			90744
+		}
 	},
-	[89050] = {
-		id = 89050,
-		value_2 = 8,
-		value_1 = "245",
-		base = 89040
+	[90745] = {
+		id = 90745,
+		damage = "11 x 4",
+		base = 90740,
+		weapon_id = {
+			90745
+		}
+	},
+	[90746] = {
+		id = 90746,
+		damage = "12 x 4",
+		base = 90740,
+		weapon_id = {
+			90746
+		}
+	},
+	[90747] = {
+		id = 90747,
+		damage = "13 x 4",
+		base = 90740,
+		weapon_id = {
+			90747
+		}
+	},
+	[90748] = {
+		id = 90748,
+		damage = "15 x 4",
+		base = 90740,
+		weapon_id = {
+			90748
+		}
+	},
+	[90749] = {
+		id = 90749,
+		damage = "17 x 4",
+		base = 90740,
+		weapon_id = {
+			90749
+		}
+	},
+	[90750] = {
+		id = 90750,
+		damage = "19 x 4",
+		base = 90740,
+		weapon_id = {
+			90750
+		}
+	},
+	[90751] = {
+		anti_siren = 100,
+		damage = "19 x 4",
+		base = 90740,
+		id = 90751,
+		weapon_id = {
+			90751
+		}
 	}
 }

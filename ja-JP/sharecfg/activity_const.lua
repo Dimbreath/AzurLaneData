@@ -33,6 +33,9 @@ pg.activity_const = {
 	SNALI_MAIN = {
 		act_id = 10228
 	},
+	ACTIVITY_BOSS_PT_ID = {
+		act_id = 4031
+	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
 	},
@@ -347,9 +350,6 @@ pg.activity_const = {
 	},
 	ACTIVITY_ID_ATRE_FURNITURE = {
 		act_id = 382
-	},
-	ACTIVITY_BOSS_PT_ID = {
-		act_id = 386
 	},
 	ACTIVITY_JAMAICA_SKIN_PAGE = {
 		act_id = 390

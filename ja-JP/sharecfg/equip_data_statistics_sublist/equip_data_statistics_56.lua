@@ -1,95 +1,78 @@
 pg = pg or {}
 pg.equip_data_statistics_56 = {
-	[3042] = {
-		id = 3042,
-		value_2 = 8,
-		value_1 = "18",
-		base = 3040
+	[3203] = {
+		id = 3203,
+		value_1 = "440",
+		base = 3200
 	},
-	[3043] = {
-		id = 3043,
-		value_2 = 8,
-		value_1 = "20",
-		base = 3040
+	[3204] = {
+		id = 3204,
+		value_1 = "470",
+		base = 3200
 	},
-	[3044] = {
-		id = 3044,
-		value_2 = 9,
-		value_1 = "22",
-		base = 3040
+	[3205] = {
+		id = 3205,
+		value_1 = "500",
+		base = 3200
 	},
-	[3045] = {
-		id = 3045,
-		value_2 = 9,
-		value_1 = "24",
-		base = 3040
+	[3206] = {
+		id = 3206,
+		value_1 = "530",
+		base = 3200
 	},
-	[3046] = {
-		id = 3046,
-		value_2 = 10,
-		value_1 = "26",
-		base = 3040
+	[3207] = {
+		id = 3207,
+		value_1 = "560",
+		base = 3200
 	},
-	[3047] = {
-		id = 3047,
-		value_2 = 10,
-		value_1 = "28",
-		base = 3040
+	[3208] = {
+		id = 3208,
+		value_1 = "590",
+		base = 3200
 	},
-	[3048] = {
-		id = 3048,
-		value_2 = 11,
-		value_1 = "30",
-		base = 3040
+	[3209] = {
+		id = 3209,
+		value_1 = "620",
+		base = 3200
 	},
-	[3049] = {
-		id = 3049,
-		value_2 = 11,
-		value_1 = "32",
-		base = 3040
+	[3210] = {
+		id = 3210,
+		value_1 = "650",
+		base = 3200
 	},
-	[3050] = {
-		id = 3050,
-		value_2 = 12,
-		value_1 = "35",
-		base = 3040
-	},
-	[3051] = {
-		id = 3051,
+	[3211] = {
+		id = 3211,
 		anti_siren = 100,
-		base = 3040,
-		value_2 = 13,
-		value_1 = "38"
+		value_1 = "680",
+		base = 3200
 	},
-	[3052] = {
-		id = 3052,
+	[3212] = {
+		id = 3212,
 		anti_siren = 200,
-		base = 3040,
-		value_2 = 14,
-		value_1 = "41"
+		value_1 = "710",
+		base = 3200
 	},
-	[3053] = {
-		id = 3053,
+	[3213] = {
+		id = 3213,
 		anti_siren = 300,
-		base = 3040,
-		value_2 = 15,
-		value_1 = "44"
+		value_1 = "740",
+		base = 3200
 	},
-	[3100] = {
-		name = "圧縮酸素ボンベ",
+	[3220] = {
+		name = "VC装甲鋼板",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "oxy_max",
+		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3100",
-		value_1 = "18",
-		descrip = "圧縮酸素を保存するボンベ。潜航力を上昇させることが可能 ",
+		icon = "3220",
+		value_1 = "220",
+		descrip = "ロイヤルの技術を導入した装甲鋼板。戦艦の主要防御帯によく使われていた",
 		rarity = 4,
-		nationality = 0,
+		nationality = 3,
 		ammo = 10,
 		value_3 = 0,
-		id = 3100,
+		id = 3220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -98,33 +81,52 @@ pg.equip_data_statistics_56 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6470
+		},
 		part_main = {
-			8,
-			17
+			4,
+			5,
+			7,
+			10,
+			18
 		},
 		part_sub = {
-			8,
-			17
+			4,
+			5,
+			7,
+			10,
+			18
 		},
 		equip_parameters = {},
 		label = {
+			"IJN",
 			"DEV"
 		}
 	},
-	[3101] = {
-		id = 3101,
-		value_1 = "20",
-		base = 3100
+	[3221] = {
+		id = 3221,
+		value_1 = "250",
+		base = 3220
 	},
-	[3102] = {
-		id = 3102,
-		value_1 = "22",
-		base = 3100
+	[3222] = {
+		id = 3222,
+		value_1 = "280",
+		base = 3220
 	},
-	[3103] = {
-		id = 3103,
-		value_1 = "24",
-		base = 3100
+	[3223] = {
+		id = 3223,
+		value_1 = "310",
+		base = 3220
+	},
+	[3224] = {
+		id = 3224,
+		value_1 = "340",
+		base = 3220
+	},
+	[3225] = {
+		id = 3225,
+		value_1 = "370",
+		base = 3220
 	}
 }

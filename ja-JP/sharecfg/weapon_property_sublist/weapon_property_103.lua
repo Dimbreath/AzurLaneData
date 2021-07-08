@@ -2,6 +2,56 @@ pg = pg or {}
 pg.weapon_property_103 = {}
 
 function ()
+	uv0.weapon_property_103[59663] = {
+		id = 59663,
+		damage = 92,
+		base = 59660
+	}
+	uv0.weapon_property_103[59664] = {
+		id = 59664,
+		damage = 109,
+		base = 59660
+	}
+	uv0.weapon_property_103[59665] = {
+		id = 59665,
+		damage = 127,
+		base = 59660
+	}
+	uv0.weapon_property_103[59666] = {
+		id = 59666,
+		damage = 145,
+		base = 59660
+	}
+	uv0.weapon_property_103[59667] = {
+		id = 59667,
+		damage = 162,
+		base = 59660
+	}
+	uv0.weapon_property_103[59668] = {
+		id = 59668,
+		damage = 180,
+		base = 59660
+	}
+	uv0.weapon_property_103[59669] = {
+		id = 59669,
+		damage = 197,
+		base = 59660
+	}
+	uv0.weapon_property_103[59670] = {
+		id = 59670,
+		damage = 215,
+		base = 59660
+	}
+	uv0.weapon_property_103[59671] = {
+		id = 59671,
+		damage = 224,
+		base = 59660
+	}
+	uv0.weapon_property_103[59672] = {
+		id = 59672,
+		damage = 237,
+		base = 59660
+	}
 	uv0.weapon_property_103[59673] = {
 		id = 59673,
 		damage = 254,
@@ -446,97 +496,5 @@ function ()
 		reload_max = 126,
 		damage = 65,
 		base = 59740
-	}
-	uv0.weapon_property_103[59750] = {
-		id = 59750,
-		reload_max = 122,
-		damage = 69,
-		base = 59740
-	}
-	uv0.weapon_property_103[59751] = {
-		id = 59751,
-		reload_max = 122,
-		damage = 72,
-		base = 59740
-	}
-	uv0.weapon_property_103[59752] = {
-		id = 59752,
-		reload_max = 122,
-		damage = 76,
-		base = 59740
-	}
-	uv0.weapon_property_103[59753] = {
-		id = 59753,
-		reload_max = 122,
-		damage = 81,
-		base = 59740
-	}
-	uv0.weapon_property_103[59760] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 7.92mm MG机枪",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 59760,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 60,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_103[59761] = {
-		id = 59761,
-		reload_max = 59,
-		damage = 12,
-		base = 59760
-	}
-	uv0.weapon_property_103[59762] = {
-		id = 59762,
-		reload_max = 58,
-		damage = 13,
-		base = 59760
-	}
-	uv0.weapon_property_103[59763] = {
-		id = 59763,
-		reload_max = 57,
-		damage = 14,
-		base = 59760
-	}
-	uv0.weapon_property_103[59764] = {
-		id = 59764,
-		reload_max = 56,
-		damage = 15,
-		base = 59760
 	}
 end()

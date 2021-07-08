@@ -2,147 +2,6 @@ pg = pg or {}
 pg.weapon_property_67 = {}
 
 function ()
-	uv0.weapon_property_67[44309] = {
-		reload_max = 2826,
-		name = "",
-		damage = 101,
-		base = 44300,
-		id = 44309
-	}
-	uv0.weapon_property_67[44310] = {
-		reload_max = 2736,
-		name = "",
-		damage = 105,
-		base = 44300,
-		id = 44310
-	}
-	uv0.weapon_property_67[44311] = {
-		reload_max = 2736,
-		damage = 105,
-		base = 44300,
-		id = 44311,
-		corrected = 104
-	}
-	uv0.weapon_property_67[44312] = {
-		reload_max = 2736,
-		damage = 105,
-		base = 44300,
-		id = 44312,
-		corrected = 110
-	}
-	uv0.weapon_property_67[44313] = {
-		reload_max = 2736,
-		damage = 105,
-		base = 44300,
-		id = 44313,
-		corrected = 118
-	}
-	uv0.weapon_property_67[45000] = {
-		action_index = "attack",
-		range = 52,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "三联装533mm磁性鱼雷T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 45000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 4580,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_67[45001] = {
-		id = 45001,
-		reload_max = 4500,
-		damage = 69,
-		base = 45000
-	}
-	uv0.weapon_property_67[45002] = {
-		id = 45002,
-		reload_max = 4420,
-		damage = 75,
-		base = 45000
-	}
-	uv0.weapon_property_67[45003] = {
-		id = 45003,
-		reload_max = 4340,
-		damage = 81,
-		base = 45000
-	}
-	uv0.weapon_property_67[45020] = {
-		action_index = "attack",
-		range = 52,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "三联装533mm磁性鱼雷T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 45020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 4360,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_67[45021] = {
 		id = 45021,
 		reload_max = 4275,
@@ -648,5 +507,109 @@ function ()
 		reload_max = 5978,
 		damage = 69,
 		base = 45200
+	}
+	uv0.weapon_property_67[45202] = {
+		id = 45202,
+		reload_max = 5856,
+		damage = 75,
+		base = 45200
+	}
+	uv0.weapon_property_67[45203] = {
+		id = 45203,
+		reload_max = 5734,
+		damage = 81,
+		base = 45200
+	}
+	uv0.weapon_property_67[45204] = {
+		id = 45204,
+		reload_max = 5612,
+		damage = 87,
+		base = 45200
+	}
+	uv0.weapon_property_67[45205] = {
+		id = 45205,
+		reload_max = 5490,
+		damage = 93,
+		base = 45200
+	}
+	uv0.weapon_property_67[45206] = {
+		id = 45206,
+		reload_max = 5368,
+		damage = 99,
+		base = 45200
+	}
+	uv0.weapon_property_67[45207] = {
+		id = 45207,
+		reload_max = 5246,
+		damage = 105,
+		base = 45200
+	}
+	uv0.weapon_property_67[45208] = {
+		id = 45208,
+		reload_max = 5124,
+		damage = 111,
+		base = 45200
+	}
+	uv0.weapon_property_67[45209] = {
+		id = 45209,
+		reload_max = 5002,
+		damage = 117,
+		base = 45200
+	}
+	uv0.weapon_property_67[45210] = {
+		id = 45210,
+		reload_max = 4880,
+		damage = 123,
+		base = 45200
+	}
+	uv0.weapon_property_67[45220] = {
+		action_index = "attack",
+		range = 52,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "五联装533mm磁性鱼雷T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 66,
+		corrected = 100,
+		min_range = 0,
+		id = 45220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 5810,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1803
+		},
+		barrage_ID = {
+			1404
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_67[45221] = {
+		id = 45221,
+		reload_max = 5694,
+		damage = 72,
+		base = 45220
 	}
 end()

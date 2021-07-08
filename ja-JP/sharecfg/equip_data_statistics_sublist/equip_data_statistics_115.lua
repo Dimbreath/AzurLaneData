@@ -1,186 +1,302 @@
 pg = pg or {}
 pg.equip_data_statistics_115 = {
-	[15204] = {
-		id = 15204,
-		damage = "100 x 3",
-		base = 15200,
+	[16167] = {
+		id = 16167,
+		damage = "43/回",
+		base = 16160,
 		weapon_id = {
-			15204
+			16167
 		}
 	},
-	[15205] = {
-		id = 15205,
-		damage = "110 x 3",
-		base = 15200,
+	[16168] = {
+		id = 16168,
+		damage = "46/回",
+		base = 16160,
 		weapon_id = {
-			15205
+			16168
 		}
 	},
-	[15206] = {
-		id = 15206,
-		damage = "120 x 3",
-		base = 15200,
+	[16169] = {
+		id = 16169,
+		damage = "49/回",
+		base = 16160,
 		weapon_id = {
-			15206
+			16169
 		}
 	},
-	[15207] = {
-		id = 15207,
-		damage = "120 x 3",
-		base = 15200,
+	[16170] = {
+		id = 16170,
+		damage = "52/回",
+		base = 16160,
 		weapon_id = {
-			15207
+			16170
 		}
 	},
-	[15220] = {
-		name = "533mm四連装魚雷Mk17",
-		speciality = "雷撃",
-		type = 5,
-		tech = 0,
+	[16171] = {
+		anti_siren = 100,
+		damage = "52/回",
+		base = 16160,
+		id = 16171,
+		weapon_id = {
+			16171
+		}
+	},
+	[16200] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
-		icon = "15220",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "60 x 4",
+		value_2 = 5,
+		icon = "16200",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "22/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 15220,
+		id = 16200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
+		ammo_info = {},
 		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1403
-			},
+			1,
+			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15220
+			16200
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
 			"ST",
-			"TP",
-			"QUAD"
+			"AA"
 		}
 	},
-	[15221] = {
-		id = 15221,
-		damage = "70 x 4",
-		base = 15220,
+	[16201] = {
+		id = 16201,
+		damage = "26/回",
+		base = 16200,
 		weapon_id = {
-			15221
+			16201
 		}
 	},
-	[15222] = {
-		id = 15222,
-		damage = "80 x 4",
-		base = 15220,
+	[16202] = {
+		id = 16202,
+		damage = "30/回",
+		base = 16200,
 		weapon_id = {
-			15222
+			16202
 		}
 	},
-	[15223] = {
-		id = 15223,
-		damage = "90 x 4",
-		base = 15220,
+	[16203] = {
+		id = 16203,
+		damage = "34/回",
+		base = 16200,
 		weapon_id = {
-			15223
+			16203
 		}
 	},
-	[15224] = {
-		id = 15224,
-		damage = "100 x 4",
-		base = 15220,
+	[16220] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "16200",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "25/回",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			15224
+			16220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
 		}
 	},
-	[15225] = {
-		id = 15225,
-		damage = "110 x 4",
-		base = 15220,
+	[16221] = {
+		id = 16221,
+		damage = "29/回",
+		base = 16220,
 		weapon_id = {
-			15225
+			16221
 		}
 	},
-	[15226] = {
-		id = 15226,
-		damage = "120 x 4",
-		base = 15220,
+	[16222] = {
+		id = 16222,
+		damage = "33/回",
+		base = 16220,
 		weapon_id = {
-			15226
+			16222
 		}
 	},
-	[15227] = {
-		id = 15227,
-		damage = "130 x 4",
-		base = 15220,
+	[16223] = {
+		id = 16223,
+		damage = "37/回",
+		base = 16220,
 		weapon_id = {
-			15227
+			16223
 		}
 	},
-	[15228] = {
-		id = 15228,
-		damage = "140 x 4",
-		base = 15220,
+	[16224] = {
+		id = 16224,
+		damage = "41/回",
+		base = 16220,
 		weapon_id = {
-			15228
+			16224
 		}
 	},
-	[15229] = {
-		id = 15229,
-		damage = "150 x 4",
-		base = 15220,
+	[16225] = {
+		id = 16225,
+		damage = "45/回",
+		base = 16220,
 		weapon_id = {
-			15229
+			16225
 		}
 	},
-	[15230] = {
-		id = 15230,
-		damage = "160 x 4",
-		base = 15220,
+	[16226] = {
+		id = 16226,
+		damage = "50/回",
+		base = 16220,
 		weapon_id = {
-			15230
+			16226
 		}
 	},
-	[15231] = {
-		anti_siren = 100,
-		damage = "160 x 4",
-		base = 15220,
-		id = 15231,
+	[16240] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "16200",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "29/回",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			15231
+			16240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
 		}
 	}
 }

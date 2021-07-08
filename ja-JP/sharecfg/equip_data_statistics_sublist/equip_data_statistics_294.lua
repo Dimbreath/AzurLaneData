@@ -1,65 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_294 = {
-	[42001] = {
-		id = 42001,
-		damage = "8 x 1",
-		base = 42000,
+	[45003] = {
+		id = 45003,
+		damage = "81 x 3",
+		base = 45000,
 		weapon_id = {
-			42001
+			45003
 		}
 	},
-	[42002] = {
-		id = 42002,
-		damage = "9 x 1",
-		base = 42000,
-		weapon_id = {
-			42002
-		}
-	},
-	[42003] = {
-		id = 42003,
-		damage = "10 x 1",
-		base = 42000,
-		weapon_id = {
-			42003
-		}
-	},
-	[42020] = {
-		name = "150mmSKC/28単装砲",
-		speciality = "追尾",
-		type = 2,
+	[45020] = {
+		name = "533mm三連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 2,
-		descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
 		value_2 = 12,
-		icon = "42000",
-		attribute_2 = "cannon",
+		icon = "45000",
+		attribute_2 = "torpedo",
 		rarity = 3,
-		damage = "8 x 1",
+		damage = "66 x 3",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42020,
+		id = 45020,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1000
+				1402
 			},
 			6,
 			10,
@@ -67,107 +47,109 @@ pg.equip_data_statistics_294 = {
 			12
 		},
 		weapon_id = {
-			42020
+			45020
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[42021] = {
-		id = 42021,
-		damage = "9 x 1",
-		base = 42020,
+	[45021] = {
+		id = 45021,
+		damage = "72 x 3",
+		base = 45020,
 		weapon_id = {
-			42021
+			45021
 		}
 	},
-	[42022] = {
-		id = 42022,
-		damage = "10 x 1",
-		base = 42020,
+	[45022] = {
+		id = 45022,
+		damage = "79 x 3",
+		base = 45020,
 		weapon_id = {
-			42022
+			45022
 		}
 	},
-	[42023] = {
-		id = 42023,
-		damage = "11 x 1",
-		base = 42020,
+	[45023] = {
+		id = 45023,
+		damage = "86 x 3",
+		base = 45020,
 		weapon_id = {
-			42023
+			45023
 		}
 	},
-	[42024] = {
-		id = 42024,
-		damage = "12 x 1",
-		base = 42020,
+	[45024] = {
+		id = 45024,
+		damage = "92 x 3",
+		base = 45020,
 		weapon_id = {
-			42024
+			45024
 		}
 	},
-	[42025] = {
-		id = 42025,
-		damage = "13 x 1",
-		base = 42020,
+	[45025] = {
+		id = 45025,
+		damage = "99 x 3",
+		base = 45020,
 		weapon_id = {
-			42025
+			45025
 		}
 	},
-	[42026] = {
-		id = 42026,
-		damage = "14 x 1",
-		base = 42020,
+	[45026] = {
+		id = 45026,
+		damage = "106 x 3",
+		base = 45020,
 		weapon_id = {
-			42026
+			45026
 		}
 	},
-	[42040] = {
-		name = "150mmSKC/28単装砲",
-		speciality = "追尾",
-		type = 2,
+	[45040] = {
+		name = "533mm三連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 3,
-		descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
 		value_2 = 25,
-		icon = "42000",
-		attribute_2 = "cannon",
+		icon = "45000",
+		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "9 x 1",
+		damage = "70 x 3",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42040,
+		id = 45040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1000
+				1402
 			},
 			6,
 			10,
@@ -175,61 +157,91 @@ pg.equip_data_statistics_294 = {
 			12
 		},
 		weapon_id = {
-			42040
+			45040
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[42041] = {
-		id = 42041,
-		damage = "10 x 1",
-		base = 42040,
+	[45041] = {
+		id = 45041,
+		damage = "77 x 3",
+		base = 45040,
 		weapon_id = {
-			42041
+			45041
 		}
 	},
-	[42042] = {
-		id = 42042,
-		damage = "11 x 1",
-		base = 42040,
+	[45042] = {
+		id = 45042,
+		damage = "85 x 3",
+		base = 45040,
 		weapon_id = {
-			42042
+			45042
 		}
 	},
-	[42043] = {
-		id = 42043,
-		damage = "12 x 1",
-		base = 42040,
+	[45043] = {
+		id = 45043,
+		damage = "92 x 3",
+		base = 45040,
 		weapon_id = {
-			42043
+			45043
 		}
 	},
-	[42044] = {
-		id = 42044,
-		damage = "13 x 1",
-		base = 42040,
+	[45044] = {
+		id = 45044,
+		damage = "100 x 3",
+		base = 45040,
 		weapon_id = {
-			42044
+			45044
 		}
 	},
-	[42045] = {
-		id = 42045,
-		damage = "14 x 1",
-		base = 42040,
+	[45045] = {
+		id = 45045,
+		damage = "107 x 3",
+		base = 45040,
 		weapon_id = {
-			42045
+			45045
+		}
+	},
+	[45046] = {
+		id = 45046,
+		damage = "115 x 3",
+		base = 45040,
+		weapon_id = {
+			45046
+		}
+	},
+	[45047] = {
+		id = 45047,
+		damage = "122 x 3",
+		base = 45040,
+		weapon_id = {
+			45047
+		}
+	},
+	[45048] = {
+		id = 45048,
+		damage = "130 x 3",
+		base = 45040,
+		weapon_id = {
+			45048
 		}
 	}
 }

@@ -1,86 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_155 = {
-	[67145] = {
-		max_hp = 61,
-		name = "半人马技能鱼雷机Lv5",
-		base = 67140,
-		id = 67145,
-		hp_growth = 2341,
-		weapon_ID = {
-			67185
-		}
-	},
-	[67146] = {
-		max_hp = 66,
-		name = "半人马技能鱼雷机Lv6",
-		base = 67140,
-		id = 67146,
-		hp_growth = 2541,
-		weapon_ID = {
-			67186
-		}
-	},
-	[67147] = {
-		max_hp = 71,
-		name = "半人马技能鱼雷机Lv7",
-		base = 67140,
-		id = 67147,
-		hp_growth = 2742,
-		weapon_ID = {
-			67187
-		}
-	},
-	[67148] = {
+	[65916] = {
 		max_hp = 77,
-		name = "半人马技能鱼雷机Lv8",
-		base = 67140,
-		id = 67148,
-		hp_growth = 2943,
+		name = "天鹰技能G.50Lv6",
+		base = 65911,
+		id = 65916,
+		hp_growth = 2949,
 		weapon_ID = {
-			67188
+			50046,
+			50546,
+			65926
 		}
 	},
-	[67149] = {
-		max_hp = 82,
-		name = "半人马技能鱼雷机Lv9",
-		base = 67140,
-		id = 67149,
-		hp_growth = 3143,
+	[65917] = {
+		max_hp = 83,
+		name = "天鹰技能G.50Lv7",
+		base = 65911,
+		id = 65917,
+		hp_growth = 3182,
 		weapon_ID = {
-			67189
+			50047,
+			50547,
+			65927
 		}
 	},
-	[67150] = {
-		max_hp = 87,
-		name = "半人马技能鱼雷机Lv10",
-		base = 67140,
-		id = 67150,
-		hp_growth = 3344,
+	[65918] = {
+		max_hp = 89,
+		name = "天鹰技能G.50Lv8",
+		base = 65911,
+		id = 65918,
+		hp_growth = 3415,
 		weapon_ID = {
-			67190
+			50048,
+			50548,
+			65928
 		}
 	},
-	[67160] = {
-		name = "半人马技能鱼雷机Lv0",
-		max_hp = 35,
+	[65919] = {
+		max_hp = 95,
+		name = "天鹰技能G.50Lv9",
+		base = 65911,
+		id = 65919,
+		hp_growth = 3648,
+		weapon_ID = {
+			50049,
+			50549,
+			65929
+		}
+	},
+	[65920] = {
+		max_hp = 101,
+		name = "天鹰技能G.50Lv10",
+		base = 65911,
+		id = 65920,
+		hp_growth = 3881,
+		weapon_ID = {
+			50050,
+			50550,
+			65930
+		}
+	},
+	[65931] = {
+		name = "天鹰技能Re.2001舰载鱼雷机Lv1",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "re2001",
 		ACC_growth = 0,
-		crash_DMG = 306,
-		dodge = 1,
+		crash_DMG = 148,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 0,
+		dodge_limit = 9,
 		type = 2,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "re2001",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1338,
-		speed = 45,
-		id = 67160,
+		nationality = 6,
+		hp_growth = 1404,
+		speed = 46,
+		id = 65931,
 		scale = 1,
 		weapon_ID = {
-			67200
+			65941
 		},
 		position_offset = {
 			0,
@@ -123,7 +123,7 @@ pg.aircraft_template_155 = {
 				0
 			},
 			{
-				0.52,
+				0.27,
 				0,
 				0
 			},
@@ -134,34 +134,44 @@ pg.aircraft_template_155 = {
 			}
 		}
 	},
-	[67161] = {
-		max_hp = 40,
-		name = "半人马技能鱼雷机Lv1",
-		base = 67160,
-		id = 67161,
-		hp_growth = 1538,
+	[65932] = {
+		max_hp = 42,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv2",
+		base = 65931,
+		id = 65932,
+		hp_growth = 1615,
 		weapon_ID = {
-			67201
+			65942
 		}
 	},
-	[67162] = {
-		max_hp = 45,
-		name = "半人马技能鱼雷机Lv2",
-		base = 67160,
-		id = 67162,
-		hp_growth = 1739,
+	[65933] = {
+		max_hp = 47,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv3",
+		base = 65931,
+		id = 65933,
+		hp_growth = 1826,
 		weapon_ID = {
-			67202
+			65943
 		}
 	},
-	[67163] = {
-		max_hp = 50,
-		name = "半人马技能鱼雷机Lv3",
-		base = 67160,
-		id = 67163,
-		hp_growth = 1940,
+	[65934] = {
+		max_hp = 53,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv4",
+		base = 65931,
+		id = 65934,
+		hp_growth = 2036,
 		weapon_ID = {
-			67203
+			65944
+		}
+	},
+	[65935] = {
+		max_hp = 58,
+		name = "天鹰技能Re.2001舰载鱼雷机Lv5",
+		base = 65931,
+		id = 65935,
+		hp_growth = 2247,
+		weapon_ID = {
+			65945
 		}
 	}
 }

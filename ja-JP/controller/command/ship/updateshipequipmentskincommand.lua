@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 	slot3 = slot2.shipId
 	slot4 = slot2.pos
 
-	if slot2.equipmentSkinId ~= 0 and (not getProxy(EquipmentProxy):getEquipmnentSkinById(slot5) or slot7.count == 0) then
+	if slot2.equipmentSkinId and slot5 ~= 0 and (not getProxy(EquipmentProxy):getEquipmnentSkinById(slot5) or slot7.count == 0) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
 
 		return
@@ -23,13 +23,13 @@ function slot0.execute(slot0, slot1)
 		pos = slot4
 	}, 12037, function (slot0)
 		if slot0.result == 0 then
-			slot1 = uv0:getEquip(uv1).skinId
+			slot1 = uv0:getEquipSkin(uv1)
 
 			uv0:updateEquipmentSkin(uv1, uv2)
 			uv3:updateShip(uv0)
 
-			if uv2 ~= 0 then
-				if slot1 ~= 0 then
+			if uv2 and uv2 ~= 0 then
+				if slot1 and slot1 ~= 0 then
 					uv4:addEquipmentSkin(slot1, 1)
 				end
 

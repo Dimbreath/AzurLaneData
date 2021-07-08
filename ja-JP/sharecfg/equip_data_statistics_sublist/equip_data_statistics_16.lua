@@ -1,65 +1,42 @@
 pg = pg or {}
 pg.equip_data_statistics_16 = {
-	[727] = {
-		id = 727,
-		value_2 = 120,
-		value_1 = "17",
-		base = 720
-	},
-	[728] = {
-		id = 728,
-		value_2 = 130,
-		value_1 = "18",
-		base = 720
-	},
-	[729] = {
-		id = 729,
-		value_2 = 140,
-		value_1 = "19",
-		base = 720
-	},
-	[730] = {
-		id = 730,
-		value_2 = 150,
+	[748] = {
+		id = 748,
 		value_1 = "20",
-		base = 720
+		base = 740
 	},
-	[731] = {
-		id = 731,
+	[749] = {
+		id = 749,
+		value_1 = "22",
+		base = 740
+	},
+	[750] = {
+		id = 750,
+		value_1 = "24",
+		base = 740
+	},
+	[751] = {
+		id = 751,
 		anti_siren = 100,
-		base = 720,
-		value_2 = 160,
-		value_1 = "21"
+		value_1 = "27",
+		base = 740
 	},
-	[732] = {
-		id = 732,
-		anti_siren = 200,
-		base = 720,
-		value_2 = 170,
-		value_1 = "22"
-	},
-	[733] = {
-		id = 733,
-		anti_siren = 300,
-		base = 720,
-		value_2 = 180,
-		value_1 = "23"
-	},
-	[740] = {
-		name = "Fl 282",
+	[760] = {
+		name = "偵察レポート・NY周辺海域",
 		tech = 0,
-		type = 17,
+		type = 10,
 		speciality = "なし",
-		attribute_1 = "antisub",
-		value_2 = 0,
-		icon = "740",
-		value_1 = "9",
-		descrip = "鉄血の小型艦載ヘリコプターFl 282",
+		id = 760,
+		value_2 = 50,
+		icon = "760",
+		value_1 = "5",
+		attribute_2 = "durability",
 		rarity = 4,
-		nationality = 4,
+		descrip = "ユニオン拠点【NYシティ】周辺海域の偵察レポート。敵のジャミングを受け偵察作戦は途中で中止となったが多くのデータを手に入れた ",
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 740,
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -68,56 +45,115 @@ pg.equip_data_statistics_16 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			2
+		skill_id = {
+			6440
 		},
-		part_sub = {
-			2
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"HELI"
+			"DEV"
 		}
 	},
-	[741] = {
-		id = 741,
+	[761] = {
+		id = 761,
+		value_2 = 55,
+		value_1 = "6",
+		base = 760
+	},
+	[762] = {
+		id = 762,
+		value_2 = 60,
+		value_1 = "7",
+		base = 760
+	},
+	[763] = {
+		id = 763,
+		value_2 = 65,
+		value_1 = "8",
+		base = 760
+	},
+	[764] = {
+		id = 764,
+		value_2 = 70,
+		value_1 = "9",
+		base = 760
+	},
+	[765] = {
+		id = 765,
+		value_2 = 75,
 		value_1 = "10",
-		base = 740
+		base = 760
 	},
-	[742] = {
-		id = 742,
+	[766] = {
+		id = 766,
+		value_2 = 80,
 		value_1 = "11",
-		base = 740
+		base = 760
 	},
-	[743] = {
-		id = 743,
+	[767] = {
+		id = 767,
+		value_2 = 90,
 		value_1 = "12",
-		base = 740
+		base = 760
 	},
-	[744] = {
-		id = 744,
+	[768] = {
+		id = 768,
+		value_2 = 100,
 		value_1 = "13",
-		base = 740
+		base = 760
 	},
-	[745] = {
-		id = 745,
+	[769] = {
+		id = 769,
+		value_2 = 110,
 		value_1 = "14",
-		base = 740
+		base = 760
 	},
-	[746] = {
-		id = 746,
-		value_1 = "16",
-		base = 740
+	[770] = {
+		id = 770,
+		value_2 = 120,
+		value_1 = "15",
+		base = 760
 	},
-	[747] = {
-		id = 747,
-		value_1 = "18",
-		base = 740
+	[771] = {
+		id = 771,
+		anti_siren = 100,
+		base = 760,
+		value_2 = 130,
+		value_1 = "16"
 	},
-	[748] = {
-		id = 748,
-		value_1 = "20",
-		base = 740
+	[780] = {
+		name = "情報レポート・北極要塞",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 780,
+		value_2 = 100,
+		icon = "780",
+		value_1 = "10",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "極秘情報・北方連合の領域内に位置するセイレーン要塞の分析レポート。",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6440
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	}
 }

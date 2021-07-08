@@ -622,5 +622,48 @@ pg.equip_data_statistics_1 = {
 			"TP",
 			"DUO"
 		}
+	},
+	[106] = {
+		name = "0",
+		speciality = "雷撃",
+		type = 5,
+		tech = 1,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		damage = "17 x 3",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 106,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			106
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"TRI"
+		}
 	}
 }

@@ -1,69 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_119 = {
-	[16066] = {
-		id = 16066,
-		damage = "47/回",
-		base = 16060,
+	[16430] = {
+		id = 16430,
+		damage = "108/回",
+		base = 16420,
 		weapon_id = {
-			16066
+			16430
 		}
 	},
-	[16067] = {
-		id = 16067,
-		damage = "50/回",
-		base = 16060,
-		weapon_id = {
-			16067
-		}
-	},
-	[16068] = {
-		id = 16068,
-		damage = "53/回",
-		base = 16060,
-		weapon_id = {
-			16068
-		}
-	},
-	[16069] = {
-		id = 16069,
-		damage = "57/回",
-		base = 16060,
-		weapon_id = {
-			16069
-		}
-	},
-	[16070] = {
-		id = 16070,
-		damage = "61/回",
-		base = 16060,
-		weapon_id = {
-			16070
-		}
-	},
-	[16071] = {
-		anti_siren = 100,
-		damage = "61/回",
-		base = 16060,
-		id = 16071,
-		weapon_id = {
-			16071
-		}
-	},
-	[16080] = {
-		name = "76mm連装RF砲Mk27",
+	[16440] = {
+		name = "四連装ボフォース40mm機関砲",
 		speciality = "対空",
 		type = 6,
-		tech = 0,
+		tech = 3,
 		descrip = "0",
 		value_2 = 45,
-		icon = "16080",
+		icon = "16400",
 		attribute_2 = "antiaircraft",
 		rarity = 5,
-		damage = "33/回",
+		damage = "48/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16080,
+		id = 16440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -75,7 +34,7 @@ pg.equip_data_statistics_119 = {
 			10
 		},
 		weapon_id = {
-			16080
+			16440
 		},
 		skill_id = {},
 		part_main = {
@@ -111,76 +70,173 @@ pg.equip_data_statistics_119 = {
 			"AA"
 		}
 	},
-	[16081] = {
-		id = 16081,
-		damage = "39/回",
-		base = 16080,
+	[16441] = {
+		id = 16441,
+		damage = "55/回",
+		base = 16440,
 		weapon_id = {
-			16081
+			16441
 		}
 	},
-	[16082] = {
-		id = 16082,
-		damage = "45/回",
-		base = 16080,
+	[16442] = {
+		id = 16442,
+		damage = "62/回",
+		base = 16440,
 		weapon_id = {
-			16082
+			16442
 		}
 	},
-	[16083] = {
-		id = 16083,
-		damage = "51/回",
-		base = 16080,
-		weapon_id = {
-			16083
-		}
-	},
-	[16084] = {
-		id = 16084,
-		damage = "57/回",
-		base = 16080,
-		weapon_id = {
-			16084
-		}
-	},
-	[16085] = {
-		id = 16085,
-		damage = "63/回",
-		base = 16080,
-		weapon_id = {
-			16085
-		}
-	},
-	[16086] = {
-		id = 16086,
+	[16443] = {
+		id = 16443,
 		damage = "69/回",
-		base = 16080,
+		base = 16440,
 		weapon_id = {
-			16086
+			16443
 		}
 	},
-	[16087] = {
-		id = 16087,
-		damage = "75/回",
-		base = 16080,
+	[16444] = {
+		id = 16444,
+		damage = "76/回",
+		base = 16440,
 		weapon_id = {
-			16087
+			16444
 		}
 	},
-	[16088] = {
-		id = 16088,
-		damage = "81/回",
-		base = 16080,
+	[16445] = {
+		id = 16445,
+		damage = "83/回",
+		base = 16440,
 		weapon_id = {
-			16088
+			16445
 		}
 	},
-	[16089] = {
-		id = 16089,
-		damage = "87/回",
-		base = 16080,
+	[16446] = {
+		id = 16446,
+		damage = "90/回",
+		base = 16440,
 		weapon_id = {
-			16089
+			16446
+		}
+	},
+	[16447] = {
+		id = 16447,
+		damage = "97/回",
+		base = 16440,
+		weapon_id = {
+			16447
+		}
+	},
+	[16448] = {
+		id = 16448,
+		damage = "104/回",
+		base = 16440,
+		weapon_id = {
+			16448
+		}
+	},
+	[16449] = {
+		id = 16449,
+		damage = "112/回",
+		base = 16440,
+		weapon_id = {
+			16449
+		}
+	},
+	[16450] = {
+		id = 16450,
+		damage = "120/回",
+		base = 16440,
+		weapon_id = {
+			16450
+		}
+	},
+	[16451] = {
+		anti_siren = 100,
+		damage = "120/回",
+		base = 16440,
+		id = 16451,
+		weapon_id = {
+			16451
+		}
+	},
+	[16452] = {
+		anti_siren = 200,
+		damage = "120/回",
+		base = 16440,
+		id = 16452,
+		weapon_id = {
+			16452
+		}
+	},
+	[16453] = {
+		anti_siren = 300,
+		damage = "120/回",
+		base = 16440,
+		id = 16453,
+		weapon_id = {
+			16453
+		}
+	},
+	[17000] = {
+		name = "F2Aバッファロー",
+		tech = 1,
+		speciality = "航空",
+		type = 7,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "17000",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17000,
+			81000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17001] = {
+		id = 17001,
+		base = 17000,
+		ammo_info = {
+			{
+				6,
+				50301
+			}
+		},
+		weapon_id = {
+			17001,
+			81001
 		}
 	}
 }

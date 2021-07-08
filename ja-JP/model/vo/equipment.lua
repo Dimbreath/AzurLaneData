@@ -298,7 +298,7 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 	elseif slot1 == 10 then
 		return {
 			name = i18n("equip_info_12"),
-			value = pg.bullet_template[slot4].extra_param.randomOffsetX
+			value = (pg.bullet_template[slot4].extra_param.randomOffsetX or "0") .. "*" .. (pg.bullet_template[slot4].extra_param.randomOffsetZ or "0")
 		}
 	elseif slot1 == 11 then
 		return {
@@ -519,6 +519,10 @@ end
 
 function slot0.canEquipSkin(slot0)
 	return pg.equip_data_by_type[slot0.config.type].equip_skin == 1
+end
+
+function slot0.getType(slot0)
+	return slot0.config.type
 end
 
 function slot0.hasSkin(slot0)

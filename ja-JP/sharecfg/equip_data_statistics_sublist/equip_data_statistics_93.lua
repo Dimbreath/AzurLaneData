@@ -1,29 +1,78 @@
 pg = pg or {}
 pg.equip_data_statistics_93 = {
-	[12100] = {
-		name = "152mm三連装砲",
+	[13146] = {
+		id = 13146,
+		damage = "43 x 3",
+		base = 13140,
+		weapon_id = {
+			13146
+		}
+	},
+	[13147] = {
+		id = 13147,
+		damage = "46 x 3",
+		base = 13140,
+		weapon_id = {
+			13147
+		}
+	},
+	[13148] = {
+		id = 13148,
+		damage = "48 x 3",
+		base = 13140,
+		weapon_id = {
+			13148
+		}
+	},
+	[13149] = {
+		id = 13149,
+		damage = "50 x 3",
+		base = 13140,
+		weapon_id = {
+			13149
+		}
+	},
+	[13150] = {
+		id = 13150,
+		damage = "52 x 3",
+		base = 13140,
+		weapon_id = {
+			13150
+		}
+	},
+	[13151] = {
+		anti_siren = 100,
+		damage = "52 x 3",
+		base = 13140,
+		id = 13151,
+		weapon_id = {
+			13151
+		}
+	},
+	[13160] = {
+		name = "203mm三連装砲Mk15",
 		speciality = "追尾",
-		type = 2,
-		tech = 1,
+		type = 3,
+		tech = 0,
 		descrip = "0",
-		value_2 = 5,
-		icon = "12100",
+		value_2 = 45,
+		icon = "13160",
 		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 6",
+		rarity = 5,
+		damage = "27 x 6",
 		nationality = 1,
-		ammo = 3,
+		ammo = 1,
 		value_3 = 0,
-		id = 12100,
+		id = 13160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			2
 		},
 		ammo_info = {
 			{
 				1,
-				1001
+				1420
 			}
 		},
 		equip_info = {
@@ -31,11 +80,11 @@ pg.equip_data_statistics_93 = {
 			2,
 			{
 				3,
-				1001
+				1420
 			},
 			{
 				4,
-				1102
+				1214
 			},
 			6,
 			10,
@@ -43,243 +92,100 @@ pg.equip_data_statistics_93 = {
 			12
 		},
 		weapon_id = {
-			12100
+			13160
 		},
 		skill_id = {},
 		part_main = {
-			2
+			3,
+			18
 		},
-		part_sub = {
-			5
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12101] = {
-		id = 12101,
-		damage = "8 x 6",
-		base = 12100,
-		weapon_id = {
-			12101
-		}
-	},
-	[12102] = {
-		id = 12102,
-		damage = "9 x 6",
-		base = 12100,
-		weapon_id = {
-			12102
-		}
-	},
-	[12103] = {
-		id = 12103,
-		damage = "10 x 6",
-		base = 12100,
-		weapon_id = {
-			12103
-		}
-	},
-	[12120] = {
-		name = "152mm三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "12100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 6",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12120
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12121] = {
-		id = 12121,
-		damage = "9 x 6",
-		base = 12120,
-		weapon_id = {
-			12121
-		}
-	},
-	[12122] = {
-		id = 12122,
-		damage = "10 x 6",
-		base = 12120,
-		weapon_id = {
-			12122
-		}
-	},
-	[12123] = {
-		id = 12123,
-		damage = "11 x 6",
-		base = 12120,
-		weapon_id = {
-			12123
-		}
-	},
-	[12124] = {
-		id = 12124,
-		damage = "12 x 6",
-		base = 12120,
-		weapon_id = {
-			12124
-		}
-	},
-	[12125] = {
-		id = 12125,
-		damage = "13 x 6",
-		base = 12120,
-		weapon_id = {
-			12125
-		}
-	},
-	[12126] = {
-		id = 12126,
-		damage = "14 x 6",
-		base = 12120,
-		weapon_id = {
-			12126
-		}
-	},
-	[12140] = {
-		name = "152mm三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "12100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 6",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 12140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1007
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1007
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
+			"CA",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[12141] = {
-		id = 12141,
-		damage = "10 x 6",
-		base = 12140,
+	[13161] = {
+		id = 13161,
+		damage = "30 x 6",
+		base = 13160,
 		weapon_id = {
-			12141
+			13161
 		}
 	},
-	[12142] = {
-		id = 12142,
-		damage = "11 x 6",
-		base = 12140,
+	[13162] = {
+		id = 13162,
+		damage = "33 x 6",
+		base = 13160,
 		weapon_id = {
-			12142
+			13162
 		}
 	},
-	[12143] = {
-		id = 12143,
-		damage = "12 x 6",
-		base = 12140,
+	[13163] = {
+		id = 13163,
+		damage = "35 x 6",
+		base = 13160,
 		weapon_id = {
-			12143
+			13163
 		}
 	},
-	[12144] = {
-		id = 12144,
-		damage = "13 x 6",
-		base = 12140,
+	[13164] = {
+		id = 13164,
+		damage = "37 x 6",
+		base = 13160,
 		weapon_id = {
-			12144
+			13164
+		}
+	},
+	[13165] = {
+		id = 13165,
+		damage = "39 x 6",
+		base = 13160,
+		weapon_id = {
+			13165
+		}
+	},
+	[13166] = {
+		id = 13166,
+		damage = "42 x 6",
+		base = 13160,
+		weapon_id = {
+			13166
+		}
+	},
+	[13167] = {
+		id = 13167,
+		damage = "45 x 6",
+		base = 13160,
+		weapon_id = {
+			13167
+		}
+	},
+	[13168] = {
+		id = 13168,
+		damage = "47 x 6",
+		base = 13160,
+		weapon_id = {
+			13168
+		}
+	},
+	[13169] = {
+		id = 13169,
+		damage = "49 x 6",
+		base = 13160,
+		weapon_id = {
+			13169
+		}
+	},
+	[13170] = {
+		id = 13170,
+		damage = "51 x 6",
+		base = 13160,
+		weapon_id = {
+			13170
 		}
 	}
 }

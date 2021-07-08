@@ -1,44 +1,101 @@
 pg = pg or {}
 pg.equip_data_statistics_83 = {
-	[7224] = {
-		id = 7224,
+	[11142] = {
+		id = 11142,
+		damage = "7 x 3",
+		base = 11140,
+		weapon_id = {
+			11142
+		}
+	},
+	[11143] = {
+		id = 11143,
+		damage = "8 x 3",
+		base = 11140,
+		weapon_id = {
+			11143
+		}
+	},
+	[11144] = {
+		id = 11144,
 		damage = "9 x 3",
-		base = 7220,
+		base = 11140,
 		weapon_id = {
-			7224
+			11144
 		}
 	},
-	[7225] = {
-		id = 7225,
+	[11145] = {
+		id = 11145,
 		damage = "10 x 3",
-		base = 7220,
+		base = 11140,
 		weapon_id = {
-			7225
+			11145
 		}
 	},
-	[7226] = {
-		id = 7226,
+	[11146] = {
+		id = 11146,
+		damage = "11 x 3",
+		base = 11140,
+		weapon_id = {
+			11146
+		}
+	},
+	[11147] = {
+		id = 11147,
 		damage = "12 x 3",
-		base = 7220,
+		base = 11140,
 		weapon_id = {
-			7226
+			11147
 		}
 	},
-	[7240] = {
-		name = "130mm単装砲",
+	[11148] = {
+		id = 11148,
+		damage = "13 x 3",
+		base = 11140,
+		weapon_id = {
+			11148
+		}
+	},
+	[11149] = {
+		id = 11149,
+		damage = "14 x 3",
+		base = 11140,
+		weapon_id = {
+			11149
+		}
+	},
+	[11150] = {
+		id = 11150,
+		damage = "15 x 3",
+		base = 11140,
+		weapon_id = {
+			11150
+		}
+	},
+	[11151] = {
+		anti_siren = 100,
+		damage = "15 x 3",
+		base = 11140,
+		id = 11151,
+		weapon_id = {
+			11151
+		}
+	},
+	[11160] = {
+		name = "127mm連装副砲",
 		speciality = "追尾",
 		type = 1,
-		tech = 3,
+		tech = 0,
 		descrip = "0",
 		value_2 = 25,
-		icon = "7200",
+		icon = "11160",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "6 x 3",
-		nationality = 7,
+		damage = "4 x 4",
+		nationality = 1,
 		ammo = 2,
 		value_3 = 0,
-		id = 7240,
+		id = 11160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -59,7 +116,7 @@ pg.equip_data_statistics_83 = {
 			},
 			{
 				4,
-				1018
+				1027
 			},
 			6,
 			10,
@@ -67,7 +124,7 @@ pg.equip_data_statistics_83 = {
 			12
 		},
 		weapon_id = {
-			7240
+			11160
 		},
 		skill_id = {},
 		part_main = {
@@ -85,158 +142,57 @@ pg.equip_data_statistics_83 = {
 		},
 		equip_parameters = {},
 		label = {
-			"SN",
+			"USS",
 			"DD",
 			"MG",
 			"HE"
 		}
 	},
-	[7241] = {
-		id = 7241,
-		damage = "7 x 3",
-		base = 7240,
+	[11161] = {
+		id = 11161,
+		base = 11160,
 		weapon_id = {
-			7241
+			11161
 		}
 	},
-	[7242] = {
-		id = 7242,
-		damage = "8 x 3",
-		base = 7240,
+	[11162] = {
+		id = 11162,
+		damage = "7 x 4",
+		base = 11160,
 		weapon_id = {
-			7242
+			11162
 		}
 	},
-	[7243] = {
-		id = 7243,
-		damage = "9 x 3",
-		base = 7240,
+	[11163] = {
+		id = 11163,
+		damage = "8 x 4",
+		base = 11160,
 		weapon_id = {
-			7243
+			11163
 		}
 	},
-	[7244] = {
-		id = 7244,
-		damage = "10 x 3",
-		base = 7240,
+	[11164] = {
+		id = 11164,
+		damage = "9 x 4",
+		base = 11160,
 		weapon_id = {
-			7244
+			11164
 		}
 	},
-	[7245] = {
-		id = 7245,
-		damage = "11 x 3",
-		base = 7240,
+	[11165] = {
+		id = 11165,
+		damage = "10 x 4",
+		base = 11160,
 		weapon_id = {
-			7245
+			11165
 		}
 	},
-	[7246] = {
-		id = 7246,
-		damage = "12 x 3",
-		base = 7240,
+	[11166] = {
+		id = 11166,
+		damage = "11 x 4",
+		base = 11160,
 		weapon_id = {
-			7246
-		}
-	},
-	[7247] = {
-		id = 7247,
-		damage = "13 x 3",
-		base = 7240,
-		weapon_id = {
-			7247
-		}
-	},
-	[7248] = {
-		id = 7248,
-		damage = "14 x 3",
-		base = 7240,
-		weapon_id = {
-			7248
-		}
-	},
-	[7249] = {
-		id = 7249,
-		damage = "15 x 3",
-		base = 7240,
-		weapon_id = {
-			7249
-		}
-	},
-	[7250] = {
-		id = 7250,
-		damage = "17 x 3",
-		base = 7240,
-		weapon_id = {
-			7250
-		}
-	},
-	[7251] = {
-		anti_siren = 100,
-		damage = "17 x 3",
-		base = 7240,
-		id = 7251,
-		weapon_id = {
-			7251
-		}
-	},
-	[7300] = {
-		name = "試製203mm三連装砲",
-		speciality = "追尾",
-		type = 3,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "7300",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "30 x 3",
-		nationality = 8,
-		ammo = 2,
-		value_3 = 0,
-		id = 7300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1213
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7300
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CA",
-			"MG",
-			"HE"
+			11166
 		}
 	}
 }

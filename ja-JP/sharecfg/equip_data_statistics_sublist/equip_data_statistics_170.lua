@@ -1,179 +1,191 @@
 pg = pg or {}
 pg.equip_data_statistics_170 = {
-	[24045] = {
-		id = 24045,
-		damage = "79 x 4",
-		base = 24040,
+	[25142] = {
+		id = 25142,
+		damage = "82 x 3",
+		base = 25140,
 		weapon_id = {
-			24045
+			25142
 		}
 	},
-	[24046] = {
-		id = 24046,
-		damage = "84 x 4",
-		base = 24040,
+	[25143] = {
+		id = 25143,
+		damage = "91 x 3",
+		base = 25140,
 		weapon_id = {
-			24046
+			25143
 		}
 	},
-	[24047] = {
-		id = 24047,
-		damage = "91 x 4",
-		base = 24040,
+	[25144] = {
+		id = 25144,
+		damage = "100 x 3",
+		base = 25140,
 		weapon_id = {
-			24047
+			25144
 		}
 	},
-	[24048] = {
-		id = 24048,
-		damage = "96 x 4",
-		base = 24040,
+	[25145] = {
+		id = 25145,
+		damage = "109 x 3",
+		base = 25140,
 		weapon_id = {
-			24048
+			25145
 		}
 	},
-	[24049] = {
-		id = 24049,
-		damage = "103 x 4",
-		base = 24040,
+	[25146] = {
+		id = 25146,
+		damage = "119 x 3",
+		base = 25140,
 		weapon_id = {
-			24049
+			25146
 		}
 	},
-	[24050] = {
-		id = 24050,
-		damage = "108 x 4",
-		base = 24040,
+	[25147] = {
+		id = 25147,
+		damage = "129 x 3",
+		base = 25140,
 		weapon_id = {
-			24050
+			25147
 		}
 	},
-	[24051] = {
+	[25148] = {
+		id = 25148,
+		damage = "139 x 3",
+		base = 25140,
+		weapon_id = {
+			25148
+		}
+	},
+	[25149] = {
+		id = 25149,
+		damage = "149 x 3",
+		base = 25140,
+		weapon_id = {
+			25149
+		}
+	},
+	[25150] = {
+		id = 25150,
+		damage = "159 x 3",
+		base = 25140,
+		weapon_id = {
+			25150
+		}
+	},
+	[25151] = {
 		anti_siren = 100,
-		damage = "108 x 4",
-		base = 24040,
-		id = 24051,
+		damage = "159 x 3",
+		base = 25140,
+		id = 25151,
 		weapon_id = {
-			24051
+			25151
 		}
 	},
-	[24052] = {
-		anti_siren = 200,
-		damage = "108 x 4",
-		base = 24040,
-		id = 24052,
-		weapon_id = {
-			24052
-		}
-	},
-	[24053] = {
-		anti_siren = 300,
-		damage = "108 x 4",
-		base = 24040,
-		id = 24053,
-		weapon_id = {
-			24053
-		}
-	},
-	[24060] = {
-		name = "356mm連装砲MarkVII",
-		speciality = "投射",
-		type = 4,
+	[25200] = {
+		name = "潜水艦用Mark12魚雷“Ferry”",
+		speciality = "雷撃",
+		type = 13,
 		tech = 0,
 		descrip = "0",
-		value_2 = 25,
-		icon = "24060",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "56 x 2",
+		value_2 = 45,
+		icon = "25200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "56 x 3",
 		nationality = 2,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 24060,
+		id = 25200,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				2,
-				1522
+				3,
+				1830
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1830
+			},
+			{
+				4,
+				1602
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			24060
+			25200
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG",
-			"HE"
+			"SS",
+			"TP"
 		}
 	},
-	[24061] = {
-		id = 24061,
-		damage = "63 x 2",
-		base = 24060,
+	[25201] = {
+		id = 25201,
+		damage = "64 x 3",
+		base = 25200,
 		weapon_id = {
-			24061
+			25201
 		}
 	},
-	[24062] = {
-		id = 24062,
-		damage = "68 x 2",
-		base = 24060,
+	[25202] = {
+		id = 25202,
+		damage = "72 x 3",
+		base = 25200,
 		weapon_id = {
-			24062
+			25202
 		}
 	},
-	[24063] = {
-		id = 24063,
-		damage = "75 x 2",
-		base = 24060,
+	[25203] = {
+		id = 25203,
+		damage = "80 x 3",
+		base = 25200,
 		weapon_id = {
-			24063
+			25203
 		}
 	},
-	[24064] = {
-		id = 24064,
-		damage = "80 x 2",
-		base = 24060,
+	[25204] = {
+		id = 25204,
+		damage = "88 x 3",
+		base = 25200,
 		weapon_id = {
-			24064
+			25204
 		}
 	},
-	[24065] = {
-		id = 24065,
-		damage = "87 x 2",
-		base = 24060,
+	[25205] = {
+		id = 25205,
+		damage = "96 x 3",
+		base = 25200,
 		weapon_id = {
-			24065
+			25205
 		}
 	},
-	[24066] = {
-		id = 24066,
-		damage = "92 x 2",
-		base = 24060,
+	[25206] = {
+		id = 25206,
+		damage = "104 x 3",
+		base = 25200,
 		weapon_id = {
-			24066
+			25206
 		}
 	}
 }

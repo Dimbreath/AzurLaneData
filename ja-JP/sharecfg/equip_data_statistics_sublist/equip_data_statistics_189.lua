@@ -1,293 +1,410 @@
 pg = pg or {}
 pg.equip_data_statistics_189 = {
-	[26300] = {
-		name = "76mm高角砲",
-		speciality = "対空",
-		type = 6,
+	[27067] = {
+		id = 27067,
+		base = 27060,
+		ammo_info = {
+			{
+				6,
+				50167
+			},
+			{
+				6,
+				50567
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			27067,
+			82067
+		}
+	},
+	[27068] = {
+		id = 27068,
+		base = 27060,
+		ammo_info = {
+			{
+				6,
+				50168
+			},
+			{
+				6,
+				50568
+			},
+			{
+				5,
+				52248
+			}
+		},
+		weapon_id = {
+			27068,
+			82068
+		}
+	},
+	[27069] = {
+		id = 27069,
+		base = 27060,
+		ammo_info = {
+			{
+				6,
+				50169
+			},
+			{
+				6,
+				50569
+			},
+			{
+				5,
+				52249
+			}
+		},
+		weapon_id = {
+			27069,
+			82069
+		}
+	},
+	[27070] = {
+		id = 27070,
+		base = 27060,
+		ammo_info = {
+			{
+				6,
+				50170
+			},
+			{
+				6,
+				50570
+			},
+			{
+				5,
+				52250
+			}
+		},
+		weapon_id = {
+			27070,
+			82070
+		}
+	},
+	[27071] = {
+		anti_siren = 100,
+		base = 27060,
+		id = 27071,
+		ammo_info = {
+			{
+				6,
+				50171
+			},
+			{
+				6,
+				50571
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			27071,
+			82071
+		}
+	},
+	[27072] = {
+		anti_siren = 200,
+		base = 27060,
+		id = 27072,
+		ammo_info = {
+			{
+				6,
+				50172
+			},
+			{
+				6,
+				50572
+			},
+			{
+				5,
+				52252
+			}
+		},
+		weapon_id = {
+			27072,
+			82072
+		}
+	},
+	[27073] = {
+		anti_siren = 300,
+		base = 27060,
+		id = 27073,
+		ammo_info = {
+			{
+				6,
+				50173
+			},
+			{
+				6,
+				50573
+			},
+			{
+				5,
+				52253
+			}
+		},
+		weapon_id = {
+			27073,
+			82073
+		}
+	},
+	[27100] = {
+		name = "シーファング",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
 		tech = 1,
 		descrip = "0",
-		value_2 = 5,
-		icon = "26300",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "16/回",
-		nationality = 1,
+		value_2 = 12,
+		icon = "27100",
+		attribute_2 = "air",
+		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 26300,
+		id = 27100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50600
+			},
+			{
+				5,
+				52300
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26300
+			27100,
+			82100
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[26301] = {
-		id = 26301,
-		damage = "18/回",
-		base = 26300,
+	[27101] = {
+		id = 27101,
+		base = 27100,
+		ammo_info = {
+			{
+				6,
+				50601
+			},
+			{
+				5,
+				52301
+			}
+		},
 		weapon_id = {
-			26301
+			27101,
+			82101
 		}
 	},
-	[26302] = {
-		id = 26302,
-		damage = "21/回",
-		base = 26300,
+	[27102] = {
+		id = 27102,
+		base = 27100,
+		ammo_info = {
+			{
+				6,
+				50602
+			},
+			{
+				5,
+				52302
+			}
+		},
 		weapon_id = {
-			26302
+			27102,
+			82102
 		}
 	},
-	[26303] = {
-		id = 26303,
-		damage = "24/回",
-		base = 26300,
+	[27103] = {
+		id = 27103,
+		base = 27100,
+		ammo_info = {
+			{
+				6,
+				50603
+			},
+			{
+				5,
+				52303
+			}
+		},
 		weapon_id = {
-			26303
+			27103,
+			82103
 		}
 	},
-	[26320] = {
-		name = "76mm高角砲",
-		speciality = "対空",
-		type = 6,
+	[27104] = {
+		id = 27104,
+		base = 27100,
+		ammo_info = {
+			{
+				6,
+				50604
+			},
+			{
+				5,
+				52304
+			}
+		},
+		weapon_id = {
+			27104,
+			82104
+		}
+	},
+	[27105] = {
+		id = 27105,
+		base = 27100,
+		ammo_info = {
+			{
+				6,
+				50605
+			},
+			{
+				5,
+				52305
+			}
+		},
+		weapon_id = {
+			27105,
+			82105
+		}
+	},
+	[27106] = {
+		id = 27106,
+		base = 27100,
+		ammo_info = {
+			{
+				6,
+				50606
+			},
+			{
+				5,
+				52306
+			}
+		},
+		weapon_id = {
+			27106,
+			82106
+		}
+	},
+	[27120] = {
+		name = "シーファング",
+		type = 7,
+		speciality = "航空",
+		rarity = 4,
 		tech = 2,
 		descrip = "0",
-		value_2 = 12,
-		icon = "26300",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "18/回",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 26320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26321] = {
-		id = 26321,
-		damage = "21/回",
-		base = 26320,
-		weapon_id = {
-			26321
-		}
-	},
-	[26322] = {
-		id = 26322,
-		damage = "24/回",
-		base = 26320,
-		weapon_id = {
-			26322
-		}
-	},
-	[26323] = {
-		id = 26323,
-		damage = "27/回",
-		base = 26320,
-		weapon_id = {
-			26323
-		}
-	},
-	[26324] = {
-		id = 26324,
-		damage = "30/回",
-		base = 26320,
-		weapon_id = {
-			26324
-		}
-	},
-	[26325] = {
-		id = 26325,
-		damage = "33/回",
-		base = 26320,
-		weapon_id = {
-			26325
-		}
-	},
-	[26326] = {
-		id = 26326,
-		damage = "36/回",
-		base = 26320,
-		weapon_id = {
-			26326
-		}
-	},
-	[26340] = {
-		name = "76mm高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
 		value_2 = 25,
-		icon = "26300",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "22/回",
-		nationality = 1,
+		icon = "27100",
+		attribute_2 = "air",
+		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 26340,
+		id = 27120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50620
+			},
+			{
+				5,
+				52320
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26340
+			27120,
+			82120
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[26341] = {
-		id = 26341,
-		damage = "25/回",
-		base = 26340,
+	[27121] = {
+		id = 27121,
+		base = 27120,
+		ammo_info = {
+			{
+				6,
+				50621
+			},
+			{
+				5,
+				52321
+			}
+		},
 		weapon_id = {
-			26341
+			27121,
+			82121
 		}
 	},
-	[26342] = {
-		id = 26342,
-		damage = "28/回",
-		base = 26340,
+	[27122] = {
+		id = 27122,
+		base = 27120,
+		ammo_info = {
+			{
+				6,
+				50622
+			},
+			{
+				5,
+				52322
+			}
+		},
 		weapon_id = {
-			26342
-		}
-	},
-	[26343] = {
-		id = 26343,
-		damage = "31/回",
-		base = 26340,
-		weapon_id = {
-			26343
-		}
-	},
-	[26344] = {
-		id = 26344,
-		damage = "34/回",
-		base = 26340,
-		weapon_id = {
-			26344
+			27122,
+			82122
 		}
 	}
 }

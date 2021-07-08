@@ -1,304 +1,13 @@
 pg = pg or {}
 pg.equip_data_template_395 = {
-	[95240] = {
-		important = 1,
-		destory_gold = 25,
-		type = 3,
-		group = 95240,
-		restore_gold = 0,
-		trans_use_gold = 30,
-		next = 95241,
-		prev = 0,
-		id = 95240,
-		equip_limit = 0,
-		level = 1,
-		ship_type_forbidden = {
-			8,
-			17
-		},
-		trans_use_item = {
-			{
-				17011,
-				2
-			}
-		},
-		destory_item = {
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {},
-		upgrade_formula_id = {}
-	},
-	[95241] = {
-		trans_use_gold = 90,
-		next = 95242,
-		base = 95240,
-		restore_gold = 30,
-		destory_gold = 33,
-		prev = 95240,
-		id = 95241,
-		level = 2,
-		trans_use_item = {
-			{
-				17011,
-				5
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				1
-			},
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				2
-			}
-		}
-	},
-	[95242] = {
-		trans_use_gold = 150,
-		next = 95243,
-		base = 95240,
-		restore_gold = 120,
-		destory_gold = 55,
-		prev = 95241,
-		id = 95242,
-		level = 3,
-		trans_use_item = {
-			{
-				17011,
-				8
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				2
-			},
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				7
-			}
-		}
-	},
-	[95243] = {
-		trans_use_gold = 240,
-		next = 95244,
-		base = 95240,
-		restore_gold = 270,
-		destory_gold = 93,
-		prev = 95242,
-		id = 95243,
-		level = 4,
-		trans_use_item = {
-			{
-				17012,
-				12
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				4
-			},
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				15
-			}
-		}
-	},
-	[95244] = {
-		trans_use_gold = 330,
-		next = 95245,
-		base = 95240,
-		restore_gold = 510,
-		destory_gold = 153,
-		prev = 95243,
-		id = 95244,
-		level = 5,
-		trans_use_item = {
-			{
-				17012,
-				16
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				4
-			},
-			{
-				17012,
-				3
-			},
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				15
-			},
-			{
-				17012,
-				12
-			}
-		}
-	},
-	[95245] = {
-		trans_use_gold = 420,
-		next = 95246,
-		base = 95240,
-		restore_gold = 840,
-		destory_gold = 235,
-		prev = 95244,
-		id = 95245,
-		level = 6,
-		trans_use_item = {
-			{
-				17012,
-				21
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				4
-			},
-			{
-				17012,
-				7
-			},
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				15
-			},
-			{
-				17012,
-				28
-			}
-		}
-	},
-	[95246] = {
-		trans_use_gold = 540,
-		next = 95247,
-		base = 95240,
-		restore_gold = 1260,
-		destory_gold = 340,
-		prev = 95245,
-		id = 95246,
-		level = 7,
-		trans_use_item = {
-			{
-				17013,
-				27
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				4
-			},
-			{
-				17012,
-				12
-			},
-			{
-				17013,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				15
-			},
-			{
-				17012,
-				49
-			}
-		}
-	},
-	[95247] = {
-		trans_use_gold = 660,
-		next = 95248,
-		base = 95240,
-		restore_gold = 1800,
-		destory_gold = 475,
-		prev = 95246,
-		id = 95247,
-		level = 8,
-		trans_use_item = {
-			{
-				17013,
-				33
-			}
-		},
-		destory_item = {
-			{
-				17011,
-				4
-			},
-			{
-				17012,
-				12
-			},
-			{
-				17013,
-				7
-			}
-		},
-		restore_item = {
-			{
-				17011,
-				15
-			},
-			{
-				17012,
-				49
-			},
-			{
-				17013,
-				27
-			}
-		}
-	},
-	[95248] = {
+	[95048] = {
 		trans_use_gold = 780,
-		next = 95249,
-		base = 95240,
+		next = 95049,
+		base = 95040,
 		restore_gold = 2460,
 		destory_gold = 640,
-		prev = 95247,
-		id = 95248,
+		prev = 95047,
+		id = 95048,
 		level = 9,
 		trans_use_item = {
 			{
@@ -335,14 +44,14 @@ pg.equip_data_template_395 = {
 			}
 		}
 	},
-	[95249] = {
+	[95049] = {
 		trans_use_gold = 900,
-		next = 95250,
-		base = 95240,
+		next = 95050,
+		base = 95040,
 		restore_gold = 3240,
 		destory_gold = 835,
-		prev = 95248,
-		id = 95249,
+		prev = 95048,
+		id = 95049,
 		level = 10,
 		trans_use_item = {
 			{
@@ -379,14 +88,14 @@ pg.equip_data_template_395 = {
 			}
 		}
 	},
-	[95250] = {
+	[95050] = {
 		trans_use_gold = 800,
-		next = 95251,
-		base = 95240,
+		next = 95051,
+		base = 95040,
 		restore_gold = 4140,
 		destory_gold = 1060,
-		prev = 95249,
-		id = 95250,
+		prev = 95049,
+		id = 95050,
 		level = 11,
 		trans_use_item = {
 			{
@@ -423,14 +132,14 @@ pg.equip_data_template_395 = {
 			}
 		}
 	},
-	[95251] = {
+	[95051] = {
 		trans_use_gold = 1000,
-		next = 95252,
-		base = 95240,
+		next = 95052,
+		base = 95040,
 		restore_gold = 4940,
 		destory_gold = 1260,
-		prev = 95250,
-		id = 95251,
+		prev = 95050,
+		id = 95051,
 		level = 12,
 		trans_use_item = {
 			{
@@ -475,14 +184,14 @@ pg.equip_data_template_395 = {
 			}
 		}
 	},
-	[95252] = {
+	[95052] = {
 		trans_use_gold = 1200,
-		next = 95253,
-		base = 95240,
+		next = 95053,
+		base = 95040,
 		restore_gold = 5940,
 		destory_gold = 1510,
-		prev = 95251,
-		id = 95252,
+		prev = 95051,
+		id = 95052,
 		level = 13,
 		trans_use_item = {
 			{
@@ -531,14 +240,14 @@ pg.equip_data_template_395 = {
 			}
 		}
 	},
-	[95253] = {
+	[95053] = {
 		trans_use_gold = 0,
 		next = 0,
-		base = 95240,
+		base = 95040,
 		restore_gold = 7140,
 		destory_gold = 1810,
-		prev = 95252,
-		id = 95253,
+		prev = 95052,
+		id = 95053,
 		level = 14,
 		trans_use_item = {},
 		destory_item = {
@@ -582,30 +291,279 @@ pg.equip_data_template_395 = {
 			}
 		}
 	},
-	[95300] = {
+	[95100] = {
 		important = 1,
-		destory_gold = 4,
-		type = 3,
-		group = 95300,
+		destory_gold = 9,
+		type = 6,
+		group = 95100,
 		restore_gold = 0,
 		trans_use_gold = 20,
-		next = 95301,
+		next = 95101,
 		prev = 0,
-		id = 95300,
+		id = 95100,
 		equip_limit = 0,
 		level = 1,
-		ship_type_forbidden = {
-			8,
-			17
-		},
+		ship_type_forbidden = {},
 		trans_use_item = {
 			{
-				17011,
+				17031,
 				1
 			}
 		},
-		destory_item = {},
+		destory_item = {
+			{
+				17031,
+				1
+			}
+		},
 		restore_item = {},
 		upgrade_formula_id = {}
+	},
+	[95101] = {
+		trans_use_gold = 60,
+		next = 95102,
+		base = 95100,
+		restore_gold = 20,
+		destory_gold = 14,
+		prev = 95100,
+		id = 95101,
+		level = 2,
+		trans_use_item = {
+			{
+				17031,
+				3
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				2
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				1
+			}
+		}
+	},
+	[95102] = {
+		trans_use_gold = 100,
+		next = 95103,
+		base = 95100,
+		restore_gold = 80,
+		destory_gold = 29,
+		prev = 95101,
+		id = 95102,
+		level = 3,
+		trans_use_item = {
+			{
+				17031,
+				5
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				3
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				4
+			}
+		}
+	},
+	[95103] = {
+		trans_use_gold = 160,
+		next = 95104,
+		base = 95100,
+		restore_gold = 180,
+		destory_gold = 54,
+		prev = 95102,
+		id = 95103,
+		level = 4,
+		trans_use_item = {
+			{
+				17032,
+				8
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				4
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				9
+			}
+		}
+	},
+	[95104] = {
+		trans_use_gold = 220,
+		next = 95105,
+		base = 95100,
+		restore_gold = 340,
+		destory_gold = 94,
+		prev = 95103,
+		id = 95104,
+		level = 5,
+		trans_use_item = {
+			{
+				17032,
+				11
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				4
+			},
+			{
+				17032,
+				2
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				9
+			},
+			{
+				17032,
+				8
+			}
+		}
+	},
+	[95105] = {
+		trans_use_gold = 280,
+		next = 95106,
+		base = 95100,
+		restore_gold = 560,
+		destory_gold = 149,
+		prev = 95104,
+		id = 95105,
+		level = 6,
+		trans_use_item = {
+			{
+				17032,
+				14
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				4
+			},
+			{
+				17032,
+				5
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				9
+			},
+			{
+				17032,
+				19
+			}
+		}
+	},
+	[95106] = {
+		trans_use_gold = 0,
+		next = 0,
+		base = 95100,
+		restore_gold = 840,
+		destory_gold = 219,
+		prev = 95105,
+		id = 95106,
+		level = 7,
+		trans_use_item = {},
+		destory_item = {
+			{
+				17031,
+				4
+			},
+			{
+				17032,
+				8
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				9
+			},
+			{
+				17032,
+				33
+			}
+		}
+	},
+	[95120] = {
+		important = 1,
+		destory_gold = 16,
+		type = 6,
+		group = 95120,
+		restore_gold = 0,
+		trans_use_gold = 20,
+		next = 95121,
+		prev = 0,
+		id = 95120,
+		equip_limit = 0,
+		level = 1,
+		ship_type_forbidden = {},
+		trans_use_item = {
+			{
+				17031,
+				1
+			}
+		},
+		destory_item = {
+			{
+				17032,
+				1
+			}
+		},
+		restore_item = {},
+		upgrade_formula_id = {}
+	},
+	[95121] = {
+		trans_use_gold = 60,
+		next = 95122,
+		base = 95120,
+		restore_gold = 20,
+		destory_gold = 21,
+		prev = 95120,
+		id = 95121,
+		level = 2,
+		trans_use_item = {
+			{
+				17031,
+				3
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				1
+			},
+			{
+				17032,
+				1
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				1
+			}
+		}
 	}
 }

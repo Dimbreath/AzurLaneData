@@ -1,431 +1,378 @@
 pg = pg or {}
 pg.equip_data_statistics_333 = {
-	[48050] = {
-		id = 48050,
-		base = 48040,
-		ammo_info = {
-			{
-				6,
-				59350
-			},
-			{
-				4,
-				59710
-			}
-		},
+	[70262] = {
+		id = 70262,
+		base = 70261,
 		weapon_id = {
-			48050
+			70262
 		}
 	},
-	[48051] = {
-		anti_siren = 100,
-		base = 48040,
-		id = 48051,
-		ammo_info = {
-			{
-				6,
-				59351
-			},
-			{
-				4,
-				59711
-			}
-		},
-		weapon_id = {
-			48051
-		}
-	},
-	[48052] = {
-		anti_siren = 200,
-		base = 48040,
-		id = 48052,
-		ammo_info = {
-			{
-				6,
-				59352
-			},
-			{
-				4,
-				59712
-			}
-		},
-		weapon_id = {
-			48052
-		}
-	},
-	[48053] = {
-		anti_siren = 300,
-		base = 48040,
-		id = 48053,
-		ammo_info = {
-			{
-				6,
-				59353
-			},
-			{
-				4,
-				59713
-			}
-		},
-		weapon_id = {
-			48053
-		}
-	},
-	[49000] = {
-		name = "Ju-87C急降下爆撃機",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
+	[70271] = {
+		name = "0",
 		tech = 1,
-		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
-		value_2 = 5,
-		icon = "49000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 49000,
+		id = 70271,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59300
-			},
-			{
-				5,
-				52600
-			},
-			{
-				5,
-				53000
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			49000
+			70271
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"DB"
-		}
+		label = {}
 	},
-	[49001] = {
-		id = 49001,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59301
-			},
-			{
-				5,
-				52601
-			},
-			{
-				5,
-				53001
-			}
-		},
+	[70272] = {
+		id = 70272,
+		base = 70271,
 		weapon_id = {
-			49001
+			70272
 		}
 	},
-	[49002] = {
-		id = 49002,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59302
-			},
-			{
-				5,
-				52602
-			},
-			{
-				5,
-				53002
-			}
-		},
-		weapon_id = {
-			49002
-		}
-	},
-	[49003] = {
-		id = 49003,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59303
-			},
-			{
-				5,
-				52603
-			},
-			{
-				5,
-				53003
-			}
-		},
-		weapon_id = {
-			49003
-		}
-	},
-	[49020] = {
-		name = "Ju-87C急降下爆撃機",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
-		tech = 2,
-		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
-		value_2 = 12,
-		icon = "49000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
+	[70311] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 49020,
+		id = 70311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59320
-			},
-			{
-				5,
-				52620
-			},
-			{
-				5,
-				53020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			49020
+			70311
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"DB"
-		}
+		label = {}
 	},
-	[49021] = {
-		id = 49021,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59321
-			},
-			{
-				5,
-				52621
-			},
-			{
-				5,
-				53021
-			}
-		},
+	[70312] = {
+		id = 70312,
+		base = 70311,
 		weapon_id = {
-			49021
+			70312
 		}
 	},
-	[49022] = {
-		id = 49022,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59322
-			},
-			{
-				5,
-				52622
-			},
-			{
-				5,
-				53022
-			}
-		},
-		weapon_id = {
-			49022
-		}
-	},
-	[49023] = {
-		id = 49023,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59323
-			},
-			{
-				5,
-				52623
-			},
-			{
-				5,
-				53023
-			}
-		},
-		weapon_id = {
-			49023
-		}
-	},
-	[49024] = {
-		id = 49024,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59324
-			},
-			{
-				5,
-				52624
-			},
-			{
-				5,
-				53024
-			}
-		},
-		weapon_id = {
-			49024
-		}
-	},
-	[49025] = {
-		id = 49025,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59325
-			},
-			{
-				5,
-				52625
-			},
-			{
-				5,
-				53025
-			}
-		},
-		weapon_id = {
-			49025
-		}
-	},
-	[49026] = {
-		id = 49026,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59326
-			},
-			{
-				5,
-				52626
-			},
-			{
-				5,
-				53026
-			}
-		},
-		weapon_id = {
-			49026
-		}
-	},
-	[49040] = {
-		name = "Ju-87C急降下爆撃機",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 4,
-		tech = 3,
-		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
-		value_2 = 25,
-		icon = "49000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
+	[71011] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 49040,
+		id = 71011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59340
-			},
-			{
-				5,
-				52640
-			},
-			{
-				5,
-				53040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			49040
+			71011
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"DB"
+		label = {}
+	},
+	[71012] = {
+		id = 71012,
+		base = 71011,
+		weapon_id = {
+			71012
+		}
+	},
+	[71021] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71021
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71022] = {
+		id = 71022,
+		base = 71021,
+		weapon_id = {
+			71022
+		}
+	},
+	[71031] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71031,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71031
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71032] = {
+		id = 71032,
+		base = 71031,
+		weapon_id = {
+			71032
+		}
+	},
+	[71041] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71041,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71041
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71042] = {
+		id = 71042,
+		base = 71041,
+		weapon_id = {
+			71042
+		}
+	},
+	[71051] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71051,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71051
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71052] = {
+		id = 71052,
+		base = 71051,
+		weapon_id = {
+			71052
+		}
+	},
+	[71061] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71061,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71061
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71062] = {
+		id = 71062,
+		base = 71061,
+		weapon_id = {
+			71062
 		}
 	}
 }

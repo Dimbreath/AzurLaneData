@@ -1,284 +1,196 @@
 pg = pg or {}
 pg.equip_data_statistics_249 = {
-	[35400] = {
-		name = "潜水艦用九二式電動魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 1,
+	[36648] = {
+		id = 36648,
+		damage = "102/回",
+		base = 36640,
+		weapon_id = {
+			36648
+		}
+	},
+	[36649] = {
+		id = 36649,
+		damage = "109/回",
+		base = 36640,
+		weapon_id = {
+			36649
+		}
+	},
+	[36650] = {
+		id = 36650,
+		damage = "116/回",
+		base = 36640,
+		weapon_id = {
+			36650
+		}
+	},
+	[36651] = {
+		anti_siren = 100,
+		damage = "116/回",
+		base = 36640,
+		id = 36651,
+		weapon_id = {
+			36651
+		}
+	},
+	[36660] = {
+		name = "127mm連装高角砲改",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
 		descrip = "0",
-		value_2 = 5,
-		icon = "35400",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "48 x 2",
+		value_2 = 45,
+		icon = "36660",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "54/回",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 35400,
+		id = 36660,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1823
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1823
-			},
-			{
-				4,
-				1601
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			35400
+			36660
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[35401] = {
-		id = 35401,
-		damage = "55 x 2",
-		base = 35400,
+	[36661] = {
+		id = 36661,
+		damage = "61/回",
+		base = 36660,
 		weapon_id = {
-			35401
+			36661
 		}
 	},
-	[35402] = {
-		id = 35402,
-		damage = "62 x 2",
-		base = 35400,
+	[36662] = {
+		id = 36662,
+		damage = "68/回",
+		base = 36660,
 		weapon_id = {
-			35402
+			36662
 		}
 	},
-	[35403] = {
-		id = 35403,
-		damage = "69 x 2",
-		base = 35400,
+	[36663] = {
+		id = 36663,
+		damage = "75/回",
+		base = 36660,
 		weapon_id = {
-			35403
+			36663
 		}
 	},
-	[35420] = {
-		name = "潜水艦用九二式電動魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "35400",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "54 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1823
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1823
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[36664] = {
+		id = 36664,
+		damage = "82/回",
+		base = 36660,
 		weapon_id = {
-			35420
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"SS",
-			"TP"
+			36664
 		}
 	},
-	[35421] = {
-		id = 35421,
-		damage = "62 x 2",
-		base = 35420,
+	[36665] = {
+		id = 36665,
+		damage = "89/回",
+		base = 36660,
 		weapon_id = {
-			35421
+			36665
 		}
 	},
-	[35422] = {
-		id = 35422,
-		damage = "70 x 2",
-		base = 35420,
+	[36666] = {
+		id = 36666,
+		damage = "96/回",
+		base = 36660,
 		weapon_id = {
-			35422
+			36666
 		}
 	},
-	[35423] = {
-		id = 35423,
-		damage = "78 x 2",
-		base = 35420,
+	[36667] = {
+		id = 36667,
+		damage = "103/回",
+		base = 36660,
 		weapon_id = {
-			35423
+			36667
 		}
 	},
-	[35424] = {
-		id = 35424,
-		damage = "86 x 2",
-		base = 35420,
+	[36668] = {
+		id = 36668,
+		damage = "110/回",
+		base = 36660,
 		weapon_id = {
-			35424
+			36668
 		}
 	},
-	[35425] = {
-		id = 35425,
-		damage = "94 x 2",
-		base = 35420,
+	[36669] = {
+		id = 36669,
+		damage = "117/回",
+		base = 36660,
 		weapon_id = {
-			35425
+			36669
 		}
 	},
-	[35426] = {
-		id = 35426,
-		damage = "102 x 2",
-		base = 35420,
+	[36670] = {
+		id = 36670,
+		damage = "124/回",
+		base = 36660,
 		weapon_id = {
-			35426
+			36670
 		}
 	},
-	[35440] = {
-		name = "潜水艦用九二式電動魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "35400",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "60 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1823
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1823
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[36671] = {
+		anti_siren = 100,
+		damage = "124/回",
+		base = 36660,
+		id = 36671,
 		weapon_id = {
-			35440
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"SS",
-			"TP"
+			36671
 		}
 	},
-	[35441] = {
-		id = 35441,
-		damage = "69 x 2",
-		base = 35440,
+	[36672] = {
+		anti_siren = 200,
+		damage = "124/回",
+		base = 36660,
+		id = 36672,
 		weapon_id = {
-			35441
-		}
-	},
-	[35442] = {
-		id = 35442,
-		damage = "78 x 2",
-		base = 35440,
-		weapon_id = {
-			35442
-		}
-	},
-	[35443] = {
-		id = 35443,
-		damage = "87 x 2",
-		base = 35440,
-		weapon_id = {
-			35443
-		}
-	},
-	[35444] = {
-		id = 35444,
-		damage = "96 x 2",
-		base = 35440,
-		weapon_id = {
-			35444
+			36672
 		}
 	}
 }

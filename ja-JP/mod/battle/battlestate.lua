@@ -156,6 +156,11 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 
 	slot0._dataProxy:InitBattle(slot1)
 
+	if BATTLE_DEFAULT_UNIT_DETAIL then
+		slot0:AddMediator(uv0.Battle.BattleReferenceBoxMediator.New())
+		slot0:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitDetail(true)
+	end
+
 	if not slot2 then
 		slot0:ChangeState(uv1.BATTLE_STATE_OPENING)
 		UpdateBeat:Add(slot0.Update, slot0)

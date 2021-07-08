@@ -1,127 +1,62 @@
 pg = pg or {}
 pg.equip_data_statistics_84 = {
-	[7301] = {
-		id = 7301,
-		damage = "32 x 3",
-		base = 7300,
+	[11167] = {
+		id = 11167,
+		damage = "12 x 4",
+		base = 11160,
 		weapon_id = {
-			7301
+			11167
 		}
 	},
-	[7302] = {
-		id = 7302,
-		damage = "34 x 3",
-		base = 7300,
+	[11168] = {
+		id = 11168,
+		damage = "13 x 4",
+		base = 11160,
 		weapon_id = {
-			7302
+			11168
 		}
 	},
-	[7303] = {
-		id = 7303,
-		damage = "36 x 3",
-		base = 7300,
+	[11169] = {
+		id = 11169,
+		damage = "14 x 4",
+		base = 11160,
 		weapon_id = {
-			7303
+			11169
 		}
 	},
-	[7304] = {
-		id = 7304,
-		damage = "38 x 3",
-		base = 7300,
+	[11170] = {
+		id = 11170,
+		damage = "15 x 4",
+		base = 11160,
 		weapon_id = {
-			7304
+			11170
 		}
 	},
-	[7305] = {
-		id = 7305,
-		damage = "40 x 3",
-		base = 7300,
-		weapon_id = {
-			7305
-		}
-	},
-	[7306] = {
-		id = 7306,
-		damage = "42 x 3",
-		base = 7300,
-		weapon_id = {
-			7306
-		}
-	},
-	[7307] = {
-		id = 7307,
-		damage = "44 x 3",
-		base = 7300,
-		weapon_id = {
-			7307
-		}
-	},
-	[7308] = {
-		id = 7308,
-		damage = "46 x 3",
-		base = 7300,
-		weapon_id = {
-			7308
-		}
-	},
-	[7309] = {
-		id = 7309,
-		damage = "49 x 3",
-		base = 7300,
-		weapon_id = {
-			7309
-		}
-	},
-	[7310] = {
-		id = 7310,
-		damage = "52 x 3",
-		base = 7300,
-		weapon_id = {
-			7310
-		}
-	},
-	[7311] = {
+	[11171] = {
 		anti_siren = 100,
-		damage = "52 x 3",
-		base = 7300,
-		id = 7311,
+		damage = "15 x 4",
+		base = 11160,
+		id = 11171,
 		weapon_id = {
-			7311
+			11171
 		}
 	},
-	[7312] = {
-		anti_siren = 200,
-		damage = "52 x 3",
-		base = 7300,
-		id = 7312,
-		weapon_id = {
-			7312
-		}
-	},
-	[7313] = {
-		anti_siren = 300,
-		damage = "52 x 3",
-		base = 7300,
-		id = 7313,
-		weapon_id = {
-			7313
-		}
-	},
-	[7320] = {
-		name = "130mm副砲Mle1932",
+	[11200] = {
+		name = "127mm連装両用砲MK12",
 		speciality = "追尾",
 		type = 1,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "7320",
+		attribute_3 = "antiaircraft",
+		tech = 1,
+		value_2 = 5,
+		icon = "11200",
 		attribute_2 = "cannon",
+		descrip = "0",
 		rarity = 3,
 		damage = "4 x 4",
-		nationality = 8,
+		nationality = 1,
 		ammo = 3,
-		value_3 = 0,
-		id = 7320,
+		value_3 = 7,
+		id = 11200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -130,7 +65,7 @@ pg.equip_data_statistics_84 = {
 		ammo_info = {
 			{
 				1,
-				2200
+				1000
 			}
 		},
 		equip_info = {
@@ -138,11 +73,11 @@ pg.equip_data_statistics_84 = {
 			2,
 			{
 				3,
-				2200
+				1000
 			},
 			{
 				4,
-				1019
+				1001
 			},
 			6,
 			10,
@@ -150,7 +85,7 @@ pg.equip_data_statistics_84 = {
 			12
 		},
 		weapon_id = {
-			7320
+			11200
 		},
 		skill_id = {},
 		part_main = {
@@ -168,25 +103,155 @@ pg.equip_data_statistics_84 = {
 		},
 		equip_parameters = {},
 		label = {
-			"FFNF",
+			"USS",
 			"DD",
 			"MG"
 		}
 	},
-	[7321] = {
-		id = 7321,
-		damage = "5 x 4",
-		base = 7320,
+	[11201] = {
+		id = 11201,
+		base = 11200,
 		weapon_id = {
-			7321
+			11201
 		}
 	},
-	[7322] = {
-		id = 7322,
+	[11202] = {
+		id = 11202,
 		damage = "6 x 4",
-		base = 7320,
+		base = 11200,
 		weapon_id = {
-			7322
+			11202
+		}
+	},
+	[11203] = {
+		id = 11203,
+		damage = "6 x 4",
+		base = 11200,
+		weapon_id = {
+			11203
+		}
+	},
+	[11204] = {
+		id = 11204,
+		damage = "7 x 4",
+		base = 11200,
+		weapon_id = {
+			11204
+		}
+	},
+	[11205] = {
+		id = 11205,
+		damage = "8 x 4",
+		base = 11200,
+		weapon_id = {
+			11205
+		}
+	},
+	[11206] = {
+		id = 11206,
+		damage = "9 x 4",
+		base = 11200,
+		weapon_id = {
+			11206
+		}
+	},
+	[11220] = {
+		name = "127mm連装両用砲MK12",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 2,
+		value_2 = 11,
+		icon = "11200",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 14,
+		id = 11220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1006
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1006
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[11221] = {
+		id = 11221,
+		base = 11220,
+		weapon_id = {
+			11221
+		}
+	},
+	[11222] = {
+		id = 11222,
+		damage = "6 x 4",
+		base = 11220,
+		weapon_id = {
+			11222
+		}
+	},
+	[11223] = {
+		id = 11223,
+		damage = "7 x 4",
+		base = 11220,
+		weapon_id = {
+			11223
+		}
+	},
+	[11224] = {
+		id = 11224,
+		damage = "8 x 4",
+		base = 11220,
+		weapon_id = {
+			11224
 		}
 	}
 }

@@ -1,108 +1,33 @@
 pg = pg or {}
 pg.equip_data_statistics_31 = {
-	[1272] = {
-		id = 1272,
-		anti_siren = 200,
-		base = 1260,
-		value_2 = 34,
-		value_1 = "42"
+	[1405] = {
+		id = 1405,
+		value_2 = 33,
+		value_1 = "31",
+		base = 1400
 	},
-	[1273] = {
-		id = 1273,
-		anti_siren = 300,
-		base = 1260,
+	[1406] = {
+		id = 1406,
 		value_2 = 36,
-		value_1 = "45"
+		value_1 = "34",
+		base = 1400
 	},
-	[1300] = {
-		name = "バルジ",
-		tech = 1,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "1300",
-		value_1 = "50",
-		descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
-		rarity = 2,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 1300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6010
-		},
-		part_main = {
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1301] = {
-		id = 1301,
-		value_1 = "57",
-		base = 1300
-	},
-	[1302] = {
-		id = 1302,
-		value_1 = "65",
-		base = 1300
-	},
-	[1303] = {
-		id = 1303,
-		value_1 = "72",
-		base = 1300
-	},
-	[1320] = {
-		name = "バルジ",
+	[1420] = {
+		name = "油圧カタパルト",
 		tech = 2,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "1300",
-		value_1 = "90",
-		descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
-		rarity = 3,
+		id = 1420,
+		value_2 = 20,
+		icon = "1400",
+		value_1 = "28",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "発艦用カタパルト。航空を上げることができる",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 1320,
+		attribute_1 = "air",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -111,87 +36,98 @@ pg.equip_data_statistics_31 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6020
-		},
+		skill_id = {},
 		part_main = {
-			2,
-			3,
-			4,
-			5,
 			6,
 			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
+			10
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
 			6,
 			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
+			10
 		},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[1321] = {
-		id = 1321,
-		value_1 = "103",
-		base = 1320
+	[1421] = {
+		id = 1421,
+		value_2 = 24,
+		value_1 = "32",
+		base = 1420
 	},
-	[1322] = {
-		id = 1322,
-		value_1 = "117",
-		base = 1320
+	[1422] = {
+		id = 1422,
+		value_2 = 28,
+		value_1 = "36",
+		base = 1420
 	},
-	[1323] = {
-		id = 1323,
-		value_1 = "130",
-		base = 1320
+	[1423] = {
+		id = 1423,
+		value_2 = 32,
+		value_1 = "40",
+		base = 1420
 	},
-	[1324] = {
-		id = 1324,
-		value_1 = "144",
-		base = 1320
+	[1424] = {
+		id = 1424,
+		value_2 = 36,
+		value_1 = "44",
+		base = 1420
 	},
-	[1325] = {
-		id = 1325,
-		value_1 = "157",
-		base = 1320
+	[1425] = {
+		id = 1425,
+		value_2 = 40,
+		value_1 = "49",
+		base = 1420
 	},
-	[1326] = {
-		id = 1326,
-		value_1 = "171",
-		base = 1320
+	[1426] = {
+		id = 1426,
+		value_2 = 44,
+		value_1 = "53",
+		base = 1420
 	},
-	[1340] = {
-		name = "バルジ",
+	[1427] = {
+		id = 1427,
+		value_2 = 48,
+		value_1 = "57",
+		base = 1420
+	},
+	[1428] = {
+		id = 1428,
+		value_2 = 52,
+		value_1 = "61",
+		base = 1420
+	},
+	[1429] = {
+		id = 1429,
+		value_2 = 56,
+		value_1 = "65",
+		base = 1420
+	},
+	[1430] = {
+		id = 1430,
+		value_2 = 60,
+		value_1 = "70",
+		base = 1420
+	},
+	[1440] = {
+		name = "油圧カタパルト",
 		tech = 3,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "1300",
-		value_1 = "140",
-		descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
-		rarity = 4,
+		id = 1440,
+		value_2 = 25,
+		icon = "1400",
+		value_1 = "40",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "発艦用カタパルト。航空を上げることができる",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 1340,
+		attribute_1 = "air",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -200,50 +136,38 @@ pg.equip_data_statistics_31 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6030
-		},
+		skill_id = {},
 		part_main = {
-			2,
-			3,
-			4,
-			5,
 			6,
 			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
+			10
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
 			6,
 			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
+			10
 		},
 		equip_parameters = {},
 		label = {
 			"DEV"
 		}
 	},
-	[1341] = {
-		id = 1341,
-		value_1 = "161",
-		base = 1340
+	[1441] = {
+		id = 1441,
+		value_2 = 30,
+		value_1 = "46",
+		base = 1440
 	},
-	[1342] = {
-		id = 1342,
-		value_1 = "182",
-		base = 1340
+	[1442] = {
+		id = 1442,
+		value_2 = 35,
+		value_1 = "52",
+		base = 1440
+	},
+	[1443] = {
+		id = 1443,
+		value_2 = 40,
+		value_1 = "58",
+		base = 1440
 	}
 }

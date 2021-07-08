@@ -1,331 +1,251 @@
 pg = pg or {}
 pg.equip_data_statistics_142 = {
-	[18188] = {
-		base = 18180,
-		id = 18188,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				59628
-			}
-		},
+	[21122] = {
+		id = 21122,
+		damage = "4 x 2",
+		base = 21120,
 		weapon_id = {
-			18188
-		},
-		skill_id = {
-			6798
+			21122
 		}
 	},
-	[18189] = {
-		base = 18180,
-		id = 18189,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				59629
-			}
-		},
+	[21123] = {
+		id = 21123,
+		damage = "4 x 2",
+		base = 21120,
 		weapon_id = {
-			18189
-		},
-		skill_id = {
-			6799
+			21123
 		}
 	},
-	[18190] = {
-		base = 18180,
-		id = 18190,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				59630
-			}
-		},
-		weapon_id = {
-			18190
-		},
-		skill_id = {
-			6800
-		}
-	},
-	[18191] = {
-		anti_siren = 100,
-		base = 18180,
-		id = 18191,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				59631
-			}
-		},
-		weapon_id = {
-			18191
-		},
-		skill_id = {
-			6801
-		}
-	},
-	[18192] = {
-		anti_siren = 200,
-		base = 18180,
-		id = 18192,
-		ammo_info = {
-			{
-				6,
-				50052
-			},
-			{
-				4,
-				59632
-			}
-		},
-		weapon_id = {
-			18192
-		},
-		skill_id = {
-			6802
-		}
-	},
-	[18193] = {
-		anti_siren = 300,
-		base = 18180,
-		id = 18193,
-		ammo_info = {
-			{
-				6,
-				50053
-			},
-			{
-				4,
-				59633
-			}
-		},
-		weapon_id = {
-			18193
-		},
-		skill_id = {
-			6803
-		}
-	},
-	[18220] = {
-		name = "XTB2D-1スカイパイレート",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
-		tech = 0,
+	[21140] = {
+		name = "102mm連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
 		descrip = "0",
-		value_2 = 45,
-		icon = "18220",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
+		value_2 = 12,
+		icon = "21100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 18220,
+		id = 21140,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				59740
-			},
-			{
-				4,
-				51240
+				1,
+				1100
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1007
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			18220
+			21140
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"TB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[18221] = {
-		id = 18221,
-		base = 18220,
+	[21141] = {
+		id = 21141,
+		base = 21140,
+		weapon_id = {
+			21141
+		}
+	},
+	[21142] = {
+		id = 21142,
+		damage = "4 x 2",
+		base = 21140,
+		weapon_id = {
+			21142
+		}
+	},
+	[21143] = {
+		id = 21143,
+		damage = "4 x 2",
+		base = 21140,
+		weapon_id = {
+			21143
+		}
+	},
+	[21144] = {
+		id = 21144,
+		damage = "5 x 2",
+		base = 21140,
+		weapon_id = {
+			21144
+		}
+	},
+	[21145] = {
+		id = 21145,
+		damage = "5 x 2",
+		base = 21140,
+		weapon_id = {
+			21145
+		}
+	},
+	[21146] = {
+		id = 21146,
+		damage = "7 x 2",
+		base = 21140,
+		weapon_id = {
+			21146
+		}
+	},
+	[21147] = {
+		id = 21147,
+		damage = "7 x 2",
+		base = 21140,
+		weapon_id = {
+			21147
+		}
+	},
+	[21160] = {
+		name = "102mm連装副砲MarkXVI",
+		speciality = "追尾",
+		type = 1,
+		tech = 0,
+		descrip = "0",
+		value_2 = 25,
+		icon = "21160",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				59741
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
 			},
 			{
 				4,
-				51241
-			}
+				1007
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			18221
+			21160
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[18222] = {
-		id = 18222,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59742
-			},
-			{
-				4,
-				51242
-			}
-		},
+	[21161] = {
+		id = 21161,
+		base = 21160,
 		weapon_id = {
-			18222
+			21161
 		}
 	},
-	[18223] = {
-		id = 18223,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59743
-			},
-			{
-				4,
-				51243
-			}
-		},
+	[21162] = {
+		id = 21162,
+		damage = "4 x 2",
+		base = 21160,
 		weapon_id = {
-			18223
+			21162
 		}
 	},
-	[18224] = {
-		id = 18224,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59744
-			},
-			{
-				4,
-				51244
-			}
-		},
+	[21163] = {
+		id = 21163,
+		damage = "4 x 2",
+		base = 21160,
 		weapon_id = {
-			18224
+			21163
 		}
 	},
-	[18225] = {
-		id = 18225,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59745
-			},
-			{
-				4,
-				51245
-			}
-		},
+	[21164] = {
+		id = 21164,
+		damage = "5 x 2",
+		base = 21160,
 		weapon_id = {
-			18225
+			21164
 		}
 	},
-	[18226] = {
-		id = 18226,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59746
-			},
-			{
-				4,
-				51246
-			}
-		},
+	[21165] = {
+		id = 21165,
+		damage = "5 x 2",
+		base = 21160,
 		weapon_id = {
-			18226
+			21165
 		}
 	},
-	[18227] = {
-		id = 18227,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59747
-			},
-			{
-				4,
-				51247
-			}
-		},
+	[21166] = {
+		id = 21166,
+		damage = "8 x 2",
+		base = 21160,
 		weapon_id = {
-			18227
-		}
-	},
-	[18228] = {
-		id = 18228,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59748
-			},
-			{
-				4,
-				51248
-			}
-		},
-		weapon_id = {
-			18228
-		}
-	},
-	[18229] = {
-		id = 18229,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59749
-			},
-			{
-				4,
-				51249
-			}
-		},
-		weapon_id = {
-			18229
+			21166
 		}
 	}
 }

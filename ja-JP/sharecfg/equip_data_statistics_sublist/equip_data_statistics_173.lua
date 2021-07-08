@@ -1,178 +1,301 @@
 pg = pg or {}
 pg.equip_data_statistics_173 = {
-	[24164] = {
-		id = 24164,
-		damage = "88 x 3",
-		base = 24160,
-		weapon_id = {
-			24164
-		}
-	},
-	[24165] = {
-		id = 24165,
-		damage = "97 x 3",
-		base = 24160,
-		weapon_id = {
-			24165
-		}
-	},
-	[24166] = {
-		id = 24166,
-		damage = "106 x 3",
-		base = 24160,
-		weapon_id = {
-			24166
-		}
-	},
-	[24167] = {
-		id = 24167,
-		damage = "115 x 3",
-		base = 24160,
-		weapon_id = {
-			24167
-		}
-	},
-	[24168] = {
-		id = 24168,
-		damage = "124 x 3",
-		base = 24160,
-		weapon_id = {
-			24168
-		}
-	},
-	[24169] = {
-		id = 24169,
-		damage = "133 x 3",
-		base = 24160,
-		weapon_id = {
-			24169
-		}
-	},
-	[24170] = {
-		id = 24170,
-		damage = "142 x 3",
-		base = 24160,
-		weapon_id = {
-			24170
-		}
-	},
-	[24171] = {
-		anti_siren = 100,
-		damage = "142 x 3",
-		base = 24160,
-		id = 24171,
-		weapon_id = {
-			24171
-		}
-	},
-	[24172] = {
-		anti_siren = 200,
-		damage = "142 x 3",
-		base = 24160,
-		id = 24172,
-		weapon_id = {
-			24172
-		}
-	},
-	[24173] = {
+	[25813] = {
 		anti_siren = 300,
-		damage = "142 x 3",
-		base = 24160,
-		id = 24173,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25813,
 		weapon_id = {
-			24173
+			25813
 		}
 	},
-	[24200] = {
-		name = "406mm三連装砲",
-		speciality = "投射",
-		type = 4,
+	[26000] = {
+		name = "QF 2ポンド二連装ポンポン砲",
+		speciality = "対空",
+		type = 6,
 		tech = 1,
+		rarity = 1,
 		descrip = "0",
-		value_2 = 12,
-		icon = "24200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "48 x 3",
+		value_2 = 0,
+		icon = "26000",
+		damage = "14/回",
 		nationality = 2,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 24200,
+		id = 26000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			24200
+			26000
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG"
+			"ST",
+			"AA"
 		}
 	},
-	[24201] = {
-		id = 24201,
-		damage = "56 x 3",
-		base = 24200,
+	[26001] = {
+		id = 26001,
+		damage = "16/回",
+		base = 26000,
 		weapon_id = {
-			24201
+			26001
 		}
 	},
-	[24202] = {
-		id = 24202,
-		damage = "64 x 3",
-		base = 24200,
+	[26002] = {
+		id = 26002,
+		damage = "18/回",
+		base = 26000,
 		weapon_id = {
-			24202
+			26002
 		}
 	},
-	[24203] = {
-		id = 24203,
-		damage = "72 x 3",
-		base = 24200,
+	[26003] = {
+		id = 26003,
+		damage = "21/回",
+		base = 26000,
 		weapon_id = {
-			24203
+			26003
 		}
 	},
-	[24204] = {
-		id = 24204,
-		damage = "80 x 3",
-		base = 24200,
+	[26020] = {
+		name = "QF 2ポンド二連装ポンポン砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "26000",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			24204
+			26020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
 		}
 	},
-	[24205] = {
-		id = 24205,
-		damage = "88 x 3",
-		base = 24200,
+	[26021] = {
+		id = 26021,
+		damage = "22/回",
+		base = 26020,
 		weapon_id = {
-			24205
+			26021
+		}
+	},
+	[26022] = {
+		id = 26022,
+		damage = "25/回",
+		base = 26020,
+		weapon_id = {
+			26022
+		}
+	},
+	[26023] = {
+		id = 26023,
+		damage = "29/回",
+		base = 26020,
+		weapon_id = {
+			26023
+		}
+	},
+	[26040] = {
+		name = "QF 2ポンド二連装ポンポン砲",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "26000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "23/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26041] = {
+		id = 26041,
+		damage = "26/回",
+		base = 26040,
+		weapon_id = {
+			26041
+		}
+	},
+	[26042] = {
+		id = 26042,
+		damage = "29/回",
+		base = 26040,
+		weapon_id = {
+			26042
+		}
+	},
+	[26043] = {
+		id = 26043,
+		damage = "33/回",
+		base = 26040,
+		weapon_id = {
+			26043
+		}
+	},
+	[26044] = {
+		id = 26044,
+		damage = "37/回",
+		base = 26040,
+		weapon_id = {
+			26044
+		}
+	},
+	[26045] = {
+		id = 26045,
+		damage = "41/回",
+		base = 26040,
+		weapon_id = {
+			26045
+		}
+	},
+	[26046] = {
+		id = 26046,
+		damage = "45/回",
+		base = 26040,
+		weapon_id = {
+			26046
+		}
+	},
+	[26047] = {
+		id = 26047,
+		damage = "45/回",
+		base = 26040,
+		weapon_id = {
+			26047
 		}
 	}
 }

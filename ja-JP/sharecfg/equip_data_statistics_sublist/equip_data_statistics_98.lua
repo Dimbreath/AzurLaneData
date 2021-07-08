@@ -1,68 +1,145 @@
 pg = pg or {}
 pg.equip_data_statistics_98 = {
-	[13121] = {
-		id = 13121,
-		damage = "29 x 3",
-		base = 13120,
+	[14266] = {
+		id = 14266,
+		damage = "116 x 2",
+		base = 14260,
 		weapon_id = {
-			13121
+			14266
 		}
 	},
-	[13122] = {
-		id = 13122,
-		damage = "31 x 3",
-		base = 13120,
+	[14267] = {
+		id = 14267,
+		damage = "124 x 2",
+		base = 14260,
 		weapon_id = {
-			13122
+			14267
 		}
 	},
-	[13123] = {
-		id = 13123,
-		damage = "33 x 3",
-		base = 13120,
+	[14268] = {
+		id = 14268,
+		damage = "134 x 2",
+		base = 14260,
 		weapon_id = {
-			13123
+			14268
 		}
 	},
-	[13124] = {
-		id = 13124,
-		damage = "35 x 3",
-		base = 13120,
+	[14269] = {
+		id = 14269,
+		damage = "144 x 2",
+		base = 14260,
 		weapon_id = {
-			13124
+			14269
 		}
 	},
-	[13125] = {
-		id = 13125,
-		damage = "37 x 3",
-		base = 13120,
+	[14270] = {
+		id = 14270,
+		damage = "154 x 2",
+		base = 14260,
 		weapon_id = {
-			13125
+			14270
 		}
 	},
-	[13126] = {
-		id = 13126,
-		damage = "40 x 3",
-		base = 13120,
+	[14271] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 14260,
+		id = 14271,
 		weapon_id = {
-			13126
+			14271
 		}
 	},
-	[13140] = {
-		name = "203mm三連装砲改",
-		speciality = "追尾",
-		type = 3,
-		tech = 3,
+	[14300] = {
+		name = "406mm三連装砲MK6",
+		speciality = "投射",
+		type = 4,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
-		icon = "13100",
+		value_2 = 5,
+		icon = "14300",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "28 x 3",
+		rarity = 2,
+		damage = "50 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14300
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
+	[14301] = {
+		id = 14301,
+		damage = "58 x 3",
+		base = 14300,
+		weapon_id = {
+			14301
+		}
+	},
+	[14302] = {
+		id = 14302,
+		damage = "66 x 3",
+		base = 14300,
+		weapon_id = {
+			14302
+		}
+	},
+	[14303] = {
+		id = 14303,
+		damage = "74 x 3",
+		base = 14300,
+		weapon_id = {
+			14303
+		}
+	},
+	[14320] = {
+		name = "406mm三連装砲MK6",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "14300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "55 x 3",
 		nationality = 1,
 		ammo = 2,
 		value_3 = 0,
-		id = 13140,
+		id = 14320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -70,113 +147,83 @@ pg.equip_data_statistics_98 = {
 		},
 		ammo_info = {
 			{
-				1,
-				1402
+				2,
+				1512
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1204
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			13140
+			14320
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			4,
+			5,
+			10,
+			13
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"CA",
+			"BB",
 			"MG",
 			"HE"
 		}
 	},
-	[13141] = {
-		id = 13141,
-		damage = "31 x 3",
-		base = 13140,
+	[14321] = {
+		id = 14321,
+		damage = "64 x 3",
+		base = 14320,
 		weapon_id = {
-			13141
+			14321
 		}
 	},
-	[13142] = {
-		id = 13142,
-		damage = "34 x 3",
-		base = 13140,
+	[14322] = {
+		id = 14322,
+		damage = "73 x 3",
+		base = 14320,
 		weapon_id = {
-			13142
+			14322
 		}
 	},
-	[13143] = {
-		id = 13143,
-		damage = "36 x 3",
-		base = 13140,
+	[14323] = {
+		id = 14323,
+		damage = "81 x 3",
+		base = 14320,
 		weapon_id = {
-			13143
+			14323
 		}
 	},
-	[13144] = {
-		id = 13144,
-		damage = "38 x 3",
-		base = 13140,
+	[14324] = {
+		id = 14324,
+		damage = "90 x 3",
+		base = 14320,
 		weapon_id = {
-			13144
+			14324
 		}
 	},
-	[13145] = {
-		id = 13145,
-		damage = "40 x 3",
-		base = 13140,
+	[14325] = {
+		id = 14325,
+		damage = "99 x 3",
+		base = 14320,
 		weapon_id = {
-			13145
+			14325
 		}
 	},
-	[13146] = {
-		id = 13146,
-		damage = "43 x 3",
-		base = 13140,
+	[14326] = {
+		id = 14326,
+		damage = "108 x 3",
+		base = 14320,
 		weapon_id = {
-			13146
-		}
-	},
-	[13147] = {
-		id = 13147,
-		damage = "46 x 3",
-		base = 13140,
-		weapon_id = {
-			13147
-		}
-	},
-	[13148] = {
-		id = 13148,
-		damage = "48 x 3",
-		base = 13140,
-		weapon_id = {
-			13148
-		}
-	},
-	[13149] = {
-		id = 13149,
-		damage = "50 x 3",
-		base = 13140,
-		weapon_id = {
-			13149
+			14326
 		}
 	}
 }

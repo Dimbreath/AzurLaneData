@@ -1,380 +1,200 @@
 pg = pg or {}
 pg.equip_data_statistics_277 = {
-	[38047] = {
-		id = 38047,
-		base = 38040,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51347
-			}
-		},
+	[41143] = {
+		id = 41143,
+		damage = "7 x 4",
+		base = 41140,
 		weapon_id = {
-			38047
+			41143
 		}
 	},
-	[38060] = {
-		name = "九七式艦攻改",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 3,
+	[41144] = {
+		id = 41144,
+		damage = "7 x 4",
+		base = 41140,
+		weapon_id = {
+			41144
+		}
+	},
+	[41145] = {
+		id = 41145,
+		damage = "8 x 4",
+		base = 41140,
+		weapon_id = {
+			41145
+		}
+	},
+	[41146] = {
+		id = 41146,
+		damage = "8 x 4",
+		base = 41140,
+		weapon_id = {
+			41146
+		}
+	},
+	[41147] = {
+		id = 41147,
+		damage = "9 x 4",
+		base = 41140,
+		weapon_id = {
+			41147
+		}
+	},
+	[41148] = {
+		id = 41148,
+		damage = "9 x 4",
+		base = 41140,
+		weapon_id = {
+			41148
+		}
+	},
+	[41149] = {
+		id = 41149,
+		damage = "10 x 4",
+		base = 41140,
+		weapon_id = {
+			41149
+		}
+	},
+	[41150] = {
+		id = 41150,
+		damage = "11 x 4",
+		base = 41140,
+		weapon_id = {
+			41150
+		}
+	},
+	[41151] = {
+		anti_siren = 100,
+		damage = "11 x 4",
+		base = 41140,
+		id = 41151,
+		weapon_id = {
+			41151
+		}
+	},
+	[41160] = {
+		name = "128mmSKC41連装両用砲改",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
 		tech = 0,
+		value_2 = 30,
+		icon = "41160",
+		attribute_2 = "cannon",
 		descrip = "0",
-		value_2 = 12,
-		icon = "38060",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38060,
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 15,
+		id = 41160,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50040
-			},
-			{
-				4,
-				51340
+				1,
+				1303
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38060
+			41160
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38061] = {
-		id = 38061,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				4,
-				51341
-			}
-		},
-		weapon_id = {
-			38061
-		}
-	},
-	[38062] = {
-		id = 38062,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				4,
-				51342
-			}
-		},
-		weapon_id = {
-			38062
-		}
-	},
-	[38063] = {
-		id = 38063,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				51343
-			}
-		},
-		weapon_id = {
-			38063
-		}
-	},
-	[38064] = {
-		id = 38064,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51344
-			}
-		},
-		weapon_id = {
-			38064
-		}
-	},
-	[38065] = {
-		id = 38065,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51345
-			}
-		},
-		weapon_id = {
-			38065
-		}
-	},
-	[38066] = {
-		id = 38066,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51346
-			}
-		},
-		weapon_id = {
-			38066
-		}
-	},
-	[38067] = {
-		id = 38067,
-		base = 38060,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51347
-			}
-		},
-		weapon_id = {
-			38067
-		}
-	},
-	[38100] = {
-		name = "天山",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 2,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "38100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51400
-			}
-		},
-		equip_info = {
-			6,
-			7,
+			2,
+			3,
+			4,
+			5,
 			8,
-			9
-		},
-		weapon_id = {
-			38100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"CV",
-			"TB"
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
 		}
 	},
-	[38101] = {
-		id = 38101,
-		base = 38100,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51401
-			}
-		},
+	[41161] = {
+		id = 41161,
+		damage = "7 x 4",
+		base = 41160,
 		weapon_id = {
-			38101
+			41161
 		}
 	},
-	[38102] = {
-		id = 38102,
-		base = 38100,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51402
-			}
-		},
+	[41162] = {
+		id = 41162,
+		damage = "8 x 4",
+		base = 41160,
 		weapon_id = {
-			38102
+			41162
 		}
 	},
-	[38103] = {
-		id = 38103,
-		base = 38100,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				4,
-				51403
-			}
-		},
+	[41163] = {
+		id = 41163,
+		damage = "9 x 4",
+		base = 41160,
 		weapon_id = {
-			38103
+			41163
 		}
 	},
-	[38120] = {
-		name = "天山",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 3,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "38100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51420
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+	[41164] = {
+		id = 41164,
+		damage = "10 x 4",
+		base = 41160,
 		weapon_id = {
-			38120
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
+			41164
 		}
 	},
-	[38121] = {
-		id = 38121,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51421
-			}
-		},
+	[41165] = {
+		id = 41165,
+		damage = "11 x 4",
+		base = 41160,
 		weapon_id = {
-			38121
+			41165
 		}
 	},
-	[38122] = {
-		id = 38122,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51422
-			}
-		},
+	[41166] = {
+		id = 41166,
+		damage = "12 x 4",
+		base = 41160,
 		weapon_id = {
-			38122
+			41166
+		}
+	},
+	[41167] = {
+		id = 41167,
+		damage = "13 x 4",
+		base = 41160,
+		weapon_id = {
+			41167
 		}
 	}
 }

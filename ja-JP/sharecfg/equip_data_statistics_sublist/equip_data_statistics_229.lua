@@ -1,89 +1,61 @@
 pg = pg or {}
 pg.equip_data_statistics_229 = {
-	[32121] = {
-		id = 32121,
-		damage = "7 x 4",
-		base = 32120,
+	[35021] = {
+		id = 35021,
+		damage = "70 x 2",
+		base = 35020,
 		weapon_id = {
-			32121
+			35021
 		}
 	},
-	[32122] = {
-		id = 32122,
-		damage = "8 x 4",
-		base = 32120,
+	[35022] = {
+		id = 35022,
+		damage = "82 x 2",
+		base = 35020,
 		weapon_id = {
-			32122
+			35022
 		}
 	},
-	[32123] = {
-		id = 32123,
-		damage = "9 x 4",
-		base = 32120,
+	[35023] = {
+		id = 35023,
+		damage = "94 x 2",
+		base = 35020,
 		weapon_id = {
-			32123
+			35023
 		}
 	},
-	[32124] = {
-		id = 32124,
-		damage = "10 x 4",
-		base = 32120,
-		weapon_id = {
-			32124
-		}
-	},
-	[32125] = {
-		id = 32125,
-		damage = "11 x 4",
-		base = 32120,
-		weapon_id = {
-			32125
-		}
-	},
-	[32126] = {
-		id = 32126,
-		damage = "12 x 4",
-		base = 32120,
-		weapon_id = {
-			32126
-		}
-	},
-	[32140] = {
-		name = "140mm連装砲",
-		speciality = "拡散",
-		type = 2,
+	[35040] = {
+		name = "610mm連装魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "32100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "7 x 4",
+		value_2 = 12,
+		icon = "35000",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "66 x 2",
 		nationality = 3,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 32140,
+		id = 35040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1207
+				3,
+				1801
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1207
+				1801
 			},
 			{
 				4,
-				1101
+				1401
 			},
 			6,
 			10,
@@ -91,93 +63,239 @@ pg.equip_data_statistics_229 = {
 			12
 		},
 		weapon_id = {
-			32140
+			35040
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"CL",
-			"MG",
-			"HE"
+			"ST",
+			"TP",
+			"DUO"
 		}
 	},
-	[32141] = {
-		id = 32141,
-		damage = "8 x 4",
-		base = 32140,
+	[35041] = {
+		id = 35041,
+		damage = "80 x 2",
+		base = 35040,
 		weapon_id = {
-			32141
+			35041
 		}
 	},
-	[32142] = {
-		id = 32142,
-		damage = "9 x 4",
-		base = 32140,
+	[35042] = {
+		id = 35042,
+		damage = "94 x 2",
+		base = 35040,
 		weapon_id = {
-			32142
+			35042
 		}
 	},
-	[32143] = {
-		id = 32143,
-		damage = "10 x 4",
-		base = 32140,
+	[35043] = {
+		id = 35043,
+		damage = "108 x 2",
+		base = 35040,
 		weapon_id = {
-			32143
+			35043
 		}
 	},
-	[32144] = {
-		id = 32144,
-		damage = "11 x 4",
-		base = 32140,
+	[35044] = {
+		id = 35044,
+		damage = "122 x 2",
+		base = 35040,
 		weapon_id = {
-			32144
+			35044
 		}
 	},
-	[32145] = {
-		id = 32145,
-		damage = "12 x 4",
-		base = 32140,
+	[35045] = {
+		id = 35045,
+		damage = "136 x 2",
+		base = 35040,
 		weapon_id = {
-			32145
+			35045
 		}
 	},
-	[32146] = {
-		id = 32146,
-		damage = "13 x 4",
-		base = 32140,
+	[35046] = {
+		id = 35046,
+		damage = "150 x 2",
+		base = 35040,
 		weapon_id = {
-			32146
+			35046
 		}
 	},
-	[32147] = {
-		id = 32147,
-		damage = "14 x 4",
-		base = 32140,
+	[35047] = {
+		id = 35047,
+		damage = "150 x 2",
+		base = 35040,
 		weapon_id = {
-			32147
+			35047
 		}
 	},
-	[32148] = {
-		id = 32148,
-		damage = "15 x 4",
-		base = 32140,
+	[35100] = {
+		name = "610mm三連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "35100",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "52 x 3",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			32148
+			35100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[32149] = {
-		id = 32149,
-		damage = "16 x 4",
-		base = 32140,
+	[35101] = {
+		id = 35101,
+		damage = "62 x 3",
+		base = 35100,
 		weapon_id = {
-			32149
+			35101
+		}
+	},
+	[35102] = {
+		id = 35102,
+		damage = "72 x 3",
+		base = 35100,
+		weapon_id = {
+			35102
+		}
+	},
+	[35103] = {
+		id = 35103,
+		damage = "82 x 3",
+		base = 35100,
+		weapon_id = {
+			35103
+		}
+	},
+	[35120] = {
+		name = "610mm三連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "35100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "58 x 3",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[35121] = {
+		id = 35121,
+		damage = "70 x 3",
+		base = 35120,
+		weapon_id = {
+			35121
 		}
 	}
 }

@@ -1,93 +1,78 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
-	[85283] = {
-		id = 85283,
-		damage = "61/回",
-		base = 85280,
+	[90147] = {
+		id = 90147,
+		damage = "12 x 5",
+		base = 90140,
 		weapon_id = {
-			85283
+			90147
 		}
 	},
-	[85284] = {
-		id = 85284,
-		damage = "68/回",
-		base = 85280,
+	[90148] = {
+		id = 90148,
+		damage = "13 x 5",
+		base = 90140,
 		weapon_id = {
-			85284
+			90148
 		}
 	},
-	[85285] = {
-		id = 85285,
-		damage = "75/回",
-		base = 85280,
+	[90149] = {
+		id = 90149,
+		damage = "14 x 5",
+		base = 90140,
 		weapon_id = {
-			85285
+			90149
 		}
 	},
-	[85286] = {
-		id = 85286,
-		damage = "82/回",
-		base = 85280,
+	[90150] = {
+		id = 90150,
+		damage = "15 x 5",
+		base = 90140,
 		weapon_id = {
-			85286
+			90150
 		}
 	},
-	[85287] = {
-		id = 85287,
-		damage = "89/回",
-		base = 85280,
-		weapon_id = {
-			85287
-		}
-	},
-	[85288] = {
-		id = 85288,
-		damage = "96/回",
-		base = 85280,
-		weapon_id = {
-			85288
-		}
-	},
-	[85289] = {
-		id = 85289,
-		damage = "103/回",
-		base = 85280,
-		weapon_id = {
-			85289
-		}
-	},
-	[85290] = {
-		id = 85290,
-		damage = "110/回",
-		base = 85280,
-		weapon_id = {
-			85290
-		}
-	},
-	[85291] = {
+	[90151] = {
 		anti_siren = 100,
-		damage = "110/回",
-		base = 85280,
-		id = 85291,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90151,
 		weapon_id = {
-			85291
+			90151
 		}
 	},
-	[85300] = {
-		name = "406mm三連装砲B-37 MK-1",
-		speciality = "投射",
-		type = 4,
+	[90152] = {
+		anti_siren = 200,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90152,
+		weapon_id = {
+			90152
+		}
+	},
+	[90153] = {
+		anti_siren = 300,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90153,
+		weapon_id = {
+			90153
+		}
+	},
+	[90200] = {
+		name = "152mm三連装砲Mle1930",
+		speciality = "追尾",
+		type = 2,
 		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "50 x 3",
-		nationality = 7,
+		rarity = 1,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "50200",
+		damage = "7 x 6",
+		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 85300,
+		id = 90200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -95,82 +80,216 @@ pg.equip_data_statistics_375 = {
 		},
 		ammo_info = {
 			{
-				2,
-				1570
+				1,
+				2201
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2201
+			},
+			{
+				4,
+				1102
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			85300
+			90200
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"BB",
+			"FFNF",
+			"CL",
 			"MG"
 		}
 	},
-	[85301] = {
-		id = 85301,
-		damage = "59 x 3",
-		base = 85300,
+	[90201] = {
+		id = 90201,
+		damage = "8 x 6",
+		base = 90200,
 		weapon_id = {
-			85301
+			90201
 		}
 	},
-	[85302] = {
-		id = 85302,
-		damage = "67 x 3",
-		base = 85300,
+	[90202] = {
+		id = 90202,
+		damage = "9 x 6",
+		base = 90200,
 		weapon_id = {
-			85302
+			90202
 		}
 	},
-	[85303] = {
-		id = 85303,
-		damage = "76 x 3",
-		base = 85300,
+	[90203] = {
+		id = 90203,
+		damage = "10 x 6",
+		base = 90200,
 		weapon_id = {
-			85303
+			90203
 		}
 	},
-	[85304] = {
-		id = 85304,
-		damage = "84 x 3",
-		base = 85300,
+	[90220] = {
+		name = "152mm三連装砲Mle1930",
+		speciality = "追尾",
+		type = 2,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "50200",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "8 x 6",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2201
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			85304
+			90220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
 		}
 	},
-	[85305] = {
-		id = 85305,
-		damage = "92 x 3",
-		base = 85300,
+	[90221] = {
+		id = 90221,
+		damage = "9 x 6",
+		base = 90220,
 		weapon_id = {
-			85305
+			90221
 		}
 	},
-	[85306] = {
-		id = 85306,
-		damage = "101 x 3",
-		base = 85300,
+	[90222] = {
+		id = 90222,
+		damage = "10 x 6",
+		base = 90220,
 		weapon_id = {
-			85306
+			90222
+		}
+	},
+	[90223] = {
+		id = 90223,
+		damage = "11 x 6",
+		base = 90220,
+		weapon_id = {
+			90223
+		}
+	},
+	[90240] = {
+		name = "152mm三連装砲Mle1930",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "9 x 6",
+		nationality = 8,
+		ammo = 1,
+		value_3 = 0,
+		id = 90240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				2204
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2204
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90240
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90241] = {
+		id = 90241,
+		damage = "10 x 6",
+		base = 90240,
+		weapon_id = {
+			90241
 		}
 	}
 }

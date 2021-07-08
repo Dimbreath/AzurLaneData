@@ -1,165 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_230 = {
-	[32150] = {
-		id = 32150,
-		damage = "17 x 4",
-		base = 32140,
+	[35122] = {
+		id = 35122,
+		damage = "82 x 3",
+		base = 35120,
 		weapon_id = {
-			32150
+			35122
 		}
 	},
-	[32151] = {
-		anti_siren = 100,
-		damage = "17 x 4",
-		base = 32140,
-		id = 32151,
+	[35123] = {
+		id = 35123,
+		damage = "94 x 3",
+		base = 35120,
 		weapon_id = {
-			32151
+			35123
 		}
 	},
-	[32200] = {
-		name = "155mm三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "32200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 6",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 32200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1201
-			},
-			{
-				4,
-				1105
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[35124] = {
+		id = 35124,
+		damage = "106 x 3",
+		base = 35120,
 		weapon_id = {
-			32200
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CL",
-			"MG"
+			35124
 		}
 	},
-	[32201] = {
-		id = 32201,
-		damage = "7 x 6",
-		base = 32200,
+	[35125] = {
+		id = 35125,
+		damage = "118 x 3",
+		base = 35120,
 		weapon_id = {
-			32201
+			35125
 		}
 	},
-	[32202] = {
-		id = 32202,
-		damage = "8 x 6",
-		base = 32200,
+	[35126] = {
+		id = 35126,
+		damage = "130 x 3",
+		base = 35120,
 		weapon_id = {
-			32202
+			35126
 		}
 	},
-	[32203] = {
-		id = 32203,
-		damage = "9 x 6",
-		base = 32200,
-		weapon_id = {
-			32203
-		}
-	},
-	[32204] = {
-		id = 32204,
-		damage = "10 x 6",
-		base = 32200,
-		weapon_id = {
-			32204
-		}
-	},
-	[32205] = {
-		id = 32205,
-		damage = "11 x 6",
-		base = 32200,
-		weapon_id = {
-			32205
-		}
-	},
-	[32206] = {
-		id = 32206,
-		damage = "12 x 6",
-		base = 32200,
-		weapon_id = {
-			32206
-		}
-	},
-	[32220] = {
-		name = "155mm三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 2,
+	[35140] = {
+		name = "610mm三連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "32200",
-		attribute_2 = "cannon",
+		icon = "35100",
+		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "7 x 6",
+		damage = "66 x 3",
 		nationality = 3,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 32220,
+		id = 35140,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1207
+				3,
+				1801
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1207
+				1801
 			},
 			{
 				4,
-				1105
+				1402
 			},
 			6,
 			10,
@@ -167,69 +79,116 @@ pg.equip_data_statistics_230 = {
 			12
 		},
 		weapon_id = {
-			32220
+			35140
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"CL",
-			"MG",
-			"HE"
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[32221] = {
-		id = 32221,
-		damage = "8 x 6",
-		base = 32220,
+	[35141] = {
+		id = 35141,
+		damage = "80 x 3",
+		base = 35140,
 		weapon_id = {
-			32221
+			35141
 		}
 	},
-	[32222] = {
-		id = 32222,
-		damage = "9 x 6",
-		base = 32220,
+	[35142] = {
+		id = 35142,
+		damage = "94 x 3",
+		base = 35140,
 		weapon_id = {
-			32222
+			35142
 		}
 	},
-	[32223] = {
-		id = 32223,
-		damage = "10 x 6",
-		base = 32220,
+	[35143] = {
+		id = 35143,
+		damage = "108 x 3",
+		base = 35140,
 		weapon_id = {
-			32223
+			35143
 		}
 	},
-	[32224] = {
-		id = 32224,
-		damage = "11 x 6",
-		base = 32220,
+	[35144] = {
+		id = 35144,
+		damage = "122 x 3",
+		base = 35140,
 		weapon_id = {
-			32224
+			35144
 		}
 	},
-	[32225] = {
-		id = 32225,
-		damage = "12 x 6",
-		base = 32220,
+	[35145] = {
+		id = 35145,
+		damage = "136 x 3",
+		base = 35140,
 		weapon_id = {
-			32225
+			35145
 		}
 	},
-	[32226] = {
-		id = 32226,
-		damage = "13 x 6",
-		base = 32220,
+	[35146] = {
+		id = 35146,
+		damage = "150 x 3",
+		base = 35140,
 		weapon_id = {
-			32226
+			35146
+		}
+	},
+	[35147] = {
+		id = 35147,
+		damage = "164 x 3",
+		base = 35140,
+		weapon_id = {
+			35147
+		}
+	},
+	[35148] = {
+		id = 35148,
+		damage = "178 x 3",
+		base = 35140,
+		weapon_id = {
+			35148
+		}
+	},
+	[35149] = {
+		id = 35149,
+		damage = "192 x 3",
+		base = 35140,
+		weapon_id = {
+			35149
+		}
+	},
+	[35150] = {
+		id = 35150,
+		damage = "206 x 3",
+		base = 35140,
+		weapon_id = {
+			35150
+		}
+	},
+	[35151] = {
+		anti_siren = 100,
+		damage = "206 x 3",
+		base = 35140,
+		id = 35151,
+		weapon_id = {
+			35151
 		}
 	}
 }

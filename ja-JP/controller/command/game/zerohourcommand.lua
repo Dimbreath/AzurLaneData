@@ -55,7 +55,7 @@ function slot0.mainHandler(slot0, slot1)
 	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 then
 		slot4.shamShop:update(slot12.month, {})
 		slot4:AddShamShop(slot4.shamShop)
-		slot4.fragmentShop:update(slot12.month, {})
+		slot4.fragmentShop:Reset(slot12.month)
 		slot4:AddFragmentShop(slot4.fragmentShop)
 
 		if not LOCK_UR_SHIP then

@@ -82,6 +82,10 @@ function slot0.register(slot0)
 	end)
 end
 
+function slot0.remove(slot0)
+	slot0:clearTimesListener()
+end
+
 function slot0.getSummaryInfo(slot0)
 	return slot0.summaryInfo
 end
@@ -91,21 +95,28 @@ function slot0.setSummaryInfo(slot0, slot1)
 end
 
 function slot0.flushTimesListener(slot0)
-	if slot0.clockId then
-		slot0:remove()
-	end
+	slot0:clearTimesListener()
 
 	slot1 = pg.TimeMgr.GetInstance()
-	slot0.clockId = slot1:AddTimer("daily", slot1:GetNextTime(0, 0, 0) - slot1:GetServerTime(), 86400, function ()
+	slot0.zeroClockId = slot1:AddTimer("daily", slot1:GetNextTime(0, 0, 0) - slot1:GetServerTime(), 86400, function ()
 		uv0:sendNotification(GAME.ZERO_HOUR)
+	end)
+	slot0.fourClockId = slot1:AddTimer("daily_four", slot1:GetNextTime(4, 0, 0) - slot1:GetServerTime(), 86400, function ()
+		uv0:sendNotification(GAME.FOUR_HOUR)
 	end)
 end
 
-function slot0.remove(slot0)
-	if slot0.clockId then
-		pg.TimeMgr.GetInstance():RemoveTimer(slot0.clockId)
+function slot0.clearTimesListener(slot0)
+	if slot0.zeroClockId then
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.zeroClockId)
 
-		slot0.clockId = nil
+		slot0.zeroClockId = nil
+	end
+
+	if slot0.fourClockId then
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.fourClockId)
+
+		slot0.fourClockId = nil
 	end
 end
 

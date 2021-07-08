@@ -1,59 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_167 = {
-	[67898] = {
-		max_hp = 77,
-		name = "追赶者剑鱼 Lv8",
-		base = 67891,
-		id = 67898,
-		hp_growth = 2943,
+	[67306] = {
+		max_hp = 79,
+		name = "大凤技能轰炸机Lv6",
+		base = 67300,
+		id = 67306,
+		hp_growth = 3050,
 		weapon_ID = {
-			67908,
-			67918
+			67386
 		}
 	},
-	[67899] = {
-		max_hp = 82,
-		name = "追赶者剑鱼 Lv9",
-		base = 67891,
-		id = 67899,
-		hp_growth = 3143,
+	[67307] = {
+		max_hp = 86,
+		name = "大凤技能轰炸机Lv7",
+		base = 67300,
+		id = 67307,
+		hp_growth = 3290,
 		weapon_ID = {
-			67909,
-			67919
+			67387
 		}
 	},
-	[67900] = {
-		max_hp = 87,
-		name = "追赶者剑鱼 Lv10",
-		base = 67891,
-		id = 67900,
-		hp_growth = 3344,
+	[67308] = {
+		max_hp = 92,
+		name = "大凤技能轰炸机Lv8",
+		base = 67300,
+		id = 67308,
+		hp_growth = 3531,
 		weapon_ID = {
-			67910,
-			67920
+			67388
 		}
 	},
-	[67921] = {
-		name = "独立技能鱼雷机Lv1",
+	[67309] = {
+		max_hp = 98,
+		name = "大凤技能轰炸机Lv9",
+		base = 67300,
+		id = 67309,
+		hp_growth = 3772,
+		weapon_ID = {
+			67389
+		}
+	},
+	[67310] = {
+		max_hp = 104,
+		name = "大凤技能轰炸机Lv10",
+		base = 67300,
+		id = 67310,
+		hp_growth = 4013,
+		weapon_ID = {
+			67390
+		}
+	},
+	[67320] = {
+		name = "大凤技能鱼雷机Lv0",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "liuxing",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 188,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "liuxing",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1615,
-		speed = 48,
-		id = 67921,
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 52,
+		id = 67320,
 		scale = 1,
 		weapon_ID = {
-			67941
+			67400
 		},
 		position_offset = {
 			0,
@@ -96,7 +113,7 @@ pg.aircraft_template_167 = {
 				0
 			},
 			{
-				0.52,
+				0.26,
 				0,
 				0
 			},
@@ -107,64 +124,44 @@ pg.aircraft_template_167 = {
 			}
 		}
 	},
-	[67922] = {
-		max_hp = 47,
-		name = "独立技能鱼雷机Lv2",
-		base = 67921,
-		id = 67922,
-		hp_growth = 1826,
+	[67321] = {
+		max_hp = 48,
+		name = "大凤技能鱼雷机Lv1",
+		base = 67320,
+		id = 67321,
+		hp_growth = 1846,
 		weapon_ID = {
-			67942
+			67401
 		}
 	},
-	[67923] = {
-		max_hp = 53,
-		name = "独立技能鱼雷机Lv3",
-		base = 67921,
-		id = 67923,
-		hp_growth = 2036,
+	[67322] = {
+		max_hp = 54,
+		name = "大凤技能鱼雷机Lv2",
+		base = 67320,
+		id = 67322,
+		hp_growth = 2087,
 		weapon_ID = {
-			67943
+			67402
 		}
 	},
-	[67924] = {
-		max_hp = 58,
-		name = "独立技能鱼雷机Lv4",
-		base = 67921,
-		id = 67924,
-		hp_growth = 2247,
+	[67323] = {
+		max_hp = 61,
+		name = "大凤技能鱼雷机Lv3",
+		base = 67320,
+		id = 67323,
+		hp_growth = 2327,
 		weapon_ID = {
-			67944
+			67403
 		}
 	},
-	[67925] = {
-		max_hp = 64,
-		name = "独立技能鱼雷机Lv5",
-		base = 67921,
-		id = 67925,
-		hp_growth = 2458,
+	[67324] = {
+		max_hp = 67,
+		name = "大凤技能鱼雷机Lv4",
+		base = 67320,
+		id = 67324,
+		hp_growth = 2568,
 		weapon_ID = {
-			67945
-		}
-	},
-	[67926] = {
-		max_hp = 69,
-		name = "独立技能鱼雷机Lv6",
-		base = 67921,
-		id = 67926,
-		hp_growth = 2669,
-		weapon_ID = {
-			67946
-		}
-	},
-	[67927] = {
-		max_hp = 75,
-		name = "独立技能鱼雷机Lv7",
-		base = 67921,
-		id = 67927,
-		hp_growth = 2879,
-		weapon_ID = {
-			67947
+			67404
 		}
 	}
 }

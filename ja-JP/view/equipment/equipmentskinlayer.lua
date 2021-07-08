@@ -89,12 +89,12 @@ end
 function slot0.initReplace(slot0)
 	setActive(slot0.displayPanel, false)
 	setActive(slot0.replacePanel, true)
-	slot0:updateSkinView(slot0.skinViewOnShipTF, slot0.shipVO:getEquip(slot0.contextData.pos).skinId)
+	slot0:updateSkinView(slot0.skinViewOnShipTF, slot0.shipVO:getEquipSkin(slot0.contextData.pos) or 0)
 
 	if slot0.contextData.oldShipInfo then
 		slot0:updateSkinView(slot0.skinViewTF, slot0.contextData.skinId, slot0.contextData.oldShipInfo)
 	else
-		slot0:updateSkinView(slot0.skinViewTF, slot4)
+		slot0:updateSkinView(slot0.skinViewTF, slot3)
 	end
 end
 

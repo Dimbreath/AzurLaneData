@@ -254,7 +254,7 @@ function slot0.initTecPanel(slot0)
 		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				if uv0.phaseId < uv1 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_7"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_not_open_tip"))
 					triggerToggle(uv0.tecToggles[uv0.cachePageID], true)
 				else
 					uv0:updateTecPanel(uv1)

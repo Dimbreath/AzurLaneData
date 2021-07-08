@@ -1,64 +1,102 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
-	[90450] = {
-		id = 90450,
-		damage = "120 x 4",
-		base = 90440,
+	[95645] = {
+		id = 95645,
+		damage = "10 x 6",
+		base = 95640,
 		weapon_id = {
-			90450
+			95645
 		}
 	},
-	[90451] = {
+	[95646] = {
+		id = 95646,
+		damage = "11 x 6",
+		base = 95640,
+		weapon_id = {
+			95646
+		}
+	},
+	[95647] = {
+		id = 95647,
+		damage = "12 x 6",
+		base = 95640,
+		weapon_id = {
+			95647
+		}
+	},
+	[95648] = {
+		id = 95648,
+		damage = "13 x 6",
+		base = 95640,
+		weapon_id = {
+			95648
+		}
+	},
+	[95649] = {
+		id = 95649,
+		damage = "14 x 6",
+		base = 95640,
+		weapon_id = {
+			95649
+		}
+	},
+	[95650] = {
+		id = 95650,
+		damage = "15 x 6",
+		base = 95640,
+		weapon_id = {
+			95650
+		}
+	},
+	[95651] = {
 		anti_siren = 100,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90451,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95651,
 		weapon_id = {
-			90451
+			95651
 		}
 	},
-	[90452] = {
+	[95652] = {
 		anti_siren = 200,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90452,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95652,
 		weapon_id = {
-			90452
+			95652
 		}
 	},
-	[90453] = {
+	[95653] = {
 		anti_siren = 300,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90453,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95653,
 		weapon_id = {
-			90453
+			95653
 		}
 	},
-	[90500] = {
-		name = "130mm連装砲Mle1935",
-		speciality = "追尾",
-		type = 1,
+	[95700] = {
+		name = "潜水艦用533mm魚雷Si 270",
+		speciality = "雷撃",
+		type = 13,
 		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "50500",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "9 x 2",
-		nationality = 8,
-		ammo = 3,
+		descrip = "",
+		value_2 = 12,
+		icon = "55700",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "42 x 2",
+		nationality = 6,
+		ammo = 5,
 		value_3 = 0,
-		id = 90500,
+		id = 95700,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				2200
+				3,
+				1836
 			}
 		},
 		equip_info = {
@@ -66,11 +104,11 @@ pg.equip_data_statistics_399 = {
 			2,
 			{
 				3,
-				2200
+				1836
 			},
 			{
 				4,
-				1011
+				1601
 			},
 			6,
 			10,
@@ -78,168 +116,123 @@ pg.equip_data_statistics_399 = {
 			12
 		},
 		weapon_id = {
-			90500
+			95700
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
+			8,
+			17
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
 			8,
-			13,
-			18
+			17
 		},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"DD",
-			"MG"
+			"RN",
+			"SS",
+			"TP"
 		}
 	},
-	[90501] = {
-		id = 90501,
-		base = 90500,
+	[95701] = {
+		id = 95701,
+		damage = "50 x 2",
+		base = 95700,
 		weapon_id = {
-			90501
+			95701
 		}
 	},
-	[90502] = {
-		id = 90502,
-		damage = "10 x 2",
-		base = 90500,
+	[95702] = {
+		id = 95702,
+		damage = "58 x 2",
+		base = 95700,
 		weapon_id = {
-			90502
+			95702
 		}
 	},
-	[90503] = {
-		id = 90503,
-		damage = "10 x 2",
-		base = 90500,
+	[95703] = {
+		id = 95703,
+		damage = "66 x 2",
+		base = 95700,
 		weapon_id = {
-			90503
+			95703
 		}
 	},
-	[90600] = {
-		name = "二連装37mm高射砲Mle1936",
-		speciality = "対空",
-		type = 6,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "50600",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "38/回",
-		nationality = 8,
+	[95704] = {
+		id = 95704,
+		damage = "74 x 2",
+		base = 95700,
+		weapon_id = {
+			95704
+		}
+	},
+	[95705] = {
+		id = 95705,
+		damage = "82 x 2",
+		base = 95700,
+		weapon_id = {
+			95705
+		}
+	},
+	[95706] = {
+		id = 95706,
+		damage = "90 x 2",
+		base = 95700,
+		weapon_id = {
+			95706
+		}
+	},
+	[95720] = {
+		name = "Fiat G.50戦闘機「アロー」",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
+		tech = 1,
+		descrip = "",
+		value_2 = 5,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
 		ammo = 5,
 		value_3 = 0,
-		id = 90600,
+		id = 95720,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52200
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			90600
+			95720,
+			86000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"DD",
-			"AA"
-		}
-	},
-	[90601] = {
-		id = 90601,
-		damage = "42/回",
-		base = 90600,
-		weapon_id = {
-			90601
-		}
-	},
-	[90602] = {
-		id = 90602,
-		damage = "46/回",
-		base = 90600,
-		weapon_id = {
-			90602
-		}
-	},
-	[90603] = {
-		id = 90603,
-		damage = "50/回",
-		base = 90600,
-		weapon_id = {
-			90603
-		}
-	},
-	[90604] = {
-		id = 90604,
-		damage = "54/回",
-		base = 90600,
-		weapon_id = {
-			90604
-		}
-	},
-	[90605] = {
-		id = 90605,
-		damage = "58/回",
-		base = 90600,
-		weapon_id = {
-			90605
-		}
-	},
-	[90606] = {
-		id = 90606,
-		damage = "62/回",
-		base = 90600,
-		weapon_id = {
-			90606
-		}
-	},
-	[90607] = {
-		id = 90607,
-		damage = "66/回",
-		base = 90600,
-		weapon_id = {
-			90607
+			"RN",
+			"CV",
+			"FT"
 		}
 	}
 }

@@ -35,23 +35,45 @@ function slot0.execute(slot0, slot1)
 				uv1:RemoveCommander()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_remove_commander_success"))
 			else
-				slot1 = false
-
-				if uv1.id == 1 and not uv1:ExistCommander() and uv1:GetCalcExpTime() == 0 and uv3.level == 1 then
-					slot1 = true
-				end
-
 				if uv1:ExistCommander() then
 					uv2:UpdateCommanderLevelAndExp(uv1:GetCommanderId(), slot0)
 				end
 
-				uv1:AddCommander(uv4, slot0.time)
+				uv1:AddCommander(uv3, slot0.time)
 
-				if slot1 then
-					uv3:ResetCatteryOP()
+				slot1 = uv4:getCommanderById(uv3)
+				slot3 = slot1:ExitFeedFlag()
+				slot4 = slot1:ExitPlayFlag()
+
+				if slot1:ExistCleanFlag() and uv1:ExistCleanOP() then
+					uv1:ResetCleanOP()
 				end
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_add_commander_success"))
+				if slot3 and uv1:ExiseFeedOP() then
+					uv1:ResetFeedOP()
+				end
+
+				if slot4 and uv1:ExistPlayOP() then
+					uv1:ResetPlayOP()
+				end
+
+				if not slot2 then
+					table.insert({}, i18n("common_clean"))
+				end
+
+				if not slot3 then
+					table.insert(slot5, i18n("common_feed"))
+				end
+
+				if not slot4 then
+					table.insert(slot5, i18n("common_play"))
+				end
+
+				if #slot5 > 0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("cat_home_interaction", table.concat(slot5, ", ")))
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_add_commander_success"))
+				end
 			end
 
 			uv2:sendNotification(GAME.PUT_COMMANDER_IN_CATTERY_DONE, {

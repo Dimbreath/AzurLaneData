@@ -2,110 +2,6 @@ pg = pg or {}
 pg.weapon_property_84 = {}
 
 function ()
-	uv0.weapon_property_84[51328] = {
-		id = 51328,
-		damage = 185,
-		base = 51320
-	}
-	uv0.weapon_property_84[51329] = {
-		id = 51329,
-		damage = 202,
-		base = 51320
-	}
-	uv0.weapon_property_84[51330] = {
-		id = 51330,
-		damage = 220,
-		base = 51320
-	}
-	uv0.weapon_property_84[51331] = {
-		id = 51331,
-		damage = 229,
-		base = 51320
-	}
-	uv0.weapon_property_84[51332] = {
-		id = 51332,
-		damage = 242,
-		base = 51320
-	}
-	uv0.weapon_property_84[51333] = {
-		id = 51333,
-		damage = 260,
-		base = 51320
-	}
-	uv0.weapon_property_84[51340] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x 航空魚雷-重桜",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 51340,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_84[51341] = {
-		id = 51341,
-		damage = 68,
-		base = 51340
-	}
-	uv0.weapon_property_84[51342] = {
-		id = 51342,
-		damage = 86,
-		base = 51340
-	}
-	uv0.weapon_property_84[51343] = {
-		id = 51343,
-		damage = 106,
-		base = 51340
-	}
-	uv0.weapon_property_84[51344] = {
-		id = 51344,
-		damage = 124,
-		base = 51340
-	}
-	uv0.weapon_property_84[51345] = {
-		id = 51345,
-		damage = 144,
-		base = 51340
-	}
-	uv0.weapon_property_84[51346] = {
-		id = 51346,
-		damage = 164,
-		base = 51340
-	}
 	uv0.weapon_property_84[51347] = {
 		id = 51347,
 		damage = 182,
@@ -140,6 +36,115 @@ function ()
 		id = 51353,
 		damage = 283,
 		base = 51340
+	}
+	uv0.weapon_property_84[51360] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-重樱",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 0,
+		id = 51360,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_84[51361] = {
+		id = 51361,
+		damage = 92,
+		base = 51360
+	}
+	uv0.weapon_property_84[51362] = {
+		id = 51362,
+		damage = 122,
+		base = 51360
+	}
+	uv0.weapon_property_84[51363] = {
+		id = 51363,
+		damage = 152,
+		base = 51360
+	}
+	uv0.weapon_property_84[51364] = {
+		id = 51364,
+		damage = 182,
+		base = 51360
+	}
+	uv0.weapon_property_84[51365] = {
+		id = 51365,
+		damage = 212,
+		base = 51360
+	}
+	uv0.weapon_property_84[51366] = {
+		id = 51366,
+		damage = 242,
+		base = 51360
+	}
+	uv0.weapon_property_84[51367] = {
+		id = 51367,
+		damage = 272,
+		base = 51360
+	}
+	uv0.weapon_property_84[51368] = {
+		id = 51368,
+		damage = 302,
+		base = 51360
+	}
+	uv0.weapon_property_84[51369] = {
+		id = 51369,
+		damage = 332,
+		base = 51360
+	}
+	uv0.weapon_property_84[51370] = {
+		id = 51370,
+		damage = 362,
+		base = 51360
+	}
+	uv0.weapon_property_84[51371] = {
+		id = 51371,
+		damage = 376,
+		base = 51360
+	}
+	uv0.weapon_property_84[51372] = {
+		id = 51372,
+		damage = 398,
+		base = 51360
+	}
+	uv0.weapon_property_84[51373] = {
+		id = 51373,
+		damage = 427,
+		base = 51360
 	}
 	uv0.weapon_property_84[51400] = {
 		action_index = "",

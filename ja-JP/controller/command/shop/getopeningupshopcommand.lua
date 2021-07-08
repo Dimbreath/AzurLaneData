@@ -117,8 +117,10 @@ function slot0.GetActivityShops(slot0, slot1)
 						table.insert(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], slot5)
 					end
 
+					slot1 = getProxy(ActivityProxy):getRawData()
+
 					table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], function (slot0, slot1)
-						return slot0.activityId < slot1.activityId
+						return uv0[slot1.activityId]:getStartTime() < uv0[slot0.activityId]:getStartTime()
 					end)
 				end
 

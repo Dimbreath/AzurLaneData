@@ -50,6 +50,31 @@ function slot0.getSkinsByType(slot0, slot1)
 	return slot2
 end
 
+function slot0.getSkinsByTypes(slot0, slot1)
+	if not slot1 or #slot1 <= 0 then
+		return {}
+	end
+
+	slot2 = {}
+	slot3 = pg.equip_skin_template
+
+	for slot8, slot9 in pairs(slot0:getEquipmentSkins()) do
+		slot10 = false
+
+		for slot14 = 1, #slot1 do
+			if table.contains(slot3[slot9.id].equip_type, slot1[slot14]) then
+				slot10 = true
+			end
+		end
+
+		if slot10 then
+			table.insert(slot2, slot9)
+		end
+	end
+
+	return slot2
+end
+
 function slot0.getEquipmnentSkinById(slot0, slot1)
 	return slot0.equipmentSkinIds[slot1]
 end

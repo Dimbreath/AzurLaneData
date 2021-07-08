@@ -1,45 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_73 = {
-	[5206] = {
-		id = 5206,
-		damage = "94 x 5",
-		base = 5200,
+	[5523] = {
+		id = 5523,
+		damage = "70 x 2",
+		base = 5520,
 		weapon_id = {
-			5206
+			5523
 		}
 	},
-	[5220] = {
-		name = "533mm五連装魚雷",
+	[5524] = {
+		id = 5524,
+		damage = "77 x 2",
+		base = 5520,
+		weapon_id = {
+			5524
+		}
+	},
+	[5525] = {
+		id = 5525,
+		damage = "84 x 2",
+		base = 5520,
+		weapon_id = {
+			5525
+		}
+	},
+	[5526] = {
+		id = 5526,
+		damage = "91 x 2",
+		base = 5520,
+		weapon_id = {
+			5526
+		}
+	},
+	[5540] = {
+		name = "潜水艦用550mm24V魚雷",
 		speciality = "雷撃",
-		type = 5,
-		tech = 2,
-		descrip = "0",
+		type = 13,
+		tech = 3,
+		descrip = "说明未填写",
 		value_2 = 25,
-		icon = "5200",
+		icon = "5500",
 		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "50 x 5",
-		nationality = 0,
+		damage = "54 x 2",
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5220,
+		id = 5540,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1800
+				1827
 			}
 		},
 		equip_info = {
+			1,
+			2,
 			{
 				3,
-				1800
+				1827
 			},
 			{
 				4,
-				1404
+				1601
 			},
 			6,
 			10,
@@ -47,193 +73,172 @@ pg.equip_data_statistics_73 = {
 			12
 		},
 		weapon_id = {
-			5220
+			5540
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
+			8,
+			17
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			18
+			8,
+			17
 		},
 		equip_parameters = {},
 		label = {
-			"UN",
-			"ST",
-			"TP",
-			"QUINT"
+			"FFNF",
+			"SS",
+			"TP"
 		}
 	},
-	[5221] = {
-		id = 5221,
-		damage = "59 x 5",
-		base = 5220,
+	[5541] = {
+		id = 5541,
+		damage = "62 x 2",
+		base = 5540,
 		weapon_id = {
-			5221
+			5541
 		}
 	},
-	[5222] = {
-		id = 5222,
-		damage = "68 x 5",
-		base = 5220,
+	[5542] = {
+		id = 5542,
+		damage = "70 x 2",
+		base = 5540,
 		weapon_id = {
-			5222
+			5542
 		}
 	},
-	[5223] = {
-		id = 5223,
-		damage = "77 x 5",
-		base = 5220,
+	[5543] = {
+		id = 5543,
+		damage = "78 x 2",
+		base = 5540,
 		weapon_id = {
-			5223
+			5543
 		}
 	},
-	[5224] = {
-		id = 5224,
-		damage = "86 x 5",
-		base = 5220,
+	[5544] = {
+		id = 5544,
+		damage = "86 x 2",
+		base = 5540,
 		weapon_id = {
-			5224
+			5544
 		}
 	},
-	[5225] = {
-		id = 5225,
-		damage = "95 x 5",
-		base = 5220,
+	[5545] = {
+		id = 5545,
+		damage = "94 x 2",
+		base = 5540,
 		weapon_id = {
-			5225
+			5545
 		}
 	},
-	[5226] = {
-		id = 5226,
-		damage = "104 x 5",
-		base = 5220,
+	[5546] = {
+		id = 5546,
+		damage = "102 x 2",
+		base = 5540,
 		weapon_id = {
-			5226
+			5546
 		}
 	},
-	[5227] = {
-		id = 5227,
-		damage = "113 x 5",
-		base = 5220,
+	[5547] = {
+		id = 5547,
+		damage = "110 x 2",
+		base = 5540,
 		weapon_id = {
-			5227
+			5547
 		}
 	},
-	[5228] = {
-		id = 5228,
-		damage = "122 x 5",
-		base = 5220,
+	[5548] = {
+		id = 5548,
+		damage = "118 x 2",
+		base = 5540,
 		weapon_id = {
-			5228
+			5548
 		}
 	},
-	[5229] = {
-		id = 5229,
-		damage = "131 x 5",
-		base = 5220,
+	[5549] = {
+		id = 5549,
+		damage = "126 x 2",
+		base = 5540,
 		weapon_id = {
-			5229
+			5549
 		}
 	},
-	[5230] = {
-		id = 5230,
-		damage = "140 x 5",
-		base = 5220,
+	[5550] = {
+		id = 5550,
+		damage = "135 x 2",
+		base = 5540,
 		weapon_id = {
-			5230
+			5550
 		}
 	},
-	[5240] = {
-		name = "533mm五連装魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 3,
+	[5551] = {
+		anti_siren = 100,
+		damage = "135 x 2",
+		base = 5540,
+		id = 5551,
+		weapon_id = {
+			5551
+		}
+	},
+	[6000] = {
+		name = "12.7mm対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		rarity = 1,
 		descrip = "0",
-		value_2 = 45,
-		icon = "5200",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "56 x 5",
+		value_2 = 0,
+		icon = "6000",
+		damage = "6/回",
 		nationality = 0,
 		ammo = 5,
 		value_3 = 0,
-		id = 5240,
+		id = 6000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
+		ammo_info = {},
 		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1404
-			},
+			1,
+			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			5240
+			6000
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"UN",
 			"ST",
-			"TP",
-			"QUINT"
-		}
-	},
-	[5241] = {
-		id = 5241,
-		damage = "66 x 5",
-		base = 5240,
-		weapon_id = {
-			5241
-		}
-	},
-	[5242] = {
-		id = 5242,
-		damage = "76 x 5",
-		base = 5240,
-		weapon_id = {
-			5242
-		}
-	},
-	[5243] = {
-		id = 5243,
-		damage = "86 x 5",
-		base = 5240,
-		weapon_id = {
-			5243
+			"AA"
 		}
 	}
 }

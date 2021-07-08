@@ -1,97 +1,117 @@
 pg = pg or {}
 pg.aircraft_template_243 = {
-	[83445] = {
-		id = 83445,
-		base = 83440,
-		max_hp = 65,
-		hp_growth = 2507,
+	[83222] = {
+		id = 83222,
+		base = 83220,
+		max_hp = 47,
+		hp_growth = 1826,
 		weapon_ID = {
-			50045,
-			50565
+			50022,
+			50522
 		}
 	},
-	[83446] = {
-		id = 83446,
-		base = 83440,
-		max_hp = 71,
-		hp_growth = 2722,
+	[83223] = {
+		id = 83223,
+		base = 83220,
+		max_hp = 53,
+		hp_growth = 2036,
 		weapon_ID = {
-			50046,
-			50566
+			50023,
+			50523
 		}
 	},
-	[83447] = {
-		id = 83447,
-		base = 83440,
-		max_hp = 76,
-		hp_growth = 2937,
+	[83224] = {
+		id = 83224,
+		base = 83220,
+		max_hp = 58,
+		hp_growth = 2247,
 		weapon_ID = {
-			50047,
-			50567
+			50024,
+			50524
 		}
 	},
-	[83448] = {
-		id = 83448,
-		base = 83440,
-		max_hp = 82,
-		hp_growth = 3152,
+	[83225] = {
+		id = 83225,
+		base = 83220,
+		max_hp = 64,
+		hp_growth = 2458,
 		weapon_ID = {
-			50048,
-			50568
+			50025,
+			50525
 		}
 	},
-	[83449] = {
-		id = 83449,
-		base = 83440,
-		max_hp = 88,
-		hp_growth = 3367,
+	[83226] = {
+		id = 83226,
+		base = 83220,
+		max_hp = 69,
+		hp_growth = 2669,
 		weapon_ID = {
-			50049,
-			50569
+			50026,
+			50526
 		}
 	},
-	[83450] = {
-		id = 83450,
-		base = 83440,
-		max_hp = 93,
-		hp_growth = 3581,
+	[83227] = {
+		id = 83227,
+		base = 83220,
+		max_hp = 75,
+		hp_growth = 2879,
 		weapon_ID = {
-			50050,
-			50570
+			50027,
+			50527
 		}
 	},
-	[83451] = {
-		id = 83451,
-		base = 83440,
-		max_hp = 99,
-		hp_growth = 3796,
+	[83228] = {
+		id = 83228,
+		base = 83220,
+		max_hp = 80,
+		hp_growth = 3090,
 		weapon_ID = {
-			50051,
-			50571
+			50028,
+			50528
 		}
 	},
-	[84000] = {
-		name = "BF-109T舰载战斗机T1",
-		max_hp = 31,
+	[83229] = {
+		id = 83229,
+		base = 83220,
+		max_hp = 86,
+		hp_growth = 3301,
+		weapon_ID = {
+			50029,
+			50529
+		}
+	},
+	[83230] = {
+		id = 83230,
+		base = 83220,
+		max_hp = 91,
+		hp_growth = 3511,
+		weapon_ID = {
+			50030,
+			50530
+		}
+	},
+	[83240] = {
+		name = "零战五二型",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "BF109T",
+		model_ID = "lingzhan52",
 		ACC_growth = 0,
-		crash_DMG = 42,
-		dodge = 0.357,
+		crash_DMG = 70,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 8,
+		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "BF109T",
+		icon = "lingzhan52",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1210,
-		speed = 50,
-		id = 84000,
+		nationality = 3,
+		hp_growth = 1532,
+		speed = 55,
+		id = 83240,
 		scale = 1,
 		weapon_ID = {
-			59000,
-			59400
+			50040,
+			50540
 		},
 		position_offset = {
 			0,
@@ -134,7 +154,7 @@ pg.aircraft_template_243 = {
 				0
 			},
 			{
-				0.27,
+				0.51,
 				0,
 				0
 			},
@@ -143,26 +163,6 @@ pg.aircraft_template_243 = {
 				0,
 				0
 			}
-		}
-	},
-	[84001] = {
-		id = 84001,
-		base = 84000,
-		max_hp = 36,
-		hp_growth = 1391,
-		weapon_ID = {
-			59001,
-			59401
-		}
-	},
-	[84002] = {
-		id = 84002,
-		base = 84000,
-		max_hp = 41,
-		hp_growth = 1572,
-		weapon_ID = {
-			59002,
-			59402
 		}
 	}
 }

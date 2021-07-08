@@ -1,233 +1,465 @@
 pg = pg or {}
 pg.equip_data_statistics_317 = {
-	[45406] = {
-		id = 45406,
-		damage = "98 x 2",
-		base = 45400,
+	[49000] = {
+		name = "Ju-87C急降下爆撃機",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 2,
+		tech = 1,
+		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+		value_2 = 5,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 49000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59300
+			},
+			{
+				5,
+				52600
+			},
+			{
+				5,
+				53000
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			45406
+			49000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
 		}
 	},
-	[45420] = {
-		name = "潜水艦用G7e音響追跡魚雷",
-		speciality = "雷撃",
-		type = 13,
+	[49001] = {
+		id = 49001,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59301
+			},
+			{
+				5,
+				52601
+			},
+			{
+				5,
+				53001
+			}
+		},
+		weapon_id = {
+			49001
+		}
+	},
+	[49002] = {
+		id = 49002,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59302
+			},
+			{
+				5,
+				52602
+			},
+			{
+				5,
+				53002
+			}
+		},
+		weapon_id = {
+			49002
+		}
+	},
+	[49003] = {
+		id = 49003,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59303
+			},
+			{
+				5,
+				52603
+			},
+			{
+				5,
+				53003
+			}
+		},
+		weapon_id = {
+			49003
+		}
+	},
+	[49020] = {
+		name = "Ju-87C急降下爆撃機",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
 		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "45400",
-		attribute_2 = "torpedo",
+		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+		value_2 = 12,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 49020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59320
+			},
+			{
+				5,
+				52620
+			},
+			{
+				5,
+				53020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			49020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49021] = {
+		id = 49021,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59321
+			},
+			{
+				5,
+				52621
+			},
+			{
+				5,
+				53021
+			}
+		},
+		weapon_id = {
+			49021
+		}
+	},
+	[49022] = {
+		id = 49022,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59322
+			},
+			{
+				5,
+				52622
+			},
+			{
+				5,
+				53022
+			}
+		},
+		weapon_id = {
+			49022
+		}
+	},
+	[49023] = {
+		id = 49023,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59323
+			},
+			{
+				5,
+				52623
+			},
+			{
+				5,
+				53023
+			}
+		},
+		weapon_id = {
+			49023
+		}
+	},
+	[49024] = {
+		id = 49024,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59324
+			},
+			{
+				5,
+				52624
+			},
+			{
+				5,
+				53024
+			}
+		},
+		weapon_id = {
+			49024
+		}
+	},
+	[49025] = {
+		id = 49025,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59325
+			},
+			{
+				5,
+				52625
+			},
+			{
+				5,
+				53025
+			}
+		},
+		weapon_id = {
+			49025
+		}
+	},
+	[49026] = {
+		id = 49026,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59326
+			},
+			{
+				5,
+				52626
+			},
+			{
+				5,
+				53026
+			}
+		},
+		weapon_id = {
+			49026
+		}
+	},
+	[49040] = {
+		name = "Ju-87C急降下爆撃機",
+		type = 9,
+		speciality = "爆撃",
 		rarity = 4,
-		damage = "58 x 2",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1826
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1826
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45420
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45421] = {
-		id = 45421,
-		damage = "66 x 2",
-		base = 45420,
-		weapon_id = {
-			45421
-		}
-	},
-	[45422] = {
-		id = 45422,
-		damage = "74 x 2",
-		base = 45420,
-		weapon_id = {
-			45422
-		}
-	},
-	[45423] = {
-		id = 45423,
-		damage = "82 x 2",
-		base = 45420,
-		weapon_id = {
-			45423
-		}
-	},
-	[45424] = {
-		id = 45424,
-		damage = "90 x 2",
-		base = 45420,
-		weapon_id = {
-			45424
-		}
-	},
-	[45425] = {
-		id = 45425,
-		damage = "99 x 2",
-		base = 45420,
-		weapon_id = {
-			45425
-		}
-	},
-	[45426] = {
-		id = 45426,
-		damage = "108 x 2",
-		base = 45420,
-		weapon_id = {
-			45426
-		}
-	},
-	[45427] = {
-		id = 45427,
-		damage = "117 x 2",
-		base = 45420,
-		weapon_id = {
-			45427
-		}
-	},
-	[45428] = {
-		id = 45428,
-		damage = "126 x 2",
-		base = 45420,
-		weapon_id = {
-			45428
-		}
-	},
-	[45429] = {
-		id = 45429,
-		damage = "135 x 2",
-		base = 45420,
-		weapon_id = {
-			45429
-		}
-	},
-	[45430] = {
-		id = 45430,
-		damage = "144 x 2",
-		base = 45420,
-		weapon_id = {
-			45430
-		}
-	},
-	[45440] = {
-		name = "潜水艦用G7e音響追跡魚雷",
-		speciality = "雷撃",
-		type = 13,
 		tech = 3,
-		descrip = "0",
-		value_2 = 45,
-		icon = "45400",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "64 x 2",
+		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+		value_2 = 25,
+		icon = "49000",
+		attribute_2 = "air",
 		nationality = 4,
-		ammo = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 45440,
+		id = 49040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				3,
-				1826
+				6,
+				59340
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				53040
 			}
 		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1826
-			},
-			{
-				4,
-				1601
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			45440
+			49040
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			6,
+			7
 		},
 		part_sub = {
-			8,
-			17
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"SS",
-			"TP"
+			"CV",
+			"DB"
 		}
 	},
-	[45441] = {
-		id = 45441,
-		damage = "73 x 2",
-		base = 45440,
+	[49041] = {
+		id = 49041,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59341
+			},
+			{
+				5,
+				52641
+			},
+			{
+				5,
+				53041
+			}
+		},
 		weapon_id = {
-			45441
+			49041
 		}
 	},
-	[45442] = {
-		id = 45442,
-		damage = "82 x 2",
-		base = 45440,
+	[49042] = {
+		id = 49042,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59342
+			},
+			{
+				5,
+				52642
+			},
+			{
+				5,
+				53042
+			}
+		},
 		weapon_id = {
-			45442
+			49042
 		}
 	},
-	[45443] = {
-		id = 45443,
-		damage = "91 x 2",
-		base = 45440,
+	[49043] = {
+		id = 49043,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59343
+			},
+			{
+				5,
+				52643
+			},
+			{
+				5,
+				53043
+			}
+		},
 		weapon_id = {
-			45443
+			49043
+		}
+	},
+	[49044] = {
+		id = 49044,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59344
+			},
+			{
+				5,
+				52644
+			},
+			{
+				5,
+				53044
+			}
+		},
+		weapon_id = {
+			49044
+		}
+	},
+	[49045] = {
+		id = 49045,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59345
+			},
+			{
+				5,
+				52645
+			},
+			{
+				5,
+				53045
+			}
+		},
+		weapon_id = {
+			49045
 		}
 	}
 }

@@ -1,189 +1,377 @@
 pg = pg or {}
 pg.equip_data_statistics_195 = {
-	[26548] = {
-		id = 26548,
-		damage = "114/回",
-		base = 26540,
-		weapon_id = {
-			26548
-		}
-	},
-	[26549] = {
-		id = 26549,
-		damage = "122/回",
-		base = 26540,
-		weapon_id = {
-			26549
-		}
-	},
-	[26550] = {
-		id = 26550,
-		damage = "130/回",
-		base = 26540,
-		weapon_id = {
-			26550
-		}
-	},
-	[26551] = {
-		anti_siren = 100,
-		damage = "130/回",
-		base = 26540,
-		id = 26551,
-		weapon_id = {
-			26551
-		}
-	},
-	[26552] = {
-		anti_siren = 200,
-		damage = "130/回",
-		base = 26540,
-		id = 26552,
-		weapon_id = {
-			26552
-		}
-	},
-	[26553] = {
-		anti_siren = 300,
-		damage = "130/回",
-		base = 26540,
-		id = 26553,
-		weapon_id = {
-			26553
-		}
-	},
-	[26600] = {
-		name = "連装ボフォース40mm機関砲STAAG",
-		speciality = "対空",
-		type = 6,
-		attribute_3 = "hit",
-		tech = 0,
-		value_2 = 45,
-		icon = "26600",
-		attribute_2 = "antiaircraft",
+	[28040] = {
+		name = "ソードフィッシュ",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 4,
+		tech = 3,
 		descrip = "0",
-		rarity = 5,
-		damage = "38/回",
+		value_2 = 25,
+		icon = "28000",
+		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 10,
-		id = 26600,
+		value_3 = 0,
+		id = 28040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51040
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26600
+			28040
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"TB"
 		}
 	},
-	[26601] = {
-		id = 26601,
-		damage = "43/回",
-		base = 26600,
+	[28041] = {
+		id = 28041,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51041
+			}
+		},
 		weapon_id = {
-			26601
+			28041
 		}
 	},
-	[26602] = {
-		id = 26602,
-		damage = "48/回",
-		base = 26600,
+	[28042] = {
+		id = 28042,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51042
+			}
+		},
 		weapon_id = {
-			26602
+			28042
 		}
 	},
-	[26603] = {
-		id = 26603,
-		damage = "54/回",
-		base = 26600,
+	[28043] = {
+		id = 28043,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51043
+			}
+		},
 		weapon_id = {
-			26603
+			28043
 		}
 	},
-	[26604] = {
-		id = 26604,
-		damage = "60/回",
-		base = 26600,
+	[28044] = {
+		id = 28044,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51044
+			}
+		},
 		weapon_id = {
-			26604
+			28044
 		}
 	},
-	[26605] = {
-		id = 26605,
-		damage = "66/回",
-		base = 26600,
+	[28045] = {
+		id = 28045,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51045
+			}
+		},
 		weapon_id = {
-			26605
+			28045
 		}
 	},
-	[26606] = {
-		id = 26606,
-		damage = "72/回",
-		base = 26600,
+	[28046] = {
+		id = 28046,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51046
+			}
+		},
 		weapon_id = {
-			26606
+			28046
 		}
 	},
-	[26607] = {
-		id = 26607,
-		damage = "78/回",
-		base = 26600,
+	[28047] = {
+		id = 28047,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51047
+			}
+		},
 		weapon_id = {
-			26607
+			28047
 		}
 	},
-	[26608] = {
-		id = 26608,
-		damage = "84/回",
-		base = 26600,
+	[28048] = {
+		id = 28048,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				4,
+				51048
+			}
+		},
 		weapon_id = {
-			26608
+			28048
 		}
 	},
-	[26609] = {
-		id = 26609,
-		damage = "90/回",
-		base = 26600,
+	[28049] = {
+		id = 28049,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				4,
+				51049
+			}
+		},
 		weapon_id = {
-			26609
+			28049
+		}
+	},
+	[28050] = {
+		id = 28050,
+		base = 28040,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				4,
+				51050
+			}
+		},
+		weapon_id = {
+			28050
+		}
+	},
+	[28051] = {
+		anti_siren = 100,
+		base = 28040,
+		id = 28051,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51051
+			}
+		},
+		weapon_id = {
+			28051
+		}
+	},
+	[28060] = {
+		name = "ソードフィッシュ（818中隊）",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 5,
+		tech = 0,
+		descrip = "アーク・ロイヤルに搭載された818中隊のソードフィッシュ攻撃機。ビスマルク追撃戦において決め手となる雷撃を放った。 ",
+		value_2 = 45,
+		icon = "28060",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51060
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28060
+		},
+		skill_id = {
+			6810
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[28061] = {
+		base = 28060,
+		id = 28061,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51061
+			}
+		},
+		weapon_id = {
+			28061
+		},
+		skill_id = {
+			6811
+		}
+	},
+	[28062] = {
+		base = 28060,
+		id = 28062,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51062
+			}
+		},
+		weapon_id = {
+			28062
+		},
+		skill_id = {
+			6812
+		}
+	},
+	[28063] = {
+		base = 28060,
+		id = 28063,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51063
+			}
+		},
+		weapon_id = {
+			28063
+		},
+		skill_id = {
+			6813
+		}
+	},
+	[28064] = {
+		base = 28060,
+		id = 28064,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51064
+			}
+		},
+		weapon_id = {
+			28064
+		},
+		skill_id = {
+			6814
 		}
 	}
 }

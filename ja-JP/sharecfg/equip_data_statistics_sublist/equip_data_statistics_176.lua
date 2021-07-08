@@ -1,221 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_176 = {
-	[24306] = {
-		id = 24306,
-		damage = "88 x 2",
-		base = 24300,
+	[26151] = {
+		anti_siren = 100,
+		damage = "84/回",
+		base = 26140,
+		id = 26151,
 		weapon_id = {
-			24306
+			26151
 		}
 	},
-	[24320] = {
-		name = "381mm連装砲改",
-		speciality = "投射",
-		type = 4,
+	[26200] = {
+		name = "QF 2ポンド八連装ポンポン砲",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "0",
+		value_2 = 12,
+		icon = "26200",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "42/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26200
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26201] = {
+		id = 26201,
+		damage = "48/回",
+		base = 26200,
+		weapon_id = {
+			26201
+		}
+	},
+	[26202] = {
+		id = 26202,
+		damage = "54/回",
+		base = 26200,
+		weapon_id = {
+			26202
+		}
+	},
+	[26203] = {
+		id = 26203,
+		damage = "60/回",
+		base = 26200,
+		weapon_id = {
+			26203
+		}
+	},
+	[26204] = {
+		id = 26204,
+		damage = "66/回",
+		base = 26200,
+		weapon_id = {
+			26204
+		}
+	},
+	[26205] = {
+		id = 26205,
+		damage = "73/回",
+		base = 26200,
+		weapon_id = {
+			26205
+		}
+	},
+	[26206] = {
+		id = 26206,
+		damage = "80/回",
+		base = 26200,
+		weapon_id = {
+			26206
+		}
+	},
+	[26220] = {
+		name = "QF 2ポンド八連装ポンポン砲",
+		speciality = "対空",
+		type = 6,
 		tech = 2,
-		descrip = "381mm連装砲の改良型",
+		descrip = "0",
 		value_2 = 25,
-		icon = "24300",
-		attribute_2 = "cannon",
+		icon = "26200",
+		attribute_2 = "antiaircraft",
 		rarity = 4,
-		damage = "51 x 2",
+		damage = "46/回",
 		nationality = 2,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 24320,
+		id = 26220,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			24320
+			26220
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[24321] = {
-		id = 24321,
-		damage = "58 x 2",
-		base = 24320,
-		weapon_id = {
-			24321
-		}
-	},
-	[24322] = {
-		id = 24322,
-		damage = "65 x 2",
-		base = 24320,
-		weapon_id = {
-			24322
-		}
-	},
-	[24323] = {
-		id = 24323,
-		damage = "72 x 2",
-		base = 24320,
-		weapon_id = {
-			24323
-		}
-	},
-	[24324] = {
-		id = 24324,
-		damage = "80 x 2",
-		base = 24320,
-		weapon_id = {
-			24324
-		}
-	},
-	[24325] = {
-		id = 24325,
-		damage = "88 x 2",
-		base = 24320,
-		weapon_id = {
-			24325
-		}
-	},
-	[24326] = {
-		id = 24326,
-		damage = "96 x 2",
-		base = 24320,
-		weapon_id = {
-			24326
-		}
-	},
-	[24327] = {
-		id = 24327,
-		damage = "104 x 2",
-		base = 24320,
-		weapon_id = {
-			24327
-		}
-	},
-	[24328] = {
-		id = 24328,
-		damage = "112 x 2",
-		base = 24320,
-		weapon_id = {
-			24328
-		}
-	},
-	[24329] = {
-		id = 24329,
-		damage = "120 x 2",
-		base = 24320,
-		weapon_id = {
-			24329
-		}
-	},
-	[24330] = {
-		id = 24330,
-		damage = "128 x 2",
-		base = 24320,
-		weapon_id = {
-			24330
-		}
-	},
-	[24340] = {
-		name = "381mm連装砲改",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
-		descrip = "381mm連装砲の改良型",
-		value_2 = 45,
-		icon = "24300",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "56 x 2",
-		nationality = 2,
-		ammo = 2,
-		value_3 = 0,
-		id = 24340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
 			1,
 			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24340
-		},
-		skill_id = {},
-		part_main = {
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"BB",
-			"MG",
-			"HE"
+			"ST",
+			"AA"
 		}
 	},
-	[24341] = {
-		id = 24341,
-		damage = "63 x 2",
-		base = 24340,
+	[26221] = {
+		id = 26221,
+		damage = "53/回",
+		base = 26220,
 		weapon_id = {
-			24341
+			26221
 		}
 	},
-	[24342] = {
-		id = 24342,
-		damage = "70 x 2",
-		base = 24340,
+	[26222] = {
+		id = 26222,
+		damage = "60/回",
+		base = 26220,
 		weapon_id = {
-			24342
+			26222
 		}
 	},
-	[24343] = {
-		id = 24343,
-		damage = "77 x 2",
-		base = 24340,
+	[26223] = {
+		id = 26223,
+		damage = "67/回",
+		base = 26220,
 		weapon_id = {
-			24343
+			26223
+		}
+	},
+	[26224] = {
+		id = 26224,
+		damage = "74/回",
+		base = 26220,
+		weapon_id = {
+			26224
+		}
+	},
+	[26225] = {
+		id = 26225,
+		damage = "81/回",
+		base = 26220,
+		weapon_id = {
+			26225
+		}
+	},
+	[26226] = {
+		id = 26226,
+		damage = "88/回",
+		base = 26220,
+		weapon_id = {
+			26226
+		}
+	},
+	[26227] = {
+		id = 26227,
+		damage = "95/回",
+		base = 26220,
+		weapon_id = {
+			26227
+		}
+	},
+	[26228] = {
+		id = 26228,
+		damage = "102/回",
+		base = 26220,
+		weapon_id = {
+			26228
 		}
 	}
 }

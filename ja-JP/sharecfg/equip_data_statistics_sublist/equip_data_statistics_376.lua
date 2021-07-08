@@ -1,20 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
-	[85320] = {
-		name = "406mm三連装砲B-37 MK-1",
+	[90242] = {
+		id = 90242,
+		damage = "11 x 6",
+		base = 90240,
+		weapon_id = {
+			90242
+		}
+	},
+	[90243] = {
+		id = 90243,
+		damage = "12 x 6",
+		base = 90240,
+		weapon_id = {
+			90243
+		}
+	},
+	[90244] = {
+		id = 90244,
+		damage = "13 x 6",
+		base = 90240,
+		weapon_id = {
+			90244
+		}
+	},
+	[90245] = {
+		id = 90245,
+		damage = "14 x 6",
+		base = 90240,
+		weapon_id = {
+			90245
+		}
+	},
+	[90246] = {
+		id = 90246,
+		damage = "15 x 6",
+		base = 90240,
+		weapon_id = {
+			90246
+		}
+	},
+	[90247] = {
+		id = 90247,
+		damage = "15 x 6",
+		base = 90240,
+		weapon_id = {
+			90247
+		}
+	},
+	[90300] = {
+		name = "330mm四連装砲Mle1931",
 		speciality = "投射",
 		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "85300",
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "50300",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "56 x 3",
-		nationality = 7,
+		rarity = 2,
+		damage = "34 x 4",
+		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 85320,
+		id = 90300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -23,7 +71,7 @@ pg.equip_data_statistics_376 = {
 		ammo_info = {
 			{
 				2,
-				1571
+				1550
 			}
 		},
 		equip_info = {
@@ -35,7 +83,7 @@ pg.equip_data_statistics_376 = {
 			12
 		},
 		weapon_id = {
-			85320
+			90300
 		},
 		skill_id = {},
 		part_main = {
@@ -47,238 +95,133 @@ pg.equip_data_statistics_376 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"SN",
+			"FFNF",
 			"BB",
-			"MG",
-			"AP"
+			"MG"
 		}
 	},
-	[85321] = {
-		id = 85321,
-		damage = "65 x 3",
-		base = 85320,
+	[90301] = {
+		id = 90301,
+		damage = "39 x 4",
+		base = 90300,
 		weapon_id = {
-			85321
+			90301
 		}
 	},
-	[85322] = {
-		id = 85322,
-		damage = "73 x 3",
-		base = 85320,
+	[90302] = {
+		id = 90302,
+		damage = "44 x 4",
+		base = 90300,
 		weapon_id = {
-			85322
+			90302
 		}
 	},
-	[85323] = {
-		id = 85323,
-		damage = "83 x 3",
-		base = 85320,
+	[90303] = {
+		id = 90303,
+		damage = "49 x 4",
+		base = 90300,
 		weapon_id = {
-			85323
+			90303
 		}
 	},
-	[85324] = {
-		id = 85324,
-		damage = "92 x 3",
-		base = 85320,
-		weapon_id = {
-			85324
-		}
-	},
-	[85325] = {
-		id = 85325,
-		damage = "102 x 3",
-		base = 85320,
-		weapon_id = {
-			85325
-		}
-	},
-	[85326] = {
-		id = 85326,
-		damage = "112 x 3",
-		base = 85320,
-		weapon_id = {
-			85326
-		}
-	},
-	[85327] = {
-		id = 85327,
-		damage = "120 x 3",
-		base = 85320,
-		weapon_id = {
-			85327
-		}
-	},
-	[85328] = {
-		id = 85328,
-		damage = "129 x 3",
-		base = 85320,
-		weapon_id = {
-			85328
-		}
-	},
-	[85329] = {
-		id = 85329,
-		damage = "139 x 3",
-		base = 85320,
-		weapon_id = {
-			85329
-		}
-	},
-	[85330] = {
-		id = 85330,
-		damage = "149 x 3",
-		base = 85320,
-		weapon_id = {
-			85330
-		}
-	},
-	[85360] = {
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "14/回",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85360,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85360
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85361] = {
-		id = 85361,
-		damage = "16/回",
-		base = 85360,
-		weapon_id = {
-			85361
-		}
-	},
-	[85362] = {
-		id = 85362,
-		damage = "19/回",
-		base = 85360,
-		weapon_id = {
-			85362
-		}
-	},
-	[85363] = {
-		id = 85363,
-		damage = "22/回",
-		base = 85360,
-		weapon_id = {
-			85363
-		}
-	},
-	[85380] = {
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
+	[90320] = {
+		name = "330mm四連装砲Mle1931",
+		speciality = "投射",
+		type = 4,
 		tech = 2,
-		descrip = "0",
+		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
+		icon = "50300",
+		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "33/回",
-		nationality = 7,
-		ammo = 5,
+		damage = "37 x 4",
+		nationality = 8,
+		ammo = 3,
 		value_3 = 0,
-		id = 85380,
+		id = 90320,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85380
+			90320
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"ST",
-			"AA"
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
+	[90321] = {
+		id = 90321,
+		damage = "42 x 4",
+		base = 90320,
+		weapon_id = {
+			90321
+		}
+	},
+	[90322] = {
+		id = 90322,
+		damage = "47 x 4",
+		base = 90320,
+		weapon_id = {
+			90322
+		}
+	},
+	[90323] = {
+		id = 90323,
+		damage = "52 x 4",
+		base = 90320,
+		weapon_id = {
+			90323
+		}
+	},
+	[90324] = {
+		id = 90324,
+		damage = "57 x 4",
+		base = 90320,
+		weapon_id = {
+			90324
+		}
+	},
+	[90325] = {
+		id = 90325,
+		damage = "63 x 4",
+		base = 90320,
+		weapon_id = {
+			90325
+		}
+	},
+	[90326] = {
+		id = 90326,
+		damage = "69 x 4",
+		base = 90320,
+		weapon_id = {
+			90326
 		}
 	}
 }

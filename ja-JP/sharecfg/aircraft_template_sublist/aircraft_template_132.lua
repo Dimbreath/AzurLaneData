@@ -1,27 +1,97 @@
 pg = pg or {}
 pg.aircraft_template_132 = {
-	[49060] = {
-		name = "He-50b舰载轰炸机",
-		max_hp = 37,
+	[48001] = {
+		id = 48001,
+		base = 48000,
+		max_hp = 36,
+		hp_growth = 1398,
+		weapon_ID = {
+			59761,
+			59661
+		}
+	},
+	[48002] = {
+		id = 48002,
+		base = 48000,
+		max_hp = 41,
+		hp_growth = 1581,
+		weapon_ID = {
+			59762,
+			59662
+		}
+	},
+	[48003] = {
+		id = 48003,
+		base = 48000,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			59763,
+			59663
+		}
+	},
+	[48004] = {
+		id = 48004,
+		base = 48000,
+		max_hp = 51,
+		hp_growth = 1946,
+		weapon_ID = {
+			59764,
+			59664
+		}
+	},
+	[48005] = {
+		id = 48005,
+		base = 48000,
+		max_hp = 55,
+		hp_growth = 2128,
+		weapon_ID = {
+			59765,
+			59665
+		}
+	},
+	[48006] = {
+		id = 48006,
+		base = 48000,
+		max_hp = 60,
+		hp_growth = 2310,
+		weapon_ID = {
+			59766,
+			59666
+		}
+	},
+	[48007] = {
+		id = 48007,
+		base = 48000,
+		max_hp = 65,
+		hp_growth = 2493,
+		weapon_ID = {
+			59767,
+			59667
+		}
+	},
+	[48020] = {
+		name = "Fi-167舰载鱼雷机",
+		max_hp = 35,
 		accuracy = 23,
-		model_ID = "He50b",
+		model_ID = "FI167",
 		ACC_growth = 0,
-		crash_DMG = 112,
-		dodge = 3.51,
+		crash_DMG = 152,
+		dodge = 1.11,
 		attack_power = 2,
-		dodge_limit = 0.8,
-		type = 3,
+		dodge_limit = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "He50b",
+		icon = "FI167",
 		funnel_behavior = "",
 		nationality = 4,
-		hp_growth = 1408,
+		hp_growth = 1338,
 		speed = 48,
-		id = 49060,
+		id = 48020,
 		scale = 1,
 		weapon_ID = {
 			59760,
-			52240
+			59680
 		},
 		position_offset = {
 			0,
@@ -41,13 +111,13 @@ pg.aircraft_template_132 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.04,
-					-1.11,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					1.08,
-					1.2,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -64,7 +134,7 @@ pg.aircraft_template_132 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -75,158 +145,24 @@ pg.aircraft_template_132 = {
 			}
 		}
 	},
-	[49061] = {
-		id = 49061,
-		base = 49060,
-		max_hp = 42,
-		hp_growth = 1619,
+	[48021] = {
+		id = 48021,
+		base = 48020,
+		max_hp = 40,
+		hp_growth = 1538,
 		weapon_ID = {
 			59761,
-			52241
+			59681
 		}
 	},
-	[49062] = {
-		id = 49062,
-		base = 49060,
-		max_hp = 48,
-		hp_growth = 1830,
+	[48022] = {
+		id = 48022,
+		base = 48020,
+		max_hp = 45,
+		hp_growth = 1739,
 		weapon_ID = {
 			59762,
-			52242
-		}
-	},
-	[49063] = {
-		id = 49063,
-		base = 49060,
-		max_hp = 53,
-		hp_growth = 2042,
-		weapon_ID = {
-			59763,
-			52243
-		}
-	},
-	[49064] = {
-		id = 49064,
-		base = 49060,
-		max_hp = 59,
-		hp_growth = 2253,
-		weapon_ID = {
-			59764,
-			52244
-		}
-	},
-	[49065] = {
-		id = 49065,
-		base = 49060,
-		max_hp = 64,
-		hp_growth = 2464,
-		weapon_ID = {
-			59765,
-			52245
-		}
-	},
-	[49066] = {
-		id = 49066,
-		base = 49060,
-		max_hp = 70,
-		hp_growth = 2675,
-		weapon_ID = {
-			59766,
-			52246
-		}
-	},
-	[49067] = {
-		id = 49067,
-		base = 49060,
-		max_hp = 75,
-		hp_growth = 2886,
-		weapon_ID = {
-			59767,
-			52247
-		}
-	},
-	[61010] = {
-		name = "皇家方舟技能LV1",
-		max_hp = 32,
-		accuracy = 23,
-		model_ID = "suoyu",
-		ACC_growth = 0,
-		crash_DMG = 90,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "suoyu",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1216,
-		speed = 40,
-		id = 61010,
-		scale = 1,
-		weapon_ID = {
-			61013
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.26,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[61011] = {
-		max_hp = 64,
-		name = "皇家方舟技能LV2",
-		base = 61010,
-		id = 61011,
-		hp_growth = 2432,
-		weapon_ID = {
-			61014
+			59682
 		}
 	}
 }

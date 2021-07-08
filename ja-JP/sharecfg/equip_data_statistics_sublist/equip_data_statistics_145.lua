@@ -1,438 +1,310 @@
 pg = pg or {}
 pg.equip_data_statistics_145 = {
-	[19072] = {
-		anti_siren = 200,
-		base = 19060,
-		id = 19072,
-		ammo_info = {
-			{
-				5,
-				52972
-			},
-			{
-				5,
-				52172
-			}
-		},
+	[21322] = {
+		id = 21322,
+		damage = "6 x 1",
+		base = 21320,
 		weapon_id = {
-			19072
+			21322
 		}
 	},
-	[19073] = {
-		anti_siren = 300,
-		base = 19060,
-		id = 19073,
-		ammo_info = {
-			{
-				5,
-				52973
-			},
-			{
-				5,
-				52173
-			}
-		},
+	[21323] = {
+		id = 21323,
+		damage = "7 x 1",
+		base = 21320,
 		weapon_id = {
-			19073
+			21323
 		}
 	},
-	[19100] = {
-		name = "SB2Cヘルダイバー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
+	[21340] = {
+		name = "120mm単装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "21300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 1",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21340
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21341] = {
+		id = 21341,
+		base = 21340,
+		weapon_id = {
+			21341
+		}
+	},
+	[21342] = {
+		id = 21342,
+		damage = "7 x 1",
+		base = 21340,
+		weapon_id = {
+			21342
+		}
+	},
+	[21343] = {
+		id = 21343,
+		damage = "8 x 1",
+		base = 21340,
+		weapon_id = {
+			21343
+		}
+	},
+	[21344] = {
+		id = 21344,
+		damage = "9 x 1",
+		base = 21340,
+		weapon_id = {
+			21344
+		}
+	},
+	[21345] = {
+		id = 21345,
+		damage = "10 x 1",
+		base = 21340,
+		weapon_id = {
+			21345
+		}
+	},
+	[21346] = {
+		id = 21346,
+		damage = "11 x 1",
+		base = 21340,
+		weapon_id = {
+			21346
+		}
+	},
+	[21347] = {
+		id = 21347,
+		damage = "11 x 1",
+		base = 21340,
+		weapon_id = {
+			21347
+		}
+	},
+	[21400] = {
+		name = "120mm連装砲",
+		speciality = "追尾",
+		type = 1,
 		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "19100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
+		icon = "21400",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "4 x 4",
+		nationality = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 19100,
+		id = 21400,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50700
-			},
-			{
-				5,
-				52900
-			},
-			{
-				5,
-				52300
+				1,
+				1100
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1001
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			19100
+			21400
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"DB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[19101] = {
-		id = 19101,
-		base = 19100,
-		ammo_info = {
-			{
-				6,
-				50701
-			},
-			{
-				5,
-				52901
-			},
-			{
-				5,
-				52301
-			}
-		},
+	[21401] = {
+		id = 21401,
+		base = 21400,
 		weapon_id = {
-			19101
+			21401
 		}
 	},
-	[19102] = {
-		id = 19102,
-		base = 19100,
-		ammo_info = {
-			{
-				6,
-				50702
-			},
-			{
-				5,
-				52902
-			},
-			{
-				5,
-				52302
-			}
-		},
+	[21402] = {
+		id = 21402,
+		damage = "6 x 4",
+		base = 21400,
 		weapon_id = {
-			19102
+			21402
 		}
 	},
-	[19103] = {
-		id = 19103,
-		base = 19100,
-		ammo_info = {
-			{
-				6,
-				50703
-			},
-			{
-				5,
-				52903
-			},
-			{
-				5,
-				52303
-			}
-		},
+	[21403] = {
+		id = 21403,
+		damage = "6 x 4",
+		base = 21400,
 		weapon_id = {
-			19103
+			21403
 		}
 	},
-	[19120] = {
-		name = "SB2Cヘルダイバー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
+	[21420] = {
+		name = "120mm連装砲",
+		speciality = "追尾",
+		type = 1,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "19100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
+		icon = "21400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 4",
+		nationality = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 19120,
+		id = 21420,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50720
-			},
-			{
-				5,
-				52920
-			},
-			{
-				5,
-				52320
+				1,
+				1100
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1001
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			19120
+			21420
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19121] = {
-		id = 19121,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50721
-			},
-			{
-				5,
-				52921
-			},
-			{
-				5,
-				52321
-			}
-		},
-		weapon_id = {
-			19121
-		}
-	},
-	[19122] = {
-		id = 19122,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50722
-			},
-			{
-				5,
-				52922
-			},
-			{
-				5,
-				52322
-			}
-		},
-		weapon_id = {
-			19122
-		}
-	},
-	[19123] = {
-		id = 19123,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50723
-			},
-			{
-				5,
-				52923
-			},
-			{
-				5,
-				52323
-			}
-		},
-		weapon_id = {
-			19123
-		}
-	},
-	[19124] = {
-		id = 19124,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50724
-			},
-			{
-				5,
-				52924
-			},
-			{
-				5,
-				52324
-			}
-		},
-		weapon_id = {
-			19124
-		}
-	},
-	[19125] = {
-		id = 19125,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50725
-			},
-			{
-				5,
-				52925
-			},
-			{
-				5,
-				52325
-			}
-		},
-		weapon_id = {
-			19125
-		}
-	},
-	[19126] = {
-		id = 19126,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50726
-			},
-			{
-				5,
-				52926
-			},
-			{
-				5,
-				52326
-			}
-		},
-		weapon_id = {
-			19126
-		}
-	},
-	[19140] = {
-		name = "SB2Cヘルダイバー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "19100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50740
-			},
-			{
-				5,
-				52940
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
+			2,
+			3,
+			4,
+			5,
 			8,
-			9
-		},
-		weapon_id = {
-			19140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"CV",
-			"DB"
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
-	[19141] = {
-		id = 19141,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50741
-			},
-			{
-				5,
-				52941
-			},
-			{
-				5,
-				52341
-			}
-		},
+	[21421] = {
+		id = 21421,
+		base = 21420,
 		weapon_id = {
-			19141
+			21421
 		}
 	},
-	[19142] = {
-		id = 19142,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50742
-			},
-			{
-				5,
-				52942
-			},
-			{
-				5,
-				52342
-			}
-		},
+	[21422] = {
+		id = 21422,
+		damage = "6 x 4",
+		base = 21420,
 		weapon_id = {
-			19142
+			21422
 		}
 	}
 }

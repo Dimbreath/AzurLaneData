@@ -28,6 +28,7 @@ function slot0.init(slot0)
 
 	slot0.top = slot0:findTF("top")
 	slot0.sortBtn = slot0:findTF("sort_button", slot0.top)
+	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
 	slot0.sortImgAsc = slot0:findTF("asc", slot0.decBtn)
 	slot0.sortImgDec = slot0:findTF("desc", slot0.decBtn)
@@ -55,11 +56,11 @@ end
 slot1 = {
 	"sort_default",
 	"sort_rarity",
-	"sort_count",
-	"sort_kind"
+	"sort_count"
 }
 
 function slot0.didEnter(slot0)
+	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.topPanel = GameObject.Find("/OverlayCamera/Overlay/UIMain/blur_panel/adapt/top")
 
 	setParent(slot0.top, slot0.topPanel)
@@ -73,6 +74,140 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel, function ()
 		triggerToggle(uv0.sortBtn, false)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.indexBtn, function ()
+		uv0:emit(EquipmentDesignMediator.OPEN_EQUIPMENTDESIGN_INDEX, {
+			indexDatas = Clone(uv0.contextData.indexDatas),
+			customPanels = {
+				minHeight = 650,
+				typeIndex = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipmentTypeIndexs,
+					names = IndexConst.EquipmentTypeNames
+				},
+				equipPropertyIndex = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipPropertyIndexs,
+					names = IndexConst.EquipPropertyNames
+				},
+				equipPropertyIndex2 = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipPropertyIndexs,
+					names = IndexConst.EquipPropertyNames
+				},
+				equipAmmoIndex1 = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipAmmoIndexs_1,
+					names = IndexConst.EquipAmmoIndexs_1_Names
+				},
+				equipAmmoIndex2 = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = IndexConst.EquipAmmoIndexs_2,
+					names = IndexConst.EquipAmmoIndexs_2_Names
+				},
+				equipCampIndex = {
+					mode = CustomIndexLayer.Mode.AND,
+					options = IndexConst.EquipCampIndexs,
+					names = IndexConst.EquipCampNames
+				},
+				rarityIndex = {
+					mode = CustomIndexLayer.Mode.AND,
+					options = IndexConst.EquipmentRarityIndexs,
+					names = IndexConst.RarityNames
+				}
+			},
+			groupList = {
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_typeeng",
+					titleTxt = "indexsort_type",
+					tags = {
+						"typeIndex"
+					}
+				},
+				{
+					dropdown = true,
+					titleENTxt = "indexsort_indexeng",
+					titleTxt = "indexsort_index",
+					tags = {
+						"equipPropertyIndex",
+						"equipPropertyIndex2",
+						"equipAmmoIndex1",
+						"equipAmmoIndex2"
+					}
+				},
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_campeng",
+					titleTxt = "indexsort_camp",
+					tags = {
+						"equipCampIndex"
+					}
+				},
+				{
+					dropdown = false,
+					titleENTxt = "indexsort_rarityeng",
+					titleTxt = "indexsort_rarity",
+					tags = {
+						"rarityIndex"
+					}
+				}
+			},
+			dropdownLimit = {
+				equipPropertyIndex = {
+					include = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					},
+					exclude = {}
+				},
+				equipPropertyIndex2 = {
+					include = {
+						typeIndex = IndexConst.EquipmentTypeEquip
+					},
+					exclude = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					}
+				},
+				equipAmmoIndex1 = {
+					include = {
+						typeIndex = IndexConst.BitAll({
+							IndexConst.EquipmentTypeSmallCannon,
+							IndexConst.EquipmentTypeMediumCannon,
+							IndexConst.EquipmentTypeBigCannon
+						})
+					},
+					exclude = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					}
+				},
+				equipAmmoIndex2 = {
+					include = {
+						typeIndex = IndexConst.BitAll({
+							IndexConst.EquipmentTypeWarshipTorpedo,
+							IndexConst.EquipmentTypeSubmaraineTorpedo
+						})
+					},
+					exclude = {
+						typeIndex = IndexConst.EquipmentTypeAll
+					}
+				}
+			},
+			callback = function (slot0)
+				if not isActive(uv0._tf) then
+					return
+				end
+
+				uv0.contextData.indexDatas.typeIndex = slot0.typeIndex
+				uv0.contextData.indexDatas.equipPropertyIndex = slot0.equipPropertyIndex
+				uv0.contextData.indexDatas.equipPropertyIndex2 = slot0.equipPropertyIndex2
+				uv0.contextData.indexDatas.equipAmmoIndex1 = slot0.equipAmmoIndex1
+				uv0.contextData.indexDatas.equipAmmoIndex2 = slot0.equipAmmoIndex2
+				uv0.contextData.indexDatas.equipCampIndex = slot0.equipCampIndex
+				uv0.contextData.indexDatas.rarityIndex = slot0.rarityIndex
+
+				uv0:filter(uv0.contextData.index or 1)
+			end
+		})
 	end, SFX_PANEL)
 	slot0:initTags()
 end
@@ -121,8 +256,6 @@ end
 function slot0.initDesigns(slot0)
 	slot0.scollRect = slot0.designScrollView:GetComponent("LScrollRect")
 	slot0.scollRect.decelerationRate = 0.07
-
-	slot0:filter(slot0.contextData.index or 1)
 
 	function slot0.scollRect.onInitItem(slot0)
 		uv0:initDesign(slot0)
@@ -259,33 +392,65 @@ function slot0.returnDesign(slot0, slot1, slot2)
 	end
 end
 
+function slot0.getDesignVO(slot0, slot1)
+	slot2 = {
+		equipmentCfg = pg.equip_data_statistics[slot3[slot1].equip_id],
+		designCfg = slot3[slot1],
+		id = slot1,
+		itemCount = slot5,
+		canMakeCount = math.floor(slot5 / slot3[slot1].material_num)
+	}
+	slot3 = pg.compose_data_template
+	slot5 = slot0:getItemById(slot3[slot1].material_id).count
+	slot2.canMake = math.min(slot2.canMakeCount, 1)
+	slot6 = slot3[slot1].equip_id
+	slot7 = pg.equip_data_statistics[slot6]
+	slot8 = pg.equip_data_template[slot6]
+
+	if setmetatable({}, {
+		__index = function (slot0, slot1)
+			return uv0[slot1] or uv1[slot1]
+		end
+	}).weapon_id and #slot10 > 0 and pg.weapon_property[slot10[1]] then
+		slot9[AttributeType.CD] = slot11.reload_max
+	end
+
+	slot2.config = slot9
+
+	function slot2.getNation(slot0)
+		return uv0.nationality
+	end
+
+	function slot2.getConfig(slot0, slot1)
+		return uv0[slot1]
+	end
+
+	return slot2
+end
+
 function slot0.filter(slot0, slot1)
+	slot3 = {}
 	slot4 = slot0.asc
 
 	for slot8, slot9 in ipairs(pg.compose_data_template.all) do
 		if slot0:getItemById(pg.compose_data_template[slot9].material_id).count > 0 then
-			table.insert({}, slot9)
+			table.insert(slot3, slot9)
 		end
 	end
 
-	function slot5(slot0)
-		slot1 = {
-			equipmentCfg = pg.equip_data_statistics[uv0[slot0].equip_id],
-			designCfg = uv0[slot0],
-			id = slot0,
-			itemCount = slot3,
-			canMakeCount = math.floor(slot3 / uv0[slot0].material_num)
-		}
-		slot3 = uv1:getItemById(uv0[slot0].material_id).count
-		slot1.canMake = math.min(slot1.canMakeCount, 1)
-
-		return slot1
+	for slot10, slot11 in pairs(slot3) do
+		if IndexConst.filterEquipByType(slot0:getDesignVO(slot11), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot12, table.mergeArray({}, {
+			slot0.contextData.indexDatas.equipPropertyIndex,
+			slot0.contextData.indexDatas.equipPropertyIndex2
+		}, true)) and IndexConst.filterEquipAmmo1(slot12, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot12, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot12, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot12, slot0.contextData.indexDatas.rarityIndex) then
+			table.insert({}, slot11)
+		end
 	end
 
 	if slot1 == 1 then
 		if slot4 then
-			table.sort(slot3, function (slot0, slot1)
-				if uv0(slot0).canMake == uv0(slot1).canMake then
+			table.sort(slot5, function (slot0, slot1)
+				if uv0:getDesignVO(slot0).canMake == uv0:getDesignVO(slot1).canMake then
 					if slot2.equipmentCfg.rarity == slot3.equipmentCfg.rarity then
 						return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 					else
@@ -296,8 +461,8 @@ function slot0.filter(slot0, slot1)
 				end
 			end)
 		else
-			table.sort(slot3, function (slot0, slot1)
-				if uv0(slot0).canMake == uv0(slot1).canMake then
+			table.sort(slot5, function (slot0, slot1)
+				if uv0:getDesignVO(slot0).canMake == uv0:getDesignVO(slot1).canMake then
 					if slot2.equipmentCfg.rarity == slot3.equipmentCfg.rarity then
 						return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 					else
@@ -310,16 +475,16 @@ function slot0.filter(slot0, slot1)
 		end
 	elseif slot1 == 2 then
 		if slot0.asc then
-			table.sort(slot3, function (slot0, slot1)
-				if uv0(slot0).equipmentCfg.rarity == uv0(slot1).equipmentCfg.rarity then
+			table.sort(slot5, function (slot0, slot1)
+				if uv0:getDesignVO(slot0).equipmentCfg.rarity == uv0:getDesignVO(slot1).equipmentCfg.rarity then
 					return slot2.equipmentCfg.id < slot2.equipmentCfg.id
 				end
 
 				return slot2.equipmentCfg.rarity < slot3.equipmentCfg.rarity
 			end)
 		else
-			table.sort(slot3, function (slot0, slot1)
-				if uv0(slot0).equipmentCfg.rarity == uv0(slot1).equipmentCfg.rarity then
+			table.sort(slot5, function (slot0, slot1)
+				if uv0:getDesignVO(slot0).equipmentCfg.rarity == uv0:getDesignVO(slot1).equipmentCfg.rarity then
 					return slot2.equipmentCfg.id < slot2.equipmentCfg.id
 				end
 
@@ -328,38 +493,28 @@ function slot0.filter(slot0, slot1)
 		end
 	elseif slot1 == 3 then
 		if slot0.asc then
-			table.sort(slot3, function (slot0, slot1)
-				if uv0(slot0).itemCount == uv0(slot1).itemCount then
+			table.sort(slot5, function (slot0, slot1)
+				if uv0:getDesignVO(slot0).itemCount == uv0:getDesignVO(slot1).itemCount then
 					return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 				end
 
 				return slot2.itemCount < slot3.itemCount
 			end)
 		else
-			table.sort(slot3, function (slot0, slot1)
-				if uv0(slot0).itemCount == uv0(slot1).itemCount then
+			table.sort(slot5, function (slot0, slot1)
+				if uv0:getDesignVO(slot0).itemCount == uv0:getDesignVO(slot1).itemCount then
 					return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 				end
 
 				return slot3.itemCount < slot2.itemCount
 			end)
 		end
-	elseif slot1 == 4 then
-		if slot0.asc then
-			table.sort(slot3, function (slot0, slot1)
-				return uv0(slot1).equipmentCfg.id < uv0(slot0).equipmentCfg.id
-			end)
-		else
-			table.sort(slot3, function (slot0, slot1)
-				return uv0(slot0).equipmentCfg.id < uv0(slot1).equipmentCfg.id
-			end)
-		end
 	end
 
-	slot0.desginIds = slot3
+	slot0.desginIds = slot5
 
-	slot0.scollRect:SetTotalCount(#slot3, 0)
-	setActive(slot0.listEmptyTF, #slot3 <= 0)
+	slot0.scollRect:SetTotalCount(#slot5, 0)
+	setActive(slot0.listEmptyTF, #slot5 <= 0)
 	Canvas.ForceUpdateCanvases()
 	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv0[slot1]))
 	setActive(slot0.sortImgAsc, slot0.asc)

@@ -1,73 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_298 = {
-	[42223] = {
-		id = 42223,
-		damage = "11 x 4",
-		base = 42220,
+	[45225] = {
+		id = 45225,
+		damage = "99 x 5",
+		base = 45220,
 		weapon_id = {
-			42223
+			45225
 		}
 	},
-	[42224] = {
-		id = 42224,
-		damage = "12 x 4",
-		base = 42220,
+	[45226] = {
+		id = 45226,
+		damage = "106 x 5",
+		base = 45220,
 		weapon_id = {
-			42224
+			45226
 		}
 	},
-	[42225] = {
-		id = 42225,
-		damage = "13 x 4",
-		base = 42220,
+	[45227] = {
+		id = 45227,
+		damage = "112 x 5",
+		base = 45220,
 		weapon_id = {
-			42225
+			45227
 		}
 	},
-	[42226] = {
-		id = 42226,
-		damage = "14 x 4",
-		base = 42220,
+	[45228] = {
+		id = 45228,
+		damage = "119 x 5",
+		base = 45220,
 		weapon_id = {
-			42226
+			45228
 		}
 	},
-	[42240] = {
-		name = "150mmTbtsKC/36連装砲",
-		speciality = "追尾",
-		type = 2,
+	[45229] = {
+		id = 45229,
+		damage = "126 x 5",
+		base = 45220,
+		weapon_id = {
+			45229
+		}
+	},
+	[45230] = {
+		id = 45230,
+		damage = "133 x 5",
+		base = 45220,
+		weapon_id = {
+			45230
+		}
+	},
+	[45240] = {
+		name = "533mm五連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 3,
-		descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
-		value_2 = 25,
-		icon = "42200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 4",
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 70,
+		icon = "45200",
+		attribute_2 = "torpedo",
+		rarity = 6,
+		damage = "70 x 5",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42240,
+		id = 45240,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1001
+				1404
 			},
 			6,
 			10,
@@ -75,110 +87,107 @@ pg.equip_data_statistics_298 = {
 			12
 		},
 		weapon_id = {
-			42240
+			45240
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[42241] = {
-		id = 42241,
-		damage = "10 x 4",
-		base = 42240,
+	[45241] = {
+		id = 45241,
+		damage = "77 x 5",
+		base = 45240,
 		weapon_id = {
-			42241
+			45241
 		}
 	},
-	[42242] = {
-		id = 42242,
-		damage = "11 x 4",
-		base = 42240,
+	[45242] = {
+		id = 45242,
+		damage = "85 x 5",
+		base = 45240,
 		weapon_id = {
-			42242
+			45242
 		}
 	},
-	[42243] = {
-		id = 42243,
-		damage = "12 x 4",
-		base = 42240,
+	[45243] = {
+		id = 45243,
+		damage = "92 x 5",
+		base = 45240,
 		weapon_id = {
-			42243
+			45243
 		}
 	},
-	[42244] = {
-		id = 42244,
-		damage = "13 x 4",
-		base = 42240,
+	[45244] = {
+		id = 45244,
+		damage = "100 x 5",
+		base = 45240,
 		weapon_id = {
-			42244
+			45244
 		}
 	},
-	[42245] = {
-		id = 42245,
-		damage = "14 x 4",
-		base = 42240,
+	[45245] = {
+		id = 45245,
+		damage = "107 x 5",
+		base = 45240,
 		weapon_id = {
-			42245
+			45245
 		}
 	},
-	[42246] = {
-		id = 42246,
-		damage = "15 x 4",
-		base = 42240,
+	[45246] = {
+		id = 45246,
+		damage = "115 x 5",
+		base = 45240,
 		weapon_id = {
-			42246
+			45246
 		}
 	},
-	[42247] = {
-		id = 42247,
-		damage = "16 x 4",
-		base = 42240,
+	[45247] = {
+		id = 45247,
+		damage = "122 x 5",
+		base = 45240,
 		weapon_id = {
-			42247
+			45247
 		}
 	},
-	[42248] = {
-		id = 42248,
-		damage = "17 x 4",
-		base = 42240,
+	[45248] = {
+		id = 45248,
+		damage = "130 x 5",
+		base = 45240,
 		weapon_id = {
-			42248
+			45248
 		}
 	},
-	[42249] = {
-		id = 42249,
-		damage = "19 x 4",
-		base = 42240,
+	[45249] = {
+		id = 45249,
+		damage = "137 x 5",
+		base = 45240,
 		weapon_id = {
-			42249
+			45249
 		}
 	},
-	[42250] = {
-		id = 42250,
-		damage = "21 x 4",
-		base = 42240,
+	[45250] = {
+		id = 45250,
+		damage = "145 x 5",
+		base = 45240,
 		weapon_id = {
-			42250
-		}
-	},
-	[42251] = {
-		anti_siren = 100,
-		damage = "21 x 4",
-		base = 42240,
-		id = 42251,
-		weapon_id = {
-			42251
+			45250
 		}
 	}
 }

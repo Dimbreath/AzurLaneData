@@ -1,313 +1,254 @@
 pg = pg or {}
 pg.equip_data_statistics_210 = {
-	[28142] = {
-		id = 28142,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				4,
-				51142
-			}
-		},
+	[31145] = {
+		id = 31145,
+		damage = "7 x 1",
+		base = 31140,
 		weapon_id = {
-			28142
+			31145
 		}
 	},
-	[28143] = {
-		id = 28143,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				51143
-			}
-		},
+	[31146] = {
+		id = 31146,
+		damage = "8 x 1",
+		base = 31140,
 		weapon_id = {
-			28143
+			31146
 		}
 	},
-	[28144] = {
-		id = 28144,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51144
-			}
-		},
+	[31147] = {
+		id = 31147,
+		damage = "8 x 1",
+		base = 31140,
 		weapon_id = {
-			28144
+			31147
 		}
 	},
-	[28145] = {
-		id = 28145,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51145
-			}
-		},
-		weapon_id = {
-			28145
-		}
-	},
-	[28146] = {
-		id = 28146,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51146
-			}
-		},
-		weapon_id = {
-			28146
-		}
-	},
-	[28147] = {
-		id = 28147,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51147
-			}
-		},
-		weapon_id = {
-			28147
-		}
-	},
-	[28148] = {
-		id = 28148,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51148
-			}
-		},
-		weapon_id = {
-			28148
-		}
-	},
-	[28149] = {
-		id = 28149,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51149
-			}
-		},
-		weapon_id = {
-			28149
-		}
-	},
-	[28150] = {
-		id = 28150,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51150
-			}
-		},
-		weapon_id = {
-			28150
-		}
-	},
-	[28151] = {
-		anti_siren = 100,
-		base = 28140,
-		id = 28151,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51151
-			}
-		},
-		weapon_id = {
-			28151
-		}
-	},
-	[28152] = {
-		anti_siren = 200,
-		base = 28140,
-		id = 28152,
-		ammo_info = {
-			{
-				6,
-				50052
-			},
-			{
-				4,
-				51152
-			}
-		},
-		weapon_id = {
-			28152
-		}
-	},
-	[28153] = {
-		anti_siren = 300,
-		base = 28140,
-		id = 28153,
-		ammo_info = {
-			{
-				6,
-				50053
-			},
-			{
-				4,
-				51153
-			}
-		},
-		weapon_id = {
-			28153
-		}
-	},
-	[28200] = {
-		name = "ファイアブランド",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
+	[31160] = {
+		name = "120mm十一年式砲",
+		speciality = "追尾",
+		type = 1,
 		tech = 0,
-		descrip = "艦上戦闘機として開発されたが、雷撃能力が追加され戦闘雷撃機として再設計された",
-		value_2 = 45,
-		icon = "28200",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
+		descrip = "0",
+		value_2 = 12,
+		icon = "31160",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 3,
+		ammo = 3,
 		value_3 = 0,
-		id = 28200,
+		id = 31160,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50660
-			},
-			{
-				4,
-				51140
+				1,
+				1200
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1007
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28200
+			31160
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"HMS",
-			"CV",
-			"TB"
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[28201] = {
-		id = 28201,
-		base = 28200,
+	[31161] = {
+		id = 31161,
+		base = 31160,
+		weapon_id = {
+			31161
+		}
+	},
+	[31162] = {
+		id = 31162,
+		damage = "4 x 2",
+		base = 31160,
+		weapon_id = {
+			31162
+		}
+	},
+	[31163] = {
+		id = 31163,
+		damage = "4 x 2",
+		base = 31160,
+		weapon_id = {
+			31163
+		}
+	},
+	[31164] = {
+		id = 31164,
+		damage = "7 x 2",
+		base = 31160,
+		weapon_id = {
+			31164
+		}
+	},
+	[31165] = {
+		id = 31165,
+		damage = "7 x 2",
+		base = 31160,
+		weapon_id = {
+			31165
+		}
+	},
+	[31166] = {
+		id = 31166,
+		damage = "8 x 2",
+		base = 31160,
+		weapon_id = {
+			31166
+		}
+	},
+	[31167] = {
+		id = 31167,
+		damage = "8 x 2",
+		base = 31160,
+		weapon_id = {
+			31167
+		}
+	},
+	[31180] = {
+		name = "120mm高角砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 10,
+		icon = "31180",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 4,
+		damage = "4 x 3",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 15,
+		id = 31180,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50661
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
 			},
 			{
 				4,
-				51141
-			}
+				1003
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28201
+			31180
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[28202] = {
-		id = 28202,
-		base = 28200,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				4,
-				51142
-			}
-		},
+	[31181] = {
+		id = 31181,
+		base = 31180,
 		weapon_id = {
-			28202
+			31181
 		}
 	},
-	[28203] = {
-		id = 28203,
-		base = 28200,
-		ammo_info = {
-			{
-				6,
-				50663
-			},
-			{
-				4,
-				51143
-			}
-		},
+	[31182] = {
+		id = 31182,
+		damage = "5 x 3",
+		base = 31180,
 		weapon_id = {
-			28203
+			31182
+		}
+	},
+	[31183] = {
+		id = 31183,
+		damage = "5 x 3",
+		base = 31180,
+		weapon_id = {
+			31183
+		}
+	},
+	[31184] = {
+		id = 31184,
+		damage = "7 x 3",
+		base = 31180,
+		weapon_id = {
+			31184
+		}
+	},
+	[31185] = {
+		id = 31185,
+		damage = "7 x 3",
+		base = 31180,
+		weapon_id = {
+			31185
 		}
 	}
 }

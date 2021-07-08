@@ -1,93 +1,104 @@
 pg = pg or {}
 pg.equip_data_statistics_185 = {
-	[26063] = {
-		id = 26063,
-		damage = "36/回",
-		base = 26060,
+	[26624] = {
+		id = 26624,
+		damage = "60/回",
+		base = 26620,
 		weapon_id = {
-			26063
+			26624
 		}
 	},
-	[26064] = {
-		id = 26064,
-		damage = "38/回",
-		base = 26060,
+	[26625] = {
+		id = 26625,
+		damage = "66/回",
+		base = 26620,
 		weapon_id = {
-			26064
+			26625
 		}
 	},
-	[26065] = {
-		id = 26065,
-		damage = "40/回",
-		base = 26060,
+	[26626] = {
+		id = 26626,
+		damage = "72/回",
+		base = 26620,
 		weapon_id = {
-			26065
+			26626
 		}
 	},
-	[26066] = {
-		id = 26066,
-		damage = "44/回",
-		base = 26060,
+	[26627] = {
+		id = 26627,
+		damage = "78/回",
+		base = 26620,
 		weapon_id = {
-			26066
+			26627
 		}
 	},
-	[26067] = {
-		id = 26067,
-		damage = "48/回",
-		base = 26060,
+	[26628] = {
+		id = 26628,
+		damage = "84/回",
+		base = 26620,
 		weapon_id = {
-			26067
+			26628
 		}
 	},
-	[26068] = {
-		id = 26068,
-		damage = "54/回",
-		base = 26060,
+	[26629] = {
+		id = 26629,
+		damage = "90/回",
+		base = 26620,
 		weapon_id = {
-			26068
+			26629
 		}
 	},
-	[26069] = {
-		id = 26069,
-		damage = "54/回",
-		base = 26060,
+	[26630] = {
+		id = 26630,
+		damage = "96/回",
+		base = 26620,
 		weapon_id = {
-			26069
+			26630
 		}
 	},
-	[26070] = {
-		id = 26070,
-		damage = "62/回",
-		base = 26060,
-		weapon_id = {
-			26070
-		}
-	},
-	[26071] = {
+	[26631] = {
 		anti_siren = 100,
-		damage = "62/回",
-		base = 26060,
-		id = 26071,
+		damage = "96/回",
+		base = 26620,
+		id = 26631,
 		weapon_id = {
-			26071
+			26631
 		}
 	},
-	[26100] = {
-		name = "QF 2ポンド四連装ポンポン砲",
+	[26632] = {
+		anti_siren = 200,
+		damage = "96/回",
+		base = 26620,
+		id = 26632,
+		weapon_id = {
+			26632
+		}
+	},
+	[26633] = {
+		anti_siren = 300,
+		damage = "96/回",
+		base = 26620,
+		id = 26633,
+		weapon_id = {
+			26633
+		}
+	},
+	[26640] = {
+		name = "134mm連装高角砲",
 		speciality = "対空",
 		type = 6,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "26100",
+		attribute_3 = "cannon",
+		tech = 0,
+		value_2 = 30,
+		icon = "21500",
 		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "27/回",
+		descrip = "0",
+		rarity = 5,
+		damage = "53/回",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 0,
-		id = 26100,
+		value_3 = 15,
+		id = 26640,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -99,7 +110,7 @@ pg.equip_data_statistics_185 = {
 			10
 		},
 		weapon_id = {
-			26100
+			26640
 		},
 		skill_id = {},
 		part_main = {
@@ -135,106 +146,52 @@ pg.equip_data_statistics_185 = {
 			"AA"
 		}
 	},
-	[26101] = {
-		id = 26101,
-		damage = "31/回",
-		base = 26100,
+	[26641] = {
+		id = 26641,
+		damage = "61/回",
+		base = 26640,
 		weapon_id = {
-			26101
+			26641
 		}
 	},
-	[26102] = {
-		id = 26102,
-		damage = "35/回",
-		base = 26100,
+	[26642] = {
+		id = 26642,
+		damage = "68/回",
+		base = 26640,
 		weapon_id = {
-			26102
+			26642
 		}
 	},
-	[26103] = {
-		id = 26103,
-		damage = "40/回",
-		base = 26100,
+	[26643] = {
+		id = 26643,
+		damage = "76/回",
+		base = 26640,
 		weapon_id = {
-			26103
+			26643
 		}
 	},
-	[26120] = {
-		name = "QF 2ポンド四連装ポンポン砲",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "26100",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "30/回",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[26644] = {
+		id = 26644,
+		damage = "84/回",
+		base = 26640,
 		weapon_id = {
-			26120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
+			26644
 		}
 	},
-	[26121] = {
-		id = 26121,
-		damage = "35/回",
-		base = 26120,
+	[26645] = {
+		id = 26645,
+		damage = "92/回",
+		base = 26640,
 		weapon_id = {
-			26121
+			26645
 		}
 	},
-	[26122] = {
-		id = 26122,
-		damage = "40/回",
-		base = 26120,
+	[26646] = {
+		id = 26646,
+		damage = "100/回",
+		base = 26640,
 		weapon_id = {
-			26122
+			26646
 		}
 	}
 }

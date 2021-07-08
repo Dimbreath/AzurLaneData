@@ -1,231 +1,378 @@
 pg = pg or {}
 pg.equip_data_statistics_345 = {
-	[60513] = {
-		id = 60513,
-		name = "航空攻击展示-贝亚恩III",
-		base = 60511,
+	[79182] = {
+		id = 79182,
+		base = 79181,
 		weapon_id = {
-			60513
+			79182
 		}
 	},
-	[60521] = {
-		name = "航空攻击展示-英仙座I",
+	[79191] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60521,
+		id = 79191,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60521
+			79191
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60522] = {
-		id = 60522,
-		name = "航空攻击展示-英仙座II",
-		base = 60521,
+	[79192] = {
+		id = 79192,
+		base = 79191,
 		weapon_id = {
-			60522
+			79192
 		}
 	},
-	[60523] = {
-		id = 60523,
-		name = "航空攻击展示-英仙座III",
-		base = 60521,
-		weapon_id = {
-			60523
-		}
-	},
-	[60531] = {
-		name = "航空攻击展示-鹰I",
+	[79201] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60531,
+		id = 79201,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60531
+			79201
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60532] = {
-		id = 60532,
-		name = "航空攻击展示-鹰II",
-		base = 60531,
+	[79202] = {
+		id = 79202,
+		base = 79201,
 		weapon_id = {
-			60532
+			79202
 		}
 	},
-	[60533] = {
-		id = 60533,
-		name = "航空攻击展示-鹰III",
-		base = 60531,
-		weapon_id = {
-			60533
-		}
-	},
-	[60541] = {
-		name = "航空攻击展示-千岁I",
+	[79211] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60541,
+		id = 79211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60541
+			79211
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60542] = {
-		id = 60542,
-		name = "航空攻击展示-千岁II",
-		base = 60541,
+	[79212] = {
+		id = 79212,
+		base = 79211,
 		weapon_id = {
-			60542
+			79212
 		}
 	},
-	[60543] = {
-		id = 60543,
-		name = "航空攻击展示-千岁III",
-		base = 60541,
-		weapon_id = {
-			60543
-		}
-	},
-	[60551] = {
-		name = "航空攻击展示-千代田I",
+	[79221] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60551,
+		id = 79221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60551
+			79221
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60552] = {
-		id = 60552,
-		name = "航空攻击展示-千代田II",
-		base = 60551,
+	[79222] = {
+		id = 79222,
+		base = 79221,
 		weapon_id = {
-			60552
+			79222
 		}
 	},
-	[60553] = {
-		id = 60553,
-		name = "航空攻击展示-千代田III",
-		base = 60551,
-		weapon_id = {
-			60553
-		}
-	},
-	[60561] = {
-		name = "航空攻击展示-信浓I",
+	[79231] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
-		type = 99,
+		type = 1,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60561,
+		id = 79231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60561
+			79231
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
 		equip_parameters = {},
 		label = {}
 	},
-	[60562] = {
-		id = 60562,
-		name = "航空攻击展示-信浓II",
-		base = 60561,
+	[79232] = {
+		id = 79232,
+		base = 79231,
 		weapon_id = {
-			60562
+			79232
 		}
 	},
-	[60563] = {
-		id = 60563,
-		name = "航空攻击展示-信浓III",
-		base = 60561,
+	[79241] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79241,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			60563
+			79241
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79242] = {
+		id = 79242,
+		base = 79241,
+		weapon_id = {
+			79242
+		}
+	},
+	[79251] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79251,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79251
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79252] = {
+		id = 79252,
+		base = 79251,
+		weapon_id = {
+			79252
+		}
+	},
+	[79261] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79261,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79261
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79262] = {
+		id = 79262,
+		base = 79261,
+		weapon_id = {
+			79262
 		}
 	}
 }

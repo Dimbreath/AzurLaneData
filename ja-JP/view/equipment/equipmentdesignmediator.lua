@@ -1,5 +1,6 @@
 slot0 = class("EquipmentDesignMediator", import("..base.ContextMediator"))
 slot0.MAKE_EQUIPMENT = "EquipmentDesignMediator:MAKE_EQUIPMENT"
+slot0.OPEN_EQUIPMENTDESIGN_INDEX = "EquipmentDesignMediator:OPEN_EQUIPMENTDESIGN_INDEX"
 
 function slot0.register(slot0)
 	slot0.bagProxy = getProxy(BagProxy)
@@ -18,6 +19,13 @@ function slot0.register(slot0)
 			id = slot1,
 			count = slot2
 		})
+	end)
+	slot0:bind(uv0.OPEN_EQUIPMENTDESIGN_INDEX, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
+			data = slot1
+		}))
 	end)
 end
 

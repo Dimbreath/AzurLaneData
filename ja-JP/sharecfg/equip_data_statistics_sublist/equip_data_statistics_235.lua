@@ -1,195 +1,35 @@
 pg = pg or {}
 pg.equip_data_statistics_235 = {
-	[33060] = {
-		name = "試製203mm連装砲（3号）",
-		speciality = "追尾",
-		type = 3,
-		tech = 0,
-		descrip = "試作兵器・203mm連装砲の強化型。配備されたのが少数にとどまった",
-		value_2 = 45,
-		icon = "33060",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "28 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 33060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[35426] = {
+		id = 35426,
+		damage = "102 x 2",
+		base = 35420,
 		weapon_id = {
-			33060
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CA",
-			"MG",
-			"HE"
+			35426
 		}
 	},
-	[33061] = {
-		id = 33061,
-		damage = "30 x 4",
-		base = 33060,
-		weapon_id = {
-			33061
-		}
-	},
-	[33062] = {
-		id = 33062,
-		damage = "32 x 4",
-		base = 33060,
-		weapon_id = {
-			33062
-		}
-	},
-	[33063] = {
-		id = 33063,
-		damage = "34 x 4",
-		base = 33060,
-		weapon_id = {
-			33063
-		}
-	},
-	[33064] = {
-		id = 33064,
-		damage = "36 x 4",
-		base = 33060,
-		weapon_id = {
-			33064
-		}
-	},
-	[33065] = {
-		id = 33065,
-		damage = "38 x 4",
-		base = 33060,
-		weapon_id = {
-			33065
-		}
-	},
-	[33066] = {
-		id = 33066,
-		damage = "40 x 4",
-		base = 33060,
-		weapon_id = {
-			33066
-		}
-	},
-	[33067] = {
-		id = 33067,
-		damage = "42 x 4",
-		base = 33060,
-		weapon_id = {
-			33067
-		}
-	},
-	[33068] = {
-		id = 33068,
-		damage = "44 x 4",
-		base = 33060,
-		weapon_id = {
-			33068
-		}
-	},
-	[33069] = {
-		id = 33069,
-		damage = "46 x 4",
-		base = 33060,
-		weapon_id = {
-			33069
-		}
-	},
-	[33070] = {
-		id = 33070,
-		damage = "48 x 4",
-		base = 33060,
-		weapon_id = {
-			33070
-		}
-	},
-	[33071] = {
-		anti_siren = 100,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33071,
-		weapon_id = {
-			33071
-		}
-	},
-	[33072] = {
-		anti_siren = 200,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33072,
-		weapon_id = {
-			33072
-		}
-	},
-	[33073] = {
-		anti_siren = 300,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33073,
-		weapon_id = {
-			33073
-		}
-	},
-	[33080] = {
-		name = "203mm連装砲改",
-		speciality = "追尾",
-		type = 3,
+	[35440] = {
+		name = "潜水艦用九二式電動魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "33080",
-		attribute_2 = "cannon",
+		icon = "35400",
+		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "28 x 4",
+		damage = "60 x 2",
 		nationality = 3,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 33080,
+		id = 35440,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1402
+				3,
+				1823
 			}
 		},
 		equip_info = {
@@ -197,11 +37,11 @@ pg.equip_data_statistics_235 = {
 			2,
 			{
 				3,
-				1402
+				1823
 			},
 			{
 				4,
-				1205
+				1601
 			},
 			6,
 			10,
@@ -209,28 +49,194 @@ pg.equip_data_statistics_235 = {
 			12
 		},
 		weapon_id = {
-			33080
+			35440
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			8,
+			17
 		},
-		part_sub = {},
+		part_sub = {
+			8,
+			17
+		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"CA",
-			"MG",
-			"HE"
+			"SS",
+			"TP"
 		}
 	},
-	[33081] = {
-		id = 33081,
-		damage = "30 x 4",
-		base = 33080,
+	[35441] = {
+		id = 35441,
+		damage = "69 x 2",
+		base = 35440,
 		weapon_id = {
-			33081
+			35441
+		}
+	},
+	[35442] = {
+		id = 35442,
+		damage = "78 x 2",
+		base = 35440,
+		weapon_id = {
+			35442
+		}
+	},
+	[35443] = {
+		id = 35443,
+		damage = "87 x 2",
+		base = 35440,
+		weapon_id = {
+			35443
+		}
+	},
+	[35444] = {
+		id = 35444,
+		damage = "96 x 2",
+		base = 35440,
+		weapon_id = {
+			35444
+		}
+	},
+	[35445] = {
+		id = 35445,
+		damage = "105 x 2",
+		base = 35440,
+		weapon_id = {
+			35445
+		}
+	},
+	[35446] = {
+		id = 35446,
+		damage = "114 x 2",
+		base = 35440,
+		weapon_id = {
+			35446
+		}
+	},
+	[35447] = {
+		id = 35447,
+		damage = "123 x 2",
+		base = 35440,
+		weapon_id = {
+			35447
+		}
+	},
+	[35448] = {
+		id = 35448,
+		damage = "132 x 2",
+		base = 35440,
+		weapon_id = {
+			35448
+		}
+	},
+	[35449] = {
+		id = 35449,
+		damage = "141 x 2",
+		base = 35440,
+		weapon_id = {
+			35449
+		}
+	},
+	[35450] = {
+		id = 35450,
+		damage = "150 x 2",
+		base = 35440,
+		weapon_id = {
+			35450
+		}
+	},
+	[35451] = {
+		anti_siren = 100,
+		damage = "150 x 2",
+		base = 35440,
+		id = 35451,
+		weapon_id = {
+			35451
+		}
+	},
+	[35460] = {
+		name = "潜水艦用九二式電動魚雷改",
+		speciality = "雷撃",
+		type = 13,
+		tech = 0,
+		descrip = "0",
+		value_2 = 25,
+		icon = "35460",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "60 x 2",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1834
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1834
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35460
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
+	},
+	[35461] = {
+		id = 35461,
+		damage = "69 x 2",
+		base = 35460,
+		weapon_id = {
+			35461
+		}
+	},
+	[35462] = {
+		id = 35462,
+		damage = "78 x 2",
+		base = 35460,
+		weapon_id = {
+			35462
+		}
+	},
+	[35463] = {
+		id = 35463,
+		damage = "87 x 2",
+		base = 35460,
+		weapon_id = {
+			35463
 		}
 	}
 }

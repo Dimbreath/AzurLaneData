@@ -25,7 +25,6 @@ function slot0.execute(slot0, slot1)
 			underscore.each(PlayerConst.addTranDrop(slot0.catchup_list), function (slot0)
 				print("额外获得", slot0.id, slot0.count)
 				getProxy(TechnologyProxy):addCatupPrintsNum(slot0.count)
-				getProxy(TechnologyProxy):judgeOnCatchupOldAndFinished()
 			end)
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot4:isEnd() then

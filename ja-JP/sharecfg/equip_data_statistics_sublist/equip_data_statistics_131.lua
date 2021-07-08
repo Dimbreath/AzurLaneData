@@ -1,115 +1,374 @@
 pg = pg or {}
 pg.equip_data_statistics_131 = {
-	[17146] = {
-		id = 17146,
-		base = 17140,
+	[18047] = {
+		id = 18047,
+		base = 18040,
 		ammo_info = {
 			{
 				6,
-				50446
+				50047
+			},
+			{
+				4,
+				51047
 			}
 		},
 		weapon_id = {
-			17146,
-			81146
+			18047
 		}
 	},
-	[17147] = {
-		id = 17147,
-		base = 17140,
+	[18060] = {
+		name = "TBDデバステイター（VT-8中隊）",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 5,
+		tech = 0,
+		descrip = "かのミッドウェイ海戦で空母ホーネットに配属された、ジョン・ウォルドロン少佐が率いる攻撃機中隊 ",
+		value_2 = 45,
+		icon = "18060",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50447
+				59560
+			},
+			{
+				4,
+				59580
 			}
 		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			17147,
-			81147
+			18060
+		},
+		skill_id = {
+			6320
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
 		}
 	},
-	[17148] = {
-		id = 17148,
-		base = 17140,
+	[18061] = {
+		descrip = "",
+		base = 18060,
+		id = 18061,
 		ammo_info = {
 			{
 				6,
-				50448
+				59561
+			},
+			{
+				4,
+				59581
 			}
 		},
 		weapon_id = {
-			17148,
-			81148
+			18061
+		},
+		skill_id = {
+			6321
 		}
 	},
-	[17149] = {
-		id = 17149,
-		base = 17140,
+	[18062] = {
+		descrip = "",
+		base = 18060,
+		id = 18062,
 		ammo_info = {
 			{
 				6,
-				50449
+				59562
+			},
+			{
+				4,
+				59582
 			}
 		},
 		weapon_id = {
-			17149,
-			81149
+			18062
+		},
+		skill_id = {
+			6322
 		}
 	},
-	[17150] = {
-		id = 17150,
-		base = 17140,
+	[18063] = {
+		descrip = "",
+		base = 18060,
+		id = 18063,
 		ammo_info = {
 			{
 				6,
-				50450
+				59563
+			},
+			{
+				4,
+				59583
 			}
 		},
 		weapon_id = {
-			17150,
-			81150
+			18063
+		},
+		skill_id = {
+			6323
 		}
 	},
-	[17151] = {
+	[18064] = {
+		descrip = "",
+		base = 18060,
+		id = 18064,
+		ammo_info = {
+			{
+				6,
+				59564
+			},
+			{
+				4,
+				59584
+			}
+		},
+		weapon_id = {
+			18064
+		},
+		skill_id = {
+			6324
+		}
+	},
+	[18065] = {
+		descrip = "",
+		base = 18060,
+		id = 18065,
+		ammo_info = {
+			{
+				6,
+				59565
+			},
+			{
+				4,
+				59585
+			}
+		},
+		weapon_id = {
+			18065
+		},
+		skill_id = {
+			6325
+		}
+	},
+	[18066] = {
+		descrip = "",
+		base = 18060,
+		id = 18066,
+		ammo_info = {
+			{
+				6,
+				59566
+			},
+			{
+				4,
+				59586
+			}
+		},
+		weapon_id = {
+			18066
+		},
+		skill_id = {
+			6326
+		}
+	},
+	[18067] = {
+		descrip = "",
+		base = 18060,
+		id = 18067,
+		ammo_info = {
+			{
+				6,
+				59567
+			},
+			{
+				4,
+				59587
+			}
+		},
+		weapon_id = {
+			18067
+		},
+		skill_id = {
+			6327
+		}
+	},
+	[18068] = {
+		descrip = "",
+		base = 18060,
+		id = 18068,
+		ammo_info = {
+			{
+				6,
+				59568
+			},
+			{
+				4,
+				59588
+			}
+		},
+		weapon_id = {
+			18068
+		},
+		skill_id = {
+			6328
+		}
+	},
+	[18069] = {
+		descrip = "",
+		base = 18060,
+		id = 18069,
+		ammo_info = {
+			{
+				6,
+				59569
+			},
+			{
+				4,
+				59589
+			}
+		},
+		weapon_id = {
+			18069
+		},
+		skill_id = {
+			6329
+		}
+	},
+	[18070] = {
+		descrip = "",
+		base = 18060,
+		id = 18070,
+		ammo_info = {
+			{
+				6,
+				59570
+			},
+			{
+				4,
+				59590
+			}
+		},
+		weapon_id = {
+			18070
+		},
+		skill_id = {
+			6330
+		}
+	},
+	[18071] = {
 		anti_siren = 100,
-		base = 17140,
-		id = 17151,
+		base = 18060,
+		id = 18071,
 		ammo_info = {
 			{
 				6,
-				50451
+				59571
+			},
+			{
+				4,
+				59591
 			}
 		},
 		weapon_id = {
-			17151,
-			81151
+			18071
+		},
+		skill_id = {
+			6331
 		}
 	},
-	[17200] = {
-		name = "F4Uコルセア",
-		type = 7,
-		speciality = "航空",
+	[18072] = {
+		anti_siren = 200,
+		base = 18060,
+		id = 18072,
+		ammo_info = {
+			{
+				6,
+				59572
+			},
+			{
+				4,
+				59592
+			}
+		},
+		weapon_id = {
+			18072
+		},
+		skill_id = {
+			6332
+		}
+	},
+	[18073] = {
+		anti_siren = 300,
+		base = 18060,
+		id = 18073,
+		ammo_info = {
+			{
+				6,
+				59573
+			},
+			{
+				4,
+				59593
+			}
+		},
+		weapon_id = {
+			18073
+		},
+		skill_id = {
+			6333
+		}
+	},
+	[18100] = {
+		name = "TBFアベンジャー",
+		type = 8,
+		speciality = "雷撃",
 		rarity = 2,
 		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "17200",
+		icon = "18100",
 		attribute_2 = "air",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 17200,
+		id = 18100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50400
+				50000
 			},
 			{
-				5,
-				52300
+				4,
+				51100
 			}
 		},
 		equip_info = {
@@ -119,8 +378,7 @@ pg.equip_data_statistics_131 = {
 			9
 		},
 		weapon_id = {
-			17200,
-			81200
+			18100
 		},
 		skill_id = {},
 		part_main = {
@@ -135,204 +393,24 @@ pg.equip_data_statistics_131 = {
 		label = {
 			"USS",
 			"CV",
-			"FT"
+			"TB"
 		}
 	},
-	[17201] = {
-		id = 17201,
-		base = 17200,
+	[18101] = {
+		id = 18101,
+		base = 18100,
 		ammo_info = {
 			{
 				6,
-				50401
+				50001
 			},
 			{
-				5,
-				52301
+				4,
+				51101
 			}
 		},
 		weapon_id = {
-			17201,
-			81201
-		}
-	},
-	[17202] = {
-		id = 17202,
-		base = 17200,
-		ammo_info = {
-			{
-				6,
-				50402
-			},
-			{
-				5,
-				52302
-			}
-		},
-		weapon_id = {
-			17202,
-			81202
-		}
-	},
-	[17203] = {
-		id = 17203,
-		base = 17200,
-		ammo_info = {
-			{
-				6,
-				50403
-			},
-			{
-				5,
-				52303
-			}
-		},
-		weapon_id = {
-			17203,
-			81203
-		}
-	},
-	[17220] = {
-		name = "F4Uコルセア",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "17200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50420
-			},
-			{
-				5,
-				52320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17220,
-			81220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17221] = {
-		id = 17221,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50421
-			},
-			{
-				5,
-				52321
-			}
-		},
-		weapon_id = {
-			17221,
-			81221
-		}
-	},
-	[17222] = {
-		id = 17222,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50422
-			},
-			{
-				5,
-				52322
-			}
-		},
-		weapon_id = {
-			17222,
-			81222
-		}
-	},
-	[17223] = {
-		id = 17223,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50423
-			},
-			{
-				5,
-				52323
-			}
-		},
-		weapon_id = {
-			17223,
-			81223
-		}
-	},
-	[17224] = {
-		id = 17224,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50424
-			},
-			{
-				5,
-				52324
-			}
-		},
-		weapon_id = {
-			17224,
-			81224
-		}
-	},
-	[17225] = {
-		id = 17225,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50425
-			},
-			{
-				5,
-				52325
-			}
-		},
-		weapon_id = {
-			17225,
-			81225
+			18101
 		}
 	}
 }

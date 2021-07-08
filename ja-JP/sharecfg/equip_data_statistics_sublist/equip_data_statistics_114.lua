@@ -1,188 +1,194 @@
 pg = pg or {}
 pg.equip_data_statistics_114 = {
-	[15162] = {
-		id = 15162,
-		damage = "71 x 2",
-		base = 15160,
+	[16142] = {
+		id = 16142,
+		damage = "22/回",
+		base = 16140,
 		weapon_id = {
-			15162
+			16142
 		}
 	},
-	[15163] = {
-		id = 15163,
-		damage = "80 x 2",
-		base = 15160,
+	[16143] = {
+		id = 16143,
+		damage = "24/回",
+		base = 16140,
 		weapon_id = {
-			15163
+			16143
 		}
 	},
-	[15164] = {
-		id = 15164,
-		damage = "89 x 2",
-		base = 15160,
+	[16144] = {
+		id = 16144,
+		damage = "27/回",
+		base = 16140,
 		weapon_id = {
-			15164
+			16144
 		}
 	},
-	[15165] = {
-		id = 15165,
-		damage = "99 x 2",
-		base = 15160,
+	[16145] = {
+		id = 16145,
+		damage = "30/回",
+		base = 16140,
 		weapon_id = {
-			15165
+			16145
 		}
 	},
-	[15166] = {
-		id = 15166,
-		damage = "109 x 2",
-		base = 15160,
+	[16146] = {
+		id = 16146,
+		damage = "33/回",
+		base = 16140,
 		weapon_id = {
-			15166
+			16146
 		}
 	},
-	[15167] = {
-		id = 15167,
-		damage = "119 x 2",
-		base = 15160,
+	[16147] = {
+		id = 16147,
+		damage = "36/回",
+		base = 16140,
 		weapon_id = {
-			15167
+			16147
 		}
 	},
-	[15168] = {
-		id = 15168,
-		damage = "129 x 2",
-		base = 15160,
+	[16148] = {
+		id = 16148,
+		damage = "39/回",
+		base = 16140,
 		weapon_id = {
-			15168
+			16148
 		}
 	},
-	[15169] = {
-		id = 15169,
-		damage = "139 x 2",
-		base = 15160,
+	[16149] = {
+		id = 16149,
+		damage = "42/回",
+		base = 16140,
 		weapon_id = {
-			15169
+			16149
 		}
 	},
-	[15170] = {
-		id = 15170,
-		damage = "149 x 2",
-		base = 15160,
+	[16150] = {
+		id = 16150,
+		damage = "45/回",
+		base = 16140,
 		weapon_id = {
-			15170
+			16150
 		}
 	},
-	[15171] = {
+	[16151] = {
 		anti_siren = 100,
-		damage = "149 x 2",
-		base = 15160,
-		id = 15171,
+		damage = "45/回",
+		base = 16140,
+		id = 16151,
 		weapon_id = {
-			15171
+			16151
 		}
 	},
-	[15172] = {
-		anti_siren = 200,
-		damage = "149 x 2",
-		base = 15160,
-		id = 15172,
-		weapon_id = {
-			15172
-		}
-	},
-	[15173] = {
-		anti_siren = 300,
-		damage = "149 x 2",
-		base = 15160,
-		id = 15173,
-		weapon_id = {
-			15173
-		}
-	},
-	[15200] = {
-		name = "533mm三連装魚雷Mk17",
-		speciality = "雷撃",
-		type = 5,
+	[16160] = {
+		name = "20mm四連装エリコン機関砲Mk15",
+		speciality = "対空",
+		type = 6,
 		tech = 0,
 		descrip = "0",
-		value_2 = 12,
-		icon = "15200",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "60 x 3",
+		value_2 = 25,
+		icon = "16160",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "25/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 15200,
+		id = 16160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
+		ammo_info = {},
 		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
+			1,
+			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15200
+			16160
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
 			"ST",
-			"TP",
-			"TRI"
+			"AA"
 		}
 	},
-	[15201] = {
-		id = 15201,
-		damage = "70 x 3",
-		base = 15200,
+	[16161] = {
+		id = 16161,
+		damage = "27/回",
+		base = 16160,
 		weapon_id = {
-			15201
+			16161
 		}
 	},
-	[15202] = {
-		id = 15202,
-		damage = "80 x 3",
-		base = 15200,
+	[16162] = {
+		id = 16162,
+		damage = "29/回",
+		base = 16160,
 		weapon_id = {
-			15202
+			16162
 		}
 	},
-	[15203] = {
-		id = 15203,
-		damage = "90 x 3",
-		base = 15200,
+	[16163] = {
+		id = 16163,
+		damage = "31/回",
+		base = 16160,
 		weapon_id = {
-			15203
+			16163
+		}
+	},
+	[16164] = {
+		id = 16164,
+		damage = "34/回",
+		base = 16160,
+		weapon_id = {
+			16164
+		}
+	},
+	[16165] = {
+		id = 16165,
+		damage = "37/回",
+		base = 16160,
+		weapon_id = {
+			16165
+		}
+	},
+	[16166] = {
+		id = 16166,
+		damage = "40/回",
+		base = 16160,
+		weapon_id = {
+			16166
 		}
 	}
 }

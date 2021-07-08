@@ -1,350 +1,256 @@
 pg = pg or {}
 pg.equip_data_statistics_212 = {
-	[28226] = {
-		id = 28226,
-		base = 28220,
+	[31240] = {
+		name = "127mm連装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "31200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 31240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				6,
-				50666
+				1,
+				1206
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1206
 			},
 			{
 				4,
-				51146
-			}
-		},
-		weapon_id = {
-			28226
-		}
-	},
-	[28227] = {
-		id = 28227,
-		base = 28220,
-		ammo_info = {
-			{
-				6,
-				50667
+				1001
 			},
-			{
-				4,
-				51147
-			}
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28227
-		}
-	},
-	[28228] = {
-		id = 28228,
-		base = 28220,
-		ammo_info = {
-			{
-				6,
-				50668
-			},
-			{
-				4,
-				51148
-			}
+			31240
 		},
-		weapon_id = {
-			28228
-		}
-	},
-	[28229] = {
-		id = 28229,
-		base = 28220,
-		ammo_info = {
-			{
-				6,
-				50669
-			},
-			{
-				4,
-				51149
-			}
+		skill_id = {},
+		part_main = {
+			1,
+			19
 		},
-		weapon_id = {
-			28229
-		}
-	},
-	[28230] = {
-		id = 28230,
-		base = 28220,
-		ammo_info = {
-			{
-				6,
-				50670
-			},
-			{
-				4,
-				51150
-			}
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
-		weapon_id = {
-			28230
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG",
+			"HE"
 		}
 	},
-	[28231] = {
+	[31241] = {
+		id = 31241,
+		base = 31240,
+		weapon_id = {
+			31241
+		}
+	},
+	[31242] = {
+		id = 31242,
+		damage = "5 x 4",
+		base = 31240,
+		weapon_id = {
+			31242
+		}
+	},
+	[31243] = {
+		id = 31243,
+		damage = "5 x 4",
+		base = 31240,
+		weapon_id = {
+			31243
+		}
+	},
+	[31244] = {
+		id = 31244,
+		damage = "8 x 4",
+		base = 31240,
+		weapon_id = {
+			31244
+		}
+	},
+	[31245] = {
+		id = 31245,
+		damage = "8 x 4",
+		base = 31240,
+		weapon_id = {
+			31245
+		}
+	},
+	[31246] = {
+		id = 31246,
+		damage = "9 x 4",
+		base = 31240,
+		weapon_id = {
+			31246
+		}
+	},
+	[31247] = {
+		id = 31247,
+		damage = "10 x 4",
+		base = 31240,
+		weapon_id = {
+			31247
+		}
+	},
+	[31248] = {
+		id = 31248,
+		damage = "10 x 4",
+		base = 31240,
+		weapon_id = {
+			31248
+		}
+	},
+	[31249] = {
+		id = 31249,
+		damage = "11 x 4",
+		base = 31240,
+		weapon_id = {
+			31249
+		}
+	},
+	[31250] = {
+		id = 31250,
+		damage = "12 x 4",
+		base = 31240,
+		weapon_id = {
+			31250
+		}
+	},
+	[31251] = {
 		anti_siren = 100,
-		base = 28220,
-		id = 28231,
-		ammo_info = {
-			{
-				6,
-				50671
-			},
-			{
-				4,
-				51151
-			}
-		},
+		damage = "12 x 4",
+		base = 31240,
+		id = 31251,
 		weapon_id = {
-			28231
+			31251
 		}
 	},
-	[28232] = {
-		anti_siren = 200,
-		base = 28220,
-		id = 28232,
-		ammo_info = {
-			{
-				6,
-				50672
-			},
-			{
-				4,
-				51152
-			}
-		},
-		weapon_id = {
-			28232
-		}
-	},
-	[28233] = {
-		anti_siren = 300,
-		base = 28220,
-		id = 28233,
-		ammo_info = {
-			{
-				6,
-				50673
-			},
-			{
-				4,
-				51153
-			}
-		},
-		weapon_id = {
-			28233
-		}
-	},
-	[28300] = {
-		name = "フェアリーアルバコア",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 2,
-		tech = 1,
-		descrip = "ソードフィッシュの代替型として開発されていた複葉雷撃機。ソードフィッシュと同様にバラクーダに取って代わられた",
+	[31260] = {
+		name = "127mm両用砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
 		value_2 = 5,
-		icon = "28300",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51000
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28300
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB",
-			"Albacore"
-		}
-	},
-	[28301] = {
-		id = 28301,
-		base = 28300,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51001
-			}
-		},
-		weapon_id = {
-			28301
-		}
-	},
-	[28302] = {
-		id = 28302,
-		base = 28300,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51002
-			}
-		},
-		weapon_id = {
-			28302
-		}
-	},
-	[28303] = {
-		id = 28303,
-		base = 28300,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				4,
-				51003
-			}
-		},
-		weapon_id = {
-			28303
-		}
-	},
-	[28320] = {
-		name = "フェアリーアルバコア",
-		type = 8,
-		speciality = "雷撃",
+		icon = "31260",
+		attribute_2 = "cannon",
+		descrip = "0",
 		rarity = 3,
-		tech = 2,
-		descrip = "ソードフィッシュの代替型として開発されていた複葉雷撃機。ソードフィッシュと同様にバラクーダに取って代わられた",
-		value_2 = 12,
-		icon = "28300",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28320,
+		damage = "3 x 2",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 7,
+		id = 31260,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50020
-			},
-			{
-				4,
-				51020
+				1,
+				1200
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1007
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			28320
+			31260
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"HMS",
-			"CV",
-			"TB",
-			"Albacore"
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[28321] = {
-		id = 28321,
-		base = 28320,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51021
-			}
-		},
+	[31261] = {
+		id = 31261,
+		base = 31260,
 		weapon_id = {
-			28321
+			31261
 		}
 	},
-	[28322] = {
-		id = 28322,
-		base = 28320,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51022
-			}
-		},
+	[31262] = {
+		id = 31262,
+		damage = "4 x 2",
+		base = 31260,
 		weapon_id = {
-			28322
+			31262
 		}
 	},
-	[28323] = {
-		id = 28323,
-		base = 28320,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51023
-			}
-		},
+	[31263] = {
+		id = 31263,
+		damage = "4 x 2",
+		base = 31260,
 		weapon_id = {
-			28323
+			31263
+		}
+	},
+	[31264] = {
+		id = 31264,
+		damage = "7 x 2",
+		base = 31260,
+		weapon_id = {
+			31264
 		}
 	}
 }

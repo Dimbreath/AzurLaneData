@@ -1,134 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_60 = {
-	[3212] = {
-		id = 3212,
-		anti_siren = 200,
-		value_1 = "710",
-		base = 3200
-	},
-	[3213] = {
-		id = 3213,
-		anti_siren = 300,
-		value_1 = "740",
-		base = 3200
-	},
-	[3220] = {
-		name = "VC装甲鋼板",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "3220",
-		value_1 = "220",
-		descrip = "ロイヤルの技術を導入した装甲鋼板。戦艦の主要防御帯によく使われていた",
-		rarity = 4,
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		id = 3220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6470
-		},
-		part_main = {
-			4,
-			5,
-			7,
-			10,
-			18
-		},
-		part_sub = {
-			4,
-			5,
-			7,
-			10,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DEV"
-		}
-	},
-	[3221] = {
-		id = 3221,
-		value_1 = "250",
-		base = 3220
-	},
-	[3222] = {
-		id = 3222,
-		value_1 = "280",
-		base = 3220
-	},
-	[3223] = {
-		id = 3223,
-		value_1 = "310",
-		base = 3220
-	},
-	[3224] = {
-		id = 3224,
-		value_1 = "340",
-		base = 3220
-	},
-	[3225] = {
-		id = 3225,
-		value_1 = "370",
-		base = 3220
-	},
-	[3226] = {
-		id = 3226,
+	[3525] = {
+		id = 3525,
 		value_1 = "400",
-		base = 3220
+		base = 3520
 	},
-	[3227] = {
-		id = 3227,
+	[3526] = {
+		id = 3526,
 		value_1 = "430",
-		base = 3220
+		base = 3520
 	},
-	[3228] = {
-		id = 3228,
+	[3527] = {
+		id = 3527,
 		value_1 = "460",
-		base = 3220
+		base = 3520
 	},
-	[3229] = {
-		id = 3229,
+	[3528] = {
+		id = 3528,
 		value_1 = "490",
-		base = 3220
+		base = 3520
 	},
-	[3230] = {
-		id = 3230,
+	[3529] = {
+		id = 3529,
 		value_1 = "520",
-		base = 3220
+		base = 3520
 	},
-	[3231] = {
-		id = 3231,
-		anti_siren = 100,
+	[3530] = {
+		id = 3530,
 		value_1 = "550",
-		base = 3220
+		base = 3520
 	},
-	[3300] = {
-		name = "四神の印",
+	[3531] = {
+		id = 3531,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 3520
+	},
+	[3540] = {
+		name = "雷撃戦資材(積載)",
 		tech = 0,
-		type = 10,
+		type = 18,
 		speciality = "なし",
 		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3300",
+		icon = "3540",
 		value_1 = "250",
-		descrip = "東煌の四神獣が刻印された玉器(ぎょくき)。東煌の神秘なる力が秘められている",
-		rarity = 5,
-		nationality = 5,
+		descrip = "運送艦に搭載できる魚雷兵装補給",
+		rarity = 4,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 3300,
+		id = 3540,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -138,23 +60,62 @@ pg.equip_data_statistics_60 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6480
+			6680
 		},
 		part_main = {
-			1
+			19
 		},
 		part_sub = {
-			1
+			19
 		},
 		equip_parameters = {},
 		label = {
-			"PRAN",
-			"DEV"
+			"GDS"
 		}
 	},
-	[3301] = {
-		id = 3301,
+	[3541] = {
+		id = 3541,
 		value_1 = "280",
-		base = 3300
+		base = 3540
+	},
+	[3542] = {
+		id = 3542,
+		value_1 = "310",
+		base = 3540
+	},
+	[3543] = {
+		id = 3543,
+		value_1 = "340",
+		base = 3540
+	},
+	[3544] = {
+		id = 3544,
+		value_1 = "370",
+		base = 3540
+	},
+	[3545] = {
+		id = 3545,
+		value_1 = "400",
+		base = 3540
+	},
+	[3546] = {
+		id = 3546,
+		value_1 = "430",
+		base = 3540
+	},
+	[3547] = {
+		id = 3547,
+		value_1 = "460",
+		base = 3540
+	},
+	[3548] = {
+		id = 3548,
+		value_1 = "490",
+		base = 3540
+	},
+	[3549] = {
+		id = 3549,
+		value_1 = "520",
+		base = 3540
 	}
 }

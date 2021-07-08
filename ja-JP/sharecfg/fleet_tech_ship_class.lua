@@ -266,6 +266,17 @@ pg.fleet_tech_ship_class = {
 			10324
 		}
 	},
+	[10307] = {
+		shiptype = 3,
+		name = "アンカレッジ",
+		t_level = 8,
+		id = 10307,
+		t_level_1 = 21,
+		nation = 1,
+		ships = {
+			19903
+		}
+	},
 	[10501] = {
 		shiptype = 5,
 		name = "ネバダ級",
@@ -1605,6 +1616,17 @@ pg.fleet_tech_ship_class = {
 			30708
 		}
 	},
+	[30708] = {
+		shiptype = 7,
+		name = "白龍",
+		t_level = 10,
+		id = 30708,
+		t_level_1 = 109,
+		nation = 3,
+		ships = {
+			39905
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "巡潜乙型",
@@ -1890,6 +1912,17 @@ pg.fleet_tech_ship_class = {
 			40703
 		}
 	},
+	[40702] = {
+		shiptype = 7,
+		name = "アウグスト・フォン・パーセヴァル",
+		t_level = 7,
+		id = 40702,
+		t_level_1 = 126,
+		nation = 4,
+		ships = {
+			49906
+		}
+	},
 	[40801] = {
 		shiptype = 8,
 		name = "VⅡB型",
@@ -1949,6 +1982,17 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40810
+		}
+	},
+	[41801] = {
+		shiptype = 18,
+		name = "エーギル",
+		t_level = 9,
+		id = 41801,
+		t_level_1 = 123,
+		nation = 4,
+		ships = {
+			49905
 		}
 	},
 	[50101] = {
@@ -2101,6 +2145,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			60505,
 			60506
+		}
+	},
+	[60503] = {
+		shiptype = 5,
+		name = "マルコ・ポーロ",
+		t_level = 8,
+		id = 60503,
+		t_level_1 = 136,
+		nation = 6,
+		ships = {
+			69901
 		}
 	},
 	[60701] = {
@@ -2460,6 +2515,7 @@ pg.fleet_tech_ship_class = {
 		10304,
 		10305,
 		10306,
+		10307,
 		10501,
 		10502,
 		10503,
@@ -2570,6 +2626,7 @@ pg.fleet_tech_ship_class = {
 		30705,
 		30706,
 		30707,
+		30708,
 		30801,
 		30802,
 		31201,
@@ -2594,11 +2651,13 @@ pg.fleet_tech_ship_class = {
 		40502,
 		40601,
 		40701,
+		40702,
 		40801,
 		40802,
 		40803,
 		40804,
 		40805,
+		41801,
 		50101,
 		50201,
 		50202,
@@ -2612,6 +2671,7 @@ pg.fleet_tech_ship_class = {
 		60302,
 		60501,
 		60502,
+		60503,
 		60701,
 		60801,
 		70101,

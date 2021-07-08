@@ -140,7 +140,7 @@ function slot0.getItemCountById(slot0, slot1)
 end
 
 function slot0.getBoxCount(slot0)
-	return table.getCount(slot0:getItemsByType(5))
+	return table.getCount(slot0:getItemsByType(Item.EQUIPMENT_BOX_TYPE_5))
 end
 
 function slot0.getCanComposeCount(slot0)

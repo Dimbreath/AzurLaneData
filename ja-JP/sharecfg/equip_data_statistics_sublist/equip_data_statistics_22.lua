@@ -1,21 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_22 = {
-	[880] = {
-		name = "サイン・オブ・ビクトリー",
+	[947] = {
+		id = 947,
+		value_1 = "460",
+		base = 940
+	},
+	[948] = {
+		id = 948,
+		value_1 = "500",
+		base = 940
+	},
+	[949] = {
+		id = 949,
+		value_1 = "520",
+		base = 940
+	},
+	[950] = {
+		id = 950,
+		value_1 = "550",
+		base = 940
+	},
+	[951] = {
+		id = 951,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 940
+	},
+	[960] = {
+		name = "FuMO 25",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 880,
+		id = 960,
 		value_2 = 8,
-		icon = "880",
-		value_1 = "20",
-		attribute_2 = "hit",
+		icon = "960",
+		value_1 = "11",
+		attribute_2 = "cannon",
 		rarity = 5,
-		descrip = "「ロイヤルは各員がその義務を尽くすことを期待するわ」",
-		nationality = 2,
+		descrip = "鉄血が開発した艦艇用レーダー。目標走査と火器制御に用いられる",
+		nationality = 4,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "cannon",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -24,138 +50,98 @@ pg.equip_data_statistics_22 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6770
-		},
+		skill_id = {},
 		part_main = {
+			2,
+			3,
 			4,
 			5,
-			10
+			10,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"HMS",
+			"KMS",
 			"DEV"
 		}
 	},
-	[881] = {
-		id = 881,
-		value_1 = "23",
-		base = 880
-	},
-	[882] = {
-		id = 882,
+	[961] = {
+		id = 961,
 		value_2 = 9,
-		value_1 = "26",
-		base = 880
+		value_1 = "12",
+		base = 960
 	},
-	[883] = {
-		id = 883,
+	[962] = {
+		id = 962,
 		value_2 = 10,
-		value_1 = "29",
-		base = 880
+		value_1 = "13",
+		base = 960
 	},
-	[884] = {
-		id = 884,
-		value_2 = 11,
-		value_1 = "32",
-		base = 880
-	},
-	[885] = {
-		id = 885,
+	[963] = {
+		id = 963,
 		value_2 = 12,
-		value_1 = "35",
-		base = 880
+		value_1 = "15",
+		base = 960
 	},
-	[886] = {
-		id = 886,
-		value_2 = 13,
-		value_1 = "38",
-		base = 880
-	},
-	[887] = {
-		id = 887,
+	[964] = {
+		id = 964,
 		value_2 = 14,
-		value_1 = "41",
-		base = 880
+		value_1 = "17",
+		base = 960
 	},
-	[888] = {
-		id = 888,
+	[965] = {
+		id = 965,
 		value_2 = 16,
-		value_1 = "44",
-		base = 880
+		value_1 = "19",
+		base = 960
 	},
-	[889] = {
-		id = 889,
+	[966] = {
+		id = 966,
 		value_2 = 18,
-		value_1 = "47",
-		base = 880
+		value_1 = "21",
+		base = 960
 	},
-	[890] = {
-		id = 890,
+	[967] = {
+		id = 967,
 		value_2 = 20,
-		value_1 = "50",
-		base = 880
+		value_1 = "23",
+		base = 960
 	},
-	[891] = {
-		id = 891,
-		anti_siren = 100,
-		base = 880,
+	[968] = {
+		id = 968,
 		value_2 = 22,
-		value_1 = "53"
+		value_1 = "25",
+		base = 960
 	},
-	[892] = {
-		id = 892,
-		anti_siren = 200,
-		base = 880,
+	[969] = {
+		id = 969,
 		value_2 = 24,
-		value_1 = "56"
+		value_1 = "27",
+		base = 960
 	},
-	[893] = {
-		id = 893,
-		anti_siren = 300,
-		base = 880,
+	[970] = {
+		id = 970,
 		value_2 = 26,
-		value_1 = "59"
+		value_1 = "29",
+		base = 960
 	},
-	[940] = {
-		name = "作戦記録：AF",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "940",
-		value_1 = "250",
-		descrip = "とある戦闘を記録した報告資料。…一部の内容が欠落しているようだ",
-		rarity = 4,
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		id = 940,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6850
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[941] = {
-		id = 941,
-		value_1 = "280",
-		base = 940
+	[971] = {
+		id = 971,
+		anti_siren = 100,
+		base = 960,
+		value_2 = 28,
+		value_1 = "31"
 	}
 }

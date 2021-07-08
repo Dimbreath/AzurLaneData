@@ -1,27 +1,133 @@
 pg = pg or {}
 pg.equip_data_statistics_29 = {
-	[1203] = {
-		id = 1203,
-		value_2 = 4,
-		value_1 = "5",
-		base = 1200
+	[1268] = {
+		id = 1268,
+		value_2 = 26,
+		value_1 = "30",
+		base = 1260
 	},
-	[1220] = {
-		name = "火器管制レーダー",
+	[1269] = {
+		id = 1269,
+		value_2 = 28,
+		value_1 = "33",
+		base = 1260
+	},
+	[1270] = {
+		id = 1270,
+		value_2 = 30,
+		value_1 = "36",
+		base = 1260
+	},
+	[1271] = {
+		id = 1271,
+		anti_siren = 100,
+		base = 1260,
+		value_2 = 32,
+		value_1 = "39"
+	},
+	[1272] = {
+		id = 1272,
+		anti_siren = 200,
+		base = 1260,
+		value_2 = 34,
+		value_1 = "42"
+	},
+	[1273] = {
+		id = 1273,
+		anti_siren = 300,
+		base = 1260,
+		value_2 = 36,
+		value_1 = "45"
+	},
+	[1300] = {
+		name = "バルジ",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1300",
+		value_1 = "50",
+		descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
+		rarity = 2,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6010
+		},
+		part_main = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1301] = {
+		id = 1301,
+		value_1 = "57",
+		base = 1300
+	},
+	[1302] = {
+		id = 1302,
+		value_1 = "65",
+		base = 1300
+	},
+	[1303] = {
+		id = 1303,
+		value_1 = "72",
+		base = 1300
+	},
+	[1320] = {
+		name = "バルジ",
 		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 1220,
-		value_2 = 5,
-		icon = "1200",
-		value_1 = "6",
-		attribute_2 = "cannon",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1300",
+		value_1 = "90",
+		descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
 		rarity = 3,
-		descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
-		nationality = 1,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 1320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -30,156 +136,70 @@ pg.equip_data_statistics_29 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6020
+		},
 		part_main = {
+			2,
 			3,
 			4,
 			5,
+			6,
+			7,
 			10,
+			11,
+			12,
 			13,
 			18,
 			19
 		},
 		part_sub = {
+			2,
 			3,
 			4,
 			5,
+			6,
+			7,
 			10,
+			11,
+			12,
 			13,
 			18,
 			19
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
 			"DEV"
 		}
 	},
-	[1221] = {
-		id = 1221,
-		value_2 = 6,
-		value_1 = "7",
-		base = 1220
+	[1321] = {
+		id = 1321,
+		value_1 = "103",
+		base = 1320
 	},
-	[1222] = {
-		id = 1222,
-		value_2 = 7,
-		value_1 = "8",
-		base = 1220
+	[1322] = {
+		id = 1322,
+		value_1 = "117",
+		base = 1320
 	},
-	[1223] = {
-		id = 1223,
-		value_2 = 7,
-		value_1 = "9",
-		base = 1220
+	[1323] = {
+		id = 1323,
+		value_1 = "130",
+		base = 1320
 	},
-	[1224] = {
-		id = 1224,
-		value_2 = 8,
-		value_1 = "10",
-		base = 1220
+	[1324] = {
+		id = 1324,
+		value_1 = "144",
+		base = 1320
 	},
-	[1225] = {
-		id = 1225,
-		value_2 = 9,
-		value_1 = "11",
-		base = 1220
+	[1325] = {
+		id = 1325,
+		value_1 = "157",
+		base = 1320
 	},
-	[1226] = {
-		id = 1226,
-		value_2 = 10,
-		value_1 = "11",
-		base = 1220
-	},
-	[1240] = {
-		name = "火器管制レーダー",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 1240,
-		value_2 = 8,
-		icon = "1200",
-		value_1 = "9",
-		attribute_2 = "cannon",
-		rarity = 4,
-		descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1241] = {
-		id = 1241,
-		value_2 = 9,
-		value_1 = "11",
-		base = 1240
-	},
-	[1242] = {
-		id = 1242,
-		value_2 = 10,
-		value_1 = "12",
-		base = 1240
-	},
-	[1243] = {
-		id = 1243,
-		value_2 = 12,
-		value_1 = "14",
-		base = 1240
-	},
-	[1244] = {
-		id = 1244,
-		value_2 = 13,
-		value_1 = "15",
-		base = 1240
-	},
-	[1245] = {
-		id = 1245,
-		value_2 = 14,
-		value_1 = "17",
-		base = 1240
-	},
-	[1246] = {
-		id = 1246,
-		value_2 = 15,
-		value_1 = "18",
-		base = 1240
-	},
-	[1247] = {
-		id = 1247,
-		value_2 = 17,
-		value_1 = "20",
-		base = 1240
+	[1326] = {
+		id = 1326,
+		value_1 = "171",
+		base = 1320
 	}
 }

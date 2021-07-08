@@ -1,103 +1,167 @@
 pg = pg or {}
 pg.aircraft_template_159 = {
-	[67321] = {
-		max_hp = 48,
-		name = "大凤技能鱼雷机Lv1",
-		base = 67320,
-		id = 67321,
-		hp_growth = 1846,
+	[66583] = {
+		max_hp = 59,
+		name = "宝石枪雨LV3",
+		base = 66580,
+		id = 66583,
+		hp_growth = 2363,
 		weapon_ID = {
-			67401
+			66623
 		}
 	},
-	[67322] = {
-		max_hp = 54,
-		name = "大凤技能鱼雷机Lv2",
-		base = 67320,
-		id = 67322,
-		hp_growth = 2087,
-		weapon_ID = {
-			67402
-		}
-	},
-	[67323] = {
-		max_hp = 61,
-		name = "大凤技能鱼雷机Lv3",
-		base = 67320,
-		id = 67323,
-		hp_growth = 2327,
-		weapon_ID = {
-			67403
-		}
-	},
-	[67324] = {
+	[66584] = {
 		max_hp = 67,
-		name = "大凤技能鱼雷机Lv4",
-		base = 67320,
-		id = 67324,
-		hp_growth = 2568,
+		name = "宝石枪雨LV4",
+		base = 66580,
+		id = 66584,
+		hp_growth = 2659,
 		weapon_ID = {
-			67404
+			66624
 		}
 	},
-	[67325] = {
-		max_hp = 73,
-		name = "大凤技能鱼雷机Lv5",
-		base = 67320,
-		id = 67325,
-		hp_growth = 2809,
+	[66585] = {
+		max_hp = 75,
+		name = "宝石枪雨LV5",
+		base = 66580,
+		id = 66585,
+		hp_growth = 2955,
 		weapon_ID = {
-			67405
+			66625
 		}
 	},
-	[67326] = {
-		max_hp = 79,
-		name = "大凤技能鱼雷机Lv6",
-		base = 67320,
-		id = 67326,
-		hp_growth = 3050,
+	[66586] = {
+		max_hp = 83,
+		name = "宝石枪雨LV6",
+		base = 66580,
+		id = 66586,
+		hp_growth = 3251,
 		weapon_ID = {
-			67406
+			66626
 		}
 	},
-	[67327] = {
-		max_hp = 86,
-		name = "大凤技能鱼雷机Lv7",
-		base = 67320,
-		id = 67327,
-		hp_growth = 3290,
+	[66587] = {
+		max_hp = 91,
+		name = "宝石枪雨LV7",
+		base = 66580,
+		id = 66587,
+		hp_growth = 3547,
 		weapon_ID = {
-			67407
+			66627
 		}
 	},
-	[67328] = {
-		max_hp = 92,
-		name = "大凤技能鱼雷机Lv8",
-		base = 67320,
-		id = 67328,
-		hp_growth = 3531,
+	[66588] = {
+		max_hp = 99,
+		name = "宝石枪雨LV8",
+		base = 66580,
+		id = 66588,
+		hp_growth = 3843,
 		weapon_ID = {
-			67408
+			66628
 		}
 	},
-	[67329] = {
-		max_hp = 98,
-		name = "大凤技能鱼雷机Lv9",
-		base = 67320,
-		id = 67329,
-		hp_growth = 3772,
+	[66589] = {
+		max_hp = 107,
+		name = "宝石枪雨LV9",
+		base = 66580,
+		id = 66589,
+		hp_growth = 4139,
 		weapon_ID = {
-			67409
+			66629
 		}
 	},
-	[67330] = {
-		max_hp = 104,
-		name = "大凤技能鱼雷机Lv10",
-		base = 67320,
-		id = 67330,
-		hp_growth = 4013,
+	[66590] = {
+		max_hp = 115,
+		name = "宝石枪雨LV10",
+		base = 66580,
+		id = 66590,
+		hp_growth = 4435,
 		weapon_ID = {
-			67410
+			66630
+		}
+	},
+	[66820] = {
+		name = "飞鹰隼鹰技能Lv0",
+		max_hp = 24,
+		accuracy = 23,
+		model_ID = "97jiangong",
+		ACC_growth = 0,
+		crash_DMG = 148,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "97jiangong",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 924,
+		speed = 48,
+		id = 66820,
+		scale = 1,
+		weapon_ID = {
+			66840
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[66821] = {
+		max_hp = 27,
+		name = "飞鹰隼鹰技能Lv1",
+		base = 66820,
+		id = 66821,
+		hp_growth = 1051,
+		weapon_ID = {
+			66841
 		}
 	}
 }

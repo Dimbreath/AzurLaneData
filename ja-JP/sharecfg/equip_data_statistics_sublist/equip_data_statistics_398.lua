@@ -1,176 +1,302 @@
 pg = pg or {}
 pg.equip_data_statistics_398 = {
-	[90425] = {
-		id = 90425,
-		damage = "75 x 4",
-		base = 90420,
+	[95551] = {
+		anti_siren = 100,
+		damage = "50/回",
+		base = 95540,
+		id = 95551,
 		weapon_id = {
-			90425
+			95551
 		}
 	},
-	[90426] = {
-		id = 90426,
-		damage = "82 x 4",
-		base = 90420,
-		weapon_id = {
-			90426
-		}
-	},
-	[90427] = {
-		id = 90427,
-		damage = "89 x 4",
-		base = 90420,
-		weapon_id = {
-			90427
-		}
-	},
-	[90428] = {
-		id = 90428,
-		damage = "96 x 4",
-		base = 90420,
-		weapon_id = {
-			90428
-		}
-	},
-	[90429] = {
-		id = 90429,
-		damage = "103 x 4",
-		base = 90420,
-		weapon_id = {
-			90429
-		}
-	},
-	[90430] = {
-		id = 90430,
-		damage = "110 x 4",
-		base = 90420,
-		weapon_id = {
-			90430
-		}
-	},
-	[90440] = {
-		name = "380mm四連装砲Mle1935",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
-		value_2 = 45,
-		icon = "50400",
+	[95560] = {
+		name = "120mm連装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		descrip = "",
+		value_2 = 5,
+		icon = "55560",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "48 x 4",
-		nationality = 8,
-		ammo = 2,
+		rarity = 2,
+		damage = "5 x 4",
+		nationality = 6,
+		ammo = 3,
 		value_3 = 0,
-		id = 90440,
+		id = 95560,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
-				2,
-				1552
+				1,
+				2300
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2300
+			},
+			{
+				4,
+				1022
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			90440
+			95560
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
 			4,
 			5,
-			10,
-			13
+			8,
+			13,
+			18
 		},
-		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"BB",
+			"RN",
+			"DD",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[90441] = {
-		id = 90441,
-		damage = "55 x 4",
-		base = 90440,
+	[95561] = {
+		id = 95561,
+		base = 95560,
 		weapon_id = {
-			90441
+			95561
 		}
 	},
-	[90442] = {
-		id = 90442,
-		damage = "62 x 4",
-		base = 90440,
+	[95562] = {
+		id = 95562,
+		damage = "6 x 4",
+		base = 95560,
 		weapon_id = {
-			90442
+			95562
 		}
 	},
-	[90443] = {
-		id = 90443,
-		damage = "69 x 4",
-		base = 90440,
+	[95563] = {
+		id = 95563,
+		damage = "7 x 4",
+		base = 95560,
 		weapon_id = {
-			90443
+			95563
 		}
 	},
-	[90444] = {
-		id = 90444,
-		damage = "76 x 4",
-		base = 90440,
+	[95600] = {
+		name = "152mm三連装砲Model1934",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+		value_2 = 12,
+		icon = "55600",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "5 x 6",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			90444
+			95600
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[90445] = {
-		id = 90445,
-		damage = "83 x 4",
-		base = 90440,
+	[95601] = {
+		id = 95601,
+		damage = "5 x 6",
+		base = 95600,
 		weapon_id = {
-			90445
+			95601
 		}
 	},
-	[90446] = {
-		id = 90446,
-		damage = "90 x 4",
-		base = 90440,
+	[95602] = {
+		id = 95602,
+		damage = "6 x 6",
+		base = 95600,
 		weapon_id = {
-			90446
+			95602
 		}
 	},
-	[90447] = {
-		id = 90447,
-		damage = "97 x 4",
-		base = 90440,
+	[95603] = {
+		id = 95603,
+		damage = "7 x 6",
+		base = 95600,
 		weapon_id = {
-			90447
+			95603
 		}
 	},
-	[90448] = {
-		id = 90448,
-		damage = "104 x 4",
-		base = 90440,
+	[95604] = {
+		id = 95604,
+		damage = "8 x 6",
+		base = 95600,
 		weapon_id = {
-			90448
+			95604
 		}
 	},
-	[90449] = {
-		id = 90449,
-		damage = "112 x 4",
-		base = 90440,
+	[95605] = {
+		id = 95605,
+		damage = "9 x 6",
+		base = 95600,
 		weapon_id = {
-			90449
+			95605
+		}
+	},
+	[95606] = {
+		id = 95606,
+		damage = "10 x 6",
+		base = 95600,
+		weapon_id = {
+			95606
+		}
+	},
+	[95640] = {
+		name = "152mm三連装砲Model1934",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
+		descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+		value_2 = 45,
+		icon = "55600",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95640,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95640
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[95641] = {
+		id = 95641,
+		damage = "6 x 6",
+		base = 95640,
+		weapon_id = {
+			95641
+		}
+	},
+	[95642] = {
+		id = 95642,
+		damage = "7 x 6",
+		base = 95640,
+		weapon_id = {
+			95642
+		}
+	},
+	[95643] = {
+		id = 95643,
+		damage = "8 x 6",
+		base = 95640,
+		weapon_id = {
+			95643
+		}
+	},
+	[95644] = {
+		id = 95644,
+		damage = "9 x 6",
+		base = 95640,
+		weapon_id = {
+			95644
 		}
 	}
 }

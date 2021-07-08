@@ -11,12 +11,12 @@ function slot0.OnLoaded(slot0)
 	slot0.addBtn = slot0:findTF("frame/content/count/add")
 	slot0.reduceBtn = slot0:findTF("frame/content/count/reduce")
 	slot0.valueTxt = slot0:findTF("frame/content/count/Text"):GetComponent(typeof(Text))
-	slot0.timeTxt = slot0:findTF("frame/label"):GetComponent(typeof(Text))
-	slot0.time1Txt = slot0:findTF("frame/label2"):GetComponent(typeof(Text))
-	slot0.maxTxt = slot0:findTF("frame/total/Text/Text"):GetComponent(typeof(Text))
+	slot0.time1Txt = slot0:findTF("frame/content/time/Text"):GetComponent(typeof(Text))
+	slot0.maxTxt = slot0:findTF("frame/total/Text"):GetComponent(typeof(Text))
 
 	setText(slot0:findTF("frame/content/label1"), i18n("commander_box_quickly_tool_tip_1"))
 	setText(slot0:findTF("frame/content/label2"), i18n("commander_box_quickly_tool_tip_2"))
+	setText(slot0:findTF("frame/content/time/label"), i18n("commander_box_quickly_tool_tip_3"))
 end
 
 function slot0.OnInit(slot0)
@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 		uv0:UpdateValue(math.min(uv0.value + 1, uv0.maxCnt))
 	end, SFX_PANEL)
 	onButton(slot0, slot0.reduceBtn, function ()
-		if uv0.value == 1 then
+		if uv0.value <= 1 then
 			return
 		end
 
@@ -82,7 +82,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0.costM = slot0.cost / 60
 	slot3 = getProxy(BagProxy):getItemCountById(slot2)
 	slot0.maxCnt = math.min(slot0:CalcMaxUsageCnt(), slot3)
-	slot0.maxTxt.text = i18n("comander_tool_max_cnt", slot3)
+	slot0.maxTxt.text = slot3
 
 	slot0:UpdateValue(slot0.maxCnt)
 end
@@ -95,11 +95,8 @@ end
 function slot0.UpdateValue(slot0, slot1)
 	slot0.value = slot1
 	slot0.valueTxt.text = slot1
-	slot2 = slot0.costM * slot1
 
-	slot0:AddTimer(getProxy(CommanderProxy):getBoxById(slot0.boxId):getFinishTime() - slot2 * 60)
-
-	slot0.timeTxt.text = i18n("commander_box_quickly_tool_tip_3", slot2)
+	slot0:AddTimer(getProxy(CommanderProxy):getBoxById(slot0.boxId):getFinishTime() - slot0.costM * slot1 * 60)
 end
 
 function slot0.CalcMaxUsageCnt(slot0)
@@ -117,9 +114,9 @@ function slot0.AddTimer(slot0, slot1)
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1:RemoveTimer()
 
-			uv1.time1Txt.text = i18n("cat_accelerate_left", "00:00:00")
+			uv1.time1Txt.text = "00:00:00"
 		else
-			uv1.time1Txt.text = i18n("cat_accelerate_left", pg.TimeMgr.GetInstance():DescCDTime(slot1))
+			uv1.time1Txt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
 		end
 	end, 1, -1)
 

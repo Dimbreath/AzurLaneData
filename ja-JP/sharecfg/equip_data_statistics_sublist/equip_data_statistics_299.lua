@@ -1,29 +1,54 @@
 pg = pg or {}
 pg.equip_data_statistics_299 = {
-	[42300] = {
-		name = "150mmTbtsKC36単装砲",
-		speciality = "追尾",
-		type = 2,
+	[45251] = {
+		anti_siren = 100,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45251,
+		weapon_id = {
+			45251
+		}
+	},
+	[45252] = {
+		anti_siren = 200,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45252,
+		weapon_id = {
+			45252
+		}
+	},
+	[45253] = {
+		anti_siren = 300,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45253,
+		weapon_id = {
+			45253
+		}
+	},
+	[45300] = {
+		name = "潜水艦用G7a魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 1,
-		descrip = "1936A駆逐艦に装備された150mmTbtsKC36単装砲。軽巡洋艦と一部の駆逐艦に装備可能",
+		descrip = "0",
 		value_2 = 5,
-		icon = "42300",
-		attribute_2 = "cannon",
+		icon = "45300",
+		attribute_2 = "torpedo",
 		rarity = 2,
-		damage = "7 x 3",
+		damage = "46 x 2",
 		nationality = 4,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 42300,
+		id = 45300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1825
 			}
 		},
 		equip_info = {
@@ -31,11 +56,11 @@ pg.equip_data_statistics_299 = {
 			2,
 			{
 				3,
-				1304
+				1825
 			},
 			{
 				4,
-				1003
+				1601
 			},
 			6,
 			10,
@@ -43,71 +68,177 @@ pg.equip_data_statistics_299 = {
 			12
 		},
 		weapon_id = {
-			42300
+			45300
 		},
 		skill_id = {},
 		part_main = {
-			2
+			8,
+			17
 		},
 		part_sub = {
-			5
+			8,
+			17
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"SS",
+			"TP"
 		}
 	},
-	[42301] = {
-		id = 42301,
-		damage = "8 x 3",
-		base = 42300,
+	[45301] = {
+		id = 45301,
+		damage = "52 x 2",
+		base = 45300,
 		weapon_id = {
-			42301
+			45301
 		}
 	},
-	[42302] = {
-		id = 42302,
-		damage = "9 x 3",
-		base = 42300,
+	[45302] = {
+		id = 45302,
+		damage = "59 x 2",
+		base = 45300,
 		weapon_id = {
-			42302
+			45302
 		}
 	},
-	[42303] = {
-		id = 42303,
-		damage = "10 x 3",
-		base = 42300,
+	[45303] = {
+		id = 45303,
+		damage = "66 x 2",
+		base = 45300,
 		weapon_id = {
-			42303
+			45303
 		}
 	},
-	[42340] = {
-		name = "150mmTbtsKC36単装砲",
-		speciality = "追尾",
-		type = 2,
+	[45320] = {
+		name = "潜水艦用G7a魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "45300",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "52 x 2",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 45320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45320
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
+	},
+	[45321] = {
+		id = 45321,
+		damage = "59 x 2",
+		base = 45320,
+		weapon_id = {
+			45321
+		}
+	},
+	[45322] = {
+		id = 45322,
+		damage = "66 x 2",
+		base = 45320,
+		weapon_id = {
+			45322
+		}
+	},
+	[45323] = {
+		id = 45323,
+		damage = "74 x 2",
+		base = 45320,
+		weapon_id = {
+			45323
+		}
+	},
+	[45324] = {
+		id = 45324,
+		damage = "82 x 2",
+		base = 45320,
+		weapon_id = {
+			45324
+		}
+	},
+	[45325] = {
+		id = 45325,
+		damage = "90 x 2",
+		base = 45320,
+		weapon_id = {
+			45325
+		}
+	},
+	[45326] = {
+		id = 45326,
+		damage = "98 x 2",
+		base = 45320,
+		weapon_id = {
+			45326
+		}
+	},
+	[45340] = {
+		name = "潜水艦用G7a魚雷",
+		speciality = "雷撃",
+		type = 13,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "42300",
-		attribute_2 = "cannon",
+		icon = "45300",
+		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "6 x 3",
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 42340,
+		id = 45340,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1825
 			}
 		},
 		equip_info = {
@@ -115,11 +246,11 @@ pg.equip_data_statistics_299 = {
 			2,
 			{
 				3,
-				1304
+				1825
 			},
 			{
 				4,
-				1003
+				1601
 			},
 			6,
 			10,
@@ -127,109 +258,38 @@ pg.equip_data_statistics_299 = {
 			12
 		},
 		weapon_id = {
-			42340
+			45340
 		},
 		skill_id = {},
 		part_main = {
-			2
+			8,
+			17
 		},
 		part_sub = {
-			5
+			8,
+			17
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"SS",
+			"TP"
 		}
 	},
-	[42341] = {
-		id = 42341,
-		base = 42340,
+	[45341] = {
+		id = 45341,
+		damage = "66 x 2",
+		base = 45340,
 		weapon_id = {
-			42341
+			45341
 		}
 	},
-	[42342] = {
-		id = 42342,
-		damage = "7 x 3",
-		base = 42340,
+	[45342] = {
+		id = 45342,
+		damage = "74 x 2",
+		base = 45340,
 		weapon_id = {
-			42342
-		}
-	},
-	[42343] = {
-		id = 42343,
-		damage = "8 x 3",
-		base = 42340,
-		weapon_id = {
-			42343
-		}
-	},
-	[42344] = {
-		id = 42344,
-		damage = "9 x 3",
-		base = 42340,
-		weapon_id = {
-			42344
-		}
-	},
-	[42345] = {
-		id = 42345,
-		damage = "10 x 3",
-		base = 42340,
-		weapon_id = {
-			42345
-		}
-	},
-	[42346] = {
-		id = 42346,
-		damage = "11 x 3",
-		base = 42340,
-		weapon_id = {
-			42346
-		}
-	},
-	[42347] = {
-		id = 42347,
-		damage = "12 x 3",
-		base = 42340,
-		weapon_id = {
-			42347
-		}
-	},
-	[42348] = {
-		id = 42348,
-		damage = "13 x 3",
-		base = 42340,
-		weapon_id = {
-			42348
-		}
-	},
-	[42349] = {
-		id = 42349,
-		damage = "14 x 3",
-		base = 42340,
-		weapon_id = {
-			42349
-		}
-	},
-	[42350] = {
-		id = 42350,
-		damage = "15 x 3",
-		base = 42340,
-		weapon_id = {
-			42350
-		}
-	},
-	[42351] = {
-		anti_siren = 100,
-		damage = "15 x 3",
-		base = 42340,
-		id = 42351,
-		weapon_id = {
-			42351
+			45342
 		}
 	}
 }

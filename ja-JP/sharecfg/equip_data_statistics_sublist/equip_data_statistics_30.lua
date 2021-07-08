@@ -1,46 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_30 = {
-	[1248] = {
-		id = 1248,
-		value_2 = 18,
-		value_1 = "21",
-		base = 1240
-	},
-	[1249] = {
-		id = 1249,
-		value_2 = 19,
-		value_1 = "23",
-		base = 1240
-	},
-	[1250] = {
-		id = 1250,
-		value_2 = 21,
-		value_1 = "24",
-		base = 1240
-	},
-	[1251] = {
-		id = 1251,
-		anti_siren = 100,
-		base = 1240,
-		value_2 = 23,
-		value_1 = "25"
-	},
-	[1260] = {
-		name = "高性能火器管制レーダー",
-		tech = 0,
+	[1340] = {
+		name = "バルジ",
+		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 1260,
-		value_2 = 12,
-		icon = "1260",
-		value_1 = "14",
-		attribute_2 = "cannon",
-		rarity = 5,
-		descrip = "改良された火器管制レーダー。砲撃における精度を大いに向上させられる ",
-		nationality = 1,
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1300",
+		value_1 = "140",
+		descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
+		rarity = 4,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 1340,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -50,91 +24,159 @@ pg.equip_data_statistics_30 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6260
+			6030
 		},
 		part_main = {
+			2,
+			3,
 			4,
 			5,
+			6,
+			7,
 			10,
-			13
+			11,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
+			2,
+			3,
 			4,
 			5,
+			6,
+			7,
 			10,
-			13
+			11,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
-			"USS",
 			"DEV"
 		}
 	},
-	[1261] = {
-		id = 1261,
-		value_2 = 13,
-		value_1 = "16",
-		base = 1260
+	[1341] = {
+		id = 1341,
+		value_1 = "161",
+		base = 1340
 	},
-	[1262] = {
-		id = 1262,
-		value_2 = 14,
-		value_1 = "18",
-		base = 1260
+	[1342] = {
+		id = 1342,
+		value_1 = "182",
+		base = 1340
 	},
-	[1263] = {
-		id = 1263,
-		value_2 = 16,
-		value_1 = "20",
-		base = 1260
+	[1343] = {
+		id = 1343,
+		value_1 = "203",
+		base = 1340
 	},
-	[1264] = {
-		id = 1264,
-		value_2 = 18,
-		value_1 = "22",
-		base = 1260
+	[1344] = {
+		id = 1344,
+		value_1 = "224",
+		base = 1340
 	},
-	[1265] = {
-		id = 1265,
-		value_2 = 20,
-		value_1 = "24",
-		base = 1260
+	[1345] = {
+		id = 1345,
+		value_1 = "245",
+		base = 1340
 	},
-	[1266] = {
-		id = 1266,
-		value_2 = 22,
-		value_1 = "26",
-		base = 1260
+	[1346] = {
+		id = 1346,
+		value_1 = "266",
+		base = 1340
 	},
-	[1267] = {
-		id = 1267,
-		value_2 = 24,
-		value_1 = "28",
-		base = 1260
+	[1347] = {
+		id = 1347,
+		value_1 = "287",
+		base = 1340
 	},
-	[1268] = {
-		id = 1268,
-		value_2 = 26,
-		value_1 = "30",
-		base = 1260
+	[1348] = {
+		id = 1348,
+		value_1 = "308",
+		base = 1340
 	},
-	[1269] = {
-		id = 1269,
-		value_2 = 28,
-		value_1 = "33",
-		base = 1260
+	[1349] = {
+		id = 1349,
+		value_1 = "329",
+		base = 1340
 	},
-	[1270] = {
-		id = 1270,
-		value_2 = 30,
-		value_1 = "36",
-		base = 1260
+	[1350] = {
+		id = 1350,
+		value_1 = "350",
+		base = 1340
 	},
-	[1271] = {
-		id = 1271,
+	[1351] = {
+		id = 1351,
 		anti_siren = 100,
-		base = 1260,
-		value_2 = 32,
-		value_1 = "39"
+		value_1 = "371",
+		base = 1340
+	},
+	[1400] = {
+		name = "油圧カタパルト",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		id = 1400,
+		value_2 = 18,
+		icon = "1400",
+		value_1 = "18",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "発艦用カタパルト。航空を上げることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1401] = {
+		id = 1401,
+		value_2 = 21,
+		value_1 = "20",
+		base = 1400
+	},
+	[1402] = {
+		id = 1402,
+		value_2 = 24,
+		value_1 = "23",
+		base = 1400
+	},
+	[1403] = {
+		id = 1403,
+		value_2 = 27,
+		value_1 = "26",
+		base = 1400
+	},
+	[1404] = {
+		id = 1404,
+		value_2 = 30,
+		value_1 = "28",
+		base = 1400
 	}
 }

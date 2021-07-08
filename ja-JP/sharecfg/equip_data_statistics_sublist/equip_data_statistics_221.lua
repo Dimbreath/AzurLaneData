@@ -1,96 +1,62 @@
 pg = pg or {}
 pg.equip_data_statistics_221 = {
-	[31046] = {
-		id = 31046,
-		damage = "9 x 4",
-		base = 31040,
+	[33048] = {
+		id = 33048,
+		damage = "42 x 4",
+		base = 33040,
 		weapon_id = {
-			31046
+			33048
 		}
 	},
-	[31047] = {
-		id = 31047,
-		damage = "10 x 4",
-		base = 31040,
+	[33049] = {
+		id = 33049,
+		damage = "44 x 4",
+		base = 33040,
 		weapon_id = {
-			31047
+			33049
 		}
 	},
-	[31048] = {
-		id = 31048,
-		damage = "10 x 4",
-		base = 31040,
+	[33050] = {
+		id = 33050,
+		damage = "46 x 4",
+		base = 33040,
 		weapon_id = {
-			31048
+			33050
 		}
 	},
-	[31049] = {
-		id = 31049,
-		damage = "11 x 4",
-		base = 31040,
-		weapon_id = {
-			31049
-		}
-	},
-	[31050] = {
-		id = 31050,
-		damage = "12 x 4",
-		base = 31040,
-		weapon_id = {
-			31050
-		}
-	},
-	[31051] = {
+	[33051] = {
 		anti_siren = 100,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31051,
+		damage = "46 x 4",
+		base = 33040,
+		id = 33051,
 		weapon_id = {
-			31051
+			33051
 		}
 	},
-	[31052] = {
-		anti_siren = 200,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31052,
-		weapon_id = {
-			31052
-		}
-	},
-	[31053] = {
-		anti_siren = 300,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31053,
-		weapon_id = {
-			31053
-		}
-	},
-	[31060] = {
-		name = "100mm八八式砲",
+	[33060] = {
+		name = "試製203mm連装砲（3号）",
 		speciality = "追尾",
-		type = 1,
+		type = 3,
 		tech = 0,
-		descrip = "0",
-		value_2 = 10,
-		icon = "31060",
+		descrip = "試作兵器・203mm連装砲の強化型。配備されたのが少数にとどまった",
+		value_2 = 45,
+		icon = "33060",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 4",
+		rarity = 5,
+		damage = "28 x 4",
 		nationality = 3,
-		ammo = 3,
-		value_3 = 15,
-		id = 31060,
+		ammo = 2,
+		value_3 = 0,
+		id = 33060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				1,
-				1200
+				1402
 			}
 		},
 		equip_info = {
@@ -98,11 +64,11 @@ pg.equip_data_statistics_221 = {
 			2,
 			{
 				3,
-				1200
+				1402
 			},
 			{
 				4,
-				1001
+				1205
 			},
 			6,
 			10,
@@ -110,82 +76,118 @@ pg.equip_data_statistics_221 = {
 			12
 		},
 		weapon_id = {
-			31060
+			33060
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
 			3,
-			4,
-			5,
-			8,
-			13,
 			18
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"DD",
-			"MG"
+			"CA",
+			"MG",
+			"HE"
 		}
 	},
-	[31061] = {
-		id = 31061,
-		base = 31060,
+	[33061] = {
+		id = 33061,
+		damage = "30 x 4",
+		base = 33060,
 		weapon_id = {
-			31061
+			33061
 		}
 	},
-	[31062] = {
-		id = 31062,
-		damage = "5 x 4",
-		base = 31060,
+	[33062] = {
+		id = 33062,
+		damage = "32 x 4",
+		base = 33060,
 		weapon_id = {
-			31062
+			33062
 		}
 	},
-	[31063] = {
-		id = 31063,
-		damage = "5 x 4",
-		base = 31060,
+	[33063] = {
+		id = 33063,
+		damage = "34 x 4",
+		base = 33060,
 		weapon_id = {
-			31063
+			33063
 		}
 	},
-	[31064] = {
-		id = 31064,
-		damage = "6 x 4",
-		base = 31060,
+	[33064] = {
+		id = 33064,
+		damage = "36 x 4",
+		base = 33060,
 		weapon_id = {
-			31064
+			33064
 		}
 	},
-	[31065] = {
-		id = 31065,
-		damage = "6 x 4",
-		base = 31060,
+	[33065] = {
+		id = 33065,
+		damage = "38 x 4",
+		base = 33060,
 		weapon_id = {
-			31065
+			33065
 		}
 	},
-	[31066] = {
-		id = 31066,
-		damage = "7 x 4",
-		base = 31060,
+	[33066] = {
+		id = 33066,
+		damage = "40 x 4",
+		base = 33060,
 		weapon_id = {
-			31066
+			33066
 		}
 	},
-	[31067] = {
-		id = 31067,
-		damage = "7 x 4",
-		base = 31060,
+	[33067] = {
+		id = 33067,
+		damage = "42 x 4",
+		base = 33060,
 		weapon_id = {
-			31067
+			33067
+		}
+	},
+	[33068] = {
+		id = 33068,
+		damage = "44 x 4",
+		base = 33060,
+		weapon_id = {
+			33068
+		}
+	},
+	[33069] = {
+		id = 33069,
+		damage = "46 x 4",
+		base = 33060,
+		weapon_id = {
+			33069
+		}
+	},
+	[33070] = {
+		id = 33070,
+		damage = "48 x 4",
+		base = 33060,
+		weapon_id = {
+			33070
+		}
+	},
+	[33071] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33071,
+		weapon_id = {
+			33071
+		}
+	},
+	[33072] = {
+		anti_siren = 200,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33072,
+		weapon_id = {
+			33072
 		}
 	}
 }

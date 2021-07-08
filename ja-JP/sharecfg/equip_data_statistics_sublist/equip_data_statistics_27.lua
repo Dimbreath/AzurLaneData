@@ -1,35 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_27 = {
-	[1124] = {
-		id = 1124,
-		value_1 = "28",
-		base = 1120
+	[1171] = {
+		id = 1171,
+		anti_siren = 100,
+		value_1 = "106",
+		base = 1160
 	},
-	[1125] = {
-		id = 1125,
-		value_1 = "31",
-		base = 1120
+	[1172] = {
+		id = 1172,
+		anti_siren = 200,
+		value_1 = "112",
+		base = 1160
 	},
-	[1126] = {
-		id = 1126,
-		value_1 = "34",
-		base = 1120
+	[1173] = {
+		id = 1173,
+		anti_siren = 300,
+		value_1 = "118",
+		base = 1160
 	},
-	[1140] = {
-		name = "対空レーダー",
-		tech = 3,
+	[1200] = {
+		name = "火器管制レーダー",
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1100",
-		value_1 = "28",
-		descrip = "対空電探（レーダー）。対空を上げることができる",
-		rarity = 4,
+		id = 1200,
+		value_2 = 3,
+		icon = "1200",
+		value_1 = "3",
+		attribute_2 = "cannon",
+		rarity = 2,
+		descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
 		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		id = 1140,
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -39,85 +43,62 @@ pg.equip_data_statistics_27 = {
 		},
 		weapon_id = {},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"USS",
 			"DEV"
 		}
 	},
-	[1141] = {
-		id = 1141,
-		value_1 = "32",
-		base = 1140
+	[1201] = {
+		id = 1201,
+		value_1 = "4",
+		base = 1200
 	},
-	[1142] = {
-		id = 1142,
-		value_1 = "36",
-		base = 1140
+	[1202] = {
+		id = 1202,
+		value_1 = "4",
+		base = 1200
 	},
-	[1143] = {
-		id = 1143,
-		value_1 = "40",
-		base = 1140
+	[1203] = {
+		id = 1203,
+		value_2 = 4,
+		value_1 = "5",
+		base = 1200
 	},
-	[1144] = {
-		id = 1144,
-		value_1 = "44",
-		base = 1140
-	},
-	[1145] = {
-		id = 1145,
-		value_1 = "49",
-		base = 1140
-	},
-	[1146] = {
-		id = 1146,
-		value_1 = "53",
-		base = 1140
-	},
-	[1147] = {
-		id = 1147,
-		value_1 = "57",
-		base = 1140
-	},
-	[1148] = {
-		id = 1148,
-		value_1 = "61",
-		base = 1140
-	},
-	[1149] = {
-		id = 1149,
-		value_1 = "65",
-		base = 1140
-	},
-	[1150] = {
-		id = 1150,
-		value_1 = "70",
-		base = 1140
-	},
-	[1151] = {
-		id = 1151,
-		anti_siren = 100,
-		value_1 = "75",
-		base = 1140
-	},
-	[1160] = {
-		name = "高性能対空レーダー",
-		tech = 0,
+	[1220] = {
+		name = "火器管制レーダー",
+		tech = 2,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1160",
-		value_1 = "40",
-		descrip = "対空電探（レーダー）。対空を上げることができる",
-		rarity = 5,
-		nationality = 2,
+		id = 1220,
+		value_2 = 5,
+		icon = "1200",
+		value_1 = "6",
+		attribute_2 = "cannon",
+		rarity = 3,
+		descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
+		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		id = 1160,
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -126,17 +107,126 @@ pg.equip_data_statistics_27 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6280
+		skill_id = {},
+		part_main = {
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
 		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {
-			ambush_extra = 1200
+		part_sub = {
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
 		},
+		equip_parameters = {},
 		label = {
-			"HMS",
+			"USS",
 			"DEV"
 		}
+	},
+	[1221] = {
+		id = 1221,
+		value_2 = 6,
+		value_1 = "7",
+		base = 1220
+	},
+	[1222] = {
+		id = 1222,
+		value_2 = 7,
+		value_1 = "8",
+		base = 1220
+	},
+	[1223] = {
+		id = 1223,
+		value_2 = 7,
+		value_1 = "9",
+		base = 1220
+	},
+	[1224] = {
+		id = 1224,
+		value_2 = 8,
+		value_1 = "10",
+		base = 1220
+	},
+	[1225] = {
+		id = 1225,
+		value_2 = 9,
+		value_1 = "11",
+		base = 1220
+	},
+	[1226] = {
+		id = 1226,
+		value_2 = 10,
+		value_1 = "11",
+		base = 1220
+	},
+	[1240] = {
+		name = "火器管制レーダー",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 1240,
+		value_2 = 8,
+		icon = "1200",
+		value_1 = "9",
+		attribute_2 = "cannon",
+		rarity = 4,
+		descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[1241] = {
+		id = 1241,
+		value_2 = 9,
+		value_1 = "11",
+		base = 1240
+	},
+	[1242] = {
+		id = 1242,
+		value_2 = 10,
+		value_1 = "12",
+		base = 1240
 	}
 }

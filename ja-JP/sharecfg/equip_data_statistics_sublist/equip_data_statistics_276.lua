@@ -1,385 +1,320 @@
 pg = pg or {}
 pg.equip_data_statistics_276 = {
-	[37451] = {
+	[41069] = {
+		id = 41069,
+		damage = "9 x 4",
+		base = 41060,
+		weapon_id = {
+			41069
+		}
+	},
+	[41070] = {
+		id = 41070,
+		damage = "10 x 4",
+		base = 41060,
+		weapon_id = {
+			41070
+		}
+	},
+	[41071] = {
 		anti_siren = 100,
-		base = 37440,
-		id = 37451,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				6,
-				50571
-			},
-			{
-				5,
-				52151
-			}
-		},
+		damage = "10 x 4",
+		base = 41060,
+		id = 41071,
 		weapon_id = {
-			37451,
-			83451
+			41071
 		}
 	},
-	[38000] = {
-		name = "九七式艦攻",
+	[41100] = {
+		name = "128mmSKC41連装両用砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
 		tech = 1,
-		speciality = "雷撃",
-		type = 8,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "38000",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38001] = {
-		id = 38001,
-		base = 38000,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51301
-			}
-		},
-		weapon_id = {
-			38001
-		}
-	},
-	[38002] = {
-		id = 38002,
-		base = 38000,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51302
-			}
-		},
-		weapon_id = {
-			38002
-		}
-	},
-	[38003] = {
-		id = 38003,
-		base = 38000,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				4,
-				51303
-			}
-		},
-		weapon_id = {
-			38003
-		}
-	},
-	[38020] = {
-		name = "九七式艦攻",
-		type = 8,
-		speciality = "雷撃",
+		value_2 = 3,
+		icon = "41100",
+		attribute_2 = "cannon",
+		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		rarity = 2,
+		damage = "4 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 2,
+		id = 41100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			41100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41101] = {
+		id = 41101,
+		damage = "5 x 4",
+		base = 41100,
+		weapon_id = {
+			41101
+		}
+	},
+	[41102] = {
+		id = 41102,
+		damage = "5 x 4",
+		base = 41100,
+		weapon_id = {
+			41102
+		}
+	},
+	[41103] = {
+		id = 41103,
+		damage = "6 x 4",
+		base = 41100,
+		weapon_id = {
+			41103
+		}
+	},
+	[41120] = {
+		name = "128mmSKC41連装両用砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
 		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "38000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38021] = {
-		id = 38021,
-		base = 38020,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51321
-			}
-		},
-		weapon_id = {
-			38021
-		}
-	},
-	[38022] = {
-		id = 38022,
-		base = 38020,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51322
-			}
-		},
-		weapon_id = {
-			38022
-		}
-	},
-	[38023] = {
-		id = 38023,
-		base = 38020,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51323
-			}
-		},
-		weapon_id = {
-			38023
-		}
-	},
-	[38040] = {
-		name = "九七式艦攻",
-		type = 8,
-		speciality = "雷撃",
+		value_2 = 7,
+		icon = "41100",
+		attribute_2 = "cannon",
+		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		rarity = 3,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "38000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38040,
+		damage = "4 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 5,
+		id = 41120,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50040
-			},
-			{
-				4,
-				51340
+				1,
+				1303
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38040
+			41120
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			1,
+			19
 		},
 		part_sub = {
-			6,
-			7
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"CV",
-			"TB"
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
 		}
 	},
-	[38041] = {
-		id = 38041,
-		base = 38040,
+	[41121] = {
+		id = 41121,
+		damage = "5 x 4",
+		base = 41120,
+		weapon_id = {
+			41121
+		}
+	},
+	[41122] = {
+		id = 41122,
+		damage = "5 x 4",
+		base = 41120,
+		weapon_id = {
+			41122
+		}
+	},
+	[41123] = {
+		id = 41123,
+		damage = "6 x 4",
+		base = 41120,
+		weapon_id = {
+			41123
+		}
+	},
+	[41124] = {
+		id = 41124,
+		damage = "6 x 4",
+		base = 41120,
+		weapon_id = {
+			41124
+		}
+	},
+	[41125] = {
+		id = 41125,
+		damage = "7 x 4",
+		base = 41120,
+		weapon_id = {
+			41125
+		}
+	},
+	[41126] = {
+		id = 41126,
+		damage = "8 x 4",
+		base = 41120,
+		weapon_id = {
+			41126
+		}
+	},
+	[41140] = {
+		name = "128mmSKC41連装両用砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 3,
+		value_2 = 15,
+		icon = "41100",
+		attribute_2 = "cannon",
+		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
+		rarity = 4,
+		damage = "5 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 10,
+		id = 41140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50041
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
 			},
 			{
 				4,
-				51341
-			}
+				1001
+			},
+			6,
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			38041
+			41140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
 		}
 	},
-	[38042] = {
-		id = 38042,
-		base = 38040,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				4,
-				51342
-			}
-		},
+	[41141] = {
+		id = 41141,
+		damage = "6 x 4",
+		base = 41140,
 		weapon_id = {
-			38042
+			41141
 		}
 	},
-	[38043] = {
-		id = 38043,
-		base = 38040,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				51343
-			}
-		},
+	[41142] = {
+		id = 41142,
+		damage = "6 x 4",
+		base = 41140,
 		weapon_id = {
-			38043
-		}
-	},
-	[38044] = {
-		id = 38044,
-		base = 38040,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51344
-			}
-		},
-		weapon_id = {
-			38044
-		}
-	},
-	[38045] = {
-		id = 38045,
-		base = 38040,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51345
-			}
-		},
-		weapon_id = {
-			38045
-		}
-	},
-	[38046] = {
-		id = 38046,
-		base = 38040,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51346
-			}
-		},
-		weapon_id = {
-			38046
+			41142
 		}
 	}
 }

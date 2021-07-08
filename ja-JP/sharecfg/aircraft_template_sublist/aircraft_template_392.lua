@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_392 = {
-	[1100836] = {
-		name = "日系空袭鱼雷机II",
-		max_hp = 99,
+	[1003066] = {
+		name = "【量产型】梦境航母轰炸机T1 (飞机 I",
+		max_hp = 90,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 2280,
 		speed = 30,
-		id = 1100836,
+		id = 1003066,
 		scale = 0.75,
 		weapon_ID = {
-			1100836
+			1003076
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_392 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -63,7 +63,7 @@ pg.aircraft_template_392 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -74,27 +74,27 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100837] = {
-		name = "日系空袭鱼雷机III",
-		max_hp = 126,
+	[1003067] = {
+		name = "【量产型】梦境航母轰炸机T1 (飞机 II",
+		max_hp = 120,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2720,
+		hp_growth = 2660,
 		speed = 30,
-		id = 1100837,
+		id = 1003067,
 		scale = 0.75,
 		weapon_ID = {
-			1100837
+			1003077
 		},
 		position_offset = {
 			0,
@@ -114,13 +114,13 @@ pg.aircraft_template_392 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -137,7 +137,7 @@ pg.aircraft_template_392 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -148,27 +148,27 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100838] = {
-		name = "日系空袭鱼雷机IV",
-		max_hp = 153,
+	[1003068] = {
+		name = "【量产型】梦境航母轰炸机T1 (飞机 III",
+		max_hp = 150,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 112,
+		crash_DMG = 115,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3060,
+		hp_growth = 3040,
 		speed = 30,
-		id = 1100838,
+		id = 1003068,
 		scale = 0.75,
 		weapon_ID = {
-			1100838
+			1003078
 		},
 		position_offset = {
 			0,
@@ -188,13 +188,13 @@ pg.aircraft_template_392 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -211,7 +211,7 @@ pg.aircraft_template_392 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -222,27 +222,27 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100839] = {
-		name = "日系空袭鱼雷机V",
+	[1003069] = {
+		name = "【量产型】梦境航母轰炸机T1 (飞机 IV",
 		max_hp = 180,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 136,
+		crash_DMG = 145,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3400,
+		hp_growth = 3420,
 		speed = 30,
-		id = 1100839,
+		id = 1003069,
 		scale = 0.75,
 		weapon_ID = {
-			1100839
+			1003079
 		},
 		position_offset = {
 			0,
@@ -262,13 +262,13 @@ pg.aircraft_template_392 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -285,7 +285,7 @@ pg.aircraft_template_392 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -296,28 +296,102 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100840] = {
-		name = "日系空袭战斗机I",
-		max_hp = 64,
+	[1003070] = {
+		name = "【量产型】梦境航母轰炸机T1 (飞机 V",
+		max_hp = 210,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 36,
+		crash_DMG = 180,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 1003070,
+		scale = 0.75,
+		weapon_ID = {
+			1003080
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1003071] = {
+		name = "【量产型】梦境航母战斗机T1 (飞机 I",
+		max_hp = 74,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 41,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 1680,
 		speed = 33,
-		id = 1100840,
+		id = 1003071,
 		scale = 0.75,
 		weapon_ID = {
-			1100840,
-			1100845
+			1003081,
+			1003086
 		},
 		position_offset = {
 			0,
@@ -371,28 +445,28 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100841] = {
-		name = "日系空袭战斗机II",
-		max_hp = 88,
+	[1003072] = {
+		name = "【量产型】梦境航母战斗机T1 (飞机 II",
+		max_hp = 98,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 53,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 1960,
 		speed = 33,
-		id = 1100841,
+		id = 1003072,
 		scale = 0.75,
 		weapon_ID = {
-			1100841,
-			1100846
+			1003082,
+			1003087
 		},
 		position_offset = {
 			0,
@@ -446,28 +520,28 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100842] = {
-		name = "日系空袭战斗机III",
-		max_hp = 112,
+	[1003073] = {
+		name = "【量产型】梦境航母战斗机T1 (飞机 III",
+		max_hp = 122,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 62,
+		crash_DMG = 67,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2240,
 		speed = 33,
-		id = 1100842,
+		id = 1003073,
 		scale = 0.75,
 		weapon_ID = {
-			1100842,
-			1100847
+			1003083,
+			1003088
 		},
 		position_offset = {
 			0,
@@ -521,28 +595,28 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100843] = {
-		name = "日系空袭战斗机IV",
-		max_hp = 136,
+	[1003074] = {
+		name = "【量产型】梦境航母战斗机T1 (飞机 IV",
+		max_hp = 146,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 78,
+		crash_DMG = 83,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2520,
 		speed = 33,
-		id = 1100843,
+		id = 1003074,
 		scale = 0.75,
 		weapon_ID = {
-			1100843,
-			1100848
+			1003084,
+			1003089
 		},
 		position_offset = {
 			0,
@@ -596,103 +670,28 @@ pg.aircraft_template_392 = {
 			}
 		}
 	},
-	[1100844] = {
-		name = "日系空袭战斗机V",
-		max_hp = 160,
+	[1003075] = {
+		name = "【量产型】梦境航母战斗机T1 (飞机 V",
+		max_hp = 170,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 98,
+		crash_DMG = 103,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2800,
 		speed = 33,
-		id = 1100844,
+		id = 1003075,
 		scale = 0.75,
 		weapon_ID = {
-			1100844,
-			1100849
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[1100850] = {
-		name = "日系舰载战斗机I",
-		max_hp = 64,
-		accuracy = 23,
-		model_ID = "lingzhan21gai",
-		ACC_growth = 0,
-		crash_DMG = 36,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan21gai",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1680,
-		speed = 33,
-		id = 1100850,
-		scale = 0.75,
-		weapon_ID = {
-			1100745,
-			1100750
+			1003085,
+			1003090
 		},
 		position_offset = {
 			0,

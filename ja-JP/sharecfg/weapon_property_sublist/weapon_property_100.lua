@@ -2,6 +2,122 @@ pg = pg or {}
 pg.weapon_property_100 = {}
 
 function ()
+	uv0.weapon_property_100[59310] = {
+		id = 59310,
+		reload_max = 60,
+		damage = 26,
+		base = 59300
+	}
+	uv0.weapon_property_100[59311] = {
+		id = 59311,
+		reload_max = 60,
+		damage = 27,
+		base = 59300
+	}
+	uv0.weapon_property_100[59312] = {
+		id = 59312,
+		reload_max = 60,
+		damage = 29,
+		base = 59300
+	}
+	uv0.weapon_property_100[59313] = {
+		id = 59313,
+		reload_max = 60,
+		damage = 31,
+		base = 59300
+	}
+	uv0.weapon_property_100[59320] = {
+		action_index = "",
+		range = 24,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x 7.92mm MG機銃",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 59320,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 72,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_100[59321] = {
+		id = 59321,
+		reload_max = 71,
+		damage = 17,
+		base = 59320
+	}
+	uv0.weapon_property_100[59322] = {
+		id = 59322,
+		reload_max = 70,
+		damage = 18,
+		base = 59320
+	}
+	uv0.weapon_property_100[59323] = {
+		id = 59323,
+		reload_max = 69,
+		damage = 19,
+		base = 59320
+	}
+	uv0.weapon_property_100[59324] = {
+		id = 59324,
+		reload_max = 68,
+		damage = 20,
+		base = 59320
+	}
+	uv0.weapon_property_100[59325] = {
+		id = 59325,
+		reload_max = 67,
+		damage = 21,
+		base = 59320
+	}
+	uv0.weapon_property_100[59326] = {
+		id = 59326,
+		reload_max = 65,
+		damage = 22,
+		base = 59320
+	}
+	uv0.weapon_property_100[59327] = {
+		id = 59327,
+		reload_max = 63,
+		damage = 23,
+		base = 59320
+	}
+	uv0.weapon_property_100[59328] = {
+		id = 59328,
+		reload_max = 61,
+		damage = 24,
+		base = 59320
+	}
 	uv0.weapon_property_100[59329] = {
 		id = 59329,
 		reload_max = 59,
@@ -453,115 +569,5 @@ function ()
 		reload_max = 58,
 		damage = 15,
 		base = 59440
-	}
-	uv0.weapon_property_100[59443] = {
-		id = 59443,
-		reload_max = 57,
-		damage = 16,
-		base = 59440
-	}
-	uv0.weapon_property_100[59444] = {
-		id = 59444,
-		reload_max = 56,
-		damage = 17,
-		base = 59440
-	}
-	uv0.weapon_property_100[59445] = {
-		id = 59445,
-		reload_max = 55,
-		damage = 18,
-		base = 59440
-	}
-	uv0.weapon_property_100[59446] = {
-		id = 59446,
-		reload_max = 53,
-		damage = 19,
-		base = 59440
-	}
-	uv0.weapon_property_100[59447] = {
-		id = 59447,
-		reload_max = 51,
-		damage = 20,
-		base = 59440
-	}
-	uv0.weapon_property_100[59448] = {
-		id = 59448,
-		reload_max = 49,
-		damage = 21,
-		base = 59440
-	}
-	uv0.weapon_property_100[59449] = {
-		id = 59449,
-		reload_max = 47,
-		damage = 22,
-		base = 59440
-	}
-	uv0.weapon_property_100[59450] = {
-		id = 59450,
-		reload_max = 45,
-		damage = 24,
-		base = 59440
-	}
-	uv0.weapon_property_100[59451] = {
-		id = 59451,
-		reload_max = 45,
-		damage = 25,
-		base = 59440
-	}
-	uv0.weapon_property_100[59452] = {
-		id = 59452,
-		reload_max = 45,
-		damage = 26,
-		base = 59440
-	}
-	uv0.weapon_property_100[59453] = {
-		id = 59453,
-		reload_max = 45,
-		damage = 28,
-		base = 59440
-	}
-	uv0.weapon_property_100[59500] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "4 x 20mm九九式機関砲",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 29,
-		corrected = 100,
-		min_range = 0,
-		id = 59500,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 187,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

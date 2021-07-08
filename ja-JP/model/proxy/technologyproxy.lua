@@ -13,11 +13,7 @@ function slot0.register(slot0)
 
 		uv0.refreshTechnologysFlag = slot0.refresh_flag or 0
 
-		if slot0.catchup then
-			uv0.curCatchupTecID = slot0.catchup.id
-			uv0.curCatchupGroupID = slot0.catchup.target
-			uv0.curCatchupPrintsNum = slot0.catchup.number
-		end
+		uv0:updateTecCatchup(slot0)
 	end)
 
 	slot0.bluePrintData = {}
@@ -39,6 +35,7 @@ function slot0.register(slot0)
 		end
 
 		uv0.coldTime = slot0.cold_time or 0
+		uv0.pursuingTimes = slot0.daily_catchup_strengthen or 0
 	end)
 end
 
@@ -103,6 +100,21 @@ function slot0.updateTechnologys(slot0, slot1)
 			}))
 		end
 	end
+end
+
+function slot0.updateTecCatchup(slot0, slot1)
+	slot0.curCatchupTecID = slot1.catchup.version
+	slot0.curCatchupGroupID = slot1.catchup.target
+	slot0.catchupData = {}
+
+	for slot5, slot6 in ipairs(slot1.catchup.pursuings) do
+		slot7 = TechnologyCatchup.New(slot6)
+		slot0.catchupData[slot7.id] = slot7
+	end
+
+	slot0.curCatchupPrintsNum = slot0:getCurCatchNum()
+
+	print("初始下发的科研追赶信息", slot0.curCatchupTecID, slot0.curCatchupGroupID, slot0.curCatchupPrintsNum)
 end
 
 function slot0.getActiveTechnologyCount(slot0)
@@ -185,6 +197,42 @@ function slot0.GetBlueprint4Item(slot0, slot1)
 	return slot0.item2blueprint[slot1]
 end
 
+function slot0.getCatchupData(slot0, slot1)
+	if not slot0.catchupData[slot1] then
+		slot0.catchupData[slot1] = TechnologyCatchup.New({
+			version = slot1
+		})
+	end
+
+	return slot0.catchupData[slot1]
+end
+
+function slot0.updateCatchupData(slot0, slot1, slot2, slot3)
+	slot0.catchupData[slot1]:addTargetNum(slot2, slot3)
+end
+
+function slot0.getCurCatchNum(slot0)
+	if slot0.curCatchupTecID ~= 0 and slot0.curCatchupGroupID ~= 0 then
+		return slot0.catchupData[slot0.curCatchupTecID]:getTargetNum(slot0.curCatchupGroupID)
+	else
+		return 0
+	end
+end
+
+function slot0.getCatchupState(slot0, slot1)
+	if not slot0.catchupData[slot1] then
+		return TechnologyCatchup.STATE_UNSELECT
+	end
+
+	return slot0.catchupData[slot1]:getState()
+end
+
+function slot0.updateCatchupStates(slot0)
+	for slot4, slot5 in ipairs(slot0.catchupData) do
+		slot5:updateState()
+	end
+end
+
 function slot0.isOpenTargetCatchup(slot0)
 	return pg.technology_catchup_template ~= nil and #pg.technology_catchup_template.all > 0
 end
@@ -195,23 +243,6 @@ end
 
 function slot0.isOnCatchup(slot0)
 	return slot0.curCatchupTecID ~= 0 and slot0.curCatchupGroupID ~= 0
-end
-
-function slot0.isOnCatchupNewest(slot0)
-	if not slot0:isOnCatchup() then
-		-- Nothing
-	end
-
-	return slot0.curCatchupTecID == slot0:getNewestCatchupTecID()
-end
-
-function slot0.judgeOnCatchupOldAndFinished(slot0)
-	if not slot0:isOnCatchupNewest() and pg.technology_catchup_template[slot0.curCatchupTecID].obtain_max <= slot0.curCatchupPrintsNum then
-		print("finish and old, need reset")
-		pg.m02:sendNotification(GAME.SELECT_TEC_TARGET_CATCHUP, {
-			charID = 0
-		})
-	end
 end
 
 function slot0.getBluePrintVOByGroupID(slot0, slot1)
@@ -226,16 +257,19 @@ function slot0.getCurCatchupTecInfo(slot0)
 	}
 end
 
-function slot0.setCurCatchupTecInfo(slot0, slot1, slot2, slot3)
+function slot0.setCurCatchupTecInfo(slot0, slot1, slot2)
 	slot0.curCatchupTecID = slot1
 	slot0.curCatchupGroupID = slot2
-	slot0.curCatchupPrintsNum = slot3 or slot0.curCatchupPrintsNum
+	slot0.curCatchupPrintsNum = slot0:getCurCatchNum()
 
+	slot0:updateCatchupStates()
 	print("设置后的科研追赶信息", slot0.curCatchupTecID, slot0.curCatchupGroupID, slot0.curCatchupPrintsNum)
 end
 
 function slot0.addCatupPrintsNum(slot0, slot1)
-	slot0.curCatchupPrintsNum = slot0.curCatchupPrintsNum + slot1
+	slot0:updateCatchupData(slot0.curCatchupTecID, slot0.curCatchupGroupID, slot1)
+
+	slot0.curCatchupPrintsNum = slot0:getCurCatchNum()
 
 	print("增加科研图纸", slot1, slot0.curCatchupPrintsNum)
 end
@@ -244,6 +278,79 @@ function slot0.IsShowTip(slot0)
 	slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
 
 	return OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag() or (SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3
+end
+
+function slot0.addPursuingTimes(slot0, slot1)
+	slot0.pursuingTimes = slot0.pursuingTimes + slot1
+end
+
+function slot0.resetPursuingTimes(slot0)
+	slot0.pursuingTimes = 0
+
+	slot0:sendNotification(GAME.PURSUING_RESET_DONE)
+end
+
+function slot0.calcMaxPursuingCount(slot0, slot1)
+	slot2 = pg.gameset.blueprint_pursue_discount_ssr.description
+	slot3 = getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold)
+	slot4 = 0
+	slot6 = nil
+
+	for slot10 = slot0.pursuingTimes + 1, slot2[#slot2][1] - 1 do
+		if slot3 < slot1:getPursuingPrice(function (slot0)
+			slot1 = #uv0
+
+			while slot0 < uv0[slot1][1] do
+				slot1 = slot1 - 1
+			end
+
+			return uv0[slot1][2]
+		end(slot10)) then
+			return slot4
+		else
+			slot3 = slot3 - slot6
+			slot4 = slot4 + 1
+		end
+	end
+
+	return slot4 + math.floor(slot3 / slot1:getPursuingPrice())
+end
+
+function slot0.calcPursuingCost(slot0, slot1, slot2)
+	slot3 = pg.gameset.blueprint_pursue_discount_ssr.description
+	slot4 = 0
+	slot6 = nil
+
+	for slot10 = slot0.pursuingTimes + 1, slot3[#slot3][1] - 1 do
+		slot6 = slot1:getPursuingPrice(function (slot0)
+			slot1 = #uv0
+
+			while slot0 < uv0[slot1][1] do
+				slot1 = slot1 - 1
+			end
+
+			return uv0[slot1][2]
+		end(slot10))
+
+		if slot2 == 0 then
+			return slot4
+		else
+			slot4 = slot4 + slot6
+			slot2 = slot2 - 1
+		end
+	end
+
+	return slot4 + slot2 * slot1:getPursuingPrice()
+end
+
+function slot0.getPursuingDiscount(slot0)
+	slot2 = #pg.gameset.blueprint_pursue_discount_ssr.description
+
+	while slot0 < slot1[slot2][1] do
+		slot2 = slot2 - 1
+	end
+
+	return slot1[slot2][2]
 end
 
 return slot0

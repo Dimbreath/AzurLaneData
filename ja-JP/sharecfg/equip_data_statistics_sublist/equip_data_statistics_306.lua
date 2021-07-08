@@ -1,221 +1,194 @@
 pg = pg or {}
 pg.equip_data_statistics_306 = {
-	[44104] = {
-		id = 44104,
-		damage = "73 x 2",
-		base = 44100,
+	[46246] = {
+		id = 46246,
+		damage = "38/回",
+		base = 46240,
 		weapon_id = {
-			44104
+			46246
 		}
 	},
-	[44105] = {
-		id = 44105,
-		damage = "79 x 2",
-		base = 44100,
+	[46247] = {
+		id = 46247,
+		damage = "41/回",
+		base = 46240,
 		weapon_id = {
-			44105
+			46247
 		}
 	},
-	[44106] = {
-		id = 44106,
-		damage = "86 x 2",
-		base = 44100,
+	[46248] = {
+		id = 46248,
+		damage = "44/回",
+		base = 46240,
 		weapon_id = {
-			44106
+			46248
 		}
 	},
-	[44120] = {
-		name = "380mmSKC連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	[46249] = {
+		id = 46249,
+		damage = "47/回",
+		base = 46240,
+		weapon_id = {
+			46249
+		}
+	},
+	[46250] = {
+		id = 46250,
+		damage = "50/回",
+		base = 46240,
+		weapon_id = {
+			46250
+		}
+	},
+	[46251] = {
+		anti_siren = 100,
+		damage = "50/回",
+		base = 46240,
+		id = 46251,
+		weapon_id = {
+			46251
+		}
+	},
+	[46260] = {
+		name = "37mmFlak M43連装機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
+		descrip = "0",
 		value_2 = 25,
-		icon = "44100",
-		attribute_2 = "cannon",
+		icon = "46260",
+		attribute_2 = "antiaircraft",
 		rarity = 4,
-		damage = "55 x 2",
+		damage = "26/回",
 		nationality = 4,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 44120,
+		id = 46260,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			44120
+			46260
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[44121] = {
-		id = 44121,
-		damage = "61 x 2",
-		base = 44120,
-		weapon_id = {
-			44121
-		}
-	},
-	[44122] = {
-		id = 44122,
-		damage = "67 x 2",
-		base = 44120,
-		weapon_id = {
-			44122
-		}
-	},
-	[44123] = {
-		id = 44123,
-		damage = "74 x 2",
-		base = 44120,
-		weapon_id = {
-			44123
-		}
-	},
-	[44124] = {
-		id = 44124,
-		damage = "80 x 2",
-		base = 44120,
-		weapon_id = {
-			44124
-		}
-	},
-	[44125] = {
-		id = 44125,
-		damage = "87 x 2",
-		base = 44120,
-		weapon_id = {
-			44125
-		}
-	},
-	[44126] = {
-		id = 44126,
-		damage = "93 x 2",
-		base = 44120,
-		weapon_id = {
-			44126
-		}
-	},
-	[44127] = {
-		id = 44127,
-		damage = "100 x 2",
-		base = 44120,
-		weapon_id = {
-			44127
-		}
-	},
-	[44128] = {
-		id = 44128,
-		damage = "107 x 2",
-		base = 44120,
-		weapon_id = {
-			44128
-		}
-	},
-	[44129] = {
-		id = 44129,
-		damage = "114 x 2",
-		base = 44120,
-		weapon_id = {
-			44129
-		}
-	},
-	[44130] = {
-		id = 44130,
-		damage = "122 x 2",
-		base = 44120,
-		weapon_id = {
-			44130
-		}
-	},
-	[44140] = {
-		name = "380mmSKC連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
-		value_2 = 45,
-		icon = "44100",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "58 x 2",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 44140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
 			1,
 			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44140
-		},
-		skill_id = {},
-		part_main = {
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"BB",
-			"MG",
-			"AP"
+			"ST",
+			"AA"
 		}
 	},
-	[44141] = {
-		id = 44141,
-		damage = "64 x 2",
-		base = 44140,
+	[46261] = {
+		id = 46261,
+		damage = "29/回",
+		base = 46260,
 		weapon_id = {
-			44141
+			46261
+		}
+	},
+	[46262] = {
+		id = 46262,
+		damage = "32/回",
+		base = 46260,
+		weapon_id = {
+			46262
+		}
+	},
+	[46263] = {
+		id = 46263,
+		damage = "35/回",
+		base = 46260,
+		weapon_id = {
+			46263
+		}
+	},
+	[46264] = {
+		id = 46264,
+		damage = "38/回",
+		base = 46260,
+		weapon_id = {
+			46264
+		}
+	},
+	[46265] = {
+		id = 46265,
+		damage = "41/回",
+		base = 46260,
+		weapon_id = {
+			46265
+		}
+	},
+	[46266] = {
+		id = 46266,
+		damage = "44/回",
+		base = 46260,
+		weapon_id = {
+			46266
+		}
+	},
+	[46267] = {
+		id = 46267,
+		damage = "47/回",
+		base = 46260,
+		weapon_id = {
+			46267
+		}
+	},
+	[46268] = {
+		id = 46268,
+		damage = "50/回",
+		base = 46260,
+		weapon_id = {
+			46268
+		}
+	},
+	[46269] = {
+		id = 46269,
+		damage = "53/回",
+		base = 46260,
+		weapon_id = {
+			46269
+		}
+	},
+	[46270] = {
+		id = 46270,
+		damage = "56/回",
+		base = 46260,
+		weapon_id = {
+			46270
 		}
 	}
 }

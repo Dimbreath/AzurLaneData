@@ -1,239 +1,249 @@
 pg = pg or {}
 pg.equip_data_statistics_324 = {
-	[46320] = {
-		name = "105mmSKC連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "対空火器・105mmSKC高角砲",
-		value_2 = 25,
-		icon = "46300",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "41/回",
-		nationality = 4,
-		ammo = 5,
+	[60253] = {
+		id = 60253,
+		base = 60251,
+		weapon_id = {
+			60253
+		}
+	},
+	[60261] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 46320,
+		id = 60261,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			46320
+			60261
 		},
 		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
+		label = {}
 	},
-	[46321] = {
-		id = 46321,
-		damage = "47/回",
-		base = 46320,
+	[60262] = {
+		id = 60262,
+		base = 60261,
 		weapon_id = {
-			46321
+			60262
 		}
 	},
-	[46322] = {
-		id = 46322,
-		damage = "53/回",
-		base = 46320,
+	[60263] = {
+		id = 60263,
+		base = 60261,
 		weapon_id = {
-			46322
+			60263
 		}
 	},
-	[46323] = {
-		id = 46323,
-		damage = "59/回",
-		base = 46320,
-		weapon_id = {
-			46323
-		}
-	},
-	[46324] = {
-		id = 46324,
-		damage = "65/回",
-		base = 46320,
-		weapon_id = {
-			46324
-		}
-	},
-	[46325] = {
-		id = 46325,
-		damage = "71/回",
-		base = 46320,
-		weapon_id = {
-			46325
-		}
-	},
-	[46326] = {
-		id = 46326,
-		damage = "77/回",
-		base = 46320,
-		weapon_id = {
-			46326
-		}
-	},
-	[46327] = {
-		id = 46327,
-		damage = "83/回",
-		base = 46320,
-		weapon_id = {
-			46327
-		}
-	},
-	[46328] = {
-		id = 46328,
-		damage = "89/回",
-		base = 46320,
-		weapon_id = {
-			46328
-		}
-	},
-	[46329] = {
-		id = 46329,
-		damage = "95/回",
-		base = 46320,
-		weapon_id = {
-			46329
-		}
-	},
-	[46330] = {
-		id = 46330,
-		damage = "102/回",
-		base = 46320,
-		weapon_id = {
-			46330
-		}
-	},
-	[46340] = {
-		name = "105mmSKC連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "対空火器・105mmSKC高角砲",
-		value_2 = 45,
-		icon = "46300",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "49/回",
-		nationality = 4,
-		ammo = 5,
+	[60271] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 46340,
+		id = 60271,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			46340
+			60271
 		},
 		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
+		label = {}
+	},
+	[60272] = {
+		id = 60272,
+		base = 60271,
+		weapon_id = {
+			60272
 		}
 	},
-	[46341] = {
-		id = 46341,
-		damage = "56/回",
-		base = 46340,
+	[60273] = {
+		id = 60273,
+		base = 60271,
 		weapon_id = {
-			46341
+			60273
 		}
 	},
-	[46342] = {
-		id = 46342,
-		damage = "63/回",
-		base = 46340,
+	[60281] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60281,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			46342
+			60281
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60282] = {
+		id = 60282,
+		base = 60281,
+		weapon_id = {
+			60282
 		}
 	},
-	[46343] = {
-		id = 46343,
-		damage = "70/回",
-		base = 46340,
+	[60283] = {
+		id = 60283,
+		base = 60281,
 		weapon_id = {
-			46343
+			60283
 		}
 	},
-	[46344] = {
-		id = 46344,
-		damage = "77/回",
-		base = 46340,
+	[60291] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60291,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			46344
+			60291
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60292] = {
+		id = 60292,
+		base = 60291,
+		weapon_id = {
+			60292
+		}
+	},
+	[60293] = {
+		id = 60293,
+		base = 60291,
+		weapon_id = {
+			60293
+		}
+	},
+	[60301] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60301,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60301
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60302] = {
+		id = 60302,
+		name = "0",
+		base = 60301,
+		weapon_id = {
+			60302
+		}
+	},
+	[60311] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60311,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60311
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60312] = {
+		id = 60312,
+		base = 60311,
+		weapon_id = {
+			60312
 		}
 	}
 }

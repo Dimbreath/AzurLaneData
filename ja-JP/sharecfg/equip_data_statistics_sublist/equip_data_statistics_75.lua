@@ -1,171 +1,260 @@
 pg = pg or {}
 pg.equip_data_statistics_75 = {
-	[5322] = {
-		id = 5322,
-		damage = "63 x 2",
-		base = 5320,
+	[6102] = {
+		id = 6102,
+		damage = "22/回",
+		base = 6100,
 		weapon_id = {
-			5322
+			6102
 		}
 	},
-	[5323] = {
-		id = 5323,
-		damage = "72 x 2",
-		base = 5320,
+	[6103] = {
+		id = 6103,
+		damage = "25/回",
+		base = 6100,
 		weapon_id = {
-			5323
+			6103
 		}
 	},
-	[5340] = {
-		name = "550mm連装魚雷発射管",
-		speciality = "雷撃",
-		type = 5,
+	[6120] = {
+		name = "100mm連装高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "6100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "20/回",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 6120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
+	[6121] = {
+		id = 6121,
+		damage = "23/回",
+		base = 6120,
+		weapon_id = {
+			6121
+		}
+	},
+	[6122] = {
+		id = 6122,
+		damage = "26/回",
+		base = 6120,
+		weapon_id = {
+			6122
+		}
+	},
+	[6123] = {
+		id = 6123,
+		damage = "29/回",
+		base = 6120,
+		weapon_id = {
+			6123
+		}
+	},
+	[6140] = {
+		name = "100mm連装高角砲",
+		speciality = "対空",
+		type = 6,
 		tech = 3,
 		descrip = "0",
 		value_2 = 12,
-		icon = "5300",
-		attribute_2 = "torpedo",
+		icon = "6100",
+		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "52 x 2",
+		damage = "22/回",
 		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5340,
+		id = 6140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
+		ammo_info = {},
 		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1401
-			},
+			1,
+			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			5340
+			6140
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
 			"ST",
-			"TP",
-			"DUO"
+			"AA"
 		}
 	},
-	[5341] = {
-		id = 5341,
-		damage = "61 x 2",
-		base = 5340,
+	[6141] = {
+		id = 6141,
+		damage = "25/回",
+		base = 6140,
 		weapon_id = {
-			5341
+			6141
 		}
 	},
-	[5342] = {
-		id = 5342,
-		damage = "70 x 2",
-		base = 5340,
+	[6142] = {
+		id = 6142,
+		damage = "28/回",
+		base = 6140,
 		weapon_id = {
-			5342
+			6142
 		}
 	},
-	[5343] = {
-		id = 5343,
-		damage = "79 x 2",
-		base = 5340,
+	[6143] = {
+		id = 6143,
+		damage = "32/回",
+		base = 6140,
 		weapon_id = {
-			5343
+			6143
 		}
 	},
-	[5344] = {
-		id = 5344,
-		damage = "88 x 2",
-		base = 5340,
+	[6144] = {
+		id = 6144,
+		damage = "36/回",
+		base = 6140,
 		weapon_id = {
-			5344
+			6144
 		}
 	},
-	[5345] = {
-		id = 5345,
-		damage = "98 x 2",
-		base = 5340,
+	[6145] = {
+		id = 6145,
+		damage = "40/回",
+		base = 6140,
 		weapon_id = {
-			5345
+			6145
 		}
 	},
-	[5346] = {
-		id = 5346,
-		damage = "108 x 2",
-		base = 5340,
+	[6146] = {
+		id = 6146,
+		damage = "44/回",
+		base = 6140,
 		weapon_id = {
-			5346
+			6146
 		}
 	},
-	[5347] = {
-		id = 5347,
-		damage = "108 x 2",
-		base = 5340,
+	[6147] = {
+		id = 6147,
+		damage = "44/回",
+		base = 6140,
 		weapon_id = {
-			5347
+			6147
 		}
 	},
-	[5400] = {
-		name = "550mm三連装魚雷発射管",
-		speciality = "雷撃",
-		type = 5,
+	[7000] = {
+		name = "152mm単装砲",
+		speciality = "通常",
+		type = 2,
 		tech = 1,
+		rarity = 1,
 		descrip = "0",
-		value_2 = 5,
-		icon = "5400",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "47 x 3",
-		nationality = 8,
-		ammo = 5,
+		value_2 = 0,
+		icon = "7000",
+		damage = "16 x 3",
+		nationality = 7,
+		ammo = 3,
 		value_3 = 0,
-		id = 5400,
+		id = 7000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				3,
-				1800
+				1,
+				1101
 			}
 		},
 		equip_info = {
+			1,
+			2,
 			{
 				3,
-				1800
+				1101
 			},
 			{
 				4,
-				1402
+				1103
 			},
 			6,
 			10,
@@ -173,121 +262,36 @@ pg.equip_data_statistics_75 = {
 			12
 		},
 		weapon_id = {
-			5400
+			7000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
+			2
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			18
+			5
 		},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"ST",
-			"TP",
-			"TRI"
+			"SN",
+			"CL",
+			"MG"
 		}
 	},
-	[5401] = {
-		id = 5401,
-		damage = "55 x 3",
-		base = 5400,
+	[7001] = {
+		id = 7001,
+		damage = "18 x 3",
+		base = 7000,
 		weapon_id = {
-			5401
+			7001
 		}
 	},
-	[5402] = {
-		id = 5402,
-		damage = "63 x 3",
-		base = 5400,
+	[7002] = {
+		id = 7002,
+		damage = "20 x 3",
+		base = 7000,
 		weapon_id = {
-			5402
-		}
-	},
-	[5403] = {
-		id = 5403,
-		damage = "72 x 3",
-		base = 5400,
-		weapon_id = {
-			5403
-		}
-	},
-	[5420] = {
-		name = "550mm三連装魚雷発射管",
-		speciality = "雷撃",
-		type = 5,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "5400",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "52 x 3",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 5420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[5421] = {
-		id = 5421,
-		damage = "61 x 3",
-		base = 5420,
-		weapon_id = {
-			5421
+			7002
 		}
 	}
 }

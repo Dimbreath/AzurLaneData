@@ -5244,6 +5244,120 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13025] = {
+		drop_gold_max = 0,
+		name = "試作型三連装305mmSKC39主砲（超巡）T0設計図",
+		display = "試作型三連装305mmSKC39主砲（超巡）T0設計図",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/44400",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13025,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13026] = {
+		drop_gold_max = 0,
+		name = "試作型BF-109G（特別計画艦仕様）T0設計図",
+		display = "試作型BF-109G（特別計画艦仕様）T0設計図",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/47160",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13026,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13027] = {
+		drop_gold_max = 0,
+		name = "試作型90mm連装高角砲Model1939T0設計図",
+		display = "試作型90mm連装高角砲Model1939T0設計図",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/55160",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13027,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13028] = {
+		drop_gold_max = 0,
+		name = "試作型三連装406mm主砲Model1940T0設計図",
+		display = "試作型三連装406mm主砲Model1940T0設計図",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/55900",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13028,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13029] = {
+		drop_gold_max = 0,
+		name = "試作型彩雲（艦攻型・特別計画艦仕様）T0設計図",
+		display = "試作型彩雲（艦攻型・特別計画艦仕様）T0設計図",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/38300",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13029,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13030] = {
+		drop_gold_max = 0,
+		name = "試作型天雷（特別計画艦仕様）T0設計図",
+		display = "試作型天雷（特別計画艦仕様）T0設計図",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/39340",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13030,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		drop_gold_max = 0,
 		name = "プロト設計図・S-Ⅰ",
@@ -5316,7 +5430,7 @@ pg.item_data_statistics = {
 		shop_id = -1,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/14001",
+		icon = "Props/14002",
 		rarity = 4,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -5346,6 +5460,57 @@ pg.item_data_statistics = {
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[14003] = {
+		drop_gold_max = 0,
+		name = "プロト設計図・S-Ⅲ",
+		display = [[
+下記任意のSSレアの装備の設計図と交換可能
+「試作型234mm連装砲T0設計図」
+「114mm連装両用砲MarlIVT0設計図」
+「六連装ボフォース40mm対空砲T0設計図」
+「試作型305mmSKC39三連装砲T0設計図」
+「試作型406mm/50三連装砲T0設計図」]],
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/14003",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 14003,
+		display_icon = {
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -6994,6 +7159,28 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 20101,
+		display_icon = {},
+		price = {
+			9,
+			2
+		},
+		index = {}
+	},
+	[20102] = {
+		drop_gold_max = 0,
+		name = "戦術データパック・Ⅱ期",
+		display = "科学部が作成した戦術データベース。特別計画2期の開発任務経験値を10000蓄積させることができる<color=#ff5c5c>（倉庫でプロトコアに分解可能）</color>",
+		type = 18,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/20102",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 20102,
 		display_icon = {},
 		price = {
 			9,
@@ -32629,6 +32816,266 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42030] = {
+		drop_gold_max = 0,
+		name = "指向型強化ユニット・四期目",
+		display = "特別計画艦一期目・二期目・三期目と四期目の強化ユニット（PR）から選択して入手できます",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42030",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42030,
+		display_icon = {
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42031] = {
+		drop_gold_max = 0,
+		name = "強化ユニット「アンカレッジ」",
+		display = "ユニオン巡洋艦「アンカレッジ」の強化ユニット。\n<color=#92fc63>「アンカレッジ」開発完了後、「開発ドック」で「アンカレッジ」の性能を強化できる。</color>強化ユニット「シャンパーニュ」",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42031",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42031,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42032] = {
+		drop_gold_max = 0,
+		name = "強化ユニット「白龍」",
+		display = "重桜空母「白龍」の強化ユニット。\n<color=#92fc63>「白龍」開発完了後、「開発ドック」で「白龍」の性能を強化できる。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42032",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42032,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42033] = {
+		drop_gold_max = 0,
+		name = "強化ユニット「エーギル」",
+		display = "鉄血超巡「エーギル」の強化ユニット。\n<color=#92fc63>「エーギル」開発完了後、「開発ドック」で「エーギル」の性能を強化できる。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42033",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42033,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42034] = {
+		drop_gold_max = 0,
+		name = "強化ユニット「アウグスト・フォン・パーセヴァル」",
+		display = "鉄血空母「アウグスト・フォン・パーセヴァル」の強化ユニット。\n<color=#92fc63>「アウグスト・フォン・パーセヴァル」開発完了後、「開発ドック」で「アウグスト・フォン・パーセヴァル」の性能を強化できる。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42034",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42034,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42035] = {
+		drop_gold_max = 0,
+		name = "強化ユニット「マルコ・ポーロ」",
+		display = "サディア戦艦「マルコ・ポーロ」の強化ユニット。\n<color=#92fc63>「マルコ・ポーロ」開発完了後、「開発ドック」で「マルコ・ポーロ」の性能を強化できる。</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42035",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42035,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42036] = {
+		drop_gold_max = 0,
+		name = "上級指向型強化ユニット・四期目",
+		display = "特別計画艦二期目・三期目・四期目の強化ユニット（DR）を選択肢て入手できます",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42036",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42036,
+		display_icon = {
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[43001] = {
 		drop_gold_max = 0,
 		name = "バレンタインプレゼント",
@@ -41478,6 +41925,126 @@ pg.item_data_statistics = {
 			{
 				2,
 				13023,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52031] = {
+		drop_gold_max = 0,
+		name = "強化ユニット(ランダム)",
+		display = "ランダムで下記の強化ユニットを入手できます。",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/52001",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 52031,
+		display_icon = {
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52032] = {
+		drop_gold_max = 0,
+		name = "兵装設計図(ランダム)",
+		display = "ランダムで下記の設計図を入手できます。",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 52032,
+		display_icon = {
+			{
+				2,
+				13030,
+				1
+			},
+			{
+				2,
+				13029,
+				1
+			},
+			{
+				2,
+				13028,
+				1
+			},
+			{
+				2,
+				13027,
+				1
+			},
+			{
+				2,
+				13026,
+				1
+			},
+			{
+				2,
+				13025,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13007,
+				1
+			},
+			{
+				2,
+				13009,
 				1
 			}
 		},
@@ -133909,6 +134476,44 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59225] = {
+		drop_gold_max = 0,
+		name = "演習pt",
+		display = "イベント「交錯する新たな波復刻」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/junhe_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59225,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59226] = {
+		drop_gold_max = 0,
+		name = "特別戦闘券",
+		display = "「交錯する新たな波復刻」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/special_ticket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59226,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "江風モデル",
@@ -144010,8 +144615,15 @@ pg.item_data_statistics = {
 		13022,
 		13023,
 		13024,
+		13025,
+		13026,
+		13027,
+		13028,
+		13029,
+		13030,
 		14001,
 		14002,
+		14003,
 		15001,
 		15002,
 		15003,
@@ -144098,6 +144710,7 @@ pg.item_data_statistics = {
 		20012,
 		20013,
 		20101,
+		20102,
 		21001,
 		21002,
 		21003,
@@ -145074,6 +145687,13 @@ pg.item_data_statistics = {
 		42024,
 		42025,
 		42026,
+		42030,
+		42031,
+		42032,
+		42033,
+		42034,
+		42035,
+		42036,
 		43001,
 		43002,
 		43003,
@@ -145519,6 +146139,8 @@ pg.item_data_statistics = {
 		52012,
 		52021,
 		52022,
+		52031,
+		52032,
 		53000,
 		53010,
 		53011,
@@ -146882,6 +147504,8 @@ pg.item_data_statistics = {
 		59222,
 		59223,
 		59224,
+		59225,
+		59226,
 		59601,
 		59602,
 		59603,

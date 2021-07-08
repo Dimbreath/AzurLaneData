@@ -1,114 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_297 = {
-	[42143] = {
-		id = 42143,
-		damage = "12 x 3",
-		base = 42140,
+	[45153] = {
+		anti_siren = 300,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45153,
 		weapon_id = {
-			42143
+			45153
 		}
 	},
-	[42144] = {
-		id = 42144,
-		damage = "13 x 3",
-		base = 42140,
-		weapon_id = {
-			42144
-		}
-	},
-	[42145] = {
-		id = 42145,
-		damage = "14 x 3",
-		base = 42140,
-		weapon_id = {
-			42145
-		}
-	},
-	[42146] = {
-		id = 42146,
-		damage = "15 x 3",
-		base = 42140,
-		weapon_id = {
-			42146
-		}
-	},
-	[42147] = {
-		id = 42147,
-		damage = "16 x 3",
-		base = 42140,
-		weapon_id = {
-			42147
-		}
-	},
-	[42148] = {
-		id = 42148,
-		damage = "17 x 3",
-		base = 42140,
-		weapon_id = {
-			42148
-		}
-	},
-	[42149] = {
-		id = 42149,
-		damage = "19 x 3",
-		base = 42140,
-		weapon_id = {
-			42149
-		}
-	},
-	[42150] = {
-		id = 42150,
-		damage = "21 x 3",
-		base = 42140,
-		weapon_id = {
-			42150
-		}
-	},
-	[42151] = {
-		anti_siren = 100,
-		damage = "21 x 3",
-		base = 42140,
-		id = 42151,
-		weapon_id = {
-			42151
-		}
-	},
-	[42200] = {
-		name = "150mmTbtsKC/36連装砲",
-		speciality = "追尾",
-		type = 2,
+	[45200] = {
+		name = "533mm五連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 1,
-		descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
-		value_2 = 5,
-		icon = "42200",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 4",
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 25,
+		icon = "45200",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "63 x 5",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42200,
+		id = 45200,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1001
+				1404
 			},
 			6,
 			10,
@@ -116,83 +48,141 @@ pg.equip_data_statistics_297 = {
 			12
 		},
 		weapon_id = {
-			42200
+			45200
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[42201] = {
-		id = 42201,
-		damage = "8 x 4",
-		base = 42200,
+	[45201] = {
+		id = 45201,
+		damage = "69 x 5",
+		base = 45200,
 		weapon_id = {
-			42201
+			45201
 		}
 	},
-	[42202] = {
-		id = 42202,
-		damage = "9 x 4",
-		base = 42200,
+	[45202] = {
+		id = 45202,
+		damage = "75 x 5",
+		base = 45200,
 		weapon_id = {
-			42202
+			45202
 		}
 	},
-	[42203] = {
-		id = 42203,
-		damage = "10 x 4",
-		base = 42200,
+	[45203] = {
+		id = 45203,
+		damage = "81 x 5",
+		base = 45200,
 		weapon_id = {
-			42203
+			45203
 		}
 	},
-	[42220] = {
-		name = "150mmTbtsKC/36連装砲",
-		speciality = "追尾",
-		type = 2,
+	[45204] = {
+		id = 45204,
+		damage = "87 x 5",
+		base = 45200,
+		weapon_id = {
+			45204
+		}
+	},
+	[45205] = {
+		id = 45205,
+		damage = "93 x 5",
+		base = 45200,
+		weapon_id = {
+			45205
+		}
+	},
+	[45206] = {
+		id = 45206,
+		damage = "99 x 5",
+		base = 45200,
+		weapon_id = {
+			45206
+		}
+	},
+	[45207] = {
+		id = 45207,
+		damage = "105 x 5",
+		base = 45200,
+		weapon_id = {
+			45207
+		}
+	},
+	[45208] = {
+		id = 45208,
+		damage = "111 x 5",
+		base = 45200,
+		weapon_id = {
+			45208
+		}
+	},
+	[45209] = {
+		id = 45209,
+		damage = "117 x 5",
+		base = 45200,
+		weapon_id = {
+			45209
+		}
+	},
+	[45210] = {
+		id = 45210,
+		damage = "123 x 5",
+		base = 45200,
+		weapon_id = {
+			45210
+		}
+	},
+	[45220] = {
+		name = "533mm五連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 2,
-		descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
-		value_2 = 12,
-		icon = "42200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 4",
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 45,
+		icon = "45200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "66 x 5",
 		nationality = 4,
-		ammo = 1,
+		ammo = 4,
 		value_3 = 0,
-		id = 42220,
+		id = 45220,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1304
+				3,
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1304
+				1803
 			},
 			{
 				4,
-				1001
+				1404
 			},
 			6,
 			10,
@@ -200,37 +190,59 @@ pg.equip_data_statistics_297 = {
 			12
 		},
 		weapon_id = {
-			42220
+			45220
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[42221] = {
-		id = 42221,
-		damage = "9 x 4",
-		base = 42220,
+	[45221] = {
+		id = 45221,
+		damage = "72 x 5",
+		base = 45220,
 		weapon_id = {
-			42221
+			45221
 		}
 	},
-	[42222] = {
-		id = 42222,
-		damage = "10 x 4",
-		base = 42220,
+	[45222] = {
+		id = 45222,
+		damage = "79 x 5",
+		base = 45220,
 		weapon_id = {
-			42222
+			45222
+		}
+	},
+	[45223] = {
+		id = 45223,
+		damage = "86 x 5",
+		base = 45220,
+		weapon_id = {
+			45223
+		}
+	},
+	[45224] = {
+		id = 45224,
+		damage = "92 x 5",
+		base = 45220,
+		weapon_id = {
+			45224
 		}
 	}
 }

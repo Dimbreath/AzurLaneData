@@ -1,220 +1,301 @@
 pg = pg or {}
 pg.equip_data_statistics_304 = {
-	[43147] = {
-		id = 43147,
-		damage = "49 x 6",
-		base = 43140,
-		weapon_id = {
-			43147
-		}
-	},
-	[43148] = {
-		id = 43148,
-		damage = "51 x 6",
-		base = 43140,
-		weapon_id = {
-			43148
-		}
-	},
-	[43149] = {
-		id = 43149,
-		damage = "53 x 6",
-		base = 43140,
-		weapon_id = {
-			43149
-		}
-	},
-	[43150] = {
-		id = 43150,
-		damage = "55 x 6",
-		base = 43140,
-		weapon_id = {
-			43150
-		}
-	},
-	[43151] = {
+	[46071] = {
 		anti_siren = 100,
-		damage = "55 x 6",
-		base = 43140,
-		id = 43151,
+		damage = "89/回",
+		base = 46060,
+		id = 46071,
 		weapon_id = {
-			43151
+			46071
 		}
 	},
-	[44000] = {
-		name = "283mmSKC34三連装砲",
-		speciality = "投射",
-		type = 4,
+	[46100] = {
+		name = "37mm機銃",
+		speciality = "対空",
+		type = 6,
 		tech = 1,
-		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
-		value_2 = 5,
-		icon = "44000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "34 x 3",
+		rarity = 1,
+		descrip = "対空火器・37mm機銃",
+		value_2 = 0,
+		icon = "46100",
+		damage = "8/回",
 		nationality = 4,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 44000,
+		id = 46100,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			44000
+			46100
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"BB",
-			"MG"
+			"ST",
+			"AA"
 		}
 	},
-	[44001] = {
-		id = 44001,
-		damage = "38 x 3",
-		base = 44000,
+	[46101] = {
+		id = 46101,
+		damage = "9/回",
+		base = 46100,
 		weapon_id = {
-			44001
+			46101
 		}
 	},
-	[44002] = {
-		id = 44002,
-		damage = "42 x 3",
-		base = 44000,
+	[46102] = {
+		id = 46102,
+		damage = "10/回",
+		base = 46100,
 		weapon_id = {
-			44002
+			46102
 		}
 	},
-	[44003] = {
-		id = 44003,
-		damage = "46 x 3",
-		base = 44000,
+	[46103] = {
+		id = 46103,
+		damage = "12/回",
+		base = 46100,
 		weapon_id = {
-			44003
+			46103
 		}
 	},
-	[44020] = {
-		name = "283mmSKC34三連装砲",
-		speciality = "投射",
-		type = 4,
+	[46120] = {
+		name = "37mm機銃",
+		speciality = "対空",
+		type = 6,
 		tech = 2,
-		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
-		value_2 = 12,
-		icon = "44000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "37 x 3",
+		descrip = "対空火器・37mm機銃",
+		value_2 = 5,
+		icon = "46100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "11/回",
 		nationality = 4,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 44020,
+		id = 46120,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			44020
+			46120
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"BB",
-			"MG"
+			"ST",
+			"AA"
 		}
 	},
-	[44021] = {
-		id = 44021,
-		damage = "42 x 3",
-		base = 44020,
+	[46121] = {
+		id = 46121,
+		damage = "12/回",
+		base = 46120,
 		weapon_id = {
-			44021
+			46121
 		}
 	},
-	[44022] = {
-		id = 44022,
-		damage = "46 x 3",
-		base = 44020,
+	[46122] = {
+		id = 46122,
+		damage = "14/回",
+		base = 46120,
 		weapon_id = {
-			44022
+			46122
 		}
 	},
-	[44023] = {
-		id = 44023,
-		damage = "51 x 3",
-		base = 44020,
+	[46123] = {
+		id = 46123,
+		damage = "16/回",
+		base = 46120,
 		weapon_id = {
-			44023
+			46123
 		}
 	},
-	[44024] = {
-		id = 44024,
-		damage = "55 x 3",
-		base = 44020,
+	[46140] = {
+		name = "37mm機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "対空火器・37mm機銃",
+		value_2 = 12,
+		icon = "46100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "12/回",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			44024
+			46140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
 		}
 	},
-	[44025] = {
-		id = 44025,
-		damage = "59 x 3",
-		base = 44020,
+	[46141] = {
+		id = 46141,
+		damage = "14/回",
+		base = 46140,
 		weapon_id = {
-			44025
+			46141
 		}
 	},
-	[44026] = {
-		id = 44026,
-		damage = "64 x 3",
-		base = 44020,
+	[46142] = {
+		id = 46142,
+		damage = "16/回",
+		base = 46140,
 		weapon_id = {
-			44026
+			46142
+		}
+	},
+	[46143] = {
+		id = 46143,
+		damage = "18/回",
+		base = 46140,
+		weapon_id = {
+			46143
+		}
+	},
+	[46144] = {
+		id = 46144,
+		damage = "20/回",
+		base = 46140,
+		weapon_id = {
+			46144
+		}
+	},
+	[46145] = {
+		id = 46145,
+		damage = "22/回",
+		base = 46140,
+		weapon_id = {
+			46145
+		}
+	},
+	[46146] = {
+		id = 46146,
+		damage = "24/回",
+		base = 46140,
+		weapon_id = {
+			46146
+		}
+	},
+	[46147] = {
+		id = 46147,
+		damage = "24/回",
+		base = 46140,
+		weapon_id = {
+			46147
 		}
 	}
 }

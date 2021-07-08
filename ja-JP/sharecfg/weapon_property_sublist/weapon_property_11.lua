@@ -2,66 +2,6 @@ pg = pg or {}
 pg.weapon_property_11 = {}
 
 function ()
-	uv0.weapon_property_11[12161] = {
-		id = 12161,
-		reload_max = 806,
-		damage = 11,
-		base = 12160
-	}
-	uv0.weapon_property_11[12162] = {
-		id = 12162,
-		reload_max = 793,
-		damage = 12,
-		base = 12160
-	}
-	uv0.weapon_property_11[12163] = {
-		id = 12163,
-		reload_max = 780,
-		damage = 13,
-		base = 12160
-	}
-	uv0.weapon_property_11[12164] = {
-		id = 12164,
-		reload_max = 767,
-		damage = 14,
-		base = 12160
-	}
-	uv0.weapon_property_11[12165] = {
-		id = 12165,
-		reload_max = 754,
-		damage = 15,
-		base = 12160
-	}
-	uv0.weapon_property_11[12166] = {
-		id = 12166,
-		reload_max = 741,
-		damage = 16,
-		base = 12160
-	}
-	uv0.weapon_property_11[12167] = {
-		id = 12167,
-		reload_max = 728,
-		damage = 17,
-		base = 12160
-	}
-	uv0.weapon_property_11[12168] = {
-		id = 12168,
-		reload_max = 715,
-		damage = 18,
-		base = 12160
-	}
-	uv0.weapon_property_11[12169] = {
-		id = 12169,
-		reload_max = 702,
-		damage = 19,
-		base = 12160
-	}
-	uv0.weapon_property_11[12170] = {
-		id = 12170,
-		reload_max = 689,
-		damage = 20,
-		base = 12160
-	}
 	uv0.weapon_property_11[12171] = {
 		reload_max = 689,
 		damage = 20,
@@ -647,5 +587,109 @@ function ()
 		reload_max = 975,
 		damage = 40,
 		base = 13120
+	}
+	uv0.weapon_property_11[13140] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "三联装203mm主炮改进型T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 28,
+		corrected = 105,
+		min_range = 0,
+		id = 13140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1053,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1402
+		},
+		barrage_ID = {
+			1204
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_11[13141] = {
+		id = 13141,
+		reload_max = 1032,
+		damage = 31,
+		base = 13140
+	}
+	uv0.weapon_property_11[13142] = {
+		id = 13142,
+		reload_max = 1011,
+		damage = 34,
+		base = 13140
+	}
+	uv0.weapon_property_11[13143] = {
+		id = 13143,
+		reload_max = 989,
+		damage = 36,
+		base = 13140
+	}
+	uv0.weapon_property_11[13144] = {
+		id = 13144,
+		reload_max = 969,
+		damage = 38,
+		base = 13140
+	}
+	uv0.weapon_property_11[13145] = {
+		id = 13145,
+		reload_max = 946,
+		damage = 40,
+		base = 13140
+	}
+	uv0.weapon_property_11[13146] = {
+		id = 13146,
+		reload_max = 926,
+		damage = 43,
+		base = 13140
+	}
+	uv0.weapon_property_11[13147] = {
+		id = 13147,
+		reload_max = 905,
+		damage = 46,
+		base = 13140
+	}
+	uv0.weapon_property_11[13148] = {
+		id = 13148,
+		reload_max = 883,
+		damage = 48,
+		base = 13140
+	}
+	uv0.weapon_property_11[13149] = {
+		id = 13149,
+		reload_max = 863,
+		damage = 50,
+		base = 13140
+	}
+	uv0.weapon_property_11[13150] = {
+		id = 13150,
+		reload_max = 841,
+		damage = 52,
+		base = 13140
 	}
 end()

@@ -324,6 +324,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.state_info_2 = slot2.state_info_2
 	slot0.state_info_3 = slot2.state_info_3
 	slot0.state_info_4 = slot2.state_info_4
+	slot0.equipmentSkins = {}
 	slot0.equipments = {}
 
 	if slot1.equip_info_list then
@@ -334,6 +335,9 @@ function slot0.Ctor(slot0, slot1)
 				config_id = slot7.id,
 				skinId = slot7.skinId
 			}) or false
+			slot0.equipmentSkins[slot6] = slot7.skinId > 0 and slot7.skinId or 0
+
+			slot0:reletiveEquipSkin(slot6)
 		end
 	end
 
@@ -471,10 +475,6 @@ function slot0.isBluePrintShip(slot0)
 	return slot0.bluePrintFlag == 1
 end
 
-function slot0.updateEquipmentSkin(slot0, slot1, slot2)
-	slot0.equipments[slot1].skinId = slot2
-end
-
 function slot0.updateSkinId(slot0, slot1)
 	slot0.skinId = slot1
 end
@@ -525,7 +525,7 @@ function slot0.getPrefab(slot0)
 	slot1 = slot0.skinId
 
 	if slot0:hasEquipmentSkinInPos(uv0) then
-		slot1 = uv1[slot0:getEquip(uv0).skinId].ship_skin_id
+		slot1 = uv1[slot0:getEquip(uv0):getSkinId()].ship_skin_id
 	end
 
 	return pg.ship_skin_template[slot1].prefab
@@ -534,7 +534,7 @@ end
 function slot0.getAttachmentPrefab(slot0)
 	slot1 = {}
 
-	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0).skinId].attachment_key ~= 0 and not slot1[slot4] then
+	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0):getSkinId()].attachment_key ~= 0 and not slot1[slot4] then
 		slot1[slot4] = slot3
 	end
 
@@ -575,15 +575,104 @@ function slot0.updateEquip(slot0, slot1, slot2)
 
 	if slot0.equipments[slot1] then
 		getProxy(EquipmentProxy):OnShipEquipsRemove(slot3, slot0.id, slot1)
+		slot3:setSkinId(0)
 	end
 
 	if slot2 then
 		getProxy(EquipmentProxy):OnShipEquipsAdd(slot2, slot0.id, slot1)
+		slot0:reletiveEquipSkin(slot1)
+	end
+end
+
+function slot0.reletiveEquipSkin(slot0, slot1)
+	if slot0.equipments[slot1] and slot0.equipmentSkins[slot1] ~= 0 then
+		if table.contains(pg.equip_skin_template[slot0.equipmentSkins[slot1]].equip_type, slot0.equipments[slot1]:getType()) then
+			slot0.equipments[slot1]:setSkinId(slot0.equipmentSkins[slot1])
+		else
+			slot0.equipments[slot1]:setSkinId(0)
+		end
+	end
+end
+
+function slot0.updateEquipmentSkin(slot0, slot1, slot2)
+	if not slot1 then
+		return
+	end
+
+	if slot2 and slot2 > 0 then
+		slot4 = pg.equip_skin_template[slot2].equip_type
+		slot5 = false
+
+		for slot9, slot10 in ipairs(slot0:getSkinTypes(slot1)) do
+			for slot14, slot15 in ipairs(slot4) do
+				if slot10 == slot15 then
+					slot5 = true
+
+					break
+				end
+			end
+		end
+
+		if not slot5 then
+			return
+		end
+
+		slot0.equipmentSkins[slot1] = slot2
+
+		if (slot0.equipments[slot1] and slot0.equipments[slot1]:getType() or false) and table.contains(slot4, slot6) then
+			slot0.equipments[slot1]:setSkinId(slot0.equipmentSkins[slot1])
+		elseif slot6 and not table.contains(slot4, slot6) then
+			slot0.equipments[slot1]:setSkinId(0)
+		end
+	else
+		slot0.equipmentSkins[slot1] = 0
+
+		if slot0.equipments[slot1] then
+			slot0.equipments[slot1]:setSkinId(0)
+		end
 	end
 end
 
 function slot0.getEquip(slot0, slot1)
 	return Clone(slot0.equipments[slot1])
+end
+
+function slot0.getEquipSkins(slot0)
+	return Clone(slot0.equipmentSkins)
+end
+
+function slot0.getEquipSkin(slot0, slot1)
+	return slot0.equipmentSkins[slot1]
+end
+
+function slot0.getCanEquipSkin(slot0, slot1)
+	if slot0:getSkinTypes(slot1) and #slot2 then
+		for slot6, slot7 in ipairs(slot2) do
+			if pg.equip_data_by_type[slot7].equip_skin == 1 then
+				return true
+			end
+		end
+	end
+
+	return false
+end
+
+function slot0.checkCanEquipSkin(slot0, slot1, slot2)
+	if not slot1 or not slot2 then
+		return
+	end
+
+	for slot8, slot9 in ipairs(slot0:getSkinTypes(slot1)) do
+		if table.contains(pg.equip_skin_template[slot2].equip_type, slot9) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.getSkinTypes(slot0, slot1)
+	return pg.ship_data_template[slot0.configId]["equip_" .. slot1] or {}
 end
 
 function slot0.updateState(slot0, slot1)

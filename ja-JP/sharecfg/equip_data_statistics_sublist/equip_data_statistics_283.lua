@@ -1,411 +1,243 @@
 pg = pg or {}
 pg.equip_data_statistics_283 = {
-	[39049] = {
-		id = 39049,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				5,
-				52249
-			},
-			{
-				5,
-				52149
-			}
-		},
+	[42250] = {
+		id = 42250,
+		damage = "21 x 4",
+		base = 42240,
 		weapon_id = {
-			39049
+			42250
 		}
 	},
-	[39050] = {
-		id = 39050,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				5,
-				52250
-			},
-			{
-				5,
-				52150
-			}
-		},
-		weapon_id = {
-			39050
-		}
-	},
-	[39051] = {
+	[42251] = {
 		anti_siren = 100,
-		base = 39040,
-		id = 39051,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				5,
-				52251
-			},
-			{
-				5,
-				52151
-			}
-		},
+		damage = "21 x 4",
+		base = 42240,
+		id = 42251,
 		weapon_id = {
-			39051
+			42251
 		}
 	},
-	[39060] = {
-		name = "九九式艦爆改",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 4,
-		tech = 0,
+	[42300] = {
+		name = "150mmTbtsKC36単装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "1936A駆逐艦に装備された150mmTbtsKC36単装砲。軽巡洋艦と一部の駆逐艦に装備可能",
+		value_2 = 5,
+		icon = "42300",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "7 x 3",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42300
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42301] = {
+		id = 42301,
+		damage = "8 x 3",
+		base = 42300,
+		weapon_id = {
+			42301
+		}
+	},
+	[42302] = {
+		id = 42302,
+		damage = "9 x 3",
+		base = 42300,
+		weapon_id = {
+			42302
+		}
+	},
+	[42303] = {
+		id = 42303,
+		damage = "10 x 3",
+		base = 42300,
+		weapon_id = {
+			42303
+		}
+	},
+	[42340] = {
+		name = "150mmTbtsKC36単装砲",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "39060",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
+		icon = "42300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 3",
+		nationality = 4,
+		ammo = 1,
 		value_3 = 0,
-		id = 39060,
+		id = 42340,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {
 			{
-				6,
-				50040
-			},
-			{
-				5,
-				52240
-			},
-			{
-				5,
-				52160
+				1,
+				1304
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			39060
+			42340
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			2
 		},
 		part_sub = {
-			6,
-			7
+			5
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"CV",
-			"DB"
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
 		}
 	},
-	[39061] = {
-		id = 39061,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				5,
-				52241
-			},
-			{
-				5,
-				52161
-			}
-		},
+	[42341] = {
+		id = 42341,
+		base = 42340,
 		weapon_id = {
-			39061
+			42341
 		}
 	},
-	[39062] = {
-		id = 39062,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				5,
-				52242
-			},
-			{
-				5,
-				52162
-			}
-		},
+	[42342] = {
+		id = 42342,
+		damage = "7 x 3",
+		base = 42340,
 		weapon_id = {
-			39062
+			42342
 		}
 	},
-	[39063] = {
-		id = 39063,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				5,
-				52243
-			},
-			{
-				5,
-				52163
-			}
-		},
+	[42343] = {
+		id = 42343,
+		damage = "8 x 3",
+		base = 42340,
 		weapon_id = {
-			39063
+			42343
 		}
 	},
-	[39064] = {
-		id = 39064,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				5,
-				52244
-			},
-			{
-				5,
-				52164
-			}
-		},
+	[42344] = {
+		id = 42344,
+		damage = "9 x 3",
+		base = 42340,
 		weapon_id = {
-			39064
+			42344
 		}
 	},
-	[39065] = {
-		id = 39065,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				5,
-				52245
-			},
-			{
-				5,
-				52165
-			}
-		},
+	[42345] = {
+		id = 42345,
+		damage = "10 x 3",
+		base = 42340,
 		weapon_id = {
-			39065
+			42345
 		}
 	},
-	[39066] = {
-		id = 39066,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				5,
-				52246
-			},
-			{
-				5,
-				52166
-			}
-		},
+	[42346] = {
+		id = 42346,
+		damage = "11 x 3",
+		base = 42340,
 		weapon_id = {
-			39066
+			42346
 		}
 	},
-	[39067] = {
-		id = 39067,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				5,
-				52247
-			},
-			{
-				5,
-				52167
-			}
-		},
+	[42347] = {
+		id = 42347,
+		damage = "12 x 3",
+		base = 42340,
 		weapon_id = {
-			39067
+			42347
 		}
 	},
-	[39068] = {
-		id = 39068,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				5,
-				52248
-			},
-			{
-				5,
-				52168
-			}
-		},
+	[42348] = {
+		id = 42348,
+		damage = "13 x 3",
+		base = 42340,
 		weapon_id = {
-			39068
+			42348
 		}
 	},
-	[39069] = {
-		id = 39069,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				5,
-				52249
-			},
-			{
-				5,
-				52169
-			}
-		},
+	[42349] = {
+		id = 42349,
+		damage = "14 x 3",
+		base = 42340,
 		weapon_id = {
-			39069
+			42349
 		}
 	},
-	[39070] = {
-		id = 39070,
-		base = 39060,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				5,
-				52250
-			},
-			{
-				5,
-				52170
-			}
-		},
+	[42350] = {
+		id = 42350,
+		damage = "15 x 3",
+		base = 42340,
 		weapon_id = {
-			39070
-		}
-	},
-	[39071] = {
-		anti_siren = 100,
-		base = 39060,
-		id = 39071,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				5,
-				52251
-			},
-			{
-				5,
-				52171
-			}
-		},
-		weapon_id = {
-			39071
-		}
-	},
-	[39100] = {
-		name = "彗星",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
-		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "39100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				5,
-				52600
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
+			42350
 		}
 	}
 }

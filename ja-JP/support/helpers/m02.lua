@@ -173,12 +173,11 @@ function LoadAnyAsync(slot0, slot1, slot2, slot3)
 end
 
 function LoadImageSpriteAtlasAsync(slot0, slot1, slot2, slot3)
-	slot0, slot5 = HXSet.autoHxShiftPath(slot0, slot1)
 	slot4 = slot2:GetComponent(typeof(Image))
 	slot4.enabled = false
 	uv0[slot4] = slot0
 
-	LoadSpriteAtlasAsync(slot0, slot5, function (slot0)
+	LoadSpriteAtlasAsync(slot0, slot1, function (slot0)
 		if not IsNil(uv0) and uv1[uv0] == uv2 then
 			uv1[uv0] = nil
 			uv0.enabled = true

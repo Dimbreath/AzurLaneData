@@ -1,293 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_320 = {
-	[46066] = {
-		id = 46066,
-		damage = "64/回",
-		base = 46060,
+	[60043] = {
+		id = 60043,
+		base = 60041,
 		weapon_id = {
-			46066
+			60043
 		}
 	},
-	[46067] = {
-		id = 46067,
-		damage = "70/回",
-		base = 46060,
-		weapon_id = {
-			46067
-		}
-	},
-	[46068] = {
-		id = 46068,
-		damage = "76/回",
-		base = 46060,
-		weapon_id = {
-			46068
-		}
-	},
-	[46069] = {
-		id = 46069,
-		damage = "82/回",
-		base = 46060,
-		weapon_id = {
-			46069
-		}
-	},
-	[46070] = {
-		id = 46070,
-		damage = "89/回",
-		base = 46060,
-		weapon_id = {
-			46070
-		}
-	},
-	[46071] = {
-		anti_siren = 100,
-		damage = "89/回",
-		base = 46060,
-		id = 46071,
-		weapon_id = {
-			46071
-		}
-	},
-	[46100] = {
-		name = "37mm機銃",
-		speciality = "対空",
-		type = 6,
+	[60051] = {
+		name = "0",
 		tech = 1,
+		speciality = "なし",
+		type = 99,
 		rarity = 1,
-		descrip = "対空火器・37mm機銃",
 		value_2 = 0,
-		icon = "46100",
-		damage = "8/回",
-		nationality = 4,
-		ammo = 5,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 46100,
+		id = 60051,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			46100
+			60051
 		},
 		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
+		label = {}
 	},
-	[46101] = {
-		id = 46101,
-		damage = "9/回",
-		base = 46100,
+	[60052] = {
+		id = 60052,
+		base = 60051,
 		weapon_id = {
-			46101
+			60052
 		}
 	},
-	[46102] = {
-		id = 46102,
-		damage = "10/回",
-		base = 46100,
+	[60053] = {
+		id = 60053,
+		base = 60051,
 		weapon_id = {
-			46102
+			60053
 		}
 	},
-	[46103] = {
-		id = 46103,
-		damage = "12/回",
-		base = 46100,
-		weapon_id = {
-			46103
-		}
-	},
-	[46120] = {
-		name = "37mm機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "対空火器・37mm機銃",
-		value_2 = 5,
-		icon = "46100",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "11/回",
-		nationality = 4,
-		ammo = 5,
+	[60061] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 46120,
+		id = 60061,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			46120
+			60061
 		},
 		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
+		label = {}
 	},
-	[46121] = {
-		id = 46121,
-		damage = "12/回",
-		base = 46120,
+	[60062] = {
+		id = 60062,
+		base = 60061,
 		weapon_id = {
-			46121
+			60062
 		}
 	},
-	[46122] = {
-		id = 46122,
-		damage = "14/回",
-		base = 46120,
+	[60063] = {
+		id = 60063,
+		base = 60061,
 		weapon_id = {
-			46122
+			60063
 		}
 	},
-	[46123] = {
-		id = 46123,
-		damage = "16/回",
-		base = 46120,
-		weapon_id = {
-			46123
-		}
-	},
-	[46140] = {
-		name = "37mm機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "対空火器・37mm機銃",
-		value_2 = 12,
-		icon = "46100",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "12/回",
-		nationality = 4,
-		ammo = 5,
+	[60071] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 46140,
+		id = 60071,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			46140
+			60071
 		},
 		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
+		label = {}
+	},
+	[60072] = {
+		id = 60072,
+		base = 60071,
+		weapon_id = {
+			60072
 		}
 	},
-	[46141] = {
-		id = 46141,
-		damage = "14/回",
-		base = 46140,
+	[60073] = {
+		id = 60073,
+		base = 60071,
 		weapon_id = {
-			46141
+			60073
+		}
+	},
+	[60081] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60081
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60082] = {
+		id = 60082,
+		base = 60081,
+		weapon_id = {
+			60082
+		}
+	},
+	[60083] = {
+		id = 60083,
+		base = 60081,
+		weapon_id = {
+			60083
+		}
+	},
+	[60091] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60091,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60091
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60092] = {
+		id = 60092,
+		base = 60091,
+		weapon_id = {
+			60092
+		}
+	},
+	[60101] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60101,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60101
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60102] = {
+		id = 60102,
+		base = 60101,
+		weapon_id = {
+			60102
 		}
 	}
 }

@@ -1,191 +1,190 @@
 pg = pg or {}
 pg.equip_data_statistics_292 = {
-	[41122] = {
-		id = 41122,
-		damage = "5 x 4",
-		base = 41120,
+	[44211] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44211,
 		weapon_id = {
-			41122
+			44211
 		}
 	},
-	[41123] = {
-		id = 41123,
-		damage = "6 x 4",
-		base = 41120,
+	[44212] = {
+		anti_siren = 200,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44212,
 		weapon_id = {
-			41123
+			44212
 		}
 	},
-	[41124] = {
-		id = 41124,
-		damage = "6 x 4",
-		base = 41120,
+	[44213] = {
+		anti_siren = 300,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44213,
 		weapon_id = {
-			41124
+			44213
 		}
 	},
-	[41125] = {
-		id = 41125,
-		damage = "7 x 4",
-		base = 41120,
-		weapon_id = {
-			41125
-		}
-	},
-	[41126] = {
-		id = 41126,
-		damage = "8 x 4",
-		base = 41120,
-		weapon_id = {
-			41126
-		}
-	},
-	[41140] = {
-		name = "128mmSKC41連装両用砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 3,
-		value_2 = 15,
-		icon = "41100",
+	[44300] = {
+		name = "試作型305mmSKC39三連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "44300",
 		attribute_2 = "cannon",
-		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
-		rarity = 4,
-		damage = "5 x 4",
+		rarity = 5,
+		damage = "57 x 3",
 		nationality = 4,
-		ammo = 1,
-		value_3 = 10,
-		id = 41140,
+		ammo = 2,
+		value_3 = 0,
+		id = 44300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		ammo_info = {
 			{
-				1,
-				1303
+				2,
+				1590
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1001
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			41140
+			44300
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"DD",
+			"BB",
 			"MG",
-			"AP"
+			"HE"
 		}
 	},
-	[41141] = {
-		id = 41141,
-		damage = "6 x 4",
-		base = 41140,
+	[44301] = {
+		id = 44301,
+		damage = "63 x 3",
+		base = 44300,
 		weapon_id = {
-			41141
+			44301
 		}
 	},
-	[41142] = {
-		id = 41142,
-		damage = "6 x 4",
-		base = 41140,
+	[44302] = {
+		id = 44302,
+		damage = "67 x 3",
+		base = 44300,
 		weapon_id = {
-			41142
+			44302
 		}
 	},
-	[41143] = {
-		id = 41143,
-		damage = "7 x 4",
-		base = 41140,
+	[44303] = {
+		id = 44303,
+		damage = "73 x 3",
+		base = 44300,
 		weapon_id = {
-			41143
+			44303
 		}
 	},
-	[41144] = {
-		id = 41144,
-		damage = "7 x 4",
-		base = 41140,
+	[44304] = {
+		id = 44304,
+		damage = "77 x 3",
+		base = 44300,
 		weapon_id = {
-			41144
+			44304
 		}
 	},
-	[41145] = {
-		id = 41145,
-		damage = "8 x 4",
-		base = 41140,
+	[44305] = {
+		id = 44305,
+		damage = "81 x 3",
+		base = 44300,
 		weapon_id = {
-			41145
+			44305
 		}
 	},
-	[41146] = {
-		id = 41146,
-		damage = "8 x 4",
-		base = 41140,
+	[44306] = {
+		id = 44306,
+		damage = "87 x 3",
+		base = 44300,
 		weapon_id = {
-			41146
+			44306
 		}
 	},
-	[41147] = {
-		id = 41147,
-		damage = "9 x 4",
-		base = 41140,
+	[44307] = {
+		id = 44307,
+		damage = "91 x 3",
+		base = 44300,
 		weapon_id = {
-			41147
+			44307
 		}
 	},
-	[41148] = {
-		id = 41148,
-		damage = "9 x 4",
-		base = 41140,
+	[44308] = {
+		id = 44308,
+		damage = "97 x 3",
+		base = 44300,
 		weapon_id = {
-			41148
+			44308
 		}
 	},
-	[41149] = {
-		id = 41149,
-		damage = "10 x 4",
-		base = 41140,
+	[44309] = {
+		id = 44309,
+		damage = "101 x 3",
+		base = 44300,
 		weapon_id = {
-			41149
+			44309
 		}
 	},
-	[41150] = {
-		id = 41150,
-		damage = "11 x 4",
-		base = 41140,
+	[44310] = {
+		id = 44310,
+		damage = "105 x 3",
+		base = 44300,
 		weapon_id = {
-			41150
+			44310
+		}
+	},
+	[44311] = {
+		anti_siren = 100,
+		damage = "105 x 3",
+		base = 44300,
+		id = 44311,
+		weapon_id = {
+			44311
+		}
+	},
+	[44312] = {
+		anti_siren = 200,
+		damage = "105 x 3",
+		base = 44300,
+		id = 44312,
+		weapon_id = {
+			44312
+		}
+	},
+	[44313] = {
+		anti_siren = 300,
+		damage = "105 x 3",
+		base = 44300,
+		id = 44313,
+		weapon_id = {
+			44313
 		}
 	}
 }

@@ -1,178 +1,301 @@
 pg = pg or {}
 pg.equip_data_statistics_240 = {
-	[34145] = {
-		id = 34145,
-		damage = "106 x 2",
-		base = 34140,
+	[36146] = {
+		id = 36146,
+		damage = "21/回",
+		base = 36140,
 		weapon_id = {
-			34145
+			36146
 		}
 	},
-	[34146] = {
-		id = 34146,
-		damage = "116 x 2",
-		base = 34140,
+	[36147] = {
+		id = 36147,
+		damage = "21/回",
+		base = 36140,
 		weapon_id = {
-			34146
+			36147
 		}
 	},
-	[34147] = {
-		id = 34147,
-		damage = "124 x 2",
-		base = 34140,
-		weapon_id = {
-			34147
-		}
-	},
-	[34148] = {
-		id = 34148,
-		damage = "134 x 2",
-		base = 34140,
-		weapon_id = {
-			34148
-		}
-	},
-	[34149] = {
-		id = 34149,
-		damage = "144 x 2",
-		base = 34140,
-		weapon_id = {
-			34149
-		}
-	},
-	[34150] = {
-		id = 34150,
-		damage = "154 x 2",
-		base = 34140,
-		weapon_id = {
-			34150
-		}
-	},
-	[34151] = {
-		anti_siren = 100,
-		damage = "154 x 2",
-		base = 34140,
-		id = 34151,
-		weapon_id = {
-			34151
-		}
-	},
-	[34160] = {
-		name = "410mm連装砲(三式弾)",
-		speciality = "散射",
-		type = 4,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 25,
-		icon = "34100",
-		attribute_2 = "cannon",
-		descrip = "三式弾を装備した410mm連装砲。対空攻撃のほか、断片で敵艦を炎上させることも可能",
-		rarity = 5,
-		damage = "12 x 10 x 2",
+	[36200] = {
+		name = "25mm連装対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "36200",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "13/回",
 		nationality = 3,
-		ammo = 6,
-		value_3 = 25,
-		id = 34160,
+		ammo = 5,
+		value_3 = 0,
+		id = 36200,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1540
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			34160
+			36200
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"BB",
-			"MG",
-			"HE"
+			"ST",
+			"AA"
 		}
 	},
-	[34161] = {
-		id = 34161,
-		damage = "13 x 10 x 2",
-		base = 34160,
+	[36201] = {
+		id = 36201,
+		damage = "15/回",
+		base = 36200,
 		weapon_id = {
-			34161
+			36201
 		}
 	},
-	[34162] = {
-		id = 34162,
-		damage = "14 x 10 x 2",
-		base = 34160,
+	[36202] = {
+		id = 36202,
+		damage = "17/回",
+		base = 36200,
 		weapon_id = {
-			34162
+			36202
 		}
 	},
-	[34163] = {
-		id = 34163,
-		damage = "15 x 10 x 2",
-		base = 34160,
+	[36203] = {
+		id = 36203,
+		damage = "19/回",
+		base = 36200,
 		weapon_id = {
-			34163
+			36203
 		}
 	},
-	[34164] = {
-		id = 34164,
-		damage = "16 x 10 x 2",
-		base = 34160,
+	[36220] = {
+		name = "25mm連装対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "36200",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "14/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			34164
+			36220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
 		}
 	},
-	[34165] = {
-		id = 34165,
-		damage = "17 x 10 x 2",
-		base = 34160,
+	[36221] = {
+		id = 36221,
+		damage = "16/回",
+		base = 36220,
 		weapon_id = {
-			34165
+			36221
 		}
 	},
-	[34166] = {
-		id = 34166,
-		damage = "18 x 10 x 2",
-		base = 34160,
+	[36222] = {
+		id = 36222,
+		damage = "18/回",
+		base = 36220,
 		weapon_id = {
-			34166
+			36222
 		}
 	},
-	[34167] = {
-		id = 34167,
-		damage = "19 x 10 x 2",
-		base = 34160,
+	[36223] = {
+		id = 36223,
+		damage = "20/回",
+		base = 36220,
 		weapon_id = {
-			34167
+			36223
 		}
 	},
-	[34168] = {
-		id = 34168,
-		damage = "20 x 10 x 2",
-		base = 34160,
+	[36224] = {
+		id = 36224,
+		damage = "22/回",
+		base = 36220,
 		weapon_id = {
-			34168
+			36224
+		}
+	},
+	[36225] = {
+		id = 36225,
+		damage = "25/回",
+		base = 36220,
+		weapon_id = {
+			36225
+		}
+	},
+	[36226] = {
+		id = 36226,
+		damage = "28/回",
+		base = 36220,
+		weapon_id = {
+			36226
+		}
+	},
+	[36240] = {
+		name = "25mm連装対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "36200",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "16/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36241] = {
+		id = 36241,
+		damage = "18/回",
+		base = 36240,
+		weapon_id = {
+			36241
+		}
+	},
+	[36242] = {
+		id = 36242,
+		damage = "20/回",
+		base = 36240,
+		weapon_id = {
+			36242
+		}
+	},
+	[36243] = {
+		id = 36243,
+		damage = "22/回",
+		base = 36240,
+		weapon_id = {
+			36243
 		}
 	}
 }

@@ -1,130 +1,187 @@
 pg = pg or {}
 pg.equip_data_statistics_385 = {
-	[89123] = {
-		id = 89123,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89120
+	[90901] = {
+		id = 90901,
+		damage = "33 x 4",
+		base = 90900,
+		weapon_id = {
+			90901
+		}
 	},
-	[89124] = {
-		id = 89124,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89120
+	[90902] = {
+		id = 90902,
+		damage = "35 x 4",
+		base = 90900,
+		weapon_id = {
+			90902
+		}
 	},
-	[89125] = {
-		id = 89125,
-		value_2 = 5,
-		value_1 = "171",
-		base = 89120
+	[90903] = {
+		id = 90903,
+		damage = "37 x 4",
+		base = 90900,
+		weapon_id = {
+			90903
+		}
 	},
-	[89126] = {
-		id = 89126,
-		value_2 = 6,
-		value_1 = "186",
-		base = 89120
+	[90904] = {
+		id = 90904,
+		damage = "39 x 4",
+		base = 90900,
+		weapon_id = {
+			90904
+		}
 	},
-	[89127] = {
-		id = 89127,
-		value_2 = 6,
-		value_1 = "200",
-		base = 89120
+	[90905] = {
+		id = 90905,
+		damage = "41 x 4",
+		base = 90900,
+		weapon_id = {
+			90905
+		}
 	},
-	[89128] = {
-		id = 89128,
-		value_2 = 7,
-		value_1 = "215",
-		base = 89120
+	[90906] = {
+		id = 90906,
+		damage = "43 x 4",
+		base = 90900,
+		weapon_id = {
+			90906
+		}
 	},
-	[89129] = {
-		id = 89129,
-		value_2 = 7,
-		value_1 = "230",
-		base = 89120
+	[90907] = {
+		id = 90907,
+		damage = "45 x 4",
+		base = 90900,
+		weapon_id = {
+			90907
+		}
 	},
-	[89130] = {
-		id = 89130,
-		value_2 = 8,
-		value_1 = "245",
-		base = 89120
+	[90908] = {
+		id = 90908,
+		damage = "47 x 4",
+		base = 90900,
+		weapon_id = {
+			90908
+		}
 	},
-	[89131] = {
-		id = 89131,
+	[90909] = {
+		id = 90909,
+		damage = "49 x 4",
+		base = 90900,
+		weapon_id = {
+			90909
+		}
+	},
+	[90910] = {
+		id = 90910,
+		damage = "52 x 4",
+		base = 90900,
+		weapon_id = {
+			90910
+		}
+	},
+	[90911] = {
 		anti_siren = 100,
-		base = 89120,
-		value_2 = 8,
-		value_1 = "260"
+		damage = "52 x 4",
+		base = 90900,
+		id = 90911,
+		weapon_id = {
+			90911
+		}
 	},
-	[89132] = {
-		id = 89132,
+	[90912] = {
 		anti_siren = 200,
-		base = 89120,
-		value_2 = 8,
-		value_1 = "275"
+		damage = "52 x 4",
+		base = 90900,
+		id = 90912,
+		weapon_id = {
+			90912
+		}
 	},
-	[89133] = {
-		id = 89133,
+	[90913] = {
 		anti_siren = 300,
-		base = 89120,
-		value_2 = 8,
-		value_1 = "290"
+		damage = "52 x 4",
+		base = 90900,
+		id = 90913,
+		weapon_id = {
+			90913
+		}
 	},
-	[89140] = {
-		name = "熱愛のフィリンエッター",
+	[91000] = {
+		name = "試作型406mm/50三連装砲",
+		speciality = "投射",
+		type = 4,
 		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89140,
-		value_2 = 15,
-		icon = "89140",
-		value_1 = "14",
-		attribute_2 = "hit",
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "51000",
+		attribute_2 = "cannon",
 		rarity = 5,
-		descrip = "「私の歌は指揮官様、あなただけのため――」",
-		nationality = 0,
-		ammo = 10,
+		damage = "54 x 3",
+		nationality = 8,
+		ammo = 1,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		id = 91000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1580
+			}
+		},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
 		},
-		weapon_id = {},
-		skill_id = {
-			6710
+		weapon_id = {
+			91000
 		},
-		part_main = {},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[89141] = {
-		id = 89141,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89140
+	[91001] = {
+		id = 91001,
+		damage = "64 x 3",
+		base = 91000,
+		weapon_id = {
+			91001
+		}
 	},
-	[89142] = {
-		id = 89142,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89140
+	[91002] = {
+		id = 91002,
+		damage = "72 x 3",
+		base = 91000,
+		weapon_id = {
+			91002
+		}
 	},
-	[89143] = {
-		id = 89143,
-		value_2 = 18,
-		value_1 = "20",
-		base = 89140
-	},
-	[89144] = {
-		id = 89144,
-		value_2 = 19,
-		value_1 = "22",
-		base = 89140
+	[91003] = {
+		id = 91003,
+		damage = "82 x 3",
+		base = 91000,
+		weapon_id = {
+			91003
+		}
 	}
 }

@@ -1,129 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_54 = {
-	[2940] = {
-		name = "従来型ソナー",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2940,
-		value_2 = 4,
-		icon = "2900",
-		value_1 = "5",
-		attribute_2 = "hit",
-		rarity = 4,
-		descrip = "0",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antisub",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6620
-		},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {
-			range = 5
-		},
-		label = {
-			"DEV"
-		}
+	[3109] = {
+		id = 3109,
+		value_1 = "42",
+		base = 3100
 	},
-	[2941] = {
-		id = 2941,
-		value_1 = "6",
-		base = 2940
+	[3110] = {
+		id = 3110,
+		value_1 = "45",
+		base = 3100
 	},
-	[2942] = {
-		id = 2942,
-		value_2 = 5,
-		value_1 = "7",
-		base = 2940
-	},
-	[2943] = {
-		id = 2943,
-		value_2 = 5,
-		value_1 = "8",
-		base = 2940
-	},
-	[2944] = {
-		id = 2944,
-		value_2 = 6,
-		value_1 = "9",
-		base = 2940
-	},
-	[2945] = {
-		id = 2945,
-		value_2 = 6,
-		value_1 = "10",
-		base = 2940
-	},
-	[2946] = {
-		id = 2946,
-		value_2 = 7,
-		value_1 = "11",
-		base = 2940
-	},
-	[2947] = {
-		id = 2947,
-		value_2 = 7,
-		value_1 = "12",
-		base = 2940
-	},
-	[2948] = {
-		id = 2948,
-		value_2 = 8,
-		value_1 = "14",
-		base = 2940
-	},
-	[2949] = {
-		id = 2949,
-		value_2 = 8,
-		value_1 = "16",
-		base = 2940
-	},
-	[2950] = {
-		id = 2950,
-		value_2 = 9,
-		value_1 = "18",
-		base = 2940
-	},
-	[2951] = {
-		id = 2951,
-		anti_siren = 100,
-		base = 2940,
+	[3111] = {
 		value_2 = 10,
-		value_1 = "20"
+		anti_siren = 100,
+		base = 3100,
+		id = 3111,
+		value_1 = "45",
+		attribute_2 = "hit"
 	},
-	[3000] = {
-		name = "改良型ソナー",
-		tech = 1,
+	[3120] = {
+		name = "改良型シュノーケル",
+		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 3000,
-		value_2 = 3,
-		icon = "3000",
-		value_1 = "4",
-		attribute_2 = "hit",
-		rarity = 3,
-		descrip = "0",
-		nationality = 0,
+		attribute_1 = "oxy_max",
+		value_2 = 0,
+		icon = "3120",
+		value_1 = "34",
+		descrip = "潜望鏡深度でも空気交換を可能とする装置 ",
+		rarity = 5,
+		nationality = 4,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antisub",
+		id = 3120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -134,36 +43,91 @@ pg.equip_data_statistics_54 = {
 		weapon_id = {},
 		skill_id = {},
 		part_main = {
-			1,
-			2
+			8,
+			17
 		},
 		part_sub = {
-			1,
-			2
+			8,
+			17
 		},
-		equip_parameters = {
-			range = 5
-		},
+		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},
-	[3001] = {
-		id = 3001,
-		value_2 = 4,
-		value_1 = "5",
-		base = 3000
+	[3121] = {
+		id = 3121,
+		value_1 = "39",
+		base = 3120
 	},
-	[3002] = {
-		id = 3002,
-		value_2 = 4,
-		value_1 = "6",
-		base = 3000
+	[3122] = {
+		id = 3122,
+		value_1 = "44",
+		base = 3120
 	},
-	[3003] = {
-		id = 3003,
-		value_2 = 5,
-		value_1 = "7",
-		base = 3000
+	[3123] = {
+		id = 3123,
+		value_1 = "49",
+		base = 3120
+	},
+	[3124] = {
+		id = 3124,
+		value_1 = "54",
+		base = 3120
+	},
+	[3125] = {
+		id = 3125,
+		value_1 = "59",
+		base = 3120
+	},
+	[3126] = {
+		id = 3126,
+		value_1 = "64",
+		base = 3120
+	},
+	[3127] = {
+		id = 3127,
+		value_1 = "69",
+		base = 3120
+	},
+	[3128] = {
+		id = 3128,
+		value_1 = "74",
+		base = 3120
+	},
+	[3129] = {
+		id = 3129,
+		value_1 = "79",
+		base = 3120
+	},
+	[3130] = {
+		id = 3130,
+		value_1 = "85",
+		base = 3120
+	},
+	[3131] = {
+		value_2 = 10,
+		anti_siren = 100,
+		base = 3120,
+		id = 3131,
+		value_1 = "85",
+		attribute_2 = "hit"
+	},
+	[3132] = {
+		value_2 = 24,
+		anti_siren = 200,
+		base = 3120,
+		id = 3132,
+		value_1 = "85",
+		attribute_2 = "hit"
+	},
+	[3133] = {
+		value_2 = 35,
+		anti_siren = 300,
+		base = 3120,
+		id = 3133,
+		value_1 = "85",
+		attribute_2 = "hit"
 	}
 }

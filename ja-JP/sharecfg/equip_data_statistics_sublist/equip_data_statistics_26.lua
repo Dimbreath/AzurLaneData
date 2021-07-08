@@ -1,63 +1,51 @@
 pg = pg or {}
 pg.equip_data_statistics_26 = {
-	[1046] = {
-		id = 1046,
-		value_1 = "380",
-		base = 1040
+	[1146] = {
+		id = 1146,
+		value_1 = "53",
+		base = 1140
 	},
-	[1047] = {
-		id = 1047,
-		value_1 = "410",
-		base = 1040
+	[1147] = {
+		id = 1147,
+		value_1 = "57",
+		base = 1140
 	},
-	[1048] = {
-		id = 1048,
-		value_1 = "440",
-		base = 1040
+	[1148] = {
+		id = 1148,
+		value_1 = "61",
+		base = 1140
 	},
-	[1049] = {
-		id = 1049,
-		value_1 = "470",
-		base = 1040
+	[1149] = {
+		id = 1149,
+		value_1 = "65",
+		base = 1140
 	},
-	[1050] = {
-		id = 1050,
-		value_1 = "500",
-		base = 1040
+	[1150] = {
+		id = 1150,
+		value_1 = "70",
+		base = 1140
 	},
-	[1051] = {
-		id = 1051,
+	[1151] = {
+		id = 1151,
 		anti_siren = 100,
-		value_1 = "530",
-		base = 1040
+		value_1 = "75",
+		base = 1140
 	},
-	[1052] = {
-		id = 1052,
-		anti_siren = 200,
-		value_1 = "560",
-		base = 1040
-	},
-	[1053] = {
-		id = 1053,
-		anti_siren = 300,
-		value_1 = "590",
-		base = 1040
-	},
-	[1100] = {
-		name = "対空レーダー",
-		tech = 1,
+	[1160] = {
+		name = "高性能対空レーダー",
+		tech = 0,
 		type = 10,
 		speciality = "なし",
 		attribute_1 = "antiaircraft",
 		value_2 = 0,
-		icon = "1100",
-		value_1 = "10",
+		icon = "1160",
+		value_1 = "40",
 		descrip = "対空電探（レーダー）。対空を上げることができる",
-		rarity = 2,
-		nationality = 1,
+		rarity = 5,
+		nationality = 2,
 		ammo = 10,
 		value_3 = 0,
-		id = 1100,
+		id = 1160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -66,75 +54,67 @@ pg.equip_data_statistics_26 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1101] = {
-		id = 1101,
-		value_1 = "11",
-		base = 1100
-	},
-	[1102] = {
-		id = 1102,
-		value_1 = "13",
-		base = 1100
-	},
-	[1103] = {
-		id = 1103,
-		value_1 = "14",
-		base = 1100
-	},
-	[1120] = {
-		name = "対空レーダー",
-		tech = 2,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1100",
-		value_1 = "18",
-		descrip = "対空電探（レーダー）。対空を上げることができる",
-		rarity = 3,
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		id = 1120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
+		skill_id = {
+			6280
 		},
-		weapon_id = {},
-		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {},
+		equip_parameters = {
+			ambush_extra = 1200
+		},
 		label = {
-			"USS",
+			"HMS",
 			"DEV"
 		}
 	},
-	[1121] = {
-		id = 1121,
-		value_1 = "20",
-		base = 1120
+	[1161] = {
+		id = 1161,
+		value_1 = "46",
+		base = 1160
 	},
-	[1122] = {
-		id = 1122,
-		value_1 = "23",
-		base = 1120
+	[1162] = {
+		id = 1162,
+		value_1 = "52",
+		base = 1160
 	},
-	[1123] = {
-		id = 1123,
-		value_1 = "26",
-		base = 1120
+	[1163] = {
+		id = 1163,
+		value_1 = "58",
+		base = 1160
+	},
+	[1164] = {
+		id = 1164,
+		value_1 = "64",
+		base = 1160
+	},
+	[1165] = {
+		id = 1165,
+		value_1 = "70",
+		base = 1160
+	},
+	[1166] = {
+		id = 1166,
+		value_1 = "76",
+		base = 1160
+	},
+	[1167] = {
+		id = 1167,
+		value_1 = "82",
+		base = 1160
+	},
+	[1168] = {
+		id = 1168,
+		value_1 = "88",
+		base = 1160
+	},
+	[1169] = {
+		id = 1169,
+		value_1 = "94",
+		base = 1160
+	},
+	[1170] = {
+		id = 1170,
+		value_1 = "100",
+		base = 1160
 	}
 }

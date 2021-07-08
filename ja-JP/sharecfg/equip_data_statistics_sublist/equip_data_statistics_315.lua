@@ -1,287 +1,362 @@
 pg = pg or {}
 pg.equip_data_statistics_315 = {
-	[45251] = {
-		anti_siren = 100,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45251,
-		weapon_id = {
-			45251
-		}
-	},
-	[45252] = {
-		anti_siren = 200,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45252,
-		weapon_id = {
-			45252
-		}
-	},
-	[45253] = {
-		anti_siren = 300,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45253,
-		weapon_id = {
-			45253
-		}
-	},
-	[45300] = {
-		name = "潜水艦用G7a魚雷",
+	[48000] = {
+		name = "Ar-195",
+		type = 8,
 		speciality = "雷撃",
-		type = 13,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "45300",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "46 x 2",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 45300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45300
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45301] = {
-		id = 45301,
-		damage = "52 x 2",
-		base = 45300,
-		weapon_id = {
-			45301
-		}
-	},
-	[45302] = {
-		id = 45302,
-		damage = "59 x 2",
-		base = 45300,
-		weapon_id = {
-			45302
-		}
-	},
-	[45303] = {
-		id = 45303,
-		damage = "66 x 2",
-		base = 45300,
-		weapon_id = {
-			45303
-		}
-	},
-	[45320] = {
-		name = "潜水艦用G7a魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 2,
+		rarity = 3,
+		tech = 0,
 		descrip = "0",
 		value_2 = 12,
-		icon = "45300",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "52 x 2",
+		icon = "48000",
+		attribute_2 = "air",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 45320,
+		id = 48000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
+				6,
+				59760
 			},
 			{
 				4,
-				1601
-			},
+				59660
+			}
+		},
+		equip_info = {
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			45320
+			48000
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			6,
+			7
 		},
 		part_sub = {
-			8,
-			17
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"SS",
-			"TP"
+			"CV",
+			"TB"
 		}
 	},
-	[45321] = {
-		id = 45321,
-		damage = "59 x 2",
-		base = 45320,
+	[48001] = {
+		id = 48001,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59661
+			}
+		},
 		weapon_id = {
-			45321
+			48001
 		}
 	},
-	[45322] = {
-		id = 45322,
-		damage = "66 x 2",
-		base = 45320,
+	[48002] = {
+		id = 48002,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				4,
+				59662
+			}
+		},
 		weapon_id = {
-			45322
+			48002
 		}
 	},
-	[45323] = {
-		id = 45323,
-		damage = "74 x 2",
-		base = 45320,
+	[48003] = {
+		id = 48003,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				4,
+				59663
+			}
+		},
 		weapon_id = {
-			45323
+			48003
 		}
 	},
-	[45324] = {
-		id = 45324,
-		damage = "82 x 2",
-		base = 45320,
+	[48004] = {
+		id = 48004,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				4,
+				59664
+			}
+		},
 		weapon_id = {
-			45324
+			48004
 		}
 	},
-	[45325] = {
-		id = 45325,
-		damage = "90 x 2",
-		base = 45320,
+	[48005] = {
+		id = 48005,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				4,
+				59665
+			}
+		},
 		weapon_id = {
-			45325
+			48005
 		}
 	},
-	[45326] = {
-		id = 45326,
-		damage = "98 x 2",
-		base = 45320,
+	[48006] = {
+		id = 48006,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				4,
+				59666
+			}
+		},
 		weapon_id = {
-			45326
+			48006
 		}
 	},
-	[45340] = {
-		name = "潜水艦用G7a魚雷",
+	[48007] = {
+		id = 48007,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				4,
+				59667
+			}
+		},
+		weapon_id = {
+			48007
+		}
+	},
+	[48020] = {
+		name = "Fi-167",
+		type = 8,
 		speciality = "雷撃",
-		type = 13,
-		tech = 3,
+		rarity = 4,
+		tech = 0,
 		descrip = "0",
 		value_2 = 25,
-		icon = "45300",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "58 x 2",
+		icon = "48020",
+		attribute_2 = "air",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 45340,
+		id = 48020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
+				6,
+				59760
 			},
 			{
 				4,
-				1601
-			},
+				59680
+			}
+		},
+		equip_info = {
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			45340
+			48020
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			6,
+			7
 		},
 		part_sub = {
-			8,
-			17
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"SS",
-			"TP"
+			"CV",
+			"TB"
 		}
 	},
-	[45341] = {
-		id = 45341,
-		damage = "66 x 2",
-		base = 45340,
+	[48021] = {
+		id = 48021,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59681
+			}
+		},
 		weapon_id = {
-			45341
+			48021
+		}
+	},
+	[48022] = {
+		id = 48022,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				4,
+				59682
+			}
+		},
+		weapon_id = {
+			48022
+		}
+	},
+	[48023] = {
+		id = 48023,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				4,
+				59683
+			}
+		},
+		weapon_id = {
+			48023
+		}
+	},
+	[48024] = {
+		id = 48024,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				4,
+				59684
+			}
+		},
+		weapon_id = {
+			48024
+		}
+	},
+	[48025] = {
+		id = 48025,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				4,
+				59685
+			}
+		},
+		weapon_id = {
+			48025
+		}
+	},
+	[48026] = {
+		id = 48026,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				4,
+				59686
+			}
+		},
+		weapon_id = {
+			48026
+		}
+	},
+	[48027] = {
+		id = 48027,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				4,
+				59687
+			}
+		},
+		weapon_id = {
+			48027
+		}
+	},
+	[48028] = {
+		id = 48028,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59768
+			},
+			{
+				4,
+				59688
+			}
+		},
+		weapon_id = {
+			48028
 		}
 	}
 }

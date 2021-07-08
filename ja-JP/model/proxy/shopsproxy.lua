@@ -29,7 +29,7 @@ function slot0.register(slot0)
 		slot1 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 
 		uv0.shamShop:update(slot1.month, slot0.core_shop_list)
-		uv0.fragmentShop:update(slot1.month, slot0.blue_shop_list)
+		uv0.fragmentShop:update(slot1.month, slot0.blue_shop_list, slot0.normal_shop_list)
 	end)
 
 	slot0.timers = {}

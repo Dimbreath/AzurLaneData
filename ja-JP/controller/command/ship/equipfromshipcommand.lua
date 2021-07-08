@@ -54,16 +54,12 @@ function slot0.execute(slot0, slot1)
 					if slot0.result == 0 then
 						if uv0:getEquip(uv1) then
 							if slot1:hasSkin() then
-								if _.any(pg.equip_skin_template[slot1.skinId].equip_type, function (slot0)
+								if not _.any(pg.equip_skin_template[slot1.skinId].equip_type, function (slot0)
 									return uv0.config.type == slot0
 								end) then
-									uv2.skinId = slot1.skinId
-								else
 									uv3:addEquipmentSkin(slot1.skinId, 1)
 									pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unmatch_equipment"))
 								end
-
-								slot1.skinId = 0
 							end
 
 							uv3:addEquipment(slot1)
@@ -87,19 +83,9 @@ function slot0.execute(slot0, slot1)
 				pos = uv3
 			}, 12007, function (slot0)
 				if slot0.result == 0 then
-					slot1 = getProxy(EquipmentProxy)
-
-					if uv0:getEquip(uv1) and slot2:hasSkin() then
-						slot1:addEquipmentSkin(slot2.skinId, 1)
-
-						slot2.skinId = 0
-
-						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
-					end
-
 					uv0:updateEquip(uv1, nil)
 					uv2:updateShip(uv0)
-					slot1:addEquipment(slot2)
+					getProxy(EquipmentProxy):addEquipment(uv0:getEquip(uv1))
 					uv3(uv4, uv5, uv6, uv7)
 				else
 					pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))

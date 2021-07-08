@@ -1,242 +1,217 @@
 pg = pg or {}
 pg.equip_data_statistics_309 = {
-	[44306] = {
-		id = 44306,
-		damage = "87 x 3",
-		base = 44300,
+	[46361] = {
+		id = 46361,
+		damage = "62/回",
+		base = 46360,
 		weapon_id = {
-			44306
+			46361
 		}
 	},
-	[44307] = {
-		id = 44307,
-		damage = "91 x 3",
-		base = 44300,
+	[46362] = {
+		id = 46362,
+		damage = "69/回",
+		base = 46360,
 		weapon_id = {
-			44307
+			46362
 		}
 	},
-	[44308] = {
-		id = 44308,
-		damage = "97 x 3",
-		base = 44300,
+	[46363] = {
+		id = 46363,
+		damage = "76/回",
+		base = 46360,
 		weapon_id = {
-			44308
+			46363
 		}
 	},
-	[44309] = {
-		id = 44309,
-		damage = "101 x 3",
-		base = 44300,
+	[46364] = {
+		id = 46364,
+		damage = "83/回",
+		base = 46360,
 		weapon_id = {
-			44309
+			46364
 		}
 	},
-	[44310] = {
-		id = 44310,
-		damage = "105 x 3",
-		base = 44300,
+	[46365] = {
+		id = 46365,
+		damage = "90/回",
+		base = 46360,
 		weapon_id = {
-			44310
+			46365
 		}
 	},
-	[44311] = {
+	[46366] = {
+		id = 46366,
+		damage = "97/回",
+		base = 46360,
+		weapon_id = {
+			46366
+		}
+	},
+	[46367] = {
+		id = 46367,
+		damage = "104/回",
+		base = 46360,
+		weapon_id = {
+			46367
+		}
+	},
+	[46368] = {
+		id = 46368,
+		damage = "112/回",
+		base = 46360,
+		weapon_id = {
+			46368
+		}
+	},
+	[46369] = {
+		id = 46369,
+		damage = "120/回",
+		base = 46360,
+		weapon_id = {
+			46369
+		}
+	},
+	[46370] = {
+		id = 46370,
+		damage = "128/回",
+		base = 46360,
+		weapon_id = {
+			46370
+		}
+	},
+	[46371] = {
 		anti_siren = 100,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44311,
+		damage = "128/回",
+		base = 46360,
+		id = 46371,
 		weapon_id = {
-			44311
+			46371
 		}
 	},
-	[44312] = {
+	[46372] = {
 		anti_siren = 200,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44312,
+		damage = "128/回",
+		base = 46360,
+		id = 46372,
 		weapon_id = {
-			44312
+			46372
 		}
 	},
-	[44313] = {
+	[46373] = {
 		anti_siren = 300,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44313,
+		damage = "128/回",
+		base = 46360,
+		id = 46373,
 		weapon_id = {
-			44313
+			46373
 		}
 	},
-	[45000] = {
-		name = "533mm三連装磁気魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 1,
-		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
-		value_2 = 5,
-		icon = "45000",
-		attribute_2 = "torpedo",
+	[47000] = {
+		name = "BF-109T艦上戦闘機",
+		type = 7,
+		speciality = "航空",
 		rarity = 2,
-		damage = "63 x 3",
+		tech = 1,
+		descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
+		value_2 = 5,
+		icon = "47000",
+		attribute_2 = "air",
 		nationality = 4,
-		ammo = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 45000,
+		id = 47000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				3,
-				1803
+				6,
+				59000
+			},
+			{
+				6,
+				59400
 			}
 		},
 		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			45000
+			47000,
+			84000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
+			6,
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			18
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"TP",
-			"TRI"
+			"CV",
+			"FT"
 		}
 	},
-	[45001] = {
-		id = 45001,
-		damage = "69 x 3",
-		base = 45000,
-		weapon_id = {
-			45001
-		}
-	},
-	[45002] = {
-		id = 45002,
-		damage = "75 x 3",
-		base = 45000,
-		weapon_id = {
-			45002
-		}
-	},
-	[45003] = {
-		id = 45003,
-		damage = "81 x 3",
-		base = 45000,
-		weapon_id = {
-			45003
-		}
-	},
-	[45020] = {
-		name = "533mm三連装磁気魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 2,
-		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
-		value_2 = 12,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "66 x 3",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
+	[47001] = {
+		id = 47001,
+		base = 47000,
 		ammo_info = {
 			{
-				3,
-				1803
+				6,
+				59001
+			},
+			{
+				6,
+				59401
 			}
 		},
-		equip_info = {
+		weapon_id = {
+			47001,
+			84001
+		}
+	},
+	[47002] = {
+		id = 47002,
+		base = 47000,
+		ammo_info = {
 			{
-				3,
-				1803
+				6,
+				59002
 			},
 			{
-				4,
-				1402
+				6,
+				59402
+			}
+		},
+		weapon_id = {
+			47002,
+			84002
+		}
+	},
+	[47003] = {
+		id = 47003,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59003
 			},
-			6,
-			10,
-			11,
-			12
+			{
+				6,
+				59403
+			}
 		},
 		weapon_id = {
-			45020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[45021] = {
-		id = 45021,
-		damage = "72 x 3",
-		base = 45020,
-		weapon_id = {
-			45021
-		}
-	},
-	[45022] = {
-		id = 45022,
-		damage = "79 x 3",
-		base = 45020,
-		weapon_id = {
-			45022
-		}
-	},
-	[45023] = {
-		id = 45023,
-		damage = "86 x 3",
-		base = 45020,
-		weapon_id = {
-			45023
+			47003,
+			84003
 		}
 	}
 }

@@ -1,36 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_118 = {
-	[16022] = {
-		id = 16022,
-		damage = "12/回",
-		base = 16020,
-		weapon_id = {
-			16022
-		}
-	},
-	[16023] = {
-		id = 16023,
-		damage = "14/回",
-		base = 16020,
-		weapon_id = {
-			16023
-		}
-	},
-	[16040] = {
-		name = "20mmエリコン機関砲",
+	[16400] = {
+		name = "四連装ボフォース40mm機関砲",
 		speciality = "対空",
 		type = 6,
-		tech = 3,
+		tech = 1,
 		descrip = "0",
 		value_2 = 12,
-		icon = "16000",
+		icon = "16400",
 		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "11/回",
+		damage = "38/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16040,
+		id = 16400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -42,7 +26,7 @@ pg.equip_data_statistics_118 = {
 			10
 		},
 		weapon_id = {
-			16040
+			16400
 		},
 		skill_id = {},
 		part_main = {
@@ -78,77 +62,69 @@ pg.equip_data_statistics_118 = {
 			"AA"
 		}
 	},
-	[16041] = {
-		id = 16041,
-		damage = "12/回",
-		base = 16040,
+	[16401] = {
+		id = 16401,
+		damage = "44/回",
+		base = 16400,
 		weapon_id = {
-			16041
+			16401
 		}
 	},
-	[16042] = {
-		id = 16042,
-		damage = "13/回",
-		base = 16040,
+	[16402] = {
+		id = 16402,
+		damage = "50/回",
+		base = 16400,
 		weapon_id = {
-			16042
+			16402
 		}
 	},
-	[16043] = {
-		id = 16043,
-		damage = "14/回",
-		base = 16040,
+	[16403] = {
+		id = 16403,
+		damage = "56/回",
+		base = 16400,
 		weapon_id = {
-			16043
+			16403
 		}
 	},
-	[16044] = {
-		id = 16044,
-		damage = "16/回",
-		base = 16040,
+	[16404] = {
+		id = 16404,
+		damage = "62/回",
+		base = 16400,
 		weapon_id = {
-			16044
+			16404
 		}
 	},
-	[16045] = {
-		id = 16045,
-		damage = "18/回",
-		base = 16040,
+	[16405] = {
+		id = 16405,
+		damage = "69/回",
+		base = 16400,
 		weapon_id = {
-			16045
+			16405
 		}
 	},
-	[16046] = {
-		id = 16046,
-		damage = "20/回",
-		base = 16040,
+	[16406] = {
+		id = 16406,
+		damage = "76/回",
+		base = 16400,
 		weapon_id = {
-			16046
+			16406
 		}
 	},
-	[16047] = {
-		id = 16047,
-		damage = "20/回",
-		base = 16040,
-		weapon_id = {
-			16047
-		}
-	},
-	[16060] = {
-		name = "76mm高角砲改修型",
+	[16420] = {
+		name = "四連装ボフォース40mm機関砲",
 		speciality = "対空",
 		type = 6,
-		tech = 0,
+		tech = 2,
 		descrip = "0",
 		value_2 = 25,
-		icon = "16060",
+		icon = "16400",
 		attribute_2 = "antiaircraft",
 		rarity = 4,
-		damage = "29/回",
+		damage = "43/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16060,
+		id = 16420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -160,7 +136,7 @@ pg.equip_data_statistics_118 = {
 			10
 		},
 		weapon_id = {
-			16060
+			16420
 		},
 		skill_id = {},
 		part_main = {
@@ -196,44 +172,76 @@ pg.equip_data_statistics_118 = {
 			"AA"
 		}
 	},
-	[16061] = {
-		id = 16061,
-		damage = "32/回",
-		base = 16060,
+	[16421] = {
+		id = 16421,
+		damage = "49/回",
+		base = 16420,
 		weapon_id = {
-			16061
+			16421
 		}
 	},
-	[16062] = {
-		id = 16062,
-		damage = "35/回",
-		base = 16060,
+	[16422] = {
+		id = 16422,
+		damage = "55/回",
+		base = 16420,
 		weapon_id = {
-			16062
+			16422
 		}
 	},
-	[16063] = {
-		id = 16063,
-		damage = "38/回",
-		base = 16060,
+	[16423] = {
+		id = 16423,
+		damage = "61/回",
+		base = 16420,
 		weapon_id = {
-			16063
+			16423
 		}
 	},
-	[16064] = {
-		id = 16064,
-		damage = "41/回",
-		base = 16060,
+	[16424] = {
+		id = 16424,
+		damage = "67/回",
+		base = 16420,
 		weapon_id = {
-			16064
+			16424
 		}
 	},
-	[16065] = {
-		id = 16065,
-		damage = "44/回",
-		base = 16060,
+	[16425] = {
+		id = 16425,
+		damage = "73/回",
+		base = 16420,
 		weapon_id = {
-			16065
+			16425
+		}
+	},
+	[16426] = {
+		id = 16426,
+		damage = "80/回",
+		base = 16420,
+		weapon_id = {
+			16426
+		}
+	},
+	[16427] = {
+		id = 16427,
+		damage = "87/回",
+		base = 16420,
+		weapon_id = {
+			16427
+		}
+	},
+	[16428] = {
+		id = 16428,
+		damage = "94/回",
+		base = 16420,
+		weapon_id = {
+			16428
+		}
+	},
+	[16429] = {
+		id = 16429,
+		damage = "101/回",
+		base = 16420,
+		weapon_id = {
+			16429
 		}
 	}
 }

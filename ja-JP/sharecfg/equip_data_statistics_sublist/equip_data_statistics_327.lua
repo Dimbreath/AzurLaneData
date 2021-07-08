@@ -1,370 +1,279 @@
 pg = pg or {}
 pg.equip_data_statistics_327 = {
-	[47025] = {
-		id = 47025,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59025
-			},
-			{
-				6,
-				59425
-			}
-		},
-		weapon_id = {
-			47025,
-			84025
-		}
-	},
-	[47026] = {
-		id = 47026,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59026
-			},
-			{
-				6,
-				59426
-			}
-		},
-		weapon_id = {
-			47026,
-			84026
-		}
-	},
-	[47040] = {
-		name = "BF-109T艦上戦闘機",
-		type = 7,
-		speciality = "航空",
-		rarity = 4,
-		tech = 3,
-		descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
-		value_2 = 25,
-		icon = "47000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
+	[60431] = {
+		name = "航空攻击展示-时乃空I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 47040,
+		id = 60431,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59040
-			},
-			{
-				6,
-				59440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			47040,
-			84040
+			60431
 		},
 		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
-		}
+		label = {}
 	},
-	[47041] = {
-		id = 47041,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59041
-			},
-			{
-				6,
-				59441
-			}
-		},
+	[60432] = {
+		id = 60432,
+		name = "航空攻击展示-时乃空II",
+		base = 60431,
 		weapon_id = {
-			47041,
-			84041
+			60432
 		}
 	},
-	[47042] = {
-		id = 47042,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59042
-			},
-			{
-				6,
-				59442
-			}
-		},
+	[60433] = {
+		id = 60433,
+		name = "航空攻击展示-时乃空III",
+		base = 60431,
 		weapon_id = {
-			47042,
-			84042
+			60433
 		}
 	},
-	[47043] = {
-		id = 47043,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59043
-			},
-			{
-				6,
-				59443
-			}
-		},
-		weapon_id = {
-			47043,
-			84043
-		}
-	},
-	[47044] = {
-		id = 47044,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59044
-			},
-			{
-				6,
-				59444
-			}
-		},
-		weapon_id = {
-			47044,
-			84044
-		}
-	},
-	[47045] = {
-		id = 47045,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59045
-			},
-			{
-				6,
-				59445
-			}
-		},
-		weapon_id = {
-			47045,
-			84045
-		}
-	},
-	[47046] = {
-		id = 47046,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59046
-			},
-			{
-				6,
-				59446
-			}
-		},
-		weapon_id = {
-			47046,
-			84046
-		}
-	},
-	[47047] = {
-		id = 47047,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59047
-			},
-			{
-				6,
-				59447
-			}
-		},
-		weapon_id = {
-			47047,
-			84047
-		}
-	},
-	[47048] = {
-		id = 47048,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59048
-			},
-			{
-				6,
-				59448
-			}
-		},
-		weapon_id = {
-			47048,
-			84048
-		}
-	},
-	[47049] = {
-		id = 47049,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59049
-			},
-			{
-				6,
-				59449
-			}
-		},
-		weapon_id = {
-			47049,
-			84049
-		}
-	},
-	[47050] = {
-		id = 47050,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59050
-			},
-			{
-				6,
-				59450
-			}
-		},
-		weapon_id = {
-			47050,
-			84050
-		}
-	},
-	[47051] = {
-		anti_siren = 100,
-		base = 47040,
-		id = 47051,
-		ammo_info = {
-			{
-				6,
-				59051
-			},
-			{
-				6,
-				59451
-			}
-		},
-		weapon_id = {
-			47051,
-			84051
-		}
-	},
-	[47060] = {
-		name = "Ar-197",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 0,
-		descrip = "0",
-		value_2 = 12,
-		icon = "47060",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
+	[60441] = {
+		name = "航空攻击展示-紫咲诗音I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 47060,
+		id = 60441,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59040
-			},
-			{
-				6,
-				59440
-			},
-			{
-				5,
-				53040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			47060,
-			84060
+			60441
 		},
 		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
+		label = {}
+	},
+	[60442] = {
+		id = 60442,
+		name = "航空攻击展示-紫咲诗音II",
+		base = 60441,
+		weapon_id = {
+			60442
 		}
 	},
-	[47061] = {
-		id = 47061,
-		base = 47060,
-		ammo_info = {
-			{
-				6,
-				59041
-			},
-			{
-				6,
-				59441
-			},
-			{
-				5,
-				53041
-			}
-		},
+	[60443] = {
+		id = 60443,
+		name = "航空攻击展示-紫咲诗音III",
+		base = 60441,
 		weapon_id = {
-			47061,
-			84061
+			60443
 		}
+	},
+	[60451] = {
+		name = "航空攻击展示-大神澪I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60451
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60452] = {
+		id = 60452,
+		name = "航空攻击展示-大神澪II",
+		base = 60451,
+		weapon_id = {
+			60452
+		}
+	},
+	[60453] = {
+		id = 60453,
+		name = "航空攻击展示-大神澪III",
+		base = 60451,
+		weapon_id = {
+			60453
+		}
+	},
+	[60461] = {
+		name = "航空攻击展示-白上吹雪III",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60461
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60471] = {
+		name = "航空攻击展示-龙凤I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60471
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60472] = {
+		id = 60472,
+		name = "航空攻击展示-龙凤II",
+		base = 60471,
+		weapon_id = {
+			60472
+		}
+	},
+	[60473] = {
+		id = 60473,
+		name = "航空攻击展示-龙凤III",
+		base = 60471,
+		weapon_id = {
+			60473
+		}
+	},
+	[60491] = {
+		name = "航空攻击展示-卡萨布兰卡I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60491,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60491
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60492] = {
+		id = 60492,
+		name = "航空攻击展示-卡萨布兰卡II",
+		base = 60491,
+		weapon_id = {
+			60492
+		}
+	},
+	[60493] = {
+		id = 60493,
+		name = "航空攻击展示-卡萨布兰卡III",
+		base = 60491,
+		weapon_id = {
+			60493
+		}
+	},
+	[60511] = {
+		name = "航空攻击展示-贝亚恩I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60511
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
 	}
 }

@@ -206,8 +206,12 @@ return {
 	SdkPay = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 		uv0:Pay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	end,
-	LogoutSDK = function ()
-		uv0:LocalLogout()
+	LogoutSDK = function (slot0)
+		if slot0 ~= 0 and CSharpVersion >= 44 then
+			uv0:ClearLoginData()
+		else
+			uv0:LocalLogout()
+		end
 	end,
 	BindCPU = function ()
 	end,
@@ -228,22 +232,18 @@ return {
 		end
 	end,
 	ShowPrivate = function ()
-		slot0 = LuaHelper.GetCHPackageType()
-
-		print(slot0)
-
-		if slot0 == uv0 or slot0 == uv1 then
+		if LuaHelper.GetCHPackageType() == uv0 then
+			pg.UserAgreementMgr.GetInstance():ShowForBiliPrivate()
+		elseif slot0 == uv1 then
 			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&privacyProtocol=1")
 		elseif slot0 ~= uv2 then
 			uv3:ShowPrivate()
 		end
 	end,
 	ShowLicence = function ()
-		slot0 = LuaHelper.GetCHPackageType()
-
-		print(slot0)
-
-		if slot0 == uv0 or slot0 == uv1 then
+		if LuaHelper.GetCHPackageType() == uv0 then
+			pg.UserAgreementMgr.GetInstance():ShowForBiliLicence()
+		elseif slot0 == uv1 then
 			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&userProtocol=1")
 		elseif slot0 ~= uv2 then
 			uv3:ShowLicence()

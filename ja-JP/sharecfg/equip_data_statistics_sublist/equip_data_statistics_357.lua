@@ -1,374 +1,229 @@
 pg = pg or {}
 pg.equip_data_statistics_357 = {
-	[73122] = {
-		id = 73122,
-		base = 73121,
+	[85287] = {
+		id = 85287,
+		damage = "89/回",
+		base = 85280,
 		weapon_id = {
-			73112
+			85287
 		}
 	},
-	[73211] = {
-		name = "0",
+	[85288] = {
+		id = 85288,
+		damage = "96/回",
+		base = 85280,
+		weapon_id = {
+			85288
+		}
+	},
+	[85289] = {
+		id = 85289,
+		damage = "103/回",
+		base = 85280,
+		weapon_id = {
+			85289
+		}
+	},
+	[85290] = {
+		id = 85290,
+		damage = "110/回",
+		base = 85280,
+		weapon_id = {
+			85290
+		}
+	},
+	[85291] = {
+		anti_siren = 100,
+		damage = "110/回",
+		base = 85280,
+		id = 85291,
+		weapon_id = {
+			85291
+		}
+	},
+	[85300] = {
+		name = "406mm三連装砲B-37 MK-1",
+		speciality = "投射",
+		type = 4,
 		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
+		descrip = "0",
+		value_2 = 12,
+		icon = "85300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "50 x 3",
+		nationality = 7,
+		ammo = 3,
 		value_3 = 0,
-		id = 73211,
+		id = 85300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1570
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			73211
+			85300
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
-		label = {}
-	},
-	[73212] = {
-		id = 73212,
-		base = 73211,
-		weapon_id = {
-			73212
+		label = {
+			"SN",
+			"BB",
+			"MG"
 		}
 	},
-	[73221] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
+	[85301] = {
+		id = 85301,
+		damage = "59 x 3",
+		base = 85300,
+		weapon_id = {
+			85301
+		}
+	},
+	[85302] = {
+		id = 85302,
+		damage = "67 x 3",
+		base = 85300,
+		weapon_id = {
+			85302
+		}
+	},
+	[85303] = {
+		id = 85303,
+		damage = "76 x 3",
+		base = 85300,
+		weapon_id = {
+			85303
+		}
+	},
+	[85304] = {
+		id = 85304,
+		damage = "84 x 3",
+		base = 85300,
+		weapon_id = {
+			85304
+		}
+	},
+	[85305] = {
+		id = 85305,
+		damage = "92 x 3",
+		base = 85300,
+		weapon_id = {
+			85305
+		}
+	},
+	[85306] = {
+		id = 85306,
+		damage = "101 x 3",
+		base = 85300,
+		weapon_id = {
+			85306
+		}
+	},
+	[85320] = {
+		name = "406mm三連装砲B-37 MK-1",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "0",
+		value_2 = 25,
+		icon = "85300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "56 x 3",
+		nationality = 7,
+		ammo = 3,
 		value_3 = 0,
-		id = 73221,
+		id = 85320,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1571
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			73221
+			85320
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
-		label = {}
-	},
-	[73222] = {
-		id = 73222,
-		base = 73221,
-		weapon_id = {
-			73222
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[73231] = {
-		name = "全弹发射-P级I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 73231,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+	[85321] = {
+		id = 85321,
+		damage = "65 x 3",
+		base = 85320,
 		weapon_id = {
-			73231
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73232] = {
-		id = 73232,
-		name = "全弹发射-P级II",
-		base = 73231,
-		weapon_id = {
-			73232
+			85321
 		}
 	},
-	[73311] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 73311,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+	[85322] = {
+		id = 85322,
+		damage = "73 x 3",
+		base = 85320,
 		weapon_id = {
-			73311
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73312] = {
-		id = 73312,
-		base = 73311,
-		weapon_id = {
-			73312
+			85322
 		}
 	},
-	[73321] = {
-		name = "全弹发射-Type IXB型I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 73321,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+	[85323] = {
+		id = 85323,
+		damage = "83 x 3",
+		base = 85320,
 		weapon_id = {
-			73321
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73322] = {
-		id = 73322,
-		name = "全弹发射-Type IXB型II",
-		base = 73321,
-		weapon_id = {
-			73322
+			85323
 		}
 	},
-	[73411] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 73411,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+	[85324] = {
+		id = 85324,
+		damage = "92 x 3",
+		base = 85320,
 		weapon_id = {
-			73411
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73412] = {
-		id = 73412,
-		base = 73411,
-		weapon_id = {
-			73412
+			85324
 		}
-	},
-	[73511] = {
-		name = "全弹发射-Type IXC型I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 73511,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			73511
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73512] = {
-		id = 73512,
-		name = "全弹发射-Type IXC型II",
-		base = 73511,
-		weapon_id = {
-			73512
-		}
-	},
-	[74011] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 74011,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			74011
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
 	}
 }

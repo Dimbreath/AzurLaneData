@@ -1,109 +1,5 @@
 pg = pg or {}
 pg.equip_data_statistics_14 = {
-	[671] = {
-		id = 671,
-		anti_siren = 100,
-		value_1 = "75",
-		base = 660
-	},
-	[680] = {
-		name = "ホーミングビーコン",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "air",
-		value_2 = 0,
-		icon = "680",
-		value_1 = "18",
-		descrip = "72/DM型ホーミングビーコン。空母のマストに設置され、艦載機が着艦する際、空母との相対位置の確認と調整に役立つ",
-		rarity = 4,
-		nationality = 2,
-		ammo = 10,
-		value_3 = 0,
-		id = 680,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6310
-		},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DEV"
-		}
-	},
-	[681] = {
-		id = 681,
-		value_1 = "22",
-		base = 680
-	},
-	[682] = {
-		id = 682,
-		value_1 = "26",
-		base = 680
-	},
-	[683] = {
-		id = 683,
-		value_1 = "30",
-		base = 680
-	},
-	[684] = {
-		id = 684,
-		value_1 = "34",
-		base = 680
-	},
-	[685] = {
-		id = 685,
-		value_1 = "39",
-		base = 680
-	},
-	[686] = {
-		id = 686,
-		value_1 = "43",
-		base = 680
-	},
-	[687] = {
-		id = 687,
-		value_1 = "47",
-		base = 680
-	},
-	[688] = {
-		id = 688,
-		value_1 = "51",
-		base = 680
-	},
-	[689] = {
-		id = 689,
-		value_1 = "55",
-		base = 680
-	},
-	[690] = {
-		id = 690,
-		value_1 = "60",
-		base = 680
-	},
-	[691] = {
-		id = 691,
-		anti_siren = 100,
-		value_1 = "65",
-		base = 680
-	},
 	[700] = {
 		name = "九八式発砲遅延装置",
 		tech = 0,
@@ -157,5 +53,120 @@ pg.equip_data_statistics_14 = {
 		id = 702,
 		value_1 = "16",
 		base = 700
+	},
+	[703] = {
+		id = 703,
+		value_1 = "18",
+		base = 700
+	},
+	[704] = {
+		id = 704,
+		value_1 = "20",
+		base = 700
+	},
+	[705] = {
+		id = 705,
+		value_1 = "22",
+		base = 700
+	},
+	[706] = {
+		id = 706,
+		value_1 = "24",
+		base = 700
+	},
+	[707] = {
+		id = 707,
+		value_1 = "26",
+		base = 700
+	},
+	[708] = {
+		id = 708,
+		value_1 = "28",
+		base = 700
+	},
+	[709] = {
+		id = 709,
+		value_1 = "30",
+		base = 700
+	},
+	[710] = {
+		id = 710,
+		value_1 = "32",
+		base = 700
+	},
+	[711] = {
+		id = 711,
+		anti_siren = 100,
+		value_1 = "34",
+		base = 700
+	},
+	[720] = {
+		name = "約束の証明",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 720,
+		value_2 = 80,
+		icon = "720",
+		value_1 = "12",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "真心を込めた誓いの「証明書」――「引っ張ってでも、ビスマルクのアネキを無事に連れて戻すからねっ！」 ",
+		nationality = 4,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6410
+		},
+		part_main = {
+			4,
+			5,
+			8,
+			17
+		},
+		part_sub = {
+			4,
+			5,
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DEV"
+		}
+	},
+	[721] = {
+		id = 721,
+		value_2 = 85,
+		value_1 = "13",
+		base = 720
+	},
+	[722] = {
+		id = 722,
+		value_2 = 90,
+		value_1 = "13",
+		base = 720
+	},
+	[723] = {
+		id = 723,
+		value_2 = 95,
+		value_1 = "14",
+		base = 720
+	},
+	[724] = {
+		id = 724,
+		value_2 = 100,
+		value_1 = "14",
+		base = 720
 	}
 }

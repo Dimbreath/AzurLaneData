@@ -1,239 +1,152 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
-	[85046] = {
-		id = 85046,
-		damage = "11 x 6",
-		base = 85040,
-		weapon_id = {
-			85046
-		}
-	},
-	[85047] = {
-		id = 85047,
-		damage = "12 x 6",
-		base = 85040,
-		weapon_id = {
-			85047
-		}
-	},
-	[85048] = {
-		id = 85048,
-		damage = "13 x 6",
-		base = 85040,
-		weapon_id = {
-			85048
-		}
-	},
-	[85049] = {
-		id = 85049,
-		damage = "14 x 6",
-		base = 85040,
-		weapon_id = {
-			85049
-		}
-	},
-	[85050] = {
-		id = 85050,
-		damage = "15 x 6",
-		base = 85040,
-		weapon_id = {
-			85050
-		}
-	},
-	[85051] = {
-		anti_siren = 100,
-		damage = "15 x 6",
-		base = 85040,
-		id = 85051,
-		weapon_id = {
-			85051
-		}
-	},
-	[85052] = {
+	[89212] = {
+		id = 89212,
 		anti_siren = 200,
-		damage = "15 x 6",
-		base = 85040,
-		id = 85052,
-		weapon_id = {
-			85052
-		}
+		base = 89200,
+		value_2 = 5,
+		value_1 = "32"
 	},
-	[85053] = {
+	[89213] = {
+		id = 89213,
 		anti_siren = 300,
-		damage = "15 x 6",
-		base = 85040,
-		id = 85053,
-		weapon_id = {
-			85053
-		}
+		base = 89200,
+		value_2 = 5,
+		value_1 = "34"
 	},
-	[85060] = {
-		name = "100mm連装対空砲SM-5-1s",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85060",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "35/回",
-		nationality = 7,
-		ammo = 5,
+	[89220] = {
+		name = "ネビュラドレス",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "89220",
+		value_1 = "250",
+		descrip = "「見た目だけでも、『あいどる』に仕上げて差し上げましょう…」装備艦船は「μ兵装」としても扱われます",
+		rarity = 5,
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85060,
+		id = 89220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			6,
-			10
+			6
 		},
-		weapon_id = {
-			85060
+		weapon_id = {},
+		skill_id = {
+			6700
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"ST",
-			"AA"
+			"DEV"
 		}
 	},
-	[85061] = {
-		id = 85061,
-		damage = "40/回",
-		base = 85060,
-		weapon_id = {
-			85061
-		}
+	[89221] = {
+		id = 89221,
+		value_1 = "280",
+		base = 89220
 	},
-	[85062] = {
-		id = 85062,
-		damage = "45/回",
-		base = 85060,
-		weapon_id = {
-			85062
-		}
+	[89222] = {
+		id = 89222,
+		value_1 = "310",
+		base = 89220
 	},
-	[85063] = {
-		id = 85063,
-		damage = "51/回",
-		base = 85060,
-		weapon_id = {
-			85063
-		}
+	[89223] = {
+		id = 89223,
+		value_1 = "340",
+		base = 89220
 	},
-	[85064] = {
-		id = 85064,
-		damage = "57/回",
-		base = 85060,
-		weapon_id = {
-			85064
-		}
+	[89224] = {
+		id = 89224,
+		value_1 = "370",
+		base = 89220
 	},
-	[85065] = {
-		id = 85065,
-		damage = "63/回",
-		base = 85060,
-		weapon_id = {
-			85065
-		}
+	[89225] = {
+		id = 89225,
+		value_1 = "400",
+		base = 89220
 	},
-	[85066] = {
-		id = 85066,
-		damage = "70/回",
-		base = 85060,
-		weapon_id = {
-			85066
-		}
+	[89226] = {
+		id = 89226,
+		value_1 = "430",
+		base = 89220
 	},
-	[85120] = {
-		name = "152mm三連装砲B-38 MK5",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "5 x 6",
-		nationality = 7,
-		ammo = 3,
+	[89227] = {
+		id = 89227,
+		value_1 = "460",
+		base = 89220
+	},
+	[89228] = {
+		id = 89228,
+		value_1 = "490",
+		base = 89220
+	},
+	[89229] = {
+		id = 89229,
+		value_1 = "520",
+		base = 89220
+	},
+	[89230] = {
+		id = 89230,
+		value_1 = "550",
+		base = 89220
+	},
+	[89231] = {
+		id = 89231,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 89220
+	},
+	[89232] = {
+		id = 89232,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 89220
+	},
+	[89233] = {
+		id = 89233,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 89220
+	},
+	[89240] = {
+		name = "ヴィーナス覚醒ジェム",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89240,
+		value_2 = 16,
+		icon = "89240",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "",
+		nationality = 106,
+		ammo = 10,
 		value_3 = 0,
-		id = 85120,
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1201
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1201
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			85120
+		weapon_id = {},
+		skill_id = {
+			6720
 		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"CL",
-			"MG"
+			"DEV"
 		}
 	}
 }

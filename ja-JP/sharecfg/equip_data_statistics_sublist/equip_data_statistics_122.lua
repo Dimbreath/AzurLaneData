@@ -1,240 +1,336 @@
 pg = pg or {}
 pg.equip_data_statistics_122 = {
-	[16165] = {
-		id = 16165,
-		damage = "37/回",
-		base = 16160,
+	[17086] = {
+		id = 17086,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50346
+			},
+			{
+				5,
+				52146
+			}
+		},
 		weapon_id = {
-			16165
+			17086,
+			81086
 		}
 	},
-	[16166] = {
-		id = 16166,
-		damage = "40/回",
-		base = 16160,
+	[17087] = {
+		id = 17087,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50347
+			},
+			{
+				5,
+				52147
+			}
+		},
 		weapon_id = {
-			16166
+			17087,
+			81087
 		}
 	},
-	[16167] = {
-		id = 16167,
-		damage = "43/回",
-		base = 16160,
+	[17088] = {
+		id = 17088,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50348
+			},
+			{
+				5,
+				52148
+			}
+		},
 		weapon_id = {
-			16167
+			17088,
+			81088
 		}
 	},
-	[16168] = {
-		id = 16168,
-		damage = "46/回",
-		base = 16160,
+	[17089] = {
+		id = 17089,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50349
+			},
+			{
+				5,
+				52149
+			}
+		},
 		weapon_id = {
-			16168
+			17089,
+			81089
 		}
 	},
-	[16169] = {
-		id = 16169,
-		damage = "49/回",
-		base = 16160,
+	[17090] = {
+		id = 17090,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50350
+			},
+			{
+				5,
+				52150
+			}
+		},
 		weapon_id = {
-			16169
+			17090,
+			81090
 		}
 	},
-	[16170] = {
-		id = 16170,
-		damage = "52/回",
-		base = 16160,
-		weapon_id = {
-			16170
-		}
-	},
-	[16171] = {
+	[17091] = {
 		anti_siren = 100,
-		damage = "52/回",
-		base = 16160,
-		id = 16171,
+		base = 17080,
+		id = 17091,
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				5,
+				52151
+			}
+		},
 		weapon_id = {
-			16171
+			17091,
+			81091
 		}
 	},
-	[16200] = {
-		name = "四連装28mm対空機銃「シカゴピアノ」",
-		speciality = "対空",
-		type = 6,
+	[17100] = {
+		name = "F4Fワイルドキャット",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
 		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "16200",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "22/回",
+		icon = "17100",
+		attribute_2 = "air",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16200,
+		id = 17100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50400
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			16200
+			17100,
+			81100
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[16201] = {
-		id = 16201,
-		damage = "26/回",
-		base = 16200,
+	[17101] = {
+		id = 17101,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50401
+			}
+		},
 		weapon_id = {
-			16201
+			17101,
+			81101
 		}
 	},
-	[16202] = {
-		id = 16202,
-		damage = "30/回",
-		base = 16200,
+	[17102] = {
+		id = 17102,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50402
+			}
+		},
 		weapon_id = {
-			16202
+			17102,
+			81102
 		}
 	},
-	[16203] = {
-		id = 16203,
-		damage = "34/回",
-		base = 16200,
+	[17103] = {
+		id = 17103,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50403
+			}
+		},
 		weapon_id = {
-			16203
+			17103,
+			81103
 		}
 	},
-	[16220] = {
-		name = "四連装28mm対空機銃「シカゴピアノ」",
-		speciality = "対空",
-		type = 6,
+	[17120] = {
+		name = "F4Fワイルドキャット",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "16200",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "25/回",
+		icon = "17100",
+		attribute_2 = "air",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16220,
+		id = 17120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50420
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			16220
+			17120,
+			81120
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[16221] = {
-		id = 16221,
-		damage = "29/回",
-		base = 16220,
+	[17121] = {
+		id = 17121,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50421
+			}
+		},
 		weapon_id = {
-			16221
+			17121,
+			81121
 		}
 	},
-	[16222] = {
-		id = 16222,
-		damage = "33/回",
-		base = 16220,
+	[17122] = {
+		id = 17122,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50422
+			}
+		},
 		weapon_id = {
-			16222
+			17122,
+			81122
 		}
 	},
-	[16223] = {
-		id = 16223,
-		damage = "37/回",
-		base = 16220,
+	[17123] = {
+		id = 17123,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50423
+			}
+		},
 		weapon_id = {
-			16223
+			17123,
+			81123
 		}
 	},
-	[16224] = {
-		id = 16224,
-		damage = "41/回",
-		base = 16220,
+	[17124] = {
+		id = 17124,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50424
+			}
+		},
 		weapon_id = {
-			16224
+			17124,
+			81124
+		}
+	},
+	[17125] = {
+		id = 17125,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50425
+			}
+		},
+		weapon_id = {
+			17125,
+			81125
+		}
+	},
+	[17126] = {
+		id = 17126,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50426
+			}
+		},
+		weapon_id = {
+			17126,
+			81126
 		}
 	}
 }

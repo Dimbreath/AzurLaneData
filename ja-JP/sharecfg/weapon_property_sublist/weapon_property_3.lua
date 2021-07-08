@@ -2,22 +2,6 @@ pg = pg or {}
 pg.weapon_property_3 = {}
 
 function ()
-	uv0.weapon_property_3[914] = {
-		id = 914,
-		name = "烟雾发射装置小范围",
-		base = 911,
-		bullet_ID = {
-			914
-		}
-	}
-	uv0.weapon_property_3[915] = {
-		id = 915,
-		name = "烟雾发射装置小范围",
-		base = 911,
-		bullet_ID = {
-			915
-		}
-	}
 	uv0.weapon_property_3[916] = {
 		id = 916,
 		name = "烟雾发射装置小范围",
@@ -901,5 +885,23 @@ function ()
 			2
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_3[4201] = {
+		id = 4201,
+		reload_max = 668,
+		damage = 30,
+		base = 4200
+	}
+	uv0.weapon_property_3[4202] = {
+		id = 4202,
+		reload_max = 656,
+		damage = 32,
+		base = 4200
+	}
+	uv0.weapon_property_3[4203] = {
+		id = 4203,
+		reload_max = 644,
+		damage = 35,
+		base = 4200
 	}
 end()

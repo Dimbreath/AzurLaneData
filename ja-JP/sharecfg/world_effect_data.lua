@@ -107852,7 +107852,8 @@ pg.world_effect_data = {
 		id = 860512,
 		autoactivate = 0,
 		effect_paramater = {
-			86099
+			86099,
+			86098
 		},
 		autoflag = {}
 	},
@@ -112167,7 +112168,8 @@ pg.world_effect_data = {
 		id = 866512,
 		autoactivate = 0,
 		effect_paramater = {
-			86699
+			86699,
+			86698
 		},
 		autoflag = {}
 	},

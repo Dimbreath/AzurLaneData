@@ -1,48 +1,5 @@
 pg = pg or {}
 pg.equip_data_statistics_2 = {
-	[106] = {
-		name = "0",
-		speciality = "雷撃",
-		type = 5,
-		tech = 1,
-		rarity = 1,
-		descrip = "デフォルト装備",
-		value_2 = 0,
-		icon = "1",
-		damage = "17 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 106,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			106
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
 	[107] = {
 		name = "0",
 		speciality = "雷撃",
@@ -613,6 +570,80 @@ pg.equip_data_statistics_2 = {
 			"FFNF",
 			"CV",
 			"FT"
+		}
+	},
+	[126] = {
+		name = "0",
+		tech = 1,
+		speciality = "雷撃",
+		type = 8,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 126,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			126
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[127] = {
+		name = "0",
+		tech = 1,
+		speciality = "爆撃",
+		type = 9,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 127,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			127
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"DB"
 		}
 	}
 }

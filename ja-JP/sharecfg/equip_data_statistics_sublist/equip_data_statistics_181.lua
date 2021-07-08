@@ -1,185 +1,194 @@
 pg = pg or {}
 pg.equip_data_statistics_181 = {
-	[25149] = {
-		id = 25149,
-		damage = "149 x 3",
-		base = 25140,
+	[26446] = {
+		id = 26446,
+		damage = "47/回",
+		base = 26440,
 		weapon_id = {
-			25149
+			26446
 		}
 	},
-	[25150] = {
-		id = 25150,
-		damage = "159 x 3",
-		base = 25140,
+	[26447] = {
+		id = 26447,
+		damage = "51/回",
+		base = 26440,
 		weapon_id = {
-			25150
+			26447
 		}
 	},
-	[25151] = {
+	[26448] = {
+		id = 26448,
+		damage = "55/回",
+		base = 26440,
+		weapon_id = {
+			26448
+		}
+	},
+	[26449] = {
+		id = 26449,
+		damage = "59/回",
+		base = 26440,
+		weapon_id = {
+			26449
+		}
+	},
+	[26450] = {
+		id = 26450,
+		damage = "63/回",
+		base = 26440,
+		weapon_id = {
+			26450
+		}
+	},
+	[26451] = {
 		anti_siren = 100,
-		damage = "159 x 3",
-		base = 25140,
-		id = 25151,
+		damage = "63/回",
+		base = 26440,
+		id = 26451,
 		weapon_id = {
-			25151
+			26451
 		}
 	},
-	[25200] = {
-		name = "潜水艦用Mark12魚雷“Ferry”",
-		speciality = "雷撃",
-		type = 13,
+	[26460] = {
+		name = "120mm対空砲MarkVIII",
+		speciality = "対空",
+		type = 6,
 		tech = 0,
 		descrip = "0",
-		value_2 = 45,
-		icon = "25200",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "56 x 3",
+		value_2 = 25,
+		icon = "26460",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "41/回",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 25200,
+		id = 26460,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1830
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1830
-			},
-			{
-				4,
-				1602
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			25200
+			26460
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[25201] = {
-		id = 25201,
-		damage = "64 x 3",
-		base = 25200,
+	[26461] = {
+		id = 26461,
+		damage = "47/回",
+		base = 26460,
 		weapon_id = {
-			25201
+			26461
 		}
 	},
-	[25202] = {
-		id = 25202,
-		damage = "72 x 3",
-		base = 25200,
+	[26462] = {
+		id = 26462,
+		damage = "53/回",
+		base = 26460,
 		weapon_id = {
-			25202
+			26462
 		}
 	},
-	[25203] = {
-		id = 25203,
-		damage = "80 x 3",
-		base = 25200,
+	[26463] = {
+		id = 26463,
+		damage = "59/回",
+		base = 26460,
 		weapon_id = {
-			25203
+			26463
 		}
 	},
-	[25204] = {
-		id = 25204,
-		damage = "88 x 3",
-		base = 25200,
+	[26464] = {
+		id = 26464,
+		damage = "66/回",
+		base = 26460,
 		weapon_id = {
-			25204
+			26464
 		}
 	},
-	[25205] = {
-		id = 25205,
-		damage = "96 x 3",
-		base = 25200,
+	[26465] = {
+		id = 26465,
+		damage = "73/回",
+		base = 26460,
 		weapon_id = {
-			25205
+			26465
 		}
 	},
-	[25206] = {
-		id = 25206,
-		damage = "104 x 3",
-		base = 25200,
+	[26466] = {
+		id = 26466,
+		damage = "80/回",
+		base = 26460,
 		weapon_id = {
-			25206
+			26466
 		}
 	},
-	[25207] = {
-		id = 25207,
-		damage = "113 x 3",
-		base = 25200,
+	[26467] = {
+		id = 26467,
+		damage = "87/回",
+		base = 26460,
 		weapon_id = {
-			25207
+			26467
 		}
 	},
-	[25208] = {
-		id = 25208,
-		damage = "122 x 3",
-		base = 25200,
+	[26468] = {
+		id = 26468,
+		damage = "94/回",
+		base = 26460,
 		weapon_id = {
-			25208
+			26468
 		}
 	},
-	[25209] = {
-		id = 25209,
-		damage = "130 x 3",
-		base = 25200,
+	[26469] = {
+		id = 26469,
+		damage = "101/回",
+		base = 26460,
 		weapon_id = {
-			25209
+			26469
 		}
 	},
-	[25210] = {
-		id = 25210,
-		damage = "139 x 3",
-		base = 25200,
+	[26470] = {
+		id = 26470,
+		damage = "108/回",
+		base = 26460,
 		weapon_id = {
-			25210
-		}
-	},
-	[25211] = {
-		anti_siren = 100,
-		damage = "139 x 3",
-		base = 25200,
-		id = 25211,
-		weapon_id = {
-			25211
-		}
-	},
-	[25212] = {
-		anti_siren = 200,
-		damage = "139 x 3",
-		base = 25200,
-		id = 25212,
-		weapon_id = {
-			25212
+			26470
 		}
 	}
 }

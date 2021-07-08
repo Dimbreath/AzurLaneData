@@ -6828,7 +6828,20 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 		tip = {
 			{
 				info = [[
-※変更点
+変更点（2021.7.8）
+第四期特別計画艦実装に伴い、科学研究室の仕様が変更
+・コンテンツ追加
+科学研究項目に新たに「第四期」が追加
+
+・仕様変更
+①艦船の強化ユニットを強化（竜骨編纂）最大値まで強化できる分所持している場合、当該艦船の指向性研究項目が出現しなくなります。
+
+注意：
+・「研究指向」を「なし」以外で、当期のすべての艦船の強化が完了、もしくは強化完了分までのユニットを所持している場合、それぞれの艦船の研究項目が出現するようになります。
+・「研究指向」を「なし」を選択している場合、強化が未完了・かつ強化完了分のユニットを所持していない艦船の研究項目のみ出現するようになります。
+・指向性研究項目自体の出現確率は、艦船の強化ユニット所持数に関係ありません。
+
+変更点
 第三期特別計画艦実装に伴い、科学研究室の仕様が変更
 ・追加されました
 
@@ -6983,7 +6996,7 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 
 開発対象変更
 1. 開発中に、開発対象を別の艦に変更することができます。
-2. 開発対象を変更すると、開発全体の進捗および進行中任務の進捗状況が保持されます。
+2. 開発対象を変更しても、開発全体の進捗および進行中任務の進捗状況は保持されます。
 3. 開発開始・再開後、24時間以内は開発対象を変更できません。
 
 開発完了
@@ -6994,7 +7007,17 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 1. 「特別計画」艦入手後、艦の強化機能が開放されます。
 2. 強化には艦の「強化ユニット」を消費します。
 3. 「強化ユニット」は科学研究室で研究を行うことにより入手出来ます。
-4. 強化を行うことで「特別計画」艦の性能を向上させられます。また、一定の強化レベルに達するとさらなる強化効果を獲得できます。
+4. 強化を行うことで「特別計画」艦の性能を向上させられます。また、一定の強化レベルに達するとさらなる強化効果を獲得できます。（new!）5.一部の特別計画艦は、「強化ユニット」を所持していない場合でも、代わりに資金を消費して強化を行うことができます。
+　　※注意
+　　資金による特別計画艦の強化・竜骨編纂は毎日、最初の15個分まで資金消費が割引されます。
+       0個目～2個目：無料
+　　3個目～4個目：消費資金10%
+       5個目～7個目：消費資金20%
+       8個目～10個目：消費資金40%
+      11個目～15個目：消費資金70%
+　　16個目以降：消費資金100% = 1個分につき1500消費
+　　資金消費量は強化時の強化ユニット使用数選択画面で自動で計算されます。
+割引分強化回数のリセットは毎日4:00になります。
 
 「特別計画」艦のレベル上限について
   「特別計画」艦は限界突破しなくても、レベルを100まで上げることができますが、レベル上限を引き上げるには、資金とメンタルユニットを消費し「認識覚醒」を行う必要があります。
@@ -7004,9 +7027,10 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
   ・特別計画艦の強化レベルがLv.30になった場合、当該艦の「竜骨編纂」が解禁されます。
   ・「竜骨編纂」では、艦に対応する強化ユニットを消費し、進捗を100％まで進行させると、そのレベルの竜骨編纂が完了します。
   ・「竜骨編纂」では、最大レベル5まで強化することができ、レベル1～4では艦の「運」ステータスが強化され、レベル5ではスキルを一部強化することができます。
+(new!)・一部の特別計画艦は、「強化ユニット」を所持していない場合でも、代わりに資金を消費して竜骨編纂を進捗させることができます。
 
 弾幕確認機能とは
- ・特別計画艦Ⅱ期・Ⅲ期の「弾幕仕様」を確認できる機能になります。
+ ・特別計画艦Ⅱ期・Ⅲ期・Ⅳ期の「弾幕仕様」を確認できる機能になります。
  ・「弾幕確認」をタップすると、該当の艦を使用した模擬戦（イベントバトル）が始まります。
   ※模擬戦における艦の耐久・装填などの性能は実際の性能とは異なります。]]
 			}
@@ -7667,6 +7691,12 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 	tec_notice_1 = {
 		tip = "Ⅰ期特別計画艦任務全てクリアで開放"
 	},
+	tec_notice_2 = {
+		tip = "新兵任務「開発・Ⅱ期」全クリアで開放"
+	},
+	tec_notice_not_open_tip = {
+		tip = "前期の開発新兵任務クリアで開放"
+	},
 	apply_permission_camera_tip1 = {
 		tip = "AR録画機能を利用するには、\n音声の録音を許可する必要があります"
 	},
@@ -7738,6 +7768,18 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 					atlas = "helpbg/commander_skill2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 2,
@@ -7805,6 +7847,18 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 					atlas = "helpbg/commander_skill2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 4,
@@ -7870,6 +7924,18 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_skill2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
 				}
 			},
 			disableScroll = true,
@@ -7943,6 +8009,18 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_skill2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
 				}
 			},
 			disableScroll = true,
@@ -8335,7 +8413,7 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 				info = "<color=#92fc63>★遊び方</color>"
 			},
 			{
-				info = "イベント「特別演習  超空強襲波（復刻·一部仕様変更」\nとは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進め、個人累計Pt\n報酬と作戦進捗報酬を狙うイベントになります。"
+				info = "イベント「特別演習  交錯する新たな波（復刻·一部仕様変更」\nとは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進め、個人累計Pt\n報酬と作戦進捗報酬を狙うイベントになります。"
 			},
 			{
 				info = [[
@@ -8903,6 +8981,51 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 試作型406mm/50三連装砲
 152mm三連装砲Mle1930
 二連装37mm高射砲Mle1936</color></size>]]
+	},
+	blueprint_simulation_confirm_19903 = {
+		tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+203mm三連装砲Mk15
+533mm四連装魚雷Mk17
+四連装28mm対空機銃「シカゴピアノ」</color></size>]]
+	},
+	blueprint_simulation_confirm_39905 = {
+		tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型彩雲（艦攻型・特別計画艦仕様）
+試作型天雷（特別計画艦仕様）
+試作型彩雲（艦攻型・特別計画艦仕様）</color></size>]]
+	},
+	blueprint_simulation_confirm_49905 = {
+		tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型三連装305mmSKC39主砲（超巡）
+533mm四連装磁気魚雷
+105mmskc連装高角砲</color></size>]]
+	},
+	blueprint_simulation_confirm_49906 = {
+		tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型BF-109G（特別計画艦仕様）
+Ju-87C急降下爆撃機
+Ju-87 D-4</color></size>]]
+	},
+	blueprint_simulation_confirm_69901 = {
+		tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型三連装406mm主砲Model1940
+152mm三連装砲Model1934
+試作型90mm連装高角砲Model1939</color></size>]]
 	},
 	electrotherapy_wanning = {
 		tip = "鏡面海域化領域・接近中"
@@ -11866,6 +11989,9 @@ GET!
 	tec_tendency_3 = {
 		tip = "特別計画Ⅲ"
 	},
+	tec_tendency_4 = {
+		tip = "特別計画Ⅳ"
+	},
 	tec_tendency_cur_0 = {
 		tip = "研究指向/指向なし"
 	},
@@ -11878,11 +12004,41 @@ GET!
 	tec_tendency_cur_3 = {
 		tip = "研究指向 / Ⅲ"
 	},
-	tec_target_catchup_none = {
-		tip = "強化指向/未選択"
+	tec_tendency_cur_4 = {
+		tip = "研究指向 / Ⅳ"
 	},
-	tec_target_catchup_selected = {
-		tip = "強化指向"
+	tec_target_catchup_none_1 = {
+		tip = "強化指向Ⅰ期/未選択"
+	},
+	tec_target_catchup_none_2 = {
+		tip = "強化指向Ⅱ期/未選択"
+	},
+	tec_target_catchup_selected_1 = {
+		tip = "強化指向Ⅰ期/選択中"
+	},
+	tec_target_catchup_selected_2 = {
+		tip = "強化指向Ⅱ期/選択中"
+	},
+	tec_target_catchup_finish_1 = {
+		tip = "強化指向Ⅰ期/完了"
+	},
+	tec_target_catchup_finish_2 = {
+		tip = "強化指向Ⅱ期/完了"
+	},
+	tec_target_catchup_dr_finish_tip = {
+		tip = "素材確保"
+	},
+	tec_target_catchup_all_finish_tip = {
+		tip = "素材確保"
+	},
+	tec_target_catchup_show_the_finished_version = {
+		tip = "既に完了（素材確保）した指向も選択する"
+	},
+	tec_target_catchup_pry_char = {
+		tip = "特別計画"
+	},
+	tec_target_catchup_dr_char = {
+		tip = "決戦計画"
 	},
 	tec_target_need_print = {
 		tip = "強化残り"
@@ -11899,22 +12055,26 @@ GET!
 				info = "■強化指向とは"
 			},
 			{
-				info = "強化指向とは、「研究開発室」の「開発指向」で、特別計画艦を1隻選ぶことで、科学研究項目完了時にその艦船の強化ユニットを追加で入手できる機能になります。"
+				info = "科学研究項目完了時に選択した特別計画艦の強化ユニットを追加入手できる機能です。"
 			},
 			{
-				info = "■遊び方"
+				info = "◇「強化指向」について"
 			},
 			{
 				info = [[
-・「強化指向」を有効化するには、「強化指向」で特別計画艦を1隻選択する必要があります。
-・同時に選択できる特別計画艦は1隻のみになります。
-選択中の特別計画艦はいつでも変更することができます。
-・科学研究項目完了時、選択中の特別計画艦に応じてその艦船の強化ユニットを手に入れることができます。
-・「強化指向」で入手できる強化ユニット数は特別計画艦の各期毎に最大300個までです。
+①「強化指向」を有効化するには、「強化指向」で特別計画艦を1隻選択する必要があります。
+②同時に選択できる特別計画艦は1隻のみです。選択中の特別計画艦はいつでも変更できます。
+③科学研究項目完了時、選択中の特別計画艦の強化ユニットを手に入れることができます。
+
 ]]
 			},
 			{
-				info = "※「強化指向」で入手できる特別計画艦1期の強化ユニット数は、1期の特別計画艦6隻合計で最大300個までとなります。\n※「強化指向」とは別に、特定の艦船の強化ユニットを追加で入手できるイベントが開催される予定です。"
+				info = [[
+※注意
+「強化指向」で入手できる特別計画艦2期の強化ユニット数は、下記のようになります：
+・PR：4隻合計で最大300個までです。
+・DR：2隻それぞれで最大150個までです。
+「強化指向」とは別に、特定艦船の強化ユニットを追加入手できるイベントを開催予定です。]]
 			}
 		}
 	},
@@ -13586,6 +13746,15 @@ GET!
 	cumulative_victory_now_tip = {
 		tip = "現在勝利回数："
 	},
+	word_files_repair = {
+		tip = "ﾀｯﾌﾟで修復"
+	},
+	repair_setting_label = {
+		tip = "ｱｾｯﾄ修復"
+	},
+	voice_control = {
+		tip = "サウンド"
+	},
 	index_equip = {
 		tip = "装備中"
 	},
@@ -14217,13 +14386,13 @@ EN補給箱・小×45
 		tip = "オフニャの配置を解除しました"
 	},
 	commander_box_quickly_tool_tip_1 = {
-		tip = "ネコハコ加速材 "
+		tip = "オフニャ訓練加速材を使用しますか？"
 	},
 	commander_box_quickly_tool_tip_2 = {
-		tip = "を使用し、"
+		tip = "1個につき20分短縮できます"
 	},
 	commander_box_quickly_tool_tip_3 = {
-		tip = "訓練時間を $1分短縮させますか？"
+		tip = "残り時間"
 	},
 	commander_box_was_finished = {
 		tip = "ネコハコの訓練が完了しました"
@@ -14233,6 +14402,31 @@ EN補給箱・小×45
 	},
 	comander_tool_max_cnt = {
 		tip = "ネコハコ加速材：$1"
+	},
+	cat_home_help = {
+		tip = {
+			{
+				info = [[
+■オフニャハウスとは
+オフニャハウスは、中に配置したオフニャの経験値を自動で上昇させられる機能です。
+
+■遊び方
+①オフニャハウスの配置枠にオフニャを配置すると、オフニャの経験値が自動で獲得できます
+②一日に一度だけ、オフニャハウスの配置枠にオフニャが配置されていると、下記の行動が行えるようになります。
+　アイコンをタップすると、行動を実行可能な配置枠/オフニャに対して一括で行動が実行されます。
+　清掃
+    遊ぶ
+　食糧補充
+　※注意：
+　配置枠ならびにオフニャは、一日に上記の行動一回ずつしか行えません。
+　既に行動済の配置枠に未行動のオフニャを配置しても、未行動の配置枠に行動済みのオフニャを配置しても、行動を行えません。
+③行動を行うと、下記の報酬を入手できます。
+　清掃：「オフニャハウス」を成長させられます
+　遊ぶ：「オフニャハウス」を成長させられるほか、ネコハコ訓練加速材などを入手できます
+　食糧補充：「オフニャハウス」を成長させられるほか、配置されているオフニャの経験値を増加させられます
+④オフニャハウスが成長すると、配置枠・配置枠の着せ替え・オフニャの獲得経験値などが増加します。]]
+			}
+		}
 	},
 	cat_accelfrate_notenough = {
 		tip = "ネコハコ加速材が不足しています"
@@ -14250,10 +14444,19 @@ EN補給箱・小×45
 		tip = "オフニャハウスに配置されているオフニャです"
 	},
 	cat_home_interaction = {
-		tip = "该指挥喵已经$1过了"
+		tip = "本日はすでに$1をしました"
 	},
 	cat_accelerate_left = {
-		tip = "使用后剩余："
+		tip = "使用後残り："
+	},
+	common_clean = {
+		tip = "清掃"
+	},
+	common_feed = {
+		tip = "食糧補充"
+	},
+	common_play = {
+		tip = "遊ぶ"
 	},
 	game_stopwords = {
 		tip = "セリフ欄を非表示に設定しました"
@@ -14417,5 +14620,83 @@ EN補給箱・小×45
 	},
 	memory_activity_others = {
 		tip = "その他"
+	},
+	battle_end_title = {
+		tip = "戦闘結果"
+	},
+	battle_end_subtitle1 = {
+		tip = "報酬獲得"
+	},
+	battle_end_subtitle2 = {
+		tip = "戦技強化"
+	},
+	meta_skill_dailyexp = {
+		tip = "本日入手経験値"
+	},
+	meta_skill_learn = {
+		tip = "※アイコンをタップすると強化対象を変更可能"
+	},
+	meta_skill_maxtip = {
+		tip = "$1の強化中のスキルはLvMAXになっています。メタラボで強化スキルを変更しますか？"
+	},
+	meta_tactics_detail = {
+		tip = "詳細確認"
+	},
+	meta_tactics_unlock = {
+		tip = "スキル習得"
+	},
+	meta_tactics_switch = {
+		tip = "スキル強化"
+	},
+	meta_skill_maxtip2 = {
+		tip = "スキルLvMAX"
+	},
+	cattery_settlement_dialogue_1 = {
+		tip = "留守の"
+	},
+	cattery_settlement_dialogue_2 = {
+		tip = "間、十分に休憩しました！"
+	},
+	cattery_settlement_dialogue_3 = {
+		tip = "経験値"
+	},
+	cattery_settlement_dialogue_4 = {
+		tip = "を入手しました！"
+	},
+	blueprint_catchup_by_gold_confirm = {
+		tip = "$1の資金を消費し、強化を行いますか？"
+	},
+	tec_tip_no_consumption = {
+		tip = "消費なし"
+	},
+	tec_tip_material_stock = {
+		tip = "所持"
+	},
+	tec_tip_to_consumption = {
+		tip = "必要資金"
+	},
+	onebutton_max_tip = {
+		tip = "一括分解"
+	},
+	target_get_tip = {
+		tip = "累計入手"
+	},
+	fleet_select_title = {
+		tip = "艦隊選択"
+	},
+	equip_add = {
+		tip = "—タップで兵装を選択 —"
+	},
+	equipskin_add = {
+		tip = "— タップで装備外装を変更 —"
+	},
+	equipskin_none = {
+		tip = "— この兵装は外装を適用できません —"
+	},
+	equipskin_typewrong = {
+		tip = "— この外装は兵装に適用できません —"
+	},
+	equipskin_typewrong_en = {
+		tip = "GEAR SKIN UNAVAILABLE"
 	}
 }

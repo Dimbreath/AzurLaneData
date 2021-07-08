@@ -13,6 +13,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			print("63308 switch success")
 			getProxy(MetaCharacterProxy):switchMetaTacticsSkill(uv0, uv1)
+			getProxy(MetaCharacterProxy):tryRemoveMetaSkillLevelMaxInfo(uv0, uv1)
 			uv2:sendNotification(GAME.TACTICS_META_SWITCH_SKILL_DONE, {
 				metaShipID = uv0,
 				skillID = uv1,

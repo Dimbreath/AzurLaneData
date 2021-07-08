@@ -106,7 +106,7 @@ function slot0.execute(slot0, slot1)
 	})
 
 	if slot2.code ~= SDK_EXIT_CODE then
-		pg.SdkMgr.GetInstance():LogoutSDK()
+		pg.SdkMgr.GetInstance():LogoutSDK(slot2.code)
 	end
 end
 

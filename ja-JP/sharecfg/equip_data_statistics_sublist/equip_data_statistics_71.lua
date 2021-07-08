@@ -1,44 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_71 = {
-	[5045] = {
-		id = 5045,
-		damage = "106 x 3",
-		base = 5040,
+	[5344] = {
+		id = 5344,
+		damage = "88 x 2",
+		base = 5340,
 		weapon_id = {
-			5045
+			5344
 		}
 	},
-	[5046] = {
-		id = 5046,
-		damage = "116 x 3",
-		base = 5040,
+	[5345] = {
+		id = 5345,
+		damage = "98 x 2",
+		base = 5340,
 		weapon_id = {
-			5046
+			5345
 		}
 	},
-	[5047] = {
-		id = 5047,
-		damage = "116 x 3",
-		base = 5040,
+	[5346] = {
+		id = 5346,
+		damage = "108 x 2",
+		base = 5340,
 		weapon_id = {
-			5047
+			5346
 		}
 	},
-	[5100] = {
-		name = "533mm四連装魚雷",
+	[5347] = {
+		id = 5347,
+		damage = "108 x 2",
+		base = 5340,
+		weapon_id = {
+			5347
+		}
+	},
+	[5400] = {
+		name = "550mm三連装魚雷発射管",
 		speciality = "雷撃",
 		type = 5,
 		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "5100",
+		icon = "5400",
 		attribute_2 = "torpedo",
 		rarity = 2,
-		damage = "46 x 4",
-		nationality = 0,
+		damage = "47 x 3",
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5100,
+		id = 5400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -55,7 +63,7 @@ pg.equip_data_statistics_71 = {
 			},
 			{
 				4,
-				1403
+				1402
 			},
 			6,
 			10,
@@ -63,7 +71,7 @@ pg.equip_data_statistics_71 = {
 			12
 		},
 		weapon_id = {
-			5100
+			5400
 		},
 		skill_id = {},
 		part_main = {
@@ -80,51 +88,51 @@ pg.equip_data_statistics_71 = {
 		},
 		equip_parameters = {},
 		label = {
-			"UN",
+			"FFNF",
 			"ST",
 			"TP",
-			"QUAD"
+			"TRI"
 		}
 	},
-	[5101] = {
-		id = 5101,
-		damage = "54 x 4",
-		base = 5100,
+	[5401] = {
+		id = 5401,
+		damage = "55 x 3",
+		base = 5400,
 		weapon_id = {
-			5101
+			5401
 		}
 	},
-	[5102] = {
-		id = 5102,
-		damage = "62 x 4",
-		base = 5100,
+	[5402] = {
+		id = 5402,
+		damage = "63 x 3",
+		base = 5400,
 		weapon_id = {
-			5102
+			5402
 		}
 	},
-	[5103] = {
-		id = 5103,
-		damage = "70 x 4",
-		base = 5100,
+	[5403] = {
+		id = 5403,
+		damage = "72 x 3",
+		base = 5400,
 		weapon_id = {
-			5103
+			5403
 		}
 	},
-	[5120] = {
-		name = "533mm四連装魚雷",
+	[5420] = {
+		name = "550mm三連装魚雷発射管",
 		speciality = "雷撃",
 		type = 5,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "5100",
+		icon = "5400",
 		attribute_2 = "torpedo",
 		rarity = 3,
-		damage = "50 x 4",
-		nationality = 0,
+		damage = "52 x 3",
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5120,
+		id = 5420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -141,7 +149,7 @@ pg.equip_data_statistics_71 = {
 			},
 			{
 				4,
-				1403
+				1402
 			},
 			6,
 			10,
@@ -149,7 +157,7 @@ pg.equip_data_statistics_71 = {
 			12
 		},
 		weapon_id = {
-			5120
+			5420
 		},
 		skill_id = {},
 		part_main = {
@@ -166,75 +174,75 @@ pg.equip_data_statistics_71 = {
 		},
 		equip_parameters = {},
 		label = {
-			"UN",
+			"FFNF",
 			"ST",
 			"TP",
-			"QUAD"
+			"TRI"
 		}
 	},
-	[5121] = {
-		id = 5121,
-		damage = "59 x 4",
-		base = 5120,
+	[5421] = {
+		id = 5421,
+		damage = "61 x 3",
+		base = 5420,
 		weapon_id = {
-			5121
+			5421
 		}
 	},
-	[5122] = {
-		id = 5122,
-		damage = "68 x 4",
-		base = 5120,
+	[5422] = {
+		id = 5422,
+		damage = "70 x 3",
+		base = 5420,
 		weapon_id = {
-			5122
+			5422
 		}
 	},
-	[5123] = {
-		id = 5123,
-		damage = "77 x 4",
-		base = 5120,
+	[5423] = {
+		id = 5423,
+		damage = "79 x 3",
+		base = 5420,
 		weapon_id = {
-			5123
+			5423
 		}
 	},
-	[5124] = {
-		id = 5124,
-		damage = "86 x 4",
-		base = 5120,
+	[5424] = {
+		id = 5424,
+		damage = "88 x 3",
+		base = 5420,
 		weapon_id = {
-			5124
+			5424
 		}
 	},
-	[5125] = {
-		id = 5125,
-		damage = "95 x 4",
-		base = 5120,
+	[5425] = {
+		id = 5425,
+		damage = "98 x 3",
+		base = 5420,
 		weapon_id = {
-			5125
+			5425
 		}
 	},
-	[5126] = {
-		id = 5126,
-		damage = "104 x 4",
-		base = 5120,
+	[5426] = {
+		id = 5426,
+		damage = "108 x 3",
+		base = 5420,
 		weapon_id = {
-			5126
+			5426
 		}
 	},
-	[5140] = {
-		name = "533mm四連装魚雷",
+	[5440] = {
+		name = "550mm三連装魚雷発射管",
 		speciality = "雷撃",
 		type = 5,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "5100",
+		icon = "5400",
 		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "56 x 4",
-		nationality = 0,
+		damage = "58 x 3",
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5140,
+		id = 5440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -251,7 +259,7 @@ pg.equip_data_statistics_71 = {
 			},
 			{
 				4,
-				1403
+				1402
 			},
 			6,
 			10,
@@ -259,7 +267,7 @@ pg.equip_data_statistics_71 = {
 			12
 		},
 		weapon_id = {
-			5140
+			5440
 		},
 		skill_id = {},
 		part_main = {
@@ -276,18 +284,18 @@ pg.equip_data_statistics_71 = {
 		},
 		equip_parameters = {},
 		label = {
-			"UN",
+			"FFNF",
 			"ST",
 			"TP",
-			"QUAD"
+			"TRI"
 		}
 	},
-	[5141] = {
-		id = 5141,
-		damage = "66 x 4",
-		base = 5140,
+	[5441] = {
+		id = 5441,
+		damage = "68 x 3",
+		base = 5440,
 		weapon_id = {
-			5141
+			5441
 		}
 	}
 }

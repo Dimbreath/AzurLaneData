@@ -2,46 +2,6 @@ pg = pg or {}
 pg.weapon_property_93 = {}
 
 function ()
-	uv0.weapon_property_93[52806] = {
-		id = 52806,
-		damage = 269,
-		base = 52800
-	}
-	uv0.weapon_property_93[52807] = {
-		id = 52807,
-		damage = 291,
-		base = 52800
-	}
-	uv0.weapon_property_93[52808] = {
-		id = 52808,
-		damage = 313,
-		base = 52800
-	}
-	uv0.weapon_property_93[52809] = {
-		id = 52809,
-		damage = 335,
-		base = 52800
-	}
-	uv0.weapon_property_93[52810] = {
-		id = 52810,
-		damage = 357,
-		base = 52800
-	}
-	uv0.weapon_property_93[52811] = {
-		id = 52811,
-		damage = 371,
-		base = 52800
-	}
-	uv0.weapon_property_93[52812] = {
-		id = 52812,
-		damage = 393,
-		base = 52800
-	}
-	uv0.weapon_property_93[52813] = {
-		id = 52813,
-		damage = 421,
-		base = 52800
-	}
 	uv0.weapon_property_93[52820] = {
 		action_index = "",
 		range = 500,
@@ -467,5 +427,89 @@ function ()
 		id = 52931,
 		damage = 434,
 		base = 52920
+	}
+	uv0.weapon_property_93[52932] = {
+		id = 52932,
+		damage = 459,
+		base = 52920
+	}
+	uv0.weapon_property_93[52933] = {
+		id = 52933,
+		damage = 492,
+		base = 52920
+	}
+	uv0.weapon_property_93[52940] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 13,
+		shakescreen = 0,
+		name = "1 x 2000lb 爆弾",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 13,
+		charge_param = "",
+		damage = 182,
+		corrected = 100,
+		min_range = 0,
+		id = 52940,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2125
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_93[52941] = {
+		id = 52941,
+		damage = 209,
+		base = 52940
+	}
+	uv0.weapon_property_93[52942] = {
+		id = 52942,
+		damage = 236,
+		base = 52940
+	}
+	uv0.weapon_property_93[52943] = {
+		id = 52943,
+		damage = 263,
+		base = 52940
+	}
+	uv0.weapon_property_93[52944] = {
+		id = 52944,
+		damage = 290,
+		base = 52940
+	}
+	uv0.weapon_property_93[52945] = {
+		id = 52945,
+		damage = 317,
+		base = 52940
+	}
+	uv0.weapon_property_93[52946] = {
+		id = 52946,
+		damage = 344,
+		base = 52940
 	}
 end()

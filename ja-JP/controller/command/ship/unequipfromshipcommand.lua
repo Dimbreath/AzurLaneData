@@ -43,28 +43,25 @@ function slot0.execute(slot0, slot1)
 		pos = slot4
 	}, 12007, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(EquipmentProxy)
+			uv0:updateEquip(uv1, nil)
+			uv2:updateShip(uv0)
+			getProxy(EquipmentProxy):addEquipment(uv3)
+			uv4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, uv0)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv3.config.name), "red")
 
-			if uv0:hasSkin() then
-				uv1:updateEquipmentSkin(uv2, 0)
-				slot1:addEquipmentSkin(uv0.skinId, 1)
-
-				uv0.skinId = 0
-
-				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
+			if uv0:getEquipSkin(uv1) > 0 and not uv0:checkCanEquipSkin(uv1, uv0:getEquipSkin(uv1)) then
+				uv4:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
+					equipmentSkinId = 0,
+					shipId = uv5,
+					pos = uv1
+				})
 			end
-
-			uv1:updateEquip(uv2, nil)
-			uv3:updateShip(uv1)
-			slot1:addEquipment(uv0)
-			uv4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, uv1)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv0.config.name), "red")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 		end
 
-		if uv5 then
-			uv5()
+		if uv6 then
+			uv6()
 		end
 	end)
 end

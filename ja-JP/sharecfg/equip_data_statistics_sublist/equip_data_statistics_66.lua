@@ -1,213 +1,311 @@
 pg = pg or {}
 pg.equip_data_statistics_66 = {
-	[4102] = {
-		id = 4102,
-		damage = "24 x 3",
-		base = 4100,
+	[4350] = {
+		id = 4350,
+		base = 4340,
+		ammo_info = {
+			{
+				8,
+				53250
+			}
+		},
 		weapon_id = {
-			4102
+			4350
 		}
 	},
-	[4103] = {
-		id = 4103,
-		damage = "26 x 3",
-		base = 4100,
+	[4351] = {
+		anti_siren = 100,
+		base = 4340,
+		id = 4351,
+		ammo_info = {
+			{
+				8,
+				53250
+			}
+		},
 		weapon_id = {
-			4103
+			4351
 		}
 	},
-	[4120] = {
-		name = "改良型爆雷投射機",
-		speciality = "対潜",
-		type = 14,
+	[5000] = {
+		name = "533mm三連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 1,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "5000",
+		damage = "46 x 3",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[5001] = {
+		id = 5001,
+		damage = "54 x 3",
+		base = 5000,
+		weapon_id = {
+			5001
+		}
+	},
+	[5002] = {
+		id = 5002,
+		damage = "62 x 3",
+		base = 5000,
+		weapon_id = {
+			5002
+		}
+	},
+	[5003] = {
+		id = 5003,
+		damage = "70 x 3",
+		base = 5000,
+		weapon_id = {
+			5003
+		}
+	},
+	[5020] = {
+		name = "533mm三連装魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 2,
 		descrip = "0",
-		value_2 = 12,
-		icon = "4100",
-		attribute_2 = "antisub",
-		rarity = 3,
-		damage = "24 x 3",
-		nationality = 1,
-		ammo = 8,
+		value_2 = 5,
+		icon = "5000",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "50 x 3",
+		nationality = 0,
+		ammo = 5,
 		value_3 = 0,
-		id = 4120,
+		id = 5020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				7,
-				1812
+				3,
+				1800
 			}
 		},
 		equip_info = {
-			1,
-			2,
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			4120
+			5020
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2
+			2,
+			3,
+			18
 		},
 		part_sub = {
 			1,
-			2
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"DC"
+			"UN",
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[4121] = {
-		id = 4121,
-		damage = "26 x 3",
-		base = 4120,
+	[5021] = {
+		id = 5021,
+		damage = "59 x 3",
+		base = 5020,
 		weapon_id = {
-			4121
+			5021
 		}
 	},
-	[4122] = {
-		id = 4122,
-		damage = "28 x 3",
-		base = 4120,
+	[5022] = {
+		id = 5022,
+		damage = "68 x 3",
+		base = 5020,
 		weapon_id = {
-			4122
+			5022
 		}
 	},
-	[4123] = {
-		id = 4123,
-		damage = "30 x 3",
-		base = 4120,
+	[5023] = {
+		id = 5023,
+		damage = "77 x 3",
+		base = 5020,
 		weapon_id = {
-			4123
+			5023
 		}
 	},
-	[4124] = {
-		id = 4124,
-		damage = "33 x 3",
-		base = 4120,
-		weapon_id = {
-			4124
-		}
-	},
-	[4125] = {
-		id = 4125,
-		damage = "36 x 3",
-		base = 4120,
-		weapon_id = {
-			4125
-		}
-	},
-	[4126] = {
-		id = 4126,
-		damage = "39 x 3",
-		base = 4120,
-		weapon_id = {
-			4126
-		}
-	},
-	[4140] = {
-		name = "改良型爆雷投射機",
-		speciality = "対潜",
-		type = 14,
+	[5040] = {
+		name = "533mm三連装魚雷",
+		speciality = "雷撃",
+		type = 5,
 		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "4100",
-		attribute_2 = "antisub",
-		rarity = 4,
-		damage = "27 x 3",
-		nationality = 1,
-		ammo = 8,
+		value_2 = 12,
+		icon = "5000",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "56 x 3",
+		nationality = 0,
+		ammo = 5,
 		value_3 = 0,
-		id = 4140,
+		id = 5040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
-				7,
-				1812
+				3,
+				1800
 			}
 		},
 		equip_info = {
-			1,
-			2,
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			4140
+			5040
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2
+			2,
+			3,
+			18
 		},
 		part_sub = {
 			1,
-			2
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"DC"
+			"UN",
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[4141] = {
-		id = 4141,
-		damage = "30 x 3",
-		base = 4140,
+	[5041] = {
+		id = 5041,
+		damage = "66 x 3",
+		base = 5040,
 		weapon_id = {
-			4141
+			5041
 		}
 	},
-	[4142] = {
-		id = 4142,
-		damage = "33 x 3",
-		base = 4140,
+	[5042] = {
+		id = 5042,
+		damage = "76 x 3",
+		base = 5040,
 		weapon_id = {
-			4142
+			5042
 		}
 	},
-	[4143] = {
-		id = 4143,
-		damage = "36 x 3",
-		base = 4140,
+	[5043] = {
+		id = 5043,
+		damage = "86 x 3",
+		base = 5040,
 		weapon_id = {
-			4143
+			5043
 		}
 	},
-	[4144] = {
-		id = 4144,
-		damage = "39 x 3",
-		base = 4140,
+	[5044] = {
+		id = 5044,
+		damage = "96 x 3",
+		base = 5040,
 		weapon_id = {
-			4144
+			5044
 		}
 	},
-	[4145] = {
-		id = 4145,
-		damage = "42 x 3",
-		base = 4140,
+	[5045] = {
+		id = 5045,
+		damage = "106 x 3",
+		base = 5040,
 		weapon_id = {
-			4145
+			5045
 		}
 	},
-	[4146] = {
-		id = 4146,
-		damage = "45 x 3",
-		base = 4140,
+	[5046] = {
+		id = 5046,
+		damage = "116 x 3",
+		base = 5040,
 		weapon_id = {
-			4146
+			5046
 		}
 	}
 }

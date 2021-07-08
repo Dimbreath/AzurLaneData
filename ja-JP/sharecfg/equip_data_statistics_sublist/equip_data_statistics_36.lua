@@ -1,210 +1,134 @@
 pg = pg or {}
 pg.equip_data_statistics_36 = {
-	[1545] = {
-		id = 1545,
-		value_2 = 10,
+	[1742] = {
+		id = 1742,
+		value_2 = 28,
+		value_1 = "11",
+		base = 1740
+	},
+	[1743] = {
+		id = 1743,
+		value_2 = 32,
+		value_1 = "12",
+		base = 1740
+	},
+	[1744] = {
+		id = 1744,
+		value_2 = 36,
+		value_1 = "13",
+		base = 1740
+	},
+	[1745] = {
+		id = 1745,
+		value_2 = 40,
+		value_1 = "15",
+		base = 1740
+	},
+	[1746] = {
+		id = 1746,
+		value_2 = 44,
+		value_1 = "17",
+		base = 1740
+	},
+	[1747] = {
+		id = 1747,
+		value_2 = 48,
+		value_1 = "19",
+		base = 1740
+	},
+	[1760] = {
+		name = "強化油圧舵",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 1760,
+		value_2 = 24,
+		icon = "1760",
+		value_1 = "16",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "操艦用の舵。回避能力を上げることができる",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6270
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[1761] = {
+		id = 1761,
+		value_2 = 27,
+		value_1 = "18",
+		base = 1760
+	},
+	[1762] = {
+		id = 1762,
+		value_2 = 30,
+		value_1 = "20",
+		base = 1760
+	},
+	[1763] = {
+		id = 1763,
+		value_2 = 33,
+		value_1 = "22",
+		base = 1760
+	},
+	[1764] = {
+		id = 1764,
+		value_2 = 36,
 		value_1 = "24",
-		base = 1540
+		base = 1760
 	},
-	[1546] = {
-		id = 1546,
-		value_2 = 11,
+	[1765] = {
+		id = 1765,
+		value_2 = 40,
 		value_1 = "26",
-		base = 1540
+		base = 1760
 	},
-	[1547] = {
-		id = 1547,
-		value_2 = 12,
+	[1766] = {
+		id = 1766,
+		value_2 = 44,
 		value_1 = "28",
-		base = 1540
+		base = 1760
 	},
-	[1548] = {
-		id = 1548,
-		value_2 = 13,
-		value_1 = "30",
-		base = 1540
+	[1767] = {
+		id = 1767,
+		value_2 = 48,
+		value_1 = "31",
+		base = 1760
 	},
-	[1549] = {
-		id = 1549,
-		value_2 = 14,
-		value_1 = "32",
-		base = 1540
+	[1768] = {
+		id = 1768,
+		value_2 = 52,
+		value_1 = "34",
+		base = 1760
 	},
-	[1550] = {
-		id = 1550,
-		value_2 = 15,
-		value_1 = "35",
-		base = 1540
+	[1769] = {
+		id = 1769,
+		value_2 = 56,
+		value_1 = "37",
+		base = 1760
 	},
-	[1551] = {
-		id = 1551,
-		anti_siren = 100,
-		base = 1540,
-		value_2 = 16,
-		value_1 = "38"
-	},
-	[1552] = {
-		id = 1552,
-		anti_siren = 200,
-		base = 1540,
-		value_2 = 17,
-		value_1 = "41"
-	},
-	[1553] = {
-		id = 1553,
-		anti_siren = 300,
-		base = 1540,
-		value_2 = 18,
-		value_1 = "44"
-	},
-	[1600] = {
-		name = "電気式揚弾機",
-		tech = 1,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "reload",
-		value_2 = 0,
-		icon = "1600",
-		value_1 = "2",
-		descrip = "電動揚弾装置。装填と火力を上げることができる",
-		rarity = 1,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 1600,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1601] = {
-		id = 1601,
-		attribute_2 = "cannon",
-		value_2 = 1,
-		base = 1600
-	},
-	[1602] = {
-		value_2 = 1,
-		base = 1600,
-		id = 1602,
-		value_1 = "3",
-		attribute_2 = "cannon"
-	},
-	[1603] = {
-		value_2 = 2,
-		base = 1600,
-		id = 1603,
-		value_1 = "3",
-		attribute_2 = "cannon"
-	},
-	[1620] = {
-		name = "電気式揚弾機",
-		tech = 2,
-		type = 10,
-		speciality = "なし",
-		id = 1620,
-		value_2 = 1,
-		icon = "1600",
-		value_1 = "5",
-		attribute_2 = "cannon",
-		rarity = 2,
-		descrip = "電動揚弾装置。装填と火力を上げることができる",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "reload",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1621] = {
-		id = 1621,
-		value_2 = 2,
-		base = 1620
-	},
-	[1622] = {
-		id = 1622,
-		value_2 = 2,
-		value_1 = "6",
-		base = 1620
+	[1770] = {
+		id = 1770,
+		value_2 = 60,
+		value_1 = "40",
+		base = 1760
 	}
 }

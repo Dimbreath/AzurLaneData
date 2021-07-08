@@ -1,182 +1,194 @@
 pg = pg or {}
 pg.equip_data_statistics_112 = {
-	[15102] = {
-		id = 15102,
-		damage = "74 x 3",
-		base = 15100,
+	[16065] = {
+		id = 16065,
+		damage = "44/回",
+		base = 16060,
 		weapon_id = {
-			15102
+			16065
 		}
 	},
-	[15103] = {
-		id = 15103,
-		damage = "82 x 3",
-		base = 15100,
+	[16066] = {
+		id = 16066,
+		damage = "47/回",
+		base = 16060,
 		weapon_id = {
-			15103
+			16066
 		}
 	},
-	[15104] = {
-		id = 15104,
-		damage = "91 x 3",
-		base = 15100,
+	[16067] = {
+		id = 16067,
+		damage = "50/回",
+		base = 16060,
 		weapon_id = {
-			15104
+			16067
 		}
 	},
-	[15105] = {
-		id = 15105,
-		damage = "100 x 3",
-		base = 15100,
+	[16068] = {
+		id = 16068,
+		damage = "53/回",
+		base = 16060,
 		weapon_id = {
-			15105
+			16068
 		}
 	},
-	[15106] = {
-		id = 15106,
-		damage = "109 x 3",
-		base = 15100,
+	[16069] = {
+		id = 16069,
+		damage = "57/回",
+		base = 16060,
 		weapon_id = {
-			15106
+			16069
 		}
 	},
-	[15120] = {
-		name = "潜水艦用Mark16魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 2,
+	[16070] = {
+		id = 16070,
+		damage = "61/回",
+		base = 16060,
+		weapon_id = {
+			16070
+		}
+	},
+	[16071] = {
+		anti_siren = 100,
+		damage = "61/回",
+		base = 16060,
+		id = 16071,
+		weapon_id = {
+			16071
+		}
+	},
+	[16080] = {
+		name = "76mm連装RF砲Mk27",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
 		descrip = "0",
-		value_2 = 25,
-		icon = "15100",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "65 x 3",
+		value_2 = 45,
+		icon = "16080",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "33/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 15120,
+		id = 16080,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1822
-			}
-		},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1822
-			},
-			{
-				4,
-				1602
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			15120
+			16080
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
-			"SS",
-			"TP"
+			"ST",
+			"AA"
 		}
 	},
-	[15121] = {
-		id = 15121,
-		damage = "74 x 3",
-		base = 15120,
+	[16081] = {
+		id = 16081,
+		damage = "39/回",
+		base = 16080,
 		weapon_id = {
-			15121
+			16081
 		}
 	},
-	[15122] = {
-		id = 15122,
-		damage = "83 x 3",
-		base = 15120,
+	[16082] = {
+		id = 16082,
+		damage = "45/回",
+		base = 16080,
 		weapon_id = {
-			15122
+			16082
 		}
 	},
-	[15123] = {
-		id = 15123,
-		damage = "93 x 3",
-		base = 15120,
+	[16083] = {
+		id = 16083,
+		damage = "51/回",
+		base = 16080,
 		weapon_id = {
-			15123
+			16083
 		}
 	},
-	[15124] = {
-		id = 15124,
-		damage = "103 x 3",
-		base = 15120,
+	[16084] = {
+		id = 16084,
+		damage = "57/回",
+		base = 16080,
 		weapon_id = {
-			15124
+			16084
 		}
 	},
-	[15125] = {
-		id = 15125,
-		damage = "113 x 3",
-		base = 15120,
+	[16085] = {
+		id = 16085,
+		damage = "63/回",
+		base = 16080,
 		weapon_id = {
-			15125
+			16085
 		}
 	},
-	[15126] = {
-		id = 15126,
-		damage = "123 x 3",
-		base = 15120,
+	[16086] = {
+		id = 16086,
+		damage = "69/回",
+		base = 16080,
 		weapon_id = {
-			15126
+			16086
 		}
 	},
-	[15127] = {
-		id = 15127,
-		damage = "133 x 3",
-		base = 15120,
+	[16087] = {
+		id = 16087,
+		damage = "75/回",
+		base = 16080,
 		weapon_id = {
-			15127
+			16087
 		}
 	},
-	[15128] = {
-		id = 15128,
-		damage = "143 x 3",
-		base = 15120,
+	[16088] = {
+		id = 16088,
+		damage = "81/回",
+		base = 16080,
 		weapon_id = {
-			15128
+			16088
 		}
 	},
-	[15129] = {
-		id = 15129,
-		damage = "153 x 3",
-		base = 15120,
+	[16089] = {
+		id = 16089,
+		damage = "87/回",
+		base = 16080,
 		weapon_id = {
-			15129
-		}
-	},
-	[15130] = {
-		id = 15130,
-		damage = "163 x 3",
-		base = 15120,
-		weapon_id = {
-			15130
+			16089
 		}
 	}
 }

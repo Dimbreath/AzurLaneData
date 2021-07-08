@@ -680,6 +680,16 @@ pg.player_resource = {
 		name = "guild_boss_damage",
 		itemid = 69000
 	},
+	[2008] = {
+		id = 2008,
+		name = "contribution_worldboss708",
+		itemid = 59225
+	},
+	[2009] = {
+		id = 2009,
+		name = "worldboss708_ticket",
+		itemid = 59226
+	},
 	[40275] = {
 		id = 40275,
 		name = "Twouxiang_pt",
@@ -1094,6 +1104,12 @@ pg.player_resource = {
 		guild_boss_damage = {
 			3000
 		},
+		contribution_worldboss708 = {
+			2008
+		},
+		worldboss708_ticket = {
+			2009
+		},
 		Twouxiang_pt = {
 			40275
 		}
@@ -1235,6 +1251,8 @@ pg.player_resource = {
 		2006,
 		2007,
 		3000,
+		2008,
+		2009,
 		40275
 	}
 }

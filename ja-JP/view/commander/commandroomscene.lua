@@ -121,6 +121,7 @@ function slot0.init(slot0)
 	slot0.reservePanel = CommanderReservePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.detailPage = CommanderDetailPage.New(slot0.mainTF, slot0.event, slot0.contextData)
 	slot0.boxesPanel = CommanderBoxesPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.catterySettlementPage = CatterySettlementPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 
 	slot0:enterAnim(function ()
 		if uv0.isMultSelectMode then
@@ -131,6 +132,8 @@ function slot0.init(slot0)
 		end
 
 		uv0:tryPlayStroy()
+		uv0:DisplayCatterySettlement()
+		uv0:emit(CommandRoomMediator.ON_OPEN_SCENE)
 	end)
 end
 
@@ -390,6 +393,16 @@ function slot0.didEnter(slot0)
 	triggerButton(slot0.ascBtn, true)
 	slot0:updateGold()
 	slot0:UpdateHomeTip()
+end
+
+function slot0.DisplayCatterySettlement(slot0)
+	slot1 = getProxy(CommanderProxy):GetCommanderHome()
+
+	print(slot1:ShouldSettleCattery(), slot0.contextData.fromMediatorName == MainUIMediator.__cname, not (pg.NewStoryMgr.GetInstance():IsRunning() or pg.GuideMgr.GetInstance():isRuning()))
+
+	if slot1 and slot1:ShouldSettleCattery() and slot2 and not slot3 then
+		slot0.catterySettlementPage:ExecuteAction("Show", Clone(slot1))
+	end
 end
 
 function slot0.paintingView(slot0)
@@ -773,9 +786,9 @@ function slot0.updateCommanders(slot0)
 			if (uv0.activeCommanderId == slot0.id and 1 or 0) == (uv0.activeCommanderId == slot1.id and 1 or 0) then
 				if uv1.sortData == "id" then
 					return (uv1.asc and {
-						slot0.configId < slot1.configId
+						slot0.id < slot1.id
 					} or {
-						slot1.configId < slot0.configId
+						slot1.id < slot0.id
 					})[1]
 				elseif slot0["get" .. uv1.sortData](slot0) == slot1["get" .. uv1.sortData](slot1) then
 					return (uv1.asc and {
@@ -932,6 +945,7 @@ function slot0.willExit(slot0)
 	slot0.reservePanel:Destroy()
 	slot0.detailPage:Destroy()
 	slot0.boxesPanel:Destroy()
+	slot0.catterySettlementPage:Destroy()
 
 	slot0.contextData.sortData = slot0.sortData
 	slot0.contextData.sortData.asc = not slot0.contextData.sortData.asc

@@ -1,330 +1,272 @@
 pg = pg or {}
 pg.equip_data_statistics_288 = {
-	[39248] = {
-		id = 39248,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50548
-			},
-			{
-				6,
-				50848
-			},
-			{
-				5,
-				52248
-			}
-		},
+	[43150] = {
+		id = 43150,
+		damage = "55 x 6",
+		base = 43140,
 		weapon_id = {
-			39248
+			43150
 		}
 	},
-	[39249] = {
-		id = 39249,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50549
-			},
-			{
-				6,
-				50849
-			},
-			{
-				5,
-				52249
-			}
-		},
-		weapon_id = {
-			39249
-		}
-	},
-	[39250] = {
-		id = 39250,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50550
-			},
-			{
-				6,
-				50850
-			},
-			{
-				5,
-				52250
-			}
-		},
-		weapon_id = {
-			39250
-		}
-	},
-	[39251] = {
+	[43151] = {
 		anti_siren = 100,
-		base = 39240,
-		id = 39251,
-		ammo_info = {
-			{
-				6,
-				50551
-			},
-			{
-				6,
-				50851
-			},
-			{
-				5,
-				52251
-			}
-		},
+		damage = "55 x 6",
+		base = 43140,
+		id = 43151,
 		weapon_id = {
-			39251
+			43151
 		}
 	},
-	[39300] = {
-		name = "晴嵐",
-		type = 12,
-		speciality = "爆撃",
-		rarity = 4,
-		tech = 0,
-		descrip = "水上特殊攻撃機晴嵐（M6A1）。13mm機銃と800kg爆弾を搭載可能",
-		value_2 = 25,
-		icon = "39300",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
+	[44000] = {
+		name = "283mmSKC34三連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 1,
+		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+		value_2 = 5,
+		icon = "44000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "34 x 3",
+		nationality = 4,
+		ammo = 3,
 		value_3 = 0,
-		id = 39300,
+		id = 44000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50840
-			},
-			{
-				5,
-				53260
+				2,
+				1510
 			}
 		},
 		equip_info = {
+			1,
+			2,
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			39300
+			44000
 		},
-		skill_id = {
-			6370
-		},
+		skill_id = {},
 		part_main = {
+			4,
+			5,
 			10,
-			17
+			13
 		},
-		part_sub = {
-			10,
-			17
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"ST",
-			"SCOUT"
+			"KMS",
+			"BB",
+			"MG"
 		}
 	},
-	[39301] = {
-		id = 39301,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50841
-			},
-			{
-				5,
-				53261
-			}
-		},
+	[44001] = {
+		id = 44001,
+		damage = "38 x 3",
+		base = 44000,
 		weapon_id = {
-			39301
+			44001
 		}
 	},
-	[39302] = {
-		id = 39302,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50842
-			},
-			{
-				5,
-				53262
-			}
-		},
+	[44002] = {
+		id = 44002,
+		damage = "42 x 3",
+		base = 44000,
 		weapon_id = {
-			39302
+			44002
 		}
 	},
-	[39303] = {
-		id = 39303,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50843
-			},
-			{
-				5,
-				53263
-			}
-		},
+	[44003] = {
+		id = 44003,
+		damage = "46 x 3",
+		base = 44000,
 		weapon_id = {
-			39303
+			44003
 		}
 	},
-	[39304] = {
-		id = 39304,
-		base = 39300,
+	[44020] = {
+		name = "283mmSKC34三連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+		value_2 = 12,
+		icon = "44000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "37 x 3",
+		nationality = 4,
+		ammo = 3,
+		value_3 = 0,
+		id = 44020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50844
-			},
-			{
-				5,
-				53264
+				2,
+				1510
 			}
 		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			39304
+			44020
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
 		}
 	},
-	[39305] = {
-		id = 39305,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50845
-			},
-			{
-				5,
-				53265
-			}
-		},
+	[44021] = {
+		id = 44021,
+		damage = "42 x 3",
+		base = 44020,
 		weapon_id = {
-			39305
+			44021
 		}
 	},
-	[39306] = {
-		id = 39306,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50846
-			},
-			{
-				5,
-				53266
-			}
-		},
+	[44022] = {
+		id = 44022,
+		damage = "46 x 3",
+		base = 44020,
 		weapon_id = {
-			39306
+			44022
 		}
 	},
-	[39307] = {
-		id = 39307,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50847
-			},
-			{
-				5,
-				53267
-			}
-		},
+	[44023] = {
+		id = 44023,
+		damage = "51 x 3",
+		base = 44020,
 		weapon_id = {
-			39307
+			44023
 		}
 	},
-	[39308] = {
-		id = 39308,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50848
-			},
-			{
-				5,
-				53268
-			}
-		},
+	[44024] = {
+		id = 44024,
+		damage = "55 x 3",
+		base = 44020,
 		weapon_id = {
-			39308
+			44024
 		}
 	},
-	[39309] = {
-		id = 39309,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50849
-			},
-			{
-				5,
-				53269
-			}
-		},
+	[44025] = {
+		id = 44025,
+		damage = "59 x 3",
+		base = 44020,
 		weapon_id = {
-			39309
+			44025
 		}
 	},
-	[39310] = {
-		id = 39310,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50850
-			},
-			{
-				5,
-				53270
-			}
-		},
+	[44026] = {
+		id = 44026,
+		damage = "64 x 3",
+		base = 44020,
 		weapon_id = {
-			39310
+			44026
 		}
 	},
-	[39311] = {
-		anti_siren = 100,
-		base = 39300,
-		id = 39311,
+	[44040] = {
+		name = "283mmSKC34三連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+		value_2 = 25,
+		icon = "44000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "40 x 3",
+		nationality = 4,
+		ammo = 3,
+		value_3 = 0,
+		id = 44040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50851
-			},
-			{
-				5,
-				53271
+				2,
+				1510
 			}
 		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			39311
+			44040
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44041] = {
+		id = 44041,
+		damage = "46 x 3",
+		base = 44040,
+		weapon_id = {
+			44041
+		}
+	},
+	[44042] = {
+		id = 44042,
+		damage = "50 x 3",
+		base = 44040,
+		weapon_id = {
+			44042
+		}
+	},
+	[44043] = {
+		id = 44043,
+		damage = "56 x 3",
+		base = 44040,
+		weapon_id = {
+			44043
 		}
 	}
 }

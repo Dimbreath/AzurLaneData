@@ -1,304 +1,399 @@
 pg = pg or {}
 pg.equip_data_statistics_127 = {
-	[16449] = {
-		id = 16449,
-		damage = "112/回",
-		base = 16440,
-		weapon_id = {
-			16449
-		}
-	},
-	[16450] = {
-		id = 16450,
-		damage = "120/回",
-		base = 16440,
-		weapon_id = {
-			16450
-		}
-	},
-	[16451] = {
-		anti_siren = 100,
-		damage = "120/回",
-		base = 16440,
-		id = 16451,
-		weapon_id = {
-			16451
-		}
-	},
-	[16452] = {
-		anti_siren = 200,
-		damage = "120/回",
-		base = 16440,
-		id = 16452,
-		weapon_id = {
-			16452
-		}
-	},
-	[16453] = {
-		anti_siren = 300,
-		damage = "120/回",
-		base = 16440,
-		id = 16453,
-		weapon_id = {
-			16453
-		}
-	},
-	[17000] = {
-		name = "F2Aバッファロー",
-		tech = 1,
-		speciality = "航空",
-		type = 7,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "17000",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17000,
-			81000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17001] = {
-		id = 17001,
-		base = 17000,
-		ammo_info = {
-			{
-				6,
-				50301
-			}
-		},
-		weapon_id = {
-			17001,
-			81001
-		}
-	},
-	[17002] = {
-		id = 17002,
-		base = 17000,
-		ammo_info = {
-			{
-				6,
-				50302
-			}
-		},
-		weapon_id = {
-			17002,
-			81002
-		}
-	},
-	[17003] = {
-		id = 17003,
-		base = 17000,
-		ammo_info = {
-			{
-				6,
-				50303
-			}
-		},
-		weapon_id = {
-			17003,
-			81003
-		}
-	},
-	[17020] = {
-		name = "F2Aバッファロー",
-		type = 7,
-		speciality = "航空",
-		rarity = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "17000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17020,
-			81020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17021] = {
-		id = 17021,
-		base = 17020,
-		ammo_info = {
-			{
-				6,
-				50321
-			}
-		},
-		weapon_id = {
-			17021,
-			81021
-		}
-	},
-	[17022] = {
-		id = 17022,
-		base = 17020,
-		ammo_info = {
-			{
-				6,
-				50322
-			}
-		},
-		weapon_id = {
-			17022,
-			81022
-		}
-	},
-	[17023] = {
-		id = 17023,
-		base = 17020,
-		ammo_info = {
-			{
-				6,
-				50323
-			}
-		},
-		weapon_id = {
-			17023,
-			81023
-		}
-	},
-	[17040] = {
-		name = "F2Aバッファロー",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "17000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17040,
-			81040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17041] = {
-		id = 17041,
-		base = 17040,
+	[17341] = {
+		id = 17341,
+		base = 17340,
 		ammo_info = {
 			{
 				6,
 				50341
+			},
+			{
+				6,
+				50541
+			},
+			{
+				5,
+				52341
 			}
 		},
 		weapon_id = {
-			17041,
-			81041
+			17341,
+			81341
 		}
 	},
-	[17042] = {
-		id = 17042,
-		base = 17040,
+	[17342] = {
+		id = 17342,
+		base = 17340,
 		ammo_info = {
 			{
 				6,
 				50342
+			},
+			{
+				6,
+				50542
+			},
+			{
+				5,
+				52342
 			}
 		},
 		weapon_id = {
-			17042,
-			81042
+			17342,
+			81342
+		}
+	},
+	[17343] = {
+		id = 17343,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50343
+			},
+			{
+				6,
+				50543
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			17343,
+			81343
+		}
+	},
+	[17344] = {
+		id = 17344,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50344
+			},
+			{
+				6,
+				50544
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			17344,
+			81344
+		}
+	},
+	[17345] = {
+		id = 17345,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50345
+			},
+			{
+				6,
+				50545
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			17345,
+			81345
+		}
+	},
+	[17346] = {
+		id = 17346,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50346
+			},
+			{
+				6,
+				50546
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			17346,
+			81346
+		}
+	},
+	[17347] = {
+		id = 17347,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50347
+			},
+			{
+				6,
+				50547
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			17347,
+			81347
+		}
+	},
+	[17348] = {
+		id = 17348,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50348
+			},
+			{
+				6,
+				50548
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			17348,
+			81348
+		}
+	},
+	[17349] = {
+		id = 17349,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50349
+			},
+			{
+				6,
+				50549
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			17349,
+			81349
+		}
+	},
+	[17350] = {
+		id = 17350,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50350
+			},
+			{
+				6,
+				50550
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			17350,
+			81350
+		}
+	},
+	[17351] = {
+		anti_siren = 100,
+		base = 17340,
+		id = 17351,
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			17351,
+			81351
+		}
+	},
+	[17352] = {
+		anti_siren = 200,
+		base = 17340,
+		id = 17352,
+		ammo_info = {
+			{
+				6,
+				50352
+			},
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			17352,
+			81352
+		}
+	},
+	[17353] = {
+		anti_siren = 300,
+		base = 17340,
+		id = 17353,
+		ammo_info = {
+			{
+				6,
+				50353
+			},
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			17353,
+			81353
+		}
+	},
+	[17360] = {
+		name = "F7Fタイガーキャット",
+		type = 7,
+		speciality = "航空",
+		rarity = 5,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "17360",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52760
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17360,
+			81360
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17361] = {
+		id = 17361,
+		base = 17360,
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52761
+			}
+		},
+		weapon_id = {
+			17361,
+			81361
+		}
+	},
+	[17362] = {
+		id = 17362,
+		base = 17360,
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52762
+			}
+		},
+		weapon_id = {
+			17362,
+			81362
+		}
+	},
+	[17363] = {
+		id = 17363,
+		base = 17360,
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52763
+			}
+		},
+		weapon_id = {
+			17363,
+			81363
 		}
 	}
 }

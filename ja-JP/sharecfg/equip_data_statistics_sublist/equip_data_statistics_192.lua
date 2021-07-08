@@ -1,186 +1,331 @@
 pg = pg or {}
 pg.equip_data_statistics_192 = {
-	[26442] = {
-		id = 26442,
-		damage = "31/回",
-		base = 26440,
+	[27244] = {
+		id = 27244,
+		base = 27240,
+		ammo_info = {
+			{
+				6,
+				50144
+			}
+		},
 		weapon_id = {
-			26442
+			27244,
+			82244
 		}
 	},
-	[26443] = {
-		id = 26443,
-		damage = "35/回",
-		base = 26440,
+	[27245] = {
+		id = 27245,
+		base = 27240,
+		ammo_info = {
+			{
+				6,
+				50145
+			}
+		},
 		weapon_id = {
-			26443
+			27245,
+			82245
 		}
 	},
-	[26444] = {
-		id = 26444,
-		damage = "39/回",
-		base = 26440,
+	[27246] = {
+		id = 27246,
+		base = 27240,
+		ammo_info = {
+			{
+				6,
+				50146
+			}
+		},
 		weapon_id = {
-			26444
+			27246,
+			82246
 		}
 	},
-	[26445] = {
-		id = 26445,
-		damage = "43/回",
-		base = 26440,
+	[27247] = {
+		id = 27247,
+		base = 27240,
+		ammo_info = {
+			{
+				6,
+				50147
+			}
+		},
 		weapon_id = {
-			26445
+			27247,
+			82247
 		}
 	},
-	[26446] = {
-		id = 26446,
-		damage = "47/回",
-		base = 26440,
-		weapon_id = {
-			26446
-		}
-	},
-	[26447] = {
-		id = 26447,
-		damage = "51/回",
-		base = 26440,
-		weapon_id = {
-			26447
-		}
-	},
-	[26448] = {
-		id = 26448,
-		damage = "55/回",
-		base = 26440,
-		weapon_id = {
-			26448
-		}
-	},
-	[26449] = {
-		id = 26449,
-		damage = "59/回",
-		base = 26440,
-		weapon_id = {
-			26449
-		}
-	},
-	[26450] = {
-		id = 26450,
-		damage = "63/回",
-		base = 26440,
-		weapon_id = {
-			26450
-		}
-	},
-	[26451] = {
-		anti_siren = 100,
-		damage = "63/回",
-		base = 26440,
-		id = 26451,
-		weapon_id = {
-			26451
-		}
-	},
-	[26460] = {
-		name = "120mm対空砲MarkVIII",
-		speciality = "対空",
-		type = 6,
-		tech = 0,
+	[27260] = {
+		name = "シーハリケーン",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "26460",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "41/回",
+		value_2 = 12,
+		icon = "27260",
+		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 26460,
+		id = 27260,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				6,
+				50140
+			}
+		},
 		equip_info = {
-			1,
-			2,
 			6,
-			10
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			26460
+			27260,
+			82260
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
 			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			7
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"ST",
-			"AA"
+			"CV",
+			"FT"
 		}
 	},
-	[26461] = {
-		id = 26461,
-		damage = "47/回",
-		base = 26460,
+	[27261] = {
+		id = 27261,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50141
+			}
+		},
 		weapon_id = {
-			26461
+			27261,
+			82261
 		}
 	},
-	[26462] = {
-		id = 26462,
-		damage = "53/回",
-		base = 26460,
+	[27262] = {
+		id = 27262,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50142
+			}
+		},
 		weapon_id = {
-			26462
+			27262,
+			82262
 		}
 	},
-	[26463] = {
-		id = 26463,
-		damage = "59/回",
-		base = 26460,
+	[27263] = {
+		id = 27263,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50143
+			}
+		},
 		weapon_id = {
-			26463
+			27263,
+			82263
 		}
 	},
-	[26464] = {
-		id = 26464,
-		damage = "66/回",
-		base = 26460,
+	[27264] = {
+		id = 27264,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50144
+			}
+		},
 		weapon_id = {
-			26464
+			27264,
+			82264
 		}
 	},
-	[26465] = {
-		id = 26465,
-		damage = "73/回",
-		base = 26460,
+	[27265] = {
+		id = 27265,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50145
+			}
+		},
 		weapon_id = {
-			26465
+			27265,
+			82265
+		}
+	},
+	[27266] = {
+		id = 27266,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50146
+			}
+		},
+		weapon_id = {
+			27266,
+			82266
+		}
+	},
+	[27267] = {
+		id = 27267,
+		base = 27260,
+		ammo_info = {
+			{
+				6,
+				50147
+			}
+		},
+		weapon_id = {
+			27267,
+			82267
+		}
+	},
+	[27300] = {
+		name = "シーフューリー",
+		type = 7,
+		speciality = "航空",
+		rarity = 5,
+		tech = 0,
+		descrip = "かの大戦でロイヤルが使用していたレシプロ機。空戦性能が高く評価されていた",
+		value_2 = 45,
+		icon = "27300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 27300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27300,
+			82300
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27301] = {
+		id = 27301,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			27301,
+			82301
+		}
+	},
+	[27302] = {
+		id = 27302,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52342
+			}
+		},
+		weapon_id = {
+			27302,
+			82302
+		}
+	},
+	[27303] = {
+		id = 27303,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			27303,
+			82303
+		}
+	},
+	[27304] = {
+		id = 27304,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			27304,
+			82304
 		}
 	}
 }

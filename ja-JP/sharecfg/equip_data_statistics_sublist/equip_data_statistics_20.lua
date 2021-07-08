@@ -1,48 +1,101 @@
 pg = pg or {}
 pg.equip_data_statistics_20 = {
-	[830] = {
-		id = 830,
-		value_2 = 60,
-		value_1 = "100",
-		base = 820
+	[861] = {
+		id = 861,
+		value_2 = 13,
+		base = 860
 	},
-	[831] = {
-		id = 831,
+	[862] = {
+		id = 862,
+		value_2 = 14,
+		value_1 = "9",
+		base = 860
+	},
+	[863] = {
+		id = 863,
+		value_2 = 16,
+		value_1 = "10",
+		base = 860
+	},
+	[864] = {
+		id = 864,
+		value_2 = 18,
+		value_1 = "11",
+		base = 860
+	},
+	[865] = {
+		id = 865,
+		value_2 = 20,
+		value_1 = "12",
+		base = 860
+	},
+	[866] = {
+		id = 866,
+		value_2 = 22,
+		value_1 = "13",
+		base = 860
+	},
+	[867] = {
+		id = 867,
+		value_2 = 24,
+		value_1 = "14",
+		base = 860
+	},
+	[868] = {
+		id = 868,
+		value_2 = 26,
+		value_1 = "16",
+		base = 860
+	},
+	[869] = {
+		id = 869,
+		value_2 = 28,
+		value_1 = "18",
+		base = 860
+	},
+	[870] = {
+		id = 870,
+		value_2 = 30,
+		value_1 = "20",
+		base = 860
+	},
+	[871] = {
+		id = 871,
 		anti_siren = 100,
-		base = 820,
-		value_2 = 64,
-		value_1 = "106"
+		base = 860,
+		value_2 = 32,
+		value_1 = "22"
 	},
-	[832] = {
-		id = 832,
+	[872] = {
+		id = 872,
 		anti_siren = 200,
-		base = 820,
-		value_2 = 68,
-		value_1 = "112"
+		base = 860,
+		value_2 = 34,
+		value_1 = "24"
 	},
-	[833] = {
-		id = 833,
+	[873] = {
+		id = 873,
 		anti_siren = 300,
-		base = 820,
-		value_2 = 72,
-		value_1 = "118"
+		base = 860,
+		value_2 = 36,
+		value_1 = "26"
 	},
-	[840] = {
-		name = "精鋭ダメコン饅頭(ユニオン)",
+	[880] = {
+		name = "サイン・オブ・ビクトリー",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 840,
+		id = 880,
 		value_2 = 8,
-		icon = "840",
-		value_1 = "200",
-		attribute_2 = "antiaircraft",
+		icon = "880",
+		value_1 = "20",
+		attribute_2 = "hit",
 		rarity = 5,
-		descrip = "洗練されているユニオンのダメージコントロールは、かの大戦でも数々の艦船の損失を未然に防いだ",
-		nationality = 1,
+		descrip = "「ロイヤルは各員がその義務を尽くすことを期待するわ」",
+		nationality = 2,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		attribute_1 = "cannon",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -52,81 +105,35 @@ pg.equip_data_statistics_20 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6750
+			6770
 		},
-		part_main = {},
+		part_main = {
+			4,
+			5,
+			10
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"DEV",
-			"UEDC"
+			"HMS",
+			"DEV"
 		}
 	},
-	[841] = {
-		id = 841,
-		value_1 = "230",
-		base = 840
+	[881] = {
+		id = 881,
+		value_1 = "23",
+		base = 880
 	},
-	[842] = {
-		id = 842,
+	[882] = {
+		id = 882,
 		value_2 = 9,
-		value_1 = "260",
-		base = 840
+		value_1 = "26",
+		base = 880
 	},
-	[843] = {
-		id = 843,
+	[883] = {
+		id = 883,
 		value_2 = 10,
-		value_1 = "290",
-		base = 840
-	},
-	[844] = {
-		id = 844,
-		value_2 = 11,
-		value_1 = "320",
-		base = 840
-	},
-	[845] = {
-		id = 845,
-		value_2 = 12,
-		value_1 = "350",
-		base = 840
-	},
-	[846] = {
-		id = 846,
-		value_2 = 13,
-		value_1 = "380",
-		base = 840
-	},
-	[847] = {
-		id = 847,
-		value_2 = 14,
-		value_1 = "410",
-		base = 840
-	},
-	[848] = {
-		id = 848,
-		value_2 = 16,
-		value_1 = "440",
-		base = 840
-	},
-	[849] = {
-		id = 849,
-		value_2 = 18,
-		value_1 = "470",
-		base = 840
-	},
-	[850] = {
-		id = 850,
-		value_2 = 20,
-		value_1 = "500",
-		base = 840
-	},
-	[851] = {
-		id = 851,
-		anti_siren = 100,
-		base = 840,
-		value_2 = 22,
-		value_1 = "530"
+		value_1 = "29",
+		base = 880
 	}
 }

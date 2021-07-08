@@ -1,143 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_50 = {
-	[2503] = {
-		id = 2503,
-		value_1 = "72",
-		base = 2500
+	[2808] = {
+		id = 2808,
+		value_2 = 8,
+		value_1 = "48",
+		base = 2800
 	},
-	[2520] = {
-		name = "消火装置",
-		tech = 2,
+	[2809] = {
+		id = 2809,
+		value_2 = 9,
+		value_1 = "51",
+		base = 2800
+	},
+	[2810] = {
+		id = 2810,
+		value_2 = 10,
+		value_1 = "55",
+		base = 2800
+	},
+	[2811] = {
+		id = 2811,
+		anti_siren = 100,
+		base = 2800,
+		value_2 = 11,
+		value_1 = "59"
+	},
+	[2900] = {
+		name = "従来型ソナー",
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2500",
-		value_1 = "90",
-		descrip = "ダメージコントロールに欠かせない",
+		id = 2900,
+		value_2 = 1,
+		icon = "2900",
+		value_1 = "1",
+		attribute_2 = "hit",
 		rarity = 2,
+		descrip = "0",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 2520,
+		attribute_1 = "antisub",
 		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6150
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2521] = {
-		id = 2521,
-		value_1 = "103",
-		base = 2520
-	},
-	[2522] = {
-		id = 2522,
-		value_1 = "117",
-		base = 2520
-	},
-	[2523] = {
-		id = 2523,
-		value_1 = "130",
-		base = 2520
-	},
-	[2540] = {
-		name = "消火装置",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2500",
-		value_1 = "140",
-		descrip = "ダメージコントロールに欠かせない",
-		rarity = 3,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6160
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2541] = {
-		id = 2541,
-		value_1 = "161",
-		base = 2540
-	},
-	[2542] = {
-		id = 2542,
-		value_1 = "182",
-		base = 2540
-	},
-	[2543] = {
-		id = 2543,
-		value_1 = "203",
-		base = 2540
-	},
-	[2544] = {
-		id = 2544,
-		value_1 = "224",
-		base = 2540
-	},
-	[2545] = {
-		id = 2545,
-		value_1 = "245",
-		base = 2540
-	},
-	[2546] = {
-		id = 2546,
-		value_1 = "266",
-		base = 2540
-	},
-	[2547] = {
-		id = 2547,
-		value_1 = "287",
-		base = 2540
-	},
-	[2640] = {
-		name = "九三式酸素魚雷",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2640,
-		value_2 = 3,
-		icon = "2600",
-		value_1 = "40",
-		attribute_2 = "reload",
-		rarity = 6,
-		descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 1,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
@@ -148,37 +52,158 @@ pg.equip_data_statistics_50 = {
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
+			2
 		},
 		part_sub = {
 			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
+			2
 		},
-		equip_parameters = {},
+		equip_parameters = {
+			range = 3
+		},
 		label = {
-			"IJN",
 			"DEV"
 		}
 	},
-	[2641] = {
-		id = 2641,
-		value_1 = "46",
-		base = 2640
+	[2901] = {
+		id = 2901,
+		value_2 = 2,
+		value_1 = "2",
+		base = 2900
 	},
-	[2642] = {
-		id = 2642,
+	[2902] = {
+		id = 2902,
+		value_2 = 2,
+		value_1 = "3",
+		base = 2900
+	},
+	[2903] = {
+		id = 2903,
+		value_2 = 3,
+		value_1 = "4",
+		base = 2900
+	},
+	[2920] = {
+		name = "従来型ソナー",
+		tech = 2,
+		type = 10,
+		speciality = "なし",
+		id = 2920,
+		value_2 = 2,
+		icon = "2900",
+		value_1 = "3",
+		attribute_2 = "hit",
+		rarity = 3,
+		descrip = "0",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antisub",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {
+			range = 3
+		},
+		label = {
+			"DEV"
+		}
+	},
+	[2921] = {
+		id = 2921,
+		value_2 = 3,
+		value_1 = "4",
+		base = 2920
+	},
+	[2922] = {
+		id = 2922,
+		value_2 = 3,
+		value_1 = "5",
+		base = 2920
+	},
+	[2923] = {
+		id = 2923,
 		value_2 = 4,
-		value_1 = "52",
-		base = 2640
+		value_1 = "6",
+		base = 2920
+	},
+	[2924] = {
+		id = 2924,
+		value_2 = 4,
+		value_1 = "7",
+		base = 2920
+	},
+	[2925] = {
+		id = 2925,
+		value_2 = 5,
+		value_1 = "8",
+		base = 2920
+	},
+	[2926] = {
+		id = 2926,
+		value_2 = 5,
+		value_1 = "9",
+		base = 2920
+	},
+	[2940] = {
+		name = "従来型ソナー",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 2940,
+		value_2 = 4,
+		icon = "2900",
+		value_1 = "5",
+		attribute_2 = "hit",
+		rarity = 4,
+		descrip = "0",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antisub",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6620
+		},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {
+			range = 5
+		},
+		label = {
+			"DEV"
+		}
+	},
+	[2941] = {
+		id = 2941,
+		value_1 = "6",
+		base = 2940
 	}
 }

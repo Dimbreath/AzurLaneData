@@ -1,45 +1,112 @@
 pg = pg or {}
 pg.equip_data_statistics_379 = {
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
+	[90444] = {
+		id = 90444,
+		damage = "76 x 4",
+		base = 90440,
 		weapon_id = {
-			85446
+			90444
 		}
 	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
+	[90445] = {
+		id = 90445,
+		damage = "83 x 4",
+		base = 90440,
 		weapon_id = {
-			85447
+			90445
 		}
 	},
-	[85460] = {
-		name = "180mm三連装砲B-1-P Model1932",
+	[90446] = {
+		id = 90446,
+		damage = "90 x 4",
+		base = 90440,
+		weapon_id = {
+			90446
+		}
+	},
+	[90447] = {
+		id = 90447,
+		damage = "97 x 4",
+		base = 90440,
+		weapon_id = {
+			90447
+		}
+	},
+	[90448] = {
+		id = 90448,
+		damage = "104 x 4",
+		base = 90440,
+		weapon_id = {
+			90448
+		}
+	},
+	[90449] = {
+		id = 90449,
+		damage = "112 x 4",
+		base = 90440,
+		weapon_id = {
+			90449
+		}
+	},
+	[90450] = {
+		id = 90450,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90450
+		}
+	},
+	[90451] = {
+		anti_siren = 100,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90451,
+		weapon_id = {
+			90451
+		}
+	},
+	[90452] = {
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
+		weapon_id = {
+			90452
+		}
+	},
+	[90453] = {
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
+		weapon_id = {
+			90453
+		}
+	},
+	[90500] = {
+		name = "130mm連装砲Mle1935",
 		speciality = "追尾",
-		type = 2,
+		type = 1,
 		tech = 1,
-		descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
-		value_2 = 12,
-		icon = "85460",
+		descrip = "0",
+		value_2 = 5,
+		icon = "50500",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "16 x 3",
-		nationality = 7,
-		ammo = 1,
+		rarity = 2,
+		damage = "9 x 2",
+		nationality = 8,
+		ammo = 3,
 		value_3 = 0,
-		id = 85460,
+		id = 90500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1712
+				2200
 			}
 		},
 		equip_info = {
@@ -47,11 +114,11 @@ pg.equip_data_statistics_379 = {
 			2,
 			{
 				3,
-				1712
+				2200
 			},
 			{
 				4,
-				1108
+				1011
 			},
 			6,
 			10,
@@ -59,136 +126,128 @@ pg.equip_data_statistics_379 = {
 			12
 		},
 		weapon_id = {
-			85460
+			90500
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
-			"SN",
-			"CL",
-			"MG",
-			"AP"
+			"FFNF",
+			"DD",
+			"MG"
 		}
 	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
+	[90501] = {
+		id = 90501,
+		base = 90500,
 		weapon_id = {
-			85461
+			90501
 		}
 	},
-	[85462] = {
-		id = 85462,
-		damage = "17 x 3",
-		base = 85460,
+	[90502] = {
+		id = 90502,
+		damage = "10 x 2",
+		base = 90500,
 		weapon_id = {
-			85462
+			90502
 		}
 	},
-	[85463] = {
-		id = 85463,
-		damage = "18 x 3",
-		base = 85460,
+	[90503] = {
+		id = 90503,
+		damage = "10 x 2",
+		base = 90500,
 		weapon_id = {
-			85463
+			90503
 		}
 	},
-	[85464] = {
-		id = 85464,
-		damage = "19 x 3",
-		base = 85460,
-		weapon_id = {
-			85464
-		}
-	},
-	[85465] = {
-		id = 85465,
-		damage = "20 x 3",
-		base = 85460,
-		weapon_id = {
-			85465
-		}
-	},
-	[85466] = {
-		id = 85466,
-		damage = "21 x 3",
-		base = 85460,
-		weapon_id = {
-			85466
-		}
-	},
-	[89000] = {
-		name = "ランダムワード生成器",
+	[90600] = {
+		name = "二連装37mm高射砲Mle1936",
+		speciality = "対空",
+		type = 6,
 		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89000,
-		value_2 = 6,
-		icon = "89000",
-		value_1 = "16",
-		attribute_2 = "dodge",
+		descrip = "0",
+		value_2 = 45,
+		icon = "50600",
+		attribute_2 = "antiaircraft",
 		rarity = 5,
-		descrip = "企画をするときの頼りになるアイテム。まれにしゃべりだすことがあるという噂も…？",
-		nationality = 104,
-		ammo = 10,
+		damage = "38/回",
+		nationality = 8,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 90600,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6380
+		weapon_id = {
+			90600
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"FFNF",
+			"DD",
+			"AA"
 		}
 	},
-	[89001] = {
-		id = 89001,
-		base = 89000
+	[90601] = {
+		id = 90601,
+		damage = "42/回",
+		base = 90600,
+		weapon_id = {
+			90601
+		}
 	},
-	[89002] = {
-		id = 89002,
-		value_2 = 7,
-		value_1 = "17",
-		base = 89000
-	},
-	[89003] = {
-		id = 89003,
-		value_2 = 8,
-		value_1 = "18",
-		base = 89000
-	},
-	[89004] = {
-		id = 89004,
-		value_2 = 9,
-		value_1 = "19",
-		base = 89000
-	},
-	[89005] = {
-		id = 89005,
-		value_2 = 10,
-		value_1 = "20",
-		base = 89000
-	},
-	[89006] = {
-		id = 89006,
-		value_2 = 11,
-		value_1 = "21",
-		base = 89000
+	[90602] = {
+		id = 90602,
+		damage = "46/回",
+		base = 90600,
+		weapon_id = {
+			90602
+		}
 	}
 }
