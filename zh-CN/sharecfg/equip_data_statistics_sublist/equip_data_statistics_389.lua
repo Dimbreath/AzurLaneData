@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
+	[90400] = {
+		name = "四联装380mm主炮Mle1935",
+		speciality = "跨射",
+		type = 4,
+		tech = 1,
+		descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
+		value_2 = 12,
+		icon = "50400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "40 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90400
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
+	},
 	[90401] = {
 		id = 90401,
 		damage = "46 x 4",
@@ -171,14 +224,6 @@ pg.equip_data_statistics_389 = {
 		base = 90420,
 		weapon_id = {
 			90429
-		}
-	},
-	[90430] = {
-		id = 90430,
-		damage = "110 x 4",
-		base = 90420,
-		weapon_id = {
-			90430
 		}
 	}
 }

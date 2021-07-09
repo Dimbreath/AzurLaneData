@@ -1,5 +1,24 @@
 pg = pg or {}
 pg.equip_data_statistics_209 = {
+	[28413] = {
+		anti_siren = 300,
+		base = 28400,
+		id = 28413,
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				4,
+				51593
+			}
+		},
+		weapon_id = {
+			28413,
+			82993
+		}
+	},
 	[29000] = {
 		name = "贼鸥",
 		tech = 1,
@@ -374,58 +393,6 @@ pg.equip_data_statistics_209 = {
 		},
 		weapon_id = {
 			29047
-		}
-	},
-	[29100] = {
-		name = "海燕",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 2,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "29100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50200
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			29100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
 		}
 	}
 }

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_159 = {}
 
 function ()
+	uv0.weapon_property_159[68469] = {
+		id = 68469,
+		name = "KGV技能弹幕PVP-LV9",
+		damage = 112,
+		base = 68461
+	}
 	uv0.weapon_property_159[68470] = {
 		id = 68470,
 		name = "KGV技能弹幕PVP-LV10",
@@ -712,11 +718,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_159[68532] = {
-		id = 68532,
-		name = "埃米尔·贝尔汀改技能鱼雷LV2",
-		damage = 36,
-		base = 68531
 	}
 end()

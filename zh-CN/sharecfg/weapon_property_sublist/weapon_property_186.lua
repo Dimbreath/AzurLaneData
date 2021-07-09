@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_186 = {}
 
 function ()
+	uv0.weapon_property_186[79031] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-威廉·D·波特I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 125,
+		min_range = 0,
+		id = 79031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1000
+		},
+		barrage_ID = {
+			19001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_186[79032] = {
 		name = "专属弹幕-威廉·D·波特II",
 		damage = 12,
@@ -1887,80 +1931,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_186[79302] = {
-		name = "专属弹幕-33II",
-		base = 79301,
-		id = 79302,
-		bullet_ID = {
-			19811,
-			19812,
-			19813,
-			19814,
-			19815,
-			19816,
-			19817,
-			19818,
-			19819,
-			19820,
-			19821,
-			19822,
-			19823,
-			19824,
-			19825,
-			19826,
-			19827,
-			19828,
-			19829,
-			19830,
-			19831,
-			19832,
-			19833,
-			19834,
-			19835,
-			19836,
-			19837,
-			19838,
-			19839,
-			19840,
-			19841,
-			19842,
-			19843
-		},
-		barrage_ID = {
-			80414,
-			80415,
-			80416,
-			80417,
-			80418,
-			80419,
-			80420,
-			80421,
-			80422,
-			80423,
-			80424,
-			80425,
-			80426,
-			80427,
-			80428,
-			80429,
-			80430,
-			80431,
-			80432,
-			80433,
-			80434,
-			80435,
-			80436,
-			80437,
-			80438,
-			80439,
-			80440,
-			80441,
-			80442,
-			80443,
-			80444,
-			80445,
-			80446
-		}
 	}
 end()

@@ -312,7 +312,7 @@ return {
 						level = 10
 					},
 					{
-						id = 19430,
+						id = 9120,
 						level = 10
 					},
 					{

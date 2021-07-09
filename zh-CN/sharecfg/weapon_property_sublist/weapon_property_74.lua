@@ -2,6 +2,48 @@ pg = pg or {}
 pg.weapon_property_74 = {}
 
 function ()
+	uv0.weapon_property_74[47080] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "试作型舰载FW-190 A-5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 47080,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2020,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_74[47081] = {
 		id = 47081,
 		reload_max = 1989,
@@ -658,11 +700,6 @@ function ()
 	uv0.weapon_property_74[48004] = {
 		id = 48004,
 		reload_max = 2214,
-		base = 48000
-	}
-	uv0.weapon_property_74[48005] = {
-		id = 48005,
-		reload_max = 2177,
 		base = 48000
 	}
 end()

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_12 = {}
 
 function ()
+	uv0.weapon_property_12[13143] = {
+		id = 13143,
+		reload_max = 989,
+		damage = 36,
+		base = 13140
+	}
 	uv0.weapon_property_12[13144] = {
 		id = 13144,
 		reload_max = 969,
@@ -623,52 +629,5 @@ function ()
 		reload_max = 4488,
 		damage = 61,
 		base = 14120
-	}
-	uv0.weapon_property_12[14140] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联装356mm主炮T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 48,
-		corrected = 105,
-		min_range = 50,
-		id = 14140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 4452,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1512
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
 	}
 end()

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
+	uv0.weapon_property_114[64232] = {
+		id = 64232,
+		name = "霞光之绊·改弹幕LV2",
+		damage = 11,
+		base = 64231
+	}
 	uv0.weapon_property_114[64233] = {
 		id = 64233,
 		name = "霞光之绊·改弹幕LV3",
@@ -613,12 +619,6 @@ function ()
 		id = 64294,
 		name = "香槟独立射击大子弹天运强化LV4",
 		damage = 106,
-		base = 64291
-	}
-	uv0.weapon_property_114[64295] = {
-		id = 64295,
-		name = "香槟独立射击大子弹天运强化LV5",
-		damage = 118,
 		base = 64291
 	}
 end()

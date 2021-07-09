@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_134 = {}
 
 function ()
+	uv0.weapon_property_134[66204] = {
+		id = 66204,
+		name = "提尔比茨技能磁性鱼雷Lv4",
+		damage = 87,
+		base = 66200
+	}
 	uv0.weapon_property_134[66205] = {
 		id = 66205,
 		name = "提尔比茨技能磁性鱼雷Lv5",
@@ -721,11 +727,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_134[66321] = {
-		id = 66321,
-		name = "鬼神演舞弹幕LV1",
-		damage = 11,
-		base = 66320
 	}
 end()

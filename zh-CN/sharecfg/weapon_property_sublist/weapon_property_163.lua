@@ -2,6 +2,55 @@ pg = pg or {}
 pg.weapon_property_163 = {}
 
 function ()
+	uv0.weapon_property_163[68731] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "利托里奥弹幕PVE-Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 25,
+		id = 68731,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19022
+		},
+		barrage_ID = {
+			80794
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
 	uv0.weapon_property_163[68732] = {
 		id = 68732,
 		name = "利托里奥弹幕PVE-Lv2",
@@ -754,11 +803,6 @@ function ()
 	uv0.weapon_property_163[68793] = {
 		id = 68793,
 		damage = 142,
-		base = 68791
-	}
-	uv0.weapon_property_163[68794] = {
-		id = 68794,
-		damage = 151,
 		base = 68791
 	}
 end()

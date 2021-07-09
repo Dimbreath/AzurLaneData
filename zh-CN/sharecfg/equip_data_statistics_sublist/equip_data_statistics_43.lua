@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_43 = {
+	[2122] = {
+		id = 2122,
+		value_2 = 22,
+		value_1 = "23",
+		base = 2120
+	},
 	[2123] = {
 		id = 2123,
 		value_2 = 25,
@@ -132,65 +138,5 @@ pg.equip_data_statistics_43 = {
 		base = 2140,
 		value_2 = 64,
 		value_1 = "75"
-	},
-	[2200] = {
-		name = "链式装弹机",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 2200,
-		value_2 = 1,
-		icon = "2200",
-		value_1 = "5",
-		attribute_2 = "cannon",
-		rarity = 2,
-		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "reload",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

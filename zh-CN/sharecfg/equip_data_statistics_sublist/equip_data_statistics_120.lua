@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_120 = {
+	[16093] = {
+		anti_siren = 300,
+		damage = "94/轮",
+		base = 16080,
+		id = 16093,
+		weapon_id = {
+			16093
+		}
+	},
 	[16100] = {
 		name = "双管20mm厄利孔高射炮",
 		speciality = "防空",
@@ -288,14 +297,6 @@ pg.equip_data_statistics_120 = {
 		base = 16140,
 		weapon_id = {
 			16144
-		}
-	},
-	[16145] = {
-		id = 16145,
-		damage = "30/轮",
-		base = 16140,
-		weapon_id = {
-			16145
 		}
 	}
 }

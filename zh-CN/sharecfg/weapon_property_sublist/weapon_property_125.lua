@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_125 = {}
 
 function ()
+	uv0.weapon_property_125[65529] = {
+		id = 65529,
+		name = "纽伦堡 训练有素LV9",
+		damage = 14,
+		base = 65521
+	}
 	uv0.weapon_property_125[65530] = {
 		id = 65530,
 		name = "纽伦堡 训练有素LV10",
@@ -687,11 +693,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_125[65602] = {
-		id = 65602,
-		name = "文琴佐鱼雷 LV2",
-		damage = 44,
-		base = 65601
 	}
 end()

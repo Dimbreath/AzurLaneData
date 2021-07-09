@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_133 = {}
 
 function ()
+	uv0.weapon_property_133[66087] = {
+		name = "宾夕法尼亚技能LV7-PVP",
+		damage = 96,
+		base = 66080,
+		id = 66087,
+		bullet_ID = {
+			10014,
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402,
+			199403
+		}
+	}
 	uv0.weapon_property_133[66088] = {
 		name = "宾夕法尼亚技能LV8-PVP",
 		damage = 104,
@@ -802,12 +820,6 @@ function ()
 		id = 66203,
 		name = "提尔比茨技能磁性鱼雷Lv3",
 		damage = 79,
-		base = 66200
-	}
-	uv0.weapon_property_133[66204] = {
-		id = 66204,
-		name = "提尔比茨技能磁性鱼雷Lv4",
-		damage = 87,
 		base = 66200
 	}
 end()

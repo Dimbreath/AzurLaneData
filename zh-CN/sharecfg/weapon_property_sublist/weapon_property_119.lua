@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_119 = {}
 
 function ()
+	uv0.weapon_property_119[65131] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 65131,
+		attack_attribute_ratio = 60,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19199
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_119[65132] = {
 		id = 65132,
 		damage = 68,
@@ -660,11 +704,6 @@ function ()
 	uv0.weapon_property_119[65213] = {
 		id = 65213,
 		damage = 188,
-		base = 65211
-	}
-	uv0.weapon_property_119[65214] = {
-		id = 65214,
-		damage = 207,
 		base = 65211
 	}
 end()

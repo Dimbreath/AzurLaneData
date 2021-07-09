@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_335 = {}
 
 function ()
+	uv0.weapon_property_335[761213] = {
+		reload_max = 100,
+		name = "【2020德系活动B3】塞壬构建者 第四波 浮游炮",
+		damage = 12,
+		base = 1002,
+		id = 761213,
+		range = 120,
+		queue = 3,
+		barrage_ID = {
+			700143
+		}
+	}
 	uv0.weapon_property_335[761214] = {
 		range = 120,
 		damage = 12,
@@ -1586,44 +1598,6 @@ function ()
 			820050,
 			820050,
 			820050
-		},
-		precast_param = {
-			time = 0.1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_335[763205] = {
-		range = 150,
-		damage = 40,
-		base = 1000,
-		type = 19,
-		fire_fx = "CAFire",
-		min_range = 100,
-		suppress = 1,
-		reload_max = 5000,
-		name = "【2020德系活动D3】塞壬构建者 第一波 地毯式跨射",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 763205,
-		aim_type = 1,
-		bullet_ID = {
-			810071,
-			810072,
-			810073,
-			810074,
-			810075,
-			810076,
-			810077
-		},
-		barrage_ID = {
-			820051,
-			820051,
-			820051,
-			820051,
-			820051,
-			820051,
-			820051
 		},
 		precast_param = {
 			time = 0.1,

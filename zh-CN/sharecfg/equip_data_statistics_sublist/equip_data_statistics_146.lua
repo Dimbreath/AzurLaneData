@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_146 = {
+	[19206] = {
+		id = 19206,
+		base = 19200,
+		ammo_info = {
+			{
+				6,
+				50506
+			},
+			{
+				5,
+				52806
+			}
+		},
+		weapon_id = {
+			19206
+		}
+	},
 	[19220] = {
 		name = "BTD-1毁灭者",
 		type = 9,
@@ -340,23 +357,6 @@ pg.equip_data_statistics_146 = {
 		},
 		weapon_id = {
 			19244
-		}
-	},
-	[19245] = {
-		id = 19245,
-		base = 19240,
-		ammo_info = {
-			{
-				6,
-				50545
-			},
-			{
-				5,
-				52845
-			}
-		},
-		weapon_id = {
-			19245
 		}
 	}
 }

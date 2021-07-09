@@ -2,6 +2,32 @@ pg = pg or {}
 pg.weapon_property_343 = {}
 
 function ()
+	uv0.weapon_property_343[791107] = {
+		initial_over_heat = 0,
+		name = "【2021美系活动B2】塞壬执棋者I型 浮游炮武器1",
+		type = 2,
+		aim_type = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		attack_attribute = 4,
+		reload_max = 1500,
+		queue = 3,
+		range = 70,
+		damage = 9,
+		base = 1000,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		id = 791107,
+		bullet_ID = {
+			700101,
+			700102
+		},
+		barrage_ID = {
+			690111,
+			690112
+		}
+	}
 	uv0.weapon_property_343[791108] = {
 		initial_over_heat = 0,
 		name = "【2021美系活动B2】塞壬执棋者I型 浮游炮武器2",
@@ -1501,33 +1527,6 @@ function ()
 		},
 		barrage_ID = {
 			130992
-		}
-	}
-	uv0.weapon_property_343[793106] = {
-		aim_type = 1,
-		name = "【2021美系活动D2】塞壬执棋者I型 鱼雷机武器",
-		axis_angle = 0,
-		type = 3,
-		min_range = 0,
-		fire_fx = "",
-		action_index = "",
-		initial_over_heat = 0,
-		reload_max = 11954,
-		attack_attribute = 4,
-		queue = 1,
-		angle = 90,
-		range = 80,
-		damage = 38,
-		base = 1001,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 793106,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			12001
 		}
 	}
 end()

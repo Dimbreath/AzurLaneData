@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
+	[85420] = {
+		name = "三联装305mm主炮Model1907",
+		speciality = "跨射",
+		type = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "85420",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "54 x 3",
+		nationality = 7,
+		ammo = 2,
+		value_3 = 0,
+		id = 85420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
+		}
+	},
 	[85421] = {
 		id = 85421,
 		damage = "59 x 3",
@@ -229,13 +282,6 @@ pg.equip_data_statistics_371 = {
 			"CL",
 			"MG",
 			"AP"
-		}
-	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
-		weapon_id = {
-			85461
 		}
 	}
 }

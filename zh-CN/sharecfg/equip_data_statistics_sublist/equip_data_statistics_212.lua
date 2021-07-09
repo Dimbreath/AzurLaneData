@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_212 = {
+	[29211] = {
+		anti_siren = 100,
+		base = 29200,
+		id = 29211,
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52751
+			}
+		},
+		weapon_id = {
+			29211
+		}
+	},
 	[29212] = {
 		anti_siren = 200,
 		base = 29200,
@@ -351,58 +369,6 @@ pg.equip_data_statistics_212 = {
 		},
 		skill_id = {
 			6843
-		}
-	},
-	[30000] = {
-		name = "305mm连装炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "30000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "40 x 2",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 30000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			30000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG"
 		}
 	}
 }

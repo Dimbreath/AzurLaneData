@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_362 = {
+	[79711] = {
+		name = "专属弹幕-旧金山I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79711,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79711
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79712] = {
 		id = 79712,
 		name = "专属弹幕-旧金山II",
@@ -307,72 +346,6 @@ pg.equip_data_statistics_362 = {
 		base = 85000,
 		weapon_id = {
 			85006
-		}
-	},
-	[85040] = {
-		name = "B-13 双联装130mm主炮B-2LM",
-		speciality = "锁定",
-		type = 1,
-		tech = 3,
-		descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
-		value_2 = 35,
-		icon = "85000",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1710
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1710
-			},
-			{
-				4,
-				1024
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"DD",
-			"MG"
 		}
 	}
 }

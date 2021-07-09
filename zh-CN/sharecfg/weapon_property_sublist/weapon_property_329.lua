@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_329 = {}
 
 function ()
+	uv0.weapon_property_329[729002] = {
+		range = 100,
+		damage = 5,
+		base = 1000,
+		name = "【2020偶像活动二期】恶毒 音符子弹武器2",
+		type = 2,
+		reload_max = 900,
+		queue = 1,
+		id = 729002,
+		bullet_ID = {
+			780002,
+			780002
+		},
+		barrage_ID = {
+			790002,
+			790003
+		}
+	}
 	uv0.weapon_property_329[729003] = {
 		range = 100,
 		damage = 6,
@@ -1303,23 +1321,6 @@ function ()
 		},
 		barrage_ID = {
 			13
-		}
-	}
-	uv0.weapon_property_329[741102] = {
-		name = "【DOA联动SP2】BOSS 海咲 大范围鱼雷",
-		damage = 32,
-		base = 1001,
-		action_index = "",
-		suppress = 1,
-		reload_max = 2800,
-		id = 741102,
-		bullet_ID = {
-			110605,
-			110606
-		},
-		barrage_ID = {
-			810066,
-			810067
 		}
 	}
 end()

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 function ()
+	uv0.weapon_property_132[65980] = {
+		id = 65980,
+		name = "新泽西定点生成小弹幕-Lv10",
+		damage = 20,
+		base = 65971
+	}
 	uv0.weapon_property_132[65981] = {
 		action_index = "attack",
 		range = 80,
@@ -844,24 +850,6 @@ function ()
 			199400,
 			199401,
 			199402
-		}
-	}
-	uv0.weapon_property_132[66087] = {
-		name = "宾夕法尼亚技能LV7-PVP",
-		damage = 96,
-		base = 66080,
-		id = 66087,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
 		}
 	}
 end()

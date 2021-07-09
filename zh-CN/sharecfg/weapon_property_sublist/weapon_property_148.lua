@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_148 = {}
 
 function ()
+	uv0.weapon_property_148[67739] = {
+		name = "战列加贺技能小子弹-LV9",
+		damage = 30,
+		base = 67731,
+		id = 67739,
+		barrage_ID = {
+			80512,
+			80513
+		}
+	}
 	uv0.weapon_property_148[67740] = {
 		name = "战列加贺技能小子弹-LV10",
 		damage = 35,
@@ -694,10 +704,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_148[67802] = {
-		id = 67802,
-		damage = 52,
-		base = 67801
 	}
 end()

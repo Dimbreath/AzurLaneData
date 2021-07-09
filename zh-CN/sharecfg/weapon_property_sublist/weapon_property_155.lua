@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_155 = {}
 
 function ()
+	uv0.weapon_property_155[68207] = {
+		name = "出云技能-PVE-LV7",
+		damage = 78,
+		base = 68201,
+		id = 68207,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
 	uv0.weapon_property_155[68208] = {
 		name = "出云技能-PVE-LV8",
 		damage = 86,
@@ -844,12 +862,6 @@ function ()
 		id = 68279,
 		name = "绊爱描边大师-LV9",
 		damage = 58,
-		base = 68271
-	}
-	uv0.weapon_property_155[68280] = {
-		id = 68280,
-		name = "绊爱描边大师-LV10",
-		damage = 62,
 		base = 68271
 	}
 end()

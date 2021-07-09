@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 function ()
+	uv0.weapon_property_110[60523] = {
+		id = 60523,
+		name = "航空攻击展示-英仙座III",
+		base = 60521,
+		barrage_ID = {
+			1512,
+			1512
+		}
+	}
 	uv0.weapon_property_110[60531] = {
 		action_index = "attack",
 		range = 90,
@@ -1742,60 +1751,6 @@ function ()
 		},
 		barrage_ID = {
 			12020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[61021] = {
-		action_index = "",
-		range = 1,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "黑企业剧情轰炸",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 350,
-		corrected = 1000,
-		min_range = 0,
-		id = 61021,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			9000,
-			9001,
-			9002,
-			9003,
-			9004,
-			9005
-		},
-		barrage_ID = {
-			9000,
-			9000,
-			9000,
-			9000,
-			9000,
-			9000
 		},
 		oxy_type = {
 			1

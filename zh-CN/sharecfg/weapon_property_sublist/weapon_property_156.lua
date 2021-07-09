@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_156 = {}
 
 function ()
+	uv0.weapon_property_156[68280] = {
+		id = 68280,
+		name = "绊爱描边大师-LV10",
+		damage = 62,
+		base = 68271
+	}
 	uv0.weapon_property_156[68281] = {
 		action_index = "",
 		range = 90,
@@ -733,11 +739,6 @@ function ()
 	uv0.weapon_property_156[68342] = {
 		id = 68342,
 		damage = 52,
-		base = 68341
-	}
-	uv0.weapon_property_156[68343] = {
-		id = 68343,
-		damage = 54,
 		base = 68341
 	}
 end()

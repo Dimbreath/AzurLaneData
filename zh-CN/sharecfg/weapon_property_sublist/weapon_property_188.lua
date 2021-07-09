@@ -2,6 +2,22 @@ pg = pg or {}
 pg.weapon_property_188 = {}
 
 function ()
+	uv0.weapon_property_188[79592] = {
+		name = "专属弹幕-U96II",
+		damage = 60,
+		base = 79591,
+		id = 79592,
+		bullet_ID = {
+			79591,
+			79591,
+			79591
+		},
+		barrage_ID = {
+			79591,
+			79592,
+			79593
+		}
+	}
 	uv0.weapon_property_188[79601] = {
 		action_index = "attack",
 		range = 90,
@@ -1615,15 +1631,6 @@ function ()
 		id = 81064,
 		bullet_ID = {
 			17064
-		}
-	}
-	uv0.weapon_property_188[81065] = {
-		reload_max = 1545,
-		damage = 49,
-		base = 81060,
-		id = 81065,
-		bullet_ID = {
-			17065
 		}
 	}
 end()

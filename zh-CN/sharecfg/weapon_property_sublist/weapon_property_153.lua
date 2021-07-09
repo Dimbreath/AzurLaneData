@@ -2,6 +2,54 @@ pg = pg or {}
 pg.weapon_property_153 = {}
 
 function ()
+	uv0.weapon_property_153[68091] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "吾妻技能小子弹I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 68091,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_153[68092] = {
 		id = 68092,
 		damage = 7,
@@ -656,15 +704,5 @@ function ()
 		name = "加斯科涅技能·箭型国旗LV3红",
 		damage = 25,
 		base = 68151
-	}
-	uv0.weapon_property_153[68154] = {
-		name = "加斯科涅技能·箭型国旗LV4红",
-		damage = 28,
-		base = 68151,
-		id = 68154,
-		barrage_ID = {
-			80563,
-			80564
-		}
 	}
 end()

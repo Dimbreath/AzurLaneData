@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_342 = {}
 
 function ()
+	uv0.weapon_property_342[784314] = {
+		name = "【2021意大利活动SP】塞壬自爆船R型特殊武器",
+		damage = 30,
+		base = 1000871,
+		id = 784314,
+		bullet_ID = {
+			830006
+		},
+		barrage_ID = {
+			700029
+		}
+	}
 	uv0.weapon_property_342[784315] = {
 		name = "【2021意大利活动SP】精英人形 光辉 扫射弹幕",
 		damage = 26,
@@ -1741,32 +1753,6 @@ function ()
 		},
 		barrage_ID = {
 			12001
-		}
-	}
-	uv0.weapon_property_342[791107] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动B2】塞壬执棋者I型 浮游炮武器1",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 1500,
-		queue = 3,
-		range = 70,
-		damage = 9,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 791107,
-		bullet_ID = {
-			700101,
-			700102
-		},
-		barrage_ID = {
-			690111,
-			690112
 		}
 	}
 end()

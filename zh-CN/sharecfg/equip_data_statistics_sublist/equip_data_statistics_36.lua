@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_36 = {
+	[1623] = {
+		id = 1623,
+		value_2 = 3,
+		value_1 = "7",
+		base = 1620
+	},
 	[1640] = {
 		name = "电动扬弹机",
 		tech = 3,
@@ -197,37 +203,5 @@ pg.equip_data_statistics_36 = {
 		value_2 = 25,
 		value_1 = "7",
 		base = 1720
-	},
-	[1740] = {
-		name = "液压舵机",
-		tech = 3,
-		type = 10,
-		speciality = "无",
-		id = 1740,
-		value_2 = 20,
-		icon = "1700",
-		value_1 = "9",
-		attribute_2 = "durability",
-		rarity = 3,
-		descrip = "舵坏了可就麻烦啦，能够提高机动值",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

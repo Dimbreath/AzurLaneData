@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_131 = {}
 
 function ()
+	uv0.weapon_property_131[65917] = {
+		name = "天鹰技能G.50Lv7",
+		damage = 1,
+		base = 65911,
+		id = 65917,
+		bullet_ID = {
+			65917
+		},
+		barrage_ID = {
+			12009
+		}
+	}
 	uv0.weapon_property_131[65918] = {
 		name = "天鹰技能G.50Lv8",
 		damage = 1,
@@ -719,12 +731,6 @@ function ()
 		id = 65979,
 		name = "新泽西定点生成小弹幕-Lv9",
 		damage = 19,
-		base = 65971
-	}
-	uv0.weapon_property_131[65980] = {
-		id = 65980,
-		name = "新泽西定点生成小弹幕-Lv10",
-		damage = 20,
 		base = 65971
 	}
 end()

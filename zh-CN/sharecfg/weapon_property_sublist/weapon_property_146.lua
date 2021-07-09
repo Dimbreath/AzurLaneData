@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_146 = {}
 
 function ()
+	uv0.weapon_property_146[67613] = {
+		id = 67613,
+		name = "猫音技能Lv3",
+		damage = 16,
+		base = 67611
+	}
 	uv0.weapon_property_146[67614] = {
 		id = 67614,
 		name = "猫音技能Lv4",
@@ -604,12 +610,6 @@ function ()
 		id = 67675,
 		name = "双影无双爆炸ALv5",
 		damage = 147,
-		base = 67671
-	}
-	uv0.weapon_property_146[67676] = {
-		id = 67676,
-		name = "双影无双爆炸ALv6",
-		damage = 162,
 		base = 67671
 	}
 end()

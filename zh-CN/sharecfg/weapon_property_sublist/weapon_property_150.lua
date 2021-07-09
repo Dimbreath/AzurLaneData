@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_150 = {}
 
 function ()
+	uv0.weapon_property_150[67895] = {
+		reload_max = 540,
+		damage = 62,
+		base = 67891,
+		id = 67895,
+		name = "追赶者剑鱼 Lv5",
+		bullet_ID = {
+			67895
+		}
+	}
 	uv0.weapon_property_150[67896] = {
 		reload_max = 524,
 		damage = 66,
@@ -687,15 +697,6 @@ function ()
 		damage = 157,
 		base = 67951,
 		id = 67957,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_150[67958] = {
-		name = "独立技能鱼雷Lv8",
-		damage = 175,
-		base = 67951,
-		id = 67958,
 		barrage_ID = {
 			80535
 		}

@@ -45,6 +45,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			uv0:updateEquip(uv1, nil)
 			uv2:updateShip(uv0)
+			uv3:setSkinId(0)
 			getProxy(EquipmentProxy):addEquipment(uv3)
 			uv4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, uv0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv3.config.name), "red")

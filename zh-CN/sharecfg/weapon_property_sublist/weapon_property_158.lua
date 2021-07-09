@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_158 = {}
 
 function ()
+	uv0.weapon_property_158[68406] = {
+		id = 68406,
+		name = "俾斯麦弹幕PVE-Lv6",
+		damage = 79,
+		base = 68401
+	}
 	uv0.weapon_property_158[68407] = {
 		id = 68407,
 		name = "俾斯麦弹幕PVE-Lv7",
@@ -671,12 +677,6 @@ function ()
 		id = 68468,
 		name = "KGV技能弹幕PVP-LV8",
 		damage = 104,
-		base = 68461
-	}
-	uv0.weapon_property_158[68469] = {
-		id = 68469,
-		name = "KGV技能弹幕PVP-LV9",
-		damage = 112,
 		base = 68461
 	}
 end()

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_107 = {}
 
 function ()
+	uv0.weapon_property_107[59813] = {
+		id = 59813,
+		reload_max = 145,
+		damage = 83,
+		base = 59800
+	}
 	uv0.weapon_property_107[59820] = {
 		action_index = "",
 		range = 36,
@@ -1015,16 +1021,6 @@ function ()
 		barrage_ID = {
 			1511,
 			1511,
-			1511
-		}
-	}
-	uv0.weapon_property_107[60113] = {
-		id = 60113,
-		name = "航空攻击展示-光辉III",
-		base = 60111,
-		barrage_ID = {
-			1512,
-			1512,
 			1511
 		}
 	}

@@ -2,6 +2,17 @@ pg = pg or {}
 pg.weapon_property_185 = {}
 
 function ()
+	uv0.weapon_property_185[73222] = {
+		name = "全弹发射-德意志级II",
+		damage = 40,
+		base = 73221,
+		id = 73222,
+		barrage_ID = {
+			73224,
+			73225,
+			73226
+		}
+	}
 	uv0.weapon_property_185[73231] = {
 		action_index = "attack",
 		range = 80,
@@ -1584,49 +1595,5 @@ function ()
 		barrage_ID = {
 			70026
 		}
-	}
-	uv0.weapon_property_185[79031] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-威廉·D·波特I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79031,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1000
-		},
-		barrage_ID = {
-			19001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

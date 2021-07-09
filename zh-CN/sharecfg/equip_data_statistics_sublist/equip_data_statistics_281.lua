@@ -1,5 +1,27 @@
 pg = pg or {}
 pg.equip_data_statistics_281 = {
+	[39153] = {
+		anti_siren = 300,
+		base = 39140,
+		id = 39153,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				5,
+				52653
+			},
+			{
+				5,
+				52153
+			}
+		},
+		weapon_id = {
+			39153
+		}
+	},
 	[39160] = {
 		name = "彗星一二型甲",
 		type = 9,
@@ -407,27 +429,6 @@ pg.equip_data_statistics_281 = {
 		},
 		weapon_id = {
 			39201
-		}
-	},
-	[39202] = {
-		id = 39202,
-		base = 39200,
-		ammo_info = {
-			{
-				6,
-				50502
-			},
-			{
-				6,
-				50802
-			},
-			{
-				5,
-				52202
-			}
-		},
-		weapon_id = {
-			39202
 		}
 	}
 }

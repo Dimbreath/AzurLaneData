@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_199 = {
+	[27247] = {
+		id = 27247,
+		base = 27240,
+		ammo_info = {
+			{
+				6,
+				50147
+			}
+		},
+		weapon_id = {
+			27247,
+			82247
+		}
+	},
 	[27260] = {
 		name = "海飓风",
 		type = 7,
@@ -324,24 +338,6 @@ pg.equip_data_statistics_199 = {
 		weapon_id = {
 			27307,
 			82307
-		}
-	},
-	[27308] = {
-		id = 27308,
-		base = 27300,
-		ammo_info = {
-			{
-				6,
-				50668
-			},
-			{
-				5,
-				52348
-			}
-		},
-		weapon_id = {
-			27308,
-			82308
 		}
 	}
 }

@@ -591,6 +591,8 @@ function slot0.reletiveEquipSkin(slot0, slot1)
 		else
 			slot0.equipments[slot1]:setSkinId(0)
 		end
+	elseif slot0.equipments[slot1] then
+		slot0.equipments[slot1]:setSkinId(0)
 	end
 end
 

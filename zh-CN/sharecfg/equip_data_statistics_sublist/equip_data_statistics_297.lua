@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_297 = {
+	[43060] = {
+		name = "试作型三联装203mmSKC主炮",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
+		value_2 = 45,
+		icon = "43060",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "30 x 6",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 43060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1401
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1401
+			},
+			{
+				4,
+				1214
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			43060
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG",
+			"AP"
+		}
+	},
 	[43061] = {
 		id = 43061,
 		damage = "32 x 6",
@@ -171,14 +230,6 @@ pg.equip_data_statistics_297 = {
 		base = 43100,
 		weapon_id = {
 			43102
-		}
-	},
-	[43103] = {
-		id = 43103,
-		damage = "36 x 6",
-		base = 43100,
-		weapon_id = {
-			43103
 		}
 	}
 }

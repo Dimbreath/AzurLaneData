@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_122 = {}
 
 function ()
+	uv0.weapon_property_122[65340] = {
+		id = 65340,
+		name = "海咲强化石弹幕Lv10",
+		damage = 20,
+		base = 65331
+	}
 	uv0.weapon_property_122[65341] = {
 		action_index = "attack",
 		range = 90,
@@ -680,11 +686,6 @@ function ()
 	uv0.weapon_property_122[65402] = {
 		id = 65402,
 		damage = 78,
-		base = 65401
-	}
-	uv0.weapon_property_122[65403] = {
-		id = 65403,
-		damage = 85,
 		base = 65401
 	}
 end()

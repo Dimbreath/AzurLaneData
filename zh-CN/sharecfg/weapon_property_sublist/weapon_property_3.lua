@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_3 = {}
 
 function ()
+	uv0.weapon_property_3[900] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "烟雾发射装置小范围",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 39,
+		corrected = 100,
+		min_range = 0,
+		id = 900,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			901
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_3[901] = {
 		action_index = "attack",
 		range = 50,
@@ -961,12 +1005,6 @@ function ()
 		id = 4147,
 		reload_max = 495,
 		damage = 49,
-		base = 4140
-	}
-	uv0.weapon_property_3[4148] = {
-		id = 4148,
-		reload_max = 480,
-		damage = 53,
 		base = 4140
 	}
 end()

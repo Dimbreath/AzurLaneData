@@ -2,6 +2,33 @@ pg = pg or {}
 pg.weapon_property_338 = {}
 
 function ()
+	uv0.weapon_property_338[772205] = {
+		aim_type = 0,
+		name = "【2021毛系活动C3】塞壬执棋者II型 轰炸机武器",
+		axis_angle = 0,
+		type = 2,
+		min_range = 0,
+		fire_fx = "",
+		action_index = "",
+		initial_over_heat = 0,
+		reload_max = 400,
+		attack_attribute = 4,
+		queue = 1,
+		angle = 180,
+		range = 10,
+		damage = 36,
+		base = 1000,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 772205,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
 	uv0.weapon_property_338[772206] = {
 		aim_type = 1,
 		name = "【2021毛系活动C3】塞壬执棋者II型 鱼雷机武器",
@@ -2210,27 +2237,6 @@ function ()
 		fire_sfx = "",
 		queue = 7,
 		id = 780002,
-		bullet_ID = {
-			830073,
-			830074,
-			830075
-		},
-		barrage_ID = {
-			840135,
-			840136,
-			840137
-		}
-	}
-	uv0.weapon_property_338[780003] = {
-		range = 200,
-		damage = 3,
-		base = 1000,
-		name = "【2021意大利活动】机制 海妖之歌 SP",
-		type = 2,
-		reload_max = 4550,
-		fire_sfx = "",
-		queue = 7,
-		id = 780003,
 		bullet_ID = {
 			830073,
 			830074,

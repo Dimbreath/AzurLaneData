@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_128 = {}
 
 function ()
+	uv0.weapon_property_128[65728] = {
+		name = "贝拉罗斯PVP冰锥1-50-LV8",
+		damage = 140,
+		base = 65721,
+		id = 65728,
+		barrage_ID = {
+			81026
+		}
+	}
 	uv0.weapon_property_128[65729] = {
 		name = "贝拉罗斯PVP冰锥1-50-LV9",
 		damage = 152,
@@ -717,51 +726,5 @@ function ()
 			81027,
 			81028
 		}
-	}
-	uv0.weapon_property_128[65791] = {
-		action_index = "",
-		range = 80,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "摩尔曼斯克技能高爆弹Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 65791,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19270,
-			19270
-		},
-		barrage_ID = {
-			81029,
-			81030
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

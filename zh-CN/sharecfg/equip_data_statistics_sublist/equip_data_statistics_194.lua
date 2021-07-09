@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_194 = {
+	[26673] = {
+		anti_siren = 300,
+		damage = "150/轮",
+		base = 26660,
+		id = 26673,
+		weapon_id = {
+			26673
+		}
+	},
 	[27000] = {
 		name = "海喷火",
 		type = 7,
@@ -455,28 +464,6 @@ pg.equip_data_statistics_194 = {
 		weapon_id = {
 			27044,
 			82044
-		}
-	},
-	[27045] = {
-		id = 27045,
-		base = 27040,
-		ammo_info = {
-			{
-				6,
-				50145
-			},
-			{
-				6,
-				50545
-			},
-			{
-				5,
-				52245
-			}
-		},
-		weapon_id = {
-			27045,
-			82045
 		}
 	}
 }

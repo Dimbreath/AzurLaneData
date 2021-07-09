@@ -20,10 +20,10 @@ return {
 		{
 			targetAniEffect = "",
 			casterAniEffect = "",
-			type = "BattleSkillAddBuff",
+			type = "BattleSkillDamage",
 			target_choise = "TargetAllHarm",
 			arg_list = {
-				buff_id = 19465
+				number = 234
 			}
 		}
 	}

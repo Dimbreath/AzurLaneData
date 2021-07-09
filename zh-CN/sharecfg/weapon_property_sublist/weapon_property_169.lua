@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_169 = {}
 
 function ()
+	uv0.weapon_property_169[69129] = {
+		name = "恰巴耶夫技能弹幕-LV9",
+		damage = 24,
+		base = 69121,
+		id = 69129,
+		barrage_ID = {
+			80845
+		}
+	}
 	uv0.weapon_property_169[69130] = {
 		name = "恰巴耶夫技能弹幕-LV10",
 		damage = 26,
@@ -675,11 +684,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_169[69192] = {
-		id = 69192,
-		name = "布莱默顿技能弹幕-LV2",
-		damage = 12,
-		base = 69191
 	}
 end()

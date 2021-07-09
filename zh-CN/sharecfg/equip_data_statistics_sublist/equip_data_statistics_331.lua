@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_331 = {
+	[60042] = {
+		id = 60042,
+		name = "航空攻击展示-萨拉托加II",
+		base = 60041,
+		weapon_id = {
+			60042
+		}
+	},
 	[60043] = {
 		id = 60043,
 		name = "航空攻击展示-萨拉托加III",
@@ -247,13 +255,5 @@ pg.equip_data_statistics_331 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
-	},
-	[60102] = {
-		id = 60102,
-		name = "航空攻击展示-皇家方舟II",
-		base = 60101,
-		weapon_id = {
-			60102
-		}
 	}
 }

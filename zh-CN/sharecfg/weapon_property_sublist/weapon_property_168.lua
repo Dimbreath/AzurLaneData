@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_168 = {}
 
 function ()
+	uv0.weapon_property_168[69066] = {
+		id = 69066,
+		name = "苏俄PVE主炮弹幕LV6",
+		damage = 118,
+		base = 69061
+	}
 	uv0.weapon_property_168[69067] = {
 		id = 69067,
 		name = "苏俄PVE主炮弹幕LV7",
@@ -624,15 +630,6 @@ function ()
 		damage = 20,
 		base = 69121,
 		id = 69128,
-		barrage_ID = {
-			80845
-		}
-	}
-	uv0.weapon_property_168[69129] = {
-		name = "恰巴耶夫技能弹幕-LV9",
-		damage = 24,
-		base = 69121,
-		id = 69129,
 		barrage_ID = {
 			80845
 		}

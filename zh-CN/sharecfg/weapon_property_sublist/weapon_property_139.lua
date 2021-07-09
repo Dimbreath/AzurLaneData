@@ -2,6 +2,54 @@ pg = pg or {}
 pg.weapon_property_139 = {}
 
 function ()
+	uv0.weapon_property_139[66820] = {
+		action_index = "",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 1,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "飞鹰隼鹰技能Lv0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 66820,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			66820
+		},
+		barrage_ID = {
+			12010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.8,
+			isBound = true,
+			fx = "jineng"
+		}
+	}
 	uv0.weapon_property_139[66821] = {
 		name = "飞鹰隼鹰技能Lv1",
 		damage = 60,
@@ -688,20 +736,6 @@ function ()
 		damage = 39,
 		base = 66920,
 		id = 66927,
-		bullet_ID = {
-			19933,
-			19933
-		},
-		barrage_ID = {
-			80134,
-			80135
-		}
-	}
-	uv0.weapon_property_139[66928] = {
-		name = "I19穿透鱼雷LV8",
-		damage = 42,
-		base = 66920,
-		id = 66928,
 		bullet_ID = {
 			19933,
 			19933

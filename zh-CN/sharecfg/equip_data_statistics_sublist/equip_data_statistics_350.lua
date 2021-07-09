@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_350 = {
+	[72411] = {
+		name = "全弹发射-樫野I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 72411,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			72411
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[72412] = {
 		id = 72412,
 		name = "全弹发射-樫野II",
@@ -375,13 +414,5 @@ pg.equip_data_statistics_350 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[73222] = {
-		id = 73222,
-		name = "全弹发射-德意志级II",
-		base = 73221,
-		weapon_id = {
-			73222
-		}
 	}
 }

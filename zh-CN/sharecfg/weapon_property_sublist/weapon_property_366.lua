@@ -2,6 +2,14 @@ pg = pg or {}
 pg.weapon_property_366 = {}
 
 function ()
+	uv0.weapon_property_366[1003177] = {
+		id = 1003177,
+		name = "【精英】梦境执棋者 武器1 II",
+		base = 1001177,
+		bullet_ID = {
+			831
+		}
+	}
 	uv0.weapon_property_366[1003178] = {
 		id = 1003178,
 		name = "【精英】梦境执棋者 武器1 III",
@@ -634,14 +642,6 @@ function ()
 		id = 1003239,
 		name = "【空袭】梦境塞壬空袭鱼雷机武器 IV",
 		base = 1000848,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_366[1003240] = {
-		id = 1003240,
-		name = "【空袭】梦境塞壬空袭鱼雷机武器 V",
-		base = 1000849,
 		bullet_ID = {
 			838
 		}

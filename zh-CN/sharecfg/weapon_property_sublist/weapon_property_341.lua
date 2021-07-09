@@ -2,6 +2,21 @@ pg = pg or {}
 pg.weapon_property_341 = {}
 
 function ()
+	uv0.weapon_property_341[783203] = {
+		name = "【2021意大利活动D3】测试者通用随机瞄准",
+		damage = 6,
+		base = 1001029,
+		id = 783203,
+		angle = 360,
+		bullet_ID = {
+			830001,
+			830005
+		},
+		barrage_ID = {
+			840031,
+			840032
+		}
+	}
 	uv0.weapon_property_341[783204] = {
 		name = "【2021意大利活动D3】测试者通用5way鱼雷",
 		damage = 52,
@@ -1409,18 +1424,6 @@ function ()
 		},
 		barrage_ID = {
 			1106
-		}
-	}
-	uv0.weapon_property_341[784314] = {
-		name = "【2021意大利活动SP】塞壬自爆船R型特殊武器",
-		damage = 30,
-		base = 1000871,
-		id = 784314,
-		bullet_ID = {
-			830006
-		},
-		barrage_ID = {
-			700029
 		}
 	}
 end()

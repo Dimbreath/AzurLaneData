@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_94 = {
+	[12213] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 12200,
+		id = 12213,
+		weapon_id = {
+			12213
+		}
+	},
 	[13000] = {
 		name = "三联装203mm主炮",
 		speciality = "锁定",
@@ -278,65 +287,6 @@ pg.equip_data_statistics_94 = {
 		base = 13040,
 		weapon_id = {
 			13047
-		}
-	},
-	[13060] = {
-		name = "三联装203mm主炮Mk13",
-		speciality = "锁定",
-		type = 3,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "13060",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "23 x 3",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 13060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1204
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			13060
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CA",
-			"MG",
-			"HE"
 		}
 	}
 }

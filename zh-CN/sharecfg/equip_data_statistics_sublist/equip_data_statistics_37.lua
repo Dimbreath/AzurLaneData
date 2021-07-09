@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_37 = {
+	[1740] = {
+		name = "液压舵机",
+		tech = 3,
+		type = 10,
+		speciality = "无",
+		id = 1740,
+		value_2 = 20,
+		icon = "1700",
+		value_1 = "9",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "舵坏了可就麻烦啦，能够提高机动值",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[1741] = {
 		id = 1741,
 		value_2 = 24,
@@ -123,12 +155,6 @@ pg.equip_data_statistics_37 = {
 		id = 1768,
 		value_2 = 52,
 		value_1 = "34",
-		base = 1760
-	},
-	[1769] = {
-		id = 1769,
-		value_2 = 56,
-		value_1 = "37",
 		base = 1760
 	}
 }

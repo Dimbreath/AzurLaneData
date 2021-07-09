@@ -51,42 +51,43 @@ function slot0.register(slot0)
 	slot0:on(63316, function (slot0)
 		print("63316 get meta skill exp info")
 
-		slot2 = uv0.metaSkillLevelMaxInfoList or {}
+		slot1 = {}
+		slot3 = uv0.metaSkillLevelMaxInfoList or {}
 
-		for slot6, slot7 in ipairs(slot0.skill_info_list) do
-			print("shipID", slot7.ship_id)
+		for slot7, slot8 in ipairs(slot0.skill_info_list) do
+			print("shipID", slot8.ship_id)
 
-			slot9 = slot7.skill_id
-			slot10 = slot7.skill_level
+			slot12 = slot8.skill_exp
 
-			uv0:addExpToMetaTacticsInfo(slot7)
-			uv0:setLastMetaSkillExpInfo({}, slot7)
-			uv0:setMetaSkillLevelMaxInfo(slot2, slot7)
+			uv0:addExpToMetaTacticsInfo(slot8)
+			uv0:setLastMetaSkillExpInfo({}, slot8)
+			uv0:setMetaSkillLevelMaxInfo(slot3, slot8)
 
-			slot14 = getProxy(BayProxy):getShipById(slot7.ship_id)
+			if pg.gameset.meta_skill_exp_max.key_value <= slot8.day_exp or getProxy(BayProxy):getShipById(slot8.ship_id):getMetaSkillLevelBySkillID(slot8.skill_id) < slot8.skill_level then
+				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_META, {
+					metaShipVO = slot15,
+					newDayExp = slot13,
+					addDayExp = slot8.add_exp,
+					curSkillID = slot10,
+					newSkillLevel = slot11,
+					oldSkillLevel = slot17
+				})
+			end
 
-			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_META, {
-				metaShipVO = slot14,
-				newDayExp = slot7.day_exp,
-				addDayExp = slot7.add_exp,
-				curSkillID = slot9,
-				newSkillLevel = slot10,
-				oldSkillLevel = slot14:getMetaSkillLevelBySkillID(slot9)
+			slot15:updateSkill({
+				skill_id = slot10,
+				skill_lv = slot11,
+				skill_exp = slot12
 			})
-			slot14:updateSkill({
-				skill_id = slot9,
-				skill_lv = slot10,
-				skill_exp = slot7.skill_exp
-			})
-			getProxy(BayProxy):updateShip(slot14)
+			getProxy(BayProxy):updateShip(slot15)
+		end
+
+		if #slot3 > 0 then
+			uv0.metaSkillLevelMaxInfoList = slot3
 		end
 
 		if #slot2 > 0 then
-			uv0.metaSkillLevelMaxInfoList = slot2
-		end
-
-		if #slot1 > 0 then
-			uv0.lastMetaSkillExpInfoList = slot1
+			uv0.lastMetaSkillExpInfoList = slot2
 		end
 	end)
 end

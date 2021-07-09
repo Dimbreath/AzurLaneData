@@ -400,7 +400,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ACT_NEW_PT_DONE,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
 		GAME.GET_POWERRANK_DONE,
-		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE
+		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
+		CommanderProxy.PREFAB_FLEET_UPDATE
 	}
 end
 
@@ -466,6 +467,9 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.viewComponent:updateEditPanel()
 		slot0.viewComponent:updateCommanderFleet(slot4[slot3.fleetId])
+	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
+		slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
+		slot0.viewComponent:updateCommanderPrefab()
 	end
 end
 

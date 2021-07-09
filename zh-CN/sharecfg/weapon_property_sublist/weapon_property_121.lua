@@ -2,6 +2,22 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 function ()
+	uv0.weapon_property_121[65277] = {
+		name = "玛莉萝丝反击弹幕技能Lv7",
+		damage = 18,
+		base = 65271,
+		id = 65277,
+		bullet_ID = {
+			19223,
+			19223,
+			19223
+		},
+		barrage_ID = {
+			80965,
+			80966,
+			80967
+		}
+	}
 	uv0.weapon_property_121[65278] = {
 		name = "玛莉萝丝反击弹幕技能Lv8",
 		damage = 20,
@@ -660,12 +676,6 @@ function ()
 		id = 65339,
 		name = "海咲强化石弹幕Lv9",
 		damage = 18,
-		base = 65331
-	}
-	uv0.weapon_property_121[65340] = {
-		id = 65340,
-		name = "海咲强化石弹幕Lv10",
-		damage = 20,
 		base = 65331
 	}
 end()

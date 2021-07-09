@@ -2,6 +2,67 @@ pg = pg or {}
 pg.weapon_property_398 = {}
 
 function ()
+	uv0.weapon_property_398[2043053] = {
+		action_index = "attack",
+		range = 150,
+		type = 1,
+		fire_fx = "shenyuanFire01",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv4",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 92,
+		id = 2043053,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2400,
+		queue = 7,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20430500,
+			20430501,
+			20430502,
+			20430503,
+			20430504,
+			20430505,
+			20430506
+		},
+		barrage_ID = {
+			20430500,
+			20430500,
+			20430500,
+			20430501,
+			20430500,
+			20430500,
+			20430501
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 5,
+			armor = 30000,
+			fx = "jinengenemy",
+			isBound = true
+		}
+	}
 	uv0.weapon_property_398[2043054] = {
 		action_index = "attack",
 		range = 150,
@@ -3666,57 +3727,6 @@ function ()
 		corrected = 100,
 		min_range = 80,
 		id = 2043530,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 12,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20431600,
-			20431601
-		},
-		barrage_ID = {
-			20435300,
-			20435301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 1.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043531] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p4_点射后排lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 80,
-		id = 2043531,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,

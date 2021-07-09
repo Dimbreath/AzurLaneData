@@ -2,6 +2,81 @@ pg = pg or {}
 pg.weapon_property_340 = {}
 
 function ()
+	uv0.weapon_property_340[781220] = {
+		action_index = "attack",
+		range = 120,
+		type = 24,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2021意大利活动B3】BOSS 测试者 雷电扫射 逆时针",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 781220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 6000,
+		queue = 4,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038
+		},
+		barrage_ID = {
+			840107,
+			840108,
+			840109,
+			840110,
+			840111,
+			840112,
+			840113,
+			840114,
+			840115,
+			840116,
+			840117,
+			840118,
+			840119,
+			840120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.1,
+			fx = "jinengenemy",
+			alertTime = 0.1,
+			isBound = true
+		}
+	}
 	uv0.weapon_property_340[781221] = {
 		action_index = "attack",
 		range = 120,
@@ -1324,21 +1399,6 @@ function ()
 		barrage_ID = {
 			840021,
 			840030
-		}
-	}
-	uv0.weapon_property_340[783203] = {
-		name = "【2021意大利活动D3】测试者通用随机瞄准",
-		damage = 6,
-		base = 1001029,
-		id = 783203,
-		angle = 360,
-		bullet_ID = {
-			830001,
-			830005
-		},
-		barrage_ID = {
-			840031,
-			840032
 		}
 	}
 end()

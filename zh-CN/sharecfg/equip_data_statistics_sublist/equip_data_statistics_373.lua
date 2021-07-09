@@ -1,5 +1,12 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
+	[89011] = {
+		id = 89011,
+		anti_siren = 100,
+		base = 89000,
+		value_2 = 16,
+		value_1 = "26"
+	},
 	[89012] = {
 		id = 89012,
 		anti_siren = 200,
@@ -119,39 +126,5 @@ pg.equip_data_statistics_373 = {
 		base = 89020,
 		value_2 = 2,
 		value_1 = "590"
-	},
-	[89040] = {
-		name = "智慧模块",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89040,
-		value_2 = 3,
-		icon = "89040",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#ff5c5c>（该装备绊爱联动活动结束后装备技能失效）</color>",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6400
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

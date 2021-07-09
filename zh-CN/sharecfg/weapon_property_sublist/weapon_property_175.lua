@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_175 = {}
 
 function ()
+	uv0.weapon_property_175[69507] = {
+		name = "小光辉技能圣光飞机Lv7",
+		damage = 72,
+		base = 69501,
+		id = 69507,
+		bullet_ID = {
+			69507
+		}
+	}
 	uv0.weapon_property_175[69508] = {
 		name = "小光辉技能圣光飞机Lv8",
 		damage = 79,
@@ -675,12 +684,6 @@ function ()
 		id = 69569,
 		name = "奥丁平射小子弹LV9",
 		damage = 86,
-		base = 69561
-	}
-	uv0.weapon_property_175[69570] = {
-		id = 69570,
-		name = "奥丁平射小子弹LV10",
-		damage = 92,
 		base = 69561
 	}
 end()

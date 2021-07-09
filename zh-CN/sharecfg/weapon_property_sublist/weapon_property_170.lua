@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_170 = {}
 
 function ()
+	uv0.weapon_property_170[69192] = {
+		id = 69192,
+		name = "布莱默顿技能弹幕-LV2",
+		damage = 12,
+		base = 69191
+	}
 	uv0.weapon_property_170[69193] = {
 		id = 69193,
 		name = "布莱默顿技能弹幕-LV3",
@@ -685,12 +691,6 @@ function ()
 		id = 69254,
 		name = "土佐Center子母弹LV4",
 		damage = 14,
-		base = 69251
-	}
-	uv0.weapon_property_170[69255] = {
-		id = 69255,
-		name = "土佐Center子母弹LV5",
-		damage = 15,
 		base = 69251
 	}
 end()

@@ -2,6 +2,28 @@ pg = pg or {}
 pg.weapon_property_326 = {}
 
 function ()
+	uv0.weapon_property_326[698003] = {
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 普通上篇",
+		type = 2,
+		reload_max = 9999,
+		queue = 7,
+		id = 698003,
+		bullet_ID = {
+			760103,
+			760108,
+			760104,
+			760109
+		},
+		barrage_ID = {
+			770072,
+			770073,
+			770074,
+			770075
+		}
+	}
 	uv0.weapon_property_326[698004] = {
 		range = 120,
 		damage = 5,
@@ -1252,23 +1274,6 @@ function ()
 		},
 		barrage_ID = {
 			780014
-		}
-	}
-	uv0.weapon_property_326[711026] = {
-		aim_type = 1,
-		range = 38,
-		base = 1000,
-		name = "【2020普林斯顿SP2】BOSS 大凤 近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		queue = 1,
-		id = 711026,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			13
 		}
 	}
 end()

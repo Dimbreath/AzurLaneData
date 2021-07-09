@@ -2,6 +2,62 @@ pg = pg or {}
 pg.weapon_property_109 = {}
 
 function ()
+	uv0.weapon_property_109[60303] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "凯旋弹幕展示I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 125,
+		min_range = 0,
+		id = 60303,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79331,
+			79331,
+			79332,
+			79332,
+			79333,
+			79333,
+			79334
+		},
+		barrage_ID = {
+			80461,
+			80462,
+			80463,
+			80464,
+			80465,
+			80466,
+			80473
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_109[60304] = {
 		name = "凯旋弹幕展示II",
 		damage = 12,
@@ -1426,15 +1482,6 @@ function ()
 		barrage_ID = {
 			1511,
 			1511
-		}
-	}
-	uv0.weapon_property_109[60523] = {
-		id = 60523,
-		name = "航空攻击展示-英仙座III",
-		base = 60521,
-		barrage_ID = {
-			1512,
-			1512
 		}
 	}
 end()

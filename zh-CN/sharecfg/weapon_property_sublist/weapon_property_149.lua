@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
+	uv0.weapon_property_149[67802] = {
+		id = 67802,
+		damage = 52,
+		base = 67801
+	}
 	uv0.weapon_property_149[67803] = {
 		id = 67803,
 		damage = 54,
@@ -616,16 +621,6 @@ function ()
 		name = "追赶者剑鱼 Lv4",
 		bullet_ID = {
 			67894
-		}
-	}
-	uv0.weapon_property_149[67895] = {
-		reload_max = 540,
-		damage = 62,
-		base = 67891,
-		id = 67895,
-		name = "追赶者剑鱼 Lv5",
-		bullet_ID = {
-			67895
 		}
 	}
 end()

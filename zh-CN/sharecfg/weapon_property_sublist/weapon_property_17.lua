@@ -2,6 +2,13 @@ pg = pg or {}
 pg.weapon_property_17 = {}
 
 function ()
+	uv0.weapon_property_17[15173] = {
+		reload_max = 1882,
+		damage = 149,
+		base = 15160,
+		id = 15173,
+		corrected = 118
+	}
 	uv0.weapon_property_17[15200] = {
 		action_index = "attack",
 		range = 50,
@@ -646,49 +653,5 @@ function ()
 		base = 16060,
 		id = 16071,
 		corrected = 104
-	}
-	uv0.weapon_property_17[16080] = {
-		action_index = "attack",
-		range = 30,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装76mmRF火炮Mk27",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 33,
-		corrected = 100,
-		min_range = 0,
-		id = 16080,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 142,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

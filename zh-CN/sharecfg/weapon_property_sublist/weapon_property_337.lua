@@ -2,6 +2,31 @@ pg = pg or {}
 pg.weapon_property_337 = {}
 
 function ()
+	uv0.weapon_property_337[770002] = {
+		initial_over_heat = 0,
+		name = "【2021毛系活动A1】塞壬领洋者I型 主炮1",
+		type = 1,
+		aim_type = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		reload_max = 1600,
+		queue = 1,
+		range = 90,
+		damage = 10,
+		base = 1000,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 770002,
+		bullet_ID = {
+			20003,
+			20003
+		},
+		barrage_ID = {
+			200140,
+			200141
+		}
+	}
 	uv0.weapon_property_337[770003] = {
 		initial_over_heat = 0,
 		name = "【2021毛系活动A1】塞壬领洋者I型 主炮2",
@@ -1832,33 +1857,6 @@ function ()
 		bullet_ID = {},
 		barrage_ID = {
 			690110
-		}
-	}
-	uv0.weapon_property_337[772205] = {
-		aim_type = 0,
-		name = "【2021毛系活动C3】塞壬执棋者II型 轰炸机武器",
-		axis_angle = 0,
-		type = 2,
-		min_range = 0,
-		fire_fx = "",
-		action_index = "",
-		initial_over_heat = 0,
-		reload_max = 400,
-		attack_attribute = 4,
-		queue = 1,
-		angle = 180,
-		range = 10,
-		damage = 36,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 772205,
-		bullet_ID = {
-			130301
-		},
-		barrage_ID = {
-			130992
 		}
 	}
 end()

@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
+	[79541] = {
+		name = "专属弹幕-圣女贞德I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79541,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60501
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79542] = {
 		id = 79542,
 		name = "专属弹幕-圣女贞德II",
@@ -371,13 +410,5 @@ pg.equip_data_statistics_360 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[79622] = {
-		id = 79622,
-		name = "专属弹幕-恶毒μII",
-		base = 79621,
-		weapon_id = {
-			60582
-		}
 	}
 }

@@ -2,6 +2,23 @@ pg = pg or {}
 pg.weapon_property_330 = {}
 
 function ()
+	uv0.weapon_property_330[741102] = {
+		name = "【DOA联动SP2】BOSS 海咲 大范围鱼雷",
+		damage = 32,
+		base = 1001,
+		action_index = "",
+		suppress = 1,
+		reload_max = 2800,
+		id = 741102,
+		bullet_ID = {
+			110605,
+			110606
+		},
+		barrage_ID = {
+			810066,
+			810067
+		}
+	}
 	uv0.weapon_property_330[741103] = {
 		aim_type = 1,
 		range = 120,
@@ -1602,47 +1619,6 @@ function ()
 			740044,
 			740045,
 			740046
-		}
-	}
-	uv0.weapon_property_330[745001] = {
-		aim_type = 1,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第一波 横向自机狙",
-		type = 2,
-		suppress = 1,
-		reload_max = 6000,
-		action_index = "",
-		queue = 1,
-		id = 745001,
-		bullet_ID = {
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072
-		},
-		barrage_ID = {
-			810112,
-			810113,
-			810114,
-			810115,
-			810116,
-			810117,
-			810118,
-			810119,
-			810120,
-			810121,
-			810124,
-			810125
 		}
 	}
 end()

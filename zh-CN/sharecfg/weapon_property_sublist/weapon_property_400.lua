@@ -2,6 +2,56 @@ pg = pg or {}
 pg.weapon_property_400 = {}
 
 function ()
+	uv0.weapon_property_400[2044451] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】深渊BOSS航母_p4_莲花阵lv2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 125,
+		min_range = 0,
+		id = 2044451,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20124020,
+			20124021,
+			20444500,
+			20444501
+		},
+		barrage_ID = {
+			20124300,
+			20124301,
+			20444500,
+			20444501
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_400[2044452] = {
 		action_index = "attack",
 		range = 120,
@@ -4595,6 +4645,8 @@ function ()
 		},
 		precast_param = {}
 	}
+end()
+function ()
 	uv0.weapon_property_400[2200817] = {
 		action_index = "attack",
 		range = 110,
@@ -4639,8 +4691,6 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
 	uv0.weapon_property_400[2200818] = {
 		action_index = "attack",
 		range = 110,
@@ -13172,6 +13222,8 @@ function ()
 		},
 		precast_param = {}
 	}
+end()
+function ()
 	uv0.weapon_property_400[2964102] = {
 		action_index = "attack",
 		range = 90,
@@ -13218,8 +13270,6 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
 	uv0.weapon_property_400[2964103] = {
 		action_index = "attack",
 		range = 90,
@@ -17249,6 +17299,8 @@ function ()
 			29643077
 		}
 	}
+end()
+function ()
 	uv0.weapon_property_400[2965162] = {
 		aim_type = 0,
 		range = 120,
@@ -17285,8 +17337,6 @@ function ()
 			29643077
 		}
 	}
-end()
-function ()
 	uv0.weapon_property_400[2965163] = {
 		aim_type = 0,
 		range = 120,
@@ -20944,6 +20994,8 @@ function ()
 			29644075
 		}
 	}
+end()
+function ()
 	uv0.weapon_property_400[30000001] = {
 		action_index = "attack",
 		range = 120,
@@ -20993,8 +21045,6 @@ function ()
 			isBound = true
 		}
 	}
-end()
-function ()
 	uv0.weapon_property_400[30000002] = {
 		action_index = "attack",
 		range = 120,

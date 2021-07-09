@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_336 = {
+	[60312] = {
+		id = 60312,
+		name = "航空攻击展示-半人马II",
+		base = 60311,
+		weapon_id = {
+			60312
+		}
+	},
 	[60313] = {
 		id = 60313,
 		name = "航空攻击展示-半人马III",
@@ -227,33 +235,5 @@ pg.equip_data_statistics_336 = {
 		weapon_id = {
 			60363
 		}
-	},
-	[60371] = {
-		name = "航空攻击展示-龙骧I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60371,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60371
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
 	}
 }

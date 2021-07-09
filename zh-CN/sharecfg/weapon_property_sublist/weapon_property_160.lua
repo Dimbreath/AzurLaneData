@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_160 = {}
 
 function ()
+	uv0.weapon_property_160[68532] = {
+		id = 68532,
+		name = "埃米尔·贝尔汀改技能鱼雷LV2",
+		damage = 36,
+		base = 68531
+	}
 	uv0.weapon_property_160[68533] = {
 		id = 68533,
 		name = "埃米尔·贝尔汀改技能鱼雷LV3",
@@ -668,12 +674,6 @@ function ()
 		id = 68594,
 		name = "阿拉巴马技能LV4-PVE",
 		damage = 94,
-		base = 68591
-	}
-	uv0.weapon_property_160[68595] = {
-		id = 68595,
-		name = "阿拉巴马技能LV5-PVE",
-		damage = 106,
 		base = 68591
 	}
 end()

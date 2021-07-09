@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_147 = {}
 
 function ()
+	uv0.weapon_property_147[67676] = {
+		id = 67676,
+		name = "双影无双爆炸ALv6",
+		damage = 162,
+		base = 67671
+	}
 	uv0.weapon_property_147[67677] = {
 		id = 67677,
 		name = "双影无双爆炸ALv7",
@@ -751,16 +757,6 @@ function ()
 		damage = 26,
 		base = 67731,
 		id = 67738,
-		barrage_ID = {
-			80512,
-			80513
-		}
-	}
-	uv0.weapon_property_147[67739] = {
-		name = "战列加贺技能小子弹-LV9",
-		damage = 30,
-		base = 67731,
-		id = 67739,
 		barrage_ID = {
 			80512,
 			80513

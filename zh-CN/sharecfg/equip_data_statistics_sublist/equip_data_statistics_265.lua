@@ -1,5 +1,27 @@
 pg = pg or {}
 pg.equip_data_statistics_265 = {
+	[37201] = {
+		id = 37201,
+		base = 37200,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				6,
+				50501
+			},
+			{
+				5,
+				52101
+			}
+		},
+		weapon_id = {
+			37201,
+			83201
+		}
+	},
 	[37202] = {
 		id = 37202,
 		base = 37200,
@@ -385,63 +407,6 @@ pg.equip_data_statistics_265 = {
 		weapon_id = {
 			37230,
 			83230
-		}
-	},
-	[37240] = {
-		name = "零战五二型",
-		type = 7,
-		speciality = "空战",
-		rarity = 5,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "37200",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37240,
-			83240
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
 		}
 	}
 }

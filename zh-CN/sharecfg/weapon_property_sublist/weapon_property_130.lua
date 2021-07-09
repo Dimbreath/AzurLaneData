@@ -2,6 +2,14 @@ pg = pg or {}
 pg.weapon_property_130 = {}
 
 function ()
+	uv0.weapon_property_130[65854] = {
+		id = 65854,
+		damage = 98,
+		base = 65851,
+		barrage_ID = {
+			2143
+		}
+	}
 	uv0.weapon_property_130[65855] = {
 		id = 65855,
 		damage = 110,
@@ -654,18 +662,6 @@ function ()
 		id = 65916,
 		bullet_ID = {
 			65916
-		}
-	}
-	uv0.weapon_property_130[65917] = {
-		name = "天鹰技能G.50Lv7",
-		damage = 1,
-		base = 65911,
-		id = 65917,
-		bullet_ID = {
-			65917
-		},
-		barrage_ID = {
-			12009
 		}
 	}
 end()

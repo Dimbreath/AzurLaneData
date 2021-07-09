@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_199 = {}
 
 function ()
+	uv0.weapon_property_199[85325] = {
+		id = 85325,
+		reload_max = 4288,
+		damage = 102,
+		base = 85320
+	}
 	uv0.weapon_property_199[85326] = {
 		id = 85326,
 		reload_max = 4191,
@@ -709,49 +715,5 @@ function ()
 		bullet_ID = {
 			95746
 		}
-	}
-	uv0.weapon_property_199[86040] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "G.50箭式战斗机T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 86040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1710,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			95760
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

@@ -2,6 +2,48 @@ pg = pg or {}
 pg.weapon_property_334 = {}
 
 function ()
+	uv0.weapon_property_334[760002] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 浮游炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 760002,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			690109
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_334[760003] = {
 		action_index = "",
 		range = 10,
@@ -1642,18 +1684,6 @@ function ()
 		id = 761212,
 		range = 120,
 		queue = 2,
-		barrage_ID = {
-			700143
-		}
-	}
-	uv0.weapon_property_334[761213] = {
-		reload_max = 100,
-		name = "【2020德系活动B3】塞壬构建者 第四波 浮游炮",
-		damage = 12,
-		base = 1002,
-		id = 761213,
-		range = 120,
-		queue = 3,
 		barrage_ID = {
 			700143
 		}

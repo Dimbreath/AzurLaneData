@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_9 = {
+	[540] = {
+		name = "治愈系猫爪",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "540",
+		value_1 = "120",
+		descrip = "{namecode:89}酱用的猫爪，似乎有着某种治愈效果",
+		rarity = 5,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6170
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
 	[541] = {
 		id = 541,
 		value_1 = "138",
@@ -121,11 +155,6 @@ pg.equip_data_statistics_9 = {
 	[562] = {
 		id = 562,
 		value_1 = "19",
-		base = 560
-	},
-	[563] = {
-		id = 563,
-		value_1 = "21",
 		base = 560
 	}
 }

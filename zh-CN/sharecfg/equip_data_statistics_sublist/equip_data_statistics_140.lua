@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_140 = {
+	[18151] = {
+		anti_siren = 100,
+		base = 18140,
+		id = 18151,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51151
+			}
+		},
+		weapon_id = {
+			18151
+		}
+	},
 	[18180] = {
 		name = "TBM复仇者(VT-18中队)",
 		type = 8,
@@ -384,23 +402,6 @@ pg.equip_data_statistics_140 = {
 		},
 		weapon_id = {
 			18221
-		}
-	},
-	[18222] = {
-		id = 18222,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59742
-			},
-			{
-				4,
-				51242
-			}
-		},
-		weapon_id = {
-			18222
 		}
 	}
 }

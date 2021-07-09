@@ -1,5 +1,26 @@
 pg = pg or {}
 pg.equip_data_statistics_329 = {
+	[49045] = {
+		id = 49045,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59345
+			},
+			{
+				5,
+				52645
+			},
+			{
+				5,
+				53045
+			}
+		},
+		weapon_id = {
+			49045
+		}
+	},
 	[49046] = {
 		id = 49046,
 		base = 49040,
@@ -332,14 +353,6 @@ pg.equip_data_statistics_329 = {
 		base = 54010,
 		weapon_id = {
 			54011
-		}
-	},
-	[54012] = {
-		id = 54012,
-		name = "轻航专用空中支援技能-轰炸Lv3",
-		base = 54010,
-		weapon_id = {
-			54012
 		}
 	}
 }

@@ -2,6 +2,52 @@ pg = pg or {}
 pg.weapon_property_173 = {}
 
 function ()
+	uv0.weapon_property_173[69381] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "阿尔及利亚技能弹幕-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69381,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19134,
+			19134
+		},
+		barrage_ID = {
+			80872,
+			80873
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_173[69382] = {
 		id = 69382,
 		name = "阿尔及利亚技能弹幕-LV2",
@@ -640,12 +686,6 @@ function ()
 		id = 69443,
 		name = "拉·加利索尼埃技能弹幕-LV3",
 		damage = 13,
-		base = 69441
-	}
-	uv0.weapon_property_173[69444] = {
-		id = 69444,
-		name = "拉·加利索尼埃技能弹幕-LV4",
-		damage = 14,
 		base = 69441
 	}
 end()

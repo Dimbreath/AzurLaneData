@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_176 = {}
 
 function ()
+	uv0.weapon_property_176[69570] = {
+		id = 69570,
+		name = "奥丁平射小子弹LV10",
+		damage = 92,
+		base = 69561
+	}
 	uv0.weapon_property_176[69571] = {
 		action_index = "attack",
 		range = 50,
@@ -734,12 +740,6 @@ function ()
 		id = 69632,
 		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV2",
 		damage = 26,
-		base = 69631
-	}
-	uv0.weapon_property_176[69633] = {
-		id = 69633,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV3",
-		damage = 29,
 		base = 69631
 	}
 end()

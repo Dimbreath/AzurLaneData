@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_165 = {}
 
 function ()
+	uv0.weapon_property_165[68867] = {
+		name = "大神澪技能鱼雷机Lv7",
+		damage = 182,
+		base = 68861,
+		id = 68867,
+		bullet_ID = {
+			68867
+		},
+		barrage_ID = {
+			12010
+		}
+	}
 	uv0.weapon_property_165[68868] = {
 		name = "大神澪技能鱼雷机Lv8",
 		damage = 202,
@@ -654,12 +666,6 @@ function ()
 		id = 68929,
 		name = "齐柏林技能·高爆LV9",
 		damage = 19,
-		base = 68921
-	}
-	uv0.weapon_property_165[68930] = {
-		id = 68930,
-		name = "齐柏林技能·高爆LV10",
-		damage = 20,
 		base = 68921
 	}
 end()

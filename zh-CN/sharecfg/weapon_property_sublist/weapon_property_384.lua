@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_384 = {}
 
 function ()
+	uv0.weapon_property_384[1101045] = {
+		id = 1101045,
+		range = 75,
+		min_range = 0,
+		base = 1100720
+	}
 	uv0.weapon_property_384[1101046] = {
 		id = 1101046,
 		range = 75,
@@ -852,19 +858,6 @@ function ()
 		reload_max = 1000,
 		queue = 4,
 		id = 1101107,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_384[1101108] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕4",
-		range = 90,
-		damage = 40,
-		base = 1100508,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101108,
 		effect_move = 0,
 		angle = 360,
 		initial_over_heat = 0

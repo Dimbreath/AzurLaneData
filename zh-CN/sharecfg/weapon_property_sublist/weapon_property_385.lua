@@ -2,6 +2,19 @@ pg = pg or {}
 pg.weapon_property_385 = {}
 
 function ()
+	uv0.weapon_property_385[1101108] = {
+		name = "【精英】Q版四联装鱼雷III型弹幕4",
+		range = 90,
+		damage = 40,
+		base = 1100508,
+		type = 3,
+		reload_max = 1000,
+		queue = 4,
+		id = 1101108,
+		effect_move = 0,
+		angle = 360,
+		initial_over_heat = 0
+	}
 	uv0.weapon_property_385[1101109] = {
 		name = "【精英】Q版四联装鱼雷III型弹幕5",
 		range = 90,
@@ -1973,52 +1986,6 @@ function ()
 		corrected = 100,
 		min_range = 0,
 		id = 1101530,
-		attack_attribute_ratio = 60,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10304,
-			10303
-		},
-		barrage_ID = {
-			10306,
-			10307
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_385[1101531] = {
-		action_index = "attack",
-		range = 100,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-雾岛II型2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 1101531,
 		attack_attribute_ratio = 60,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,

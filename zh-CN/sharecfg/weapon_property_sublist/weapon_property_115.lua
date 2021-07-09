@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
+	uv0.weapon_property_115[64295] = {
+		id = 64295,
+		name = "香槟独立射击大子弹天运强化LV5",
+		damage = 118,
+		base = 64291
+	}
 	uv0.weapon_property_115[64296] = {
 		id = 64296,
 		name = "香槟独立射击大子弹天运强化LV6",
@@ -302,7 +308,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 16,
 		shakescreen = 0,
-		name = "1 x 天罚落雷",
+		name = "1 x 天罚落雷（独立射击）",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -684,11 +690,6 @@ function ()
 	uv0.weapon_property_115[64357] = {
 		id = 64357,
 		damage = 106,
-		base = 64351
-	}
-	uv0.weapon_property_115[64358] = {
-		id = 64358,
-		damage = 118,
 		base = 64351
 	}
 end()

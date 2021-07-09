@@ -2,6 +2,22 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 function ()
+	uv0.weapon_property_113[64109] = {
+		name = "西南风技能子弹弹幕LV9",
+		damage = 19,
+		base = 64101,
+		id = 64109,
+		bullet_ID = {
+			19288,
+			19288,
+			19288
+		},
+		barrage_ID = {
+			81080,
+			81081,
+			81082
+		}
+	}
 	uv0.weapon_property_113[64110] = {
 		name = "西南风技能子弹弹幕LV10",
 		damage = 20,
@@ -698,11 +714,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_113[64232] = {
-		id = 64232,
-		name = "霞光之绊·改弹幕LV2",
-		damage = 11,
-		base = 64231
 	}
 end()

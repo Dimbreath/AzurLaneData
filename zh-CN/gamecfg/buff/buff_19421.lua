@@ -9,7 +9,7 @@ return {
 				},
 				arg_list = {
 					number = -0.05,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -34,7 +34,7 @@ return {
 				},
 				arg_list = {
 					number = -0.061,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -59,7 +59,7 @@ return {
 				},
 				arg_list = {
 					number = -0.072,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -84,7 +84,7 @@ return {
 				},
 				arg_list = {
 					number = -0.083,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -109,7 +109,7 @@ return {
 				},
 				arg_list = {
 					number = -0.094,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -134,7 +134,7 @@ return {
 				},
 				arg_list = {
 					number = -0.105,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -159,7 +159,7 @@ return {
 				},
 				arg_list = {
 					number = -0.116,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -184,7 +184,7 @@ return {
 				},
 				arg_list = {
 					number = -0.127,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -209,7 +209,7 @@ return {
 				},
 				arg_list = {
 					number = -0.138,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -234,7 +234,7 @@ return {
 				},
 				arg_list = {
 					number = -0.15,
-					attr = "injureRatioByBulletTorpedo"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -254,7 +254,7 @@ return {
 	id = 19421,
 	time = 0,
 	picture = "",
-	desc = "减少受到的鱼雷伤害,提高暴击率",
+	desc = "减少受到的伤害,提高暴击率",
 	stack = 1,
 	color = "blue",
 	icon = 19420,
@@ -275,7 +275,7 @@ return {
 			},
 			arg_list = {
 				number = -0.05,
-				attr = "injureRatioByBulletTorpedo"
+				attr = "injureRatio"
 			}
 		},
 		{

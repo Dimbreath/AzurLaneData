@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_177 = {}
 
 function ()
+	uv0.weapon_property_177[69633] = {
+		id = 69633,
+		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV3",
+		damage = 29,
+		base = 69631
+	}
 	uv0.weapon_property_177[69634] = {
 		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV4",
 		damage = 32,
@@ -736,15 +742,6 @@ function ()
 		id = 69695,
 		bullet_ID = {
 			69695
-		}
-	}
-	uv0.weapon_property_177[69696] = {
-		name = "英仙座随机飞机-海黄蜂-Lv6",
-		damage = 251,
-		base = 69691,
-		id = 69696,
-		bullet_ID = {
-			69696
 		}
 	}
 end()

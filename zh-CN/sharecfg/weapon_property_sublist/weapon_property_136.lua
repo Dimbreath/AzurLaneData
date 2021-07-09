@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 function ()
+	uv0.weapon_property_136[66429] = {
+		name = "胡蜂技能LV9",
+		damage = 44,
+		base = 66420,
+		id = 66429,
+		bullet_ID = {
+			27009
+		}
+	}
 	uv0.weapon_property_136[66430] = {
 		name = "胡蜂技能LV10",
 		damage = 46,
@@ -844,15 +853,6 @@ function ()
 		damage = 14,
 		base = 66560,
 		id = 66565,
-		barrage_ID = {
-			80372
-		}
-	}
-	uv0.weapon_property_136[66566] = {
-		name = "众神之怒·雪崩雷震-冰球LV6",
-		damage = 15,
-		base = 66560,
-		id = 66566,
 		barrage_ID = {
 			80372
 		}

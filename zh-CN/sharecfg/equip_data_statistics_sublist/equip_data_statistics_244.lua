@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_244 = {
+	[35320] = {
+		name = "五联装610mm鱼雷",
+		speciality = "雷击",
+		type = 5,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "35300",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "58 x 5",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35320
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
 	[35321] = {
 		id = 35321,
 		damage = "70 x 5",
@@ -180,14 +242,6 @@ pg.equip_data_statistics_244 = {
 		base = 35340,
 		weapon_id = {
 			35345
-		}
-	},
-	[35346] = {
-		id = 35346,
-		damage = "150 x 5",
-		base = 35340,
-		weapon_id = {
-			35346
 		}
 	}
 }

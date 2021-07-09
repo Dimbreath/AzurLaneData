@@ -2,6 +2,20 @@ pg = pg or {}
 pg.weapon_property_127 = {}
 
 function ()
+	uv0.weapon_property_127[65665] = {
+		name = "神速技能弹幕LV5",
+		damage = 26,
+		base = 65661,
+		id = 65665,
+		bullet_ID = {
+			19262,
+			19262
+		},
+		barrage_ID = {
+			81023,
+			81024
+		}
+	}
 	uv0.weapon_property_127[65666] = {
 		name = "神速技能弹幕LV6",
 		damage = 28,
@@ -749,15 +763,6 @@ function ()
 		damage = 128,
 		base = 65721,
 		id = 65727,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_127[65728] = {
-		name = "贝拉罗斯PVP冰锥1-50-LV8",
-		damage = 140,
-		base = 65721,
-		id = 65728,
 		barrage_ID = {
 			81026
 		}

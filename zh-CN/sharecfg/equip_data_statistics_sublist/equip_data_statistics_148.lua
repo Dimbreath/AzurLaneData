@@ -1,5 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_148 = {
+	[21040] = {
+		name = "单装102mm副炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "21000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 1",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				999
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
 	[21041] = {
 		id = 21041,
 		base = 21040,
@@ -296,13 +362,6 @@ pg.equip_data_statistics_148 = {
 			"HMS",
 			"DD",
 			"MG"
-		}
-	},
-	[21141] = {
-		id = 21141,
-		base = 21140,
-		weapon_id = {
-			21141
 		}
 	}
 }

@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_342 = {
+	[70011] = {
+		name = "全弹发射-法拉格特级I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70011
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[70012] = {
 		id = 70012,
 		name = "全弹发射-法拉格特级II",
@@ -375,13 +414,5 @@ pg.equip_data_statistics_342 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[70112] = {
-		id = 70112,
-		name = "全弹发射-奥马哈级II",
-		base = 70111,
-		weapon_id = {
-			70112
-		}
 	}
 }

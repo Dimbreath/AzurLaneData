@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_154 = {}
 
 function ()
+	uv0.weapon_property_154[68154] = {
+		name = "加斯科涅技能·箭型国旗LV4红",
+		damage = 28,
+		base = 68151,
+		id = 68154,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
 	uv0.weapon_property_154[68155] = {
 		name = "加斯科涅技能·箭型国旗LV5红",
 		damage = 31,
@@ -740,24 +750,6 @@ function ()
 		damage = 70,
 		base = 68201,
 		id = 68206,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_154[68207] = {
-		name = "出云技能-PVE-LV7",
-		damage = 78,
-		base = 68201,
-		id = 68207,
 		bullet_ID = {
 			19922,
 			19922,

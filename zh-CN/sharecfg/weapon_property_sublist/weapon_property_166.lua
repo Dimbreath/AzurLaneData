@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_166 = {}
 
 function ()
+	uv0.weapon_property_166[68930] = {
+		id = 68930,
+		name = "齐柏林技能·高爆LV10",
+		damage = 20,
+		base = 68921
+	}
 	uv0.weapon_property_166[68931] = {
 		action_index = "attack",
 		range = 50,
@@ -717,12 +723,6 @@ function ()
 		id = 68992,
 		name = "骏河主炮弹幕PVPLV2",
 		damage = 66,
-		base = 68991
-	}
-	uv0.weapon_property_166[68993] = {
-		id = 68993,
-		name = "骏河主炮弹幕PVPLV3",
-		damage = 74,
 		base = 68991
 	}
 end()

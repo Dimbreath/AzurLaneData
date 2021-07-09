@@ -1,5 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_53 = {
+	[2800] = {
+		name = "94式高射装置",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 2800,
+		value_2 = 4,
+		icon = "2800",
+		value_1 = "22",
+		attribute_2 = "hit",
+		rarity = 4,
+		descrip = "高角炮对空射击用的高射装置，安装了测距仪，用以支持高射炮进行有效的对空射击。",
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
 	[2801] = {
 		id = 2801,
 		value_2 = 5,
@@ -164,11 +197,5 @@ pg.equip_data_statistics_53 = {
 		label = {
 			"DEV"
 		}
-	},
-	[2921] = {
-		id = 2921,
-		value_2 = 3,
-		value_1 = "4",
-		base = 2920
 	}
 }

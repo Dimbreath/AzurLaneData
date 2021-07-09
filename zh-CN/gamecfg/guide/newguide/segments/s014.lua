@@ -4,6 +4,7 @@ return {
 		{
 			alpha = 0,
 			waitScene = "AwardInfoLayer",
+			delay = 1,
 			style = {
 				text = "关闭奖励界面",
 				mode = 2,

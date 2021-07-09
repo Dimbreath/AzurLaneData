@@ -2,6 +2,48 @@ pg = pg or {}
 pg.weapon_property_39 = {}
 
 function ()
+	uv0.weapon_property_39[27060] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海喷火FR.47T0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 27060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1981,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_39[27061] = {
 		id = 27061,
 		reload_max = 1943,
@@ -750,10 +792,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_39[27261] = {
-		id = 27261,
-		reload_max = 1695,
-		base = 27260
 	}
 end()

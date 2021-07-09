@@ -2,6 +2,27 @@ pg = pg or {}
 pg.weapon_property_339 = {}
 
 function ()
+	uv0.weapon_property_339[780003] = {
+		range = 200,
+		damage = 3,
+		base = 1000,
+		name = "【2021意大利活动】机制 海妖之歌 SP",
+		type = 2,
+		reload_max = 4550,
+		fire_sfx = "",
+		queue = 7,
+		id = 780003,
+		bullet_ID = {
+			830073,
+			830074,
+			830075
+		},
+		barrage_ID = {
+			840135,
+			840136,
+			840137
+		}
+	}
 	uv0.weapon_property_339[780011] = {
 		initial_over_heat = 0,
 		name = "【2021意大利活动A1】塞壬领洋者I型 近程自卫火炮",
@@ -1518,81 +1539,6 @@ function ()
 		},
 		barrage_ID = {
 			840143
-		}
-	}
-	uv0.weapon_property_339[781220] = {
-		action_index = "attack",
-		range = 120,
-		type = 24,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动B3】BOSS 测试者 雷电扫射 逆时针",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 781220,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 6000,
-		queue = 4,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			830037,
-			830038,
-			830037,
-			830038,
-			830037,
-			830038,
-			830037,
-			830038,
-			830037,
-			830038,
-			830037,
-			830038,
-			830037,
-			830038
-		},
-		barrage_ID = {
-			840107,
-			840108,
-			840109,
-			840110,
-			840111,
-			840112,
-			840113,
-			840114,
-			840115,
-			840116,
-			840117,
-			840118,
-			840119,
-			840120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.1,
-			fx = "jinengenemy",
-			alertTime = 0.1,
-			isBound = true
 		}
 	}
 end()

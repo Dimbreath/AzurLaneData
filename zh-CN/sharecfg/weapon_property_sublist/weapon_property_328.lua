@@ -2,6 +2,23 @@ pg = pg or {}
 pg.weapon_property_328 = {}
 
 function ()
+	uv0.weapon_property_328[722007] = {
+		aim_type = 0,
+		name = "【2020偶像活动二期SP3】精英人形大青花鱼 专属弹幕鱼雷",
+		damage = 40,
+		base = 1001,
+		action_index = "",
+		reload_max = 2400,
+		id = 722007,
+		bullet_ID = {
+			79341,
+			79341
+		},
+		barrage_ID = {
+			79341,
+			79342
+		}
+	}
 	uv0.weapon_property_328[722008] = {
 		name = "【2020偶像活动二期SP3】精英人形大青花鱼 快速自机狙鱼雷",
 		damage = 40,
@@ -1324,24 +1341,6 @@ function ()
 		reload_max = 900,
 		queue = 1,
 		id = 729001,
-		bullet_ID = {
-			780002,
-			780002
-		},
-		barrage_ID = {
-			790002,
-			790003
-		}
-	}
-	uv0.weapon_property_328[729002] = {
-		range = 100,
-		damage = 5,
-		base = 1000,
-		name = "【2020偶像活动二期】恶毒 音符子弹武器2",
-		type = 2,
-		reload_max = 900,
-		queue = 1,
-		id = 729002,
 		bullet_ID = {
 			780002,
 			780002

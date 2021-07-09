@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_126 = {}
 
 function ()
+	uv0.weapon_property_126[65602] = {
+		id = 65602,
+		name = "文琴佐鱼雷 LV2",
+		damage = 44,
+		base = 65601
+	}
 	uv0.weapon_property_126[65603] = {
 		id = 65603,
 		name = "文琴佐鱼雷 LV3",
@@ -637,20 +643,6 @@ function ()
 		damage = 24,
 		base = 65661,
 		id = 65664,
-		bullet_ID = {
-			19262,
-			19262
-		},
-		barrage_ID = {
-			81023,
-			81024
-		}
-	}
-	uv0.weapon_property_126[65665] = {
-		name = "神速技能弹幕LV5",
-		damage = 26,
-		base = 65661,
-		id = 65665,
 		bullet_ID = {
 			19262,
 			19262

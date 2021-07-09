@@ -2,6 +2,20 @@ pg = pg or {}
 pg.weapon_property_140 = {}
 
 function ()
+	uv0.weapon_property_140[66928] = {
+		name = "I19穿透鱼雷LV8",
+		damage = 42,
+		base = 66920,
+		id = 66928,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80134,
+			80135
+		}
+	}
 	uv0.weapon_property_140[66929] = {
 		name = "I19穿透鱼雷LV9",
 		damage = 45,
@@ -657,24 +671,6 @@ function ()
 		damage = 65,
 		base = 67040,
 		id = 67044,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80142,
-			80145,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_140[67045] = {
-		name = "BigSeven改技能LV5",
-		damage = 75,
-		base = 67040,
-		id = 67045,
 		bullet_ID = {
 			19937,
 			19937,

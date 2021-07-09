@@ -2,6 +2,47 @@ pg = pg or {}
 pg.weapon_property_331 = {}
 
 function ()
+	uv0.weapon_property_331[745001] = {
+		aim_type = 1,
+		range = 120,
+		damage = 25,
+		base = 1000,
+		name = "【DOA联动EX】BOSS 女天狗 第一波 横向自机狙",
+		type = 2,
+		suppress = 1,
+		reload_max = 6000,
+		action_index = "",
+		queue = 1,
+		id = 745001,
+		bullet_ID = {
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072,
+			800072
+		},
+		barrage_ID = {
+			810112,
+			810113,
+			810114,
+			810115,
+			810116,
+			810117,
+			810118,
+			810119,
+			810120,
+			810121,
+			810124,
+			810125
+		}
+	}
 	uv0.weapon_property_331[745002] = {
 		aim_type = 1,
 		range = 120,
@@ -2547,55 +2588,6 @@ function ()
 			time = 0.5,
 			fx = "jinengenemy",
 			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_331[750038] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【商路护航】战列跨射攻击后排武器3x2轮-简单",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 75,
-		id = 750038,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30063
-		},
-		barrage_ID = {
-			20018
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
 			isBound = true
 		}
 	}

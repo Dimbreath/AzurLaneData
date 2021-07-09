@@ -2,6 +2,13 @@ pg = pg or {}
 pg.weapon_property_209 = {}
 
 function ()
+	uv0.weapon_property_209[95913] = {
+		reload_max = 3600,
+		damage = 153,
+		base = 95900,
+		id = 95913,
+		corrected = 124
+	}
 	uv0.weapon_property_209[100100] = {
 		action_index = "attack",
 		range = 60,
@@ -2708,50 +2715,6 @@ function ()
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
 		reload_max = 1500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1201
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_209[100341] = {
-		action_index = "attack",
-		range = 65,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版轻巡联装炮x6散射II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 12,
-		corrected = 105,
-		min_range = 0,
-		id = 100341,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,

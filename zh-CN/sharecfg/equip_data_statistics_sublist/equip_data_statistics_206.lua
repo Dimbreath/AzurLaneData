@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_206 = {
+	[28213] = {
+		anti_siren = 300,
+		base = 28200,
+		id = 28213,
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				4,
+				51153
+			}
+		},
+		weapon_id = {
+			28213
+		}
+	},
 	[28220] = {
 		name = "火冠",
 		type = 8,
@@ -344,23 +362,6 @@ pg.equip_data_statistics_206 = {
 		},
 		weapon_id = {
 			28301
-		}
-	},
-	[28302] = {
-		id = 28302,
-		base = 28300,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51002
-			}
-		},
-		weapon_id = {
-			28302
 		}
 	}
 }

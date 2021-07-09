@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_164 = {}
 
 function ()
+	uv0.weapon_property_164[68794] = {
+		id = 68794,
+		damage = 151,
+		base = 68791
+	}
 	uv0.weapon_property_164[68795] = {
 		id = 68795,
 		damage = 161,
@@ -721,18 +726,6 @@ function ()
 		},
 		barrage_ID = {
 			12009
-		}
-	}
-	uv0.weapon_property_164[68867] = {
-		name = "大神澪技能鱼雷机Lv7",
-		damage = 182,
-		base = 68861,
-		id = 68867,
-		bullet_ID = {
-			68867
-		},
-		barrage_ID = {
-			12010
 		}
 	}
 end()

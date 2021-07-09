@@ -1,5 +1,12 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
+	[89253] = {
+		id = 89253,
+		anti_siren = 300,
+		base = 89240,
+		value_2 = 28,
+		value_1 = "18"
+	},
 	[89260] = {
 		name = "心之钥匙",
 		tech = 0,
@@ -185,14 +192,6 @@ pg.equip_data_statistics_383 = {
 		base = 90000,
 		weapon_id = {
 			90001
-		}
-	},
-	[90002] = {
-		id = 90002,
-		damage = "4 x 5",
-		base = 90000,
-		weapon_id = {
-			90002
 		}
 	}
 }

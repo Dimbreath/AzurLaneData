@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 function ()
+	uv0.weapon_property_112[64046] = {
+		id = 64046,
+		name = "小天城战列技能-LV6",
+		damage = 32,
+		base = 64041
+	}
 	uv0.weapon_property_112[64047] = {
 		id = 64047,
 		name = "小天城战列技能-LV7",
@@ -741,22 +747,6 @@ function ()
 		damage = 18,
 		base = 64101,
 		id = 64108,
-		bullet_ID = {
-			19288,
-			19288,
-			19288
-		},
-		barrage_ID = {
-			81080,
-			81081,
-			81082
-		}
-	}
-	uv0.weapon_property_112[64109] = {
-		name = "西南风技能子弹弹幕LV9",
-		damage = 19,
-		base = 64101,
-		id = 64109,
 		bullet_ID = {
 			19288,
 			19288,

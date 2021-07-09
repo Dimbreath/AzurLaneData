@@ -298,7 +298,7 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 	elseif slot1 == 10 then
 		return {
 			name = i18n("equip_info_12"),
-			value = pg.bullet_template[slot4].extra_param.randomOffsetX .. "*" .. pg.bullet_template[slot4].extra_param.randomOffsetZ
+			value = (pg.bullet_template[slot4].extra_param.randomOffsetX or "0") .. "*" .. (pg.bullet_template[slot4].extra_param.randomOffsetZ or "0")
 		}
 	elseif slot1 == 11 then
 		return {

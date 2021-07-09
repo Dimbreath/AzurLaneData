@@ -2,6 +2,54 @@ pg = pg or {}
 pg.weapon_property_358 = {}
 
 function ()
+	uv0.weapon_property_358[1001183] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】执棋者II型 武器2 III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 13,
+		corrected = 100,
+		min_range = 0,
+		id = 1001183,
+		attack_attribute_ratio = 90,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811,
+			811,
+			811
+		},
+		barrage_ID = {
+			7220,
+			7221,
+			7222
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_358[1001184] = {
 		action_index = "attack",
 		range = 90,
@@ -2272,10 +2320,5 @@ function ()
 		id = 1001245,
 		name = "【精英】潜伏者II型 2x4自机狙鱼雷 V",
 		base = 1000894
-	}
-	uv0.weapon_property_358[1001246] = {
-		id = 1001246,
-		name = "【精英】潜伏者II型 开幕雷击 I",
-		base = 1000895
 	}
 end()

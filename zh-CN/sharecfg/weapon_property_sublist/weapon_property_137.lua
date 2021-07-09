@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 function ()
+	uv0.weapon_property_137[66566] = {
+		name = "众神之怒·雪崩雷震-冰球LV6",
+		damage = 15,
+		base = 66560,
+		id = 66566,
+		barrage_ID = {
+			80372
+		}
+	}
 	uv0.weapon_property_137[66567] = {
 		name = "众神之怒·雪崩雷震-冰球LV7",
 		damage = 16,
@@ -688,12 +697,6 @@ function ()
 		id = 66702,
 		name = "雾岛三式烧夷弹弹幕Lv2-PVE",
 		damage = 12,
-		base = 66700
-	}
-	uv0.weapon_property_137[66703] = {
-		id = 66703,
-		name = "雾岛三式烧夷弹弹幕Lv3-PVE",
-		damage = 13,
 		base = 66700
 	}
 end()

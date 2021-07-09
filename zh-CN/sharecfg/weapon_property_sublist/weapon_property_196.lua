@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_196 = {}
 
 function ()
+	uv0.weapon_property_196[84000] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "BF-109T舰载战斗机T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 21,
+		corrected = 100,
+		min_range = 0,
+		id = 84000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			47000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_196[84001] = {
 		reload_max = 1877,
 		damage = 23,
@@ -727,15 +771,6 @@ function ()
 		id = 84141,
 		bullet_ID = {
 			47141
-		}
-	}
-	uv0.weapon_property_196[84142] = {
-		reload_max = 1690,
-		damage = 53,
-		base = 84140,
-		id = 84142,
-		bullet_ID = {
-			47142
 		}
 	}
 end()

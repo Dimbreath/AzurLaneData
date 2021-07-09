@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_234 = {
+	[34180] = {
+		name = "试作型410mm三连装炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "34180",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "58 x 3",
+		nationality = 3,
+		ammo = 1,
+		value_3 = 0,
+		id = 34180,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1511
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34180
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
 	[34181] = {
 		id = 34181,
 		damage = "68 x 3",
@@ -173,14 +226,6 @@ pg.equip_data_statistics_234 = {
 		base = 34200,
 		weapon_id = {
 			34202
-		}
-	},
-	[34203] = {
-		id = 34203,
-		damage = "96 x 3",
-		base = 34200,
-		weapon_id = {
-			34203
 		}
 	}
 }

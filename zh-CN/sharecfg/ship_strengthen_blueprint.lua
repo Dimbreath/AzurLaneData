@@ -17912,7 +17912,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+315|防空+12|主炮效率提高5%|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "耐久+338|防空+12|主炮效率提高5%|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -17933,7 +17933,7 @@ pg.ship_strengthen_blueprint = {
 		effect_attr = {
 			{
 				"durability",
-				305
+				338
 			},
 			{
 				"antiaircraft",
@@ -18084,7 +18084,8 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"习得技能【塞壬之敌】",
-			"主炮效率提高5%"
+			"主炮效率提高5%",
+			"装备特殊副炮"
 		}
 	},
 	[2011] = {
@@ -18189,7 +18190,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+611|防空+23|防空炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "耐久+675|防空+23|防空炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -18210,7 +18211,7 @@ pg.ship_strengthen_blueprint = {
 		effect_attr = {
 			{
 				"durability",
-				611
+				675
 			},
 			{
 				"antiaircraft",
@@ -18466,7 +18467,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+916|防空+34|机动+5|主炮效率提高5%|鉴赏解锁：血量警报",
+		effect_desc = "耐久+1014|防空+34|机动+5|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18488,7 +18489,7 @@ pg.ship_strengthen_blueprint = {
 		effect_attr = {
 			{
 				"durability",
-				916
+				1014
 			},
 			{
 				"antiaircraft",

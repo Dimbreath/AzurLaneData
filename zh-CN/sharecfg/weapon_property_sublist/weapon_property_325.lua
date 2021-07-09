@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_325 = {}
 
 function ()
+	uv0.weapon_property_325[692804] = {
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 主炮竖排弹幕",
+		damage = 24,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1200,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 692804,
+		bullet_ID = {
+			835,
+			835
+		},
+		barrage_ID = {
+			690105,
+			690106
+		}
+	}
 	uv0.weapon_property_325[692805] = {
 		range = 70,
 		damage = 20,
@@ -1449,28 +1467,6 @@ function ()
 		barrage_ID = {
 			770069,
 			770070
-		}
-	}
-	uv0.weapon_property_325[698003] = {
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 普通上篇",
-		type = 2,
-		reload_max = 9999,
-		queue = 7,
-		id = 698003,
-		bullet_ID = {
-			760103,
-			760108,
-			760104,
-			760109
-		},
-		barrage_ID = {
-			770072,
-			770073,
-			770074,
-			770075
 		}
 	}
 end()

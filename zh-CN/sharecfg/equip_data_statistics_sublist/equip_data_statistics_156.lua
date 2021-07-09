@@ -1,5 +1,12 @@
 pg = pg or {}
 pg.equip_data_statistics_156 = {
+	[21601] = {
+		id = 21601,
+		base = 21600,
+		weapon_id = {
+			21601
+		}
+	},
 	[21602] = {
 		id = 21602,
 		damage = "5 x 4",
@@ -180,66 +187,6 @@ pg.equip_data_statistics_156 = {
 		base = 22000,
 		weapon_id = {
 			22003
-		}
-	},
-	[22020] = {
-		name = "单装152mm副炮",
-		speciality = "散射",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "22000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "9 x 3",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 22020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1104
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1104
-			},
-			{
-				4,
-				1100
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			22020
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CL",
-			"MG",
-			"AP"
 		}
 	}
 }

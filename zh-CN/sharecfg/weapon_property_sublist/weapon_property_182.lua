@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_182 = {}
 
 function ()
+	uv0.weapon_property_182[69958] = {
+		id = 69958,
+		damage = 164,
+		base = 67821
+	}
 	uv0.weapon_property_182[69959] = {
 		id = 69959,
 		damage = 182,
@@ -1191,51 +1196,5 @@ function ()
 		barrage_ID = {
 			199972
 		}
-	}
-	uv0.weapon_property_182[70241] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-新奥尔良级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 25,
-		corrected = 100,
-		min_range = 0,
-		id = 70241,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 412,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			70241,
-			70241
-		},
-		barrage_ID = {
-			70241,
-			70242
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

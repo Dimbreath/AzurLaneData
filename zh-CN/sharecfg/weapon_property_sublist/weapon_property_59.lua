@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_59 = {}
 
 function ()
+	uv0.weapon_property_59[37340] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "烈风T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 37340,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1860,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			37300
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_59[37341] = {
 		reload_max = 1831,
 		damage = 40,
@@ -622,15 +666,6 @@ function ()
 		id = 38042,
 		bullet_ID = {
 			38002
-		}
-	}
-	uv0.weapon_property_59[38043] = {
-		reload_max = 2090,
-		damage = 106,
-		base = 38040,
-		id = 38043,
-		bullet_ID = {
-			38003
 		}
 	}
 end()

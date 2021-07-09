@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_357 = {
+	[79262] = {
+		id = 79262,
+		name = "专属弹幕-I19II",
+		base = 79261,
+		weapon_id = {
+			79262
+		}
+	},
 	[79271] = {
 		name = "专属弹幕-U81I",
 		tech = 1,
@@ -375,44 +383,5 @@ pg.equip_data_statistics_357 = {
 		weapon_id = {
 			79362
 		}
-	},
-	[79371] = {
-		name = "专属弹幕-I13I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "技能弹幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79371,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79371
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
 	}
 }

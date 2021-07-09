@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_184 = {}
 
 function ()
+	uv0.weapon_property_184[72032] = {
+		name = "全弹发射-白露级II",
+		damage = 10,
+		base = 72031,
+		id = 72032,
+		barrage_ID = {
+			70017,
+			70018
+		}
+	}
 	uv0.weapon_property_184[72041] = {
 		action_index = "attack",
 		range = 50,
@@ -1647,16 +1657,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_184[73222] = {
-		name = "全弹发射-德意志级II",
-		damage = 40,
-		base = 73221,
-		id = 73222,
-		barrage_ID = {
-			73224,
-			73225,
-			73226
-		}
 	}
 end()

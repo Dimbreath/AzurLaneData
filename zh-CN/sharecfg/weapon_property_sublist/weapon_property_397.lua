@@ -2,6 +2,56 @@ pg = pg or {}
 pg.weapon_property_397 = {}
 
 function ()
+	uv0.weapon_property_397[2042114] = {
+		action_index = "",
+		range = 100,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】深渊BOSS重巡_p2_引力间隙lv5",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 2,
+		corrected = 100,
+		min_range = 0,
+		id = 2042114,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 4000,
+		queue = 99,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20421100,
+			20421101,
+			20421102,
+			20421103
+		},
+		barrage_ID = {
+			20421100,
+			20421101,
+			20421102,
+			20421103
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_397[2042200] = {
 		action_index = "fangyu",
 		range = 120,
@@ -3766,67 +3816,6 @@ function ()
 		precast_param = {
 			time = 5,
 			armor = 28000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_397[2043053] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043053,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 30000,
 			fx = "jinengenemy",
 			isBound = true
 		}

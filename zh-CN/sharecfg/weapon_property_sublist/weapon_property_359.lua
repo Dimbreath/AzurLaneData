@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_359 = {}
 
 function ()
+	uv0.weapon_property_359[1001246] = {
+		id = 1001246,
+		name = "【精英】潜伏者II型 开幕雷击 I",
+		base = 1000895
+	}
 	uv0.weapon_property_359[1001247] = {
 		id = 1001247,
 		name = "【精英】潜伏者II型 开幕雷击 II",
@@ -2463,55 +2468,6 @@ function ()
 		corrected = 100,
 		min_range = 75,
 		id = 1002053,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			690010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_359[1002054] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【量产型】塞壬战列III型跨射武器3x2轮 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 75,
-		id = 1002054,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,

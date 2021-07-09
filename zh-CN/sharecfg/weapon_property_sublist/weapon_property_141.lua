@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_141 = {}
 
 function ()
+	uv0.weapon_property_141[67045] = {
+		name = "BigSeven改技能LV5",
+		damage = 75,
+		base = 67040,
+		id = 67045,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80142,
+			80145,
+			80151,
+			80153
+		}
+	}
 	uv0.weapon_property_141[67046] = {
 		name = "BigSeven改技能LV6",
 		damage = 85,
@@ -777,15 +795,6 @@ function ()
 		id = 67161,
 		bullet_ID = {
 			67161
-		}
-	}
-	uv0.weapon_property_141[67162] = {
-		name = "半人马技能鱼雷机2Lv2",
-		damage = 90,
-		base = 67160,
-		id = 67162,
-		bullet_ID = {
-			67162
 		}
 	}
 end()

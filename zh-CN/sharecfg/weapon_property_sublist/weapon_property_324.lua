@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_324 = {}
 
 function ()
+	uv0.weapon_property_324[690803] = {
+		aim_type = 1,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 主炮中心弹幕",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1000,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 690803,
+		bullet_ID = {
+			760059
+		},
+		barrage_ID = {
+			690104
+		}
+	}
 	uv0.weapon_property_324[690804] = {
 		name = "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 主炮竖排弹幕",
 		damage = 20,
@@ -1431,24 +1449,6 @@ function ()
 		},
 		barrage_ID = {
 			690104
-		}
-	}
-	uv0.weapon_property_324[692804] = {
-		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 主炮竖排弹幕",
-		damage = 24,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1200,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 692804,
-		bullet_ID = {
-			835,
-			835
-		},
-		barrage_ID = {
-			690105,
-			690106
 		}
 	}
 end()

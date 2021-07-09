@@ -2,6 +2,14 @@ pg = pg or {}
 pg.weapon_property_162 = {}
 
 function ()
+	uv0.weapon_property_162[68668] = {
+		id = 68668,
+		damage = 202,
+		base = 68661,
+		barrage_ID = {
+			80782
+		}
+	}
 	uv0.weapon_property_162[68669] = {
 		id = 68669,
 		damage = 220,
@@ -665,54 +673,5 @@ function ()
 		name = "凯撒鱼雷-LV10",
 		damage = 96,
 		base = 68721
-	}
-	uv0.weapon_property_162[68731] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "利托里奥弹幕PVE-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 62,
-		corrected = 100,
-		min_range = 25,
-		id = 68731,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19022
-		},
-		barrage_ID = {
-			80794
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
 	}
 end()
