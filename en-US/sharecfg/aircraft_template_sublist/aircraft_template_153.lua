@@ -1,67 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_153 = {
-	[66947] = {
-		max_hp = 72,
-		name = "萨拉托加技能鱼雷机Lv7",
-		base = 66940,
-		id = 66947,
-		hp_growth = 2801,
-		weapon_ID = {
-			66987
-		}
-	},
-	[66948] = {
-		max_hp = 78,
-		name = "萨拉托加技能鱼雷机Lv8",
-		base = 66940,
-		id = 66948,
-		hp_growth = 3037,
-		weapon_ID = {
-			66988
-		}
-	},
-	[66949] = {
+	[65576] = {
 		max_hp = 84,
-		name = "萨拉托加技能鱼雷机Lv9",
-		base = 66940,
-		id = 66949,
-		hp_growth = 3274,
+		name = "威悉技能轰炸机PlusLv6",
+		base = 65561,
+		id = 65576,
+		hp_growth = 2710,
 		weapon_ID = {
-			66989
+			65586
 		}
 	},
-	[66950] = {
-		max_hp = 91,
-		name = "萨拉托加技能鱼雷机Lv10",
-		base = 66940,
-		id = 66950,
-		hp_growth = 3511,
+	[65577] = {
+		max_hp = 90,
+		name = "威悉技能轰炸机PlusLv7",
+		base = 65561,
+		id = 65577,
+		hp_growth = 2943,
 		weapon_ID = {
-			66990
+			65587
 		}
 	},
-	[66960] = {
-		name = "萨拉托加技能轰炸机Lv0",
-		max_hp = 31,
+	[65578] = {
+		max_hp = 97,
+		name = "威悉技能轰炸机PlusLv8",
+		base = 65561,
+		id = 65578,
+		hp_growth = 3175,
+		weapon_ID = {
+			65588
+		}
+	},
+	[65579] = {
+		max_hp = 103,
+		name = "威悉技能轰炸机PlusLv9",
+		base = 65561,
+		id = 65579,
+		hp_growth = 3407,
+		weapon_ID = {
+			65589
+		}
+	},
+	[65580] = {
+		max_hp = 110,
+		name = "威悉技能轰炸机PlusLv10",
+		base = 65561,
+		id = 65580,
+		hp_growth = 3640,
+		weapon_ID = {
+			65590
+		}
+	},
+	[65841] = {
+		name = "黑方舟技能-特殊鱼雷机Lv1",
+		max_hp = 38,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 420,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "sbdwuwei",
+		icon = "jianyu",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1183,
-		speed = 46,
-		id = 66960,
+		nationality = 2,
+		hp_growth = 1459,
+		speed = 40,
+		id = 65841,
 		scale = 1,
 		weapon_ID = {
-			67000,
-			67020
+			65851
 		},
 		position_offset = {
 			0,
@@ -104,8 +113,8 @@ pg.aircraft_template_153 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.52,
+				0,
 				0
 			},
 			{
@@ -115,59 +124,44 @@ pg.aircraft_template_153 = {
 			}
 		}
 	},
-	[66961] = {
-		max_hp = 35,
-		name = "萨拉托加技能轰炸机Lv1",
-		base = 66960,
-		id = 66961,
-		hp_growth = 1345,
+	[65842] = {
+		max_hp = 44,
+		name = "黑方舟技能-特殊鱼雷机Lv2",
+		base = 65841,
+		id = 65842,
+		hp_growth = 1678,
 		weapon_ID = {
-			67001,
-			67021
+			65852
 		}
 	},
-	[66962] = {
-		max_hp = 39,
-		name = "萨拉托加技能轰炸机Lv2",
-		base = 66960,
-		id = 66962,
-		hp_growth = 1507,
+	[65843] = {
+		max_hp = 49,
+		name = "黑方舟技能-特殊鱼雷机Lv3",
+		base = 65841,
+		id = 65843,
+		hp_growth = 1897,
 		weapon_ID = {
-			67002,
-			67022
+			65853
 		}
 	},
-	[66963] = {
-		max_hp = 43,
-		name = "萨拉托加技能轰炸机Lv3",
-		base = 66960,
-		id = 66963,
-		hp_growth = 1669,
+	[65844] = {
+		max_hp = 55,
+		name = "黑方舟技能-特殊鱼雷机Lv4",
+		base = 65841,
+		id = 65844,
+		hp_growth = 2116,
 		weapon_ID = {
-			67003,
-			67023
+			65854
 		}
 	},
-	[66964] = {
-		max_hp = 47,
-		name = "萨拉托加技能轰炸机Lv4",
-		base = 66960,
-		id = 66964,
-		hp_growth = 1831,
+	[65845] = {
+		max_hp = 61,
+		name = "黑方舟技能-特殊鱼雷机Lv5",
+		base = 65841,
+		id = 65845,
+		hp_growth = 2335,
 		weapon_ID = {
-			67004,
-			67024
-		}
-	},
-	[66965] = {
-		max_hp = 51,
-		name = "萨拉托加技能轰炸机Lv5",
-		base = 66960,
-		id = 66965,
-		hp_growth = 1994,
-		weapon_ID = {
-			67005,
-			67025
+			65855
 		}
 	}
 }

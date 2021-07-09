@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_17 = {
+	[751] = {
+		id = 751,
+		anti_siren = 100,
+		value_1 = "27",
+		base = 740
+	},
 	[760] = {
 		name = "NY City Coast Recon Report",
 		tech = 0,
@@ -151,12 +157,6 @@ pg.equip_data_statistics_17 = {
 		id = 783,
 		value_2 = 115,
 		value_1 = "13",
-		base = 780
-	},
-	[784] = {
-		id = 784,
-		value_2 = 120,
-		value_1 = "14",
 		base = 780
 	}
 }

@@ -27,6 +27,7 @@ return {
 			}
 		},
 		{
+			delay = 1,
 			waitScene = "AwardInfoLayer",
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",

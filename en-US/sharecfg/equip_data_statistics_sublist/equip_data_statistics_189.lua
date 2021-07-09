@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_189 = {
+	[26520] = {
+		name = "Twin 113mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "26500",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "45/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26520
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
 	[26521] = {
 		id = 26521,
 		damage = "51/wave",
@@ -180,14 +242,6 @@ pg.equip_data_statistics_189 = {
 		base = 26540,
 		weapon_id = {
 			26545
-		}
-	},
-	[26546] = {
-		id = 26546,
-		damage = "98/wave",
-		base = 26540,
-		weapon_id = {
-			26546
 		}
 	}
 }

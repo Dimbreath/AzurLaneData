@@ -1,201 +1,53 @@
 pg = pg or {}
 pg.equip_data_statistics_323 = {
-	[48022] = {
-		id = 48022,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59762
-			},
-			{
-				4,
-				59682
-			}
-		},
-		weapon_id = {
-			48022
-		}
-	},
-	[48023] = {
-		id = 48023,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59763
-			},
-			{
-				4,
-				59683
-			}
-		},
-		weapon_id = {
-			48023
-		}
-	},
-	[48024] = {
-		id = 48024,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59764
-			},
-			{
-				4,
-				59684
-			}
-		},
-		weapon_id = {
-			48024
-		}
-	},
-	[48025] = {
-		id = 48025,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59765
-			},
-			{
-				4,
-				59685
-			}
-		},
-		weapon_id = {
-			48025
-		}
-	},
-	[48026] = {
-		id = 48026,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59766
-			},
-			{
-				4,
-				59686
-			}
-		},
-		weapon_id = {
-			48026
-		}
-	},
-	[48027] = {
-		id = 48027,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59767
-			},
-			{
-				4,
-				59687
-			}
-		},
-		weapon_id = {
-			48027
-		}
-	},
-	[48028] = {
-		id = 48028,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59768
-			},
-			{
-				4,
-				59688
-			}
-		},
-		weapon_id = {
-			48028
-		}
-	},
-	[48029] = {
-		id = 48029,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59769
-			},
-			{
-				4,
-				59689
-			}
-		},
-		weapon_id = {
-			48029
-		}
-	},
-	[48030] = {
-		id = 48030,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59770
-			},
-			{
-				4,
-				59690
-			}
-		},
-		weapon_id = {
-			48030
-		}
-	},
-	[48031] = {
+	[47091] = {
 		anti_siren = 100,
-		base = 48020,
-		id = 48031,
+		base = 47080,
+		id = 47091,
 		ammo_info = {
 			{
 				6,
-				59771
+				59051
 			},
 			{
-				4,
-				59691
+				6,
+				59451
+			},
+			{
+				6,
+				59151
 			}
 		},
 		weapon_id = {
-			48031
+			47091,
+			84091
 		}
 	},
-	[48040] = {
-		name = "Ju-87 D-4",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 5,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "48040",
+	[47100] = {
+		name = "Messerschmitt Me-155A",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 1,
+		descrip = "The newest model of fighter from the Ironblood specially designed for the Graf Zeppelin.",
+		value_2 = 12,
+		icon = "47100",
 		attribute_2 = "air",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 48040,
+		id = 47100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				59340
+				59100
 			},
 			{
-				4,
-				59700
+				6,
+				59200
 			}
 		},
 		equip_info = {
@@ -205,7 +57,8 @@ pg.equip_data_statistics_323 = {
 			9
 		},
 		weapon_id = {
-			48040
+			47100,
+			84100
 		},
 		skill_id = {},
 		part_main = {
@@ -220,109 +73,312 @@ pg.equip_data_statistics_323 = {
 		label = {
 			"KMS",
 			"CV",
-			"TB"
+			"FT"
 		}
 	},
-	[48041] = {
-		id = 48041,
-		base = 48040,
+	[47101] = {
+		id = 47101,
+		base = 47100,
 		ammo_info = {
 			{
 				6,
-				59341
+				59101
 			},
 			{
-				4,
-				59701
+				6,
+				59201
 			}
 		},
 		weapon_id = {
-			48041
+			47101,
+			84101
 		}
 	},
-	[48042] = {
-		id = 48042,
-		base = 48040,
+	[47102] = {
+		id = 47102,
+		base = 47100,
 		ammo_info = {
 			{
 				6,
-				59342
+				59102
 			},
 			{
-				4,
-				59702
+				6,
+				59202
 			}
 		},
 		weapon_id = {
-			48042
+			47102,
+			84102
 		}
 	},
-	[48043] = {
-		id = 48043,
-		base = 48040,
+	[47103] = {
+		id = 47103,
+		base = 47100,
 		ammo_info = {
 			{
 				6,
-				59343
+				59103
 			},
 			{
-				4,
-				59703
+				6,
+				59203
 			}
 		},
 		weapon_id = {
-			48043
+			47103,
+			84103
 		}
 	},
-	[48044] = {
-		id = 48044,
-		base = 48040,
+	[47104] = {
+		id = 47104,
+		base = 47100,
 		ammo_info = {
 			{
 				6,
-				59344
+				59104
 			},
 			{
-				4,
-				59704
+				6,
+				59204
 			}
 		},
 		weapon_id = {
-			48044
+			47104,
+			84104
 		}
 	},
-	[48045] = {
-		id = 48045,
-		base = 48040,
+	[47105] = {
+		id = 47105,
+		base = 47100,
 		ammo_info = {
 			{
 				6,
-				59345
+				59105
 			},
 			{
-				4,
-				59705
+				6,
+				59205
 			}
 		},
 		weapon_id = {
-			48045
+			47105,
+			84105
 		}
 	},
-	[48046] = {
-		id = 48046,
-		base = 48040,
+	[47106] = {
+		id = 47106,
+		base = 47100,
 		ammo_info = {
 			{
 				6,
-				59346
+				59106
 			},
 			{
-				4,
-				59706
+				6,
+				59206
 			}
 		},
 		weapon_id = {
-			48046
+			47106,
+			84106
+		}
+	},
+	[47120] = {
+		name = "Messerschmitt Me-155A",
+		type = 7,
+		speciality = "Air",
+		rarity = 4,
+		tech = 2,
+		descrip = "The newest model of fighter from the Ironblood specially designed for the Graf Zeppelin.",
+		value_2 = 25,
+		icon = "47100",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59120
+			},
+			{
+				6,
+				59220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47120,
+			84120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47121] = {
+		id = 47121,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59121
+			},
+			{
+				6,
+				59221
+			}
+		},
+		weapon_id = {
+			47121,
+			84121
+		}
+	},
+	[47122] = {
+		id = 47122,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59122
+			},
+			{
+				6,
+				59222
+			}
+		},
+		weapon_id = {
+			47122,
+			84122
+		}
+	},
+	[47123] = {
+		id = 47123,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59123
+			},
+			{
+				6,
+				59223
+			}
+		},
+		weapon_id = {
+			47123,
+			84123
+		}
+	},
+	[47124] = {
+		id = 47124,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59124
+			},
+			{
+				6,
+				59224
+			}
+		},
+		weapon_id = {
+			47124,
+			84124
+		}
+	},
+	[47125] = {
+		id = 47125,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59125
+			},
+			{
+				6,
+				59225
+			}
+		},
+		weapon_id = {
+			47125,
+			84125
+		}
+	},
+	[47126] = {
+		id = 47126,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59126
+			},
+			{
+				6,
+				59226
+			}
+		},
+		weapon_id = {
+			47126,
+			84126
+		}
+	},
+	[47127] = {
+		id = 47127,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59127
+			},
+			{
+				6,
+				59227
+			}
+		},
+		weapon_id = {
+			47127,
+			84127
+		}
+	},
+	[47128] = {
+		id = 47128,
+		base = 47120,
+		ammo_info = {
+			{
+				6,
+				59128
+			},
+			{
+				6,
+				59228
+			}
+		},
+		weapon_id = {
+			47128,
+			84128
 		}
 	}
 }

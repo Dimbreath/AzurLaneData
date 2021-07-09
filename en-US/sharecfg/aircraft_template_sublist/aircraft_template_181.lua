@@ -1,60 +1,21 @@
 pg = pg or {}
 pg.aircraft_template_181 = {
-	[68866] = {
+	[68040] = {
 		max_hp = 73,
-		name = "大神澪技能鱼雷机Lv6",
-		base = 68861,
-		id = 68866,
-		hp_growth = 2796,
+		name = "邦克山技能轰炸机Lv10",
+		base = 68031,
+		id = 68040,
+		hp_growth = 2646,
 		weapon_ID = {
-			68876
+			68050,
+			68060
 		}
 	},
-	[68867] = {
-		max_hp = 79,
-		name = "大神澪技能鱼雷机Lv7",
-		base = 68861,
-		id = 68867,
-		hp_growth = 3016,
-		weapon_ID = {
-			68877
-		}
-	},
-	[68868] = {
-		max_hp = 86,
-		name = "大神澪技能鱼雷机Lv8",
-		base = 68861,
-		id = 68868,
-		hp_growth = 3237,
-		weapon_ID = {
-			68878
-		}
-	},
-	[68869] = {
-		max_hp = 92,
-		name = "大神澪技能鱼雷机Lv9",
-		base = 68861,
-		id = 68869,
-		hp_growth = 3458,
-		weapon_ID = {
-			68879
-		}
-	},
-	[68870] = {
-		max_hp = 98,
-		name = "大神澪技能鱼雷机Lv10",
-		base = 68861,
-		id = 68870,
-		hp_growth = 3678,
-		weapon_ID = {
-			68880
-		}
-	},
-	[68881] = {
-		name = "大神澪技能轰炸机Lv1",
+	[68301] = {
+		name = "绊爱技能轰炸机Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "feiji_vtuber2",
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
@@ -62,15 +23,16 @@ pg.aircraft_template_181 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_vtuber2",
+		icon = "feiji_ai_aijiang",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1692,
+		hp_growth = 1846,
 		speed = 48,
-		id = 68881,
+		id = 68301,
 		scale = 1,
 		weapon_ID = {
-			68891
+			68311,
+			68321
 		},
 		position_offset = {
 			0,
@@ -90,13 +52,13 @@ pg.aircraft_template_181 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -113,7 +75,7 @@ pg.aircraft_template_181 = {
 				0
 			},
 			{
-				0.54,
+				0.64,
 				0,
 				0
 			},
@@ -124,44 +86,92 @@ pg.aircraft_template_181 = {
 			}
 		}
 	},
-	[68882] = {
+	[68302] = {
 		max_hp = 48,
-		name = "大神澪技能轰炸机Lv2",
-		base = 68881,
-		id = 68882,
-		hp_growth = 1913,
+		name = "绊爱技能轰炸机Lv2",
+		base = 68301,
+		id = 68302,
+		hp_growth = 2087,
 		weapon_ID = {
-			68892
+			68312,
+			68322
 		}
 	},
-	[68883] = {
+	[68303] = {
 		max_hp = 54,
-		name = "大神澪技能轰炸机Lv3",
-		base = 68881,
-		id = 68883,
-		hp_growth = 2133,
+		name = "绊爱技能轰炸机Lv3",
+		base = 68301,
+		id = 68303,
+		hp_growth = 2327,
 		weapon_ID = {
-			68893
+			68313,
+			68323
 		}
 	},
-	[68884] = {
+	[68304] = {
 		max_hp = 61,
-		name = "大神澪技能轰炸机Lv4",
-		base = 68881,
-		id = 68884,
-		hp_growth = 2354,
+		name = "绊爱技能轰炸机Lv4",
+		base = 68301,
+		id = 68304,
+		hp_growth = 2568,
 		weapon_ID = {
-			68894
+			68314,
+			68324
 		}
 	},
-	[68885] = {
+	[68305] = {
 		max_hp = 67,
-		name = "大神澪技能轰炸机Lv5",
-		base = 68881,
-		id = 68885,
-		hp_growth = 2575,
+		name = "绊爱技能轰炸机Lv5",
+		base = 68301,
+		id = 68305,
+		hp_growth = 2809,
 		weapon_ID = {
-			68895
+			68315,
+			68325
+		}
+	},
+	[68306] = {
+		max_hp = 73,
+		name = "绊爱技能轰炸机Lv6",
+		base = 68301,
+		id = 68306,
+		hp_growth = 3050,
+		weapon_ID = {
+			68316,
+			68326
+		}
+	},
+	[68307] = {
+		max_hp = 79,
+		name = "绊爱技能轰炸机Lv7",
+		base = 68301,
+		id = 68307,
+		hp_growth = 3290,
+		weapon_ID = {
+			68317,
+			68327
+		}
+	},
+	[68308] = {
+		max_hp = 86,
+		name = "绊爱技能轰炸机Lv8",
+		base = 68301,
+		id = 68308,
+		hp_growth = 3531,
+		weapon_ID = {
+			68318,
+			68328
+		}
+	},
+	[68309] = {
+		max_hp = 92,
+		name = "绊爱技能轰炸机Lv9",
+		base = 68301,
+		id = 68309,
+		hp_growth = 3772,
+		weapon_ID = {
+			68319,
+			68329
 		}
 	}
 }

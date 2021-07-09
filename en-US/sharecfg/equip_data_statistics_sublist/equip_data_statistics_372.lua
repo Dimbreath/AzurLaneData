@@ -1,54 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_372 = {
-	[89088] = {
-		id = 89088,
-		value_1 = "490",
-		base = 89080
+	[85466] = {
+		id = 85466,
+		damage = "21 x 3",
+		base = 85460,
+		weapon_id = {
+			85466
+		}
 	},
-	[89089] = {
-		id = 89089,
-		value_1 = "520",
-		base = 89080
-	},
-	[89090] = {
-		id = 89090,
-		value_1 = "550",
-		base = 89080
-	},
-	[89091] = {
-		id = 89091,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 89080
-	},
-	[89092] = {
-		id = 89092,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 89080
-	},
-	[89093] = {
-		id = 89093,
-		anti_siren = 300,
-		value_1 = "640",
-		base = 89080
-	},
-	[89100] = {
-		name = "Corn Lantern",
+	[89000] = {
+		name = "Random Word Generator",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
-		id = 89100,
-		value_2 = 50,
-		icon = "89100",
-		value_1 = "9",
-		attribute_2 = "durability",
+		id = 89000,
+		value_2 = 6,
+		icon = "89000",
+		value_1 = "16",
+		attribute_2 = "dodge",
 		rarity = 5,
-		descrip = "A lantern that looks like a corn cob. Proves that you're friends with a certain foxy VTuber.",
-		nationality = 105,
+		descrip = "A helpful tool for planning. Rumor has it, when the the moon is full, the seas are clear, and the time is right, it will speak to you...?",
+		nationality = 104,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antisub",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -58,7 +33,7 @@ pg.equip_data_statistics_372 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6510
+			6380
 		},
 		part_main = {},
 		part_sub = {},
@@ -67,64 +42,122 @@ pg.equip_data_statistics_372 = {
 			"DEV"
 		}
 	},
-	[89101] = {
-		id = 89101,
-		value_2 = 55,
-		value_1 = "10",
-		base = 89100
+	[89001] = {
+		id = 89001,
+		base = 89000
 	},
-	[89102] = {
-		id = 89102,
-		value_2 = 60,
-		value_1 = "11",
-		base = 89100
+	[89002] = {
+		id = 89002,
+		value_2 = 7,
+		value_1 = "17",
+		base = 89000
 	},
-	[89103] = {
-		id = 89103,
-		value_2 = 65,
-		value_1 = "12",
-		base = 89100
-	},
-	[89104] = {
-		id = 89104,
-		value_2 = 70,
-		value_1 = "13",
-		base = 89100
-	},
-	[89105] = {
-		id = 89105,
-		value_2 = 75,
-		value_1 = "14",
-		base = 89100
-	},
-	[89106] = {
-		id = 89106,
-		value_2 = 80,
-		value_1 = "16",
-		base = 89100
-	},
-	[89107] = {
-		id = 89107,
-		value_2 = 90,
+	[89003] = {
+		id = 89003,
+		value_2 = 8,
 		value_1 = "18",
-		base = 89100
+		base = 89000
 	},
-	[89108] = {
-		id = 89108,
-		value_2 = 100,
+	[89004] = {
+		id = 89004,
+		value_2 = 9,
+		value_1 = "19",
+		base = 89000
+	},
+	[89005] = {
+		id = 89005,
+		value_2 = 10,
 		value_1 = "20",
-		base = 89100
+		base = 89000
 	},
-	[89109] = {
-		id = 89109,
-		value_2 = 110,
+	[89006] = {
+		id = 89006,
+		value_2 = 11,
+		value_1 = "21",
+		base = 89000
+	},
+	[89007] = {
+		id = 89007,
+		value_2 = 12,
 		value_1 = "22",
-		base = 89100
+		base = 89000
 	},
-	[89110] = {
-		id = 89110,
-		value_2 = 120,
+	[89008] = {
+		id = 89008,
+		value_2 = 13,
+		value_1 = "23",
+		base = 89000
+	},
+	[89009] = {
+		id = 89009,
+		value_2 = 14,
 		value_1 = "24",
-		base = 89100
+		base = 89000
+	},
+	[89010] = {
+		id = 89010,
+		value_2 = 15,
+		value_1 = "25",
+		base = 89000
+	},
+	[89011] = {
+		id = 89011,
+		anti_siren = 100,
+		base = 89000,
+		value_2 = 16,
+		value_1 = "26"
+	},
+	[89012] = {
+		id = 89012,
+		anti_siren = 200,
+		base = 89000,
+		value_2 = 17,
+		value_1 = "27"
+	},
+	[89013] = {
+		id = 89013,
+		anti_siren = 300,
+		base = 89000,
+		value_2 = 18,
+		value_1 = "28"
+	},
+	[89020] = {
+		name = "Pyoko-Pyoko",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89020,
+		value_2 = 1,
+		icon = "89020",
+		value_1 = "200",
+		attribute_2 = "luck",
+		rarity = 5,
+		descrip = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head.",
+		nationality = 104,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6390
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89021] = {
+		id = 89021,
+		value_1 = "230",
+		base = 89020
 	}
 }

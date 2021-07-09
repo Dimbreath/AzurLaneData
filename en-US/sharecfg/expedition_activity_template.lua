@@ -2716,31 +2716,31 @@ pg.expedition_activity_template = {
 	},
 	[1260001] = {
 		id = 1260001,
-		bonus_time = 30,
+		bonus_time = 0,
 		pt_drop_display = {
 			{
-				30222,
-				2002
+				4029,
+				2008
 			}
 		}
 	},
 	[1260002] = {
 		id = 1260002,
-		bonus_time = 30,
+		bonus_time = 0,
 		pt_drop_display = {
 			{
-				30222,
-				2002
+				4029,
+				2008
 			}
 		}
 	},
 	[1260003] = {
 		id = 1260003,
-		bonus_time = 30,
+		bonus_time = 0,
 		pt_drop_display = {
 			{
-				30222,
-				2002
+				4029,
+				2008
 			}
 		}
 	},
@@ -2749,8 +2749,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				30222,
-				2002
+				4029,
+				2008
 			}
 		}
 	},

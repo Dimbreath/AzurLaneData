@@ -1,52 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_313 = {
-	[46144] = {
-		id = 46144,
-		damage = "20/wave",
-		base = 46140,
+	[45451] = {
+		anti_siren = 100,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45451,
 		weapon_id = {
-			46144
+			45451
 		}
 	},
-	[46145] = {
-		id = 46145,
-		damage = "22/wave",
-		base = 46140,
+	[45452] = {
+		anti_siren = 200,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45452,
 		weapon_id = {
-			46145
+			45452
 		}
 	},
-	[46146] = {
-		id = 46146,
-		damage = "24/wave",
-		base = 46140,
+	[45453] = {
+		anti_siren = 300,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45453,
 		weapon_id = {
-			46146
+			45453
 		}
 	},
-	[46147] = {
-		id = 46147,
-		damage = "24/wave",
-		base = 46140,
-		weapon_id = {
-			46147
-		}
-	},
-	[46200] = {
-		name = "Twin 37mm AA 70K",
+	[46000] = {
+		name = "Quadruple 20mm Flakvierling Machine Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
-		descrip = "Twin 37mm AA 70K used for anti-air defense.",
-		value_2 = 5,
-		icon = "46200",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "15/wave",
+		rarity = 1,
+		descrip = "Quadruple 20mm Flakvierling Machine Gun Mount used for anti-air defense.",
+		value_2 = 0,
+		icon = "46000",
+		damage = "17/wave",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46200,
+		id = 46000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -58,7 +52,7 @@ pg.equip_data_statistics_313 = {
 			10
 		},
 		weapon_id = {
-			46200
+			46000
 		},
 		skill_id = {},
 		part_main = {
@@ -94,155 +88,45 @@ pg.equip_data_statistics_313 = {
 			"AA"
 		}
 	},
-	[46201] = {
-		id = 46201,
-		damage = "17/wave",
-		base = 46200,
+	[46001] = {
+		id = 46001,
+		damage = "20/wave",
+		base = 46000,
 		weapon_id = {
-			46201
+			46001
 		}
 	},
-	[46202] = {
-		id = 46202,
-		damage = "19/wave",
-		base = 46200,
+	[46002] = {
+		id = 46002,
+		damage = "23/wave",
+		base = 46000,
 		weapon_id = {
-			46202
+			46002
 		}
 	},
-	[46203] = {
-		id = 46203,
-		damage = "22/wave",
-		base = 46200,
+	[46003] = {
+		id = 46003,
+		damage = "26/wave",
+		base = 46000,
 		weapon_id = {
-			46203
+			46003
 		}
 	},
-	[46220] = {
-		name = "Twin 37mm AA 70K",
+	[46020] = {
+		name = "Quadruple 20mm Flakvierling Machine Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
-		descrip = "Twin 37mm AA 70K used for anti-air defense.",
-		value_2 = 12,
-		icon = "46200",
+		descrip = "Quadruple 20mm Flakvierling Machine Gun Mount used for anti-air defense.",
+		value_2 = 5,
+		icon = "46000",
 		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "17/wave",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			46220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
-	},
-	[46221] = {
-		id = 46221,
-		damage = "19/wave",
-		base = 46220,
-		weapon_id = {
-			46221
-		}
-	},
-	[46222] = {
-		id = 46222,
-		damage = "22/wave",
-		base = 46220,
-		weapon_id = {
-			46222
-		}
-	},
-	[46223] = {
-		id = 46223,
-		damage = "25/wave",
-		base = 46220,
-		weapon_id = {
-			46223
-		}
-	},
-	[46224] = {
-		id = 46224,
-		damage = "28/wave",
-		base = 46220,
-		weapon_id = {
-			46224
-		}
-	},
-	[46225] = {
-		id = 46225,
-		damage = "31/wave",
-		base = 46220,
-		weapon_id = {
-			46225
-		}
-	},
-	[46226] = {
-		id = 46226,
-		damage = "34/wave",
-		base = 46220,
-		weapon_id = {
-			46226
-		}
-	},
-	[46240] = {
-		name = "Twin 37mm AA 70K",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "Twin 37mm AA 70K used for anti-air defense.",
-		value_2 = 25,
-		icon = "46200",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
+		rarity = 2,
 		damage = "20/wave",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46240,
+		id = 46020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -254,7 +138,7 @@ pg.equip_data_statistics_313 = {
 			10
 		},
 		weapon_id = {
-			46240
+			46020
 		},
 		skill_id = {},
 		part_main = {
@@ -290,12 +174,130 @@ pg.equip_data_statistics_313 = {
 			"AA"
 		}
 	},
-	[46241] = {
-		id = 46241,
+	[46021] = {
+		id = 46021,
 		damage = "23/wave",
-		base = 46240,
+		base = 46020,
 		weapon_id = {
-			46241
+			46021
+		}
+	},
+	[46022] = {
+		id = 46022,
+		damage = "27/wave",
+		base = 46020,
+		weapon_id = {
+			46022
+		}
+	},
+	[46023] = {
+		id = 46023,
+		damage = "31/wave",
+		base = 46020,
+		weapon_id = {
+			46023
+		}
+	},
+	[46040] = {
+		name = "Quadruple 20mm Flakvierling Machine Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "Quadruple 20mm Flakvierling Machine Gun Mount used for anti-air defense.",
+		value_2 = 12,
+		icon = "46000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "23/wave",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46041] = {
+		id = 46041,
+		damage = "26/wave",
+		base = 46040,
+		weapon_id = {
+			46041
+		}
+	},
+	[46042] = {
+		id = 46042,
+		damage = "30/wave",
+		base = 46040,
+		weapon_id = {
+			46042
+		}
+	},
+	[46043] = {
+		id = 46043,
+		damage = "34/wave",
+		base = 46040,
+		weapon_id = {
+			46043
+		}
+	},
+	[46044] = {
+		id = 46044,
+		damage = "38/wave",
+		base = 46040,
+		weapon_id = {
+			46044
+		}
+	},
+	[46045] = {
+		id = 46045,
+		damage = "42/wave",
+		base = 46040,
+		weapon_id = {
+			46045
 		}
 	}
 }

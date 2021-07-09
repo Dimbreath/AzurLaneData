@@ -1,189 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
-	[90600] = {
-		name = "Twin 37mm Mle 1936 AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "50600",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "38/wave",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 90600,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[90242] = {
+		id = 90242,
+		damage = "11 x 6",
+		base = 90240,
 		weapon_id = {
-			90600
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"AA"
+			90242
 		}
 	},
-	[90601] = {
-		id = 90601,
-		damage = "42/wave",
-		base = 90600,
+	[90243] = {
+		id = 90243,
+		damage = "12 x 6",
+		base = 90240,
 		weapon_id = {
-			90601
+			90243
 		}
 	},
-	[90602] = {
-		id = 90602,
-		damage = "46/wave",
-		base = 90600,
+	[90244] = {
+		id = 90244,
+		damage = "13 x 6",
+		base = 90240,
 		weapon_id = {
-			90602
+			90244
 		}
 	},
-	[90603] = {
-		id = 90603,
-		damage = "50/wave",
-		base = 90600,
+	[90245] = {
+		id = 90245,
+		damage = "14 x 6",
+		base = 90240,
 		weapon_id = {
-			90603
+			90245
 		}
 	},
-	[90604] = {
-		id = 90604,
-		damage = "54/wave",
-		base = 90600,
+	[90246] = {
+		id = 90246,
+		damage = "15 x 6",
+		base = 90240,
 		weapon_id = {
-			90604
+			90246
 		}
 	},
-	[90605] = {
-		id = 90605,
-		damage = "58/wave",
-		base = 90600,
+	[90247] = {
+		id = 90247,
+		damage = "15 x 6",
+		base = 90240,
 		weapon_id = {
-			90605
+			90247
 		}
 	},
-	[90606] = {
-		id = 90606,
-		damage = "62/wave",
-		base = 90600,
-		weapon_id = {
-			90606
-		}
-	},
-	[90607] = {
-		id = 90607,
-		damage = "66/wave",
-		base = 90600,
-		weapon_id = {
-			90607
-		}
-	},
-	[90608] = {
-		id = 90608,
-		damage = "70/wave",
-		base = 90600,
-		weapon_id = {
-			90608
-		}
-	},
-	[90609] = {
-		id = 90609,
-		damage = "74/wave",
-		base = 90600,
-		weapon_id = {
-			90609
-		}
-	},
-	[90610] = {
-		id = 90610,
-		damage = "78/wave",
-		base = 90600,
-		weapon_id = {
-			90610
-		}
-	},
-	[90611] = {
-		anti_siren = 100,
-		damage = "78/wave",
-		base = 90600,
-		id = 90611,
-		weapon_id = {
-			90611
-		}
-	},
-	[90612] = {
-		anti_siren = 200,
-		damage = "78/wave",
-		base = 90600,
-		id = 90612,
-		weapon_id = {
-			90612
-		}
-	},
-	[90613] = {
-		anti_siren = 300,
-		damage = "78/wave",
-		base = 90600,
-		id = 90613,
-		weapon_id = {
-			90613
-		}
-	},
-	[90700] = {
-		name = "Single 138.6mm Mle 1927 Naval Gun",
-		speciality = "Lock",
-		type = 1,
+	[90300] = {
+		name = "Quadruple 330mm Mle 1931 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
 		tech = 1,
 		descrip = "No description",
 		value_2 = 5,
-		icon = "50700",
+		icon = "50300",
 		attribute_2 = "cannon",
 		rarity = 2,
-		damage = "4 x 4",
+		damage = "34 x 4",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90700,
+		id = 90300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -191,63 +70,158 @@ pg.equip_data_statistics_387 = {
 		},
 		ammo_info = {
 			{
-				1,
-				2200
+				2,
+				1550
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			90700
+			90300
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"DD",
+			"BB",
 			"MG"
 		}
 	},
-	[90701] = {
-		id = 90701,
-		base = 90700,
+	[90301] = {
+		id = 90301,
+		damage = "39 x 4",
+		base = 90300,
 		weapon_id = {
-			90701
+			90301
 		}
 	},
-	[90702] = {
-		id = 90702,
-		damage = "5 x 4",
-		base = 90700,
+	[90302] = {
+		id = 90302,
+		damage = "44 x 4",
+		base = 90300,
 		weapon_id = {
-			90702
+			90302
+		}
+	},
+	[90303] = {
+		id = 90303,
+		damage = "49 x 4",
+		base = 90300,
+		weapon_id = {
+			90303
+		}
+	},
+	[90320] = {
+		name = "Quadruple 330mm Mle 1931 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "50300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "37 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
+	[90321] = {
+		id = 90321,
+		damage = "42 x 4",
+		base = 90320,
+		weapon_id = {
+			90321
+		}
+	},
+	[90322] = {
+		id = 90322,
+		damage = "47 x 4",
+		base = 90320,
+		weapon_id = {
+			90322
+		}
+	},
+	[90323] = {
+		id = 90323,
+		damage = "52 x 4",
+		base = 90320,
+		weapon_id = {
+			90323
+		}
+	},
+	[90324] = {
+		id = 90324,
+		damage = "57 x 4",
+		base = 90320,
+		weapon_id = {
+			90324
+		}
+	},
+	[90325] = {
+		id = 90325,
+		damage = "63 x 4",
+		base = 90320,
+		weapon_id = {
+			90325
+		}
+	},
+	[90326] = {
+		id = 90326,
+		damage = "69 x 4",
+		base = 90320,
+		weapon_id = {
+			90326
 		}
 	}
 }

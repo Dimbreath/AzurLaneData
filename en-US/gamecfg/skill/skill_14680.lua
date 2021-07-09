@@ -6,6 +6,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -41,6 +42,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -76,6 +78,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -111,6 +114,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -146,6 +150,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -181,6 +186,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -216,6 +222,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -251,6 +258,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -286,6 +294,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -321,6 +330,7 @@ return {
 				casterAniEffect = "",
 				type = "BattleSkillHeal",
 				target_choise = {
+					"TargetAllHelp",
 					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
@@ -371,6 +381,7 @@ return {
 			casterAniEffect = "",
 			type = "BattleSkillHeal",
 			target_choise = {
+				"TargetAllHelp",
 				"TargetShipType",
 				"TargetHelpLeastHPRatio"
 			},

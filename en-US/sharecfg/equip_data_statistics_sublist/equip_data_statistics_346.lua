@@ -1,54 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_346 = {
-	[72411] = {
-		name = "全弹发射-樫野I",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 72411,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+	[71162] = {
+		id = 71162,
+		name = "全弹发射-斐济级II",
+		base = 71161,
 		weapon_id = {
-			72411
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[72412] = {
-		id = 72412,
-		name = "全弹发射-樫野II",
-		base = 72411,
-		weapon_id = {
-			72412
+			71162
 		}
 	},
-	[73011] = {
-		name = "0",
+	[71171] = {
+		name = "全弹发射-谷物女神级I",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -60,14 +21,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73011,
+		id = 71171,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73011
+			71171
 		},
 		skill_id = {},
 		part_main = {
@@ -86,16 +47,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73012] = {
-		id = 73012,
-		name = "0",
-		base = 73011,
+	[71172] = {
+		id = 71172,
+		name = "全弹发射-谷物女神级II",
+		base = 71171,
 		weapon_id = {
-			73012
+			71172
 		}
 	},
-	[73031] = {
-		name = "0",
+	[71181] = {
+		name = "全弹发射-格罗斯特级I",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -107,14 +68,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73031,
+		id = 71181,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73031
+			71181
 		},
 		skill_id = {},
 		part_main = {
@@ -133,16 +94,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73032] = {
-		id = 73032,
-		name = "0",
-		base = 73031,
+	[71182] = {
+		id = 71182,
+		name = "全弹发射-格罗斯特级II",
+		base = 71181,
 		weapon_id = {
-			73032
+			71182
 		}
 	},
-	[73041] = {
-		name = "全弹发射-1936A型I",
+	[71211] = {
+		name = "0",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -154,14 +115,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73041,
+		id = 71211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73041
+			71211
 		},
 		skill_id = {},
 		part_main = {
@@ -180,16 +141,16 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73042] = {
-		id = 73042,
-		name = "全弹发射-1936A型II",
-		base = 73041,
+	[71212] = {
+		id = 71212,
+		name = "0",
+		base = 71211,
 		weapon_id = {
-			73042
+			71212
 		}
 	},
-	[73051] = {
-		name = "全弹发射-1936B型I",
+	[71221] = {
+		name = "0",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -201,14 +162,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73051,
+		id = 71221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73051
+			71221
 		},
 		skill_id = {},
 		part_main = {
@@ -227,15 +188,15 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73052] = {
-		id = 73052,
-		name = "全弹发射-1936B型II",
-		base = 73051,
+	[71222] = {
+		id = 71222,
+		name = "0",
+		base = 71221,
 		weapon_id = {
-			73052
+			71222
 		}
 	},
-	[73111] = {
+	[71231] = {
 		name = "0",
 		tech = 1,
 		speciality = "N/A",
@@ -248,14 +209,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73111,
+		id = 71231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73111
+			71231
 		},
 		skill_id = {},
 		part_main = {
@@ -274,15 +235,15 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73112] = {
-		id = 73112,
+	[71232] = {
+		id = 71232,
 		name = "0",
-		base = 73111,
+		base = 71231,
 		weapon_id = {
-			73112
+			71232
 		}
 	},
-	[73121] = {
+	[71241] = {
 		name = "0",
 		tech = 1,
 		speciality = "N/A",
@@ -295,14 +256,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73121,
+		id = 71241,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73111
+			71241
 		},
 		skill_id = {},
 		part_main = {
@@ -321,15 +282,15 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73122] = {
-		id = 73122,
+	[71242] = {
+		id = 71242,
 		name = "0",
-		base = 73121,
+		base = 71241,
 		weapon_id = {
-			73112
+			71242
 		}
 	},
-	[73211] = {
+	[72011] = {
 		name = "0",
 		tech = 1,
 		speciality = "N/A",
@@ -342,14 +303,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73211,
+		id = 72011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73211
+			72011
 		},
 		skill_id = {},
 		part_main = {
@@ -368,15 +329,15 @@ pg.equip_data_statistics_346 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[73212] = {
-		id = 73212,
+	[72012] = {
+		id = 72012,
 		name = "0",
-		base = 73211,
+		base = 72011,
 		weapon_id = {
-			73212
+			72012
 		}
 	},
-	[73221] = {
+	[72021] = {
 		name = "0",
 		tech = 1,
 		speciality = "N/A",
@@ -389,14 +350,14 @@ pg.equip_data_statistics_346 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 73221,
+		id = 72021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			73221
+			72021
 		},
 		skill_id = {},
 		part_main = {
@@ -414,5 +375,13 @@ pg.equip_data_statistics_346 = {
 		},
 		equip_parameters = {},
 		label = {}
+	},
+	[72022] = {
+		id = 72022,
+		name = "0",
+		base = 72021,
+		weapon_id = {
+			72022
+		}
 	}
 }

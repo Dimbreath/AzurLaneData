@@ -1,255 +1,363 @@
 pg = pg or {}
 pg.equip_data_statistics_326 = {
-	[49064] = {
-		id = 49064,
-		base = 49060,
+	[48004] = {
+		id = 48004,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59764
 			},
 			{
-				5,
-				52244
+				4,
+				59664
 			}
 		},
 		weapon_id = {
-			49064
+			48004
 		}
 	},
-	[49065] = {
-		id = 49065,
-		base = 49060,
+	[48005] = {
+		id = 48005,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59765
 			},
 			{
-				5,
-				52245
+				4,
+				59665
 			}
 		},
 		weapon_id = {
-			49065
+			48005
 		}
 	},
-	[49066] = {
-		id = 49066,
-		base = 49060,
+	[48006] = {
+		id = 48006,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59766
 			},
 			{
-				5,
-				52246
+				4,
+				59666
 			}
 		},
 		weapon_id = {
-			49066
+			48006
 		}
 	},
-	[49067] = {
-		id = 49067,
-		base = 49060,
+	[48007] = {
+		id = 48007,
+		base = 48000,
 		ammo_info = {
 			{
 				6,
 				59767
 			},
 			{
-				5,
-				52247
+				4,
+				59667
 			}
 		},
 		weapon_id = {
-			49067
+			48007
 		}
 	},
-	[54010] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
+	[48020] = {
+		name = "Fi 167",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "48020",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 54010,
+		id = 48020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				4,
+				59680
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			54010
+			48020
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
-		label = {}
-	},
-	[54011] = {
-		id = 54011,
-		name = "0",
-		base = 54010,
-		weapon_id = {
-			54011
+		label = {
+			"KMS",
+			"CV",
+			"TB"
 		}
 	},
-	[54012] = {
-		id = 54012,
-		name = "0",
-		base = 54010,
+	[48021] = {
+		id = 48021,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59681
+			}
+		},
 		weapon_id = {
-			54012
+			48021
 		}
 	},
-	[54013] = {
-		id = 54013,
-		name = "0",
-		base = 54010,
+	[48022] = {
+		id = 48022,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				4,
+				59682
+			}
+		},
 		weapon_id = {
-			54013
+			48022
 		}
 	},
-	[54014] = {
-		id = 54014,
-		name = "0",
-		base = 54010,
+	[48023] = {
+		id = 48023,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				4,
+				59683
+			}
+		},
 		weapon_id = {
-			54014
+			48023
 		}
 	},
-	[54015] = {
-		id = 54015,
-		name = "0",
-		base = 54010,
+	[48024] = {
+		id = 48024,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				4,
+				59684
+			}
+		},
 		weapon_id = {
-			54015
+			48024
 		}
 	},
-	[60001] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
+	[48025] = {
+		id = 48025,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				4,
+				59685
+			}
+		},
+		weapon_id = {
+			48025
+		}
+	},
+	[48026] = {
+		id = 48026,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				4,
+				59686
+			}
+		},
+		weapon_id = {
+			48026
+		}
+	},
+	[48027] = {
+		id = 48027,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				4,
+				59687
+			}
+		},
+		weapon_id = {
+			48027
+		}
+	},
+	[48028] = {
+		id = 48028,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59768
+			},
+			{
+				4,
+				59688
+			}
+		},
+		weapon_id = {
+			48028
+		}
+	},
+	[48029] = {
+		id = 48029,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59769
+			},
+			{
+				4,
+				59689
+			}
+		},
+		weapon_id = {
+			48029
+		}
+	},
+	[48030] = {
+		id = 48030,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59770
+			},
+			{
+				4,
+				59690
+			}
+		},
+		weapon_id = {
+			48030
+		}
+	},
+	[48031] = {
+		anti_siren = 100,
+		base = 48020,
+		id = 48031,
+		ammo_info = {
+			{
+				6,
+				59771
+			},
+			{
+				4,
+				59691
+			}
+		},
+		weapon_id = {
+			48031
+		}
+	},
+	[48040] = {
+		name = "Ju-87 D-4",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 5,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "48040",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 60001,
+		id = 48040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59340
+			},
+			{
+				4,
+				59700
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			60001
+			48040
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60002] = {
-		id = 60002,
-		name = "0",
-		base = 60001,
-		weapon_id = {
-			60002
-		}
-	},
-	[60003] = {
-		id = 60003,
-		name = "0",
-		base = 60001,
-		weapon_id = {
-			60003
-		}
-	},
-	[60011] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60011,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60011
+		part_main = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60012] = {
-		id = 60012,
-		name = "0",
-		base = 60011,
-		weapon_id = {
-			60012
-		}
-	},
-	[60013] = {
-		id = 60013,
-		name = "0",
-		base = 60011,
-		weapon_id = {
-			60013
-		}
-	},
-	[60021] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60021,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60021
+		part_sub = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
 		equip_parameters = {},
-		label = {}
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
 	}
 }

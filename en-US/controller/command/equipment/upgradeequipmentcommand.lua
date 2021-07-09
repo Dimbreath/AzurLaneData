@@ -31,14 +31,8 @@ function slot0.execute(slot0, slot1)
 				getProxy(BagProxy):removeItemById(slot14[1], slot14[2])
 			end
 
-			slot10 = slot6:MigrateTo(slot6.config.next)
-
 			if slot5 then
-				if slot6:hasSkin() then
-					slot10:setSkinId(slot6:getSkinId())
-				end
-
-				slot5:updateEquip(uv1, slot10)
+				slot5:updateEquip(uv1, slot6:MigrateTo(slot6.config.next))
 				slot1:updateShip(slot5)
 			elseif slot6 then
 				slot3:removeEquipmentById(slot6.id, 1)

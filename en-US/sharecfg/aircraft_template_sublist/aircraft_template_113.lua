@@ -1,127 +1,127 @@
 pg = pg or {}
 pg.aircraft_template_113 = {
-	[39165] = {
-		id = 39165,
-		base = 39160,
+	[39145] = {
+		id = 39145,
+		base = 39140,
 		max_hp = 73,
 		hp_growth = 2809,
 		weapon_ID = {
 			50045,
-			52665,
-			52165
+			52645,
+			52145
 		}
 	},
-	[39166] = {
-		id = 39166,
-		base = 39160,
+	[39146] = {
+		id = 39146,
+		base = 39140,
 		max_hp = 79,
 		hp_growth = 3050,
 		weapon_ID = {
 			50046,
-			52666,
-			52166
+			52646,
+			52146
 		}
 	},
-	[39167] = {
-		id = 39167,
-		base = 39160,
+	[39147] = {
+		id = 39147,
+		base = 39140,
 		max_hp = 86,
 		hp_growth = 3290,
 		weapon_ID = {
 			50047,
-			52667,
-			52167
+			52647,
+			52147
 		}
 	},
-	[39168] = {
-		id = 39168,
-		base = 39160,
+	[39148] = {
+		id = 39148,
+		base = 39140,
 		max_hp = 92,
 		hp_growth = 3531,
 		weapon_ID = {
 			50048,
-			52668,
-			52168
+			52648,
+			52148
 		}
 	},
-	[39169] = {
-		id = 39169,
-		base = 39160,
+	[39149] = {
+		id = 39149,
+		base = 39140,
 		max_hp = 98,
 		hp_growth = 3772,
 		weapon_ID = {
 			50049,
-			52669,
-			52169
+			52649,
+			52149
 		}
 	},
-	[39170] = {
-		id = 39170,
-		base = 39160,
+	[39150] = {
+		id = 39150,
+		base = 39140,
 		max_hp = 104,
 		hp_growth = 4013,
 		weapon_ID = {
 			50050,
-			52670,
-			52170
+			52650,
+			52150
 		}
 	},
-	[39171] = {
-		id = 39171,
-		base = 39160,
+	[39151] = {
+		id = 39151,
+		base = 39140,
 		max_hp = 111,
 		hp_growth = 4254,
 		weapon_ID = {
 			50051,
-			52671,
-			52171
+			52651,
+			52151
 		}
 	},
-	[39172] = {
-		id = 39172,
-		base = 39160,
+	[39152] = {
+		id = 39152,
+		base = 39140,
 		max_hp = 117,
 		hp_growth = 4494,
 		weapon_ID = {
 			50052,
-			52672,
-			52172
+			52652,
+			52152
 		}
 	},
-	[39173] = {
-		id = 39173,
-		base = 39160,
+	[39153] = {
+		id = 39153,
+		base = 39140,
 		max_hp = 123,
 		hp_growth = 4735,
 		weapon_ID = {
 			50053,
-			52673,
-			52173
+			52653,
+			52153
 		}
 	},
-	[39200] = {
-		name = "瑞云",
-		max_hp = 27,
+	[39160] = {
+		name = "彗星一二型甲",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "huixing12Jia",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.75,
+		crash_DMG = 208,
+		dodge = 3.33,
 		attack_power = 2,
-		dodge_limit = 0.8,
+		dodge_limit = 1,
 		type = 3,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "huixing12Jia",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1023,
-		speed = 46,
-		id = 39200,
+		hp_growth = 1605,
+		speed = 48,
+		id = 39160,
 		scale = 1,
 		weapon_ID = {
-			50500,
-			50800,
-			52200
+			50040,
+			52660,
+			52160
 		},
 		position_offset = {
 			0,
@@ -141,13 +141,13 @@ pg.aircraft_template_113 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.98,
+					-0.94,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.96,
+					1.26,
 					0
 				}
 			}
@@ -164,7 +164,7 @@ pg.aircraft_template_113 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},

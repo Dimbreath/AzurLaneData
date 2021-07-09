@@ -1,63 +1,203 @@
 pg = pg or {}
 pg.equip_data_statistics_305 = {
-	[45149] = {
-		id = 45149,
-		damage = "137 x 4",
-		base = 45140,
+	[45023] = {
+		id = 45023,
+		damage = "86 x 3",
+		base = 45020,
 		weapon_id = {
-			45149
+			45023
 		}
 	},
-	[45150] = {
-		id = 45150,
-		damage = "145 x 4",
-		base = 45140,
+	[45024] = {
+		id = 45024,
+		damage = "92 x 3",
+		base = 45020,
 		weapon_id = {
-			45150
+			45024
 		}
 	},
-	[45151] = {
+	[45025] = {
+		id = 45025,
+		damage = "99 x 3",
+		base = 45020,
+		weapon_id = {
+			45025
+		}
+	},
+	[45026] = {
+		id = 45026,
+		damage = "106 x 3",
+		base = 45020,
+		weapon_id = {
+			45026
+		}
+	},
+	[45040] = {
+		name = "533mm Triple Magnetic Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 3,
+		descrip = "The 533mm Triple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
+		value_2 = 25,
+		icon = "45000",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "70 x 3",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[45041] = {
+		id = 45041,
+		damage = "77 x 3",
+		base = 45040,
+		weapon_id = {
+			45041
+		}
+	},
+	[45042] = {
+		id = 45042,
+		damage = "85 x 3",
+		base = 45040,
+		weapon_id = {
+			45042
+		}
+	},
+	[45043] = {
+		id = 45043,
+		damage = "92 x 3",
+		base = 45040,
+		weapon_id = {
+			45043
+		}
+	},
+	[45044] = {
+		id = 45044,
+		damage = "100 x 3",
+		base = 45040,
+		weapon_id = {
+			45044
+		}
+	},
+	[45045] = {
+		id = 45045,
+		damage = "107 x 3",
+		base = 45040,
+		weapon_id = {
+			45045
+		}
+	},
+	[45046] = {
+		id = 45046,
+		damage = "115 x 3",
+		base = 45040,
+		weapon_id = {
+			45046
+		}
+	},
+	[45047] = {
+		id = 45047,
+		damage = "122 x 3",
+		base = 45040,
+		weapon_id = {
+			45047
+		}
+	},
+	[45048] = {
+		id = 45048,
+		damage = "130 x 3",
+		base = 45040,
+		weapon_id = {
+			45048
+		}
+	},
+	[45049] = {
+		id = 45049,
+		damage = "137 x 3",
+		base = 45040,
+		weapon_id = {
+			45049
+		}
+	},
+	[45050] = {
+		id = 45050,
+		damage = "145 x 3",
+		base = 45040,
+		weapon_id = {
+			45050
+		}
+	},
+	[45051] = {
 		anti_siren = 100,
-		damage = "145 x 4",
-		base = 45140,
-		id = 45151,
+		damage = "145 x 3",
+		base = 45040,
+		id = 45051,
 		weapon_id = {
-			45151
+			45051
 		}
 	},
-	[45152] = {
-		anti_siren = 200,
-		damage = "145 x 4",
-		base = 45140,
-		id = 45152,
-		weapon_id = {
-			45152
-		}
-	},
-	[45153] = {
-		anti_siren = 300,
-		damage = "145 x 4",
-		base = 45140,
-		id = 45153,
-		weapon_id = {
-			45153
-		}
-	},
-	[45200] = {
-		name = "533mm Quintuple Magnetic Torpedo Mount ",
+	[45100] = {
+		name = "533mm Quadruple Magnetic Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 1,
-		descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
-		value_2 = 25,
-		icon = "45200",
+		descrip = "The 533mm Quadruple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		value_2 = 12,
+		icon = "45100",
 		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "63 x 5",
+		rarity = 3,
+		damage = "63 x 4",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45200,
+		id = 45100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -74,7 +214,7 @@ pg.equip_data_statistics_305 = {
 			},
 			{
 				4,
-				1404
+				1403
 			},
 			6,
 			10,
@@ -82,7 +222,7 @@ pg.equip_data_statistics_305 = {
 			12
 		},
 		weapon_id = {
-			45200
+			45100
 		},
 		skill_id = {},
 		part_main = {
@@ -102,149 +242,7 @@ pg.equip_data_statistics_305 = {
 			"KMS",
 			"ST",
 			"TP",
-			"QUINT"
-		}
-	},
-	[45201] = {
-		id = 45201,
-		damage = "69 x 5",
-		base = 45200,
-		weapon_id = {
-			45201
-		}
-	},
-	[45202] = {
-		id = 45202,
-		damage = "75 x 5",
-		base = 45200,
-		weapon_id = {
-			45202
-		}
-	},
-	[45203] = {
-		id = 45203,
-		damage = "81 x 5",
-		base = 45200,
-		weapon_id = {
-			45203
-		}
-	},
-	[45204] = {
-		id = 45204,
-		damage = "87 x 5",
-		base = 45200,
-		weapon_id = {
-			45204
-		}
-	},
-	[45205] = {
-		id = 45205,
-		damage = "93 x 5",
-		base = 45200,
-		weapon_id = {
-			45205
-		}
-	},
-	[45206] = {
-		id = 45206,
-		damage = "99 x 5",
-		base = 45200,
-		weapon_id = {
-			45206
-		}
-	},
-	[45207] = {
-		id = 45207,
-		damage = "105 x 5",
-		base = 45200,
-		weapon_id = {
-			45207
-		}
-	},
-	[45208] = {
-		id = 45208,
-		damage = "111 x 5",
-		base = 45200,
-		weapon_id = {
-			45208
-		}
-	},
-	[45209] = {
-		id = 45209,
-		damage = "117 x 5",
-		base = 45200,
-		weapon_id = {
-			45209
-		}
-	},
-	[45210] = {
-		id = 45210,
-		damage = "123 x 5",
-		base = 45200,
-		weapon_id = {
-			45210
-		}
-	},
-	[45220] = {
-		name = "533mm Quintuple Magnetic Torpedo Mount ",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 2,
-		descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
-		value_2 = 45,
-		icon = "45200",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "66 x 5",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1404
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"QUINT"
+			"QUAD"
 		}
 	}
 }

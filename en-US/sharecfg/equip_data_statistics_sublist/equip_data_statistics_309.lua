@@ -1,190 +1,212 @@
 pg = pg or {}
 pg.equip_data_statistics_309 = {
-	[45404] = {
-		id = 45404,
-		damage = "82 x 2",
-		base = 45400,
+	[45229] = {
+		id = 45229,
+		damage = "126 x 5",
+		base = 45220,
 		weapon_id = {
-			45404
+			45229
 		}
 	},
-	[45405] = {
-		id = 45405,
-		damage = "90 x 2",
-		base = 45400,
+	[45230] = {
+		id = 45230,
+		damage = "133 x 5",
+		base = 45220,
 		weapon_id = {
-			45405
+			45230
 		}
 	},
-	[45406] = {
-		id = 45406,
-		damage = "98 x 2",
-		base = 45400,
-		weapon_id = {
-			45406
-		}
-	},
-	[45420] = {
-		name = "G7e Acoustic Homing Submarine Torpedo",
+	[45240] = {
+		name = "533mm Quintuple Magnetic Torpedo Mount ",
 		speciality = "Torpedo",
-		type = 13,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "45400",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "58 x 2",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1826
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1826
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45420
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45421] = {
-		id = 45421,
-		damage = "66 x 2",
-		base = 45420,
-		weapon_id = {
-			45421
-		}
-	},
-	[45422] = {
-		id = 45422,
-		damage = "74 x 2",
-		base = 45420,
-		weapon_id = {
-			45422
-		}
-	},
-	[45423] = {
-		id = 45423,
-		damage = "82 x 2",
-		base = 45420,
-		weapon_id = {
-			45423
-		}
-	},
-	[45424] = {
-		id = 45424,
-		damage = "90 x 2",
-		base = 45420,
-		weapon_id = {
-			45424
-		}
-	},
-	[45425] = {
-		id = 45425,
-		damage = "99 x 2",
-		base = 45420,
-		weapon_id = {
-			45425
-		}
-	},
-	[45426] = {
-		id = 45426,
-		damage = "108 x 2",
-		base = 45420,
-		weapon_id = {
-			45426
-		}
-	},
-	[45427] = {
-		id = 45427,
-		damage = "117 x 2",
-		base = 45420,
-		weapon_id = {
-			45427
-		}
-	},
-	[45428] = {
-		id = 45428,
-		damage = "126 x 2",
-		base = 45420,
-		weapon_id = {
-			45428
-		}
-	},
-	[45429] = {
-		id = 45429,
-		damage = "135 x 2",
-		base = 45420,
-		weapon_id = {
-			45429
-		}
-	},
-	[45430] = {
-		id = 45430,
-		damage = "144 x 2",
-		base = 45420,
-		weapon_id = {
-			45430
-		}
-	},
-	[45440] = {
-		name = "G7e Acoustic Homing Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
+		type = 5,
 		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "45400",
+		descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		value_2 = 70,
+		icon = "45200",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "64 x 2",
+		rarity = 6,
+		damage = "70 x 5",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45440,
+		id = 45240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1826
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[45241] = {
+		id = 45241,
+		damage = "77 x 5",
+		base = 45240,
+		weapon_id = {
+			45241
+		}
+	},
+	[45242] = {
+		id = 45242,
+		damage = "85 x 5",
+		base = 45240,
+		weapon_id = {
+			45242
+		}
+	},
+	[45243] = {
+		id = 45243,
+		damage = "92 x 5",
+		base = 45240,
+		weapon_id = {
+			45243
+		}
+	},
+	[45244] = {
+		id = 45244,
+		damage = "100 x 5",
+		base = 45240,
+		weapon_id = {
+			45244
+		}
+	},
+	[45245] = {
+		id = 45245,
+		damage = "107 x 5",
+		base = 45240,
+		weapon_id = {
+			45245
+		}
+	},
+	[45246] = {
+		id = 45246,
+		damage = "115 x 5",
+		base = 45240,
+		weapon_id = {
+			45246
+		}
+	},
+	[45247] = {
+		id = 45247,
+		damage = "122 x 5",
+		base = 45240,
+		weapon_id = {
+			45247
+		}
+	},
+	[45248] = {
+		id = 45248,
+		damage = "130 x 5",
+		base = 45240,
+		weapon_id = {
+			45248
+		}
+	},
+	[45249] = {
+		id = 45249,
+		damage = "137 x 5",
+		base = 45240,
+		weapon_id = {
+			45249
+		}
+	},
+	[45250] = {
+		id = 45250,
+		damage = "145 x 5",
+		base = 45240,
+		weapon_id = {
+			45250
+		}
+	},
+	[45251] = {
+		anti_siren = 100,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45251,
+		weapon_id = {
+			45251
+		}
+	},
+	[45252] = {
+		anti_siren = 200,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45252,
+		weapon_id = {
+			45252
+		}
+	},
+	[45253] = {
+		anti_siren = 300,
+		damage = "145 x 5",
+		base = 45240,
+		id = 45253,
+		weapon_id = {
+			45253
+		}
+	},
+	[45300] = {
+		name = "G7a Submarine Torpedo",
+		speciality = "Torpedo",
+		type = 13,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "45300",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "46 x 2",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 45300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
 			}
 		},
 		equip_info = {
@@ -192,7 +214,7 @@ pg.equip_data_statistics_309 = {
 			2,
 			{
 				3,
-				1826
+				1825
 			},
 			{
 				4,
@@ -204,7 +226,7 @@ pg.equip_data_statistics_309 = {
 			12
 		},
 		weapon_id = {
-			45440
+			45300
 		},
 		skill_id = {},
 		part_main = {
@@ -220,22 +242,6 @@ pg.equip_data_statistics_309 = {
 			"KMS",
 			"SS",
 			"TP"
-		}
-	},
-	[45441] = {
-		id = 45441,
-		damage = "73 x 2",
-		base = 45440,
-		weapon_id = {
-			45441
-		}
-	},
-	[45442] = {
-		id = 45442,
-		damage = "82 x 2",
-		base = 45440,
-		weapon_id = {
-			45442
 		}
 	}
 }

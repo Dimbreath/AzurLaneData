@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_72 = {
+	[5220] = {
+		name = "533mm Quintuple Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "5200",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "50 x 5",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
 	[5221] = {
 		id = 5221,
 		damage = "59 x 5",
@@ -180,14 +242,6 @@ pg.equip_data_statistics_72 = {
 		base = 5240,
 		weapon_id = {
 			5245
-		}
-	},
-	[5246] = {
-		id = 5246,
-		damage = "116 x 5",
-		base = 5240,
-		weapon_id = {
-			5246
 		}
 	}
 }

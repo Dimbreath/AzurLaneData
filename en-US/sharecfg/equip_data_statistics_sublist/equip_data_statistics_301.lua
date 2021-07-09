@@ -1,64 +1,69 @@
 pg = pg or {}
 pg.equip_data_statistics_301 = {
-	[44210] = {
-		id = 44210,
-		damage = "154 x 2",
-		base = 44200,
+	[44126] = {
+		id = 44126,
+		damage = "93 x 2",
+		base = 44120,
 		weapon_id = {
-			44210
+			44126
 		}
 	},
-	[44211] = {
-		anti_siren = 100,
-		damage = "154 x 2",
-		base = 44200,
-		id = 44211,
+	[44127] = {
+		id = 44127,
+		damage = "100 x 2",
+		base = 44120,
 		weapon_id = {
-			44211
+			44127
 		}
 	},
-	[44212] = {
-		anti_siren = 200,
-		damage = "154 x 2",
-		base = 44200,
-		id = 44212,
+	[44128] = {
+		id = 44128,
+		damage = "107 x 2",
+		base = 44120,
 		weapon_id = {
-			44212
+			44128
 		}
 	},
-	[44213] = {
-		anti_siren = 300,
-		damage = "154 x 2",
-		base = 44200,
-		id = 44213,
+	[44129] = {
+		id = 44129,
+		damage = "114 x 2",
+		base = 44120,
 		weapon_id = {
-			44213
+			44129
 		}
 	},
-	[44300] = {
-		name = "Prototype Triple 305mm SK C/39 Main Gun Mount",
+	[44130] = {
+		id = 44130,
+		damage = "122 x 2",
+		base = 44120,
+		weapon_id = {
+			44130
+		}
+	},
+	[44140] = {
+		name = "Twin 380mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
-		tech = 0,
-		descrip = "No description",
+		tech = 3,
+		descrip = "The Twin 380mm SK C/34 Main Gun Mount is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
 		value_2 = 45,
-		icon = "44300",
+		icon = "44100",
 		attribute_2 = "cannon",
 		rarity = 5,
-		damage = "57 x 3",
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 2,
+		ammo = 1,
 		value_3 = 0,
-		id = 44300,
+		id = 44140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1590
+				1501
 			}
 		},
 		equip_info = {
@@ -70,7 +75,7 @@ pg.equip_data_statistics_301 = {
 			12
 		},
 		weapon_id = {
-			44300
+			44140
 		},
 		skill_id = {},
 		part_main = {
@@ -85,105 +90,96 @@ pg.equip_data_statistics_301 = {
 			"KMS",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[44301] = {
-		id = 44301,
-		damage = "63 x 3",
-		base = 44300,
+	[44141] = {
+		id = 44141,
+		damage = "64 x 2",
+		base = 44140,
 		weapon_id = {
-			44301
+			44141
 		}
 	},
-	[44302] = {
-		id = 44302,
-		damage = "67 x 3",
-		base = 44300,
+	[44142] = {
+		id = 44142,
+		damage = "72 x 2",
+		base = 44140,
 		weapon_id = {
-			44302
+			44142
 		}
 	},
-	[44303] = {
-		id = 44303,
-		damage = "73 x 3",
-		base = 44300,
+	[44143] = {
+		id = 44143,
+		damage = "80 x 2",
+		base = 44140,
 		weapon_id = {
-			44303
+			44143
 		}
 	},
-	[44304] = {
-		id = 44304,
-		damage = "77 x 3",
-		base = 44300,
+	[44144] = {
+		id = 44144,
+		damage = "86 x 2",
+		base = 44140,
 		weapon_id = {
-			44304
+			44144
 		}
 	},
-	[44305] = {
-		id = 44305,
-		damage = "81 x 3",
-		base = 44300,
+	[44145] = {
+		id = 44145,
+		damage = "94 x 2",
+		base = 44140,
 		weapon_id = {
-			44305
+			44145
 		}
 	},
-	[44306] = {
-		id = 44306,
-		damage = "87 x 3",
-		base = 44300,
+	[44146] = {
+		id = 44146,
+		damage = "100 x 2",
+		base = 44140,
 		weapon_id = {
-			44306
+			44146
 		}
 	},
-	[44307] = {
-		id = 44307,
-		damage = "91 x 3",
-		base = 44300,
+	[44147] = {
+		id = 44147,
+		damage = "108 x 2",
+		base = 44140,
 		weapon_id = {
-			44307
+			44147
 		}
 	},
-	[44308] = {
-		id = 44308,
-		damage = "97 x 3",
-		base = 44300,
+	[44148] = {
+		id = 44148,
+		damage = "118 x 2",
+		base = 44140,
 		weapon_id = {
-			44308
+			44148
 		}
 	},
-	[44309] = {
-		id = 44309,
-		damage = "101 x 3",
-		base = 44300,
+	[44149] = {
+		id = 44149,
+		damage = "124 x 2",
+		base = 44140,
 		weapon_id = {
-			44309
+			44149
 		}
 	},
-	[44310] = {
-		id = 44310,
-		damage = "105 x 3",
-		base = 44300,
+	[44150] = {
+		id = 44150,
+		damage = "132 x 2",
+		base = 44140,
 		weapon_id = {
-			44310
+			44150
 		}
 	},
-	[44311] = {
+	[44151] = {
 		anti_siren = 100,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44311,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44151,
 		weapon_id = {
-			44311
-		}
-	},
-	[44312] = {
-		anti_siren = 200,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44312,
-		weapon_id = {
-			44312
+			44151
 		}
 	}
 }

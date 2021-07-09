@@ -1,116 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_158 = {
-	[67302] = {
-		max_hp = 54,
-		name = "大凤技能轰炸机Lv2",
-		base = 67300,
-		id = 67302,
-		hp_growth = 2087,
+	[66424] = {
+		max_hp = 55,
+		name = "胡蜂技能LV4",
+		base = 66420,
+		id = 66424,
+		hp_growth = 2202,
 		weapon_ID = {
-			67382
+			50144,
+			50544,
+			52244
 		}
 	},
-	[67303] = {
+	[66425] = {
 		max_hp = 61,
-		name = "大凤技能轰炸机Lv3",
-		base = 67300,
-		id = 67303,
-		hp_growth = 2327,
+		name = "胡蜂技能LV5",
+		base = 66420,
+		id = 66425,
+		hp_growth = 2451,
 		weapon_ID = {
-			67383
+			50145,
+			50545,
+			52245
 		}
 	},
-	[67304] = {
-		max_hp = 67,
-		name = "大凤技能轰炸机Lv4",
-		base = 67300,
-		id = 67304,
-		hp_growth = 2568,
+	[66426] = {
+		max_hp = 68,
+		name = "胡蜂技能LV6",
+		base = 66420,
+		id = 66426,
+		hp_growth = 2700,
 		weapon_ID = {
-			67384
+			50146,
+			50546,
+			52246
 		}
 	},
-	[67305] = {
-		max_hp = 73,
-		name = "大凤技能轰炸机Lv5",
-		base = 67300,
-		id = 67305,
-		hp_growth = 2809,
+	[66427] = {
+		max_hp = 75,
+		name = "胡蜂技能LV7",
+		base = 66420,
+		id = 66427,
+		hp_growth = 2949,
 		weapon_ID = {
-			67385
+			50147,
+			50547,
+			52247
 		}
 	},
-	[67306] = {
-		max_hp = 79,
-		name = "大凤技能轰炸机Lv6",
-		base = 67300,
-		id = 67306,
-		hp_growth = 3050,
+	[66428] = {
+		max_hp = 82,
+		name = "胡蜂技能LV8",
+		base = 66420,
+		id = 66428,
+		hp_growth = 3198,
 		weapon_ID = {
-			67386
+			50148,
+			50548,
+			52248
 		}
 	},
-	[67307] = {
-		max_hp = 86,
-		name = "大凤技能轰炸机Lv7",
-		base = 67300,
-		id = 67307,
-		hp_growth = 3290,
+	[66429] = {
+		max_hp = 89,
+		name = "胡蜂技能LV9",
+		base = 66420,
+		id = 66429,
+		hp_growth = 3447,
 		weapon_ID = {
-			67387
+			50149,
+			50549,
+			52249
 		}
 	},
-	[67308] = {
-		max_hp = 92,
-		name = "大凤技能轰炸机Lv8",
-		base = 67300,
-		id = 67308,
-		hp_growth = 3531,
+	[66430] = {
+		max_hp = 96,
+		name = "胡蜂技能LV10",
+		base = 66420,
+		id = 66430,
+		hp_growth = 3696,
 		weapon_ID = {
-			67388
+			50150,
+			50550,
+			52250
 		}
 	},
-	[67309] = {
-		max_hp = 98,
-		name = "大凤技能轰炸机Lv9",
-		base = 67300,
-		id = 67309,
-		hp_growth = 3772,
-		weapon_ID = {
-			67389
-		}
-	},
-	[67310] = {
-		max_hp = 104,
-		name = "大凤技能轰炸机Lv10",
-		base = 67300,
-		id = 67310,
-		hp_growth = 4013,
-		weapon_ID = {
-			67390
-		}
-	},
-	[67320] = {
-		name = "大凤技能鱼雷机Lv0",
-		max_hp = 42,
+	[66580] = {
+		name = "宝石枪雨LV0",
+		max_hp = 38,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "Nep_green",
 		ACC_growth = 0,
-		crash_DMG = 188,
+		crash_DMG = 100,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "Nep_green",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1605,
-		speed = 52,
-		id = 67320,
+		nationality = 1,
+		hp_growth = 1478,
+		speed = 50,
+		id = 66580,
 		scale = 1,
 		weapon_ID = {
-			67400
+			66620
 		},
 		position_offset = {
 			0,
@@ -130,13 +124,13 @@ pg.aircraft_template_158 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					1.28,
+					-0.38,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					1.43,
+					1.85,
 					0
 				}
 			}
@@ -153,7 +147,7 @@ pg.aircraft_template_158 = {
 				0
 			},
 			{
-				0.26,
+				0.62,
 				0,
 				0
 			},
@@ -162,6 +156,26 @@ pg.aircraft_template_158 = {
 				0,
 				0
 			}
+		}
+	},
+	[66581] = {
+		max_hp = 45,
+		name = "宝石枪雨LV1",
+		base = 66580,
+		id = 66581,
+		hp_growth = 1773,
+		weapon_ID = {
+			66621
+		}
+	},
+	[66582] = {
+		max_hp = 52,
+		name = "宝石枪雨LV2",
+		base = 66580,
+		id = 66582,
+		hp_growth = 2068,
+		weapon_ID = {
+			66622
 		}
 	}
 }

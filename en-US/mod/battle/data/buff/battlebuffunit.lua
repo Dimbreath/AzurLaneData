@@ -231,3 +231,11 @@ function slot3.Dispose(slot0)
 	slot0._triggerSearchTable = nil
 	slot0._commander = nil
 end
+
+function slot3.SetSrc(slot0, slot1)
+	slot0._srcData = slot1
+end
+
+function slot3.GetSrc(slot0)
+	return slot0._srcData
+end

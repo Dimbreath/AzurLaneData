@@ -33,6 +33,9 @@ pg.activity_const = {
 	ACTIVITY_PRAY_POOL = {
 		act_id = 4000
 	},
+	ACTIVITY_BOSS_PT_ID = {
+		act_id = 4031
+	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
 	},
@@ -362,9 +365,6 @@ pg.activity_const = {
 	},
 	ACTIVITY_ID_ATRE_FURNITURE = {
 		act_id = 30244
-	},
-	ACTIVITY_BOSS_PT_ID = {
-		act_id = 30224
 	},
 	ACTIVITY_JAMAICA_SKIN_PAGE = {
 		act_id = 30228

@@ -8,10 +8,6 @@ slot0.optionsPath = {
 	"adapt/top/option"
 }
 
-function slot0.GetPTActivityID(slot0)
-	error("Need Complete")
-end
-
 function slot0.init(slot0)
 	slot0.mainTF = slot0:findTF("adapt")
 	slot0.bg = slot0:findTF("bg")

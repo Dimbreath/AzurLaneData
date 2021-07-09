@@ -19,6 +19,7 @@ function slot0.Ctor(slot0, slot1)
 	for slot5 = 1, pg.gameset.commander_home_number.key_value do
 		if not slot0.catterys[slot5] then
 			slot0.catterys[slot5] = Cattery.New(slot0, {
+				op_flag = 7,
 				id = slot5
 			})
 		end
@@ -76,6 +77,10 @@ end
 
 function slot0.GetNextLevelExp(slot0)
 	return slot0:getConfig("home_exp")
+end
+
+function slot0.GetPrevLevelExp(slot0)
+	return slot0:bindConfigTable()[slot0.level - 1] and slot1[slot0.level - 1].home_exp or 0
 end
 
 function slot0.GetCatteries(slot0)
@@ -172,27 +177,13 @@ function slot0.ResetCatteryOP(slot0)
 	end
 end
 
-function slot0.AddCommanderExpByFeed(slot0)
-	for slot7, slot8 in pairs(slot0:GetCatteries()) do
-		if slot8:ExistCommander() then
-			function (slot0, slot1)
-				slot3 = getProxy(CommanderProxy)
-				slot4 = slot3:getCommanderById(slot0:GetCommanderId())
-
-				slot4:addExp(slot1)
-				slot3:updateCommander(slot4)
-			end(slot8, slot0:getConfig("feed_level")[2])
-		end
-	end
-end
-
 function slot0.GetFeedCommanderExp(slot0)
 	return slot0:getConfig("feed_level")[2]
 end
 
 function slot0.AnyCatteryExistOP(slot0)
 	for slot4, slot5 in pairs(slot0:GetCatteries()) do
-		if slot5:ExiseFeedOP() or slot5:ExistPlayOP() or slot5:ExistCleanOP() then
+		if not slot5:IsLocked() and (slot5:ExiseFeedOP() or slot5:ExistPlayOP() or slot5:ExistCleanOP()) then
 			return true
 		end
 	end
@@ -231,6 +222,16 @@ end
 function slot0.CommanderInHome(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:GetCatteries()) do
 		if slot7:GetCommanderId() == slot1 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.ShouldSettleCattery(slot0)
+	for slot5, slot6 in pairs(slot0:GetCatteries()) do
+		if slot6:ExistCommander() and slot6:ExistCacheExp() then
 			return true
 		end
 	end

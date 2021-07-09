@@ -1,83 +1,36 @@
 pg = pg or {}
 pg.aircraft_template_194 = {
-	[69926] = {
-		max_hp = 70,
-		name = "信浓技能试制紫电改二 LV6",
-		base = 69921,
-		id = 69926,
-		hp_growth = 2681,
+	[69210] = {
+		max_hp = 98,
+		name = "库珀反潜PBY-Lv10",
+		base = 69201,
+		id = 69210,
+		hp_growth = 3511,
 		weapon_ID = {
-			59546,
-			69966
+			53150
 		}
 	},
-	[69927] = {
-		max_hp = 76,
-		name = "信浓技能试制紫电改二 LV7",
-		base = 69921,
-		id = 69927,
-		hp_growth = 2911,
-		weapon_ID = {
-			59547,
-			69967
-		}
-	},
-	[69928] = {
-		max_hp = 82,
-		name = "信浓技能试制紫电改二 LV8",
-		base = 69921,
-		id = 69928,
-		hp_growth = 3141,
-		weapon_ID = {
-			59548,
-			69968
-		}
-	},
-	[69929] = {
-		max_hp = 88,
-		name = "信浓技能试制紫电改二 LV9",
-		base = 69921,
-		id = 69929,
-		hp_growth = 3371,
-		weapon_ID = {
-			59549,
-			69969
-		}
-	},
-	[69930] = {
-		max_hp = 94,
-		name = "信浓技能试制紫电改二 LV10",
-		base = 69921,
-		id = 69930,
-		hp_growth = 3601,
-		weapon_ID = {
-			59550,
-			69970
-		}
-	},
-	[69931] = {
-		name = "信浓技能流星 LV1",
-		max_hp = 41,
+	[69211] = {
+		name = "库珀轰炸PBY-Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "pby",
 		ACC_growth = 0,
-		crash_DMG = 188,
-		dodge = 1.05,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 5,
-		type = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "pby",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1594,
-		speed = 52,
-		id = 69931,
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 66,
+		id = 69211,
 		scale = 1,
 		weapon_ID = {
-			50541,
-			50841,
-			51461
+			69221
 		},
 		position_offset = {
 			0,
@@ -97,13 +50,13 @@ pg.aircraft_template_194 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -120,7 +73,7 @@ pg.aircraft_template_194 = {
 				0
 			},
 			{
-				0.26,
+				0.64,
 				0,
 				0
 			},
@@ -131,52 +84,84 @@ pg.aircraft_template_194 = {
 			}
 		}
 	},
-	[69932] = {
-		max_hp = 47,
-		name = "信浓技能流星 LV2",
-		base = 69931,
-		id = 69932,
-		hp_growth = 1802,
+	[69212] = {
+		max_hp = 48,
+		name = "库珀轰炸PBY-Lv2",
+		base = 69211,
+		id = 69212,
+		hp_growth = 1826,
 		weapon_ID = {
-			50542,
-			50842,
-			51462
+			69222
 		}
 	},
-	[69933] = {
-		max_hp = 52,
-		name = "信浓技能流星 LV3",
-		base = 69931,
-		id = 69933,
-		hp_growth = 2010,
+	[69213] = {
+		max_hp = 54,
+		name = "库珀轰炸PBY-Lv3",
+		base = 69211,
+		id = 69213,
+		hp_growth = 2036,
 		weapon_ID = {
-			50543,
-			50843,
-			51463
+			69223
 		}
 	},
-	[69934] = {
-		max_hp = 58,
-		name = "信浓技能流星 LV4",
-		base = 69931,
-		id = 69934,
-		hp_growth = 2218,
+	[69214] = {
+		max_hp = 61,
+		name = "库珀轰炸PBY-Lv4",
+		base = 69211,
+		id = 69214,
+		hp_growth = 2247,
 		weapon_ID = {
-			50544,
-			50844,
-			51464
+			69224
 		}
 	},
-	[69935] = {
-		max_hp = 63,
-		name = "信浓技能流星 LV5",
-		base = 69931,
-		id = 69935,
-		hp_growth = 2426,
+	[69215] = {
+		max_hp = 67,
+		name = "库珀轰炸PBY-Lv5",
+		base = 69211,
+		id = 69215,
+		hp_growth = 2458,
 		weapon_ID = {
-			50545,
-			50845,
-			51465
+			69225
+		}
+	},
+	[69216] = {
+		max_hp = 73,
+		name = "库珀轰炸PBY-Lv6",
+		base = 69211,
+		id = 69216,
+		hp_growth = 2669,
+		weapon_ID = {
+			69226
+		}
+	},
+	[69217] = {
+		max_hp = 79,
+		name = "库珀轰炸PBY-Lv7",
+		base = 69211,
+		id = 69217,
+		hp_growth = 2879,
+		weapon_ID = {
+			69227
+		}
+	},
+	[69218] = {
+		max_hp = 86,
+		name = "库珀轰炸PBY-Lv8",
+		base = 69211,
+		id = 69218,
+		hp_growth = 3090,
+		weapon_ID = {
+			69228
+		}
+	},
+	[69219] = {
+		max_hp = 92,
+		name = "库珀轰炸PBY-Lv9",
+		base = 69211,
+		id = 69219,
+		hp_growth = 3301,
+		weapon_ID = {
+			69229
 		}
 	}
 }

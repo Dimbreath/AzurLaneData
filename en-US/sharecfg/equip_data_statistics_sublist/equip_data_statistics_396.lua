@@ -1,247 +1,187 @@
 pg = pg or {}
 pg.equip_data_statistics_396 = {
-	[95106] = {
-		id = 95106,
-		damage = "61/wave",
-		base = 95100,
+	[90901] = {
+		id = 90901,
+		damage = "33 x 4",
+		base = 90900,
 		weapon_id = {
-			95106
+			90901
 		}
 	},
-	[95120] = {
-		name = "Single 90mm Model 1939 AA Gun",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "55100",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "35/wave",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[90902] = {
+		id = 90902,
+		damage = "35 x 4",
+		base = 90900,
 		weapon_id = {
-			95120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"ST",
-			"AA"
+			90902
 		}
 	},
-	[95121] = {
-		id = 95121,
-		damage = "39/wave",
-		base = 95120,
+	[90903] = {
+		id = 90903,
+		damage = "37 x 4",
+		base = 90900,
 		weapon_id = {
-			95121
+			90903
 		}
 	},
-	[95122] = {
-		id = 95122,
-		damage = "44/wave",
-		base = 95120,
+	[90904] = {
+		id = 90904,
+		damage = "39 x 4",
+		base = 90900,
 		weapon_id = {
-			95122
+			90904
 		}
 	},
-	[95123] = {
-		id = 95123,
-		damage = "49/wave",
-		base = 95120,
+	[90905] = {
+		id = 90905,
+		damage = "41 x 4",
+		base = 90900,
 		weapon_id = {
-			95123
+			90905
 		}
 	},
-	[95124] = {
-		id = 95124,
-		damage = "54/wave",
-		base = 95120,
+	[90906] = {
+		id = 90906,
+		damage = "43 x 4",
+		base = 90900,
 		weapon_id = {
-			95124
+			90906
 		}
 	},
-	[95125] = {
-		id = 95125,
-		damage = "59/wave",
-		base = 95120,
+	[90907] = {
+		id = 90907,
+		damage = "45 x 4",
+		base = 90900,
 		weapon_id = {
-			95125
+			90907
 		}
 	},
-	[95126] = {
-		id = 95126,
-		damage = "65/wave",
-		base = 95120,
+	[90908] = {
+		id = 90908,
+		damage = "47 x 4",
+		base = 90900,
 		weapon_id = {
-			95126
+			90908
 		}
 	},
-	[95127] = {
-		id = 95127,
-		damage = "71/wave",
-		base = 95120,
+	[90909] = {
+		id = 90909,
+		damage = "49 x 4",
+		base = 90900,
 		weapon_id = {
-			95127
+			90909
 		}
 	},
-	[95128] = {
-		id = 95128,
-		damage = "77/wave",
-		base = 95120,
+	[90910] = {
+		id = 90910,
+		damage = "52 x 4",
+		base = 90900,
 		weapon_id = {
-			95128
+			90910
 		}
 	},
-	[95129] = {
-		id = 95129,
-		damage = "83/wave",
-		base = 95120,
+	[90911] = {
+		anti_siren = 100,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90911,
 		weapon_id = {
-			95129
+			90911
 		}
 	},
-	[95130] = {
-		id = 95130,
-		damage = "90/wave",
-		base = 95120,
+	[90912] = {
+		anti_siren = 200,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90912,
 		weapon_id = {
-			95130
+			90912
 		}
 	},
-	[95140] = {
-		name = "Single 90mm Model 1939 AA Gun",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
+	[90913] = {
+		anti_siren = 300,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90913,
+		weapon_id = {
+			90913
+		}
+	},
+	[91000] = {
+		name = "Prototype Triple 406mm /50 Main Gun Mount ",
+		speciality = "Volley",
+		type = 4,
+		tech = 0,
 		descrip = "No description",
 		value_2 = 45,
-		icon = "55100",
-		attribute_2 = "antiaircraft",
+		icon = "51000",
+		attribute_2 = "cannon",
 		rarity = 5,
-		damage = "40/wave",
-		nationality = 6,
-		ammo = 5,
+		damage = "54 x 3",
+		nationality = 8,
+		ammo = 1,
 		value_3 = 0,
-		id = 95140,
+		id = 91000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1580
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			95140
+			91000
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"RN",
-			"ST",
-			"AA"
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[95141] = {
-		id = 95141,
-		damage = "45/wave",
-		base = 95140,
+	[91001] = {
+		id = 91001,
+		damage = "64 x 3",
+		base = 91000,
 		weapon_id = {
-			95141
+			91001
 		}
 	},
-	[95142] = {
-		id = 95142,
-		damage = "50/wave",
-		base = 95140,
+	[91002] = {
+		id = 91002,
+		damage = "72 x 3",
+		base = 91000,
 		weapon_id = {
-			95142
+			91002
 		}
 	},
-	[95143] = {
-		id = 95143,
-		damage = "56/wave",
-		base = 95140,
+	[91003] = {
+		id = 91003,
+		damage = "82 x 3",
+		base = 91000,
 		weapon_id = {
-			95143
-		}
-	},
-	[95144] = {
-		id = 95144,
-		damage = "62/wave",
-		base = 95140,
-		weapon_id = {
-			95144
+			91003
 		}
 	}
 }

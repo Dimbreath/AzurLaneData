@@ -1,5 +1,70 @@
 pg = pg or {}
 pg.equip_data_statistics_84 = {
+	[11000] = {
+		name = "76mm AA Gun",
+		speciality = "Lock",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "11000",
+		damage = "3 x 1",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				999
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
 	[11001] = {
 		id = 11001,
 		base = 11000,
@@ -297,13 +362,6 @@ pg.equip_data_statistics_84 = {
 			"USS",
 			"DD",
 			"MG"
-		}
-	},
-	[11061] = {
-		id = 11061,
-		base = 11060,
-		weapon_id = {
-			11061
 		}
 	}
 }

@@ -1,100 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_306 = {
-	[45221] = {
-		id = 45221,
-		damage = "72 x 5",
-		base = 45220,
+	[45101] = {
+		id = 45101,
+		damage = "69 x 4",
+		base = 45100,
 		weapon_id = {
-			45221
+			45101
 		}
 	},
-	[45222] = {
-		id = 45222,
-		damage = "79 x 5",
-		base = 45220,
+	[45102] = {
+		id = 45102,
+		damage = "75 x 4",
+		base = 45100,
 		weapon_id = {
-			45222
+			45102
 		}
 	},
-	[45223] = {
-		id = 45223,
-		damage = "86 x 5",
-		base = 45220,
+	[45103] = {
+		id = 45103,
+		damage = "81 x 4",
+		base = 45100,
 		weapon_id = {
-			45223
+			45103
 		}
 	},
-	[45224] = {
-		id = 45224,
-		damage = "92 x 5",
-		base = 45220,
+	[45104] = {
+		id = 45104,
+		damage = "87 x 4",
+		base = 45100,
 		weapon_id = {
-			45224
+			45104
 		}
 	},
-	[45225] = {
-		id = 45225,
-		damage = "99 x 5",
-		base = 45220,
+	[45105] = {
+		id = 45105,
+		damage = "93 x 4",
+		base = 45100,
 		weapon_id = {
-			45225
+			45105
 		}
 	},
-	[45226] = {
-		id = 45226,
-		damage = "106 x 5",
-		base = 45220,
+	[45106] = {
+		id = 45106,
+		damage = "99 x 4",
+		base = 45100,
 		weapon_id = {
-			45226
+			45106
 		}
 	},
-	[45227] = {
-		id = 45227,
-		damage = "112 x 5",
-		base = 45220,
-		weapon_id = {
-			45227
-		}
-	},
-	[45228] = {
-		id = 45228,
-		damage = "119 x 5",
-		base = 45220,
-		weapon_id = {
-			45228
-		}
-	},
-	[45229] = {
-		id = 45229,
-		damage = "126 x 5",
-		base = 45220,
-		weapon_id = {
-			45229
-		}
-	},
-	[45230] = {
-		id = 45230,
-		damage = "133 x 5",
-		base = 45220,
-		weapon_id = {
-			45230
-		}
-	},
-	[45240] = {
-		name = "533mm Quintuple Magnetic Torpedo Mount ",
+	[45120] = {
+		name = "533mm Quadruple Magnetic Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
-		tech = 3,
-		descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
-		value_2 = 70,
-		icon = "45200",
+		tech = 2,
+		descrip = "The 533mm Quadruple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		value_2 = 25,
+		icon = "45100",
 		attribute_2 = "torpedo",
-		rarity = 6,
-		damage = "70 x 5",
+		rarity = 4,
+		damage = "66 x 4",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45240,
+		id = 45120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -111,7 +79,7 @@ pg.equip_data_statistics_306 = {
 			},
 			{
 				4,
-				1404
+				1403
 			},
 			6,
 			10,
@@ -119,7 +87,7 @@ pg.equip_data_statistics_306 = {
 			12
 		},
 		weapon_id = {
-			45240
+			45120
 		},
 		skill_id = {},
 		part_main = {
@@ -139,55 +107,87 @@ pg.equip_data_statistics_306 = {
 			"KMS",
 			"ST",
 			"TP",
-			"QUINT"
+			"QUAD"
 		}
 	},
-	[45241] = {
-		id = 45241,
-		damage = "77 x 5",
-		base = 45240,
+	[45121] = {
+		id = 45121,
+		damage = "72 x 4",
+		base = 45120,
 		weapon_id = {
-			45241
+			45121
 		}
 	},
-	[45242] = {
-		id = 45242,
-		damage = "85 x 5",
-		base = 45240,
+	[45122] = {
+		id = 45122,
+		damage = "79 x 4",
+		base = 45120,
 		weapon_id = {
-			45242
+			45122
 		}
 	},
-	[45243] = {
-		id = 45243,
-		damage = "92 x 5",
-		base = 45240,
+	[45123] = {
+		id = 45123,
+		damage = "86 x 4",
+		base = 45120,
 		weapon_id = {
-			45243
+			45123
 		}
 	},
-	[45244] = {
-		id = 45244,
-		damage = "100 x 5",
-		base = 45240,
+	[45124] = {
+		id = 45124,
+		damage = "92 x 4",
+		base = 45120,
 		weapon_id = {
-			45244
+			45124
 		}
 	},
-	[45245] = {
-		id = 45245,
-		damage = "107 x 5",
-		base = 45240,
+	[45125] = {
+		id = 45125,
+		damage = "99 x 4",
+		base = 45120,
 		weapon_id = {
-			45245
+			45125
 		}
 	},
-	[45246] = {
-		id = 45246,
-		damage = "115 x 5",
-		base = 45240,
+	[45126] = {
+		id = 45126,
+		damage = "106 x 4",
+		base = 45120,
 		weapon_id = {
-			45246
+			45126
+		}
+	},
+	[45127] = {
+		id = 45127,
+		damage = "112 x 4",
+		base = 45120,
+		weapon_id = {
+			45127
+		}
+	},
+	[45128] = {
+		id = 45128,
+		damage = "119 x 4",
+		base = 45120,
+		weapon_id = {
+			45128
+		}
+	},
+	[45129] = {
+		id = 45129,
+		damage = "126 x 4",
+		base = 45120,
+		weapon_id = {
+			45129
+		}
+	},
+	[45130] = {
+		id = 45130,
+		damage = "133 x 4",
+		base = 45120,
+		weapon_id = {
+			45130
 		}
 	}
 }

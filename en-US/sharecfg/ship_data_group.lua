@@ -19492,6 +19492,176 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[20018] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 20018,
+		group_type = 19903,
+		code = 20018,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Research and Development",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19903
+					}
+				},
+				0
+			}
+		}
+	},
+	[20019] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 20019,
+		group_type = 39905,
+		code = 20019,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Research and Development",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39905
+					}
+				},
+				0
+			}
+		}
+	},
+	[20020] = {
+		type = 18,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 20020,
+		group_type = 49905,
+		code = 20020,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Research and Development",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49905
+					}
+				},
+				0
+			}
+		}
+	},
+	[20021] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 20021,
+		group_type = 49906,
+		code = 20021,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Research and Development",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49906
+					}
+				},
+				0
+			}
+		}
+	},
+	[20022] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 6,
+		hide = 0,
+		index_id = 20022,
+		group_type = 69901,
+		code = 20022,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Research and Development",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 69901
+					}
+				},
+				0
+			}
+		}
+	},
 	[30001] = {
 		type = 7,
 		trans_skin = 0,
@@ -20078,6 +20248,11 @@ pg.ship_data_group = {
 		20015,
 		20016,
 		20017,
+		20018,
+		20019,
+		20020,
+		20021,
+		20022,
 		30001,
 		30002,
 		30003

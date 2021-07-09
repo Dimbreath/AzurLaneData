@@ -50,6 +50,7 @@ function slot0.FlushEmpty(slot0)
 	setActive(slot0.commanderExp, false)
 	setActive(slot0.bubble, false)
 	slot0:ReturnChar()
+	slot0:InitBubble()
 end
 
 function slot0.FlushCommander(slot0)
@@ -81,11 +82,11 @@ end
 
 function slot0.InitBubble(slot0)
 	slot1 = slot0.cattery
-	slot4 = slot1:ExistPlayOP()
+	slot2 = slot1:ExistCleanOP()
 
-	setActive(slot0.clean, slot1:ExistCleanOP())
-	setActive(slot0.feed, slot1:ExiseFeedOP() and not slot2)
-	setActive(slot0.play, slot4 and not slot2 and not slot3)
+	setActive(slot0.clean, slot2)
+	setActive(slot0.feed, slot1:ExiseFeedOP())
+	setActive(slot0.play, slot1:ExistPlayOP())
 	setActive(slot0.bubble, slot2 or slot3 or slot4)
 end
 

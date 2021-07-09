@@ -2,21 +2,6 @@ pg = pg or {}
 pg.weapon_property_89 = {}
 
 function ()
-	uv0.weapon_property_89[52007] = {
-		id = 52007,
-		damage = 117,
-		base = 52000
-	}
-	uv0.weapon_property_89[52008] = {
-		id = 52008,
-		damage = 126,
-		base = 52000
-	}
-	uv0.weapon_property_89[52009] = {
-		id = 52009,
-		damage = 135,
-		base = 52000
-	}
 	uv0.weapon_property_89[52010] = {
 		id = 52010,
 		damage = 144,
@@ -467,5 +452,64 @@ function ()
 		id = 52132,
 		damage = 175,
 		base = 52120
+	}
+	uv0.weapon_property_89[52133] = {
+		id = 52133,
+		damage = 188,
+		base = 52120
+	}
+	uv0.weapon_property_89[52140] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 69,
+		corrected = 100,
+		min_range = 0,
+		id = 52140,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2121
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_89[52141] = {
+		id = 52141,
+		damage = 78,
+		base = 52140
+	}
+	uv0.weapon_property_89[52142] = {
+		id = 52142,
+		damage = 89,
+		base = 52140
 	}
 end()

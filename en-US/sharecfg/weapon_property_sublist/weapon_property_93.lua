@@ -2,41 +2,6 @@ pg = pg or {}
 pg.weapon_property_93 = {}
 
 function ()
-	uv0.weapon_property_93[52523] = {
-		id = 52523,
-		damage = 191,
-		base = 52520
-	}
-	uv0.weapon_property_93[52524] = {
-		id = 52524,
-		damage = 210,
-		base = 52520
-	}
-	uv0.weapon_property_93[52525] = {
-		id = 52525,
-		damage = 230,
-		base = 52520
-	}
-	uv0.weapon_property_93[52526] = {
-		id = 52526,
-		damage = 249,
-		base = 52520
-	}
-	uv0.weapon_property_93[52527] = {
-		id = 52527,
-		damage = 269,
-		base = 52520
-	}
-	uv0.weapon_property_93[52528] = {
-		id = 52528,
-		damage = 288,
-		base = 52520
-	}
-	uv0.weapon_property_93[52529] = {
-		id = 52529,
-		damage = 309,
-		base = 52520
-	}
 	uv0.weapon_property_93[52530] = {
 		id = 52530,
 		damage = 330,
@@ -467,5 +432,84 @@ function ()
 		id = 52648,
 		damage = 353,
 		base = 52640
+	}
+	uv0.weapon_property_93[52649] = {
+		id = 52649,
+		damage = 377,
+		base = 52640
+	}
+	uv0.weapon_property_93[52650] = {
+		id = 52650,
+		damage = 402,
+		base = 52640
+	}
+	uv0.weapon_property_93[52651] = {
+		id = 52651,
+		damage = 418,
+		base = 52640
+	}
+	uv0.weapon_property_93[52652] = {
+		id = 52652,
+		damage = 442,
+		base = 52640
+	}
+	uv0.weapon_property_93[52653] = {
+		id = 52653,
+		damage = 474,
+		base = 52640
+	}
+	uv0.weapon_property_93[52660] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 19,
+		shakescreen = 0,
+		name = "1 x 1000lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 19,
+		charge_param = "",
+		damage = 170,
+		corrected = 100,
+		min_range = 0,
+		id = 52660,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2123
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_93[52661] = {
+		id = 52661,
+		damage = 197,
+		base = 52660
+	}
+	uv0.weapon_property_93[52662] = {
+		id = 52662,
+		damage = 224,
+		base = 52660
 	}
 end()

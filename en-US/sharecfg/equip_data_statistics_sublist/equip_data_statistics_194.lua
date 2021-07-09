@@ -1,5 +1,62 @@
 pg = pg or {}
 pg.equip_data_statistics_194 = {
+	[27020] = {
+		name = "Spitfire",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "27000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 27020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50120
+			},
+			{
+				6,
+				50520
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27020,
+			82020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
 	[27021] = {
 		id = 27021,
 		base = 27020,
@@ -385,28 +442,6 @@ pg.equip_data_statistics_194 = {
 		weapon_id = {
 			27049,
 			82049
-		}
-	},
-	[27050] = {
-		id = 27050,
-		base = 27040,
-		ammo_info = {
-			{
-				6,
-				50150
-			},
-			{
-				6,
-				50550
-			},
-			{
-				5,
-				52250
-			}
-		},
-		weapon_id = {
-			27050,
-			82050
 		}
 	}
 }

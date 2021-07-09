@@ -5282,6 +5282,120 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13025] = {
+		drop_gold_max = 0,
+		name = "Prototype Triple 305mm SK C/39 Main Gun T0 Design",
+		display = "Prototype Triple 305mm SK C/39 Main Gun T0 Design",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/44400",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13025,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13026] = {
+		drop_gold_max = 0,
+		name = "Prototype BF-109G T0 Design",
+		display = "Prototype BF-109G T0 Design",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/47160",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13026,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13027] = {
+		drop_gold_max = 0,
+		name = "Prototype Twin 90mm Model 1939 High Angle Gun T0 Design",
+		display = "Prototype Twin 90mm Model 1939 High Angle Gun T0 Design",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/55160",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13027,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13028] = {
+		drop_gold_max = 0,
+		name = "Prototype Triple 406mm Model 1940 Main Gun T0 Design",
+		display = "Prototype Triple 406mm Model 1940 Main Gun T0 Design",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/55900",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13028,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13029] = {
+		drop_gold_max = 0,
+		name = "Prototype Saiun Kai T0 Design",
+		display = "Prototype Saiun Kai T0 Design",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/38300",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13029,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13030] = {
+		drop_gold_max = 0,
+		name = "Prototype Tenrai T0 Design",
+		display = "Prototype Tenrai T0 Design",
+		type = 9,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Equips/39340",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 13030,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		drop_gold_max = 0,
 		name = "Prototype Weapon Blueprint - Series 1",
@@ -5354,7 +5468,7 @@ Twin 37mm AA Gun (Mle 1936) T0 Design]],
 		shop_id = -1,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/14001",
+		icon = "Props/14002",
 		rarity = 4,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -5384,6 +5498,57 @@ Twin 37mm AA Gun (Mle 1936) T0 Design]],
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[14003] = {
+		drop_gold_max = 0,
+		name = "Prototype Weapon Blueprint - Series 3",
+		display = [[
+Can be converted to one of the following SR gear blueprints:
+Prototype Twin 234mm Main Gun (9.2" MK XII) T0 Design
+Twin 114mm DP (4.5" MK IV) T0 Design
+Sextuple Bofors 40mm AA Gun T0 Design
+Prototype Triple 305mm Main Gun (SK C/39) T0 Design
+Prototype Triple 406mm/50 Main Gun T0 Design]],
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/14003",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 14003,
+		display_icon = {
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -7032,6 +7197,28 @@ Twin 37mm AA Gun (Mle 1936) T0 Design]],
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 20101,
+		display_icon = {},
+		price = {
+			9,
+			2
+		},
+		index = {}
+	},
+	[20102] = {
+		drop_gold_max = 0,
+		name = "Combat Data Pack - Series 2 ",
+		display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 2 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+		type = 18,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/20102",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 20102,
 		display_icon = {},
 		price = {
 			9,
@@ -26304,7 +26491,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	},
 	[42021] = {
 		drop_gold_max = 0,
-		name = "Blueprint - Cheshire",
+		name = "Blueprint – Cheshire",
 		display = "Blueprint for Royal Navy CA Cheshire.\n<color=#92fc63>Can be used in the Shipyard to increase Cheshire's stats once you've finished developing her.</color>",
 		type = 12,
 		is_world = 0,
@@ -26428,6 +26615,266 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		id = 42026,
 		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42030] = {
+		drop_gold_max = 0,
+		name = "General Blueprint - Series 4",
+		display = "Can be converted to a Blueprint for any of the Series 1, 2, 3, or 4 Priority ships. ",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42030",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42030,
+		display_icon = {
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42031] = {
+		drop_gold_max = 0,
+		name = "Blueprint - Anchorage ",
+		display = "Blueprint for Eagle Union CL Anchorage.\n<color=#92fc63>Can be used in the Shipyard to increase Anchorage's stats once you've finished developing her.</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42031",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42031,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42032] = {
+		drop_gold_max = 0,
+		name = "Blueprint - Hakuryuu ",
+		display = "Blueprint for Sakura Empire CV Hakuryuu.\n<color=#92fc63>Can be used in the Shipyard to increase Hakuryuu's stats once you've finished developing her.</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42032",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42032,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42033] = {
+		drop_gold_max = 0,
+		name = "Blueprint - Ägir ",
+		display = "Blueprint for Iron Blood CB Ägir.\n<color=#92fc63>Can be used in the Shipyard to increase Ägir's stats once you've finished developing her.</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42033",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42033,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42034] = {
+		drop_gold_max = 0,
+		name = "Blueprint - August von Parseval ",
+		display = "Blueprint for Iron Blood CV August von Parseval.\n<color=#92fc63>Can be used in the Shipyard to increase August von Parseval's stats once you've finished developing her.</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42034",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42034,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42035] = {
+		drop_gold_max = 0,
+		name = "Blueprint - Marco Polo ",
+		display = "Blueprint for Sardegna Empire BB Marco Polo.\n<color=#92fc63>Can be used in the Shipyard to increase Marco Polo's stats once you've finished developing her.</color>",
+		type = 12,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42035",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42035,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42036] = {
+		drop_gold_max = 0,
+		name = "Special General Blueprint - Series 4",
+		display = "Can be converted to a Blueprint for any of the Series 2, 3 or 4 DR ships.",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/42036",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 42036,
+		display_icon = {
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
 			{
 				2,
 				42022,
@@ -35296,6 +35743,126 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				2,
 				13023,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52031] = {
+		drop_gold_max = 0,
+		name = "Random Blueprint",
+		display = "You can acquire a number of the following Blueprints at random:",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/52001",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 52031,
+		display_icon = {
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52032] = {
+		drop_gold_max = 0,
+		name = "Random Gear Design",
+		display = "You can acquire a number of the following gear designs at random:",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 52032,
+		display_icon = {
+			{
+				2,
+				13030,
+				1
+			},
+			{
+				2,
+				13029,
+				1
+			},
+			{
+				2,
+				13028,
+				1
+			},
+			{
+				2,
+				13027,
+				1
+			},
+			{
+				2,
+				13026,
+				1
+			},
+			{
+				2,
+				13025,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13007,
+				1
+			},
+			{
+				2,
+				13009,
 				1
 			}
 		},
@@ -126545,6 +127112,44 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59225] = {
+		drop_gold_max = 0,
+		name = "Contribution Points",
+		display = "Earned by participating in the \"Crosswave\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/junhe_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59225,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59226] = {
+		drop_gold_max = 0,
+		name = "Bonus Ticket",
+		display = "A ticket used to access the EX stage in the \"Crosswave\" event. Can also be used to gain more Reward Sorties.",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/special_ticket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59226,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "Kawakaze Ship Model",
@@ -136591,8 +137196,15 @@ The available outfits and their rarities are as follows:
 		13022,
 		13023,
 		13024,
+		13025,
+		13026,
+		13027,
+		13028,
+		13029,
+		13030,
 		14001,
 		14002,
+		14003,
 		15001,
 		15002,
 		15003,
@@ -136679,6 +137291,7 @@ The available outfits and their rarities are as follows:
 		20012,
 		20013,
 		20101,
+		20102,
 		21001,
 		21002,
 		21003,
@@ -137471,6 +138084,13 @@ The available outfits and their rarities are as follows:
 		42024,
 		42025,
 		42026,
+		42030,
+		42031,
+		42032,
+		42033,
+		42034,
+		42035,
+		42036,
 		43001,
 		43002,
 		43003,
@@ -137916,6 +138536,8 @@ The available outfits and their rarities are as follows:
 		52012,
 		52021,
 		52022,
+		52031,
+		52032,
 		53000,
 		53010,
 		53011,
@@ -139255,6 +139877,8 @@ The available outfits and their rarities are as follows:
 		59222,
 		59223,
 		59224,
+		59225,
+		59226,
 		59601,
 		59602,
 		59603,

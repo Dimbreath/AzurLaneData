@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_383 = {
-	[1002192] = {
-		name = "【精英】执棋者III型 鱼雷机T3 II",
-		max_hp = 119,
+	[34007] = {
+		name = "七夕活动零战二一改",
+		max_hp = 72,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 81,
+		crash_DMG = 1,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 4046,
 		speed = 33,
-		id = 1002192,
+		id = 34007,
 		scale = 0.75,
 		weapon_ID = {
-			1002227
+			50000
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.52,
+					0.97,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.56,
+					-0.79,
 					0
 				}
 			}
@@ -74,27 +74,27 @@ pg.aircraft_template_383 = {
 			}
 		}
 	},
-	[1002193] = {
-		name = "【精英】执棋者III型 鱼雷机T3 III",
-		max_hp = 146,
+	[34008] = {
+		name = "七夕活动零战五二型",
+		max_hp = 62,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "lingzhan52",
 		ACC_growth = 0,
-		crash_DMG = 101,
+		crash_DMG = 1,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "lingzhan52",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2720,
+		hp_growth = 3013,
 		speed = 33,
-		id = 1002193,
+		id = 34008,
 		scale = 0.75,
 		weapon_ID = {
-			1002228
+			50000
 		},
 		position_offset = {
 			0,
@@ -114,13 +114,13 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -137,7 +137,7 @@ pg.aircraft_template_383 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -148,27 +148,27 @@ pg.aircraft_template_383 = {
 			}
 		}
 	},
-	[1002194] = {
-		name = "【精英】执棋者III型 鱼雷机T3 IV",
-		max_hp = 173,
+	[34009] = {
+		name = "七夕活动97舰攻",
+		max_hp = 96,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 123,
+		crash_DMG = 1,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3060,
-		speed = 33,
-		id = 1002194,
+		hp_growth = 3097,
+		speed = 30,
+		id = 34009,
 		scale = 0.75,
 		weapon_ID = {
-			1002229
+			50000
 		},
 		position_offset = {
 			0,
@@ -188,13 +188,13 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.72,
+					0.94,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.8,
+					-0.86,
 					0
 				}
 			}
@@ -211,81 +211,7 @@ pg.aircraft_template_383 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[1002195] = {
-		name = "【精英】执棋者III型 鱼雷机T3 V",
-		max_hp = 200,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 147,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3400,
-		speed = 33,
-		id = 1002195,
-		scale = 0.75,
-		weapon_ID = {
-			1002230
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -296,27 +222,27 @@ pg.aircraft_template_383 = {
 			}
 		}
 	},
-	[1003066] = {
-		name = "【量产型】梦境航母轰炸机T1 (飞机 I",
+	[34010] = {
+		name = "七夕活动1式陆攻",
 		max_hp = 90,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "1shilugong",
 		ACC_growth = 0,
-		crash_DMG = 70,
+		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "1shilugong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2280,
-		speed = 30,
-		id = 1003066,
+		hp_growth = 2518,
+		speed = 22,
+		id = 34010,
 		scale = 0.75,
 		weapon_ID = {
-			1003076
+			50000
 		},
 		position_offset = {
 			0,
@@ -336,13 +262,13 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					1.13,
+					-1.08,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					1.36,
+					1.46,
 					0
 				}
 			}
@@ -370,27 +296,27 @@ pg.aircraft_template_383 = {
 			}
 		}
 	},
-	[1003067] = {
-		name = "【量产型】梦境航母轰炸机T1 (飞机 II",
-		max_hp = 120,
+	[34011] = {
+		name = "七夕活动99式舰爆绿",
+		max_hp = 84,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "99shijianbao2",
 		ACC_growth = 0,
-		crash_DMG = 90,
+		crash_DMG = 1,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "99shijianbao2",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2660,
-		speed = 30,
-		id = 1003067,
+		hp_growth = 2518,
+		speed = 33,
+		id = 34011,
 		scale = 0.75,
 		weapon_ID = {
-			1003077
+			50000
 		},
 		position_offset = {
 			0,
@@ -410,13 +336,13 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.51,
+					-0.74,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.58,
+					0.96,
 					0
 				}
 			}
@@ -444,159 +370,11 @@ pg.aircraft_template_383 = {
 			}
 		}
 	},
-	[1003068] = {
-		name = "【量产型】梦境航母轰炸机T1 (飞机 III",
-		max_hp = 150,
+	[34012] = {
+		name = "七夕活动96式陆攻",
+		max_hp = 108,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 115,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3040,
-		speed = 30,
-		id = 1003068,
-		scale = 0.75,
-		weapon_ID = {
-			1003078
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[1003069] = {
-		name = "【量产型】梦境航母轰炸机T1 (飞机 IV",
-		max_hp = 180,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 145,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3420,
-		speed = 30,
-		id = 1003069,
-		scale = 0.75,
-		weapon_ID = {
-			1003079
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[1003070] = {
-		name = "【量产型】梦境航母轰炸机T1 (飞机 V",
-		max_hp = 210,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "961shilugong",
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
@@ -604,15 +382,15 @@ pg.aircraft_template_383 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "961shilugong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3800,
-		speed = 30,
-		id = 1003070,
+		hp_growth = 3377,
+		speed = 25,
+		id = 34012,
 		scale = 0.75,
 		weapon_ID = {
-			1003080
+			50000
 		},
 		position_offset = {
 			0,
@@ -632,13 +410,13 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					1,
+					-1.16,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					1.28,
+					1.46,
 					0
 				}
 			}
@@ -666,28 +444,28 @@ pg.aircraft_template_383 = {
 			}
 		}
 	},
-	[1003071] = {
-		name = "【量产型】梦境航母战斗机T1 (飞机 I",
-		max_hp = 74,
+	[34013] = {
+		name = "七夕活动夏活普通空袭BF109T",
+		max_hp = 140,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "BF109T",
 		ACC_growth = 0,
-		crash_DMG = 41,
+		crash_DMG = 146,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "BF109T",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1680,
-		speed = 33,
-		id = 1003071,
+		nationality = 4,
+		hp_growth = 2400,
+		speed = 42,
+		id = 34013,
 		scale = 0.75,
 		weapon_ID = {
-			1003081,
-			1003086
+			470000,
+			470001
 		},
 		position_offset = {
 			0,
@@ -707,13 +485,236 @@ pg.aircraft_template_383 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.83,
+					-1.48,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.87,
+					1.34,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[34014] = {
+		name = "七夕活动夏活普通空袭Me155A",
+		max_hp = 168,
+		accuracy = 23,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 168,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 2600,
+		speed = 44,
+		id = 34014,
+		scale = 0.75,
+		weapon_ID = {
+			470002,
+			470003
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.04,
+					1.18,
+					0
+				},
+				{
+					0.83,
+					-0.79,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[34015] = {
+		name = "七夕活动夏活普通空袭qibolin",
+		max_hp = 216,
+		accuracy = 23,
+		model_ID = "qibolin",
+		ACC_growth = 0,
+		crash_DMG = 218,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "qibolin",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 3000,
+		speed = 42,
+		id = 34015,
+		scale = 0.75,
+		weapon_ID = {
+			470005
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.14,
+					-1.17,
+					0
+				},
+				{
+					1.02,
+					1.37,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[34016] = {
+		name = "七夕活动夏活普通空袭JU87C",
+		max_hp = 256,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 256,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 3500,
+		speed = 41,
+		id = 34016,
+		scale = 0.75,
+		weapon_ID = {
+			470004
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.86,
+					-1.3,
+					0
+				},
+				{
+					1.14,
+					1.13,
 					0
 				}
 			}

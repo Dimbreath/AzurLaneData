@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_37 = {
+	[1745] = {
+		id = 1745,
+		value_2 = 40,
+		value_1 = "15",
+		base = 1740
+	},
 	[1746] = {
 		id = 1746,
 		value_2 = 44,
@@ -127,37 +133,5 @@ pg.equip_data_statistics_37 = {
 		base = 1760,
 		value_2 = 72,
 		value_1 = "49"
-	},
-	[1800] = {
-		name = "Advanced Boiler",
-		tech = 1,
-		type = 10,
-		speciality = "N/A",
-		id = 1800,
-		value_2 = 1,
-		icon = "1800",
-		value_1 = "35",
-		attribute_2 = "speed",
-		rarity = 2,
-		descrip = "An improved boiler which improves speed and HP.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

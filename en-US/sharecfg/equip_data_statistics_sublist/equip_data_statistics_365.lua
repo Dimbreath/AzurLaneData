@@ -1,92 +1,186 @@
 pg = pg or {}
 pg.equip_data_statistics_365 = {
-	[85322] = {
-		id = 85322,
-		damage = "73 x 3",
-		base = 85320,
+	[85160] = {
+		name = "Triple 152mm B-38 MK 5 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "85120",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "7 x 6",
+		nationality = 7,
+		ammo = 2,
+		value_3 = 0,
+		id = 85160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1207
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			85322
+			85160
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"HE"
 		}
 	},
-	[85323] = {
-		id = 85323,
-		damage = "83 x 3",
-		base = 85320,
+	[85161] = {
+		id = 85161,
+		base = 85160,
 		weapon_id = {
-			85323
+			85161
 		}
 	},
-	[85324] = {
-		id = 85324,
-		damage = "92 x 3",
-		base = 85320,
+	[85162] = {
+		id = 85162,
+		damage = "8 x 6",
+		base = 85160,
 		weapon_id = {
-			85324
+			85162
 		}
 	},
-	[85325] = {
-		id = 85325,
-		damage = "102 x 3",
-		base = 85320,
+	[85163] = {
+		id = 85163,
+		damage = "9 x 6",
+		base = 85160,
 		weapon_id = {
-			85325
+			85163
 		}
 	},
-	[85326] = {
-		id = 85326,
-		damage = "112 x 3",
-		base = 85320,
+	[85164] = {
+		id = 85164,
+		damage = "10 x 6",
+		base = 85160,
 		weapon_id = {
-			85326
+			85164
 		}
 	},
-	[85327] = {
-		id = 85327,
-		damage = "120 x 3",
-		base = 85320,
+	[85165] = {
+		id = 85165,
+		damage = "11 x 6",
+		base = 85160,
 		weapon_id = {
-			85327
+			85165
 		}
 	},
-	[85328] = {
-		id = 85328,
-		damage = "129 x 3",
-		base = 85320,
+	[85166] = {
+		id = 85166,
+		damage = "12 x 6",
+		base = 85160,
 		weapon_id = {
-			85328
+			85166
 		}
 	},
-	[85329] = {
-		id = 85329,
-		damage = "139 x 3",
-		base = 85320,
+	[85167] = {
+		id = 85167,
+		damage = "13 x 6",
+		base = 85160,
 		weapon_id = {
-			85329
+			85167
 		}
 	},
-	[85330] = {
-		id = 85330,
-		damage = "149 x 3",
-		base = 85320,
+	[85168] = {
+		id = 85168,
+		damage = "14 x 6",
+		base = 85160,
 		weapon_id = {
-			85330
+			85168
 		}
 	},
-	[85360] = {
-		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
+	[85169] = {
+		id = 85169,
+		damage = "15 x 6",
+		base = 85160,
+		weapon_id = {
+			85169
+		}
+	},
+	[85170] = {
+		id = 85170,
+		damage = "16 x 6",
+		base = 85160,
+		weapon_id = {
+			85170
+		}
+	},
+	[85171] = {
+		anti_siren = 100,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85171,
+		weapon_id = {
+			85171
+		}
+	},
+	[85172] = {
+		anti_siren = 200,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85172,
+		weapon_id = {
+			85172
+		}
+	},
+	[85173] = {
+		anti_siren = 300,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85173,
+		weapon_id = {
+			85173
+		}
+	},
+	[85180] = {
+		name = "Single 37mm 70-K AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
 		descrip = "No description",
 		value_2 = 5,
-		icon = "85360",
+		icon = "85180",
 		attribute_2 = "antiaircraft",
 		rarity = 2,
-		damage = "14/wave",
+		damage = "9/wave",
 		nationality = 7,
 		ammo = 5,
 		value_3 = 0,
-		id = 85360,
+		id = 85180,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -98,7 +192,7 @@ pg.equip_data_statistics_365 = {
 			10
 		},
 		weapon_id = {
-			85360
+			85180
 		},
 		skill_id = {},
 		part_main = {
@@ -134,114 +228,20 @@ pg.equip_data_statistics_365 = {
 			"AA"
 		}
 	},
-	[85361] = {
-		id = 85361,
-		damage = "16/wave",
-		base = 85360,
+	[85181] = {
+		id = 85181,
+		damage = "11/wave",
+		base = 85180,
 		weapon_id = {
-			85361
+			85181
 		}
 	},
-	[85362] = {
-		id = 85362,
-		damage = "19/wave",
-		base = 85360,
+	[85182] = {
+		id = 85182,
+		damage = "13/wave",
+		base = 85180,
 		weapon_id = {
-			85362
-		}
-	},
-	[85363] = {
-		id = 85363,
-		damage = "22/wave",
-		base = 85360,
-		weapon_id = {
-			85363
-		}
-	},
-	[85380] = {
-		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "33/wave",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85380,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85380
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85381] = {
-		id = 85381,
-		damage = "36/wave",
-		base = 85380,
-		weapon_id = {
-			85381
-		}
-	},
-	[85382] = {
-		id = 85382,
-		damage = "41/wave",
-		base = 85380,
-		weapon_id = {
-			85382
-		}
-	},
-	[85383] = {
-		id = 85383,
-		damage = "45/wave",
-		base = 85380,
-		weapon_id = {
-			85383
+			85182
 		}
 	}
 }

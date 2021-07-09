@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_180 = {
+	[26023] = {
+		id = 26023,
+		damage = "29/wave",
+		base = 26020,
+		weapon_id = {
+			26023
+		}
+	},
 	[26040] = {
 		name = "Twin 40mm Pom-Pom AA Gun Mount",
 		speciality = "Anti-Air",
@@ -234,14 +242,6 @@ pg.equip_data_statistics_180 = {
 		base = 26060,
 		weapon_id = {
 			26067
-		}
-	},
-	[26068] = {
-		id = 26068,
-		damage = "54/wave",
-		base = 26060,
-		weapon_id = {
-			26068
 		}
 	}
 }

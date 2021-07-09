@@ -1,77 +1,36 @@
 pg = pg or {}
 pg.aircraft_template_191 = {
-	[69706] = {
-		max_hp = 72,
-		name = "英仙座技能TBFLv6",
-		base = 69701,
-		id = 69706,
-		hp_growth = 2766,
+	[68890] = {
+		max_hp = 98,
+		name = "大神澪技能轰炸机Lv10",
+		base = 68881,
+		id = 68890,
+		hp_growth = 3678,
 		weapon_ID = {
-			69736
+			68900
 		}
 	},
-	[69707] = {
-		max_hp = 78,
-		name = "英仙座技能TBFLv7",
-		base = 69701,
-		id = 69707,
-		hp_growth = 2984,
-		weapon_ID = {
-			69737
-		}
-	},
-	[69708] = {
-		max_hp = 83,
-		name = "英仙座技能TBFLv8",
-		base = 69701,
-		id = 69708,
-		hp_growth = 3202,
-		weapon_ID = {
-			69738
-		}
-	},
-	[69709] = {
-		max_hp = 89,
-		name = "英仙座技能TBFLv9",
-		base = 69701,
-		id = 69709,
-		hp_growth = 3421,
-		weapon_ID = {
-			69739
-		}
-	},
-	[69710] = {
-		max_hp = 95,
-		name = "英仙座技能TBFLv10",
-		base = 69701,
-		id = 69710,
-		hp_growth = 3639,
-		weapon_ID = {
-			69740
-		}
-	},
-	[69711] = {
-		name = "英仙座技能萤火虫Lv1",
-		max_hp = 51,
+	[68951] = {
+		name = "白上吹雪狐笋轰炸机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "yinghuochong",
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 0.75,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 7,
+		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "yinghuochong",
+		icon = "feiji_hulifeiji",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1943,
-		speed = 47,
-		id = 69711,
+		nationality = 3,
+		hp_growth = 1692,
+		speed = 48,
+		id = 68951,
 		scale = 1,
 		weapon_ID = {
-			50661,
-			52741
+			68961
 		},
 		position_offset = {
 			0,
@@ -91,13 +50,13 @@ pg.aircraft_template_191 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.26,
-					-1.13,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					1.35,
-					1.18,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -114,7 +73,7 @@ pg.aircraft_template_191 = {
 				0
 			},
 			{
-				0.44,
+				0.54,
 				0,
 				0
 			},
@@ -125,48 +84,84 @@ pg.aircraft_template_191 = {
 			}
 		}
 	},
-	[69712] = {
-		max_hp = 57,
-		name = "英仙座技能萤火虫Lv2",
-		base = 69711,
-		id = 69712,
-		hp_growth = 2196,
+	[68952] = {
+		max_hp = 48,
+		name = "白上吹雪狐笋轰炸机Lv2",
+		base = 68951,
+		id = 68952,
+		hp_growth = 1913,
 		weapon_ID = {
-			50662,
-			52742
+			68962
 		}
 	},
-	[69713] = {
-		max_hp = 64,
-		name = "英仙座技能萤火虫Lv3",
-		base = 69711,
-		id = 69713,
-		hp_growth = 2450,
+	[68953] = {
+		max_hp = 54,
+		name = "白上吹雪狐笋轰炸机Lv3",
+		base = 68951,
+		id = 68953,
+		hp_growth = 2133,
 		weapon_ID = {
-			50663,
-			52743
+			68963
 		}
 	},
-	[69714] = {
-		max_hp = 70,
-		name = "英仙座技能萤火虫Lv4",
-		base = 69711,
-		id = 69714,
-		hp_growth = 2703,
+	[68954] = {
+		max_hp = 61,
+		name = "白上吹雪狐笋轰炸机Lv4",
+		base = 68951,
+		id = 68954,
+		hp_growth = 2354,
 		weapon_ID = {
-			50664,
-			52744
+			68964
 		}
 	},
-	[69715] = {
-		max_hp = 77,
-		name = "英仙座技能萤火虫Lv5",
-		base = 69711,
-		id = 69715,
-		hp_growth = 2957,
+	[68955] = {
+		max_hp = 67,
+		name = "白上吹雪狐笋轰炸机Lv5",
+		base = 68951,
+		id = 68955,
+		hp_growth = 2575,
 		weapon_ID = {
-			50665,
-			52745
+			68965
+		}
+	},
+	[68956] = {
+		max_hp = 73,
+		name = "白上吹雪狐笋轰炸机Lv6",
+		base = 68951,
+		id = 68956,
+		hp_growth = 2796,
+		weapon_ID = {
+			68966
+		}
+	},
+	[68957] = {
+		max_hp = 79,
+		name = "白上吹雪狐笋轰炸机Lv7",
+		base = 68951,
+		id = 68957,
+		hp_growth = 3016,
+		weapon_ID = {
+			68967
+		}
+	},
+	[68958] = {
+		max_hp = 86,
+		name = "白上吹雪狐笋轰炸机Lv8",
+		base = 68951,
+		id = 68958,
+		hp_growth = 3237,
+		weapon_ID = {
+			68968
+		}
+	},
+	[68959] = {
+		max_hp = 92,
+		name = "白上吹雪狐笋轰炸机Lv9",
+		base = 68951,
+		id = 68959,
+		hp_growth = 3458,
+		weapon_ID = {
+			68969
 		}
 	}
 }

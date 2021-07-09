@@ -1,127 +1,78 @@
 pg = pg or {}
 pg.equip_data_statistics_386 = {
-	[90441] = {
-		id = 90441,
-		damage = "55 x 4",
-		base = 90440,
+	[90147] = {
+		id = 90147,
+		damage = "12 x 5",
+		base = 90140,
 		weapon_id = {
-			90441
+			90147
 		}
 	},
-	[90442] = {
-		id = 90442,
-		damage = "62 x 4",
-		base = 90440,
+	[90148] = {
+		id = 90148,
+		damage = "13 x 5",
+		base = 90140,
 		weapon_id = {
-			90442
+			90148
 		}
 	},
-	[90443] = {
-		id = 90443,
-		damage = "69 x 4",
-		base = 90440,
+	[90149] = {
+		id = 90149,
+		damage = "14 x 5",
+		base = 90140,
 		weapon_id = {
-			90443
+			90149
 		}
 	},
-	[90444] = {
-		id = 90444,
-		damage = "76 x 4",
-		base = 90440,
+	[90150] = {
+		id = 90150,
+		damage = "15 x 5",
+		base = 90140,
 		weapon_id = {
-			90444
+			90150
 		}
 	},
-	[90445] = {
-		id = 90445,
-		damage = "83 x 4",
-		base = 90440,
-		weapon_id = {
-			90445
-		}
-	},
-	[90446] = {
-		id = 90446,
-		damage = "90 x 4",
-		base = 90440,
-		weapon_id = {
-			90446
-		}
-	},
-	[90447] = {
-		id = 90447,
-		damage = "97 x 4",
-		base = 90440,
-		weapon_id = {
-			90447
-		}
-	},
-	[90448] = {
-		id = 90448,
-		damage = "104 x 4",
-		base = 90440,
-		weapon_id = {
-			90448
-		}
-	},
-	[90449] = {
-		id = 90449,
-		damage = "112 x 4",
-		base = 90440,
-		weapon_id = {
-			90449
-		}
-	},
-	[90450] = {
-		id = 90450,
-		damage = "120 x 4",
-		base = 90440,
-		weapon_id = {
-			90450
-		}
-	},
-	[90451] = {
+	[90151] = {
 		anti_siren = 100,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90451,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90151,
 		weapon_id = {
-			90451
+			90151
 		}
 	},
-	[90452] = {
+	[90152] = {
 		anti_siren = 200,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90452,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90152,
 		weapon_id = {
-			90452
+			90152
 		}
 	},
-	[90453] = {
+	[90153] = {
 		anti_siren = 300,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90453,
+		damage = "15 x 5",
+		base = 90140,
+		id = 90153,
 		weapon_id = {
-			90453
+			90153
 		}
 	},
-	[90500] = {
-		name = "Twin 130mm Mle 1935 Main Gun Mount",
-		speciality = "Lock",
-		type = 1,
+	[90200] = {
+		name = "Triple 152mm Mle 1930 Main Gun Mount",
+		speciality = "Scatter",
+		type = 2,
 		tech = 1,
+		rarity = 1,
 		descrip = "No description",
-		value_2 = 5,
-		icon = "50500",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "9 x 2",
+		value_2 = 0,
+		icon = "50200",
+		damage = "7 x 6",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90500,
+		id = 90200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -130,7 +81,7 @@ pg.equip_data_statistics_386 = {
 		ammo_info = {
 			{
 				1,
-				2200
+				2201
 			}
 		},
 		equip_info = {
@@ -138,11 +89,11 @@ pg.equip_data_statistics_386 = {
 			2,
 			{
 				3,
-				2200
+				2201
 			},
 			{
 				4,
-				1011
+				1102
 			},
 			6,
 			10,
@@ -150,50 +101,195 @@ pg.equip_data_statistics_386 = {
 			12
 		},
 		weapon_id = {
-			90500
+			90200
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
+			2
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
+			5
 		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"DD",
+			"CL",
 			"MG"
 		}
 	},
-	[90501] = {
-		id = 90501,
-		base = 90500,
+	[90201] = {
+		id = 90201,
+		damage = "8 x 6",
+		base = 90200,
 		weapon_id = {
-			90501
+			90201
 		}
 	},
-	[90502] = {
-		id = 90502,
-		damage = "10 x 2",
-		base = 90500,
+	[90202] = {
+		id = 90202,
+		damage = "9 x 6",
+		base = 90200,
 		weapon_id = {
-			90502
+			90202
 		}
 	},
-	[90503] = {
-		id = 90503,
-		damage = "10 x 2",
-		base = 90500,
+	[90203] = {
+		id = 90203,
+		damage = "10 x 6",
+		base = 90200,
 		weapon_id = {
-			90503
+			90203
+		}
+	},
+	[90220] = {
+		name = "Triple 152mm Mle 1930 Main Gun Mount",
+		speciality = "Scatter",
+		type = 2,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "50200",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "8 x 6",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2201
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
+	},
+	[90221] = {
+		id = 90221,
+		damage = "9 x 6",
+		base = 90220,
+		weapon_id = {
+			90221
+		}
+	},
+	[90222] = {
+		id = 90222,
+		damage = "10 x 6",
+		base = 90220,
+		weapon_id = {
+			90222
+		}
+	},
+	[90223] = {
+		id = 90223,
+		damage = "11 x 6",
+		base = 90220,
+		weapon_id = {
+			90223
+		}
+	},
+	[90240] = {
+		name = "Triple 152mm Mle 1930 Main Gun Mount",
+		speciality = "Scatter",
+		type = 2,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "50200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "9 x 6",
+		nationality = 8,
+		ammo = 1,
+		value_3 = 0,
+		id = 90240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				2204
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2204
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90240
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90241] = {
+		id = 90241,
+		damage = "10 x 6",
+		base = 90240,
+		weapon_id = {
+			90241
 		}
 	}
 }

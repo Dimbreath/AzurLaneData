@@ -485,7 +485,15 @@ function slot0.displayShips(slot0)
 	end
 
 	slot4, slot5 = nil
-	slot5 = (not slot3.mvpShipID or slot3.mvpShipID == 0 or slot3[slot3.mvpShipID].output) and 0
+
+	if slot3.mvpShipID == -1 then
+		for slot9, slot10 in ipairs(slot0.contextData.oldMainShips) do
+			slot5 = math.max(slot3[slot10.id].output, 0)
+		end
+	else
+		slot5 = (not slot3.mvpShipID or slot3.mvpShipID == 0 or slot3[slot3.mvpShipID].output) and 0
+	end
+
 	slot0._atkFuncs = {}
 	slot0._commonAtkTplList = {}
 	slot0._subAtkTplList = {}
@@ -1066,12 +1074,6 @@ end
 function slot0.initMetaBtn(slot0)
 	slot0.metaBtn = slot0:findTF("MetaBtn", slot0._main)
 
-	if not NEW_META_EXP then
-		setActive(slot0.metaBtn, false)
-
-		return
-	end
-
 	setActive(slot0.metaBtn, getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList() and #slot1 > 0 or false)
 	onButton(slot0, slot0.metaBtn, function ()
 		setActive(uv0.metaBtn, false)
@@ -1082,7 +1084,9 @@ function slot0.initMetaBtn(slot0)
 			uv0.metaExpView:Reset()
 			uv0.metaExpView:Load()
 			uv0.metaExpView:setData(uv1, function ()
-				setActive(uv0.metaBtn, true)
+				if uv0.metaBtn then
+					setActive(uv0.metaBtn, true)
+				end
 
 				uv0.metaExpView = nil
 			end)

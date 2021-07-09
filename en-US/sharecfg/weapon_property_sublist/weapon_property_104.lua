@@ -2,6 +2,104 @@ pg = pg or {}
 pg.weapon_property_104 = {}
 
 function ()
+	uv0.weapon_property_104[59546] = {
+		id = 59546,
+		reload_max = 149,
+		damage = 65,
+		base = 59540
+	}
+	uv0.weapon_property_104[59547] = {
+		id = 59547,
+		reload_max = 146,
+		damage = 70,
+		base = 59540
+	}
+	uv0.weapon_property_104[59548] = {
+		id = 59548,
+		reload_max = 141,
+		damage = 75,
+		base = 59540
+	}
+	uv0.weapon_property_104[59549] = {
+		id = 59549,
+		reload_max = 138,
+		damage = 80,
+		base = 59540
+	}
+	uv0.weapon_property_104[59550] = {
+		id = 59550,
+		reload_max = 135,
+		damage = 85,
+		base = 59540
+	}
+	uv0.weapon_property_104[59551] = {
+		id = 59551,
+		reload_max = 135,
+		damage = 88,
+		base = 59540
+	}
+	uv0.weapon_property_104[59552] = {
+		id = 59552,
+		reload_max = 135,
+		damage = 94,
+		base = 59540
+	}
+	uv0.weapon_property_104[59553] = {
+		id = 59553,
+		reload_max = 135,
+		damage = 100,
+		base = 59540
+	}
+	uv0.weapon_property_104[59560] = {
+		action_index = "",
+		range = 24,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x 7.7mm Cannon",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 59560,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 72,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_104[59561] = {
+		id = 59561,
+		reload_max = 70,
+		damage = 15,
+		base = 59560
+	}
 	uv0.weapon_property_104[59562] = {
 		id = 59562,
 		reload_max = 69,
@@ -395,89 +493,5 @@ function ()
 		id = 59632,
 		damage = 371,
 		base = 59620
-	}
-	uv0.weapon_property_104[59633] = {
-		id = 59633,
-		damage = 398,
-		base = 59620
-	}
-	uv0.weapon_property_104[59640] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "3 x Torpedo-Common",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 127,
-		corrected = 100,
-		min_range = 0,
-		id = 59640,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2112
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_104[59641] = {
-		id = 59641,
-		damage = 148,
-		base = 59640
-	}
-	uv0.weapon_property_104[59642] = {
-		id = 59642,
-		damage = 169,
-		base = 59640
-	}
-	uv0.weapon_property_104[59643] = {
-		id = 59643,
-		damage = 190,
-		base = 59640
-	}
-	uv0.weapon_property_104[59644] = {
-		id = 59644,
-		damage = 211,
-		base = 59640
-	}
-	uv0.weapon_property_104[59645] = {
-		id = 59645,
-		damage = 232,
-		base = 59640
-	}
-	uv0.weapon_property_104[59646] = {
-		id = 59646,
-		damage = 253,
-		base = 59640
-	}
-	uv0.weapon_property_104[59647] = {
-		id = 59647,
-		damage = 274,
-		base = 59640
 	}
 end()

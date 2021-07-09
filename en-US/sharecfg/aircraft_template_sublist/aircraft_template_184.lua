@@ -1,65 +1,17 @@
 pg = pg or {}
 pg.aircraft_template_184 = {
-	[69166] = {
-		max_hp = 80,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv6",
-		base = 69161,
-		id = 69166,
-		hp_growth = 3090,
-		weapon_ID = {
-			69176,
-			69186
-		}
+	[68400] = {
+		id = 68400,
+		name = "科隆改直升机Lv10",
+		base = 68391,
+		max_hp = 98,
+		hp_growth = 3678
 	},
-	[69167] = {
-		max_hp = 87,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv7",
-		base = 69161,
-		id = 69167,
-		hp_growth = 3334,
-		weapon_ID = {
-			69177,
-			69187
-		}
-	},
-	[69168] = {
-		max_hp = 93,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv8",
-		base = 69161,
-		id = 69168,
-		hp_growth = 3578,
-		weapon_ID = {
-			69178,
-			69188
-		}
-	},
-	[69169] = {
-		max_hp = 99,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv9",
-		base = 69161,
-		id = 69169,
-		hp_growth = 3822,
-		weapon_ID = {
-			69179,
-			69189
-		}
-	},
-	[69170] = {
-		max_hp = 106,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv10",
-		base = 69161,
-		id = 69170,
-		hp_growth = 4066,
-		weapon_ID = {
-			69180,
-			69190
-		}
-	},
-	[69201] = {
-		name = "库珀反潜PBY-Lv1",
+	[68541] = {
+		name = "伊25技能零侦LV1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "pby",
+		model_ID = "glen",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
@@ -67,16 +19,14 @@ pg.aircraft_template_184 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "pby",
+		icon = "glen",
 		funnel_behavior = "",
-		nationality = 1,
+		nationality = 3,
 		hp_growth = 1615,
 		speed = 66,
-		id = 69201,
+		id = 68541,
 		scale = 1,
-		weapon_ID = {
-			53141
-		},
+		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -129,44 +79,68 @@ pg.aircraft_template_184 = {
 			}
 		}
 	},
-	[69202] = {
+	[68542] = {
 		max_hp = 48,
-		name = "库珀反潜PBY-Lv2",
-		base = 69201,
-		id = 69202,
+		name = "伊25技能零侦LV2",
+		base = 68541,
+		id = 68542,
 		hp_growth = 1826,
-		weapon_ID = {
-			53142
-		}
+		weapon_ID = {}
 	},
-	[69203] = {
+	[68543] = {
 		max_hp = 54,
-		name = "库珀反潜PBY-Lv3",
-		base = 69201,
-		id = 69203,
+		name = "伊25技能零侦LV3",
+		base = 68541,
+		id = 68543,
 		hp_growth = 2036,
-		weapon_ID = {
-			53143
-		}
+		weapon_ID = {}
 	},
-	[69204] = {
+	[68544] = {
 		max_hp = 61,
-		name = "库珀反潜PBY-Lv4",
-		base = 69201,
-		id = 69204,
+		name = "伊25技能零侦LV4",
+		base = 68541,
+		id = 68544,
 		hp_growth = 2247,
-		weapon_ID = {
-			53144
-		}
+		weapon_ID = {}
 	},
-	[69205] = {
+	[68545] = {
 		max_hp = 67,
-		name = "库珀反潜PBY-Lv5",
-		base = 69201,
-		id = 69205,
+		name = "伊25技能零侦LV5",
+		base = 68541,
+		id = 68545,
 		hp_growth = 2458,
-		weapon_ID = {
-			53145
-		}
+		weapon_ID = {}
+	},
+	[68546] = {
+		max_hp = 73,
+		name = "伊25技能零侦LV6",
+		base = 68541,
+		id = 68546,
+		hp_growth = 2669,
+		weapon_ID = {}
+	},
+	[68547] = {
+		max_hp = 79,
+		name = "伊25技能零侦LV7",
+		base = 68541,
+		id = 68547,
+		hp_growth = 2879,
+		weapon_ID = {}
+	},
+	[68548] = {
+		max_hp = 86,
+		name = "伊25技能零侦LV8",
+		base = 68541,
+		id = 68548,
+		hp_growth = 3090,
+		weapon_ID = {}
+	},
+	[68549] = {
+		max_hp = 92,
+		name = "伊25技能零侦LV9",
+		base = 68541,
+		id = 68549,
+		hp_growth = 3301,
+		weapon_ID = {}
 	}
 }

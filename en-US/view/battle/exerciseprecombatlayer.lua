@@ -232,10 +232,6 @@ function slot0.CheckLegalFleet(slot0)
 	table.sort(slot0._legalFleetIdList)
 end
 
-function slot0.MarkEdited(slot0)
-	slot0._editedFlag = true
-end
-
 function slot0.UpdateFleetView(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0:resetGrid(TeamType.Vanguard)
@@ -266,7 +262,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = false,
@@ -295,7 +291,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._startBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = false,
@@ -324,27 +320,24 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._checkBtn, function ()
 		if uv0._currentForm == uv1.FORM_EDIT then
 			uv0:emit(ExercisePreCombatMediator.ON_COMMIT_EDIT, function ()
-				if uv0._editedFlag then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
-				end
-
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 				uv0:swtichToPreviewMode()
 			end)
 		elseif uv0._currentForm == uv1.FORM_PREVIEW then
 			uv0:switchToEditMode()
 		end
 	end, SFX_PANEL)
+
+	slot0._currentForm = slot0.contextData.form
+	slot0.contextData.form = nil
+
 	slot0:UpdateFleetView(true)
 
-	if slot0.contextData.form == uv0.FORM_EDIT then
-		slot0._editedFlag = true
-
+	if slot0._currentForm == uv0.FORM_EDIT then
 		slot0:switchToEditMode()
 	else
 		slot0:swtichToPreviewMode()
 	end
-
-	slot0.contextData.form = nil
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -390,7 +383,6 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.swtichToPreviewMode(slot0)
-	slot0._editedFlag = nil
 	slot0._currentForm = uv0.FORM_PREVIEW
 	slot0._checkBtn:GetComponent("Button").interactable = true
 
@@ -526,68 +518,61 @@ function slot0.loadAllCharacter(slot0)
 		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
 
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
-		slot8 = nil
 
-		if uv0._currentForm == uv1.FORM_PREVIEW then
-			slot8 = false
-		elseif uv0._currentForm == uv1.FORM_EDIT then
-			slot8 = true
-		end
-
-		uv0:enabledCharacter(slot0, slot8, slot7, slot2)
+		uv0:enabledCharacter(slot0, uv0._currentForm == uv1.FORM_EDIT, slot7, slot2)
 		uv0:setCharacterPos(slot2, slot3, slot0)
 		uv0:sortSiblingIndex()
 
-		slot9 = cloneTplTo(uv0._heroInfo, slot0)
+		slot8 = cloneTplTo(uv0._heroInfo, slot0)
 
-		setAnchoredPosition(slot9, {
+		setAnchoredPosition(slot8, {
 			x = 0,
 			y = 0
 		})
 
-		slot9.localScale = Vector3(2, 2, 1)
+		slot8.localScale = Vector3(2, 2, 1)
 
-		SetActive(slot9, true)
+		SetActive(slot8, true)
 
-		slot9.name = "info"
-		slot11 = findTF(findTF(slot9, "info"), "stars")
-		slot13 = findTF(slot10, "energy")
+		slot8.name = "info"
+		slot10 = findTF(findTF(slot8, "info"), "stars")
+		slot12 = findTF(slot9, "energy")
 
 		if slot7.energy <= Ship.ENERGY_MID then
-			slot14, slot15 = slot7:getEnergyPrint()
+			slot13, slot14 = slot7:getEnergyPrint()
 
-			if not GetSpriteFromAtlas("energy", slot14) then
+			if not GetSpriteFromAtlas("energy", slot13) then
 				warning("找不到疲劳")
 			end
 
-			setImageSprite(slot13, slot16)
+			setImageSprite(slot12, slot15)
 		end
 
-		setActive(slot13, slot12 and uv0.contextData.system ~= SYSTEM_DUEL)
+		setActive(slot12, slot11 and uv0.contextData.system ~= SYSTEM_DUEL)
 
-		for slot18 = 1, slot7:getStar() do
-			cloneTplTo(uv0._starTpl, slot11)
+		for slot17 = 1, slot7:getStar() do
+			cloneTplTo(uv0._starTpl, slot10)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot7:getShipType())) then
 			warning("找不到船形, shipConfigId: " .. slot7.configId)
 		end
 
-		setImageSprite(findTF(slot10, "type"), slot15, true)
-		setText(findTF(slot10, "frame/lv_contain/lv"), slot7.level)
+		setImageSprite(findTF(slot9, "type"), slot14, true)
+		setText(findTF(slot9, "frame/lv_contain/lv"), slot7.level)
 
-		if uv0.contextData.system == SYSTEM_SCENARIO or slot16 == SYSTEM_ROUTINE or slot16 == SYSTEM_ACT_BOSS or slot16 == SYSTEM_SUB_ROUTINE then
-			setActive(slot10:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot7:getGroupId()] ~= nil)
+		if uv0.contextData.system == SYSTEM_SCENARIO or slot15 == SYSTEM_ROUTINE or slot15 == SYSTEM_ACT_BOSS or slot15 == SYSTEM_SUB_ROUTINE then
+			setActive(slot9:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot7:getGroupId()] ~= nil)
 
-			if slot19 then
-				if slot19 % 100 > 0 then
-					slot23 = tostring(slot19 / 100) .. "." .. tostring(slot22)
+			if slot18 then
+				if slot18 % 100 > 0 then
+					slot22 = tostring(slot18 / 100) .. "." .. tostring(slot21)
 				end
 
-				setText(slot20:Find("text"), string.format("EXP +%s%%", slot23))
+				setText(slot19:Find("text"), string.format("EXP +%s%%", slot22))
 			end
 		else
-			setActive(slot10:Find("expbuff"), false)
+			setActive(slot9:Find("expbuff"), false)
 		end
 	end
 
@@ -873,7 +858,7 @@ function slot0.recycleCharacterList(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	if slot0._currentForm == uv0.FORM_EDIT and slot0._editedFlag then
+	if slot0._currentForm == uv0.FORM_EDIT then
 		slot1 = getProxy(FleetProxy)
 		slot0.contextData.EdittingFleet = slot1.EdittingFleet
 

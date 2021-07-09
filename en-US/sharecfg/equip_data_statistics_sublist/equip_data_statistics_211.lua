@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_211 = {
+	[29151] = {
+		anti_siren = 100,
+		base = 29140,
+		id = 29151,
+		ammo_info = {
+			{
+				6,
+				50251
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			29151
+		}
+	},
 	[29200] = {
 		name = "Firefly",
 		type = 9,
@@ -348,26 +366,6 @@ pg.equip_data_statistics_211 = {
 		},
 		skill_id = {
 			6831
-		}
-	},
-	[29302] = {
-		base = 29300,
-		id = 29302,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				5,
-				53282
-			}
-		},
-		weapon_id = {
-			29302
-		},
-		skill_id = {
-			6832
 		}
 	}
 }

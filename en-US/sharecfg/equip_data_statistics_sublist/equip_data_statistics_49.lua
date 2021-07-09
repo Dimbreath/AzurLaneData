@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_49 = {
+	[2605] = {
+		id = 2605,
+		value_2 = 6,
+		value_1 = "31",
+		base = 2600
+	},
 	[2606] = {
 		id = 2606,
 		value_2 = 7,
@@ -144,54 +150,5 @@ pg.equip_data_statistics_49 = {
 		value_2 = 10,
 		value_1 = "70",
 		torpedo_ammo = 3
-	},
-	[2640] = {
-		name = "Type 93 Pure Oxygen Torpedo",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 2640,
-		value_2 = 3,
-		icon = "2600",
-		value_1 = "40",
-		attribute_2 = "reload",
-		rarity = 6,
-		descrip = "The Type 93 Pure Oxygen Torpedo is superior to most other torpedoes. Equip it to a ship to greatly increase performance of other torpedoes.",
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 1,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DEV"
-		}
 	}
 }

@@ -2,99 +2,370 @@ pg = pg or {}
 pg.weapon_property_131 = {}
 
 function ()
-	uv0.weapon_property_131[66326] = {
-		name = "鬼神演舞弹幕LV6",
-		damage = 16,
-		base = 66320,
-		id = 66326,
+	uv0.weapon_property_131[65917] = {
+		name = "天鹰技能G.50Lv7",
+		damage = 1,
+		base = 65911,
+		id = 65917,
 		bullet_ID = {
-			19902,
-			19902,
-			19902
+			65917
 		},
 		barrage_ID = {
-			80101,
-			80104,
-			80107
+			12009
 		}
 	}
-	uv0.weapon_property_131[66327] = {
-		name = "鬼神演舞弹幕LV7",
-		damage = 17,
-		base = 66320,
-		id = 66327,
+	uv0.weapon_property_131[65918] = {
+		name = "天鹰技能G.50Lv8",
+		damage = 1,
+		base = 65911,
+		id = 65918,
 		bullet_ID = {
-			19902,
-			19902,
-			19902
+			65918
 		},
 		barrage_ID = {
-			80101,
-			80104,
-			80107
+			12009
 		}
 	}
-	uv0.weapon_property_131[66328] = {
-		name = "鬼神演舞弹幕LV8",
-		damage = 18,
-		base = 66320,
-		id = 66328,
+	uv0.weapon_property_131[65919] = {
+		name = "天鹰技能G.50Lv9",
+		damage = 1,
+		base = 65911,
+		id = 65919,
 		bullet_ID = {
-			19902,
-			19902,
-			19902,
-			19902,
-			19902
+			65919
 		},
 		barrage_ID = {
-			80101,
-			80104,
-			80107,
-			80108,
-			80110
+			12009
 		}
 	}
-	uv0.weapon_property_131[66329] = {
-		name = "鬼神演舞弹幕LV9",
-		damage = 19,
-		base = 66320,
-		id = 66329,
+	uv0.weapon_property_131[65920] = {
+		name = "天鹰技能G.50Lv10",
+		damage = 1,
+		base = 65911,
+		id = 65920,
 		bullet_ID = {
-			19902,
-			19902,
-			19902,
-			19902,
-			19902
+			65920
 		},
 		barrage_ID = {
-			80101,
-			80104,
-			80107,
-			80108,
-			80110
+			12009
 		}
 	}
-	uv0.weapon_property_131[66330] = {
-		name = "鬼神演舞弹幕LV10",
-		damage = 20,
-		base = 66320,
-		id = 66330,
+	uv0.weapon_property_131[65921] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 100lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 69,
+		corrected = 100,
+		min_range = 0,
+		id = 65921,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			19902,
-			19902,
-			19902,
-			19902,
-			19902
+			2121
 		},
 		barrage_ID = {
-			80101,
-			80104,
-			80107,
-			80109,
-			80111
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_131[65922] = {
+		id = 65922,
+		damage = 78,
+		base = 65921
+	}
+	uv0.weapon_property_131[65923] = {
+		id = 65923,
+		damage = 89,
+		base = 65921
+	}
+	uv0.weapon_property_131[65924] = {
+		id = 65924,
+		damage = 99,
+		base = 65921
+	}
+	uv0.weapon_property_131[65925] = {
+		id = 65925,
+		damage = 110,
+		base = 65921
+	}
+	uv0.weapon_property_131[65926] = {
+		id = 65926,
+		damage = 120,
+		base = 65921
+	}
+	uv0.weapon_property_131[65927] = {
+		id = 65927,
+		damage = 131,
+		base = 65921
+	}
+	uv0.weapon_property_131[65928] = {
+		id = 65928,
+		damage = 141,
+		base = 65921
+	}
+	uv0.weapon_property_131[65929] = {
+		id = 65929,
+		damage = 152,
+		base = 65921
+	}
+	uv0.weapon_property_131[65930] = {
+		id = 65930,
+		damage = 162,
+		base = 65921
+	}
+	uv0.weapon_property_131[65931] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "天鹰技能Re2001鱼雷机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 65931,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2490,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65931
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_131[65932] = {
+		name = "天鹰技能Re2001鱼雷机Lv2",
+		damage = 1,
+		base = 65931,
+		id = 65932,
+		bullet_ID = {
+			65932
 		}
 	}
-	uv0.weapon_property_131[66340] = {
+	uv0.weapon_property_131[65933] = {
+		name = "天鹰技能Re2001鱼雷机Lv3",
+		damage = 1,
+		base = 65931,
+		id = 65933,
+		bullet_ID = {
+			65933
+		}
+	}
+	uv0.weapon_property_131[65934] = {
+		name = "天鹰技能Re2001鱼雷机Lv4",
+		damage = 1,
+		base = 65931,
+		id = 65934,
+		bullet_ID = {
+			65934
+		}
+	}
+	uv0.weapon_property_131[65935] = {
+		name = "天鹰技能Re2001鱼雷机Lv5",
+		damage = 1,
+		base = 65931,
+		id = 65935,
+		bullet_ID = {
+			65935
+		}
+	}
+	uv0.weapon_property_131[65936] = {
+		name = "天鹰技能Re2001鱼雷机Lv6",
+		damage = 1,
+		base = 65931,
+		id = 65936,
+		bullet_ID = {
+			65936
+		}
+	}
+	uv0.weapon_property_131[65937] = {
+		name = "天鹰技能Re2001鱼雷机Lv7",
+		damage = 1,
+		base = 65931,
+		id = 65937,
+		bullet_ID = {
+			65937
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_131[65938] = {
+		name = "天鹰技能Re2001鱼雷机Lv8",
+		damage = 1,
+		base = 65931,
+		id = 65938,
+		bullet_ID = {
+			65938
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_131[65939] = {
+		name = "天鹰技能Re2001鱼雷机Lv9",
+		damage = 1,
+		base = 65931,
+		id = 65939,
+		bullet_ID = {
+			65939
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_131[65940] = {
+		name = "天鹰技能Re2001鱼雷机Lv10",
+		damage = 1,
+		base = 65931,
+		id = 65940,
+		bullet_ID = {
+			65940
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_131[65941] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 20,
+		charge_param = "",
+		damage = 96,
+		corrected = 100,
+		min_range = 0,
+		id = 65941,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2111
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_131[65942] = {
+		id = 65942,
+		damage = 112,
+		base = 65941
+	}
+	uv0.weapon_property_131[65943] = {
+		id = 65943,
+		damage = 128,
+		base = 65941
+	}
+	uv0.weapon_property_131[65944] = {
+		id = 65944,
+		damage = 144,
+		base = 65941
+	}
+	uv0.weapon_property_131[65945] = {
+		id = 65945,
+		damage = 160,
+		base = 65941
+	}
+	uv0.weapon_property_131[65946] = {
+		id = 65946,
+		damage = 176,
+		base = 65941
+	}
+	uv0.weapon_property_131[65947] = {
+		id = 65947,
+		damage = 192,
+		base = 65941
+	}
+	uv0.weapon_property_131[65948] = {
+		id = 65948,
+		damage = 208,
+		base = 65941
+	}
+	uv0.weapon_property_131[65949] = {
+		id = 65949,
+		damage = 224,
+		base = 65941
+	}
+	uv0.weapon_property_131[65950] = {
+		id = 65950,
+		damage = 240,
+		base = 65941
+	}
+	uv0.weapon_property_131[65951] = {
 		action_index = "",
 		range = 90,
 		type = 3,
@@ -102,16 +373,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "鬼神演舞鱼雷LV0",
-		aim_type = 0,
+		name = "射水鱼技能鱼雷LV1",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 46,
+		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 66340,
+		id = 65951,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -125,12 +396,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19903,
-			19903
+			19289,
+			19289
 		},
 		barrage_ID = {
-			80112,
-			80113
+			81091,
+			81092
 		},
 		oxy_type = {
 			1
@@ -140,84 +411,150 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_131[66341] = {
-		id = 66341,
-		name = "鬼神演舞鱼雷LV1",
-		damage = 57,
-		base = 66340
+	uv0.weapon_property_131[65952] = {
+		name = "射水鱼技能鱼雷LV2",
+		damage = 15,
+		base = 65951,
+		id = 65952,
+		bullet_ID = {
+			19289,
+			19289
+		}
 	}
-	uv0.weapon_property_131[66342] = {
-		id = 66342,
-		name = "鬼神演舞鱼雷LV2",
-		damage = 68,
-		base = 66340
+	uv0.weapon_property_131[65953] = {
+		name = "射水鱼技能鱼雷LV3",
+		damage = 18,
+		base = 65951,
+		id = 65953,
+		bullet_ID = {
+			19289,
+			19289
+		}
 	}
-	uv0.weapon_property_131[66343] = {
-		id = 66343,
-		name = "鬼神演舞鱼雷LV3",
-		damage = 79,
-		base = 66340
+	uv0.weapon_property_131[65954] = {
+		name = "射水鱼技能鱼雷LV4",
+		damage = 21,
+		base = 65951,
+		id = 65954,
+		bullet_ID = {
+			19289,
+			19289
+		}
 	}
-	uv0.weapon_property_131[66344] = {
-		id = 66344,
-		name = "鬼神演舞鱼雷LV4",
-		damage = 90,
-		base = 66340
+	uv0.weapon_property_131[65955] = {
+		name = "射水鱼技能鱼雷LV5",
+		damage = 24,
+		base = 65951,
+		id = 65955,
+		bullet_ID = {
+			19289,
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81091,
+			81092,
+			81093
+		}
 	}
-	uv0.weapon_property_131[66345] = {
-		id = 66345,
-		name = "鬼神演舞鱼雷LV5",
-		damage = 101,
-		base = 66340
+	uv0.weapon_property_131[65956] = {
+		name = "射水鱼技能鱼雷LV6",
+		damage = 27,
+		base = 65951,
+		id = 65956,
+		bullet_ID = {
+			19289,
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81091,
+			81092,
+			81093
+		}
 	}
-	uv0.weapon_property_131[66346] = {
-		id = 66346,
-		name = "鬼神演舞鱼雷LV6",
-		damage = 112,
-		base = 66340
+	uv0.weapon_property_131[65957] = {
+		name = "射水鱼技能鱼雷LV7",
+		damage = 30,
+		base = 65951,
+		id = 65957,
+		bullet_ID = {
+			19289,
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81091,
+			81092,
+			81093
+		}
 	}
-	uv0.weapon_property_131[66347] = {
-		id = 66347,
-		name = "鬼神演舞鱼雷LV7",
-		damage = 123,
-		base = 66340
+	uv0.weapon_property_131[65958] = {
+		name = "射水鱼技能鱼雷LV8",
+		damage = 33,
+		base = 65951,
+		id = 65958,
+		bullet_ID = {
+			19289,
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81094,
+			81095,
+			81096
+		}
 	}
-	uv0.weapon_property_131[66348] = {
-		id = 66348,
-		name = "鬼神演舞鱼雷LV8",
-		damage = 134,
-		base = 66340
+	uv0.weapon_property_131[65959] = {
+		name = "射水鱼技能鱼雷LV9",
+		damage = 36,
+		base = 65951,
+		id = 65959,
+		bullet_ID = {
+			19289,
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81094,
+			81095,
+			81096
+		}
 	}
-	uv0.weapon_property_131[66349] = {
-		id = 66349,
-		name = "鬼神演舞鱼雷LV9",
-		damage = 145,
-		base = 66340
+	uv0.weapon_property_131[65960] = {
+		name = "射水鱼技能鱼雷LV10",
+		damage = 40,
+		base = 65951,
+		id = 65960,
+		bullet_ID = {
+			19289,
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81094,
+			81095,
+			81096
+		}
 	}
-	uv0.weapon_property_131[66350] = {
-		id = 66350,
-		name = "鬼神演舞鱼雷LV10",
-		damage = 156,
-		base = 66340
-	}
-	uv0.weapon_property_131[66360] = {
-		action_index = "attack",
-		range = 115,
-		type = 19,
-		fire_fx = "CAFire",
+	uv0.weapon_property_131[65961] = {
+		action_index = "",
+		range = 60,
+		type = 1,
+		fire_fx = "",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "华盛顿技能LV0-PVP",
-		aim_type = 1,
+		name = "旧金山技能追星19HitLv1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 50,
+		damage = 5,
 		corrected = 100,
-		min_range = 35,
-		id = 66360,
+		min_range = 0,
+		id = 65961,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -225,20 +562,18 @@ function ()
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19904,
-			19904,
-			19904
+			19290,
+			19291
 		},
 		barrage_ID = {
-			80201,
-			80205,
-			80208
+			81101,
+			81102
 		},
 		oxy_type = {
 			1
@@ -246,268 +581,80 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
+		precast_param = {}
 	}
-	uv0.weapon_property_131[66361] = {
-		id = 66361,
-		name = "华盛顿技能LV1-PVP",
-		damage = 62,
-		base = 66360
+	uv0.weapon_property_131[65962] = {
+		id = 65962,
+		name = "旧金山技能追星19HitLv2",
+		damage = 6,
+		base = 65961
 	}
-	uv0.weapon_property_131[66362] = {
-		id = 66362,
-		name = "华盛顿技能LV2-PVP",
-		damage = 74,
-		base = 66360
+	uv0.weapon_property_131[65963] = {
+		id = 65963,
+		name = "旧金山技能追星19HitLv3",
+		damage = 7,
+		base = 65961
 	}
-	uv0.weapon_property_131[66363] = {
-		id = 66363,
-		name = "华盛顿技能LV3-PVP",
-		damage = 86,
-		base = 66360
+	uv0.weapon_property_131[65964] = {
+		id = 65964,
+		name = "旧金山技能追星19HitLv4",
+		damage = 8,
+		base = 65961
 	}
-	uv0.weapon_property_131[66364] = {
-		id = 66364,
-		name = "华盛顿技能LV4-PVP",
-		damage = 98,
-		base = 66360
+	uv0.weapon_property_131[65965] = {
+		id = 65965,
+		name = "旧金山技能追星19HitLv5",
+		damage = 9,
+		base = 65961
 	}
-	uv0.weapon_property_131[66365] = {
-		id = 66365,
-		name = "华盛顿技能LV5-PVP",
-		damage = 110,
-		base = 66360
+	uv0.weapon_property_131[65966] = {
+		id = 65966,
+		name = "旧金山技能追星19HitLv6",
+		damage = 10,
+		base = 65961
 	}
-	uv0.weapon_property_131[66366] = {
-		name = "华盛顿技能LV6-PVP",
-		damage = 122,
-		base = 66360,
-		id = 66366,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
+	uv0.weapon_property_131[65967] = {
+		id = 65967,
+		name = "旧金山技能追星19HitLv7",
+		damage = 11,
+		base = 65961
 	}
-	uv0.weapon_property_131[66367] = {
-		name = "华盛顿技能LV7-PVP",
-		damage = 134,
-		base = 66360,
-		id = 66367,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
+	uv0.weapon_property_131[65968] = {
+		id = 65968,
+		name = "旧金山技能追星19HitLv8",
+		damage = 12,
+		base = 65961
 	}
-	uv0.weapon_property_131[66368] = {
-		name = "华盛顿技能LV8-PVP",
-		damage = 146,
-		base = 66360,
-		id = 66368,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
+	uv0.weapon_property_131[65969] = {
+		id = 65969,
+		name = "旧金山技能追星19HitLv9",
+		damage = 13,
+		base = 65961
 	}
-	uv0.weapon_property_131[66369] = {
-		name = "华盛顿技能LV9-PVP",
-		damage = 158,
-		base = 66360,
-		id = 66369,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
+	uv0.weapon_property_131[65970] = {
+		id = 65970,
+		name = "旧金山技能追星19HitLv10",
+		damage = 15,
+		base = 65961
 	}
-	uv0.weapon_property_131[66370] = {
-		name = "华盛顿技能LV10-PVP",
-		damage = 174,
-		base = 66360,
-		id = 66370,
-		bullet_ID = {
-			19904,
-			19904,
-			19904,
-			19904
-		},
-		barrage_ID = {
-			80203,
-			80204,
-			80207,
-			80210
-		}
-	}
-	uv0.weapon_property_131[66380] = {
+	uv0.weapon_property_131[65971] = {
 		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "华盛顿技能LV0-PVE",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 25,
-		id = 66380,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19904,
-			19904,
-			19904
-		},
-		barrage_ID = {
-			80211,
-			80215,
-			80218
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_131[66381] = {
-		id = 66381,
-		name = "华盛顿技能LV1-PVE",
-		damage = 62,
-		base = 66380
-	}
-	uv0.weapon_property_131[66382] = {
-		id = 66382,
-		name = "华盛顿技能LV2-PVE",
-		damage = 74,
-		base = 66380
-	}
-	uv0.weapon_property_131[66383] = {
-		id = 66383,
-		name = "华盛顿技能LV3-PVE",
-		damage = 86,
-		base = 66380
-	}
-	uv0.weapon_property_131[66384] = {
-		id = 66384,
-		name = "华盛顿技能LV4-PVE",
-		damage = 98,
-		base = 66380
-	}
-	uv0.weapon_property_131[66385] = {
-		id = 66385,
-		name = "华盛顿技能LV5-PVE",
-		damage = 110,
-		base = 66380
-	}
-	uv0.weapon_property_131[66386] = {
-		name = "华盛顿技能LV6-PVE",
-		damage = 122,
-		base = 66380,
-		id = 66386,
-		barrage_ID = {
-			80212,
-			80216,
-			80219
-		}
-	}
-	uv0.weapon_property_131[66387] = {
-		name = "华盛顿技能LV7-PVE",
-		damage = 134,
-		base = 66380,
-		id = 66387,
-		barrage_ID = {
-			80212,
-			80216,
-			80219
-		}
-	}
-	uv0.weapon_property_131[66388] = {
-		name = "华盛顿技能LV8-PVE",
-		damage = 146,
-		base = 66380,
-		id = 66388,
-		barrage_ID = {
-			80212,
-			80216,
-			80219
-		}
-	}
-	uv0.weapon_property_131[66389] = {
-		name = "华盛顿技能LV9-PVE",
-		damage = 158,
-		base = 66380,
-		id = 66389,
-		barrage_ID = {
-			80212,
-			80216,
-			80219
-		}
-	}
-	uv0.weapon_property_131[66390] = {
-		name = "华盛顿技能LV10-PVE",
-		damage = 174,
-		base = 66380,
-		id = 66390,
-		bullet_ID = {
-			19904,
-			19904,
-			19904,
-			19904
-		},
-		barrage_ID = {
-			80213,
-			80214,
-			80217,
-			80220
-		}
-	}
-	uv0.weapon_property_131[66400] = {
-		action_index = "attack",
-		range = 50,
+		range = 120,
 		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "华盛顿技能·小子弹LV0",
-		aim_type = 1,
+		name = "新泽西定点生成小弹幕-Lv1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 10,
+		damage = 11,
 		corrected = 100,
-		min_range = 0,
-		id = 66400,
+		min_range = 25,
+		id = 65971,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -516,17 +663,16 @@ function ()
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19905,
-			19905
+			19294,
+			19294
 		},
 		barrage_ID = {
-			80221,
-			80225
+			81100,
+			81104
 		},
 		oxy_type = {
 			1
@@ -534,367 +680,57 @@ function ()
 		search_condition = {
 			1
 		},
+		spawn_bound = {
+			1
+		},
 		precast_param = {}
 	}
-	uv0.weapon_property_131[66401] = {
-		id = 66401,
-		name = "华盛顿技能·小子弹LV1",
-		damage = 11,
-		base = 66400
-	}
-	uv0.weapon_property_131[66402] = {
-		name = "华盛顿技能·小子弹LV2",
+	uv0.weapon_property_131[65972] = {
+		id = 65972,
+		name = "新泽西定点生成小弹幕-Lv2",
 		damage = 12,
-		base = 66400,
-		id = 66402,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80222,
-			80225,
-			80226
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66403] = {
-		name = "华盛顿技能·小子弹LV3",
+	uv0.weapon_property_131[65973] = {
+		id = 65973,
+		name = "新泽西定点生成小弹幕-Lv3",
 		damage = 13,
-		base = 66400,
-		id = 66403,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80222,
-			80225,
-			80226
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66404] = {
-		name = "华盛顿技能·小子弹LV4",
+	uv0.weapon_property_131[65974] = {
+		id = 65974,
+		name = "新泽西定点生成小弹幕-Lv4",
 		damage = 14,
-		base = 66400,
-		id = 66404,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80223,
-			80225,
-			80227
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66405] = {
-		name = "华盛顿技能·小子弹LV5",
+	uv0.weapon_property_131[65975] = {
+		id = 65975,
+		name = "新泽西定点生成小弹幕-Lv5",
 		damage = 15,
-		base = 66400,
-		id = 66405,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80223,
-			80225,
-			80227
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66406] = {
-		name = "华盛顿技能·小子弹LV6",
+	uv0.weapon_property_131[65976] = {
+		id = 65976,
+		name = "新泽西定点生成小弹幕-Lv6",
 		damage = 16,
-		base = 66400,
-		id = 66406,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80224,
-			80225,
-			80228
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66407] = {
-		name = "华盛顿技能·小子弹LV7",
+	uv0.weapon_property_131[65977] = {
+		id = 65977,
+		name = "新泽西定点生成小弹幕-Lv7",
 		damage = 17,
-		base = 66400,
-		id = 66407,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80224,
-			80225,
-			80228
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66408] = {
-		name = "华盛顿技能·小子弹LV8",
+	uv0.weapon_property_131[65978] = {
+		id = 65978,
+		name = "新泽西定点生成小弹幕-Lv8",
 		damage = 18,
-		base = 66400,
-		id = 66408,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80224,
-			80225,
-			80228,
-			80229
-		}
+		base = 65971
 	}
-	uv0.weapon_property_131[66409] = {
-		name = "华盛顿技能·小子弹LV9",
+	uv0.weapon_property_131[65979] = {
+		id = 65979,
+		name = "新泽西定点生成小弹幕-Lv9",
 		damage = 19,
-		base = 66400,
-		id = 66409,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80224,
-			80225,
-			80228,
-			80229
-		}
-	}
-	uv0.weapon_property_131[66410] = {
-		name = "华盛顿技能·小子弹LV10",
-		damage = 20,
-		base = 66400,
-		id = 66410,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80221,
-			80224,
-			80225,
-			80228,
-			80230
-		}
-	}
-	uv0.weapon_property_131[66420] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "胡蜂技能LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 66420,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			27000
-		},
-		barrage_ID = {
-			1502
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_131[66421] = {
-		name = "胡蜂技能LV1",
-		damage = 24,
-		base = 66420,
-		id = 66421,
-		bullet_ID = {
-			27001
-		}
-	}
-	uv0.weapon_property_131[66422] = {
-		name = "胡蜂技能LV2",
-		damage = 26,
-		base = 66420,
-		id = 66422,
-		bullet_ID = {
-			27002
-		}
-	}
-	uv0.weapon_property_131[66423] = {
-		name = "胡蜂技能LV3",
-		damage = 28,
-		base = 66420,
-		id = 66423,
-		bullet_ID = {
-			27003
-		}
-	}
-	uv0.weapon_property_131[66424] = {
-		name = "胡蜂技能LV4",
-		damage = 32,
-		base = 66420,
-		id = 66424,
-		bullet_ID = {
-			27004
-		}
-	}
-	uv0.weapon_property_131[66425] = {
-		name = "胡蜂技能LV5",
-		damage = 34,
-		base = 66420,
-		id = 66425,
-		bullet_ID = {
-			27005
-		}
-	}
-	uv0.weapon_property_131[66426] = {
-		name = "胡蜂技能LV6",
-		damage = 36,
-		base = 66420,
-		id = 66426,
-		bullet_ID = {
-			27006
-		}
-	}
-	uv0.weapon_property_131[66427] = {
-		name = "胡蜂技能LV7",
-		damage = 38,
-		base = 66420,
-		id = 66427,
-		bullet_ID = {
-			27007
-		}
-	}
-	uv0.weapon_property_131[66428] = {
-		name = "胡蜂技能LV8",
-		damage = 40,
-		base = 66420,
-		id = 66428,
-		bullet_ID = {
-			27008
-		}
-	}
-	uv0.weapon_property_131[66429] = {
-		name = "胡蜂技能LV9",
-		damage = 44,
-		base = 66420,
-		id = 66429,
-		bullet_ID = {
-			27009
-		}
-	}
-	uv0.weapon_property_131[66430] = {
-		name = "胡蜂技能LV10",
-		damage = 46,
-		base = 66420,
-		id = 66430,
-		bullet_ID = {
-			27010
-		}
-	}
-	uv0.weapon_property_131[66440] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "联结·阿萨姆LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 57,
-		corrected = 100,
-		min_range = 0,
-		id = 66440,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			66440
-		},
-		barrage_ID = {
-			80301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_131[66441] = {
-		name = "联结·阿萨姆LV1",
-		damage = 68,
-		base = 66440,
-		id = 66441,
-		bullet_ID = {
-			66441
-		}
+		base = 65971
 	}
 end()

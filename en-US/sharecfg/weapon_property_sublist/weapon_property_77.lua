@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_77 = {}
 
 function ()
-	uv0.weapon_property_77[50125] = {
-		id = 50125,
-		reload_max = 67,
-		damage = 24,
-		base = 50120
-	}
-	uv0.weapon_property_77[50126] = {
-		id = 50126,
-		reload_max = 66,
-		damage = 27,
-		base = 50120
-	}
-	uv0.weapon_property_77[50127] = {
-		id = 50127,
-		reload_max = 64,
-		damage = 29,
-		base = 50120
-	}
-	uv0.weapon_property_77[50128] = {
-		id = 50128,
-		reload_max = 63,
-		damage = 31,
-		base = 50120
-	}
-	uv0.weapon_property_77[50129] = {
-		id = 50129,
-		reload_max = 61,
-		damage = 33,
-		base = 50120
-	}
 	uv0.weapon_property_77[50130] = {
 		id = 50130,
 		reload_max = 60,
@@ -525,5 +495,79 @@ function ()
 		reload_max = 60,
 		damage = 56,
 		base = 50220
+	}
+	uv0.weapon_property_77[50231] = {
+		id = 50231,
+		reload_max = 60,
+		damage = 58,
+		base = 50220
+	}
+	uv0.weapon_property_77[50232] = {
+		id = 50232,
+		reload_max = 60,
+		damage = 62,
+		base = 50220
+	}
+	uv0.weapon_property_77[50233] = {
+		id = 50233,
+		reload_max = 60,
+		damage = 66,
+		base = 50220
+	}
+	uv0.weapon_property_77[50240] = {
+		action_index = "",
+		range = 24,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "8 x 7.7mm Cannon",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 26,
+		corrected = 100,
+		min_range = 0,
+		id = 50240,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 72,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_77[50241] = {
+		id = 50241,
+		reload_max = 70,
+		damage = 29,
+		base = 50240
+	}
+	uv0.weapon_property_77[50242] = {
+		id = 50242,
+		reload_max = 69,
+		damage = 32,
+		base = 50240
 	}
 end()

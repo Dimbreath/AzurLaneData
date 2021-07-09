@@ -62,6 +62,10 @@ function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot7 = math.deg2Rad * (uv0:GetBaseAngle() + slot2)
 
 		uv0._dataProxy:CreateAircraft(uv0._host, uv0._tmpData.id, uv0:GetPotential(), uv0._skinID):AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1.5)
+
+		if uv0._debugRecordDEFAircraft then
+			table.insert(uv0._debugRecordDEFAircraft, slot5)
+		end
 	end, nil)
 end
 
@@ -75,6 +79,10 @@ function slot2.SingleFire(slot0, slot1, slot2)
 
 			uv1.Battle.BattleVariable.AddExempt(slot5:GetSpeedExemptKey(), slot5:GetIFF(), uv1.Battle.BattleConfig.SPEED_FACTOR_FOCUS_CHARACTER)
 			slot5:AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1)
+
+			if uv0._debugRecordATKAircraft then
+				table.insert(uv0._debugRecordATKAircraft, slot5)
+			end
 		end, function ()
 			for slot3, slot4 in ipairs(uv0._tempEmitterList) do
 				if slot4:GetState() ~= slot4.STATE_STOP then
@@ -97,4 +105,28 @@ function slot2.SingleFire(slot0, slot1, slot2)
 	end
 
 	slot0._host:CloakExpose(slot0._tmpData.expose)
+end
+
+function slot2.GetATKAircraftList(slot0)
+	slot0._debugRecordATKAircraft = slot0._debugRecordATKAircraft or {}
+
+	return slot0._debugRecordATKAircraft
+end
+
+function slot2.GetDEFAircraftList(slot0)
+	slot0._debugRecordDEFAircraft = slot0._debugRecordDEFAircraft or {}
+
+	return slot0._debugRecordDEFAircraft
+end
+
+function slot2.GetDamageSUM(slot0)
+	slot1 = 0
+
+	for slot6, slot7 in ipairs(slot0:GetDEFAircraftList()) do
+		for slot12, slot13 in ipairs(slot7:GetWeapon()) do
+			slot1 = slot1 + slot13:GetDamageSUM()
+		end
+	end
+
+	return slot1
 end

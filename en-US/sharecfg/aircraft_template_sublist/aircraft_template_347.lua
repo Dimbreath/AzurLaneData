@@ -1,29 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_347 = {
-	[620309] = {
-		name = "【2020美系活动D2】塞壬执棋者III型 浮游炮1",
-		max_hp = 750,
+	[607089] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 210,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 620309,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607089,
 		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
 		weapon_ID = {
-			620313
+			607093
 		},
 		position_offset = {
 			0,
@@ -43,13 +40,87 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[609010] = {
+		name = "【绊爱联动】空袭 轰炸机",
+		max_hp = 80,
+		accuracy = 23,
+		model_ID = "feiji_ai_aijiang",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		id = 609010,
+		scale = 0.75,
+		weapon_ID = {
+			609004
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -77,30 +148,27 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620310] = {
-		name = "【2020美系活动D2】塞壬执棋者III型 浮游炮2",
-		max_hp = 750,
+	[609020] = {
+		name = "【绊爱联动】空袭 鱼雷机",
+		max_hp = 62,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "feiji_ai_gamer",
 		ACC_growth = 0,
-		crash_DMG = 210,
+		crash_DMG = 52,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_gamer",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 620310,
+		hp_growth = 1920,
+		speed = 30,
+		id = 609020,
 		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
 		weapon_ID = {
-			620314
+			609005
 		},
 		position_offset = {
 			0,
@@ -120,13 +188,88 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[609030] = {
+		name = "【绊爱联动】空袭 战斗机",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "feiji_ai_perform",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "feiji_ai_perform",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1680,
+		speed = 33,
+		id = 609030,
+		scale = 0.75,
+		weapon_ID = {
+			609006,
+			609007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -154,30 +297,28 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620318] = {
-		name = "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-		max_hp = 8000,
+	[609021] = {
+		name = "【绊爱联动SP2】战斗机",
+		max_hp = 86,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "feiji_ai_perform",
 		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 48,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_perform",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620318,
+		hp_growth = 1960,
+		speed = 33,
+		id = 609021,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70078
-		},
 		weapon_ID = {
-			620322,
-			620323
+			609023,
+			609025
 		},
 		position_offset = {
 			0,
@@ -197,13 +338,13 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -220,7 +361,7 @@ pg.aircraft_template_347 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -231,30 +372,27 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620319] = {
-		name = "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-		max_hp = 8000,
+	[609022] = {
+		name = "【绊爱联动SP2】轰炸机",
+		max_hp = 109,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 85,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620319,
+		hp_growth = 2660,
+		speed = 30,
+		id = 609022,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70079
-		},
 		weapon_ID = {
-			620322,
-			620323
+			609024
 		},
 		position_offset = {
 			0,
@@ -274,13 +412,13 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -297,7 +435,7 @@ pg.aircraft_template_347 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -308,30 +446,28 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620320] = {
-		name = "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-		max_hp = 8000,
+	[609051] = {
+		name = "【绊爱联动SP5】战斗机",
+		max_hp = 141,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "feiji_ai_perform",
 		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 79,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_perform",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620320,
+		hp_growth = 2520,
+		speed = 33,
+		id = 609051,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70080
-		},
 		weapon_ID = {
-			620322,
-			620323
+			609053,
+			609055
 		},
 		position_offset = {
 			0,
@@ -351,13 +487,13 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -374,7 +510,7 @@ pg.aircraft_template_347 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -385,30 +521,27 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620321] = {
-		name = "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-		max_hp = 8000,
+	[609052] = {
+		name = "【绊爱联动SP5】轰炸机",
+		max_hp = 168,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 140,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620321,
+		hp_growth = 3420,
+		speed = 30,
+		id = 609052,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70081
-		},
 		weapon_ID = {
-			620322,
-			620323
+			609054
 		},
 		position_offset = {
 			0,
@@ -428,13 +561,13 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -451,7 +584,7 @@ pg.aircraft_template_347 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -462,29 +595,28 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620325] = {
-		name = "【2020美系活动D3】塞壬构建者 第二波浮游炮",
-		max_hp = 8000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
+	[609130] = {
+		name = "【绊爱联动EX】战斗机",
+		max_hp = 1024,
+		accuracy = 50,
+		model_ID = "feiji_ai_perform",
 		ACC_growth = 0,
-		crash_DMG = 340,
+		crash_DMG = 220,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_perform",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620325,
+		hp_growth = 0,
+		speed = 33,
+		id = 609130,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70082
-		},
 		weapon_ID = {
-			620329
+			609132,
+			609134
 		},
 		position_offset = {
 			0,
@@ -504,13 +636,13 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -527,7 +659,7 @@ pg.aircraft_template_347 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -538,29 +670,27 @@ pg.aircraft_template_347 = {
 			}
 		}
 	},
-	[620326] = {
-		name = "【2020美系活动D3】塞壬构建者 第二波浮游炮",
-		max_hp = 8000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
+	[609131] = {
+		name = "【绊爱联动EX】轰炸机",
+		max_hp = 1600,
+		accuracy = 50,
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
-		crash_DMG = 340,
+		crash_DMG = 400,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620326,
+		hp_growth = 0,
+		speed = 30,
+		id = 609131,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70083
-		},
 		weapon_ID = {
-			620329
+			609133
 		},
 		position_offset = {
 			0,
@@ -580,13 +710,13 @@ pg.aircraft_template_347 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -603,159 +733,7 @@ pg.aircraft_template_347 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620327] = {
-		name = "【2020美系活动D3】塞壬构建者 第二波浮游炮",
-		max_hp = 8000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 340,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620327,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70084
-		},
-		weapon_ID = {
-			620330
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620328] = {
-		name = "【2020美系活动D3】塞壬构建者 第二波浮游炮",
-		max_hp = 8000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 340,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 120,
-		id = 620328,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70085
-		},
-		weapon_ID = {
-			620330
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
+				0.51,
 				0,
 				0
 			},

@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.equip_data_statistics_59 = {
+	[3200] = {
+		name = "VH Armor Plating",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3200",
+		value_1 = "350",
+		descrip = "A newer type of armor plating designed to be more durable and easier to produce. The cementing process was eliminated in favor of new carburizing techniques.",
+		rarity = 5,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 3200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6460
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
 	[3201] = {
 		id = 3201,
 		value_1 = "380",
@@ -122,11 +168,6 @@ pg.equip_data_statistics_59 = {
 	[3222] = {
 		id = 3222,
 		value_1 = "280",
-		base = 3220
-	},
-	[3223] = {
-		id = 3223,
-		value_1 = "310",
 		base = 3220
 	}
 }

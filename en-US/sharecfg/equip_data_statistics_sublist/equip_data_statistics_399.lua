@@ -1,244 +1,250 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
-	[95247] = {
-		id = 95247,
-		damage = "40 x 8",
-		base = 95240,
+	[95046] = {
+		id = 95046,
+		damage = "110 x 3",
+		base = 95040,
 		weapon_id = {
-			95247
+			95046
 		}
 	},
-	[95248] = {
-		id = 95248,
-		damage = "41 x 8",
-		base = 95240,
+	[95047] = {
+		id = 95047,
+		damage = "118 x 3",
+		base = 95040,
 		weapon_id = {
-			95248
+			95047
 		}
 	},
-	[95249] = {
-		id = 95249,
-		damage = "42 x 8",
-		base = 95240,
+	[95048] = {
+		id = 95048,
+		damage = "128 x 3",
+		base = 95040,
 		weapon_id = {
-			95249
+			95048
 		}
 	},
-	[95250] = {
-		id = 95250,
-		damage = "43 x 8",
-		base = 95240,
+	[95049] = {
+		id = 95049,
+		damage = "138 x 3",
+		base = 95040,
 		weapon_id = {
-			95250
+			95049
 		}
 	},
-	[95251] = {
+	[95050] = {
+		id = 95050,
+		damage = "148 x 3",
+		base = 95040,
+		weapon_id = {
+			95050
+		}
+	},
+	[95051] = {
 		anti_siren = 100,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95251,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95051,
 		weapon_id = {
-			95251
+			95051
 		}
 	},
-	[95252] = {
+	[95052] = {
 		anti_siren = 200,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95252,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95052,
 		weapon_id = {
-			95252
+			95052
 		}
 	},
-	[95253] = {
+	[95053] = {
 		anti_siren = 300,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95253,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95053,
 		weapon_id = {
-			95253
+			95053
 		}
 	},
-	[95300] = {
-		name = "Twin 203mm Model 1924 Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
+	[95100] = {
+		name = "Single 90mm Model 1939 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
 		tech = 1,
 		descrip = "No description",
-		value_2 = 5,
-		icon = "55300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "22 x 6",
+		value_2 = 12,
+		icon = "55100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "34/wave",
 		nationality = 6,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 95300,
+		id = 95100,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1400
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1400
-			},
-			{
-				4,
-				1205
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			95300
+			95100
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"CA",
-			"MG",
-			"CM"
+			"ST",
+			"AA"
 		}
 	},
-	[95301] = {
-		id = 95301,
-		damage = "24 x 6",
-		base = 95300,
+	[95101] = {
+		id = 95101,
+		damage = "38/wave",
+		base = 95100,
 		weapon_id = {
-			95301
+			95101
 		}
 	},
-	[95302] = {
-		id = 95302,
-		damage = "26 x 6",
-		base = 95300,
+	[95102] = {
+		id = 95102,
+		damage = "42/wave",
+		base = 95100,
 		weapon_id = {
-			95302
+			95102
 		}
 	},
-	[95303] = {
-		id = 95303,
-		damage = "28 x 6",
-		base = 95300,
+	[95103] = {
+		id = 95103,
+		damage = "46/wave",
+		base = 95100,
 		weapon_id = {
-			95303
+			95103
 		}
 	},
-	[95320] = {
-		name = "Twin 203mm Model 1924 Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
+	[95104] = {
+		id = 95104,
+		damage = "51/wave",
+		base = 95100,
+		weapon_id = {
+			95104
+		}
+	},
+	[95105] = {
+		id = 95105,
+		damage = "56/wave",
+		base = 95100,
+		weapon_id = {
+			95105
+		}
+	},
+	[95106] = {
+		id = 95106,
+		damage = "61/wave",
+		base = 95100,
+		weapon_id = {
+			95106
+		}
+	},
+	[95120] = {
+		name = "Single 90mm Model 1939 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
 		tech = 2,
 		descrip = "No description",
-		value_2 = 12,
-		icon = "55300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "24 x 6",
+		value_2 = 25,
+		icon = "55100",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "35/wave",
 		nationality = 6,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 95320,
+		id = 95120,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1205
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			95320
+			95120
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"CA",
-			"MG",
-			"HE"
+			"ST",
+			"AA"
 		}
 	},
-	[95321] = {
-		id = 95321,
-		damage = "26 x 6",
-		base = 95320,
+	[95121] = {
+		id = 95121,
+		damage = "39/wave",
+		base = 95120,
 		weapon_id = {
-			95321
-		}
-	},
-	[95322] = {
-		id = 95322,
-		damage = "28 x 6",
-		base = 95320,
-		weapon_id = {
-			95322
-		}
-	},
-	[95323] = {
-		id = 95323,
-		damage = "30 x 6",
-		base = 95320,
-		weapon_id = {
-			95323
-		}
-	},
-	[95324] = {
-		id = 95324,
-		damage = "32 x 6",
-		base = 95320,
-		weapon_id = {
-			95324
-		}
-	},
-	[95325] = {
-		id = 95325,
-		damage = "34 x 6",
-		base = 95320,
-		weapon_id = {
-			95325
+			95121
 		}
 	}
 }

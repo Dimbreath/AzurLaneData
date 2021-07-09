@@ -650,4 +650,12 @@ function slot0.getFateUseNum(slot0)
 	return slot1
 end
 
+function slot0.isPursuing(slot0)
+	return slot0:getConfig("is_pursuing") == 1
+end
+
+function slot0.getPursuingPrice(slot0, slot1)
+	return slot0:getConfig("price") * (slot1 or 100) / 100
+end
+
 return slot0

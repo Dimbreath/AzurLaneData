@@ -2,50 +2,6 @@ pg = pg or {}
 pg.weapon_property_3 = {}
 
 function ()
-	uv0.weapon_property_3[437] = {
-		action_index = "attack",
-		range = 25,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "应瑞肇和自带防空炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 23,
-		corrected = 100,
-		min_range = 0,
-		id = 437,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 150,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_3[900] = {
 		action_index = "attack",
 		range = 50,
@@ -1037,6 +993,18 @@ function ()
 		id = 4145,
 		reload_max = 525,
 		damage = 42,
+		base = 4140
+	}
+	uv0.weapon_property_3[4146] = {
+		id = 4146,
+		reload_max = 510,
+		damage = 45,
+		base = 4140
+	}
+	uv0.weapon_property_3[4147] = {
+		id = 4147,
+		reload_max = 495,
+		damage = 49,
 		base = 4140
 	}
 end()

@@ -2,25 +2,531 @@ pg = pg or {}
 pg.weapon_property_138 = {}
 
 function ()
-	uv0.weapon_property_138[67120] = {
-		action_index = "attack",
+	uv0.weapon_property_138[66663] = {
+		name = "拉菲技能弹幕LV3",
+		damage = 15,
+		base = 66660,
+		id = 66663,
+		barrage_ID = {
+			80023
+		}
+	}
+	uv0.weapon_property_138[66664] = {
+		name = "拉菲技能弹幕LV4",
+		damage = 16,
+		base = 66660,
+		id = 66664,
+		barrage_ID = {
+			80024
+		}
+	}
+	uv0.weapon_property_138[66665] = {
+		name = "拉菲技能弹幕LV5",
+		damage = 18,
+		base = 66660,
+		id = 66665,
+		barrage_ID = {
+			80025
+		}
+	}
+	uv0.weapon_property_138[66666] = {
+		name = "拉菲技能弹幕LV6",
+		damage = 20,
+		base = 66660,
+		id = 66666,
+		barrage_ID = {
+			80026
+		}
+	}
+	uv0.weapon_property_138[66667] = {
+		name = "拉菲技能弹幕LV7",
+		damage = 22,
+		base = 66660,
+		id = 66667,
+		barrage_ID = {
+			80027
+		}
+	}
+	uv0.weapon_property_138[66668] = {
+		name = "拉菲技能弹幕LV8",
+		damage = 24,
+		base = 66660,
+		id = 66668,
+		barrage_ID = {
+			80028
+		}
+	}
+	uv0.weapon_property_138[66669] = {
+		name = "拉菲技能弹幕LV9",
+		damage = 26,
+		base = 66660,
+		id = 66669,
+		barrage_ID = {
+			80029
+		}
+	}
+	uv0.weapon_property_138[66670] = {
+		name = "拉菲技能弹幕LV10",
+		damage = 28,
+		base = 66660,
+		id = 66670,
+		barrage_ID = {
+			80030
+		}
+	}
+	uv0.weapon_property_138[66680] = {
+		action_index = "",
 		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "拉菲技能鱼雷LV0",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 66680,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19918
+		},
+		barrage_ID = {
+			80031
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_138[66681] = {
+		id = 66681,
+		name = "拉菲技能鱼雷LV1",
+		damage = 57,
+		base = 66680
+	}
+	uv0.weapon_property_138[66682] = {
+		id = 66682,
+		name = "拉菲技能鱼雷LV2",
+		damage = 68,
+		base = 66680
+	}
+	uv0.weapon_property_138[66683] = {
+		id = 66683,
+		name = "拉菲技能鱼雷LV3",
+		damage = 79,
+		base = 66680
+	}
+	uv0.weapon_property_138[66684] = {
+		id = 66684,
+		name = "拉菲技能鱼雷LV4",
+		damage = 90,
+		base = 66680
+	}
+	uv0.weapon_property_138[66685] = {
+		id = 66685,
+		name = "拉菲技能鱼雷LV5",
+		damage = 101,
+		base = 66680
+	}
+	uv0.weapon_property_138[66686] = {
+		id = 66686,
+		name = "拉菲技能鱼雷LV6",
+		damage = 112,
+		base = 66680
+	}
+	uv0.weapon_property_138[66687] = {
+		id = 66687,
+		name = "拉菲技能鱼雷LV7",
+		damage = 123,
+		base = 66680
+	}
+	uv0.weapon_property_138[66688] = {
+		id = 66688,
+		name = "拉菲技能鱼雷LV8",
+		damage = 134,
+		base = 66680
+	}
+	uv0.weapon_property_138[66689] = {
+		id = 66689,
+		name = "拉菲技能鱼雷LV9",
+		damage = 145,
+		base = 66680
+	}
+	uv0.weapon_property_138[66690] = {
+		id = 66690,
+		name = "拉菲技能鱼雷LV10",
+		damage = 156,
+		base = 66680
+	}
+	uv0.weapon_property_138[66700] = {
+		action_index = "attack_main",
+		range = 95,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "雾岛三式烧夷弹弹幕Lv0-PVE",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 10,
+		corrected = 110,
+		min_range = 50,
+		id = 66700,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_138[66701] = {
+		id = 66701,
+		name = "雾岛三式烧夷弹弹幕Lv1-PVE",
+		damage = 11,
+		base = 66700
+	}
+	uv0.weapon_property_138[66702] = {
+		id = 66702,
+		name = "雾岛三式烧夷弹弹幕Lv2-PVE",
+		damage = 12,
+		base = 66700
+	}
+	uv0.weapon_property_138[66703] = {
+		id = 66703,
+		name = "雾岛三式烧夷弹弹幕Lv3-PVE",
+		damage = 13,
+		base = 66700
+	}
+	uv0.weapon_property_138[66704] = {
+		name = "雾岛三式烧夷弹弹幕Lv4-PVE",
+		damage = 14,
+		base = 66700,
+		id = 66704,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_138[66705] = {
+		name = "雾岛三式烧夷弹弹幕Lv5-PVE",
+		damage = 15,
+		base = 66700,
+		id = 66705,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_138[66706] = {
+		name = "雾岛三式烧夷弹弹幕Lv6-PVE",
+		damage = 16,
+		base = 66700,
+		id = 66706,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_138[66707] = {
+		name = "雾岛三式烧夷弹弹幕Lv7-PVE",
+		damage = 17,
+		base = 66700,
+		id = 66707,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66708] = {
+		name = "雾岛三式烧夷弹弹幕Lv8-PVE",
+		damage = 18,
+		base = 66700,
+		id = 66708,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66709] = {
+		name = "雾岛三式烧夷弹弹幕Lv9-PVE",
+		damage = 19,
+		base = 66700,
+		id = 66709,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66710] = {
+		name = "雾岛三式烧夷弹弹幕Lv10-PVE",
+		damage = 20,
+		base = 66700,
+		id = 66710,
+		bullet_ID = {
+			19920,
+			19920
+		},
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66720] = {
+		action_index = "attack_main",
+		range = 115,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "雾岛三式烧夷弹弹幕Lv0-PVP",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 10,
+		corrected = 110,
+		min_range = 50,
+		id = 66720,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_138[66721] = {
+		id = 66721,
+		name = "雾岛三式烧夷弹弹幕Lv1-PVP",
+		damage = 11,
+		base = 66720
+	}
+	uv0.weapon_property_138[66722] = {
+		id = 66722,
+		name = "雾岛三式烧夷弹弹幕Lv2-PVP",
+		damage = 12,
+		base = 66720
+	}
+	uv0.weapon_property_138[66723] = {
+		id = 66723,
+		name = "雾岛三式烧夷弹弹幕Lv3-PVP",
+		damage = 13,
+		base = 66720
+	}
+	uv0.weapon_property_138[66724] = {
+		name = "雾岛三式烧夷弹弹幕Lv4-PVP",
+		damage = 14,
+		base = 66720,
+		id = 66724,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_138[66725] = {
+		name = "雾岛三式烧夷弹弹幕Lv5-PVP",
+		damage = 15,
+		base = 66720,
+		id = 66725,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_138[66726] = {
+		name = "雾岛三式烧夷弹弹幕Lv6-PVP",
+		damage = 16,
+		base = 66720,
+		id = 66726,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_138[66727] = {
+		name = "雾岛三式烧夷弹弹幕Lv7-PVP",
+		damage = 17,
+		base = 66720,
+		id = 66727,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66728] = {
+		name = "雾岛三式烧夷弹弹幕Lv8-PVP",
+		damage = 18,
+		base = 66720,
+		id = 66728,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66729] = {
+		name = "雾岛三式烧夷弹弹幕Lv9-PVP",
+		damage = 19,
+		base = 66720,
+		id = 66729,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66730] = {
+		name = "雾岛三式烧夷弹弹幕Lv10-PVP",
+		damage = 20,
+		base = 66720,
+		id = 66730,
+		bullet_ID = {
+			19920,
+			19920
+		},
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_138[66740] = {
+		action_index = "attack",
+		range = 50,
 		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "敦刻尔克技能小子弹LV0",
+		name = "出云技能LV0-穿甲",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 10,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 67120,
-		attack_attribute_ratio = 100,
+		id = 66740,
+		attack_attribute_ratio = 120,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
 		reload_max = 500,
@@ -33,12 +539,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19942,
-			19942
+			19922,
+			19922
 		},
 		barrage_ID = {
-			80453,
-			80455
+			80051,
+			80055
 		},
 		oxy_type = {
 			1
@@ -48,631 +554,187 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_138[67121] = {
-		id = 67121,
-		name = "敦刻尔克技能小子弹LV1",
-		damage = 12,
-		base = 67120
-	}
-	uv0.weapon_property_138[67122] = {
-		id = 67122,
-		name = "敦刻尔克技能小子弹LV2",
-		damage = 14,
-		base = 67120
-	}
-	uv0.weapon_property_138[67123] = {
-		id = 67123,
-		name = "敦刻尔克技能小子弹LV3",
-		damage = 16,
-		base = 67120
-	}
-	uv0.weapon_property_138[67124] = {
-		id = 67124,
-		name = "敦刻尔克技能小子弹LV4",
-		damage = 18,
-		base = 67120
-	}
-	uv0.weapon_property_138[67125] = {
-		id = 67125,
-		name = "敦刻尔克技能小子弹LV5",
-		damage = 20,
-		base = 67120
-	}
-	uv0.weapon_property_138[67126] = {
-		id = 67126,
-		name = "敦刻尔克技能小子弹LV6",
-		damage = 22,
-		base = 67120
-	}
-	uv0.weapon_property_138[67127] = {
-		id = 67127,
-		name = "敦刻尔克技能小子弹LV7",
-		damage = 24,
-		base = 67120
-	}
-	uv0.weapon_property_138[67128] = {
-		name = "敦刻尔克技能小子弹LV8",
-		damage = 26,
-		base = 67120,
-		id = 67128,
-		barrage_ID = {
-			80454,
-			80456
-		}
-	}
-	uv0.weapon_property_138[67129] = {
-		name = "敦刻尔克技能小子弹LV9",
-		damage = 28,
-		base = 67120,
-		id = 67129,
-		barrage_ID = {
-			80454,
-			80456
-		}
-	}
-	uv0.weapon_property_138[67130] = {
-		name = "敦刻尔克技能小子弹LV10",
+	uv0.weapon_property_138[66741] = {
+		id = 66741,
+		name = "出云技能LV1-穿甲",
 		damage = 30,
-		base = 67120,
-		id = 67130,
-		barrage_ID = {
-			80454,
-			80456
-		}
+		base = 66740
 	}
-	uv0.weapon_property_138[67140] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "半人马技能鱼雷机1Lv0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 67140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_138[66742] = {
+		id = 66742,
+		name = "出云技能LV2-穿甲",
+		damage = 38,
+		base = 66740
+	}
+	uv0.weapon_property_138[66743] = {
+		id = 66743,
+		name = "出云技能LV3-穿甲",
+		damage = 46,
+		base = 66740
+	}
+	uv0.weapon_property_138[66744] = {
+		name = "出云技能LV4-穿甲",
+		damage = 54,
+		base = 66740,
+		id = 66744,
 		bullet_ID = {
-			67140
+			19922,
+			19922,
+			19922,
+			19922
 		},
 		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_138[67141] = {
-		name = "半人马技能鱼雷机1Lv1",
-		damage = 76,
-		base = 67140,
-		id = 67141,
-		bullet_ID = {
-			67141
+			80051,
+			80055,
+			80053,
+			80057
 		}
 	}
-	uv0.weapon_property_138[67142] = {
-		name = "半人马技能鱼雷机1Lv2",
-		damage = 90,
-		base = 67140,
-		id = 67142,
+	uv0.weapon_property_138[66745] = {
+		name = "出云技能LV5-穿甲",
+		damage = 62,
+		base = 66740,
+		id = 66745,
 		bullet_ID = {
-			67142
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
 		}
 	}
-	uv0.weapon_property_138[67143] = {
-		name = "半人马技能鱼雷机1Lv3",
+	uv0.weapon_property_138[66746] = {
+		name = "出云技能LV6-穿甲",
+		damage = 70,
+		base = 66740,
+		id = 66746,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_138[66747] = {
+		name = "出云技能LV7-穿甲",
+		damage = 78,
+		base = 66740,
+		id = 66747,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_138[66748] = {
+		name = "出云技能LV8-穿甲",
+		damage = 86,
+		base = 66740,
+		id = 66748,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_138[66749] = {
+		name = "出云技能LV9-穿甲",
+		damage = 95,
+		base = 66740,
+		id = 66749,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_138[66750] = {
+		name = "出云技能LV10-穿甲",
 		damage = 104,
-		base = 67140,
-		id = 67143,
+		base = 66740,
+		id = 66750,
 		bullet_ID = {
-			67143
-		}
-	}
-	uv0.weapon_property_138[67144] = {
-		name = "半人马技能鱼雷机1Lv4",
-		damage = 118,
-		base = 67140,
-		id = 67144,
-		bullet_ID = {
-			67144
-		}
-	}
-	uv0.weapon_property_138[67145] = {
-		name = "半人马技能鱼雷机1Lv5",
-		damage = 132,
-		base = 67140,
-		id = 67145,
-		bullet_ID = {
-			67145
-		}
-	}
-	uv0.weapon_property_138[67146] = {
-		name = "半人马技能鱼雷机1Lv6",
-		damage = 146,
-		base = 67140,
-		id = 67146,
-		bullet_ID = {
-			67146
-		}
-	}
-	uv0.weapon_property_138[67147] = {
-		name = "半人马技能鱼雷机1Lv7",
-		damage = 160,
-		base = 67140,
-		id = 67147,
-		bullet_ID = {
-			67147
-		}
-	}
-	uv0.weapon_property_138[67148] = {
-		name = "半人马技能鱼雷机1Lv8",
-		damage = 174,
-		base = 67140,
-		id = 67148,
-		bullet_ID = {
-			67148
-		}
-	}
-	uv0.weapon_property_138[67149] = {
-		name = "半人马技能鱼雷机1Lv9",
-		damage = 188,
-		base = 67140,
-		id = 67149,
-		bullet_ID = {
-			67149
-		}
-	}
-	uv0.weapon_property_138[67150] = {
-		name = "半人马技能鱼雷机1Lv10",
-		damage = 202,
-		base = 67140,
-		id = 67150,
-		bullet_ID = {
-			67150
-		}
-	}
-	uv0.weapon_property_138[67160] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "半人马技能鱼雷机2Lv0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 67160,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67160
+			19922,
+			19922,
+			19922,
+			19922
 		},
 		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_138[67161] = {
-		name = "半人马技能鱼雷机2Lv1",
-		damage = 76,
-		base = 67160,
-		id = 67161,
-		bullet_ID = {
-			67161
+			80052,
+			80056,
+			80054,
+			80058
 		}
 	}
-	uv0.weapon_property_138[67162] = {
-		name = "半人马技能鱼雷机2Lv2",
-		damage = 90,
-		base = 67160,
-		id = 67162,
-		bullet_ID = {
-			67162
-		}
-	}
-	uv0.weapon_property_138[67163] = {
-		name = "半人马技能鱼雷机2Lv3",
-		damage = 104,
-		base = 67160,
-		id = 67163,
-		bullet_ID = {
-			67163
-		}
-	}
-	uv0.weapon_property_138[67164] = {
-		name = "半人马技能鱼雷机2Lv4",
-		damage = 118,
-		base = 67160,
-		id = 67164,
-		bullet_ID = {
-			67164
-		}
-	}
-	uv0.weapon_property_138[67165] = {
-		name = "半人马技能鱼雷机2Lv5",
-		damage = 132,
-		base = 67160,
-		id = 67165,
-		bullet_ID = {
-			67165
-		}
-	}
-	uv0.weapon_property_138[67166] = {
-		name = "半人马技能鱼雷机2Lv6",
-		damage = 146,
-		base = 67160,
-		id = 67166,
-		bullet_ID = {
-			67166
-		}
-	}
-	uv0.weapon_property_138[67167] = {
-		name = "半人马技能鱼雷机2Lv7",
-		damage = 160,
-		base = 67160,
-		id = 67167,
-		bullet_ID = {
-			67167
-		}
-	}
-	uv0.weapon_property_138[67168] = {
-		name = "半人马技能鱼雷机2Lv8",
-		damage = 174,
-		base = 67160,
-		id = 67168,
-		bullet_ID = {
-			67168
-		}
-	}
-	uv0.weapon_property_138[67169] = {
-		name = "半人马技能鱼雷机2Lv9",
-		damage = 188,
-		base = 67160,
-		id = 67169,
-		bullet_ID = {
-			67169
-		}
-	}
-	uv0.weapon_property_138[67170] = {
-		name = "半人马技能鱼雷机2Lv10",
-		damage = 202,
-		base = 67160,
-		id = 67170,
-		bullet_ID = {
-			67170
-		}
-	}
-	uv0.weapon_property_138[67180] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "半人马技能鱼雷Lv0",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 67180,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2114
-		},
-		barrage_ID = {
-			80480
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_138[67181] = {
-		id = 67181,
-		name = "半人马技能鱼雷Lv1",
-		damage = 76,
-		base = 67180
-	}
-	uv0.weapon_property_138[67182] = {
-		id = 67182,
-		name = "半人马技能鱼雷Lv2",
-		damage = 90,
-		base = 67180
-	}
-	uv0.weapon_property_138[67183] = {
-		id = 67183,
-		name = "半人马技能鱼雷Lv3",
-		damage = 104,
-		base = 67180
-	}
-	uv0.weapon_property_138[67184] = {
-		name = "半人马技能鱼雷Lv4",
-		damage = 118,
-		base = 67180,
-		id = 67184,
-		barrage_ID = {
-			80482
-		}
-	}
-	uv0.weapon_property_138[67185] = {
-		name = "半人马技能鱼雷Lv5",
-		damage = 132,
-		base = 67180,
-		id = 67185,
-		barrage_ID = {
-			80482
-		}
-	}
-	uv0.weapon_property_138[67186] = {
-		name = "半人马技能鱼雷Lv6",
-		damage = 146,
-		base = 67180,
-		id = 67186,
-		barrage_ID = {
-			80482
-		}
-	}
-	uv0.weapon_property_138[67187] = {
-		name = "半人马技能鱼雷Lv7",
-		damage = 160,
-		base = 67180,
-		id = 67187,
-		barrage_ID = {
-			80484
-		}
-	}
-	uv0.weapon_property_138[67188] = {
-		name = "半人马技能鱼雷Lv8",
-		damage = 174,
-		base = 67180,
-		id = 67188,
-		barrage_ID = {
-			80484
-		}
-	}
-	uv0.weapon_property_138[67189] = {
-		name = "半人马技能鱼雷Lv9",
-		damage = 188,
-		base = 67180,
-		id = 67189,
-		barrage_ID = {
-			80484
-		}
-	}
-	uv0.weapon_property_138[67190] = {
-		name = "半人马技能鱼雷Lv10",
-		damage = 202,
-		base = 67180,
-		id = 67190,
-		barrage_ID = {
-			80484
-		}
-	}
-	uv0.weapon_property_138[67200] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "半人马技能鱼雷Lv0",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 67200,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2114
-		},
-		barrage_ID = {
-			80481
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_138[67201] = {
-		id = 67201,
-		name = "半人马技能鱼雷Lv1",
-		damage = 76,
-		base = 67200
-	}
-	uv0.weapon_property_138[67202] = {
-		id = 67202,
-		name = "半人马技能鱼雷Lv2",
-		damage = 90,
-		base = 67200
-	}
-	uv0.weapon_property_138[67203] = {
-		id = 67203,
-		name = "半人马技能鱼雷Lv3",
-		damage = 104,
-		base = 67200
-	}
-	uv0.weapon_property_138[67204] = {
-		name = "半人马技能鱼雷Lv4",
-		damage = 118,
-		base = 67200,
-		id = 67204,
-		barrage_ID = {
-			80483
-		}
-	}
-	uv0.weapon_property_138[67205] = {
-		name = "半人马技能鱼雷Lv5",
-		damage = 132,
-		base = 67200,
-		id = 67205,
-		barrage_ID = {
-			80483
-		}
-	}
-	uv0.weapon_property_138[67206] = {
-		name = "半人马技能鱼雷Lv6",
-		damage = 146,
-		base = 67200,
-		id = 67206,
-		barrage_ID = {
-			80483
-		}
-	}
-	uv0.weapon_property_138[67207] = {
-		name = "半人马技能鱼雷Lv7",
-		damage = 160,
-		base = 67200,
-		id = 67207,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_138[67208] = {
-		name = "半人马技能鱼雷Lv8",
-		damage = 174,
-		base = 67200,
-		id = 67208,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_138[67209] = {
-		name = "半人马技能鱼雷Lv9",
-		damage = 188,
-		base = 67200,
-		id = 67209,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_138[67210] = {
-		name = "半人马技能鱼雷Lv10",
-		damage = 202,
-		base = 67200,
-		id = 67210,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_138[67220] = {
+	uv0.weapon_property_138[66760] = {
 		action_index = "attack",
-		range = 200,
-		type = 2,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
+		range = 115,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
-		shakescreen = 302,
-		name = "日向改技能LV0",
-		aim_type = 0,
+		shakescreen = 0,
+		name = "君主技能LV0-PVP",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 120,
+		angle = 60,
 		charge_param = "",
-		damage = 32,
+		damage = 45,
 		corrected = 100,
-		min_range = 0,
-		id = 67220,
-		attack_attribute_ratio = 100,
+		min_range = 35,
+		id = 66760,
+		attack_attribute_ratio = 120,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 1300,
+		reload_max = 2100,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19944
+			19800,
+			19800
 		},
 		barrage_ID = {
-			80490
+			80061,
+			80062
 		},
 		oxy_type = {
 			1
@@ -680,42 +742,147 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
 	}
-	uv0.weapon_property_138[67221] = {
-		id = 67221,
-		name = "日向改技能LV1",
-		damage = 38,
-		base = 67220
+	uv0.weapon_property_138[66761] = {
+		name = "君主技能LV1-PVP",
+		damage = 56,
+		base = 66760,
+		id = 66761,
+		bullet_ID = {
+			19801,
+			19801
+		}
 	}
-	uv0.weapon_property_138[67222] = {
-		id = 67222,
-		name = "日向改技能LV2",
-		damage = 44,
-		base = 67220
+	uv0.weapon_property_138[66762] = {
+		name = "君主技能LV2-PVP",
+		damage = 67,
+		base = 66760,
+		id = 66762,
+		bullet_ID = {
+			19802,
+			19802
+		}
 	}
-	uv0.weapon_property_138[67223] = {
-		id = 67223,
-		name = "日向改技能LV3",
-		damage = 51,
-		base = 67220
+	uv0.weapon_property_138[66763] = {
+		name = "君主技能LV3-PVP",
+		damage = 78,
+		base = 66760,
+		id = 66763,
+		bullet_ID = {
+			19803,
+			19803
+		}
 	}
-	uv0.weapon_property_138[67224] = {
-		id = 67224,
-		name = "日向改技能LV4",
-		damage = 58,
-		base = 67220
+	uv0.weapon_property_138[66764] = {
+		name = "君主技能LV4-PVP",
+		damage = 90,
+		base = 66760,
+		id = 66764,
+		bullet_ID = {
+			19804,
+			19804
+		},
+		barrage_ID = {
+			80063,
+			80064
+		}
 	}
-	uv0.weapon_property_138[67225] = {
-		id = 67225,
-		name = "日向改技能LV5",
-		damage = 65,
-		base = 67220
+	uv0.weapon_property_138[66765] = {
+		name = "君主技能LV5-PVP",
+		damage = 101,
+		base = 66760,
+		id = 66765,
+		bullet_ID = {
+			19805,
+			19805
+		},
+		barrage_ID = {
+			80063,
+			80064
+		}
 	}
-	uv0.weapon_property_138[67226] = {
-		id = 67226,
-		name = "日向改技能LV6",
-		damage = 72,
-		base = 67220
+	uv0.weapon_property_138[66766] = {
+		name = "君主技能LV6-PVP",
+		damage = 112,
+		base = 66760,
+		id = 66766,
+		bullet_ID = {
+			19806,
+			19806
+		},
+		barrage_ID = {
+			80063,
+			80064
+		}
+	}
+	uv0.weapon_property_138[66767] = {
+		name = "君主技能LV7-PVP",
+		damage = 124,
+		base = 66760,
+		id = 66767,
+		bullet_ID = {
+			19807,
+			19807,
+			19807
+		},
+		barrage_ID = {
+			80065,
+			80066,
+			80067
+		}
+	}
+	uv0.weapon_property_138[66768] = {
+		name = "君主技能LV8-PVP",
+		damage = 135,
+		base = 66760,
+		id = 66768,
+		bullet_ID = {
+			19808,
+			19808,
+			19808
+		},
+		barrage_ID = {
+			80065,
+			80066,
+			80067
+		}
+	}
+	uv0.weapon_property_138[66769] = {
+		name = "君主技能LV9-PVP",
+		damage = 146,
+		base = 66760,
+		id = 66769,
+		bullet_ID = {
+			19809,
+			19809,
+			19809
+		},
+		barrage_ID = {
+			80065,
+			80066,
+			80067
+		}
+	}
+	uv0.weapon_property_138[66770] = {
+		name = "君主技能LV10-PVP",
+		damage = 158,
+		base = 66760,
+		id = 66770,
+		bullet_ID = {
+			19810,
+			19810,
+			19810
+		},
+		barrage_ID = {
+			80065,
+			80066,
+			80067
+		}
 	}
 end()

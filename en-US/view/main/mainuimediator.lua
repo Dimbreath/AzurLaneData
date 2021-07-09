@@ -47,7 +47,6 @@ slot0.ENTER_WORLD = "MainUIMediator.ENTER_WORLD"
 slot0.OPEN_MEMORY = "MainUIMediator OPEN_MEMORY"
 slot0.OPEN_INS = "MainUIMediator.OPEN_INS"
 slot0.OPEN_TECHNOLOGY = "MainUIMediator.OPEN_TECHNOLOGY"
-slot0.ON_BOSS_BATTLE = "MainUIMediator.ON_BOSS_BATTLE"
 slot0.ON_MONOPOLY = "MainUIMediator.ON_MONOPOLY"
 slot0.ON_BLACKWHITE = "MainUIMediator.ON_BLACKWHITE"
 slot0.ON_MEMORYBOOK = "MainUIMediator.ON_MEMORYBOOK"
@@ -103,11 +102,6 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.OPEN_TRANINGCAMP, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.TRAININGCAMP)
-	end)
-	slot0:bind(uv0.ON_BOSS_BATTLE, function ()
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE, {
-			showAni = true
-		})
 	end)
 	slot0:bind(uv0.ON_TASK_OPEN, function (slot0, slot1)
 		if not getProxy(TaskProxy):isFinishPrevTasks(slot1) then
@@ -814,6 +808,13 @@ function slot0.handleEnterMainUI(slot0)
 			end)
 
 			if true then
+				coroutine.yield()
+			end
+
+			if getProxy(MetaCharacterProxy):getMetaSkillLevelMaxInfoList() and #slot10 > 0 then
+				uv0:sendNotification(GAME.TACTICS_META_LEVELMAX_SHOW_BOX, {
+					closeFunc = uv1
+				})
 				coroutine.yield()
 			end
 

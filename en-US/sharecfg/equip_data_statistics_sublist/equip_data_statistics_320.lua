@@ -1,390 +1,212 @@
 pg = pg or {}
 pg.equip_data_statistics_320 = {
-	[47083] = {
-		id = 47083,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59043
-			},
-			{
-				6,
-				59443
-			},
-			{
-				6,
-				59143
-			}
-		},
+	[46365] = {
+		id = 46365,
+		damage = "90/wave",
+		base = 46360,
 		weapon_id = {
-			47083,
-			84083
+			46365
 		}
 	},
-	[47084] = {
-		id = 47084,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59044
-			},
-			{
-				6,
-				59444
-			},
-			{
-				6,
-				59144
-			}
-		},
+	[46366] = {
+		id = 46366,
+		damage = "97/wave",
+		base = 46360,
 		weapon_id = {
-			47084,
-			84084
+			46366
 		}
 	},
-	[47085] = {
-		id = 47085,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59045
-			},
-			{
-				6,
-				59445
-			},
-			{
-				6,
-				59145
-			}
-		},
+	[46367] = {
+		id = 46367,
+		damage = "104/wave",
+		base = 46360,
 		weapon_id = {
-			47085,
-			84085
+			46367
 		}
 	},
-	[47086] = {
-		id = 47086,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59046
-			},
-			{
-				6,
-				59446
-			},
-			{
-				6,
-				59146
-			}
-		},
+	[46368] = {
+		id = 46368,
+		damage = "112/wave",
+		base = 46360,
 		weapon_id = {
-			47086,
-			84086
+			46368
 		}
 	},
-	[47087] = {
-		id = 47087,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59047
-			},
-			{
-				6,
-				59447
-			},
-			{
-				6,
-				59147
-			}
-		},
+	[46369] = {
+		id = 46369,
+		damage = "120/wave",
+		base = 46360,
 		weapon_id = {
-			47087,
-			84087
+			46369
 		}
 	},
-	[47088] = {
-		id = 47088,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59048
-			},
-			{
-				6,
-				59448
-			},
-			{
-				6,
-				59148
-			}
-		},
+	[46370] = {
+		id = 46370,
+		damage = "128/wave",
+		base = 46360,
 		weapon_id = {
-			47088,
-			84088
+			46370
 		}
 	},
-	[47089] = {
-		id = 47089,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59049
-			},
-			{
-				6,
-				59449
-			},
-			{
-				6,
-				59149
-			}
-		},
-		weapon_id = {
-			47089,
-			84089
-		}
-	},
-	[47090] = {
-		id = 47090,
-		base = 47080,
-		ammo_info = {
-			{
-				6,
-				59050
-			},
-			{
-				6,
-				59450
-			},
-			{
-				6,
-				59150
-			}
-		},
-		weapon_id = {
-			47090,
-			84090
-		}
-	},
-	[47091] = {
+	[46371] = {
 		anti_siren = 100,
-		base = 47080,
-		id = 47091,
+		damage = "128/wave",
+		base = 46360,
+		id = 46371,
+		weapon_id = {
+			46371
+		}
+	},
+	[46372] = {
+		anti_siren = 200,
+		damage = "128/wave",
+		base = 46360,
+		id = 46372,
+		weapon_id = {
+			46372
+		}
+	},
+	[46373] = {
+		anti_siren = 300,
+		damage = "128/wave",
+		base = 46360,
+		id = 46373,
+		weapon_id = {
+			46373
+		}
+	},
+	[47000] = {
+		name = "BF-109T Fighter",
+		type = 7,
+		speciality = "Air",
+		rarity = 2,
+		tech = 1,
+		descrip = "The ship-faring version of the BF109, the Ironblood's most trusted fighter.",
+		value_2 = 5,
+		icon = "47000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				59051
+				59000
 			},
 			{
 				6,
-				59451
+				59400
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47000,
+			84000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47001] = {
+		id = 47001,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59001
 			},
 			{
 				6,
-				59151
+				59401
 			}
 		},
 		weapon_id = {
-			47091,
-			84091
+			47001,
+			84001
 		}
 	},
-	[47100] = {
-		name = "Messerschmitt Me-155A",
+	[47002] = {
+		id = 47002,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59002
+			},
+			{
+				6,
+				59402
+			}
+		},
+		weapon_id = {
+			47002,
+			84002
+		}
+	},
+	[47003] = {
+		id = 47003,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59003
+			},
+			{
+				6,
+				59403
+			}
+		},
+		weapon_id = {
+			47003,
+			84003
+		}
+	},
+	[47020] = {
+		name = "BF-109T Fighter",
 		type = 7,
 		speciality = "Air",
 		rarity = 3,
-		tech = 1,
-		descrip = "The newest model of fighter from the Ironblood specially designed for the Graf Zeppelin.",
-		value_2 = 12,
-		icon = "47100",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 47100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59100
-			},
-			{
-				6,
-				59200
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			47100,
-			84100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
-		}
-	},
-	[47101] = {
-		id = 47101,
-		base = 47100,
-		ammo_info = {
-			{
-				6,
-				59101
-			},
-			{
-				6,
-				59201
-			}
-		},
-		weapon_id = {
-			47101,
-			84101
-		}
-	},
-	[47102] = {
-		id = 47102,
-		base = 47100,
-		ammo_info = {
-			{
-				6,
-				59102
-			},
-			{
-				6,
-				59202
-			}
-		},
-		weapon_id = {
-			47102,
-			84102
-		}
-	},
-	[47103] = {
-		id = 47103,
-		base = 47100,
-		ammo_info = {
-			{
-				6,
-				59103
-			},
-			{
-				6,
-				59203
-			}
-		},
-		weapon_id = {
-			47103,
-			84103
-		}
-	},
-	[47104] = {
-		id = 47104,
-		base = 47100,
-		ammo_info = {
-			{
-				6,
-				59104
-			},
-			{
-				6,
-				59204
-			}
-		},
-		weapon_id = {
-			47104,
-			84104
-		}
-	},
-	[47105] = {
-		id = 47105,
-		base = 47100,
-		ammo_info = {
-			{
-				6,
-				59105
-			},
-			{
-				6,
-				59205
-			}
-		},
-		weapon_id = {
-			47105,
-			84105
-		}
-	},
-	[47106] = {
-		id = 47106,
-		base = 47100,
-		ammo_info = {
-			{
-				6,
-				59106
-			},
-			{
-				6,
-				59206
-			}
-		},
-		weapon_id = {
-			47106,
-			84106
-		}
-	},
-	[47120] = {
-		name = "Messerschmitt Me-155A",
-		type = 7,
-		speciality = "Air",
-		rarity = 4,
 		tech = 2,
-		descrip = "The newest model of fighter from the Ironblood specially designed for the Graf Zeppelin.",
-		value_2 = 25,
-		icon = "47100",
+		descrip = "The ship-faring version of the BF109, the Ironblood's most trusted fighter.",
+		value_2 = 12,
+		icon = "47000",
 		attribute_2 = "air",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 47120,
+		id = 47020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				59120
+				59020
 			},
 			{
 				6,
-				59220
+				59420
 			}
 		},
 		equip_info = {
@@ -394,8 +216,8 @@ pg.equip_data_statistics_320 = {
 			9
 		},
 		weapon_id = {
-			47120,
-			84120
+			47020,
+			84020
 		},
 		skill_id = {},
 		part_main = {
@@ -411,6 +233,60 @@ pg.equip_data_statistics_320 = {
 			"KMS",
 			"CV",
 			"FT"
+		}
+	},
+	[47021] = {
+		id = 47021,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59021
+			},
+			{
+				6,
+				59421
+			}
+		},
+		weapon_id = {
+			47021,
+			84021
+		}
+	},
+	[47022] = {
+		id = 47022,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59022
+			},
+			{
+				6,
+				59422
+			}
+		},
+		weapon_id = {
+			47022,
+			84022
+		}
+	},
+	[47023] = {
+		id = 47023,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59023
+			},
+			{
+				6,
+				59423
+			}
+		},
+		weapon_id = {
+			47023,
+			84023
 		}
 	}
 }

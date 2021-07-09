@@ -1,54 +1,104 @@
 pg = pg or {}
 pg.equip_data_statistics_297 = {
-	[43149] = {
-		id = 43149,
-		damage = "53 x 6",
-		base = 43140,
+	[43065] = {
+		id = 43065,
+		damage = "40 x 6",
+		base = 43060,
 		weapon_id = {
-			43149
+			43065
 		}
 	},
-	[43150] = {
-		id = 43150,
-		damage = "55 x 6",
-		base = 43140,
+	[43066] = {
+		id = 43066,
+		damage = "42 x 6",
+		base = 43060,
 		weapon_id = {
-			43150
+			43066
 		}
 	},
-	[43151] = {
+	[43067] = {
+		id = 43067,
+		damage = "44 x 6",
+		base = 43060,
+		weapon_id = {
+			43067
+		}
+	},
+	[43068] = {
+		id = 43068,
+		damage = "46 x 6",
+		base = 43060,
+		weapon_id = {
+			43068
+		}
+	},
+	[43069] = {
+		id = 43069,
+		damage = "48 x 6",
+		base = 43060,
+		weapon_id = {
+			43069
+		}
+	},
+	[43070] = {
+		id = 43070,
+		damage = "50 x 6",
+		base = 43060,
+		weapon_id = {
+			43070
+		}
+	},
+	[43071] = {
 		anti_siren = 100,
-		damage = "55 x 6",
-		base = 43140,
-		id = 43151,
+		damage = "50 x 6",
+		base = 43060,
+		id = 43071,
 		weapon_id = {
-			43151
+			43071
 		}
 	},
-	[44000] = {
-		name = "Triple 283mm SK C/34 Main Gun Mount",
+	[43072] = {
+		anti_siren = 200,
+		damage = "50 x 6",
+		base = 43060,
+		id = 43072,
+		weapon_id = {
+			43072
+		}
+	},
+	[43073] = {
+		anti_siren = 300,
+		damage = "50 x 6",
+		base = 43060,
+		id = 43073,
+		weapon_id = {
+			43073
+		}
+	},
+	[43100] = {
+		name = "Triple 283mm SK C/28 Main Gun Mount",
 		speciality = "Volley",
-		type = 4,
+		type = 11,
 		tech = 1,
-		descrip = "The Triple 283mm SK C/34 Main Gun Mount is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
 		value_2 = 5,
-		icon = "44000",
+		icon = "43100",
 		attribute_2 = "cannon",
 		rarity = 2,
-		damage = "34 x 3",
+		damage = "30 x 6",
 		nationality = 4,
-		ammo = 3,
+		ammo = 1,
 		value_3 = 0,
-		id = 44000,
+		id = 43100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1510
+				1406
 			}
 		},
 		equip_info = {
@@ -60,71 +110,69 @@ pg.equip_data_statistics_297 = {
 			12
 		},
 		weapon_id = {
-			44000
+			43100
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"BB",
-			"MG"
+			"CB",
+			"MG",
+			"AP"
 		}
 	},
-	[44001] = {
-		id = 44001,
-		damage = "38 x 3",
-		base = 44000,
+	[43101] = {
+		id = 43101,
+		damage = "32 x 6",
+		base = 43100,
 		weapon_id = {
-			44001
+			43101
 		}
 	},
-	[44002] = {
-		id = 44002,
-		damage = "42 x 3",
-		base = 44000,
+	[43102] = {
+		id = 43102,
+		damage = "34 x 6",
+		base = 43100,
 		weapon_id = {
-			44002
+			43102
 		}
 	},
-	[44003] = {
-		id = 44003,
-		damage = "46 x 3",
-		base = 44000,
+	[43103] = {
+		id = 43103,
+		damage = "36 x 6",
+		base = 43100,
 		weapon_id = {
-			44003
+			43103
 		}
 	},
-	[44020] = {
-		name = "Triple 283mm SK C/34 Main Gun Mount",
+	[43120] = {
+		name = "Triple 283mm SK C/28 Main Gun Mount",
 		speciality = "Volley",
-		type = 4,
+		type = 11,
 		tech = 2,
-		descrip = "The Triple 283mm SK C/34 Main Gun Mount is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
 		value_2 = 12,
-		icon = "44000",
+		icon = "43100",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "37 x 3",
+		damage = "32 x 6",
 		nationality = 4,
-		ammo = 3,
+		ammo = 1,
 		value_3 = 0,
-		id = 44020,
+		id = 43120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1510
+				1406
 			}
 		},
 		equip_info = {
@@ -136,137 +184,43 @@ pg.equip_data_statistics_297 = {
 			12
 		},
 		weapon_id = {
-			44020
+			43120
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"BB",
-			"MG"
+			"CB",
+			"MG",
+			"AP"
 		}
 	},
-	[44021] = {
-		id = 44021,
-		damage = "42 x 3",
-		base = 44020,
+	[43121] = {
+		id = 43121,
+		damage = "34 x 6",
+		base = 43120,
 		weapon_id = {
-			44021
+			43121
 		}
 	},
-	[44022] = {
-		id = 44022,
-		damage = "46 x 3",
-		base = 44020,
+	[43122] = {
+		id = 43122,
+		damage = "36 x 6",
+		base = 43120,
 		weapon_id = {
-			44022
+			43122
 		}
 	},
-	[44023] = {
-		id = 44023,
-		damage = "51 x 3",
-		base = 44020,
+	[43123] = {
+		id = 43123,
+		damage = "38 x 6",
+		base = 43120,
 		weapon_id = {
-			44023
-		}
-	},
-	[44024] = {
-		id = 44024,
-		damage = "55 x 3",
-		base = 44020,
-		weapon_id = {
-			44024
-		}
-	},
-	[44025] = {
-		id = 44025,
-		damage = "59 x 3",
-		base = 44020,
-		weapon_id = {
-			44025
-		}
-	},
-	[44026] = {
-		id = 44026,
-		damage = "64 x 3",
-		base = 44020,
-		weapon_id = {
-			44026
-		}
-	},
-	[44040] = {
-		name = "Triple 283mm SK C/34 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 3,
-		descrip = "The Triple 283mm SK C/34 Main Gun Mount is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
-		value_2 = 25,
-		icon = "44000",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "40 x 3",
-		nationality = 4,
-		ammo = 3,
-		value_3 = 0,
-		id = 44040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44040
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG"
-		}
-	},
-	[44041] = {
-		id = 44041,
-		damage = "46 x 3",
-		base = 44040,
-		weapon_id = {
-			44041
-		}
-	},
-	[44042] = {
-		id = 44042,
-		damage = "50 x 3",
-		base = 44040,
-		weapon_id = {
-			44042
+			43123
 		}
 	}
 }

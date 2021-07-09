@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_150 = {
+	[21203] = {
+		id = 21203,
+		damage = "4 x 3",
+		base = 21200,
+		weapon_id = {
+			21203
+		}
+	},
 	[21220] = {
 		name = "Triple 102mm Secondary Gun Mount",
 		speciality = "Lock",
@@ -240,14 +248,6 @@ pg.equip_data_statistics_150 = {
 		base = 21240,
 		weapon_id = {
 			21248
-		}
-	},
-	[21249] = {
-		id = 21249,
-		damage = "9 x 3",
-		base = 21240,
-		weapon_id = {
-			21249
 		}
 	}
 }

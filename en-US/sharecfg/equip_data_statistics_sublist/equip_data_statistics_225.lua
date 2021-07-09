@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_225 = {
+	[32253] = {
+		anti_siren = 300,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32253,
+		weapon_id = {
+			32253
+		}
+	},
 	[32300] = {
 		name = "Twin 152mm Naval Gun Mount",
 		speciality = "Scatter",
@@ -281,14 +290,6 @@ pg.equip_data_statistics_225 = {
 		base = 32340,
 		weapon_id = {
 			32344
-		}
-	},
-	[32345] = {
-		id = 32345,
-		damage = "13 x 4",
-		base = 32340,
-		weapon_id = {
-			32345
 		}
 	}
 }

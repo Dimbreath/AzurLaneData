@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_176 = {
+	[25120] = {
+		name = "Mark VIII Submarine Torpedo",
+		speciality = "Torpedo",
+		type = 13,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "25100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "57 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25120
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
 	[25121] = {
 		id = 25121,
 		damage = "65 x 3",
@@ -177,14 +236,6 @@ pg.equip_data_statistics_176 = {
 		base = 25140,
 		weapon_id = {
 			25149
-		}
-	},
-	[25150] = {
-		id = 25150,
-		damage = "159 x 3",
-		base = 25140,
-		weapon_id = {
-			25150
 		}
 	}
 }

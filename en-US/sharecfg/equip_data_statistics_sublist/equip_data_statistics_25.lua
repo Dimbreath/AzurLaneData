@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.equip_data_statistics_25 = {
+	[1040] = {
+		name = "Ship Maintenance Facility",
+		tech = 3,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1000",
+		value_1 = "200",
+		descrip = "Use to repair ships. May only be used by Repair Ships.",
+		rarity = 5,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			12
+		},
+		part_main = {
+			12
+		},
+		part_sub = {
+			12
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[1041] = {
 		id = 1041,
 		value_1 = "230",
@@ -108,11 +145,6 @@ pg.equip_data_statistics_25 = {
 	[1102] = {
 		id = 1102,
 		value_1 = "13",
-		base = 1100
-	},
-	[1103] = {
-		id = 1103,
-		value_1 = "14",
 		base = 1100
 	}
 }

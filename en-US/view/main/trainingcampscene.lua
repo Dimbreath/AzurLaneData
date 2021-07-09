@@ -254,7 +254,7 @@ function slot0.initTecPanel(slot0)
 		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				if uv0.phaseId < uv1 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_7"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_not_open_tip"))
 					triggerToggle(uv0.tecToggles[uv0.cachePageID], true)
 				else
 					uv0:updateTecPanel(uv1)
@@ -475,6 +475,12 @@ function slot0.isMissTask(slot0, slot1)
 end
 
 function slot0.setPhrase(slot0)
+	if slot0.lockFirst == true then
+		slot0.phaseId = 1
+
+		return
+	end
+
 	slot1 = 1
 	slot2 = slot0.activity
 
@@ -614,7 +620,17 @@ function slot0.tryShowTecFixTip(slot0)
 				hideNo = true,
 				hideClose = true,
 				content = i18n("tec_catchup_errorfix"),
-				weight = LayerWeightConst.TOP_LAYER
+				weight = LayerWeightConst.TOP_LAYER,
+				onClose = function ()
+					uv0.lockFirst = true
+
+					uv0:switchPanel(uv0.tecTaskActivity)
+				end,
+				onYes = function ()
+					uv0.lockFirst = true
+
+					uv0:switchPanel(uv0.tecTaskActivity)
+				end
 			})
 		end
 	end

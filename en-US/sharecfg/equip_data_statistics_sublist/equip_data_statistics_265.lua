@@ -1,5 +1,27 @@
 pg = pg or {}
 pg.equip_data_statistics_265 = {
+	[37206] = {
+		id = 37206,
+		base = 37200,
+		ammo_info = {
+			{
+				6,
+				50006
+			},
+			{
+				6,
+				50506
+			},
+			{
+				5,
+				52106
+			}
+		},
+		weapon_id = {
+			37206,
+			83206
+		}
+	},
 	[37220] = {
 		name = "Type 0 Fighter Model 52",
 		type = 7,
@@ -420,28 +442,6 @@ pg.equip_data_statistics_265 = {
 		weapon_id = {
 			37244,
 			83244
-		}
-	},
-	[37245] = {
-		id = 37245,
-		base = 37240,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				6,
-				50545
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			37245,
-			83245
 		}
 	}
 }

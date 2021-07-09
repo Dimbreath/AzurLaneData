@@ -2,74 +2,78 @@ pg = pg or {}
 pg.weapon_property_174 = {}
 
 function ()
-	uv0.weapon_property_174[69626] = {
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV6",
-		damage = 38,
-		base = 69621,
-		id = 69626,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69412] = {
+		id = 69412,
+		name = "黎塞留技能小子弹-LV2",
+		damage = 12,
+		base = 69411
 	}
-	uv0.weapon_property_174[69627] = {
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV7",
-		damage = 43,
-		base = 69621,
-		id = 69627,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69413] = {
+		id = 69413,
+		name = "黎塞留技能小子弹-LV3",
+		damage = 13,
+		base = 69411
 	}
-	uv0.weapon_property_174[69628] = {
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV8",
-		damage = 48,
-		base = 69621,
-		id = 69628,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69414] = {
+		id = 69414,
+		name = "黎塞留技能小子弹-LV4",
+		damage = 14,
+		base = 69411
 	}
-	uv0.weapon_property_174[69629] = {
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV9",
-		damage = 53,
-		base = 69621,
-		id = 69629,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69415] = {
+		id = 69415,
+		name = "黎塞留技能小子弹-LV5",
+		damage = 15,
+		base = 69411
 	}
-	uv0.weapon_property_174[69630] = {
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV10",
-		damage = 58,
-		base = 69621,
-		id = 69630,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69416] = {
+		id = 69416,
+		name = "黎塞留技能小子弹-LV6",
+		damage = 16,
+		base = 69411
 	}
-	uv0.weapon_property_174[69631] = {
+	uv0.weapon_property_174[69417] = {
+		id = 69417,
+		name = "黎塞留技能小子弹-LV7",
+		damage = 17,
+		base = 69411
+	}
+	uv0.weapon_property_174[69418] = {
+		id = 69418,
+		name = "黎塞留技能小子弹-LV8",
+		damage = 18,
+		base = 69411
+	}
+	uv0.weapon_property_174[69419] = {
+		id = 69419,
+		name = "黎塞留技能小子弹-LV9",
+		damage = 19,
+		base = 69411
+	}
+	uv0.weapon_property_174[69420] = {
+		id = 69420,
+		name = "黎塞留技能小子弹-LV10",
+		damage = 20,
+		base = 69411
+	}
+	uv0.weapon_property_174[69421] = {
 		action_index = "attack",
 		range = 90,
-		type = 19,
+		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV1",
+		name = "贝亚恩技能·穿甲LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 50,
+		angle = 120,
 		charge_param = "",
-		damage = 23,
+		damage = 18,
 		corrected = 100,
-		min_range = 35,
-		id = 69631,
+		min_range = 0,
+		id = 69421,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -83,12 +87,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19849,
-			19849
+			19141,
+			19141
 		},
 		barrage_ID = {
-			80906,
-			80907
+			80882,
+			80884
 		},
 		oxy_type = {
 			1
@@ -98,106 +102,78 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69632] = {
-		id = 69632,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV2",
+	uv0.weapon_property_174[69422] = {
+		id = 69422,
+		name = "贝亚恩技能·穿甲LV2",
+		damage = 19,
+		base = 69421
+	}
+	uv0.weapon_property_174[69423] = {
+		id = 69423,
+		name = "贝亚恩技能·穿甲LV3",
+		damage = 20,
+		base = 69421
+	}
+	uv0.weapon_property_174[69424] = {
+		id = 69424,
+		name = "贝亚恩技能·穿甲LV4",
+		damage = 21,
+		base = 69421
+	}
+	uv0.weapon_property_174[69425] = {
+		id = 69425,
+		name = "贝亚恩技能·穿甲LV5",
+		damage = 22,
+		base = 69421
+	}
+	uv0.weapon_property_174[69426] = {
+		id = 69426,
+		name = "贝亚恩技能·穿甲LV6",
+		damage = 23,
+		base = 69421
+	}
+	uv0.weapon_property_174[69427] = {
+		id = 69427,
+		name = "贝亚恩技能·穿甲LV7",
+		damage = 24,
+		base = 69421
+	}
+	uv0.weapon_property_174[69428] = {
+		id = 69428,
+		name = "贝亚恩技能·穿甲LV8",
+		damage = 25,
+		base = 69421
+	}
+	uv0.weapon_property_174[69429] = {
+		id = 69429,
+		name = "贝亚恩技能·穿甲LV9",
 		damage = 26,
-		base = 69631
+		base = 69421
 	}
-	uv0.weapon_property_174[69633] = {
-		id = 69633,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV3",
-		damage = 29,
-		base = 69631
+	uv0.weapon_property_174[69430] = {
+		id = 69430,
+		name = "贝亚恩技能·穿甲LV10",
+		damage = 28,
+		base = 69421
 	}
-	uv0.weapon_property_174[69634] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV4",
-		damage = 32,
-		base = 69631,
-		id = 69634,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_174[69635] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV5",
-		damage = 35,
-		base = 69631,
-		id = 69635,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_174[69636] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV6",
-		damage = 38,
-		base = 69631,
-		id = 69636,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_174[69637] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV7",
-		damage = 43,
-		base = 69631,
-		id = 69637,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69638] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV8",
-		damage = 48,
-		base = 69631,
-		id = 69638,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69639] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV9",
-		damage = 53,
-		base = 69631,
-		id = 69639,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69640] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV10",
-		damage = 58,
-		base = 69631,
-		id = 69640,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69641] = {
+	uv0.weapon_property_174[69431] = {
 		action_index = "attack",
-		range = 125,
-		type = 19,
+		range = 90,
+		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV1",
+		name = "贝亚恩技能·高爆LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
+		expose = 10,
+		angle = 120,
 		charge_param = "",
-		damage = 23,
+		damage = 11,
 		corrected = 100,
-		min_range = 35,
-		id = 69641,
+		min_range = 0,
+		id = 69431,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -211,12 +187,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19847,
-			19847
+			19142,
+			19142
 		},
 		barrage_ID = {
-			80906,
-			80907
+			80883,
+			80885
 		},
 		oxy_type = {
 			1
@@ -226,125 +202,95 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69642] = {
-		id = 69642,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV2",
-		damage = 26,
-		base = 69641
+	uv0.weapon_property_174[69432] = {
+		id = 69432,
+		name = "贝亚恩技能·高爆LV2",
+		damage = 12,
+		base = 69431
 	}
-	uv0.weapon_property_174[69643] = {
-		id = 69643,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV3",
-		damage = 29,
-		base = 69641
+	uv0.weapon_property_174[69433] = {
+		id = 69433,
+		name = "贝亚恩技能·高爆LV3",
+		damage = 13,
+		base = 69431
 	}
-	uv0.weapon_property_174[69644] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV4",
-		damage = 32,
-		base = 69641,
-		id = 69644,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69434] = {
+		id = 69434,
+		name = "贝亚恩技能·高爆LV4",
+		damage = 14,
+		base = 69431
 	}
-	uv0.weapon_property_174[69645] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV5",
-		damage = 35,
-		base = 69641,
-		id = 69645,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69435] = {
+		id = 69435,
+		name = "贝亚恩技能·高爆LV5",
+		damage = 15,
+		base = 69431
 	}
-	uv0.weapon_property_174[69646] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV6",
-		damage = 38,
-		base = 69641,
-		id = 69646,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69436] = {
+		id = 69436,
+		name = "贝亚恩技能·高爆LV6",
+		damage = 16,
+		base = 69431
 	}
-	uv0.weapon_property_174[69647] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV7",
-		damage = 43,
-		base = 69641,
-		id = 69647,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69437] = {
+		id = 69437,
+		name = "贝亚恩技能·高爆LV7",
+		damage = 17,
+		base = 69431
 	}
-	uv0.weapon_property_174[69648] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV8",
-		damage = 48,
-		base = 69641,
-		id = 69648,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69438] = {
+		id = 69438,
+		name = "贝亚恩技能·高爆LV8",
+		damage = 18,
+		base = 69431
 	}
-	uv0.weapon_property_174[69649] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV9",
-		damage = 53,
-		base = 69641,
-		id = 69649,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69439] = {
+		id = 69439,
+		name = "贝亚恩技能·高爆LV9",
+		damage = 19,
+		base = 69431
 	}
-	uv0.weapon_property_174[69650] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV10",
-		damage = 58,
-		base = 69641,
-		id = 69650,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69440] = {
+		id = 69440,
+		name = "贝亚恩技能·高爆LV10",
+		damage = 20,
+		base = 69431
 	}
-	uv0.weapon_property_174[69651] = {
+	uv0.weapon_property_174[69441] = {
 		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CLFire",
+		range = 80,
+		type = 1,
+		fire_fx = "CAFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV1",
-		aim_type = 1,
+		name = "拉·加利索尼埃技能弹幕-LV1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 50,
+		angle = 120,
 		charge_param = "",
-		damage = 23,
+		damage = 11,
 		corrected = 100,
-		min_range = 35,
-		id = 69651,
+		min_range = 0,
+		id = 69441,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 3000,
+		reload_max = 412,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19848,
-			19848
+			19140
 		},
 		barrage_ID = {
-			80906,
-			80907
+			1105
 		},
 		oxy_type = {
 			1
@@ -354,125 +300,95 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69652] = {
-		id = 69652,
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV2",
-		damage = 26,
-		base = 69651
+	uv0.weapon_property_174[69442] = {
+		id = 69442,
+		name = "拉·加利索尼埃技能弹幕-LV2",
+		damage = 12,
+		base = 69441
 	}
-	uv0.weapon_property_174[69653] = {
-		id = 69653,
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV3",
-		damage = 29,
-		base = 69651
+	uv0.weapon_property_174[69443] = {
+		id = 69443,
+		name = "拉·加利索尼埃技能弹幕-LV3",
+		damage = 13,
+		base = 69441
 	}
-	uv0.weapon_property_174[69654] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV4",
-		damage = 32,
-		base = 69651,
-		id = 69654,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69444] = {
+		id = 69444,
+		name = "拉·加利索尼埃技能弹幕-LV4",
+		damage = 14,
+		base = 69441
 	}
-	uv0.weapon_property_174[69655] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV5",
-		damage = 35,
-		base = 69651,
-		id = 69655,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69445] = {
+		id = 69445,
+		name = "拉·加利索尼埃技能弹幕-LV5",
+		damage = 15,
+		base = 69441
 	}
-	uv0.weapon_property_174[69656] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV6",
-		damage = 38,
-		base = 69651,
-		id = 69656,
-		barrage_ID = {
-			80908,
-			80909
-		}
+	uv0.weapon_property_174[69446] = {
+		id = 69446,
+		name = "拉·加利索尼埃技能弹幕-LV6",
+		damage = 16,
+		base = 69441
 	}
-	uv0.weapon_property_174[69657] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV7",
-		damage = 43,
-		base = 69651,
-		id = 69657,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69447] = {
+		id = 69447,
+		name = "拉·加利索尼埃技能弹幕-LV7",
+		damage = 17,
+		base = 69441
 	}
-	uv0.weapon_property_174[69658] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV8",
-		damage = 48,
-		base = 69651,
-		id = 69658,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69448] = {
+		id = 69448,
+		name = "拉·加利索尼埃技能弹幕-LV8",
+		damage = 18,
+		base = 69441
 	}
-	uv0.weapon_property_174[69659] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV9",
-		damage = 53,
-		base = 69651,
-		id = 69659,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69449] = {
+		id = 69449,
+		name = "拉·加利索尼埃技能弹幕-LV9",
+		damage = 19,
+		base = 69441
 	}
-	uv0.weapon_property_174[69660] = {
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV10",
-		damage = 58,
-		base = 69651,
-		id = 69660,
-		barrage_ID = {
-			80910,
-			80911
-		}
+	uv0.weapon_property_174[69450] = {
+		id = 69450,
+		name = "拉·加利索尼埃技能弹幕-LV10",
+		damage = 20,
+		base = 69441
 	}
-	uv0.weapon_property_174[69661] = {
+	uv0.weapon_property_174[69451] = {
 		action_index = "attack",
-		range = 115,
-		type = 19,
-		fire_fx = "CLFire",
+		range = 90,
+		type = 10,
+		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV1",
+		name = "贝亚恩技能V-156F-Lv1",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
+		expose = 10,
+		angle = 90,
 		charge_param = "",
-		damage = 23,
+		damage = 39,
 		corrected = 100,
-		min_range = 35,
-		id = 69661,
+		min_range = 0,
+		id = 69451,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
+		attack_attribute = 0,
+		reload_max = 2490,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19849,
-			19849
+			68621
 		},
 		barrage_ID = {
-			80906,
-			80907
+			12010
 		},
 		oxy_type = {
 			1
@@ -482,89 +398,177 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69662] = {
-		id = 69662,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV2",
-		damage = 26,
-		base = 69661
-	}
-	uv0.weapon_property_174[69663] = {
-		id = 69663,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV3",
-		damage = 29,
-		base = 69661
-	}
-	uv0.weapon_property_174[69664] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV4",
-		damage = 32,
-		base = 69661,
-		id = 69664,
-		barrage_ID = {
-			80908,
-			80909
+	uv0.weapon_property_174[69452] = {
+		name = "贝亚恩技能V-156F-Lv2",
+		damage = 45,
+		base = 69451,
+		id = 69452,
+		bullet_ID = {
+			68622
 		}
 	}
-	uv0.weapon_property_174[69665] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV5",
-		damage = 35,
-		base = 69661,
-		id = 69665,
-		barrage_ID = {
-			80908,
-			80909
+	uv0.weapon_property_174[69453] = {
+		name = "贝亚恩技能V-156F-Lv3",
+		damage = 49,
+		base = 69451,
+		id = 69453,
+		bullet_ID = {
+			68623
 		}
 	}
-	uv0.weapon_property_174[69666] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV6",
-		damage = 38,
-		base = 69661,
-		id = 69666,
-		barrage_ID = {
-			80908,
-			80909
+	uv0.weapon_property_174[69454] = {
+		name = "贝亚恩技能V-156F-Lv4",
+		damage = 56,
+		base = 69451,
+		id = 69454,
+		bullet_ID = {
+			68624
 		}
 	}
-	uv0.weapon_property_174[69667] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV7",
-		damage = 43,
-		base = 69661,
-		id = 69667,
-		barrage_ID = {
-			80910,
-			80911
+	uv0.weapon_property_174[69455] = {
+		name = "贝亚恩技能V-156F-Lv5",
+		damage = 60,
+		base = 69451,
+		id = 69455,
+		bullet_ID = {
+			68625
 		}
 	}
-	uv0.weapon_property_174[69668] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV8",
-		damage = 48,
-		base = 69661,
-		id = 69668,
-		barrage_ID = {
-			80910,
-			80911
+	uv0.weapon_property_174[69456] = {
+		name = "贝亚恩技能V-156F-Lv6",
+		damage = 64,
+		base = 69451,
+		id = 69456,
+		bullet_ID = {
+			68626
 		}
 	}
-	uv0.weapon_property_174[69669] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV9",
-		damage = 53,
-		base = 69661,
-		id = 69669,
-		barrage_ID = {
-			80910,
-			80911
+	uv0.weapon_property_174[69457] = {
+		name = "贝亚恩技能V-156F-Lv7",
+		damage = 71,
+		base = 69451,
+		id = 69457,
+		bullet_ID = {
+			68627
 		}
 	}
-	uv0.weapon_property_174[69670] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV10",
-		damage = 58,
-		base = 69661,
-		id = 69670,
-		barrage_ID = {
-			80910,
-			80911
+	uv0.weapon_property_174[69458] = {
+		name = "贝亚恩技能V-156F-Lv8",
+		damage = 75,
+		base = 69451,
+		id = 69458,
+		bullet_ID = {
+			68628
 		}
 	}
-	uv0.weapon_property_174[69671] = {
+	uv0.weapon_property_174[69459] = {
+		name = "贝亚恩技能V-156F-Lv9",
+		damage = 81,
+		base = 69451,
+		id = 69459,
+		bullet_ID = {
+			68629
+		}
+	}
+	uv0.weapon_property_174[69460] = {
+		name = "贝亚恩技能V-156F-Lv10",
+		damage = 86,
+		base = 69451,
+		id = 69460,
+		bullet_ID = {
+			68630
+		}
+	}
+	uv0.weapon_property_174[69461] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 174,
+		corrected = 100,
+		min_range = 0,
+		id = 69461,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_174[69462] = {
+		id = 69462,
+		damage = 196,
+		base = 69461
+	}
+	uv0.weapon_property_174[69463] = {
+		id = 69463,
+		damage = 219,
+		base = 69461
+	}
+	uv0.weapon_property_174[69464] = {
+		id = 69464,
+		damage = 242,
+		base = 69461
+	}
+	uv0.weapon_property_174[69465] = {
+		id = 69465,
+		damage = 265,
+		base = 69461
+	}
+	uv0.weapon_property_174[69466] = {
+		id = 69466,
+		damage = 288,
+		base = 69461
+	}
+	uv0.weapon_property_174[69467] = {
+		id = 69467,
+		damage = 311,
+		base = 69461
+	}
+	uv0.weapon_property_174[69468] = {
+		id = 69468,
+		damage = 334,
+		base = 69461
+	}
+	uv0.weapon_property_174[69469] = {
+		id = 69469,
+		damage = 357,
+		base = 69461
+	}
+	uv0.weapon_property_174[69470] = {
+		id = 69470,
+		damage = 380,
+		base = 69461
+	}
+	uv0.weapon_property_174[69471] = {
 		action_index = "",
 		range = 90,
 		type = 3,
@@ -572,16 +576,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "北风技能额外六联装鱼雷-天运强化LV1",
+		name = "贝亚恩鱼雷LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 120,
 		charge_param = "",
-		damage = 45,
+		damage = 51,
 		corrected = 100,
 		min_range = 0,
-		id = 69671,
+		id = 69471,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -595,12 +599,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1801,
-			1801
+			19143
 		},
 		barrage_ID = {
-			80596,
-			80597
+			80720
 		},
 		oxy_type = {
 			1
@@ -610,142 +612,22 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69672] = {
-		id = 69672,
-		name = "北风技能额外六联装鱼雷-天运强化LV2",
-		damage = 49,
-		base = 69671
+	uv0.weapon_property_174[69472] = {
+		id = 69472,
+		name = "贝亚恩鱼雷LV2",
+		damage = 52,
+		base = 69471
 	}
-	uv0.weapon_property_174[69673] = {
-		id = 69673,
-		name = "北风技能额外六联装鱼雷-天运强化LV3",
+	uv0.weapon_property_174[69473] = {
+		id = 69473,
+		name = "贝亚恩鱼雷LV3",
 		damage = 54,
-		base = 69671
+		base = 69471
 	}
-	uv0.weapon_property_174[69674] = {
-		id = 69674,
-		name = "北风技能额外六联装鱼雷-天运强化LV4",
-		damage = 58,
-		base = 69671
-	}
-	uv0.weapon_property_174[69675] = {
-		id = 69675,
-		name = "北风技能额外六联装鱼雷-天运强化LV5",
-		damage = 63,
-		base = 69671
-	}
-	uv0.weapon_property_174[69676] = {
-		id = 69676,
-		name = "北风技能额外六联装鱼雷-天运强化LV6",
-		damage = 67,
-		base = 69671
-	}
-	uv0.weapon_property_174[69677] = {
-		id = 69677,
-		name = "北风技能额外六联装鱼雷-天运强化LV7",
-		damage = 72,
-		base = 69671
-	}
-	uv0.weapon_property_174[69678] = {
-		id = 69678,
-		name = "北风技能额外六联装鱼雷-天运强化LV8",
-		damage = 76,
-		base = 69671
-	}
-	uv0.weapon_property_174[69679] = {
-		id = 69679,
-		name = "北风技能额外六联装鱼雷-天运强化LV9",
-		damage = 82,
-		base = 69671
-	}
-	uv0.weapon_property_174[69680] = {
-		id = 69680,
-		name = "北风技能额外六联装鱼雷-天运强化LV10",
-		damage = 85,
-		base = 69671
-	}
-	uv0.weapon_property_174[69681] = {
-		action_index = "attack",
-		range = 55,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "北风技能额外弹幕-天运追加LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 6,
-		corrected = 100,
-		min_range = 0,
-		id = 69681,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19171,
-			19171,
-			19171
-		},
-		barrage_ID = {
-			80912,
-			80913,
-			80914
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_174[69682] = {
-		id = 69682,
-		name = "北风技能额外弹幕-天运追加LV2",
-		damage = 7,
-		base = 69681
-	}
-	uv0.weapon_property_174[69683] = {
-		id = 69683,
-		name = "北风技能额外弹幕-天运追加LV3",
-		damage = 8,
-		base = 69681
-	}
-	uv0.weapon_property_174[69684] = {
-		id = 69684,
-		name = "北风技能额外弹幕-天运追加LV4",
-		damage = 9,
-		base = 69681
-	}
-	uv0.weapon_property_174[69685] = {
-		id = 69685,
-		name = "北风技能额外弹幕-天运追加LV5",
-		damage = 10,
-		base = 69681
-	}
-	uv0.weapon_property_174[69686] = {
-		id = 69686,
-		name = "北风技能额外弹幕-天运追加LV6",
-		damage = 11,
-		base = 69681
-	}
-	uv0.weapon_property_174[69687] = {
-		id = 69687,
-		name = "北风技能额外弹幕-天运追加LV7",
-		damage = 12,
-		base = 69681
+	uv0.weapon_property_174[69474] = {
+		id = 69474,
+		name = "贝亚恩鱼雷LV4",
+		damage = 57,
+		base = 69471
 	}
 end()

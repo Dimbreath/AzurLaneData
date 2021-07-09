@@ -65,6 +65,10 @@ function slot3.onTrigger(slot0, slot1, slot2, slot3)
 end
 
 function slot3.AddBuff(slot0, slot1)
+	if not slot0:commanderRequire(slot1, slot0._tempData.arg_list) then
+		return
+	end
+
 	if not slot0:ammoRequire(slot1) then
 		return
 	end

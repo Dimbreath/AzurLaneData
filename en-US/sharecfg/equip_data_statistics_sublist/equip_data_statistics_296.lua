@@ -1,126 +1,119 @@
 pg = pg or {}
 pg.equip_data_statistics_296 = {
-	[43103] = {
-		id = 43103,
-		damage = "36 x 6",
-		base = 43100,
-		weapon_id = {
-			43103
-		}
-	},
-	[43120] = {
-		name = "Triple 283mm SK C/28 Main Gun Mount",
-		speciality = "Volley",
-		type = 11,
-		tech = 2,
-		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
-		value_2 = 12,
-		icon = "43100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "32 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1406
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43120
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CB",
-			"MG",
-			"AP"
-		}
-	},
-	[43121] = {
-		id = 43121,
+	[43042] = {
+		id = 43042,
 		damage = "34 x 6",
-		base = 43120,
+		base = 43040,
 		weapon_id = {
-			43121
+			43042
 		}
 	},
-	[43122] = {
-		id = 43122,
+	[43043] = {
+		id = 43043,
 		damage = "36 x 6",
-		base = 43120,
+		base = 43040,
 		weapon_id = {
-			43122
+			43043
 		}
 	},
-	[43123] = {
-		id = 43123,
+	[43044] = {
+		id = 43044,
 		damage = "38 x 6",
-		base = 43120,
+		base = 43040,
 		weapon_id = {
-			43123
+			43044
 		}
 	},
-	[43124] = {
-		id = 43124,
+	[43045] = {
+		id = 43045,
 		damage = "40 x 6",
-		base = 43120,
+		base = 43040,
 		weapon_id = {
-			43124
+			43045
 		}
 	},
-	[43125] = {
-		id = 43125,
+	[43046] = {
+		id = 43046,
 		damage = "42 x 6",
-		base = 43120,
+		base = 43040,
 		weapon_id = {
-			43125
+			43046
 		}
 	},
-	[43126] = {
-		id = 43126,
+	[43047] = {
+		id = 43047,
 		damage = "44 x 6",
-		base = 43120,
+		base = 43040,
 		weapon_id = {
-			43126
+			43047
 		}
 	},
-	[43140] = {
-		name = "Triple 283mm SK C/28 Main Gun Mount",
-		speciality = "Volley",
-		type = 11,
-		tech = 3,
-		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
-		value_2 = 25,
-		icon = "43100",
+	[43048] = {
+		id = 43048,
+		damage = "46 x 6",
+		base = 43040,
+		weapon_id = {
+			43048
+		}
+	},
+	[43049] = {
+		id = 43049,
+		damage = "48 x 6",
+		base = 43040,
+		weapon_id = {
+			43049
+		}
+	},
+	[43050] = {
+		id = 43050,
+		damage = "50 x 6",
+		base = 43040,
+		weapon_id = {
+			43050
+		}
+	},
+	[43051] = {
+		anti_siren = 100,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43051,
+		weapon_id = {
+			43051
+		}
+	},
+	[43052] = {
+		anti_siren = 200,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43052,
+		weapon_id = {
+			43052
+		}
+	},
+	[43053] = {
+		anti_siren = 300,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43053,
+		weapon_id = {
+			43053
+		}
+	},
+	[43060] = {
+		name = "Prototype Triple 203mm SK C/34 Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 0,
+		descrip = "The Twin 203mm Main Gun (SK C) is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
+		value_2 = 45,
+		icon = "43060",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "35 x 6",
+		rarity = 5,
+		damage = "30 x 6",
 		nationality = 4,
 		ammo = 1,
 		value_3 = 0,
-		id = 43140,
+		id = 43060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -128,96 +121,73 @@ pg.equip_data_statistics_296 = {
 		},
 		ammo_info = {
 			{
-				2,
-				1406
+				1,
+				1401
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1401
+			},
+			{
+				4,
+				1214
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			43140
+			43060
 		},
 		skill_id = {},
 		part_main = {
+			3,
 			18
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CB",
+			"CA",
 			"MG",
 			"AP"
 		}
 	},
-	[43141] = {
-		id = 43141,
-		damage = "37 x 6",
-		base = 43140,
+	[43061] = {
+		id = 43061,
+		damage = "32 x 6",
+		base = 43060,
 		weapon_id = {
-			43141
+			43061
 		}
 	},
-	[43142] = {
-		id = 43142,
-		damage = "39 x 6",
-		base = 43140,
+	[43062] = {
+		id = 43062,
+		damage = "34 x 6",
+		base = 43060,
 		weapon_id = {
-			43142
+			43062
 		}
 	},
-	[43143] = {
-		id = 43143,
-		damage = "41 x 6",
-		base = 43140,
+	[43063] = {
+		id = 43063,
+		damage = "36 x 6",
+		base = 43060,
 		weapon_id = {
-			43143
+			43063
 		}
 	},
-	[43144] = {
-		id = 43144,
-		damage = "43 x 6",
-		base = 43140,
+	[43064] = {
+		id = 43064,
+		damage = "38 x 6",
+		base = 43060,
 		weapon_id = {
-			43144
-		}
-	},
-	[43145] = {
-		id = 43145,
-		damage = "45 x 6",
-		base = 43140,
-		weapon_id = {
-			43145
-		}
-	},
-	[43146] = {
-		id = 43146,
-		damage = "47 x 6",
-		base = 43140,
-		weapon_id = {
-			43146
-		}
-	},
-	[43147] = {
-		id = 43147,
-		damage = "49 x 6",
-		base = 43140,
-		weapon_id = {
-			43147
-		}
-	},
-	[43148] = {
-		id = 43148,
-		damage = "51 x 6",
-		base = 43140,
-		weapon_id = {
-			43148
+			43064
 		}
 	}
 }

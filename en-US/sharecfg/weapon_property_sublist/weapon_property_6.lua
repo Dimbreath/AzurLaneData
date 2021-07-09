@@ -2,68 +2,6 @@ pg = pg or {}
 pg.weapon_property_6 = {}
 
 function ()
-	uv0.weapon_property_6[5301] = {
-		id = 5301,
-		reload_max = 3540,
-		damage = 49,
-		base = 5300
-	}
-	uv0.weapon_property_6[5302] = {
-		id = 5302,
-		reload_max = 3480,
-		damage = 57,
-		base = 5300
-	}
-	uv0.weapon_property_6[5303] = {
-		id = 5303,
-		reload_max = 3420,
-		damage = 65,
-		base = 5300
-	}
-	uv0.weapon_property_6[5320] = {
-		action_index = "attack",
-		range = 50,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联550mm鱼雷T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 47,
-		corrected = 100,
-		min_range = 0,
-		id = 5320,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1800
-		},
-		barrage_ID = {
-			1401
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_6[5321] = {
 		id = 5321,
 		reload_max = 3430,
@@ -721,5 +659,73 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_6[6001] = {
+		id = 6001,
+		reload_max = 61,
+		damage = 7,
+		base = 6000
+	}
+	uv0.weapon_property_6[6002] = {
+		id = 6002,
+		reload_max = 60,
+		damage = 8,
+		base = 6000
+	}
+	uv0.weapon_property_6[6003] = {
+		id = 6003,
+		reload_max = 59,
+		damage = 9,
+		base = 6000
+	}
+	uv0.weapon_property_6[6020] = {
+		action_index = "attack",
+		range = 15,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "12.7mm防空CannonT2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 6020,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 60,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_6[6021] = {
+		id = 6021,
+		reload_max = 58,
+		damage = 9,
+		base = 6020
 	}
 end()

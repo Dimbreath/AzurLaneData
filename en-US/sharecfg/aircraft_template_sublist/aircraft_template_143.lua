@@ -1,116 +1,71 @@
 pg = pg or {}
 pg.aircraft_template_143 = {
-	[65562] = {
-		max_hp = 57,
-		name = "威悉技能轰炸机Lv2",
-		base = 65561,
-		id = 65562,
-		hp_growth = 1781,
+	[64346] = {
+		id = 64346,
+		base = 64341,
+		max_hp = 73,
+		hp_growth = 2822,
 		weapon_ID = {
-			65582
+			64356
 		}
 	},
-	[65563] = {
-		max_hp = 64,
-		name = "威悉技能轰炸机Lv3",
-		base = 65561,
-		id = 65563,
-		hp_growth = 2013,
+	[64347] = {
+		id = 64347,
+		base = 64341,
+		max_hp = 80,
+		hp_growth = 3064,
 		weapon_ID = {
-			65583
+			64357
 		}
 	},
-	[65564] = {
-		max_hp = 70,
-		name = "威悉技能轰炸机Lv4",
-		base = 65561,
-		id = 65564,
-		hp_growth = 2246,
+	[64348] = {
+		id = 64348,
+		base = 64341,
+		max_hp = 86,
+		hp_growth = 3306,
 		weapon_ID = {
-			65584
+			64358
 		}
 	},
-	[65565] = {
-		max_hp = 77,
-		name = "威悉技能轰炸机Lv5",
-		base = 65561,
-		id = 65565,
-		hp_growth = 2478,
+	[64349] = {
+		id = 64349,
+		base = 64341,
+		max_hp = 92,
+		hp_growth = 3548,
 		weapon_ID = {
-			65585
+			64359
 		}
 	},
-	[65566] = {
-		max_hp = 84,
-		name = "威悉技能轰炸机Lv6",
-		base = 65561,
-		id = 65566,
-		hp_growth = 2710,
+	[64350] = {
+		id = 64350,
+		base = 64341,
+		max_hp = 99,
+		hp_growth = 3790,
 		weapon_ID = {
-			65586
+			64360
 		}
 	},
-	[65567] = {
-		max_hp = 90,
-		name = "威悉技能轰炸机Lv7",
-		base = 65561,
-		id = 65567,
-		hp_growth = 2943,
-		weapon_ID = {
-			65587
-		}
-	},
-	[65568] = {
-		max_hp = 97,
-		name = "威悉技能轰炸机Lv8",
-		base = 65561,
-		id = 65568,
-		hp_growth = 3175,
-		weapon_ID = {
-			65588
-		}
-	},
-	[65569] = {
-		max_hp = 103,
-		name = "威悉技能轰炸机Lv9",
-		base = 65561,
-		id = 65569,
-		hp_growth = 3407,
-		weapon_ID = {
-			65589
-		}
-	},
-	[65570] = {
-		max_hp = 110,
-		name = "威悉技能轰炸机Lv10",
-		base = 65561,
-		id = 65570,
-		hp_growth = 3640,
-		weapon_ID = {
-			65590
-		}
-	},
-	[65571] = {
-		name = "威悉技能轰炸机PlusLv1",
-		max_hp = 51,
+	[65061] = {
+		name = "普林斯顿技能鱼雷机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "JU87C",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 406,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 11,
-		type = 3,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
-		icon = "JU87C",
+		icon = "tbf",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1549,
-		speed = 50,
-		id = 65571,
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 48,
+		id = 65061,
 		scale = 1,
 		weapon_ID = {
-			65581
+			65071
 		},
 		position_offset = {
 			0,
@@ -130,13 +85,13 @@ pg.aircraft_template_143 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -153,7 +108,7 @@ pg.aircraft_template_143 = {
 				0
 			},
 			{
-				0,
+				0.52,
 				0,
 				0
 			},
@@ -162,6 +117,46 @@ pg.aircraft_template_143 = {
 				0,
 				0
 			}
+		}
+	},
+	[65062] = {
+		max_hp = 47,
+		name = "普林斯顿技能鱼雷机Lv2",
+		base = 65061,
+		id = 65062,
+		hp_growth = 1826,
+		weapon_ID = {
+			65072
+		}
+	},
+	[65063] = {
+		max_hp = 53,
+		name = "普林斯顿技能鱼雷机Lv3",
+		base = 65061,
+		id = 65063,
+		hp_growth = 2036,
+		weapon_ID = {
+			65073
+		}
+	},
+	[65064] = {
+		max_hp = 58,
+		name = "普林斯顿技能鱼雷机Lv4",
+		base = 65061,
+		id = 65064,
+		hp_growth = 2247,
+		weapon_ID = {
+			65074
+		}
+	},
+	[65065] = {
+		max_hp = 64,
+		name = "普林斯顿技能鱼雷机Lv5",
+		base = 65061,
+		id = 65065,
+		hp_growth = 2458,
+		weapon_ID = {
+			65075
 		}
 	}
 }

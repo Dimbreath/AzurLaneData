@@ -1,103 +1,172 @@
 pg = pg or {}
 pg.aircraft_template_148 = {
-	[66241] = {
-		max_hp = 32,
-		name = "山城改技能Lv1",
-		base = 66240,
-		id = 66241,
-		hp_growth = 1233,
-		weapon_ID = {
-			66261
-		}
-	},
-	[66242] = {
-		max_hp = 37,
-		name = "山城改技能Lv2",
-		base = 66240,
-		id = 66242,
-		hp_growth = 1443,
-		weapon_ID = {
-			66262
-		}
-	},
-	[66243] = {
-		max_hp = 42,
-		name = "山城改技能Lv3",
-		base = 66240,
-		id = 66243,
-		hp_growth = 1653,
-		weapon_ID = {
-			66263
-		}
-	},
-	[66244] = {
-		max_hp = 47,
-		name = "山城改技能Lv4",
-		base = 66240,
-		id = 66244,
-		hp_growth = 1863,
-		weapon_ID = {
-			66264
-		}
-	},
-	[66245] = {
-		max_hp = 52,
-		name = "山城改技能Lv5",
-		base = 66240,
-		id = 66245,
-		hp_growth = 2073,
-		weapon_ID = {
-			66265
-		}
-	},
-	[66246] = {
-		max_hp = 57,
-		name = "山城改技能Lv6",
-		base = 66240,
-		id = 66246,
-		hp_growth = 2283,
-		weapon_ID = {
-			66266
-		}
-	},
-	[66247] = {
+	[65256] = {
 		max_hp = 63,
-		name = "山城改技能Lv7",
-		base = 66240,
-		id = 66247,
-		hp_growth = 2494,
+		name = "坠星机LV6",
+		base = 65251,
+		id = 65256,
+		hp_growth = 2426,
 		weapon_ID = {
-			66267
+			65266
 		}
 	},
-	[66248] = {
-		max_hp = 69,
-		name = "山城改技能Lv8",
-		base = 66240,
-		id = 66248,
-		hp_growth = 2705,
+	[65257] = {
+		max_hp = 68,
+		name = "坠星机LV7",
+		base = 65251,
+		id = 65257,
+		hp_growth = 2634,
 		weapon_ID = {
-			66268
+			65267
 		}
 	},
-	[66249] = {
-		max_hp = 75,
-		name = "山城改技能Lv9",
-		base = 66240,
-		id = 66249,
-		hp_growth = 2916,
+	[65258] = {
+		max_hp = 74,
+		name = "坠星机LV8",
+		base = 65251,
+		id = 65258,
+		hp_growth = 2842,
 		weapon_ID = {
-			66269
+			65268
 		}
 	},
-	[66250] = {
-		max_hp = 81,
-		name = "山城改技能Lv10",
-		base = 66240,
-		id = 66250,
-		hp_growth = 3127,
+	[65259] = {
+		max_hp = 79,
+		name = "坠星机LV9",
+		base = 65251,
+		id = 65259,
+		hp_growth = 3050,
 		weapon_ID = {
-			66270
+			65269
+		}
+	},
+	[65260] = {
+		max_hp = 85,
+		name = "坠星机LV10",
+		base = 65251,
+		id = 65260,
+		hp_growth = 3258,
+		weapon_ID = {
+			65270
+		}
+	},
+	[65381] = {
+		name = "女天狗沙排啾轰炸机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "feiji_doa",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "feiji_doa",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1846,
+		speed = 48,
+		id = 65381,
+		scale = 1,
+		weapon_ID = {
+			65391,
+			65401
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65382] = {
+		max_hp = 48,
+		name = "女天狗沙排啾轰炸机Lv2",
+		base = 65381,
+		id = 65382,
+		hp_growth = 2087,
+		weapon_ID = {
+			65392,
+			65402
+		}
+	},
+	[65383] = {
+		max_hp = 54,
+		name = "女天狗沙排啾轰炸机Lv3",
+		base = 65381,
+		id = 65383,
+		hp_growth = 2327,
+		weapon_ID = {
+			65393,
+			65403
+		}
+	},
+	[65384] = {
+		max_hp = 61,
+		name = "女天狗沙排啾轰炸机Lv4",
+		base = 65381,
+		id = 65384,
+		hp_growth = 2568,
+		weapon_ID = {
+			65394,
+			65404
+		}
+	},
+	[65385] = {
+		max_hp = 67,
+		name = "女天狗沙排啾轰炸机Lv5",
+		base = 65381,
+		id = 65385,
+		hp_growth = 2809,
+		weapon_ID = {
+			65395,
+			65405
 		}
 	}
 }

@@ -1,128 +1,241 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
-	[89065] = {
-		id = 89065,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89060
-	},
-	[89066] = {
-		id = 89066,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89060
-	},
-	[89067] = {
-		id = 89067,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89060
-	},
-	[89068] = {
-		id = 89068,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89060
-	},
-	[89069] = {
-		id = 89069,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89060
-	},
-	[89070] = {
-		id = 89070,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89060
-	},
-	[89071] = {
-		id = 89071,
-		anti_siren = 100,
-		base = 89060,
-		value_2 = 26,
-		value_1 = "16"
-	},
-	[89072] = {
-		id = 89072,
-		anti_siren = 200,
-		base = 89060,
-		value_2 = 27,
-		value_1 = "17"
-	},
-	[89073] = {
-		id = 89073,
-		anti_siren = 300,
-		base = 89060,
-		value_2 = 28,
-		value_1 = "18"
-	},
-	[89080] = {
-		name = "Gamers Mark",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "89080",
-		value_1 = "245",
-		descrip = "A badge that proves its wearer is one of the Hololive Gamers.",
-		rarity = 5,
-		nationality = 105,
-		ammo = 10,
-		value_3 = 0,
-		id = 89080,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6500
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
+	[85425] = {
+		id = 85425,
+		damage = "84 x 3",
+		base = 85420,
+		weapon_id = {
+			85425
 		}
 	},
-	[89081] = {
-		id = 89081,
-		value_1 = "280",
-		base = 89080
+	[85426] = {
+		id = 85426,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85426
+		}
 	},
-	[89082] = {
-		id = 89082,
-		value_1 = "310",
-		base = 89080
+	[85427] = {
+		id = 85427,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85427
+		}
 	},
-	[89083] = {
-		id = 89083,
-		value_1 = "340",
-		base = 89080
+	[85440] = {
+		name = "Twin 152mm Pattern 1892 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "85440",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 4",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85440
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
 	},
-	[89084] = {
-		id = 89084,
-		value_1 = "370",
-		base = 89080
+	[85441] = {
+		id = 85441,
+		damage = "9 x 4",
+		base = 85440,
+		weapon_id = {
+			85441
+		}
 	},
-	[89085] = {
-		id = 89085,
-		value_1 = "400",
-		base = 89080
+	[85442] = {
+		id = 85442,
+		damage = "10 x 4",
+		base = 85440,
+		weapon_id = {
+			85442
+		}
 	},
-	[89086] = {
-		id = 89086,
-		value_1 = "430",
-		base = 89080
+	[85443] = {
+		id = 85443,
+		damage = "11 x 4",
+		base = 85440,
+		weapon_id = {
+			85443
+		}
 	},
-	[89087] = {
-		id = 89087,
-		value_1 = "460",
-		base = 89080
+	[85444] = {
+		id = 85444,
+		damage = "12 x 4",
+		base = 85440,
+		weapon_id = {
+			85444
+		}
+	},
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
+		weapon_id = {
+			85445
+		}
+	},
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
+	},
+	[85447] = {
+		id = 85447,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85447
+		}
+	},
+	[85460] = {
+		name = "Triple 180mm B-1-P Pattern 1932 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		tech = 1,
+		descrip = "A triple gun mount developed by the Northern Parliament, boasting excellent range.",
+		value_2 = 12,
+		icon = "85460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "16 x 3",
+		nationality = 7,
+		ammo = 1,
+		value_3 = 0,
+		id = 85460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1712
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1712
+			},
+			{
+				4,
+				1108
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85460
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[85461] = {
+		id = 85461,
+		base = 85460,
+		weapon_id = {
+			85461
+		}
+	},
+	[85462] = {
+		id = 85462,
+		damage = "17 x 3",
+		base = 85460,
+		weapon_id = {
+			85462
+		}
+	},
+	[85463] = {
+		id = 85463,
+		damage = "18 x 3",
+		base = 85460,
+		weapon_id = {
+			85463
+		}
+	},
+	[85464] = {
+		id = 85464,
+		damage = "19 x 3",
+		base = 85460,
+		weapon_id = {
+			85464
+		}
+	},
+	[85465] = {
+		id = 85465,
+		damage = "20 x 3",
+		base = 85460,
+		weapon_id = {
+			85465
+		}
 	}
 }

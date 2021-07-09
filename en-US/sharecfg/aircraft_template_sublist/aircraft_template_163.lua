@@ -1,57 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_163 = {
-	[67508] = {
-		id = 67508,
-		base = 67500,
-		max_hp = 63,
-		hp_growth = 2483,
-		weapon_ID = {
-			67528,
-			67548
-		}
-	},
-	[67509] = {
-		id = 67509,
-		base = 67500,
-		max_hp = 68,
-		hp_growth = 2646,
-		weapon_ID = {
-			67529,
-			67549
-		}
-	},
-	[67510] = {
-		id = 67510,
-		base = 67500,
+	[66970] = {
 		max_hp = 73,
+		name = "萨拉托加技能轰炸机Lv10",
+		base = 66960,
+		id = 66970,
 		hp_growth = 2809,
 		weapon_ID = {
-			67530,
-			67550
+			67010,
+			67030
 		}
 	},
-	[67681] = {
-		name = "龙骧技能轰炸机Lv1",
-		max_hp = 42,
+	[67140] = {
+		name = "半人马技能鱼雷机Lv0",
+		max_hp = 35,
 		accuracy = 23,
-		model_ID = "huixing",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 306,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "huixing",
+		icon = "jianyu",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1846,
-		speed = 48,
-		id = 67681,
+		nationality = 2,
+		hp_growth = 1338,
+		speed = 45,
+		id = 67140,
 		scale = 1,
 		weapon_ID = {
-			67691,
-			67701
+			67180
 		},
 		position_offset = {
 			0,
@@ -71,13 +51,13 @@ pg.aircraft_template_163 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -94,7 +74,7 @@ pg.aircraft_template_163 = {
 				0
 			},
 			{
-				0.64,
+				0.52,
 				0,
 				0
 			},
@@ -105,70 +85,84 @@ pg.aircraft_template_163 = {
 			}
 		}
 	},
-	[67682] = {
-		max_hp = 48,
-		name = "龙骧技能轰炸机Lv2",
-		base = 67681,
-		id = 67682,
-		hp_growth = 2087,
+	[67141] = {
+		max_hp = 40,
+		name = "半人马技能鱼雷机Lv1",
+		base = 67140,
+		id = 67141,
+		hp_growth = 1538,
 		weapon_ID = {
-			67692,
-			67702
+			67181
 		}
 	},
-	[67683] = {
-		max_hp = 54,
-		name = "龙骧技能轰炸机Lv3",
-		base = 67681,
-		id = 67683,
-		hp_growth = 2327,
+	[67142] = {
+		max_hp = 45,
+		name = "半人马技能鱼雷机Lv2",
+		base = 67140,
+		id = 67142,
+		hp_growth = 1739,
 		weapon_ID = {
-			67693,
-			67703
+			67182
 		}
 	},
-	[67684] = {
+	[67143] = {
+		max_hp = 50,
+		name = "半人马技能鱼雷机Lv3",
+		base = 67140,
+		id = 67143,
+		hp_growth = 1940,
+		weapon_ID = {
+			67183
+		}
+	},
+	[67144] = {
+		max_hp = 56,
+		name = "半人马技能鱼雷机Lv4",
+		base = 67140,
+		id = 67144,
+		hp_growth = 2140,
+		weapon_ID = {
+			67184
+		}
+	},
+	[67145] = {
 		max_hp = 61,
-		name = "龙骧技能轰炸机Lv4",
-		base = 67681,
-		id = 67684,
-		hp_growth = 2568,
+		name = "半人马技能鱼雷机Lv5",
+		base = 67140,
+		id = 67145,
+		hp_growth = 2341,
 		weapon_ID = {
-			67694,
-			67704
+			67185
 		}
 	},
-	[67685] = {
-		max_hp = 67,
-		name = "龙骧技能轰炸机Lv5",
-		base = 67681,
-		id = 67685,
-		hp_growth = 2809,
+	[67146] = {
+		max_hp = 66,
+		name = "半人马技能鱼雷机Lv6",
+		base = 67140,
+		id = 67146,
+		hp_growth = 2541,
 		weapon_ID = {
-			67695,
-			67705
+			67186
 		}
 	},
-	[67686] = {
-		max_hp = 73,
-		name = "龙骧技能轰炸机Lv6",
-		base = 67681,
-		id = 67686,
-		hp_growth = 3050,
+	[67147] = {
+		max_hp = 71,
+		name = "半人马技能鱼雷机Lv7",
+		base = 67140,
+		id = 67147,
+		hp_growth = 2742,
 		weapon_ID = {
-			67696,
-			67706
+			67187
 		}
 	},
-	[67687] = {
-		max_hp = 79,
-		name = "龙骧技能轰炸机Lv7",
-		base = 67681,
-		id = 67687,
-		hp_growth = 3290,
+	[67148] = {
+		max_hp = 77,
+		name = "半人马技能鱼雷机Lv8",
+		base = 67140,
+		id = 67148,
+		hp_growth = 2943,
 		weapon_ID = {
-			67697,
-			67707
+			67188
 		}
 	}
 }

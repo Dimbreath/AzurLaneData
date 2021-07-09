@@ -153,18 +153,9 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 
 		if nil then
 			if not slot2:isForbiddenAtPos(slot4, uv2) then
-				if slot3:hasSkin() then
-					slot4:setSkinId(slot3:getSkinId())
-				end
-
 				slot2:updateEquip(uv2, slot4)
 				slot0:updateShip(slot2)
 			else
-				if slot3:hasSkin() then
-					slot2:updateEquipmentSkin(uv2, 0)
-					slot1:addEquipmentSkin(slot3:getSkinId(), 1)
-				end
-
 				slot2:updateEquip(uv2, nil)
 				slot0:updateShip(slot2)
 

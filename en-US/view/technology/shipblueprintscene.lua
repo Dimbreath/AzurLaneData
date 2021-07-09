@@ -26,10 +26,6 @@ function slot0.setTaskVOs(slot0, slot1)
 	slot0.taskVOs = slot1
 end
 
-function slot0.setItemVOs(slot0, slot1)
-	slot0.itemVOs = slot1
-end
-
 function slot0.getTaskById(slot0, slot1)
 	return slot0.taskVOs[slot1] or Task.New({
 		id = slot1
@@ -37,18 +33,9 @@ function slot0.getTaskById(slot0, slot1)
 end
 
 function slot0.getItemById(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.itemVOs) do
-		if slot7.id == slot1 and slot7.count > 0 then
-			slot2 = slot7
-
-			break
-		end
-	end
-
-	return slot2 or Item.New({
+	return getProxy(BagProxy):getItemById(slot1) or Item.New({
 		count = 0,
+		type = DROP_TYPE_ITEM,
 		id = slot1
 	})
 end
@@ -82,7 +69,6 @@ function slot0.init(slot0)
 	slot0.rightPanel = slot0:findTF("right_panel", slot0.top)
 	slot0.shipContainer = slot0:findTF("ships/bg/content", slot0.bottomPanel)
 	slot0.shipTpl = slot0:findTF("ship_tpl", slot0.bottomPanel)
-	slot0.versionLight = slot0:findTF("ships/bg/version/decoration/left_light", slot0.bottomPanel)
 	slot0.versionBtn = slot0:findTF("ships/bg/version/version_btn", slot0.bottomPanel)
 	slot0.eyeTF = slot0:findTF("eye", slot0.leftPanle)
 	slot0.painting = slot0:findTF("main/center_panel/painting")
@@ -130,15 +116,15 @@ function slot0.init(slot0)
 	slot0.levelSliderTxt = slot0:findTF("title/slider/Text", slot0.modPanel)
 	slot0.preLevelSlider = slot0:findTF("title/pre_slider", slot0.modPanel):GetComponent(typeof(Slider))
 	slot0.modLevel = slot0:findTF("title/level_bg/Text", slot0.modPanel):GetComponent(typeof(Text))
-	slot0.itemInfo = slot0:findTF("desc/calc_panel/item_bg", slot0.modPanel)
-	slot0.itemInfoIcon = slot0:findTF("icon", slot0.itemInfo)
-	slot0.itemInfoCount = slot0:findTF("kc/count", slot0.itemInfo):GetComponent(typeof(Text))
 	slot0.needLevelTxt = slot0:findTF("title/Text", slot0.modPanel):GetComponent(typeof(Text))
-	slot0.modBtn = slot0:findTF("desc/calc_panel/confirm_btn", slot0.modPanel)
-	slot0.calcPanel = slot0:findTF("desc/calc_panel", slot0.modPanel)
-	slot0.calcMinBtn = slot0:findTF("min", slot0.calcPanel)
-	slot0.calcMaxBtn = slot0:findTF("max", slot0.calcPanel)
-	slot0.calcTxt = slot0:findTF("count/Text", slot0.calcPanel)
+	slot0.calcPanel = slot0.modPanel:Find("desc/calc_panel")
+	slot0.calcMinBtn = slot0.calcPanel:Find("min")
+	slot0.calcMaxBtn = slot0.calcPanel:Find("max")
+	slot0.calcTxt = slot0.calcPanel:Find("count/Text")
+	slot0.itemInfo = slot0.calcPanel:Find("item_bg")
+	slot0.itemInfoIcon = slot0.itemInfo:Find("icon")
+	slot0.itemInfoCount = slot0.itemInfo:Find("kc")
+	slot0.modBtn = slot0.calcPanel:Find("confirm_btn")
 	slot0.fittingBtn = slot0:findTF("desc/fitting_btn", slot0.modPanel)
 	slot0.fittingBtnEffect = slot0.fittingBtn:Find("anim/ShipBlue02")
 	slot0.fittingPanel = slot0:findTF("fitting_panel", slot0.rightPanel)
@@ -157,12 +143,16 @@ function slot0.init(slot0)
 	slot0.fittingCalcTxt = slot0:findTF("calc/count/Text", slot0.fittingCalcPanel)
 	slot0.fittingItemInfo = slot0:findTF("item_bg", slot0.fittingCalcPanel)
 	slot0.fittingItemInfoIcon = slot0:findTF("icon", slot0.fittingItemInfo)
-	slot0.fittingItemInfoCount = slot0:findTF("kc/count", slot0.fittingItemInfo):GetComponent(typeof(Text))
+	slot0.fittingItemInfoCount = slot0:findTF("kc", slot0.fittingItemInfo)
 	slot0.fittingConfirmBtn = slot0:findTF("confirm_btn", slot0.fittingCalcPanel)
 	slot0.fittingCancelBtn = slot0:findTF("cancel_btn", slot0.fittingCalcPanel)
 	slot0.msgPanel = slot0:findTF("msg_panel", slot0.blurPanel)
 
 	setActive(slot0.msgPanel, false)
+
+	slot0.versionPanel = slot0._tf:Find("version_panel")
+
+	setActive(slot0.versionPanel, false)
 
 	slot0.preViewer = slot0:findTF("preview")
 	slot0.preViewerFrame = slot0:findTF("preview/frame")
@@ -282,29 +272,51 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.msgPanel), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
-	end)
+	end, SFX_CANCEL)
 	setText(slot0:findTF("window/confirm_btn/Text", slot0.msgPanel), i18n("text_confirm"))
 	onButton(slot0, slot0:findTF("window/confirm_btn", slot0.msgPanel), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
-	end)
+	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("bg", slot0.msgPanel), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
-	end)
+	end, SFX_CANCEL)
 	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot0.version, slot0.versionBtn)
-	triggerToggle(slot0.versionLight:GetChild(slot0.version - 1), true)
-	onButton(slot0, slot0.versionBtn, function ()
-		uv0.version = uv0.version % uv1 + 1
 
-		uv0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, uv0.version)
+	if slot1 > 1 then
+		onButton(slot0, slot0.versionBtn, function ()
+			setActive(uv0.versionPanel, true)
+			pg.UIMgr.GetInstance():BlurPanel(uv0.versionPanel)
+		end, SFX_PANEL)
 
-		uv0.contextData.shipBluePrintVO = nil
+		slot6 = SFX_CANCEL
 
-		GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. uv0.version, uv0.versionBtn)
-		triggerToggle(uv0.versionLight:GetChild(uv0.version - 1), true)
-		uv0:initShips()
-	end)
+		onButton(slot0, slot0.versionPanel:Find("bg"), function ()
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
+			setActive(uv0.versionPanel, false)
+		end, slot6)
+
+		for slot6 = 1, slot0.versionPanel:Find("window/content").childCount do
+			setActive(slot2:Find("version_" .. slot6), slot6 <= slot1)
+
+			if slot6 <= slot1 then
+				onButton(slot0, slot7, function ()
+					uv0.version = uv1
+
+					uv0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, uv0.version)
+
+					uv0.contextData.shipBluePrintVO = nil
+
+					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. uv0.version, uv0.versionBtn)
+					uv0:initShips()
+					pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
+					setActive(uv0.versionPanel, false)
+				end, SFX_CANCEL)
+			end
+		end
+	end
+
 	LeanTween.alpha(rtf(slot0.skillArrLeft), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 	LeanTween.alpha(rtf(slot0.skillArrRight), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 end
@@ -425,7 +437,7 @@ function slot0.createShipItem(slot0, slot1)
 			print("asdfasdfasdf===============================")
 		else
 			LoadSpriteAsync("shipdesignicon/" .. slot0.shipBluePrintVO:getShipVO():getPainting(), function (slot0)
-				if uv0.shipBluePrintVO.id > 0 and slot0.name == uv0.shipBluePrintVO:getShipVO():getPainting() then
+				if uv0.shipBluePrintVO.id > 0 and string.find(slot0.name, uv1) then
 					uv0.iconShip.sprite = slot0
 				end
 			end)
@@ -818,28 +830,99 @@ end
 function slot0.updateModPanel(slot0)
 	slot1 = slot0.contextData.shipBluePrintVO
 	slot2 = slot0:getShipById(slot1.shipId)
-	slot4 = slot0:getItemById(slot1:getConfig("strengthen_item"))
-	slot6 = math.min(slot4.count, slot1:getUseageMaxItem())
+	slot6 = 0
+	slot7, slot8 = nil
 
-	setScrollText(findTF(slot0.itemInfo, "name/Text"), slot4:getConfig("name"))
+	if slot0:getItemById(slot1:getConfig("strengthen_item")).count == 0 and slot1:isPursuing() then
+		slot7 = math.min(getProxy(TechnologyProxy):calcMaxPursuingCount(slot1), slot1:getUseageMaxItem())
 
-	slot0.itemInfoCount.text = slot4.count
+		function slot8(slot0)
+			slot3 = Clone(uv0)
 
-	updateItem(slot0.itemInfoIcon, slot4)
-	onButton(slot0, slot0.itemInfoIcon, function ()
-		ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
-	end)
-	onButton(slot0, slot0.modBtn, function ()
-		if uv0:inModAnim() then
-			return
+			slot3:addExp(slot0 * uv0:getItemExp())
+			uv1:updateModInfo(slot3)
+			setText(uv1.calcTxt, slot0)
+
+			slot4 = TechnologyProxy.getPursuingDiscount(uv2.pursuingTimes + uv3 + 1)
+
+			setText(uv1.itemInfoIcon:Find("icon_bg/count"), uv0:getPursuingPrice(slot4))
+			setActive(uv1.itemInfo:Find("no_cost"), slot4 == 0)
+			setActive(uv1.itemInfo:Find("discount"), slot4 > 0 and slot4 < 100)
+
+			if slot4 > 0 and slot4 < 100 then
+				setText(uv1.itemInfo:Find("discount/Text"), 100 - slot4 .. "%OFF")
+			end
+
+			setActive(uv1.modBtn:Find("pursuing_cost"), uv3 > 0)
+			setText(uv1.modBtn:Find("pursuing_cost/Text"), uv2:calcPursuingCost(uv0, slot0))
 		end
 
-		if uv1 == 0 then
-			return
+		slot10 = {
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResGold
+		}
+
+		updateDrop(slot0.itemInfoIcon, slot10)
+		onButton(slot0, slot0.itemInfoIcon, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
+		end, SFX_PANEL)
+		setScrollText(findTF(slot0.itemInfo, "name/Text"), HXSet.hxLan(slot10.cfg.name))
+		setText(slot0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold))
+		setText(slot0.itemInfo:Find("no_cost/Text"), i18n("tec_tip_no_consumption"))
+		setText(slot0.modBtn:Find("pursuing_cost/word"), i18n("tec_tip_to_consumption"))
+		onButton(slot0, slot0.modBtn, function ()
+			if uv0:inModAnim() then
+				return
+			end
+
+			if uv1 == 0 then
+				return
+			end
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("blueprint_catchup_by_gold_confirm", uv2:calcPursuingCost(uv3, uv1)),
+				onYes = function ()
+					uv0:emit(ShipBluePrintMediator.ON_PURSUING, uv1.id, uv2)
+				end
+			})
+		end, SFX_PANEL)
+	else
+		slot7 = math.min(slot4.count, slot1:getUseageMaxItem())
+
+		function slot8(slot0)
+			slot3 = Clone(uv0)
+
+			slot3:addExp(slot0 * uv0:getItemExp())
+			uv1:updateModInfo(slot3)
+			setText(uv1.calcTxt, slot0)
 		end
 
-		uv0:emit(ShipBluePrintMediator.ON_MOD, uv2.id, uv1)
-	end, SFX_PANEL)
+		updateDrop(slot0.itemInfoIcon, {
+			type = DROP_TYPE_ITEM,
+			id = slot4.id
+		})
+		onButton(slot0, slot0.itemInfoIcon, function ()
+			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", HXSet.hxLan(uv0:getConfig("name"))))
+		end, SFX_PANEl)
+		setScrollText(findTF(slot0.itemInfo, "name/Text"), HXSet.hxLan(slot4:getConfig("name")))
+		setText(slot0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. slot4.count)
+		setActive(slot0.itemInfo:Find("no_cost"), false)
+		setActive(slot0.itemInfo:Find("discount"), false)
+		setActive(slot0.modBtn:Find("pursuing_cost"), false)
+		onButton(slot0, slot0.modBtn, function ()
+			if uv0:inModAnim() then
+				return
+			end
+
+			if uv1 == 0 then
+				return
+			end
+
+			uv0:emit(ShipBluePrintMediator.ON_MOD, uv2.id, uv1)
+		end, SFX_PANEL)
+	end
+
+	slot8(slot6)
 	pressPersistTrigger(slot0.calcMinBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == 0 then
 			if slot0 then
@@ -887,13 +970,6 @@ function slot0.updateModPanel(slot0)
 		uv5(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	function (slot0)
-		slot3 = Clone(uv0)
-
-		slot3:addExp(slot0 * uv0:getItemExp())
-		uv1:updateModInfo(slot3)
-		setText(uv1.calcTxt, slot0)
-	end(0)
-	function (slot0)
 		setActive(uv0.calcPanel, not slot0)
 		setActive(uv0.fittingBtn, slot0)
 		setActive(uv0.fittingBtnEffect, false)
@@ -932,13 +1008,13 @@ function slot0.updateModPanel(slot0)
 		slot0:updateFittingPanel()
 
 		if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
-			pg.NewStoryMgr.GetInstance():Play(slot9, function ()
+			pg.NewStoryMgr.GetInstance():Play(slot10, function ()
 				uv0:buildStartAni("fateStartWindow", function ()
 					uv0(true)
 				end)
 			end)
 		else
-			slot8(true)
+			slot9(true)
 		end
 	end
 end
@@ -946,47 +1022,109 @@ end
 function slot0.updateFittingPanel(slot0)
 	slot1 = slot0.contextData.shipBluePrintVO
 	slot2 = slot0:getShipById(slot1.shipId)
-	slot4 = slot0:getItemById(slot1:getConfig("strengthen_item"))
-	slot5 = 0
-	slot6 = math.min(slot4.count, slot1:getFateUseageMaxItem())
+	slot6 = 0
+	slot7, slot8 = nil
 
-	function slot7(slot0)
-		slot3 = Clone(uv0)
+	if slot0:getItemById(slot1:getConfig("strengthen_item")).count == 0 and slot1:isPursuing() then
+		slot7 = math.min(getProxy(TechnologyProxy):calcMaxPursuingCount(slot1), slot1:getFateUseageMaxItem())
 
-		slot3:addExp(slot0 * uv0:getItemExp())
-		uv1:updateFittingInfo(slot3)
-		setText(uv1.fittingCalcTxt, slot0)
+		function slot8(slot0)
+			slot3 = Clone(uv0)
+
+			slot3:addExp(slot0 * uv0:getItemExp())
+			uv1:updateFittingInfo(slot3)
+			setText(uv1.fittingCalcTxt, slot0)
+
+			slot4 = TechnologyProxy.getPursuingDiscount(uv2.pursuingTimes + uv3 + 1)
+
+			setText(uv1.fittingItemInfoIcon:Find("icon_bg/count"), uv0:getPursuingPrice(slot4))
+			setActive(uv1.fittingItemInfo:Find("no_cost"), slot4 == 0)
+			setActive(uv1.fittingItemInfo:Find("discount"), slot4 > 0 and slot4 < 100)
+
+			if slot4 > 0 and slot4 < 100 then
+				setText(uv1.fittingItemInfo:Find("discount/Text"), 100 - slot4 .. "%OFF")
+			end
+
+			setActive(uv1.fittingConfirmBtn:Find("pursuing_cost"), slot0 > 0)
+			setText(uv1.fittingConfirmBtn:Find("pursuing_cost/Text"), uv2:calcPursuingCost(uv0, slot0))
+		end
+
+		slot10 = {
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResGold
+		}
+
+		updateDrop(slot0.fittingItemInfoIcon, slot10)
+		onButton(slot0, slot0.fittingItemInfoIcon, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
+		end, SFX_PANEL)
+		setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), HXSet.hxLan(slot10.cfg.name))
+		setText(slot0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold))
+		setText(slot0.fittingItemInfo:Find("no_cost/Text"), i18n("tec_tip_no_consumption"))
+		setText(slot0.fittingConfirmBtn:Find("pursuing_cost/word"), i18n("tec_tip_to_consumption"))
+		onButton(slot0, slot0.fittingConfirmBtn, function ()
+			if uv0:inModAnim() then
+				return
+			end
+
+			if uv1 == 0 then
+				return
+			end
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("blueprint_catchup_by_gold_confirm", uv2:calcPursuingCost(uv3, uv1)),
+				onYes = function ()
+					uv0:emit(ShipBluePrintMediator.ON_PURSUING, uv1.id, uv2)
+				end
+			})
+		end, SFX_PANEL)
+	else
+		slot7 = math.min(slot4.count, slot1:getFateUseageMaxItem())
+
+		function slot8(slot0)
+			slot3 = Clone(uv0)
+
+			slot3:addExp(slot0 * uv0:getItemExp())
+			uv1:updateFittingInfo(slot3)
+			setText(uv1.fittingCalcTxt, slot0)
+		end
+
+		updateDrop(slot0.fittingItemInfoIcon, {
+			type = DROP_TYPE_ITEM,
+			id = slot4.id
+		})
+		onButton(slot0, slot0.fittingItemInfoIcon, function ()
+			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", HXSet.hxLan(uv0:getConfig("name"))))
+		end, SFX_PANEl)
+		setScrollText(slot0.fittingItemInfo:Find("name/Text"), HXSet.hxLan(slot4:getConfig("name")))
+		setText(slot0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. slot4.count)
+		setActive(slot0.fittingItemInfo:Find("no_cost"), false)
+		setActive(slot0.fittingItemInfo:Find("discount"), false)
+		setActive(slot0.fittingConfirmBtn:Find("pursuing_cost"), false)
+		onButton(slot0, slot0.fittingConfirmBtn, function ()
+			if uv0:inModAnim() then
+				return
+			end
+
+			if uv1 == 0 then
+				return
+			end
+
+			uv0:emit(ShipBluePrintMediator.ON_MOD, uv2.id, uv1)
+		end, SFX_PANEL)
 	end
 
-	setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), slot4:getConfig("name"))
-
-	slot0.fittingItemInfoCount.text = slot4.count
-
-	updateItem(slot0.fittingItemInfoIcon, slot4)
-	onButton(slot0, slot0.fittingItemInfoIcon, function ()
-		ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
-	end)
-	setText(slot0:findTF("attr/name", slot0.fittingAttrPanel), AttributeType.Type2Name(AttributeType.Luck))
-	setText(slot0:findTF("desc/top/text/Text", slot0.fittingPanel), i18n("fate_phase_word"))
-	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot1.id, "", slot0:findTF("phase_5/off/icon_off", slot0.fittingAttrPanel), true)
-	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot1.id, "", slot0:findTF("phase_5/on/icon_on", slot0.fittingAttrPanel), true)
+	slot8(slot6)
+	setText(slot0.fittingAttrPanel:Find("attr/name"), AttributeType.Type2Name(AttributeType.Luck))
+	setText(slot0.fittingPanel:Find("desc/top/text/Text"), i18n("fate_phase_word"))
+	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot1.id, "", slot0.fittingAttrPanel:Find("phase_5/off/icon_off"), true)
+	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot1.id, "", slot0.fittingAttrPanel:Find("phase_5/on/icon_on"), true)
 	onButton(slot0, slot0.fittingCancelBtn, function ()
 		uv0:switchUI(0.3, false, false, function ()
 			setActive(uv0.modPanel, true)
 			setActive(uv0.fittingPanel, false)
 			uv0:switchUI(uv1, true, false)
 		end, 0.1)
-	end, SFX_PANEL)
-	onButton(slot0, slot0.fittingConfirmBtn, function ()
-		if uv0:inModAnim() then
-			return
-		end
-
-		if uv1 == 0 then
-			return
-		end
-
-		uv0:emit(ShipBluePrintMediator.ON_MOD, uv2.id, uv1)
 	end, SFX_PANEL)
 	pressPersistTrigger(slot0.fittingCalcMinBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == 0 then
@@ -1002,7 +1140,7 @@ function slot0.updateFittingPanel(slot0)
 		uv3(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
 
-	function slot11(slot0)
+	function slot12(slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() then
 			if slot0 then
 				slot0()
@@ -1036,15 +1174,13 @@ function slot0.updateFittingPanel(slot0)
 		uv5(uv2)
 	end
 
-	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, slot11, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, slot12, nil, true, true, 0.1, SFX_PANEL)
 
-	for slot11 = 1, slot1:getMaxFateLevel() do
-		onButton(slot0, slot0:findTF("phase_" .. slot11, slot0.fittingAttrPanel), function ()
+	for slot12 = 1, slot1:getMaxFateLevel() do
+		onButton(slot0, slot0:findTF("phase_" .. slot12, slot0.fittingAttrPanel), function ()
 			uv0:showFittingMsgPanel(uv1)
 		end, SFX_PANEL)
 	end
-
-	slot7(slot5)
 end
 
 function slot0.updateFittingInfo(slot0, slot1)
@@ -1482,7 +1618,7 @@ function slot0.createTask(slot0, slot1)
 	function slot2.updateItemInfo(slot0, slot1)
 		slot0.taskVO = slot1
 
-		setText(slot0.title, slot1:getConfig("name"))
+		changeToScrollText(slot0.title, slot1:getConfig("name"))
 		setText(slot0.desc, slot1:getConfig("desc") .. "\n\n")
 
 		slot2 = nil
@@ -1798,6 +1934,12 @@ function slot0.cloneTplTo(slot0, slot1, slot2)
 end
 
 function slot0.onBackPressed(slot0)
+	if isActive(slot0.versionPanel) then
+		triggerButton(slot0.versionPanel:Find("bg"))
+
+		return
+	end
+
 	if slot0.isShowPreview then
 		slot0:closePreview(true)
 

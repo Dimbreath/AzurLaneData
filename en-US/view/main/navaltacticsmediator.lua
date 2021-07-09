@@ -144,11 +144,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setSKillClassNum(slot3)
 		slot0.viewComponent:updateLockStudentPos(slot3, true)
 	elseif slot2 == GAME.TACTICS_META_UNLOCK_SKILL_DONE then
-		slot0.viewComponent:closeMetaSkillPanel()
-		slot0.viewComponent:showMetaSkillPanel(slot3.metaShipID)
+		slot0.viewComponent:updateMetaSkillPanel(slot3.metaShipID)
 	elseif slot2 == GAME.TACTICS_META_SWITCH_SKILL_DONE then
-		slot0.viewComponent:closeMetaSkillPanel()
-		slot0.viewComponent:showMetaSkillPanel(slot3.metaShipID)
+		slot0.viewComponent:updateMetaSkillPanel(slot3.metaShipID)
 	end
 end
 

@@ -1,5 +1,10 @@
 pg = pg or {}
 pg.equip_data_statistics_47 = {
+	[2426] = {
+		id = 2426,
+		value_1 = "266",
+		base = 2420
+	},
 	[2440] = {
 		name = "Repair Toolkit",
 		tech = 3,
@@ -136,38 +141,5 @@ pg.equip_data_statistics_47 = {
 		id = 2503,
 		value_1 = "72",
 		base = 2500
-	},
-	[2520] = {
-		name = "Fire Suppressor",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2500",
-		value_1 = "90",
-		descrip = "Helps prevent fires.",
-		rarity = 2,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2520,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6150
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

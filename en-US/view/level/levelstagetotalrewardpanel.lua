@@ -8,19 +8,20 @@ slot1 = 0.15
 
 function slot0.init(slot0)
 	slot0.window = slot0._tf:Find("Window")
-	slot0.boxView = slot0.window:Find("Box/ScrollView")
-	slot0.emptyTip = slot0.window:Find("Box/EmptyTip")
+	slot0.boxView = slot0.window:Find("Layout/Box/ScrollView")
+	slot0.emptyTip = slot0.window:Find("Layout/Box/EmptyTip")
 	slot0.itemList = slot0.boxView:Find("Viewport/Content/ItemGrid")
 	slot1 = Instantiate(slot0.itemList:GetComponent(typeof(ItemList)).prefabItem[0])
 	slot1.name = "Icon"
 
 	setParent(slot1, slot0.itemList:Find("GridItem/Shell"))
 
-	slot0.spList = slot0.window:Find("SpList")
+	slot0.spList = slot0.window:Find("Fixed/SpList")
 
 	slot0.CloneIconTpl(slot0.spList:Find("Item/Active/Item"), "Icon")
 	setText(slot0.emptyTip, i18n("autofight_rewards_none"))
-	setText(slot0.window:Find("top/bg/obtain/title"), i18n("autofight_rewards"))
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
+	setText(slot0.window:Find("Layout/Box/Title/Text"), i18n("battle_end_subtitle1"))
 end
 
 function slot0.didEnter(slot0)
@@ -31,10 +32,25 @@ function slot0.didEnter(slot0)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
 		LuaHelper.Vibrate()
 	end
+
+	if getProxy(MetaCharacterProxy):getMetaTacticsInfoOnEnd() and #slot3 > 0 then
+		slot0.metaExpView = MetaExpView.New(slot0.window:Find("Layout"), slot0.event, slot0.contextData)
+		slot4 = slot0.metaExpView
+
+		slot4:Reset()
+		slot4:Load()
+		slot4:setData(slot3)
+		slot4:ActionInvoke("Show")
+	end
 end
 
 function slot0.willExit(slot0)
 	slot0:SkipAnim()
+
+	if slot0.metaExpView then
+		slot0.metaExpView:Destroy()
+	end
+
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
@@ -51,8 +67,8 @@ function slot0.UpdateView(slot0)
 		existCall(uv1.onClose)
 		uv0:closeView()
 	end)
-	setText(slot0.window:Find("ButtonGO/pic"), i18n("autofight_onceagain"))
-	onButton(slot0, slot0.window:Find("ButtonGO"), function ()
+	setText(slot0.window:Find("Fixed/ButtonGO/pic"), i18n("autofight_onceagain"))
+	onButton(slot0, slot0.window:Find("Fixed/ButtonGO"), function ()
 		if uv0.contextData.spItemID and not (PlayerPrefs.GetInt("autoFight_firstUse_sp", 0) == 1) then
 			PlayerPrefs.SetInt("autoFight_firstUse_sp", 1)
 			PlayerPrefs.Save()
@@ -111,8 +127,8 @@ function slot0.UpdateView(slot0)
 
 		uv0:closeView()
 	end, SFX_CONFIRM)
-	setText(slot0.window:Find("ButtonExit/pic"), i18n("autofight_leave"))
-	onButton(slot0, slot0.window:Find("ButtonExit"), function ()
+	setText(slot0.window:Find("Fixed/ButtonExit/pic"), i18n("autofight_leave"))
+	onButton(slot0, slot0.window:Find("Fixed/ButtonExit"), function ()
 		existCall(uv0.onClose)
 		uv1:closeView()
 	end, SFX_CANCEL)

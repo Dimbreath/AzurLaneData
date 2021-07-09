@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_108 = {
+	[14451] = {
+		anti_siren = 100,
+		damage = "182 x 3",
+		base = 14440,
+		id = 14451,
+		weapon_id = {
+			14451
+		}
+	},
 	[14452] = {
 		anti_siren = 200,
 		damage = "182 x 3",
@@ -176,59 +185,6 @@ pg.equip_data_statistics_108 = {
 		id = 14473,
 		weapon_id = {
 			14473
-		}
-	},
-	[14500] = {
-		name = "Prototype Twin 457mm Mk A Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 65,
-		icon = "14500",
-		attribute_2 = "cannon",
-		rarity = 6,
-		damage = "78 x 2",
-		nationality = 1,
-		ammo = 1,
-		value_3 = 0,
-		id = 14500,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1503
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14500
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"AP"
 		}
 	}
 }

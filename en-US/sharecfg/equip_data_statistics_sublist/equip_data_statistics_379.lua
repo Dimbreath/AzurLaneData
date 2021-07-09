@@ -1,172 +1,136 @@
 pg = pg or {}
 pg.equip_data_statistics_379 = {
-	[89261] = {
-		id = 89261,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89260
-	},
-	[89262] = {
-		id = 89262,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89260
-	},
-	[89263] = {
-		id = 89263,
-		value_2 = 18,
-		value_1 = "20",
-		base = 89260
-	},
-	[89264] = {
-		id = 89264,
-		value_2 = 19,
-		value_1 = "22",
-		base = 89260
-	},
-	[89265] = {
-		id = 89265,
-		value_2 = 20,
-		value_1 = "24",
-		base = 89260
-	},
-	[89266] = {
-		id = 89266,
+	[89166] = {
+		id = 89166,
 		value_2 = 22,
 		value_1 = "26",
-		base = 89260
+		base = 89160
 	},
-	[89267] = {
-		id = 89267,
+	[89167] = {
+		id = 89167,
 		value_2 = 24,
 		value_1 = "28",
-		base = 89260
+		base = 89160
 	},
-	[89268] = {
-		id = 89268,
+	[89168] = {
+		id = 89168,
 		value_2 = 26,
 		value_1 = "30",
-		base = 89260
+		base = 89160
 	},
-	[89269] = {
-		id = 89269,
+	[89169] = {
+		id = 89169,
 		value_2 = 28,
 		value_1 = "32",
-		base = 89260
+		base = 89160
 	},
-	[89270] = {
-		id = 89270,
+	[89170] = {
+		id = 89170,
 		value_2 = 30,
 		value_1 = "35",
-		base = 89260
+		base = 89160
 	},
-	[89271] = {
-		id = 89271,
+	[89171] = {
+		id = 89171,
 		anti_siren = 100,
-		base = 89260,
+		base = 89160,
 		value_2 = 32,
 		value_1 = "38"
 	},
-	[89272] = {
-		id = 89272,
+	[89172] = {
+		id = 89172,
 		anti_siren = 200,
-		base = 89260,
+		base = 89160,
 		value_2 = 34,
 		value_1 = "41"
 	},
-	[89273] = {
-		id = 89273,
+	[89173] = {
+		id = 89173,
 		anti_siren = 300,
-		base = 89260,
+		base = 89160,
 		value_2 = 36,
 		value_1 = "44"
 	},
-	[90000] = {
-		name = "Single 130mm Mle 1924 Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "50000",
-		damage = "3 x 5",
-		nationality = 8,
-		ammo = 3,
+	[89180] = {
+		name = "Resplendent Astrum",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89180,
+		value_2 = 15,
+		icon = "89180",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "\"May our songs spread the light of love and peace.\" ",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 90000,
+		attribute_1 = "antiaircraft",
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			90000
+		weapon_id = {},
+		skill_id = {
+			6712
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"DD",
-			"MG"
+			"DEV"
 		}
 	},
-	[90001] = {
-		id = 90001,
-		base = 90000,
-		weapon_id = {
-			90001
-		}
+	[89181] = {
+		id = 89181,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89180
 	},
-	[90002] = {
-		id = 90002,
-		damage = "4 x 5",
-		base = 90000,
-		weapon_id = {
-			90002
-		}
+	[89182] = {
+		id = 89182,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89180
 	},
-	[90003] = {
-		id = 90003,
-		damage = "4 x 5",
-		base = 90000,
-		weapon_id = {
-			90003
-		}
+	[89183] = {
+		id = 89183,
+		value_2 = 18,
+		value_1 = "20",
+		base = 89180
+	},
+	[89184] = {
+		id = 89184,
+		value_2 = 19,
+		value_1 = "22",
+		base = 89180
+	},
+	[89185] = {
+		id = 89185,
+		value_2 = 20,
+		value_1 = "24",
+		base = 89180
+	},
+	[89186] = {
+		id = 89186,
+		value_2 = 22,
+		value_1 = "26",
+		base = 89180
+	},
+	[89187] = {
+		id = 89187,
+		value_2 = 24,
+		value_1 = "28",
+		base = 89180
+	},
+	[89188] = {
+		id = 89188,
+		value_2 = 26,
+		value_1 = "30",
+		base = 89180
 	}
 }

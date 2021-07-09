@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_40 = {
+	[1943] = {
+		id = 1943,
+		value_2 = 32,
+		value_1 = "13",
+		base = 1940
+	},
 	[1944] = {
 		id = 1944,
 		value_2 = 36,
@@ -123,37 +129,5 @@ pg.equip_data_statistics_40 = {
 		base = 1960,
 		value_2 = 110,
 		value_1 = "19"
-	},
-	[2000] = {
-		name = "Fuel Filter",
-		tech = 1,
-		type = 10,
-		speciality = "N/A",
-		id = 2000,
-		value_2 = 2,
-		icon = "2000",
-		value_1 = "50",
-		attribute_2 = "dodge",
-		rarity = 2,
-		descrip = "Improves the quality of fuel.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

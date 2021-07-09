@@ -1015,6 +1015,11 @@ pg.name_code = {
 		name = "Kazagumo ",
 		code = "Kazagumo "
 	},
+	{
+		id = 204,
+		name = "Hakuryuu",
+		code = "Hakuryuu"
+	},
 	[250] = {
 		id = 250,
 		name = "I-9",

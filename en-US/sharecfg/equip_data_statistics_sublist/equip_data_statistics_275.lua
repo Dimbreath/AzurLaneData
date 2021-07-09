@@ -1,5 +1,26 @@
 pg = pg or {}
 pg.equip_data_statistics_275 = {
+	[38228] = {
+		id = 38228,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50528
+			},
+			{
+				6,
+				50828
+			},
+			{
+				4,
+				51448
+			}
+		},
+		weapon_id = {
+			38228
+		}
+	},
 	[38229] = {
 		id = 38229,
 		base = 38220,
@@ -372,62 +393,6 @@ pg.equip_data_statistics_275 = {
 		},
 		weapon_id = {
 			38253
-		}
-	},
-	[39000] = {
-		name = "Type 99 Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "39000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				5,
-				52200
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
 		}
 	}
 }

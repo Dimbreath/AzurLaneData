@@ -2,6 +2,116 @@ pg = pg or {}
 pg.weapon_property_102 = {}
 
 function ()
+	uv0.weapon_property_102[59246] = {
+		id = 59246,
+		reload_max = 79,
+		damage = 24,
+		base = 59240
+	}
+	uv0.weapon_property_102[59247] = {
+		id = 59247,
+		reload_max = 76,
+		damage = 26,
+		base = 59240
+	}
+	uv0.weapon_property_102[59248] = {
+		id = 59248,
+		reload_max = 75,
+		damage = 28,
+		base = 59240
+	}
+	uv0.weapon_property_102[59249] = {
+		id = 59249,
+		reload_max = 74,
+		damage = 30,
+		base = 59240
+	}
+	uv0.weapon_property_102[59250] = {
+		id = 59250,
+		reload_max = 72,
+		damage = 32,
+		base = 59240
+	}
+	uv0.weapon_property_102[59251] = {
+		id = 59251,
+		reload_max = 72,
+		damage = 33,
+		base = 59240
+	}
+	uv0.weapon_property_102[59252] = {
+		id = 59252,
+		reload_max = 72,
+		damage = 35,
+		base = 59240
+	}
+	uv0.weapon_property_102[59253] = {
+		id = 59253,
+		reload_max = 72,
+		damage = 38,
+		base = 59240
+	}
+	uv0.weapon_property_102[59300] = {
+		action_index = "",
+		range = 24,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x 7.92mm MG Cannon",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 59300,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 76,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_102[59301] = {
+		id = 59301,
+		reload_max = 75,
+		damage = 16,
+		base = 59300
+	}
+	uv0.weapon_property_102[59302] = {
+		id = 59302,
+		reload_max = 74,
+		damage = 17,
+		base = 59300
+	}
+	uv0.weapon_property_102[59303] = {
+		id = 59303,
+		reload_max = 73,
+		damage = 18,
+		base = 59300
+	}
 	uv0.weapon_property_102[59304] = {
 		id = 59304,
 		reload_max = 72,
@@ -421,109 +531,5 @@ function ()
 		reload_max = 53,
 		damage = 23,
 		base = 59400
-	}
-	uv0.weapon_property_102[59413] = {
-		id = 59413,
-		reload_max = 53,
-		damage = 25,
-		base = 59400
-	}
-	uv0.weapon_property_102[59420] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 7.92mm MG17 Cannon",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 59420,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 64,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_102[59421] = {
-		id = 59421,
-		reload_max = 63,
-		damage = 12,
-		base = 59420
-	}
-	uv0.weapon_property_102[59422] = {
-		id = 59422,
-		reload_max = 62,
-		damage = 13,
-		base = 59420
-	}
-	uv0.weapon_property_102[59423] = {
-		id = 59423,
-		reload_max = 61,
-		damage = 14,
-		base = 59420
-	}
-	uv0.weapon_property_102[59424] = {
-		id = 59424,
-		reload_max = 60,
-		damage = 15,
-		base = 59420
-	}
-	uv0.weapon_property_102[59425] = {
-		id = 59425,
-		reload_max = 59,
-		damage = 16,
-		base = 59420
-	}
-	uv0.weapon_property_102[59426] = {
-		id = 59426,
-		reload_max = 57,
-		damage = 17,
-		base = 59420
-	}
-	uv0.weapon_property_102[59427] = {
-		id = 59427,
-		reload_max = 55,
-		damage = 18,
-		base = 59420
-	}
-	uv0.weapon_property_102[59428] = {
-		id = 59428,
-		reload_max = 53,
-		damage = 19,
-		base = 59420
-	}
-	uv0.weapon_property_102[59429] = {
-		id = 59429,
-		reload_max = 51,
-		damage = 20,
-		base = 59420
 	}
 end()

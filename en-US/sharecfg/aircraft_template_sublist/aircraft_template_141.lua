@@ -1,116 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_141 = {
-	[65452] = {
-		max_hp = 48,
-		name = "META飞龙鱼雷机Lv2",
-		base = 65451,
-		id = 65452,
-		hp_growth = 1913,
+	[64306] = {
+		max_hp = 84,
+		name = "白龙天雷落雷飞机 Lv6",
+		base = 64301,
+		id = 64306,
+		hp_growth = 2766,
 		weapon_ID = {
-			65462
+			64326
 		}
 	},
-	[65453] = {
-		max_hp = 54,
-		name = "META飞龙鱼雷机Lv3",
-		base = 65451,
-		id = 65453,
-		hp_growth = 2133,
+	[64307] = {
+		max_hp = 90,
+		name = "白龙天雷落雷飞机 Lv7",
+		base = 64301,
+		id = 64307,
+		hp_growth = 3004,
 		weapon_ID = {
-			65463
+			64327
 		}
 	},
-	[65454] = {
-		max_hp = 61,
-		name = "META飞龙鱼雷机Lv4",
-		base = 65451,
-		id = 65454,
-		hp_growth = 2354,
+	[64308] = {
+		max_hp = 97,
+		name = "白龙天雷落雷飞机 Lv8",
+		base = 64301,
+		id = 64308,
+		hp_growth = 3241,
 		weapon_ID = {
-			65464
+			64328
 		}
 	},
-	[65455] = {
-		max_hp = 67,
-		name = "META飞龙鱼雷机Lv5",
-		base = 65451,
-		id = 65455,
-		hp_growth = 2575,
+	[64309] = {
+		max_hp = 103,
+		name = "白龙天雷落雷飞机 Lv9",
+		base = 64301,
+		id = 64309,
+		hp_growth = 3478,
 		weapon_ID = {
-			65465
+			64329
 		}
 	},
-	[65456] = {
-		max_hp = 73,
-		name = "META飞龙鱼雷机Lv6",
-		base = 65451,
-		id = 65456,
-		hp_growth = 2796,
+	[64310] = {
+		max_hp = 110,
+		name = "白龙天雷落雷飞机 Lv10",
+		base = 64301,
+		id = 64310,
+		hp_growth = 3715,
 		weapon_ID = {
-			65466
+			64330
 		}
 	},
-	[65457] = {
-		max_hp = 79,
-		name = "META飞龙鱼雷机Lv7",
-		base = 65451,
-		id = 65457,
-		hp_growth = 3016,
-		weapon_ID = {
-			65467
-		}
-	},
-	[65458] = {
-		max_hp = 86,
-		name = "META飞龙鱼雷机Lv8",
-		base = 65451,
-		id = 65458,
-		hp_growth = 3237,
-		weapon_ID = {
-			65468
-		}
-	},
-	[65459] = {
-		max_hp = 92,
-		name = "META飞龙鱼雷机Lv9",
-		base = 65451,
-		id = 65459,
-		hp_growth = 3458,
-		weapon_ID = {
-			65469
-		}
-	},
-	[65460] = {
-		max_hp = 98,
-		name = "META飞龙鱼雷机Lv10",
-		base = 65451,
-		id = 65460,
-		hp_growth = 3678,
-		weapon_ID = {
-			65470
-		}
-	},
-	[65491] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV1",
-		max_hp = 38,
+	[64311] = {
+		name = "白龙搭载彩云舰攻型 Lv1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "Ju87D4",
+		model_ID = "caiyun",
 		ACC_growth = 0,
-		crash_DMG = 168,
-		dodge = 1.05,
+		crash_DMG = 208,
+		dodge = 0.297,
 		attack_power = 2,
-		dodge_limit = 5,
+		dodge_limit = 10,
 		type = 2,
 		AP_growth = 2000,
-		icon = "Ju87D4",
+		icon = "caiyun",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1459,
-		speed = 51,
-		id = 65491,
+		hp_growth = 1532,
+		speed = 66,
+		id = 64311,
 		scale = 1,
 		weapon_ID = {
-			65501
+			64331
 		},
 		position_offset = {
 			0,
@@ -130,13 +90,13 @@ pg.aircraft_template_141 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-1.22,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.75,
-					1.26,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -153,7 +113,7 @@ pg.aircraft_template_141 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -162,6 +122,46 @@ pg.aircraft_template_141 = {
 				0,
 				0
 			}
+		}
+	},
+	[64312] = {
+		max_hp = 57,
+		name = "白龙搭载彩云舰攻型 Lv2",
+		base = 64311,
+		id = 64312,
+		hp_growth = 1762,
+		weapon_ID = {
+			64332
+		}
+	},
+	[64313] = {
+		max_hp = 64,
+		name = "白龙搭载彩云舰攻型 Lv3",
+		base = 64311,
+		id = 64313,
+		hp_growth = 1992,
+		weapon_ID = {
+			64333
+		}
+	},
+	[64314] = {
+		max_hp = 70,
+		name = "白龙搭载彩云舰攻型 Lv4",
+		base = 64311,
+		id = 64314,
+		hp_growth = 2222,
+		weapon_ID = {
+			64334
+		}
+	},
+	[64315] = {
+		max_hp = 77,
+		name = "白龙搭载彩云舰攻型 Lv5",
+		base = 64311,
+		id = 64315,
+		hp_growth = 2451,
+		weapon_ID = {
+			64335
 		}
 	}
 }

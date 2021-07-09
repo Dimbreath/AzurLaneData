@@ -1,145 +1,54 @@
 pg = pg or {}
 pg.aircraft_template_222 = {
-	[82202] = {
-		id = 82202,
-		base = 82200,
-		max_hp = 36,
-		hp_growth = 1398,
+	[81391] = {
+		id = 81391,
+		base = 81380,
+		max_hp = 126,
+		hp_growth = 4847,
 		weapon_ID = {
-			50102
+			50671
 		}
 	},
-	[82203] = {
-		id = 82203,
-		base = 82200,
-		max_hp = 41,
-		hp_growth = 1559,
+	[81392] = {
+		id = 81392,
+		base = 81380,
+		max_hp = 133,
+		hp_growth = 5121,
 		weapon_ID = {
-			50103
+			50672
 		}
 	},
-	[82220] = {
-		name = "海斗士",
-		max_hp = 31,
+	[81393] = {
+		id = 81393,
+		base = 81380,
+		max_hp = 140,
+		hp_growth = 5395,
+		weapon_ID = {
+			50673
+		}
+	},
+	[81400] = {
+		name = "XF5F天箭",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "haidoushi",
+		model_ID = "XF5F",
 		ACC_growth = 0,
-		crash_DMG = 76,
-		dodge = 0.363,
-		attack_power = 2,
-		dodge_limit = 8.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "haidoushi",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1210,
-		speed = 47,
-		id = 82220,
-		scale = 1,
-		weapon_ID = {
-			50120
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.62,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[82221] = {
-		id = 82221,
-		base = 82220,
-		max_hp = 36,
-		hp_growth = 1391,
-		weapon_ID = {
-			50121
-		}
-	},
-	[82222] = {
-		id = 82222,
-		base = 82220,
-		max_hp = 41,
-		hp_growth = 1572,
-		weapon_ID = {
-			50122
-		}
-	},
-	[82223] = {
-		id = 82223,
-		base = 82220,
-		max_hp = 46,
-		hp_growth = 1754,
-		weapon_ID = {
-			50123
-		}
-	},
-	[82240] = {
-		name = "海斗士",
-		max_hp = 35,
-		accuracy = 23,
-		model_ID = "haidoushi",
-		ACC_growth = 0,
-		crash_DMG = 76,
-		dodge = 0.351,
+		crash_DMG = 136,
+		dodge = 0.333,
 		attack_power = 2,
 		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haidoushi",
+		icon = "XF5F",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1344,
+		nationality = 1,
+		hp_growth = 1552,
 		speed = 47,
-		id = 82240,
+		id = 81400,
 		scale = 1,
 		weapon_ID = {
-			50140
+			50540,
+			50740
 		},
 		position_offset = {
 			0,
@@ -159,13 +68,8 @@ pg.aircraft_template_222 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
+					2.63,
+					0.34,
 					0
 				}
 			}
@@ -182,7 +86,7 @@ pg.aircraft_template_222 = {
 				0
 			},
 			{
-				0.62,
+				0.24,
 				0,
 				0
 			},
@@ -193,31 +97,64 @@ pg.aircraft_template_222 = {
 			}
 		}
 	},
-	[82241] = {
-		id = 82241,
-		base = 82240,
-		max_hp = 40,
-		hp_growth = 1546,
+	[81401] = {
+		id = 81401,
+		base = 81400,
+		max_hp = 46,
+		hp_growth = 1785,
 		weapon_ID = {
-			50141
+			50541,
+			50741
 		}
 	},
-	[82242] = {
-		id = 82242,
-		base = 82240,
-		max_hp = 45,
-		hp_growth = 1747,
+	[81402] = {
+		id = 81402,
+		base = 81400,
+		max_hp = 52,
+		hp_growth = 2018,
 		weapon_ID = {
-			50142
+			50542,
+			50742
 		}
 	},
-	[82243] = {
-		id = 82243,
-		base = 82240,
-		max_hp = 51,
-		hp_growth = 1949,
+	[81403] = {
+		id = 81403,
+		base = 81400,
+		max_hp = 59,
+		hp_growth = 2251,
 		weapon_ID = {
-			50143
+			50543,
+			50743
+		}
+	},
+	[81404] = {
+		id = 81404,
+		base = 81400,
+		max_hp = 65,
+		hp_growth = 2484,
+		weapon_ID = {
+			50544,
+			50744
+		}
+	},
+	[81405] = {
+		id = 81405,
+		base = 81400,
+		max_hp = 71,
+		hp_growth = 2717,
+		weapon_ID = {
+			50545,
+			50745
+		}
+	},
+	[81406] = {
+		id = 81406,
+		base = 81400,
+		max_hp = 77,
+		hp_growth = 2949,
+		weapon_ID = {
+			50546,
+			50746
 		}
 	}
 }

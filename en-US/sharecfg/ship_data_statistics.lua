@@ -259269,6 +259269,631 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900918] = {
+		oxy_max = 0,
+		type = 3,
+		name = "Anchorage",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900918,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 199030,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2710,
+			47,
+			40,
+			104,
+			0,
+			60,
+			0,
+			51,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			26830,
+			924,
+			784,
+			832,
+			0,
+			298,
+			0,
+			750,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			610,
+			536,
+			563,
+			0,
+			707,
+			0,
+			-125,
+			1676,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			304
+		},
+		default_equip_list = {
+			13170,
+			15230,
+			16250
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			1.15,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[900919] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Hakuryuu ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 900919,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 399050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3491,
+			0,
+			0,
+			151,
+			88,
+			46,
+			0,
+			32,
+			14,
+			34.5,
+			0,
+			0
+		},
+		attrs_growth = {
+			34570,
+			0,
+			0,
+			1196,
+			1724,
+			230,
+			0,
+			480,
+			210,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13824,
+			0,
+			0,
+			589,
+			274,
+			543,
+			0,
+			115,
+			760,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			38310,
+			39350,
+			38310
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			4,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[900920] = {
+		oxy_max = 0,
+		type = 18,
+		name = "Ägir",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 900920,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 499050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3084,
+			53,
+			38,
+			116,
+			0,
+			62,
+			0,
+			45,
+			12,
+			26.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			30525,
+			1036,
+			736,
+			920,
+			0,
+			308,
+			0,
+			660,
+			174,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			615,
+			502,
+			614,
+			0,
+			727,
+			0,
+			-110,
+			571,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			438
+		},
+		default_equip_list = {
+			44410,
+			45150,
+			46350
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.32,
+			1.1,
+			1,
+			0.45
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[900921] = {
+		oxy_max = 0,
+		type = 7,
+		name = "August von Parseval ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900921,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 499060,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			3135,
+			0,
+			0,
+			153,
+			83,
+			44,
+			0,
+			37,
+			13,
+			31.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			31040,
+			0,
+			0,
+			1212,
+			1628,
+			220,
+			0,
+			552,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			583,
+			358,
+			515,
+			0,
+			-18,
+			468,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			47170,
+			49050,
+			48050
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.1,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[900922] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Marco Polo",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 900922,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		oxy_cost = 0,
+		skin_id = 699010,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3474,
+			83,
+			0,
+			119,
+			0,
+			57,
+			0,
+			20,
+			9,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			34395,
+			1636,
+			0,
+			948,
+			0,
+			286,
+			0,
+			300,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18917,
+			350,
+			0,
+			610,
+			0,
+			674,
+			0,
+			245,
+			678,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			95910,
+			95650,
+			95170
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class",
+			"MarcoPolo"
+		}
+	},
 	[9702011] = {
 		oxy_max = 0,
 		type = 2,
@@ -282678,6 +283303,2506 @@ pg.ship_data_statistics = {
 			"Plan-Class"
 		}
 	},
+	[199031] = {
+		oxy_max = 0,
+		type = 3,
+		name = "Anchorage",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Anchorage ",
+		oxy_cost = 0,
+		skin_id = 199030,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1100,
+			47,
+			40,
+			42,
+			0,
+			60,
+			0,
+			51,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			26830,
+			924,
+			784,
+			832,
+			0,
+			298,
+			0,
+			750,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			610,
+			536,
+			563,
+			0,
+			707,
+			0,
+			-125,
+			1676,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			301
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[199032] = {
+		oxy_max = 0,
+		type = 3,
+		name = "Anchorage",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Anchorage ",
+		oxy_cost = 0,
+		skin_id = 199030,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1100,
+			47,
+			40,
+			42,
+			0,
+			60,
+			0,
+			51,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			26830,
+			924,
+			784,
+			832,
+			0,
+			298,
+			0,
+			750,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			610,
+			536,
+			563,
+			0,
+			707,
+			0,
+			-125,
+			1676,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			302
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[199033] = {
+		oxy_max = 0,
+		type = 3,
+		name = "Anchorage",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Anchorage ",
+		oxy_cost = 0,
+		skin_id = 199030,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1100,
+			47,
+			40,
+			42,
+			0,
+			60,
+			0,
+			51,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			26830,
+			924,
+			784,
+			832,
+			0,
+			298,
+			0,
+			750,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			610,
+			536,
+			563,
+			0,
+			707,
+			0,
+			-125,
+			1676,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			303
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[199034] = {
+		oxy_max = 0,
+		type = 3,
+		name = "Anchorage",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 199034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Anchorage ",
+		oxy_cost = 0,
+		skin_id = 199030,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1100,
+			47,
+			40,
+			42,
+			0,
+			60,
+			0,
+			51,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			26830,
+			924,
+			784,
+			832,
+			0,
+			298,
+			0,
+			750,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			610,
+			536,
+			563,
+			0,
+			707,
+			0,
+			-125,
+			1676,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			304
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1.15,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[399051] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Hakuryuu ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hakuryuu",
+		oxy_cost = 0,
+		skin_id = 399050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1417,
+			0,
+			0,
+			61,
+			88,
+			46,
+			0,
+			32,
+			14,
+			34.5,
+			0,
+			0
+		},
+		attrs_growth = {
+			34570,
+			0,
+			0,
+			1196,
+			1724,
+			230,
+			0,
+			480,
+			210,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13824,
+			0,
+			0,
+			589,
+			274,
+			543,
+			0,
+			115,
+			760,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[399052] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Hakuryuu ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hakuryuu",
+		oxy_cost = 0,
+		skin_id = 399050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1417,
+			0,
+			0,
+			61,
+			88,
+			46,
+			0,
+			32,
+			14,
+			34.5,
+			0,
+			0
+		},
+		attrs_growth = {
+			34570,
+			0,
+			0,
+			1196,
+			1724,
+			230,
+			0,
+			480,
+			210,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13824,
+			0,
+			0,
+			589,
+			274,
+			543,
+			0,
+			115,
+			760,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[399053] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Hakuryuu ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hakuryuu",
+		oxy_cost = 0,
+		skin_id = 399050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1417,
+			0,
+			0,
+			61,
+			88,
+			46,
+			0,
+			32,
+			14,
+			34.5,
+			0,
+			0
+		},
+		attrs_growth = {
+			34570,
+			0,
+			0,
+			1196,
+			1724,
+			230,
+			0,
+			480,
+			210,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13824,
+			0,
+			0,
+			589,
+			274,
+			543,
+			0,
+			115,
+			760,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[399054] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Hakuryuu ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 399054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hakuryuu",
+		oxy_cost = 0,
+		skin_id = 399050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1417,
+			0,
+			0,
+			61,
+			88,
+			46,
+			0,
+			32,
+			14,
+			34.5,
+			0,
+			0
+		},
+		attrs_growth = {
+			34570,
+			0,
+			0,
+			1196,
+			1724,
+			230,
+			0,
+			480,
+			210,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13824,
+			0,
+			0,
+			589,
+			274,
+			543,
+			0,
+			115,
+			760,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			4,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499051] = {
+		oxy_max = 0,
+		type = 18,
+		name = "Ägir",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Ägir",
+		oxy_cost = 0,
+		skin_id = 499050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1385,
+			53,
+			38,
+			47,
+			0,
+			62,
+			0,
+			45,
+			12,
+			26.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			33775,
+			1036,
+			736,
+			920,
+			0,
+			308,
+			0,
+			660,
+			174,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			615,
+			502,
+			614,
+			0,
+			727,
+			0,
+			-110,
+			571,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			331
+		},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1,
+			1,
+			0.45
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499052] = {
+		oxy_max = 0,
+		type = 18,
+		name = "Ägir",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Ägir",
+		oxy_cost = 0,
+		skin_id = 499050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1385,
+			53,
+			38,
+			47,
+			0,
+			62,
+			0,
+			45,
+			12,
+			26.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			33775,
+			1036,
+			736,
+			920,
+			0,
+			308,
+			0,
+			660,
+			174,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			615,
+			502,
+			614,
+			0,
+			727,
+			0,
+			-110,
+			571,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			438
+		},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1,
+			1,
+			0.45
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499053] = {
+		oxy_max = 0,
+		type = 18,
+		name = "Ägir",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Ägir",
+		oxy_cost = 0,
+		skin_id = 499050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1385,
+			53,
+			38,
+			47,
+			0,
+			62,
+			0,
+			45,
+			12,
+			26.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			33775,
+			1036,
+			736,
+			920,
+			0,
+			308,
+			0,
+			660,
+			174,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			615,
+			502,
+			614,
+			0,
+			727,
+			0,
+			-110,
+			571,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			438
+		},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.1,
+			1,
+			0.45
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499054] = {
+		oxy_max = 0,
+		type = 18,
+		name = "Ägir",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		ammo = 0,
+		id = 499054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Ägir",
+		oxy_cost = 0,
+		skin_id = 499050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1385,
+			53,
+			38,
+			47,
+			0,
+			62,
+			0,
+			45,
+			12,
+			26.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			33775,
+			1036,
+			736,
+			920,
+			0,
+			308,
+			0,
+			660,
+			174,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			615,
+			502,
+			614,
+			0,
+			727,
+			0,
+			-110,
+			571,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			438
+		},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1,
+			0.45
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499061] = {
+		oxy_max = 0,
+		type = 7,
+		name = "August von Parseval ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 499061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS August von Parseval",
+		oxy_cost = 0,
+		skin_id = 499060,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1273,
+			0,
+			0,
+			62,
+			83,
+			44,
+			0,
+			37,
+			13,
+			31.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			31040,
+			0,
+			0,
+			1212,
+			1628,
+			220,
+			0,
+			552,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			583,
+			358,
+			515,
+			0,
+			-18,
+			468,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499062] = {
+		oxy_max = 0,
+		type = 7,
+		name = "August von Parseval ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 499062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS August von Parseval",
+		oxy_cost = 0,
+		skin_id = 499060,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1273,
+			0,
+			0,
+			62,
+			83,
+			44,
+			0,
+			37,
+			13,
+			31.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			31040,
+			0,
+			0,
+			1212,
+			1628,
+			220,
+			0,
+			552,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			583,
+			358,
+			515,
+			0,
+			-18,
+			468,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.05,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499063] = {
+		oxy_max = 0,
+		type = 7,
+		name = "August von Parseval ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 499063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS August von Parseval",
+		oxy_cost = 0,
+		skin_id = 499060,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1273,
+			0,
+			0,
+			62,
+			83,
+			44,
+			0,
+			37,
+			13,
+			31.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			31040,
+			0,
+			0,
+			1212,
+			1628,
+			220,
+			0,
+			552,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			583,
+			358,
+			515,
+			0,
+			-18,
+			468,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.05,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[499064] = {
+		oxy_max = 0,
+		type = 7,
+		name = "August von Parseval ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 499064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS August von Parseval",
+		oxy_cost = 0,
+		skin_id = 499060,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1273,
+			0,
+			0,
+			62,
+			83,
+			44,
+			0,
+			37,
+			13,
+			31.8,
+			0,
+			0
+		},
+		attrs_growth = {
+			31040,
+			0,
+			0,
+			1212,
+			1628,
+			220,
+			0,
+			552,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			583,
+			358,
+			515,
+			0,
+			-18,
+			468,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.1,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
+	[699011] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Marco Polo",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 699011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Marco Polo",
+		oxy_cost = 0,
+		skin_id = 699010,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1410,
+			83,
+			0,
+			48,
+			0,
+			57,
+			0,
+			20,
+			9,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			34395,
+			1636,
+			0,
+			948,
+			0,
+			286,
+			0,
+			300,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18917,
+			350,
+			0,
+			610,
+			0,
+			674,
+			0,
+			245,
+			678,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class",
+			"MarcoPolo"
+		}
+	},
+	[699012] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Marco Polo",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 699012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Marco Polo",
+		oxy_cost = 0,
+		skin_id = 699010,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1410,
+			83,
+			0,
+			48,
+			0,
+			57,
+			0,
+			20,
+			9,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			34395,
+			1636,
+			0,
+			948,
+			0,
+			286,
+			0,
+			300,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18917,
+			350,
+			0,
+			610,
+			0,
+			674,
+			0,
+			245,
+			678,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class",
+			"MarcoPolo"
+		}
+	},
+	[699013] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Marco Polo",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 699013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Marco Polo",
+		oxy_cost = 0,
+		skin_id = 699010,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1410,
+			83,
+			0,
+			48,
+			0,
+			57,
+			0,
+			20,
+			9,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			34395,
+			1636,
+			0,
+			948,
+			0,
+			286,
+			0,
+			300,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18917,
+			350,
+			0,
+			610,
+			0,
+			674,
+			0,
+			245,
+			678,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class",
+			"MarcoPolo"
+		}
+	},
+	[699014] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Marco Polo",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 699014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "RN Marco Polo",
+		oxy_cost = 0,
+		skin_id = 699010,
+		attack_duration = 0,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1410,
+			83,
+			0,
+			48,
+			0,
+			57,
+			0,
+			20,
+			9,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			34395,
+			1636,
+			0,
+			948,
+			0,
+			286,
+			0,
+			300,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18917,
+			350,
+			0,
+			610,
+			0,
+			674,
+			0,
+			245,
+			678,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class",
+			"MarcoPolo"
+		}
+	},
 	all = {
 		100001,
 		100011,
@@ -284659,6 +287784,11 @@ pg.ship_data_statistics = {
 		900915,
 		900916,
 		900917,
+		900918,
+		900919,
+		900920,
+		900921,
+		900922,
 		9702011,
 		9702012,
 		9702013,
@@ -284842,6 +287972,26 @@ pg.ship_data_statistics = {
 		899021,
 		899022,
 		899023,
-		899024
+		899024,
+		199031,
+		199032,
+		199033,
+		199034,
+		399051,
+		399052,
+		399053,
+		399054,
+		499051,
+		499052,
+		499053,
+		499054,
+		499061,
+		499062,
+		499063,
+		499064,
+		699011,
+		699012,
+		699013,
+		699014
 	}
 }

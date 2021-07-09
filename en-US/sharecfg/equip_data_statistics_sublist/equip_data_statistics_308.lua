@@ -1,195 +1,101 @@
 pg = pg or {}
 pg.equip_data_statistics_308 = {
-	[45326] = {
-		id = 45326,
-		damage = "98 x 2",
-		base = 45320,
+	[45203] = {
+		id = 45203,
+		damage = "81 x 5",
+		base = 45200,
 		weapon_id = {
-			45326
+			45203
 		}
 	},
-	[45340] = {
-		name = "G7a Submarine Torpedo",
+	[45204] = {
+		id = 45204,
+		damage = "87 x 5",
+		base = 45200,
+		weapon_id = {
+			45204
+		}
+	},
+	[45205] = {
+		id = 45205,
+		damage = "93 x 5",
+		base = 45200,
+		weapon_id = {
+			45205
+		}
+	},
+	[45206] = {
+		id = 45206,
+		damage = "99 x 5",
+		base = 45200,
+		weapon_id = {
+			45206
+		}
+	},
+	[45207] = {
+		id = 45207,
+		damage = "105 x 5",
+		base = 45200,
+		weapon_id = {
+			45207
+		}
+	},
+	[45208] = {
+		id = 45208,
+		damage = "111 x 5",
+		base = 45200,
+		weapon_id = {
+			45208
+		}
+	},
+	[45209] = {
+		id = 45209,
+		damage = "117 x 5",
+		base = 45200,
+		weapon_id = {
+			45209
+		}
+	},
+	[45210] = {
+		id = 45210,
+		damage = "123 x 5",
+		base = 45200,
+		weapon_id = {
+			45210
+		}
+	},
+	[45220] = {
+		name = "533mm Quintuple Magnetic Torpedo Mount ",
 		speciality = "Torpedo",
-		type = 13,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "45300",
+		type = 5,
+		tech = 2,
+		descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		value_2 = 45,
+		icon = "45200",
 		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "58 x 2",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 45340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45340
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45341] = {
-		id = 45341,
-		damage = "66 x 2",
-		base = 45340,
-		weapon_id = {
-			45341
-		}
-	},
-	[45342] = {
-		id = 45342,
-		damage = "74 x 2",
-		base = 45340,
-		weapon_id = {
-			45342
-		}
-	},
-	[45343] = {
-		id = 45343,
-		damage = "82 x 2",
-		base = 45340,
-		weapon_id = {
-			45343
-		}
-	},
-	[45344] = {
-		id = 45344,
-		damage = "90 x 2",
-		base = 45340,
-		weapon_id = {
-			45344
-		}
-	},
-	[45345] = {
-		id = 45345,
-		damage = "99 x 2",
-		base = 45340,
-		weapon_id = {
-			45345
-		}
-	},
-	[45346] = {
-		id = 45346,
-		damage = "108 x 2",
-		base = 45340,
-		weapon_id = {
-			45346
-		}
-	},
-	[45347] = {
-		id = 45347,
-		damage = "117 x 2",
-		base = 45340,
-		weapon_id = {
-			45347
-		}
-	},
-	[45348] = {
-		id = 45348,
-		damage = "126 x 2",
-		base = 45340,
-		weapon_id = {
-			45348
-		}
-	},
-	[45349] = {
-		id = 45349,
-		damage = "135 x 2",
-		base = 45340,
-		weapon_id = {
-			45349
-		}
-	},
-	[45350] = {
-		id = 45350,
-		damage = "144 x 2",
-		base = 45340,
-		weapon_id = {
-			45350
-		}
-	},
-	[45351] = {
-		anti_siren = 100,
-		damage = "144 x 2",
-		base = 45340,
-		id = 45351,
-		weapon_id = {
-			45351
-		}
-	},
-	[45400] = {
-		name = "G7e Acoustic Homing Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "45400",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "52 x 2",
+		rarity = 5,
+		damage = "66 x 5",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45400,
+		id = 45220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1826
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1826
+				1803
 			},
 			{
 				4,
-				1601
+				1404
 			},
 			6,
 			10,
@@ -197,46 +103,91 @@ pg.equip_data_statistics_308 = {
 			12
 		},
 		weapon_id = {
-			45400
+			45220
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"SS",
-			"TP"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[45401] = {
-		id = 45401,
-		damage = "59 x 2",
-		base = 45400,
+	[45221] = {
+		id = 45221,
+		damage = "72 x 5",
+		base = 45220,
 		weapon_id = {
-			45401
+			45221
 		}
 	},
-	[45402] = {
-		id = 45402,
-		damage = "66 x 2",
-		base = 45400,
+	[45222] = {
+		id = 45222,
+		damage = "79 x 5",
+		base = 45220,
 		weapon_id = {
-			45402
+			45222
 		}
 	},
-	[45403] = {
-		id = 45403,
-		damage = "74 x 2",
-		base = 45400,
+	[45223] = {
+		id = 45223,
+		damage = "86 x 5",
+		base = 45220,
 		weapon_id = {
-			45403
+			45223
+		}
+	},
+	[45224] = {
+		id = 45224,
+		damage = "92 x 5",
+		base = 45220,
+		weapon_id = {
+			45224
+		}
+	},
+	[45225] = {
+		id = 45225,
+		damage = "99 x 5",
+		base = 45220,
+		weapon_id = {
+			45225
+		}
+	},
+	[45226] = {
+		id = 45226,
+		damage = "106 x 5",
+		base = 45220,
+		weapon_id = {
+			45226
+		}
+	},
+	[45227] = {
+		id = 45227,
+		damage = "112 x 5",
+		base = 45220,
+		weapon_id = {
+			45227
+		}
+	},
+	[45228] = {
+		id = 45228,
+		damage = "119 x 5",
+		base = 45220,
+		weapon_id = {
+			45228
 		}
 	}
 }

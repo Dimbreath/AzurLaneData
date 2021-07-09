@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_94 = {
+	[13020] = {
+		name = "Triple 203mm Main Gun Mount (Improved)",
+		speciality = "Lock",
+		type = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "13000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "24 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 13020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1400
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1400
+			},
+			{
+				4,
+				1204
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			13020
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG",
+			"CM"
+		}
+	},
 	[13021] = {
 		id = 13021,
 		damage = "26 x 3",
@@ -228,14 +287,6 @@ pg.equip_data_statistics_94 = {
 		base = 13060,
 		weapon_id = {
 			13064
-		}
-	},
-	[13065] = {
-		id = 13065,
-		damage = "40 x 3",
-		base = 13060,
-		weapon_id = {
-			13065
 		}
 	}
 }

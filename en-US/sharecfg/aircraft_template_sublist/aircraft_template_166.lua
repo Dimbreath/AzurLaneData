@@ -1,57 +1,70 @@
 pg = pg or {}
 pg.aircraft_template_166 = {
-	[67798] = {
+	[67247] = {
 		max_hp = 86,
-		name = "双龙改雷1 Lv8",
-		base = 67791,
-		id = 67798,
-		hp_growth = 3237,
+		name = "伊势技能轰炸机Lv7",
+		base = 67240,
+		id = 67247,
+		hp_growth = 3290,
 		weapon_ID = {
-			67828
+			67267,
+			67287
 		}
 	},
-	[67799] = {
+	[67248] = {
 		max_hp = 92,
-		name = "双龙改雷1 Lv9",
-		base = 67791,
-		id = 67799,
-		hp_growth = 3458,
+		name = "伊势技能轰炸机Lv8",
+		base = 67240,
+		id = 67248,
+		hp_growth = 3531,
 		weapon_ID = {
-			67829
+			67268,
+			67288
 		}
 	},
-	[67800] = {
+	[67249] = {
 		max_hp = 98,
-		name = "双龙改雷1 Lv10",
-		base = 67791,
-		id = 67800,
-		hp_growth = 3678,
+		name = "伊势技能轰炸机Lv9",
+		base = 67240,
+		id = 67249,
+		hp_growth = 3772,
 		weapon_ID = {
-			67830
+			67269,
+			67289
 		}
 	},
-	[67891] = {
-		name = "追赶者剑鱼 Lv1",
-		max_hp = 40,
+	[67250] = {
+		max_hp = 104,
+		name = "伊势技能轰炸机Lv10",
+		base = 67240,
+		id = 67250,
+		hp_growth = 4013,
+		weapon_ID = {
+			67270,
+			67290
+		}
+	},
+	[67300] = {
+		name = "大凤技能轰炸机Lv0",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "jianyu816",
+		model_ID = "huixing",
 		ACC_growth = 0,
-		crash_DMG = 102,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu816",
+		icon = "huixing",
 		funnel_behavior = "",
-		nationality = 0,
-		hp_growth = 1538,
-		speed = 45,
-		id = 67891,
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 60,
+		id = 67300,
 		scale = 1,
 		weapon_ID = {
-			67901,
-			67911
+			67380
 		},
 		position_offset = {
 			0,
@@ -71,13 +84,13 @@ pg.aircraft_template_166 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.03,
-					-1.43,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					1.01,
-					1.43,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -94,7 +107,7 @@ pg.aircraft_template_166 = {
 				0
 			},
 			{
-				0.52,
+				0.64,
 				0,
 				0
 			},
@@ -105,70 +118,54 @@ pg.aircraft_template_166 = {
 			}
 		}
 	},
-	[67892] = {
-		max_hp = 45,
-		name = "追赶者剑鱼 Lv2",
-		base = 67891,
-		id = 67892,
-		hp_growth = 1739,
+	[67301] = {
+		max_hp = 48,
+		name = "大凤技能轰炸机Lv1",
+		base = 67300,
+		id = 67301,
+		hp_growth = 1846,
 		weapon_ID = {
-			67902,
-			67912
+			67381
 		}
 	},
-	[67893] = {
-		max_hp = 50,
-		name = "追赶者剑鱼 Lv3",
-		base = 67891,
-		id = 67893,
-		hp_growth = 1940,
+	[67302] = {
+		max_hp = 54,
+		name = "大凤技能轰炸机Lv2",
+		base = 67300,
+		id = 67302,
+		hp_growth = 2087,
 		weapon_ID = {
-			67903,
-			67913
+			67382
 		}
 	},
-	[67894] = {
-		max_hp = 56,
-		name = "追赶者剑鱼 Lv4",
-		base = 67891,
-		id = 67894,
-		hp_growth = 2140,
-		weapon_ID = {
-			67904,
-			67914
-		}
-	},
-	[67895] = {
+	[67303] = {
 		max_hp = 61,
-		name = "追赶者剑鱼 Lv5",
-		base = 67891,
-		id = 67895,
-		hp_growth = 2341,
+		name = "大凤技能轰炸机Lv3",
+		base = 67300,
+		id = 67303,
+		hp_growth = 2327,
 		weapon_ID = {
-			67905,
-			67915
+			67383
 		}
 	},
-	[67896] = {
-		max_hp = 66,
-		name = "追赶者剑鱼 Lv6",
-		base = 67891,
-		id = 67896,
-		hp_growth = 2541,
+	[67304] = {
+		max_hp = 67,
+		name = "大凤技能轰炸机Lv4",
+		base = 67300,
+		id = 67304,
+		hp_growth = 2568,
 		weapon_ID = {
-			67906,
-			67916
+			67384
 		}
 	},
-	[67897] = {
-		max_hp = 71,
-		name = "追赶者剑鱼 Lv7",
-		base = 67891,
-		id = 67897,
-		hp_growth = 2742,
+	[67305] = {
+		max_hp = 73,
+		name = "大凤技能轰炸机Lv5",
+		base = 67300,
+		id = 67305,
+		hp_growth = 2809,
 		weapon_ID = {
-			67907,
-			67917
+			67385
 		}
 	}
 }

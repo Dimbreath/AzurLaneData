@@ -1,241 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_367 = {
-	[85422] = {
-		id = 85422,
-		damage = "64 x 3",
-		base = 85420,
+	[85229] = {
+		id = 85229,
+		damage = "41/wave",
+		base = 85220,
 		weapon_id = {
-			85422
+			85229
 		}
 	},
-	[85423] = {
-		id = 85423,
-		damage = "70 x 3",
-		base = 85420,
+	[85230] = {
+		id = 85230,
+		damage = "44/wave",
+		base = 85220,
 		weapon_id = {
-			85423
+			85230
 		}
 	},
-	[85424] = {
-		id = 85424,
-		damage = "76 x 3",
-		base = 85420,
+	[85231] = {
+		anti_siren = 100,
+		damage = "44/wave",
+		base = 85220,
+		id = 85231,
 		weapon_id = {
-			85424
+			85231
 		}
 	},
-	[85425] = {
-		id = 85425,
-		damage = "84 x 3",
-		base = 85420,
-		weapon_id = {
-			85425
-		}
-	},
-	[85426] = {
-		id = 85426,
-		damage = "92 x 3",
-		base = 85420,
-		weapon_id = {
-			85426
-		}
-	},
-	[85427] = {
-		id = 85427,
-		damage = "92 x 3",
-		base = 85420,
-		weapon_id = {
-			85427
-		}
-	},
-	[85440] = {
-		name = "Twin 152mm Pattern 1892 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
+	[85260] = {
+		name = "Twin 100mm B-54 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
 		descrip = "No description",
 		value_2 = 12,
-		icon = "85440",
-		attribute_2 = "cannon",
+		icon = "85240",
+		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "8 x 4",
+		damage = "36/wave",
 		nationality = 7,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 85440,
+		id = 85260,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85440
+			85260
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"CL",
-			"MG"
+			"ST",
+			"AA"
 		}
 	},
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
+	[85261] = {
+		id = 85261,
+		damage = "41/wave",
+		base = 85260,
 		weapon_id = {
-			85441
+			85261
 		}
 	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
+	[85262] = {
+		id = 85262,
+		damage = "47/wave",
+		base = 85260,
 		weapon_id = {
-			85442
+			85262
 		}
 	},
-	[85443] = {
-		id = 85443,
-		damage = "11 x 4",
-		base = 85440,
+	[85263] = {
+		id = 85263,
+		damage = "52/wave",
+		base = 85260,
 		weapon_id = {
-			85443
+			85263
 		}
 	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
+	[85264] = {
+		id = 85264,
+		damage = "59/wave",
+		base = 85260,
 		weapon_id = {
-			85444
+			85264
 		}
 	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
+	[85265] = {
+		id = 85265,
+		damage = "66/wave",
+		base = 85260,
 		weapon_id = {
-			85445
+			85265
 		}
 	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
+	[85266] = {
+		id = 85266,
+		damage = "73/wave",
+		base = 85260,
 		weapon_id = {
-			85446
+			85266
 		}
 	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
-		}
-	},
-	[85460] = {
-		name = "Triple 180mm B-1-P Pattern 1932 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 1,
-		descrip = "A triple gun mount developed by the Northern Parliament, boasting excellent range.",
-		value_2 = 12,
-		icon = "85460",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "16 x 3",
+	[85280] = {
+		name = "Twin 100mm B-54 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "43/wave",
 		nationality = 7,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 85460,
+		id = 85280,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1712
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1712
-			},
-			{
-				4,
-				1108
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85460
+			85280
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			5
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"CL",
-			"MG",
-			"AP"
+			"ST",
+			"AA"
 		}
 	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
+	[85281] = {
+		id = 85281,
+		damage = "48/wave",
+		base = 85280,
 		weapon_id = {
-			85461
+			85281
 		}
 	},
-	[85462] = {
-		id = 85462,
-		damage = "17 x 3",
-		base = 85460,
+	[85282] = {
+		id = 85282,
+		damage = "54/wave",
+		base = 85280,
 		weapon_id = {
-			85462
+			85282
+		}
+	},
+	[85283] = {
+		id = 85283,
+		damage = "61/wave",
+		base = 85280,
+		weapon_id = {
+			85283
+		}
+	},
+	[85284] = {
+		id = 85284,
+		damage = "68/wave",
+		base = 85280,
+		weapon_id = {
+			85284
+		}
+	},
+	[85285] = {
+		id = 85285,
+		damage = "75/wave",
+		base = 85280,
+		weapon_id = {
+			85285
+		}
+	},
+	[85286] = {
+		id = 85286,
+		damage = "82/wave",
+		base = 85280,
+		weapon_id = {
+			85286
 		}
 	}
 }

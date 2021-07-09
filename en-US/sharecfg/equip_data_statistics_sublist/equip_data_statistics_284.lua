@@ -1,256 +1,424 @@
 pg = pg or {}
 pg.equip_data_statistics_284 = {
-	[41023] = {
-		id = 41023,
-		damage = "6 x 1",
-		base = 41020,
-		weapon_id = {
-			41023
-		}
-	},
-	[41040] = {
-		name = "Single 127mm Main Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 3,
-		descrip = "Single 127mm Main Guns may be used by most destroyers.",
-		value_2 = 12,
-		icon = "41000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 1",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 41040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
+	[39326] = {
+		id = 39326,
+		base = 39320,
 		ammo_info = {
 			{
-				1,
-				1303
+				6,
+				50046
+			},
+			{
+				5,
+				52646
+			},
+			{
+				5,
+				52146
 			}
 		},
-		equip_info = {
-			1,
-			2,
+		weapon_id = {
+			39326
+		}
+	},
+	[39327] = {
+		id = 39327,
+		base = 39320,
+		ammo_info = {
 			{
-				3,
-				1303
+				6,
+				50047
 			},
 			{
-				4,
-				1000
+				5,
+				52647
 			},
-			6,
-			10,
-			11,
-			12
+			{
+				5,
+				52147
+			}
 		},
 		weapon_id = {
-			41040
+			39327
+		}
+	},
+	[39328] = {
+		id = 39328,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				52648
+			},
+			{
+				5,
+				52148
+			}
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
+		weapon_id = {
+			39328
+		}
+	},
+	[39329] = {
+		id = 39329,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				52649
+			},
+			{
+				5,
+				52149
+			}
 		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
+		weapon_id = {
+			39329
+		}
+	},
+	[39330] = {
+		id = 39330,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				52650
+			},
+			{
+				5,
+				52150
+			}
 		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
-		}
-	},
-	[41041] = {
-		id = 41041,
-		base = 41040,
 		weapon_id = {
-			41041
+			39330
 		}
 	},
-	[41042] = {
-		id = 41042,
-		damage = "7 x 1",
-		base = 41040,
+	[39331] = {
+		anti_siren = 100,
+		base = 39320,
+		id = 39331,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				52651
+			},
+			{
+				5,
+				52151
+			}
+		},
 		weapon_id = {
-			41042
+			39331
 		}
 	},
-	[41043] = {
-		id = 41043,
-		damage = "7 x 1",
-		base = 41040,
+	[39332] = {
+		anti_siren = 200,
+		base = 39320,
+		id = 39332,
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				5,
+				52652
+			},
+			{
+				5,
+				52152
+			}
+		},
 		weapon_id = {
-			41043
+			39332
 		}
 	},
-	[41044] = {
-		id = 41044,
-		damage = "8 x 1",
-		base = 41040,
+	[39333] = {
+		anti_siren = 300,
+		base = 39320,
+		id = 39333,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				5,
+				52653
+			},
+			{
+				5,
+				52153
+			}
+		},
 		weapon_id = {
-			41044
+			39333
 		}
 	},
-	[41045] = {
-		id = 41045,
-		damage = "8 x 1",
-		base = 41040,
-		weapon_id = {
-			41045
-		}
-	},
-	[41046] = {
-		id = 41046,
-		damage = "9 x 1",
-		base = 41040,
-		weapon_id = {
-			41046
-		}
-	},
-	[41047] = {
-		id = 41047,
-		damage = "9 x 1",
-		base = 41040,
-		weapon_id = {
-			41047
-		}
-	},
-	[41060] = {
-		name = "Twin 127mm KM40 Main Gun Mount",
-		speciality = "Lock",
-		type = 1,
+	[39340] = {
+		name = "Prototype Tenrai",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 6,
 		tech = 0,
 		descrip = "No description",
-		value_2 = 25,
-		icon = "41060",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 4",
-		nationality = 4,
-		ammo = 1,
+		value_2 = 65,
+		icon = "39340",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 41060,
+		id = 39340,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1303
+				6,
+				59780
+			},
+			{
+				6,
+				59800
+			},
+			{
+				5,
+				53320
 			}
 		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1001
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			41060
+			39340
 		},
-		skill_id = {},
+		skill_id = {
+			6860
+		},
 		part_main = {
-			1,
-			19
+			6,
+			7
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
+			"IJN",
+			"CV",
+			"DB"
 		}
 	},
-	[41061] = {
-		id = 41061,
-		damage = "5 x 4",
-		base = 41060,
+	[39341] = {
+		base = 39340,
+		id = 39341,
+		ammo_info = {
+			{
+				6,
+				59781
+			},
+			{
+				6,
+				59801
+			},
+			{
+				5,
+				53321
+			}
+		},
 		weapon_id = {
-			41061
+			39341
+		},
+		skill_id = {
+			6861
 		}
 	},
-	[41062] = {
-		id = 41062,
-		damage = "5 x 4",
-		base = 41060,
+	[39342] = {
+		base = 39340,
+		id = 39342,
+		ammo_info = {
+			{
+				6,
+				59782
+			},
+			{
+				6,
+				59802
+			},
+			{
+				5,
+				53322
+			}
+		},
 		weapon_id = {
-			41062
+			39342
+		},
+		skill_id = {
+			6862
 		}
 	},
-	[41063] = {
-		id = 41063,
-		damage = "6 x 4",
-		base = 41060,
+	[39343] = {
+		base = 39340,
+		id = 39343,
+		ammo_info = {
+			{
+				6,
+				59783
+			},
+			{
+				6,
+				59803
+			},
+			{
+				5,
+				53323
+			}
+		},
 		weapon_id = {
-			41063
+			39343
+		},
+		skill_id = {
+			6863
 		}
 	},
-	[41064] = {
-		id = 41064,
-		damage = "6 x 4",
-		base = 41060,
+	[39344] = {
+		base = 39340,
+		id = 39344,
+		ammo_info = {
+			{
+				6,
+				59784
+			},
+			{
+				6,
+				59804
+			},
+			{
+				5,
+				53324
+			}
+		},
 		weapon_id = {
-			41064
+			39344
+		},
+		skill_id = {
+			6864
 		}
 	},
-	[41065] = {
-		id = 41065,
-		damage = "7 x 4",
-		base = 41060,
+	[39345] = {
+		base = 39340,
+		id = 39345,
+		ammo_info = {
+			{
+				6,
+				59785
+			},
+			{
+				6,
+				59805
+			},
+			{
+				5,
+				53325
+			}
+		},
 		weapon_id = {
-			41065
+			39345
+		},
+		skill_id = {
+			6865
 		}
 	},
-	[41066] = {
-		id = 41066,
-		damage = "7 x 4",
-		base = 41060,
+	[39346] = {
+		base = 39340,
+		id = 39346,
+		ammo_info = {
+			{
+				6,
+				59786
+			},
+			{
+				6,
+				59806
+			},
+			{
+				5,
+				53326
+			}
+		},
 		weapon_id = {
-			41066
+			39346
+		},
+		skill_id = {
+			6866
 		}
 	},
-	[41067] = {
-		id = 41067,
-		damage = "8 x 4",
-		base = 41060,
+	[39347] = {
+		base = 39340,
+		id = 39347,
+		ammo_info = {
+			{
+				6,
+				59787
+			},
+			{
+				6,
+				59807
+			},
+			{
+				5,
+				53327
+			}
+		},
 		weapon_id = {
-			41067
+			39347
+		},
+		skill_id = {
+			6867
+		}
+	},
+	[39348] = {
+		base = 39340,
+		id = 39348,
+		ammo_info = {
+			{
+				6,
+				59788
+			},
+			{
+				6,
+				59808
+			},
+			{
+				5,
+				53328
+			}
+		},
+		weapon_id = {
+			39348
+		},
+		skill_id = {
+			6868
 		}
 	}
 }

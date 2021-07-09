@@ -8,22 +8,38 @@ slot1 = 0.1
 
 function slot0.init(slot0)
 	slot0.window = slot0._tf:Find("Window")
-	slot0.boxView = slot0.window:Find("Box/ScrollView")
+	slot0.boxView = slot0.window:Find("Layout/Box/ScrollView")
 	slot0.itemList = slot0.boxView:Find("Viewport/Content/ItemGrid")
 	slot1 = Instantiate(slot0.itemList:GetComponent(typeof(ItemList)).prefabItem[0])
 	slot1.name = "Icon"
 
 	setParent(slot1, slot0.itemList:Find("GridItem/Shell"))
-	setText(slot0.window:Find("top/bg/obtain/title"), i18n("autofight_rewards"))
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
+	setText(slot0.window:Find("Layout/Box/Title/Text"), i18n("battle_end_subtitle1"))
 end
 
 function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:UpdateView()
+
+	if getProxy(MetaCharacterProxy):getMetaTacticsInfoOnEnd() and #slot1 > 0 then
+		slot0.metaExpView = MetaExpView.New(slot0.window:Find("Layout"), slot0.event, slot0.contextData)
+		slot2 = slot0.metaExpView
+
+		slot2:Reset()
+		slot2:Load()
+		slot2:setData(slot1)
+		slot2:ActionInvoke("Show")
+	end
 end
 
 function slot0.willExit(slot0)
 	slot0:SkipAnim()
+
+	if slot0.metaExpView then
+		slot0.metaExpView:Destroy()
+	end
+
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
@@ -40,8 +56,8 @@ function slot0.UpdateView(slot0)
 		existCall(uv1.onClose)
 		uv0:closeView()
 	end)
-	setText(slot0.window:Find("ButtonExit/pic"), i18n("autofight_leave"))
-	onButton(slot0, slot0.window:Find("ButtonExit"), function ()
+	setText(slot0.window:Find("Fixed/ButtonExit/pic"), i18n("autofight_leave"))
+	onButton(slot0, slot0.window:Find("Fixed/ButtonExit"), function ()
 		existCall(uv0.onClose)
 		uv1:closeView()
 	end, SFX_CANCEL)

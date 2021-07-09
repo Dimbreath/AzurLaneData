@@ -1,102 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_286 = {
-	[41142] = {
-		id = 41142,
-		damage = "6 x 4",
-		base = 41140,
+	[41044] = {
+		id = 41044,
+		damage = "8 x 1",
+		base = 41040,
 		weapon_id = {
-			41142
+			41044
 		}
 	},
-	[41143] = {
-		id = 41143,
-		damage = "7 x 4",
-		base = 41140,
+	[41045] = {
+		id = 41045,
+		damage = "8 x 1",
+		base = 41040,
 		weapon_id = {
-			41143
+			41045
 		}
 	},
-	[41144] = {
-		id = 41144,
-		damage = "7 x 4",
-		base = 41140,
+	[41046] = {
+		id = 41046,
+		damage = "9 x 1",
+		base = 41040,
 		weapon_id = {
-			41144
+			41046
 		}
 	},
-	[41145] = {
-		id = 41145,
-		damage = "8 x 4",
-		base = 41140,
+	[41047] = {
+		id = 41047,
+		damage = "9 x 1",
+		base = 41040,
 		weapon_id = {
-			41145
+			41047
 		}
 	},
-	[41146] = {
-		id = 41146,
-		damage = "8 x 4",
-		base = 41140,
-		weapon_id = {
-			41146
-		}
-	},
-	[41147] = {
-		id = 41147,
-		damage = "9 x 4",
-		base = 41140,
-		weapon_id = {
-			41147
-		}
-	},
-	[41148] = {
-		id = 41148,
-		damage = "9 x 4",
-		base = 41140,
-		weapon_id = {
-			41148
-		}
-	},
-	[41149] = {
-		id = 41149,
-		damage = "10 x 4",
-		base = 41140,
-		weapon_id = {
-			41149
-		}
-	},
-	[41150] = {
-		id = 41150,
-		damage = "11 x 4",
-		base = 41140,
-		weapon_id = {
-			41150
-		}
-	},
-	[41151] = {
-		anti_siren = 100,
-		damage = "11 x 4",
-		base = 41140,
-		id = 41151,
-		weapon_id = {
-			41151
-		}
-	},
-	[41160] = {
-		name = "Twin 128mm/45 SK C/41 Dual-Purpose Gun Mount",
+	[41060] = {
+		name = "Twin 127mm KM40 Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
-		attribute_3 = "antiaircraft",
 		tech = 0,
-		value_2 = 30,
-		icon = "41160",
-		attribute_2 = "cannon",
 		descrip = "No description",
-		rarity = 5,
-		damage = "6 x 4",
+		value_2 = 25,
+		icon = "41060",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
 		nationality = 4,
 		ammo = 1,
-		value_3 = 15,
-		id = 41160,
+		value_3 = 0,
+		id = 41060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -125,7 +75,7 @@ pg.equip_data_statistics_286 = {
 			12
 		},
 		weapon_id = {
-			41160
+			41060
 		},
 		skill_id = {},
 		part_main = {
@@ -149,52 +99,161 @@ pg.equip_data_statistics_286 = {
 			"AP"
 		}
 	},
-	[41161] = {
-		id = 41161,
+	[41061] = {
+		id = 41061,
+		damage = "5 x 4",
+		base = 41060,
+		weapon_id = {
+			41061
+		}
+	},
+	[41062] = {
+		id = 41062,
+		damage = "5 x 4",
+		base = 41060,
+		weapon_id = {
+			41062
+		}
+	},
+	[41063] = {
+		id = 41063,
+		damage = "6 x 4",
+		base = 41060,
+		weapon_id = {
+			41063
+		}
+	},
+	[41064] = {
+		id = 41064,
+		damage = "6 x 4",
+		base = 41060,
+		weapon_id = {
+			41064
+		}
+	},
+	[41065] = {
+		id = 41065,
 		damage = "7 x 4",
-		base = 41160,
+		base = 41060,
 		weapon_id = {
-			41161
+			41065
 		}
 	},
-	[41162] = {
-		id = 41162,
+	[41066] = {
+		id = 41066,
+		damage = "7 x 4",
+		base = 41060,
+		weapon_id = {
+			41066
+		}
+	},
+	[41067] = {
+		id = 41067,
 		damage = "8 x 4",
-		base = 41160,
+		base = 41060,
 		weapon_id = {
-			41162
+			41067
 		}
 	},
-	[41163] = {
-		id = 41163,
+	[41068] = {
+		id = 41068,
+		damage = "8 x 4",
+		base = 41060,
+		weapon_id = {
+			41068
+		}
+	},
+	[41069] = {
+		id = 41069,
 		damage = "9 x 4",
-		base = 41160,
+		base = 41060,
 		weapon_id = {
-			41163
+			41069
 		}
 	},
-	[41164] = {
-		id = 41164,
+	[41070] = {
+		id = 41070,
 		damage = "10 x 4",
-		base = 41160,
+		base = 41060,
 		weapon_id = {
-			41164
+			41070
 		}
 	},
-	[41165] = {
-		id = 41165,
-		damage = "11 x 4",
-		base = 41160,
+	[41071] = {
+		anti_siren = 100,
+		damage = "10 x 4",
+		base = 41060,
+		id = 41071,
 		weapon_id = {
-			41165
+			41071
 		}
 	},
-	[41166] = {
-		id = 41166,
-		damage = "12 x 4",
-		base = 41160,
+	[41100] = {
+		name = "Twin 128mm SK C/41 Dual-Purpose Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 1,
+		value_2 = 3,
+		icon = "41100",
+		attribute_2 = "cannon",
+		descrip = "The Twin 128mm SK C/41 Dual-Purpose Gun Mount was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
+		rarity = 2,
+		damage = "4 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 2,
+		id = 41100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			41166
+			41100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
 		}
 	}
 }

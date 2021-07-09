@@ -70,6 +70,9 @@ function slot0.OnInit(slot0)
 	setActive(slot0.tfLimitTips, false)
 	setActive(slot0.tfLimit, false)
 	setActive(slot0:findTF("panel/title/ASvalue"), false)
+	setText(slot0:findTF("panel/formation_btn/text"), i18n("autofight_formation"))
+	setText(slot0:findTF("panel/commander_btn/text"), i18n("autofight_cat"))
+	setText(slot0._tf:Find("panel/title/Image/text"), i18n("fleet_select_title"))
 	slot0:InitInteractable()
 end
 

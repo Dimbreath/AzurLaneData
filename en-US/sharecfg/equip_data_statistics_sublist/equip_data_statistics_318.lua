@@ -1,414 +1,247 @@
 pg = pg or {}
 pg.equip_data_statistics_318 = {
-	[47000] = {
-		name = "BF-109T Fighter",
-		type = 7,
-		speciality = "Air",
-		rarity = 2,
-		tech = 1,
-		descrip = "The ship-faring version of the BF109, the Ironblood's most trusted fighter.",
-		value_2 = 5,
-		icon = "47000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 47000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59000
-			},
-			{
-				6,
-				59400
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+	[46303] = {
+		id = 46303,
+		damage = "50/wave",
+		base = 46300,
 		weapon_id = {
-			47000,
-			84000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
+			46303
 		}
 	},
-	[47001] = {
-		id = 47001,
-		base = 47000,
-		ammo_info = {
-			{
-				6,
-				59001
-			},
-			{
-				6,
-				59401
-			}
-		},
+	[46304] = {
+		id = 46304,
+		damage = "56/wave",
+		base = 46300,
 		weapon_id = {
-			47001,
-			84001
+			46304
 		}
 	},
-	[47002] = {
-		id = 47002,
-		base = 47000,
-		ammo_info = {
-			{
-				6,
-				59002
-			},
-			{
-				6,
-				59402
-			}
-		},
+	[46305] = {
+		id = 46305,
+		damage = "62/wave",
+		base = 46300,
 		weapon_id = {
-			47002,
-			84002
+			46305
 		}
 	},
-	[47003] = {
-		id = 47003,
-		base = 47000,
-		ammo_info = {
-			{
-				6,
-				59003
-			},
-			{
-				6,
-				59403
-			}
-		},
+	[46306] = {
+		id = 46306,
+		damage = "68/wave",
+		base = 46300,
 		weapon_id = {
-			47003,
-			84003
+			46306
 		}
 	},
-	[47020] = {
-		name = "BF-109T Fighter",
-		type = 7,
-		speciality = "Air",
-		rarity = 3,
+	[46320] = {
+		name = "Twin 105mm SK C/33 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
 		tech = 2,
-		descrip = "The ship-faring version of the BF109, the Ironblood's most trusted fighter.",
-		value_2 = 12,
-		icon = "47000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 47020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59020
-			},
-			{
-				6,
-				59420
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			47020,
-			84020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
-		}
-	},
-	[47021] = {
-		id = 47021,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59021
-			},
-			{
-				6,
-				59421
-			}
-		},
-		weapon_id = {
-			47021,
-			84021
-		}
-	},
-	[47022] = {
-		id = 47022,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59022
-			},
-			{
-				6,
-				59422
-			}
-		},
-		weapon_id = {
-			47022,
-			84022
-		}
-	},
-	[47023] = {
-		id = 47023,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59023
-			},
-			{
-				6,
-				59423
-			}
-		},
-		weapon_id = {
-			47023,
-			84023
-		}
-	},
-	[47024] = {
-		id = 47024,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59024
-			},
-			{
-				6,
-				59424
-			}
-		},
-		weapon_id = {
-			47024,
-			84024
-		}
-	},
-	[47025] = {
-		id = 47025,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59025
-			},
-			{
-				6,
-				59425
-			}
-		},
-		weapon_id = {
-			47025,
-			84025
-		}
-	},
-	[47026] = {
-		id = 47026,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59026
-			},
-			{
-				6,
-				59426
-			}
-		},
-		weapon_id = {
-			47026,
-			84026
-		}
-	},
-	[47040] = {
-		name = "BF-109T Fighter",
-		type = 7,
-		speciality = "Air",
-		rarity = 4,
-		tech = 3,
-		descrip = "The ship-faring version of the BF109, the Ironblood's most trusted fighter.",
+		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
 		value_2 = 25,
-		icon = "47000",
-		attribute_2 = "air",
+		icon = "46300",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "41/wave",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 47040,
+		id = 46320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59040
-			},
-			{
-				6,
-				59440
-			}
-		},
+		ammo_info = {},
 		equip_info = {
+			1,
+			2,
 			6,
-			7,
-			8,
-			9
+			10
 		},
 		weapon_id = {
-			47040,
-			84040
+			46320
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
 			6,
-			7
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
 			6,
-			7
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"CV",
-			"FT"
+			"ST",
+			"AA"
 		}
 	},
-	[47041] = {
-		id = 47041,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59041
-			},
-			{
-				6,
-				59441
-			}
-		},
+	[46321] = {
+		id = 46321,
+		damage = "47/wave",
+		base = 46320,
 		weapon_id = {
-			47041,
-			84041
+			46321
 		}
 	},
-	[47042] = {
-		id = 47042,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59042
-			},
-			{
-				6,
-				59442
-			}
-		},
+	[46322] = {
+		id = 46322,
+		damage = "53/wave",
+		base = 46320,
 		weapon_id = {
-			47042,
-			84042
+			46322
 		}
 	},
-	[47043] = {
-		id = 47043,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59043
-			},
-			{
-				6,
-				59443
-			}
-		},
+	[46323] = {
+		id = 46323,
+		damage = "59/wave",
+		base = 46320,
 		weapon_id = {
-			47043,
-			84043
+			46323
 		}
 	},
-	[47044] = {
-		id = 47044,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59044
-			},
-			{
-				6,
-				59444
-			}
-		},
+	[46324] = {
+		id = 46324,
+		damage = "65/wave",
+		base = 46320,
 		weapon_id = {
-			47044,
-			84044
+			46324
 		}
 	},
-	[47045] = {
-		id = 47045,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59045
-			},
-			{
-				6,
-				59445
-			}
+	[46325] = {
+		id = 46325,
+		damage = "71/wave",
+		base = 46320,
+		weapon_id = {
+			46325
+		}
+	},
+	[46326] = {
+		id = 46326,
+		damage = "77/wave",
+		base = 46320,
+		weapon_id = {
+			46326
+		}
+	},
+	[46327] = {
+		id = 46327,
+		damage = "83/wave",
+		base = 46320,
+		weapon_id = {
+			46327
+		}
+	},
+	[46328] = {
+		id = 46328,
+		damage = "89/wave",
+		base = 46320,
+		weapon_id = {
+			46328
+		}
+	},
+	[46329] = {
+		id = 46329,
+		damage = "95/wave",
+		base = 46320,
+		weapon_id = {
+			46329
+		}
+	},
+	[46330] = {
+		id = 46330,
+		damage = "102/wave",
+		base = 46320,
+		weapon_id = {
+			46330
+		}
+	},
+	[46340] = {
+		name = "Twin 105mm SK C/33 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
+		value_2 = 45,
+		icon = "46300",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "49/wave",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
 		},
 		weapon_id = {
-			47045,
-			84045
+			46340
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46341] = {
+		id = 46341,
+		damage = "56/wave",
+		base = 46340,
+		weapon_id = {
+			46341
 		}
 	}
 }

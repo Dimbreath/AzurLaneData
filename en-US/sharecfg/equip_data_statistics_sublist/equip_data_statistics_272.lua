@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_272 = {
+	[38067] = {
+		id = 38067,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
+		weapon_id = {
+			38067
+		}
+	},
 	[38100] = {
 		name = "Tenzan",
 		type = 8,
@@ -375,23 +392,6 @@ pg.equip_data_statistics_272 = {
 		},
 		weapon_id = {
 			38144
-		}
-	},
-	[38145] = {
-		id = 38145,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51445
-			}
-		},
-		weapon_id = {
-			38145
 		}
 	}
 }

@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_78 = {
+	[6047] = {
+		id = 6047,
+		damage = "15/wave",
+		base = 6040,
+		weapon_id = {
+			6047
+		}
+	},
 	[6100] = {
 		name = "Twin 100mm Mle 1931 AA Gun",
 		speciality = "Anti-Air",
@@ -287,64 +295,6 @@ pg.equip_data_statistics_78 = {
 		base = 6140,
 		weapon_id = {
 			6147
-		}
-	},
-	[7000] = {
-		name = "Single 152mm Mk XII Main Gun Mount",
-		speciality = "Normal",
-		type = 2,
-		tech = 1,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "7000",
-		damage = "16 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 7000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1101
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1101
-			},
-			{
-				4,
-				1103
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
 		}
 	}
 }

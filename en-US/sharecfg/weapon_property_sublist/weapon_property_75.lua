@@ -2,21 +2,6 @@ pg = pg or {}
 pg.weapon_property_75 = {}
 
 function ()
-	uv0.weapon_property_75[48002] = {
-		id = 48002,
-		reload_max = 2288,
-		base = 48000
-	}
-	uv0.weapon_property_75[48003] = {
-		id = 48003,
-		reload_max = 2251,
-		base = 48000
-	}
-	uv0.weapon_property_75[48004] = {
-		id = 48004,
-		reload_max = 2214,
-		base = 48000
-	}
 	uv0.weapon_property_75[48005] = {
 		id = 48005,
 		reload_max = 2177,
@@ -619,5 +604,66 @@ function ()
 		id = 49066,
 		reload_max = 1790,
 		base = 49060
+	}
+	uv0.weapon_property_75[49067] = {
+		id = 49067,
+		reload_max = 1790,
+		base = 49060
+	}
+	uv0.weapon_property_75[50000] = {
+		action_index = "",
+		range = 24,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 7.7mm Cannon",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 50000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 79,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_75[50001] = {
+		id = 50001,
+		reload_max = 76,
+		damage = 9,
+		base = 50000
+	}
+	uv0.weapon_property_75[50002] = {
+		id = 50002,
+		reload_max = 75,
+		damage = 10,
+		base = 50000
 	}
 end()

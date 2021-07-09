@@ -1,7 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_358 = {
-	[79711] = {
-		name = "专属弹幕-旧金山I",
+	[79384] = {
+		id = 79384,
+		name = "专属弹幕鱼雷-北风II",
+		base = 79383,
+		weapon_id = {
+			79384
+		}
+	},
+	[79391] = {
+		name = "专属弹幕-西雅图I",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -13,14 +21,14 @@ pg.equip_data_statistics_358 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79711,
+		id = 79391,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79711
+			79391
 		},
 		skill_id = {},
 		part_main = {
@@ -39,16 +47,16 @@ pg.equip_data_statistics_358 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79712] = {
-		id = 79712,
-		name = "专属弹幕-旧金山II",
-		base = 79711,
+	[79392] = {
+		id = 79392,
+		name = "专属弹幕-西雅图II",
+		base = 79391,
 		weapon_id = {
-			79712
+			79392
 		}
 	},
-	[79721] = {
-		name = "专属弹幕-射水鱼I",
+	[79401] = {
+		name = "专属弹幕-确捷I",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -60,14 +68,14 @@ pg.equip_data_statistics_358 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79721,
+		id = 79401,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79721
+			79401
 		},
 		skill_id = {},
 		part_main = {
@@ -86,16 +94,16 @@ pg.equip_data_statistics_358 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79722] = {
-		id = 79722,
-		name = "专属弹幕-射水鱼II",
-		base = 79721,
+	[79402] = {
+		id = 79402,
+		name = "专属弹幕-确捷II",
+		base = 79401,
 		weapon_id = {
-			79722
+			79402
 		}
 	},
-	[79731] = {
-		name = "专属弹幕-海伦娜.META I",
+	[79411] = {
+		name = "专属弹幕-恶毒I",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -107,14 +115,14 @@ pg.equip_data_statistics_358 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79731,
+		id = 79411,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79731
+			79411
 		},
 		skill_id = {},
 		part_main = {
@@ -133,16 +141,16 @@ pg.equip_data_statistics_358 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79732] = {
-		id = 79732,
-		name = "专属弹幕-海伦娜.META II",
-		base = 79731,
+	[79412] = {
+		id = 79412,
+		name = "专属弹幕-恶毒II",
+		base = 79411,
 		weapon_id = {
-			79732
+			79412
 		}
 	},
-	[79741] = {
-		name = "专属弹幕-风云I",
+	[79421] = {
+		name = "专属弹幕-I168I",
 		tech = 1,
 		speciality = "N/A",
 		type = 1,
@@ -154,14 +162,14 @@ pg.equip_data_statistics_358 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79741,
+		id = 79421,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60651
+			79421
 		},
 		skill_id = {},
 		part_main = {
@@ -180,171 +188,35 @@ pg.equip_data_statistics_358 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79742] = {
-		id = 79742,
-		name = "专属弹幕-风云II",
-		base = 79741,
+	[79422] = {
+		id = 79422,
+		name = "专属弹幕-I168II",
+		base = 79421,
 		weapon_id = {
-			60652
+			79422
 		}
 	},
-	[85000] = {
-		name = "Twin 130mm B-2LM Main Gun Mount",
-		speciality = "Lock",
-		type = 1,
+	[79431] = {
+		name = "专属弹幕-U101I",
 		tech = 1,
-		descrip = "A 130mm naval artillery turret developed by the Northern Parliament that boasts superior performance in surface combat.",
-		value_2 = 12,
-		icon = "85000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "3 x 6",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1700
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1700
-			},
-			{
-				4,
-				1024
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"DD",
-			"MG"
-		}
-	},
-	[85001] = {
-		id = 85001,
-		base = 85000,
-		weapon_id = {
-			85001
-		}
-	},
-	[85002] = {
-		id = 85002,
-		damage = "4 x 6",
-		base = 85000,
-		weapon_id = {
-			85002
-		}
-	},
-	[85003] = {
-		id = 85003,
-		damage = "4 x 6",
-		base = 85000,
-		weapon_id = {
-			85003
-		}
-	},
-	[85004] = {
-		id = 85004,
-		damage = "5 x 6",
-		base = 85000,
-		weapon_id = {
-			85004
-		}
-	},
-	[85005] = {
-		id = 85005,
-		damage = "6 x 6",
-		base = 85000,
-		weapon_id = {
-			85005
-		}
-	},
-	[85006] = {
-		id = 85006,
-		damage = "7 x 6",
-		base = 85000,
-		weapon_id = {
-			85006
-		}
-	},
-	[85040] = {
-		name = "Twin 130mm B-2LM Main Gun Mount",
-		speciality = "Lock",
+		speciality = "N/A",
 		type = 1,
-		tech = 3,
-		descrip = "A 130mm naval artillery turret developed by the Northern Parliament that boasts superior performance in surface combat.",
-		value_2 = 35,
-		icon = "85000",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 3,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85040,
+		id = 79431,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1710
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1710
-			},
-			{
-				4,
-				1024
-			},
-			6,
-			10,
-			11,
-			12
-		},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85040
+			79431
 		},
 		skill_id = {},
 		part_main = {
@@ -361,17 +233,155 @@ pg.equip_data_statistics_358 = {
 			18
 		},
 		equip_parameters = {},
-		label = {
-			"SN",
-			"DD",
-			"MG"
+		label = {}
+	},
+	[79432] = {
+		id = 79432,
+		name = "专属弹幕-U101II",
+		base = 79431,
+		weapon_id = {
+			79432
 		}
 	},
-	[85041] = {
-		id = 85041,
-		base = 85040,
+	[79441] = {
+		name = "专属弹幕-棘鳍I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79441,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85041
+			79441
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79442] = {
+		id = 79442,
+		name = "专属弹幕-棘鳍II",
+		base = 79441,
+		weapon_id = {
+			79442
+		}
+	},
+	[79451] = {
+		name = "全弹发射-克利夫兰μI",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79451
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79452] = {
+		id = 79452,
+		name = "全弹发射-克利夫兰μII",
+		base = 79451,
+		weapon_id = {
+			79452
+		}
+	},
+	[79461] = {
+		name = "全弹发射-南安普顿μI",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79461
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79462] = {
+		id = 79462,
+		name = "全弹发射-南安普顿μII",
+		base = 79461,
+		weapon_id = {
+			79462
 		}
 	}
 }

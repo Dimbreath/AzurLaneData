@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_76 = {
+	[5520] = {
+		name = "550mm 24V Submarine Torpedo",
+		speciality = "Torpedo",
+		type = 13,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "5500",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "49 x 2",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 5520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1827
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1827
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5520
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		}
+	},
 	[5521] = {
 		id = 5521,
 		damage = "56 x 2",
@@ -177,14 +236,6 @@ pg.equip_data_statistics_76 = {
 		base = 5540,
 		weapon_id = {
 			5549
-		}
-	},
-	[5550] = {
-		id = 5550,
-		damage = "135 x 2",
-		base = 5540,
-		weapon_id = {
-			5550
 		}
 	}
 }

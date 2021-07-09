@@ -1,155 +1,247 @@
 pg = pg or {}
 pg.equip_data_statistics_369 = {
-	[89013] = {
-		id = 89013,
-		anti_siren = 300,
-		base = 89000,
-		value_2 = 18,
-		value_1 = "28"
+	[85325] = {
+		id = 85325,
+		damage = "102 x 3",
+		base = 85320,
+		weapon_id = {
+			85325
+		}
 	},
-	[89020] = {
-		name = "Pyoko-Pyoko",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 89020,
-		value_2 = 1,
-		icon = "89020",
-		value_1 = "200",
-		attribute_2 = "luck",
-		rarity = 5,
-		descrip = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head.",
-		nationality = 104,
-		ammo = 10,
+	[85326] = {
+		id = 85326,
+		damage = "112 x 3",
+		base = 85320,
+		weapon_id = {
+			85326
+		}
+	},
+	[85327] = {
+		id = 85327,
+		damage = "120 x 3",
+		base = 85320,
+		weapon_id = {
+			85327
+		}
+	},
+	[85328] = {
+		id = 85328,
+		damage = "129 x 3",
+		base = 85320,
+		weapon_id = {
+			85328
+		}
+	},
+	[85329] = {
+		id = 85329,
+		damage = "139 x 3",
+		base = 85320,
+		weapon_id = {
+			85329
+		}
+	},
+	[85330] = {
+		id = 85330,
+		damage = "149 x 3",
+		base = 85320,
+		weapon_id = {
+			85330
+		}
+	},
+	[85360] = {
+		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "14/wave",
+		nationality = 7,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 85360,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6390
+		weapon_id = {
+			85360
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"ST",
+			"AA"
 		}
 	},
-	[89021] = {
-		id = 89021,
-		value_1 = "230",
-		base = 89020
+	[85361] = {
+		id = 85361,
+		damage = "16/wave",
+		base = 85360,
+		weapon_id = {
+			85361
+		}
 	},
-	[89022] = {
-		id = 89022,
-		value_1 = "260",
-		base = 89020
+	[85362] = {
+		id = 85362,
+		damage = "19/wave",
+		base = 85360,
+		weapon_id = {
+			85362
+		}
 	},
-	[89023] = {
-		id = 89023,
-		value_1 = "290",
-		base = 89020
+	[85363] = {
+		id = 85363,
+		damage = "22/wave",
+		base = 85360,
+		weapon_id = {
+			85363
+		}
 	},
-	[89024] = {
-		id = 89024,
-		value_1 = "320",
-		base = 89020
-	},
-	[89025] = {
-		id = 89025,
-		value_1 = "350",
-		base = 89020
-	},
-	[89026] = {
-		id = 89026,
-		value_1 = "380",
-		base = 89020
-	},
-	[89027] = {
-		id = 89027,
-		value_1 = "410",
-		base = 89020
-	},
-	[89028] = {
-		id = 89028,
-		value_1 = "440",
-		base = 89020
-	},
-	[89029] = {
-		id = 89029,
-		value_1 = "470",
-		base = 89020
-	},
-	[89030] = {
-		id = 89030,
-		value_2 = 2,
-		value_1 = "500",
-		base = 89020
-	},
-	[89031] = {
-		id = 89031,
-		anti_siren = 100,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "530"
-	},
-	[89032] = {
-		id = 89032,
-		anti_siren = 200,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "560"
-	},
-	[89033] = {
-		id = 89033,
-		anti_siren = 300,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "590"
-	},
-	[89040] = {
-		name = "Intelligence Chip",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 89040,
-		value_2 = 3,
-		icon = "89040",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "A plugin chip that Kizuna AI uses to...? --No talking shit!",
-		nationality = 104,
-		ammo = 10,
+	[85380] = {
+		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "33/wave",
+		nationality = 7,
+		ammo = 5,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 85380,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6400
+		weapon_id = {
+			85380
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"ST",
+			"AA"
 		}
 	},
-	[89041] = {
-		id = 89041,
-		value_1 = "112",
-		base = 89040
+	[85381] = {
+		id = 85381,
+		damage = "36/wave",
+		base = 85380,
+		weapon_id = {
+			85381
+		}
+	},
+	[85382] = {
+		id = 85382,
+		damage = "41/wave",
+		base = 85380,
+		weapon_id = {
+			85382
+		}
+	},
+	[85383] = {
+		id = 85383,
+		damage = "45/wave",
+		base = 85380,
+		weapon_id = {
+			85383
+		}
+	},
+	[85384] = {
+		id = 85384,
+		damage = "51/wave",
+		base = 85380,
+		weapon_id = {
+			85384
+		}
+	},
+	[85385] = {
+		id = 85385,
+		damage = "57/wave",
+		base = 85380,
+		weapon_id = {
+			85385
+		}
+	},
+	[85386] = {
+		id = 85386,
+		damage = "64/wave",
+		base = 85380,
+		weapon_id = {
+			85386
+		}
 	}
 }

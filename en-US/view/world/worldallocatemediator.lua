@@ -2,7 +2,7 @@ slot0 = class("WorldAllocateMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
 	slot0.viewComponent:setItem(slot0.contextData.itemVO)
-	slot0.viewComponent:setFleets(slot0.contextData.fleetList, slot0.contextData.fleetIndex)
+	slot0.viewComponent:setFleets(slot0.contextData.fleetList)
 	slot0.viewComponent:setConfirmCallback(slot0.contextData.confirmCallback)
 end
 

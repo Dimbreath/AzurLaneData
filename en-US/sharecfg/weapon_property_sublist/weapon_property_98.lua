@@ -2,105 +2,6 @@ pg = pg or {}
 pg.weapon_property_98 = {}
 
 function ()
-	uv0.weapon_property_98[53145] = {
-		id = 53145,
-		damage = 81,
-		base = 53140
-	}
-	uv0.weapon_property_98[53146] = {
-		id = 53146,
-		damage = 87,
-		base = 53140
-	}
-	uv0.weapon_property_98[53147] = {
-		id = 53147,
-		damage = 93,
-		base = 53140
-	}
-	uv0.weapon_property_98[53148] = {
-		id = 53148,
-		damage = 99,
-		base = 53140
-	}
-	uv0.weapon_property_98[53149] = {
-		id = 53149,
-		damage = 105,
-		base = 53140
-	}
-	uv0.weapon_property_98[53150] = {
-		id = 53150,
-		damage = 112,
-		base = 53140
-	}
-	uv0.weapon_property_98[53151] = {
-		id = 53151,
-		damage = 87,
-		base = 53140
-	}
-	uv0.weapon_property_98[53152] = {
-		id = 53152,
-		damage = 92,
-		base = 53140
-	}
-	uv0.weapon_property_98[53153] = {
-		id = 53153,
-		damage = 99,
-		base = 53140
-	}
-	uv0.weapon_property_98[53200] = {
-		action_index = "",
-		range = 500,
-		type = 25,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "Depth Charge - Increased Area",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 33,
-		corrected = 100,
-		min_range = 0,
-		id = 53200,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 5,
-		reload_max = 3000,
-		queue = 11,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1815
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_98[53201] = {
-		id = 53201,
-		damage = 35,
-		base = 53200
-	}
-	uv0.weapon_property_98[53202] = {
-		id = 53202,
-		damage = 38,
-		base = 53200
-	}
 	uv0.weapon_property_98[53203] = {
 		id = 53203,
 		damage = 41,
@@ -467,5 +368,109 @@ function ()
 		id = 53270,
 		damage = 429,
 		base = 53260
+	}
+	uv0.weapon_property_98[53271] = {
+		id = 53271,
+		damage = 446,
+		base = 53260
+	}
+	uv0.weapon_property_98[53272] = {
+		id = 53272,
+		damage = 472,
+		base = 53260
+	}
+	uv0.weapon_property_98[53273] = {
+		id = 53273,
+		damage = 506,
+		base = 53260
+	}
+	uv0.weapon_property_98[53280] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 16,
+		shakescreen = 0,
+		name = "1 x 1600lb AP Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 16,
+		charge_param = "",
+		damage = 171,
+		corrected = 100,
+		min_range = 0,
+		id = 53280,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2128
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_98[53281] = {
+		id = 53281,
+		damage = 196,
+		base = 53280
+	}
+	uv0.weapon_property_98[53282] = {
+		id = 53282,
+		damage = 221,
+		base = 53280
+	}
+	uv0.weapon_property_98[53283] = {
+		id = 53283,
+		damage = 247,
+		base = 53280
+	}
+	uv0.weapon_property_98[53284] = {
+		id = 53284,
+		damage = 273,
+		base = 53280
+	}
+	uv0.weapon_property_98[53285] = {
+		id = 53285,
+		damage = 299,
+		base = 53280
+	}
+	uv0.weapon_property_98[53286] = {
+		id = 53286,
+		damage = 325,
+		base = 53280
+	}
+	uv0.weapon_property_98[53287] = {
+		id = 53287,
+		damage = 351,
+		base = 53280
+	}
+	uv0.weapon_property_98[53288] = {
+		id = 53288,
+		damage = 377,
+		base = 53280
+	}
+	uv0.weapon_property_98[53289] = {
+		id = 53289,
+		damage = 403,
+		base = 53280
 	}
 end()

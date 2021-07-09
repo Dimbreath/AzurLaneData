@@ -1,229 +1,189 @@
 pg = pg or {}
 pg.equip_data_statistics_364 = {
-	[85284] = {
-		id = 85284,
-		damage = "68/wave",
-		base = 85280,
+	[85121] = {
+		id = 85121,
+		base = 85120,
 		weapon_id = {
-			85284
+			85121
 		}
 	},
-	[85285] = {
-		id = 85285,
-		damage = "75/wave",
-		base = 85280,
+	[85122] = {
+		id = 85122,
+		damage = "6 x 6",
+		base = 85120,
 		weapon_id = {
-			85285
+			85122
 		}
 	},
-	[85286] = {
-		id = 85286,
-		damage = "82/wave",
-		base = 85280,
+	[85123] = {
+		id = 85123,
+		damage = "7 x 6",
+		base = 85120,
 		weapon_id = {
-			85286
+			85123
 		}
 	},
-	[85287] = {
-		id = 85287,
-		damage = "89/wave",
-		base = 85280,
+	[85124] = {
+		id = 85124,
+		damage = "8 x 6",
+		base = 85120,
 		weapon_id = {
-			85287
+			85124
 		}
 	},
-	[85288] = {
-		id = 85288,
-		damage = "96/wave",
-		base = 85280,
+	[85125] = {
+		id = 85125,
+		damage = "9 x 6",
+		base = 85120,
 		weapon_id = {
-			85288
+			85125
 		}
 	},
-	[85289] = {
-		id = 85289,
-		damage = "103/wave",
-		base = 85280,
+	[85126] = {
+		id = 85126,
+		damage = "10 x 6",
+		base = 85120,
 		weapon_id = {
-			85289
+			85126
 		}
 	},
-	[85290] = {
-		id = 85290,
-		damage = "110/wave",
-		base = 85280,
-		weapon_id = {
-			85290
-		}
-	},
-	[85291] = {
-		anti_siren = 100,
-		damage = "110/wave",
-		base = 85280,
-		id = 85291,
-		weapon_id = {
-			85291
-		}
-	},
-	[85300] = {
-		name = "Triple 406mm MK-1 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "85300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "50 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1570
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85300
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"BB",
-			"MG"
-		}
-	},
-	[85301] = {
-		id = 85301,
-		damage = "59 x 3",
-		base = 85300,
-		weapon_id = {
-			85301
-		}
-	},
-	[85302] = {
-		id = 85302,
-		damage = "67 x 3",
-		base = 85300,
-		weapon_id = {
-			85302
-		}
-	},
-	[85303] = {
-		id = 85303,
-		damage = "76 x 3",
-		base = 85300,
-		weapon_id = {
-			85303
-		}
-	},
-	[85304] = {
-		id = 85304,
-		damage = "84 x 3",
-		base = 85300,
-		weapon_id = {
-			85304
-		}
-	},
-	[85305] = {
-		id = 85305,
-		damage = "92 x 3",
-		base = 85300,
-		weapon_id = {
-			85305
-		}
-	},
-	[85306] = {
-		id = 85306,
-		damage = "101 x 3",
-		base = 85300,
-		weapon_id = {
-			85306
-		}
-	},
-	[85320] = {
-		name = "Triple 406mm MK-1 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
+	[85140] = {
+		name = "Triple 152mm B-38 MK 5 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
 		tech = 2,
 		descrip = "No description",
 		value_2 = 25,
-		icon = "85300",
+		icon = "85120",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "56 x 3",
+		damage = "6 x 6",
 		nationality = 7,
-		ammo = 3,
+		ammo = 2,
 		value_3 = 0,
-		id = 85320,
+		id = 85140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
-				2,
-				1571
+				1,
+				1207
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1110
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			85320
+			85140
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"BB",
+			"CL",
 			"MG",
-			"AP"
+			"HE"
 		}
 	},
-	[85321] = {
-		id = 85321,
-		damage = "65 x 3",
-		base = 85320,
+	[85141] = {
+		id = 85141,
+		base = 85140,
 		weapon_id = {
-			85321
+			85141
+		}
+	},
+	[85142] = {
+		id = 85142,
+		damage = "7 x 6",
+		base = 85140,
+		weapon_id = {
+			85142
+		}
+	},
+	[85143] = {
+		id = 85143,
+		damage = "8 x 6",
+		base = 85140,
+		weapon_id = {
+			85143
+		}
+	},
+	[85144] = {
+		id = 85144,
+		damage = "9 x 6",
+		base = 85140,
+		weapon_id = {
+			85144
+		}
+	},
+	[85145] = {
+		id = 85145,
+		damage = "10 x 6",
+		base = 85140,
+		weapon_id = {
+			85145
+		}
+	},
+	[85146] = {
+		id = 85146,
+		damage = "11 x 6",
+		base = 85140,
+		weapon_id = {
+			85146
+		}
+	},
+	[85147] = {
+		id = 85147,
+		damage = "12 x 6",
+		base = 85140,
+		weapon_id = {
+			85147
+		}
+	},
+	[85148] = {
+		id = 85148,
+		damage = "13 x 6",
+		base = 85140,
+		weapon_id = {
+			85148
+		}
+	},
+	[85149] = {
+		id = 85149,
+		damage = "14 x 6",
+		base = 85140,
+		weapon_id = {
+			85149
+		}
+	},
+	[85150] = {
+		id = 85150,
+		damage = "15 x 6",
+		base = 85140,
+		weapon_id = {
+			85150
 		}
 	}
 }

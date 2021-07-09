@@ -1,77 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_193 = {
-	[69756] = {
-		max_hp = 66,
-		name = "鹰技能剑鱼 Lv6",
-		base = 69751,
-		id = 69756,
-		hp_growth = 2541,
+	[69170] = {
+		max_hp = 106,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv10",
+		base = 69161,
+		id = 69170,
+		hp_growth = 4066,
 		weapon_ID = {
-			69776
+			69180,
+			69190
 		}
 	},
-	[69757] = {
-		max_hp = 71,
-		name = "鹰技能剑鱼 Lv7",
-		base = 69751,
-		id = 69757,
-		hp_growth = 2742,
-		weapon_ID = {
-			69777
-		}
-	},
-	[69758] = {
-		max_hp = 77,
-		name = "鹰技能剑鱼 Lv8",
-		base = 69751,
-		id = 69758,
-		hp_growth = 2943,
-		weapon_ID = {
-			69778
-		}
-	},
-	[69759] = {
-		max_hp = 82,
-		name = "鹰技能剑鱼 Lv9",
-		base = 69751,
-		id = 69759,
-		hp_growth = 3143,
-		weapon_ID = {
-			69779
-		}
-	},
-	[69760] = {
-		max_hp = 87,
-		name = "鹰技能剑鱼 Lv10",
-		base = 69751,
-		id = 69760,
-		hp_growth = 3344,
-		weapon_ID = {
-			69780
-		}
-	},
-	[69921] = {
-		name = "信浓技能试制紫电改二 LV1",
-		max_hp = 40,
+	[69201] = {
+		name = "库珀反潜PBY-Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "shizhizidiangaier",
+		model_ID = "pby",
 		ACC_growth = 0,
-		crash_DMG = 162,
-		dodge = 0.297,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 10,
-		type = 1,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
-		icon = "shizhizidiangaier",
+		icon = "pby",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1532,
-		speed = 60,
-		id = 69921,
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 66,
+		id = 69201,
 		scale = 1,
 		weapon_ID = {
-			59541,
-			69961
+			53141
 		},
 		position_offset = {
 			0,
@@ -91,13 +51,13 @@ pg.aircraft_template_193 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -114,7 +74,7 @@ pg.aircraft_template_193 = {
 				0
 			},
 			{
-				0.51,
+				0.64,
 				0,
 				0
 			},
@@ -125,48 +85,84 @@ pg.aircraft_template_193 = {
 			}
 		}
 	},
-	[69922] = {
-		max_hp = 46,
-		name = "信浓技能试制紫电改二 LV2",
-		base = 69921,
-		id = 69922,
-		hp_growth = 1762,
+	[69202] = {
+		max_hp = 48,
+		name = "库珀反潜PBY-Lv2",
+		base = 69201,
+		id = 69202,
+		hp_growth = 1826,
 		weapon_ID = {
-			59542,
-			69962
+			53142
 		}
 	},
-	[69923] = {
-		max_hp = 52,
-		name = "信浓技能试制紫电改二 LV3",
-		base = 69921,
-		id = 69923,
-		hp_growth = 1992,
+	[69203] = {
+		max_hp = 54,
+		name = "库珀反潜PBY-Lv3",
+		base = 69201,
+		id = 69203,
+		hp_growth = 2036,
 		weapon_ID = {
-			59543,
-			69963
+			53143
 		}
 	},
-	[69924] = {
-		max_hp = 58,
-		name = "信浓技能试制紫电改二 LV4",
-		base = 69921,
-		id = 69924,
-		hp_growth = 2222,
+	[69204] = {
+		max_hp = 61,
+		name = "库珀反潜PBY-Lv4",
+		base = 69201,
+		id = 69204,
+		hp_growth = 2247,
 		weapon_ID = {
-			59544,
-			69964
+			53144
 		}
 	},
-	[69925] = {
-		max_hp = 64,
-		name = "信浓技能试制紫电改二 LV5",
-		base = 69921,
-		id = 69925,
-		hp_growth = 2451,
+	[69205] = {
+		max_hp = 67,
+		name = "库珀反潜PBY-Lv5",
+		base = 69201,
+		id = 69205,
+		hp_growth = 2458,
 		weapon_ID = {
-			59545,
-			69965
+			53145
+		}
+	},
+	[69206] = {
+		max_hp = 73,
+		name = "库珀反潜PBY-Lv6",
+		base = 69201,
+		id = 69206,
+		hp_growth = 2669,
+		weapon_ID = {
+			53146
+		}
+	},
+	[69207] = {
+		max_hp = 79,
+		name = "库珀反潜PBY-Lv7",
+		base = 69201,
+		id = 69207,
+		hp_growth = 2879,
+		weapon_ID = {
+			53147
+		}
+	},
+	[69208] = {
+		max_hp = 86,
+		name = "库珀反潜PBY-Lv8",
+		base = 69201,
+		id = 69208,
+		hp_growth = 3090,
+		weapon_ID = {
+			53148
+		}
+	},
+	[69209] = {
+		max_hp = 92,
+		name = "库珀反潜PBY-Lv9",
+		base = 69201,
+		id = 69209,
+		hp_growth = 3301,
+		weapon_ID = {
+			53149
 		}
 	}
 }

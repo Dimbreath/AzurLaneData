@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_110 = {
+	[15003] = {
+		id = 15003,
+		damage = "60 x 3",
+		base = 15000,
+		weapon_id = {
+			15003
+		}
+	},
 	[15020] = {
 		name = "Mark 14 Submarine Torpedo",
 		speciality = "Torpedo",
@@ -228,14 +236,6 @@ pg.equip_data_statistics_110 = {
 		base = 15040,
 		weapon_id = {
 			15048
-		}
-	},
-	[15049] = {
-		id = 15049,
-		damage = "123 x 3",
-		base = 15040,
-		weapon_id = {
-			15049
 		}
 	}
 }

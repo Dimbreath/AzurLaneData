@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_139 = {
+	[18126] = {
+		id = 18126,
+		base = 18120,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51126
+			}
+		},
+		weapon_id = {
+			18126
+		}
+	},
 	[18140] = {
 		name = "TBF Avenger",
 		type = 8,
@@ -352,26 +369,6 @@ pg.equip_data_statistics_139 = {
 		},
 		skill_id = {
 			6793
-		}
-	},
-	[18184] = {
-		base = 18180,
-		id = 18184,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				59624
-			}
-		},
-		weapon_id = {
-			18184
-		},
-		skill_id = {
-			6794
 		}
 	}
 }

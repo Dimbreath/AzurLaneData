@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.equip_data_statistics_209 = {
+	[29020] = {
+		name = "Blackburn Skua",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 2,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "29000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50120
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
 	[29021] = {
 		id = 29021,
 		base = 29020,
@@ -375,23 +427,6 @@ pg.equip_data_statistics_209 = {
 			"HMS",
 			"CV",
 			"DB"
-		}
-	},
-	[29121] = {
-		id = 29121,
-		base = 29120,
-		ammo_info = {
-			{
-				6,
-				50221
-			},
-			{
-				5,
-				52121
-			}
-		},
-		weapon_id = {
-			29121
 		}
 	}
 }

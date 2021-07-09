@@ -9010,7 +9010,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11001,
 		resource_num = 30,
-		order = 4
+		order = 7
 	},
 	[11002] = {
 		commodity_id = 42010,
@@ -9022,7 +9022,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11002,
 		resource_num = 30,
-		order = 3
+		order = 6
 	},
 	[11003] = {
 		commodity_id = 42017,
@@ -9034,7 +9034,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11003,
 		resource_num = 120,
-		order = 2
+		order = 3
 	},
 	[11004] = {
 		commodity_id = 14001,
@@ -9046,7 +9046,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11004,
 		resource_num = 15,
-		order = 6
+		order = 10
 	},
 	[11005] = {
 		commodity_id = 14002,
@@ -9058,7 +9058,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11005,
 		resource_num = 15,
-		order = 5
+		order = 9
 	},
 	[11006] = {
 		commodity_id = 100021,
@@ -9082,7 +9082,7 @@ pg.activity_shop_template = {
 		resource_type = 59010,
 		id = 11007,
 		resource_num = 2000,
-		order = 0
+		order = 1
 	},
 	[11008] = {
 		commodity_id = 59762,
@@ -9094,7 +9094,55 @@ pg.activity_shop_template = {
 		resource_type = 59010,
 		id = 11008,
 		resource_num = 2000,
-		order = 0
+		order = 1
+	},
+	[11009] = {
+		commodity_id = 13012,
+		resource_category = 1,
+		activity = 0,
+		num = 1,
+		num_limit = 50,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11009,
+		resource_num = 60,
+		order = 4
+	},
+	[11010] = {
+		commodity_id = 42020,
+		resource_category = 1,
+		activity = 0,
+		num = 1,
+		num_limit = 30,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11010,
+		resource_num = 30,
+		order = 5
+	},
+	[11011] = {
+		commodity_id = 14003,
+		resource_category = 1,
+		activity = 0,
+		num = 1,
+		num_limit = 20,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11011,
+		resource_num = 15,
+		order = 8
+	},
+	[11012] = {
+		commodity_id = 42026,
+		resource_category = 1,
+		activity = 0,
+		num = 1,
+		num_limit = 10,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11012,
+		resource_num = 120,
+		order = 2
 	},
 	[50001] = {
 		commodity_id = 405021,
@@ -10071,6 +10119,10 @@ pg.activity_shop_template = {
 		11006,
 		11007,
 		11008,
+		11009,
+		11010,
+		11011,
+		11012,
 		50001,
 		50002,
 		50004,

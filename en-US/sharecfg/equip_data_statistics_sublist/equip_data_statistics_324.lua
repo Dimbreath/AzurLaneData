@@ -1,156 +1,360 @@
 pg = pg or {}
 pg.equip_data_statistics_324 = {
-	[48047] = {
-		id = 48047,
-		base = 48040,
+	[47129] = {
+		id = 47129,
+		base = 47120,
 		ammo_info = {
 			{
 				6,
-				59347
+				59129
 			},
 			{
-				4,
-				59707
+				6,
+				59229
 			}
 		},
 		weapon_id = {
-			48047
+			47129,
+			84129
 		}
 	},
-	[48048] = {
-		id = 48048,
-		base = 48040,
+	[47130] = {
+		id = 47130,
+		base = 47120,
 		ammo_info = {
 			{
 				6,
-				59348
+				59130
 			},
 			{
-				4,
-				59708
+				6,
+				59230
 			}
 		},
 		weapon_id = {
-			48048
+			47130,
+			84130
 		}
 	},
-	[48049] = {
-		id = 48049,
-		base = 48040,
+	[47140] = {
+		name = "Messerschmitt Me-155A",
+		type = 7,
+		speciality = "Air",
+		rarity = 5,
+		tech = 3,
+		descrip = "The newest model of fighter from the Ironblood specially designed for the Graf Zeppelin.",
+		value_2 = 45,
+		icon = "47100",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				59349
+				59140
 			},
 			{
-				4,
-				59709
+				6,
+				59240
 			}
 		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			48049
+			47140,
+			84140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
 		}
 	},
-	[48050] = {
-		id = 48050,
-		base = 48040,
+	[47141] = {
+		id = 47141,
+		base = 47140,
 		ammo_info = {
 			{
 				6,
-				59350
+				59141
 			},
 			{
-				4,
-				59710
+				6,
+				59241
 			}
 		},
 		weapon_id = {
-			48050
+			47141,
+			84141
 		}
 	},
-	[48051] = {
+	[47142] = {
+		id = 47142,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59142
+			},
+			{
+				6,
+				59242
+			}
+		},
+		weapon_id = {
+			47142,
+			84142
+		}
+	},
+	[47143] = {
+		id = 47143,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59143
+			},
+			{
+				6,
+				59243
+			}
+		},
+		weapon_id = {
+			47143,
+			84143
+		}
+	},
+	[47144] = {
+		id = 47144,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59144
+			},
+			{
+				6,
+				59244
+			}
+		},
+		weapon_id = {
+			47144,
+			84144
+		}
+	},
+	[47145] = {
+		id = 47145,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59145
+			},
+			{
+				6,
+				59245
+			}
+		},
+		weapon_id = {
+			47145,
+			84145
+		}
+	},
+	[47146] = {
+		id = 47146,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59146
+			},
+			{
+				6,
+				59246
+			}
+		},
+		weapon_id = {
+			47146,
+			84146
+		}
+	},
+	[47147] = {
+		id = 47147,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59147
+			},
+			{
+				6,
+				59247
+			}
+		},
+		weapon_id = {
+			47147,
+			84147
+		}
+	},
+	[47148] = {
+		id = 47148,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59148
+			},
+			{
+				6,
+				59248
+			}
+		},
+		weapon_id = {
+			47148,
+			84148
+		}
+	},
+	[47149] = {
+		id = 47149,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59149
+			},
+			{
+				6,
+				59249
+			}
+		},
+		weapon_id = {
+			47149,
+			84149
+		}
+	},
+	[47150] = {
+		id = 47150,
+		base = 47140,
+		ammo_info = {
+			{
+				6,
+				59150
+			},
+			{
+				6,
+				59250
+			}
+		},
+		weapon_id = {
+			47150,
+			84150
+		}
+	},
+	[47151] = {
 		anti_siren = 100,
-		base = 48040,
-		id = 48051,
+		base = 47140,
+		id = 47151,
 		ammo_info = {
 			{
 				6,
-				59351
+				59151
 			},
 			{
-				4,
-				59711
+				6,
+				59251
 			}
 		},
 		weapon_id = {
-			48051
+			47151,
+			84151
 		}
 	},
-	[48052] = {
+	[47152] = {
 		anti_siren = 200,
-		base = 48040,
-		id = 48052,
+		base = 47140,
+		id = 47152,
 		ammo_info = {
 			{
 				6,
-				59352
+				59152
 			},
 			{
-				4,
-				59712
+				6,
+				59252
 			}
 		},
 		weapon_id = {
-			48052
+			47152,
+			84152
 		}
 	},
-	[48053] = {
+	[47153] = {
 		anti_siren = 300,
-		base = 48040,
-		id = 48053,
+		base = 47140,
+		id = 47153,
 		ammo_info = {
 			{
 				6,
-				59353
+				59153
 			},
 			{
-				4,
-				59713
+				6,
+				59253
 			}
 		},
 		weapon_id = {
-			48053
+			47153,
+			84153
 		}
 	},
-	[49000] = {
-		name = "Ju-87C Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 2,
-		tech = 1,
-		descrip = "The ship-faring version of the Ju-87, the Ironblood's most widely used dive bomber. Also known as the 'Stuka'.",
-		value_2 = 5,
-		icon = "49000",
+	[47160] = {
+		name = "Prototype BF-109G ",
+		type = 7,
+		speciality = "Air",
+		rarity = 5,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "47160",
 		attribute_2 = "air",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 49000,
+		id = 47160,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				59300
+				59820
+			},
+			{
+				6,
+				59440
 			},
 			{
 				5,
-				52600
-			},
-			{
-				5,
-				53000
+				59840
 			}
 		},
 		equip_info = {
@@ -160,7 +364,7 @@ pg.equip_data_statistics_324 = {
 			9
 		},
 		weapon_id = {
-			49000
+			47160
 		},
 		skill_id = {},
 		part_main = {
@@ -175,231 +379,8 @@ pg.equip_data_statistics_324 = {
 		label = {
 			"KMS",
 			"CV",
-			"DB"
-		}
-	},
-	[49001] = {
-		id = 49001,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59301
-			},
-			{
-				5,
-				52601
-			},
-			{
-				5,
-				53001
-			}
-		},
-		weapon_id = {
-			49001
-		}
-	},
-	[49002] = {
-		id = 49002,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59302
-			},
-			{
-				5,
-				52602
-			},
-			{
-				5,
-				53002
-			}
-		},
-		weapon_id = {
-			49002
-		}
-	},
-	[49003] = {
-		id = 49003,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59303
-			},
-			{
-				5,
-				52603
-			},
-			{
-				5,
-				53003
-			}
-		},
-		weapon_id = {
-			49003
-		}
-	},
-	[49020] = {
-		name = "Ju-87C Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 3,
-		tech = 2,
-		descrip = "The ship-faring version of the Ju-87, the Ironblood's most widely used dive bomber. Also known as the 'Stuka'.",
-		value_2 = 12,
-		icon = "49000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 49020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59320
-			},
-			{
-				5,
-				52620
-			},
-			{
-				5,
-				53020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			49020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"DB"
-		}
-	},
-	[49021] = {
-		id = 49021,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59321
-			},
-			{
-				5,
-				52621
-			},
-			{
-				5,
-				53021
-			}
-		},
-		weapon_id = {
-			49021
-		}
-	},
-	[49022] = {
-		id = 49022,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59322
-			},
-			{
-				5,
-				52622
-			},
-			{
-				5,
-				53022
-			}
-		},
-		weapon_id = {
-			49022
-		}
-	},
-	[49023] = {
-		id = 49023,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59323
-			},
-			{
-				5,
-				52623
-			},
-			{
-				5,
-				53023
-			}
-		},
-		weapon_id = {
-			49023
-		}
-	},
-	[49024] = {
-		id = 49024,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59324
-			},
-			{
-				5,
-				52624
-			},
-			{
-				5,
-				53024
-			}
-		},
-		weapon_id = {
-			49024
-		}
-	},
-	[49025] = {
-		id = 49025,
-		base = 49020,
-		ammo_info = {
-			{
-				6,
-				59325
-			},
-			{
-				5,
-				52625
-			},
-			{
-				5,
-				53025
-			}
-		},
-		weapon_id = {
-			49025
+			"FT",
+			"APRK"
 		}
 	}
 }

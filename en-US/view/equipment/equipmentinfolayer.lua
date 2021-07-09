@@ -475,7 +475,7 @@ function slot0.showDestoryMsgbox(slot0, slot1)
 		slot0.destoryMsgboxBackBtn = slot0.destroyMsgBox:Find("window/top/btnBack")
 	end
 
-	setText(slot0.destroyMsgboxIntro, i18n("destory_important_equipment_tip", slot1.config.name))
+	setText(slot0.destroyMsgboxIntro, SwitchSpecialChar(i18n("destory_important_equipment_tip", slot1.config.name)))
 	onButton(slot0, slot0.destroyMsgBoxConfirmBtn, function ()
 		if not getInputText(uv0.destroyMsgBoxInput) or slot0 == "" then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_should_input"))

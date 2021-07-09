@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_182 = {
+	[26142] = {
+		id = 26142,
+		damage = "44/wave",
+		base = 26140,
+		weapon_id = {
+			26142
+		}
+	},
 	[26143] = {
 		id = 26143,
 		damage = "49/wave",
@@ -181,68 +189,6 @@ pg.equip_data_statistics_182 = {
 		base = 26200,
 		weapon_id = {
 			26206
-		}
-	},
-	[26220] = {
-		name = "Octuple 40mm Pom-Pom Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "26200",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "46/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
 		}
 	}
 }

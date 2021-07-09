@@ -1,301 +1,315 @@
 pg = pg or {}
 pg.equip_data_statistics_362 = {
-	[85180] = {
-		name = "Single 37mm 70-K AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
+	[79732] = {
+		id = 79732,
+		name = "专属弹幕-海伦娜.META II",
+		base = 79731,
+		weapon_id = {
+			79732
+		}
+	},
+	[79741] = {
+		name = "专属弹幕-风云I",
 		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "9/wave",
-		nationality = 7,
-		ammo = 5,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
 		value_3 = 0,
-		id = 85180,
+		id = 79741,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+		equip_info = {},
 		weapon_id = {
-			85180
+			60651
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
+		label = {}
 	},
-	[85181] = {
-		id = 85181,
-		damage = "11/wave",
-		base = 85180,
+	[79742] = {
+		id = 79742,
+		name = "专属弹幕-风云II",
+		base = 79741,
 		weapon_id = {
-			85181
+			60652
 		}
 	},
-	[85182] = {
-		id = 85182,
-		damage = "13/wave",
-		base = 85180,
+	[79751] = {
+		name = "专属弹幕-安克雷奇I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79751,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
 		weapon_id = {
-			85182
-		}
+			60661
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
 	},
-	[85183] = {
-		id = 85183,
-		damage = "16/wave",
-		base = 85180,
+	[79752] = {
+		id = 79752,
+		name = "专属弹幕-安克雷奇II",
+		base = 79751,
 		weapon_id = {
-			85183
+			60662
 		}
 	},
-	[85200] = {
-		name = "Single 37mm 70-K AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
+	[85000] = {
+		name = "Twin 130mm B-2LM Main Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 1,
+		descrip = "A 130mm naval artillery turret developed by the Northern Parliament that boasts superior performance in surface combat.",
 		value_2 = 12,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
+		icon = "85000",
+		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "11/wave",
+		damage = "3 x 6",
 		nationality = 7,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 85200,
+		id = 85000,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1700
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1700
+			},
+			{
+				4,
+				1024
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85200
+			85000
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"ST",
-			"AA"
+			"DD",
+			"MG"
 		}
 	},
-	[85201] = {
-		id = 85201,
-		damage = "13/wave",
-		base = 85200,
+	[85001] = {
+		id = 85001,
+		base = 85000,
 		weapon_id = {
-			85201
+			85001
 		}
 	},
-	[85202] = {
-		id = 85202,
-		damage = "16/wave",
-		base = 85200,
+	[85002] = {
+		id = 85002,
+		damage = "4 x 6",
+		base = 85000,
 		weapon_id = {
-			85202
+			85002
 		}
 	},
-	[85203] = {
-		id = 85203,
-		damage = "19/wave",
-		base = 85200,
+	[85003] = {
+		id = 85003,
+		damage = "4 x 6",
+		base = 85000,
 		weapon_id = {
-			85203
+			85003
 		}
 	},
-	[85204] = {
-		id = 85204,
-		damage = "22/wave",
-		base = 85200,
+	[85004] = {
+		id = 85004,
+		damage = "5 x 6",
+		base = 85000,
 		weapon_id = {
-			85204
+			85004
 		}
 	},
-	[85205] = {
-		id = 85205,
-		damage = "25/wave",
-		base = 85200,
+	[85005] = {
+		id = 85005,
+		damage = "6 x 6",
+		base = 85000,
 		weapon_id = {
-			85205
+			85005
 		}
 	},
-	[85206] = {
-		id = 85206,
-		damage = "28/wave",
-		base = 85200,
+	[85006] = {
+		id = 85006,
+		damage = "7 x 6",
+		base = 85000,
 		weapon_id = {
-			85206
+			85006
 		}
 	},
-	[85220] = {
-		name = "Single 37mm 70-K AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
+	[85040] = {
+		name = "Twin 130mm B-2LM Main Gun Mount",
+		speciality = "Lock",
+		type = 1,
 		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "14/wave",
+		descrip = "A 130mm naval artillery turret developed by the Northern Parliament that boasts superior performance in surface combat.",
+		value_2 = 35,
+		icon = "85000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
 		nationality = 7,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 85220,
+		id = 85040,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1710
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1710
+			},
+			{
+				4,
+				1024
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85220
+			85040
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"ST",
-			"AA"
+			"DD",
+			"MG"
 		}
 	},
-	[85221] = {
-		id = 85221,
-		damage = "17/wave",
-		base = 85220,
+	[85041] = {
+		id = 85041,
+		base = 85040,
 		weapon_id = {
-			85221
+			85041
 		}
 	},
-	[85222] = {
-		id = 85222,
-		damage = "20/wave",
-		base = 85220,
+	[85042] = {
+		id = 85042,
+		damage = "7 x 6",
+		base = 85040,
 		weapon_id = {
-			85222
+			85042
 		}
 	},
-	[85223] = {
-		id = 85223,
-		damage = "23/wave",
-		base = 85220,
+	[85043] = {
+		id = 85043,
+		damage = "8 x 6",
+		base = 85040,
 		weapon_id = {
-			85223
+			85043
 		}
 	},
-	[85224] = {
-		id = 85224,
-		damage = "26/wave",
-		base = 85220,
+	[85044] = {
+		id = 85044,
+		damage = "9 x 6",
+		base = 85040,
 		weapon_id = {
-			85224
-		}
-	},
-	[85225] = {
-		id = 85225,
-		damage = "29/wave",
-		base = 85220,
-		weapon_id = {
-			85225
+			85044
 		}
 	}
 }

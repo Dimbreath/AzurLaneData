@@ -1,84 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_304 = {
-	[45123] = {
-		id = 45123,
-		damage = "86 x 4",
-		base = 45120,
+	[44404] = {
+		id = 44404,
+		damage = "77 x 3",
+		base = 44400,
 		weapon_id = {
-			45123
+			44404
 		}
 	},
-	[45124] = {
-		id = 45124,
-		damage = "92 x 4",
-		base = 45120,
+	[44405] = {
+		id = 44405,
+		damage = "81 x 3",
+		base = 44400,
 		weapon_id = {
-			45124
+			44405
 		}
 	},
-	[45125] = {
-		id = 45125,
-		damage = "99 x 4",
-		base = 45120,
+	[44406] = {
+		id = 44406,
+		damage = "87 x 3",
+		base = 44400,
 		weapon_id = {
-			45125
+			44406
 		}
 	},
-	[45126] = {
-		id = 45126,
-		damage = "106 x 4",
-		base = 45120,
+	[44407] = {
+		id = 44407,
+		damage = "91 x 3",
+		base = 44400,
 		weapon_id = {
-			45126
+			44407
 		}
 	},
-	[45127] = {
-		id = 45127,
-		damage = "112 x 4",
-		base = 45120,
+	[44408] = {
+		id = 44408,
+		damage = "97 x 3",
+		base = 44400,
 		weapon_id = {
-			45127
+			44408
 		}
 	},
-	[45128] = {
-		id = 45128,
-		damage = "119 x 4",
-		base = 45120,
+	[44409] = {
+		id = 44409,
+		damage = "101 x 3",
+		base = 44400,
 		weapon_id = {
-			45128
+			44409
 		}
 	},
-	[45129] = {
-		id = 45129,
-		damage = "126 x 4",
-		base = 45120,
+	[44410] = {
+		id = 44410,
+		damage = "105 x 3",
+		base = 44400,
 		weapon_id = {
-			45129
+			44410
 		}
 	},
-	[45130] = {
-		id = 45130,
-		damage = "133 x 4",
-		base = 45120,
+	[44411] = {
+		anti_siren = 100,
+		damage = "105 x 3",
+		base = 44400,
+		id = 44411,
 		weapon_id = {
-			45130
+			44411
 		}
 	},
-	[45140] = {
-		name = "533mm Quadruple Magnetic Torpedo Mount",
+	[44412] = {
+		anti_siren = 200,
+		damage = "105 x 3",
+		base = 44400,
+		id = 44412,
+		weapon_id = {
+			44412
+		}
+	},
+	[44413] = {
+		anti_siren = 300,
+		damage = "105 x 3",
+		base = 44400,
+		id = 44413,
+		weapon_id = {
+			44413
+		}
+	},
+	[45000] = {
+		name = "533mm Triple Magnetic Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
-		tech = 3,
-		descrip = "The 533mm Quadruple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
-		value_2 = 45,
-		icon = "45100",
+		tech = 1,
+		descrip = "The 533mm Triple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
+		value_2 = 5,
+		icon = "45000",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "70 x 4",
+		rarity = 2,
+		damage = "63 x 3",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45140,
+		id = 45000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -95,7 +114,7 @@ pg.equip_data_statistics_304 = {
 			},
 			{
 				4,
-				1403
+				1402
 			},
 			6,
 			10,
@@ -103,7 +122,7 @@ pg.equip_data_statistics_304 = {
 			12
 		},
 		weapon_id = {
-			45140
+			45000
 		},
 		skill_id = {},
 		part_main = {
@@ -123,71 +142,109 @@ pg.equip_data_statistics_304 = {
 			"KMS",
 			"ST",
 			"TP",
-			"QUAD"
+			"TRI"
 		}
 	},
-	[45141] = {
-		id = 45141,
-		damage = "77 x 4",
-		base = 45140,
+	[45001] = {
+		id = 45001,
+		damage = "69 x 3",
+		base = 45000,
 		weapon_id = {
-			45141
+			45001
 		}
 	},
-	[45142] = {
-		id = 45142,
-		damage = "85 x 4",
-		base = 45140,
+	[45002] = {
+		id = 45002,
+		damage = "75 x 3",
+		base = 45000,
 		weapon_id = {
-			45142
+			45002
 		}
 	},
-	[45143] = {
-		id = 45143,
-		damage = "92 x 4",
-		base = 45140,
+	[45003] = {
+		id = 45003,
+		damage = "81 x 3",
+		base = 45000,
 		weapon_id = {
-			45143
+			45003
 		}
 	},
-	[45144] = {
-		id = 45144,
-		damage = "100 x 4",
-		base = 45140,
+	[45020] = {
+		name = "533mm Triple Magnetic Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 2,
+		descrip = "The 533mm Triple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
+		value_2 = 12,
+		icon = "45000",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "66 x 3",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			45144
+			45020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[45145] = {
-		id = 45145,
-		damage = "107 x 4",
-		base = 45140,
+	[45021] = {
+		id = 45021,
+		damage = "72 x 3",
+		base = 45020,
 		weapon_id = {
-			45145
+			45021
 		}
 	},
-	[45146] = {
-		id = 45146,
-		damage = "115 x 4",
-		base = 45140,
+	[45022] = {
+		id = 45022,
+		damage = "79 x 3",
+		base = 45020,
 		weapon_id = {
-			45146
-		}
-	},
-	[45147] = {
-		id = 45147,
-		damage = "122 x 4",
-		base = 45140,
-		weapon_id = {
-			45147
-		}
-	},
-	[45148] = {
-		id = 45148,
-		damage = "130 x 4",
-		base = 45140,
-		weapon_id = {
-			45148
+			45022
 		}
 	}
 }

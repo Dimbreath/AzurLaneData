@@ -12,6 +12,13 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 			setText(slot2:Find("target/title"), HXSet.hxLan(uv1.resTitle))
 			setActive(slot2:Find("award/mask"), slot1 + 1 <= uv3)
 			setActive(slot2:Find("award1/mask"), slot1 + 1 <= uv3)
+
+			if slot2:Find("target/icon") and uv1.resIcon and uv1.resIcon ~= "" then
+				setActive(slot2:Find("target/icon"), true)
+				LoadImageSpriteAsync(uv1.resIcon, slot2:Find("target/icon/image"), false)
+			else
+				setActive(slot2:Find("target/icon"), false)
+			end
 		end
 	end)
 	slot0.UIlist:align(#slot1)

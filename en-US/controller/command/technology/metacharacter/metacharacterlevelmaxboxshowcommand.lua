@@ -1,27 +1,19 @@
 slot0 = class("MetaCharacterLevelMaxBoxShowCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if not NEW_META_EXP then
-		if not getProxy(MetaCharacterProxy) then
-			return
-		end
-
-		slot2:clearMetaSkillLevelMaxInfoList()
-
-		return
-	end
-
 	slot2 = slot1:getBody()
 
 	if not getProxy(MetaCharacterProxy) then
 		return
 	end
 
-	if not getProxy(ChapterProxy):getActiveChapter() then
-		return
+	slot6 = nil
+
+	if getProxy(ChapterProxy):getActiveChapter() then
+		slot6 = slot4:GetChapterAutoFlag(slot5.id) == 1
 	end
 
-	if slot4:GetChapterAutoFlag(slot5.id) == 1 then
+	if slot6 then
 		return
 	end
 
@@ -30,8 +22,8 @@ function slot0.execute(slot0, slot1)
 
 		for slot12, slot13 in ipairs(slot7) do
 			slot15 = slot13.metaSkillID
-			slot16 = setColorStr(HXSet.hxLan(slot13.metaShipVO:getName()), COLOR_RED)
-			slot8 = slot12 < #slot7 and slot8 .. slot16 .. ", " or slot8 .. slot16 .. ", " .. slot16
+			slot16 = setColorStr(HXSet.hxLan(slot13.metaShipVO:getName()), COLOR_GREEN)
+			slot8 = slot12 < #slot7 and slot8 .. slot16 .. "、" or slot8 .. slot16 .. "、" .. slot16
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -41,6 +33,11 @@ function slot0.execute(slot0, slot1)
 					autoOpenTactics = true,
 					autoOpenShipConfigID = uv0[1].metaShipVO.configId
 				})
+			end,
+			onClose = function ()
+				if uv0.closeFunc then
+					uv0.closeFunc()
+				end
 			end,
 			weight = LayerWeightConst.TOP_LAYER
 		})

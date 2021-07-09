@@ -4973,6 +4973,67 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[399050] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		mission = "",
+		id = 399050,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Oh, it's you. What are we going to do today– G-give my katana back! Y-you're training me to get used to not having it...? Whyyy?!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Y-yes?! I'm here! P-please don't eat me...?! D-don't sneak up on me when I don't have my weapon..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Wh-what are you doing?! Stop! Please stop that already!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"What a pain... Cleaning is such a chore... Hey, Commander, since you're here, mind helping me tidy up?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"If it's about that fight earlier, we could've just slugged it out. What's the point of dragging the issue back to the dinner table? Ugh...|I think I should leave this backup sword with you... I mean, just in case... Just in case I drop mine, it'll be a huge help to have you around...|It's time to make rice balls! You should have some too! Do I love white rice so much because of my name?! ...What are you, stupid?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Wh-what is it? Oh, the commission fleet is back? ...W, wait, don't pull on me! At least let me grab my katana... Ahem. Anyway, let's get going."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"F-fine, it's not like I can beat you anyway... Hyaah?!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -5056,6 +5117,7 @@ pg.ship_skin_words_extra = {
 		107140,
 		105170,
 		107990,
-		301860
+		301860,
+		399050
 	}
 }

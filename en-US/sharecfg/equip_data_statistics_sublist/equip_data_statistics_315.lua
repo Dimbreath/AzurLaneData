@@ -1,171 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_315 = {
-	[46267] = {
-		id = 46267,
-		damage = "47/wave",
-		base = 46260,
+	[46103] = {
+		id = 46103,
+		damage = "12/wave",
+		base = 46100,
 		weapon_id = {
-			46267
+			46103
 		}
 	},
-	[46268] = {
-		id = 46268,
-		damage = "50/wave",
-		base = 46260,
-		weapon_id = {
-			46268
-		}
-	},
-	[46269] = {
-		id = 46269,
-		damage = "53/wave",
-		base = 46260,
-		weapon_id = {
-			46269
-		}
-	},
-	[46270] = {
-		id = 46270,
-		damage = "56/wave",
-		base = 46260,
-		weapon_id = {
-			46270
-		}
-	},
-	[46271] = {
-		anti_siren = 100,
-		damage = "56/wave",
-		base = 46260,
-		id = 46271,
-		weapon_id = {
-			46271
-		}
-	},
-	[46300] = {
-		name = "Twin 105mm SK C/33 AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 1,
-		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
-		value_2 = 12,
-		icon = "46300",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "34/wave",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			46300
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
-	},
-	[46301] = {
-		id = 46301,
-		damage = "39/wave",
-		base = 46300,
-		weapon_id = {
-			46301
-		}
-	},
-	[46302] = {
-		id = 46302,
-		damage = "44/wave",
-		base = 46300,
-		weapon_id = {
-			46302
-		}
-	},
-	[46303] = {
-		id = 46303,
-		damage = "50/wave",
-		base = 46300,
-		weapon_id = {
-			46303
-		}
-	},
-	[46304] = {
-		id = 46304,
-		damage = "56/wave",
-		base = 46300,
-		weapon_id = {
-			46304
-		}
-	},
-	[46305] = {
-		id = 46305,
-		damage = "62/wave",
-		base = 46300,
-		weapon_id = {
-			46305
-		}
-	},
-	[46306] = {
-		id = 46306,
-		damage = "68/wave",
-		base = 46300,
-		weapon_id = {
-			46306
-		}
-	},
-	[46320] = {
-		name = "Twin 105mm SK C/33 AA Gun Mount",
+	[46120] = {
+		name = "Single 37mm Flak AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
-		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
-		value_2 = 25,
-		icon = "46300",
+		descrip = "Single 37mm Flak AA Gun Mount used for anti-air defense.",
+		value_2 = 5,
+		icon = "46100",
 		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "41/wave",
+		rarity = 2,
+		damage = "11/wave",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46320,
+		id = 46120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -177,7 +34,7 @@ pg.equip_data_statistics_315 = {
 			10
 		},
 		weapon_id = {
-			46320
+			46120
 		},
 		skill_id = {},
 		part_main = {
@@ -213,36 +70,232 @@ pg.equip_data_statistics_315 = {
 			"AA"
 		}
 	},
-	[46321] = {
-		id = 46321,
-		damage = "47/wave",
-		base = 46320,
+	[46121] = {
+		id = 46121,
+		damage = "12/wave",
+		base = 46120,
 		weapon_id = {
-			46321
+			46121
 		}
 	},
-	[46322] = {
-		id = 46322,
-		damage = "53/wave",
-		base = 46320,
+	[46122] = {
+		id = 46122,
+		damage = "14/wave",
+		base = 46120,
 		weapon_id = {
-			46322
+			46122
 		}
 	},
-	[46323] = {
-		id = 46323,
-		damage = "59/wave",
-		base = 46320,
+	[46123] = {
+		id = 46123,
+		damage = "16/wave",
+		base = 46120,
 		weapon_id = {
-			46323
+			46123
 		}
 	},
-	[46324] = {
-		id = 46324,
-		damage = "65/wave",
-		base = 46320,
+	[46140] = {
+		name = "Single 37mm Flak AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "Single 37mm Flak AA Gun Mount used for anti-air defense.",
+		value_2 = 12,
+		icon = "46100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "12/wave",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			46324
+			46140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46141] = {
+		id = 46141,
+		damage = "14/wave",
+		base = 46140,
+		weapon_id = {
+			46141
+		}
+	},
+	[46142] = {
+		id = 46142,
+		damage = "16/wave",
+		base = 46140,
+		weapon_id = {
+			46142
+		}
+	},
+	[46143] = {
+		id = 46143,
+		damage = "18/wave",
+		base = 46140,
+		weapon_id = {
+			46143
+		}
+	},
+	[46144] = {
+		id = 46144,
+		damage = "20/wave",
+		base = 46140,
+		weapon_id = {
+			46144
+		}
+	},
+	[46145] = {
+		id = 46145,
+		damage = "22/wave",
+		base = 46140,
+		weapon_id = {
+			46145
+		}
+	},
+	[46146] = {
+		id = 46146,
+		damage = "24/wave",
+		base = 46140,
+		weapon_id = {
+			46146
+		}
+	},
+	[46147] = {
+		id = 46147,
+		damage = "24/wave",
+		base = 46140,
+		weapon_id = {
+			46147
+		}
+	},
+	[46200] = {
+		name = "Twin 37mm AA 70K",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "Twin 37mm AA 70K used for anti-air defense.",
+		value_2 = 5,
+		icon = "46200",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "15/wave",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46200
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46201] = {
+		id = 46201,
+		damage = "17/wave",
+		base = 46200,
+		weapon_id = {
+			46201
+		}
+	},
+	[46202] = {
+		id = 46202,
+		damage = "19/wave",
+		base = 46200,
+		weapon_id = {
+			46202
+		}
+	},
+	[46203] = {
+		id = 46203,
+		damage = "22/wave",
+		base = 46200,
+		weapon_id = {
+			46203
 		}
 	}
 }

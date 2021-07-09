@@ -6134,7 +6134,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 		tip = "Target $1 :"
 	},
 	pt_total_count = {
-		tip = "In possession $1 :"
+		tip = "In possession $1"
 	},
 	remould_ship_ok = {
 		tip = "Improved!"
@@ -6911,27 +6911,32 @@ $3]]
 		tip = {
 			{
 				info = [[
-Starting Research
-1. When you select a Research Project from the list and tap the "Start Researching" button, you will begin research on the project.
-2. Certain Research Projects require you to spend some resources to initiate them.
-3. You cannot research more than a single project at a time.
+- Update - (July 8th, 2021)
+The Research Academy has received an update with the addition of series 4 PRs/DRs.
 
-Completing Research
-1. It takes time for Research Projects to complete.
-2. Some Research Projects have additional conditions that need to be fulfilled.
-3. Progress towards these conditions will only count once you've initiated the research.
-4. You can still complete these additional requirements even after the Research Project's required time has elapsed.
-5. When you complete a Research Project, you will receive rewards from it, and the Research Project list will update.
+1. New series 4 research projects have been added.
 
-Stopping Research
-1. By tapping the "Stop Researching" button, you can suspend a Research Project that's in progress.
-2. Suspending the Research Project will not refund any resources you may have spent to start it.
-3. Furthermore, suspending the Research Project will reset the time and resource requirements to start it again.
+2. If you possess enough Blueprints to fully Enhance (including Fate Simulation) a PR/DR, you will no longer get Catch-Up research projects specific to that ship.
+For example, if you only have Monarch fully Fate Simulated (or have enough Blueprints to do so) among all PR1 ships and set your Research Focus to PR1 ships, you will receive projects for all PR1 ships except Monarch.
 
-Updating the Research Project list
-1. After server reset (midnight at server's local time,) you can tap the "Update List" button to receive a new list of Research Projects.
-2. You can only update the Research Project list once a day.
-3. You can not update the list if a Research Project is underway.]]
+If you have Research Focus set to a specific PR/DR series and you've fully Enhanced all ships from that series (or have enough Blueprints to do so), you will get research projects for all ships from that series.
+Conversely, if you have Research Focus disabled, you will only receive research projects for ships that you've not fully Enhanced (or have enough Blueprints to do so for).
+
+Otherwise, the amount of Blueprints you possess for a given ship does not affect your probability of getting research projects for her.
+
+
+- Update -
+The Research Academy has received an update with the addition of series 3 PRs/DRs.
+
+1. New series 3 research projects have been added.
+Series 3 research projects are marked with the roman numeral "III" in the top right corner of the project.
+
+2. The Research Focus menu has been completely revamped.
+Now when you wish to focus on a particular PR/DR series, you can choose between series 1, 2, and 3.
+Focusing on a series will increase the likelihood you'll get research projects from the corresponding series, with at least 3 of them guaranteed to be from the chosen series.
+
+Additionally, with the new Catch-Up feature, you can prioritize a ship of a given PR/DR series and receive additional Blueprints for her.
+Setting an active Catch-Up ship is done through the Research Focus menu.]]
 			}
 		}
 	},
@@ -7058,38 +7063,54 @@ Updating the Research Project list
 		tip = {
 			{
 				info = [[
-Starting Development
+1. Starting Development:
+You can begin development on a PR/DR ship once you meet her development requirements, which are shown at the center of the Shipyard screen when a ship has been selected.
+To start developing a ship, select one and tap the Commence button. You can only develop 1 PR/DR ship at a time.
 
-1. You can develop a Priority ship by completing their development requirements.
-2. The Priority ship's development requirements are shown on the right side of the screen.
-3. You can begin development on a ship by choosing one from the Shipyard screen, then tapping the Begin Development button.
-4. You can not develop several ships at once.
+2. Development Tasks:
+The ship you've chosen to develop will unlock after you complete all her development tasks.
+After starting development, you will immediately gain access to the first task, and each subsequent task will unlock in order at 24-hour intervals.
+Some tasks may have prerequisites before you can begin making progress.
 
-Development Missions
-1. When you complete all of the development missions for your chosen ship, you will receive the ship.
-2. While a ship is being developed, new development missions for her will unlock every 24 hours.
-3. By completing these missions, the ship's development will progress.
-4. The first development mission will be unlocked as soon as you begin developing the ship.
-5. A few development missions require you to complete previous ones before you can continue.
+3. Changing Your Development Target:
+While you cannot develop 2 ships at once, you can switch which one you're developing before you complete all tasks.
+Any progress you've made on your current development tasks, as well as the unlocked tasks themselves, will be saved if you choose to switch development targets.
+Once you do this, you must wait 24 hours before you can change targets again.
 
-Changing The Ship in Development
-1. While developing a ship, you can choose to start developing another instead.
-2. When you change which ship you are developing, your progress on the ship you had been working on will be saved.
-3. Once you start or resume development, you can not change which ship to develop for 24 hours.
+4. Completing Development:
+Upon completing all development tasks for a ship, she will join your dock and you unlock the ability to Enhance her.
+To begin development on a new PR/DR ship, you must go to the Development Dock and select one. New development targets are not chosen automatically.
 
-Completing Development
-1. When you complete all of the development missions for your chosen ship, you will receive the ship and unlock the ability to enhance it.
-2. Once you've finished development, you must manually choose a new ship to develop.
+5. Enhancing PR/DR Ships:
+In contrast to ordinary ships, PR/DR ships require Blueprints to be Enhanced. Blueprints are mainly acquired through conducting research at the Research Academy.
+Enhancing a PR/DR ship will raise her stats, unlock new skills, and give her new abilities, similar to ordinary ships.
 
-Enhancing Priority Ships
-1. Once you acquire a Priority ship, you unlock the ability to enhance it.
-2. To enhance a Priority ship, you need to spend PR Blueprints on it.
-3. You can acquire PR Blueprints by conducting research in the Tech Academy.
-4. By enhancing your Priority ship, you can increase their stats.
-5. At regular Dev. Level intervals, they will also acquire even more stats and abilities.
+6. Enhancing with Coins:
+Some PR/DR ships can also be Enhanced and undergo Fate Simulation with Coins as a substitute for Blueprints. 
+The Coin cost depends on how many times you've used this method of Enhancement previously in a day. The first 15 times each day are discounted.
+The following table lists the Coin cost per number of Blueprints substituted:
+1 to 2: Free
+3 to 4: 90% discount
+5 to 7: 80% discount
+8 to 9: 60% discount
+10 to 15: 30% discount
+16 and onward: 0% discount; Blueprint costs 1,500 Coins each.
+The game will automatically calculate the Coin cost for you when using this method of Enhancement. The Coin cost resets daily at 4:00 AM.
 
-About Level Caps for Priority Ships:
-You do not need to Limit Break a Priority ship to get them to Level 100, but in order to increase their Level Cap, you must induce a Cognitive Awakening in them by spending Cognitive Chips and Coins.]]
+7. PR/DR Ship Level Caps:
+PR/DR ships do not need to be Limit Broken to be able to reach level 100. However, past that, you must still use Cognitive Chips and Coins to further increase their level caps. 
+
+8. Fate Simulation:
+Once a PR/DR ship reaches Development Level 30, she can undergo Fate Simulation, etching a historical record of sorts into her hull to be more akin to regular ships.
+In gameplay terms, Fate Simulation will allow you to use additional Blueprints to further enhance the capabilities of your PR/DR ship.
+Fate Simulation is done in 5 steps. The first 4 steps grant a boost to the ship's Luck stat, and the final 5th step grants an upgrade to one of her skills.
+You can also use Coins in place of Blueprints. Please refer to section 6 above for more details.
+
+9. Battle Simulations:
+You can preview the performance of certain PR/DRs through the Battle Simulation mode.
+To access it, simply select a ship and tap the Battle Simulation button. You will then be sent into a special battle with the ship you selected.
+
+Please note that the ships' stats and loadouts are preset in this mode, and may not accurately reflect their real performance.]]
 			}
 		}
 	},
@@ -7751,7 +7772,13 @@ disappear.]]
 		tip = "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
 	},
 	tec_notice_1 = {
-		tip = "Unlocked by completing all PR1 catch-up missions. "
+		tip = "Complete all PR1 Catch-Up missions"
+	},
+	tec_notice_2 = {
+		tip = "Complete all PR2 Catch-Up missions "
+	},
+	tec_notice_not_open_tip = {
+		tip = "Unlocks after completing the previous set of missions"
 	},
 	apply_permission_camera_tip1 = {
 		tip = "To use AR recording game feature, need to grant permission to access recording function."
@@ -7824,6 +7851,18 @@ disappear.]]
 					atlas = "helpbg/commander_skill2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 2,
@@ -7891,6 +7930,18 @@ disappear.]]
 					atlas = "helpbg/commander_skill2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 4,
@@ -7956,6 +8007,18 @@ disappear.]]
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_skill2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
 				}
 			},
 			disableScroll = true,
@@ -8029,6 +8092,18 @@ disappear.]]
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_skill2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_10"
 				}
 			},
 			disableScroll = true,
@@ -8417,11 +8492,11 @@ disappear.]]
 				info = "<color=#92fc63>- How to Play:</color>"
 			},
 			{
-				info = "During the \"Air Raid Drills with Essex\" event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
+				info = "During the \"Crosswave\" event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
 			},
 			{
 				info = [[
-During the event period, you will play on a special stage and face off against Essex's carrier fleet.
+During the event period, you will play on a special stage and face off against Suruga's fleet.
 All commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a gift sent to their Mailbox.
 <color=#92fc63>Note that you can still earn CP through the Event Stage even once the progress gauge has hit 0%.</color>
@@ -8924,6 +8999,51 @@ Equipped gear:<color=#92fc63>
 Prototype Triple 406mm/50 Main Gun 
 Triple 152mm Main Gun (Mle 1930)
 Twin 37mm AA Gun (Mle 1936)</color></size>]]
+	},
+	blueprint_simulation_confirm_19903 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Triple 203mm Mk 15 Main Gun Mount
+533mm Quadruple Torpedo Mount Mk 17
+Quadruple 28mm "Chicago Piano" AA Gun Mount</color></size>]]
+	},
+	blueprint_simulation_confirm_39905 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Saiun Kai
+Prototype Tenrai
+Prototype Saiun Kai</color></size>]]
+	},
+	blueprint_simulation_confirm_49905 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Triple 305mm SK C/39 Main Gun Mount
+533mm Quadruple Magnetic Torpedo Mount
+Twin 105mm SK C/33 AA Gun Mount</color></size>]]
+	},
+	blueprint_simulation_confirm_49906 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype BF-109G
+Ju-87C Dive Bomber
+Ju-87 D-4</color></size>]]
+	},
+	blueprint_simulation_confirm_69901 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Triple 406mm Model 1940 Main Gun Mount
+Triple 152mm Model 1934 Main Gun Mount
+Prototype Twin 90mm High Angle Gun Mount</color></size>]]
 	},
 	electrotherapy_wanning = {
 		tip = "The electrified area is about to expand"
@@ -11578,6 +11698,9 @@ Instructions:
 	tec_tendency_3 = {
 		tip = "PR3 Focus"
 	},
+	tec_tendency_4 = {
+		tip = "PR4 Focus"
+	},
 	tec_tendency_cur_0 = {
 		tip = "Research Focus \no Focus "
 	},
@@ -11590,11 +11713,59 @@ Instructions:
 	tec_tendency_cur_3 = {
 		tip = "Research Focus / Series 3"
 	},
-	tec_target_catchup_none = {
-		tip = "Catch-Up / Not Selected"
+	tec_tendency_cur_4 = {
+		tip = "Research Focus / Series 4"
 	},
-	tec_target_catchup_selected = {
-		tip = "Catch-Up"
+	tec_target_catchup_none_1 = {
+		tip = "PR1 / Not Selected"
+	},
+	tec_target_catchup_none_2 = {
+		tip = "PR2 / Not Selected"
+	},
+	tec_target_catchup_none_3 = {
+		tip = "PR3 / Not Selected"
+	},
+	tec_target_catchup_none_4 = {
+		tip = "PR4 / Not Selected"
+	},
+	tec_target_catchup_selected_1 = {
+		tip = "PR1 / Selected"
+	},
+	tec_target_catchup_selected_2 = {
+		tip = "PR2 / Selected"
+	},
+	tec_target_catchup_selected_3 = {
+		tip = "PR3 / Selected"
+	},
+	tec_target_catchup_selected_4 = {
+		tip = "PR4 / Selected"
+	},
+	tec_target_catchup_finish_1 = {
+		tip = "PR1 / Complete"
+	},
+	tec_target_catchup_finish_2 = {
+		tip = "PR2 / Complete"
+	},
+	tec_target_catchup_finish_3 = {
+		tip = "PR3 / Complete"
+	},
+	tec_target_catchup_finish_4 = {
+		tip = "PR4 / Complete"
+	},
+	tec_target_catchup_dr_finish_tip = {
+		tip = "Catch-Up Complete"
+	},
+	tec_target_catchup_all_finish_tip = {
+		tip = "Catch-Up Complete"
+	},
+	tec_target_catchup_show_the_finished_version = {
+		tip = "Show completed catch-ups"
+	},
+	tec_target_catchup_pry_char = {
+		tip = "PR Ships"
+	},
+	tec_target_catchup_dr_char = {
+		tip = "DR Ships"
 	},
 	tec_target_need_print = {
 		tip = "Required BPs:"
@@ -11608,40 +11779,17 @@ Instructions:
 	tec_target_catchup_help_tip = {
 		tip = {
 			{
-				info = "Regarding Research Catch-Up:"
-			},
-			{
 				info = [[
-The Research Catch-Up system allows you to
-choose a PR ship for accelerated research.
-When completing research projects, you may
-earn bonus Blueprints for that selected ship.]]
-			},
-			{
-				info = "Details:"
-			},
-			{
-				info = [[
--To activate Research Catch-Up, select a ship
-under the “Catch-Up” screen. Only one ship may
-be selected at a time, but you can change the
-research target anytime.
--When completing a research project, you will be
-able to obtain bonus Blueprints for the selected
-Catch-Up ship.
--The total number of Blueprints that may be earned
-from the Catch-Up system for any PR Series is
-300.
-]]
-			},
-			{
-				info = [[
-*For example, a total of 300 Blueprints may be
-earned for the 6 PR Series 1 ships, in any
-combination.
-*In addition to the Catch-Up system, there may be
-future events that further increase the Blueprints
-you can earn.]]
+- Catch-Up Info:
+
+The Catch-Up feature gives you bonus PR/DR Blueprints upon completion of a research project.
+First, choose a PR/DR ship you'd like to focus on, then simply complete research projects as normal.
+You can only receive these Blueprints for 1 ship at a time, but you can switch Catch-Up targets whenever you'd like.
+
+There is a limit on how many Blueprints you can receive through the Catch-Up feature. In the case of series 2 PRs/DRs, the totals are as follows:
+- PR ships: a maximum of 300 Blueprints between 4 ships.- DR ships: a maximum of 150 Blueprints per ship, for 2 different ships.
+
+In the case of events which grant Blueprints, these are counted separately from the Catch-Up feature.]]
 			}
 		}
 	},
@@ -13253,6 +13401,15 @@ How to Play
 	cumulative_victory_now_tip = {
 		tip = "Current Victories:"
 	},
+	word_files_repair = {
+		tip = "Tap to repair "
+	},
+	repair_setting_label = {
+		tip = "Repair assets "
+	},
+	voice_control = {
+		tip = "Volume"
+	},
 	index_equip = {
 		tip = "Equipped "
 	},
@@ -13911,13 +14068,13 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 		tip = "Meowfficer removed."
 	},
 	commander_box_quickly_tool_tip_1 = {
-		tip = "Using"
+		tip = "How many Cat Box Quick Finishers would you like to use?"
 	},
 	commander_box_quickly_tool_tip_2 = {
-		tip = "Cat Box Quick Finishers while shorten Meowfficer training time by"
+		tip = "Training time reduced by 20 min per Quick Finisher"
 	},
 	commander_box_quickly_tool_tip_3 = {
-		tip = "$1 mins. Continue?"
+		tip = "Time remaining after use:  "
 	},
 	commander_box_was_finished = {
 		tip = "Meowfficer training complete."
@@ -13933,6 +14090,30 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	commander_op_feed_level = {
 		tip = "Play Level: $1"
+	},
+	cat_home_help = {
+		tip = {
+			{
+				info = [[
+- Comf-Forts Info:
+
+1. You can leave your Meowfficers in Comf-Forts to passively grant them EXP over time, much like with shipgirls in the Dormitory.
+Once a day, you may perform the following actions once each with Meowfficers assigned in your Comf-Forts:
+- Clean
+- Play
+- Feed
+The benefits of whichever action is chosen is then applied to all Meowfficers in all Comf-Forts.
+Putting a new Meowfficer in a Comf-Fort which was the target for one of these actions will not let you redo the actions, nor can you do them again if you take a Meowfficer that was the target for one of these actions and put it into a Comf-Fort that went unused.The benefits of the action you chose will then be applied to the Comf-Fort with the Meowfficer assigned, and that action will become unavailable for the rest of the day.
+Putting a new Meowfficer in a Comf-Fort which was the target for one of these actions will not let you repeat the action, nor can you do it again if you take a Meowfficer that was the target for one of these actions and put it into a Comf-Fort that went unused.
+
+2. The benefits of these actions are as follows:
+- Clean: grants upgrade points for your Comf-Forts.
+- Play: grants upgrade points for your Comf-Forts, and you have a chance to receive Cat Box Quick Finishers.
+- Feed: Grants upgrade points for your Comf-Forts, and increases the EXP your Meowfficers earn in their Comf-Forts.
+
+Upgrading your Comf-Forts will give you access to additional Comf-Fort slots, Comf-Fort themes, and increase the EXP your Meowfficers earn while in a Comf-Fort.]]
+			}
+		}
 	},
 	cat_accelfrate_notenough = {
 		tip = "You do not have enough Cat Box Quick Finishers."
@@ -13950,10 +14131,19 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 		tip = "This Meowfficer is in a Comf-Fort. "
 	},
 	cat_home_interaction = {
-		tip = "该指挥喵已经$1过了"
+		tip = "You've already done the following daily actions:"
 	},
 	cat_accelerate_left = {
-		tip = "使用后剩余："
+		tip = "Actions left:"
+	},
+	common_clean = {
+		tip = "Clean"
+	},
+	common_feed = {
+		tip = "Feed"
+	},
+	common_play = {
+		tip = "Play"
 	},
 	game_stopwords = {
 		tip = "Text box is now being hidden."
@@ -14117,5 +14307,83 @@ The Mini-Event Gallery lets you choose and replay old mini-events.
 	},
 	memory_activity_others = {
 		tip = "Misc"
+	},
+	battle_end_title = {
+		tip = "Battle Results"
+	},
+	battle_end_subtitle1 = {
+		tip = "Rewards"
+	},
+	battle_end_subtitle2 = {
+		tip = "Tactical Learning"
+	},
+	meta_skill_dailyexp = {
+		tip = "Daily EXP"
+	},
+	meta_skill_learn = {
+		tip = "*Tap to change the skill you'd like to upgrade."
+	},
+	meta_skill_maxtip = {
+		tip = "$1's selected skill has reached its max level. Would you like to head to the META Lab to change the skill being upgraded?"
+	},
+	meta_tactics_detail = {
+		tip = "Details"
+	},
+	meta_tactics_unlock = {
+		tip = "Skill Unlocked"
+	},
+	meta_tactics_switch = {
+		tip = "Skill Upgraded"
+	},
+	meta_skill_maxtip2 = {
+		tip = "Max Level"
+	},
+	cattery_settlement_dialogue_1 = {
+		tip = "You were gone for "
+	},
+	cattery_settlement_dialogue_2 = {
+		tip = "During which your Meowfficer(s) "
+	},
+	cattery_settlement_dialogue_3 = {
+		tip = "rested up and gained "
+	},
+	cattery_settlement_dialogue_4 = {
+		tip = " EXP."
+	},
+	blueprint_catchup_by_gold_confirm = {
+		tip = "Enhancing will cost $1 Coins. Do you wish to continue? "
+	},
+	tec_tip_no_consumption = {
+		tip = "Free"
+	},
+	tec_tip_material_stock = {
+		tip = "Owned"
+	},
+	tec_tip_to_consumption = {
+		tip = "Cost "
+	},
+	onebutton_max_tip = {
+		tip = "Batch Analysis "
+	},
+	target_get_tip = {
+		tip = "Total Drops"
+	},
+	fleet_select_title = {
+		tip = "Select Fleet"
+	},
+	equip_add = {
+		tip = "— Tap to select gear —"
+	},
+	equipskin_add = {
+		tip = "— Tap to remove gear skin — "
+	},
+	equipskin_none = {
+		tip = "— Cannot use the selected skin —"
+	},
+	equipskin_typewrong = {
+		tip = "— This skin cannot be used with the selected gear —"
+	},
+	equipskin_typewrong_en = {
+		tip = "Gear Skin Unavailable "
 	}
 }

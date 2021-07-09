@@ -1,141 +1,229 @@
 pg = pg or {}
 pg.equip_data_statistics_368 = {
-	[85463] = {
-		id = 85463,
-		damage = "18 x 3",
-		base = 85460,
+	[85287] = {
+		id = 85287,
+		damage = "89/wave",
+		base = 85280,
 		weapon_id = {
-			85463
+			85287
 		}
 	},
-	[85464] = {
-		id = 85464,
-		damage = "19 x 3",
-		base = 85460,
+	[85288] = {
+		id = 85288,
+		damage = "96/wave",
+		base = 85280,
 		weapon_id = {
-			85464
+			85288
 		}
 	},
-	[85465] = {
-		id = 85465,
-		damage = "20 x 3",
-		base = 85460,
+	[85289] = {
+		id = 85289,
+		damage = "103/wave",
+		base = 85280,
 		weapon_id = {
-			85465
+			85289
 		}
 	},
-	[85466] = {
-		id = 85466,
-		damage = "21 x 3",
-		base = 85460,
+	[85290] = {
+		id = 85290,
+		damage = "110/wave",
+		base = 85280,
 		weapon_id = {
-			85466
+			85290
 		}
 	},
-	[89000] = {
-		name = "Random Word Generator",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 89000,
-		value_2 = 6,
-		icon = "89000",
-		value_1 = "16",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "A helpful tool for planning. Rumor has it, when the the moon is full, the seas are clear, and the time is right, it will speak to you...?",
-		nationality = 104,
-		ammo = 10,
+	[85291] = {
+		anti_siren = 100,
+		damage = "110/wave",
+		base = 85280,
+		id = 85291,
+		weapon_id = {
+			85291
+		}
+	},
+	[85300] = {
+		name = "Triple 406mm MK-1 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "85300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "50 x 3",
+		nationality = 7,
+		ammo = 3,
 		value_3 = 0,
-		attribute_1 = "hit",
+		id = 85300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1570
+			}
+		},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
 		},
-		weapon_id = {},
-		skill_id = {
-			6380
+		weapon_id = {
+			85300
 		},
-		part_main = {},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"BB",
+			"MG"
 		}
 	},
-	[89001] = {
-		id = 89001,
-		base = 89000
+	[85301] = {
+		id = 85301,
+		damage = "59 x 3",
+		base = 85300,
+		weapon_id = {
+			85301
+		}
 	},
-	[89002] = {
-		id = 89002,
-		value_2 = 7,
-		value_1 = "17",
-		base = 89000
+	[85302] = {
+		id = 85302,
+		damage = "67 x 3",
+		base = 85300,
+		weapon_id = {
+			85302
+		}
 	},
-	[89003] = {
-		id = 89003,
-		value_2 = 8,
-		value_1 = "18",
-		base = 89000
+	[85303] = {
+		id = 85303,
+		damage = "76 x 3",
+		base = 85300,
+		weapon_id = {
+			85303
+		}
 	},
-	[89004] = {
-		id = 89004,
-		value_2 = 9,
-		value_1 = "19",
-		base = 89000
+	[85304] = {
+		id = 85304,
+		damage = "84 x 3",
+		base = 85300,
+		weapon_id = {
+			85304
+		}
 	},
-	[89005] = {
-		id = 89005,
-		value_2 = 10,
-		value_1 = "20",
-		base = 89000
+	[85305] = {
+		id = 85305,
+		damage = "92 x 3",
+		base = 85300,
+		weapon_id = {
+			85305
+		}
 	},
-	[89006] = {
-		id = 89006,
-		value_2 = 11,
-		value_1 = "21",
-		base = 89000
+	[85306] = {
+		id = 85306,
+		damage = "101 x 3",
+		base = 85300,
+		weapon_id = {
+			85306
+		}
 	},
-	[89007] = {
-		id = 89007,
-		value_2 = 12,
-		value_1 = "22",
-		base = 89000
+	[85320] = {
+		name = "Triple 406mm MK-1 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "85300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "56 x 3",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1571
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"AP"
+		}
 	},
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
-		base = 89000
+	[85321] = {
+		id = 85321,
+		damage = "65 x 3",
+		base = 85320,
+		weapon_id = {
+			85321
+		}
 	},
-	[89009] = {
-		id = 89009,
-		value_2 = 14,
-		value_1 = "24",
-		base = 89000
+	[85322] = {
+		id = 85322,
+		damage = "73 x 3",
+		base = 85320,
+		weapon_id = {
+			85322
+		}
 	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
-		base = 89000
+	[85323] = {
+		id = 85323,
+		damage = "83 x 3",
+		base = 85320,
+		weapon_id = {
+			85323
+		}
 	},
-	[89011] = {
-		id = 89011,
-		anti_siren = 100,
-		base = 89000,
-		value_2 = 16,
-		value_1 = "26"
-	},
-	[89012] = {
-		id = 89012,
-		anti_siren = 200,
-		base = 89000,
-		value_2 = 17,
-		value_1 = "27"
+	[85324] = {
+		id = 85324,
+		damage = "92 x 3",
+		base = 85320,
+		weapon_id = {
+			85324
+		}
 	}
 }

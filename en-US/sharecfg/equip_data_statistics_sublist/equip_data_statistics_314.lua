@@ -1,101 +1,36 @@
 pg = pg or {}
 pg.equip_data_statistics_314 = {
-	[46242] = {
-		id = 46242,
-		damage = "26/wave",
-		base = 46240,
+	[46046] = {
+		id = 46046,
+		damage = "46/wave",
+		base = 46040,
 		weapon_id = {
-			46242
+			46046
 		}
 	},
-	[46243] = {
-		id = 46243,
-		damage = "29/wave",
-		base = 46240,
+	[46047] = {
+		id = 46047,
+		damage = "46/wave",
+		base = 46040,
 		weapon_id = {
-			46243
+			46047
 		}
 	},
-	[46244] = {
-		id = 46244,
-		damage = "32/wave",
-		base = 46240,
-		weapon_id = {
-			46244
-		}
-	},
-	[46245] = {
-		id = 46245,
-		damage = "35/wave",
-		base = 46240,
-		weapon_id = {
-			46245
-		}
-	},
-	[46246] = {
-		id = 46246,
-		damage = "38/wave",
-		base = 46240,
-		weapon_id = {
-			46246
-		}
-	},
-	[46247] = {
-		id = 46247,
-		damage = "41/wave",
-		base = 46240,
-		weapon_id = {
-			46247
-		}
-	},
-	[46248] = {
-		id = 46248,
-		damage = "44/wave",
-		base = 46240,
-		weapon_id = {
-			46248
-		}
-	},
-	[46249] = {
-		id = 46249,
-		damage = "47/wave",
-		base = 46240,
-		weapon_id = {
-			46249
-		}
-	},
-	[46250] = {
-		id = 46250,
-		damage = "50/wave",
-		base = 46240,
-		weapon_id = {
-			46250
-		}
-	},
-	[46251] = {
-		anti_siren = 100,
-		damage = "50/wave",
-		base = 46240,
-		id = 46251,
-		weapon_id = {
-			46251
-		}
-	},
-	[46260] = {
-		name = "Twin 37mm Flak M43 Machine Gun Mount",
+	[46060] = {
+		name = "Twin 88mm SK C/32 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,
 		descrip = "No description",
 		value_2 = 25,
-		icon = "46260",
+		icon = "46060",
 		attribute_2 = "antiaircraft",
 		rarity = 4,
-		damage = "26/wave",
+		damage = "28/wave",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46260,
+		id = 46060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -107,7 +42,7 @@ pg.equip_data_statistics_314 = {
 			10
 		},
 		weapon_id = {
-			46260
+			46060
 		},
 		skill_id = {},
 		part_main = {
@@ -143,52 +78,170 @@ pg.equip_data_statistics_314 = {
 			"AA"
 		}
 	},
-	[46261] = {
-		id = 46261,
-		damage = "29/wave",
-		base = 46260,
+	[46061] = {
+		id = 46061,
+		damage = "34/wave",
+		base = 46060,
 		weapon_id = {
-			46261
+			46061
 		}
 	},
-	[46262] = {
-		id = 46262,
-		damage = "32/wave",
-		base = 46260,
+	[46062] = {
+		id = 46062,
+		damage = "40/wave",
+		base = 46060,
 		weapon_id = {
-			46262
+			46062
 		}
 	},
-	[46263] = {
-		id = 46263,
-		damage = "35/wave",
-		base = 46260,
+	[46063] = {
+		id = 46063,
+		damage = "46/wave",
+		base = 46060,
 		weapon_id = {
-			46263
+			46063
 		}
 	},
-	[46264] = {
-		id = 46264,
-		damage = "38/wave",
-		base = 46260,
+	[46064] = {
+		id = 46064,
+		damage = "52/wave",
+		base = 46060,
 		weapon_id = {
-			46264
+			46064
 		}
 	},
-	[46265] = {
-		id = 46265,
-		damage = "41/wave",
-		base = 46260,
+	[46065] = {
+		id = 46065,
+		damage = "58/wave",
+		base = 46060,
 		weapon_id = {
-			46265
+			46065
 		}
 	},
-	[46266] = {
-		id = 46266,
-		damage = "44/wave",
-		base = 46260,
+	[46066] = {
+		id = 46066,
+		damage = "64/wave",
+		base = 46060,
 		weapon_id = {
-			46266
+			46066
+		}
+	},
+	[46067] = {
+		id = 46067,
+		damage = "70/wave",
+		base = 46060,
+		weapon_id = {
+			46067
+		}
+	},
+	[46068] = {
+		id = 46068,
+		damage = "76/wave",
+		base = 46060,
+		weapon_id = {
+			46068
+		}
+	},
+	[46069] = {
+		id = 46069,
+		damage = "82/wave",
+		base = 46060,
+		weapon_id = {
+			46069
+		}
+	},
+	[46070] = {
+		id = 46070,
+		damage = "89/wave",
+		base = 46060,
+		weapon_id = {
+			46070
+		}
+	},
+	[46071] = {
+		anti_siren = 100,
+		damage = "89/wave",
+		base = 46060,
+		id = 46071,
+		weapon_id = {
+			46071
+		}
+	},
+	[46100] = {
+		name = "Single 37mm Flak AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		rarity = 1,
+		descrip = "Single 37mm Flak AA Gun Mount used for anti-air defense.",
+		value_2 = 0,
+		icon = "46100",
+		damage = "8/wave",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46101] = {
+		id = 46101,
+		damage = "9/wave",
+		base = 46100,
+		weapon_id = {
+			46101
+		}
+	},
+	[46102] = {
+		id = 46102,
+		damage = "10/wave",
+		base = 46100,
+		weapon_id = {
+			46102
 		}
 	}
 }

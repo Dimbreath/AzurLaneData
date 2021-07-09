@@ -1,5 +1,6 @@
 slot0 = class("FragmentShoppingCommand", pm.SimpleCommand)
 slot0.FRAG_SHOP = 2
+slot0.FRAG_NORMAL_SHOP = 3
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
@@ -28,9 +29,15 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	slot14 = uv0.FRAG_SHOP
+
+	if slot9:GetCommodityById(slot3).type == Goods.TYPE_FRAGMENT_NORMAL then
+		slot14 = uv0.FRAG_NORMAL_SHOP
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(16201, {
 		id = slot3,
-		type = uv0.FRAG_SHOP,
+		type = slot14,
 		count = slot4
 	}, 16202, function (slot0)
 		if slot0.result == 0 then

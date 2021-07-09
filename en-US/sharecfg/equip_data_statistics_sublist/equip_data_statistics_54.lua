@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_54 = {
+	[2926] = {
+		id = 2926,
+		value_2 = 5,
+		value_1 = "9",
+		base = 2920
+	},
 	[2940] = {
 		name = "Basic Sonar",
 		tech = 3,
@@ -164,12 +170,6 @@ pg.equip_data_statistics_54 = {
 		id = 3003,
 		value_2 = 5,
 		value_1 = "7",
-		base = 3000
-	},
-	[3004] = {
-		id = 3004,
-		value_2 = 5,
-		value_1 = "8",
 		base = 3000
 	}
 }

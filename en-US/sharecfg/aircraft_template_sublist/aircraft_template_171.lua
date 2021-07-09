@@ -1,82 +1,117 @@
 pg = pg or {}
 pg.aircraft_template_171 = {
-	[68026] = {
-		max_hp = 84,
-		name = "邦克山技能战斗机Lv6",
-		base = 68021,
-		id = 68026,
-		hp_growth = 3218,
+	[67502] = {
+		id = 67502,
+		base = 67500,
+		max_hp = 39,
+		hp_growth = 1507,
 		weapon_ID = {
-			50446,
-			68056
+			67522,
+			67542
 		}
 	},
-	[68027] = {
-		max_hp = 90,
-		name = "邦克山技能战斗机Lv7",
-		base = 68021,
-		id = 68027,
-		hp_growth = 3472,
+	[67503] = {
+		id = 67503,
+		base = 67500,
+		max_hp = 43,
+		hp_growth = 1669,
 		weapon_ID = {
-			50447,
-			68057
+			67523,
+			67543
 		}
 	},
-	[68028] = {
-		max_hp = 97,
-		name = "邦克山技能战斗机Lv8",
-		base = 68021,
-		id = 68028,
-		hp_growth = 3726,
+	[67504] = {
+		id = 67504,
+		base = 67500,
+		max_hp = 47,
+		hp_growth = 1831,
 		weapon_ID = {
-			50448,
-			68058
+			67524,
+			67544
 		}
 	},
-	[68029] = {
-		max_hp = 103,
-		name = "邦克山技能战斗机Lv9",
-		base = 68021,
-		id = 68029,
-		hp_growth = 3980,
+	[67505] = {
+		id = 67505,
+		base = 67500,
+		max_hp = 51,
+		hp_growth = 1994,
 		weapon_ID = {
-			50449,
-			68059
+			67525,
+			67545
 		}
 	},
-	[68030] = {
-		max_hp = 110,
-		name = "邦克山技能战斗机Lv10",
-		base = 68021,
-		id = 68030,
-		hp_growth = 4234,
+	[67506] = {
+		id = 67506,
+		base = 67500,
+		max_hp = 55,
+		hp_growth = 2157,
 		weapon_ID = {
-			50450,
-			68060
+			67526,
+			67546
 		}
 	},
-	[68031] = {
-		name = "邦克山技能轰炸机Lv1",
-		max_hp = 35,
+	[67507] = {
+		id = 67507,
+		base = 67500,
+		max_hp = 59,
+		hp_growth = 2320,
+		weapon_ID = {
+			67527,
+			67547
+		}
+	},
+	[67508] = {
+		id = 67508,
+		base = 67500,
+		max_hp = 63,
+		hp_growth = 2483,
+		weapon_ID = {
+			67528,
+			67548
+		}
+	},
+	[67509] = {
+		id = 67509,
+		base = 67500,
+		max_hp = 68,
+		hp_growth = 2646,
+		weapon_ID = {
+			67529,
+			67549
+		}
+	},
+	[67510] = {
+		id = 67510,
+		base = 67500,
+		max_hp = 73,
+		hp_growth = 2809,
+		weapon_ID = {
+			67530,
+			67550
+		}
+	},
+	[67681] = {
+		name = "龙骧技能轰炸机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "huixing",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "sbdwuwei",
+		icon = "huixing",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1183,
-		speed = 46,
-		id = 68031,
+		nationality = 3,
+		hp_growth = 1846,
+		speed = 48,
+		id = 67681,
 		scale = 1,
 		weapon_ID = {
-			68041,
-			68051
+			67691,
+			67701
 		},
 		position_offset = {
 			0,
@@ -96,13 +131,13 @@ pg.aircraft_template_171 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -119,8 +154,8 @@ pg.aircraft_template_171 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.64,
+				0,
 				0
 			},
 			{
@@ -128,50 +163,6 @@ pg.aircraft_template_171 = {
 				0,
 				0
 			}
-		}
-	},
-	[68032] = {
-		max_hp = 39,
-		name = "邦克山技能轰炸机Lv2",
-		base = 68031,
-		id = 68032,
-		hp_growth = 1345,
-		weapon_ID = {
-			68042,
-			68052
-		}
-	},
-	[68033] = {
-		max_hp = 43,
-		name = "邦克山技能轰炸机Lv3",
-		base = 68031,
-		id = 68033,
-		hp_growth = 1507,
-		weapon_ID = {
-			68043,
-			68053
-		}
-	},
-	[68034] = {
-		max_hp = 47,
-		name = "邦克山技能轰炸机Lv4",
-		base = 68031,
-		id = 68034,
-		hp_growth = 1669,
-		weapon_ID = {
-			68044,
-			68054
-		}
-	},
-	[68035] = {
-		max_hp = 51,
-		name = "邦克山技能轰炸机Lv5",
-		base = 68031,
-		id = 68035,
-		hp_growth = 1831,
-		weapon_ID = {
-			68045,
-			68055
 		}
 	}
 }

@@ -1,5 +1,26 @@
 pg = pg or {}
 pg.equip_data_statistics_203 = {
+	[28073] = {
+		anti_siren = 300,
+		base = 28060,
+		id = 28073,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				51073
+			}
+		},
+		weapon_id = {
+			28073
+		},
+		skill_id = {
+			6823
+		}
+	},
 	[28100] = {
 		name = "Barracuda",
 		type = 8,
@@ -340,23 +361,6 @@ pg.equip_data_statistics_203 = {
 		},
 		weapon_id = {
 			28128
-		}
-	},
-	[28129] = {
-		id = 28129,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50029
-			},
-			{
-				4,
-				51129
-			}
-		},
-		weapon_id = {
-			28129
 		}
 	}
 }

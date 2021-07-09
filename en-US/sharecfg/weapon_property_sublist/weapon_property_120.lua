@@ -2,95 +2,76 @@ pg = pg or {}
 pg.weapon_property_120 = {}
 
 function ()
-	uv0.weapon_property_120[65482] = {
-		id = 65482,
-		name = "飞龙META_黑色花牌LV2",
-		damage = 20,
-		base = 65481
+	uv0.weapon_property_120[65214] = {
+		id = 65214,
+		damage = 207,
+		base = 65211
 	}
-	uv0.weapon_property_120[65483] = {
-		id = 65483,
-		name = "飞龙META_黑色花牌LV3",
-		damage = 22,
-		base = 65481
+	uv0.weapon_property_120[65215] = {
+		id = 65215,
+		damage = 226,
+		base = 65211
 	}
-	uv0.weapon_property_120[65484] = {
-		id = 65484,
-		name = "飞龙META_黑色花牌LV4",
-		damage = 24,
-		base = 65481
+	uv0.weapon_property_120[65216] = {
+		id = 65216,
+		damage = 245,
+		base = 65211
 	}
-	uv0.weapon_property_120[65485] = {
-		id = 65485,
-		name = "飞龙META_黑色花牌LV5",
-		damage = 26,
-		base = 65481
+	uv0.weapon_property_120[65217] = {
+		id = 65217,
+		damage = 264,
+		base = 65211
 	}
-	uv0.weapon_property_120[65486] = {
-		id = 65486,
-		name = "飞龙META_黑色花牌LV6",
-		damage = 28,
-		base = 65481
+	uv0.weapon_property_120[65218] = {
+		id = 65218,
+		damage = 283,
+		base = 65211
 	}
-	uv0.weapon_property_120[65487] = {
-		id = 65487,
-		name = "飞龙META_黑色花牌LV7",
-		damage = 30,
-		base = 65481
+	uv0.weapon_property_120[65219] = {
+		id = 65219,
+		damage = 302,
+		base = 65211
 	}
-	uv0.weapon_property_120[65488] = {
-		id = 65488,
-		name = "飞龙META_黑色花牌LV8",
-		damage = 32,
-		base = 65481
+	uv0.weapon_property_120[65220] = {
+		id = 65220,
+		damage = 322,
+		base = 65211
 	}
-	uv0.weapon_property_120[65489] = {
-		id = 65489,
-		name = "飞龙META_黑色花牌LV9",
-		damage = 34,
-		base = 65481
-	}
-	uv0.weapon_property_120[65490] = {
-		id = 65490,
-		name = "飞龙META_黑色花牌LV10",
-		damage = 36,
-		base = 65481
-	}
-	uv0.weapon_property_120[65491] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
+	uv0.weapon_property_120[65221] = {
+		action_index = "",
+		range = 500,
+		type = 2,
 		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
+		recover_time = 0,
+		axis_angle = 25,
 		shakescreen = 0,
-		name = "彼得史特拉塞技能JU87鱼雷机LV1",
+		name = "2 x 100lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
+		expose = 0,
+		angle = 25,
 		charge_param = "",
-		damage = 68,
+		damage = 70,
 		corrected = 100,
 		min_range = 0,
-		id = 65491,
-		attack_attribute_ratio = 100,
+		id = 65221,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2490,
+		attack_attribute = 4,
+		reload_max = 9500,
 		queue = 1,
-		search_type = 1,
-		effect_move = 1,
+		search_type = 2,
+		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
+		spawn_bound = "cannon",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			65491
+			19216
 		},
 		barrage_ID = {
-			12008
+			2121
 		},
 		oxy_type = {
 			1
@@ -100,100 +81,420 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_120[65492] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV2",
-		damage = 86,
-		base = 65491,
-		id = 65492,
-		bullet_ID = {
-			65492
-		}
+	uv0.weapon_property_120[65222] = {
+		id = 65222,
+		damage = 78,
+		base = 65221
 	}
-	uv0.weapon_property_120[65493] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV3",
-		damage = 106,
-		base = 65491,
-		id = 65493,
-		bullet_ID = {
-			65493
-		}
+	uv0.weapon_property_120[65223] = {
+		id = 65223,
+		damage = 85,
+		base = 65221
 	}
-	uv0.weapon_property_120[65494] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV4",
-		damage = 124,
-		base = 65491,
-		id = 65494,
-		bullet_ID = {
-			65494
-		}
+	uv0.weapon_property_120[65224] = {
+		id = 65224,
+		damage = 93,
+		base = 65221
 	}
-	uv0.weapon_property_120[65495] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV5",
-		damage = 144,
-		base = 65491,
-		id = 65495,
-		bullet_ID = {
-			65495
-		}
+	uv0.weapon_property_120[65225] = {
+		id = 65225,
+		damage = 100,
+		base = 65221
 	}
-	uv0.weapon_property_120[65496] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV6",
-		damage = 164,
-		base = 65491,
-		id = 65496,
-		bullet_ID = {
-			65496
-		}
+	uv0.weapon_property_120[65226] = {
+		id = 65226,
+		damage = 108,
+		base = 65221
 	}
-	uv0.weapon_property_120[65497] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV7",
-		damage = 182,
-		base = 65491,
-		id = 65497,
+	uv0.weapon_property_120[65227] = {
+		id = 65227,
+		damage = 115,
+		base = 65221
+	}
+	uv0.weapon_property_120[65228] = {
+		id = 65228,
+		damage = 123,
+		base = 65221
+	}
+	uv0.weapon_property_120[65229] = {
+		id = 65229,
+		damage = 130,
+		base = 65221
+	}
+	uv0.weapon_property_120[65230] = {
+		id = 65230,
+		damage = 138,
+		base = 65221
+	}
+	uv0.weapon_property_120[65231] = {
+		action_index = "attack",
+		range = 72,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "大凤μ-吸血弹幕Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 65231,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			65497
+			19217,
+			19218,
+			19219,
+			19220
 		},
 		barrage_ID = {
-			12009
-		}
+			80958,
+			80959,
+			80960,
+			80961
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_120[65498] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV8",
-		damage = 202,
-		base = 65491,
-		id = 65498,
+	uv0.weapon_property_120[65232] = {
+		id = 65232,
+		name = "大凤μ-吸血弹幕Lv2",
+		damage = 37,
+		base = 65231
+	}
+	uv0.weapon_property_120[65233] = {
+		id = 65233,
+		name = "大凤μ-吸血弹幕Lv3",
+		damage = 39,
+		base = 65231
+	}
+	uv0.weapon_property_120[65234] = {
+		id = 65234,
+		name = "大凤μ-吸血弹幕Lv4",
+		damage = 41,
+		base = 65231
+	}
+	uv0.weapon_property_120[65235] = {
+		id = 65235,
+		name = "大凤μ-吸血弹幕Lv5",
+		damage = 43,
+		base = 65231
+	}
+	uv0.weapon_property_120[65236] = {
+		id = 65236,
+		name = "大凤μ-吸血弹幕Lv6",
+		damage = 45,
+		base = 65231
+	}
+	uv0.weapon_property_120[65237] = {
+		id = 65237,
+		name = "大凤μ-吸血弹幕Lv7",
+		damage = 47,
+		base = 65231
+	}
+	uv0.weapon_property_120[65238] = {
+		id = 65238,
+		name = "大凤μ-吸血弹幕Lv8",
+		damage = 49,
+		base = 65231
+	}
+	uv0.weapon_property_120[65239] = {
+		id = 65239,
+		name = "大凤μ-吸血弹幕Lv9",
+		damage = 51,
+		base = 65231
+	}
+	uv0.weapon_property_120[65240] = {
+		id = 65240,
+		name = "大凤μ-吸血弹幕Lv10",
+		damage = 53,
+		base = 65231
+	}
+	uv0.weapon_property_120[65241] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "罗恩μ追击鱼雷Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 30,
+		corrected = 100,
+		min_range = 0,
+		id = 65241,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			65498
+			19221
 		},
 		barrage_ID = {
-			12009
-		}
+			80962
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_120[65499] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV9",
-		damage = 220,
-		base = 65491,
-		id = 65499,
+	uv0.weapon_property_120[65242] = {
+		id = 65242,
+		name = "罗恩μ追击鱼雷Lv2",
+		damage = 32,
+		base = 65241
+	}
+	uv0.weapon_property_120[65243] = {
+		id = 65243,
+		name = "罗恩μ追击鱼雷Lv3",
+		damage = 34,
+		base = 65241
+	}
+	uv0.weapon_property_120[65244] = {
+		id = 65244,
+		name = "罗恩μ追击鱼雷Lv4",
+		damage = 36,
+		base = 65241
+	}
+	uv0.weapon_property_120[65245] = {
+		id = 65245,
+		name = "罗恩μ追击鱼雷Lv5",
+		damage = 38,
+		base = 65241
+	}
+	uv0.weapon_property_120[65246] = {
+		id = 65246,
+		name = "罗恩μ追击鱼雷Lv6",
+		damage = 40,
+		base = 65241
+	}
+	uv0.weapon_property_120[65247] = {
+		name = "罗恩μ追击鱼雷Lv7",
+		damage = 42,
+		base = 65241,
+		id = 65247,
 		bullet_ID = {
-			65499
+			19221,
+			19221
 		},
 		barrage_ID = {
-			12009
+			80962,
+			80963
 		}
 	}
-	uv0.weapon_property_120[65500] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV10",
-		damage = 240,
-		base = 65491,
-		id = 65500,
+	uv0.weapon_property_120[65248] = {
+		name = "罗恩μ追击鱼雷Lv8",
+		damage = 44,
+		base = 65241,
+		id = 65248,
 		bullet_ID = {
-			65500
+			19221,
+			19221
 		},
 		barrage_ID = {
-			12009
+			80962,
+			80963
 		}
 	}
-	uv0.weapon_property_120[65501] = {
+	uv0.weapon_property_120[65249] = {
+		name = "罗恩μ追击鱼雷Lv9",
+		damage = 46,
+		base = 65241,
+		id = 65249,
+		bullet_ID = {
+			19221,
+			19221
+		},
+		barrage_ID = {
+			80962,
+			80963
+		}
+	}
+	uv0.weapon_property_120[65250] = {
+		name = "罗恩μ追击鱼雷Lv10",
+		damage = 50,
+		base = 65241,
+		id = 65250,
+		bullet_ID = {
+			19221,
+			19221
+		},
+		barrage_ID = {
+			80962,
+			80963
+		}
+	}
+	uv0.weapon_property_120[65251] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "光辉μ坠星Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 52,
+		corrected = 100,
+		min_range = 0,
+		id = 65251,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2070,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65251
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_120[65252] = {
+		reload_max = 2035,
+		damage = 72,
+		base = 65251,
+		id = 65252,
+		name = "光辉μ坠星Lv2",
+		bullet_ID = {
+			65252
+		}
+	}
+	uv0.weapon_property_120[65253] = {
+		reload_max = 2000,
+		damage = 92,
+		base = 65251,
+		id = 65253,
+		name = "光辉μ坠星Lv3",
+		bullet_ID = {
+			65253
+		}
+	}
+	uv0.weapon_property_120[65254] = {
+		reload_max = 1965,
+		damage = 113,
+		base = 65251,
+		id = 65254,
+		name = "光辉μ坠星Lv4",
+		bullet_ID = {
+			65254
+		}
+	}
+	uv0.weapon_property_120[65255] = {
+		reload_max = 1930,
+		damage = 134,
+		base = 65251,
+		id = 65255,
+		name = "光辉μ坠星Lv5",
+		bullet_ID = {
+			65255
+		}
+	}
+	uv0.weapon_property_120[65256] = {
+		reload_max = 1895,
+		damage = 155,
+		base = 65251,
+		id = 65256,
+		name = "光辉μ坠星Lv6",
+		bullet_ID = {
+			65256
+		}
+	}
+	uv0.weapon_property_120[65257] = {
+		reload_max = 1860,
+		damage = 176,
+		base = 65251,
+		id = 65257,
+		name = "光辉μ坠星Lv7",
+		bullet_ID = {
+			65257
+		}
+	}
+	uv0.weapon_property_120[65258] = {
+		reload_max = 1825,
+		damage = 197,
+		base = 65251,
+		id = 65258,
+		name = "光辉μ坠星Lv8",
+		bullet_ID = {
+			65258
+		}
+	}
+	uv0.weapon_property_120[65259] = {
+		reload_max = 1790,
+		damage = 218,
+		base = 65251,
+		id = 65259,
+		name = "光辉μ坠星Lv9",
+		bullet_ID = {
+			65259
+		}
+	}
+	uv0.weapon_property_120[65260] = {
+		reload_max = 1755,
+		damage = 239,
+		base = 65251,
+		id = 65260,
+		name = "光辉μ坠星Lv10",
+		bullet_ID = {
+			65260
+		}
+	}
+	uv0.weapon_property_120[65261] = {
 		action_index = "",
 		range = 80,
 		type = 3,
@@ -201,16 +502,16 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "3 x 机载鱼雷-铁血",
+		name = "前射式星x6",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 25,
+		angle = 45,
 		charge_param = "",
-		damage = 68,
+		damage = 55,
 		corrected = 100,
 		min_range = 0,
-		id = 65501,
+		id = 65261,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -224,12 +525,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2117,
-			2117
+			19222
 		},
 		barrage_ID = {
-			2145,
-			2146
+			80964
 		},
 		oxy_type = {
 			1
@@ -239,159 +538,61 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_120[65502] = {
-		id = 65502,
-		damage = 86,
-		base = 65501
+	uv0.weapon_property_120[65262] = {
+		id = 65262,
+		damage = 65,
+		base = 65261
 	}
-	uv0.weapon_property_120[65503] = {
-		id = 65503,
-		damage = 106,
-		base = 65501
+	uv0.weapon_property_120[65263] = {
+		id = 65263,
+		damage = 75,
+		base = 65261
 	}
-	uv0.weapon_property_120[65504] = {
-		id = 65504,
-		damage = 124,
-		base = 65501
+	uv0.weapon_property_120[65264] = {
+		id = 65264,
+		damage = 85,
+		base = 65261
 	}
-	uv0.weapon_property_120[65505] = {
-		id = 65505,
-		damage = 144,
-		base = 65501
+	uv0.weapon_property_120[65265] = {
+		id = 65265,
+		damage = 95,
+		base = 65261
 	}
-	uv0.weapon_property_120[65506] = {
-		id = 65506,
-		damage = 164,
-		base = 65501
+	uv0.weapon_property_120[65266] = {
+		id = 65266,
+		damage = 105,
+		base = 65261
 	}
-	uv0.weapon_property_120[65507] = {
-		id = 65507,
-		damage = 182,
-		base = 65501
+	uv0.weapon_property_120[65267] = {
+		id = 65267,
+		damage = 115,
+		base = 65261
 	}
-	uv0.weapon_property_120[65508] = {
-		id = 65508,
-		damage = 202,
-		base = 65501
+	uv0.weapon_property_120[65268] = {
+		id = 65268,
+		damage = 125,
+		base = 65261
 	}
-	uv0.weapon_property_120[65509] = {
-		id = 65509,
-		damage = 220,
-		base = 65501
+	uv0.weapon_property_120[65269] = {
+		id = 65269,
+		damage = 135,
+		base = 65261
 	}
-	uv0.weapon_property_120[65510] = {
-		id = 65510,
-		damage = 240,
-		base = 65501
+	uv0.weapon_property_120[65270] = {
+		id = 65270,
+		damage = 145,
+		base = 65261
 	}
-	uv0.weapon_property_120[65511] = {
+	uv0.weapon_property_120[65271] = {
 		action_index = "attack",
-		range = 120,
+		range = 100,
 		type = 1,
 		fire_fx = "CLFire",
-		recover_time = 0,
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "海因里希亲王 直感之拳LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 65511,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19248
-		},
-		barrage_ID = {
-			80987
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_120[65512] = {
-		id = 65512,
-		name = "海因里希亲王 直感之拳LV2",
-		damage = 9,
-		base = 65511
-	}
-	uv0.weapon_property_120[65513] = {
-		id = 65513,
-		name = "海因里希亲王 直感之拳LV3",
-		damage = 10,
-		base = 65511
-	}
-	uv0.weapon_property_120[65514] = {
-		id = 65514,
-		name = "海因里希亲王 直感之拳LV4",
-		damage = 11,
-		base = 65511
-	}
-	uv0.weapon_property_120[65515] = {
-		id = 65515,
-		name = "海因里希亲王 直感之拳LV5",
-		damage = 12,
-		base = 65511
-	}
-	uv0.weapon_property_120[65516] = {
-		id = 65516,
-		name = "海因里希亲王 直感之拳LV6",
-		damage = 14,
-		base = 65511
-	}
-	uv0.weapon_property_120[65517] = {
-		id = 65517,
-		name = "海因里希亲王 直感之拳LV7",
-		damage = 16,
-		base = 65511
-	}
-	uv0.weapon_property_120[65518] = {
-		id = 65518,
-		name = "海因里希亲王 直感之拳LV8",
-		damage = 18,
-		base = 65511
-	}
-	uv0.weapon_property_120[65519] = {
-		id = 65519,
-		name = "海因里希亲王 直感之拳LV9",
-		damage = 20,
-		base = 65511
-	}
-	uv0.weapon_property_120[65520] = {
-		id = 65520,
-		name = "海因里希亲王 直感之拳LV10",
-		damage = 22,
-		base = 65511
-	}
-	uv0.weapon_property_120[65521] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "纽伦堡 训练有素LV1",
-		aim_type = 0,
+		name = "玛莉萝丝反击弹幕技能Lv1",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
@@ -399,217 +600,11 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 65521,
+		id = 65271,
 		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
+		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19252,
-			19252,
-			19252,
-			19252
-		},
-		barrage_ID = {
-			80997,
-			80998,
-			80999,
-			81000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_120[65522] = {
-		id = 65522,
-		name = "纽伦堡 训练有素LV2",
-		damage = 7,
-		base = 65521
-	}
-	uv0.weapon_property_120[65523] = {
-		id = 65523,
-		name = "纽伦堡 训练有素LV3",
-		damage = 8,
-		base = 65521
-	}
-	uv0.weapon_property_120[65524] = {
-		id = 65524,
-		name = "纽伦堡 训练有素LV4",
-		damage = 9,
-		base = 65521
-	}
-	uv0.weapon_property_120[65525] = {
-		id = 65525,
-		name = "纽伦堡 训练有素LV5",
-		damage = 10,
-		base = 65521
-	}
-	uv0.weapon_property_120[65526] = {
-		id = 65526,
-		name = "纽伦堡 训练有素LV6",
-		damage = 11,
-		base = 65521
-	}
-	uv0.weapon_property_120[65527] = {
-		id = 65527,
-		name = "纽伦堡 训练有素LV7",
-		damage = 12,
-		base = 65521
-	}
-	uv0.weapon_property_120[65528] = {
-		id = 65528,
-		name = "纽伦堡 训练有素LV8",
-		damage = 13,
-		base = 65521
-	}
-	uv0.weapon_property_120[65529] = {
-		id = 65529,
-		name = "纽伦堡 训练有素LV9",
-		damage = 14,
-		base = 65521
-	}
-	uv0.weapon_property_120[65530] = {
-		id = 65530,
-		name = "纽伦堡 训练有素LV10",
-		damage = 15,
-		base = 65521
-	}
-	uv0.weapon_property_120[65531] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "z24技能弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 65531,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19254,
-			19253,
-			19254
-		},
-		barrage_ID = {
-			81001,
-			81002,
-			81003
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_120[65532] = {
-		id = 65532,
-		name = "z24技能弹幕LV2",
-		damage = 12,
-		base = 65531
-	}
-	uv0.weapon_property_120[65533] = {
-		id = 65533,
-		name = "z24技能弹幕LV3",
-		damage = 13,
-		base = 65531
-	}
-	uv0.weapon_property_120[65534] = {
-		id = 65534,
-		name = "z24技能弹幕LV4",
-		damage = 14,
-		base = 65531
-	}
-	uv0.weapon_property_120[65535] = {
-		id = 65535,
-		name = "z24技能弹幕LV5",
-		damage = 15,
-		base = 65531
-	}
-	uv0.weapon_property_120[65536] = {
-		id = 65536,
-		name = "z24技能弹幕LV6",
-		damage = 16,
-		base = 65531
-	}
-	uv0.weapon_property_120[65537] = {
-		id = 65537,
-		name = "z24技能弹幕LV7",
-		damage = 17,
-		base = 65531
-	}
-	uv0.weapon_property_120[65538] = {
-		id = 65538,
-		name = "z24技能弹幕LV8",
-		damage = 18,
-		base = 65531
-	}
-	uv0.weapon_property_120[65539] = {
-		id = 65539,
-		name = "z24技能弹幕LV9",
-		damage = 19,
-		base = 65531
-	}
-	uv0.weapon_property_120[65540] = {
-		id = 65540,
-		name = "z24技能弹幕LV10",
-		damage = 20,
-		base = 65531
-	}
-	uv0.weapon_property_120[65551] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Z28 护航精英弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 65551,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 800,
+		reload_max = 280,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -619,14 +614,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19251,
-			19251,
-			19251
+			19223
 		},
 		barrage_ID = {
-			80994,
-			80995,
-			80996
+			80965
 		},
 		oxy_type = {
 			1
@@ -636,16 +627,34 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_120[65552] = {
-		id = 65552,
-		name = "Z28 护航精英弹幕",
-		damage = 12,
-		base = 65551
+	uv0.weapon_property_120[65272] = {
+		id = 65272,
+		name = "玛莉萝丝反击弹幕技能Lv2",
+		damage = 8,
+		base = 65271
 	}
-	uv0.weapon_property_120[65553] = {
-		id = 65553,
-		name = "Z28 护航精英弹幕",
-		damage = 13,
-		base = 65551
+	uv0.weapon_property_120[65273] = {
+		id = 65273,
+		name = "玛莉萝丝反击弹幕技能Lv3",
+		damage = 10,
+		base = 65271
+	}
+	uv0.weapon_property_120[65274] = {
+		id = 65274,
+		name = "玛莉萝丝反击弹幕技能Lv4",
+		damage = 12,
+		base = 65271
+	}
+	uv0.weapon_property_120[65275] = {
+		id = 65275,
+		name = "玛莉萝丝反击弹幕技能Lv5",
+		damage = 14,
+		base = 65271
+	}
+	uv0.weapon_property_120[65276] = {
+		id = 65276,
+		name = "玛莉萝丝反击弹幕技能Lv6",
+		damage = 16,
+		base = 65271
 	}
 end()

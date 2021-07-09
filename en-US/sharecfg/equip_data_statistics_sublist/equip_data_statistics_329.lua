@@ -1,6 +1,220 @@
 pg = pg or {}
 pg.equip_data_statistics_329 = {
-	[60141] = {
+	[49050] = {
+		id = 49050,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59350
+			},
+			{
+				5,
+				52650
+			},
+			{
+				5,
+				53050
+			}
+		},
+		weapon_id = {
+			49050
+		}
+	},
+	[49051] = {
+		anti_siren = 100,
+		base = 49040,
+		id = 49051,
+		ammo_info = {
+			{
+				6,
+				59351
+			},
+			{
+				5,
+				52651
+			},
+			{
+				5,
+				53051
+			}
+		},
+		weapon_id = {
+			49051
+		}
+	},
+	[49060] = {
+		name = "He-50b",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 3,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "49060",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 49060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			49060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49061] = {
+		id = 49061,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			49061
+		}
+	},
+	[49062] = {
+		id = 49062,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			49062
+		}
+	},
+	[49063] = {
+		id = 49063,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			49063
+		}
+	},
+	[49064] = {
+		id = 49064,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			49064
+		}
+	},
+	[49065] = {
+		id = 49065,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			49065
+		}
+	},
+	[49066] = {
+		id = 49066,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			49066
+		}
+	},
+	[49067] = {
+		id = 49067,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			49067
+		}
+	},
+	[54010] = {
 		name = "0",
 		tech = 1,
 		speciality = "N/A",
@@ -13,14 +227,14 @@ pg.equip_data_statistics_329 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60141,
+		id = 54010,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60141
+			54010
 		},
 		skill_id = {},
 		part_main = {},
@@ -28,23 +242,47 @@ pg.equip_data_statistics_329 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60142] = {
-		id = 60142,
+	[54011] = {
+		id = 54011,
 		name = "0",
-		base = 60141,
+		base = 54010,
 		weapon_id = {
-			60142
+			54011
 		}
 	},
-	[60143] = {
-		id = 60143,
+	[54012] = {
+		id = 54012,
 		name = "0",
-		base = 60141,
+		base = 54010,
 		weapon_id = {
-			60143
+			54012
 		}
 	},
-	[60151] = {
+	[54013] = {
+		id = 54013,
+		name = "0",
+		base = 54010,
+		weapon_id = {
+			54013
+		}
+	},
+	[54014] = {
+		id = 54014,
+		name = "0",
+		base = 54010,
+		weapon_id = {
+			54014
+		}
+	},
+	[54015] = {
+		id = 54015,
+		name = "0",
+		base = 54010,
+		weapon_id = {
+			54015
+		}
+	},
+	[60001] = {
 		name = "0",
 		tech = 1,
 		speciality = "N/A",
@@ -57,203 +295,19 @@ pg.equip_data_statistics_329 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60151,
+		id = 60001,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60151
+			60001
 		},
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
-	},
-	[60152] = {
-		id = 60152,
-		name = "0",
-		base = 60151,
-		weapon_id = {
-			60152
-		}
-	},
-	[60153] = {
-		id = 60153,
-		name = "0",
-		base = 60151,
-		weapon_id = {
-			60153
-		}
-	},
-	[60161] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60161,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60161
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60162] = {
-		id = 60162,
-		name = "0",
-		base = 60161,
-		weapon_id = {
-			60162
-		}
-	},
-	[60163] = {
-		id = 60163,
-		name = "0",
-		base = 60161,
-		weapon_id = {
-			60163
-		}
-	},
-	[60171] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60171,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60171
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60172] = {
-		id = 60172,
-		name = "0",
-		base = 60171,
-		weapon_id = {
-			60172
-		}
-	},
-	[60173] = {
-		id = 60173,
-		name = "0",
-		base = 60171,
-		weapon_id = {
-			60173
-		}
-	},
-	[60181] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60181,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60181
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60182] = {
-		id = 60182,
-		name = "0",
-		base = 60181,
-		weapon_id = {
-			60182
-		}
-	},
-	[60183] = {
-		id = 60183,
-		name = "0",
-		base = 60181,
-		weapon_id = {
-			60183
-		}
-	},
-	[60191] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60191,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60191
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60192] = {
-		id = 60192,
-		name = "0",
-		base = 60191,
-		weapon_id = {
-			60192
-		}
 	}
 }

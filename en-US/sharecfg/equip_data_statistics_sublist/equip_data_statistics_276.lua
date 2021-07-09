@@ -1,5 +1,337 @@
 pg = pg or {}
 pg.equip_data_statistics_276 = {
+	[38300] = {
+		name = "Prototype Saiun Kai ",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 5,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "38300",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59720
+			},
+			{
+				4,
+				51360
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38300
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38301] = {
+		id = 38301,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59721
+			},
+			{
+				4,
+				51361
+			}
+		},
+		weapon_id = {
+			38301
+		}
+	},
+	[38302] = {
+		id = 38302,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59722
+			},
+			{
+				4,
+				51362
+			}
+		},
+		weapon_id = {
+			38302
+		}
+	},
+	[38303] = {
+		id = 38303,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59723
+			},
+			{
+				4,
+				51363
+			}
+		},
+		weapon_id = {
+			38303
+		}
+	},
+	[38304] = {
+		id = 38304,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59724
+			},
+			{
+				4,
+				51364
+			}
+		},
+		weapon_id = {
+			38304
+		}
+	},
+	[38305] = {
+		id = 38305,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59725
+			},
+			{
+				4,
+				51365
+			}
+		},
+		weapon_id = {
+			38305
+		}
+	},
+	[38306] = {
+		id = 38306,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59726
+			},
+			{
+				4,
+				51366
+			}
+		},
+		weapon_id = {
+			38306
+		}
+	},
+	[38307] = {
+		id = 38307,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59727
+			},
+			{
+				4,
+				51367
+			}
+		},
+		weapon_id = {
+			38307
+		}
+	},
+	[38308] = {
+		id = 38308,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59728
+			},
+			{
+				4,
+				51368
+			}
+		},
+		weapon_id = {
+			38308
+		}
+	},
+	[38309] = {
+		id = 38309,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59729
+			},
+			{
+				4,
+				51369
+			}
+		},
+		weapon_id = {
+			38309
+		}
+	},
+	[38310] = {
+		id = 38310,
+		base = 38300,
+		ammo_info = {
+			{
+				6,
+				59730
+			},
+			{
+				4,
+				51370
+			}
+		},
+		weapon_id = {
+			38310
+		}
+	},
+	[38311] = {
+		anti_siren = 100,
+		base = 38300,
+		id = 38311,
+		ammo_info = {
+			{
+				6,
+				59731
+			},
+			{
+				4,
+				51371
+			}
+		},
+		weapon_id = {
+			38311
+		}
+	},
+	[38312] = {
+		anti_siren = 200,
+		base = 38300,
+		id = 38312,
+		ammo_info = {
+			{
+				6,
+				59732
+			},
+			{
+				4,
+				51372
+			}
+		},
+		weapon_id = {
+			38312
+		}
+	},
+	[38313] = {
+		anti_siren = 300,
+		base = 38300,
+		id = 38313,
+		ammo_info = {
+			{
+				6,
+				59733
+			},
+			{
+				4,
+				51373
+			}
+		},
+		weapon_id = {
+			38313
+		}
+	},
+	[39000] = {
+		name = "Type 99 Dive Bomber",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 2,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "39000",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				5,
+				52200
+			},
+			{
+				5,
+				52100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
 	[39001] = {
 		id = 39001,
 		base = 39000,
@@ -40,391 +372,6 @@ pg.equip_data_statistics_276 = {
 		},
 		weapon_id = {
 			39002
-		}
-	},
-	[39003] = {
-		id = 39003,
-		base = 39000,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				5,
-				52203
-			},
-			{
-				5,
-				52103
-			}
-		},
-		weapon_id = {
-			39003
-		}
-	},
-	[39020] = {
-		name = "Type 99 Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 3,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "39000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				5,
-				52220
-			},
-			{
-				5,
-				52120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
-		}
-	},
-	[39021] = {
-		id = 39021,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				5,
-				52221
-			},
-			{
-				5,
-				52121
-			}
-		},
-		weapon_id = {
-			39021
-		}
-	},
-	[39022] = {
-		id = 39022,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				5,
-				52222
-			},
-			{
-				5,
-				52122
-			}
-		},
-		weapon_id = {
-			39022
-		}
-	},
-	[39023] = {
-		id = 39023,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				5,
-				52223
-			},
-			{
-				5,
-				52123
-			}
-		},
-		weapon_id = {
-			39023
-		}
-	},
-	[39024] = {
-		id = 39024,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				5,
-				52224
-			},
-			{
-				5,
-				52124
-			}
-		},
-		weapon_id = {
-			39024
-		}
-	},
-	[39025] = {
-		id = 39025,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				5,
-				52225
-			},
-			{
-				5,
-				52125
-			}
-		},
-		weapon_id = {
-			39025
-		}
-	},
-	[39026] = {
-		id = 39026,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				5,
-				52226
-			},
-			{
-				5,
-				52126
-			}
-		},
-		weapon_id = {
-			39026
-		}
-	},
-	[39040] = {
-		name = "Type 99 Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "39000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				5,
-				52240
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
-		}
-	},
-	[39041] = {
-		id = 39041,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				5,
-				52241
-			},
-			{
-				5,
-				52141
-			}
-		},
-		weapon_id = {
-			39041
-		}
-	},
-	[39042] = {
-		id = 39042,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				5,
-				52242
-			},
-			{
-				5,
-				52142
-			}
-		},
-		weapon_id = {
-			39042
-		}
-	},
-	[39043] = {
-		id = 39043,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				5,
-				52243
-			},
-			{
-				5,
-				52143
-			}
-		},
-		weapon_id = {
-			39043
-		}
-	},
-	[39044] = {
-		id = 39044,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				5,
-				52244
-			},
-			{
-				5,
-				52144
-			}
-		},
-		weapon_id = {
-			39044
-		}
-	},
-	[39045] = {
-		id = 39045,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				5,
-				52245
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			39045
-		}
-	},
-	[39046] = {
-		id = 39046,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				5,
-				52246
-			},
-			{
-				5,
-				52146
-			}
-		},
-		weapon_id = {
-			39046
 		}
 	}
 }

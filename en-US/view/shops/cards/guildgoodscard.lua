@@ -33,17 +33,22 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.Init(slot0)
-	slot0.nameTF.text = slot0.goods:getConfig("goods_name")
+	if string.match(slot0.goods:getConfig("goods_name"), "(%d+)") then
+		setText(slot0.nameTF, shortenString(slot1, 5))
+	else
+		setText(slot0.nameTF, shortenString(slot1, 6))
+	end
+
 	slot0.consumeTxtTF.text = slot0.goods:getConfig("price")
 
 	GetImageSpriteFromAtlasAsync("props/guild_gold", "", slot0.consumeIconTF)
 	GetImageSpriteFromAtlasAsync(slot0.goods:getConfig("goods_icon"), "", slot0.itemIconTF)
 
 	slot0.itemCountTF.text = slot0.goods:getConfig("num")
-	slot1 = ItemRarity.Rarity2Print(slot0.goods:getConfig("goods_rarity") or 1)
+	slot2 = ItemRarity.Rarity2Print(slot0.goods:getConfig("goods_rarity") or 1)
 
-	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. slot1))
-	setImageColor(slot0.itemIconFrameTF, shipRarity2FrameColor(slot1 + 1))
+	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. slot2))
+	setImageColor(slot0.itemIconFrameTF, shipRarity2FrameColor(slot2 + 1))
 end
 
 function slot0.dispose(slot0)

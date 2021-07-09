@@ -15,10 +15,22 @@ slot0.OPEN_RENAME_PANEL = "CommandRoomMediator:OPEN_RENAME_PANEL"
 slot0.ON_LOCK = "CommandRoomMediator:ON_LOCK"
 slot0.ON_OPEN_HOME = "CommandRoomMediator:ON_OPEN_HOME"
 slot0.ON_USE_QUICKLY_TOOL = "CommandRoomMediator:ON_USE_QUICKLY_TOOL"
+slot0.ON_OPEN_SCENE = "CommandRoomMediator:ON_OPEN_SCENE"
+
+function slot0.remove(slot0)
+	slot0:sendNotification(GAME.OPEN_OR_CLOSE_CATTERY, {
+		open = false
+	})
+end
 
 function slot0.register(slot0)
 	slot2 = getProxy(CommanderProxy)
 
+	slot0:bind(uv0.ON_OPEN_SCENE, function (slot0)
+		uv0:sendNotification(GAME.OPEN_OR_CLOSE_CATTERY, {
+			open = true
+		})
+	end)
 	slot0:bind(uv0.ON_USE_QUICKLY_TOOL, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.USE_ITEM, {
 			id = slot1,

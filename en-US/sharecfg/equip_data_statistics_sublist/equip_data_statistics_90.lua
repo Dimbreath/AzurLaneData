@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_90 = {
+	[12043] = {
+		id = 12043,
+		damage = "12 x 4",
+		base = 12040,
+		weapon_id = {
+			12043
+		}
+	},
 	[12044] = {
 		id = 12044,
 		damage = "13 x 4",
@@ -228,65 +236,6 @@ pg.equip_data_statistics_90 = {
 		base = 12100,
 		weapon_id = {
 			12103
-		}
-	},
-	[12120] = {
-		name = "Triple 152mm Main Gun",
-		speciality = "Lock",
-		type = 2,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "12100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 6",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12120
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
 		}
 	}
 }

@@ -1,142 +1,162 @@
 pg = pg or {}
 pg.equip_data_statistics_388 = {
-	[90703] = {
-		id = 90703,
-		damage = "6 x 4",
-		base = 90700,
-		weapon_id = {
-			90703
-		}
-	},
-	[90720] = {
-		name = "Single 138.6mm Mle 1927 Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "50700",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90720,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90720
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90721] = {
-		id = 90721,
-		damage = "7 x 4",
-		base = 90720,
-		weapon_id = {
-			90721
-		}
-	},
-	[90722] = {
-		id = 90722,
-		damage = "8 x 4",
-		base = 90720,
-		weapon_id = {
-			90722
-		}
-	},
-	[90723] = {
-		id = 90723,
-		damage = "9 x 4",
-		base = 90720,
-		weapon_id = {
-			90723
-		}
-	},
-	[90724] = {
-		id = 90724,
-		damage = "10 x 4",
-		base = 90720,
-		weapon_id = {
-			90724
-		}
-	},
-	[90725] = {
-		id = 90725,
-		damage = "12 x 4",
-		base = 90720,
-		weapon_id = {
-			90725
-		}
-	},
-	[90726] = {
-		id = 90726,
-		damage = "14 x 4",
-		base = 90720,
-		weapon_id = {
-			90726
-		}
-	},
-	[90740] = {
-		name = "Single 138.6mm Mle 1927 Naval Gun",
-		speciality = "Lock",
-		type = 1,
+	[90340] = {
+		name = "Quadruple 330mm Mle 1931 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
 		tech = 3,
 		descrip = "No description",
 		value_2 = 25,
-		icon = "50700",
+		icon = "50300",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "6 x 4",
+		damage = "41 x 4",
+		nationality = 8,
+		ammo = 1,
+		value_3 = 0,
+		id = 90340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1551
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90340
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[90341] = {
+		id = 90341,
+		damage = "47 x 4",
+		base = 90340,
+		weapon_id = {
+			90341
+		}
+	},
+	[90342] = {
+		id = 90342,
+		damage = "53 x 4",
+		base = 90340,
+		weapon_id = {
+			90342
+		}
+	},
+	[90343] = {
+		id = 90343,
+		damage = "59 x 4",
+		base = 90340,
+		weapon_id = {
+			90343
+		}
+	},
+	[90344] = {
+		id = 90344,
+		damage = "65 x 4",
+		base = 90340,
+		weapon_id = {
+			90344
+		}
+	},
+	[90345] = {
+		id = 90345,
+		damage = "71 x 4",
+		base = 90340,
+		weapon_id = {
+			90345
+		}
+	},
+	[90346] = {
+		id = 90346,
+		damage = "77 x 4",
+		base = 90340,
+		weapon_id = {
+			90346
+		}
+	},
+	[90347] = {
+		id = 90347,
+		damage = "83 x 4",
+		base = 90340,
+		weapon_id = {
+			90347
+		}
+	},
+	[90348] = {
+		id = 90348,
+		damage = "89 x 4",
+		base = 90340,
+		weapon_id = {
+			90348
+		}
+	},
+	[90349] = {
+		id = 90349,
+		damage = "95 x 4",
+		base = 90340,
+		weapon_id = {
+			90349
+		}
+	},
+	[90350] = {
+		id = 90350,
+		damage = "102 x 4",
+		base = 90340,
+		weapon_id = {
+			90350
+		}
+	},
+	[90351] = {
+		anti_siren = 100,
+		damage = "102 x 4",
+		base = 90340,
+		id = 90351,
+		weapon_id = {
+			90351
+		}
+	},
+	[90400] = {
+		name = "Quadruple 380mm Mle 1935 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 1,
+		descrip = "380mm main guns that were mounted on the Richelieu-class battleships. Can be equipped by BBs and BCs. ",
+		value_2 = 12,
+		icon = "50400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "40 x 4",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90740,
+		id = 90400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -144,112 +164,67 @@ pg.equip_data_statistics_388 = {
 		},
 		ammo_info = {
 			{
-				1,
-				2200
+				2,
+				1550
 			}
 		},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			90740
+			90400
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
 			4,
 			5,
-			8,
-			13,
-			18
+			10,
+			13
 		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"DD",
-			"MG"
+			"BB",
+			"MG",
+			"Richelieu"
 		}
 	},
-	[90741] = {
-		id = 90741,
-		damage = "7 x 4",
-		base = 90740,
+	[90401] = {
+		id = 90401,
+		damage = "46 x 4",
+		base = 90400,
 		weapon_id = {
-			90741
+			90401
 		}
 	},
-	[90742] = {
-		id = 90742,
-		damage = "8 x 4",
-		base = 90740,
+	[90402] = {
+		id = 90402,
+		damage = "52 x 4",
+		base = 90400,
 		weapon_id = {
-			90742
+			90402
 		}
 	},
-	[90743] = {
-		id = 90743,
-		damage = "9 x 4",
-		base = 90740,
+	[90403] = {
+		id = 90403,
+		damage = "58 x 4",
+		base = 90400,
 		weapon_id = {
-			90743
+			90403
 		}
 	},
-	[90744] = {
-		id = 90744,
-		damage = "10 x 4",
-		base = 90740,
+	[90404] = {
+		id = 90404,
+		damage = "64 x 4",
+		base = 90400,
 		weapon_id = {
-			90744
-		}
-	},
-	[90745] = {
-		id = 90745,
-		damage = "11 x 4",
-		base = 90740,
-		weapon_id = {
-			90745
-		}
-	},
-	[90746] = {
-		id = 90746,
-		damage = "12 x 4",
-		base = 90740,
-		weapon_id = {
-			90746
-		}
-	},
-	[90747] = {
-		id = 90747,
-		damage = "13 x 4",
-		base = 90740,
-		weapon_id = {
-			90747
-		}
-	},
-	[90748] = {
-		id = 90748,
-		damage = "15 x 4",
-		base = 90740,
-		weapon_id = {
-			90748
+			90404
 		}
 	}
 }

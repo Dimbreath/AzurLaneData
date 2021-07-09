@@ -1,78 +1,41 @@
 pg = pg or {}
 pg.aircraft_template_183 = {
-	[68956] = {
-		max_hp = 73,
-		name = "白上吹雪狐笋轰炸机Lv6",
-		base = 68951,
-		id = 68956,
-		hp_growth = 2796,
-		weapon_ID = {
-			68966
-		}
-	},
-	[68957] = {
-		max_hp = 79,
-		name = "白上吹雪狐笋轰炸机Lv7",
-		base = 68951,
-		id = 68957,
-		hp_growth = 3016,
-		weapon_ID = {
-			68967
-		}
-	},
-	[68958] = {
-		max_hp = 86,
-		name = "白上吹雪狐笋轰炸机Lv8",
-		base = 68951,
-		id = 68958,
-		hp_growth = 3237,
-		weapon_ID = {
-			68968
-		}
-	},
-	[68959] = {
-		max_hp = 92,
-		name = "白上吹雪狐笋轰炸机Lv9",
-		base = 68951,
-		id = 68959,
-		hp_growth = 3458,
-		weapon_ID = {
-			68969
-		}
-	},
-	[68960] = {
+	[68340] = {
 		max_hp = 98,
-		name = "白上吹雪狐笋轰炸机Lv10",
-		base = 68951,
-		id = 68960,
+		name = "小赤城技能飞机Lv10",
+		base = 68331,
+		id = 68340,
 		hp_growth = 3678,
 		weapon_ID = {
-			68970
+			68350,
+			68360
 		}
 	},
-	[69161] = {
-		name = "无畏技能SB2C(VB-18)轰炸机Lv1",
-		max_hp = 49,
+	[68391] = {
+		name = "科隆改直升机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "sb2c",
+		model_ID = "fl-282",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		dodge = 3.33,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 1,
-		type = 3,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
-		icon = "sb2c",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1870,
-		speed = 45,
-		id = 69161,
+		icon = "fl-282",
+		nationality = 4,
+		hp_growth = 1692,
+		speed = 48,
+		id = 68391,
 		scale = 1,
-		weapon_ID = {
-			69171,
-			69181
+		funnel_behavior = {
+			rear = -40,
+			exist = 10,
+			front = -40,
+			stay = 2
 		},
+		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -91,13 +54,13 @@ pg.aircraft_template_183 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -114,7 +77,7 @@ pg.aircraft_template_183 = {
 				0
 			},
 			{
-				0.44,
+				0,
 				0,
 				0
 			},
@@ -125,48 +88,60 @@ pg.aircraft_template_183 = {
 			}
 		}
 	},
-	[69162] = {
-		max_hp = 55,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv2",
-		base = 69161,
-		id = 69162,
-		hp_growth = 2114,
-		weapon_ID = {
-			69172,
-			69182
-		}
+	[68392] = {
+		id = 68392,
+		name = "科隆改直升机Lv2",
+		base = 68391,
+		max_hp = 48,
+		hp_growth = 1913
 	},
-	[69163] = {
+	[68393] = {
+		id = 68393,
+		name = "科隆改直升机Lv3",
+		base = 68391,
+		max_hp = 54,
+		hp_growth = 2133
+	},
+	[68394] = {
+		id = 68394,
+		name = "科隆改直升机Lv4",
+		base = 68391,
 		max_hp = 61,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv3",
-		base = 69161,
-		id = 69163,
-		hp_growth = 2358,
-		weapon_ID = {
-			69173,
-			69183
-		}
+		hp_growth = 2354
 	},
-	[69164] = {
-		max_hp = 68,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv4",
-		base = 69161,
-		id = 69164,
-		hp_growth = 2602,
-		weapon_ID = {
-			69174,
-			69184
-		}
+	[68395] = {
+		id = 68395,
+		name = "科隆改直升机Lv5",
+		base = 68391,
+		max_hp = 67,
+		hp_growth = 2575
 	},
-	[69165] = {
-		max_hp = 74,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv5",
-		base = 69161,
-		id = 69165,
-		hp_growth = 2846,
-		weapon_ID = {
-			69175,
-			69185
-		}
+	[68396] = {
+		id = 68396,
+		name = "科隆改直升机Lv6",
+		base = 68391,
+		max_hp = 73,
+		hp_growth = 2796
+	},
+	[68397] = {
+		id = 68397,
+		name = "科隆改直升机Lv7",
+		base = 68391,
+		max_hp = 79,
+		hp_growth = 3016
+	},
+	[68398] = {
+		id = 68398,
+		name = "科隆改直升机Lv8",
+		base = 68391,
+		max_hp = 86,
+		hp_growth = 3237
+	},
+	[68399] = {
+		id = 68399,
+		name = "科隆改直升机Lv9",
+		base = 68391,
+		max_hp = 92,
+		hp_growth = 3458
 	}
 }

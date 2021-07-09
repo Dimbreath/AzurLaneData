@@ -60,6 +60,7 @@ slot2 = {
 	COMMANDERHOMESLOT_STYLE_FIELD = slot0.FieldDescriptor(),
 	COMMANDERHOMESLOT_COMMANDER_LEVEL_FIELD = slot0.FieldDescriptor(),
 	COMMANDERHOMESLOT_COMMANDER_EXP_FIELD = slot0.FieldDescriptor(),
+	COMMANDERHOMESLOT_CACHE_EXP_FIELD = slot0.FieldDescriptor(),
 	CS_25026_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_25027_LEVEL_FIELD = slot0.FieldDescriptor(),
 	SC_25027_EXP_FIELD = slot0.FieldDescriptor(),
@@ -70,6 +71,7 @@ slot2 = {
 	SC_25029_LEVEL_FIELD = slot0.FieldDescriptor(),
 	SC_25029_EXP_FIELD = slot0.FieldDescriptor(),
 	SC_25029_AWARDS_FIELD = slot0.FieldDescriptor(),
+	SC_25029_OP_TIME_FIELD = slot0.FieldDescriptor(),
 	CS_25030_SLOTIDX_FIELD = slot0.FieldDescriptor(),
 	CS_25030_COMMANDER_ID_FIELD = slot0.FieldDescriptor(),
 	SC_25031_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -80,7 +82,8 @@ slot2 = {
 	CS_25032_STYLEIDX_FIELD = slot0.FieldDescriptor(),
 	SC_25033_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_25034_TYPE_FIELD = slot0.FieldDescriptor(),
-	SC_25035_BOX_LIST_FIELD = slot0.FieldDescriptor()
+	SC_25035_BOX_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_25036_IS_OPEN_FIELD = slot0.FieldDescriptor()
 }
 SC_25001 = slot0.Descriptor()
 CS_25002 = slot0.Descriptor()
@@ -120,6 +123,7 @@ CS_25032 = slot0.Descriptor()
 SC_25033 = slot0.Descriptor()
 CS_25034 = slot0.Descriptor()
 SC_25035 = slot0.Descriptor()
+CS_25036 = slot0.Descriptor()
 slot2.SC_25001_COMMANDERS_FIELD.name = "commanders"
 slot2.SC_25001_COMMANDERS_FIELD.full_name = "p25.sc_25001.commanders"
 slot2.SC_25001_COMMANDERS_FIELD.number = 1
@@ -897,6 +901,15 @@ slot2.COMMANDERHOMESLOT_COMMANDER_EXP_FIELD.has_default_value = false
 slot2.COMMANDERHOMESLOT_COMMANDER_EXP_FIELD.default_value = 0
 slot2.COMMANDERHOMESLOT_COMMANDER_EXP_FIELD.type = 13
 slot2.COMMANDERHOMESLOT_COMMANDER_EXP_FIELD.cpp_type = 3
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.name = "cache_exp"
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.full_name = "p25.commanderhomeslot.cache_exp"
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.number = 8
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.index = 7
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.label = 2
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.has_default_value = false
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.default_value = 0
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.type = 13
+slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD.cpp_type = 3
 COMMANDERHOMESLOT.name = "commanderhomeslot"
 COMMANDERHOMESLOT.full_name = "p25.commanderhomeslot"
 COMMANDERHOMESLOT.nested_types = {}
@@ -908,7 +921,8 @@ COMMANDERHOMESLOT.fields = {
 	slot2.COMMANDERHOMESLOT_COMMANDER_ID_FIELD,
 	slot2.COMMANDERHOMESLOT_STYLE_FIELD,
 	slot2.COMMANDERHOMESLOT_COMMANDER_LEVEL_FIELD,
-	slot2.COMMANDERHOMESLOT_COMMANDER_EXP_FIELD
+	slot2.COMMANDERHOMESLOT_COMMANDER_EXP_FIELD,
+	slot2.COMMANDERHOMESLOT_CACHE_EXP_FIELD
 }
 COMMANDERHOMESLOT.is_extendable = false
 COMMANDERHOMESLOT.extensions = {}
@@ -1034,6 +1048,15 @@ slot2.SC_25029_AWARDS_FIELD.default_value = {}
 slot2.SC_25029_AWARDS_FIELD.message_type = slot1.DROPINFO
 slot2.SC_25029_AWARDS_FIELD.type = 11
 slot2.SC_25029_AWARDS_FIELD.cpp_type = 10
+slot2.SC_25029_OP_TIME_FIELD.name = "op_time"
+slot2.SC_25029_OP_TIME_FIELD.full_name = "p25.sc_25029.op_time"
+slot2.SC_25029_OP_TIME_FIELD.number = 5
+slot2.SC_25029_OP_TIME_FIELD.index = 4
+slot2.SC_25029_OP_TIME_FIELD.label = 2
+slot2.SC_25029_OP_TIME_FIELD.has_default_value = false
+slot2.SC_25029_OP_TIME_FIELD.default_value = 0
+slot2.SC_25029_OP_TIME_FIELD.type = 13
+slot2.SC_25029_OP_TIME_FIELD.cpp_type = 3
 SC_25029.name = "sc_25029"
 SC_25029.full_name = "p25.sc_25029"
 SC_25029.nested_types = {}
@@ -1042,7 +1065,8 @@ SC_25029.fields = {
 	slot2.SC_25029_RESULT_FIELD,
 	slot2.SC_25029_LEVEL_FIELD,
 	slot2.SC_25029_EXP_FIELD,
-	slot2.SC_25029_AWARDS_FIELD
+	slot2.SC_25029_AWARDS_FIELD,
+	slot2.SC_25029_OP_TIME_FIELD
 }
 SC_25029.is_extendable = false
 SC_25029.extensions = {}
@@ -1205,6 +1229,24 @@ SC_25035.fields = {
 }
 SC_25035.is_extendable = false
 SC_25035.extensions = {}
+slot2.CS_25036_IS_OPEN_FIELD.name = "is_open"
+slot2.CS_25036_IS_OPEN_FIELD.full_name = "p25.cs_25036.is_open"
+slot2.CS_25036_IS_OPEN_FIELD.number = 1
+slot2.CS_25036_IS_OPEN_FIELD.index = 0
+slot2.CS_25036_IS_OPEN_FIELD.label = 2
+slot2.CS_25036_IS_OPEN_FIELD.has_default_value = false
+slot2.CS_25036_IS_OPEN_FIELD.default_value = 0
+slot2.CS_25036_IS_OPEN_FIELD.type = 13
+slot2.CS_25036_IS_OPEN_FIELD.cpp_type = 3
+CS_25036.name = "cs_25036"
+CS_25036.full_name = "p25.cs_25036"
+CS_25036.nested_types = {}
+CS_25036.enum_types = {}
+CS_25036.fields = {
+	slot2.CS_25036_IS_OPEN_FIELD
+}
+CS_25036.is_extendable = false
+CS_25036.extensions = {}
 commanderboxinfo = slot0.Message(COMMANDERBOXINFO)
 commanderhomeslot = slot0.Message(COMMANDERHOMESLOT)
 cs_25002 = slot0.Message(CS_25002)
@@ -1224,6 +1266,7 @@ cs_25028 = slot0.Message(CS_25028)
 cs_25030 = slot0.Message(CS_25030)
 cs_25032 = slot0.Message(CS_25032)
 cs_25034 = slot0.Message(CS_25034)
+cs_25036 = slot0.Message(CS_25036)
 presetfleet = slot0.Message(PRESETFLEET)
 sc_25001 = slot0.Message(SC_25001)
 sc_25003 = slot0.Message(SC_25003)

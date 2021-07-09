@@ -103,6 +103,8 @@ function slot0.updateForEvent(slot0)
 	end)
 	slot0.itemsPanel:updateEventItems(slot9, slot0._proxy)
 	onButton(slot0, slot0.finishedBtn, function ()
+		slot0 = {}
+
 		_.each(uv0, function (slot0)
 			if slot0.state == EventInfo.StateFinish then
 				table.insert(uv0, function (slot0)
@@ -110,7 +112,10 @@ function slot0.updateForEvent(slot0)
 				end)
 			end
 		end)
-		seriesAsync({})
+
+		uv1._viewComponent.contextData.oneStepFinishEventCount = #slot0
+
+		seriesAsync(slot0)
 	end, SFX_PANEL)
 end
 

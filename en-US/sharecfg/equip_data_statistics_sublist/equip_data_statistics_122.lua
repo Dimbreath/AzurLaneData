@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_122 = {
+	[16203] = {
+		id = 16203,
+		damage = "34/wave",
+		base = 16200,
+		weapon_id = {
+			16203
+		}
+	},
 	[16220] = {
 		name = "Quadruple 28mm \"Chicago Piano\" AA Gun Mount",
 		speciality = "Anti-Air",
@@ -234,14 +242,6 @@ pg.equip_data_statistics_122 = {
 		base = 16240,
 		weapon_id = {
 			16248
-		}
-	},
-	[16249] = {
-		id = 16249,
-		damage = "67/wave",
-		base = 16240,
-		weapon_id = {
-			16249
 		}
 	}
 }

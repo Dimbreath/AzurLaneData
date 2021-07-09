@@ -1,302 +1,234 @@
 pg = pg or {}
 pg.equip_data_statistics_302 = {
-	[44313] = {
+	[44152] = {
+		anti_siren = 200,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44152,
+		weapon_id = {
+			44152
+		}
+	},
+	[44153] = {
 		anti_siren = 300,
-		damage = "105 x 3",
-		base = 44300,
-		id = 44313,
+		damage = "132 x 2",
+		base = 44140,
+		id = 44153,
 		weapon_id = {
-			44313
+			44153
 		}
 	},
-	[45000] = {
-		name = "533mm Triple Magnetic Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 1,
-		descrip = "The 533mm Triple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
-		value_2 = 5,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "63 x 3",
+	[44200] = {
+		name = "Prototype 406mm SK C/34 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "44200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "58 x 2",
 		nationality = 4,
-		ammo = 4,
+		ammo = 2,
 		value_3 = 0,
-		id = 45000,
+		id = 44200,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				3,
-				1803
+				2,
+				1502
 			}
 		},
 		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
+			1,
+			2,
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			45000
+			44200
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
+			4,
+			5,
+			10,
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"TP",
-			"TRI"
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[45001] = {
-		id = 45001,
-		damage = "69 x 3",
-		base = 45000,
+	[44201] = {
+		id = 44201,
+		damage = "68 x 2",
+		base = 44200,
 		weapon_id = {
-			45001
+			44201
 		}
 	},
-	[45002] = {
-		id = 45002,
-		damage = "75 x 3",
-		base = 45000,
+	[44202] = {
+		id = 44202,
+		damage = "76 x 2",
+		base = 44200,
 		weapon_id = {
-			45002
+			44202
 		}
 	},
-	[45003] = {
-		id = 45003,
-		damage = "81 x 3",
-		base = 45000,
+	[44203] = {
+		id = 44203,
+		damage = "86 x 2",
+		base = 44200,
 		weapon_id = {
-			45003
+			44203
 		}
 	},
-	[45020] = {
-		name = "533mm Triple Magnetic Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 2,
-		descrip = "The 533mm Triple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
-		value_2 = 12,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "66 x 3",
+	[44204] = {
+		id = 44204,
+		damage = "96 x 2",
+		base = 44200,
+		weapon_id = {
+			44204
+		}
+	},
+	[44205] = {
+		id = 44205,
+		damage = "106 x 2",
+		base = 44200,
+		weapon_id = {
+			44205
+		}
+	},
+	[44206] = {
+		id = 44206,
+		damage = "116 x 2",
+		base = 44200,
+		weapon_id = {
+			44206
+		}
+	},
+	[44207] = {
+		id = 44207,
+		damage = "124 x 2",
+		base = 44200,
+		weapon_id = {
+			44207
+		}
+	},
+	[44208] = {
+		id = 44208,
+		damage = "134 x 2",
+		base = 44200,
+		weapon_id = {
+			44208
+		}
+	},
+	[44209] = {
+		id = 44209,
+		damage = "144 x 2",
+		base = 44200,
+		weapon_id = {
+			44209
+		}
+	},
+	[44210] = {
+		id = 44210,
+		damage = "154 x 2",
+		base = 44200,
+		weapon_id = {
+			44210
+		}
+	},
+	[44211] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44211,
+		weapon_id = {
+			44211
+		}
+	},
+	[44212] = {
+		anti_siren = 200,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44212,
+		weapon_id = {
+			44212
+		}
+	},
+	[44213] = {
+		anti_siren = 300,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44213,
+		weapon_id = {
+			44213
+		}
+	},
+	[44300] = {
+		name = "Prototype Triple 305mm SK C/39 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "44300",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "57 x 3",
 		nationality = 4,
-		ammo = 4,
+		ammo = 2,
 		value_3 = 0,
-		id = 45020,
+		id = 44300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				3,
-				1803
+				2,
+				1590
 			}
 		},
 		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
+			1,
+			2,
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			45020
+			44300
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[45021] = {
-		id = 45021,
-		damage = "72 x 3",
-		base = 45020,
-		weapon_id = {
-			45021
-		}
-	},
-	[45022] = {
-		id = 45022,
-		damage = "79 x 3",
-		base = 45020,
-		weapon_id = {
-			45022
-		}
-	},
-	[45023] = {
-		id = 45023,
-		damage = "86 x 3",
-		base = 45020,
-		weapon_id = {
-			45023
-		}
-	},
-	[45024] = {
-		id = 45024,
-		damage = "92 x 3",
-		base = 45020,
-		weapon_id = {
-			45024
-		}
-	},
-	[45025] = {
-		id = 45025,
-		damage = "99 x 3",
-		base = 45020,
-		weapon_id = {
-			45025
-		}
-	},
-	[45026] = {
-		id = 45026,
-		damage = "106 x 3",
-		base = 45020,
-		weapon_id = {
-			45026
-		}
-	},
-	[45040] = {
-		name = "533mm Triple Magnetic Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 3,
-		descrip = "The 533mm Triple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
-		value_2 = 25,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "70 x 3",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
-			6,
+			4,
+			5,
 			10,
-			11,
-			12
+			13
 		},
-		weapon_id = {
-			45040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[45041] = {
-		id = 45041,
-		damage = "77 x 3",
-		base = 45040,
-		weapon_id = {
-			45041
-		}
-	},
-	[45042] = {
-		id = 45042,
-		damage = "85 x 3",
-		base = 45040,
-		weapon_id = {
-			45042
-		}
-	},
-	[45043] = {
-		id = 45043,
-		damage = "92 x 3",
-		base = 45040,
-		weapon_id = {
-			45043
-		}
-	},
-	[45044] = {
-		id = 45044,
-		damage = "100 x 3",
-		base = 45040,
-		weapon_id = {
-			45044
+			"BB",
+			"MG",
+			"HE"
 		}
 	}
 }

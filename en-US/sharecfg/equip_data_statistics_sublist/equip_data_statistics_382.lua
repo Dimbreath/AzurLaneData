@@ -1,243 +1,135 @@
 pg = pg or {}
 pg.equip_data_statistics_382 = {
-	[90144] = {
-		id = 90144,
-		damage = "9 x 5",
-		base = 90140,
-		weapon_id = {
-			90144
-		}
+	[89241] = {
+		id = 89241,
+		value_1 = "7",
+		base = 89240
 	},
-	[90145] = {
-		id = 90145,
-		damage = "10 x 5",
-		base = 90140,
-		weapon_id = {
-			90145
-		}
+	[89242] = {
+		id = 89242,
+		value_2 = 17,
+		value_1 = "7",
+		base = 89240
 	},
-	[90146] = {
-		id = 90146,
-		damage = "11 x 5",
-		base = 90140,
-		weapon_id = {
-			90146
-		}
+	[89243] = {
+		id = 89243,
+		value_2 = 18,
+		value_1 = "8",
+		base = 89240
 	},
-	[90147] = {
-		id = 90147,
-		damage = "12 x 5",
-		base = 90140,
-		weapon_id = {
-			90147
-		}
+	[89244] = {
+		id = 89244,
+		value_2 = 19,
+		value_1 = "9",
+		base = 89240
 	},
-	[90148] = {
-		id = 90148,
-		damage = "13 x 5",
-		base = 90140,
-		weapon_id = {
-			90148
-		}
+	[89245] = {
+		id = 89245,
+		value_2 = 20,
+		value_1 = "10",
+		base = 89240
 	},
-	[90149] = {
-		id = 90149,
-		damage = "14 x 5",
-		base = 90140,
-		weapon_id = {
-			90149
-		}
+	[89246] = {
+		id = 89246,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89240
 	},
-	[90150] = {
-		id = 90150,
-		damage = "15 x 5",
-		base = 90140,
-		weapon_id = {
-			90150
-		}
+	[89247] = {
+		id = 89247,
+		value_2 = 22,
+		value_1 = "12",
+		base = 89240
 	},
-	[90151] = {
+	[89248] = {
+		id = 89248,
+		value_2 = 23,
+		value_1 = "13",
+		base = 89240
+	},
+	[89249] = {
+		id = 89249,
+		value_2 = 24,
+		value_1 = "14",
+		base = 89240
+	},
+	[89250] = {
+		id = 89250,
+		value_2 = 25,
+		value_1 = "15",
+		base = 89240
+	},
+	[89251] = {
+		id = 89251,
 		anti_siren = 100,
-		damage = "15 x 5",
-		base = 90140,
-		id = 90151,
-		weapon_id = {
-			90151
-		}
+		base = 89240,
+		value_2 = 26,
+		value_1 = "16"
 	},
-	[90152] = {
+	[89252] = {
+		id = 89252,
 		anti_siren = 200,
-		damage = "15 x 5",
-		base = 90140,
-		id = 90152,
-		weapon_id = {
-			90152
-		}
+		base = 89240,
+		value_2 = 27,
+		value_1 = "17"
 	},
-	[90153] = {
+	[89253] = {
+		id = 89253,
 		anti_siren = 300,
-		damage = "15 x 5",
-		base = 90140,
-		id = 90153,
-		weapon_id = {
-			90153
-		}
+		base = 89240,
+		value_2 = 28,
+		value_1 = "18"
 	},
-	[90200] = {
-		name = "Triple 152mm Mle 1930 Main Gun Mount",
-		speciality = "Scatter",
-		type = 2,
-		tech = 1,
-		rarity = 1,
+	[89260] = {
+		name = "Heart Key",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89260,
+		value_2 = 15,
+		icon = "89260",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
 		descrip = "No description",
-		value_2 = 0,
-		icon = "50200",
-		damage = "7 x 6",
-		nationality = 8,
-		ammo = 3,
+		nationality = 106,
+		ammo = 10,
 		value_3 = 0,
-		id = 90200,
+		attribute_1 = "antiaircraft",
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			90200
+		weapon_id = {},
+		skill_id = {
+			6730
 		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"CL",
-			"MG"
+			"DEV"
 		}
 	},
-	[90201] = {
-		id = 90201,
-		damage = "8 x 6",
-		base = 90200,
-		weapon_id = {
-			90201
-		}
+	[89261] = {
+		id = 89261,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89260
 	},
-	[90202] = {
-		id = 90202,
-		damage = "9 x 6",
-		base = 90200,
-		weapon_id = {
-			90202
-		}
+	[89262] = {
+		id = 89262,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89260
 	},
-	[90203] = {
-		id = 90203,
-		damage = "10 x 6",
-		base = 90200,
-		weapon_id = {
-			90203
-		}
-	},
-	[90220] = {
-		name = "Triple 152mm Mle 1930 Main Gun Mount",
-		speciality = "Scatter",
-		type = 2,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "50200",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "8 x 6",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90220
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG"
-		}
-	},
-	[90221] = {
-		id = 90221,
-		damage = "9 x 6",
-		base = 90220,
-		weapon_id = {
-			90221
-		}
-	},
-	[90222] = {
-		id = 90222,
-		damage = "10 x 6",
-		base = 90220,
-		weapon_id = {
-			90222
-		}
+	[89263] = {
+		id = 89263,
+		value_2 = 18,
+		value_1 = "20",
+		base = 89260
 	}
 }

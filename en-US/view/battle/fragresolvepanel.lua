@@ -27,6 +27,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0._tf:Find("bg"), function ()
 		uv0:Back()
 	end, SFX_PANEL)
+	setText(slot0.controlPanel:Find("allMax/txt"), i18n("onebutton_max_tip"))
 
 	slot3 = slot0.resolvePanel:Find("cancel_button/label")
 
@@ -154,6 +155,17 @@ function slot0.Resetcontrol(slot0)
 			triggerToggle(uv0.toggles.resolve, true)
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot2:Find("allMax"), function ()
+		for slot3 = 1, #uv0 do
+			slot4 = uv0[slot3]
+
+			if slot4.curCount ~= slot4.maxCount then
+				slot4.curCount = slot4.maxCount
+			end
+
+			uv1:Updatecontrol()
+		end
+	end, SFX_PANEL)
 	slot0:Updatecontrol()
 end
 
@@ -172,6 +184,8 @@ function slot0.Updatecontrol(slot0)
 	end)
 	setButtonEnabled(slot1:Find("button_1"), 0 > 0)
 	setGray(slot5, slot4 <= 0)
+	setGray(slot1:Find("allMax"), not slot3 or #slot3 == 0)
+	setButtonEnabled(slot6, slot3 and #slot3 > 0)
 end
 
 function slot0.Resetresolve(slot0)
@@ -188,7 +202,7 @@ function slot0.Resetresolve(slot0)
 			onButton(uv1, slot2:Find("icon/icon_bg"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setText(slot2:Find("name_panel/name"), slot3.cfg.name)
+			setText(slot2:Find("name_panel/name"), HXSet.hxLan(slot3.cfg.name))
 			setText(slot2:Find("name_panel/number"), "x " .. slot3.curCount)
 		end
 	end)
