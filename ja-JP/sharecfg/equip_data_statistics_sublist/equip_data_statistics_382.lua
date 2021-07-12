@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_382 = {
+	[90751] = {
+		anti_siren = 100,
+		damage = "19 x 4",
+		base = 90740,
+		id = 90751,
+		weapon_id = {
+			90751
+		}
+	},
 	[90780] = {
 		name = "155mm連装砲Mle1920",
 		speciality = "追尾",
@@ -230,55 +239,6 @@ pg.equip_data_statistics_382 = {
 		base = 90800,
 		weapon_id = {
 			90807
-		}
-	},
-	[90820] = {
-		name = "グールドゥ・ルスールGL.2戦闘機",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50820",
-		attribute_2 = "air",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 90820,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			90820,
-			88000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CV",
-			"FT"
 		}
 	}
 }

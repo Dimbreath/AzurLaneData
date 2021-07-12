@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_261 = {
+	[38062] = {
+		id = 38062,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51342
+			}
+		},
+		weapon_id = {
+			38062
+		}
+	},
 	[38063] = {
 		id = 38063,
 		base = 38060,
@@ -340,58 +357,6 @@ pg.equip_data_statistics_261 = {
 		},
 		weapon_id = {
 			38126
-		}
-	},
-	[38140] = {
-		name = "天山",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "38100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
 		}
 	}
 }

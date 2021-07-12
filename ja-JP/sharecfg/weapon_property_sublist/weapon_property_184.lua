@@ -2,6 +2,22 @@ pg = pg or {}
 pg.weapon_property_184 = {}
 
 function ()
+	uv0.weapon_property_184[79112] = {
+		name = "专属弹幕-绫波II",
+		damage = 12,
+		base = 79111,
+		id = 79112,
+		bullet_ID = {
+			79111,
+			79111,
+			79111
+		},
+		barrage_ID = {
+			79112,
+			79113,
+			79114
+		}
+	}
 	uv0.weapon_property_184[79121] = {
 		action_index = "attack",
 		range = 50,
@@ -1790,16 +1806,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_184[79392] = {
-		name = "专属弹幕-西雅图II",
-		damage = 20,
-		base = 79391,
-		id = 79392,
-		barrage_ID = {
-			79394,
-			79395,
-			79396
-		}
 	}
 end()

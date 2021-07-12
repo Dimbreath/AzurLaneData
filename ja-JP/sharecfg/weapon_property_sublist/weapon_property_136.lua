@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 function ()
+	uv0.weapon_property_136[66729] = {
+		name = "雾岛三式烧夷弹弹幕Lv9-PVP",
+		damage = 19,
+		base = 66720,
+		id = 66729,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
 	uv0.weapon_property_136[66730] = {
 		name = "雾岛三式烧夷弹弹幕Lv10-PVP",
 		damage = 20,
@@ -891,11 +901,6 @@ function ()
 	uv0.weapon_property_136[66845] = {
 		id = 66845,
 		damage = 140,
-		base = 66840
-	}
-	uv0.weapon_property_136[66846] = {
-		id = 66846,
-		damage = 160,
 		base = 66840
 	}
 end()

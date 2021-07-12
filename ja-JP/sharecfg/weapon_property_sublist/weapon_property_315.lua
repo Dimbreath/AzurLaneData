@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_315 = {}
 
 function ()
+	uv0.weapon_property_315[670202] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020埃塞克斯世界BOSS H难度】马汉级量产型 鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 670202,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30057
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_315[670203] = {
 		action_index = "attack",
 		range = 80,
@@ -2919,58 +2963,6 @@ function ()
 		search_condition = {
 			1,
 			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_315[680032] = {
-		action_index = "",
-		range = 120,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动A1】BOSS U73 第一波 十字弹幕子母弹",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 680032,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750018,
-			750019,
-			750020,
-			750021,
-			750022
-		},
-		barrage_ID = {
-			760032,
-			760033,
-			760034,
-			760035,
-			760036
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
 		},
 		precast_param = {}
 	}

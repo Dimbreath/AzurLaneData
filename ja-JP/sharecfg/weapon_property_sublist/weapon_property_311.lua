@@ -2,6 +2,34 @@ pg = pg or {}
 pg.weapon_property_311 = {}
 
 function ()
+	uv0.weapon_property_311[630034] = {
+		name = "【愚人节活动2021】彩布里 前排跨射",
+		range = 75,
+		type = 19,
+		aim_type = 1,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		reload_max = 1500,
+		queue = 1,
+		charge_param = "",
+		damage = 40,
+		base = 1000,
+		suppress = 1,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		id = 630034,
+		bullet_ID = {
+			710031
+		},
+		barrage_ID = {
+			399912
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
 	uv0.weapon_property_311[630035] = {
 		aim_type = 1,
 		name = "【愚人节活动2021】彩布里 后排跨射",
@@ -2937,50 +2965,6 @@ function ()
 		},
 		barrage_ID = {
 			1023
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_311[650115] = {
-		action_index = "attack",
-		range = 999,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020法系活动B1】沃克兰 第一波 中心穿透弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 13,
-		corrected = 100,
-		min_range = 0,
-		id = 650115,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			730022
-		},
-		barrage_ID = {
-			730009
 		},
 		oxy_type = {
 			1

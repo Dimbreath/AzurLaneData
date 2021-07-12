@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_385 = {
+	[90900] = {
+		name = "203mm連装砲Mle1924",
+		speciality = "追尾",
+		type = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "50860",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "30 x 4",
+		nationality = 8,
+		ammo = 2,
+		value_3 = 0,
+		id = 90900,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1416
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90900
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
 	[90901] = {
 		id = 90901,
 		damage = "33 x 4",
@@ -174,14 +233,6 @@ pg.equip_data_statistics_385 = {
 		base = 91000,
 		weapon_id = {
 			91002
-		}
-	},
-	[91003] = {
-		id = 91003,
-		damage = "82 x 3",
-		base = 91000,
-		weapon_id = {
-			91003
 		}
 	}
 }

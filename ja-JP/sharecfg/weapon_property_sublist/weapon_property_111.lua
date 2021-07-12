@@ -2,6 +2,17 @@ pg = pg or {}
 pg.weapon_property_111 = {}
 
 function ()
+	uv0.weapon_property_111[64126] = {
+		reload_max = 1895,
+		damage = 155,
+		base = 64121,
+		id = 64126,
+		name = "提康德罗加Lv6",
+		expose = 5,
+		bullet_ID = {
+			64126
+		}
+	}
 	uv0.weapon_property_111[64127] = {
 		reload_max = 1860,
 		damage = 176,
@@ -627,12 +638,6 @@ function ()
 		id = 64248,
 		name = "霞光之绊·改鱼雷LV8",
 		damage = 112,
-		base = 64241
-	}
-	uv0.weapon_property_111[64249] = {
-		id = 64249,
-		name = "霞光之绊·改鱼雷LV9",
-		damage = 123,
 		base = 64241
 	}
 end()

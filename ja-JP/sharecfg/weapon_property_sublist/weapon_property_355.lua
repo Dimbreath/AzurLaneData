@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_355 = {}
 
 function ()
+	uv0.weapon_property_355[1002028] = {
+		action_index = "",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "量产型塞壬重巡III型大船通用副炮 III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 7,
+		corrected = 125,
+		min_range = 0,
+		id = 1002028,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			690006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_355[1002029] = {
 		action_index = "",
 		range = 60,
@@ -2819,16 +2863,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_355[1002091] = {
-		name = "【量产型】塞壬潜艇III型单发鱼雷弹幕1",
-		base = 1100695,
-		id = 1002091,
-		bullet_ID = {
-			829
-		},
-		oxy_type = {
-			2
-		}
 	}
 end()

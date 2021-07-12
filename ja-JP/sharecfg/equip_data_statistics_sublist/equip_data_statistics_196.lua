@@ -1,5 +1,25 @@
 pg = pg or {}
 pg.equip_data_statistics_196 = {
+	[28064] = {
+		base = 28060,
+		id = 28064,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51064
+			}
+		},
+		weapon_id = {
+			28064
+		},
+		skill_id = {
+			6814
+		}
+	},
 	[28065] = {
 		base = 28060,
 		id = 28065,
@@ -335,58 +355,6 @@ pg.equip_data_statistics_196 = {
 		},
 		weapon_id = {
 			28106
-		}
-	},
-	[28120] = {
-		name = "バラクーダ",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "28100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28120
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
 		}
 	}
 }

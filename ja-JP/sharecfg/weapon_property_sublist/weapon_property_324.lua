@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_324 = {}
 
 function ()
+	uv0.weapon_property_324[722002] = {
+		range = 120,
+		name = "【2020偶像活动二期SP3】精英人形黛朵 扩散弹",
+		damage = 12,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1200,
+		fire_sfx = "battle/cannon-main",
+		id = 722002,
+		bullet_ID = {
+			780010,
+			780011
+		},
+		barrage_ID = {
+			680015,
+			680016
+		}
+	}
 	uv0.weapon_property_324[722003] = {
 		range = 100,
 		name = "【2020偶像活动二期SP3】精英人形巴尔的摩 音符散射",
@@ -1341,24 +1359,6 @@ function ()
 		},
 		barrage_ID = {
 			790141
-		}
-	}
-	uv0.weapon_property_324[726004] = {
-		range = 120,
-		name = "【2020偶像活动二期EX】BOSS 塔什干 第二波 旋转扩散弹幕 妖精",
-		damage = 20,
-		base = 1000,
-		action_index = "",
-		reload_max = 6000,
-		queue = 2,
-		id = 726004,
-		bullet_ID = {
-			780085,
-			780086
-		},
-		barrage_ID = {
-			790144,
-			790145
 		}
 	}
 end()

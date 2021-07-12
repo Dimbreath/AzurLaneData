@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 function ()
+	uv0.weapon_property_113[64312] = {
+		name = "白龙搭载彩云舰攻型 Lv2",
+		damage = 1,
+		base = 64311,
+		id = 64312,
+		bullet_ID = {
+			64312
+		}
+	}
 	uv0.weapon_property_113[64313] = {
 		name = "白龙搭载彩云舰攻型 Lv3",
 		damage = 1,
@@ -94,7 +103,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 16,
 		shakescreen = 0,
-		name = "1 x 天罚落雷",
+		name = "1 x 天罚落雷（独立射击）",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -658,12 +667,6 @@ function ()
 		id = 64374,
 		name = "白龙缠绕光弹+火焰式神技能LV4",
 		damage = 43,
-		base = 64371
-	}
-	uv0.weapon_property_113[64375] = {
-		id = 64375,
-		name = "白龙缠绕光弹+火焰式神技能LV5",
-		damage = 50,
 		base = 64371
 	}
 end()

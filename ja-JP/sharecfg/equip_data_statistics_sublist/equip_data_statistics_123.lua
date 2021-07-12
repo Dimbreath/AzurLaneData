@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_123 = {
+	[17126] = {
+		id = 17126,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50426
+			}
+		},
+		weapon_id = {
+			17126,
+			81126
+		}
+	},
 	[17140] = {
 		name = "F4Fワイルドキャット",
 		type = 7,
@@ -309,59 +323,6 @@ pg.equip_data_statistics_123 = {
 		weapon_id = {
 			17203,
 			81203
-		}
-	},
-	[17220] = {
-		name = "F4Uコルセア",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "17200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50420
-			},
-			{
-				5,
-				52320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17220,
-			81220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
 		}
 	}
 }

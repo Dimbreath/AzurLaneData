@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_332 = {}
 
 function ()
+	uv0.weapon_property_332[763212] = {
+		reload_max = 100,
+		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮",
+		damage = 18,
+		base = 1002,
+		id = 763212,
+		range = 120,
+		queue = 2,
+		barrage_ID = {
+			700143
+		}
+	}
 	uv0.weapon_property_332[763213] = {
 		reload_max = 100,
 		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮",
@@ -1816,29 +1828,6 @@ function ()
 			time = 1,
 			fx = "jinengenemy",
 			alertTime = 2
-		}
-	}
-	uv0.weapon_property_332[770103] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A2】塞壬破局者II型 主炮中心弹幕",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1200,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 770103,
-		bullet_ID = {
-			690102
-		},
-		barrage_ID = {
-			690104
 		}
 	}
 end()

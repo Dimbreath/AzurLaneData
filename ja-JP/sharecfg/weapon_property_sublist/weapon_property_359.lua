@@ -2,6 +2,14 @@ pg = pg or {}
 pg.weapon_property_359 = {}
 
 function ()
+	uv0.weapon_property_359[1003025] = {
+		id = 1003025,
+		name = "【量产型】梦境轻巡联装炮x6散射 V",
+		base = 1001025,
+		bullet_ID = {
+			832
+		}
+	}
 	uv0.weapon_property_359[1003026] = {
 		id = 1003026,
 		name = "【量产型】梦境重巡大船通用副炮 I",
@@ -471,10 +479,5 @@ function ()
 		id = 1003087,
 		name = "【量产型】梦境航母战斗机空中 II",
 		base = 1001087
-	}
-	uv0.weapon_property_359[1003088] = {
-		id = 1003088,
-		name = "【量产型】梦境航母战斗机空中 III",
-		base = 1001088
 	}
 end()

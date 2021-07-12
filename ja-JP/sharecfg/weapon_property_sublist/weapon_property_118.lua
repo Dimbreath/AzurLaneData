@@ -2,6 +2,56 @@ pg = pg or {}
 pg.weapon_property_118 = {}
 
 function ()
+	uv0.weapon_property_118[65231] = {
+		action_index = "attack",
+		range = 72,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "大凤μ-吸血弹幕Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 65231,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19217,
+			19218,
+			19219,
+			19220
+		},
+		barrage_ID = {
+			80958,
+			80959,
+			80960,
+			80961
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_118[65232] = {
 		id = 65232,
 		name = "大凤μ-吸血弹幕Lv2",
@@ -711,12 +761,6 @@ function ()
 		id = 65293,
 		name = "穗香弹幕LV3-类佐治亚超重弹2枚",
 		damage = 86,
-		base = 65291
-	}
-	uv0.weapon_property_118[65294] = {
-		id = 65294,
-		name = "穗香弹幕LV4-类佐治亚超重弹2枚",
-		damage = 98,
 		base = 65291
 	}
 end()

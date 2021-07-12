@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_158 = {}
 
 function ()
+	uv0.weapon_property_158[68549] = {
+		id = 68549,
+		name = "伊25技能零侦LV9",
+		damage = 130,
+		base = 68541
+	}
 	uv0.weapon_property_158[68550] = {
 		id = 68550,
 		name = "伊25技能零侦LV10",
@@ -848,14 +854,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_158[68622] = {
-		name = "巴丹技能战斗机Lv2",
-		damage = 45,
-		base = 68621,
-		id = 68622,
-		bullet_ID = {
-			68622
-		}
 	}
 end()

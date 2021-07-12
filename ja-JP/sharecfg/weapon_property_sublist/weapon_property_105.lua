@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_105 = {}
 
 function ()
+	uv0.weapon_property_105[59842] = {
+		id = 59842,
+		damage = 120,
+		base = 59840
+	}
 	uv0.weapon_property_105[59843] = {
 		id = 59843,
 		damage = 125,
@@ -1233,14 +1238,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_105[60172] = {
-		id = 60172,
-		name = "航空攻击展示-独角兽II",
-		base = 60171,
-		barrage_ID = {
-			1511,
-			1511
-		}
 	}
 end()

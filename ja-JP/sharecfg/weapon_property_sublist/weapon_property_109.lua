@@ -2,6 +2,52 @@ pg = pg or {}
 pg.weapon_property_109 = {}
 
 function ()
+	uv0.weapon_property_109[61505] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "战斗机外观预览飞机",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 61505,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000,
+			17000
+		},
+		barrage_ID = {
+			1511,
+			1511
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_109[64001] = {
 		action_index = "",
 		range = 90,
@@ -690,12 +736,6 @@ function ()
 		id = 64062,
 		name = "小天城战列技能-LV2",
 		damage = 24,
-		base = 64061
-	}
-	uv0.weapon_property_109[64063] = {
-		id = 64063,
-		name = "小天城战列技能-LV3",
-		damage = 26,
 		base = 64061
 	}
 end()

@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_17 = {
+	[780] = {
+		name = "情報レポート・北極要塞",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 780,
+		value_2 = 100,
+		icon = "780",
+		value_1 = "10",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "極秘情報・北方連合の領域内に位置するセイレーン要塞の分析レポート。",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6440
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[781] = {
 		id = 781,
 		value_2 = 105,
@@ -131,12 +165,6 @@ pg.equip_data_statistics_17 = {
 		id = 804,
 		value_2 = 60,
 		value_1 = "23",
-		base = 800
-	},
-	[805] = {
-		id = 805,
-		value_2 = 65,
-		value_1 = "25",
 		base = 800
 	}
 }

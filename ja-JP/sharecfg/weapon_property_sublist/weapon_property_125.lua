@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_125 = {}
 
 function ()
+	uv0.weapon_property_125[65682] = {
+		id = 65682,
+		name = "贝拉罗斯冰锥2-95-LV2",
+		damage = 68,
+		base = 65681
+	}
 	uv0.weapon_property_125[65683] = {
 		id = 65683,
 		name = "贝拉罗斯冰锥2-95-LV3",
@@ -716,15 +722,6 @@ function ()
 		damage = 92,
 		base = 65741,
 		id = 65744,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_125[65745] = {
-		name = "贝拉罗斯PVP冰锥3-115-LV5",
-		damage = 104,
-		base = 65741,
-		id = 65745,
 		barrage_ID = {
 			81026
 		}

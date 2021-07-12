@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_123 = {}
 
 function ()
+	uv0.weapon_property_123[65556] = {
+		id = 65556,
+		name = "Z28 护航精英弹幕",
+		damage = 16,
+		base = 65551
+	}
 	uv0.weapon_property_123[65557] = {
 		id = 65557,
 		name = "Z28 护航精英弹幕",
@@ -662,18 +668,6 @@ function ()
 		damage = 18,
 		base = 65611,
 		id = 65618,
-		barrage_ID = {
-			81012,
-			81013,
-			81014,
-			81015
-		}
-	}
-	uv0.weapon_property_123[65619] = {
-		name = "波拉技能弹幕-LV9",
-		damage = 19,
-		base = 65611,
-		id = 65619,
 		barrage_ID = {
 			81012,
 			81013,

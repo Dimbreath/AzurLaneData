@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_116 = {
+	[16240] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "16200",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "29/回",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
 	[16241] = {
 		id = 16241,
 		damage = "33/回",
@@ -235,14 +297,6 @@ pg.equip_data_statistics_116 = {
 			"USS",
 			"ST",
 			"AA"
-		}
-	},
-	[16321] = {
-		id = 16321,
-		damage = "26/回",
-		base = 16320,
-		weapon_id = {
-			16321
 		}
 	}
 }

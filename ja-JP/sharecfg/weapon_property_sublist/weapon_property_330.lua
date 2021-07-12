@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_330 = {}
 
 function ()
+	uv0.weapon_property_330[760102] = {
+		base = 1000,
+		range = 100,
+		type = 2,
+		name = "【2020德系活动A2】BOSS 英王乔治五世 <型弹幕",
+		reload_max = 1350,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 760102,
+		bullet_ID = {
+			810002,
+			810002
+		},
+		barrage_ID = {
+			820002,
+			820003
+		}
+	}
 	uv0.weapon_property_330[760103] = {
 		aim_type = 1,
 		range = 100,
@@ -1619,47 +1637,5 @@ function ()
 			alertTime = 1,
 			isBound = true
 		}
-	}
-	uv0.weapon_property_330[762001] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020德系活动C1】BOSS 塞壬执棋者I型 轰炸机",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 762001,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			12030
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

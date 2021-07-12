@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_362 = {}
 
 function ()
+	uv0.weapon_property_362[1003214] = {
+		id = 1003214,
+		name = "【精英】梦境领洋者 精英人形特殊武器 IV",
+		base = 1002214,
+		bullet_ID = {
+			835,
+			835,
+			835,
+			835,
+			835
+		}
+	}
 	uv0.weapon_property_362[1003215] = {
 		id = 1003215,
 		name = "【精英】梦境领洋者 精英人形特殊武器 V",
@@ -529,21 +541,6 @@ function ()
 		base = 1100695,
 		id = 1003276,
 		name = "【量产型】精锐梦境塞壬潜艇 3way鱼雷弹幕1",
-		bullet_ID = {
-			760087
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			2
-		}
-	}
-	uv0.weapon_property_362[1003277] = {
-		reload_max = 750,
-		base = 1100696,
-		id = 1003277,
-		name = "【量产型】精锐梦境塞壬潜艇 3way鱼雷弹幕2",
 		bullet_ID = {
 			760087
 		},

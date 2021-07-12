@@ -263779,9 +263779,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.25,
-			1.3,
-			1.2
+			1.2,
+			1.4,
+			1.25
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -263880,7 +263880,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		fix_equip_list = {
-			334
+			438
 		},
 		default_equip_list = {
 			44410,
@@ -291148,8 +291148,8 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.1,
-			1.15,
-			1.15
+			1.25,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -291272,8 +291272,8 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.15,
-			1.15,
-			1.15
+			1.25,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -291396,8 +291396,8 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.15,
-			1.25,
-			1.15
+			1.35,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -291520,8 +291520,8 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.2,
-			1.3,
-			1.2
+			1.4,
+			1.25
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -291554,7 +291554,7 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
-			1252,
+			1385,
 			53,
 			38,
 			47,
@@ -291568,7 +291568,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			30525,
+			33775,
 			1036,
 			736,
 			920,
@@ -291680,7 +291680,7 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
-			1252,
+			1385,
 			53,
 			38,
 			47,
@@ -291694,7 +291694,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			30525,
+			33775,
 			1036,
 			736,
 			920,
@@ -291746,7 +291746,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		fix_equip_list = {
-			332
+			438
 		},
 		default_equip_list = {
 			102,
@@ -291806,7 +291806,7 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
-			1252,
+			1385,
 			53,
 			38,
 			47,
@@ -291820,7 +291820,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			30525,
+			33775,
 			1036,
 			736,
 			920,
@@ -291872,7 +291872,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		fix_equip_list = {
-			333
+			438
 		},
 		default_equip_list = {
 			102,
@@ -291932,7 +291932,7 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
-			1252,
+			1385,
 			53,
 			38,
 			47,
@@ -291946,7 +291946,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		attrs_growth = {
-			30525,
+			33775,
 			1036,
 			736,
 			920,
@@ -291998,7 +291998,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		fix_equip_list = {
-			334
+			438
 		},
 		default_equip_list = {
 			102,

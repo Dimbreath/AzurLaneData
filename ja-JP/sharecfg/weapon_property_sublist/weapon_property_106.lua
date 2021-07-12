@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_106 = {}
 
 function ()
+	uv0.weapon_property_106[60172] = {
+		id = 60172,
+		name = "航空攻击展示-独角兽II",
+		base = 60171,
+		barrage_ID = {
+			1511,
+			1511
+		}
+	}
 	uv0.weapon_property_106[60173] = {
 		id = 60173,
 		name = "航空攻击展示-独角兽III",
@@ -1547,51 +1556,5 @@ function ()
 			1512,
 			1512
 		}
-	}
-	uv0.weapon_property_106[60361] = {
-		action_index = "attack",
-		range = 90,
-		type = 99,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "航空攻击展示-萨菈娜I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 60361,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			37000,
-			38000
-		},
-		barrage_ID = {
-			1511,
-			1510
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

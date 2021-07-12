@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
+	[90820] = {
+		name = "グールドゥ・ルスールGL.2戦闘機",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50820",
+		attribute_2 = "air",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90820,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			90820,
+			88000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
 	[90821] = {
 		id = 90821,
 		base = 90820,
@@ -326,14 +375,6 @@ pg.equip_data_statistics_383 = {
 			"CA",
 			"MG",
 			"HE"
-		}
-	},
-	[90861] = {
-		id = 90861,
-		damage = "28 x 4",
-		base = 90860,
-		weapon_id = {
-			90861
 		}
 	}
 }

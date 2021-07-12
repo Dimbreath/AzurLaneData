@@ -2,6 +2,66 @@ pg = pg or {}
 pg.weapon_property_319 = {}
 
 function ()
+	uv0.weapon_property_319[680356] = {
+		action_index = "attack",
+		range = 999,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020英系活动D3】BOSS 清除者 第四波 直线主炮跨射",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 90,
+		id = 680356,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9999,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			690501,
+			690502,
+			690503,
+			690504,
+			690505,
+			690506,
+			690507
+		},
+		barrage_ID = {
+			690501,
+			690501,
+			690501,
+			690501,
+			690501,
+			690501,
+			690501
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
 	uv0.weapon_property_319[680357] = {
 		action_index = "attack",
 		range = 999,
@@ -2651,27 +2711,6 @@ function ()
 		barrage_ID = {
 			940043,
 			940044
-		}
-	}
-	uv0.weapon_property_319[690705] = {
-		aim_type = 1,
-		damage = 20,
-		base = 1000,
-		name = "【2020信浓活动普通T2】BOSS 黑高雄 特殊弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		id = 690705,
-		bullet_ID = {
-			620006,
-			620007,
-			620008,
-			620009
-		},
-		barrage_ID = {
-			990001,
-			990002,
-			990241,
-			990242
 		}
 	}
 end()

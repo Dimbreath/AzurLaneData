@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_352 = {
+	[85044] = {
+		id = 85044,
+		damage = "9 x 6",
+		base = 85040,
+		weapon_id = {
+			85044
+		}
+	},
 	[85045] = {
 		id = 85045,
 		damage = "10 x 6",
@@ -183,65 +191,6 @@ pg.equip_data_statistics_352 = {
 		base = 85060,
 		weapon_id = {
 			85066
-		}
-	},
-	[85120] = {
-		name = "152mm三連装砲B-38 MK5",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "5 x 6",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1201
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85120
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
 		}
 	}
 }

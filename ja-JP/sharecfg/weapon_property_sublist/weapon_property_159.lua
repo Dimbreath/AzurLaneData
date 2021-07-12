@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_159 = {}
 
 function ()
+	uv0.weapon_property_159[68622] = {
+		name = "巴丹技能战斗机Lv2",
+		damage = 45,
+		base = 68621,
+		id = 68622,
+		bullet_ID = {
+			68622
+		}
+	}
 	uv0.weapon_property_159[68623] = {
 		name = "巴丹技能战斗机Lv3",
 		damage = 49,
@@ -702,12 +711,6 @@ function ()
 		id = 68684,
 		name = "利托里奥弹幕强化PVP-Lv4",
 		damage = 98,
-		base = 68681
-	}
-	uv0.weapon_property_159[68685] = {
-		id = 68685,
-		name = "利托里奥弹幕强化PVP-Lv5",
-		damage = 110,
 		base = 68681
 	}
 end()

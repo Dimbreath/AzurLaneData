@@ -2,6 +2,55 @@ pg = pg or {}
 pg.weapon_property_334 = {}
 
 function ()
+	uv0.weapon_property_334[773001] = {
+		action_index = "attack",
+		range = 120,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		suppress = 1,
+		name = "【2021毛系活动D1】BOSS 梦境塞壬领洋者 三重鱼雷 ",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 32,
+		base = 1001,
+		corrected = 100,
+		min_range = 0,
+		id = 773001,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			690008,
+			690008,
+			690008
+		},
+		barrage_ID = {
+			690048,
+			690049,
+			690050
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_334[773002] = {
 		action_index = "attack",
 		range = 90,
@@ -2179,37 +2228,6 @@ function ()
 		barrage_ID = {
 			21006,
 			21007
-		}
-	}
-	uv0.weapon_property_334[780101] = {
-		aim_type = 1,
-		name = "【2021意大利活动A2】塞壬破局者I型 前排跨射",
-		axis_angle = 0,
-		type = 19,
-		min_range = 20,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 1500,
-		queue = 1,
-		angle = 40,
-		range = 50,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon2",
-		fire_sfx = "battle/cannon-main",
-		id = 780101,
-		bullet_ID = {
-			399988
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
 		}
 	}
 end()

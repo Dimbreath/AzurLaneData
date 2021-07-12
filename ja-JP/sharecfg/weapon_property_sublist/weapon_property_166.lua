@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_166 = {}
 
 function ()
+	uv0.weapon_property_166[69083] = {
+		id = 69083,
+		name = "定点冰锥1-80-LV3",
+		damage = 16,
+		base = 69081
+	}
 	uv0.weapon_property_166[69084] = {
 		id = 69084,
 		name = "定点冰锥1-80-LV4",
@@ -627,12 +633,6 @@ function ()
 		id = 69145,
 		name = "定点冰锥PVP2-60-LV5",
 		damage = 25,
-		base = 69141
-	}
-	uv0.weapon_property_166[69146] = {
-		id = 69146,
-		name = "定点冰锥PVP2-60-LV6",
-		damage = 30,
 		base = 69141
 	}
 end()

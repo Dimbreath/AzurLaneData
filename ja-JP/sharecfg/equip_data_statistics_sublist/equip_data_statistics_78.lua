@@ -1,5 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_78 = {
+	[7220] = {
+		name = "130mm単装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "7200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "5 x 3",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 7220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1000
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1000
+			},
+			{
+				4,
+				1018
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			7220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
 	[7221] = {
 		id = 7221,
 		damage = "6 x 3",
@@ -185,14 +251,6 @@ pg.equip_data_statistics_78 = {
 		base = 7240,
 		weapon_id = {
 			7249
-		}
-	},
-	[7250] = {
-		id = 7250,
-		damage = "17 x 3",
-		base = 7240,
-		weapon_id = {
-			7250
 		}
 	}
 }

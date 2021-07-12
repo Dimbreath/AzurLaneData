@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_312 = {}
 
 function ()
+	uv0.weapon_property_312[650115] = {
+		action_index = "attack",
+		range = 999,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020法系活动B1】沃克兰 第一波 中心穿透弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 13,
+		corrected = 100,
+		min_range = 0,
+		id = 650115,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 9999,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			730022
+		},
+		barrage_ID = {
+			730009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_312[650116] = {
 		action_index = "attack",
 		range = 999,
@@ -3103,54 +3147,6 @@ function ()
 		barrage_ID = {
 			730115,
 			730116
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_312[650313] = {
-		action_index = "",
-		range = 999,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020法系活动D】精英人形 通用三色弹幕发射点",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 650313,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 0,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 5,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			730056,
-			730129,
-			730133
-		},
-		barrage_ID = {
-			730123,
-			730123,
-			730123
 		},
 		oxy_type = {
 			1

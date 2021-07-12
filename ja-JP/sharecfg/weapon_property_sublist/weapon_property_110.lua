@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 function ()
+	uv0.weapon_property_110[64063] = {
+		id = 64063,
+		name = "小天城战列技能-LV3",
+		damage = 26,
+		base = 64061
+	}
 	uv0.weapon_property_110[64064] = {
 		id = 64064,
 		name = "小天城战列技能-LV4",
@@ -785,17 +791,6 @@ function ()
 		expose = 5,
 		bullet_ID = {
 			64125
-		}
-	}
-	uv0.weapon_property_110[64126] = {
-		reload_max = 1895,
-		damage = 155,
-		base = 64121,
-		id = 64126,
-		name = "提康德罗加Lv6",
-		expose = 5,
-		bullet_ID = {
-			64126
 		}
 	}
 end()

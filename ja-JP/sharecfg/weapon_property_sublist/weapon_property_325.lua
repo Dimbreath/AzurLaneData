@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_325 = {}
 
 function ()
+	uv0.weapon_property_325[726004] = {
+		range = 120,
+		name = "【2020偶像活动二期EX】BOSS 塔什干 第二波 旋转扩散弹幕 妖精",
+		damage = 20,
+		base = 1000,
+		action_index = "",
+		reload_max = 6000,
+		queue = 2,
+		id = 726004,
+		bullet_ID = {
+			780085,
+			780086
+		},
+		barrage_ID = {
+			790144,
+			790145
+		}
+	}
 	uv0.weapon_property_325[726005] = {
 		range = 120,
 		name = "【2020偶像活动二期EX】BOSS 塔什干 第三波 横向封位弹幕（变速） 妖精",
@@ -1285,23 +1303,6 @@ function ()
 		},
 		barrage_ID = {
 			810053
-		}
-	}
-	uv0.weapon_property_325[741109] = {
-		base = 1000,
-		range = 120,
-		type = 2,
-		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散自机狙 左",
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 741109,
-		bullet_ID = {
-			800024
-		},
-		barrage_ID = {
-			810054
 		}
 	}
 end()

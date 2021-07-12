@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_351 = {
+	[79731] = {
+		name = "专属弹幕-海伦娜.META I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79731,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79731
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79732] = {
 		id = 79732,
 		name = "专属弹幕-海伦娜.META II",
@@ -304,14 +343,6 @@ pg.equip_data_statistics_351 = {
 		base = 85040,
 		weapon_id = {
 			85043
-		}
-	},
-	[85044] = {
-		id = 85044,
-		damage = "9 x 6",
-		base = 85040,
-		weapon_id = {
-			85044
 		}
 	}
 }

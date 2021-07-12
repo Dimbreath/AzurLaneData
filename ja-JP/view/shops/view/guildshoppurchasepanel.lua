@@ -81,9 +81,9 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 	}
 
 	updateDropCfg(slot5)
-	slot3:Find("name_bg/Text"):GetComponent("ScrollText"):SetText(HXSet.hxName(slot5.cfg.name))
+	slot3:Find("name_bg/Text"):GetComponent("ScrollText"):SetText(HXSet.hxLan(slot5.cfg.name))
 
-	slot7 = slot3:Find("cnt/Text"):GetComponent(typeof(Text))
+	slot8 = slot3:Find("cnt/Text"):GetComponent(typeof(Text))
 
 	onButton(slot0, slot3, function ()
 		uv0.list:each(function (slot0, slot1)

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_17 = {}
 
 function ()
+	uv0.weapon_property_17[16088] = {
+		id = 16088,
+		reload_max = 114,
+		damage = 81,
+		base = 16080
+	}
 	uv0.weapon_property_17[16089] = {
 		id = 16089,
 		reload_max = 112,
@@ -644,12 +650,5 @@ function ()
 		reload_max = 131,
 		damage = 72,
 		base = 16240
-	}
-	uv0.weapon_property_17[16251] = {
-		reload_max = 131,
-		damage = 72,
-		base = 16240,
-		id = 16251,
-		corrected = 104
 	}
 end()

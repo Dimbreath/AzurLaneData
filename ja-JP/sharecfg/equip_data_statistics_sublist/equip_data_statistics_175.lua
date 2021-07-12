@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_175 = {
+	[26120] = {
+		name = "QF 2ポンド四連装ポンポン砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "26100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "30/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
 	[26121] = {
 		id = 26121,
 		damage = "35/回",
@@ -180,14 +242,6 @@ pg.equip_data_statistics_175 = {
 		base = 26140,
 		weapon_id = {
 			26149
-		}
-	},
-	[26150] = {
-		id = 26150,
-		damage = "84/回",
-		base = 26140,
-		weapon_id = {
-			26150
 		}
 	}
 }

@@ -246,7 +246,7 @@ return {
 	desc = "属性提升",
 	stack = 1,
 	id = 19402,
-	icon = 19402,
+	icon = 19400,
 	last_effect = "",
 	blink = {
 		1,

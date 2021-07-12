@@ -470,39 +470,41 @@ pg.equip_data_statistics_6 = {
 			"AA"
 		}
 	},
-	[500] = {
-		name = "ビーバーズエムブレム",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 500,
-		value_2 = 25,
-		icon = "500",
-		value_1 = "14",
-		attribute_2 = "durability",
-		rarity = 5,
-		descrip = "第23駆逐隊\n<color=#ffde38>「ビーバーズ、31ノット、全速前進よ！」</color>",
-		nationality = 1,
-		ammo = 10,
+	[438] = {
+		name = "埃吉尔自带强化型副炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		damage = "23 x 4",
+		nationality = 4,
+		ammo = 1,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		id = 438,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			2
+		},
 		ammo_info = {},
-		equip_info = {
-			6
+		equip_info = {},
+		weapon_id = {
+			438
 		},
-		weapon_id = {},
-		skill_id = {
-			6000
+		skill_id = {},
+		part_main = {
+			3
 		},
-		part_main = {},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"USS",
-			"DEV"
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
 		}
 	}
 }

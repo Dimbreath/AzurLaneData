@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.equip_data_statistics_349 = {
+	[79561] = {
+		name = "专属弹幕-德雷克I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		descrip = "スキル弾幕",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79561,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79561
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79562] = {
 		id = 79562,
 		name = "专属弹幕-德雷克II",
@@ -373,13 +411,5 @@ pg.equip_data_statistics_349 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[79642] = {
-		id = 79642,
-		name = "专属弹幕-塔什干μII",
-		base = 79641,
-		weapon_id = {
-			79642
-		}
 	}
 }

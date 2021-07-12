@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.equip_data_statistics_35 = {
+	[1640] = {
+		name = "電気式揚弾機",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 1640,
+		value_2 = 3,
+		icon = "1600",
+		value_1 = "9",
+		attribute_2 = "cannon",
+		rarity = 3,
+		descrip = "電動揚弾装置。装填と火力を上げることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "reload",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[1641] = {
 		id = 1641,
 		value_1 = "10",
@@ -169,11 +229,5 @@ pg.equip_data_statistics_35 = {
 		label = {
 			"DEV"
 		}
-	},
-	[1741] = {
-		id = 1741,
-		value_2 = 24,
-		value_1 = "10",
-		base = 1740
 	}
 }

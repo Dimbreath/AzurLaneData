@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_377 = {
+	[90326] = {
+		id = 90326,
+		damage = "69 x 4",
+		base = 90320,
+		weapon_id = {
+			90326
+		}
+	},
 	[90340] = {
 		name = "330mm四連装砲Mle1931",
 		speciality = "投射",
@@ -217,14 +225,6 @@ pg.equip_data_statistics_377 = {
 		base = 90400,
 		weapon_id = {
 			90403
-		}
-	},
-	[90404] = {
-		id = 90404,
-		damage = "64 x 4",
-		base = 90400,
-		weapon_id = {
-			90404
 		}
 	}
 }

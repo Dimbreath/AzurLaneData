@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_44 = {}
 
 function ()
+	uv0.weapon_property_44[31123] = {
+		id = 31123,
+		reload_max = 174,
+		damage = 4,
+		base = 31120
+	}
 	uv0.weapon_property_44[31140] = {
 		action_index = "attack",
 		range = 55,
@@ -674,12 +680,6 @@ function ()
 		id = 31282,
 		reload_max = 257,
 		damage = 6,
-		base = 31280
-	}
-	uv0.weapon_property_44[31283] = {
-		id = 31283,
-		reload_max = 252,
-		damage = 7,
 		base = 31280
 	}
 end()

@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
+	[89240] = {
+		name = "ヴィーナス覚醒ジェム",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89240,
+		value_2 = 16,
+		icon = "89240",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "",
+		nationality = 106,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6720
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[89241] = {
 		id = 89241,
 		value_1 = "7",
@@ -124,12 +158,6 @@ pg.equip_data_statistics_371 = {
 		id = 89262,
 		value_2 = 17,
 		value_1 = "18",
-		base = 89260
-	},
-	[89263] = {
-		id = 89263,
-		value_2 = 18,
-		value_1 = "20",
 		base = 89260
 	}
 }

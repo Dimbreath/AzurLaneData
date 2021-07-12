@@ -2,6 +2,53 @@ pg = pg or {}
 pg.weapon_property_13 = {}
 
 function ()
+	uv0.weapon_property_13[14240] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装406mm主炮MK5T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 58,
+		corrected = 110,
+		min_range = 50,
+		id = 14240,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3780,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1501
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_13[14241] = {
 		id = 14241,
 		reload_max = 3720,
@@ -624,12 +671,6 @@ function ()
 		id = 14381,
 		reload_max = 5058,
 		damage = 70,
-		base = 14380
-	}
-	uv0.weapon_property_13[14382] = {
-		id = 14382,
-		reload_max = 4976,
-		damage = 80,
 		base = 14380
 	}
 end()

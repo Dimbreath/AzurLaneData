@@ -1,5 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_59 = {
+	[3413] = {
+		id = 3413,
+		anti_siren = 300,
+		value_1 = "840",
+		base = 3400
+	},
 	[3500] = {
 		name = "航空戦資材(積載)",
 		tech = 0,
@@ -143,11 +149,6 @@ pg.equip_data_statistics_59 = {
 	[3523] = {
 		id = 3523,
 		value_1 = "340",
-		base = 3520
-	},
-	[3524] = {
-		id = 3524,
-		value_1 = "370",
 		base = 3520
 	}
 }

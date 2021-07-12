@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_184 = {
+	[26600] = {
+		name = "連装ボフォース40mm機関砲STAAG",
+		speciality = "対空",
+		type = 6,
+		attribute_3 = "hit",
+		tech = 0,
+		value_2 = 45,
+		icon = "26600",
+		attribute_2 = "antiaircraft",
+		descrip = "0",
+		rarity = 5,
+		damage = "38/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 10,
+		id = 26600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26600
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
 	[26601] = {
 		id = 26601,
 		damage = "43/回",
@@ -184,14 +247,6 @@ pg.equip_data_statistics_184 = {
 		base = 26620,
 		weapon_id = {
 			26622
-		}
-	},
-	[26623] = {
-		id = 26623,
-		damage = "54/回",
-		base = 26620,
-		weapon_id = {
-			26623
 		}
 	}
 }

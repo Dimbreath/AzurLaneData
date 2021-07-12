@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_122 = {}
 
 function ()
+	uv0.weapon_property_122[65483] = {
+		id = 65483,
+		name = "飞龙META_黑色花牌LV3",
+		damage = 22,
+		base = 65481
+	}
 	uv0.weapon_property_122[65484] = {
 		id = 65484,
 		name = "飞龙META_黑色花牌LV4",
@@ -646,12 +652,6 @@ function ()
 		id = 65555,
 		name = "Z28 护航精英弹幕",
 		damage = 15,
-		base = 65551
-	}
-	uv0.weapon_property_122[65556] = {
-		id = 65556,
-		name = "Z28 护航精英弹幕",
-		damage = 16,
 		base = 65551
 	}
 end()

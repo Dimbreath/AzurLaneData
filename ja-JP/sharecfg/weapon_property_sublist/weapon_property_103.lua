@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_103 = {}
 
 function ()
+	uv0.weapon_property_103[59662] = {
+		id = 59662,
+		damage = 74,
+		base = 59660
+	}
 	uv0.weapon_property_103[59663] = {
 		id = 59663,
 		damage = 92,
@@ -285,7 +290,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "1 x 7.92mm MG机枪",
+		name = "1 x 7.92mm MG機銃",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -407,7 +412,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "7 x 12.7mm机枪",
+		name = "7 x 12.7mm機銃",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -489,12 +494,6 @@ function ()
 		id = 59748,
 		reload_max = 129,
 		damage = 60,
-		base = 59740
-	}
-	uv0.weapon_property_103[59749] = {
-		id = 59749,
-		reload_max = 126,
-		damage = 65,
 		base = 59740
 	}
 end()

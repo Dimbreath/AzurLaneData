@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_84 = {}
 
 function ()
+	uv0.weapon_property_84[51346] = {
+		id = 51346,
+		damage = 164,
+		base = 51340
+	}
 	uv0.weapon_property_84[51347] = {
 		id = 51347,
 		damage = 182,
@@ -45,7 +50,7 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "2 x 机载鱼雷-重樱",
+		name = "2 x 航空魚雷-重桜",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -466,11 +471,6 @@ function ()
 	uv0.weapon_property_84[51452] = {
 		id = 51452,
 		damage = 264,
-		base = 51440
-	}
-	uv0.weapon_property_84[51453] = {
-		id = 51453,
-		damage = 283,
 		base = 51440
 	}
 end()

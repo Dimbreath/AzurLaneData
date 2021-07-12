@@ -2,6 +2,13 @@ pg = pg or {}
 pg.weapon_property_177 = {}
 
 function ()
+	uv0.weapon_property_177[69786] = {
+		reload_max = 2962,
+		name = "英勇穿甲技能LV6",
+		damage = 80,
+		base = 69781,
+		id = 69786
+	}
 	uv0.weapon_property_177[69787] = {
 		reload_max = 2894,
 		name = "英勇穿甲技能LV7",
@@ -715,12 +722,6 @@ function ()
 		id = 69848,
 		name = "豪技能LV8",
 		damage = 131,
-		base = 69841
-	}
-	uv0.weapon_property_177[69849] = {
-		id = 69849,
-		name = "豪技能LV9",
-		damage = 143,
 		base = 69841
 	}
 end()

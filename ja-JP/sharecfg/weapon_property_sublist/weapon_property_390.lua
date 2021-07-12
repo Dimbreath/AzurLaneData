@@ -2,6 +2,54 @@ pg = pg or {}
 pg.weapon_property_390 = {}
 
 function ()
+	uv0.weapon_property_390[2040123] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】深渊BOSS游弋者_p1_隐形鱼雷lv4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 60,
+		corrected = 125,
+		min_range = 0,
+		id = 2040123,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3600,
+		queue = 12,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20401200,
+			20401201,
+			20401202
+		},
+		barrage_ID = {
+			20401200,
+			20401201,
+			20401202
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_390[2040124] = {
 		action_index = "attack",
 		range = 90,
@@ -3702,67 +3750,5 @@ function ()
 			alertTime = 2,
 			isBound = true
 		}
-	}
-	uv0.weapon_property_390[2040910] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS游弋者_剧情s3-5_激光弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2040910,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20409100,
-			20409100,
-			20409100,
-			20409100,
-			20409100,
-			20409100,
-			20409100,
-			20409100,
-			20409100,
-			20409100
-		},
-		barrage_ID = {
-			20409100,
-			20409101,
-			20409102,
-			20409103,
-			20409104,
-			20409105,
-			20409106,
-			20409107,
-			20409108,
-			20409109
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

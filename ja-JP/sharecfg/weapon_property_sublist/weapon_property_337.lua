@@ -2,6 +2,27 @@ pg = pg or {}
 pg.weapon_property_337 = {}
 
 function ()
+	uv0.weapon_property_337[783210] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【2021意大利活动D3】测试者·水 扩散弹幕",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 900,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 783210,
+		bullet_ID = {
+			830041,
+			830042
+		},
+		barrage_ID = {
+			840075,
+			840076
+		}
+	}
 	uv0.weapon_property_337[783211] = {
 		aim_type = 1,
 		name = "【2021意大利活动D3】测试者通用 前排跨射",
@@ -1291,48 +1312,6 @@ function ()
 		corrected = 100,
 		min_range = 0,
 		id = 789002,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_337[789003] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机SP",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 789003,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,

@@ -2,6 +2,48 @@ pg = pg or {}
 pg.weapon_property_331 = {}
 
 function ()
+	uv0.weapon_property_331[762001] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020德系活动C1】BOSS 塞壬执棋者I型 轰炸机",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 762001,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			12030
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_331[762002] = {
 		action_index = "attack",
 		range = 110,
@@ -1678,18 +1720,6 @@ function ()
 			fx = "jinengenemy",
 			alertTime = 1,
 			isBound = true
-		}
-	}
-	uv0.weapon_property_331[763212] = {
-		reload_max = 100,
-		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮",
-		damage = 18,
-		base = 1002,
-		id = 763212,
-		range = 120,
-		queue = 2,
-		barrage_ID = {
-			700143
 		}
 	}
 end()

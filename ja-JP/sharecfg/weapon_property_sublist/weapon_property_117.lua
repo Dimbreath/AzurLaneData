@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 function ()
+	uv0.weapon_property_117[65168] = {
+		id = 65168,
+		name = "黛朵μ-单体弱弹幕LV8",
+		damage = 17,
+		base = 65161
+	}
 	uv0.weapon_property_117[65169] = {
 		id = 65169,
 		name = "黛朵μ-单体弱弹幕LV9",
@@ -654,55 +660,5 @@ function ()
 		id = 65230,
 		damage = 138,
 		base = 65221
-	}
-	uv0.weapon_property_117[65231] = {
-		action_index = "attack",
-		range = 72,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大凤μ-吸血弹幕Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 180,
-		charge_param = "",
-		damage = 35,
-		corrected = 100,
-		min_range = 0,
-		id = 65231,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1800,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19217,
-			19218,
-			19219,
-			19220
-		},
-		barrage_ID = {
-			80958,
-			80959,
-			80960,
-			80961
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

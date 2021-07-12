@@ -4,6 +4,7 @@ return {
 		{
 			alpha = 0,
 			waitScene = "AwardInfoLayer",
+			delay = 1,
 			style = {
 				text = "前の画面に戻るわ",
 				mode = 2,

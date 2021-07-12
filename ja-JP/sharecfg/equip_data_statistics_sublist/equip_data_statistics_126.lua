@@ -1,5 +1,27 @@
 pg = pg or {}
 pg.equip_data_statistics_126 = {
+	[17301] = {
+		id = 17301,
+		base = 17300,
+		ammo_info = {
+			{
+				6,
+				50301
+			},
+			{
+				6,
+				50501
+			},
+			{
+				5,
+				52301
+			}
+		},
+		weapon_id = {
+			17301,
+			81301
+		}
+	},
 	[17302] = {
 		id = 17302,
 		base = 17300,
@@ -386,64 +408,6 @@ pg.equip_data_statistics_126 = {
 		weapon_id = {
 			17330,
 			81330
-		}
-	},
-	[17340] = {
-		name = "F6Fヘルキャット",
-		type = 7,
-		speciality = "航空",
-		rarity = 5,
-		tech = 3,
-		descrip = "0",
-		value_2 = 45,
-		icon = "17300",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50340
-			},
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17340,
-			81340
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT",
-			"F6F"
 		}
 	}
 }

@@ -2,6 +2,62 @@ pg = pg or {}
 pg.weapon_property_329 = {}
 
 function ()
+	uv0.weapon_property_329[750108] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】追迹者I型精英 大范围缓速子弹",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 750108,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072
+		},
+		barrage_ID = {
+			21093,
+			21094,
+			21095,
+			21096,
+			21097,
+			21098,
+			21099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_329[750109] = {
 		action_index = "attack",
 		range = 80,
@@ -2693,24 +2749,6 @@ function ()
 		},
 		barrage_ID = {
 			13
-		}
-	}
-	uv0.weapon_property_329[760102] = {
-		base = 1000,
-		range = 100,
-		type = 2,
-		name = "【2020德系活动A2】BOSS 英王乔治五世 <型弹幕",
-		reload_max = 1350,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 760102,
-		bullet_ID = {
-			810002,
-			810002
-		},
-		barrage_ID = {
-			820002,
-			820003
 		}
 	}
 end()

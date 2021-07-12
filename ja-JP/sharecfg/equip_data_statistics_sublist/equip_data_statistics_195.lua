@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_195 = {
+	[28026] = {
+		id = 28026,
+		base = 28020,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51026
+			}
+		},
+		weapon_id = {
+			28026
+		}
+	},
 	[28040] = {
 		name = "ソードフィッシュ",
 		type = 8,
@@ -352,26 +369,6 @@ pg.equip_data_statistics_195 = {
 		},
 		skill_id = {
 			6813
-		}
-	},
-	[28064] = {
-		base = 28060,
-		id = 28064,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51064
-			}
-		},
-		weapon_id = {
-			28064
-		},
-		skill_id = {
-			6814
 		}
 	}
 }

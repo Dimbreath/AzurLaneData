@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_97 = {
+	[14240] = {
+		name = "406mm連装砲MK5",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "14200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 14240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1501
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14240
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
 	[14241] = {
 		id = 14241,
 		damage = "68 x 2",
@@ -172,14 +225,6 @@ pg.equip_data_statistics_97 = {
 		base = 14260,
 		weapon_id = {
 			14264
-		}
-	},
-	[14265] = {
-		id = 14265,
-		damage = "106 x 2",
-		base = 14260,
-		weapon_id = {
-			14265
 		}
 	}
 }

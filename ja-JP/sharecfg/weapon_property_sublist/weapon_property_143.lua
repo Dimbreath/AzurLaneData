@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_143 = {}
 
 function ()
+	uv0.weapon_property_143[67530] = {
+		id = 67530,
+		damage = 291,
+		base = 67520
+	}
 	uv0.weapon_property_143[67540] = {
 		action_index = "",
 		range = 500,
@@ -630,12 +635,6 @@ function ()
 		id = 67629,
 		name = "露露缇耶技能4段Lv9",
 		damage = 125,
-		base = 67621
-	}
-	uv0.weapon_property_143[67630] = {
-		id = 67630,
-		name = "露露缇耶技能4段Lv10",
-		damage = 140,
 		base = 67621
 	}
 end()

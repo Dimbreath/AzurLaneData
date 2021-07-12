@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_229 = {
+	[35020] = {
+		name = "610mm連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "35000",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "58 x 2",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1401
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"DUO"
+		}
+	},
 	[35021] = {
 		id = 35021,
 		damage = "70 x 2",
@@ -288,14 +350,6 @@ pg.equip_data_statistics_229 = {
 			"ST",
 			"TP",
 			"TRI"
-		}
-	},
-	[35121] = {
-		id = 35121,
-		damage = "70 x 3",
-		base = 35120,
-		weapon_id = {
-			35121
 		}
 	}
 }

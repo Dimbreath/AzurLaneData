@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.equip_data_statistics_309 = {
+	[46360] = {
+		name = "105mmSKC高角連装砲改修型",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "46360",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "55/回",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
 	[46361] = {
 		id = 46361,
 		damage = "62/回",
@@ -194,24 +256,6 @@ pg.equip_data_statistics_309 = {
 		weapon_id = {
 			47002,
 			84002
-		}
-	},
-	[47003] = {
-		id = 47003,
-		base = 47000,
-		ammo_info = {
-			{
-				6,
-				59003
-			},
-			{
-				6,
-				59403
-			}
-		},
-		weapon_id = {
-			47003,
-			84003
 		}
 	}
 }

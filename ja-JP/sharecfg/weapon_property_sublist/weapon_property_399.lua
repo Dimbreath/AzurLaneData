@@ -2,6 +2,48 @@ pg = pg or {}
 pg.weapon_property_399 = {}
 
 function ()
+	uv0.weapon_property_399[2965024] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机 LV5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 2965024,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 300,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			29643079
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_399[2965030] = {
 		action_index = "",
 		range = 85,
@@ -2237,38 +2279,6 @@ function ()
 		fire_sfx = "battle/cannon-main",
 		queue = 1,
 		id = 2965141,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29643028,
-			29643028,
-			29643028,
-			29643028,
-			29643028,
-			29643028
-		},
-		barrage_ID = {
-			29643058,
-			29643059,
-			29643060,
-			29643061,
-			29643062,
-			29643063
-		}
-	}
-	uv0.weapon_property_399[2965142] = {
-		aim_type = 0,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑方舟 第五波 光束弹幕 LV3",
-		fire_fx = "CAFire",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2965142,
 		type = 1,
 		action_index = "attack",
 		bullet_ID = {

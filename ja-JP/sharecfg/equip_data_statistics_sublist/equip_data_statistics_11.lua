@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_11 = {
+	[620] = {
+		name = "SHS",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "cannon",
+		value_2 = 0,
+		icon = "620",
+		value_1 = "28",
+		descrip = "「超重弾（スーパーヘビーシェル）」。同じ口径の通常弾と比べ火薬重量が数割増した砲弾",
+		rarity = 5,
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		id = 620,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6210
+		},
+		part_main = {
+			4,
+			5,
+			10
+		},
+		part_sub = {
+			4,
+			5,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
 	[621] = {
 		id = 621,
 		value_1 = "32",
@@ -123,12 +165,6 @@ pg.equip_data_statistics_11 = {
 		id = 642,
 		value_2 = 5,
 		value_1 = "7",
-		base = 640
-	},
-	[643] = {
-		id = 643,
-		value_2 = 6,
-		value_1 = "8",
 		base = 640
 	}
 }

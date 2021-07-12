@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_34 = {}
 
 function ()
+	uv0.weapon_property_34[26064] = {
+		id = 26064,
+		reload_max = 141,
+		damage = 38,
+		base = 26060
+	}
 	uv0.weapon_property_34[26065] = {
 		id = 26065,
 		reload_max = 138,
@@ -606,49 +612,5 @@ function ()
 		base = 26240,
 		id = 26253,
 		corrected = 118
-	}
-	uv0.weapon_property_34[26300] = {
-		action_index = "attack",
-		range = 30,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "76mm高射炮T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 26300,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 184,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

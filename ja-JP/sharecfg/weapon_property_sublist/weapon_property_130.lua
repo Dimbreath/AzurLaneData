@@ -2,6 +2,13 @@ pg = pg or {}
 pg.weapon_property_130 = {}
 
 function ()
+	uv0.weapon_property_130[66005] = {
+		reload_max = 1166,
+		name = "萨拉托加技能LV5",
+		damage = 80,
+		base = 66000,
+		id = 66005
+	}
 	uv0.weapon_property_130[66006] = {
 		reload_max = 1140,
 		name = "萨拉托加技能LV6",
@@ -917,12 +924,6 @@ function ()
 		id = 66121,
 		name = "黑暗界级技能LV1",
 		damage = 38,
-		base = 66120
-	}
-	uv0.weapon_property_130[66122] = {
-		id = 66122,
-		name = "黑暗界级技能LV2",
-		damage = 44,
 		base = 66120
 	}
 end()

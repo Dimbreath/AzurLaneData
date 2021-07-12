@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_162 = {}
 
 function ()
+	uv0.weapon_property_162[68811] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-重樱",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 68811,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_162[68812] = {
 		id = 68812,
 		damage = 86,
@@ -692,18 +736,6 @@ function ()
 		id = 68883,
 		bullet_ID = {
 			68883
-		}
-	}
-	uv0.weapon_property_162[68884] = {
-		name = "大神澪技能轰炸机Lv4",
-		damage = 210,
-		base = 68881,
-		id = 68884,
-		bullet_ID = {
-			68884
-		},
-		barrage_ID = {
-			12009
 		}
 	}
 end()

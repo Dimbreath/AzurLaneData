@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_104 = {
+	[15040] = {
+		name = "潜水艦用Mark14魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "15000",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "52 x 3",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1821
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1821
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15040
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
 	[15041] = {
 		id = 15041,
 		damage = "59 x 3",
@@ -178,14 +237,6 @@ pg.equip_data_statistics_104 = {
 		base = 15060,
 		weapon_id = {
 			15064
-		}
-	},
-	[15065] = {
-		id = 15065,
-		damage = "80 x 2",
-		base = 15060,
-		weapon_id = {
-			15065
 		}
 	}
 }

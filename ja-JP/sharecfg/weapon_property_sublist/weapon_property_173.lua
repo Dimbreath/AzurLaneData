@@ -2,6 +2,20 @@ pg = pg or {}
 pg.weapon_property_173 = {}
 
 function ()
+	uv0.weapon_property_173[69524] = {
+		name = "爱斯基摩人弹幕LV4",
+		damage = 15,
+		base = 69521,
+		id = 69524,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
 	uv0.weapon_property_173[69525] = {
 		name = "爱斯基摩人弹幕LV5",
 		damage = 16,
@@ -667,12 +681,6 @@ function ()
 		id = 69586,
 		name = "德雷克吸血特殊射击LV6",
 		damage = 68,
-		base = 69581
-	}
-	uv0.weapon_property_173[69587] = {
-		id = 69587,
-		name = "德雷克吸血特殊射击LV7",
-		damage = 74,
 		base = 69581
 	}
 end()

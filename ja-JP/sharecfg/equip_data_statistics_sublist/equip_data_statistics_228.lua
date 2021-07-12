@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_228 = {
+	[34193] = {
+		anti_siren = 300,
+		damage = "154 x 3",
+		base = 34180,
+		id = 34193,
+		weapon_id = {
+			34193
+		}
+	},
 	[34300] = {
 		name = "410mm連装砲改",
 		speciality = "投射",
@@ -225,68 +234,6 @@ pg.equip_data_statistics_228 = {
 		base = 35000,
 		weapon_id = {
 			35003
-		}
-	},
-	[35020] = {
-		name = "610mm連装魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "35000",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "58 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1401
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"DUO"
 		}
 	}
 }

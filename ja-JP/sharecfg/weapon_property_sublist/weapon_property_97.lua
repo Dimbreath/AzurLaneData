@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_97 = {}
 
 function ()
+	uv0.weapon_property_97[53313] = {
+		id = 53313,
+		damage = 506,
+		base = 53300
+	}
 	uv0.weapon_property_97[53320] = {
 		action_index = "",
 		range = 500,
@@ -10,7 +15,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 16,
 		shakescreen = 0,
-		name = "3 x 800kg 穿甲炸弹",
+		name = "3 x 800kg 徹甲爆弾",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -750,12 +755,6 @@ function ()
 		id = 59008,
 		reload_max = 86,
 		damage = 30,
-		base = 59000
-	}
-	uv0.weapon_property_97[59009] = {
-		id = 59009,
-		reload_max = 84,
-		damage = 32,
 		base = 59000
 	}
 end()

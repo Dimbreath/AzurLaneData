@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_183 = {}
 
 function ()
+	uv0.weapon_property_183[74041] = {
+		name = "全弹发射-白虎I",
+		damage = 10,
+		base = 74011,
+		id = 74041,
+		bullet_ID = {
+			74041,
+			74041
+		}
+	}
 	uv0.weapon_property_183[74042] = {
 		name = "全弹发射-白虎II",
 		damage = 18,
@@ -1710,21 +1720,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_183[79112] = {
-		name = "专属弹幕-绫波II",
-		damage = 12,
-		base = 79111,
-		id = 79112,
-		bullet_ID = {
-			79111,
-			79111,
-			79111
-		},
-		barrage_ID = {
-			79112,
-			79113,
-			79114
-		}
 	}
 end()

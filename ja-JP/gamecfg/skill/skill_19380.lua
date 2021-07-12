@@ -7,7 +7,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64301
+					weapon_id = 64321
 				}
 			},
 			{
@@ -29,7 +29,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64302
+					weapon_id = 64322
 				}
 			},
 			{
@@ -51,7 +51,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64303
+					weapon_id = 64323
 				}
 			},
 			{
@@ -73,7 +73,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64304
+					weapon_id = 64324
 				}
 			},
 			{
@@ -82,8 +82,8 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64304,
-					delay = 2
+					weapon_id = 64324,
+					delay = 1
 				}
 			},
 			{
@@ -105,7 +105,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64305
+					weapon_id = 64325
 				}
 			},
 			{
@@ -114,8 +114,8 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64305,
-					delay = 2
+					weapon_id = 64325,
+					delay = 1
 				}
 			},
 			{
@@ -137,7 +137,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64306
+					weapon_id = 64326
 				}
 			},
 			{
@@ -146,8 +146,8 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64306,
-					delay = 2
+					weapon_id = 64326,
+					delay = 1
 				}
 			},
 			{
@@ -169,7 +169,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64307
+					weapon_id = 64327
 				}
 			},
 			{
@@ -178,7 +178,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64307,
+					weapon_id = 64327,
 					delay = 2
 				}
 			},
@@ -188,7 +188,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64307,
+					weapon_id = 64327,
 					delay = 1
 				}
 			},
@@ -211,7 +211,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64308
+					weapon_id = 64328
 				}
 			},
 			{
@@ -220,7 +220,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64308,
+					weapon_id = 64328,
 					delay = 2
 				}
 			},
@@ -230,7 +230,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64308,
+					weapon_id = 64328,
 					delay = 1
 				}
 			},
@@ -253,7 +253,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64309
+					weapon_id = 64329
 				}
 			},
 			{
@@ -262,7 +262,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64309,
+					weapon_id = 64329,
 					delay = 2
 				}
 			},
@@ -272,7 +272,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64309,
+					weapon_id = 64329,
 					delay = 1
 				}
 			},
@@ -295,7 +295,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64310
+					weapon_id = 64330
 				}
 			},
 			{
@@ -304,7 +304,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64310,
+					weapon_id = 64330,
 					delay = 2
 				}
 			},
@@ -314,7 +314,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandom",
 				arg_list = {
-					weapon_id = 64310,
+					weapon_id = 64330,
 					delay = 1
 				}
 			},
@@ -333,7 +333,7 @@ return {
 	name = "",
 	cd = 0,
 	picture = "1",
-	desc = "天雷坠落1/2/3次+彩云舰攻",
+	desc = "直接坠落1/2/3次+彩云舰攻",
 	painting = 1,
 	id = 19380,
 	castCV = "skill",
@@ -352,7 +352,7 @@ return {
 			type = "BattleSkillFire",
 			target_choise = "TargetHarmRandom",
 			arg_list = {
-				weapon_id = 64301
+				weapon_id = 64321
 			}
 		},
 		{

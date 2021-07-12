@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_321 = {}
 
 function ()
+	uv0.weapon_property_321[692706] = {
+		range = 60,
+		damage = 52,
+		base = 1001,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 鱼雷",
+		initial_over_heat = 1,
+		suppress = 1,
+		queue = 1,
+		id = 692706,
+		bullet_ID = {
+			620011,
+			620012
+		},
+		barrage_ID = {
+			620016,
+			620017
+		}
+	}
 	uv0.weapon_property_321[692707] = {
 		range = 150,
 		damage = 22,
@@ -1445,24 +1463,6 @@ function ()
 			21048,
 			21049,
 			21050
-		}
-	}
-	uv0.weapon_property_321[697604] = {
-		aim_type = 1,
-		range = 70,
-		damage = 16,
-		base = 1000,
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 双联装炮瞄准 ",
-		type = 2,
-		suppress = 1,
-		reload_max = 1200,
-		queue = 1,
-		id = 697604,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			1001
 		}
 	}
 end()

@@ -2,6 +2,48 @@ pg = pg or {}
 pg.weapon_property_310 = {}
 
 function ()
+	uv0.weapon_property_310[620310] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020美系活动D2】塞壬执棋者II型 浮游炮2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 620310,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1200,
+		queue = 3,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			690110
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_310[620311] = {
 		action_index = "",
 		range = 10,
@@ -3076,34 +3118,6 @@ function ()
 			690136,
 			690137,
 			690138
-		}
-	}
-	uv0.weapon_property_310[630034] = {
-		name = "【愚人节活动2021】彩布里 前排跨射",
-		range = 75,
-		type = 19,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1500,
-		queue = 1,
-		charge_param = "",
-		damage = 40,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon2",
-		fire_sfx = "battle/cannon-main",
-		id = 630034,
-		bullet_ID = {
-			710031
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
 		}
 	}
 end()

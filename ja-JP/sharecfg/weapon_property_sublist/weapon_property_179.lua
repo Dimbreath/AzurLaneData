@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_179 = {}
 
 function ()
+	uv0.weapon_property_179[69912] = {
+		id = 69912,
+		name = "凉月烟雾弹附属弹幕LV2",
+		damage = 7,
+		base = 69911
+	}
 	uv0.weapon_property_179[69913] = {
 		id = 69913,
 		name = "凉月烟雾弹附属弹幕LV3",
@@ -680,15 +686,6 @@ function ()
 		id = 69974,
 		bullet_ID = {
 			69974
-		}
-	}
-	uv0.weapon_property_179[69975] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv5",
-		damage = 152,
-		base = 69971,
-		id = 69975,
-		bullet_ID = {
-			69975
 		}
 	}
 end()

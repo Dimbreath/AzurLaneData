@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_131 = {}
 
 function ()
+	uv0.weapon_property_131[66122] = {
+		id = 66122,
+		name = "黑暗界级技能LV2",
+		damage = 44,
+		base = 66120
+	}
 	uv0.weapon_property_131[66123] = {
 		id = 66123,
 		name = "黑暗界级技能LV3",
@@ -642,12 +648,6 @@ function ()
 		id = 66229,
 		name = "沙恩霍斯特级技能鱼雷Lv9",
 		damage = 128,
-		base = 66220
-	}
-	uv0.weapon_property_131[66230] = {
-		id = 66230,
-		name = "沙恩霍斯特级技能鱼雷Lv10",
-		damage = 137,
 		base = 66220
 	}
 end()

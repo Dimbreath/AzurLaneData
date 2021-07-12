@@ -2,6 +2,26 @@ pg = pg or {}
 pg.weapon_property_186 = {}
 
 function ()
+	uv0.weapon_property_186[79682] = {
+		name = "专属弹幕-基洛夫II",
+		damage = 25,
+		base = 79681,
+		id = 79682,
+		bullet_ID = {
+			79681,
+			79681,
+			79681,
+			79681,
+			79681
+		},
+		barrage_ID = {
+			79681,
+			79687,
+			79688,
+			79689,
+			79690
+		}
+	}
 	uv0.weapon_property_186[79683] = {
 		action_index = "attack",
 		range = 90,
@@ -1142,49 +1162,5 @@ function ()
 		id = 81091,
 		reload_max = 1768,
 		base = 81080
-	}
-	uv0.weapon_property_186[81100] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4F野猫T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 81100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17100
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

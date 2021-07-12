@@ -2,6 +2,52 @@ pg = pg or {}
 pg.weapon_property_358 = {}
 
 function ()
+	uv0.weapon_property_358[1002217] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者III型 精英人形特殊武器 II",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 23,
+		corrected = 100,
+		min_range = 0,
+		id = 1002217,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			815,
+			815
+		},
+		barrage_ID = {
+			690046,
+			690047
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_358[1002218] = {
 		action_index = "attack",
 		range = 90,
@@ -1963,14 +2009,6 @@ function ()
 		id = 1003024,
 		name = "【量产型】梦境轻巡联装炮x6散射 IV",
 		base = 1001024,
-		bullet_ID = {
-			832
-		}
-	}
-	uv0.weapon_property_358[1003025] = {
-		id = 1003025,
-		name = "【量产型】梦境轻巡联装炮x6散射 V",
-		base = 1001025,
 		bullet_ID = {
 			832
 		}

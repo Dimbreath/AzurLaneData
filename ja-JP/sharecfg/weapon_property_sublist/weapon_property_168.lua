@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_168 = {}
 
 function ()
+	uv0.weapon_property_168[69209] = {
+		reload_max = 445,
+		damage = 64,
+		base = 69201,
+		id = 69209,
+		name = "库珀反潜PBYLv9",
+		bullet_ID = {
+			69209
+		}
+	}
 	uv0.weapon_property_168[69210] = {
 		reload_max = 430,
 		damage = 68,
@@ -683,11 +693,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_168[69272] = {
-		id = 69272,
-		name = "土佐弹幕鱼雷LV2",
-		damage = 52,
-		base = 69271
 	}
 end()

@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 function ()
+	uv0.weapon_property_132[66230] = {
+		id = 66230,
+		name = "沙恩霍斯特级技能鱼雷Lv10",
+		damage = 137,
+		base = 66220
+	}
 	uv0.weapon_property_132[66240] = {
 		action_index = "",
 		range = 90,
@@ -824,12 +830,6 @@ function ()
 		id = 66346,
 		name = "鬼神演舞鱼雷LV6",
 		damage = 112,
-		base = 66340
-	}
-	uv0.weapon_property_132[66347] = {
-		id = 66347,
-		name = "鬼神演舞鱼雷LV7",
-		damage = 123,
 		base = 66340
 	}
 end()

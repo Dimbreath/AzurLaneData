@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_104 = {}
 
 function ()
+	uv0.weapon_property_104[59749] = {
+		id = 59749,
+		reload_max = 126,
+		damage = 65,
+		base = 59740
+	}
 	uv0.weapon_property_104[59750] = {
 		id = 59750,
 		reload_max = 122,
@@ -34,7 +40,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x 7.92mm MG机枪",
+		name = "2 x 7.92mm MG機銃",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -156,7 +162,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x 20mm九九式机炮",
+		name = "2 x 20mm九九式機関砲",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -278,7 +284,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x 30mm机炮",
+		name = "2 x 30mm機関砲",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -400,7 +406,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "1 x MG151 20mm机炮",
+		name = "1 x MG151 20mm機関砲",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -522,7 +528,7 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "4 x 穿甲火箭弹",
+		name = "2 x APロケット",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -561,11 +567,6 @@ function ()
 	uv0.weapon_property_104[59841] = {
 		id = 59841,
 		damage = 115,
-		base = 59840
-	}
-	uv0.weapon_property_104[59842] = {
-		id = 59842,
-		damage = 120,
 		base = 59840
 	}
 end()

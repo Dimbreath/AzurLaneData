@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_167 = {}
 
 function ()
+	uv0.weapon_property_167[69146] = {
+		id = 69146,
+		name = "定点冰锥PVP2-60-LV6",
+		damage = 30,
+		base = 69141
+	}
 	uv0.weapon_property_167[69147] = {
 		id = 69147,
 		name = "定点冰锥PVP2-60-LV7",
@@ -671,16 +677,6 @@ function ()
 		name = "库珀反潜PBYLv8",
 		bullet_ID = {
 			69208
-		}
-	}
-	uv0.weapon_property_167[69209] = {
-		reload_max = 445,
-		damage = 64,
-		base = 69201,
-		id = 69209,
-		name = "库珀反潜PBYLv9",
-		bullet_ID = {
-			69209
 		}
 	}
 end()

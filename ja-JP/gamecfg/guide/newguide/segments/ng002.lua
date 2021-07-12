@@ -37,6 +37,7 @@ return {
 			}
 		},
 		{
+			delay = 1,
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
 				fingerPos = {

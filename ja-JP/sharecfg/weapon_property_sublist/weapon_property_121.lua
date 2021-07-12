@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 function ()
+	uv0.weapon_property_121[65420] = {
+		id = 65420,
+		name = "穗香-类霞樱花天舞袭弹幕LV10",
+		damage = 20,
+		base = 65411
+	}
 	uv0.weapon_property_121[65421] = {
 		action_index = "attack",
 		range = 200,
@@ -702,12 +708,6 @@ function ()
 		id = 65482,
 		name = "飞龙META_黑色花牌LV2",
 		damage = 20,
-		base = 65481
-	}
-	uv0.weapon_property_121[65483] = {
-		id = 65483,
-		name = "飞龙META_黑色花牌LV3",
-		damage = 22,
 		base = 65481
 	}
 end()

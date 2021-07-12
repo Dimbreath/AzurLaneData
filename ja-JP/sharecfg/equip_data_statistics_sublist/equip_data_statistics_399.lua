@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[95644] = {
+		id = 95644,
+		damage = "9 x 6",
+		base = 95640,
+		weapon_id = {
+			95644
+		}
+	},
 	[95645] = {
 		id = 95645,
 		damage = "10 x 6",
@@ -180,59 +188,6 @@ pg.equip_data_statistics_399 = {
 		base = 95700,
 		weapon_id = {
 			95706
-		}
-	},
-	[95720] = {
-		name = "Fiat G.50戦闘機「アロー」",
-		type = 7,
-		speciality = "航空",
-		rarity = 2,
-		tech = 1,
-		descrip = "",
-		value_2 = 5,
-		icon = "55720",
-		attribute_2 = "air",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95720,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50700
-			},
-			{
-				5,
-				52200
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			95720,
-			86000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"CV",
-			"FT"
 		}
 	}
 }

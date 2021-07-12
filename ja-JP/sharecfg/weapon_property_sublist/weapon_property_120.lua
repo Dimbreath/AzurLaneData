@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_120 = {}
 
 function ()
+	uv0.weapon_property_120[65357] = {
+		id = 65357,
+		name = "凪咲弹幕技能小子弹LV7",
+		damage = 16,
+		base = 65351
+	}
 	uv0.weapon_property_120[65358] = {
 		id = 65358,
 		name = "凪咲弹幕技能小子弹LV8",
@@ -632,12 +638,6 @@ function ()
 		id = 65419,
 		name = "穗香-类霞樱花天舞袭弹幕LV9",
 		damage = 18,
-		base = 65411
-	}
-	uv0.weapon_property_120[65420] = {
-		id = 65420,
-		name = "穗香-类霞樱花天舞袭弹幕LV10",
-		damage = 20,
 		base = 65411
 	}
 end()

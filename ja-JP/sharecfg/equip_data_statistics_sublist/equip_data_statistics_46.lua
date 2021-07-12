@@ -1,5 +1,10 @@
 pg = pg or {}
 pg.equip_data_statistics_46 = {
+	[2422] = {
+		id = 2422,
+		value_1 = "182",
+		base = 2420
+	},
 	[2423] = {
 		id = 2423,
 		value_1 = "203",
@@ -108,38 +113,5 @@ pg.equip_data_statistics_46 = {
 		anti_siren = 100,
 		value_1 = "530",
 		base = 2440
-	},
-	[2500] = {
-		name = "消火装置",
-		tech = 1,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2500",
-		value_1 = "50",
-		descrip = "ダメージコントロールに欠かせない",
-		rarity = 1,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2500,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6140
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

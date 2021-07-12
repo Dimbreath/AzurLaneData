@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_211 = {}
 
 function ()
+	uv0.weapon_property_211[190014] = {
+		action_index = "",
+		range = 50,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "机载機関砲",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 160,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 190014,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 56,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_211[190015] = {
 		action_index = "",
 		range = 40,
@@ -2940,62 +2984,6 @@ function ()
 		},
 		barrage_ID = {
 			500901
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_211[200902] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大舰队达古康纳尔BOSS】追迹者 大范围缓速子弹 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 200902,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			500902,
-			500902,
-			500902,
-			500902,
-			500902,
-			500902,
-			500902
-		},
-		barrage_ID = {
-			500902,
-			500903,
-			500904,
-			500905,
-			500906,
-			500907,
-			500908
 		},
 		oxy_type = {
 			1

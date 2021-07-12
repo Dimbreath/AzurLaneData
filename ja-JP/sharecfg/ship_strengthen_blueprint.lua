@@ -17912,7 +17912,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+305|対空+12|主炮補正+5%|主炮砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+338|対空+12|主炮補正+5%|主炮砲座+1|図鑑開放：メイン1、戦闘開始、任務",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -17933,7 +17933,7 @@ pg.ship_strengthen_blueprint = {
 		effect_attr = {
 			{
 				"durability",
-				305
+				338
 			},
 			{
 				"antiaircraft",
@@ -18084,7 +18084,8 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"【対セイレーン特化改修】習得",
-			"主砲補正+5%"
+			"主砲補正+5%",
+			"特殊副砲攻撃を追加"
 		}
 	},
 	[2011] = {
@@ -18189,7 +18190,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+611|対空+23|対空砲補正+10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+675|対空+23|対空砲補正+10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -18210,7 +18211,7 @@ pg.ship_strengthen_blueprint = {
 		effect_attr = {
 			{
 				"durability",
-				611
+				675
 			},
 			{
 				"antiaircraft",
@@ -18466,7 +18467,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+916|対空+34|回避+5|主炮補正+5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1014|対空+34|回避+5|主炮補正+5%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18488,7 +18489,7 @@ pg.ship_strengthen_blueprint = {
 		effect_attr = {
 			{
 				"durability",
-				916
+				1014
 			},
 			{
 				"antiaircraft",

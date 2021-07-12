@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_360 = {}
 
 function ()
+	uv0.weapon_property_360[1003088] = {
+		id = 1003088,
+		name = "【量产型】梦境航母战斗机空中 III",
+		base = 1001088
+	}
 	uv0.weapon_property_360[1003089] = {
 		id = 1003089,
 		name = "【量产型】梦境航母战斗机空中 IV",
@@ -555,14 +560,6 @@ function ()
 		base = 1001150,
 		bullet_ID = {
 			835
-		}
-	}
-	uv0.weapon_property_360[1003151] = {
-		id = 1003151,
-		name = "【精英】梦境领洋者 三联装鱼雷 I",
-		base = 1001151,
-		bullet_ID = {
-			838
 		}
 	}
 end()

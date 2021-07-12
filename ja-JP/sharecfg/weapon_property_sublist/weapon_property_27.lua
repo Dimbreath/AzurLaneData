@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_27 = {}
 
 function ()
+	uv0.weapon_property_27[21525] = {
+		id = 21525,
+		reload_max = 226,
+		damage = 7,
+		base = 21520
+	}
 	uv0.weapon_property_27[21526] = {
 		id = 21526,
 		reload_max = 221,
@@ -681,49 +687,5 @@ function ()
 		reload_max = 568,
 		damage = 15,
 		base = 22120
-	}
-	uv0.weapon_property_27[22140] = {
-		action_index = "attack",
-		range = 65,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装152mm主炮T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 110,
-		min_range = 0,
-		id = 22140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 586,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1104
-		},
-		barrage_ID = {
-			1101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

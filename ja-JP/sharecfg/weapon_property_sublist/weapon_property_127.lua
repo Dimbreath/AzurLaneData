@@ -2,6 +2,26 @@ pg = pg or {}
 pg.weapon_property_127 = {}
 
 function ()
+	uv0.weapon_property_127[65808] = {
+		name = "水星纪念改造技能弹幕Lv8",
+		damage = 31,
+		base = 65801,
+		id = 65808,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
 	uv0.weapon_property_127[65809] = {
 		name = "水星纪念改造技能弹幕Lv9",
 		damage = 33,
@@ -695,53 +715,5 @@ function ()
 		name = "艾伦萨姆纳专属特殊额外防空炮Lv10",
 		damage = 142,
 		base = 65861
-	}
-	uv0.weapon_property_127[65871] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "艾伦萨姆纳技能弹幕Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 65871,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19279,
-			19279,
-			19279
-		},
-		barrage_ID = {
-			81047,
-			81048,
-			81049
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

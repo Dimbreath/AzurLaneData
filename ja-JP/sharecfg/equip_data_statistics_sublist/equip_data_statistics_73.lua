@@ -1,5 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_73 = {
+	[5522] = {
+		id = 5522,
+		damage = "63 x 2",
+		base = 5520,
+		weapon_id = {
+			5522
+		}
+	},
 	[5523] = {
 		id = 5523,
 		damage = "70 x 2",
@@ -178,67 +186,6 @@ pg.equip_data_statistics_73 = {
 		id = 5551,
 		weapon_id = {
 			5551
-		}
-	},
-	[6000] = {
-		name = "12.7mm対空機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "6000",
-		damage = "6/回",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 6000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"AA"
 		}
 	}
 }

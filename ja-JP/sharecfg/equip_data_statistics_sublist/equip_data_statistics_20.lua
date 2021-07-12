@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_20 = {
+	[860] = {
+		name = "海軍条約文書",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 860,
+		value_2 = 12,
+		icon = "860",
+		value_1 = "8",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "「軍備競爭の負担軽減せむことを望み、目的を達成するため各自の海軍軍備を制限する條約を締結する」",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6760
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[861] = {
 		id = 861,
 		value_2 = 13,
@@ -128,12 +162,6 @@ pg.equip_data_statistics_20 = {
 		id = 882,
 		value_2 = 9,
 		value_1 = "26",
-		base = 880
-	},
-	[883] = {
-		id = 883,
-		value_2 = 10,
-		value_1 = "29",
 		base = 880
 	}
 }

@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_379 = {}
 
 function ()
+	uv0.weapon_property_379[1101019] = {
+		action_index = "",
+		range = 40,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "德系陆航轰炸机武器—小范围V",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 174,
+		corrected = 100,
+		min_range = 0,
+		id = 1101019,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			750036
+		},
+		barrage_ID = {
+			760083
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_379[1101020] = {
 		id = 1101020,
 		name = "新日系舰载轰炸机——高爆弹药1",
@@ -923,18 +967,6 @@ function ()
 		reload_max = 1800,
 		queue = 3,
 		id = 1101081,
-		effect_move = 0,
-		angle = 360
-	}
-	uv0.weapon_property_379[1101082] = {
-		name = "【精英】Q版轻巡单发x12随机I型弹幕3",
-		range = 90,
-		damage = 10,
-		base = 1100377,
-		type = 2,
-		reload_max = 1800,
-		queue = 3,
-		id = 1101082,
 		effect_move = 0,
 		angle = 360
 	}

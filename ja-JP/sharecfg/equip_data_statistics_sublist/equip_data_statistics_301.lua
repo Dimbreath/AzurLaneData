@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_301 = {
+	[45420] = {
+		name = "潜水艦用G7e音響追跡魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 2,
+		descrip = "0",
+		value_2 = 25,
+		icon = "45400",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1826
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1826
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45420
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
+	},
 	[45421] = {
 		id = 45421,
 		damage = "66 x 2",
@@ -177,14 +236,6 @@ pg.equip_data_statistics_301 = {
 		base = 45440,
 		weapon_id = {
 			45445
-		}
-	},
-	[45446] = {
-		id = 45446,
-		damage = "120 x 2",
-		base = 45440,
-		weapon_id = {
-			45446
 		}
 	}
 }

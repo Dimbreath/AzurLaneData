@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
+	uv0.weapon_property_115[64438] = {
+		id = 64438,
+		name = "马可波罗技能·瞄准跨射LV8",
+		damage = 142,
+		base = 64431
+	}
 	uv0.weapon_property_115[64439] = {
 		id = 64439,
 		name = "马可波罗技能·瞄准跨射LV9",
@@ -943,12 +949,6 @@ function ()
 		id = 65084,
 		name = "罗恩μ暗影爪AOE爆炸Lv4",
 		damage = 39,
-		base = 65081
-	}
-	uv0.weapon_property_115[65085] = {
-		id = 65085,
-		name = "罗恩μ暗影爪AOE爆炸Lv5",
-		damage = 42,
 		base = 65081
 	}
 end()

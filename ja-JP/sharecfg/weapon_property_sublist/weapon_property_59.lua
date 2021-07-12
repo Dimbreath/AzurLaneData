@@ -2,6 +2,50 @@ pg = pg or {}
 pg.weapon_property_59 = {}
 
 function ()
+	uv0.weapon_property_59[38300] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "试作型彩云（舰攻型）",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 38300,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1894,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			38300
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_59[38301] = {
 		id = 38301,
 		reload_max = 1864,
@@ -709,15 +753,6 @@ function ()
 		id = 39126,
 		bullet_ID = {
 			39106
-		}
-	}
-	uv0.weapon_property_59[39127] = {
-		reload_max = 1706,
-		damage = 271,
-		base = 39120,
-		id = 39127,
-		bullet_ID = {
-			39107
 		}
 	}
 end()

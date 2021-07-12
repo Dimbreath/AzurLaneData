@@ -1,5 +1,12 @@
 pg = pg or {}
 pg.equip_data_statistics_319 = {
+	[54012] = {
+		id = 54012,
+		base = 54010,
+		weapon_id = {
+			54012
+		}
+	},
 	[54013] = {
 		id = 54013,
 		base = 54010,
@@ -216,12 +223,5 @@ pg.equip_data_statistics_319 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
-	},
-	[60042] = {
-		id = 60042,
-		base = 60041,
-		weapon_id = {
-			60042
-		}
 	}
 }

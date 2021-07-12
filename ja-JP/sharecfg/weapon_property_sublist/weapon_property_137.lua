@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 function ()
+	uv0.weapon_property_137[66846] = {
+		id = 66846,
+		damage = 160,
+		base = 66840
+	}
 	uv0.weapon_property_137[66847] = {
 		id = 66847,
 		damage = 180,
@@ -777,15 +782,6 @@ function ()
 		id = 66962,
 		bullet_ID = {
 			66962
-		}
-	}
-	uv0.weapon_property_137[66963] = {
-		name = "萨拉托加技能轰炸机Lv3",
-		damage = 103,
-		base = 66960,
-		id = 66963,
-		bullet_ID = {
-			66963
 		}
 	}
 end()

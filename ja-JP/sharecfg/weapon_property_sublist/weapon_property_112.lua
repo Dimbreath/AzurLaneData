@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 function ()
+	uv0.weapon_property_112[64249] = {
+		id = 64249,
+		name = "霞光之绊·改鱼雷LV9",
+		damage = 123,
+		base = 64241
+	}
 	uv0.weapon_property_112[64250] = {
 		id = 64250,
 		name = "霞光之绊·改鱼雷LV10",
@@ -677,14 +683,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_112[64312] = {
-		name = "白龙搭载彩云舰攻型 Lv2",
-		damage = 1,
-		base = 64311,
-		id = 64312,
-		bullet_ID = {
-			64312
-		}
 	}
 end()

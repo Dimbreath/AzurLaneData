@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
+	uv0.weapon_property_114[64375] = {
+		id = 64375,
+		name = "白龙缠绕光弹+火焰式神技能LV5",
+		damage = 50,
+		base = 64371
+	}
 	uv0.weapon_property_114[64376] = {
 		id = 64376,
 		name = "白龙缠绕光弹+火焰式神技能LV6",
@@ -644,12 +650,6 @@ function ()
 		id = 64437,
 		name = "马可波罗技能·瞄准跨射LV7",
 		damage = 130,
-		base = 64431
-	}
-	uv0.weapon_property_114[64438] = {
-		id = 64438,
-		name = "马可波罗技能·瞄准跨射LV8",
-		damage = 142,
 		base = 64431
 	}
 end()

@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_122 = {
+	[17085] = {
+		id = 17085,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50345
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			17085,
+			81085
+		}
+	},
 	[17086] = {
 		id = 17086,
 		base = 17080,
@@ -317,20 +335,6 @@ pg.equip_data_statistics_122 = {
 		weapon_id = {
 			17125,
 			81125
-		}
-	},
-	[17126] = {
-		id = 17126,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50426
-			}
-		},
-		weapon_id = {
-			17126,
-			81126
 		}
 	}
 }

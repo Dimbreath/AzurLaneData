@@ -2,6 +2,37 @@ pg = pg or {}
 pg.weapon_property_335 = {}
 
 function ()
+	uv0.weapon_property_335[780101] = {
+		aim_type = 1,
+		name = "【2021意大利活动A2】塞壬破局者I型 前排跨射",
+		axis_angle = 0,
+		type = 19,
+		min_range = 20,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		initial_over_heat = 0,
+		reload_max = 1500,
+		queue = 1,
+		angle = 40,
+		range = 50,
+		damage = 18,
+		base = 1000,
+		suppress = 1,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		id = 780101,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399912
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
 	uv0.weapon_property_335[780102] = {
 		aim_type = 1,
 		name = "【2021意大利活动A2】塞壬破局者I型 后排跨射",
@@ -1559,20 +1590,6 @@ function ()
 		barrage_ID = {
 			840005,
 			840006
-		}
-	}
-	uv0.weapon_property_335[781306] = {
-		name = "【2021意大利活动B】塞壬重巡R型大船通用副炮",
-		damage = 6,
-		base = 1001027,
-		id = 781306,
-		bullet_ID = {
-			830001,
-			830005
-		},
-		barrage_ID = {
-			840001,
-			840002
 		}
 	}
 end()

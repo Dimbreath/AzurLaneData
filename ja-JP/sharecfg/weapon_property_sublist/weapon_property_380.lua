@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_380 = {}
 
 function ()
+	uv0.weapon_property_380[1101082] = {
+		name = "【精英】Q版轻巡单发x12随机I型弹幕3",
+		range = 90,
+		damage = 10,
+		base = 1100377,
+		type = 2,
+		reload_max = 1800,
+		queue = 3,
+		id = 1101082,
+		effect_move = 0,
+		angle = 360
+	}
 	uv0.weapon_property_380[1101083] = {
 		name = "【精英】Q版轻巡单发x12随机I型弹幕4",
 		range = 90,
@@ -997,50 +1009,6 @@ function ()
 		},
 		barrage_ID = {
 			70024
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_380[1101505] = {
-		action_index = "attack",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属鱼雷-夕立I型1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 1101505,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1801
-		},
-		barrage_ID = {
-			1404
 		},
 		oxy_type = {
 			1

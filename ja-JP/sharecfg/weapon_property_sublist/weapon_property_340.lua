@@ -2,6 +2,25 @@ pg = pg or {}
 pg.weapon_property_340 = {}
 
 function ()
+	uv0.weapon_property_340[793202] = {
+		aim_type = 1,
+		range = 120,
+		damage = 16,
+		base = 1000,
+		name = "【2021美系活动D3】BOSS 苍龙·META 一阶段 第二波 剑气",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 793202,
+		bullet_ID = {
+			840024
+		},
+		barrage_ID = {
+			850024
+		}
+	}
 	uv0.weapon_property_340[793203] = {
 		aim_type = 0,
 		range = 120,
@@ -1602,50 +1621,6 @@ function ()
 		charge_param = {
 			lockTime = 0.3,
 			maxLock = 4
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_340[800010] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "zhupao",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【三笠剧情】魔鬼鱼浮游炮 (飞机",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 0,
-		id = 800010,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12019
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
 		},
 		precast_param = {}
 	}

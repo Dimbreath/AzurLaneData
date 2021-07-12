@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_126 = {}
 
 function ()
+	uv0.weapon_property_126[65745] = {
+		name = "贝拉罗斯PVP冰锥3-115-LV5",
+		damage = 104,
+		base = 65741,
+		id = 65745,
+		barrage_ID = {
+			81026
+		}
+	}
 	uv0.weapon_property_126[65746] = {
 		name = "贝拉罗斯PVP冰锥3-115-LV6",
 		damage = 118,
@@ -767,26 +776,6 @@ function ()
 		damage = 29,
 		base = 65801,
 		id = 65807,
-		bullet_ID = {
-			19271,
-			19271,
-			19271,
-			19271,
-			19271
-		},
-		barrage_ID = {
-			81031,
-			81032,
-			81033,
-			81034,
-			81035
-		}
-	}
-	uv0.weapon_property_126[65808] = {
-		name = "水星纪念改造技能弹幕Lv8",
-		damage = 31,
-		base = 65801,
-		id = 65808,
 		bullet_ID = {
 			19271,
 			19271,

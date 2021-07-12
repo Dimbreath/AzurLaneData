@@ -2,6 +2,38 @@ pg = pg or {}
 pg.weapon_property_400 = {}
 
 function ()
+	uv0.weapon_property_400[2965142] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第五波 光束弹幕 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965142,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29643028,
+			29643028,
+			29643028,
+			29643028,
+			29643028,
+			29643028
+		},
+		barrage_ID = {
+			29643058,
+			29643059,
+			29643060,
+			29643061,
+			29643062,
+			29643063
+		}
+	}
 	uv0.weapon_property_400[2965143] = {
 		aim_type = 0,
 		range = 120,
@@ -3561,6 +3593,8 @@ function ()
 		},
 		precast_param = {}
 	}
+end()
+function ()
 	uv0.weapon_property_400[2966160] = {
 		action_index = "attack",
 		range = 999,
@@ -3623,8 +3657,6 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
 	uv0.weapon_property_400[2966161] = {
 		action_index = "attack",
 		range = 999,

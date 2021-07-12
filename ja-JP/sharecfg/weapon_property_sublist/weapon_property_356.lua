@@ -2,6 +2,17 @@ pg = pg or {}
 pg.weapon_property_356 = {}
 
 function ()
+	uv0.weapon_property_356[1002091] = {
+		name = "【量产型】塞壬潜艇III型单发鱼雷弹幕1",
+		base = 1100695,
+		id = 1002091,
+		bullet_ID = {
+			829
+		},
+		oxy_type = {
+			2
+		}
+	}
 	uv0.weapon_property_356[1002092] = {
 		name = "【量产型】塞壬潜艇III型单发鱼雷弹幕2",
 		base = 1100696,
@@ -2512,50 +2523,6 @@ function ()
 		corrected = 100,
 		min_range = 0,
 		id = 1002153,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_356[1002154] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】领洋者III型 三联装鱼雷 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 1002154,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,

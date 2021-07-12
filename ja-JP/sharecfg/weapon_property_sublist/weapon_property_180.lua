@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_180 = {}
 
 function ()
+	uv0.weapon_property_180[69975] = {
+		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv5",
+		damage = 152,
+		base = 69971,
+		id = 69975,
+		bullet_ID = {
+			69975
+		}
+	}
 	uv0.weapon_property_180[69976] = {
 		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv6",
 		damage = 174,
@@ -1502,14 +1511,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_180[71032] = {
-		name = "全弹发射-C级II",
-		damage = 10,
-		base = 71031,
-		id = 71032,
-		barrage_ID = {
-			70014
-		}
 	}
 end()

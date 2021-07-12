@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_174 = {}
 
 function ()
+	uv0.weapon_property_174[69587] = {
+		id = 69587,
+		name = "德雷克吸血特殊射击LV7",
+		damage = 74,
+		base = 69581
+	}
 	uv0.weapon_property_174[69588] = {
 		id = 69588,
 		name = "德雷克吸血特殊射击LV8",
@@ -747,16 +753,6 @@ function ()
 		damage = 53,
 		base = 69641,
 		id = 69649,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69650] = {
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV10",
-		damage = 58,
-		base = 69641,
-		id = 69650,
 		barrage_ID = {
 			80910,
 			80911

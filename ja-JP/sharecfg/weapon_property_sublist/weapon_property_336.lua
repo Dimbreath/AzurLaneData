@@ -2,6 +2,20 @@ pg = pg or {}
 pg.weapon_property_336 = {}
 
 function ()
+	uv0.weapon_property_336[781306] = {
+		name = "【2021意大利活动B】塞壬重巡R型大船通用副炮",
+		damage = 6,
+		base = 1001027,
+		id = 781306,
+		bullet_ID = {
+			830001,
+			830005
+		},
+		barrage_ID = {
+			840001,
+			840002
+		}
+	}
 	uv0.weapon_property_336[781307] = {
 		name = "【2021意大利活动B】塞壬重巡R型双联装主炮x2-散射",
 		damage = 18,
@@ -1401,27 +1415,6 @@ function ()
 			600806,
 			600807,
 			600808
-		}
-	}
-	uv0.weapon_property_336[783210] = {
-		aim_type = 0,
-		range = 120,
-		damage = 10,
-		base = 1000,
-		name = "【2021意大利活动D3】测试者·水 扩散弹幕",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 900,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 783210,
-		bullet_ID = {
-			830041,
-			830042
-		},
-		barrage_ID = {
-			840075,
-			840076
 		}
 	}
 end()

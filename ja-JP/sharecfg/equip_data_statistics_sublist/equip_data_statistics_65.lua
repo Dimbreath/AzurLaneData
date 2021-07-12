@@ -1,5 +1,18 @@
 pg = pg or {}
 pg.equip_data_statistics_65 = {
+	[4303] = {
+		id = 4303,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53203
+			}
+		},
+		weapon_id = {
+			4303
+		}
+	},
 	[4320] = {
 		name = "TBM-3アベンジャー（対潜）",
 		type = 15,
@@ -268,19 +281,6 @@ pg.equip_data_statistics_65 = {
 		},
 		weapon_id = {
 			4348
-		}
-	},
-	[4349] = {
-		id = 4349,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53249
-			}
-		},
-		weapon_id = {
-			4349
 		}
 	}
 }

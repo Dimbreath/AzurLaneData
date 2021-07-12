@@ -1,5 +1,40 @@
 pg = pg or {}
 pg.equip_data_statistics_7 = {
+	[500] = {
+		name = "ビーバーズエムブレム",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 500,
+		value_2 = 25,
+		icon = "500",
+		value_1 = "14",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "第23駆逐隊\n<color=#ffde38>「ビーバーズ、31ノット、全速前進よ！」</color>",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6000
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
 	[501] = {
 		id = 501,
 		value_2 = 30,
@@ -123,11 +158,6 @@ pg.equip_data_statistics_7 = {
 	[522] = {
 		id = 522,
 		value_1 = "260",
-		base = 520
-	},
-	[523] = {
-		id = 523,
-		value_1 = "290",
 		base = 520
 	}
 }

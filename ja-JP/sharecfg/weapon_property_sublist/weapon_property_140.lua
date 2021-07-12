@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_140 = {}
 
 function ()
+	uv0.weapon_property_140[67188] = {
+		name = "半人马技能鱼雷Lv8",
+		damage = 174,
+		base = 67180,
+		id = 67188,
+		barrage_ID = {
+			80484
+		}
+	}
 	uv0.weapon_property_140[67189] = {
 		name = "半人马技能鱼雷Lv9",
 		damage = 188,
@@ -664,15 +673,6 @@ function ()
 		id = 67304,
 		bullet_ID = {
 			67304
-		}
-	}
-	uv0.weapon_property_140[67305] = {
-		name = "大凤技能轰炸机Lv5",
-		damage = 152,
-		base = 67300,
-		id = 67305,
-		bullet_ID = {
-			67305
 		}
 	}
 end()

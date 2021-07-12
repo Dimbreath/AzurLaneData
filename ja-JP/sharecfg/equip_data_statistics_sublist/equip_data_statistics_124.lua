@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_124 = {
+	[17220] = {
+		name = "F4Uコルセア",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "17200",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50420
+			},
+			{
+				5,
+				52320
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17220,
+			81220
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
 	[17221] = {
 		id = 17221,
 		base = 17220,
@@ -321,24 +374,6 @@ pg.equip_data_statistics_124 = {
 		weapon_id = {
 			17249,
 			81249
-		}
-	},
-	[17250] = {
-		id = 17250,
-		base = 17240,
-		ammo_info = {
-			{
-				6,
-				50450
-			},
-			{
-				5,
-				52350
-			}
-		},
-		weapon_id = {
-			17250,
-			81250
 		}
 	}
 }

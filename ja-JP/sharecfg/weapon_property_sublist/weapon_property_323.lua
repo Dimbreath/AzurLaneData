@@ -2,6 +2,21 @@ pg = pg or {}
 pg.weapon_property_323 = {}
 
 function ()
+	uv0.weapon_property_323[711021] = {
+		aim_type = 0,
+		range = 120,
+		damage = 18,
+		base = 1002,
+		name = "【2020普林斯顿SP2】BOSS 大凤 红色弹幕战斗机（自机狙）",
+		action_index = "",
+		reload_max = 200,
+		fire_sfx = "battle/air-atk",
+		queue = 1,
+		id = 711021,
+		barrage_ID = {
+			130411
+		}
+	}
 	uv0.weapon_property_323[711022] = {
 		name = "【2020普林斯顿SP2】BOSS 大凤 地毯式轰炸机（高爆）",
 		range = 90,
@@ -1260,24 +1275,6 @@ function ()
 		barrage_ID = {
 			680013,
 			680014
-		}
-	}
-	uv0.weapon_property_323[722002] = {
-		range = 120,
-		name = "【2020偶像活动二期SP3】精英人形黛朵 扩散弹",
-		damage = 12,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1200,
-		fire_sfx = "battle/cannon-main",
-		id = 722002,
-		bullet_ID = {
-			780010,
-			780011
-		},
-		barrage_ID = {
-			680015,
-			680016
 		}
 	}
 end()

@@ -2,6 +2,17 @@ pg = pg or {}
 pg.weapon_property_352 = {}
 
 function ()
+	uv0.weapon_property_352[1001094] = {
+		name = "量产型塞壬潜艇II型单发鱼雷弹幕4",
+		base = 1100698,
+		id = 1001094,
+		bullet_ID = {
+			829
+		},
+		oxy_type = {
+			2
+		}
+	}
 	uv0.weapon_property_352[1001095] = {
 		name = "量产型塞壬潜艇II型单发鱼雷弹幕5",
 		base = 1100699,
@@ -2561,52 +2572,6 @@ function ()
 		corrected = 100,
 		min_range = 0,
 		id = 1001156,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 250,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			811,
-			811
-		},
-		barrage_ID = {
-			399960,
-			399959
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_352[1001157] = {
-		action_index = "attack",
-		range = 100,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】破局者II型 武器1 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 1001157,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,

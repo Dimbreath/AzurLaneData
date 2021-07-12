@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_129 = {}
 
 function ()
+	uv0.weapon_property_129[65934] = {
+		name = "天鹰技能Re2001鱼雷机Lv4",
+		damage = 1,
+		base = 65931,
+		id = 65934,
+		bullet_ID = {
+			65934
+		}
+	}
 	uv0.weapon_property_129[65935] = {
 		name = "天鹰技能Re2001鱼雷机Lv5",
 		damage = 1,
@@ -762,12 +771,5 @@ function ()
 		damage = 72,
 		base = 66000,
 		id = 66004
-	}
-	uv0.weapon_property_129[66005] = {
-		reload_max = 1166,
-		name = "萨拉托加技能LV5",
-		damage = 80,
-		base = 66000,
-		id = 66005
 	}
 end()

@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_153 = {}
 
 function ()
+	uv0.weapon_property_153[68234] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV4",
+		damage = 28,
+		base = 68231,
+		id = 68234,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
 	uv0.weapon_property_153[68235] = {
 		name = "加斯科涅技能·箭型国旗红-PVP-LV5",
 		damage = 31,
@@ -716,12 +726,6 @@ function ()
 		id = 68296,
 		name = "绊爱驱逐单发射击鱼雷-LV6",
 		damage = 70,
-		base = 68291
-	}
-	uv0.weapon_property_153[68297] = {
-		id = 68297,
-		name = "绊爱驱逐单发射击鱼雷-LV7",
-		damage = 78,
 		base = 68291
 	}
 end()

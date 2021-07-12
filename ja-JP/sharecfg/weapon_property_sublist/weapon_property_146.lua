@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_146 = {}
 
 function ()
+	uv0.weapon_property_146[67756] = {
+		id = 67756,
+		name = "天城战列技能-LV6",
+		damage = 110,
+		base = 67751
+	}
 	uv0.weapon_property_146[67757] = {
 		id = 67757,
 		name = "天城战列技能-LV7",
@@ -625,11 +631,6 @@ function ()
 	uv0.weapon_property_146[67818] = {
 		id = 67818,
 		damage = 197,
-		base = 67811
-	}
-	uv0.weapon_property_146[67819] = {
-		id = 67819,
-		damage = 211,
 		base = 67811
 	}
 end()

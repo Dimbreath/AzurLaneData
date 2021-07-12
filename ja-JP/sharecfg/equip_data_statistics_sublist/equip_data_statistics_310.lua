@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_310 = {
+	[47003] = {
+		id = 47003,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59003
+			},
+			{
+				6,
+				59403
+			}
+		},
+		weapon_id = {
+			47003,
+			84003
+		}
+	},
 	[47020] = {
 		name = "BF-109T艦上戦闘機",
 		type = 7,
@@ -356,24 +374,6 @@ pg.equip_data_statistics_310 = {
 		weapon_id = {
 			47048,
 			84048
-		}
-	},
-	[47049] = {
-		id = 47049,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59049
-			},
-			{
-				6,
-				59449
-			}
-		},
-		weapon_id = {
-			47049,
-			84049
 		}
 	}
 }

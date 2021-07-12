@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_124 = {}
 
 function ()
+	uv0.weapon_property_124[65619] = {
+		name = "波拉技能弹幕-LV9",
+		damage = 19,
+		base = 65611,
+		id = 65619,
+		barrage_ID = {
+			81012,
+			81013,
+			81014,
+			81015
+		}
+	}
 	uv0.weapon_property_124[65620] = {
 		name = "波拉技能弹幕-LV10",
 		damage = 20,
@@ -730,11 +742,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_124[65682] = {
-		id = 65682,
-		name = "贝拉罗斯冰锥2-95-LV2",
-		damage = 68,
-		base = 65681
 	}
 end()

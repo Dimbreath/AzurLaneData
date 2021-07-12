@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_176 = {}
 
 function ()
+	uv0.weapon_property_176[69713] = {
+		name = "英仙座随机飞机-萤火虫-Lv3",
+		damage = 86,
+		base = 69711,
+		id = 69713,
+		bullet_ID = {
+			69713
+		}
+	}
 	uv0.weapon_property_176[69714] = {
 		name = "英仙座随机飞机-萤火虫-Lv4",
 		damage = 106,
@@ -640,12 +649,5 @@ function ()
 		damage = 73,
 		base = 69781,
 		id = 69785
-	}
-	uv0.weapon_property_176[69786] = {
-		reload_max = 2962,
-		name = "英勇穿甲技能LV6",
-		damage = 80,
-		base = 69781,
-		id = 69786
 	}
 end()

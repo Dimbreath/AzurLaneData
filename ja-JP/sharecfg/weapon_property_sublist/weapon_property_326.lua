@@ -2,6 +2,23 @@ pg = pg or {}
 pg.weapon_property_326 = {}
 
 function ()
+	uv0.weapon_property_326[741109] = {
+		base = 1000,
+		range = 120,
+		type = 2,
+		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散自机狙 左",
+		action_index = "",
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 741109,
+		bullet_ID = {
+			800024
+		},
+		barrage_ID = {
+			810054
+		}
+	}
 	uv0.weapon_property_326[741110] = {
 		base = 1000,
 		range = 120,
@@ -1543,39 +1560,6 @@ function ()
 		barrage_ID = {
 			810127,
 			810128
-		}
-	}
-	uv0.weapon_property_326[745008] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第三波 子母弹",
-		suppress = 1,
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 745008,
-		bullet_ID = {
-			800079,
-			800078,
-			800079,
-			800078,
-			800079,
-			800078,
-			800079,
-			800078
-		},
-		barrage_ID = {
-			810130,
-			810131,
-			810132,
-			810133,
-			810134,
-			810135,
-			810136,
-			810137
 		}
 	}
 end()

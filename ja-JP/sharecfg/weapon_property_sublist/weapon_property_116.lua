@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 function ()
+	uv0.weapon_property_116[65085] = {
+		id = 65085,
+		name = "罗恩μ暗影爪AOE爆炸Lv5",
+		damage = 42,
+		base = 65081
+	}
 	uv0.weapon_property_116[65086] = {
 		id = 65086,
 		name = "罗恩μ暗影爪AOE爆炸Lv6",
@@ -672,12 +678,6 @@ function ()
 		id = 65167,
 		name = "黛朵μ-单体弱弹幕LV7",
 		damage = 16,
-		base = 65161
-	}
-	uv0.weapon_property_116[65168] = {
-		id = 65168,
-		name = "黛朵μ-单体弱弹幕LV8",
-		damage = 17,
 		base = 65161
 	}
 end()

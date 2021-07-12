@@ -2,6 +2,11 @@ pg = pg or {}
 pg.weapon_property_57 = {}
 
 function ()
+	uv0.weapon_property_57[37403] = {
+		id = 37403,
+		reload_max = 1813,
+		base = 37400
+	}
 	uv0.weapon_property_57[37404] = {
 		id = 37404,
 		reload_max = 1784,
@@ -642,49 +647,5 @@ function ()
 		bullet_ID = {
 			38103
 		}
-	}
-	uv0.weapon_property_57[38120] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "天山T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 44,
-		corrected = 100,
-		min_range = 0,
-		id = 38120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2128,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			38100
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

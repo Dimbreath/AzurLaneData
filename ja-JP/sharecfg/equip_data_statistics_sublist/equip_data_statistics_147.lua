@@ -1,5 +1,70 @@
 pg = pg or {}
 pg.equip_data_statistics_147 = {
+	[21460] = {
+		name = "120mm連装両用砲MarkXI",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 20,
+		icon = "21460",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 25,
+		id = 21460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21460
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
 	[21461] = {
 		id = 21461,
 		damage = "7 x 4",
@@ -187,14 +252,6 @@ pg.equip_data_statistics_147 = {
 		base = 21500,
 		weapon_id = {
 			21502
-		}
-	},
-	[21503] = {
-		id = 21503,
-		damage = "6 x 2",
-		base = 21500,
-		weapon_id = {
-			21503
 		}
 	}
 }
