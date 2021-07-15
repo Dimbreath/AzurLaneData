@@ -9,7 +9,9 @@ slot6 = class("BattleUnitDetailView")
 slot0.Battle.BattleUnitDetailView = slot6
 slot6.__name = "BattleUnitDetailView"
 slot6.DefaultActive = {
-	"weapon_panels"
+	"panel_container",
+	"panel_container/weapon_panels",
+	"panel_container/skill_panel"
 }
 slot6.PrimalAttr = {
 	"cannonPower",
@@ -78,6 +80,7 @@ function slot6.SetUnit(slot0, slot1)
 	slot0._buffList = {}
 	slot0._aaList = {}
 	slot0._weaponList = {}
+	slot0._skillList = {}
 
 	slot0:updateWeaponList()
 end
@@ -100,6 +103,7 @@ function slot6.Update(slot0)
 	slot0:updateHP()
 	slot0:updateBuffList()
 	slot0:updateWeaponProgress()
+	slot0:updateSkillList()
 end
 
 function slot6.ConfigSkin(slot0, slot1)
@@ -125,9 +129,12 @@ function slot6.ConfigSkin(slot0, slot1)
 	slot0._buffView = slot2:Find("attr_panels/buff")
 	slot0._buffContainer = slot0._buffView:Find("buff_container")
 	slot0._buffTpl = slot0._buffView:Find("buff_tpl")
-	slot0._weaponView = slot2:Find("weapon_panels")
-	slot0._weaponContainer = slot0._weaponView:Find("container/weapon_container")
-	slot0._weaponTpl = slot0._weaponView:Find("container/weapon_tpl")
+	slot0._weaponView = slot2:Find("panel_container/weapon_panels")
+	slot0._weaponContainer = slot0._weaponView:Find("weapon_container")
+	slot0._weaponTpl = slot0._weaponView:Find("weapon_tpl")
+	slot0._skillView = slot2:Find("panel_container/skill_panel")
+	slot0._skillContainer = slot0._skillView:Find("skill_container")
+	slot0._skillTpl = slot0._skillView:Find("skill_tpl")
 
 	SetActive(slot0._go, true)
 
@@ -218,6 +225,14 @@ function slot6.updateBuffList(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if not slot0._buffList[slot5] then
 			slot0:addBuff(slot5)
+		end
+	end
+
+	for slot5, slot6 in pairs(slot1) do
+		for slot11, slot12 in ipairs(slot6:GetEffectList()) do
+			if slot12.__name == uv0.Battle.BattleBuffCastSkill.__name and (not slot0._skillList[slot12._skill_id] or not table.contains(slot0._skillList[slot12._skill_id].effectList, slot12)) then
+				slot0:addSkillCaster(slot12)
+			end
 		end
 	end
 end
@@ -312,9 +327,9 @@ function slot6.updateBulletAttrBuff(slot0, slot1)
 				if not slot4[slot17] then
 					slot19 = cloneTplTo(slot5, slot6)
 
-					Canvas.ForceUpdateCanvases()
 					setText(slot19:Find("tag_name"), slot17._attr)
 					setText(slot19:Find("src_buff"), slot12:GetID())
+					Canvas.ForceUpdateCanvases()
 
 					slot19:Find("src_buff"):GetComponent(typeof(Text)).color = Color.green
 					slot4[slot17] = slot19
@@ -342,6 +357,49 @@ function slot6.addBuff(slot0, slot1)
 	setActive(slot2, true)
 
 	slot0._buffList[slot1] = slot2
+end
+
+function slot6.addSkillCaster(slot0, slot1)
+	if not uv0.Battle.BattleSkillUnit.IsFireSkill(slot1._skill_id, slot1._srcBuff:GetLv()) then
+		return
+	end
+
+	if not slot0._skillList[slot2] then
+		slot5 = cloneTplTo(slot0._skillTpl, slot0._skillContainer)
+
+		setText(slot5:Find("common"):Find("skillID"), slot1._skill_id)
+		GetImageSpriteFromAtlasAsync("skillicon/" .. slot1._srcBuff._tempData.icon, "", slot5:Find("common/icon"))
+		Canvas.ForceUpdateCanvases()
+
+		slot0._skillList[slot2] = {
+			tf = slot5,
+			effectList = {}
+		}
+	end
+
+	table.insert(slot4.effectList, slot1)
+	slot0:updateCastEffectTpl(slot2)
+end
+
+function slot6.updateSkillList(slot0)
+	for slot4, slot5 in pairs(slot0._skillList) do
+		slot0:updateCastEffectTpl(slot4)
+	end
+end
+
+function slot6.updateCastEffectTpl(slot0, slot1)
+	slot2 = slot0._skillList[slot1]
+	slot3 = slot2.tf
+
+	for slot10, slot11 in ipairs(slot2.effectList) do
+		slot5 = 0 + slot11:GetCastCount()
+		slot6 = 0 + slot11:GetSkillFireDamageSum()
+	end
+
+	slot7 = slot3:Find("common")
+
+	setText(slot7:Find("count"), slot5)
+	setText(slot7:Find("damageSum"), slot6)
 end
 
 function slot6.Dispose(slot0)

@@ -2126,7 +2126,7 @@ pg.gameset = {
 		key_value = 0
 	},
 	permanent_mark = {
-		description = "20210610",
+		description = "20210715",
 		key_value = 0
 	},
 	blueprint_pursue_discount_ssr = {

@@ -16,7 +16,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				number = 0.05,
+				number = 500,
 				attr = "antiAirPower"
 			}
 		}

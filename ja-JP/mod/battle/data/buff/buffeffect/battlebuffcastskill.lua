@@ -7,6 +7,9 @@ slot1.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_CASTER
 
 function slot1.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
+
+	slot0._castCount = 0
+	slot0._fireSkillDMGSum = 0
 end
 
 function slot1.GetEffectType(slot0)
@@ -35,6 +38,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._dungeonTypeList = slot3.dungeonTypeList
 	slot0._effectAttachData = slot3.effectAttachData
 	slot0._group = slot3.group
+	slot0._srcBuff = slot2
 end
 
 function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
@@ -151,6 +155,8 @@ function slot1.spell(slot0, slot1)
 	end
 
 	slot0._skill:Cast(slot1, slot0._commander)
+
+	slot0._castCount = slot0._castCount + 1
 end
 
 function slot1.enterCoolDown(slot0, slot1)
@@ -259,4 +265,14 @@ function slot1.GetEquipmentList(slot0, slot1)
 	end
 
 	return slot3
+end
+
+function slot1.GetCastCount(slot0)
+	return slot0._castCount
+end
+
+function slot1.GetSkillFireDamageSum(slot0)
+	slot0._fireSkillDMGSum = math.max(slot0._skill and slot0._skill:GetDamageSum() or 0, slot0._fireSkillDMGSum)
+
+	return slot0._fireSkillDMGSum
 end

@@ -501,15 +501,13 @@ function setFrame(slot0, slot1, slot2)
 	setImageColor(slot0, Color(1, 1, 1, 1))
 	setImageSprite(slot0, GetSpriteFromAtlas("weaponframes", "frame"))
 
-	if string.sub(slot1, 1, 4) == "meta" then
-		slot3 = findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame")
-		slot2 = slot2 or "frame_" .. slot1
+	slot3 = findTF(slot0, "specialFrame")
 
-		uv0(slot3, uv1[slot2] or uv1.other)
-		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
-		setActive(slot3, true)
-	elseif slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
-		slot3 = findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame")
+	if string.sub(slot1, 1, 4) == "meta" or slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
+		if not slot3 then
+			removeAllChildren(cloneTplTo(slot0, slot0, "specialFrame"))
+		end
+
 		slot2 = slot2 or "frame" .. slot1
 
 		uv0(slot3, uv1[slot2] or uv1.other)
@@ -518,44 +516,42 @@ function setFrame(slot0, slot1, slot2)
 	else
 		setImageColor(slot0, shipRarity2FrameColor(slot1 + 1))
 
-		if findTF(slot0, "specialFrame") then
+		if slot3 then
 			setActive(slot3, false)
 		end
 	end
 end
 
 function slot5(slot0, slot1, slot2, slot3)
-	function slot4(slot0, slot1)
-		if findTF(uv0, "icon_bg/" .. slot0 .. "(Clone)") then
+	slot4 = findTF(slot0, "icon_bg/frame")
+
+	function slot5(slot0, slot1)
+		if uv0:Find(slot0 .. "(Clone)") then
 			setActive(slot2, slot1)
 		elseif slot1 then
 			LoadAndInstantiateAsync("ui", string.lower(slot0), function (slot0)
-				if IsNil(uv0) or findTF(uv0, "icon_bg/" .. uv1 .. "(Clone)") then
+				if IsNil(uv0) or uv1:Find(uv2 .. "(Clone)") then
 					Object.Destroy(slot0)
 				else
-					setParent(slot0, uv0:Find("icon_bg"))
-
-					if uv0:Find("icon_bg/stars") then
-						slot1:SetAsLastSibling()
-					end
-
-					setActive(slot0, uv2)
+					setParent(slot0, uv1)
+					tf(slot0):SetAsFirstSibling()
+					setActive(slot0, uv3)
 				end
 			end)
 		end
 	end
 
-	slot5 = nil
+	slot6 = nil
 
 	if slot3 then
-		slot5 = {
+		slot6 = {
 			[5] = {
 				name = "Item_duang5",
 				active = slot2.fromAwardLayer and slot1 >= 5
 			}
 		}
 	else
-		slot5 = {
+		slot6 = {
 			[6] = {
 				name = "IconColorful",
 				active = not slot2.noIconColorful and slot1 == 6
@@ -563,8 +559,8 @@ function slot5(slot0, slot1, slot2, slot3)
 		}
 	end
 
-	for slot9, slot10 in pairs(slot5) do
-		slot4(slot10.name, slot10.active)
+	for slot10, slot11 in pairs(slot6) do
+		slot5(slot11.name, slot11.active)
 	end
 end
 

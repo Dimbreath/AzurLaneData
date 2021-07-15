@@ -7,14 +7,6 @@ return {
 	painting = 0,
 	id = 13141,
 	castCV = "",
-	aniEffect = {
-		effect = "jineng",
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
 	effect_list = {
 		{
 			targetAniEffect = "",

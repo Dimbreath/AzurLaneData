@@ -305,6 +305,14 @@ function slot9.RemovePlayerUnit(slot0, slot1)
 		end
 	end
 
+	for slot6, slot7 in ipairs(slot0._subList, i) do
+		if slot7 == slot1 then
+			table.remove(slot0._subList, slot6)
+
+			break
+		end
+	end
+
 	for slot6, slot7 in ipairs(slot0._manualSubList) do
 		if slot7 == slot1 then
 			table.remove(slot0._manualSubList, slot6)

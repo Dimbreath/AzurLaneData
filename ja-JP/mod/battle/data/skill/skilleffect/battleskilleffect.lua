@@ -212,8 +212,6 @@ function slot3.calcCorrdinate(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot3.SetSrc(slot0, slot1)
-end
-
 function slot3.GetDamageSum(slot0)
+	return 0
 end

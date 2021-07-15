@@ -2,18 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	picture = "0",
-	desc = "",
 	painting = 0,
 	id = 18272,
-	aniEffect = {
-		effect = "jineng",
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
+	picture = "0",
+	desc = "",
 	effect_list = {
 		{
 			targetAniEffect = "",

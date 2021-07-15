@@ -14650,17 +14650,20 @@ EN補給箱・小×45
 	meta_skill_maxtip2 = {
 		tip = "スキルLvMAX"
 	},
+	activity_permanent_progress = {
+		tip = "現在進捗："
+	},
 	cattery_settlement_dialogue_1 = {
 		tip = "留守の"
 	},
 	cattery_settlement_dialogue_2 = {
-		tip = "間、十分に休憩しました！"
+		tip = "間、十分に休憩したにゃ！"
 	},
 	cattery_settlement_dialogue_3 = {
 		tip = "経験値"
 	},
 	cattery_settlement_dialogue_4 = {
-		tip = "を入手しました！"
+		tip = "を入手したにゃ～"
 	},
 	blueprint_catchup_by_gold_confirm = {
 		tip = "$1の資金を消費し、強化を行いますか？"
