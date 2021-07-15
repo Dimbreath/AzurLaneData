@@ -8,11 +8,12 @@ function slot1.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
+	slot0._useTempBullet = slot0._tempData.arg_list.preShiftBullet
 end
 
 function slot1.DoDataEffect(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0:_GetWeapon(slot1)) do
-		slot8:SingleFire(slot2)
+		slot8:SingleFire(slot2, nil, , slot0._useTempBullet)
 	end
 end
 

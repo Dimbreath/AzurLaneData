@@ -207,10 +207,15 @@ pg.activity_banner = {
 		}
 	},
 	[9] = {
-		param = "",
 		type = 9,
 		id = 9,
 		pic = "temp99",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
@@ -238,6 +243,38 @@ pg.activity_banner = {
 			}
 		}
 	},
+	[10] = {
+		param = "Naval Curry|Sweet Curry or Hot Curry that is the question <color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
+		type = 10,
+		id = 10,
+		pic = "haijungali",
+		time = {
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -245,6 +282,7 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		9
+		9,
+		10
 	}
 }

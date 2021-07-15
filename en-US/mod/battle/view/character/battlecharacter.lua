@@ -7,7 +7,7 @@ slot4 = slot0.Battle.BattleResourceManager
 slot5 = class("BattleCharacter", slot0.Battle.BattleSceneObject)
 slot0.Battle.BattleCharacter = slot5
 slot5.__name = "BattleCharacter"
-slot6 = Vector2(-1200, 0)
+slot6 = Vector2(-1200, -1200)
 slot7 = Vector3.New(0.3, -1.8, 0)
 
 function slot5.Ctor(slot0)

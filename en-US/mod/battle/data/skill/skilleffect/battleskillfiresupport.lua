@@ -19,9 +19,14 @@ function slot2.DoDataEffect(slot0, slot1, slot2)
 			slot3 = uv0.Battle.BattleTargetChoise[slot8](slot1, slot0._supportTargetArgList, nil)
 		end
 
+		slot4 = slot3[1]
 		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
 
-		if slot3[1] then
+		if BATTLE_DEBUG and slot0._weapon:GetType() == uv0.Battle.BattleConst.EquipmentType.SCOUT then
+			slot0._weapon:GetATKAircraftList()
+		end
+
+		if slot4 then
 			slot0._weapon:SetStandHost(slot4)
 		end
 
@@ -55,4 +60,22 @@ function slot2.Interrupt(slot0)
 		slot0._weapon:Cease()
 		slot0._weapon:Clear()
 	end
+end
+
+function slot2.GetDamageSum(slot0)
+	slot1 = 0
+
+	if not slot0._weapon then
+		slot1 = 0
+	elseif slot0._weapon:GetType() == uv0.Battle.BattleConst.EquipmentType.SCOUT then
+		for slot5, slot6 in ipairs(slot0._weapon:GetATKAircraftList()) do
+			for slot11, slot12 in ipairs(slot6:GetWeapon()) do
+				slot1 = slot1 + slot12:GetDamageSUM()
+			end
+		end
+	else
+		slot1 = slot0._weapon:GetDamageSUM()
+	end
+
+	return slot1
 end

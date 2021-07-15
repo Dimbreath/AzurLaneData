@@ -3548,6 +3548,14 @@ pg.skill_data_display = {
 		id = 14151,
 		name = "Curtain of Rime"
 	},
+	[14155] = {
+		id = 14155,
+		name = "Curtain of Rime"
+	},
+	[14156] = {
+		id = 14156,
+		name = "Curtain of Rime"
+	},
 	[14160] = {
 		id = 14160,
 		name = "Ingenious Tactician"
@@ -7172,6 +7180,8 @@ pg.skill_data_display = {
 		14140,
 		14150,
 		14151,
+		14155,
+		14156,
 		14160,
 		14161,
 		14162,

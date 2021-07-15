@@ -2948,6 +2948,22 @@ pg.memory_group = {
 			1731
 		}
 	},
+	[564] = {
+		title = "After the Flowers Bloomed",
+		subtype = 0,
+		type = 3,
+		id = 564,
+		icon = "title_chara_fusang",
+		memories = {
+			1736,
+			1737,
+			1738,
+			1739,
+			1740,
+			1741,
+			1742
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3103,6 +3119,7 @@ pg.memory_group = {
 		560,
 		561,
 		562,
-		563
+		563,
+		564
 	}
 }

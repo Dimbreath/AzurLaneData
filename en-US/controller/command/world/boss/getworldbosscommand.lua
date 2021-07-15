@@ -2,7 +2,10 @@ slot0 = class("GetWorldBossCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot3 = (slot1:getBody() or {}).callback
-	slot4 = nowWorld
+
+	if not nowWorld.worldBossProxy then
+		return
+	end
 
 	pg.ConnectionMgr.GetInstance():Send(34501, {
 		type = 0

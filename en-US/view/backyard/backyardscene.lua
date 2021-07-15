@@ -480,7 +480,13 @@ function slot0.updateBuff(slot0, slot1)
 
 	if slot1:isActivate() then
 		slot4 = slot0:findTF("Text", slot2)
-		slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1:getConfig("icon"))
+		slot6 = slot1:getConfig("icon")
+
+		if getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_10) and slot1.id == 1 then
+			slot6 = "Props/" .. slot5.pic
+		end
+
+		slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot6)
 		slot0.buffTimer[slot1.id] = Timer.New(function ()
 			slot0 = uv0:getLeftTime()
 			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)

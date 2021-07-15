@@ -14338,17 +14338,20 @@ The Mini-Event Gallery lets you choose and replay old mini-events.
 	meta_skill_maxtip2 = {
 		tip = "Max Level"
 	},
+	activity_permanent_progress = {
+		tip = "Progress:"
+	},
 	cattery_settlement_dialogue_1 = {
-		tip = "You were gone for "
+		tip = "While you were gone for"
 	},
 	cattery_settlement_dialogue_2 = {
-		tip = "During which your Meowfficer(s) "
+		tip = "your Meowfficers had a nice nap, nya!"
 	},
 	cattery_settlement_dialogue_3 = {
-		tip = "rested up and gained "
+		tip = "They earned a total of"
 	},
 	cattery_settlement_dialogue_4 = {
-		tip = " EXP."
+		tip = "EXP, nya~"
 	},
 	blueprint_catchup_by_gold_confirm = {
 		tip = "Enhancing will cost $1 Coins. Do you wish to continue? "
