@@ -532,12 +532,12 @@ function setFrame(slot0, slot1, slot2)
 
 	slot3 = findTF(slot0, "specialFrame")
 
-	if string.sub(slot1, 1, 4) == "meta" or slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
+	if slot2 or #slot1 > 1 or #slot1 == 1 and tonumber(slot1) > 5 then
 		if not slot3 then
 			removeAllChildren(cloneTplTo(slot0, slot0, "specialFrame"))
 		end
 
-		slot2 = slot2 or "frame" .. slot1
+		slot2 = string.sub(slot1, 1, 4) == "meta" and (slot2 or "frame_" .. slot1) or slot2 or "frame" .. slot1
 
 		uv0(slot3, uv1[slot2] or uv1.other)
 		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
