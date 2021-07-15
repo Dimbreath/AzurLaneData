@@ -52,7 +52,10 @@ function slot0.Hide(slot0)
 end
 
 function slot0.GetCurrentFlagship(slot0)
-	return getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().characters[getProxy(SettingsProxy):getCurrentSecretaryIndex()] or slot2.character)
+	return Ship.New({
+		id = 999,
+		configId = 312011
+	})
 end
 
 function slot0.SetPainting(slot0)

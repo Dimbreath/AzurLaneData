@@ -12,6 +12,38 @@ function slot0.getUIName(slot0)
 	return "TechnologySettingsUI"
 end
 
+function slot0.preload(slot0, slot1)
+	slot0.catchupPanels = {}
+	slot0.rightPageTFList = {}
+
+	seriesAsync({
+		function (slot0)
+			if uv0.CATCHUP_VERSION >= 1 then
+				uv1.catchupPanels[1] = TargetCatchupPanel1.New(nil, function ()
+					uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET1] = uv0.catchupPanels[1]._go
+
+					setActive(uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET1], false)
+					uv2()
+				end)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			if uv0.CATCHUP_VERSION >= 2 then
+				uv1.catchupPanels[2] = TargetCatchupPanel2.New(nil, function ()
+					uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET2] = uv0.catchupPanels[2]._go
+
+					setActive(uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET2], false)
+					uv2()
+				end)
+			else
+				slot0()
+			end
+		end
+	}, slot1)
+end
+
 function slot0.init(slot0)
 	slot0:initData()
 	slot0:findUI()
@@ -80,27 +112,13 @@ function slot0.findUI(slot0)
 	}
 	slot4 = slot0:findTF("RightPanelContainer", slot2)
 	slot0.tendencyPanel = slot0:findTF("TecTendencyPanel", slot4)
-	slot0.actCatchupPanel = slot0:findTF("ActCatchupPanel", slot4)
-	slot0.rightPageTFList = {
-		[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyPanel,
-		[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupPanel
-	}
-	slot0.catchupPanels = {}
+	slot8 = slot4
+	slot0.actCatchupPanel = slot0:findTF("ActCatchupPanel", slot8)
+	slot0.rightPageTFList[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyPanel
+	slot0.rightPageTFList[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupPanel
 
-	if uv0.CATCHUP_VERSION >= 1 then
-		slot0.catchupPanels[1] = TargetCatchupPanel1.New(slot4, function ()
-			uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET1] = uv0.catchupPanels[1]._go
-
-			setActive(uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET1], false)
-		end)
-	end
-
-	if uv0.CATCHUP_VERSION >= 2 then
-		slot0.catchupPanels[2] = TargetCatchupPanel2.New(slot4, function ()
-			uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET2] = uv0.catchupPanels[2]._go
-
-			setActive(uv0.rightPageTFList[uv1.TEC_PAGE_CATCHUP_TARGET2], false)
-		end)
+	for slot8, slot9 in pairs(slot0.catchupPanels) do
+		SetParent(slot9._go, slot4, false)
 	end
 
 	slot0.showFinish = slot0:findTF("ShowFinishToggle")

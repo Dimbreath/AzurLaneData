@@ -51,8 +51,61 @@ pg.activity_task_permanent = {
 			35026
 		}
 	},
+	[6002] = {
+		gametip = "可获得吸血鬼限定换装「白衣小恶魔」",
+		banner_route = "permanent_xixuegui",
+		gametip_extra = "最快7日获得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "白衣天使or恶魔？",
+		id = 6002,
+		over_task_id = "",
+		eliminate_task_id = {
+			35027,
+			35028,
+			35029,
+			35030,
+			35031,
+			35032,
+			35033
+		}
+	},
+	[6003] = {
+		gametip = "可获得小天鹅限定换装「海滨的十字星」",
+		banner_route = "permanent_xiaotiane",
+		gametip_extra = "最快10日获得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "春风的十字星！！",
+		id = 6003,
+		over_task_id = "",
+		eliminate_task_id = {
+			35034,
+			35035,
+			35036,
+			35037,
+			35038,
+			35039,
+			35040,
+			35041,
+			35042,
+			35043,
+			35044,
+			35045,
+			35046,
+			35047,
+			35048,
+			35049,
+			35050,
+			35051,
+			35052,
+			35053
+		}
+	},
 	all = {
 		6000,
-		6001
+		6001,
+		6002,
+		6003
 	}
 }

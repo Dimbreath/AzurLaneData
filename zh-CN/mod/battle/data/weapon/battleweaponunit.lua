@@ -668,27 +668,27 @@ function slot8.UpdateCombo(slot0, slot1)
 	end
 end
 
-function slot8.SingleFire(slot0, slot1, slot2, slot3)
+function slot8.SingleFire(slot0, slot1, slot2, slot3, slot4)
 	slot0._tempEmittersList[#slot0._tempEmittersList + 1] = {}
 
 	if not slot1 or not slot1:IsAlive() then
 		slot1 = nil
 	end
 
-	for slot8, slot9 in ipairs(slot0._barrageList) do
-		slot4[#slot4 + 1] = uv1.Battle[slot2 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3)
-			slot5 = uv0:Spawn(uv0._bulletList[uv1], uv2, uv3.EXTERNAL)
+	for slot9, slot10 in ipairs(slot0._barrageList) do
+		slot5[#slot5 + 1] = uv1.Battle[slot2 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3)
+			slot6 = uv1:Spawn((uv0 and uv1._tmpData.bullet_ID or uv1._bulletList)[uv2], uv3, uv4.EXTERNAL)
 
-			slot5:SetOffsetPriority(slot3)
-			slot5:SetShiftInfo(slot0, slot1)
+			slot6:SetOffsetPriority(slot3)
+			slot6:SetShiftInfo(slot0, slot1)
 
-			if uv2 ~= nil then
-				slot5:SetRotateInfo(uv2:GetBeenAimedPosition(), uv0:GetBaseAngle(), slot2)
+			if uv3 ~= nil then
+				slot6:SetRotateInfo(uv3:GetBeenAimedPosition(), uv1:GetBaseAngle(), slot2)
 			else
-				slot5:SetRotateInfo(nil, uv0:GetBaseAngle(), slot2)
+				slot6:SetRotateInfo(nil, uv1:GetBaseAngle(), slot2)
 			end
 
-			uv0:DispatchBulletEvent(slot5)
+			uv1:DispatchBulletEvent(slot6)
 		end, function ()
 			for slot3, slot4 in ipairs(uv0) do
 				if slot4:GetState() ~= slot4.STATE_STOP then
@@ -716,12 +716,12 @@ function slot8.SingleFire(slot0, slot1, slot2, slot3)
 			if uv2 then
 				uv2()
 			end
-		end, slot9)
+		end, slot10)
 	end
 
-	for slot8, slot9 in ipairs(slot4) do
-		slot9:Ready()
-		slot9:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
+	for slot9, slot10 in ipairs(slot5) do
+		slot10:Ready()
+		slot10:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
 	end
 
 	slot0._host:CloakExpose(slot0._tmpData.expose)

@@ -4493,6 +4493,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2062] = {
+		mark = 20210715,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5661,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2062,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[6000] = {
 		mark = 20210610,
 		time = "stop",
@@ -4635,6 +4651,148 @@ pg.activity_template = {
 				},
 				{
 					"KAIXUE07"
+				}
+			}
+		}
+	},
+	[6002] = {
+		mark = 20210708,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "xixuegui_permanent",
+		id = 6002,
+		config_data = {
+			{
+				35027
+			},
+			{
+				35028
+			},
+			{
+				35029
+			},
+			{
+				35030
+			},
+			{
+				35031
+			},
+			{
+				35032
+			},
+			{
+				35033
+			}
+		},
+		page_info = {
+			class_name = "XixueguiSkinPagere",
+			ui_name = "XixueguiSkinPagere"
+		},
+		config_client = {
+			story = {
+				{
+					"XIXUEGUI1"
+				},
+				{
+					"XIXUEGUI2"
+				},
+				{
+					"XIXUEGUI3"
+				},
+				{},
+				{
+					"XIXUEGUI4"
+				},
+				{},
+				{
+					"XIXUEGUI5"
+				}
+			}
+		}
+	},
+	[6003] = {
+		mark = 20210708,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "xiaotiane_permanent",
+		id = 6003,
+		config_data = {
+			{
+				35034,
+				35035
+			},
+			{
+				35036,
+				35037
+			},
+			{
+				35038,
+				35039
+			},
+			{
+				35040,
+				35041
+			},
+			{
+				35042,
+				35043
+			},
+			{
+				35044,
+				35045
+			},
+			{
+				35046,
+				35047
+			},
+			{
+				35048,
+				35049
+			},
+			{
+				35050,
+				35051
+			},
+			{
+				35052,
+				35053
+			}
+		},
+		page_info = {
+			class_name = "XiaotianeSwimsuitSkinPage",
+			ui_name = "XiaotianeSwimsuitSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"XIAOTIANE1"
+				},
+				{
+					"XIAOTIANE2"
+				},
+				{
+					"XIAOTIANE3"
+				},
+				{},
+				{
+					"XIAOTIANE4"
+				},
+				{},
+				{
+					"XIAOTIANE5"
+				},
+				{},
+				{
+					"XIAOTIANE6"
+				},
+				{
+					"XIAOTIANE7"
 				}
 			}
 		}
@@ -4901,8 +5059,11 @@ pg.activity_template = {
 		2059,
 		2060,
 		2061,
+		2062,
 		6000,
 		6001,
+		6002,
+		6003,
 		100001,
 		100002,
 		40001,

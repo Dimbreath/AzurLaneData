@@ -271,15 +271,7 @@ function slot0.updateShips(slot0, slot1)
 
 	for slot6, slot7 in ipairs(slot1) do
 		if getProxy(BayProxy):getShipById(slot7) then
-			table.insert(slot0.ships, slot7)
-
-			if slot8:getTeamType() == TeamType.Vanguard then
-				table.insert(slot0.vanguardShips, slot7)
-			elseif slot9 == TeamType.Main then
-				table.insert(slot0.mainShips, slot7)
-			elseif slot9 == TeamType.Submarine then
-				table.insert(slot0.subShips, slot7)
-			end
+			slot0:insertShip(slot8, nil, slot8:getTeamType())
 		end
 	end
 end
@@ -312,19 +304,20 @@ end
 
 function slot0.insertShip(slot0, slot1, slot2, slot3)
 	if slot3 == TeamType.Vanguard then
-		table.insert(slot0.vanguardShips, slot2 or #slot0.vanguardShips + 1, slot1.id)
+		slot2 = slot2 or #slot0.vanguardShips + 1
 
-		if table.indexof(slot0.ships, slot0.mainShips[1]) then
-			table.insert(slot0.ships, slot4, slot1.id)
-		else
-			table.insert(slot0.ships, slot1.id)
-		end
+		table.insert(slot0.vanguardShips, slot2, slot1.id)
+		table.insert(slot0.ships, slot2, slot1.id)
 	elseif slot3 == TeamType.Main then
-		table.insert(slot0.mainShips, slot2 or #slot0.mainShips + 1, slot1.id)
-		table.insert(slot0.ships, slot1.id)
+		slot2 = slot2 or #slot0.mainShips + 1
+
+		table.insert(slot0.mainShips, slot2, slot1.id)
+		table.insert(slot0.ships, #slot0.vanguardShips + slot2, slot1.id)
 	elseif slot3 == TeamType.Submarine then
-		table.insert(slot0.subShips, slot2 or #slot0.subShips + 1, slot1.id)
-		table.insert(slot0.ships, slot1.id)
+		slot2 = slot2 or #slot0.subShips + 1
+
+		table.insert(slot0.subShips, slot2, slot1.id)
+		table.insert(slot0.ships, slot2, slot1.id)
 	end
 end
 

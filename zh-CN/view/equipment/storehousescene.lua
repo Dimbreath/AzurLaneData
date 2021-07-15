@@ -1230,6 +1230,14 @@ function slot0.willExit(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end
+
+	if slot0.destroyConfirmView then
+		slot0.destroyConfirmView:Destroy()
+	end
+
+	if slot0.assignedItemView then
+		slot0.assignedItemView:Destroy()
+	end
 end
 
 return slot0

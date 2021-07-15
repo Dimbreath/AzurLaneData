@@ -412,7 +412,7 @@ return {
 				targetAniEffect = "",
 				casterAniEffect = "",
 				type = "BattleSkillFire",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69280,
 					delay = 0.5

@@ -22,6 +22,7 @@ return {
 			type = "BattleSkillWeaponFire",
 			target_choise = "TargetNil",
 			arg_list = {
+				preShiftBullet = true,
 				weaponType = "TorpedoWeapon"
 			}
 		},

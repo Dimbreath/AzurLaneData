@@ -14452,17 +14452,20 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	meta_skill_maxtip2 = {
 		tip = "该技能已满级"
 	},
+	activity_permanent_progress = {
+		tip = "进度："
+	},
 	cattery_settlement_dialogue_1 = {
 		tip = "指挥官不在的"
 	},
 	cattery_settlement_dialogue_2 = {
-		tip = "里指挥喵得到充分的休息!"
+		tip = "里，指挥喵得到了充分的休息!"
 	},
 	cattery_settlement_dialogue_3 = {
-		tip = "一共获得"
+		tip = "共获得"
 	},
 	cattery_settlement_dialogue_4 = {
-		tip = "的经验~"
+		tip = "的经验喵~"
 	},
 	blueprint_catchup_by_gold_confirm = {
 		tip = "本次强化操作需要消耗$1物资，是否确认？"

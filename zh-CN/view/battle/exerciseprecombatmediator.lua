@@ -315,54 +315,39 @@ function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		if not uv0:getShipById(slot0[1]) then
-			if uv1 then
-				FormationMediator.removeShipFromFleet(uv2, uv1)
-			end
+		slot3 = uv1:getShipPos(uv0:getShipById(slot0[1])) or -1
 
-			return
+		if (uv1:getShipPos(uv2) or -1) > 0 then
+			uv1:removeShip(uv2)
 		end
 
-		slot3 = uv2:getShipPos(uv1)
-
-		if uv3:inPvPFleet(slot1) then
-			slot4 = uv2:getShipPos(slot1)
-
-			if uv1 == nil then
-				uv2:removeShip(slot1)
-				uv2:insertShip(slot1, nil, uv4)
-
-				uv3.EdittingFleet = uv2
-
-				return
-			end
-
-			if uv1.id == slot1.id then
-				return
-			end
-
-			uv2:removeShip(uv1)
-			uv2:removeShip(slot1)
-
-			if slot4 < slot3 then
-				uv2:insertShip(uv1, slot4, uv4)
-				uv2:insertShip(slot1, slot3, uv4)
-			else
-				uv2:insertShip(slot1, slot3, uv4)
-				uv2:insertShip(uv1, slot4, uv4)
-			end
-
-			uv3.EdittingFleet = uv2
-		else
-			if uv1 == nil then
-				uv2:insertShip(slot1, nil, uv4)
-			else
-				uv2:removeShip(uv1)
-				uv2:insertShip(slot1, slot3, uv4)
-			end
-
-			uv3.EdittingFleet = uv2
+		if slot3 > 0 then
+			uv1:removeShip(slot1)
 		end
+
+		if uv2 and slot3 > 0 then
+			table.insert({}, {
+				slot3,
+				uv2
+			})
+		end
+
+		if slot1 then
+			table.insert(slot4, {
+				slot2,
+				slot1
+			})
+		end
+
+		table.sort(slot4, function (slot0, slot1)
+			return slot0[1] < slot1[1]
+		end)
+
+		for slot8, slot9 in ipairs(slot4) do
+			uv1:insertShip(slot9[2], slot9[1] > 0 and slot9[1] or nil, uv3)
+		end
+
+		uv4.EdittingFleet = uv1
 	end
 end
 

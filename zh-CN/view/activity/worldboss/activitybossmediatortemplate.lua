@@ -74,6 +74,7 @@ function slot0.register(slot0)
 	end
 
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
+	pg.GuildMsgBoxMgr.GetInstance():NotificationForBattle()
 end
 
 function slot0.BindEvent(slot0)
