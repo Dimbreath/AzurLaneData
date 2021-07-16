@@ -527,12 +527,15 @@ slot4 = {
 }
 
 function setFrame(slot0, slot1, slot2)
-	setImageColor(slot0, Color(1, 1, 1, 1))
+	slot1 = tostring(slot1)
+
 	setImageSprite(slot0, GetSpriteFromAtlas("weaponframes", "frame"))
 
 	slot3 = findTF(slot0, "specialFrame")
 
 	if slot2 or #slot1 > 1 or #slot1 == 1 and tonumber(slot1) > 5 then
+		setImageColor(slot0, Color(1, 1, 1, 1))
+
 		if not slot3 then
 			removeAllChildren(cloneTplTo(slot0, slot0, "specialFrame"))
 		end
@@ -543,7 +546,7 @@ function setFrame(slot0, slot1, slot2)
 		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
 		setActive(slot3, true)
 	else
-		setImageColor(slot0, shipRarity2FrameColor(slot1 + 1))
+		setImageColor(slot0, shipRarity2FrameColor(tonumber(slot1) + 1))
 
 		if slot3 then
 			setActive(slot3, false)
