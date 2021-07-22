@@ -3587,6 +3587,9 @@ pg.gametip = {
 	word_shipNation_doa = {
 		tip = "维纳斯假期"
 	},
+	word_shipNation_imas = {
+		tip = "偶像大师"
+	},
 	word_shipNation_link = {
 		tip = "联动"
 	},
@@ -3763,6 +3766,24 @@ pg.gametip = {
 相互尊重、相互信任、相互守望，直至永远
 至此，命运结而为一，契约成立
                                          誓约日 $1]]
+	},
+	intimacy_desc_ring = {
+		tip = "拥有一枚誓约戒指"
+	},
+	intimacy_desc_tiara = {
+		tip = "拥有一顶誓约之冠"
+	},
+	intimacy_desc_day = {
+		tip = "誓约日"
+	},
+	word_propose_cost_tip1 = {
+		tip = "誓约需要消耗<color=#92fc63>1</color>顶誓约之冠（当前拥有<color=#92fc63>$1</color>顶）\n\n<size=32>*誓约后角色获得<color=#92fc63>3%</color>属性加成<color=#ff5c5c>但无法更名</color></size>"
+	},
+	word_propose_cost_tip2 = {
+		tip = "是否消耗<color=#92fc63>1</color>枚誓约之戒兑换为<color=#92fc63>1</color>顶誓约之冠\n<color=#ff5c5c>兑换操作无法撤回，以此誓约的角色无法更名</color>"
+	},
+	word_propose_tiara_tip = {
+		tip = "为她戴上誓约之冠吧"
 	},
 	charge_title_getitem = {
 		tip = "可以获得以下道具："
@@ -6641,7 +6662,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>21.5.27-21.6.16</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>21.7.22-21.8.4</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -7675,7 +7696,7 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "{namecode:179}、{namecode:175}、{namecode:203} 出现概率UP"
+		tip = "天海春香、如月千早、水濑伊织等角色出现概率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "俾斯麦、英王乔治五世 建造追加！"
@@ -13743,7 +13764,7 @@ BUFF加成也会增加
 		tip = "每日经验"
 	},
 	meta_skill_unlock = {
-		tip = "请点击习得技能后进行研修"
+		tip = "请点击习得技能后进行研习"
 	},
 	meta_unlock_skill_tip = {
 		tip = "习得$1的技能<color=#92fc63>$2</color>需要消耗以下技能书"
@@ -13752,22 +13773,22 @@ BUFF加成也会增加
 		tip = "请先选择一种材料(未使用)"
 	},
 	meta_switch_skill_disable = {
-		tip = "当天研修次数已达上限\n次日零时恢复"
+		tip = "当天研习次数已达上限\n次日零时恢复"
 	},
 	meta_switch_skill_box_title = {
-		tip = "是否开始技能$1的研修？\n"
+		tip = "是否开始技能$1的研习？\n"
 	},
 	meta_cur_pt = {
 		tip = "当前同步值"
 	},
 	meta_toast_fullexp = {
-		tip = "已达本日研修上限"
+		tip = "已达本日研习上限"
 	},
 	meta_toast_tactics = {
-		tip = "研修EXP"
+		tip = "研习EXP"
 	},
 	meta_skillbtn_tactics = {
-		tip = "研 修"
+		tip = "研 习"
 	},
 	meta_destroy_tip = {
 		tip = "META角色不能被退役"
@@ -13850,7 +13871,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 			{
 				info = [[
 ·META研究室是进行META角色获取、养成的专用系统
-·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研修」</color>、<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块
+·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研习」</color>、<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块
 ·重复获取的META角色将会自动转换为1个对应的角色结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。
 ]]
 			},
@@ -13868,9 +13889,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 			},
 			{
 				info = [[
-3.<color=#92fc63>战术研修</color>
-·完成战术研修任务获得META角色的技能升级经验，部分任务可以重复完成
-·一名角色只能同时进行一项技能的战术研修任务，多名角色之间彼此独立，同时进行
+3.<color=#92fc63>战术研习</color>
+·完成战术研习任务获得META角色的技能升级经验，部分任务可以重复完成
+·一名角色只能同时进行一项技能的战术研习任务，多名角色之间彼此独立，同时进行
 ·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率
 （剩余次数不满2次时不生效）
 ·任务类型和可完成次数会随着技能等级升级而刷新
@@ -14344,6 +14365,19 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 			}
 		}
 	},
+	handshake_game_help = {
+		tip = {
+			{
+				info = [[
+活动规则：
+1.<color=#92fc63>7月28日</color>为止每日0点开放<color=#92fc63>1</color>场新的见面会，总计<color=#92fc63>7</color>场，可累计。全部完成后可以获得限定装备<color=#92fc63>「偶像手环」</color>
+游戏规则：
+1.粉丝啾啾会提出三个礼物需求，指挥官需要在左侧礼物区域选择对应的礼物，选择正确后粉丝啾啾会获得礼物并离开，若选择错误，工作啾啾会进行提示并重新选择
+2.每位提出礼物需求的粉丝啾啾等待时间为15秒，若时间结束没有收到对应礼物会离开会场，并且扣除一颗生命值。三颗生命值扣完则游戏结束
+3.指挥官生命值耗尽结束游戏、游戏时间结束或是点击游戏内退出按钮退出游戏都视为完成游戏。因为其他原因中途退出游戏则算作未完成游戏]]
+			}
+		}
+	},
 	MeixiV4_help = {
 		tip = {
 			{
@@ -14410,6 +14444,82 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	activity_permanent_finished = {
 		tip = "已完成"
 	},
+	idolmaster_main = {
+		tip = {
+			{
+				info = [[
+活动规则：
+<color=#92fc63>7.22-8.05</color>期间开启限时活动「响彻碧海的偶像歌」
+1.通过特别作战获取「联动Pt」，在「累计奖励」和「补给商店」处兑换丰厚奖励
+2.完成「啾啾见面会」小游戏第七场可以获得限定装备<color=#92fc63>「偶像手环」</color>
+注意：每日开放1场新的见面会，总计7场
+3.在活动中收集14个「角色资料」道具后，可在「纪念章」处获取<color=#92fc63>「765纪念章」</color>详细获取条件可在「纪念章」界面查看
+4.点击「限时建造」可以前往建造界面
+5.点击「换装商店」可以前往换装商店界面
+6.<color=#92fc63>7.22-8.04</color> 每日刷新一个活动特殊委托，该委托不占用可派出舰队上限，完成委托可获取活动奖励，未进行的委托将于次日消失，进行中的委托可于次日领取奖励，领取奖励后可刷新次日的活动特殊委托，领取时间截止8月11日23点59分]]
+			}
+		}
+	},
+	idolmaster_game_tip1 = {
+		tip = "是否继续游戏?"
+	},
+	idolmaster_game_tip2 = {
+		tip = "是否退出游戏?"
+	},
+	idolmaster_game_tip3 = {
+		tip = "本次得分 :"
+	},
+	idolmaster_game_tip4 = {
+		tip = "最高得分 :"
+	},
+	idolmaster_game_tip5 = {
+		tip = "分数 :"
+	},
+	idolmaster_collection = {
+		tip = {
+			{
+				info = "活动时间：<color=#92fc63>7.22-8.5</color>\n1.活动期间，参与活动收集「角色资料」，收集全部<color=#92fc63>14</color>个后可获得限定家具<color=#92fc63>「765纪念章」</color>"
+			},
+			{
+				info = [[
+2.参与以下内容可以收集「角色资料」：
+①通过活动关卡
+②完成活动任务
+③累积联动Pt点数
+④完成啾啾见面会]]
+			},
+			{
+				info = "3.领取时间截止8月11日23点59分"
+			}
+		}
+	},
+	idolmaster_voice_name_feeling1 = {
+		tip = "失望"
+	},
+	idolmaster_voice_name_feeling2 = {
+		tip = "普通"
+	},
+	idolmaster_voice_name_feeling3 = {
+		tip = "友好"
+	},
+	idolmaster_voice_name_feeling4 = {
+		tip = "协作"
+	},
+	idolmaster_voice_name_feeling5 = {
+		tip = "应援"
+	},
+	idolmaster_voice_name_propose = {
+		tip = "誓约"
+	},
+	cartoon_notall = {
+		tip = "未读"
+	},
+	cartoon_haveno = {
+		tip = "暂无符合条件的漫画"
+	},
+	res_cartoon_new_tip = {
+		tip = "本次更新新增了$1张漫画"
+	},
 	memory_actiivty_ex = {
 		tip = "E.X."
 	},
@@ -14429,7 +14539,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "作战奖励"
 	},
 	battle_end_subtitle2 = {
-		tip = "战术研修"
+		tip = "战术研习"
 	},
 	meta_skill_dailyexp = {
 		tip = "每日可获取经验"
@@ -14438,7 +14548,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "※点击技能可进行学习或切换"
 	},
 	meta_skill_maxtip = {
-		tip = "$1的当前研修技能已达满级，是否前往切换研修技能？"
+		tip = "$1的当前研习技能已达满级，是否前往切换研习技能？"
 	},
 	meta_tactics_detail = {
 		tip = "查看详情"
@@ -14447,7 +14557,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "习得技能"
 	},
 	meta_tactics_switch = {
-		tip = "研修技能"
+		tip = "研习技能"
 	},
 	meta_skill_maxtip2 = {
 		tip = "该技能已满级"

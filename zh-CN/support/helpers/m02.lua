@@ -498,23 +498,26 @@ slot4 = {
 }
 
 function setFrame(slot0, slot1, slot2)
-	setImageColor(slot0, Color(1, 1, 1, 1))
+	slot1 = tostring(slot1)
+
 	setImageSprite(slot0, GetSpriteFromAtlas("weaponframes", "frame"))
 
 	slot3 = findTF(slot0, "specialFrame")
 
-	if string.sub(slot1, 1, 4) == "meta" or slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
+	if slot2 or #slot1 > 1 or #slot1 == 1 and tonumber(slot1) > 5 then
+		setImageColor(slot0, Color(1, 1, 1, 1))
+
 		if not slot3 then
 			removeAllChildren(cloneTplTo(slot0, slot0, "specialFrame"))
 		end
 
-		slot2 = slot2 or "frame" .. slot1
+		slot2 = string.sub(slot1, 1, 4) == "meta" and (slot2 or "frame_" .. slot1) or slot2 or "frame" .. slot1
 
 		uv0(slot3, uv1[slot2] or uv1.other)
 		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
 		setActive(slot3, true)
 	else
-		setImageColor(slot0, shipRarity2FrameColor(slot1 + 1))
+		setImageColor(slot0, shipRarity2FrameColor(tonumber(slot1) + 1))
 
 		if slot3 then
 			setActive(slot3, false)
@@ -3029,4 +3032,32 @@ function getLoginConfig()
 	slot4 = pg.login[slot1].login_cri ~= "" and true or false
 
 	return slot4, slot4 and slot3 or (pg.login[slot1].login_static ~= "" and slot2 or "login"), pg.login[slot1].bgm
+end
+
+function setIntimacyIcon(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = nil
+
+	if slot0.childCount > 0 then
+		slot4 = slot0:GetChild(0)
+	else
+		setParent(LoadAndInstantiateSync("template", "intimacytpl").transform, slot0)
+	end
+
+	setImageAlpha(slot4, slot2 and 0 or 1)
+	eachChild(slot4, function (slot0)
+		setActive(slot0, false)
+	end)
+
+	if slot2 then
+		if not slot4:Find(slot2 .. "(Clone)") then
+			setParent(LoadAndInstantiateSync("ui", slot2), slot4)
+		end
+
+		setActive(slot5, true)
+	elseif slot1 then
+		setImageSprite(slot4, GetSpriteFromAtlas("energy", slot1), true)
+	end
+
+	return slot4
 end

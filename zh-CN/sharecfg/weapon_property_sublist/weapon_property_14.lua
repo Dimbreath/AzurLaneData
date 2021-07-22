@@ -2,130 +2,6 @@ pg = pg or {}
 pg.weapon_property_14 = {}
 
 function ()
-	uv0.weapon_property_14[14300] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联装406mm主炮MK6T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 50,
-		corrected = 105,
-		min_range = 50,
-		id = 14300,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 4990,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1510
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_14[14301] = {
-		id = 14301,
-		reload_max = 4888,
-		damage = 58,
-		base = 14300
-	}
-	uv0.weapon_property_14[14302] = {
-		id = 14302,
-		reload_max = 4791,
-		damage = 66,
-		base = 14300
-	}
-	uv0.weapon_property_14[14303] = {
-		id = 14303,
-		reload_max = 4689,
-		damage = 74,
-		base = 14300
-	}
-	uv0.weapon_property_14[14320] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联装406mm主炮MK6T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 55,
-		corrected = 105,
-		min_range = 50,
-		id = 14320,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 4752,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1512
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_14[14321] = {
-		id = 14321,
-		reload_max = 4656,
-		damage = 64,
-		base = 14320
-	}
-	uv0.weapon_property_14[14322] = {
-		id = 14322,
-		reload_max = 4562,
-		damage = 73,
-		base = 14320
-	}
 	uv0.weapon_property_14[14323] = {
 		id = 14323,
 		reload_max = 4466,
@@ -671,5 +547,94 @@ function ()
 		reload_max = 4181,
 		damage = 123,
 		base = 14420
+	}
+	uv0.weapon_property_14[14427] = {
+		id = 14427,
+		reload_max = 4087,
+		damage = 134,
+		base = 14420
+	}
+	uv0.weapon_property_14[14428] = {
+		id = 14428,
+		reload_max = 3991,
+		damage = 145,
+		base = 14420
+	}
+	uv0.weapon_property_14[14429] = {
+		id = 14429,
+		reload_max = 3896,
+		damage = 156,
+		base = 14420
+	}
+	uv0.weapon_property_14[14430] = {
+		id = 14430,
+		reload_max = 3802,
+		damage = 167,
+		base = 14420
+	}
+	uv0.weapon_property_14[14440] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "三联装406mm主炮MK7T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 62,
+		corrected = 105,
+		min_range = 50,
+		id = 14440,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 4514,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1511
+		},
+		barrage_ID = {
+			1301
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_14[14441] = {
+		id = 14441,
+		reload_max = 4424,
+		damage = 74,
+		base = 14440
+	}
+	uv0.weapon_property_14[14442] = {
+		id = 14442,
+		reload_max = 4333,
+		damage = 86,
+		base = 14440
+	}
+	uv0.weapon_property_14[14443] = {
+		id = 14443,
+		reload_max = 4243,
+		damage = 98,
+		base = 14440
 	}
 end()

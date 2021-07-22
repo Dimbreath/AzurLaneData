@@ -135,6 +135,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.04.22-21.07.18）",
 		scene = {}
 	},
+	[210] = {
+		name = "限界的挑战者X",
+		gain_by = "",
+		time_second = 0,
+		id = 210,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （21.07.22-21.10.17）",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		gain_by = "",
@@ -322,6 +331,7 @@ pg.item_data_frame = {
 		207,
 		208,
 		209,
+		210,
 		300,
 		301,
 		302,

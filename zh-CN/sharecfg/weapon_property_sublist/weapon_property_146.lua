@@ -2,30 +2,6 @@ pg = pg or {}
 pg.weapon_property_146 = {}
 
 function ()
-	uv0.weapon_property_146[67613] = {
-		id = 67613,
-		name = "猫音技能Lv3",
-		damage = 16,
-		base = 67611
-	}
-	uv0.weapon_property_146[67614] = {
-		id = 67614,
-		name = "猫音技能Lv4",
-		damage = 20,
-		base = 67611
-	}
-	uv0.weapon_property_146[67615] = {
-		id = 67615,
-		name = "猫音技能Lv5",
-		damage = 25,
-		base = 67611
-	}
-	uv0.weapon_property_146[67616] = {
-		id = 67616,
-		name = "猫音技能Lv6",
-		damage = 30,
-		base = 67611
-	}
 	uv0.weapon_property_146[67617] = {
 		id = 67617,
 		name = "猫音技能Lv7",
@@ -610,6 +586,36 @@ function ()
 		id = 67675,
 		name = "双影无双爆炸ALv5",
 		damage = 147,
+		base = 67671
+	}
+	uv0.weapon_property_146[67676] = {
+		id = 67676,
+		name = "双影无双爆炸ALv6",
+		damage = 162,
+		base = 67671
+	}
+	uv0.weapon_property_146[67677] = {
+		id = 67677,
+		name = "双影无双爆炸ALv7",
+		damage = 178,
+		base = 67671
+	}
+	uv0.weapon_property_146[67678] = {
+		id = 67678,
+		name = "双影无双爆炸ALv8",
+		damage = 193,
+		base = 67671
+	}
+	uv0.weapon_property_146[67679] = {
+		id = 67679,
+		name = "双影无双爆炸ALv9",
+		damage = 208,
+		base = 67671
+	}
+	uv0.weapon_property_146[67680] = {
+		id = 67680,
+		name = "双影无双爆炸ALv10",
+		damage = 225,
 		base = 67671
 	}
 end()

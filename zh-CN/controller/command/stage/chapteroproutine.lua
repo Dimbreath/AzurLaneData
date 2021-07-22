@@ -102,15 +102,7 @@ function slot0.doShipUpdate(slot0)
 end
 
 function slot0.doBuffUpdate(slot0)
-	slot2 = slot0.chapter
-
-	if slot0.data.buff_list then
-		for slot6, slot7 in ipairs(slot1.buff_list) do
-			if not _.include(slot2.buff_list, slot7) then
-				table.insert(slot2.buff_list, slot7)
-			end
-		end
-	end
+	slot0.chapter:UpdateBuffList(slot0.data.buff_list)
 end
 
 function slot0.doExtraFlagUpdate(slot0)
@@ -359,7 +351,7 @@ function slot0.doRequest(slot0)
 end
 
 function slot0.doSkipBattle(slot0)
-	slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment, ChapterConst.DirtyAchieve, ChapterConst.DirtyFleet, ChapterConst.DirtyChampion)
+	slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyStrategy, ChapterConst.DirtyAttachment, ChapterConst.DirtyAchieve, ChapterConst.DirtyFleet, ChapterConst.DirtyChampion)
 end
 
 function slot0.doTeleportSub(slot0)

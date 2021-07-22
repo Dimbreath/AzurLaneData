@@ -2298,6 +2298,106 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[31] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+		type = 1,
+		name = "大型作战攻略支援包",
+		descrip = "可获得1980钻，定向部件T4x35，定向装备箱·研发装备①x1和其他奖励",
+		subject = "大型作战攻略支援包",
+		extra_service = 3,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support4",
+		id_str = "com.bilibili.blhx.zuanshi130",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 31,
+		airijp_id = "com.yostarjp.azurlane.diamond122",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				30121,
+				10
+			},
+			{
+				2,
+				30114,
+				35
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				14004,
+				25
+			},
+			{
+				2,
+				30203,
+				1
+			},
+			{
+				2,
+				42036,
+				5
+			},
+			{
+				2,
+				16003,
+				10
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				30114,
+				35
+			},
+			{
+				2,
+				30121,
+				10
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2327,6 +2427,7 @@ pg.pay_data_display = {
 		27,
 		28,
 		29,
-		30
+		30,
+		31
 	}
 }

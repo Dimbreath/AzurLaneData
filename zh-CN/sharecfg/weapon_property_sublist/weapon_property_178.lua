@@ -2,434 +2,6 @@ pg = pg or {}
 pg.weapon_property_178 = {}
 
 function ()
-	uv0.weapon_property_178[69696] = {
-		name = "英仙座随机飞机-海黄蜂-Lv6",
-		damage = 251,
-		base = 69691,
-		id = 69696,
-		bullet_ID = {
-			69696
-		}
-	}
-	uv0.weapon_property_178[69697] = {
-		name = "英仙座随机飞机-海黄蜂-Lv7",
-		damage = 272,
-		base = 69691,
-		id = 69697,
-		bullet_ID = {
-			69697
-		}
-	}
-	uv0.weapon_property_178[69698] = {
-		name = "英仙座随机飞机-海黄蜂-Lv8",
-		damage = 293,
-		base = 69691,
-		id = 69698,
-		bullet_ID = {
-			69698
-		}
-	}
-	uv0.weapon_property_178[69699] = {
-		name = "英仙座随机飞机-海黄蜂-Lv9",
-		damage = 314,
-		base = 69691,
-		id = 69699,
-		bullet_ID = {
-			69699
-		}
-	}
-	uv0.weapon_property_178[69700] = {
-		name = "英仙座随机飞机-海黄蜂-Lv10",
-		damage = 335,
-		base = 69691,
-		id = 69700,
-		bullet_ID = {
-			69700
-		}
-	}
-	uv0.weapon_property_178[69701] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "英仙座随机飞机-TBF-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 69701,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69701
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_178[69702] = {
-		name = "英仙座随机飞机-TBF-Lv2",
-		damage = 68,
-		base = 69701,
-		id = 69702,
-		bullet_ID = {
-			69702
-		}
-	}
-	uv0.weapon_property_178[69703] = {
-		name = "英仙座随机飞机-TBF-Lv3",
-		damage = 86,
-		base = 69701,
-		id = 69703,
-		bullet_ID = {
-			69703
-		}
-	}
-	uv0.weapon_property_178[69704] = {
-		name = "英仙座随机飞机-TBF-Lv4",
-		damage = 106,
-		base = 69701,
-		id = 69704,
-		bullet_ID = {
-			69704
-		}
-	}
-	uv0.weapon_property_178[69705] = {
-		name = "英仙座随机飞机-TBF-Lv5",
-		damage = 124,
-		base = 69701,
-		id = 69705,
-		bullet_ID = {
-			69705
-		}
-	}
-	uv0.weapon_property_178[69706] = {
-		name = "英仙座随机飞机-TBF-Lv6",
-		damage = 144,
-		base = 69701,
-		id = 69706,
-		bullet_ID = {
-			69706
-		}
-	}
-	uv0.weapon_property_178[69707] = {
-		name = "英仙座随机飞机-TBF-Lv7",
-		damage = 164,
-		base = 69701,
-		id = 69707,
-		bullet_ID = {
-			69707
-		}
-	}
-	uv0.weapon_property_178[69708] = {
-		name = "英仙座随机飞机-TBF-Lv8",
-		damage = 182,
-		base = 69701,
-		id = 69708,
-		bullet_ID = {
-			69708
-		}
-	}
-	uv0.weapon_property_178[69709] = {
-		name = "英仙座随机飞机-TBF-Lv9",
-		damage = 202,
-		base = 69701,
-		id = 69709,
-		bullet_ID = {
-			69709
-		}
-	}
-	uv0.weapon_property_178[69710] = {
-		name = "英仙座随机飞机-TBF-Lv10",
-		damage = 220,
-		base = 69701,
-		id = 69710,
-		bullet_ID = {
-			69710
-		}
-	}
-	uv0.weapon_property_178[69711] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "英仙座随机飞机-萤火虫-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 69711,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69711
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_178[69712] = {
-		name = "英仙座随机飞机-萤火虫-Lv2",
-		damage = 68,
-		base = 69711,
-		id = 69712,
-		bullet_ID = {
-			69712
-		}
-	}
-	uv0.weapon_property_178[69713] = {
-		name = "英仙座随机飞机-萤火虫-Lv3",
-		damage = 86,
-		base = 69711,
-		id = 69713,
-		bullet_ID = {
-			69713
-		}
-	}
-	uv0.weapon_property_178[69714] = {
-		name = "英仙座随机飞机-萤火虫-Lv4",
-		damage = 106,
-		base = 69711,
-		id = 69714,
-		bullet_ID = {
-			69714
-		}
-	}
-	uv0.weapon_property_178[69715] = {
-		name = "英仙座随机飞机-萤火虫-Lv5",
-		damage = 124,
-		base = 69711,
-		id = 69715,
-		bullet_ID = {
-			69715
-		}
-	}
-	uv0.weapon_property_178[69716] = {
-		name = "英仙座随机飞机-萤火虫-Lv6",
-		damage = 144,
-		base = 69711,
-		id = 69716,
-		bullet_ID = {
-			69716
-		}
-	}
-	uv0.weapon_property_178[69717] = {
-		name = "英仙座随机飞机-萤火虫-Lv7",
-		damage = 164,
-		base = 69711,
-		id = 69717,
-		bullet_ID = {
-			69717
-		}
-	}
-	uv0.weapon_property_178[69718] = {
-		name = "英仙座随机飞机-萤火虫-Lv8",
-		damage = 182,
-		base = 69711,
-		id = 69718,
-		bullet_ID = {
-			69718
-		}
-	}
-	uv0.weapon_property_178[69719] = {
-		name = "英仙座随机飞机-萤火虫-Lv9",
-		damage = 202,
-		base = 69711,
-		id = 69719,
-		bullet_ID = {
-			69719
-		}
-	}
-	uv0.weapon_property_178[69720] = {
-		name = "英仙座随机飞机-萤火虫-Lv10",
-		damage = 220,
-		base = 69711,
-		id = 69720,
-		bullet_ID = {
-			69720
-		}
-	}
-	uv0.weapon_property_178[69721] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 19,
-		shakescreen = 0,
-		name = "英仙座随机海黄蜂用 2 x 1000lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 19,
-		charge_param = "",
-		damage = 153,
-		corrected = 100,
-		min_range = 0,
-		id = 69721,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2123
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_178[69722] = {
-		id = 69722,
-		damage = 173,
-		base = 69721
-	}
-	uv0.weapon_property_178[69723] = {
-		id = 69723,
-		damage = 192,
-		base = 69721
-	}
-	uv0.weapon_property_178[69724] = {
-		id = 69724,
-		damage = 212,
-		base = 69721
-	}
-	uv0.weapon_property_178[69725] = {
-		id = 69725,
-		damage = 231,
-		base = 69721
-	}
-	uv0.weapon_property_178[69726] = {
-		id = 69726,
-		damage = 251,
-		base = 69721
-	}
-	uv0.weapon_property_178[69727] = {
-		id = 69727,
-		damage = 272,
-		base = 69721
-	}
-	uv0.weapon_property_178[69728] = {
-		id = 69728,
-		damage = 293,
-		base = 69721
-	}
-	uv0.weapon_property_178[69729] = {
-		id = 69729,
-		damage = 314,
-		base = 69721
-	}
-	uv0.weapon_property_178[69730] = {
-		id = 69730,
-		damage = 335,
-		base = 69721
-	}
-	uv0.weapon_property_178[69731] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "英仙座随机TBF 3 x 机载鱼雷-通用",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 153,
-		corrected = 100,
-		min_range = 0,
-		id = 69731,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2112
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_178[69732] = {
 		id = 69732,
 		damage = 174,
@@ -688,5 +260,440 @@ function ()
 		bullet_ID = {
 			69758
 		}
+	}
+	uv0.weapon_property_178[69759] = {
+		reload_max = 476,
+		damage = 79,
+		base = 69751,
+		id = 69759,
+		name = "鹰-剑鱼 Lv9",
+		bullet_ID = {
+			69759
+		}
+	}
+	uv0.weapon_property_178[69760] = {
+		reload_max = 460,
+		damage = 84,
+		base = 69751,
+		id = 69760,
+		name = "鹰-剑鱼 Lv10",
+		bullet_ID = {
+			69760
+		}
+	}
+	uv0.weapon_property_178[69771] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-通用",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 20,
+		charge_param = "",
+		damage = 126,
+		corrected = 100,
+		min_range = 0,
+		id = 69771,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19987
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_178[69772] = {
+		id = 69772,
+		damage = 144,
+		base = 69771
+	}
+	uv0.weapon_property_178[69773] = {
+		id = 69773,
+		damage = 162,
+		base = 69771
+	}
+	uv0.weapon_property_178[69774] = {
+		id = 69774,
+		damage = 180,
+		base = 69771
+	}
+	uv0.weapon_property_178[69775] = {
+		id = 69775,
+		damage = 198,
+		base = 69771
+	}
+	uv0.weapon_property_178[69776] = {
+		id = 69776,
+		damage = 216,
+		base = 69771
+	}
+	uv0.weapon_property_178[69777] = {
+		id = 69777,
+		damage = 234,
+		base = 69771
+	}
+	uv0.weapon_property_178[69778] = {
+		id = 69778,
+		damage = 252,
+		base = 69771
+	}
+	uv0.weapon_property_178[69779] = {
+		id = 69779,
+		damage = 270,
+		base = 69771
+	}
+	uv0.weapon_property_178[69780] = {
+		id = 69780,
+		damage = 288,
+		base = 69771
+	}
+	uv0.weapon_property_178[69781] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "英勇穿甲技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 46,
+		corrected = 110,
+		min_range = 35,
+		id = 69781,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3298,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19159
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_178[69782] = {
+		reload_max = 3231,
+		name = "英勇穿甲技能LV2",
+		damage = 52,
+		base = 69781,
+		id = 69782
+	}
+	uv0.weapon_property_178[69783] = {
+		reload_max = 3164,
+		name = "英勇穿甲技能LV3",
+		damage = 59,
+		base = 69781,
+		id = 69783
+	}
+	uv0.weapon_property_178[69784] = {
+		reload_max = 3096,
+		name = "英勇穿甲技能LV4",
+		damage = 66,
+		base = 69781,
+		id = 69784
+	}
+	uv0.weapon_property_178[69785] = {
+		reload_max = 3029,
+		name = "英勇穿甲技能LV5",
+		damage = 73,
+		base = 69781,
+		id = 69785
+	}
+	uv0.weapon_property_178[69786] = {
+		reload_max = 2962,
+		name = "英勇穿甲技能LV6",
+		damage = 80,
+		base = 69781,
+		id = 69786
+	}
+	uv0.weapon_property_178[69787] = {
+		reload_max = 2894,
+		name = "英勇穿甲技能LV7",
+		damage = 87,
+		base = 69781,
+		id = 69787
+	}
+	uv0.weapon_property_178[69788] = {
+		reload_max = 2827,
+		name = "英勇穿甲技能LV8",
+		damage = 94,
+		base = 69781,
+		id = 69788
+	}
+	uv0.weapon_property_178[69789] = {
+		reload_max = 2760,
+		name = "英勇穿甲技能LV9",
+		damage = 101,
+		base = 69781,
+		id = 69789
+	}
+	uv0.weapon_property_178[69790] = {
+		reload_max = 2692,
+		name = "英勇穿甲技能LV10",
+		damage = 108,
+		base = 69781,
+		id = 69790
+	}
+	uv0.weapon_property_178[69791] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英勇弹幕技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 69791,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19160
+		},
+		barrage_ID = {
+			80918
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_178[69792] = {
+		id = 69792,
+		name = "英勇弹幕技能LV2",
+		damage = 52,
+		base = 69791
+	}
+	uv0.weapon_property_178[69793] = {
+		id = 69793,
+		name = "英勇弹幕技能LV3",
+		damage = 59,
+		base = 69791
+	}
+	uv0.weapon_property_178[69794] = {
+		id = 69794,
+		name = "英勇弹幕技能LV4",
+		damage = 66,
+		base = 69791
+	}
+	uv0.weapon_property_178[69795] = {
+		name = "英勇弹幕技能LV5",
+		damage = 73,
+		base = 69791,
+		id = 69795,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_178[69796] = {
+		name = "英勇弹幕技能LV6",
+		damage = 80,
+		base = 69791,
+		id = 69796,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_178[69797] = {
+		name = "英勇弹幕技能LV7",
+		damage = 87,
+		base = 69791,
+		id = 69797,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_178[69798] = {
+		name = "英勇弹幕技能LV8",
+		damage = 94,
+		base = 69791,
+		id = 69798,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_178[69799] = {
+		name = "英勇弹幕技能LV9",
+		damage = 101,
+		base = 69791,
+		id = 69799,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_178[69800] = {
+		name = "英勇弹幕技能LV10",
+		damage = 108,
+		base = 69791,
+		id = 69800,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_178[69801] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英勇弹幕技能小子弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 69801,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19173,
+			19173
+		},
+		barrage_ID = {
+			80851,
+			80853
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_178[69802] = {
+		id = 69802,
+		name = "英勇弹幕技能小子弹LV2",
+		damage = 11,
+		base = 69801
+	}
+	uv0.weapon_property_178[69803] = {
+		id = 69803,
+		name = "英勇弹幕技能小子弹LV3",
+		damage = 12,
+		base = 69801
+	}
+	uv0.weapon_property_178[69804] = {
+		id = 69804,
+		name = "英勇弹幕技能小子弹LV4",
+		damage = 13,
+		base = 69801
+	}
+	uv0.weapon_property_178[69805] = {
+		id = 69805,
+		name = "英勇弹幕技能小子弹LV5",
+		damage = 14,
+		base = 69801
 	}
 end()

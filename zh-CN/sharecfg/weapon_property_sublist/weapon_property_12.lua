@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_12 = {}
 
 function ()
-	uv0.weapon_property_12[13143] = {
-		id = 13143,
-		reload_max = 989,
-		damage = 36,
-		base = 13140
-	}
-	uv0.weapon_property_12[13144] = {
-		id = 13144,
-		reload_max = 969,
-		damage = 38,
-		base = 13140
-	}
-	uv0.weapon_property_12[13145] = {
-		id = 13145,
-		reload_max = 946,
-		damage = 40,
-		base = 13140
-	}
-	uv0.weapon_property_12[13146] = {
-		id = 13146,
-		reload_max = 926,
-		damage = 43,
-		base = 13140
-	}
-	uv0.weapon_property_12[13147] = {
-		id = 13147,
-		reload_max = 905,
-		damage = 46,
-		base = 13140
-	}
 	uv0.weapon_property_12[13148] = {
 		id = 13148,
 		reload_max = 883,
@@ -629,5 +599,82 @@ function ()
 		reload_max = 4488,
 		damage = 61,
 		base = 14120
+	}
+	uv0.weapon_property_12[14140] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "三联装356mm主炮T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 48,
+		corrected = 105,
+		min_range = 50,
+		id = 14140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 4452,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1512
+		},
+		barrage_ID = {
+			1301
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_12[14141] = {
+		id = 14141,
+		reload_max = 4389,
+		damage = 55,
+		base = 14140
+	}
+	uv0.weapon_property_12[14142] = {
+		id = 14142,
+		reload_max = 4326,
+		damage = 60,
+		base = 14140
+	}
+	uv0.weapon_property_12[14143] = {
+		id = 14143,
+		reload_max = 4264,
+		damage = 67,
+		base = 14140
+	}
+	uv0.weapon_property_12[14144] = {
+		id = 14144,
+		reload_max = 4201,
+		damage = 72,
+		base = 14140
+	}
+	uv0.weapon_property_12[14145] = {
+		id = 14145,
+		reload_max = 4138,
+		damage = 79,
+		base = 14140
 	}
 end()

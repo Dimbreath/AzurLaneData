@@ -2,6 +2,225 @@ pg = pg or {}
 pg.weapon_property_124 = {}
 
 function ()
+	uv0.weapon_property_124[65448] = {
+		id = 65448,
+		name = "飞龙META_斩击技能Lv8",
+		damage = 146,
+		base = 65441
+	}
+	uv0.weapon_property_124[65449] = {
+		id = 65449,
+		name = "飞龙META_斩击技能Lv9",
+		damage = 158,
+		base = 65441
+	}
+	uv0.weapon_property_124[65450] = {
+		id = 65450,
+		name = "飞龙META_斩击技能Lv10",
+		damage = 174,
+		base = 65441
+	}
+	uv0.weapon_property_124[65451] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "飞龙META_鱼雷机 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 65451,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65451
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_124[65452] = {
+		id = 65452,
+		name = "飞龙META_鱼雷机 Lv2",
+		base = 65451,
+		bullet_ID = {
+			65452
+		}
+	}
+	uv0.weapon_property_124[65453] = {
+		id = 65453,
+		name = "飞龙META_鱼雷机 Lv3",
+		base = 65451,
+		bullet_ID = {
+			65453
+		}
+	}
+	uv0.weapon_property_124[65454] = {
+		name = "飞龙META_鱼雷机 Lv4",
+		base = 65451,
+		id = 65454,
+		bullet_ID = {
+			65454
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_124[65455] = {
+		name = "飞龙META_鱼雷机 Lv5",
+		base = 65451,
+		id = 65455,
+		bullet_ID = {
+			65455
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_124[65456] = {
+		name = "飞龙META_鱼雷机 Lv6",
+		base = 65451,
+		id = 65456,
+		bullet_ID = {
+			65456
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_124[65457] = {
+		name = "飞龙META_鱼雷机 Lv7",
+		base = 65451,
+		id = 65457,
+		bullet_ID = {
+			65457
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_124[65458] = {
+		name = "飞龙META_鱼雷机 Lv8",
+		base = 65451,
+		id = 65458,
+		bullet_ID = {
+			65458
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_124[65459] = {
+		name = "飞龙META_鱼雷机 Lv9",
+		base = 65451,
+		id = 65459,
+		bullet_ID = {
+			65459
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_124[65460] = {
+		name = "飞龙META_鱼雷机 Lv10",
+		base = 65451,
+		id = 65460,
+		bullet_ID = {
+			65460
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_124[65461] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "3 x 机载鱼雷-重樱",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 65461,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2142
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_124[65462] = {
+		id = 65462,
+		damage = 86,
+		base = 65461
+	}
+	uv0.weapon_property_124[65463] = {
+		id = 65463,
+		damage = 106,
+		base = 65461
+	}
+	uv0.weapon_property_124[65464] = {
+		id = 65464,
+		damage = 124,
+		base = 65461
+	}
+	uv0.weapon_property_124[65465] = {
+		id = 65465,
+		damage = 144,
+		base = 65461
+	}
 	uv0.weapon_property_124[65466] = {
 		id = 65466,
 		damage = 164,
@@ -522,151 +741,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_124[65512] = {
-		id = 65512,
-		name = "海因里希亲王 直感之拳LV2",
-		damage = 9,
-		base = 65511
-	}
-	uv0.weapon_property_124[65513] = {
-		id = 65513,
-		name = "海因里希亲王 直感之拳LV3",
-		damage = 10,
-		base = 65511
-	}
-	uv0.weapon_property_124[65514] = {
-		id = 65514,
-		name = "海因里希亲王 直感之拳LV4",
-		damage = 11,
-		base = 65511
-	}
-	uv0.weapon_property_124[65515] = {
-		id = 65515,
-		name = "海因里希亲王 直感之拳LV5",
-		damage = 12,
-		base = 65511
-	}
-	uv0.weapon_property_124[65516] = {
-		id = 65516,
-		name = "海因里希亲王 直感之拳LV6",
-		damage = 14,
-		base = 65511
-	}
-	uv0.weapon_property_124[65517] = {
-		id = 65517,
-		name = "海因里希亲王 直感之拳LV7",
-		damage = 16,
-		base = 65511
-	}
-	uv0.weapon_property_124[65518] = {
-		id = 65518,
-		name = "海因里希亲王 直感之拳LV8",
-		damage = 18,
-		base = 65511
-	}
-	uv0.weapon_property_124[65519] = {
-		id = 65519,
-		name = "海因里希亲王 直感之拳LV9",
-		damage = 20,
-		base = 65511
-	}
-	uv0.weapon_property_124[65520] = {
-		id = 65520,
-		name = "海因里希亲王 直感之拳LV10",
-		damage = 22,
-		base = 65511
-	}
-	uv0.weapon_property_124[65521] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "纽伦堡 训练有素LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 100,
-		min_range = 0,
-		id = 65521,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19252,
-			19252,
-			19252,
-			19252
-		},
-		barrage_ID = {
-			80997,
-			80998,
-			80999,
-			81000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_124[65522] = {
-		id = 65522,
-		name = "纽伦堡 训练有素LV2",
-		damage = 7,
-		base = 65521
-	}
-	uv0.weapon_property_124[65523] = {
-		id = 65523,
-		name = "纽伦堡 训练有素LV3",
-		damage = 8,
-		base = 65521
-	}
-	uv0.weapon_property_124[65524] = {
-		id = 65524,
-		name = "纽伦堡 训练有素LV4",
-		damage = 9,
-		base = 65521
-	}
-	uv0.weapon_property_124[65525] = {
-		id = 65525,
-		name = "纽伦堡 训练有素LV5",
-		damage = 10,
-		base = 65521
-	}
-	uv0.weapon_property_124[65526] = {
-		id = 65526,
-		name = "纽伦堡 训练有素LV6",
-		damage = 11,
-		base = 65521
-	}
-	uv0.weapon_property_124[65527] = {
-		id = 65527,
-		name = "纽伦堡 训练有素LV7",
-		damage = 12,
-		base = 65521
-	}
-	uv0.weapon_property_124[65528] = {
-		id = 65528,
-		name = "纽伦堡 训练有素LV8",
-		damage = 13,
-		base = 65521
 	}
 end()

@@ -2,131 +2,6 @@ pg = pg or {}
 pg.weapon_property_152 = {}
 
 function ()
-	uv0.weapon_property_152[68028] = {
-		name = "邦克山技能战斗机Lv8",
-		damage = 75,
-		base = 68021,
-		id = 68028,
-		bullet_ID = {
-			68028
-		}
-	}
-	uv0.weapon_property_152[68029] = {
-		name = "邦克山技能战斗机Lv9",
-		damage = 81,
-		base = 68021,
-		id = 68029,
-		bullet_ID = {
-			68029
-		}
-	}
-	uv0.weapon_property_152[68030] = {
-		name = "邦克山技能战斗机Lv10",
-		damage = 86,
-		base = 68021,
-		id = 68030,
-		bullet_ID = {
-			68030
-		}
-	}
-	uv0.weapon_property_152[68031] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "邦克山技能轰炸机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 5,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 68031,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68031
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_152[68032] = {
-		name = "邦克山技能轰炸机Lv2",
-		damage = 78,
-		base = 68031,
-		id = 68032,
-		bullet_ID = {
-			68032
-		}
-	}
-	uv0.weapon_property_152[68033] = {
-		name = "邦克山技能轰炸机Lv3",
-		damage = 91,
-		base = 68031,
-		id = 68033,
-		bullet_ID = {
-			68033
-		}
-	}
-	uv0.weapon_property_152[68034] = {
-		name = "邦克山技能轰炸机Lv4",
-		damage = 103,
-		base = 68031,
-		id = 68034,
-		bullet_ID = {
-			68034
-		}
-	}
-	uv0.weapon_property_152[68035] = {
-		name = "邦克山技能轰炸机Lv5",
-		damage = 116,
-		base = 68031,
-		id = 68035,
-		bullet_ID = {
-			68035
-		}
-	}
-	uv0.weapon_property_152[68036] = {
-		name = "邦克山技能轰炸机Lv6",
-		damage = 129,
-		base = 68031,
-		id = 68036,
-		bullet_ID = {
-			68036
-		}
-	}
-	uv0.weapon_property_152[68037] = {
-		name = "邦克山技能轰炸机Lv7",
-		damage = 141,
-		base = 68031,
-		id = 68037,
-		bullet_ID = {
-			68037
-		}
-	}
 	uv0.weapon_property_152[68038] = {
 		name = "邦克山技能轰炸机Lv8",
 		damage = 154,
@@ -598,5 +473,195 @@ function ()
 		id = 68090,
 		damage = 10,
 		base = 68081
+	}
+	uv0.weapon_property_152[68091] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "吾妻技能小子弹I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 68091,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_152[68092] = {
+		id = 68092,
+		damage = 7,
+		base = 68091
+	}
+	uv0.weapon_property_152[68093] = {
+		id = 68093,
+		damage = 8,
+		base = 68091
+	}
+	uv0.weapon_property_152[68094] = {
+		id = 68094,
+		damage = 9,
+		base = 68091
+	}
+	uv0.weapon_property_152[68095] = {
+		id = 68095,
+		damage = 10,
+		base = 68091
+	}
+	uv0.weapon_property_152[68096] = {
+		id = 68096,
+		damage = 11,
+		base = 68091
+	}
+	uv0.weapon_property_152[68097] = {
+		damage = 12,
+		base = 68091,
+		id = 68097,
+		bullet_ID = {
+			19995,
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557,
+			80558
+		}
+	}
+	uv0.weapon_property_152[68098] = {
+		damage = 13,
+		base = 68091,
+		id = 68098,
+		bullet_ID = {
+			19995,
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557,
+			80558
+		}
+	}
+	uv0.weapon_property_152[68099] = {
+		damage = 14,
+		base = 68091,
+		id = 68099,
+		bullet_ID = {
+			19995,
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557,
+			80558
+		}
+	}
+	uv0.weapon_property_152[68100] = {
+		damage = 15,
+		base = 68091,
+		id = 68100,
+		bullet_ID = {
+			19995,
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557,
+			80558
+		}
+	}
+	uv0.weapon_property_152[68101] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "吾妻技能跨射子弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 68101,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19994
+		},
+		barrage_ID = {
+			80551
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
 	}
 end()

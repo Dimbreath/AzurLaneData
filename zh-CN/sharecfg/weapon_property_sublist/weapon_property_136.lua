@@ -2,6 +2,60 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 function ()
+	uv0.weapon_property_136[66423] = {
+		name = "胡蜂技能LV3",
+		damage = 28,
+		base = 66420,
+		id = 66423,
+		bullet_ID = {
+			27003
+		}
+	}
+	uv0.weapon_property_136[66424] = {
+		name = "胡蜂技能LV4",
+		damage = 32,
+		base = 66420,
+		id = 66424,
+		bullet_ID = {
+			27004
+		}
+	}
+	uv0.weapon_property_136[66425] = {
+		name = "胡蜂技能LV5",
+		damage = 34,
+		base = 66420,
+		id = 66425,
+		bullet_ID = {
+			27005
+		}
+	}
+	uv0.weapon_property_136[66426] = {
+		name = "胡蜂技能LV6",
+		damage = 36,
+		base = 66420,
+		id = 66426,
+		bullet_ID = {
+			27006
+		}
+	}
+	uv0.weapon_property_136[66427] = {
+		name = "胡蜂技能LV7",
+		damage = 38,
+		base = 66420,
+		id = 66427,
+		bullet_ID = {
+			27007
+		}
+	}
+	uv0.weapon_property_136[66428] = {
+		name = "胡蜂技能LV8",
+		damage = 40,
+		base = 66420,
+		id = 66428,
+		bullet_ID = {
+			27008
+		}
+	}
 	uv0.weapon_property_136[66429] = {
 		name = "胡蜂技能LV9",
 		damage = 44,
@@ -820,41 +874,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_136[66561] = {
-		id = 66561,
-		name = "众神之怒·雪崩雷震-冰球LV1",
-		damage = 10,
-		base = 66560
-	}
-	uv0.weapon_property_136[66562] = {
-		id = 66562,
-		name = "众神之怒·雪崩雷震-冰球LV2",
-		damage = 11,
-		base = 66560
-	}
-	uv0.weapon_property_136[66563] = {
-		id = 66563,
-		name = "众神之怒·雪崩雷震-冰球LV3",
-		damage = 12,
-		base = 66560
-	}
-	uv0.weapon_property_136[66564] = {
-		name = "众神之怒·雪崩雷震-冰球LV4",
-		damage = 13,
-		base = 66560,
-		id = 66564,
-		barrage_ID = {
-			80372
-		}
-	}
-	uv0.weapon_property_136[66565] = {
-		name = "众神之怒·雪崩雷震-冰球LV5",
-		damage = 14,
-		base = 66560,
-		id = 66565,
-		barrage_ID = {
-			80372
-		}
 	}
 end()

@@ -2,6 +2,141 @@ pg = pg or {}
 pg.weapon_property_131 = {}
 
 function ()
+	uv0.weapon_property_131[65906] = {
+		id = 65906,
+		name = "阿布鲁齐技能弹幕-LV6",
+		damage = 16,
+		base = 65901
+	}
+	uv0.weapon_property_131[65907] = {
+		name = "阿布鲁齐技能弹幕-LV7",
+		damage = 18,
+		base = 65901,
+		id = 65907,
+		barrage_ID = {
+			81062,
+			81063
+		}
+	}
+	uv0.weapon_property_131[65908] = {
+		name = "阿布鲁齐技能弹幕-LV8",
+		damage = 20,
+		base = 65901,
+		id = 65908,
+		barrage_ID = {
+			81062,
+			81063
+		}
+	}
+	uv0.weapon_property_131[65909] = {
+		name = "阿布鲁齐技能弹幕-LV9",
+		damage = 22,
+		base = 65901,
+		id = 65909,
+		barrage_ID = {
+			81062,
+			81063
+		}
+	}
+	uv0.weapon_property_131[65910] = {
+		name = "阿布鲁齐技能弹幕-LV10",
+		damage = 26,
+		base = 65901,
+		id = 65910,
+		barrage_ID = {
+			81062,
+			81063
+		}
+	}
+	uv0.weapon_property_131[65911] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "天鹰技能G.50Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 65911,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2490,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65911
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_131[65912] = {
+		name = "天鹰技能G.50Lv2",
+		damage = 1,
+		base = 65911,
+		id = 65912,
+		bullet_ID = {
+			65912
+		}
+	}
+	uv0.weapon_property_131[65913] = {
+		name = "天鹰技能G.50Lv3",
+		damage = 1,
+		base = 65911,
+		id = 65913,
+		bullet_ID = {
+			65913
+		}
+	}
+	uv0.weapon_property_131[65914] = {
+		name = "天鹰技能G.50Lv4",
+		damage = 1,
+		base = 65911,
+		id = 65914,
+		bullet_ID = {
+			65914
+		}
+	}
+	uv0.weapon_property_131[65915] = {
+		name = "天鹰技能G.50Lv5",
+		damage = 1,
+		base = 65911,
+		id = 65915,
+		bullet_ID = {
+			65915
+		}
+	}
+	uv0.weapon_property_131[65916] = {
+		name = "天鹰技能G.50Lv6",
+		damage = 1,
+		base = 65911,
+		id = 65916,
+		bullet_ID = {
+			65916
+		}
+	}
 	uv0.weapon_property_131[65917] = {
 		name = "天鹰技能G.50Lv7",
 		damage = 1,
@@ -630,107 +765,5 @@ function ()
 		name = "旧金山技能追星19HitLv9",
 		damage = 13,
 		base = 65961
-	}
-	uv0.weapon_property_131[65970] = {
-		id = 65970,
-		name = "旧金山技能追星19HitLv10",
-		damage = 15,
-		base = 65961
-	}
-	uv0.weapon_property_131[65971] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "新泽西定点生成小弹幕-Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 25,
-		id = 65971,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19294,
-			19294
-		},
-		barrage_ID = {
-			81100,
-			81104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		spawn_bound = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_131[65972] = {
-		id = 65972,
-		name = "新泽西定点生成小弹幕-Lv2",
-		damage = 12,
-		base = 65971
-	}
-	uv0.weapon_property_131[65973] = {
-		id = 65973,
-		name = "新泽西定点生成小弹幕-Lv3",
-		damage = 13,
-		base = 65971
-	}
-	uv0.weapon_property_131[65974] = {
-		id = 65974,
-		name = "新泽西定点生成小弹幕-Lv4",
-		damage = 14,
-		base = 65971
-	}
-	uv0.weapon_property_131[65975] = {
-		id = 65975,
-		name = "新泽西定点生成小弹幕-Lv5",
-		damage = 15,
-		base = 65971
-	}
-	uv0.weapon_property_131[65976] = {
-		id = 65976,
-		name = "新泽西定点生成小弹幕-Lv6",
-		damage = 16,
-		base = 65971
-	}
-	uv0.weapon_property_131[65977] = {
-		id = 65977,
-		name = "新泽西定点生成小弹幕-Lv7",
-		damage = 17,
-		base = 65971
-	}
-	uv0.weapon_property_131[65978] = {
-		id = 65978,
-		name = "新泽西定点生成小弹幕-Lv8",
-		damage = 18,
-		base = 65971
-	}
-	uv0.weapon_property_131[65979] = {
-		id = 65979,
-		name = "新泽西定点生成小弹幕-Lv9",
-		damage = 19,
-		base = 65971
 	}
 end()

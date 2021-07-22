@@ -138,6 +138,12 @@ function slot0.register(slot0)
 				uv0:updateExtraFlag(slot1, slot0.add_flag_list, slot0.del_flag_list)
 			end
 
+			if #slot0.buff_list > 0 then
+				slot2 = bit.bor(slot2, ChapterConst.DirtyStrategyComboPanel)
+
+				slot1:UpdateBuffList(slot0.buff_list)
+			end
+
 			uv0:updateChapter(slot1, slot2)
 		end
 	end)
@@ -150,7 +156,6 @@ function slot0.register(slot0)
 	slot0.defeatedEnemiesBuffer = {}
 	slot0.comboHistoryBuffer = {}
 	slot0.justClearChapters = {}
-	slot0.outStageHPChanges = {}
 	slot0.chaptersExtend = {}
 
 	slot0:buildMaps()
@@ -948,18 +953,6 @@ end
 
 function slot0.GetLastDefeatedEnemy(slot0, slot1)
 	return slot0.defeatedEnemiesBuffer[slot1]
-end
-
-function slot0.RecordOutStageHPChanges(slot0, slot1, slot2)
-	if not slot1 or slot1 <= 0 then
-		return
-	end
-
-	slot0.outStageHPChanges[slot1] = slot2 and (slot0.outStageHPChanges[slot1] or 0) + slot2 or nil
-end
-
-function slot0.GetOutStageHPChanges(slot0, slot1)
-	return slot0.outStageHPChanges[slot1] or 0
 end
 
 function slot0.ifShowRemasterTip(slot0)

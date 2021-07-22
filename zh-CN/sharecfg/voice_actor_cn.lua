@@ -1119,5 +1119,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "三泽纱千香",
 		code = 280
+	},
+	{
+		actor_name = "若林直美",
+		code = 281
 	}
 }

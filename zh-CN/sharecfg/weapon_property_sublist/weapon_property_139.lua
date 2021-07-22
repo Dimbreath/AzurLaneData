@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_139 = {}
 
 function ()
+	uv0.weapon_property_139[66808] = {
+		id = 66808,
+		name = "伊吹鱼雷LV8",
+		damage = 86,
+		base = 66800
+	}
+	uv0.weapon_property_139[66809] = {
+		id = 66809,
+		name = "伊吹鱼雷LV9",
+		damage = 95,
+		base = 66800
+	}
+	uv0.weapon_property_139[66810] = {
+		id = 66810,
+		name = "伊吹鱼雷LV10",
+		damage = 104,
+		base = 66800
+	}
 	uv0.weapon_property_139[66820] = {
 		action_index = "",
 		range = 90,
@@ -715,34 +733,6 @@ function ()
 		barrage_ID = {
 			80132,
 			80133
-		}
-	}
-	uv0.weapon_property_139[66926] = {
-		name = "I19穿透鱼雷LV6",
-		damage = 36,
-		base = 66920,
-		id = 66926,
-		bullet_ID = {
-			19933,
-			19933
-		},
-		barrage_ID = {
-			80132,
-			80133
-		}
-	}
-	uv0.weapon_property_139[66927] = {
-		name = "I19穿透鱼雷LV7",
-		damage = 39,
-		base = 66920,
-		id = 66927,
-		bullet_ID = {
-			19933,
-			19933
-		},
-		barrage_ID = {
-			80134,
-			80135
 		}
 	}
 end()

@@ -2,6 +2,86 @@ pg = pg or {}
 pg.weapon_property_135 = {}
 
 function ()
+	uv0.weapon_property_135[66305] = {
+		id = 66305,
+		name = "强袭模式·EX鱼雷LV5",
+		damage = 101,
+		base = 66300
+	}
+	uv0.weapon_property_135[66306] = {
+		id = 66306,
+		name = "强袭模式·EX鱼雷LV6",
+		damage = 112,
+		base = 66300
+	}
+	uv0.weapon_property_135[66307] = {
+		id = 66307,
+		name = "强袭模式·EX鱼雷LV7",
+		damage = 123,
+		base = 66300
+	}
+	uv0.weapon_property_135[66308] = {
+		id = 66308,
+		name = "强袭模式·EX鱼雷LV8",
+		damage = 134,
+		base = 66300
+	}
+	uv0.weapon_property_135[66309] = {
+		id = 66309,
+		name = "强袭模式·EX鱼雷LV9",
+		damage = 145,
+		base = 66300
+	}
+	uv0.weapon_property_135[66310] = {
+		id = 66310,
+		name = "强袭模式·EX鱼雷LV10",
+		damage = 156,
+		base = 66300
+	}
+	uv0.weapon_property_135[66320] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "鬼神演舞弹幕LV0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 66320,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19902
+		},
+		barrage_ID = {
+			80101
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_135[66321] = {
 		id = 66321,
 		name = "鬼神演舞弹幕LV1",
@@ -840,60 +920,6 @@ function ()
 		id = 66422,
 		bullet_ID = {
 			27002
-		}
-	}
-	uv0.weapon_property_135[66423] = {
-		name = "胡蜂技能LV3",
-		damage = 28,
-		base = 66420,
-		id = 66423,
-		bullet_ID = {
-			27003
-		}
-	}
-	uv0.weapon_property_135[66424] = {
-		name = "胡蜂技能LV4",
-		damage = 32,
-		base = 66420,
-		id = 66424,
-		bullet_ID = {
-			27004
-		}
-	}
-	uv0.weapon_property_135[66425] = {
-		name = "胡蜂技能LV5",
-		damage = 34,
-		base = 66420,
-		id = 66425,
-		bullet_ID = {
-			27005
-		}
-	}
-	uv0.weapon_property_135[66426] = {
-		name = "胡蜂技能LV6",
-		damage = 36,
-		base = 66420,
-		id = 66426,
-		bullet_ID = {
-			27006
-		}
-	}
-	uv0.weapon_property_135[66427] = {
-		name = "胡蜂技能LV7",
-		damage = 38,
-		base = 66420,
-		id = 66427,
-		bullet_ID = {
-			27007
-		}
-	}
-	uv0.weapon_property_135[66428] = {
-		name = "胡蜂技能LV8",
-		damage = 40,
-		base = 66420,
-		id = 66428,
-		bullet_ID = {
-			27008
 		}
 	}
 end()

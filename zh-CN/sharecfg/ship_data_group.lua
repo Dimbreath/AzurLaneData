@@ -18994,6 +18994,223 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[10071] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10071,
+		group_type = 1070001,
+		code = 10071,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10072] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10072,
+		group_type = 1070002,
+		code = 10072,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10073] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10073,
+		group_type = 1070003,
+		code = 10073,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10074] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10074,
+		group_type = 1070004,
+		code = 10074,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10075] = {
+		type = 19,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10075,
+		group_type = 1070005,
+		code = 10075,
+		property_hexagon = {
+			"D",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10076] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10076,
+		group_type = 1070006,
+		code = 10076,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10077] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		nationality = 107,
+		hide = 0,
+		index_id = 10077,
+		group_type = 1070007,
+		code = 10077,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：响彻碧海的偶像歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		type = 2,
 		trans_skin = 0,
@@ -20319,6 +20536,13 @@ pg.ship_data_group = {
 		10065,
 		10066,
 		10067,
+		10071,
+		10072,
+		10073,
+		10074,
+		10075,
+		10076,
+		10077,
 		20001,
 		20002,
 		20003,

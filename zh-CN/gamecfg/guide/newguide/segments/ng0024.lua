@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "META研究室中拥有<color=#ff5c5c>能量激活</color>、<color=#ff5c5c>舰装强化</color>、<color=#ff5c5c>战术养成</color>、<color=#ff5c5c>资讯同步</color>四个系统模块。",
+				text = "META研究室中拥有<color=#ff5c5c>能量激活</color>、<color=#ff5c5c>舰装强化</color>、<color=#ff5c5c>战术研习</color>、<color=#ff5c5c>资讯同步</color>四个系统模块。",
 				mode = 2,
 				dir = 1,
 				posY = -230.2,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "来看看META角色的战术养成吧。",
+				text = "来看看META角色的战术研习吧。",
 				mode = 2,
 				dir = 1,
 				posY = -186.8,

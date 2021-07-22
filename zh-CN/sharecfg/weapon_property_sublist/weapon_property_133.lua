@@ -2,6 +2,150 @@ pg = pg or {}
 pg.weapon_property_133 = {}
 
 function ()
+	uv0.weapon_property_133[66069] = {
+		name = "胡德技能LV9-PVE",
+		damage = 158,
+		base = 66060,
+		id = 66069,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199441,
+			199442,
+			199443
+		}
+	}
+	uv0.weapon_property_133[66070] = {
+		name = "胡德技能LV10-PVE",
+		damage = 174,
+		base = 66060,
+		id = 66070,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199441,
+			199442,
+			199443
+		}
+	}
+	uv0.weapon_property_133[66080] = {
+		action_index = "attack",
+		range = 115,
+		type = 19,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "宾夕法尼亚技能LV0-PVP",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 35,
+		id = 66080,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1250,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[66081] = {
+		id = 66081,
+		name = "宾夕法尼亚技能LV1-PVP",
+		damage = 48,
+		base = 66080
+	}
+	uv0.weapon_property_133[66082] = {
+		id = 66082,
+		name = "宾夕法尼亚技能LV2-PVP",
+		damage = 56,
+		base = 66080
+	}
+	uv0.weapon_property_133[66083] = {
+		id = 66083,
+		name = "宾夕法尼亚技能LV3-PVP",
+		damage = 64,
+		base = 66080
+	}
+	uv0.weapon_property_133[66084] = {
+		name = "宾夕法尼亚技能LV4-PVP",
+		damage = 72,
+		base = 66080,
+		id = 66084,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402
+		}
+	}
+	uv0.weapon_property_133[66085] = {
+		name = "宾夕法尼亚技能LV5-PVP",
+		damage = 80,
+		base = 66080,
+		id = 66085,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402
+		}
+	}
+	uv0.weapon_property_133[66086] = {
+		name = "宾夕法尼亚技能LV6-PVP",
+		damage = 88,
+		base = 66080,
+		id = 66086,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402
+		}
+	}
 	uv0.weapon_property_133[66087] = {
 		name = "宾夕法尼亚技能LV7-PVP",
 		damage = 96,
@@ -723,103 +867,5 @@ function ()
 		bullet_ID = {
 			19984
 		}
-	}
-	uv0.weapon_property_133[66187] = {
-		name = "沙恩霍斯特技能Lv7",
-		damage = 85,
-		base = 66180,
-		id = 66187,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_133[66188] = {
-		name = "沙恩霍斯特技能Lv8",
-		damage = 92,
-		base = 66180,
-		id = 66188,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_133[66189] = {
-		name = "沙恩霍斯特技能Lv9",
-		damage = 99,
-		base = 66180,
-		id = 66189,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_133[66190] = {
-		name = "沙恩霍斯特技能Lv10",
-		damage = 106,
-		base = 66180,
-		id = 66190,
-		bullet_ID = {
-			19984
-		}
-	}
-	uv0.weapon_property_133[66200] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "提尔比茨技能磁性鱼雷Lv0",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 55,
-		corrected = 100,
-		min_range = 0,
-		id = 66200,
-		attack_attribute_ratio = 150,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1804
-		},
-		barrage_ID = {
-			1409
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_133[66201] = {
-		id = 66201,
-		name = "提尔比茨技能磁性鱼雷Lv1",
-		damage = 63,
-		base = 66200
-	}
-	uv0.weapon_property_133[66202] = {
-		id = 66202,
-		name = "提尔比茨技能磁性鱼雷Lv2",
-		damage = 71,
-		base = 66200
-	}
-	uv0.weapon_property_133[66203] = {
-		id = 66203,
-		name = "提尔比茨技能磁性鱼雷Lv3",
-		damage = 79,
-		base = 66200
 	}
 end()

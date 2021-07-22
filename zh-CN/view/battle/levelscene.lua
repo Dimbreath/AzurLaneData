@@ -995,6 +995,10 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot0.grid:UpdateItemCells()
 		end
 
+		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyStrategyComboPanel) > 0 then
+			slot0.levelStageView:UpdateDOALinkFeverPanel()
+		end
+
 		if slot6 then
 			slot0.levelStageView:updateFleetBuff()
 		end
@@ -2000,11 +2004,11 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 			function (slot0)
 				slot1 = getProxy(ChapterProxy)
 
-				uv1.levelStageView:UpdateComboPanel(slot1:GetComboHistory(uv0.id))
-				slot1:RecordComboHistory(uv0.id, nil)
-				uv1.levelStageView:UpdateDOALinkFeverPanel(slot1:GetLastDefeatedEnemy(uv0.id))
-				slot1:RecordLastDefeatedEnemy(uv0.id, nil)
-				uv1.levelStageView:tryAutoAction(slot0)
+				uv0.levelStageView:UpdateComboPanel()
+				slot1:RecordComboHistory(uv1.id, nil)
+				uv0.levelStageView:UpdateDOALinkFeverPanel()
+				slot1:RecordLastDefeatedEnemy(uv1.id, nil)
+				uv0.levelStageView:tryAutoAction(slot0)
 			end,
 			function (slot0)
 				if uv0.exited then

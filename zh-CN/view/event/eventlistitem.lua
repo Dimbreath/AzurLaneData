@@ -80,12 +80,12 @@ function slot0.Flush(slot0)
 
 	LoadImageSpriteAsync("eventtype/" .. slot0.event.template.icon, slot0.iconType, true)
 
-	slot1 = slot0.event:IsActivityType()
+	slot0.iconType.transform.localScale = slot0.event:IsActivityType() and Vector3.one or Vector3(1.5, 1.5, 1.5)
 
 	setActive(slot0.activityLimitBg, slot1)
 	setActive(slot0.shadow.gameObject, not slot1)
 
-	slot0.timerBg.color = slot1 and Color.New(0.3843137254901961, 0.17254901960784313, 0.4392156862745098, 0.5) or Color.New(1, 1, 1, 1)
+	slot0.timerBg.color = slot1 and Color.New(0, 0, 0, 0) or Color.New(1, 1, 1, 1)
 	slot0.label.color = slot1 and Color.New(0.9411764705882353, 0.803921568627451, 1, 1) or Color.New(0.6431372549019608, 0.8117647058823529, 0.9725490196078431, 1)
 
 	eachChild(slot0.iconState, function (slot0)

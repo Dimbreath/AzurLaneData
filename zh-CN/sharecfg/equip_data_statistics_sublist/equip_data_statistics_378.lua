@@ -1,5 +1,36 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
+	[89127] = {
+		id = 89127,
+		value_2 = 6,
+		value_1 = "200",
+		base = 89120
+	},
+	[89128] = {
+		id = 89128,
+		value_2 = 7,
+		value_1 = "215",
+		base = 89120
+	},
+	[89129] = {
+		id = 89129,
+		value_2 = 7,
+		value_1 = "230",
+		base = 89120
+	},
+	[89130] = {
+		id = 89130,
+		value_2 = 8,
+		value_1 = "245",
+		base = 89120
+	},
+	[89131] = {
+		id = 89131,
+		anti_siren = 100,
+		base = 89120,
+		value_2 = 8,
+		value_1 = "260"
+	},
 	[89132] = {
 		id = 89132,
 		anti_siren = 200,
@@ -101,66 +132,5 @@ pg.equip_data_statistics_378 = {
 		value_2 = 28,
 		value_1 = "32",
 		base = 89140
-	},
-	[89150] = {
-		id = 89150,
-		value_2 = 30,
-		value_1 = "35",
-		base = 89140
-	},
-	[89151] = {
-		id = 89151,
-		anti_siren = 100,
-		base = 89140,
-		value_2 = 32,
-		value_1 = "38"
-	},
-	[89152] = {
-		id = 89152,
-		anti_siren = 200,
-		base = 89140,
-		value_2 = 34,
-		value_1 = "41"
-	},
-	[89153] = {
-		id = 89153,
-		anti_siren = 300,
-		base = 89140,
-		value_2 = 36,
-		value_1 = "44"
-	},
-	[89160] = {
-		name = "活力之歌",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89160,
-		value_2 = 15,
-		icon = "89160",
-		value_1 = "14",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "偶像组合「Lumière」所使用的麦克风",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antiaircraft",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6711
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

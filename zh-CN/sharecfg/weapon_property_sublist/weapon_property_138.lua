@@ -2,6 +2,73 @@ pg = pg or {}
 pg.weapon_property_138 = {}
 
 function ()
+	uv0.weapon_property_138[66690] = {
+		id = 66690,
+		name = "拉菲技能鱼雷LV10",
+		damage = 156,
+		base = 66680
+	}
+	uv0.weapon_property_138[66700] = {
+		action_index = "attack_main",
+		range = 95,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "雾岛三式烧夷弹弹幕Lv0-PVE",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 10,
+		corrected = 110,
+		min_range = 50,
+		id = 66700,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_138[66701] = {
+		id = 66701,
+		name = "雾岛三式烧夷弹弹幕Lv1-PVE",
+		damage = 11,
+		base = 66700
+	}
+	uv0.weapon_property_138[66702] = {
+		id = 66702,
+		name = "雾岛三式烧夷弹弹幕Lv2-PVE",
+		damage = 12,
+		base = 66700
+	}
 	uv0.weapon_property_138[66703] = {
 		id = 66703,
 		name = "雾岛三式烧夷弹弹幕Lv3-PVE",
@@ -921,24 +988,6 @@ function ()
 		id = 66807,
 		name = "伊吹鱼雷LV7",
 		damage = 78,
-		base = 66800
-	}
-	uv0.weapon_property_138[66808] = {
-		id = 66808,
-		name = "伊吹鱼雷LV8",
-		damage = 86,
-		base = 66800
-	}
-	uv0.weapon_property_138[66809] = {
-		id = 66809,
-		name = "伊吹鱼雷LV9",
-		damage = 95,
-		base = 66800
-	}
-	uv0.weapon_property_138[66810] = {
-		id = 66810,
-		name = "伊吹鱼雷LV10",
-		damage = 104,
 		base = 66800
 	}
 end()

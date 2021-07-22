@@ -2,27 +2,946 @@ pg = pg or {}
 pg.weapon_property_342 = {}
 
 function ()
-	uv0.weapon_property_342[784314] = {
-		name = "【2021意大利活动SP】塞壬自爆船R型特殊武器",
-		damage = 30,
-		base = 1000871,
-		id = 784314,
-		bullet_ID = {
-			830006
-		},
+	uv0.weapon_property_342[819015] = {
+		aim_type = 1,
+		name = "【偶像大师联动】舰载轰炸机V",
+		damage = 0,
+		base = 1002,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819015,
 		barrage_ID = {
-			700029
+			12015
 		}
 	}
-	uv0.weapon_property_342[784315] = {
-		name = "【2021意大利活动SP】精英人形 光辉 扫射弹幕",
-		damage = 26,
+	uv0.weapon_property_342[819021] = {
+		aim_type = 0,
+		range = 120,
+		damage = 14,
 		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1000,
+		name = "【偶像大师联动】测试武器1",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 1200,
 		fire_sfx = "battle/cannon-main",
 		queue = 1,
-		id = 784315,
+		id = 819021,
+		bullet_ID = {
+			852001,
+			852002,
+			852003,
+			852004
+		},
+		barrage_ID = {
+			852001,
+			852001,
+			852001,
+			852001
+		}
+	}
+	uv0.weapon_property_342[819022] = {
+		aim_type = 0,
+		range = 120,
+		damage = 14,
+		base = 1000,
+		name = "【偶像大师联动】测试武器2",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 1200,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 819022,
+		bullet_ID = {
+			852011
+		},
+		barrage_ID = {
+			852011
+		}
+	}
+	uv0.weapon_property_342[819023] = {
+		action_index = "attack",
+		range = 120,
+		type = 24,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【偶像大师联动】测试武器3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 819023,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			852021
+		},
+		barrage_ID = {
+			852021
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_342[819024] = {
+		aim_type = 0,
+		range = 120,
+		damage = 14,
+		base = 1000,
+		name = "【偶像大师联动】测试武器4",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 1200,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 819024,
+		bullet_ID = {
+			852101,
+			852102
+		},
+		barrage_ID = {
+			852101,
+			852102
+		}
+	}
+	uv0.weapon_property_342[819101] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP1】精英人形 三浦梓 旋转穿透弹",
+		damage = 45,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2400,
+		queue = 1,
+		id = 819101,
+		bullet_ID = {
+			852101,
+			852102
+		},
+		barrage_ID = {
+			852101,
+			852102
+		}
+	}
+	uv0.weapon_property_342[819102] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP1】精英人形 三浦梓 扩散曲弹",
+		damage = 45,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2800,
+		queue = 1,
+		id = 819102,
+		bullet_ID = {
+			852103
+		},
+		barrage_ID = {
+			852103
+		}
+	}
+	uv0.weapon_property_342[819111] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP1】BOSS 水濑伊织 Q版近程自卫火炮",
+		damage = 6,
+		base = 1004,
+		charge_param = "",
+		reload_max = 500,
+		queue = 5,
+		id = 819111,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_342[819112] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP1】BOSS 水濑伊织 双联装炮",
+		damage = 10,
+		base = 1000,
+		charge_param = "",
+		reload_max = 800,
+		queue = 1,
+		id = 819112,
+		bullet_ID = {
+			852201
+		},
+		barrage_ID = {
+			852201
+		}
+	}
+	uv0.weapon_property_342[819113] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP1】BOSS 水濑伊织 主炮弹幕1",
+		damage = 10,
+		base = 1000,
+		charge_param = "",
+		reload_max = 1600,
+		queue = 1,
+		id = 819113,
+		bullet_ID = {
+			852211,
+			852212,
+			852213,
+			852214,
+			852215,
+			852216
+		},
+		barrage_ID = {
+			852211,
+			852212,
+			852213,
+			852214,
+			852215,
+			852216
+		}
+	}
+	uv0.weapon_property_342[819114] = {
+		aim_type = 0,
+		name = "【偶像大师联动SP1】BOSS 水濑伊织 主炮弹幕2",
+		damage = 10,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2400,
+		queue = 1,
+		id = 819114,
+		bullet_ID = {
+			852221,
+			852222,
+			852223,
+			852224
+		},
+		barrage_ID = {
+			852221,
+			852222,
+			852223,
+			852224
+		}
+	}
+	uv0.weapon_property_342[819115] = {
+		aim_type = 1,
+		damage = 12,
+		base = 1000,
+		name = "【偶像大师联动SP1】BOSS 水濑伊织 前排跨射主炮",
+		type = 19,
+		charge_param = "",
+		reload_max = 2600,
+		initial_over_heat = 1,
+		queue = 3,
+		id = 819115,
+		bullet_ID = {
+			852231
+		},
+		barrage_ID = {
+			852231
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 3
+		}
+	}
+	uv0.weapon_property_342[819116] = {
+		range = 150,
+		damage = 16,
+		base = 1000,
+		type = 19,
+		aim_type = 1,
+		min_range = 75,
+		name = "【偶像大师联动SP1】BOSS 水濑伊织 后排跨射主炮",
+		reload_max = 3200,
+		initial_over_heat = 1,
+		charge_param = "",
+		queue = 3,
+		id = 819116,
+		bullet_ID = {
+			800006
+		},
+		barrage_ID = {
+			20018
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 3
+		}
+	}
+	uv0.weapon_property_342[819201] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】精英人形 天海春香 自机狙",
+		damage = 8,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2400,
+		queue = 1,
+		id = 819201,
+		bullet_ID = {
+			852104,
+			852105,
+			852106,
+			852107
+		},
+		barrage_ID = {
+			852104,
+			852105,
+			852106,
+			852107
+		}
+	}
+	uv0.weapon_property_342[819202] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】精英人形 天海春香 慢速随机飘弹",
+		damage = 7,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2000,
+		queue = 1,
+		id = 819202,
+		bullet_ID = {
+			852108,
+			852109
+		},
+		barrage_ID = {
+			852108,
+			852109
+		}
+	}
+	uv0.weapon_property_342[819203] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】精英人形 天海春香 扫射弹幕",
+		damage = 6,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2400,
+		queue = 1,
+		id = 819203,
+		bullet_ID = {
+			852110,
+			852110
+		},
+		barrage_ID = {
+			852110,
+			852111
+		}
+	}
+	uv0.weapon_property_342[819211] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】BOSS 三浦梓 Q版近程自卫火炮",
+		damage = 7,
+		base = 1004,
+		charge_param = "",
+		reload_max = 500,
+		queue = 5,
+		id = 819211,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_342[819212] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】BOSS 三浦梓 双倍旋转穿透弹",
+		damage = 12,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2200,
+		queue = 1,
+		id = 819212,
+		bullet_ID = {
+			852301,
+			852302,
+			852301,
+			852302
+		},
+		barrage_ID = {
+			852301,
+			852302,
+			852303,
+			852304
+		}
+	}
+	uv0.weapon_property_342[819213] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】BOSS 三浦梓 扩散交叉曲弹",
+		damage = 16,
+		base = 1000,
+		initial_over_heat = 1,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819213,
+		bullet_ID = {
+			852311,
+			852312,
+			852313,
+			852314,
+			852315,
+			852316
+		},
+		barrage_ID = {
+			852311,
+			852312,
+			852313,
+			852314,
+			852315,
+			852316
+		}
+	}
+	uv0.weapon_property_342[819214] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】BOSS 三浦梓 广域三角弹",
+		damage = 12,
+		base = 1000,
+		charge_param = "",
+		reload_max = 1400,
+		queue = 1,
+		id = 819214,
+		bullet_ID = {
+			852321
+		},
+		barrage_ID = {
+			852321
+		}
+	}
+	uv0.weapon_property_342[819215] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP2】BOSS 三浦梓 3way自机狙",
+		damage = 16,
+		base = 1000,
+		charge_param = "",
+		reload_max = 1600,
+		queue = 1,
+		id = 819215,
+		bullet_ID = {
+			852331,
+			852332,
+			852333,
+			852334
+		},
+		barrage_ID = {
+			852331,
+			852331,
+			852331,
+			852331
+		}
+	}
+	uv0.weapon_property_342[819216] = {
+		aim_type = 0,
+		range = 90,
+		damage = 10,
+		base = 1000,
+		name = "【偶像大师联动SP2】BOSS 三浦梓 鹤翼直行",
+		corrected = 105,
+		initial_over_heat = 1,
+		reload_max = 3000,
+		charge_param = "",
+		queue = 1,
+		id = 819216,
+		angle = 360,
+		bullet_ID = {
+			990021,
+			990022,
+			990023
+		},
+		barrage_ID = {
+			990021,
+			990022,
+			990023
+		}
+	}
+	uv0.weapon_property_342[819301] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】精英人形 三浦梓 旋转穿透弹",
+		damage = 10,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2400,
+		queue = 1,
+		id = 819301,
+		bullet_ID = {
+			852101,
+			852102
+		},
+		barrage_ID = {
+			852101,
+			852102
+		}
+	}
+	uv0.weapon_property_342[819302] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】精英人形 三浦梓 扩散曲弹",
+		damage = 12,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2800,
+		queue = 1,
+		id = 819302,
+		bullet_ID = {
+			852103
+		},
+		barrage_ID = {
+			852103
+		}
+	}
+	uv0.weapon_property_342[819303] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】精英人形 水濑伊织 主炮弹幕",
+		damage = 12,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2600,
+		queue = 1,
+		id = 819303,
+		bullet_ID = {
+			852111,
+			852111
+		},
+		barrage_ID = {
+			852112,
+			852113
+		}
+	}
+	uv0.weapon_property_342[819304] = {
+		aim_type = 1,
+		damage = 18,
+		base = 1000,
+		name = "【偶像大师联动SP3】精英人形 水濑伊织 前排跨射",
+		type = 19,
+		charge_param = "",
+		reload_max = 3600,
+		queue = 1,
+		id = 819304,
+		bullet_ID = {
+			852112
+		},
+		barrage_ID = {
+			852114
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 3
+		}
+	}
+	uv0.weapon_property_342[819311] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 上浮状态Q版近程自卫火炮",
+		damage = 8,
+		base = 1004,
+		charge_param = "",
+		reload_max = 500,
+		queue = 5,
+		id = 819311,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_342[819312] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 上浮状态主炮",
+		damage = 12,
+		base = 1000,
+		charge_param = "",
+		reload_max = 600,
+		queue = 1,
+		id = 819312,
+		bullet_ID = {
+			852401
+		},
+		barrage_ID = {
+			852401
+		}
+	}
+	uv0.weapon_property_342[819313] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 上浮状态特殊弹幕1",
+		damage = 16,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819313,
+		bullet_ID = {
+			852411,
+			852412,
+			852451
+		},
+		barrage_ID = {
+			852411,
+			852412,
+			852451
+		}
+	}
+	uv0.weapon_property_342[819314] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 上浮状态特殊弹幕2",
+		damage = 16,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819314,
+		bullet_ID = {
+			852421,
+			852421,
+			852451
+		},
+		barrage_ID = {
+			852421,
+			852422,
+			852451
+		}
+	}
+	uv0.weapon_property_342[819315] = {
+		aim_type = 0,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 下潜状态鱼雷1",
+		damage = 30,
+		base = 1001,
+		action_index = "",
+		reload_max = 9999,
+		id = 819315,
+		bullet_ID = {
+			852431,
+			852431,
+			852431
+		},
+		barrage_ID = {
+			810004,
+			810005,
+			810006
+		}
+	}
+	uv0.weapon_property_342[819316] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 下潜状态鱼雷2",
+		damage = 30,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819316,
+		bullet_ID = {
+			852431
+		},
+		barrage_ID = {
+			852431
+		}
+	}
+	uv0.weapon_property_342[819317] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 双海亚美 下潜状态鱼雷3",
+		damage = 30,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819317,
+		bullet_ID = {
+			852441
+		},
+		barrage_ID = {
+			852441
+		}
+	}
+	uv0.weapon_property_342[819318] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 如月千早 Q版近程自卫火炮",
+		damage = 8,
+		base = 1004,
+		charge_param = "",
+		reload_max = 500,
+		queue = 5,
+		id = 819318,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_342[819319] = {
+		aim_type = 1,
+		range = 90,
+		damage = 5,
+		base = 1000,
+		name = "【偶像大师联动SP3】BOSS 如月千早 普通攻击-机枪",
+		corrected = 105,
+		initial_over_heat = 0,
+		reload_max = 600,
+		charge_param = "",
+		queue = 1,
+		id = 819319,
+		angle = 360,
+		bullet_ID = {
+			990281,
+			990281,
+			990281
+		},
+		barrage_ID = {
+			990281,
+			990282,
+			990283
+		}
+	}
+	uv0.weapon_property_342[819320] = {
+		aim_type = 1,
+		range = 999,
+		damage = 16,
+		base = 1000,
+		name = "【偶像大师联动SP3】BOSS 如月千早 扩散圈",
+		corrected = 100,
+		initial_over_heat = 0,
+		reload_max = 3200,
+		charge_param = "",
+		queue = 2,
+		id = 819320,
+		angle = 360,
+		bullet_ID = {
+			730116,
+			730117
+		},
+		barrage_ID = {
+			650001,
+			650002
+		}
+	}
+	uv0.weapon_property_342[819321] = {
+		range = 120,
+		name = "【偶像大师联动SP3】BOSS 如月千早 铁拳侧翼拳风小子弹",
+		damage = 12,
+		base = 1000,
+		initial_over_heat = 1,
+		reload_max = 5000,
+		queue = 2,
+		id = 819321,
+		bullet_ID = {
+			810128,
+			810128,
+			810128,
+			810128
+		},
+		barrage_ID = {
+			820097,
+			820098,
+			820099,
+			820100
+		}
+	}
+	uv0.weapon_property_342[819322] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 如月千早 战斗机",
+		damage = 22,
+		base = 1002,
+		charge_param = "",
+		reload_max = 1200,
+		queue = 3,
+		id = 819322,
+		barrage_ID = {
+			12015
+		}
+	}
+	uv0.weapon_property_342[819323] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 如月千早 鱼雷机",
+		damage = 36,
+		base = 1002,
+		charge_param = "",
+		reload_max = 1200,
+		queue = 4,
+		id = 819323,
+		barrage_ID = {
+			12015
+		}
+	}
+	uv0.weapon_property_342[819324] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP3】BOSS 如月千早 轰炸机",
+		damage = 48,
+		base = 1002,
+		charge_param = "",
+		reload_max = 1200,
+		queue = 3,
+		id = 819324,
+		barrage_ID = {
+			12015
+		}
+	}
+	uv0.weapon_property_342[819325] = {
+		aim_type = 1,
+		range = 85,
+		damage = 22,
+		base = 1005,
+		name = "【偶像大师联动SP3】BOSS 如月千早 战斗机武器-弹幕",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 819325,
+		angle = 180,
+		bullet_ID = {
+			852113,
+			852113,
+			852113,
+			852113
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		}
+	}
+	uv0.weapon_property_342[819326] = {
+		aim_type = 1,
+		range = 200,
+		damage = 22,
+		base = 1006,
+		name = "【偶像大师联动SP3】BOSS 如月千早 战斗机武器-空中",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 48,
+		queue = 1,
+		id = 819326,
+		angle = 180,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		}
+	}
+	uv0.weapon_property_342[819327] = {
+		aim_type = 1,
+		range = 45,
+		damage = 36,
+		base = 1007,
+		name = "【偶像大师联动SP3】BOSS 如月千早 鱼雷机武器",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 819327,
+		angle = 35,
+		bullet_ID = {
+			852114
+		},
+		barrage_ID = {
+			852121
+		}
+	}
+	uv0.weapon_property_342[819328] = {
+		aim_type = 0,
+		range = 1,
+		damage = 48,
+		base = 1008,
+		name = "【偶像大师联动SP3】BOSS 如月千早 轰炸机武器",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 819328,
+		angle = 25,
+		bullet_ID = {
+			852115
+		},
+		barrage_ID = {
+			852122
+		}
+	}
+	uv0.weapon_property_342[819401] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】精英人形 三浦梓 旋转穿透弹",
+		damage = 18,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2400,
+		queue = 1,
+		id = 819401,
+		bullet_ID = {
+			852101,
+			852102
+		},
+		barrage_ID = {
+			852101,
+			852102
+		}
+	}
+	uv0.weapon_property_342[819402] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】精英人形 三浦梓 扩散曲弹",
+		damage = 18,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2800,
+		queue = 1,
+		id = 819402,
+		bullet_ID = {
+			852103
+		},
+		barrage_ID = {
+			852103
+		}
+	}
+	uv0.weapon_property_342[819403] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】精英人形 如月千早 主题战斗机",
+		damage = 16,
+		base = 1002,
+		charge_param = "",
+		reload_max = 1200,
+		queue = 3,
+		id = 819403,
+		barrage_ID = {
+			12015
+		}
+	}
+	uv0.weapon_property_342[819404] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】精英人形 如月千早 主题鱼雷机",
+		damage = 30,
+		base = 1002,
+		charge_param = "",
+		reload_max = 1200,
+		queue = 3,
+		id = 819404,
+		barrage_ID = {
+			12017
+		}
+	}
+	uv0.weapon_property_342[819405] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】精英人形 如月千早 扫射弹幕",
+		damage = 16,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819405,
 		bullet_ID = {
 			1101,
 			1101,
@@ -31,1728 +950,284 @@ function ()
 			1101
 		},
 		barrage_ID = {
-			690134,
-			690135,
-			690136,
-			690137,
-			690138
+			852115,
+			852116,
+			852117,
+			852118,
+			852119
 		}
 	}
-	uv0.weapon_property_342[784316] = {
-		id = 784316,
-		name = "【2021意大利活动SP】塞壬航母R型轰炸机",
-		base = 1001070
-	}
-	uv0.weapon_property_342[784317] = {
-		id = 784317,
-		name = "【2021意大利活动SP】塞壬航母R型战斗机",
-		base = 1001075
-	}
-	uv0.weapon_property_342[784318] = {
+	uv0.weapon_property_342[819406] = {
 		aim_type = 1,
-		damage = 26,
-		base = 1000,
-		name = "【2021意大利活动D】精英人形 可畏 自机狙弹幕",
-		suppress = 1,
-		reload_max = 1500,
+		range = 85,
+		damage = 16,
+		base = 1005,
+		name = "【偶像大师联动SP4】精英人形 如月千早 战斗机武器-弹幕",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 1650,
 		queue = 1,
-		id = 784318,
+		id = 819406,
+		angle = 180,
 		bullet_ID = {
-			740016
+			852113,
+			852113,
+			852113,
+			852113
 		},
 		barrage_ID = {
-			740026
+			101,
+			102,
+			103,
+			104
 		}
 	}
-	uv0.weapon_property_342[789001] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机B3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 789001,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[789002] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机D3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 789002,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[789003] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机SP",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 789003,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[789004] = {
-		action_index = "",
-		range = 1,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机地毯轰炸B3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 789004,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			810108,
-			810109,
-			810110,
-			810111,
-			810112,
-			810113
-		},
-		barrage_ID = {
-			840158,
-			840158,
-			840158,
-			840158,
-			840158,
-			840158
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[789005] = {
-		action_index = "",
-		range = 1,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机地毯轰炸D3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 789005,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			810108,
-			810109,
-			810110,
-			810111,
-			810112,
-			810113
-		},
-		barrage_ID = {
-			840158,
-			840158,
-			840158,
-			840158,
-			840158,
-			840158
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[789006] = {
-		action_index = "",
-		range = 1,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021意大利活动】我方支援飞机地毯轰炸SP",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 789006,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 6000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			810108,
-			810109,
-			810110,
-			810111,
-			810112,
-			810113
-		},
-		barrage_ID = {
-			840158,
-			840158,
-			840158,
-			840158,
-			840158,
-			840158
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[789007] = {
+	uv0.weapon_property_342[819407] = {
+		aim_type = 1,
 		range = 200,
-		damage = 36,
-		base = 1001,
-		aim_type = 0,
-		suppress = 0,
-		min_range = 0,
-		name = "【2021意大利活动】我方支援飞机鱼雷打击B3",
-		reload_max = 6000,
-		action_index = "",
-		attack_attribute = 4,
+		damage = 16,
+		base = 1006,
+		name = "【偶像大师联动SP4】精英人形 如月千早 战斗机武器-空中",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 48,
 		queue = 1,
-		id = 789007,
-		angle = 360,
+		id = 819407,
+		angle = 180,
 		bullet_ID = {
-			830088
+			10004
 		},
 		barrage_ID = {
-			840157
+			5
 		}
 	}
-	uv0.weapon_property_342[789008] = {
-		range = 200,
-		damage = 56,
-		base = 1001,
+	uv0.weapon_property_342[819408] = {
 		aim_type = 0,
-		suppress = 0,
-		min_range = 0,
-		name = "【2021意大利活动】我方支援飞机鱼雷打击D3",
-		reload_max = 6000,
-		action_index = "",
-		attack_attribute = 4,
+		range = 45,
+		damage = 30,
+		base = 1007,
+		name = "【偶像大师联动SP4】精英人形 如月千早 鱼雷机武器",
+		initial_over_heat = 0,
+		charge_param = "",
+		reload_max = 1650,
 		queue = 1,
-		id = 789008,
-		angle = 360,
+		id = 819408,
+		angle = 35,
 		bullet_ID = {
-			830088
+			852114
 		},
 		barrage_ID = {
-			840157
+			852121
 		}
 	}
-	uv0.weapon_property_342[789009] = {
-		range = 200,
-		damage = 68,
-		base = 1001,
-		aim_type = 0,
-		suppress = 0,
-		min_range = 0,
-		name = "【2021意大利活动】我方支援飞机鱼雷打击SP",
-		reload_max = 6000,
-		action_index = "",
-		attack_attribute = 4,
-		queue = 1,
-		id = 789009,
-		angle = 360,
-		bullet_ID = {
-			830088
-		},
-		barrage_ID = {
-			840157
-		}
-	}
-	uv0.weapon_property_342[785001] = {
-		aim_type = 0,
-		range = 120,
-		damage = 40,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第一波 开幕弹 红色子弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 1,
-		id = 785001,
-		bullet_ID = {
-			830089,
-			830089,
-			830089,
-			830089
-		},
-		barrage_ID = {
-			840159,
-			840160,
-			840161,
-			840162
-		}
-	}
-	uv0.weapon_property_342[785002] = {
-		aim_type = 0,
-		range = 120,
-		damage = 40,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第一波 开幕弹 黄色子弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 2,
-		id = 785002,
-		bullet_ID = {
-			830090,
-			830090,
-			830090,
-			830090
-		},
-		barrage_ID = {
-			840163,
-			840164,
-			840165,
-			840166
-		}
-	}
-	uv0.weapon_property_342[785003] = {
-		aim_type = 0,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 固定弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 1,
-		id = 785003,
-		bullet_ID = {
-			830091,
-			830092
-		},
-		barrage_ID = {
-			840176,
-			840177
-		}
-	}
-	uv0.weapon_property_342[785004] = {
+	uv0.weapon_property_342[819409] = {
 		aim_type = 1,
-		range = 120,
-		damage = 40,
+		name = "【偶像大师联动SP4】精英人形 水濑伊织 主炮弹幕",
+		damage = 32,
 		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 自机狙",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 6000,
-		queue = 2,
-		id = 785004,
-		bullet_ID = {
-			830094,
-			830095,
-			830096,
-			830097,
-			830098
-		},
-		barrage_ID = {
-			840178,
-			840179,
-			840180,
-			840181,
-			840182
-		}
-	}
-	uv0.weapon_property_342[785005] = {
-		aim_type = 0,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第三波 未来罗马史 固定弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
+		charge_param = "",
+		reload_max = 2600,
 		queue = 1,
-		id = 785005,
+		id = 819409,
 		bullet_ID = {
-			830105,
-			830106,
-			830107,
-			830108
+			852111,
+			852111
 		},
 		barrage_ID = {
-			840198,
-			840199,
-			840198,
-			840199
+			852112,
+			852113
 		}
 	}
-	uv0.weapon_property_342[785006] = {
+	uv0.weapon_property_342[819410] = {
 		aim_type = 1,
-		range = 120,
-		damage = 40,
+		damage = 28,
 		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第三波 未来罗马史 自机狙",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 6000,
-		queue = 2,
-		id = 785006,
-		bullet_ID = {
-			830110,
-			830111,
-			830112,
-			830113,
-			830114
-		},
-		barrage_ID = {
-			840178,
-			840179,
-			840180,
-			840181,
-			840182
-		}
-	}
-	uv0.weapon_property_342[785007] = {
-		aim_type = 0,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第四波 雄鹰天翔",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 600,
-		queue = 1,
-		id = 785007,
-		bullet_ID = {
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830122,
-			830126
-		},
-		barrage_ID = {
-			840200,
-			840201,
-			840202,
-			840203,
-			840204,
-			840205,
-			840206,
-			840207,
-			840208,
-			840209,
-			840210,
-			840211,
-			840212,
-			840213,
-			840214,
-			840215,
-			840216,
-			840217,
-			840218,
-			840219,
-			840220,
-			840221,
-			840221
-		}
-	}
-	uv0.weapon_property_342[785008] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第四波 自机狙",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 510,
-		queue = 2,
-		id = 785008,
-		bullet_ID = {
-			830131,
-			830132,
-			830133,
-			830134,
-			830135,
-			830136,
-			830137,
-			830138
-		},
-		barrage_ID = {
-			840228,
-			840229,
-			840230,
-			840231,
-			840232,
-			840233,
-			840234,
-			840235
-		}
-	}
-	uv0.weapon_property_342[785009] = {
-		aim_type = 0,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第五波 谢幕弹",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 1,
-		id = 785009,
-		bullet_ID = {
-			830139,
-			830139,
-			830139,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140
-		},
-		barrage_ID = {
-			700522,
-			700523,
-			700524,
-			700525,
-			700526,
-			700527,
-			700528,
-			700529,
-			700530,
-			700531,
-			700532,
-			700533,
-			700534,
-			700535,
-			700536
-		}
-	}
-	uv0.weapon_property_342[785010] = {
-		aim_type = 0,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第五波 谢幕弹",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 2,
-		id = 785010,
-		bullet_ID = {
-			830139,
-			830139,
-			830139,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140
-		},
-		barrage_ID = {
-			700537,
-			700538,
-			700539,
-			700540,
-			700541,
-			700542,
-			700543,
-			700544,
-			700545,
-			700546,
-			700547,
-			700548,
-			700549,
-			700550,
-			700551
-		}
-	}
-	uv0.weapon_property_342[790001] = {
-		aim_type = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 前排跨射",
-		axis_angle = 0,
+		name = "【偶像大师联动SP4】精英人形 水濑伊织 前排跨射",
 		type = 19,
-		min_range = 20,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 1500,
+		charge_param = "",
+		reload_max = 3600,
 		queue = 1,
-		angle = 40,
-		range = 50,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon2",
-		fire_sfx = "battle/cannon-main",
-		id = 790001,
+		id = 819410,
 		bullet_ID = {
-			399988
+			852112
 		},
 		barrage_ID = {
-			399912
+			852114
 		},
 		precast_param = {
 			time = 1,
 			fx = "jinengenemy",
-			alertTime = 2
+			alertTime = 3
 		}
 	}
-	uv0.weapon_property_342[790002] = {
+	uv0.weapon_property_342[819411] = {
 		aim_type = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 后排跨射",
-		axis_angle = 0,
-		type = 19,
-		min_range = 75,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 2000,
-		queue = 1,
-		angle = 40,
-		range = 150,
-		damage = 22,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon3",
-		fire_sfx = "battle/cannon-main",
-		id = 790002,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20017
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_342[790003] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A1】塞壬破局者I型 主炮中心弹幕",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1200,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790003,
-		bullet_ID = {
-			690102
-		},
-		barrage_ID = {
-			690104
-		}
-	}
-	uv0.weapon_property_342[790004] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A1】塞壬破局者I型 主炮竖排弹幕",
-		type = 1,
-		aim_type = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1500,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790004,
-		bullet_ID = {
-			816,
-			816
-		},
-		barrage_ID = {
-			690105,
-			690106
-		}
-	}
-	uv0.weapon_property_342[790005] = {
-		initial_over_heat = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 双联装炮连射",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 800,
-		queue = 4,
-		range = 70,
-		damage = 14,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 790005,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			690014
-		}
-	}
-	uv0.weapon_property_342[790006] = {
-		initial_over_heat = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 副炮4way射击",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 2000,
-		queue = 4,
-		range = 70,
+		name = "【偶像大师联动SP4】BOSS 双海真美 上浮状态Q版近程自卫火炮",
 		damage = 8,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 790006,
-		bullet_ID = {
-			811,
-			811
-		},
-		barrage_ID = {
-			690107,
-			690108
-		}
-	}
-	uv0.weapon_property_342[790101] = {
-		aim_type = 1,
-		range = 38,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		initial_over_heat = 1,
-		queue = 5,
-		id = 790101,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			12
-		}
-	}
-	uv0.weapon_property_342[790102] = {
-		aim_type = 0,
-		range = 120,
-		damage = 18,
-		base = 1002,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用战斗机（自机狙）",
-		action_index = "",
-		reload_max = 2400,
-		fire_sfx = "battle/air-atk",
-		queue = 4,
-		id = 790102,
-		barrage_ID = {
-			850107
-		}
-	}
-	uv0.weapon_property_342[790103] = {
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用轰炸机（高爆）",
-		range = 120,
-		damage = 32,
-		base = 1002,
-		action_index = "",
-		reload_max = 2400,
-		queue = 4,
-		id = 790103,
-		barrage_ID = {
-			850108
-		}
-	}
-	uv0.weapon_property_342[790104] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用战斗机弹幕（自机狙）",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
+		base = 1004,
 		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 790104,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 100,
-		queue = 3,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			840108
-		},
-		barrage_ID = {
-			120303
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[790105] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用轰炸机弹幕（高爆）",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 790105,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 200,
-		queue = 2,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			840109
-		},
-		barrage_ID = {
-			130992
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[790106] = {
-		aim_type = 0,
-		range = 120,
-		damage = 16,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 苍龙 逆时针旋转弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		queue = 2,
-		id = 790106,
-		bullet_ID = {
-			840104,
-			840105
-		},
-		barrage_ID = {
-			850103,
-			850104
-		}
-	}
-	uv0.weapon_property_342[790107] = {
-		aim_type = 0,
-		range = 120,
-		damage = 16,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 飞龙 顺时针旋转弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		queue = 2,
-		id = 790107,
-		bullet_ID = {
-			840106,
-			840107
-		},
-		barrage_ID = {
-			850105,
-			850106
-		}
-	}
-	uv0.weapon_property_342[790108] = {
-		aim_type = 1,
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 苍龙 交错扩散弹",
-		suppress = 1,
-		initial_over_heat = 0,
-		reload_max = 1600,
-		queue = 2,
-		id = 790108,
-		bullet_ID = {
-			840112,
-			840113
-		},
-		barrage_ID = {
-			850111,
-			850112
-		}
-	}
-	uv0.weapon_property_342[790109] = {
-		aim_type = 1,
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 飞龙 随机扩散弹",
-		suppress = 1,
-		initial_over_heat = 0,
-		reload_max = 1600,
-		queue = 2,
-		id = 790109,
-		bullet_ID = {
-			840114,
-			840115,
-			840116
-		},
-		barrage_ID = {
-			850113,
-			850114,
-			850115
-		}
-	}
-	uv0.weapon_property_342[790110] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 苍龙 主炮散射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 790110,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			850109
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[790111] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 飞龙 主炮乱射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 790111,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			850110
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[790201] = {
-		aim_type = 1,
-		range = 38,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A3】BOSS 赤城&加贺 通用近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		initial_over_heat = 1,
-		queue = 5,
-		id = 790201,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			12
-		}
-	}
-	uv0.weapon_property_342[790202] = {
-		aim_type = 0,
-		range = 120,
-		damage = 36,
-		base = 1002,
-		name = "【2021美系活动A3】BOSS 赤城&加贺 轰炸机",
-		action_index = "",
-		reload_max = 2400,
-		fire_sfx = "battle/air-atk",
-		queue = 1,
-		id = 790202,
-		barrage_ID = {
-			850116
-		}
-	}
-	uv0.weapon_property_342[790203] = {
-		name = "【2021美系活动A3】BOSS 赤城&加贺 鱼雷机",
-		range = 120,
-		damage = 30,
-		base = 1002,
-		action_index = "",
-		reload_max = 2400,
-		queue = 1,
-		id = 790203,
-		barrage_ID = {
-			850117
-		}
-	}
-	uv0.weapon_property_342[790204] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A3】BOSS 赤城&加贺 轰炸机弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 36,
-		corrected = 100,
-		min_range = 0,
-		id = 790204,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 100,
-		queue = 3,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			840117
-		},
-		barrage_ID = {
-			850118
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[790205] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A3】BOSS 赤城&加贺 鱼雷机弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 790205,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 200,
-		queue = 2,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			840118
-		},
-		barrage_ID = {
-			850119
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[790206] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A3】BOSS 赤城 随机弹",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1500,
-		queue = 2,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790206,
-		bullet_ID = {
-			840119,
-			840120
-		},
-		barrage_ID = {
-			850120,
-			850121
-		}
-	}
-	uv0.weapon_property_342[790207] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A3】BOSS 加贺 环绕弹",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 3000,
-		queue = 2,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790207,
-		bullet_ID = {
-			840121,
-			840122
-		},
-		barrage_ID = {
-			850122,
-			850123
-		}
-	}
-	uv0.weapon_property_342[790208] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A3】BOSS 赤城 散弹",
-		type = 1,
-		aim_type = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 2400,
-		queue = 2,
-		range = 90,
-		damage = 14,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790208,
-		bullet_ID = {
-			840123
-		},
-		barrage_ID = {
-			850124
-		}
-	}
-	uv0.weapon_property_342[790209] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A3】BOSS 加贺 电光剑气",
-		type = 1,
-		aim_type = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1500,
-		queue = 2,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790209,
-		bullet_ID = {
-			840124,
-			840125
-		},
-		barrage_ID = {
-			850125,
-			850126
-		}
-	}
-	uv0.weapon_property_342[790210] = {
-		aim_type = 1,
-		range = 120,
-		damage = 14,
-		base = 1000,
-		name = "【2021美系活动A3】BOSS 赤城 快速交叉弹",
-		suppress = 1,
-		reload_max = 3000,
-		queue = 2,
-		id = 790210,
-		bullet_ID = {
-			840126,
-			840127
-		},
-		barrage_ID = {
-			850127,
-			850128
-		}
-	}
-	uv0.weapon_property_342[790211] = {
-		aim_type = 1,
-		range = 120,
-		damage = 14,
-		base = 1000,
-		name = "【2021美系活动A3】BOSS 加贺 多重交叉弹",
-		suppress = 1,
-		reload_max = 2400,
-		queue = 2,
-		id = 790211,
-		bullet_ID = {
-			840128,
-			840129
-		},
-		barrage_ID = {
-			850129,
-			850130
-		}
-	}
-	uv0.weapon_property_342[791001] = {
-		aim_type = 1,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		name = "【2021美系活动B1】BOSS 神通 麻花自机狙",
-		fire_fx = "CLFire",
-		suppress = 1,
-		reload_max = 1200,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		queue = 1,
-		id = 791001,
-		initial_over_heat = 0,
-		type = 1,
-		bullet_ID = {
-			840134,
-			840135
-		},
-		barrage_ID = {
-			850133,
-			850134
-		}
-	}
-	uv0.weapon_property_342[791002] = {
-		aim_type = 0,
-		range = 120,
-		damage = 18,
-		base = 1000,
-		name = "【2021美系活动B1】BOSS 神通 波浪连射",
-		fire_fx = "CLFire",
-		suppress = 1,
-		reload_max = 1600,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		queue = 1,
-		id = 791002,
-		initial_over_heat = 1,
-		type = 1,
-		bullet_ID = {
-			840136,
-			840136,
-			840137,
-			840137
-		},
-		barrage_ID = {
-			850135,
-			850136,
-			850137,
-			850138
-		}
-	}
-	uv0.weapon_property_342[791003] = {
-		aim_type = 1,
-		range = 60,
-		damage = 15,
-		base = 1000,
-		name = "【2021美系活动B1】BOSS 神通 轻巡单装炮x6",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 1500,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		queue = 2,
-		id = 791003,
-		initial_over_heat = 0,
-		type = 2,
-		bullet_ID = {
-			840138
-		},
-		barrage_ID = {
-			850139
-		}
-	}
-	uv0.weapon_property_342[791004] = {
-		aim_type = 1,
-		range = 90,
-		damage = 38,
-		base = 1001,
-		name = "【2021美系活动B1】BOSS 神通 鱼雷",
-		type = 3,
-		suppress = 1,
-		reload_max = 1000,
-		spawn_bound = "cannon",
-		initial_over_heat = 1,
-		queue = 3,
-		id = 791004,
-		bullet_ID = {
-			840139
-		},
-		barrage_ID = {
-			850140
-		}
-	}
-	uv0.weapon_property_342[791005] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动B1】BOSS 神通 Q版近程自卫火炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 791005,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
 		reload_max = 500,
 		queue = 5,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 819411,
 		bullet_ID = {
 			999
 		},
 		barrage_ID = {
 			13
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_342[791101] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动B2】塞壬执棋者I型 轰炸机",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 1200,
-		queue = 1,
-		range = 100,
-		damage = 32,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 791101,
-		bullet_ID = {},
-		barrage_ID = {
-			12015
 		}
 	}
-	uv0.weapon_property_342[791102] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动B2】塞壬执棋者I型 鱼雷机",
-		type = 11,
+	uv0.weapon_property_342[819412] = {
 		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 1200,
-		queue = 1,
-		range = 110,
-		damage = 25,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 791102,
-		bullet_ID = {},
-		barrage_ID = {
-			12015
-		}
-	}
-	uv0.weapon_property_342[791103] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动B2】塞壬执棋者I型 浮游炮1",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 2,
-		range = 110,
-		damage = 9,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 791103,
-		bullet_ID = {},
-		barrage_ID = {
-			690109
-		}
-	}
-	uv0.weapon_property_342[791104] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动B2】塞壬执棋者I型 浮游炮2",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 3,
-		range = 110,
-		damage = 9,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 791104,
-		bullet_ID = {},
-		barrage_ID = {
-			690110
-		}
-	}
-	uv0.weapon_property_342[791105] = {
-		aim_type = 0,
-		name = "【2021美系活动B2】塞壬执棋者I型 轰炸机武器",
-		axis_angle = 0,
-		type = 2,
-		min_range = 0,
-		fire_fx = "",
-		action_index = "",
-		initial_over_heat = 0,
-		reload_max = 400,
-		attack_attribute = 4,
-		queue = 1,
-		angle = 180,
-		range = 10,
-		damage = 32,
+		name = "【偶像大师联动SP4】BOSS 双海真美 上浮状态主炮",
+		damage = 18,
 		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 791105,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819412,
 		bullet_ID = {
-			130301
+			852401
 		},
 		barrage_ID = {
-			130992
+			852401
 		}
 	}
-	uv0.weapon_property_342[791106] = {
+	uv0.weapon_property_342[819413] = {
 		aim_type = 1,
-		name = "【2021美系活动B2】塞壬执棋者I型 鱼雷机武器",
-		axis_angle = 0,
-		type = 3,
-		min_range = 0,
-		fire_fx = "",
-		action_index = "",
-		initial_over_heat = 0,
-		reload_max = 11954,
-		attack_attribute = 4,
+		name = "【偶像大师联动SP4】BOSS 双海真美 上浮状态特殊弹幕1",
+		damage = 18,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
 		queue = 1,
-		angle = 90,
-		range = 80,
-		damage = 25,
-		base = 1001,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 791106,
+		id = 819413,
 		bullet_ID = {
-			30067
+			852411,
+			852412,
+			852451
 		},
 		barrage_ID = {
-			12001
+			852411,
+			852412,
+			852451
+		}
+	}
+	uv0.weapon_property_342[819414] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】BOSS 双海真美 上浮状态特殊弹幕2",
+		damage = 18,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 1,
+		id = 819414,
+		bullet_ID = {
+			852421,
+			852421,
+			852451
+		},
+		barrage_ID = {
+			852421,
+			852422,
+			852451
+		}
+	}
+	uv0.weapon_property_342[819415] = {
+		aim_type = 0,
+		name = "【偶像大师联动SP4】BOSS 双海真美 下潜状态鱼雷1",
+		damage = 45,
+		base = 1001,
+		action_index = "",
+		reload_max = 9999,
+		id = 819415,
+		bullet_ID = {
+			852431,
+			852431,
+			852431
+		},
+		barrage_ID = {
+			810004,
+			810005,
+			810006
+		}
+	}
+	uv0.weapon_property_342[819416] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】BOSS 双海真美 下潜状态鱼雷2",
+		damage = 45,
+		base = 1001,
+		action_index = "",
+		reload_max = 2100,
+		id = 819416,
+		bullet_ID = {
+			852431
+		},
+		barrage_ID = {
+			852431
+		}
+	}
+	uv0.weapon_property_342[819417] = {
+		aim_type = 0,
+		name = "【偶像大师联动SP4】BOSS 双海真美 下潜状态鱼雷3",
+		damage = 45,
+		base = 1001,
+		action_index = "",
+		reload_max = 2100,
+		id = 819417,
+		bullet_ID = {
+			852441
+		},
+		barrage_ID = {
+			852441
+		}
+	}
+	uv0.weapon_property_342[819418] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】BOSS 天海春香 Q版近程自卫火炮",
+		damage = 8,
+		base = 1004,
+		charge_param = "",
+		reload_max = 500,
+		queue = 5,
+		id = 819418,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_342[819419] = {
+		aim_type = 0,
+		name = "【偶像大师联动SP4】BOSS 第一波 天海春香 星星圆舞曲",
+		damage = 10,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 2,
+		id = 819419,
+		effect_move = 0,
+		bullet_ID = {
+			852501
+		},
+		barrage_ID = {
+			852501
+		}
+	}
+	uv0.weapon_property_342[819420] = {
+		aim_type = 1,
+		name = "【偶像大师联动SP4】BOSS 第一波 天海春香 自机狙针弹",
+		damage = 10,
+		base = 1000,
+		charge_param = "",
+		reload_max = 2100,
+		queue = 4,
+		id = 819420,
+		bullet_ID = {
+			852511
+		},
+		barrage_ID = {
+			852511
 		}
 	}
 end()

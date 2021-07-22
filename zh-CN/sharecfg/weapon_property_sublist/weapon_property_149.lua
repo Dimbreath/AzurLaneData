@@ -2,41 +2,6 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
-	uv0.weapon_property_149[67802] = {
-		id = 67802,
-		damage = 52,
-		base = 67801
-	}
-	uv0.weapon_property_149[67803] = {
-		id = 67803,
-		damage = 54,
-		base = 67801
-	}
-	uv0.weapon_property_149[67804] = {
-		id = 67804,
-		damage = 57,
-		base = 67801
-	}
-	uv0.weapon_property_149[67805] = {
-		id = 67805,
-		damage = 61,
-		base = 67801
-	}
-	uv0.weapon_property_149[67806] = {
-		id = 67806,
-		damage = 66,
-		base = 67801
-	}
-	uv0.weapon_property_149[67807] = {
-		id = 67807,
-		damage = 72,
-		base = 67801
-	}
-	uv0.weapon_property_149[67808] = {
-		id = 67808,
-		damage = 79,
-		base = 67801
-	}
 	uv0.weapon_property_149[67809] = {
 		id = 67809,
 		damage = 87,
@@ -622,5 +587,114 @@ function ()
 		bullet_ID = {
 			67894
 		}
+	}
+	uv0.weapon_property_149[67895] = {
+		reload_max = 540,
+		damage = 62,
+		base = 67891,
+		id = 67895,
+		name = "追赶者剑鱼 Lv5",
+		bullet_ID = {
+			67895
+		}
+	}
+	uv0.weapon_property_149[67896] = {
+		reload_max = 524,
+		damage = 66,
+		base = 67891,
+		id = 67896,
+		name = "追赶者剑鱼 Lv6",
+		bullet_ID = {
+			67896
+		}
+	}
+	uv0.weapon_property_149[67897] = {
+		reload_max = 508,
+		damage = 70,
+		base = 67891,
+		id = 67897,
+		name = "追赶者剑鱼 Lv7",
+		bullet_ID = {
+			67897
+		}
+	}
+	uv0.weapon_property_149[67898] = {
+		reload_max = 492,
+		damage = 74,
+		base = 67891,
+		id = 67898,
+		name = "追赶者剑鱼 Lv8",
+		bullet_ID = {
+			67898
+		}
+	}
+	uv0.weapon_property_149[67899] = {
+		reload_max = 476,
+		damage = 79,
+		base = 67891,
+		id = 67899,
+		name = "追赶者剑鱼 Lv9",
+		bullet_ID = {
+			67899
+		}
+	}
+	uv0.weapon_property_149[67900] = {
+		reload_max = 460,
+		damage = 84,
+		base = 67891,
+		id = 67900,
+		name = "追赶者剑鱼 Lv10",
+		bullet_ID = {
+			67900
+		}
+	}
+	uv0.weapon_property_149[67901] = {
+		action_index = "",
+		range = 500,
+		type = 25,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "空投深弹-816",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 47,
+		corrected = 100,
+		min_range = 0,
+		id = 67901,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 5,
+		reload_max = 3000,
+		queue = 11,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19986
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[67902] = {
+		id = 67902,
+		damage = 51,
+		base = 67901
 	}
 end()

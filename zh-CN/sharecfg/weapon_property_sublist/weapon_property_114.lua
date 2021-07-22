@@ -2,97 +2,216 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
-	uv0.weapon_property_114[64232] = {
-		id = 64232,
-		name = "霞光之绊·改弹幕LV2",
-		damage = 11,
-		base = 64231
+	uv0.weapon_property_114[64334] = {
+		id = 64334,
+		damage = 113,
+		base = 64331
 	}
-	uv0.weapon_property_114[64233] = {
-		id = 64233,
-		name = "霞光之绊·改弹幕LV3",
-		damage = 12,
-		base = 64231
+	uv0.weapon_property_114[64335] = {
+		id = 64335,
+		damage = 134,
+		base = 64331
 	}
-	uv0.weapon_property_114[64234] = {
-		id = 64234,
-		name = "霞光之绊·改弹幕LV4",
-		damage = 13,
-		base = 64231
+	uv0.weapon_property_114[64336] = {
+		id = 64336,
+		damage = 155,
+		base = 64331
 	}
-	uv0.weapon_property_114[64235] = {
-		id = 64235,
-		name = "霞光之绊·改弹幕LV5",
-		damage = 14,
-		base = 64231
+	uv0.weapon_property_114[64337] = {
+		id = 64337,
+		damage = 176,
+		base = 64331
 	}
-	uv0.weapon_property_114[64236] = {
-		id = 64236,
-		name = "霞光之绊·改弹幕LV6",
-		damage = 15,
-		base = 64231
+	uv0.weapon_property_114[64338] = {
+		id = 64338,
+		damage = 197,
+		base = 64331
 	}
-	uv0.weapon_property_114[64237] = {
-		id = 64237,
-		name = "霞光之绊·改弹幕LV7",
-		damage = 16,
-		base = 64231
+	uv0.weapon_property_114[64339] = {
+		id = 64339,
+		damage = 218,
+		base = 64331
 	}
-	uv0.weapon_property_114[64238] = {
-		id = 64238,
-		name = "霞光之绊·改弹幕LV8",
-		damage = 17,
-		base = 64231
+	uv0.weapon_property_114[64340] = {
+		id = 64340,
+		damage = 239,
+		base = 64331
 	}
-	uv0.weapon_property_114[64239] = {
-		id = 64239,
-		name = "霞光之绊·改弹幕LV9",
-		damage = 18,
-		base = 64231
-	}
-	uv0.weapon_property_114[64240] = {
-		id = 64240,
-		name = "霞光之绊·改弹幕LV10",
-		damage = 20,
-		base = 64231
-	}
-	uv0.weapon_property_114[64241] = {
-		action_index = "",
+	uv0.weapon_property_114[64341] = {
+		action_index = "attack",
 		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "奥古斯特AP火箭机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 64341,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2070,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			64341
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[64342] = {
+		reload_max = 2035,
+		damage = 1,
+		base = 64341,
+		id = 64342,
+		name = "奥古斯特AP火箭机Lv2",
+		bullet_ID = {
+			64342
+		}
+	}
+	uv0.weapon_property_114[64343] = {
+		reload_max = 2000,
+		damage = 1,
+		base = 64341,
+		id = 64343,
+		name = "奥古斯特AP火箭机Lv3",
+		bullet_ID = {
+			64343
+		}
+	}
+	uv0.weapon_property_114[64344] = {
+		reload_max = 1965,
+		damage = 1,
+		base = 64341,
+		id = 64344,
+		name = "奥古斯特AP火箭机Lv4",
+		bullet_ID = {
+			64344
+		}
+	}
+	uv0.weapon_property_114[64345] = {
+		reload_max = 1930,
+		damage = 1,
+		base = 64341,
+		id = 64345,
+		name = "奥古斯特AP火箭机Lv5",
+		expose = 5,
+		bullet_ID = {
+			64345
+		}
+	}
+	uv0.weapon_property_114[64346] = {
+		reload_max = 1895,
+		damage = 1,
+		base = 64341,
+		id = 64346,
+		name = "奥古斯特AP火箭机Lv6",
+		expose = 5,
+		bullet_ID = {
+			64346
+		}
+	}
+	uv0.weapon_property_114[64347] = {
+		reload_max = 1860,
+		damage = 1,
+		base = 64341,
+		id = 64347,
+		name = "奥古斯特AP火箭机Lv7",
+		expose = 5,
+		bullet_ID = {
+			64347
+		}
+	}
+	uv0.weapon_property_114[64348] = {
+		reload_max = 1825,
+		damage = 1,
+		base = 64341,
+		id = 64348,
+		name = "奥古斯特AP火箭机Lv8",
+		expose = 5,
+		bullet_ID = {
+			64348
+		}
+	}
+	uv0.weapon_property_114[64349] = {
+		reload_max = 1790,
+		damage = 1,
+		base = 64341,
+		id = 64349,
+		name = "奥古斯特AP火箭机Lv9",
+		expose = 5,
+		bullet_ID = {
+			64349
+		}
+	}
+	uv0.weapon_property_114[64350] = {
+		reload_max = 1755,
+		damage = 1,
+		base = 64341,
+		id = 64350,
+		name = "奥古斯特AP火箭机Lv10",
+		expose = 5,
+		bullet_ID = {
+			64350
+		}
+	}
+	uv0.weapon_property_114[64351] = {
+		action_index = "",
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 0,
+		axis_angle = -15,
 		shakescreen = 0,
-		name = "霞光之绊·改鱼雷LV1",
-		aim_type = 0,
+		name = "奥古斯特AP火箭弹 x 4",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 50,
 		charge_param = "",
-		damage = 35,
+		damage = 34,
 		corrected = 100,
 		min_range = 0,
-		id = 64241,
+		id = 64351,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
+		attack_attribute = 4,
+		reload_max = 9500,
 		queue = 1,
-		search_type = 1,
+		search_type = 2,
 		effect_move = 0,
-		suppress = 0,
+		suppress = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19310,
-			19310
+			19316
 		},
 		barrage_ID = {
-			81116,
-			81117
+			81123
 		},
 		oxy_type = {
 			1
@@ -102,480 +221,171 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_114[64242] = {
-		id = 64242,
-		name = "霞光之绊·改鱼雷LV2",
+	uv0.weapon_property_114[64352] = {
+		id = 64352,
 		damage = 46,
-		base = 64241
+		base = 64351
 	}
-	uv0.weapon_property_114[64243] = {
-		id = 64243,
-		name = "霞光之绊·改鱼雷LV3",
-		damage = 57,
-		base = 64241
+	uv0.weapon_property_114[64353] = {
+		id = 64353,
+		damage = 58,
+		base = 64351
 	}
-	uv0.weapon_property_114[64244] = {
-		id = 64244,
-		name = "霞光之绊·改鱼雷LV4",
-		damage = 68,
-		base = 64241
+	uv0.weapon_property_114[64354] = {
+		id = 64354,
+		damage = 70,
+		base = 64351
 	}
-	uv0.weapon_property_114[64245] = {
-		id = 64245,
-		name = "霞光之绊·改鱼雷LV5",
-		damage = 79,
-		base = 64241
+	uv0.weapon_property_114[64355] = {
+		id = 64355,
+		damage = 82,
+		base = 64351
 	}
-	uv0.weapon_property_114[64246] = {
-		id = 64246,
-		name = "霞光之绊·改鱼雷LV6",
-		damage = 90,
-		base = 64241
+	uv0.weapon_property_114[64356] = {
+		id = 64356,
+		damage = 94,
+		base = 64351
 	}
-	uv0.weapon_property_114[64247] = {
-		id = 64247,
-		name = "霞光之绊·改鱼雷LV7",
-		damage = 101,
-		base = 64241
+	uv0.weapon_property_114[64357] = {
+		id = 64357,
+		damage = 106,
+		base = 64351
 	}
-	uv0.weapon_property_114[64248] = {
-		id = 64248,
-		name = "霞光之绊·改鱼雷LV8",
-		damage = 112,
-		base = 64241
+	uv0.weapon_property_114[64358] = {
+		id = 64358,
+		damage = 118,
+		base = 64351
 	}
-	uv0.weapon_property_114[64249] = {
-		id = 64249,
-		name = "霞光之绊·改鱼雷LV9",
-		damage = 123,
-		base = 64241
+	uv0.weapon_property_114[64359] = {
+		id = 64359,
+		damage = 130,
+		base = 64351
 	}
-	uv0.weapon_property_114[64250] = {
-		id = 64250,
-		name = "霞光之绊·改鱼雷LV10",
-		damage = 134,
-		base = 64241
+	uv0.weapon_property_114[64360] = {
+		id = 64360,
+		damage = 142,
+		base = 64351
 	}
-	uv0.weapon_property_114[64251] = {
+	uv0.weapon_property_114[64361] = {
 		action_index = "attack",
-		range = 100,
-		type = 3,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 200,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "美因茨黑子弹弹幕天运强化LV1",
+		name = "白龙斩击技能Lv1",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 0,
+		expose = 10,
 		angle = 360,
 		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 64361,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19317,
+			19318
+		},
+		barrage_ID = {
+			81138,
+			81139
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[64362] = {
+		id = 64362,
+		name = "白龙斩击技能Lv2",
 		damage = 24,
-		corrected = 100,
-		min_range = 0,
-		id = 64251,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19311,
-			19311
-		},
-		barrage_ID = {
-			81118,
-			81119
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+		base = 64361
 	}
-	uv0.weapon_property_114[64252] = {
-		id = 64252,
-		name = "美因茨黑子弹弹幕天运强化LV2",
-		damage = 28,
-		base = 64251
-	}
-	uv0.weapon_property_114[64253] = {
-		id = 64253,
-		name = "美因茨黑子弹弹幕天运强化LV3",
-		damage = 26,
-		base = 64251
-	}
-	uv0.weapon_property_114[64254] = {
-		id = 64254,
-		name = "美因茨黑子弹弹幕天运强化LV4",
-		damage = 28,
-		base = 64251
-	}
-	uv0.weapon_property_114[64255] = {
-		id = 64255,
-		name = "美因茨黑子弹弹幕天运强化LV5",
-		damage = 30,
-		base = 64251
-	}
-	uv0.weapon_property_114[64256] = {
-		id = 64256,
-		name = "美因茨黑子弹弹幕天运强化LV6",
-		damage = 32,
-		base = 64251
-	}
-	uv0.weapon_property_114[64257] = {
-		id = 64257,
-		name = "美因茨黑子弹弹幕天运强化LV7",
-		damage = 34,
-		base = 64251
-	}
-	uv0.weapon_property_114[64258] = {
-		id = 64258,
-		name = "美因茨黑子弹弹幕天运强化LV8",
+	uv0.weapon_property_114[64363] = {
+		id = 64363,
+		name = "白龙斩击技能Lv3",
 		damage = 36,
-		base = 64251
+		base = 64361
 	}
-	uv0.weapon_property_114[64259] = {
-		id = 64259,
-		name = "美因茨黑子弹弹幕天运强化LV9",
-		damage = 38,
-		base = 64251
+	uv0.weapon_property_114[64364] = {
+		id = 64364,
+		name = "白龙斩击技能Lv4",
+		damage = 43,
+		base = 64361
 	}
-	uv0.weapon_property_114[64260] = {
-		id = 64260,
-		name = "美因茨黑子弹弹幕天运强化LV10",
-		damage = 40,
-		base = 64251
-	}
-	uv0.weapon_property_114[64261] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "奥丁平射小子弹天运强化LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 44,
-		corrected = 100,
-		min_range = 0,
-		id = 64261,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19312,
-			19312
-		},
-		barrage_ID = {
-			81120,
-			81121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_114[64262] = {
-		id = 64262,
-		name = "奥丁平射小子弹天运强化LV2",
+	uv0.weapon_property_114[64365] = {
+		id = 64365,
+		name = "白龙斩击技能Lv5",
 		damage = 50,
-		base = 64261
+		base = 64361
 	}
-	uv0.weapon_property_114[64263] = {
-		id = 64263,
-		name = "奥丁平射小子弹天运强化LV3",
-		damage = 56,
-		base = 64261
+	uv0.weapon_property_114[64366] = {
+		id = 64366,
+		name = "白龙斩击技能Lv6",
+		damage = 57,
+		base = 64361
 	}
-	uv0.weapon_property_114[64264] = {
-		id = 64264,
-		name = "奥丁平射小子弹天运强化LV4",
-		damage = 62,
-		base = 64261
+	uv0.weapon_property_114[64367] = {
+		id = 64367,
+		name = "白龙斩击技能Lv7",
+		damage = 64,
+		base = 64361
 	}
-	uv0.weapon_property_114[64265] = {
-		id = 64265,
-		name = "奥丁平射小子弹天运强化LV5",
-		damage = 68,
-		base = 64261
+	uv0.weapon_property_114[64368] = {
+		id = 64368,
+		name = "白龙斩击技能Lv8",
+		damage = 71,
+		base = 64361
 	}
-	uv0.weapon_property_114[64266] = {
-		id = 64266,
-		name = "奥丁平射小子弹天运强化LV6",
-		damage = 74,
-		base = 64261
+	uv0.weapon_property_114[64369] = {
+		id = 64369,
+		name = "白龙斩击技能Lv9",
+		damage = 78,
+		base = 64361
 	}
-	uv0.weapon_property_114[64267] = {
-		id = 64267,
-		name = "奥丁平射小子弹天运强化LV7",
-		damage = 80,
-		base = 64261
+	uv0.weapon_property_114[64370] = {
+		id = 64370,
+		name = "白龙斩击技能Lv10",
+		damage = 85,
+		base = 64361
 	}
-	uv0.weapon_property_114[64268] = {
-		id = 64268,
-		name = "奥丁平射小子弹天运强化LV8",
-		damage = 86,
-		base = 64261
-	}
-	uv0.weapon_property_114[64269] = {
-		id = 64269,
-		name = "奥丁平射小子弹天运强化LV9",
-		damage = 92,
-		base = 64261
-	}
-	uv0.weapon_property_114[64270] = {
-		id = 64270,
-		name = "奥丁平射小子弹天运强化LV10",
-		damage = 100,
-		base = 64261
-	}
-	uv0.weapon_property_114[64271] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "奥丁Gungnir雷电投枪天运强化LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 64271,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19313
-		},
-		barrage_ID = {
-			81122
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_114[64272] = {
-		id = 64272,
-		name = "奥丁Gungnir雷电投枪天运强化LV2",
-		damage = 86,
-		base = 64271
-	}
-	uv0.weapon_property_114[64273] = {
-		id = 64273,
-		name = "奥丁Gungnir雷电投枪天运强化LV3",
-		damage = 106,
-		base = 64271
-	}
-	uv0.weapon_property_114[64274] = {
-		id = 64274,
-		name = "奥丁Gungnir雷电投枪天运强化LV4",
-		damage = 124,
-		base = 64271
-	}
-	uv0.weapon_property_114[64275] = {
-		id = 64275,
-		name = "奥丁Gungnir雷电投枪天运强化LV5",
-		damage = 144,
-		base = 64271
-	}
-	uv0.weapon_property_114[64276] = {
-		id = 64276,
-		name = "奥丁Gungnir雷电投枪天运强化LV6",
-		damage = 164,
-		base = 64271
-	}
-	uv0.weapon_property_114[64277] = {
-		id = 64277,
-		name = "奥丁Gungnir雷电投枪天运强化LV7",
-		damage = 182,
-		base = 64271
-	}
-	uv0.weapon_property_114[64278] = {
-		id = 64278,
-		name = "奥丁Gungnir雷电投枪天运强化LV8",
-		damage = 202,
-		base = 64271
-	}
-	uv0.weapon_property_114[64279] = {
-		id = 64279,
-		name = "奥丁Gungnir雷电投枪天运强化LV9",
-		damage = 220,
-		base = 64271
-	}
-	uv0.weapon_property_114[64280] = {
-		id = 64280,
-		name = "奥丁Gungnir雷电投枪天运强化LV10",
-		damage = 240,
-		base = 64271
-	}
-	uv0.weapon_property_114[64281] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "香槟伴随射击平射小子弹天运强化LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 24,
-		corrected = 100,
-		min_range = 0,
-		id = 64281,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19156,
-			19156
-		},
-		barrage_ID = {
-			80902,
-			80903
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		spawn_bound = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_114[64282] = {
-		id = 64282,
-		name = "香槟伴随射击平射小子弹天运强化LV2",
-		damage = 28,
-		base = 64281
-	}
-	uv0.weapon_property_114[64283] = {
-		id = 64283,
-		name = "香槟伴随射击平射小子弹天运强化LV3",
-		damage = 26,
-		base = 64281
-	}
-	uv0.weapon_property_114[64284] = {
-		id = 64284,
-		name = "香槟伴随射击平射小子弹天运强化LV4",
-		damage = 28,
-		base = 64281
-	}
-	uv0.weapon_property_114[64285] = {
-		id = 64285,
-		name = "香槟伴随射击平射小子弹天运强化LV5",
-		damage = 30,
-		base = 64281
-	}
-	uv0.weapon_property_114[64286] = {
-		id = 64286,
-		name = "香槟伴随射击平射小子弹天运强化LV6",
-		damage = 32,
-		base = 64281
-	}
-	uv0.weapon_property_114[64287] = {
-		id = 64287,
-		name = "香槟伴随射击平射小子弹天运强化LV7",
-		damage = 34,
-		base = 64281
-	}
-	uv0.weapon_property_114[64288] = {
-		id = 64288,
-		name = "香槟伴随射击平射小子弹天运强化LV8",
-		damage = 36,
-		base = 64281
-	}
-	uv0.weapon_property_114[64289] = {
-		id = 64289,
-		name = "香槟伴随射击平射小子弹天运强化LV9",
-		damage = 38,
-		base = 64281
-	}
-	uv0.weapon_property_114[64290] = {
-		id = 64290,
-		name = "香槟伴随射击平射小子弹天运强化LV10",
-		damage = 40,
-		base = 64281
-	}
-	uv0.weapon_property_114[64291] = {
+	uv0.weapon_property_114[64371] = {
 		action_index = "attack_main",
 		range = 200,
-		type = 23,
+		type = 1,
 		fire_fx = "zhupao",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 302,
-		name = "香槟独立射击大子弹天运强化LV1",
+		shakescreen = 0,
+		name = "白龙缠绕光弹+火焰式神技能LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 70,
-		corrected = 110,
+		expose = 10,
+		angle = 360,
+		damage = 12,
+		corrected = 100,
 		min_range = 35,
-		id = 64291,
+		id = 64371,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
+		attack_attribute = 4,
 		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
@@ -586,10 +396,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 1,
 		bullet_ID = {
-			19150
+			19319,
+			19320
 		},
 		barrage_ID = {
-			1301
+			81136,
+			81137
 		},
 		oxy_type = {
 			1
@@ -603,22 +415,246 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_114[64292] = {
-		id = 64292,
-		name = "香槟独立射击大子弹天运强化LV2",
-		damage = 82,
-		base = 64291
+	uv0.weapon_property_114[64372] = {
+		id = 64372,
+		name = "白龙缠绕光弹+火焰式神技能LV2",
+		damage = 24,
+		base = 64371
 	}
-	uv0.weapon_property_114[64293] = {
-		id = 64293,
-		name = "香槟独立射击大子弹天运强化LV3",
-		damage = 94,
-		base = 64291
+	uv0.weapon_property_114[64373] = {
+		id = 64373,
+		name = "白龙缠绕光弹+火焰式神技能LV3",
+		damage = 36,
+		base = 64371
 	}
-	uv0.weapon_property_114[64294] = {
-		id = 64294,
-		name = "香槟独立射击大子弹天运强化LV4",
-		damage = 106,
-		base = 64291
+	uv0.weapon_property_114[64374] = {
+		id = 64374,
+		name = "白龙缠绕光弹+火焰式神技能LV4",
+		damage = 43,
+		base = 64371
+	}
+	uv0.weapon_property_114[64375] = {
+		id = 64375,
+		name = "白龙缠绕光弹+火焰式神技能LV5",
+		damage = 50,
+		base = 64371
+	}
+	uv0.weapon_property_114[64376] = {
+		id = 64376,
+		name = "白龙缠绕光弹+火焰式神技能LV6",
+		damage = 57,
+		base = 64371
+	}
+	uv0.weapon_property_114[64377] = {
+		id = 64377,
+		name = "白龙缠绕光弹+火焰式神技能LV7",
+		damage = 64,
+		base = 64371
+	}
+	uv0.weapon_property_114[64378] = {
+		id = 64378,
+		name = "白龙缠绕光弹+火焰式神技能LV8",
+		damage = 71,
+		base = 64371
+	}
+	uv0.weapon_property_114[64379] = {
+		id = 64379,
+		name = "白龙缠绕光弹+火焰式神技能LV9",
+		damage = 78,
+		base = 64371
+	}
+	uv0.weapon_property_114[64380] = {
+		id = 64380,
+		name = "白龙缠绕光弹+火焰式神技能LV10",
+		damage = 85,
+		base = 64371
+	}
+	uv0.weapon_property_114[64381] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "埃吉尔技能弹幕平射穿甲LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 64381,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19321,
+			19321
+		},
+		barrage_ID = {
+			81124,
+			81125
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[64382] = {
+		id = 64382,
+		name = "埃吉尔技能弹幕平射穿甲LV2",
+		damage = 24,
+		base = 64381
+	}
+	uv0.weapon_property_114[64383] = {
+		id = 64383,
+		name = "埃吉尔技能弹幕平射穿甲LV3",
+		damage = 26,
+		base = 64381
+	}
+	uv0.weapon_property_114[64384] = {
+		id = 64384,
+		name = "埃吉尔技能弹幕平射穿甲LV4",
+		damage = 28,
+		base = 64381
+	}
+	uv0.weapon_property_114[64385] = {
+		id = 64385,
+		name = "埃吉尔技能弹幕平射穿甲LV5",
+		damage = 30,
+		base = 64381
+	}
+	uv0.weapon_property_114[64386] = {
+		id = 64386,
+		name = "埃吉尔技能弹幕平射穿甲LV6",
+		damage = 32,
+		base = 64381
+	}
+	uv0.weapon_property_114[64387] = {
+		id = 64387,
+		name = "埃吉尔技能弹幕平射穿甲LV7",
+		damage = 34,
+		base = 64381
+	}
+	uv0.weapon_property_114[64388] = {
+		id = 64388,
+		name = "埃吉尔技能弹幕平射穿甲LV8",
+		damage = 36,
+		base = 64381
+	}
+	uv0.weapon_property_114[64389] = {
+		id = 64389,
+		name = "埃吉尔技能弹幕平射穿甲LV9",
+		damage = 38,
+		base = 64381
+	}
+	uv0.weapon_property_114[64390] = {
+		id = 64390,
+		name = "埃吉尔技能弹幕平射穿甲LV10",
+		damage = 40,
+		base = 64381
+	}
+	uv0.weapon_property_114[64391] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "埃吉尔技能跨射子弹Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 64391,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19322
+		},
+		barrage_ID = {
+			81126
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_114[64392] = {
+		id = 64392,
+		name = "埃吉尔技能跨射子弹Lv2",
+		damage = 38,
+		base = 64391
+	}
+	uv0.weapon_property_114[64393] = {
+		id = 64393,
+		name = "埃吉尔技能跨射子弹Lv3",
+		damage = 40,
+		base = 64391
+	}
+	uv0.weapon_property_114[64394] = {
+		id = 64394,
+		name = "埃吉尔技能跨射子弹Lv4",
+		damage = 42,
+		base = 64391
+	}
+	uv0.weapon_property_114[64395] = {
+		id = 64395,
+		name = "埃吉尔技能跨射子弹Lv5",
+		damage = 46,
+		base = 64391
+	}
+	uv0.weapon_property_114[64396] = {
+		id = 64396,
+		name = "埃吉尔技能跨射子弹Lv6",
+		damage = 48,
+		base = 64391
+	}
+	uv0.weapon_property_114[64397] = {
+		name = "埃吉尔技能跨射子弹Lv7",
+		damage = 50,
+		base = 64391,
+		id = 64397,
+		barrage_ID = {
+			81127
+		}
 	}
 end()

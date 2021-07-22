@@ -1,5 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
+	[89052] = {
+		id = 89052,
+		anti_siren = 200,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "275"
+	},
+	[89053] = {
+		id = 89053,
+		anti_siren = 300,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "290"
+	},
+	[89060] = {
+		name = "组徽",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89060,
+		value_2 = 16,
+		icon = "89060",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "本来应该作为组徽设计的才对，变...变身？",
+		nationality = 105,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6490
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89061] = {
+		id = 89061,
+		value_1 = "7",
+		base = 89060
+	},
+	[89062] = {
+		id = 89062,
+		value_2 = 17,
+		value_1 = "7",
+		base = 89060
+	},
 	[89063] = {
 		id = 89063,
 		value_2 = 18,
@@ -101,30 +160,5 @@ pg.equip_data_statistics_375 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89081] = {
-		id = 89081,
-		value_1 = "280",
-		base = 89080
-	},
-	[89082] = {
-		id = 89082,
-		value_1 = "310",
-		base = 89080
-	},
-	[89083] = {
-		id = 89083,
-		value_1 = "340",
-		base = 89080
-	},
-	[89084] = {
-		id = 89084,
-		value_1 = "370",
-		base = 89080
-	},
-	[89085] = {
-		id = 89085,
-		value_1 = "400",
-		base = 89080
 	}
 }

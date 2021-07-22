@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 
 			slot17 = {}
 
-			for slot21, slot22 in ipairs(slot15.commanderIds) do
+			for slot21, slot22 in pairs(slot15.commanderIds) do
 				table.insert(slot17, {
 					pos = slot21,
 					id = slot22

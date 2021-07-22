@@ -517,6 +517,8 @@ function slot0.initShips(slot0)
 				else
 					uv0.bluePrintItems[slot2]:update(slot3, nil)
 				end
+
+				triggerToggle(slot2, false)
 			end
 		end)
 	end

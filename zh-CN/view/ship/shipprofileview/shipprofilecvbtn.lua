@@ -18,16 +18,12 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	slot0.voice = slot4
 	slot0.words = pg.ship_skin_words[slot0.skin.id]
 
-	if slot1:isMetaGroup() and table.contains({
-		"feeling1",
-		"feeling2",
-		"feeling3",
-		"feeling4",
-		"feeling5",
-		"propose"
-	}, slot0.voice.key) then
-		slot0.voice = Clone(slot4)
-		slot0.voice.voice_name = i18n("meta_voice_name_" .. slot0.voice.key)
+	if slot1:getIntimacyName(slot0.voice.key) then
+		slot0.voice = setmetatable({
+			voice_name = slot6
+		}, {
+			__index = slot4
+		})
 	end
 
 	slot7, slot8, slot9, slot10, slot11, slot12 = nil

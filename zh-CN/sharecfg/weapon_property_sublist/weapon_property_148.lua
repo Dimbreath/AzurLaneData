@@ -2,91 +2,6 @@ pg = pg or {}
 pg.weapon_property_148 = {}
 
 function ()
-	uv0.weapon_property_148[67739] = {
-		name = "战列加贺技能小子弹-LV9",
-		damage = 30,
-		base = 67731,
-		id = 67739,
-		barrage_ID = {
-			80512,
-			80513
-		}
-	}
-	uv0.weapon_property_148[67740] = {
-		name = "战列加贺技能小子弹-LV10",
-		damage = 35,
-		base = 67731,
-		id = 67740,
-		barrage_ID = {
-			80512,
-			80513
-		}
-	}
-	uv0.weapon_property_148[67741] = {
-		action_index = "attack",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "加贺鱼雷LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 51,
-		corrected = 110,
-		min_range = 0,
-		id = 67741,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 5100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1807,
-			1807
-		},
-		barrage_ID = {
-			80508,
-			80509
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_148[67742] = {
-		id = 67742,
-		name = "加贺鱼雷LV2",
-		damage = 52,
-		base = 67741
-	}
-	uv0.weapon_property_148[67743] = {
-		id = 67743,
-		name = "加贺鱼雷LV3",
-		damage = 54,
-		base = 67741
-	}
-	uv0.weapon_property_148[67744] = {
-		id = 67744,
-		name = "加贺鱼雷LV4",
-		damage = 57,
-		base = 67741
-	}
 	uv0.weapon_property_148[67745] = {
 		id = 67745,
 		name = "加贺鱼雷LV5",
@@ -704,5 +619,40 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_148[67802] = {
+		id = 67802,
+		damage = 52,
+		base = 67801
+	}
+	uv0.weapon_property_148[67803] = {
+		id = 67803,
+		damage = 54,
+		base = 67801
+	}
+	uv0.weapon_property_148[67804] = {
+		id = 67804,
+		damage = 57,
+		base = 67801
+	}
+	uv0.weapon_property_148[67805] = {
+		id = 67805,
+		damage = 61,
+		base = 67801
+	}
+	uv0.weapon_property_148[67806] = {
+		id = 67806,
+		damage = 66,
+		base = 67801
+	}
+	uv0.weapon_property_148[67807] = {
+		id = 67807,
+		damage = 72,
+		base = 67801
+	}
+	uv0.weapon_property_148[67808] = {
+		id = 67808,
+		damage = 79,
+		base = 67801
 	}
 end()

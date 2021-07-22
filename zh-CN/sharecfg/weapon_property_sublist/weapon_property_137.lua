@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 function ()
+	uv0.weapon_property_137[66561] = {
+		id = 66561,
+		name = "众神之怒·雪崩雷震-冰球LV1",
+		damage = 10,
+		base = 66560
+	}
+	uv0.weapon_property_137[66562] = {
+		id = 66562,
+		name = "众神之怒·雪崩雷震-冰球LV2",
+		damage = 11,
+		base = 66560
+	}
+	uv0.weapon_property_137[66563] = {
+		id = 66563,
+		name = "众神之怒·雪崩雷震-冰球LV3",
+		damage = 12,
+		base = 66560
+	}
+	uv0.weapon_property_137[66564] = {
+		name = "众神之怒·雪崩雷震-冰球LV4",
+		damage = 13,
+		base = 66560,
+		id = 66564,
+		barrage_ID = {
+			80372
+		}
+	}
+	uv0.weapon_property_137[66565] = {
+		name = "众神之怒·雪崩雷震-冰球LV5",
+		damage = 14,
+		base = 66560,
+		id = 66565,
+		barrage_ID = {
+			80372
+		}
+	}
 	uv0.weapon_property_137[66566] = {
 		name = "众神之怒·雪崩雷震-冰球LV6",
 		damage = 15,
@@ -631,72 +667,5 @@ function ()
 		name = "拉菲技能鱼雷LV9",
 		damage = 145,
 		base = 66680
-	}
-	uv0.weapon_property_137[66690] = {
-		id = 66690,
-		name = "拉菲技能鱼雷LV10",
-		damage = 156,
-		base = 66680
-	}
-	uv0.weapon_property_137[66700] = {
-		action_index = "attack_main",
-		range = 95,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "雾岛三式烧夷弹弹幕Lv0-PVE",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 10,
-		corrected = 110,
-		min_range = 50,
-		id = 66700,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19919,
-			19919
-		},
-		barrage_ID = {
-			80041,
-			80042
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_137[66701] = {
-		id = 66701,
-		name = "雾岛三式烧夷弹弹幕Lv1-PVE",
-		damage = 11,
-		base = 66700
-	}
-	uv0.weapon_property_137[66702] = {
-		id = 66702,
-		name = "雾岛三式烧夷弹弹幕Lv2-PVE",
-		damage = 12,
-		base = 66700
 	}
 end()

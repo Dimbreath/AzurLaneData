@@ -1,28 +1,138 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
-	[90430] = {
-		id = 90430,
-		damage = "110 x 4",
-		base = 90420,
+	[90350] = {
+		id = 90350,
+		damage = "102 x 4",
+		base = 90340,
 		weapon_id = {
-			90430
+			90350
 		}
 	},
-	[90440] = {
+	[90351] = {
+		anti_siren = 100,
+		damage = "102 x 4",
+		base = 90340,
+		id = 90351,
+		weapon_id = {
+			90351
+		}
+	},
+	[90400] = {
 		name = "四联装380mm主炮Mle1935",
 		speciality = "跨射",
 		type = 4,
-		tech = 3,
+		tech = 1,
 		descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
-		value_2 = 45,
+		value_2 = 12,
 		icon = "50400",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "48 x 4",
+		rarity = 3,
+		damage = "40 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90400
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
+	},
+	[90401] = {
+		id = 90401,
+		damage = "46 x 4",
+		base = 90400,
+		weapon_id = {
+			90401
+		}
+	},
+	[90402] = {
+		id = 90402,
+		damage = "52 x 4",
+		base = 90400,
+		weapon_id = {
+			90402
+		}
+	},
+	[90403] = {
+		id = 90403,
+		damage = "58 x 4",
+		base = 90400,
+		weapon_id = {
+			90403
+		}
+	},
+	[90404] = {
+		id = 90404,
+		damage = "64 x 4",
+		base = 90400,
+		weapon_id = {
+			90404
+		}
+	},
+	[90405] = {
+		id = 90405,
+		damage = "70 x 4",
+		base = 90400,
+		weapon_id = {
+			90405
+		}
+	},
+	[90406] = {
+		id = 90406,
+		damage = "76 x 4",
+		base = 90400,
+		weapon_id = {
+			90406
+		}
+	},
+	[90420] = {
+		name = "四联装380mm主炮Mle1935",
+		speciality = "跨射",
+		type = 4,
+		tech = 2,
+		descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
+		value_2 = 25,
+		icon = "50400",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "44 x 4",
 		nationality = 8,
 		ammo = 2,
 		value_3 = 0,
-		id = 90440,
+		id = 90420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -43,7 +153,7 @@ pg.equip_data_statistics_390 = {
 			12
 		},
 		weapon_id = {
-			90440
+			90420
 		},
 		skill_id = {},
 		part_main = {
@@ -61,184 +171,60 @@ pg.equip_data_statistics_390 = {
 			"HE"
 		}
 	},
-	[90441] = {
-		id = 90441,
-		damage = "55 x 4",
-		base = 90440,
+	[90421] = {
+		id = 90421,
+		damage = "50 x 4",
+		base = 90420,
 		weapon_id = {
-			90441
+			90421
 		}
 	},
-	[90442] = {
-		id = 90442,
+	[90422] = {
+		id = 90422,
+		damage = "56 x 4",
+		base = 90420,
+		weapon_id = {
+			90422
+		}
+	},
+	[90423] = {
+		id = 90423,
 		damage = "62 x 4",
-		base = 90440,
+		base = 90420,
 		weapon_id = {
-			90442
+			90423
 		}
 	},
-	[90443] = {
-		id = 90443,
-		damage = "69 x 4",
-		base = 90440,
+	[90424] = {
+		id = 90424,
+		damage = "68 x 4",
+		base = 90420,
 		weapon_id = {
-			90443
+			90424
 		}
 	},
-	[90444] = {
-		id = 90444,
-		damage = "76 x 4",
-		base = 90440,
+	[90425] = {
+		id = 90425,
+		damage = "75 x 4",
+		base = 90420,
 		weapon_id = {
-			90444
+			90425
 		}
 	},
-	[90445] = {
-		id = 90445,
-		damage = "83 x 4",
-		base = 90440,
+	[90426] = {
+		id = 90426,
+		damage = "82 x 4",
+		base = 90420,
 		weapon_id = {
-			90445
+			90426
 		}
 	},
-	[90446] = {
-		id = 90446,
-		damage = "90 x 4",
-		base = 90440,
+	[90427] = {
+		id = 90427,
+		damage = "89 x 4",
+		base = 90420,
 		weapon_id = {
-			90446
-		}
-	},
-	[90447] = {
-		id = 90447,
-		damage = "97 x 4",
-		base = 90440,
-		weapon_id = {
-			90447
-		}
-	},
-	[90448] = {
-		id = 90448,
-		damage = "104 x 4",
-		base = 90440,
-		weapon_id = {
-			90448
-		}
-	},
-	[90449] = {
-		id = 90449,
-		damage = "112 x 4",
-		base = 90440,
-		weapon_id = {
-			90449
-		}
-	},
-	[90450] = {
-		id = 90450,
-		damage = "120 x 4",
-		base = 90440,
-		weapon_id = {
-			90450
-		}
-	},
-	[90451] = {
-		anti_siren = 100,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90451,
-		weapon_id = {
-			90451
-		}
-	},
-	[90452] = {
-		anti_siren = 200,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90452,
-		weapon_id = {
-			90452
-		}
-	},
-	[90453] = {
-		anti_siren = 300,
-		damage = "120 x 4",
-		base = 90440,
-		id = 90453,
-		weapon_id = {
-			90453
-		}
-	},
-	[90500] = {
-		name = "双联装130mm主炮Mle1935",
-		speciality = "锁定",
-		type = 1,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50500",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "9 x 2",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90500,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1011
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90500
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90501] = {
-		id = 90501,
-		base = 90500,
-		weapon_id = {
-			90501
+			90427
 		}
 	}
 }

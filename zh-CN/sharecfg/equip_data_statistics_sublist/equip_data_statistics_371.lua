@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
+	[85407] = {
+		id = 85407,
+		damage = "77/轮",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/轮",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/轮",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/轮",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/轮",
+		base = 85400,
+		id = 85411,
+		weapon_id = {
+			85411
+		}
+	},
 	[85420] = {
 		name = "三联装305mm主炮Model1907",
 		speciality = "跨射",
@@ -190,98 +231,6 @@ pg.equip_data_statistics_371 = {
 		base = 85440,
 		weapon_id = {
 			85443
-		}
-	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
-		weapon_id = {
-			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
-		}
-	},
-	[85460] = {
-		name = "B-1-P 三联装180mm主炮Model1932",
-		speciality = "锁定",
-		type = 2,
-		tech = 1,
-		descrip = "北方联合开发的180mm三联装舰炮，拥有相当优秀的射程",
-		value_2 = 12,
-		icon = "85460",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "16 x 3",
-		nationality = 7,
-		ammo = 1,
-		value_3 = 0,
-		id = 85460,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1712
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1712
-			},
-			{
-				4,
-				1108
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85460
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"AP"
 		}
 	}
 }

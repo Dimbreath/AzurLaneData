@@ -2,519 +2,19 @@ pg = pg or {}
 pg.weapon_property_79 = {}
 
 function ()
-	uv0.weapon_property_79[50370] = {
-		id = 50370,
-		reload_max = 90,
-		damage = 69,
-		base = 50360
-	}
-	uv0.weapon_property_79[50371] = {
-		id = 50371,
-		reload_max = 90,
-		damage = 72,
-		base = 50360
-	}
-	uv0.weapon_property_79[50372] = {
-		id = 50372,
-		reload_max = 90,
-		damage = 76,
-		base = 50360
-	}
-	uv0.weapon_property_79[50373] = {
-		id = 50373,
-		reload_max = 90,
-		damage = 81,
-		base = 50360
-	}
-	uv0.weapon_property_79[50400] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "6 x 12.7mm机枪",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 50400,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 170,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_79[50401] = {
-		id = 50401,
-		reload_max = 166,
-		damage = 26,
-		base = 50400
-	}
-	uv0.weapon_property_79[50402] = {
-		id = 50402,
-		reload_max = 163,
-		damage = 30,
-		base = 50400
-	}
-	uv0.weapon_property_79[50403] = {
-		id = 50403,
-		reload_max = 159,
-		damage = 33,
-		base = 50400
-	}
-	uv0.weapon_property_79[50404] = {
-		id = 50404,
-		reload_max = 157,
+	uv0.weapon_property_79[50512] = {
+		id = 50512,
+		reload_max = 107,
 		damage = 37,
-		base = 50400
+		base = 50500
 	}
-	uv0.weapon_property_79[50405] = {
-		id = 50405,
-		reload_max = 153,
+	uv0.weapon_property_79[50513] = {
+		id = 50513,
+		reload_max = 107,
 		damage = 40,
-		base = 50400
+		base = 50500
 	}
-	uv0.weapon_property_79[50406] = {
-		id = 50406,
-		reload_max = 149,
-		damage = 43,
-		base = 50400
-	}
-	uv0.weapon_property_79[50407] = {
-		id = 50407,
-		reload_max = 146,
-		damage = 47,
-		base = 50400
-	}
-	uv0.weapon_property_79[50408] = {
-		id = 50408,
-		reload_max = 143,
-		damage = 50,
-		base = 50400
-	}
-	uv0.weapon_property_79[50409] = {
-		id = 50409,
-		reload_max = 138,
-		damage = 54,
-		base = 50400
-	}
-	uv0.weapon_property_79[50410] = {
-		id = 50410,
-		reload_max = 136,
-		damage = 58,
-		base = 50400
-	}
-	uv0.weapon_property_79[50411] = {
-		id = 50411,
-		reload_max = 136,
-		damage = 60,
-		base = 50400
-	}
-	uv0.weapon_property_79[50412] = {
-		id = 50412,
-		reload_max = 136,
-		damage = 64,
-		base = 50400
-	}
-	uv0.weapon_property_79[50413] = {
-		id = 50413,
-		reload_max = 136,
-		damage = 68,
-		base = 50400
-	}
-	uv0.weapon_property_79[50420] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "6 x 12.7mm机枪",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 25,
-		corrected = 100,
-		min_range = 0,
-		id = 50420,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 162,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_79[50421] = {
-		id = 50421,
-		reload_max = 158,
-		damage = 29,
-		base = 50420
-	}
-	uv0.weapon_property_79[50422] = {
-		id = 50422,
-		reload_max = 155,
-		damage = 33,
-		base = 50420
-	}
-	uv0.weapon_property_79[50423] = {
-		id = 50423,
-		reload_max = 152,
-		damage = 36,
-		base = 50420
-	}
-	uv0.weapon_property_79[50424] = {
-		id = 50424,
-		reload_max = 149,
-		damage = 41,
-		base = 50420
-	}
-	uv0.weapon_property_79[50425] = {
-		id = 50425,
-		reload_max = 145,
-		damage = 44,
-		base = 50420
-	}
-	uv0.weapon_property_79[50426] = {
-		id = 50426,
-		reload_max = 142,
-		damage = 47,
-		base = 50420
-	}
-	uv0.weapon_property_79[50427] = {
-		id = 50427,
-		reload_max = 139,
-		damage = 52,
-		base = 50420
-	}
-	uv0.weapon_property_79[50428] = {
-		id = 50428,
-		reload_max = 136,
-		damage = 55,
-		base = 50420
-	}
-	uv0.weapon_property_79[50429] = {
-		id = 50429,
-		reload_max = 132,
-		damage = 59,
-		base = 50420
-	}
-	uv0.weapon_property_79[50430] = {
-		id = 50430,
-		reload_max = 129,
-		damage = 63,
-		base = 50420
-	}
-	uv0.weapon_property_79[50431] = {
-		id = 50431,
-		reload_max = 129,
-		damage = 66,
-		base = 50420
-	}
-	uv0.weapon_property_79[50432] = {
-		id = 50432,
-		reload_max = 129,
-		damage = 69,
-		base = 50420
-	}
-	uv0.weapon_property_79[50433] = {
-		id = 50433,
-		reload_max = 129,
-		damage = 74,
-		base = 50420
-	}
-	uv0.weapon_property_79[50440] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "6 x 12.7mm机枪",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 27,
-		corrected = 100,
-		min_range = 0,
-		id = 50440,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 154,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_79[50441] = {
-		id = 50441,
-		reload_max = 150,
-		damage = 31,
-		base = 50440
-	}
-	uv0.weapon_property_79[50442] = {
-		id = 50442,
-		reload_max = 148,
-		damage = 36,
-		base = 50440
-	}
-	uv0.weapon_property_79[50443] = {
-		id = 50443,
-		reload_max = 145,
-		damage = 39,
-		base = 50440
-	}
-	uv0.weapon_property_79[50444] = {
-		id = 50444,
-		reload_max = 141,
-		damage = 45,
-		base = 50440
-	}
-	uv0.weapon_property_79[50445] = {
-		id = 50445,
-		reload_max = 138,
-		damage = 48,
-		base = 50440
-	}
-	uv0.weapon_property_79[50446] = {
-		id = 50446,
-		reload_max = 135,
-		damage = 51,
-		base = 50440
-	}
-	uv0.weapon_property_79[50447] = {
-		id = 50447,
-		reload_max = 132,
-		damage = 57,
-		base = 50440
-	}
-	uv0.weapon_property_79[50448] = {
-		id = 50448,
-		reload_max = 129,
-		damage = 60,
-		base = 50440
-	}
-	uv0.weapon_property_79[50449] = {
-		id = 50449,
-		reload_max = 126,
-		damage = 65,
-		base = 50440
-	}
-	uv0.weapon_property_79[50450] = {
-		id = 50450,
-		reload_max = 122,
-		damage = 69,
-		base = 50440
-	}
-	uv0.weapon_property_79[50451] = {
-		id = 50451,
-		reload_max = 122,
-		damage = 72,
-		base = 50440
-	}
-	uv0.weapon_property_79[50452] = {
-		id = 50452,
-		reload_max = 122,
-		damage = 76,
-		base = 50440
-	}
-	uv0.weapon_property_79[50453] = {
-		id = 50453,
-		reload_max = 122,
-		damage = 81,
-		base = 50440
-	}
-	uv0.weapon_property_79[50460] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "6 x 12.7mm机枪",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 31,
-		corrected = 100,
-		min_range = 0,
-		id = 50460,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 146,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_79[50461] = {
-		id = 50461,
-		reload_max = 143,
-		damage = 35,
-		base = 50460
-	}
-	uv0.weapon_property_79[50462] = {
-		id = 50462,
-		reload_max = 140,
-		damage = 39,
-		base = 50460
-	}
-	uv0.weapon_property_79[50463] = {
-		id = 50463,
-		reload_max = 137,
-		damage = 43,
-		base = 50460
-	}
-	uv0.weapon_property_79[50464] = {
-		id = 50464,
-		reload_max = 134,
-		damage = 48,
-		base = 50460
-	}
-	uv0.weapon_property_79[50465] = {
-		id = 50465,
-		reload_max = 131,
-		damage = 53,
-		base = 50460
-	}
-	uv0.weapon_property_79[50466] = {
-		id = 50466,
-		reload_max = 128,
-		damage = 58,
-		base = 50460
-	}
-	uv0.weapon_property_79[50467] = {
-		id = 50467,
-		reload_max = 125,
-		damage = 63,
-		base = 50460
-	}
-	uv0.weapon_property_79[50468] = {
-		id = 50468,
-		reload_max = 122,
-		damage = 68,
-		base = 50460
-	}
-	uv0.weapon_property_79[50469] = {
-		id = 50469,
-		reload_max = 119,
-		damage = 73,
-		base = 50460
-	}
-	uv0.weapon_property_79[50470] = {
-		id = 50470,
-		reload_max = 115,
-		damage = 78,
-		base = 50460
-	}
-	uv0.weapon_property_79[50471] = {
-		id = 50471,
-		reload_max = 115,
-		damage = 81,
-		base = 50460
-	}
-	uv0.weapon_property_79[50472] = {
-		id = 50472,
-		reload_max = 115,
-		damage = 86,
-		base = 50460
-	}
-	uv0.weapon_property_79[50473] = {
-		id = 50473,
-		reload_max = 115,
-		damage = 92,
-		base = 50460
-	}
-	uv0.weapon_property_79[50500] = {
+	uv0.weapon_property_79[50520] = {
 		action_index = "",
 		range = 36,
 		type = 4,
@@ -528,14 +28,14 @@ function ()
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 13,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 50500,
+		id = 50520,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 134,
+		reload_max = 127,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
@@ -558,16 +58,522 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_79[50501] = {
-		id = 50501,
-		reload_max = 130,
-		damage = 15,
-		base = 50500
-	}
-	uv0.weapon_property_79[50502] = {
-		id = 50502,
-		reload_max = 128,
+	uv0.weapon_property_79[50521] = {
+		id = 50521,
+		reload_max = 124,
 		damage = 17,
-		base = 50500
+		base = 50520
+	}
+	uv0.weapon_property_79[50522] = {
+		id = 50522,
+		reload_max = 122,
+		damage = 19,
+		base = 50520
+	}
+	uv0.weapon_property_79[50523] = {
+		id = 50523,
+		reload_max = 119,
+		damage = 21,
+		base = 50520
+	}
+	uv0.weapon_property_79[50524] = {
+		id = 50524,
+		reload_max = 117,
+		damage = 23,
+		base = 50520
+	}
+	uv0.weapon_property_79[50525] = {
+		id = 50525,
+		reload_max = 114,
+		damage = 25,
+		base = 50520
+	}
+	uv0.weapon_property_79[50526] = {
+		id = 50526,
+		reload_max = 112,
+		damage = 28,
+		base = 50520
+	}
+	uv0.weapon_property_79[50527] = {
+		id = 50527,
+		reload_max = 109,
+		damage = 30,
+		base = 50520
+	}
+	uv0.weapon_property_79[50528] = {
+		id = 50528,
+		reload_max = 107,
+		damage = 32,
+		base = 50520
+	}
+	uv0.weapon_property_79[50529] = {
+		id = 50529,
+		reload_max = 104,
+		damage = 34,
+		base = 50520
+	}
+	uv0.weapon_property_79[50530] = {
+		id = 50530,
+		reload_max = 102,
+		damage = 37,
+		base = 50520
+	}
+	uv0.weapon_property_79[50531] = {
+		id = 50531,
+		reload_max = 102,
+		damage = 38,
+		base = 50520
+	}
+	uv0.weapon_property_79[50532] = {
+		id = 50532,
+		reload_max = 102,
+		damage = 41,
+		base = 50520
+	}
+	uv0.weapon_property_79[50533] = {
+		id = 50533,
+		reload_max = 102,
+		damage = 44,
+		base = 50520
+	}
+	uv0.weapon_property_79[50540] = {
+		action_index = "",
+		range = 36,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 20mm机炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 50540,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 120,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_79[50541] = {
+		id = 50541,
+		reload_max = 118,
+		damage = 18,
+		base = 50540
+	}
+	uv0.weapon_property_79[50542] = {
+		id = 50542,
+		reload_max = 116,
+		damage = 21,
+		base = 50540
+	}
+	uv0.weapon_property_79[50543] = {
+		id = 50543,
+		reload_max = 113,
+		damage = 23,
+		base = 50540
+	}
+	uv0.weapon_property_79[50544] = {
+		id = 50544,
+		reload_max = 111,
+		damage = 25,
+		base = 50540
+	}
+	uv0.weapon_property_79[50545] = {
+		id = 50545,
+		reload_max = 109,
+		damage = 27,
+		base = 50540
+	}
+	uv0.weapon_property_79[50546] = {
+		id = 50546,
+		reload_max = 107,
+		damage = 30,
+		base = 50540
+	}
+	uv0.weapon_property_79[50547] = {
+		id = 50547,
+		reload_max = 103,
+		damage = 33,
+		base = 50540
+	}
+	uv0.weapon_property_79[50548] = {
+		id = 50548,
+		reload_max = 101,
+		damage = 35,
+		base = 50540
+	}
+	uv0.weapon_property_79[50549] = {
+		id = 50549,
+		reload_max = 99,
+		damage = 37,
+		base = 50540
+	}
+	uv0.weapon_property_79[50550] = {
+		id = 50550,
+		reload_max = 97,
+		damage = 40,
+		base = 50540
+	}
+	uv0.weapon_property_79[50551] = {
+		id = 50551,
+		reload_max = 97,
+		damage = 42,
+		base = 50540
+	}
+	uv0.weapon_property_79[50552] = {
+		id = 50552,
+		reload_max = 97,
+		damage = 44,
+		base = 50540
+	}
+	uv0.weapon_property_79[50553] = {
+		id = 50553,
+		reload_max = 97,
+		damage = 47,
+		base = 50540
+	}
+	uv0.weapon_property_79[50560] = {
+		action_index = "",
+		range = 36,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 20mm机炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 50560,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 120,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_79[50561] = {
+		id = 50561,
+		reload_max = 118,
+		damage = 21,
+		base = 50560
+	}
+	uv0.weapon_property_79[50562] = {
+		id = 50562,
+		reload_max = 116,
+		damage = 24,
+		base = 50560
+	}
+	uv0.weapon_property_79[50563] = {
+		id = 50563,
+		reload_max = 113,
+		damage = 26,
+		base = 50560
+	}
+	uv0.weapon_property_79[50564] = {
+		id = 50564,
+		reload_max = 111,
+		damage = 28,
+		base = 50560
+	}
+	uv0.weapon_property_79[50565] = {
+		id = 50565,
+		reload_max = 109,
+		damage = 30,
+		base = 50560
+	}
+	uv0.weapon_property_79[50566] = {
+		id = 50566,
+		reload_max = 107,
+		damage = 33,
+		base = 50560
+	}
+	uv0.weapon_property_79[50567] = {
+		id = 50567,
+		reload_max = 103,
+		damage = 36,
+		base = 50560
+	}
+	uv0.weapon_property_79[50568] = {
+		id = 50568,
+		reload_max = 101,
+		damage = 38,
+		base = 50560
+	}
+	uv0.weapon_property_79[50569] = {
+		id = 50569,
+		reload_max = 99,
+		damage = 40,
+		base = 50560
+	}
+	uv0.weapon_property_79[50570] = {
+		id = 50570,
+		reload_max = 97,
+		damage = 43,
+		base = 50560
+	}
+	uv0.weapon_property_79[50571] = {
+		id = 50571,
+		reload_max = 97,
+		damage = 45,
+		base = 50560
+	}
+	uv0.weapon_property_79[50572] = {
+		id = 50572,
+		reload_max = 97,
+		damage = 47,
+		base = 50560
+	}
+	uv0.weapon_property_79[50573] = {
+		id = 50573,
+		reload_max = 97,
+		damage = 51,
+		base = 50560
+	}
+	uv0.weapon_property_79[50600] = {
+		action_index = "",
+		range = 36,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "4 x 20mm机炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 27,
+		corrected = 100,
+		min_range = 0,
+		id = 50600,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 187,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_79[50601] = {
+		id = 50601,
+		reload_max = 182,
+		damage = 31,
+		base = 50600
+	}
+	uv0.weapon_property_79[50602] = {
+		id = 50602,
+		reload_max = 179,
+		damage = 35,
+		base = 50600
+	}
+	uv0.weapon_property_79[50603] = {
+		id = 50603,
+		reload_max = 176,
+		damage = 39,
+		base = 50600
+	}
+	uv0.weapon_property_79[50604] = {
+		id = 50604,
+		reload_max = 172,
+		damage = 43,
+		base = 50600
+	}
+	uv0.weapon_property_79[50605] = {
+		id = 50605,
+		reload_max = 168,
+		damage = 47,
+		base = 50600
+	}
+	uv0.weapon_property_79[50606] = {
+		id = 50606,
+		reload_max = 165,
+		damage = 51,
+		base = 50600
+	}
+	uv0.weapon_property_79[50607] = {
+		id = 50607,
+		reload_max = 160,
+		damage = 55,
+		base = 50600
+	}
+	uv0.weapon_property_79[50608] = {
+		id = 50608,
+		reload_max = 157,
+		damage = 59,
+		base = 50600
+	}
+	uv0.weapon_property_79[50609] = {
+		id = 50609,
+		reload_max = 154,
+		damage = 63,
+		base = 50600
+	}
+	uv0.weapon_property_79[50610] = {
+		id = 50610,
+		reload_max = 149,
+		damage = 68,
+		base = 50600
+	}
+	uv0.weapon_property_79[50611] = {
+		id = 50611,
+		reload_max = 149,
+		damage = 71,
+		base = 50600
+	}
+	uv0.weapon_property_79[50612] = {
+		id = 50612,
+		reload_max = 149,
+		damage = 75,
+		base = 50600
+	}
+	uv0.weapon_property_79[50613] = {
+		id = 50613,
+		reload_max = 149,
+		damage = 80,
+		base = 50600
+	}
+	uv0.weapon_property_79[50620] = {
+		action_index = "",
+		range = 36,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "4 x 20mm机炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 30,
+		corrected = 100,
+		min_range = 0,
+		id = 50620,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 178,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_79[50621] = {
+		id = 50621,
+		reload_max = 174,
+		damage = 34,
+		base = 50620
+	}
+	uv0.weapon_property_79[50622] = {
+		id = 50622,
+		reload_max = 171,
+		damage = 39,
+		base = 50620
+	}
+	uv0.weapon_property_79[50623] = {
+		id = 50623,
+		reload_max = 167,
+		damage = 43,
+		base = 50620
+	}
+	uv0.weapon_property_79[50624] = {
+		id = 50624,
+		reload_max = 164,
+		damage = 47,
+		base = 50620
+	}
+	uv0.weapon_property_79[50625] = {
+		id = 50625,
+		reload_max = 160,
+		damage = 52,
+		base = 50620
 	}
 end()

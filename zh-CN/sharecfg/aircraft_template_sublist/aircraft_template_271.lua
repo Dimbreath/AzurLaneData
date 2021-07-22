@@ -1,71 +1,39 @@
 pg = pg or {}
 pg.aircraft_template_271 = {
-	[95848] = {
-		id = 95848,
-		base = 95840,
-		max_hp = 80,
-		hp_growth = 3090,
-		weapon_ID = {
-			50048,
-			50748,
-			52248
-		}
-	},
-	[95849] = {
-		id = 95849,
-		base = 95840,
-		max_hp = 86,
-		hp_growth = 3301,
-		weapon_ID = {
-			50049,
-			50749,
-			52249
-		}
-	},
-	[95850] = {
-		id = 95850,
-		base = 95840,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			50050,
-			50750,
-			52250
-		}
-	},
-	[95851] = {
-		id = 95851,
-		base = 95840,
-		max_hp = 97,
-		hp_growth = 3722,
+	[95771] = {
+		id = 95771,
+		base = 95760,
+		max_hp = 107,
+		hp_growth = 4114,
 		weapon_ID = {
 			50051,
-			50751,
-			52251
+			50551,
+			52151
 		}
 	},
-	[100720] = {
-		name = "美系舰载-战斗机I（大世界通用飞机）",
-		max_hp = 34,
+	[95800] = {
+		name = "Re.2001公羊T1",
+		max_hp = 30,
 		accuracy = 23,
-		model_ID = "F4F",
+		model_ID = "re2001",
 		ACC_growth = 0,
-		crash_DMG = 39,
-		dodge = 1,
+		crash_DMG = 148,
+		dodge = 0.339,
 		attack_power = 2,
-		dodge_limit = 0,
+		dodge_limit = 8,
 		type = 1,
 		AP_growth = 2000,
-		icon = "F4F",
+		icon = "re2001",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 100720,
-		scale = 0.75,
+		nationality = 6,
+		hp_growth = 1149,
+		speed = 46,
+		id = 95800,
+		scale = 1,
 		weapon_ID = {
-			100700,
-			100705
+			50000,
+			50700,
+			52200
 		},
 		position_offset = {
 			0,
@@ -85,13 +53,13 @@ pg.aircraft_template_271 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -108,7 +76,7 @@ pg.aircraft_template_271 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -119,327 +87,62 @@ pg.aircraft_template_271 = {
 			}
 		}
 	},
-	[100721] = {
-		name = "美系舰载-战斗机II",
+	[95801] = {
+		id = 95801,
+		base = 95800,
 		max_hp = 34,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 39,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 100721,
-		scale = 0.75,
+		hp_growth = 1321,
 		weapon_ID = {
-			100701,
-			100706
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50001,
+			50701,
+			52201
 		}
 	},
-	[100722] = {
-		name = "美系舰载-战斗机III",
-		max_hp = 34,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 39,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 100722,
-		scale = 0.75,
-		weapon_ID = {
-			100702,
-			100707
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[100723] = {
-		name = "美系舰载-战斗机IV",
-		max_hp = 34,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 39,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 100723,
-		scale = 0.75,
-		weapon_ID = {
-			100703,
-			100708
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[100724] = {
-		name = "美系舰载-战斗机V",
-		max_hp = 34,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 39,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 100724,
-		scale = 0.75,
-		weapon_ID = {
-			100704,
-			100709
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[100725] = {
-		name = "美系舰载-鱼雷机I",
+	[95802] = {
+		id = 95802,
+		base = 95800,
 		max_hp = 39,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 57,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3013,
-		speed = 30,
-		id = 100725,
-		scale = 0.75,
+		hp_growth = 1494,
 		weapon_ID = {
-			100710
+			50002,
+			50702,
+			52202
+		}
+	},
+	[95803] = {
+		id = 95803,
+		base = 95800,
+		max_hp = 43,
+		hp_growth = 1666,
+		weapon_ID = {
+			50003,
+			50703,
+			52203
+		}
+	},
+	[95820] = {
+		name = "Re.2001公羊T2",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "re2001",
+		ACC_growth = 0,
+		crash_DMG = 148,
+		dodge = 0.327,
+		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "re2001",
+		funnel_behavior = "",
+		nationality = 6,
+		hp_growth = 1277,
+		speed = 46,
+		id = 95820,
+		scale = 1,
+		weapon_ID = {
+			50020,
+			50720,
+			52220
 		},
 		position_offset = {
 			0,
@@ -459,13 +162,13 @@ pg.aircraft_template_271 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -482,7 +185,7 @@ pg.aircraft_template_271 = {
 				0
 			},
 			{
-				0.54,
+				0.27,
 				0,
 				0
 			},
@@ -491,6 +194,50 @@ pg.aircraft_template_271 = {
 				0,
 				0
 			}
+		}
+	},
+	[95821] = {
+		id = 95821,
+		base = 95820,
+		max_hp = 38,
+		hp_growth = 1468,
+		weapon_ID = {
+			50021,
+			50721,
+			52221
+		}
+	},
+	[95822] = {
+		id = 95822,
+		base = 95820,
+		max_hp = 43,
+		hp_growth = 1660,
+		weapon_ID = {
+			50022,
+			50722,
+			52222
+		}
+	},
+	[95823] = {
+		id = 95823,
+		base = 95820,
+		max_hp = 48,
+		hp_growth = 1851,
+		weapon_ID = {
+			50023,
+			50723,
+			52223
+		}
+	},
+	[95824] = {
+		id = 95824,
+		base = 95820,
+		max_hp = 53,
+		hp_growth = 2043,
+		weapon_ID = {
+			50024,
+			50724,
+			52224
 		}
 	}
 }

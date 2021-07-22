@@ -2,30 +2,6 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 function ()
-	uv0.weapon_property_145[67504] = {
-		id = 67504,
-		damage = 107,
-		base = 67500,
-		bullet_ID = {
-			67504
-		}
-	}
-	uv0.weapon_property_145[67505] = {
-		id = 67505,
-		damage = 117,
-		base = 67500,
-		bullet_ID = {
-			67505
-		}
-	}
-	uv0.weapon_property_145[67506] = {
-		id = 67506,
-		damage = 127,
-		base = 67500,
-		bullet_ID = {
-			67506
-		}
-	}
 	uv0.weapon_property_145[67507] = {
 		id = 67507,
 		damage = 138,
@@ -640,6 +616,30 @@ function ()
 		id = 67612,
 		name = "猫音技能Lv2",
 		damage = 13,
+		base = 67611
+	}
+	uv0.weapon_property_145[67613] = {
+		id = 67613,
+		name = "猫音技能Lv3",
+		damage = 16,
+		base = 67611
+	}
+	uv0.weapon_property_145[67614] = {
+		id = 67614,
+		name = "猫音技能Lv4",
+		damage = 20,
+		base = 67611
+	}
+	uv0.weapon_property_145[67615] = {
+		id = 67615,
+		name = "猫音技能Lv5",
+		damage = 25,
+		base = 67611
+	}
+	uv0.weapon_property_145[67616] = {
+		id = 67616,
+		name = "猫音技能Lv6",
+		damage = 30,
 		base = 67611
 	}
 end()

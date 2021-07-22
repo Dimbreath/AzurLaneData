@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_366 = {
+	[85167] = {
+		id = 85167,
+		damage = "13 x 6",
+		base = 85160,
+		weapon_id = {
+			85167
+		}
+	},
+	[85168] = {
+		id = 85168,
+		damage = "14 x 6",
+		base = 85160,
+		weapon_id = {
+			85168
+		}
+	},
+	[85169] = {
+		id = 85169,
+		damage = "15 x 6",
+		base = 85160,
+		weapon_id = {
+			85169
+		}
+	},
+	[85170] = {
+		id = 85170,
+		damage = "16 x 6",
+		base = 85160,
+		weapon_id = {
+			85170
+		}
+	},
+	[85171] = {
+		anti_siren = 100,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85171,
+		weapon_id = {
+			85171
+		}
+	},
 	[85172] = {
 		anti_siren = 200,
 		damage = "16 x 6",
@@ -204,100 +245,6 @@ pg.equip_data_statistics_366 = {
 		base = 85200,
 		weapon_id = {
 			85205
-		}
-	},
-	[85206] = {
-		id = 85206,
-		damage = "28/轮",
-		base = 85200,
-		weapon_id = {
-			85206
-		}
-	},
-	[85220] = {
-		name = "37mm防空炮70-K",
-		speciality = "防空",
-		type = 6,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "14/轮",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85221] = {
-		id = 85221,
-		damage = "17/轮",
-		base = 85220,
-		weapon_id = {
-			85221
-		}
-	},
-	[85222] = {
-		id = 85222,
-		damage = "20/轮",
-		base = 85220,
-		weapon_id = {
-			85222
-		}
-	},
-	[85223] = {
-		id = 85223,
-		damage = "23/轮",
-		base = 85220,
-		weapon_id = {
-			85223
 		}
 	}
 }

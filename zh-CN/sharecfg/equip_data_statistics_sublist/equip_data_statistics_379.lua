@@ -1,5 +1,66 @@
 pg = pg or {}
 pg.equip_data_statistics_379 = {
+	[89150] = {
+		id = 89150,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89140
+	},
+	[89151] = {
+		id = 89151,
+		anti_siren = 100,
+		base = 89140,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89152] = {
+		id = 89152,
+		anti_siren = 200,
+		base = 89140,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89153] = {
+		id = 89153,
+		anti_siren = 300,
+		base = 89140,
+		value_2 = 36,
+		value_1 = "44"
+	},
+	[89160] = {
+		name = "活力之歌",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89160,
+		value_2 = 15,
+		icon = "89160",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "偶像组合「Lumière」所使用的麦克风",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6711
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[89161] = {
 		id = 89161,
 		value_2 = 16,
@@ -73,64 +134,5 @@ pg.equip_data_statistics_379 = {
 		base = 89160,
 		value_2 = 34,
 		value_1 = "41"
-	},
-	[89173] = {
-		id = 89173,
-		anti_siren = 300,
-		base = 89160,
-		value_2 = 36,
-		value_1 = "44"
-	},
-	[89180] = {
-		name = "闪耀之歌",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89180,
-		value_2 = 15,
-		icon = "89180",
-		value_1 = "14",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "偶像组合「Astrum」所使用的麦克风",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antiaircraft",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6712
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89181] = {
-		id = 89181,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89180
-	},
-	[89182] = {
-		id = 89182,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89180
-	},
-	[89183] = {
-		id = 89183,
-		value_2 = 18,
-		value_1 = "20",
-		base = 89180
 	}
 }

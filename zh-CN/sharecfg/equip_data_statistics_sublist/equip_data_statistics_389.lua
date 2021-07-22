@@ -1,20 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
-	[90400] = {
-		name = "四联装380mm主炮Mle1935",
+	[90320] = {
+		name = "四联装330mm主炮Mle1931",
 		speciality = "跨射",
 		type = 4,
-		tech = 1,
-		descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
+		tech = 2,
+		descrip = "说明未填写",
 		value_2 = 12,
-		icon = "50400",
+		icon = "50300",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "40 x 4",
+		damage = "37 x 4",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90400,
+		id = 90320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -35,7 +35,7 @@ pg.equip_data_statistics_389 = {
 			12
 		},
 		weapon_id = {
-			90400
+			90320
 		},
 		skill_id = {},
 		part_main = {
@@ -49,82 +49,81 @@ pg.equip_data_statistics_389 = {
 		label = {
 			"FFNF",
 			"BB",
-			"MG",
-			"Richelieu"
+			"MG"
 		}
 	},
-	[90401] = {
-		id = 90401,
-		damage = "46 x 4",
-		base = 90400,
+	[90321] = {
+		id = 90321,
+		damage = "42 x 4",
+		base = 90320,
 		weapon_id = {
-			90401
+			90321
 		}
 	},
-	[90402] = {
-		id = 90402,
+	[90322] = {
+		id = 90322,
+		damage = "47 x 4",
+		base = 90320,
+		weapon_id = {
+			90322
+		}
+	},
+	[90323] = {
+		id = 90323,
 		damage = "52 x 4",
-		base = 90400,
+		base = 90320,
 		weapon_id = {
-			90402
+			90323
 		}
 	},
-	[90403] = {
-		id = 90403,
-		damage = "58 x 4",
-		base = 90400,
+	[90324] = {
+		id = 90324,
+		damage = "57 x 4",
+		base = 90320,
 		weapon_id = {
-			90403
+			90324
 		}
 	},
-	[90404] = {
-		id = 90404,
-		damage = "64 x 4",
-		base = 90400,
+	[90325] = {
+		id = 90325,
+		damage = "63 x 4",
+		base = 90320,
 		weapon_id = {
-			90404
+			90325
 		}
 	},
-	[90405] = {
-		id = 90405,
-		damage = "70 x 4",
-		base = 90400,
+	[90326] = {
+		id = 90326,
+		damage = "69 x 4",
+		base = 90320,
 		weapon_id = {
-			90405
+			90326
 		}
 	},
-	[90406] = {
-		id = 90406,
-		damage = "76 x 4",
-		base = 90400,
-		weapon_id = {
-			90406
-		}
-	},
-	[90420] = {
-		name = "四联装380mm主炮Mle1935",
+	[90340] = {
+		name = "四联装330mm主炮Mle1931",
 		speciality = "跨射",
 		type = 4,
-		tech = 2,
-		descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
+		tech = 3,
+		descrip = "说明未填写",
 		value_2 = 25,
-		icon = "50400",
+		icon = "50300",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "44 x 4",
+		damage = "41 x 4",
 		nationality = 8,
-		ammo = 2,
+		ammo = 1,
 		value_3 = 0,
-		id = 90420,
+		id = 90340,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1552
+				1551
 			}
 		},
 		equip_info = {
@@ -136,7 +135,7 @@ pg.equip_data_statistics_389 = {
 			12
 		},
 		weapon_id = {
-			90420
+			90340
 		},
 		skill_id = {},
 		part_main = {
@@ -151,79 +150,79 @@ pg.equip_data_statistics_389 = {
 			"FFNF",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[90421] = {
-		id = 90421,
-		damage = "50 x 4",
-		base = 90420,
+	[90341] = {
+		id = 90341,
+		damage = "47 x 4",
+		base = 90340,
 		weapon_id = {
-			90421
+			90341
 		}
 	},
-	[90422] = {
-		id = 90422,
-		damage = "56 x 4",
-		base = 90420,
+	[90342] = {
+		id = 90342,
+		damage = "53 x 4",
+		base = 90340,
 		weapon_id = {
-			90422
+			90342
 		}
 	},
-	[90423] = {
-		id = 90423,
-		damage = "62 x 4",
-		base = 90420,
+	[90343] = {
+		id = 90343,
+		damage = "59 x 4",
+		base = 90340,
 		weapon_id = {
-			90423
+			90343
 		}
 	},
-	[90424] = {
-		id = 90424,
-		damage = "68 x 4",
-		base = 90420,
+	[90344] = {
+		id = 90344,
+		damage = "65 x 4",
+		base = 90340,
 		weapon_id = {
-			90424
+			90344
 		}
 	},
-	[90425] = {
-		id = 90425,
-		damage = "75 x 4",
-		base = 90420,
+	[90345] = {
+		id = 90345,
+		damage = "71 x 4",
+		base = 90340,
 		weapon_id = {
-			90425
+			90345
 		}
 	},
-	[90426] = {
-		id = 90426,
-		damage = "82 x 4",
-		base = 90420,
+	[90346] = {
+		id = 90346,
+		damage = "77 x 4",
+		base = 90340,
 		weapon_id = {
-			90426
+			90346
 		}
 	},
-	[90427] = {
-		id = 90427,
+	[90347] = {
+		id = 90347,
+		damage = "83 x 4",
+		base = 90340,
+		weapon_id = {
+			90347
+		}
+	},
+	[90348] = {
+		id = 90348,
 		damage = "89 x 4",
-		base = 90420,
+		base = 90340,
 		weapon_id = {
-			90427
+			90348
 		}
 	},
-	[90428] = {
-		id = 90428,
-		damage = "96 x 4",
-		base = 90420,
+	[90349] = {
+		id = 90349,
+		damage = "95 x 4",
+		base = 90340,
 		weapon_id = {
-			90428
-		}
-	},
-	[90429] = {
-		id = 90429,
-		damage = "103 x 4",
-		base = 90420,
-		weapon_id = {
-			90429
+			90349
 		}
 	}
 }

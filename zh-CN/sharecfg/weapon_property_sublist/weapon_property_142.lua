@@ -675,4 +675,9 @@ function ()
 		damage = 302,
 		base = 67260
 	}
+	uv0.weapon_property_142[67270] = {
+		id = 67270,
+		damage = 322,
+		base = 67260
+	}
 end()

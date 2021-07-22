@@ -2,244 +2,6 @@ pg = pg or {}
 pg.weapon_property_155 = {}
 
 function ()
-	uv0.weapon_property_155[68207] = {
-		name = "出云技能-PVE-LV7",
-		damage = 78,
-		base = 68201,
-		id = 68207,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68208] = {
-		name = "出云技能-PVE-LV8",
-		damage = 86,
-		base = 68201,
-		id = 68208,
-		bullet_ID = {
-			19871,
-			19871,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80571,
-			80572,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68209] = {
-		name = "出云技能-PVE-LV9",
-		damage = 95,
-		base = 68201,
-		id = 68209,
-		bullet_ID = {
-			19871,
-			19871,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80571,
-			80572,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68210] = {
-		name = "出云技能-PVE-LV10",
-		damage = 104,
-		base = 68201,
-		id = 68210,
-		bullet_ID = {
-			19871,
-			19871,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80571,
-			80572,
-			80054,
-			80058
-		}
-	}
-	uv0.weapon_property_155[68211] = {
-		action_index = "attack",
-		range = 115,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "出云技能-PVP-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 68211,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_155[68212] = {
-		id = 68212,
-		name = "出云技能-PVP-LV2",
-		damage = 38,
-		base = 68211
-	}
-	uv0.weapon_property_155[68213] = {
-		id = 68213,
-		name = "出云技能-PVP-LV3",
-		damage = 46,
-		base = 68211
-	}
-	uv0.weapon_property_155[68214] = {
-		name = "出云技能-PVP-LV4",
-		damage = 54,
-		base = 68211,
-		id = 68214,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68215] = {
-		name = "出云技能-PVP-LV5",
-		damage = 62,
-		base = 68211,
-		id = 68215,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68216] = {
-		name = "出云技能-PVP-LV6",
-		damage = 70,
-		base = 68211,
-		id = 68216,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68217] = {
-		name = "出云技能-PVP-LV7",
-		damage = 78,
-		base = 68211,
-		id = 68217,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68218] = {
-		name = "出云技能-PVP-LV8",
-		damage = 86,
-		base = 68211,
-		id = 68218,
-		bullet_ID = {
-			19871,
-			19871,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80571,
-			80572,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_155[68219] = {
-		name = "出云技能-PVP-LV9",
-		damage = 95,
-		base = 68211,
-		id = 68219,
-		bullet_ID = {
-			19871,
-			19871,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80571,
-			80572,
-			80053,
-			80057
-		}
-	}
 	uv0.weapon_property_155[68220] = {
 		name = "出云技能-PVP-LV10",
 		damage = 104,
@@ -863,5 +625,165 @@ function ()
 		name = "绊爱描边大师-LV9",
 		damage = 58,
 		base = 68271
+	}
+	uv0.weapon_property_155[68280] = {
+		id = 68280,
+		name = "绊爱描边大师-LV10",
+		damage = 62,
+		base = 68271
+	}
+	uv0.weapon_property_155[68281] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "绊爱描边大师雷-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 68281,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19873
+		},
+		barrage_ID = {
+			80599
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68282] = {
+		id = 68282,
+		name = "绊爱描边大师雷-LV2",
+		damage = 78,
+		base = 68281
+	}
+	uv0.weapon_property_155[68283] = {
+		id = 68283,
+		name = "绊爱描边大师雷-LV3",
+		damage = 85,
+		base = 68281
+	}
+	uv0.weapon_property_155[68284] = {
+		id = 68284,
+		name = "绊爱描边大师雷-LV4",
+		damage = 99,
+		base = 68281
+	}
+	uv0.weapon_property_155[68285] = {
+		id = 68285,
+		name = "绊爱描边大师雷-LV5",
+		damage = 104,
+		base = 68281
+	}
+	uv0.weapon_property_155[68286] = {
+		id = 68286,
+		name = "绊爱描边大师雷-LV6",
+		damage = 110,
+		base = 68281
+	}
+	uv0.weapon_property_155[68287] = {
+		id = 68287,
+		name = "绊爱描边大师雷-LV7",
+		damage = 117,
+		base = 68281
+	}
+	uv0.weapon_property_155[68288] = {
+		id = 68288,
+		name = "绊爱描边大师雷-LV8",
+		damage = 125,
+		base = 68281
+	}
+	uv0.weapon_property_155[68289] = {
+		id = 68289,
+		name = "绊爱描边大师雷-LV9",
+		damage = 134,
+		base = 68281
+	}
+	uv0.weapon_property_155[68290] = {
+		id = 68290,
+		name = "绊爱描边大师雷-LV10",
+		damage = 144,
+		base = 68281
+	}
+	uv0.weapon_property_155[68291] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "绊爱驱逐单发射击鱼雷-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 30,
+		corrected = 100,
+		min_range = 0,
+		id = 68291,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19873
+		},
+		barrage_ID = {
+			80600
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68292] = {
+		id = 68292,
+		name = "绊爱驱逐单发射击鱼雷-LV2",
+		damage = 38,
+		base = 68291
+	}
+	uv0.weapon_property_155[68293] = {
+		id = 68293,
+		name = "绊爱驱逐单发射击鱼雷-LV3",
+		damage = 46,
+		base = 68291
 	}
 end()

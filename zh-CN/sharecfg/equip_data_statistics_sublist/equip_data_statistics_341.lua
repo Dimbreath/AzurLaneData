@@ -407,8 +407,8 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[66200] = {
-		name = "提尔比茨磁性鱼雷",
+	[61506] = {
+		name = "日服生放用-天海春香演示弹幕(粉色徽章+应援棒鱼雷)",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -416,18 +416,18 @@ pg.equip_data_statistics_341 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "技能弹幕",
+		descrip = "技能弹幕展示用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 66200,
+		id = 61506,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			66200
+			61506
 		},
 		skill_id = {},
 		part_main = {
@@ -446,8 +446,8 @@ pg.equip_data_statistics_341 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[66220] = {
-		name = "沙恩霍斯特级鱼雷",
+	[61507] = {
+		name = "日服生放用-三浦梓演示弹幕(转圈团子头)",
 		tech = 1,
 		speciality = "无",
 		type = 1,
@@ -455,18 +455,18 @@ pg.equip_data_statistics_341 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "技能弹幕",
+		descrip = "技能弹幕展示用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 66220,
+		id = 61507,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			66220
+			61507
 		},
 		skill_id = {},
 		part_main = {

@@ -2,102 +2,6 @@ pg = pg or {}
 pg.weapon_property_151 = {}
 
 function ()
-	uv0.weapon_property_151[67958] = {
-		name = "独立技能鱼雷Lv8",
-		damage = 175,
-		base = 67951,
-		id = 67958,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_151[67959] = {
-		name = "独立技能鱼雷Lv9",
-		damage = 191,
-		base = 67951,
-		id = 67959,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_151[67960] = {
-		name = "独立技能鱼雷Lv10",
-		damage = 207,
-		base = 67951,
-		id = 67960,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_151[67961] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "香格里拉技能专用武器-随机位置",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 180,
-		charge_param = "",
-		damage = 83,
-		corrected = 100,
-		min_range = 0,
-		id = 67961,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19988
-		},
-		barrage_ID = {
-			60001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_151[67962] = {
-		id = 67962,
-		damage = 98,
-		base = 67961
-	}
-	uv0.weapon_property_151[67963] = {
-		id = 67963,
-		damage = 113,
-		base = 67961
-	}
-	uv0.weapon_property_151[67964] = {
-		id = 67964,
-		damage = 128,
-		base = 67961
-	}
-	uv0.weapon_property_151[67965] = {
-		id = 67965,
-		damage = 143,
-		base = 67961
-	}
-	uv0.weapon_property_151[67966] = {
-		id = 67966,
-		damage = 158,
-		base = 67961
-	}
 	uv0.weapon_property_151[67967] = {
 		id = 67967,
 		damage = 174,
@@ -704,6 +608,131 @@ function ()
 		id = 68027,
 		bullet_ID = {
 			68027
+		}
+	}
+	uv0.weapon_property_151[68028] = {
+		name = "邦克山技能战斗机Lv8",
+		damage = 75,
+		base = 68021,
+		id = 68028,
+		bullet_ID = {
+			68028
+		}
+	}
+	uv0.weapon_property_151[68029] = {
+		name = "邦克山技能战斗机Lv9",
+		damage = 81,
+		base = 68021,
+		id = 68029,
+		bullet_ID = {
+			68029
+		}
+	}
+	uv0.weapon_property_151[68030] = {
+		name = "邦克山技能战斗机Lv10",
+		damage = 86,
+		base = 68021,
+		id = 68030,
+		bullet_ID = {
+			68030
+		}
+	}
+	uv0.weapon_property_151[68031] = {
+		action_index = "",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 1,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "邦克山技能轰炸机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 5,
+		angle = 90,
+		charge_param = "",
+		damage = 66,
+		corrected = 100,
+		min_range = 0,
+		id = 68031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			68031
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_151[68032] = {
+		name = "邦克山技能轰炸机Lv2",
+		damage = 78,
+		base = 68031,
+		id = 68032,
+		bullet_ID = {
+			68032
+		}
+	}
+	uv0.weapon_property_151[68033] = {
+		name = "邦克山技能轰炸机Lv3",
+		damage = 91,
+		base = 68031,
+		id = 68033,
+		bullet_ID = {
+			68033
+		}
+	}
+	uv0.weapon_property_151[68034] = {
+		name = "邦克山技能轰炸机Lv4",
+		damage = 103,
+		base = 68031,
+		id = 68034,
+		bullet_ID = {
+			68034
+		}
+	}
+	uv0.weapon_property_151[68035] = {
+		name = "邦克山技能轰炸机Lv5",
+		damage = 116,
+		base = 68031,
+		id = 68035,
+		bullet_ID = {
+			68035
+		}
+	}
+	uv0.weapon_property_151[68036] = {
+		name = "邦克山技能轰炸机Lv6",
+		damage = 129,
+		base = 68031,
+		id = 68036,
+		bullet_ID = {
+			68036
+		}
+	}
+	uv0.weapon_property_151[68037] = {
+		name = "邦克山技能轰炸机Lv7",
+		damage = 141,
+		base = 68031,
+		id = 68037,
+		bullet_ID = {
+			68037
 		}
 	}
 end()

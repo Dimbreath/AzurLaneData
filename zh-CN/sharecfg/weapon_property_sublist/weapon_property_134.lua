@@ -2,6 +2,104 @@ pg = pg or {}
 pg.weapon_property_134 = {}
 
 function ()
+	uv0.weapon_property_134[66187] = {
+		name = "沙恩霍斯特技能Lv7",
+		damage = 85,
+		base = 66180,
+		id = 66187,
+		bullet_ID = {
+			19984
+		}
+	}
+	uv0.weapon_property_134[66188] = {
+		name = "沙恩霍斯特技能Lv8",
+		damage = 92,
+		base = 66180,
+		id = 66188,
+		bullet_ID = {
+			19984
+		}
+	}
+	uv0.weapon_property_134[66189] = {
+		name = "沙恩霍斯特技能Lv9",
+		damage = 99,
+		base = 66180,
+		id = 66189,
+		bullet_ID = {
+			19984
+		}
+	}
+	uv0.weapon_property_134[66190] = {
+		name = "沙恩霍斯特技能Lv10",
+		damage = 106,
+		base = 66180,
+		id = 66190,
+		bullet_ID = {
+			19984
+		}
+	}
+	uv0.weapon_property_134[66200] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "提尔比茨技能磁性鱼雷Lv0",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 66200,
+		attack_attribute_ratio = 150,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1804
+		},
+		barrage_ID = {
+			1409
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_134[66201] = {
+		id = 66201,
+		name = "提尔比茨技能磁性鱼雷Lv1",
+		damage = 63,
+		base = 66200
+	}
+	uv0.weapon_property_134[66202] = {
+		id = 66202,
+		name = "提尔比茨技能磁性鱼雷Lv2",
+		damage = 71,
+		base = 66200
+	}
+	uv0.weapon_property_134[66203] = {
+		id = 66203,
+		name = "提尔比茨技能磁性鱼雷Lv3",
+		damage = 79,
+		base = 66200
+	}
 	uv0.weapon_property_134[66204] = {
 		id = 66204,
 		name = "提尔比茨技能磁性鱼雷Lv4",
@@ -647,85 +745,5 @@ function ()
 		name = "强袭模式·EX鱼雷LV4",
 		damage = 90,
 		base = 66300
-	}
-	uv0.weapon_property_134[66305] = {
-		id = 66305,
-		name = "强袭模式·EX鱼雷LV5",
-		damage = 101,
-		base = 66300
-	}
-	uv0.weapon_property_134[66306] = {
-		id = 66306,
-		name = "强袭模式·EX鱼雷LV6",
-		damage = 112,
-		base = 66300
-	}
-	uv0.weapon_property_134[66307] = {
-		id = 66307,
-		name = "强袭模式·EX鱼雷LV7",
-		damage = 123,
-		base = 66300
-	}
-	uv0.weapon_property_134[66308] = {
-		id = 66308,
-		name = "强袭模式·EX鱼雷LV8",
-		damage = 134,
-		base = 66300
-	}
-	uv0.weapon_property_134[66309] = {
-		id = 66309,
-		name = "强袭模式·EX鱼雷LV9",
-		damage = 145,
-		base = 66300
-	}
-	uv0.weapon_property_134[66310] = {
-		id = 66310,
-		name = "强袭模式·EX鱼雷LV10",
-		damage = 156,
-		base = 66300
-	}
-	uv0.weapon_property_134[66320] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "鬼神演舞弹幕LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 66320,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19902
-		},
-		barrage_ID = {
-			80101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

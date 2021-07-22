@@ -1,5 +1,97 @@
 pg = pg or {}
 pg.equip_data_statistics_372 = {
+	[85444] = {
+		id = 85444,
+		damage = "12 x 4",
+		base = 85440,
+		weapon_id = {
+			85444
+		}
+	},
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
+		weapon_id = {
+			85445
+		}
+	},
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
+	},
+	[85447] = {
+		id = 85447,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85447
+		}
+	},
+	[85460] = {
+		name = "B-1-P 三联装180mm主炮Model1932",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		descrip = "北方联合开发的180mm三联装舰炮，拥有相当优秀的射程",
+		value_2 = 12,
+		icon = "85460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "16 x 3",
+		nationality = 7,
+		ammo = 1,
+		value_3 = 0,
+		id = 85460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1712
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1712
+			},
+			{
+				4,
+				1108
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85460
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
 	[85461] = {
 		id = 85461,
 		base = 85460,
@@ -107,36 +199,6 @@ pg.equip_data_statistics_372 = {
 		id = 89005,
 		value_2 = 10,
 		value_1 = "20",
-		base = 89000
-	},
-	[89006] = {
-		id = 89006,
-		value_2 = 11,
-		value_1 = "21",
-		base = 89000
-	},
-	[89007] = {
-		id = 89007,
-		value_2 = 12,
-		value_1 = "22",
-		base = 89000
-	},
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
-		base = 89000
-	},
-	[89009] = {
-		id = 89009,
-		value_2 = 14,
-		value_1 = "24",
-		base = 89000
-	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
 		base = 89000
 	}
 }

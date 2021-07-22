@@ -2,6 +2,177 @@ pg = pg or {}
 pg.weapon_property_126 = {}
 
 function ()
+	uv0.weapon_property_126[65586] = {
+		id = 65586,
+		damage = 141,
+		base = 68631
+	}
+	uv0.weapon_property_126[65587] = {
+		id = 65587,
+		damage = 157,
+		base = 68631
+	}
+	uv0.weapon_property_126[65588] = {
+		id = 65588,
+		damage = 175,
+		base = 68631
+	}
+	uv0.weapon_property_126[65589] = {
+		id = 65589,
+		damage = 191,
+		base = 68631
+	}
+	uv0.weapon_property_126[65590] = {
+		id = 65590,
+		damage = 207,
+		base = 68631
+	}
+	uv0.weapon_property_126[65591] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "文琴佐弹幕LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 65591,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19255,
+			19255,
+			19255
+		},
+		barrage_ID = {
+			81004,
+			81005,
+			81006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_126[65592] = {
+		id = 65592,
+		name = "文琴佐弹幕LV2",
+		damage = 9,
+		base = 65591
+	}
+	uv0.weapon_property_126[65593] = {
+		id = 65593,
+		name = "文琴佐弹幕LV3",
+		damage = 10,
+		base = 65591
+	}
+	uv0.weapon_property_126[65594] = {
+		id = 65594,
+		name = "文琴佐弹幕LV4",
+		damage = 11,
+		base = 65591
+	}
+	uv0.weapon_property_126[65595] = {
+		id = 65595,
+		name = "文琴佐弹幕LV5",
+		damage = 12,
+		base = 65591
+	}
+	uv0.weapon_property_126[65596] = {
+		id = 65596,
+		name = "文琴佐弹幕LV6",
+		damage = 13,
+		base = 65591
+	}
+	uv0.weapon_property_126[65597] = {
+		id = 65597,
+		name = "文琴佐弹幕LV7",
+		damage = 14,
+		base = 65591
+	}
+	uv0.weapon_property_126[65598] = {
+		id = 65598,
+		name = "文琴佐弹幕LV8",
+		damage = 15,
+		base = 65591
+	}
+	uv0.weapon_property_126[65599] = {
+		id = 65599,
+		name = "文琴佐弹幕LV9",
+		damage = 16,
+		base = 65591
+	}
+	uv0.weapon_property_126[65600] = {
+		id = 65600,
+		name = "文琴佐弹幕LV10",
+		damage = 17,
+		base = 65591
+	}
+	uv0.weapon_property_126[65601] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "文琴佐鱼雷 LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 38,
+		corrected = 100,
+		min_range = 0,
+		id = 65601,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19256
+		},
+		barrage_ID = {
+			81007
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_126[65602] = {
 		id = 65602,
 		name = "文琴佐鱼雷 LV2",
@@ -475,181 +646,5 @@ function ()
 		name = "应瑞肇和技能鱼雷 LV9",
 		damage = 58,
 		base = 65641
-	}
-	uv0.weapon_property_126[65650] = {
-		id = 65650,
-		name = "应瑞肇和技能鱼雷 LV10",
-		damage = 62,
-		base = 65641
-	}
-	uv0.weapon_property_126[65651] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "肇和技能弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 65651,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19260,
-			19259
-		},
-		barrage_ID = {
-			81019,
-			81020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_126[65652] = {
-		id = 65652,
-		name = "肇和技能弹幕LV2",
-		damage = 9,
-		base = 65651
-	}
-	uv0.weapon_property_126[65653] = {
-		id = 65653,
-		name = "肇和技能弹幕LV3",
-		damage = 10,
-		base = 65651
-	}
-	uv0.weapon_property_126[65654] = {
-		id = 65654,
-		name = "肇和技能弹幕LV4",
-		damage = 11,
-		base = 65651
-	}
-	uv0.weapon_property_126[65655] = {
-		id = 65655,
-		name = "肇和技能弹幕LV5",
-		damage = 12,
-		base = 65651
-	}
-	uv0.weapon_property_126[65656] = {
-		id = 65656,
-		name = "肇和技能弹幕LV6",
-		damage = 13,
-		base = 65651
-	}
-	uv0.weapon_property_126[65657] = {
-		id = 65657,
-		name = "肇和技能弹幕LV7",
-		damage = 14,
-		base = 65651
-	}
-	uv0.weapon_property_126[65658] = {
-		id = 65658,
-		name = "肇和技能弹幕LV8",
-		damage = 15,
-		base = 65651
-	}
-	uv0.weapon_property_126[65659] = {
-		id = 65659,
-		name = "肇和技能弹幕LV9",
-		damage = 16,
-		base = 65651
-	}
-	uv0.weapon_property_126[65660] = {
-		id = 65660,
-		name = "肇和技能弹幕LV10",
-		damage = 18,
-		base = 65651
-	}
-	uv0.weapon_property_126[65661] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "神速技能弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 65661,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19262
-		},
-		barrage_ID = {
-			81023
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_126[65662] = {
-		id = 65662,
-		name = "神速技能弹幕LV2",
-		damage = 20,
-		base = 65661
-	}
-	uv0.weapon_property_126[65663] = {
-		id = 65663,
-		name = "神速技能弹幕LV3",
-		damage = 22,
-		base = 65661
-	}
-	uv0.weapon_property_126[65664] = {
-		name = "神速技能弹幕LV4",
-		damage = 24,
-		base = 65661,
-		id = 65664,
-		bullet_ID = {
-			19262,
-			19262
-		},
-		barrage_ID = {
-			81023,
-			81024
-		}
 	}
 end()

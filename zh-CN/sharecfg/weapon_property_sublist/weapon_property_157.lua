@@ -2,120 +2,6 @@ pg = pg or {}
 pg.weapon_property_157 = {}
 
 function ()
-	uv0.weapon_property_157[68343] = {
-		id = 68343,
-		damage = 54,
-		base = 68341
-	}
-	uv0.weapon_property_157[68344] = {
-		id = 68344,
-		damage = 57,
-		base = 68341
-	}
-	uv0.weapon_property_157[68345] = {
-		id = 68345,
-		damage = 61,
-		base = 68341
-	}
-	uv0.weapon_property_157[68346] = {
-		id = 68346,
-		damage = 66,
-		base = 68341
-	}
-	uv0.weapon_property_157[68347] = {
-		id = 68347,
-		damage = 72,
-		base = 68341
-	}
-	uv0.weapon_property_157[68348] = {
-		id = 68348,
-		damage = 79,
-		base = 68341
-	}
-	uv0.weapon_property_157[68349] = {
-		id = 68349,
-		damage = 87,
-		base = 68341
-	}
-	uv0.weapon_property_157[68350] = {
-		id = 68350,
-		damage = 96,
-		base = 68341
-	}
-	uv0.weapon_property_157[68351] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 22,
-		shakescreen = 0,
-		name = "1 x 500lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 22,
-		charge_param = "",
-		damage = 127,
-		corrected = 100,
-		min_range = 0,
-		id = 68351,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19880
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_157[68352] = {
-		id = 68352,
-		damage = 134,
-		base = 68351
-	}
-	uv0.weapon_property_157[68353] = {
-		id = 68353,
-		damage = 142,
-		base = 68351
-	}
-	uv0.weapon_property_157[68354] = {
-		id = 68354,
-		damage = 151,
-		base = 68351
-	}
-	uv0.weapon_property_157[68355] = {
-		id = 68355,
-		damage = 161,
-		base = 68351
-	}
-	uv0.weapon_property_157[68356] = {
-		id = 68356,
-		damage = 172,
-		base = 68351
-	}
-	uv0.weapon_property_157[68357] = {
-		id = 68357,
-		damage = 184,
-		base = 68351
-	}
 	uv0.weapon_property_157[68358] = {
 		id = 68358,
 		damage = 197,
@@ -637,5 +523,188 @@ function ()
 		name = "俾斯麦弹幕PVE-Lv5",
 		damage = 72,
 		base = 68401
+	}
+	uv0.weapon_property_157[68406] = {
+		id = 68406,
+		name = "俾斯麦弹幕PVE-Lv6",
+		damage = 79,
+		base = 68401
+	}
+	uv0.weapon_property_157[68407] = {
+		id = 68407,
+		name = "俾斯麦弹幕PVE-Lv7",
+		damage = 86,
+		base = 68401
+	}
+	uv0.weapon_property_157[68408] = {
+		id = 68408,
+		name = "俾斯麦弹幕PVE-Lv8",
+		damage = 93,
+		base = 68401
+	}
+	uv0.weapon_property_157[68409] = {
+		id = 68409,
+		name = "俾斯麦弹幕PVE-Lv9",
+		damage = 100,
+		base = 68401
+	}
+	uv0.weapon_property_157[68410] = {
+		id = 68410,
+		name = "俾斯麦弹幕PVE-Lv10",
+		damage = 110,
+		base = 68401
+	}
+	uv0.weapon_property_157[68411] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "俾斯麦弹幕PVP-Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 35,
+		id = 68411,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19978,
+			19979,
+			19979
+		},
+		barrage_ID = {
+			80491,
+			80494,
+			80495
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_157[68412] = {
+		id = 68412,
+		name = "俾斯麦弹幕PVP-Lv2",
+		damage = 50,
+		base = 68411
+	}
+	uv0.weapon_property_157[68413] = {
+		id = 68413,
+		name = "俾斯麦弹幕PVP-Lv3",
+		damage = 57,
+		base = 68411
+	}
+	uv0.weapon_property_157[68414] = {
+		id = 68414,
+		name = "俾斯麦弹幕PVP-Lv4",
+		damage = 64,
+		base = 68411
+	}
+	uv0.weapon_property_157[68415] = {
+		id = 68415,
+		name = "俾斯麦弹幕PVP-Lv5",
+		damage = 72,
+		base = 68411
+	}
+	uv0.weapon_property_157[68416] = {
+		id = 68416,
+		name = "俾斯麦弹幕PVP-Lv6",
+		damage = 79,
+		base = 68411
+	}
+	uv0.weapon_property_157[68417] = {
+		id = 68417,
+		name = "俾斯麦弹幕PVP-Lv7",
+		damage = 86,
+		base = 68411
+	}
+	uv0.weapon_property_157[68418] = {
+		id = 68418,
+		name = "俾斯麦弹幕PVP-Lv8",
+		damage = 93,
+		base = 68411
+	}
+	uv0.weapon_property_157[68419] = {
+		id = 68419,
+		name = "俾斯麦弹幕PVP-Lv9",
+		damage = 100,
+		base = 68411
+	}
+	uv0.weapon_property_157[68420] = {
+		id = 68420,
+		name = "俾斯麦弹幕PVP-Lv10",
+		damage = 110,
+		base = 68411
+	}
+	uv0.weapon_property_157[68421] = {
+		action_index = "attack",
+		range = 95,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "KGV技能弹幕-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 25,
+		id = 68421,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19881,
+			19882
+		},
+		barrage_ID = {
+			80708,
+			80706
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()
