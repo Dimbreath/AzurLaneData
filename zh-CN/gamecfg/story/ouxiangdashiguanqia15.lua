@@ -286,11 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 307100,
+			expression = 2,
 			side = 2,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
-			say = "（要解决这个问题的话，只是光想着为指挥官而唱的话看来不够呢……）",
+			say = "（这不仅是自己的舞台，更是和伙伴们一起的舞台）",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -314,22 +315,6 @@ return {
 					name = "memoryFog"
 				}
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 103250,
-			say = "（没错，这不仅是自己的舞台，更是和伙伴们一起的舞台）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
