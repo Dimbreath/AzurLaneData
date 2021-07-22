@@ -5563,8 +5563,7 @@ Can be converted to one of the following SR gear blueprints:
 Prototype BF-109 T0 Design
 Prototype Twin 90mm Model 1939 High Angle Gun T0 Design
 Prototype Triple 406mm Model 1940 Main Gun T0 Design
-Prototype Saiun Kai T0 Design
-Prototype Tenrai T0 Design]],
+Prototype Saiun Kai T0 Design]],
 		type = 13,
 		is_world = 0,
 		shop_id = -1,

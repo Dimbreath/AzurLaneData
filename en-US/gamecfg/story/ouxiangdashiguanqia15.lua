@@ -286,44 +286,6 @@ return {
 			}
 		},
 		{
-			actor = 307100,
-			side = 2,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "(I'm dedicating my all for my Commander, but it is still not enough...)",
-			flashout = {
-				dur = 0.5,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.5,
-				dur = 0.5,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			effects = {
-				{
-					active = false,
-					name = "memoryFog"
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
