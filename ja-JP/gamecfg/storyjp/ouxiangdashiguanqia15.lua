@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指揮官さまのための歌、では足りませんわ）",
+			say = "（このトラブルを解決するためには指揮官さまのための歌、では足りませんわね…）",
 			flashout = {
 				dur = 0.5,
 				black = true,

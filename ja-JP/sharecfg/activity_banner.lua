@@ -245,7 +245,7 @@ pg.activity_banner = {
 		}
 	},
 	[10] = {
-		param = "海军咖喱|甜咖喱还是辣咖喱，这是一个问题！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "海軍カレー|甘口？辛口？好みは人それぞれ…<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		type = 10,
 		id = 10,
 		pic = "haijungali",

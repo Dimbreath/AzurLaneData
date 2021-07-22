@@ -11,7 +11,7 @@ return {
 			bgName = "bg_map_idom",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "doa_story1",
+			bgm = "idom-Appeal",
 			say = "母港・ライブ海域",
 			flashout = {
 				dur = 1,
