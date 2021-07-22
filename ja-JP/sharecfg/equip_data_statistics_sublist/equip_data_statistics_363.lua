@@ -1,5 +1,63 @@
 pg = pg or {}
 pg.equip_data_statistics_363 = {
+	[89033] = {
+		id = 89033,
+		anti_siren = 300,
+		base = 89020,
+		value_2 = 2,
+		value_1 = "590"
+	},
+	[89040] = {
+		name = "インテリジェントチップ",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 89040,
+		value_2 = 3,
+		icon = "89040",
+		value_1 = "98",
+		attribute_2 = "speed",
+		rarity = 5,
+		descrip = "キズナアイがプラグインを導入するときに使用するチップ…？――もうポンコツだなんて言わせません！",
+		nationality = 104,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6400
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89041] = {
+		id = 89041,
+		value_1 = "112",
+		base = 89040
+	},
+	[89042] = {
+		id = 89042,
+		value_2 = 4,
+		value_1 = "127",
+		base = 89040
+	},
+	[89043] = {
+		id = 89043,
+		value_2 = 4,
+		value_1 = "142",
+		base = 89040
+	},
 	[89044] = {
 		id = 89044,
 		value_2 = 5,
@@ -100,36 +158,6 @@ pg.equip_data_statistics_363 = {
 	[89061] = {
 		id = 89061,
 		value_1 = "7",
-		base = 89060
-	},
-	[89062] = {
-		id = 89062,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89060
-	},
-	[89063] = {
-		id = 89063,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89060
-	},
-	[89064] = {
-		id = 89064,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89060
-	},
-	[89065] = {
-		id = 89065,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89060
-	},
-	[89066] = {
-		id = 89066,
-		value_2 = 21,
-		value_1 = "11",
 		base = 89060
 	}
 }

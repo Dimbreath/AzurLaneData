@@ -2,6 +2,44 @@ pg = pg or {}
 pg.weapon_property_71 = {}
 
 function ()
+	uv0.weapon_property_71[46347] = {
+		id = 46347,
+		reload_max = 200,
+		damage = 98,
+		base = 46340
+	}
+	uv0.weapon_property_71[46348] = {
+		id = 46348,
+		reload_max = 195,
+		damage = 106,
+		base = 46340
+	}
+	uv0.weapon_property_71[46349] = {
+		id = 46349,
+		reload_max = 190,
+		damage = 114,
+		base = 46340
+	}
+	uv0.weapon_property_71[46350] = {
+		id = 46350,
+		reload_max = 186,
+		damage = 122,
+		base = 46340
+	}
+	uv0.weapon_property_71[46351] = {
+		reload_max = 186,
+		damage = 122,
+		base = 46340,
+		id = 46351,
+		corrected = 104
+	}
+	uv0.weapon_property_71[46352] = {
+		reload_max = 186,
+		damage = 122,
+		base = 46340,
+		id = 46352,
+		corrected = 110
+	}
 	uv0.weapon_property_71[46353] = {
 		reload_max = 186,
 		damage = 122,
@@ -614,90 +652,5 @@ function ()
 		id = 47090,
 		reload_max = 1710,
 		base = 47080
-	}
-	uv0.weapon_property_71[47091] = {
-		id = 47091,
-		reload_max = 1710,
-		base = 47080
-	}
-	uv0.weapon_property_71[47100] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Me-155A舰载战斗机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 47100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1720,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			47100
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_71[47101] = {
-		reload_max = 1695,
-		damage = 36,
-		base = 47100,
-		id = 47101,
-		bullet_ID = {
-			47101
-		}
-	}
-	uv0.weapon_property_71[47102] = {
-		reload_max = 1670,
-		damage = 40,
-		base = 47100,
-		id = 47102,
-		bullet_ID = {
-			47102
-		}
-	}
-	uv0.weapon_property_71[47103] = {
-		reload_max = 1645,
-		damage = 45,
-		base = 47100,
-		id = 47103,
-		bullet_ID = {
-			47103
-		}
-	}
-	uv0.weapon_property_71[47104] = {
-		reload_max = 1620,
-		damage = 49,
-		base = 47100,
-		id = 47104,
-		bullet_ID = {
-			47104
-		}
 	}
 end()

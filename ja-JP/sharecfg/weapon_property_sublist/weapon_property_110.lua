@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 function ()
+	uv0.weapon_property_110[64052] = {
+		id = 64052,
+		name = "小天城战列技能-LV2",
+		damage = 24,
+		base = 64051
+	}
+	uv0.weapon_property_110[64053] = {
+		id = 64053,
+		name = "小天城战列技能-LV3",
+		damage = 26,
+		base = 64051
+	}
+	uv0.weapon_property_110[64054] = {
+		id = 64054,
+		name = "小天城战列技能-LV4",
+		damage = 28,
+		base = 64051
+	}
+	uv0.weapon_property_110[64055] = {
+		id = 64055,
+		name = "小天城战列技能-LV5",
+		damage = 30,
+		base = 64051
+	}
+	uv0.weapon_property_110[64056] = {
+		id = 64056,
+		name = "小天城战列技能-LV6",
+		damage = 32,
+		base = 64051
+	}
+	uv0.weapon_property_110[64057] = {
+		id = 64057,
+		name = "小天城战列技能-LV7",
+		damage = 34,
+		base = 64051
+	}
+	uv0.weapon_property_110[64058] = {
+		id = 64058,
+		name = "小天城战列技能-LV8",
+		damage = 36,
+		base = 64051
+	}
+	uv0.weapon_property_110[64059] = {
+		id = 64059,
+		name = "小天城战列技能-LV9",
+		damage = 38,
+		base = 64051
+	}
+	uv0.weapon_property_110[64060] = {
+		id = 64060,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64051
+	}
+	uv0.weapon_property_110[64061] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "小天城战列技能-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 64061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19286,
+			19286
+		},
+		barrage_ID = {
+			81057,
+			81059
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_110[64062] = {
+		id = 64062,
+		name = "小天城战列技能-LV2",
+		damage = 24,
+		base = 64061
+	}
 	uv0.weapon_property_110[64063] = {
 		id = 64063,
 		name = "小天城战列技能-LV3",
@@ -671,126 +777,5 @@ function ()
 		name = "博伊西技能子弹弹幕LV4",
 		damage = 6,
 		base = 64111
-	}
-	uv0.weapon_property_110[64115] = {
-		id = 64115,
-		name = "博伊西技能子弹弹幕LV5",
-		damage = 7,
-		base = 64111
-	}
-	uv0.weapon_property_110[64116] = {
-		id = 64116,
-		name = "博伊西技能子弹弹幕LV6",
-		damage = 7,
-		base = 64111
-	}
-	uv0.weapon_property_110[64117] = {
-		id = 64117,
-		name = "博伊西技能子弹弹幕LV7",
-		damage = 8,
-		base = 64111
-	}
-	uv0.weapon_property_110[64118] = {
-		id = 64118,
-		name = "博伊西技能子弹弹幕LV8",
-		damage = 8,
-		base = 64111
-	}
-	uv0.weapon_property_110[64119] = {
-		id = 64119,
-		name = "博伊西技能子弹弹幕LV9",
-		damage = 9,
-		base = 64111
-	}
-	uv0.weapon_property_110[64120] = {
-		id = 64120,
-		name = "博伊西技能子弹弹幕LV10",
-		damage = 10,
-		base = 64111
-	}
-	uv0.weapon_property_110[64121] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "提康德罗加Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 52,
-		corrected = 100,
-		min_range = 0,
-		id = 64121,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2070,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			64121
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[64122] = {
-		reload_max = 2035,
-		damage = 72,
-		base = 64121,
-		id = 64122,
-		name = "提康德罗加Lv2",
-		bullet_ID = {
-			64122
-		}
-	}
-	uv0.weapon_property_110[64123] = {
-		reload_max = 2000,
-		damage = 92,
-		base = 64121,
-		id = 64123,
-		name = "提康德罗加Lv3",
-		bullet_ID = {
-			64123
-		}
-	}
-	uv0.weapon_property_110[64124] = {
-		reload_max = 1965,
-		damage = 113,
-		base = 64121,
-		id = 64124,
-		name = "提康德罗加Lv4",
-		bullet_ID = {
-			64124
-		}
-	}
-	uv0.weapon_property_110[64125] = {
-		reload_max = 1930,
-		damage = 134,
-		base = 64121,
-		id = 64125,
-		name = "提康德罗加Lv5",
-		expose = 5,
-		bullet_ID = {
-			64125
-		}
 	}
 end()

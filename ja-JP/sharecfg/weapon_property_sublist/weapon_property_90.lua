@@ -2,6 +2,75 @@ pg = pg or {}
 pg.weapon_property_90 = {}
 
 function ()
+	uv0.weapon_property_90[52420] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "3 x 500lb 爆弾",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 132,
+		corrected = 100,
+		min_range = 0,
+		id = 52420,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2122
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_90[52421] = {
+		id = 52421,
+		damage = 152,
+		base = 52420
+	}
+	uv0.weapon_property_90[52422] = {
+		id = 52422,
+		damage = 171,
+		base = 52420
+	}
+	uv0.weapon_property_90[52423] = {
+		id = 52423,
+		damage = 191,
+		base = 52420
+	}
+	uv0.weapon_property_90[52424] = {
+		id = 52424,
+		damage = 210,
+		base = 52420
+	}
+	uv0.weapon_property_90[52425] = {
+		id = 52425,
+		damage = 230,
+		base = 52420
+	}
 	uv0.weapon_property_90[52426] = {
 		id = 52426,
 		damage = 249,
@@ -441,36 +510,6 @@ function ()
 	uv0.weapon_property_90[52546] = {
 		id = 52546,
 		damage = 270,
-		base = 52540
-	}
-	uv0.weapon_property_90[52547] = {
-		id = 52547,
-		damage = 293,
-		base = 52540
-	}
-	uv0.weapon_property_90[52548] = {
-		id = 52548,
-		damage = 315,
-		base = 52540
-	}
-	uv0.weapon_property_90[52549] = {
-		id = 52549,
-		damage = 338,
-		base = 52540
-	}
-	uv0.weapon_property_90[52550] = {
-		id = 52550,
-		damage = 360,
-		base = 52540
-	}
-	uv0.weapon_property_90[52551] = {
-		id = 52551,
-		damage = 374,
-		base = 52540
-	}
-	uv0.weapon_property_90[52552] = {
-		id = 52552,
-		damage = 396,
 		base = 52540
 	}
 end()

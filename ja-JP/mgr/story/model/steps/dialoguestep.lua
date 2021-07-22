@@ -41,6 +41,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorShadow = slot1.actorShadow
 	slot0.actorAlpha = slot1.actorAlpha
 	slot0.showNPainting = slot1.hidePaintObj
+	slot0.showWJZPainting = slot1.hidePaintEquip
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -192,6 +193,10 @@ end
 
 function slot0.IsShowNPainting(slot0)
 	return slot0.showNPainting
+end
+
+function slot0.IsShowWJZPainting(slot0)
+	return slot0.showWJZPainting
 end
 
 function slot0.ShouldGrayPainting(slot0)

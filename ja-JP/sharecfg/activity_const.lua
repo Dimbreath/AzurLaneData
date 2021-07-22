@@ -764,5 +764,11 @@ pg.activity_const = {
 	},
 	MINIGAME_DANGAOBAOWEIZHAN = {
 		act_id = 987
+	},
+	IDOL_MASTER_PT_ID = {
+		act_id = 4052
+	},
+	IDOL_MASTER_MEDAL_ID = {
+		act_id = 4058
 	}
 }

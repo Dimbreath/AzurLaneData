@@ -2,6 +2,87 @@ pg = pg or {}
 pg.weapon_property_58 = {}
 
 function ()
+	uv0.weapon_property_58[38066] = {
+		id = 38066,
+		reload_max = 1862,
+		base = 38060
+	}
+	uv0.weapon_property_58[38067] = {
+		id = 38067,
+		reload_max = 1862,
+		base = 38060
+	}
+	uv0.weapon_property_58[38100] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "天山T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 38100,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2166,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			38100
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_58[38101] = {
+		reload_max = 2138,
+		damage = 56,
+		base = 38100,
+		id = 38101,
+		bullet_ID = {
+			38101
+		}
+	}
+	uv0.weapon_property_58[38102] = {
+		reload_max = 2109,
+		damage = 72,
+		base = 38100,
+		id = 38102,
+		bullet_ID = {
+			38102
+		}
+	}
+	uv0.weapon_property_58[38103] = {
+		reload_max = 2081,
+		damage = 88,
+		base = 38100,
+		id = 38103,
+		bullet_ID = {
+			38103
+		}
+	}
 	uv0.weapon_property_58[38120] = {
 		action_index = "attack",
 		range = 90,
@@ -677,60 +758,6 @@ function ()
 		id = 38247,
 		bullet_ID = {
 			38207
-		}
-	}
-	uv0.weapon_property_58[38248] = {
-		reload_max = 1790,
-		damage = 218,
-		base = 38240,
-		id = 38248,
-		bullet_ID = {
-			38208
-		}
-	}
-	uv0.weapon_property_58[38249] = {
-		reload_max = 1755,
-		damage = 239,
-		base = 38240,
-		id = 38249,
-		bullet_ID = {
-			38209
-		}
-	}
-	uv0.weapon_property_58[38250] = {
-		reload_max = 1710,
-		damage = 260,
-		base = 38240,
-		id = 38250,
-		bullet_ID = {
-			38210
-		}
-	}
-	uv0.weapon_property_58[38251] = {
-		reload_max = 1710,
-		damage = 260,
-		base = 38240,
-		id = 38251,
-		bullet_ID = {
-			38210
-		}
-	}
-	uv0.weapon_property_58[38252] = {
-		reload_max = 1710,
-		damage = 260,
-		base = 38240,
-		id = 38252,
-		bullet_ID = {
-			38210
-		}
-	}
-	uv0.weapon_property_58[38253] = {
-		reload_max = 1710,
-		damage = 260,
-		base = 38240,
-		id = 38253,
-		bullet_ID = {
-			38210
 		}
 	}
 end()

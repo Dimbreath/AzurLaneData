@@ -2,41 +2,1539 @@ pg = pg or {}
 pg.weapon_property_346 = {}
 
 function ()
-	uv0.weapon_property_346[1000625] = {
+	uv0.weapon_property_346[940003] = {
 		action_index = "attack",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬双联装鱼雷 I",
+		name = "【挑战关卡2】扫帚*2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940003,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940001,
+			940001
+		},
+		barrage_ID = {
+			940003,
+			940004
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941001] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_密",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941001,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940001,
+			940001
+		},
+		barrage_ID = {
+			941003,
+			941004
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941002] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_密*3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941002,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940001,
+			940001,
+			940001,
+			940001,
+			940001,
+			940001
+		},
+		barrage_ID = {
+			941001,
+			941002,
+			941003,
+			941004,
+			941005,
+			941006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941003] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_疏",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941003,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940002,
+			940002
+		},
+		barrage_ID = {
+			942003,
+			942004
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941004] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_疏*3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941004,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940002,
+			940002,
+			940002,
+			940002,
+			940002,
+			940002
+		},
+		barrage_ID = {
+			942001,
+			942002,
+			942003,
+			942004,
+			942005,
+			942006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941005] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_疏_短",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941005,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940002,
+			940002
+		},
+		barrage_ID = {
+			942007,
+			942008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941006] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_跟踪",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941006,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940003,
+			940003
+		},
+		barrage_ID = {
+			943003,
+			943004
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941007] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_跟踪*3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941007,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940003,
+			940003,
+			940003,
+			940003,
+			940003,
+			940003
+		},
+		barrage_ID = {
+			943001,
+			943002,
+			943003,
+			943004,
+			943005,
+			943006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[941008] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】扫帚_跟踪_短",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 941008,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940003,
+			940003
+		},
+		barrage_ID = {
+			943007,
+			943008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940005] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】灰尘_下",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940005,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940005
+		},
+		barrage_ID = {
+			940005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940006] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】灰尘_上",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940006,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940006
+		},
+		barrage_ID = {
+			940006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940007] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】灰尘_合*2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940007,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940005,
+			940006
+		},
+		barrage_ID = {
+			940007,
+			940008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940011] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】风扇",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940011,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 900,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940011,
+			940011,
+			940011,
+			940011,
+			940011,
+			940011,
+			940011,
+			940011
+		},
+		barrage_ID = {
+			940011,
+			940012,
+			940013,
+			940014,
+			940015,
+			940016,
+			940017,
+			940018
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940012] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】风扇",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940012,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 900,
+		queue = 6,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940011,
+			940011,
+			940011,
+			940011,
+			940011,
+			940011,
+			940011,
+			940011
+		},
+		barrage_ID = {
+			940021,
+			940022,
+			940023,
+			940024,
+			940025,
+			940026,
+			940027,
+			940028
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940013] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】风扇",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940013,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 7,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940013,
+			940013,
+			940013,
+			940013,
+			940013,
+			940013,
+			940013,
+			940013
+		},
+		barrage_ID = {
+			940031,
+			940032,
+			940033,
+			940034,
+			940035,
+			940036,
+			940037,
+			940038
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940041] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】弧形",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940041,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940041,
+			940041
+		},
+		barrage_ID = {
+			940041,
+			940042
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940042] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】弧形",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940042,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940041,
+			940041
+		},
+		barrage_ID = {
+			940043,
+			940044
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940051] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】延迟加速",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940051
+		},
+		barrage_ID = {
+			940051
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940052] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】延迟加速_弧形_上",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940052,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940052
+		},
+		barrage_ID = {
+			940052
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940053] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】延迟加速_弧形_下",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940053,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940053
+		},
+		barrage_ID = {
+			940052
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940054] = {
+		action_index = "attack",
+		range = 38,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡2】近程自卫火炮II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 125,
+		min_range = 0,
+		id = 940054,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[910001] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】散布",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 910001,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			910001,
+			910002,
+			910003
+		},
+		barrage_ID = {
+			910001,
+			910002,
+			910003
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[910002] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】散布_旋转_下",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 910002,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			910004,
+			910005,
+			910006
+		},
+		barrage_ID = {
+			910001,
+			910002,
+			910003
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[910003] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】散布_旋转_上",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 910003,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			910007,
+			910008,
+			910009
+		},
+		barrage_ID = {
+			910001,
+			910002,
+			910003
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[910004] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】散布_短",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 910004,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			910001,
+			910002,
+			910003
+		},
+		barrage_ID = {
+			910004,
+			910005,
+			910006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[910005] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】散布_旋转_上下",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 910005,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			910004,
+			910005,
+			910006,
+			910007,
+			910008,
+			910009
+		},
+		barrage_ID = {
+			910007,
+			910008,
+			910009,
+			910007,
+			910008,
+			910009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900341] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】2连跨射炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900341,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 9,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900341
+		},
+		barrage_ID = {
+			900341
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900692] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】自机狙_4面_不可避",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900692,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 9,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900691,
+			900691,
+			900691,
+			900691,
+			900691,
+			900691,
+			900691,
+			900691
+		},
+		barrage_ID = {
+			901671,
+			901672,
+			901673,
+			901674,
+			901675,
+			901676,
+			901677,
+			901678
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900701] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】自机狙_散布_慢",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900701,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 10,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900611
+		},
+		barrage_ID = {
+			900645
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900702] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】自机狙_散布_快慢",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900702,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 10,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900611,
+			900601
+		},
+		barrage_ID = {
+			900645,
+			900646
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900703] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】棋子",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900703,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 10,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900612,
+			900612
+		},
+		barrage_ID = {
+			900647,
+			900648
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900704] = {
+		action_index = "attack",
+		range = 38,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡3】近程自卫火炮II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
 		charge_param = "",
 		damage = 20,
-		corrected = 100,
+		corrected = 125,
 		min_range = 0,
-		id = 1000625,
+		id = 900704,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2800,
+		attack_attribute = 1,
+		reload_max = 600,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			30067
+			999
 		},
 		barrage_ID = {
-			1401
+			12
 		},
 		oxy_type = {
 			1
@@ -46,41 +1544,703 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000626] = {
+	uv0.weapon_property_346[900801] = {
 		action_index = "attack",
-		range = 60,
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】刀波",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 17,
+		corrected = 100,
+		min_range = 0,
+		id = 900801,
+		attack_attribute_ratio = 60,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 9,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900801,
+			900801
+		},
+		barrage_ID = {
+			900801,
+			900802
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900802] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】刀波_高频率",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 17,
+		corrected = 100,
+		min_range = 0,
+		id = 900802,
+		attack_attribute_ratio = 60,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 150,
+		queue = 9,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900801,
+			900801
+		},
+		barrage_ID = {
+			900801,
+			900802
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900201] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】小雨_随机",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 900201,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 600,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900201,
+			900201
+		},
+		barrage_ID = {
+			900201,
+			900202
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900431] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】波浪",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900431,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 8,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900431
+		},
+		barrage_ID = {
+			903401
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900432] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】波浪_反",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900432,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 8,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900431
+		},
+		barrage_ID = {
+			903411
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900433] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】波浪_长",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900433,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 8,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900431
+		},
+		barrage_ID = {
+			903402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900434] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】波浪_反_长",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900434,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 8,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900431
+		},
+		barrage_ID = {
+			903412
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900437] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】波浪分岔_上",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900437,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 9,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900437,
+			900437,
+			900437,
+			900437,
+			900438,
+			900438,
+			900438,
+			900438
+		},
+		barrage_ID = {
+			903431,
+			903432,
+			903433,
+			903434,
+			903435,
+			903436,
+			903437,
+			903438
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900438] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】波浪分岔_下",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900438,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 10,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900437,
+			900437,
+			900437,
+			900437,
+			900438,
+			900438,
+			900438,
+			900438
+		},
+		barrage_ID = {
+			903441,
+			903442,
+			903443,
+			903444,
+			903445,
+			903446,
+			903447,
+			903448
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900081] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】弧形散射",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900081,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900081,
+			900082
+		},
+		barrage_ID = {
+			900081,
+			900082
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900082] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】弧形散射_下",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900082,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900082
+		},
+		barrage_ID = {
+			900082
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900083] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】弧线连射_上下轮流",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900083,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900085,
+			900086
+		},
+		barrage_ID = {
+			900083,
+			900084
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900084] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】弧形散射_合",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900084,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900085,
+			900086
+		},
+		barrage_ID = {
+			900085,
+			900086
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900085] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡4】弧形散射_合_15度",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900085,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900085,
+			900086,
+			900085,
+			900086
+		},
+		barrage_ID = {
+			900087,
+			900088,
+			900089,
+			900090
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900091] = {
+		action_index = "attack",
+		range = 90,
 		type = 3,
 		fire_fx = "",
-		recover_time = 0.5,
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬双联装鱼雷 II",
+		name = "【挑战关卡4】鱼雷_单发",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 360,
 		charge_param = "",
-		damage = 25,
+		damage = 19,
 		corrected = 100,
 		min_range = 0,
-		id = 1000626,
+		id = 900091,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 2800,
-		queue = 1,
+		reload_max = 300,
+		queue = 3,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			30067
+			900091
 		},
 		barrage_ID = {
-			1401
+			900091
 		},
 		oxy_type = {
 			1
@@ -90,41 +2250,41 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000627] = {
+	uv0.weapon_property_346[900111] = {
 		action_index = "attack",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬双联装鱼雷 III",
+		name = "【挑战关卡4】跨射炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 360,
 		charge_param = "",
-		damage = 32,
-		corrected = 100,
+		damage = 19,
+		corrected = 105,
 		min_range = 0,
-		id = 1000627,
+		id = 900111,
 		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2800,
-		queue = 1,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 4,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			30067
+			900111
 		},
 		barrage_ID = {
-			1401
+			900111
 		},
 		oxy_type = {
 			1
@@ -134,95 +2294,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000628] = {
-		action_index = "attack",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬双联装鱼雷 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 1000628,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1401
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000629] = {
-		action_index = "attack",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬双联装鱼雷 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 0,
-		id = 1000629,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1401
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000630] = {
+	uv0.weapon_property_346[900112] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -230,726 +2302,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬战列舰副炮 I",
+		name = "【挑战关卡4】近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 5,
+		damage = 19,
 		corrected = 125,
 		min_range = 0,
-		id = 1000630,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			802
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000631] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列舰副炮 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1000631,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			802
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000632] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列舰副炮 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1000632,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			802
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000633] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列舰副炮 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1000633,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			802
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000634] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列舰副炮 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000634,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			802
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000635] = {
-		action_index = "attack",
-		range = 25,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "量产型塞壬战列主炮 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 1000635,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			10015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000636] = {
-		action_index = "attack",
-		range = 25,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "量产型塞壬战列主炮 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 1000636,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			10015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000637] = {
-		action_index = "attack",
-		range = 25,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "量产型塞壬战列主炮 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 1000637,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			10015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000638] = {
-		action_index = "attack",
-		range = 25,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "量产型塞壬战列主炮 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 34,
-		corrected = 100,
-		min_range = 0,
-		id = 1000638,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			10015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000639] = {
-		action_index = "attack",
-		range = 25,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "量产型塞壬战列主炮 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 1000639,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon1",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			10015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000640] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列跨射武器3x2轮 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 35,
-		corrected = 100,
-		min_range = 75,
-		id = 1000640,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20018
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000641] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列跨射武器3x2轮 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 75,
-		id = 1000641,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20018
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000642] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列跨射武器3x2轮 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 75,
-		id = 1000642,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20018
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000643] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列跨射武器3x2轮 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 75,
-		id = 1000643,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20018
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000644] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬战列跨射武器3x2轮 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 72,
-		corrected = 100,
-		min_range = 75,
-		id = 1000644,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20018
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_346[1000645] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母近程自卫火炮 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 1000645,
+		id = 900112,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -963,7 +2325,7 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			999
 		},
 		barrage_ID = {
 			12
@@ -976,24 +2338,68 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000646] = {
+	uv0.weapon_property_346[940061] = {
 		action_index = "attack",
-		range = 60,
-		type = 2,
+		range = 90,
+		type = 1,
 		fire_fx = "CLFire",
-		recover_time = 0.5,
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬航母近程自卫火炮 II",
+		name = "【长门陆奥】自机狙_单线_短",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 6,
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940061
+		},
+		barrage_ID = {
+			940061
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940062] = {
+		action_index = "attack",
+		range = 38,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡5】绫波_近程自卫火炮II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
 		corrected = 125,
 		min_range = 0,
-		id = 1000646,
+		id = 940062,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1007,7 +2413,7 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			999
 		},
 		barrage_ID = {
 			12
@@ -1020,29 +2426,337 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000647] = {
+	uv0.weapon_property_346[940071] = {
 		action_index = "attack",
-		range = 60,
-		type = 2,
+		range = 90,
+		type = 1,
 		fire_fx = "CLFire",
-		recover_time = 0.5,
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬航母近程自卫火炮 III",
+		name = "【长门陆奥】爆炸圆_快",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 7,
-		corrected = 125,
+		damage = 19,
+		corrected = 105,
 		min_range = 0,
-		id = 1000647,
+		id = 940071,
 		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940071,
+			940071,
+			940071,
+			940074,
+			940074,
+			940074
+		},
+		barrage_ID = {
+			940071,
+			940072,
+			940073,
+			940074,
+			940075,
+			940076
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940072] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【长门陆奥】爆炸圆_中",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940072,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940072,
+			940072,
+			940072,
+			940075,
+			940075,
+			940075
+		},
+		barrage_ID = {
+			940071,
+			940072,
+			940073,
+			940074,
+			940075,
+			940076
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940073] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【长门陆奥】爆炸圆_慢",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940073,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940073,
+			940073,
+			940073,
+			940076,
+			940076,
+			940076
+		},
+		barrage_ID = {
+			940071,
+			940072,
+			940073,
+			940074,
+			940075,
+			940076
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[940074] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【长门陆奥】爆炸圆_合",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 940074,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			940071,
+			940072,
+			940073,
+			940074,
+			940075,
+			940076
+		},
+		barrage_ID = {
+			940071,
+			940072,
+			940073,
+			940074,
+			940075,
+			940076
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900651] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【长门陆奥】自机狙_单线_短",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900651,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 9,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900651
+		},
+		barrage_ID = {
+			900651
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900611] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【长门陆奥】散布_先发后到",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900611,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 450,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			900611,
+			900612,
+			900613
+		},
+		barrage_ID = {
+			900611,
+			900612,
+			900613
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[900191] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【长门陆奥】萤火虫",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 19,
+		corrected = 105,
+		min_range = 0,
+		id = 900191,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
 		attack_attribute = 1,
 		reload_max = 600,
-		queue = 1,
+		queue = 4,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
@@ -1051,10 +2765,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			900191
 		},
 		barrage_ID = {
-			12
+			900191
 		},
 		oxy_type = {
 			1
@@ -1064,29 +2778,29 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000648] = {
+	uv0.weapon_property_346[900192] = {
 		action_index = "attack",
-		range = 60,
-		type = 2,
+		range = 90,
+		type = 1,
 		fire_fx = "CLFire",
-		recover_time = 0.5,
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬航母近程自卫火炮 IV",
+		name = "【长门陆奥】萤火虫*3",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 8,
-		corrected = 125,
+		damage = 19,
+		corrected = 105,
 		min_range = 0,
-		id = 1000648,
+		id = 900192,
 		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
+		fire_fx_loop_type = 3,
 		attack_attribute = 1,
 		reload_max = 600,
-		queue = 1,
+		queue = 4,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
@@ -1095,10 +2809,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			900191
 		},
 		barrage_ID = {
-			12
+			900192
 		},
 		oxy_type = {
 			1
@@ -1108,1642 +2822,28 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000649] = {
+	uv0.weapon_property_346[950091] = {
 		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母近程自卫火炮 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000649,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			12
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000650] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母单发x6随机 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1000650,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000651] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母单发x6随机 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1000651,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000652] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母单发x6随机 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000652,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000653] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母单发x6随机 IV",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1000653,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000654] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母单发x6随机 V",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 125,
-		min_range = 0,
-		id = 1000654,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000655] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机T1 (飞机 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 1000655,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000656] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机T1 (飞机 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 36,
-		corrected = 100,
-		min_range = 0,
-		id = 1000656,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000657] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机T1 (飞机 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 46,
-		corrected = 100,
-		min_range = 0,
-		id = 1000657,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000658] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机T1 (飞机 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 1000658,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000659] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机T1 (飞机 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 72,
-		corrected = 100,
-		min_range = 0,
-		id = 1000659,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000660] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "CLFire",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机T1 (飞机 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 1000660,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000661] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "CLFire",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机T1 (飞机 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 1000661,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000662] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "CLFire",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机T1 (飞机 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 1000662,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000663] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "CLFire",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机T1 (飞机 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 34,
-		corrected = 100,
-		min_range = 0,
-		id = 1000663,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000664] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "CLFire",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机T1 (飞机 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 1000664,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000665] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机武器T1 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 1000665,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000666] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机武器T1 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 36,
-		corrected = 100,
-		min_range = 0,
-		id = 1000666,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000667] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机武器T1 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 46,
-		corrected = 100,
-		min_range = 0,
-		id = 1000667,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000668] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机武器T1 IV",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 1000668,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000669] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母轰炸机武器T1 V",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 72,
-		corrected = 100,
-		min_range = 0,
-		id = 1000669,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000670] = {
-		action_index = "",
-		range = 85,
+		range = 90,
 		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "量产型塞壬航母战斗机弹幕 I",
+		name = "【挑战关卡5】绫波_特殊武器1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 360,
 		charge_param = "",
-		damage = 4,
+		damage = 19,
 		corrected = 100,
 		min_range = 0,
-		id = 1000670,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000671] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机弹幕 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 5,
-		corrected = 100,
-		min_range = 0,
-		id = 1000671,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000672] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机弹幕 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 7,
-		corrected = 100,
-		min_range = 0,
-		id = 1000672,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000673] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机弹幕 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 1000673,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000674] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机弹幕 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 1000674,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000675] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机空中 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 1000675,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000676] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机空中 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 1000676,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000677] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机空中 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 1000677,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000678] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机空中 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 34,
-		corrected = 100,
-		min_range = 0,
-		id = 1000678,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000679] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬航母战斗机空中 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 1000679,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000680] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 轻巡联装炮x6散射 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 105,
-		min_range = 0,
-		id = 1000680,
+		id = 950091,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000681] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 轻巡联装炮x6散射 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 12,
-		corrected = 105,
-		min_range = 0,
-		id = 1000681,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000682] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 轻巡联装炮x6散射 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 15,
-		corrected = 105,
-		min_range = 0,
-		id = 1000682,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000683] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 轻巡联装炮x6散射 IV",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 18,
-		corrected = 105,
-		min_range = 0,
-		id = 1000683,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000684] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 轻巡联装炮x6散射 V",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 22,
-		corrected = 105,
-		min_range = 0,
-		id = 1000684,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_346[1000685] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 大范围缓速子弹 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 1000685,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2000,
+		reload_max = 625,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -2753,22 +2853,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072
+			9040,
+			9041
 		},
 		barrage_ID = {
-			21093,
-			21094,
-			21095,
-			21096,
-			21097,
-			21098,
-			21099
+			9040,
+			9041
 		},
 		oxy_type = {
 			1
@@ -2778,28 +2868,28 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000686] = {
+	uv0.weapon_property_346[950092] = {
 		action_index = "attack",
-		range = 80,
+		range = 100,
 		type = 1,
-		fire_fx = "CLFire",
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 大范围缓速子弹 II",
+		name = "【挑战关卡5】绫波_爪击武器上",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 360,
 		charge_param = "",
-		damage = 15,
+		damage = 75,
 		corrected = 100,
 		min_range = 0,
-		id = 1000686,
+		id = 950092,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2000,
+		reload_max = 60,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -2809,22 +2899,17 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072
+			9100,
+			9100,
+			9100,
+			9100,
+			9100
 		},
 		barrage_ID = {
-			21093,
-			21094,
-			21095,
-			21096,
-			21097,
-			21098,
-			21099
+			9150,
+			9151,
+			9152,
+			9153
 		},
 		oxy_type = {
 			1
@@ -2834,29 +2919,29 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_346[1000687] = {
+	uv0.weapon_property_346[950093] = {
 		action_index = "attack",
-		range = 80,
+		range = 100,
 		type = 1,
-		fire_fx = "CLFire",
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型 大范围缓速子弹 III",
+		name = "【挑战关卡5】绫波_爪击武器下",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 360,
 		charge_param = "",
-		damage = 18,
+		damage = 75,
 		corrected = 100,
 		min_range = 0,
-		id = 1000687,
+		id = 950093,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2000,
-		queue = 1,
+		reload_max = 60,
+		queue = 2,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
@@ -2865,22 +2950,75 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072
+			9101,
+			9101,
+			9101,
+			9101,
+			9101
 		},
 		barrage_ID = {
-			21093,
-			21094,
-			21095,
-			21096,
-			21097,
-			21098,
-			21099
+			9154,
+			9155,
+			9156,
+			9157
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_346[950094] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【挑战关卡5】绫波_限位追踪武器",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 75,
+		corrected = 100,
+		min_range = 0,
+		id = 950094,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 99999,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			9102,
+			9102,
+			9102,
+			9102,
+			9102,
+			9102,
+			9102,
+			9102
+		},
+		barrage_ID = {
+			9166,
+			9167,
+			9168,
+			9169,
+			9170,
+			9171,
+			9172,
+			9173
 		},
 		oxy_type = {
 			1

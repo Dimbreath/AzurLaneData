@@ -1,5 +1,33 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
+	[89229] = {
+		id = 89229,
+		value_1 = "520",
+		base = 89220
+	},
+	[89230] = {
+		id = 89230,
+		value_1 = "550",
+		base = 89220
+	},
+	[89231] = {
+		id = 89231,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 89220
+	},
+	[89232] = {
+		id = 89232,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 89220
+	},
+	[89233] = {
+		id = 89233,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 89220
+	},
 	[89240] = {
 		name = "ヴィーナス覚醒ジェム",
 		tech = 0,
@@ -99,65 +127,5 @@ pg.equip_data_statistics_371 = {
 		base = 89240,
 		value_2 = 26,
 		value_1 = "16"
-	},
-	[89252] = {
-		id = 89252,
-		anti_siren = 200,
-		base = 89240,
-		value_2 = 27,
-		value_1 = "17"
-	},
-	[89253] = {
-		id = 89253,
-		anti_siren = 300,
-		base = 89240,
-		value_2 = 28,
-		value_1 = "18"
-	},
-	[89260] = {
-		name = "ココロの鍵",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89260,
-		value_2 = 15,
-		icon = "89260",
-		value_1 = "14",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "",
-		nationality = 106,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antiaircraft",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6730
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89261] = {
-		id = 89261,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89260
-	},
-	[89262] = {
-		id = 89262,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89260
 	}
 }

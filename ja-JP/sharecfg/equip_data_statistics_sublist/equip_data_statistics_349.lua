@@ -1,5 +1,106 @@
 pg = pg or {}
 pg.equip_data_statistics_349 = {
+	[79522] = {
+		id = 79522,
+		name = "专属弹幕-里诺II",
+		base = 79521,
+		weapon_id = {
+			79522
+		}
+	},
+	[79541] = {
+		name = "专属弹幕-圣女贞德I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79541,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60501
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79542] = {
+		id = 79542,
+		name = "专属弹幕-圣女贞德II",
+		base = 79541,
+		weapon_id = {
+			60502
+		}
+	},
+	[79551] = {
+		name = "专属弹幕-柴郡I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		descrip = "スキル弾幕",
+		value_2 = 0,
+		icon = "1",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79551,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79551
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79552] = {
+		id = 79552,
+		name = "专属弹幕-柴郡II",
+		base = 79551,
+		weapon_id = {
+			79552
+		}
+	},
 	[79561] = {
 		name = "专属弹幕-德雷克I",
 		tech = 1,
@@ -278,138 +379,5 @@ pg.equip_data_statistics_349 = {
 		weapon_id = {
 			79612
 		}
-	},
-	[79621] = {
-		name = "专属弹幕-恶毒μI",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79621,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60581
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79622] = {
-		id = 79622,
-		name = "专属弹幕-恶毒μII",
-		base = 79621,
-		weapon_id = {
-			60582
-		}
-	},
-	[79631] = {
-		name = "专属弹幕-黛朵μI",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79631,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79631
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79632] = {
-		id = 79632,
-		name = "专属弹幕-黛朵μII",
-		base = 79631,
-		weapon_id = {
-			79632
-		}
-	},
-	[79641] = {
-		name = "专属弹幕-塔什干μI",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79641,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79641
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
 	}
 }

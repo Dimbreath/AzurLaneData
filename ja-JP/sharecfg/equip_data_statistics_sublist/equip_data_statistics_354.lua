@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_354 = {
+	[85145] = {
+		id = 85145,
+		damage = "10 x 6",
+		base = 85140,
+		weapon_id = {
+			85145
+		}
+	},
+	[85146] = {
+		id = 85146,
+		damage = "11 x 6",
+		base = 85140,
+		weapon_id = {
+			85146
+		}
+	},
+	[85147] = {
+		id = 85147,
+		damage = "12 x 6",
+		base = 85140,
+		weapon_id = {
+			85147
+		}
+	},
+	[85148] = {
+		id = 85148,
+		damage = "13 x 6",
+		base = 85140,
+		weapon_id = {
+			85148
+		}
+	},
+	[85149] = {
+		id = 85149,
+		damage = "14 x 6",
+		base = 85140,
+		weapon_id = {
+			85149
+		}
+	},
 	[85150] = {
 		id = 85150,
 		damage = "15 x 6",
@@ -146,103 +186,6 @@ pg.equip_data_statistics_354 = {
 		base = 85160,
 		weapon_id = {
 			85170
-		}
-	},
-	[85171] = {
-		anti_siren = 100,
-		damage = "16 x 6",
-		base = 85160,
-		id = 85171,
-		weapon_id = {
-			85171
-		}
-	},
-	[85172] = {
-		anti_siren = 200,
-		damage = "16 x 6",
-		base = 85160,
-		id = 85172,
-		weapon_id = {
-			85172
-		}
-	},
-	[85173] = {
-		anti_siren = 300,
-		damage = "16 x 6",
-		base = 85160,
-		id = 85173,
-		weapon_id = {
-			85173
-		}
-	},
-	[85180] = {
-		name = "37mm対空機関砲70-K",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "9/回",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85180,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85180
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85181] = {
-		id = 85181,
-		damage = "11/回",
-		base = 85180,
-		weapon_id = {
-			85181
 		}
 	}
 }

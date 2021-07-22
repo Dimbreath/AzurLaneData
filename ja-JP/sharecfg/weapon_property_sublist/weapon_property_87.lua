@@ -2,6 +2,36 @@ pg = pg or {}
 pg.weapon_property_87 = {}
 
 function ()
+	uv0.weapon_property_87[52027] = {
+		id = 52027,
+		damage = 128,
+		base = 52020
+	}
+	uv0.weapon_property_87[52028] = {
+		id = 52028,
+		damage = 138,
+		base = 52020
+	}
+	uv0.weapon_property_87[52029] = {
+		id = 52029,
+		damage = 149,
+		base = 52020
+	}
+	uv0.weapon_property_87[52030] = {
+		id = 52030,
+		damage = 159,
+		base = 52020
+	}
+	uv0.weapon_property_87[52031] = {
+		id = 52031,
+		damage = 165,
+		base = 52020
+	}
+	uv0.weapon_property_87[52032] = {
+		id = 52032,
+		damage = 175,
+		base = 52020
+	}
 	uv0.weapon_property_87[52033] = {
 		id = 52033,
 		damage = 188,
@@ -442,74 +472,5 @@ function ()
 		id = 52153,
 		damage = 204,
 		base = 52140
-	}
-	uv0.weapon_property_87[52160] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "2 x 100lb 爆弾",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 74,
-		corrected = 100,
-		min_range = 0,
-		id = 52160,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_87[52161] = {
-		id = 52161,
-		damage = 85,
-		base = 52160
-	}
-	uv0.weapon_property_87[52162] = {
-		id = 52162,
-		damage = 96,
-		base = 52160
-	}
-	uv0.weapon_property_87[52163] = {
-		id = 52163,
-		damage = 107,
-		base = 52160
-	}
-	uv0.weapon_property_87[52164] = {
-		id = 52164,
-		damage = 118,
-		base = 52160
-	}
-	uv0.weapon_property_87[52165] = {
-		id = 52165,
-		damage = 129,
-		base = 52160
 	}
 end()

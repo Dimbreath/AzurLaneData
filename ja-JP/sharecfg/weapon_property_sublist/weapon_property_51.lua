@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_51 = {}
 
 function ()
+	uv0.weapon_property_51[35443] = {
+		id = 35443,
+		reload_max = 2960,
+		damage = 87,
+		base = 35440
+	}
+	uv0.weapon_property_51[35444] = {
+		id = 35444,
+		reload_max = 2880,
+		damage = 96,
+		base = 35440
+	}
+	uv0.weapon_property_51[35445] = {
+		id = 35445,
+		reload_max = 2800,
+		damage = 105,
+		base = 35440
+	}
+	uv0.weapon_property_51[35446] = {
+		id = 35446,
+		reload_max = 2720,
+		damage = 114,
+		base = 35440
+	}
+	uv0.weapon_property_51[35447] = {
+		id = 35447,
+		reload_max = 2640,
+		damage = 123,
+		base = 35440
+	}
+	uv0.weapon_property_51[35448] = {
+		id = 35448,
+		reload_max = 2560,
+		damage = 132,
+		base = 35440
+	}
 	uv0.weapon_property_51[35449] = {
 		id = 35449,
 		reload_max = 2480,
@@ -543,82 +579,5 @@ function ()
 		reload_max = 2322,
 		damage = 169,
 		base = 35560
-	}
-	uv0.weapon_property_51[35570] = {
-		id = 35570,
-		reload_max = 2242,
-		damage = 180,
-		base = 35560
-	}
-	uv0.weapon_property_51[35571] = {
-		reload_max = 2242,
-		damage = 180,
-		base = 35560,
-		id = 35571,
-		corrected = 104
-	}
-	uv0.weapon_property_51[35572] = {
-		reload_max = 2242,
-		damage = 180,
-		base = 35560,
-		id = 35572,
-		corrected = 110
-	}
-	uv0.weapon_property_51[35573] = {
-		reload_max = 2242,
-		damage = 180,
-		base = 35560,
-		id = 35573,
-		corrected = 118
-	}
-	uv0.weapon_property_51[36100] = {
-		action_index = "attack",
-		range = 20,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "25mm高射機銃T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 36100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_51[36101] = {
-		id = 36101,
-		reload_max = 97,
-		damage = 9,
-		base = 36100
 	}
 end()

@@ -29231,6 +29231,443 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[10700011] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070001,
+		breakout_id = 10700012,
+		breakout_view = "主砲補正+5%",
+		id = 10700011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			42240
+		}
+	},
+	[10700012] = {
+		use_gold = 3000,
+		pre_id = 10700011,
+		use_char_num = 1,
+		use_char = 1070001,
+		breakout_id = 10700013,
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+		id = 10700012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[10700013] = {
+		use_gold = 10000,
+		pre_id = 10700012,
+		use_char_num = 2,
+		use_char = 1070001,
+		breakout_id = 10700014,
+		breakout_view = "主砲補正+15%",
+		id = 10700013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			42240
+		}
+	},
+	[10700014] = {
+		use_gold = 0,
+		pre_id = 10700013,
+		use_char_num = 0,
+		use_char = 1070001,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10700021] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070002,
+		breakout_id = 10700022,
+		breakout_view = "爆撃機数+1/攻撃機補正+5%",
+		id = 10700021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60331,
+			54014
+		}
+	},
+	[10700022] = {
+		use_gold = 3000,
+		pre_id = 10700021,
+		use_char_num = 1,
+		use_char = 1070002,
+		breakout_id = 10700023,
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/攻撃機補正+10%",
+		id = 10700022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60332,
+			54014,
+			60332,
+			54014
+		}
+	},
+	[10700023] = {
+		use_gold = 10000,
+		pre_id = 10700022,
+		use_char_num = 2,
+		use_char = 1070002,
+		breakout_id = 10700024,
+		breakout_view = "艦載機数+1/攻撃機補正+15%",
+		id = 10700023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60333,
+			54015,
+			60333,
+			54015
+		}
+	},
+	[10700024] = {
+		use_gold = 0,
+		pre_id = 10700023,
+		use_char_num = 0,
+		use_char = 1070002,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10700031] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070003,
+		breakout_id = 10700032,
+		breakout_view = "主砲砲座+1/主砲補正+5%",
+		id = 10700031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			34180,
+			34180
+		}
+	},
+	[10700032] = {
+		use_gold = 3000,
+		pre_id = 10700031,
+		use_char_num = 1,
+		use_char = 1070003,
+		breakout_id = 10700033,
+		breakout_view = "副砲砲座+2/主砲補正+10%",
+		id = 10700032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			11200,
+			11200,
+			11200
+		}
+	},
+	[10700033] = {
+		use_gold = 10000,
+		pre_id = 10700032,
+		use_char_num = 2,
+		use_char = 1070003,
+		breakout_id = 10700034,
+		breakout_view = "主砲砲座+1/主砲補正+15%",
+		id = 10700033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			34180,
+			34180,
+			34180
+		}
+	},
+	[10700034] = {
+		use_gold = 0,
+		pre_id = 10700033,
+		use_char_num = 0,
+		use_char = 1070003,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10700041] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070004,
+		breakout_id = 10700042,
+		breakout_view = "主砲補正+5%",
+		id = 10700041,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			23100
+		}
+	},
+	[10700042] = {
+		use_gold = 3000,
+		pre_id = 10700041,
+		use_char_num = 1,
+		use_char = 1070004,
+		breakout_id = 10700043,
+		breakout_view = "主砲砲座+1/主砲補正+10%",
+		id = 10700042,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			23100,
+			23100
+		}
+	},
+	[10700043] = {
+		use_gold = 10000,
+		pre_id = 10700042,
+		use_char_num = 2,
+		use_char = 1070004,
+		breakout_id = 10700044,
+		breakout_view = "武器補正+5%",
+		id = 10700043,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			23100,
+			23100
+		}
+	},
+	[10700044] = {
+		use_gold = 0,
+		pre_id = 10700043,
+		use_char_num = 0,
+		use_char = 1070004,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700044,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10700051] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070005,
+		breakout_id = 10700052,
+		breakout_view = "主砲補正+5%",
+		id = 10700051,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			100
+		}
+	},
+	[10700052] = {
+		use_gold = 1500,
+		pre_id = 10700051,
+		use_char_num = 1,
+		use_char = 1070005,
+		breakout_id = 10700053,
+		breakout_view = "対空補正+10%",
+		id = 10700052,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			100
+		}
+	},
+	[10700053] = {
+		use_gold = 2500,
+		pre_id = 10700052,
+		use_char_num = 2,
+		use_char = 1070005,
+		breakout_id = 10700054,
+		breakout_view = "主砲補正+15%",
+		id = 10700053,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			100
+		}
+	},
+	[10700054] = {
+		use_gold = 0,
+		pre_id = 10700053,
+		use_char_num = 0,
+		use_char = 1070005,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700054,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10700061] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070006,
+		breakout_id = 10700062,
+		breakout_view = "魚雷補正+5%",
+		id = 10700061,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140
+		}
+	},
+	[10700062] = {
+		use_gold = 1500,
+		pre_id = 10700061,
+		use_char_num = 1,
+		use_char = 1070006,
+		breakout_id = 10700063,
+		breakout_view = "魚雷装填数+1/支援範囲拡大",
+		id = 10700062,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[10700063] = {
+		use_gold = 2500,
+		pre_id = 10700062,
+		use_char_num = 2,
+		use_char = 1070006,
+		breakout_id = 10700064,
+		breakout_view = "魚雷補正+10%",
+		id = 10700063,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[10700064] = {
+		use_gold = 0,
+		pre_id = 10700063,
+		use_char_num = 0,
+		use_char = 1070006,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700064,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10700071] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1070007,
+		breakout_id = 10700072,
+		breakout_view = "魚雷補正+5%",
+		id = 10700071,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140
+		}
+	},
+	[10700072] = {
+		use_gold = 1500,
+		pre_id = 10700071,
+		use_char_num = 1,
+		use_char = 1070007,
+		breakout_id = 10700073,
+		breakout_view = "魚雷装填数+1/支援範囲拡大",
+		id = 10700072,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[10700073] = {
+		use_gold = 2500,
+		pre_id = 10700072,
+		use_char_num = 2,
+		use_char = 1070007,
+		breakout_id = 10700074,
+		breakout_view = "魚雷補正+10%",
+		id = 10700073,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[10700074] = {
+		use_gold = 0,
+		pre_id = 10700073,
+		use_char_num = 0,
+		use_char = 1070007,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 10700074,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[299011] = {
 		use_gold = 0,
 		pre_id = 0,
@@ -32507,6 +32944,34 @@ pg.ship_data_breakout = {
 		10600072,
 		10600073,
 		10600074,
+		10700011,
+		10700012,
+		10700013,
+		10700014,
+		10700021,
+		10700022,
+		10700023,
+		10700024,
+		10700031,
+		10700032,
+		10700033,
+		10700034,
+		10700041,
+		10700042,
+		10700043,
+		10700044,
+		10700051,
+		10700052,
+		10700053,
+		10700054,
+		10700061,
+		10700062,
+		10700063,
+		10700064,
+		10700071,
+		10700072,
+		10700073,
+		10700074,
 		299011,
 		299012,
 		299013,

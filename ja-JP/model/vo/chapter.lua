@@ -895,8 +895,10 @@ end
 function slot0.GetShowingStartegies(slot0)
 	slot2 = slot0:getFleetStgIds(slot0.fleet)
 
-	if slot0:getPlayType() == ChapterConst.TypeDOALink and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
-		table.insert(slot2, pg.gameset.doa_fever_strategy.key_value)
+	if slot0:getPlayType() == ChapterConst.TypeDOALink then
+		if slot0:GetBuffOfLinkAct() then
+			table.insert(slot2, pg.gameset.doa_fever_strategy.description[table.indexof(pg.gameset.doa_fever_buff.description, slot4)])
+		end
 	end
 
 	return slot2
@@ -963,6 +965,18 @@ end
 
 function slot0.updateShipStg(slot0, slot1, slot2, slot3)
 	slot0.fleet:updateShipStg(slot1, slot2, slot3)
+end
+
+function slot0.UpdateBuffList(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		if not _.include(slot0.buff_list, slot6) then
+			table.insert(slot0.buff_list, slot6)
+		end
+	end
 end
 
 function slot0.getFleetBattleBuffs(slot0, slot1)
@@ -2340,10 +2354,6 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 			slot3.defeatEnemies = slot3.defeatEnemies + 1
 			slot0.defeatEnemies = slot0.defeatEnemies + 1
-
-			if slot0:getPlayType() == ChapterConst.TypeDOALink and not table.contains(slot0.buff_list, pg.gameset.doa_fever_buff.key_value) and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
-				table.insert(slot0.buff_list, pg.gameset.doa_fever_buff.key_value)
-			end
 		end
 
 		if slot0:getPlayType() == ChapterConst.TypeMainSub and slot5 == ChapterConst.AttachBoss and slot2.statistics._battleScore == ys.Battle.BattleConst.BattleScore.S then
@@ -2406,10 +2416,6 @@ function slot0.UpdateProgressAfterSkipBattle(slot0)
 
 		slot1.defeatEnemies = slot1.defeatEnemies + 1
 		slot0.defeatEnemies = slot0.defeatEnemies + 1
-
-		if slot0:getPlayType() == ChapterConst.TypeDOALink and not table.contains(slot0.buff_list, pg.gameset.doa_fever_buff.key_value) and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
-			table.insert(slot0.buff_list, pg.gameset.doa_fever_buff.key_value)
-		end
 	end
 
 	if slot0:getPlayType() == ChapterConst.TypeMainSub and slot3 == ChapterConst.AttachBoss then
@@ -3059,6 +3065,16 @@ function slot0.GetFleetofDuty(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0.GetBuffOfLinkAct(slot0)
+	if slot0:getPlayType() == ChapterConst.TypeDOALink then
+		slot1 = pg.gameset.doa_fever_buff.description
+
+		return _.detect(slot0.buff_list, function (slot0)
+			return table.contains(uv0, slot0)
+		end)
+	end
 end
 
 function slot0.GetChapterLastFleetCacheKey(slot0)

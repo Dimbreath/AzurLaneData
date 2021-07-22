@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_33 = {}
 
 function ()
+	uv0.weapon_property_33[25145] = {
+		id = 25145,
+		reload_max = 4727,
+		damage = 109,
+		base = 25140
+	}
+	uv0.weapon_property_33[25146] = {
+		id = 25146,
+		reload_max = 4582,
+		damage = 119,
+		base = 25140
+	}
+	uv0.weapon_property_33[25147] = {
+		id = 25147,
+		reload_max = 4436,
+		damage = 129,
+		base = 25140
+	}
+	uv0.weapon_property_33[25148] = {
+		id = 25148,
+		reload_max = 4291,
+		damage = 139,
+		base = 25140
+	}
+	uv0.weapon_property_33[25149] = {
+		id = 25149,
+		reload_max = 4145,
+		damage = 149,
+		base = 25140
+	}
+	uv0.weapon_property_33[25150] = {
+		id = 25150,
+		reload_max = 4000,
+		damage = 159,
+		base = 25140
+	}
 	uv0.weapon_property_33[25151] = {
 		reload_max = 4000,
 		damage = 159,
@@ -587,80 +623,5 @@ function ()
 		reload_max = 134,
 		damage = 41,
 		base = 26040
-	}
-	uv0.weapon_property_33[26046] = {
-		id = 26046,
-		reload_max = 132,
-		damage = 45,
-		base = 26040
-	}
-	uv0.weapon_property_33[26047] = {
-		reload_max = 132,
-		damage = 45,
-		base = 26040,
-		id = 26047,
-		corrected = 104
-	}
-	uv0.weapon_property_33[26060] = {
-		action_index = "attack",
-		range = 28,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装40mm博福斯对空机炮MarkI",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 26060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 157,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_33[26061] = {
-		id = 26061,
-		reload_max = 153,
-		damage = 30,
-		base = 26060
-	}
-	uv0.weapon_property_33[26062] = {
-		id = 26062,
-		reload_max = 149,
-		damage = 32,
-		base = 26060
-	}
-	uv0.weapon_property_33[26063] = {
-		id = 26063,
-		reload_max = 147,
-		damage = 36,
-		base = 26060
 	}
 end()

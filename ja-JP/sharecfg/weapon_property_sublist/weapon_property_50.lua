@@ -2,6 +2,81 @@ pg = pg or {}
 pg.weapon_property_50 = {}
 
 function ()
+	uv0.weapon_property_50[35169] = {
+		id = 35169,
+		reload_max = 3612,
+		damage = 196,
+		base = 35160
+	}
+	uv0.weapon_property_50[35170] = {
+		id = 35170,
+		reload_max = 3520,
+		damage = 210,
+		base = 35160
+	}
+	uv0.weapon_property_50[35171] = {
+		reload_max = 3520,
+		damage = 210,
+		base = 35160,
+		id = 35171,
+		corrected = 104
+	}
+	uv0.weapon_property_50[35200] = {
+		action_index = "attack",
+		range = 60,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联装610mm鱼雷T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 52,
+		corrected = 100,
+		min_range = 0,
+		id = 35200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 5929,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_50[35201] = {
+		id = 35201,
+		reload_max = 5809,
+		damage = 62,
+		base = 35200
+	}
+	uv0.weapon_property_50[35202] = {
+		id = 35202,
+		reload_max = 5691,
+		damage = 72,
+		base = 35200
+	}
 	uv0.weapon_property_50[35203] = {
 		id = 35203,
 		reload_max = 5573,
@@ -579,42 +654,6 @@ function ()
 		id = 35442,
 		reload_max = 3040,
 		damage = 78,
-		base = 35440
-	}
-	uv0.weapon_property_50[35443] = {
-		id = 35443,
-		reload_max = 2960,
-		damage = 87,
-		base = 35440
-	}
-	uv0.weapon_property_50[35444] = {
-		id = 35444,
-		reload_max = 2880,
-		damage = 96,
-		base = 35440
-	}
-	uv0.weapon_property_50[35445] = {
-		id = 35445,
-		reload_max = 2800,
-		damage = 105,
-		base = 35440
-	}
-	uv0.weapon_property_50[35446] = {
-		id = 35446,
-		reload_max = 2720,
-		damage = 114,
-		base = 35440
-	}
-	uv0.weapon_property_50[35447] = {
-		id = 35447,
-		reload_max = 2640,
-		damage = 123,
-		base = 35440
-	}
-	uv0.weapon_property_50[35448] = {
-		id = 35448,
-		reload_max = 2560,
-		damage = 132,
 		base = 35440
 	}
 end()

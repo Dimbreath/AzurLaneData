@@ -1,140 +1,43 @@
 pg = pg or {}
 pg.aircraft_template_262 = {
-	[86051] = {
-		id = 86051,
-		base = 86040,
-		max_hp = 107,
-		hp_growth = 4114,
+	[86002] = {
+		id = 86002,
+		base = 86000,
+		max_hp = 43,
+		hp_growth = 1651,
 		weapon_ID = {
-			50751
-		}
-	},
-	[86060] = {
-		name = "Re.2001公羊T1",
-		max_hp = 30,
-		accuracy = 23,
-		model_ID = "re2001",
-		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.339,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 1,
-		AP_growth = 2000,
-		icon = "re2001",
-		funnel_behavior = "",
-		nationality = 6,
-		hp_growth = 1149,
-		speed = 46,
-		id = 86060,
-		scale = 1,
-		weapon_ID = {
-			50000,
-			50700
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[86061] = {
-		id = 86061,
-		base = 86060,
-		max_hp = 34,
-		hp_growth = 1321,
-		weapon_ID = {
-			50001,
-			50701
-		}
-	},
-	[86062] = {
-		id = 86062,
-		base = 86060,
-		max_hp = 39,
-		hp_growth = 1494,
-		weapon_ID = {
-			50002,
 			50702
 		}
 	},
-	[86063] = {
-		id = 86063,
-		base = 86060,
-		max_hp = 43,
-		hp_growth = 1666,
+	[86003] = {
+		id = 86003,
+		base = 86000,
+		max_hp = 48,
+		hp_growth = 1842,
 		weapon_ID = {
-			50003,
 			50703
 		}
 	},
-	[86080] = {
-		name = "Re.2001公羊T2",
-		max_hp = 33,
+	[86020] = {
+		name = "G.50箭式战斗机T2",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "re2001",
+		model_ID = "g50",
 		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.327,
+		crash_DMG = 160,
+		dodge = 0.345,
 		attack_power = 2,
 		dodge_limit = 8.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "re2001",
+		icon = "g50",
 		funnel_behavior = "",
 		nationality = 6,
-		hp_growth = 1277,
-		speed = 46,
-		id = 86080,
+		hp_growth = 1411,
+		speed = 50,
+		id = 86020,
 		scale = 1,
 		weapon_ID = {
-			50020,
 			50720
 		},
 		position_offset = {
@@ -189,44 +92,132 @@ pg.aircraft_template_262 = {
 			}
 		}
 	},
-	[86081] = {
-		id = 86081,
-		base = 86080,
-		max_hp = 38,
-		hp_growth = 1468,
+	[86021] = {
+		id = 86021,
+		base = 86020,
+		max_hp = 42,
+		hp_growth = 1623,
 		weapon_ID = {
-			50021,
 			50721
 		}
 	},
-	[86082] = {
-		id = 86082,
-		base = 86080,
-		max_hp = 43,
-		hp_growth = 1660,
+	[86022] = {
+		id = 86022,
+		base = 86020,
+		max_hp = 48,
+		hp_growth = 1835,
 		weapon_ID = {
-			50022,
 			50722
 		}
 	},
-	[86083] = {
-		id = 86083,
-		base = 86080,
-		max_hp = 48,
-		hp_growth = 1851,
+	[86023] = {
+		id = 86023,
+		base = 86020,
+		max_hp = 53,
+		hp_growth = 2046,
 		weapon_ID = {
-			50023,
 			50723
 		}
 	},
-	[86084] = {
-		id = 86084,
-		base = 86080,
-		max_hp = 53,
-		hp_growth = 2043,
+	[86024] = {
+		id = 86024,
+		base = 86020,
+		max_hp = 59,
+		hp_growth = 2258,
 		weapon_ID = {
-			50024,
 			50724
+		}
+	},
+	[86025] = {
+		id = 86025,
+		base = 86020,
+		max_hp = 64,
+		hp_growth = 2470,
+		weapon_ID = {
+			50725
+		}
+	},
+	[86026] = {
+		id = 86026,
+		base = 86020,
+		max_hp = 70,
+		hp_growth = 2681,
+		weapon_ID = {
+			50726
+		}
+	},
+	[86040] = {
+		name = "G.50箭式战斗机T3",
+		max_hp = 40,
+		accuracy = 23,
+		model_ID = "g50",
+		ACC_growth = 0,
+		crash_DMG = 160,
+		dodge = 0.333,
+		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
+		AP_growth = 2000,
+		icon = "g50",
+		funnel_behavior = "",
+		nationality = 6,
+		hp_growth = 1552,
+		speed = 50,
+		id = 86040,
+		scale = 1,
+		weapon_ID = {
+			50740
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

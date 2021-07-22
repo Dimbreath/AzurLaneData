@@ -2,6 +2,138 @@ pg = pg or {}
 pg.weapon_property_107 = {}
 
 function ()
+	uv0.weapon_property_107[60341] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-芙米露露I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60341,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17100,
+			19000,
+			19000
+		},
+		barrage_ID = {
+			1511,
+			1510,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_107[60342] = {
+		id = 60342,
+		name = "航空攻击展示-芙米露露II",
+		base = 60341,
+		barrage_ID = {
+			1511,
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_107[60343] = {
+		id = 60343,
+		name = "航空攻击展示-芙米露露III",
+		base = 60341,
+		barrage_ID = {
+			1511,
+			1512,
+			1512
+		}
+	}
+	uv0.weapon_property_107[60351] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-乌璐露I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60351,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			37000,
+			39000
+		},
+		barrage_ID = {
+			1511,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_107[60352] = {
+		id = 60352,
+		name = "航空攻击展示-乌璐露II",
+		base = 60351,
+		barrage_ID = {
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_107[60353] = {
+		id = 60353,
+		name = "航空攻击展示-乌璐露III",
+		base = 60351,
+		barrage_ID = {
+			1512,
+			1512
+		}
+	}
 	uv0.weapon_property_107[60361] = {
 		action_index = "attack",
 		range = 90,
@@ -1325,150 +1457,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_107[60562] = {
-		id = 60562,
-		name = "航空攻击展示-信浓II",
-		base = 60561,
-		barrage_ID = {
-			1510,
-			1511,
-			1512
-		}
-	}
-	uv0.weapon_property_107[60563] = {
-		id = 60563,
-		name = "航空攻击展示-信浓III",
-		base = 60561,
-		barrage_ID = {
-			1511,
-			1512,
-			1513
-		}
-	}
-	uv0.weapon_property_107[60571] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "凉月弹幕展示I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 60571,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79601,
-			79601,
-			79601
-		},
-		barrage_ID = {
-			79601,
-			79602,
-			79603
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_107[60572] = {
-		name = "凉月弹幕展示II",
-		damage = 20,
-		base = 60571,
-		id = 60572,
-		bullet_ID = {
-			79601,
-			79601,
-			79601,
-			79602
-		},
-		barrage_ID = {
-			79601,
-			79602,
-			79603,
-			79604
-		}
-	}
-	uv0.weapon_property_107[60581] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "恶毒弹幕展示I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 60581,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79621,
-			79621,
-			79622
-		},
-		barrage_ID = {
-			79621,
-			79622,
-			79625
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_107[60582] = {
-		name = "恶毒弹幕展示II",
-		damage = 20,
-		base = 60581,
-		id = 60582,
-		barrage_ID = {
-			79623,
-			79624,
-			79625
-		}
 	}
 end()

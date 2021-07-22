@@ -2,2776 +2,524 @@ pg = pg or {}
 pg.weapon_property_364 = {}
 
 function ()
-	uv0.weapon_property_364[1100054] = {
-		action_index = "",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型大船通用副炮III型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100054,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003065] = {
+		id = 1003065,
+		name = "【量产型】梦境航母单发x6随机 V",
+		base = 1001065,
 		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			1008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100055] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机I型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 125,
-		min_range = 0,
-		id = 1100055,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003066] = {
+		id = 1003066,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 I",
+		base = 1001066,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100056] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机I型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 1100056,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003067] = {
+		id = 1003067,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 II",
+		base = 1001067,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100057] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机I型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100057,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003068] = {
+		id = 1003068,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 III",
+		base = 1001068,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100058] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机I型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100058,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003069] = {
+		id = 1003069,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 IV",
+		base = 1001069,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100059] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机I型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100059,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003070] = {
+		id = 1003070,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 V",
+		base = 1001070,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100060] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机II型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 1100060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003071] = {
+		id = 1003071,
+		name = "【量产型】梦境航母战斗机T1 (飞机 I",
+		base = 1001071,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100061] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机II型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100061,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003072] = {
+		id = 1003072,
+		name = "【量产型】梦境航母战斗机T1 (飞机 II",
+		base = 1001072,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100062] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机II型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100062,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003073] = {
+		id = 1003073,
+		name = "【量产型】梦境航母战斗机T1 (飞机 III",
+		base = 1001073,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100063] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机II型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100063,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003074] = {
+		id = 1003074,
+		name = "【量产型】梦境航母战斗机T1 (飞机 IV",
+		base = 1001074,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100064] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机II型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100064,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003075] = {
+		id = 1003075,
+		name = "【量产型】梦境航母战斗机T1 (飞机 V",
+		base = 1001075,
+		bullet_ID = {}
 	}
-	uv0.weapon_property_364[1100065] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机III型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100065,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003076] = {
+		id = 1003076,
+		name = "【量产型】梦境航母轰炸机武器 I",
+		base = 1001076
 	}
-	uv0.weapon_property_364[1100066] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机III型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100066,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003077] = {
+		id = 1003077,
+		name = "【量产型】梦境航母轰炸机武器 II",
+		base = 1001077
 	}
-	uv0.weapon_property_364[1100067] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机III型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100067,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003078] = {
+		id = 1003078,
+		name = "【量产型】梦境航母轰炸机武器 III",
+		base = 1001078
 	}
-	uv0.weapon_property_364[1100068] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机III型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100068,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003079] = {
+		id = 1003079,
+		name = "【量产型】梦境航母轰炸机武器 IV",
+		base = 1001079
 	}
-	uv0.weapon_property_364[1100069] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机III型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1100069,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003080] = {
+		id = 1003080,
+		name = "【量产型】梦境航母轰炸机武器 V",
+		base = 1001080
 	}
-	uv0.weapon_property_364[1100070] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机IIII型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100070,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 340,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003081] = {
+		id = 1003081,
+		name = "【量产型】梦境航母战斗机弹幕 I",
+		base = 1001081,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			20006,
+			20006,
+			20006,
+			20006
+		}
 	}
-	uv0.weapon_property_364[1100071] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机IIII型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100071,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 340,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003082] = {
+		id = 1003082,
+		name = "【量产型】梦境航母战斗机弹幕 II",
+		base = 1001082,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			20006,
+			20006,
+			20006,
+			20006
+		}
 	}
-	uv0.weapon_property_364[1100072] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机IIII型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100072,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 340,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003083] = {
+		id = 1003083,
+		name = "【量产型】梦境航母战斗机弹幕 III",
+		base = 1001083,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			20006,
+			20006,
+			20006,
+			20006
+		}
 	}
-	uv0.weapon_property_364[1100073] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机IIII型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1100073,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 340,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003084] = {
+		id = 1003084,
+		name = "【量产型】梦境航母战斗机弹幕 IV",
+		base = 1001084,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			20006,
+			20006,
+			20006,
+			20006
+		}
 	}
-	uv0.weapon_property_364[1100074] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐单发瞄准x4随机IIII型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 125,
-		min_range = 0,
-		id = 1100074,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 340,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003085] = {
+		id = 1003085,
+		name = "【量产型】梦境航母战斗机弹幕 V",
+		base = 1001085,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			20006,
+			20006,
+			20006,
+			20006
+		}
 	}
-	uv0.weapon_property_364[1100075] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机I型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 3,
-		corrected = 125,
-		min_range = 0,
-		id = 1100075,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003086] = {
+		id = 1003086,
+		name = "【量产型】梦境航母战斗机空中 I",
+		base = 1001086
 	}
-	uv0.weapon_property_364[1100076] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机I型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 125,
-		min_range = 0,
-		id = 1100076,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003087] = {
+		id = 1003087,
+		name = "【量产型】梦境航母战斗机空中 II",
+		base = 1001087
 	}
-	uv0.weapon_property_364[1100077] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机I型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 1100077,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003088] = {
+		id = 1003088,
+		name = "【量产型】梦境航母战斗机空中 III",
+		base = 1001088
 	}
-	uv0.weapon_property_364[1100078] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机I型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100078,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003089] = {
+		id = 1003089,
+		name = "【量产型】梦境航母战斗机空中 IV",
+		base = 1001089
 	}
-	uv0.weapon_property_364[1100079] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机I型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100079,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_364[1003090] = {
+		id = 1003090,
+		name = "【量产型】梦境航母战斗机空中 V",
+		base = 1001090
 	}
-	uv0.weapon_property_364[1100080] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机II型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 125,
-		min_range = 0,
-		id = 1100080,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003091] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕1",
+		base = 1100695,
+		id = 1003091,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
+			839
 		},
 		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			2
+		}
 	}
-	uv0.weapon_property_364[1100081] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机II型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 1100081,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003092] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕2",
+		base = 1100696,
+		id = 1003092,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
+			839
 		},
 		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			2
+		}
 	}
-	uv0.weapon_property_364[1100082] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机II型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100082,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003093] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕3",
+		base = 1100697,
+		id = 1003093,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
+			839
 		},
 		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			2
+		}
 	}
-	uv0.weapon_property_364[1100083] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机II型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100083,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003094] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕4",
+		base = 1100698,
+		id = 1003094,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
+			839
 		},
 		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			2
+		}
 	}
-	uv0.weapon_property_364[1100084] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机II型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100084,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003095] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕5",
+		base = 1100699,
+		id = 1003095,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
+			839
 		},
 		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			2
+		}
 	}
-	uv0.weapon_property_364[1100085] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机III型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 1100085,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003096] = {
+		id = 1003096,
+		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕1",
+		base = 1100710,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100086] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机III型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100086,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003097] = {
+		id = 1003097,
+		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕2",
+		base = 1100711,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100087] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机III型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100087,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003098] = {
+		id = 1003098,
+		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕3",
+		base = 1100712,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100088] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机III型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100088,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003099] = {
+		id = 1003099,
+		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕4",
+		base = 1100713,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100089] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机III型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100089,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003100] = {
+		id = 1003100,
+		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕5",
+		base = 1100714,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100090] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机IIII型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100090,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003101] = {
+		id = 1003101,
+		name = "【精英】梦境探索者 四联装鱼雷 I",
+		base = 1001101,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			838
+		}
 	}
-	uv0.weapon_property_364[1100091] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机IIII型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100091,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003102] = {
+		id = 1003102,
+		name = "【精英】梦境探索者 四联装鱼雷 II",
+		base = 1001102,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			838
+		}
 	}
-	uv0.weapon_property_364[1100092] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机IIII型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100092,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003103] = {
+		id = 1003103,
+		name = "【精英】梦境探索者 四联装鱼雷 III",
+		base = 1001103,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			838
+		}
 	}
-	uv0.weapon_property_364[1100093] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机IIII型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100093,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003104] = {
+		id = 1003104,
+		name = "【精英】梦境探索者 四联装鱼雷 IV",
+		base = 1001104,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			838
+		}
 	}
-	uv0.weapon_property_364[1100094] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型驱逐单发瞄准x4随机IIII型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1100094,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003105] = {
+		id = 1003105,
+		name = "【精英】梦境探索者 四联装鱼雷 V",
+		base = 1001105,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			838
+		}
 	}
-	uv0.weapon_property_364[1100095] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬驱逐单发瞄准x4随机II型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1100095,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003106] = {
+		id = 1003106,
+		name = "【精英】梦境探索者 单发瞄准x4随机 I",
+		base = 1001106,
 		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100096] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬驱逐单发瞄准x4随机II型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1100096,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003107] = {
+		id = 1003107,
+		name = "【精英】梦境探索者 单发瞄准x4随机 II",
+		base = 1001107,
 		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100097] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬驱逐单发瞄准x4随机II型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1100097,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003108] = {
+		id = 1003108,
+		name = "【精英】梦境探索者 单发瞄准x4随机 III",
+		base = 1001108,
 		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100098] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬驱逐单发瞄准x4随机II型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1100098,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003109] = {
+		id = 1003109,
+		name = "【精英】梦境探索者 单发瞄准x4随机 IV",
+		base = 1001109,
 		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100099] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "量产型塞壬驱逐单发瞄准x4随机II型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1100099,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003110] = {
+		id = 1003110,
+		name = "【精英】梦境探索者 单发瞄准x4随机 V",
+		base = 1001110,
 		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100100] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准I型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 110,
-		min_range = 0,
-		id = 1100100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003111] = {
+		id = 1003111,
+		name = "【精英】梦境探索者 双联装炮瞄准 I",
+		base = 1001111,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100101] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准I型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 110,
-		min_range = 0,
-		id = 1100101,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003112] = {
+		id = 1003112,
+		name = "【精英】梦境探索者 双联装炮瞄准 II",
+		base = 1001112,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100102] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准I型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 110,
-		min_range = 0,
-		id = 1100102,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003113] = {
+		id = 1003113,
+		name = "【精英】梦境探索者 双联装炮瞄准 III",
+		base = 1001113,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100103] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准I型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 110,
-		min_range = 0,
-		id = 1100103,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003114] = {
+		id = 1003114,
+		name = "【精英】梦境探索者 双联装炮瞄准 IV",
+		base = 1001114,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100104] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准I型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 110,
-		min_range = 0,
-		id = 1100104,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003115] = {
+		id = 1003115,
+		name = "【精英】梦境探索者 双联装炮瞄准 V",
+		base = 1001115,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100105] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准II型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 110,
-		min_range = 0,
-		id = 1100105,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003116] = {
+		id = 1003116,
+		name = "【精英】梦境追迹者 轻巡联装炮x6散射*2 I",
+		base = 1001116,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100106] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准II型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 110,
-		min_range = 0,
-		id = 1100106,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003117] = {
+		id = 1003117,
+		name = "【精英】梦境追迹者 轻巡联装炮x6散射*2 II",
+		base = 1001117,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100107] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准II型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 110,
-		min_range = 0,
-		id = 1100107,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003118] = {
+		id = 1003118,
+		name = "【精英】梦境追迹者 轻巡联装炮x6散射*2 III",
+		base = 1001118,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100108] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准II型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 110,
-		min_range = 0,
-		id = 1100108,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003119] = {
+		id = 1003119,
+		name = "【精英】梦境追迹者 轻巡联装炮x6散射*2 IV",
+		base = 1001119,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100109] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准II型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 110,
-		min_range = 0,
-		id = 1100109,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003120] = {
+		id = 1003120,
+		name = "【精英】梦境追迹者 轻巡联装炮x6散射*2 V",
+		base = 1001120,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831
+		}
 	}
-	uv0.weapon_property_364[1100110] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准III型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 110,
-		min_range = 0,
-		id = 1100110,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003121] = {
+		id = 1003121,
+		name = "【精英】梦境追迹者 大范围缓速子弹 I",
+		base = 1001121,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073
+		}
 	}
-	uv0.weapon_property_364[1100111] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准III型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 110,
-		min_range = 0,
-		id = 1100111,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003122] = {
+		id = 1003122,
+		name = "【精英】梦境追迹者 大范围缓速子弹 II",
+		base = 1001122,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073
+		}
 	}
-	uv0.weapon_property_364[1100112] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准III型弹幕3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 110,
-		min_range = 0,
-		id = 1100112,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003123] = {
+		id = 1003123,
+		name = "【精英】梦境追迹者 大范围缓速子弹 III",
+		base = 1001123,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073
+		}
 	}
-	uv0.weapon_property_364[1100113] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准III型弹幕4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 110,
-		min_range = 0,
-		id = 1100113,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003124] = {
+		id = 1003124,
+		name = "【精英】梦境追迹者 大范围缓速子弹 IV",
+		base = 1001124,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073
+		}
 	}
-	uv0.weapon_property_364[1100114] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准III型弹幕5",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 110,
-		min_range = 0,
-		id = 1100114,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003125] = {
+		id = 1003125,
+		name = "【精英】梦境追迹者 大范围缓速子弹 V",
+		base = 1001125,
 		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073,
+			8073
+		}
 	}
-	uv0.weapon_property_364[1100115] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准IIII型弹幕1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 110,
-		min_range = 0,
-		id = 1100115,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 240,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003126] = {
+		id = 1003126,
+		name = "【精英】梦境追迹者 瞄准连射 I",
+		base = 1001126,
 		bullet_ID = {
-			1206
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831,
+			831,
+			831,
+			831
+		}
 	}
-	uv0.weapon_property_364[1100116] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版驱逐双联装炮瞄准IIII型弹幕2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 110,
-		min_range = 0,
-		id = 1100116,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 240,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_364[1003127] = {
+		id = 1003127,
+		name = "【精英】梦境追迹者 瞄准连射 II",
+		base = 1001127,
 		bullet_ID = {
-			1206
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			831,
+			831,
+			831,
+			831
+		}
 	}
 end()

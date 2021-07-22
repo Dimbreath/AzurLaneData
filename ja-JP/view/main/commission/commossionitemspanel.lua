@@ -56,20 +56,29 @@ function slot0.UpdateStyle(slot0, slot1, slot2, slot3)
 		slot5 = "icon_5"
 	end
 
-	slot1:Find("unlock/leisure/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot5)
-	slot1:Find("unlock/ongoging/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot6)
-	slot1:Find("unlock/finished/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot7)
-	slot8 = "event_ongoing"
+	function slot8(slot0, slot1)
+		slot2 = uv0:Find(string.format("unlock/%s/icon", slot0))
+		slot2.localScale = uv1 and Vector3.one or Vector3(1.2, 1.2, 1.2)
+		slot2:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot1)
 
-	if slot2 then
-		slot8 = "event_bg_act"
+		slot2:GetComponent(typeof(Image)):SetNativeSize()
 	end
 
-	slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot8)
-	slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot8)
-	slot10 = slot2 and Color.New(0.996078431372549, 0.7568627450980392, 0.9725490196078431, 1) or Color.New(0.6039215686274509, 0.7843137254901961, 0.9607843137254902, 1)
-	slot1:Find("unlock/ongoging/print"):GetComponent(typeof(Image)).color = slot10
-	slot1:Find("unlock/finished/print"):GetComponent(typeof(Image)).color = slot10
+	slot8("leisure", slot5)
+	slot8("ongoging", slot6)
+	slot8("finished", slot7)
+
+	slot9 = "event_ongoing"
+
+	if slot2 then
+		slot9 = "event_bg_act"
+	end
+
+	slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+	slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+	slot11 = slot2 and Color.New(0.996078431372549, 0.7568627450980392, 0.9725490196078431, 1) or Color.New(0.6039215686274509, 0.7843137254901961, 0.9607843137254902, 1)
+	slot1:Find("unlock/ongoging/print"):GetComponent(typeof(Image)).color = slot11
+	slot1:Find("unlock/finished/print"):GetComponent(typeof(Image)).color = slot11
 
 	setActive(slot1:Find("unlock/act"), slot4 == EventInfo.StateNone and slot2)
 end

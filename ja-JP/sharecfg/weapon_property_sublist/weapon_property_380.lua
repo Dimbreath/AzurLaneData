@@ -2,837 +2,349 @@ pg = pg or {}
 pg.weapon_property_380 = {}
 
 function ()
-	uv0.weapon_property_380[1101082] = {
-		name = "【精英】Q版轻巡单发x12随机I型弹幕3",
-		range = 90,
-		damage = 10,
-		base = 1100377,
-		type = 2,
-		reload_max = 1800,
-		queue = 3,
-		id = 1101082,
-		effect_move = 0,
-		angle = 360
-	}
-	uv0.weapon_property_380[1101083] = {
-		name = "【精英】Q版轻巡单发x12随机I型弹幕4",
-		range = 90,
-		damage = 12,
-		base = 1100378,
-		type = 2,
-		reload_max = 1800,
-		queue = 3,
-		id = 1101083,
-		effect_move = 0,
-		angle = 360
-	}
-	uv0.weapon_property_380[1101084] = {
-		name = "【精英】Q版轻巡单发x12随机I型弹幕5",
-		range = 90,
-		damage = 15,
-		base = 1100379,
-		type = 2,
-		reload_max = 1800,
-		queue = 3,
-		id = 1101084,
-		effect_move = 0,
-		angle = 360
-	}
-	uv0.weapon_property_380[1101085] = {
-		name = "【精英】Q版三联装鱼雷III型弹幕1",
-		range = 90,
-		damage = 26,
-		base = 1100475,
-		type = 3,
-		reload_max = 750,
-		queue = 4,
-		id = 1101085,
-		effect_move = 0,
+	uv0.weapon_property_380[1100787] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载鱼雷机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
 		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101086] = {
-		name = "【精英】Q版三联装鱼雷III型弹幕2",
-		range = 90,
-		damage = 30,
-		base = 1100476,
-		type = 3,
-		reload_max = 750,
-		queue = 4,
-		id = 1101086,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101087] = {
-		name = "【精英】Q版三联装鱼雷III型弹幕3",
-		range = 90,
-		damage = 35,
-		base = 1100477,
-		type = 3,
-		reload_max = 750,
-		queue = 4,
-		id = 1101087,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101088] = {
-		name = "【精英】Q版三联装鱼雷III型弹幕4",
-		range = 90,
-		damage = 40,
-		base = 1100478,
-		type = 3,
-		reload_max = 750,
-		queue = 4,
-		id = 1101088,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101089] = {
-		name = "【精英】Q版三联装鱼雷III型弹幕5",
-		range = 90,
-		damage = 45,
-		base = 1100479,
-		type = 3,
-		reload_max = 750,
-		queue = 4,
-		id = 1101089,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101090] = {
-		name = "【精英】Q版近程自卫火炮III型弹幕1",
-		range = 38,
-		damage = 5,
-		base = 1100025,
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		queue = 2,
-		id = 1101090,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101091] = {
-		name = "【精英】Q版近程自卫火炮III型弹幕2",
-		range = 38,
-		damage = 6,
-		base = 1100026,
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		queue = 2,
-		id = 1101091,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101092] = {
-		name = "【精英】Q版近程自卫火炮III型弹幕3",
-		range = 38,
-		damage = 7,
-		base = 1100027,
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		queue = 2,
-		id = 1101092,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101093] = {
-		name = "【精英】Q版近程自卫火炮III型弹幕4",
-		range = 38,
-		damage = 8,
-		base = 1100028,
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		queue = 2,
-		id = 1101093,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101094] = {
-		name = "【精英】Q版近程自卫火炮III型弹幕5",
-		range = 38,
-		damage = 10,
-		base = 1100029,
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		queue = 2,
-		id = 1101094,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101095] = {
-		name = "【精英】Q版重巡联装主炮x6-散射III型弹幕1",
-		range = 100,
-		damage = 14,
-		base = 1100620,
-		type = 1,
-		suppress = 0,
-		reload_max = 1200,
-		queue = 5,
-		id = 1101095,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101096] = {
-		name = "【精英】Q版重巡联装主炮x6-散射III型弹幕2",
-		range = 100,
-		damage = 18,
-		base = 1100621,
-		type = 1,
-		suppress = 0,
-		reload_max = 1200,
-		queue = 5,
-		id = 1101096,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101097] = {
-		name = "【精英】Q版重巡联装主炮x6-散射III型弹幕3",
-		range = 100,
-		damage = 22,
-		base = 1100622,
-		type = 1,
-		suppress = 0,
-		reload_max = 1200,
-		queue = 5,
-		id = 1101097,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101098] = {
-		name = "【精英】Q版重巡联装主炮x6-散射III型弹幕4",
-		range = 100,
+		charge_param = "",
 		damage = 28,
-		base = 1100623,
-		type = 1,
-		suppress = 0,
-		reload_max = 1200,
-		queue = 5,
-		id = 1101098,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101099] = {
-		name = "【精英】Q版重巡联装主炮x6-散射III型弹幕5",
-		range = 100,
-		damage = 34,
-		base = 1100624,
-		type = 1,
-		suppress = 0,
-		reload_max = 1200,
-		queue = 5,
-		id = 1101099,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101100] = {
-		name = "【精英】Q版重巡联装主炮x6-轮射III型弹幕1",
-		range = 90,
-		damage = 14,
-		base = 1100680,
-		type = 1,
-		suppress = 0,
-		reload_max = 450,
-		queue = 5,
-		id = 1101100,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101101] = {
-		name = "【精英】Q版重巡联装主炮x6-轮射III型弹幕2",
-		range = 90,
-		damage = 18,
-		base = 1100681,
-		type = 1,
-		suppress = 0,
-		reload_max = 450,
-		queue = 5,
-		id = 1101101,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101102] = {
-		name = "【精英】Q版重巡联装主炮x6-轮射III型弹幕3",
-		range = 90,
-		damage = 22,
-		base = 1100682,
-		type = 1,
-		suppress = 0,
-		reload_max = 450,
-		queue = 5,
-		id = 1101102,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101103] = {
-		name = "【精英】Q版重巡联装主炮x6-轮射III型弹幕4",
-		range = 90,
-		damage = 28,
-		base = 1100683,
-		type = 1,
-		suppress = 0,
-		reload_max = 450,
-		queue = 5,
-		id = 1101103,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101104] = {
-		name = "【精英】Q版重巡联装主炮x6-轮射III型弹幕5",
-		range = 90,
-		damage = 34,
-		base = 1100684,
-		type = 1,
-		suppress = 0,
-		reload_max = 450,
-		queue = 5,
-		id = 1101104,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101105] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕1",
-		range = 90,
-		damage = 26,
-		base = 1100505,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101105,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101106] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕2",
-		range = 90,
-		damage = 30,
-		base = 1100506,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101106,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101107] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕3",
-		range = 90,
-		damage = 35,
-		base = 1100507,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101107,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101108] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕4",
-		range = 90,
-		damage = 40,
-		base = 1100508,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101108,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101109] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕5",
-		range = 90,
-		damage = 45,
-		base = 1100509,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101109,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_380[1101110] = {
-		name = "【精英】Q版战列特殊机枪弹幕1",
-		range = 100,
-		damage = 7,
-		base = 1101525,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
+		corrected = 100,
+		min_range = 0,
+		id = 1100787,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
 		queue = 1,
-		id = 1101110,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101111] = {
-		name = "【精英】Q版战列特殊机枪弹幕2",
-		range = 100,
-		damage = 8,
-		base = 1101526,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101111,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101112] = {
-		name = "【精英】Q版战列特殊机枪弹幕3",
-		range = 100,
-		damage = 10,
-		base = 1101527,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101112,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101113] = {
-		name = "【精英】Q版战列特殊机枪弹幕4",
-		range = 100,
-		damage = 12,
-		base = 1101528,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101113,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101114] = {
-		name = "【精英】Q版战列特殊机枪弹幕5",
-		range = 100,
-		damage = 15,
-		base = 1101529,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101114,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101115] = {
-		name = "【精英】Q版战列特殊穿透弹幕1",
-		range = 100,
-		damage = 15,
-		base = 1101530,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101115,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101116] = {
-		name = "【精英】Q版战列特殊穿透弹幕2",
-		range = 100,
-		damage = 18,
-		base = 1101531,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101116,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101117] = {
-		name = "【精英】Q版战列特殊穿透弹幕3",
-		range = 100,
-		damage = 22,
-		base = 1101532,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101117,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101118] = {
-		name = "【精英】Q版战列特殊穿透弹幕4",
-		range = 100,
-		damage = 26,
-		base = 1101533,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101118,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101119] = {
-		name = "【精英】Q版战列特殊穿透弹幕5",
-		range = 100,
-		damage = 32,
-		base = 1101534,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101119,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_380[1101120] = {
-		name = "【精英】Q版战列平射火炮弹幕1",
-		range = 100,
-		damage = 16,
-		base = 1101535,
-		type = 19,
-		suppress = 1,
-		reload_max = 800,
-		queue = 2,
-		id = 1101120,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101121] = {
-		name = "【精英】Q版战列平射火炮弹幕2",
-		range = 100,
-		damage = 20,
-		base = 1101536,
-		type = 19,
-		suppress = 1,
-		reload_max = 800,
-		queue = 2,
-		id = 1101121,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101122] = {
-		name = "【精英】Q版战列平射火炮弹幕3",
-		range = 100,
-		damage = 25,
-		base = 1101537,
-		type = 19,
-		suppress = 1,
-		reload_max = 800,
-		queue = 2,
-		id = 1101122,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101123] = {
-		name = "【精英】Q版战列平射火炮弹幕4",
-		range = 100,
-		damage = 32,
-		base = 1101538,
-		type = 19,
-		suppress = 1,
-		reload_max = 800,
-		queue = 2,
-		id = 1101123,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101124] = {
-		name = "【精英】Q版战列平射火炮弹幕5",
-		range = 100,
-		damage = 40,
-		base = 1101539,
-		type = 19,
-		suppress = 1,
-		reload_max = 800,
-		queue = 2,
-		id = 1101124,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101125] = {
-		name = "【精英】Q版英系舰载战斗机1",
-		range = 100,
-		damage = 12,
-		base = 1100885,
-		type = 11,
-		suppress = 1,
-		reload_max = 1500,
-		queue = 3,
-		id = 1101125,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101126] = {
-		name = "【精英】Q版英系舰载战斗机2",
-		range = 100,
-		damage = 16,
-		base = 1100886,
-		type = 11,
 		suppress = 1,
-		reload_max = 1500,
-		queue = 3,
-		id = 1101126,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101127] = {
-		name = "【精英】Q版英系舰载战斗机3",
-		range = 100,
-		damage = 20,
-		base = 1100887,
+	uv0.weapon_property_380[1100788] = {
+		action_index = "attack",
+		range = 110,
 		type = 11,
-		suppress = 1,
-		reload_max = 1500,
-		queue = 3,
-		id = 1101127,
-		effect_move = 1,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载鱼雷机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
 		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101128] = {
-		name = "【精英】Q版英系舰载战斗机4",
-		range = 100,
-		damage = 25,
-		base = 1100888,
-		type = 11,
-		suppress = 1,
-		reload_max = 1500,
-		queue = 3,
-		id = 1101128,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101129] = {
-		name = "【精英】Q版英系舰载战斗机5",
-		range = 100,
-		damage = 32,
-		base = 1100889,
-		type = 11,
-		suppress = 1,
-		reload_max = 1500,
-		queue = 3,
-		id = 1101129,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101130] = {
-		name = "【精英】Q版英系舰载鱼雷机1",
-		range = 100,
-		damage = 18,
-		base = 1100890,
-		type = 11,
-		suppress = 1,
-		reload_max = 3000,
-		queue = 4,
-		id = 1101130,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101131] = {
-		name = "【精英】Q版英系舰载鱼雷机2",
-		range = 100,
-		damage = 22,
-		base = 1100891,
-		type = 11,
-		suppress = 1,
-		reload_max = 3000,
-		queue = 4,
-		id = 1101131,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101132] = {
-		name = "【精英】Q版英系舰载鱼雷机3",
-		range = 100,
-		damage = 28,
-		base = 1100892,
-		type = 11,
-		suppress = 1,
-		reload_max = 3000,
-		queue = 4,
-		id = 1101132,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101133] = {
-		name = "【精英】Q版英系舰载鱼雷机4",
-		range = 100,
+		charge_param = "",
 		damage = 36,
-		base = 1100893,
-		type = 11,
-		suppress = 1,
-		reload_max = 3000,
-		queue = 4,
-		id = 1101133,
+		corrected = 100,
+		min_range = 0,
+		id = 1100788,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101134] = {
-		name = "【精英】Q版英系舰载鱼雷机5",
-		range = 100,
+	uv0.weapon_property_380[1100789] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载鱼雷机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 46,
-		base = 1100894,
-		type = 11,
-		suppress = 1,
-		reload_max = 3000,
-		queue = 4,
-		id = 1101134,
+		corrected = 100,
+		min_range = 0,
+		id = 1100789,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101135] = {
-		name = "【精英】Q版英系舰载轰炸机1",
+	uv0.weapon_property_380[1100790] = {
+		action_index = "attack",
 		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载轰炸机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 22,
-		base = 1100895,
-		type = 11,
-		suppress = 1,
-		reload_max = 2000,
-		queue = 5,
-		id = 1101135,
+		corrected = 100,
+		min_range = 0,
+		id = 1100790,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101136] = {
-		name = "【精英】Q版英系舰载轰炸机2",
+	uv0.weapon_property_380[1100791] = {
+		action_index = "attack",
 		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载轰炸机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 28,
-		base = 1100896,
-		type = 11,
-		suppress = 1,
-		reload_max = 2000,
-		queue = 5,
-		id = 1101136,
+		corrected = 100,
+		min_range = 0,
+		id = 1100791,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101137] = {
-		name = "【精英】Q版英系舰载轰炸机3",
+	uv0.weapon_property_380[1100792] = {
+		action_index = "attack",
 		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载轰炸机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 36,
-		base = 1100897,
-		type = 11,
-		suppress = 1,
-		reload_max = 2000,
-		queue = 5,
-		id = 1101137,
+		corrected = 100,
+		min_range = 0,
+		id = 1100792,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101138] = {
-		name = "【精英】Q版英系舰载轰炸机4",
+	uv0.weapon_property_380[1100793] = {
+		action_index = "attack",
 		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载轰炸机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 46,
-		base = 1100898,
-		type = 11,
-		suppress = 1,
-		reload_max = 2000,
-		queue = 5,
-		id = 1101138,
+		corrected = 100,
+		min_range = 0,
+		id = 1100793,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 1,
-		angle = 360,
-		aim_type = 1
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_380[1101139] = {
-		name = "【精英】Q版英系舰载轰炸机5",
+	uv0.weapon_property_380[1100794] = {
+		action_index = "attack",
 		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系舰载轰炸机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 58,
-		base = 1100899,
-		type = 11,
-		suppress = 1,
-		reload_max = 2000,
-		queue = 5,
-		id = 1101139,
-		effect_move = 1,
-		angle = 360,
-		aim_type = 1
-	}
-	uv0.weapon_property_380[1101500] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-夕立II型1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1101500,
+		id = 1100794,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
+		attack_attribute = 4,
+		reload_max = 5000,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			300301
+			30019
 		},
 		barrage_ID = {
-			70024
+			12015
 		},
 		oxy_type = {
 			1
@@ -842,41 +354,41 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_380[1101501] = {
+	uv0.weapon_property_380[1100795] = {
 		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-夕立II型2",
-		aim_type = 0,
+		name = "日系舰载战斗机I",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
 		damage = 12,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1101501,
+		id = 1100795,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
+		attack_attribute = 4,
+		reload_max = 2000,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			300301
+			30013
 		},
 		barrage_ID = {
-			70024
+			12015
 		},
 		oxy_type = {
 			1
@@ -886,41 +398,41 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_380[1101502] = {
+	uv0.weapon_property_380[1100796] = {
 		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-夕立II型3",
-		aim_type = 0,
+		name = "日系舰载战斗机II",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 15,
-		corrected = 125,
+		damage = 16,
+		corrected = 100,
 		min_range = 0,
-		id = 1101502,
+		id = 1100796,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
+		attack_attribute = 4,
+		reload_max = 2000,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			300301
+			30013
 		},
 		barrage_ID = {
-			70024
+			12015
 		},
 		oxy_type = {
 			1
@@ -930,41 +442,173 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_380[1101503] = {
+	uv0.weapon_property_380[1100797] = {
 		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-夕立II型4",
-		aim_type = 0,
+		name = "日系舰载战斗机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 1100797,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100798] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 1100798,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100799] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 0,
+		id = 1100799,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100800] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机I",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
 		damage = 18,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1101503,
+		id = 1100800,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
+		attack_attribute = 4,
+		reload_max = 4000,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			300301
+			30014
 		},
 		barrage_ID = {
-			70024
+			12015
 		},
 		oxy_type = {
 			1
@@ -974,41 +618,2183 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_380[1101504] = {
+	uv0.weapon_property_380[1100801] = {
 		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-夕立II型5",
-		aim_type = 0,
+		name = "日系舰载鱼雷机II",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
 		damage = 22,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1101504,
+		id = 1100801,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
+		attack_attribute = 4,
+		reload_max = 4000,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			300301
+			30014
 		},
 		barrage_ID = {
-			70024
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100802] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 1100802,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100803] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 1100803,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100804] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 1100804,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100805] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 1100805,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100806] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 1100806,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100807] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 1100807,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100808] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 1100808,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100809] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 1100809,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100830] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭轰炸机I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 1100830,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100831] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭轰炸机II",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 1100831,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100832] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭轰炸机III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 1100832,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100833] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭轰炸机IV",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 1100833,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100834] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭轰炸机V",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 1100834,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100835] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭鱼雷机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 22,
+		id = 1100835,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10031
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100836] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭鱼雷机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 22,
+		id = 1100836,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10031
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100837] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭鱼雷机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 22,
+		id = 1100837,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10031
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100838] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭鱼雷机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 22,
+		id = 1100838,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10031
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100839] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭鱼雷机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 22,
+		id = 1100839,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10031
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100840] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 3,
+		corrected = 100,
+		min_range = 0,
+		id = 1100840,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100841] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 4,
+		corrected = 100,
+		min_range = 0,
+		id = 1100841,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100842] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 1100842,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100843] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 1100843,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100844] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 1100844,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100845] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机空中I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 1100845,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100846] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机空中II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 1100846,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100847] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机空中III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 1100847,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100848] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机空中IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 1100848,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100849] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系空袭战斗机空中V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 0,
+		id = 1100849,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100850] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 1100850,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100851] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 1100851,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100852] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 1100852,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100853] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 1100853,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100854] = {
+		action_index = "attack",
+		range = 80,
+		type = 11,
+		fire_fx = "zhupao",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载战斗机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 0,
+		id = 1100854,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100855] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 1100855,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100856] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 1100856,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100857] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 1100857,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100858] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 1100858,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100859] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载鱼雷机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 1100859,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 4000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100860] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 1100860,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100861] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 1100861,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100862] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 1100862,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100863] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 1100863,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100864] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日系舰载轰炸机V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 1100864,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12017
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100865] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系空袭轰炸机武器I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 1100865,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100866] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系空袭轰炸机武器II",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 1100866,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100867] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系空袭轰炸机武器III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 1100867,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100868] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系空袭轰炸机武器IV",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 1100868,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_380[1100869] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英系空袭轰炸机武器V",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 1100869,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
 		},
 		oxy_type = {
 			1

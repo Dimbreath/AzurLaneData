@@ -181,4 +181,45 @@ function slot0.Clone2Full(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot0.UpdateActivity(slot0, slot1)
+end
+
+function slot0.BindItemActivityShop(slot0)
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "bujishangdian", function ()
+		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SHOP, {
+			warp = NewShopsScene.TYPE_ACTIVITY
+		})
+	end)
+end
+
+function slot0.BindItemSkinShop(slot0)
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "huanzhuangshangdian", function ()
+		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SKINSHOP)
+	end)
+end
+
+function slot0.BindItemBuildShip(slot0)
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "xianshijianzao", function ()
+		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.GETBOAT, {
+			projectName = "new",
+			page = 1
+		})
+	end)
+end
+
+function slot0.BindItemBattle(slot0)
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "tebiezuozhan", function ()
+		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
+
+		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+		else
+			uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot2,
+				mapIdx = slot1
+			})
+		end
+	end)
+end
+
 return slot0

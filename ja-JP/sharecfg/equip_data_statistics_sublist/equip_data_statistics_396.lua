@@ -1,238 +1,257 @@
 pg = pg or {}
 pg.equip_data_statistics_396 = {
-	[95463] = {
-		id = 95463,
-		damage = "6 x 4",
-		base = 95460,
-		weapon_id = {
-			95463
-		}
-	},
-	[95464] = {
-		id = 95464,
-		damage = "7 x 4",
-		base = 95460,
-		weapon_id = {
-			95464
-		}
-	},
-	[95465] = {
-		id = 95465,
+	[95423] = {
+		id = 95423,
 		damage = "8 x 4",
-		base = 95460,
+		base = 95420,
 		weapon_id = {
-			95465
+			95423
 		}
 	},
-	[95466] = {
-		id = 95466,
+	[95424] = {
+		id = 95424,
 		damage = "9 x 4",
-		base = 95460,
+		base = 95420,
 		weapon_id = {
-			95466
+			95424
 		}
 	},
-	[95467] = {
-		id = 95467,
-		damage = "9 x 4",
-		base = 95460,
+	[95425] = {
+		id = 95425,
+		damage = "10 x 4",
+		base = 95420,
 		weapon_id = {
-			95467
+			95425
 		}
 	},
-	[95480] = {
-		name = "320mm三連装砲Model1934",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
+	[95426] = {
+		id = 95426,
+		damage = "11 x 4",
+		base = 95420,
+		weapon_id = {
+			95426
+		}
+	},
+	[95440] = {
+		name = "120mm連装砲Model1936",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
 		descrip = "0",
-		value_2 = 12,
-		icon = "55480",
+		value_2 = 25,
+		icon = "55400",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "34 x 3",
+		rarity = 4,
+		damage = "6 x 4",
 		nationality = 6,
-		ammo = 1,
+		ammo = 3,
 		value_3 = 0,
-		id = 95480,
+		id = 95440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			1
 		},
 		ammo_info = {
 			{
-				2,
-				1511
+				1,
+				2300
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2300
+			},
+			{
+				4,
+				1022
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			95480
+			95440
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
 			4,
 			5,
-			10,
-			13
+			8,
+			13,
+			18
 		},
-		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"BB",
+			"DD",
 			"MG",
 			"AP"
 		}
 	},
-	[95481] = {
-		id = 95481,
-		damage = "39 x 3",
-		base = 95480,
+	[95441] = {
+		id = 95441,
+		damage = "7 x 4",
+		base = 95440,
 		weapon_id = {
-			95481
+			95441
 		}
 	},
-	[95482] = {
-		id = 95482,
-		damage = "56 x 3",
-		base = 95480,
+	[95442] = {
+		id = 95442,
+		damage = "8 x 4",
+		base = 95440,
 		weapon_id = {
-			95482
+			95442
 		}
 	},
-	[95483] = {
-		id = 95483,
-		damage = "62 x 3",
-		base = 95480,
+	[95443] = {
+		id = 95443,
+		damage = "9 x 4",
+		base = 95440,
 		weapon_id = {
-			95483
+			95443
 		}
 	},
-	[95484] = {
-		id = 95484,
-		damage = "68 x 3",
-		base = 95480,
+	[95444] = {
+		id = 95444,
+		damage = "10 x 4",
+		base = 95440,
 		weapon_id = {
-			95484
+			95444
 		}
 	},
-	[95485] = {
-		id = 95485,
-		damage = "74 x 3",
-		base = 95480,
+	[95445] = {
+		id = 95445,
+		damage = "11 x 4",
+		base = 95440,
 		weapon_id = {
-			95485
+			95445
 		}
 	},
-	[95486] = {
-		id = 95486,
-		damage = "80 x 3",
-		base = 95480,
+	[95446] = {
+		id = 95446,
+		damage = "12 x 4",
+		base = 95440,
 		weapon_id = {
-			95486
+			95446
 		}
 	},
-	[95487] = {
-		id = 95487,
-		damage = "80 x 3",
-		base = 95480,
+	[95447] = {
+		id = 95447,
+		damage = "13 x 4",
+		base = 95440,
 		weapon_id = {
-			95487
+			95447
 		}
 	},
-	[95500] = {
-		name = "37mm連装機銃Model1932",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "37mm連装機銃。対空兵装として使用可能",
-		value_2 = 5,
-		icon = "55500",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "15/回",
+	[95448] = {
+		id = 95448,
+		damage = "14 x 4",
+		base = 95440,
+		weapon_id = {
+			95448
+		}
+	},
+	[95449] = {
+		id = 95449,
+		damage = "15 x 4",
+		base = 95440,
+		weapon_id = {
+			95449
+		}
+	},
+	[95450] = {
+		id = 95450,
+		damage = "17 x 4",
+		base = 95440,
+		weapon_id = {
+			95450
+		}
+	},
+	[95451] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 95440,
+		id = 95451,
+		weapon_id = {
+			95451
+		}
+	},
+	[95460] = {
+		name = "120mm連装砲Model1933",
+		speciality = "追尾",
+		type = 1,
+		tech = 0,
+		descrip = "0",
+		value_2 = 12,
+		icon = "55460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 4",
 		nationality = 6,
-		ammo = 5,
+		ammo = 2,
 		value_3 = 0,
-		id = 95500,
+		id = 95460,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				2306
+			}
+		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2306
+			},
+			{
+				4,
+				1022
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			95500
+			95460
 		},
 		skill_id = {},
 		part_main = {
 			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
 			19
 		},
 		part_sub = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
-			10,
-			12,
+			8,
 			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"ST",
-			"AA"
-		}
-	},
-	[95501] = {
-		id = 95501,
-		damage = "17/回",
-		base = 95500,
-		weapon_id = {
-			95501
-		}
-	},
-	[95502] = {
-		id = 95502,
-		damage = "19/回",
-		base = 95500,
-		weapon_id = {
-			95502
-		}
-	},
-	[95503] = {
-		id = 95503,
-		damage = "22/回",
-		base = 95500,
-		weapon_id = {
-			95503
+			"DD",
+			"MG"
 		}
 	}
 }

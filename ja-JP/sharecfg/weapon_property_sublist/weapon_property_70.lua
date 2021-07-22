@@ -2,6 +2,81 @@ pg = pg or {}
 pg.weapon_property_70 = {}
 
 function ()
+	uv0.weapon_property_70[46145] = {
+		id = 46145,
+		reload_max = 96,
+		damage = 22,
+		base = 46140
+	}
+	uv0.weapon_property_70[46146] = {
+		id = 46146,
+		reload_max = 94,
+		damage = 24,
+		base = 46140
+	}
+	uv0.weapon_property_70[46147] = {
+		reload_max = 94,
+		damage = 24,
+		base = 46140,
+		id = 46147,
+		corrected = 104
+	}
+	uv0.weapon_property_70[46200] = {
+		action_index = "attack",
+		range = 23,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双联37mm手拉機銃T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 46200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 166,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_70[46201] = {
+		id = 46201,
+		reload_max = 161,
+		damage = 17,
+		base = 46200
+	}
+	uv0.weapon_property_70[46202] = {
+		id = 46202,
+		reload_max = 158,
+		damage = 19,
+		base = 46200
+	}
 	uv0.weapon_property_70[46203] = {
 		id = 46203,
 		reload_max = 156,
@@ -573,43 +648,5 @@ function ()
 		reload_max = 205,
 		damage = 91,
 		base = 46340
-	}
-	uv0.weapon_property_70[46347] = {
-		id = 46347,
-		reload_max = 200,
-		damage = 98,
-		base = 46340
-	}
-	uv0.weapon_property_70[46348] = {
-		id = 46348,
-		reload_max = 195,
-		damage = 106,
-		base = 46340
-	}
-	uv0.weapon_property_70[46349] = {
-		id = 46349,
-		reload_max = 190,
-		damage = 114,
-		base = 46340
-	}
-	uv0.weapon_property_70[46350] = {
-		id = 46350,
-		reload_max = 186,
-		damage = 122,
-		base = 46340
-	}
-	uv0.weapon_property_70[46351] = {
-		reload_max = 186,
-		damage = 122,
-		base = 46340,
-		id = 46351,
-		corrected = 104
-	}
-	uv0.weapon_property_70[46352] = {
-		reload_max = 186,
-		damage = 122,
-		base = 46340,
-		id = 46352,
-		corrected = 110
 	}
 end()

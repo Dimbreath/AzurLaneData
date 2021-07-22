@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_18 = {}
 
 function ()
+	uv0.weapon_property_18[16245] = {
+		id = 16245,
+		reload_max = 148,
+		damage = 49,
+		base = 16240
+	}
+	uv0.weapon_property_18[16246] = {
+		id = 16246,
+		reload_max = 145,
+		damage = 53,
+		base = 16240
+	}
+	uv0.weapon_property_18[16247] = {
+		id = 16247,
+		reload_max = 141,
+		damage = 57,
+		base = 16240
+	}
+	uv0.weapon_property_18[16248] = {
+		id = 16248,
+		reload_max = 138,
+		damage = 62,
+		base = 16240
+	}
+	uv0.weapon_property_18[16249] = {
+		id = 16249,
+		reload_max = 135,
+		damage = 67,
+		base = 16240
+	}
+	uv0.weapon_property_18[16250] = {
+		id = 16250,
+		reload_max = 131,
+		damage = 72,
+		base = 16240
+	}
 	uv0.weapon_property_18[16251] = {
 		reload_max = 131,
 		damage = 72,
@@ -614,94 +650,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_18[17001] = {
-		reload_max = 1971,
-		damage = 20,
-		base = 17000,
-		id = 17001,
-		bullet_ID = {
-			17001
-		}
-	}
-	uv0.weapon_property_18[17002] = {
-		reload_max = 1948,
-		damage = 22,
-		base = 17000,
-		id = 17002,
-		bullet_ID = {
-			17002
-		}
-	}
-	uv0.weapon_property_18[17003] = {
-		reload_max = 1924,
-		damage = 24,
-		base = 17000,
-		id = 17003,
-		bullet_ID = {
-			17003
-		}
-	}
-	uv0.weapon_property_18[17020] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F2A水牛T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 17020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1948,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17000
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_18[17021] = {
-		reload_max = 1924,
-		damage = 22,
-		base = 17020,
-		id = 17021,
-		bullet_ID = {
-			17001
-		}
-	}
-	uv0.weapon_property_18[17022] = {
-		reload_max = 1900,
-		damage = 24,
-		base = 17020,
-		id = 17022,
-		bullet_ID = {
-			17002
-		}
 	}
 end()

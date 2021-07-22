@@ -400,10 +400,9 @@ function slot0.handleNotification(slot0, slot1)
 				else
 					slot0()
 				end
-			end,
-			function (slot0)
 			end
-		})
+		}, function ()
+		end)
 	elseif slot2 == GAME.ACTIVITY_PERMANENT_START_DONE then
 		slot0.viewComponent:verifyTabs(slot3.id)
 	elseif slot2 == GAME.ACTIVITY_PERMANENT_FINISH_DONE then

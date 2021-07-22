@@ -2,6 +2,115 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
+	uv0.weapon_property_114[64364] = {
+		id = 64364,
+		name = "白龙斩击技能Lv4",
+		damage = 43,
+		base = 64361
+	}
+	uv0.weapon_property_114[64365] = {
+		id = 64365,
+		name = "白龙斩击技能Lv5",
+		damage = 50,
+		base = 64361
+	}
+	uv0.weapon_property_114[64366] = {
+		id = 64366,
+		name = "白龙斩击技能Lv6",
+		damage = 57,
+		base = 64361
+	}
+	uv0.weapon_property_114[64367] = {
+		id = 64367,
+		name = "白龙斩击技能Lv7",
+		damage = 64,
+		base = 64361
+	}
+	uv0.weapon_property_114[64368] = {
+		id = 64368,
+		name = "白龙斩击技能Lv8",
+		damage = 71,
+		base = 64361
+	}
+	uv0.weapon_property_114[64369] = {
+		id = 64369,
+		name = "白龙斩击技能Lv9",
+		damage = 78,
+		base = 64361
+	}
+	uv0.weapon_property_114[64370] = {
+		id = 64370,
+		name = "白龙斩击技能Lv10",
+		damage = 85,
+		base = 64361
+	}
+	uv0.weapon_property_114[64371] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "白龙缠绕光弹+火焰式神技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 360,
+		damage = 12,
+		corrected = 100,
+		min_range = 35,
+		id = 64371,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19319,
+			19320
+		},
+		barrage_ID = {
+			81136,
+			81137
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[64372] = {
+		id = 64372,
+		name = "白龙缠绕光弹+火焰式神技能LV2",
+		damage = 24,
+		base = 64371
+	}
+	uv0.weapon_property_114[64373] = {
+		id = 64373,
+		name = "白龙缠绕光弹+火焰式神技能LV3",
+		damage = 36,
+		base = 64371
+	}
+	uv0.weapon_property_114[64374] = {
+		id = 64374,
+		name = "白龙缠绕光弹+火焰式神技能LV4",
+		damage = 43,
+		base = 64371
+	}
 	uv0.weapon_property_114[64375] = {
 		id = 64375,
 		name = "白龙缠绕光弹+火焰式神技能LV5",
@@ -542,114 +651,5 @@ function ()
 		name = "马可波罗技能LV6-PVE",
 		damage = 118,
 		base = 64421
-	}
-	uv0.weapon_property_114[64427] = {
-		id = 64427,
-		name = "马可波罗技能LV7-PVE",
-		damage = 130,
-		base = 64421
-	}
-	uv0.weapon_property_114[64428] = {
-		id = 64428,
-		name = "马可波罗技能LV8-PVE",
-		damage = 142,
-		base = 64421
-	}
-	uv0.weapon_property_114[64429] = {
-		id = 64429,
-		name = "马可波罗技能LV9-PVE",
-		damage = 154,
-		base = 64421
-	}
-	uv0.weapon_property_114[64430] = {
-		id = 64430,
-		name = "马可波罗技能LV10-PVE",
-		damage = 170,
-		base = 64421
-	}
-	uv0.weapon_property_114[64431] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "马可波罗技能·瞄准跨射LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 25,
-		id = 64431,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19326
-		},
-		barrage_ID = {
-			81133
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_114[64432] = {
-		id = 64432,
-		name = "马可波罗技能·瞄准跨射LV2",
-		damage = 70,
-		base = 64431
-	}
-	uv0.weapon_property_114[64433] = {
-		id = 64433,
-		name = "马可波罗技能·瞄准跨射LV3",
-		damage = 82,
-		base = 64431
-	}
-	uv0.weapon_property_114[64434] = {
-		id = 64434,
-		name = "马可波罗技能·瞄准跨射LV4",
-		damage = 94,
-		base = 64431
-	}
-	uv0.weapon_property_114[64435] = {
-		id = 64435,
-		name = "马可波罗技能·瞄准跨射LV5",
-		damage = 106,
-		base = 64431
-	}
-	uv0.weapon_property_114[64436] = {
-		id = 64436,
-		name = "马可波罗技能·瞄准跨射LV6",
-		damage = 118,
-		base = 64431
-	}
-	uv0.weapon_property_114[64437] = {
-		id = 64437,
-		name = "马可波罗技能·瞄准跨射LV7",
-		damage = 130,
-		base = 64431
 	}
 end()

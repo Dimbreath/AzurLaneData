@@ -2,6 +2,75 @@ pg = pg or {}
 pg.weapon_property_103 = {}
 
 function ()
+	uv0.weapon_property_103[59650] = {
+		id = 59650,
+		damage = 337,
+		base = 59640
+	}
+	uv0.weapon_property_103[59651] = {
+		id = 59651,
+		damage = 350,
+		base = 59640
+	}
+	uv0.weapon_property_103[59652] = {
+		id = 59652,
+		damage = 371,
+		base = 59640
+	}
+	uv0.weapon_property_103[59653] = {
+		id = 59653,
+		damage = 398,
+		base = 59640
+	}
+	uv0.weapon_property_103[59660] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "2 x 航空魚雷-鉄血",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 39,
+		corrected = 100,
+		min_range = 0,
+		id = 59660,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2117
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_103[59661] = {
+		id = 59661,
+		damage = 57,
+		base = 59660
+	}
 	uv0.weapon_property_103[59662] = {
 		id = 59662,
 		damage = 74,
@@ -458,42 +527,6 @@ function ()
 		id = 59742,
 		reload_max = 148,
 		damage = 36,
-		base = 59740
-	}
-	uv0.weapon_property_103[59743] = {
-		id = 59743,
-		reload_max = 145,
-		damage = 39,
-		base = 59740
-	}
-	uv0.weapon_property_103[59744] = {
-		id = 59744,
-		reload_max = 141,
-		damage = 45,
-		base = 59740
-	}
-	uv0.weapon_property_103[59745] = {
-		id = 59745,
-		reload_max = 138,
-		damage = 48,
-		base = 59740
-	}
-	uv0.weapon_property_103[59746] = {
-		id = 59746,
-		reload_max = 135,
-		damage = 51,
-		base = 59740
-	}
-	uv0.weapon_property_103[59747] = {
-		id = 59747,
-		reload_max = 132,
-		damage = 57,
-		base = 59740
-	}
-	uv0.weapon_property_103[59748] = {
-		id = 59748,
-		reload_max = 129,
-		damage = 60,
 		base = 59740
 	}
 end()

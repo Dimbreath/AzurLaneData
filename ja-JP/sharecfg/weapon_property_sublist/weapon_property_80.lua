@@ -2,6 +2,80 @@ pg = pg or {}
 pg.weapon_property_80 = {}
 
 function ()
+	uv0.weapon_property_80[50740] = {
+		action_index = "",
+		range = 30,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 12.7mm機銃",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 50740,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 83,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_80[50741] = {
+		id = 50741,
+		reload_max = 82,
+		damage = 15,
+		base = 50740
+	}
+	uv0.weapon_property_80[50742] = {
+		id = 50742,
+		reload_max = 80,
+		damage = 17,
+		base = 50740
+	}
+	uv0.weapon_property_80[50743] = {
+		id = 50743,
+		reload_max = 78,
+		damage = 19,
+		base = 50740
+	}
+	uv0.weapon_property_80[50744] = {
+		id = 50744,
+		reload_max = 77,
+		damage = 20,
+		base = 50740
+	}
+	uv0.weapon_property_80[50745] = {
+		id = 50745,
+		reload_max = 76,
+		damage = 22,
+		base = 50740
+	}
 	uv0.weapon_property_80[50746] = {
 		id = 50746,
 		reload_max = 74,
@@ -493,42 +567,6 @@ function ()
 		id = 50866,
 		reload_max = 77,
 		damage = 22,
-		base = 50860
-	}
-	uv0.weapon_property_80[50867] = {
-		id = 50867,
-		reload_max = 76,
-		damage = 23,
-		base = 50860
-	}
-	uv0.weapon_property_80[50868] = {
-		id = 50868,
-		reload_max = 74,
-		damage = 25,
-		base = 50860
-	}
-	uv0.weapon_property_80[50869] = {
-		id = 50869,
-		reload_max = 72,
-		damage = 26,
-		base = 50860
-	}
-	uv0.weapon_property_80[50870] = {
-		id = 50870,
-		reload_max = 70,
-		damage = 27,
-		base = 50860
-	}
-	uv0.weapon_property_80[50871] = {
-		id = 50871,
-		reload_max = 70,
-		damage = 28,
-		base = 50860
-	}
-	uv0.weapon_property_80[50872] = {
-		id = 50872,
-		reload_max = 70,
-		damage = 30,
 		base = 50860
 	}
 end()

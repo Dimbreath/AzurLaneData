@@ -1,100 +1,111 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
-	[95121] = {
-		id = 95121,
-		damage = "39/回",
-		base = 95120,
+	[95043] = {
+		id = 95043,
+		damage = "80 x 3",
+		base = 95040,
 		weapon_id = {
-			95121
+			95043
 		}
 	},
-	[95122] = {
-		id = 95122,
-		damage = "44/回",
-		base = 95120,
+	[95044] = {
+		id = 95044,
+		damage = "90 x 3",
+		base = 95040,
 		weapon_id = {
-			95122
+			95044
 		}
 	},
-	[95123] = {
-		id = 95123,
-		damage = "49/回",
-		base = 95120,
+	[95045] = {
+		id = 95045,
+		damage = "100 x 3",
+		base = 95040,
 		weapon_id = {
-			95123
+			95045
 		}
 	},
-	[95124] = {
-		id = 95124,
-		damage = "54/回",
-		base = 95120,
+	[95046] = {
+		id = 95046,
+		damage = "110 x 3",
+		base = 95040,
 		weapon_id = {
-			95124
+			95046
 		}
 	},
-	[95125] = {
-		id = 95125,
-		damage = "59/回",
-		base = 95120,
+	[95047] = {
+		id = 95047,
+		damage = "118 x 3",
+		base = 95040,
 		weapon_id = {
-			95125
+			95047
 		}
 	},
-	[95126] = {
-		id = 95126,
-		damage = "65/回",
-		base = 95120,
+	[95048] = {
+		id = 95048,
+		damage = "128 x 3",
+		base = 95040,
 		weapon_id = {
-			95126
+			95048
 		}
 	},
-	[95127] = {
-		id = 95127,
-		damage = "71/回",
-		base = 95120,
+	[95049] = {
+		id = 95049,
+		damage = "138 x 3",
+		base = 95040,
 		weapon_id = {
-			95127
+			95049
 		}
 	},
-	[95128] = {
-		id = 95128,
-		damage = "77/回",
-		base = 95120,
+	[95050] = {
+		id = 95050,
+		damage = "148 x 3",
+		base = 95040,
 		weapon_id = {
-			95128
+			95050
 		}
 	},
-	[95129] = {
-		id = 95129,
-		damage = "83/回",
-		base = 95120,
+	[95051] = {
+		anti_siren = 100,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95051,
 		weapon_id = {
-			95129
+			95051
 		}
 	},
-	[95130] = {
-		id = 95130,
-		damage = "90/回",
-		base = 95120,
+	[95052] = {
+		anti_siren = 200,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95052,
 		weapon_id = {
-			95130
+			95052
 		}
 	},
-	[95140] = {
+	[95053] = {
+		anti_siren = 300,
+		damage = "148 x 3",
+		base = 95040,
+		id = 95053,
+		weapon_id = {
+			95053
+		}
+	},
+	[95100] = {
 		name = "90mm単装高角砲Model1939",
 		speciality = "対空",
 		type = 6,
-		tech = 3,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
+		value_2 = 12,
 		icon = "55100",
 		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "40/回",
+		rarity = 3,
+		damage = "34/回",
 		nationality = 6,
 		ammo = 5,
 		value_3 = 0,
-		id = 95140,
+		id = 95100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -106,7 +117,7 @@ pg.equip_data_statistics_389 = {
 			10
 		},
 		weapon_id = {
-			95140
+			95100
 		},
 		skill_id = {},
 		part_main = {
@@ -142,52 +153,44 @@ pg.equip_data_statistics_389 = {
 			"AA"
 		}
 	},
-	[95141] = {
-		id = 95141,
-		damage = "45/回",
-		base = 95140,
+	[95101] = {
+		id = 95101,
+		damage = "38/回",
+		base = 95100,
 		weapon_id = {
-			95141
+			95101
 		}
 	},
-	[95142] = {
-		id = 95142,
-		damage = "50/回",
-		base = 95140,
+	[95102] = {
+		id = 95102,
+		damage = "42/回",
+		base = 95100,
 		weapon_id = {
-			95142
+			95102
 		}
 	},
-	[95143] = {
-		id = 95143,
+	[95103] = {
+		id = 95103,
+		damage = "46/回",
+		base = 95100,
+		weapon_id = {
+			95103
+		}
+	},
+	[95104] = {
+		id = 95104,
+		damage = "51/回",
+		base = 95100,
+		weapon_id = {
+			95104
+		}
+	},
+	[95105] = {
+		id = 95105,
 		damage = "56/回",
-		base = 95140,
+		base = 95100,
 		weapon_id = {
-			95143
-		}
-	},
-	[95144] = {
-		id = 95144,
-		damage = "62/回",
-		base = 95140,
-		weapon_id = {
-			95144
-		}
-	},
-	[95145] = {
-		id = 95145,
-		damage = "68/回",
-		base = 95140,
-		weapon_id = {
-			95145
-		}
-	},
-	[95146] = {
-		id = 95146,
-		damage = "74/回",
-		base = 95140,
-		weapon_id = {
-			95146
+			95105
 		}
 	}
 }

@@ -2,6 +2,73 @@ pg = pg or {}
 pg.weapon_property_73 = {}
 
 function ()
+	uv0.weapon_property_73[48028] = {
+		id = 48028,
+		reload_max = 1780,
+		base = 48020
+	}
+	uv0.weapon_property_73[48029] = {
+		id = 48029,
+		reload_max = 1750,
+		base = 48020
+	}
+	uv0.weapon_property_73[48030] = {
+		id = 48030,
+		reload_max = 1720,
+		base = 48020
+	}
+	uv0.weapon_property_73[48031] = {
+		id = 48031,
+		reload_max = 1720,
+		base = 48020
+	}
+	uv0.weapon_property_73[48040] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "Ju-87 D-4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 48040,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2040,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_73[48041] = {
+		id = 48041,
+		reload_max = 2005,
+		base = 48040
+	}
 	uv0.weapon_property_73[48042] = {
 		id = 48042,
 		reload_max = 1970,
@@ -572,79 +639,5 @@ function ()
 		reload_max = 63,
 		damage = 24,
 		base = 50000
-	}
-	uv0.weapon_property_73[50020] = {
-		action_index = "",
-		range = 24,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 7.7mm機銃",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 50020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 75,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_73[50021] = {
-		id = 50021,
-		reload_max = 73,
-		damage = 10,
-		base = 50020
-	}
-	uv0.weapon_property_73[50022] = {
-		id = 50022,
-		reload_max = 72,
-		damage = 11,
-		base = 50020
-	}
-	uv0.weapon_property_73[50023] = {
-		id = 50023,
-		reload_max = 70,
-		damage = 12,
-		base = 50020
-	}
-	uv0.weapon_property_73[50024] = {
-		id = 50024,
-		reload_max = 69,
-		damage = 13,
-		base = 50020
-	}
-	uv0.weapon_property_73[50025] = {
-		id = 50025,
-		reload_max = 67,
-		damage = 15,
-		base = 50020
 	}
 end()

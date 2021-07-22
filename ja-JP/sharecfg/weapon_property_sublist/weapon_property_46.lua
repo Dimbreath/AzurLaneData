@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_46 = {}
 
 function ()
+	uv0.weapon_property_46[32201] = {
+		id = 32201,
+		reload_max = 816,
+		damage = 7,
+		base = 32200
+	}
+	uv0.weapon_property_46[32202] = {
+		id = 32202,
+		reload_max = 800,
+		damage = 8,
+		base = 32200
+	}
+	uv0.weapon_property_46[32203] = {
+		id = 32203,
+		reload_max = 784,
+		damage = 9,
+		base = 32200
+	}
+	uv0.weapon_property_46[32204] = {
+		id = 32204,
+		reload_max = 768,
+		damage = 10,
+		base = 32200
+	}
+	uv0.weapon_property_46[32205] = {
+		id = 32205,
+		reload_max = 752,
+		damage = 11,
+		base = 32200
+	}
+	uv0.weapon_property_46[32206] = {
+		id = 32206,
+		reload_max = 736,
+		damage = 12,
+		base = 32200
+	}
 	uv0.weapon_property_46[32220] = {
 		action_index = "attack",
 		range = 65,
@@ -613,79 +649,5 @@ function ()
 		reload_max = 1230,
 		damage = 32,
 		base = 33020
-	}
-	uv0.weapon_property_46[33025] = {
-		id = 33025,
-		reload_max = 1200,
-		damage = 34,
-		base = 33020
-	}
-	uv0.weapon_property_46[33026] = {
-		id = 33026,
-		reload_max = 1169,
-		damage = 36,
-		base = 33020
-	}
-	uv0.weapon_property_46[33040] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "203mm连装炮T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 26,
-		corrected = 110,
-		min_range = 0,
-		id = 33040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1331,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1402
-		},
-		barrage_ID = {
-			1205
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_46[33041] = {
-		id = 33041,
-		reload_max = 1290,
-		damage = 28,
-		base = 33040
-	}
-	uv0.weapon_property_46[33042] = {
-		id = 33042,
-		reload_max = 1250,
-		damage = 30,
-		base = 33040
-	}
-	uv0.weapon_property_46[33043] = {
-		id = 33043,
-		reload_max = 1210,
-		damage = 32,
-		base = 33040
 	}
 end()

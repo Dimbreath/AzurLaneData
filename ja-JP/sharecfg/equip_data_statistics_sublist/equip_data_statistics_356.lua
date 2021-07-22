@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_356 = {
+	[85223] = {
+		id = 85223,
+		damage = "23/回",
+		base = 85220,
+		weapon_id = {
+			85223
+		}
+	},
+	[85224] = {
+		id = 85224,
+		damage = "26/回",
+		base = 85220,
+		weapon_id = {
+			85224
+		}
+	},
+	[85225] = {
+		id = 85225,
+		damage = "29/回",
+		base = 85220,
+		weapon_id = {
+			85225
+		}
+	},
+	[85226] = {
+		id = 85226,
+		damage = "32/回",
+		base = 85220,
+		weapon_id = {
+			85226
+		}
+	},
+	[85227] = {
+		id = 85227,
+		damage = "35/回",
+		base = 85220,
+		weapon_id = {
+			85227
+		}
+	},
 	[85228] = {
 		id = 85228,
 		damage = "38/回",
@@ -203,46 +243,6 @@ pg.equip_data_statistics_356 = {
 			"SN",
 			"ST",
 			"AA"
-		}
-	},
-	[85281] = {
-		id = 85281,
-		damage = "48/回",
-		base = 85280,
-		weapon_id = {
-			85281
-		}
-	},
-	[85282] = {
-		id = 85282,
-		damage = "54/回",
-		base = 85280,
-		weapon_id = {
-			85282
-		}
-	},
-	[85283] = {
-		id = 85283,
-		damage = "61/回",
-		base = 85280,
-		weapon_id = {
-			85283
-		}
-	},
-	[85284] = {
-		id = 85284,
-		damage = "68/回",
-		base = 85280,
-		weapon_id = {
-			85284
-		}
-	},
-	[85285] = {
-		id = 85285,
-		damage = "75/回",
-		base = 85280,
-		weapon_id = {
-			85285
 		}
 	}
 }

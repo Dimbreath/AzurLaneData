@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_353 = {
+	[85062] = {
+		id = 85062,
+		damage = "45/回",
+		base = 85060,
+		weapon_id = {
+			85062
+		}
+	},
+	[85063] = {
+		id = 85063,
+		damage = "51/回",
+		base = 85060,
+		weapon_id = {
+			85063
+		}
+	},
+	[85064] = {
+		id = 85064,
+		damage = "57/回",
+		base = 85060,
+		weapon_id = {
+			85064
+		}
+	},
+	[85065] = {
+		id = 85065,
+		damage = "63/回",
+		base = 85060,
+		weapon_id = {
+			85065
+		}
+	},
+	[85066] = {
+		id = 85066,
+		damage = "70/回",
+		base = 85060,
+		weapon_id = {
+			85066
+		}
+	},
 	[85120] = {
 		name = "152mm三連装砲B-38 MK5",
 		speciality = "追尾",
@@ -197,46 +237,6 @@ pg.equip_data_statistics_353 = {
 		base = 85140,
 		weapon_id = {
 			85144
-		}
-	},
-	[85145] = {
-		id = 85145,
-		damage = "10 x 6",
-		base = 85140,
-		weapon_id = {
-			85145
-		}
-	},
-	[85146] = {
-		id = 85146,
-		damage = "11 x 6",
-		base = 85140,
-		weapon_id = {
-			85146
-		}
-	},
-	[85147] = {
-		id = 85147,
-		damage = "12 x 6",
-		base = 85140,
-		weapon_id = {
-			85147
-		}
-	},
-	[85148] = {
-		id = 85148,
-		damage = "13 x 6",
-		base = 85140,
-		weapon_id = {
-			85148
-		}
-	},
-	[85149] = {
-		id = 85149,
-		damage = "14 x 6",
-		base = 85140,
-		weapon_id = {
-			85149
 		}
 	}
 }

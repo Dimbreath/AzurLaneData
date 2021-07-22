@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_43 = {}
 
 function ()
+	uv0.weapon_property_43[29324] = {
+		id = 29324,
+		reload_max = 1770,
+		damage = 257,
+		base = 29320
+	}
+	uv0.weapon_property_43[29325] = {
+		id = 29325,
+		reload_max = 1735,
+		damage = 281,
+		base = 29320
+	}
+	uv0.weapon_property_43[29326] = {
+		id = 29326,
+		reload_max = 1700,
+		damage = 305,
+		base = 29320
+	}
+	uv0.weapon_property_43[29327] = {
+		id = 29327,
+		reload_max = 1665,
+		damage = 329,
+		base = 29320
+	}
+	uv0.weapon_property_43[29328] = {
+		id = 29328,
+		reload_max = 1630,
+		damage = 353,
+		base = 29320
+	}
+	uv0.weapon_property_43[29329] = {
+		id = 29329,
+		reload_max = 1595,
+		damage = 377,
+		base = 29320
+	}
 	uv0.weapon_property_43[29330] = {
 		id = 29330,
 		reload_max = 1560,
@@ -575,77 +611,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_43[31101] = {
-		id = 31101,
-		reload_max = 191,
-		base = 31100
-	}
-	uv0.weapon_property_43[31102] = {
-		id = 31102,
-		reload_max = 188,
-		damage = 4,
-		base = 31100
-	}
-	uv0.weapon_property_43[31103] = {
-		id = 31103,
-		reload_max = 184,
-		damage = 4,
-		base = 31100
-	}
-	uv0.weapon_property_43[31120] = {
-		action_index = "attack",
-		range = 55,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "120mm单装炮T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 3,
-		corrected = 125,
-		min_range = 0,
-		id = 31120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 187,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_43[31121] = {
-		id = 31121,
-		reload_max = 183,
-		base = 31120
-	}
-	uv0.weapon_property_43[31122] = {
-		id = 31122,
-		reload_max = 179,
-		damage = 4,
-		base = 31120
 	}
 end()

@@ -2,71 +2,76 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
-	uv0.weapon_property_149[67975] = {
-		id = 67975,
-		damage = 143,
-		base = 67971
+	uv0.weapon_property_149[67804] = {
+		id = 67804,
+		damage = 57,
+		base = 67801
 	}
-	uv0.weapon_property_149[67976] = {
-		id = 67976,
-		damage = 158,
-		base = 67971
+	uv0.weapon_property_149[67805] = {
+		id = 67805,
+		damage = 61,
+		base = 67801
 	}
-	uv0.weapon_property_149[67977] = {
-		id = 67977,
-		damage = 174,
-		base = 67971
+	uv0.weapon_property_149[67806] = {
+		id = 67806,
+		damage = 66,
+		base = 67801
 	}
-	uv0.weapon_property_149[67978] = {
-		id = 67978,
-		damage = 190,
-		base = 67971
+	uv0.weapon_property_149[67807] = {
+		id = 67807,
+		damage = 72,
+		base = 67801
 	}
-	uv0.weapon_property_149[67979] = {
-		id = 67979,
-		damage = 206,
-		base = 67971
+	uv0.weapon_property_149[67808] = {
+		id = 67808,
+		damage = 79,
+		base = 67801
 	}
-	uv0.weapon_property_149[67980] = {
-		id = 67980,
-		damage = 222,
-		base = 67971
+	uv0.weapon_property_149[67809] = {
+		id = 67809,
+		damage = 87,
+		base = 67801
 	}
-	uv0.weapon_property_149[67981] = {
+	uv0.weapon_property_149[67810] = {
+		id = 67810,
+		damage = 96,
+		base = 67801
+	}
+	uv0.weapon_property_149[67811] = {
 		action_index = "",
-		range = 90,
-		type = 3,
+		range = 500,
+		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 0,
+		axis_angle = 22,
 		shakescreen = 0,
-		name = "勇敢技能首轮鱼雷-3至7枚",
-		aim_type = 0,
+		name = "1 x 500lb 炸弹",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 22,
 		charge_param = "",
-		damage = 30,
+		damage = 127,
 		corrected = 100,
 		min_range = 0,
-		id = 67981,
-		attack_attribute_ratio = 100,
+		id = 67811,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
+		attack_attribute = 4,
+		reload_max = 9500,
 		queue = 1,
-		search_type = 1,
+		search_type = 2,
 		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
+		suppress = 1,
+		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19990
+			19973
 		},
 		barrage_ID = {
-			80525
+			2120
 		},
 		oxy_type = {
 			1
@@ -76,292 +81,69 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_149[67982] = {
-		id = 67982,
-		damage = 38,
-		base = 67981
+	uv0.weapon_property_149[67812] = {
+		id = 67812,
+		damage = 134,
+		base = 67811
 	}
-	uv0.weapon_property_149[67983] = {
-		id = 67983,
-		damage = 46,
-		base = 67981
+	uv0.weapon_property_149[67813] = {
+		id = 67813,
+		damage = 142,
+		base = 67811
 	}
-	uv0.weapon_property_149[67984] = {
-		id = 67984,
-		damage = 54,
-		base = 67981,
-		barrage_ID = {
-			80526
-		}
+	uv0.weapon_property_149[67814] = {
+		id = 67814,
+		damage = 151,
+		base = 67811
 	}
-	uv0.weapon_property_149[67985] = {
-		id = 67985,
-		damage = 62,
-		base = 67981,
-		barrage_ID = {
-			80526
-		}
+	uv0.weapon_property_149[67815] = {
+		id = 67815,
+		damage = 161,
+		base = 67811
 	}
-	uv0.weapon_property_149[67986] = {
-		id = 67986,
-		damage = 70,
-		base = 67981,
-		barrage_ID = {
-			80526
-		}
+	uv0.weapon_property_149[67816] = {
+		id = 67816,
+		damage = 172,
+		base = 67811
 	}
-	uv0.weapon_property_149[67987] = {
-		damage = 78,
-		base = 67981,
-		id = 67987,
-		bullet_ID = {
-			19990,
-			19990
-		},
-		barrage_ID = {
-			80525,
-			80526
-		}
+	uv0.weapon_property_149[67817] = {
+		id = 67817,
+		damage = 184,
+		base = 67811
 	}
-	uv0.weapon_property_149[67988] = {
-		damage = 86,
-		base = 67981,
-		id = 67988,
-		bullet_ID = {
-			19990,
-			19990
-		},
-		barrage_ID = {
-			80525,
-			80526
-		}
+	uv0.weapon_property_149[67818] = {
+		id = 67818,
+		damage = 197,
+		base = 67811
 	}
-	uv0.weapon_property_149[67989] = {
-		damage = 95,
-		base = 67981,
-		id = 67989,
-		bullet_ID = {
-			19990,
-			19990
-		},
-		barrage_ID = {
-			80525,
-			80526
-		}
+	uv0.weapon_property_149[67819] = {
+		id = 67819,
+		damage = 211,
+		base = 67811
 	}
-	uv0.weapon_property_149[67990] = {
-		damage = 104,
-		base = 67981,
-		id = 67990,
-		bullet_ID = {
-			19990,
-			19990
-		},
-		barrage_ID = {
-			80525,
-			80526
-		}
+	uv0.weapon_property_149[67820] = {
+		id = 67820,
+		damage = 226,
+		base = 67811
 	}
-	uv0.weapon_property_149[67991] = {
-		action_index = "attack",
-		range = 90,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "勇敢技能首轮弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 5,
-		corrected = 125,
-		min_range = 0,
-		id = 67991,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1102
-		},
-		barrage_ID = {
-			80527
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[67992] = {
-		id = 67992,
-		damage = 7,
-		base = 67991
-	}
-	uv0.weapon_property_149[67993] = {
-		id = 67993,
-		damage = 10,
-		base = 67991,
-		barrage_ID = {
-			80528
-		}
-	}
-	uv0.weapon_property_149[68001] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "邦克山技能鱼雷机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 5,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68001,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2490,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68001
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68002] = {
-		name = "邦克山技能鱼雷机Lv2",
-		damage = 86,
-		base = 68001,
-		id = 68002,
-		bullet_ID = {
-			68002
-		}
-	}
-	uv0.weapon_property_149[68003] = {
-		name = "邦克山技能鱼雷机Lv3",
-		damage = 106,
-		base = 68001,
-		id = 68003,
-		bullet_ID = {
-			68003
-		}
-	}
-	uv0.weapon_property_149[68004] = {
-		name = "邦克山技能鱼雷机Lv4",
-		damage = 124,
-		base = 68001,
-		id = 68004,
-		bullet_ID = {
-			68004
-		}
-	}
-	uv0.weapon_property_149[68005] = {
-		name = "邦克山技能鱼雷机Lv5",
-		damage = 144,
-		base = 68001,
-		id = 68005,
-		bullet_ID = {
-			68005
-		}
-	}
-	uv0.weapon_property_149[68006] = {
-		name = "邦克山技能鱼雷机Lv6",
-		damage = 164,
-		base = 68001,
-		id = 68006,
-		bullet_ID = {
-			68006
-		}
-	}
-	uv0.weapon_property_149[68007] = {
-		name = "邦克山技能鱼雷机Lv7",
-		damage = 182,
-		base = 68001,
-		id = 68007,
-		bullet_ID = {
-			68007
-		}
-	}
-	uv0.weapon_property_149[68008] = {
-		name = "邦克山技能鱼雷机Lv8",
-		damage = 202,
-		base = 68001,
-		id = 68008,
-		bullet_ID = {
-			68008
-		}
-	}
-	uv0.weapon_property_149[68009] = {
-		name = "邦克山技能鱼雷机Lv9",
-		damage = 220,
-		base = 68001,
-		id = 68009,
-		bullet_ID = {
-			68009
-		}
-	}
-	uv0.weapon_property_149[68010] = {
-		name = "邦克山技能鱼雷机Lv10",
-		damage = 240,
-		base = 68001,
-		id = 68010,
-		bullet_ID = {
-			68010
-		}
-	}
-	uv0.weapon_property_149[68011] = {
+	uv0.weapon_property_149[67821] = {
 		action_index = "",
-		range = 75,
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "3 x 机载鱼雷-邦克山",
+		name = "2 x 机载鱼雷-重樱",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 24,
+		angle = 20,
 		charge_param = "",
-		damage = 68,
+		damage = 91,
 		corrected = 100,
 		min_range = 0,
-		id = 68011,
+		id = 67821,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -375,10 +157,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19991
+			2112
 		},
 		barrage_ID = {
-			2112
+			2111
 		},
 		oxy_type = {
 			1
@@ -388,198 +170,397 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_149[68012] = {
-		id = 68012,
-		damage = 86,
-		base = 68011
+	uv0.weapon_property_149[67822] = {
+		id = 67822,
+		damage = 96,
+		base = 67821
 	}
-	uv0.weapon_property_149[68013] = {
-		id = 68013,
-		damage = 106,
-		base = 68011
+	uv0.weapon_property_149[67823] = {
+		id = 67823,
+		damage = 102,
+		base = 67821
 	}
-	uv0.weapon_property_149[68014] = {
-		id = 68014,
-		damage = 124,
-		base = 68011
+	uv0.weapon_property_149[67824] = {
+		id = 67824,
+		damage = 109,
+		base = 67821
 	}
-	uv0.weapon_property_149[68015] = {
-		id = 68015,
-		damage = 144,
-		base = 68011
+	uv0.weapon_property_149[67825] = {
+		id = 67825,
+		damage = 117,
+		base = 67821
 	}
-	uv0.weapon_property_149[68016] = {
-		id = 68016,
-		damage = 164,
-		base = 68011
+	uv0.weapon_property_149[67826] = {
+		id = 67826,
+		damage = 126,
+		base = 67821
 	}
-	uv0.weapon_property_149[68017] = {
-		id = 68017,
-		damage = 182,
-		base = 68011
+	uv0.weapon_property_149[67827] = {
+		id = 67827,
+		damage = 136,
+		base = 67821
 	}
-	uv0.weapon_property_149[68018] = {
-		id = 68018,
-		damage = 202,
-		base = 68011
+	uv0.weapon_property_149[67828] = {
+		id = 67828,
+		damage = 147,
+		base = 67821
 	}
-	uv0.weapon_property_149[68019] = {
-		id = 68019,
-		damage = 220,
-		base = 68011
+	uv0.weapon_property_149[67829] = {
+		id = 67829,
+		damage = 159,
+		base = 67821
 	}
-	uv0.weapon_property_149[68020] = {
-		id = 68020,
-		damage = 240,
-		base = 68011
+	uv0.weapon_property_149[67830] = {
+		id = 67830,
+		damage = 172,
+		base = 67821
 	}
-	uv0.weapon_property_149[68021] = {
+	uv0.weapon_property_149[67861] = {
+		action_index = "",
+		range = 60,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "足柄饿狼技能弹幕弹幕Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 67861,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19980
+		},
+		barrage_ID = {
+			80524
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[67862] = {
+		id = 67862,
+		name = "足柄饿狼技能弹幕弹幕Lv2",
+		damage = 6,
+		base = 67861
+	}
+	uv0.weapon_property_149[67863] = {
+		id = 67863,
+		name = "足柄饿狼技能弹幕弹幕Lv3",
+		damage = 7,
+		base = 67861
+	}
+	uv0.weapon_property_149[67864] = {
+		id = 67864,
+		name = "足柄饿狼技能弹幕弹幕Lv4",
+		damage = 8,
+		base = 67861
+	}
+	uv0.weapon_property_149[67865] = {
+		id = 67865,
+		name = "足柄饿狼技能弹幕弹幕Lv5",
+		damage = 9,
+		base = 67861
+	}
+	uv0.weapon_property_149[67866] = {
+		id = 67866,
+		name = "足柄饿狼技能弹幕弹幕Lv6",
+		damage = 10,
+		base = 67861
+	}
+	uv0.weapon_property_149[67867] = {
+		id = 67867,
+		name = "足柄饿狼技能弹幕弹幕Lv7",
+		damage = 12,
+		base = 67861
+	}
+	uv0.weapon_property_149[67868] = {
+		id = 67868,
+		name = "足柄饿狼技能弹幕弹幕Lv8",
+		damage = 14,
+		base = 67861
+	}
+	uv0.weapon_property_149[67869] = {
+		id = 67869,
+		name = "足柄饿狼技能弹幕弹幕Lv9",
+		damage = 17,
+		base = 67861
+	}
+	uv0.weapon_property_149[67870] = {
+		id = 67870,
+		name = "足柄饿狼技能弹幕弹幕Lv10",
+		damage = 20,
+		base = 67861
+	}
+	uv0.weapon_property_149[67871] = {
 		action_index = "attack",
-		range = 90,
-		type = 10,
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "天城跨射弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 127,
+		corrected = 100,
+		min_range = 35,
+		id = 67871,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19977
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[67872] = {
+		id = 67872,
+		name = "天城跨射弹幕LV2",
+		damage = 134,
+		base = 67871
+	}
+	uv0.weapon_property_149[67873] = {
+		id = 67873,
+		name = "天城跨射弹幕LV3",
+		damage = 142,
+		base = 67871
+	}
+	uv0.weapon_property_149[67874] = {
+		id = 67874,
+		name = "天城跨射弹幕LV4",
+		damage = 151,
+		base = 67871
+	}
+	uv0.weapon_property_149[67875] = {
+		id = 67875,
+		name = "天城跨射弹幕LV5",
+		damage = 161,
+		base = 67871
+	}
+	uv0.weapon_property_149[67876] = {
+		id = 67876,
+		name = "天城跨射弹幕LV6",
+		damage = 172,
+		base = 67871
+	}
+	uv0.weapon_property_149[67877] = {
+		id = 67877,
+		name = "天城跨射弹幕LV7",
+		damage = 184,
+		base = 67871
+	}
+	uv0.weapon_property_149[67878] = {
+		id = 67878,
+		name = "天城跨射弹幕LV8",
+		damage = 197,
+		base = 67871
+	}
+	uv0.weapon_property_149[67879] = {
+		id = 67879,
+		name = "天城跨射弹幕LV9",
+		damage = 211,
+		base = 67871
+	}
+	uv0.weapon_property_149[67880] = {
+		id = 67880,
+		name = "天城跨射弹幕LV10",
+		damage = 226,
+		base = 67871
+	}
+	uv0.weapon_property_149[67881] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "厌战改技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 84,
+		corrected = 110,
+		min_range = 35,
+		id = 67881,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3366,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19981
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[67882] = {
+		reload_max = 3231,
+		name = "厌战改技能LV2",
+		damage = 93,
+		base = 67881,
+		id = 67882
+	}
+	uv0.weapon_property_149[67883] = {
+		reload_max = 3164,
+		name = "厌战改技能LV3",
+		damage = 101,
+		base = 67881,
+		id = 67883
+	}
+	uv0.weapon_property_149[67884] = {
+		reload_max = 3096,
+		name = "厌战改技能LV4",
+		damage = 110,
+		base = 67881,
+		id = 67884
+	}
+	uv0.weapon_property_149[67885] = {
+		reload_max = 3029,
+		name = "厌战改技能LV5",
+		damage = 118,
+		base = 67881,
+		id = 67885
+	}
+	uv0.weapon_property_149[67886] = {
+		reload_max = 2962,
+		damage = 127,
+		base = 67881,
+		id = 67886,
+		name = "厌战改技能LV6",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_149[67887] = {
+		reload_max = 2894,
+		damage = 139,
+		base = 67881,
+		id = 67887,
+		name = "厌战改技能LV7",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_149[67888] = {
+		reload_max = 2827,
+		damage = 152,
+		base = 67881,
+		id = 67888,
+		name = "厌战改技能LV8",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_149[67889] = {
+		reload_max = 2760,
+		damage = 166,
+		base = 67881,
+		id = 67889,
+		name = "厌战改技能LV9",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_149[67890] = {
+		reload_max = 2692,
+		damage = 184,
+		base = 67881,
+		id = 67890,
+		name = "厌战改技能LV10",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_149[67891] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "邦克山技能战斗机Lv1",
+		name = "剑鱼816",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 5,
-		angle = 90,
+		expose = 10,
+		angle = 120,
 		charge_param = "",
-		damage = 39,
+		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 68021,
+		id = 67891,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 0,
-		reload_max = 2490,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68021
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68022] = {
-		name = "邦克山技能战斗机Lv2",
-		damage = 45,
-		base = 68021,
-		id = 68022,
-		bullet_ID = {
-			68022
-		}
-	}
-	uv0.weapon_property_149[68023] = {
-		name = "邦克山技能战斗机Lv3",
-		damage = 49,
-		base = 68021,
-		id = 68023,
-		bullet_ID = {
-			68023
-		}
-	}
-	uv0.weapon_property_149[68024] = {
-		name = "邦克山技能战斗机Lv4",
-		damage = 56,
-		base = 68021,
-		id = 68024,
-		bullet_ID = {
-			68024
-		}
-	}
-	uv0.weapon_property_149[68025] = {
-		name = "邦克山技能战斗机Lv5",
-		damage = 60,
-		base = 68021,
-		id = 68025,
-		bullet_ID = {
-			68025
-		}
-	}
-	uv0.weapon_property_149[68026] = {
-		name = "邦克山技能战斗机Lv6",
-		damage = 64,
-		base = 68021,
-		id = 68026,
-		bullet_ID = {
-			68026
-		}
-	}
-	uv0.weapon_property_149[68027] = {
-		name = "邦克山技能战斗机Lv7",
-		damage = 71,
-		base = 68021,
-		id = 68027,
-		bullet_ID = {
-			68027
-		}
-	}
-	uv0.weapon_property_149[68028] = {
-		name = "邦克山技能战斗机Lv8",
-		damage = 75,
-		base = 68021,
-		id = 68028,
-		bullet_ID = {
-			68028
-		}
-	}
-	uv0.weapon_property_149[68029] = {
-		name = "邦克山技能战斗机Lv9",
-		damage = 81,
-		base = 68021,
-		id = 68029,
-		bullet_ID = {
-			68029
-		}
-	}
-	uv0.weapon_property_149[68030] = {
-		name = "邦克山技能战斗机Lv10",
-		damage = 86,
-		base = 68021,
-		id = 68030,
-		bullet_ID = {
-			68030
-		}
-	}
-	uv0.weapon_property_149[68031] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "邦克山技能轰炸机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 5,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 68031,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
+		reload_max = 604,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
@@ -589,157 +570,62 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			68031
+			67891
 		},
 		barrage_ID = {
-			12009
+			12010
 		},
 		oxy_type = {
 			1
 		},
 		search_condition = {
-			1
+			2
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_149[68032] = {
-		name = "邦克山技能轰炸机Lv2",
-		damage = 78,
-		base = 68031,
-		id = 68032,
+	uv0.weapon_property_149[67892] = {
+		reload_max = 588,
+		damage = 50,
+		base = 67891,
+		id = 67892,
 		bullet_ID = {
-			68032
+			67892
 		}
 	}
-	uv0.weapon_property_149[68033] = {
-		name = "邦克山技能轰炸机Lv3",
-		damage = 91,
-		base = 68031,
-		id = 68033,
+	uv0.weapon_property_149[67893] = {
+		reload_max = 572,
+		damage = 54,
+		base = 67891,
+		id = 67893,
 		bullet_ID = {
-			68033
+			67893
 		}
 	}
-	uv0.weapon_property_149[68034] = {
-		name = "邦克山技能轰炸机Lv4",
-		damage = 103,
-		base = 68031,
-		id = 68034,
+	uv0.weapon_property_149[67894] = {
+		reload_max = 556,
+		damage = 58,
+		base = 67891,
+		id = 67894,
 		bullet_ID = {
-			68034
+			67894
 		}
 	}
-	uv0.weapon_property_149[68035] = {
-		name = "邦克山技能轰炸机Lv5",
-		damage = 116,
-		base = 68031,
-		id = 68035,
+	uv0.weapon_property_149[67895] = {
+		reload_max = 540,
+		damage = 62,
+		base = 67891,
+		id = 67895,
 		bullet_ID = {
-			68035
+			67895
 		}
 	}
-	uv0.weapon_property_149[68036] = {
-		name = "邦克山技能轰炸机Lv6",
-		damage = 129,
-		base = 68031,
-		id = 68036,
+	uv0.weapon_property_149[67896] = {
+		reload_max = 524,
+		damage = 66,
+		base = 67891,
+		id = 67896,
 		bullet_ID = {
-			68036
+			67896
 		}
-	}
-	uv0.weapon_property_149[68037] = {
-		name = "邦克山技能轰炸机Lv7",
-		damage = 141,
-		base = 68031,
-		id = 68037,
-		bullet_ID = {
-			68037
-		}
-	}
-	uv0.weapon_property_149[68038] = {
-		name = "邦克山技能轰炸机Lv8",
-		damage = 154,
-		base = 68031,
-		id = 68038,
-		bullet_ID = {
-			68038
-		}
-	}
-	uv0.weapon_property_149[68039] = {
-		name = "邦克山技能轰炸机Lv9",
-		damage = 167,
-		base = 68031,
-		id = 68039,
-		bullet_ID = {
-			68039
-		}
-	}
-	uv0.weapon_property_149[68040] = {
-		name = "邦克山技能轰炸机Lv10",
-		damage = 179,
-		base = 68031,
-		id = 68040,
-		bullet_ID = {
-			68040
-		}
-	}
-	uv0.weapon_property_149[68041] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 2000lb高爆航弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 209,
-		corrected = 100,
-		min_range = 0,
-		id = 68041,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19992
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68042] = {
-		id = 68042,
-		damage = 236,
-		base = 68041
-	}
-	uv0.weapon_property_149[68043] = {
-		id = 68043,
-		damage = 263,
-		base = 68041
-	}
-	uv0.weapon_property_149[68044] = {
-		id = 68044,
-		damage = 290,
-		base = 68041
 	}
 end()

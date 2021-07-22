@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_102 = {}
 
 function ()
+	uv0.weapon_property_102[59563] = {
+		id = 59563,
+		reload_max = 67,
+		damage = 18,
+		base = 59560
+	}
+	uv0.weapon_property_102[59564] = {
+		id = 59564,
+		reload_max = 65,
+		damage = 20,
+		base = 59560
+	}
+	uv0.weapon_property_102[59565] = {
+		id = 59565,
+		reload_max = 63,
+		damage = 22,
+		base = 59560
+	}
+	uv0.weapon_property_102[59566] = {
+		id = 59566,
+		reload_max = 62,
+		damage = 24,
+		base = 59560
+	}
+	uv0.weapon_property_102[59567] = {
+		id = 59567,
+		reload_max = 61,
+		damage = 26,
+		base = 59560
+	}
+	uv0.weapon_property_102[59568] = {
+		id = 59568,
+		reload_max = 60,
+		damage = 28,
+		base = 59560
+	}
 	uv0.weapon_property_102[59569] = {
 		id = 59569,
 		reload_max = 58,
@@ -447,74 +483,5 @@ function ()
 		id = 59649,
 		damage = 316,
 		base = 59640
-	}
-	uv0.weapon_property_102[59650] = {
-		id = 59650,
-		damage = 337,
-		base = 59640
-	}
-	uv0.weapon_property_102[59651] = {
-		id = 59651,
-		damage = 350,
-		base = 59640
-	}
-	uv0.weapon_property_102[59652] = {
-		id = 59652,
-		damage = 371,
-		base = 59640
-	}
-	uv0.weapon_property_102[59653] = {
-		id = 59653,
-		damage = 398,
-		base = 59640
-	}
-	uv0.weapon_property_102[59660] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x 航空魚雷-鉄血",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 39,
-		corrected = 100,
-		min_range = 0,
-		id = 59660,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2117
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_102[59661] = {
-		id = 59661,
-		damage = 57,
-		base = 59660
 	}
 end()

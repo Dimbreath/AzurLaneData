@@ -1,78 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_154 = {
-	[65846] = {
-		max_hp = 66,
-		name = "黑方舟技能-特殊鱼雷机Lv6",
-		base = 65841,
-		id = 65846,
-		hp_growth = 2554,
+	[65566] = {
+		max_hp = 84,
+		name = "威悉技能轰炸机Lv6",
+		base = 65561,
+		id = 65566,
+		hp_growth = 2710,
 		weapon_ID = {
-			65856
+			65586
 		}
 	},
-	[65847] = {
-		max_hp = 72,
-		name = "黑方舟技能-特殊鱼雷机Lv7",
-		base = 65841,
-		id = 65847,
-		hp_growth = 2772,
+	[65567] = {
+		max_hp = 90,
+		name = "威悉技能轰炸机Lv7",
+		base = 65561,
+		id = 65567,
+		hp_growth = 2943,
 		weapon_ID = {
-			65857
+			65587
 		}
 	},
-	[65848] = {
-		max_hp = 78,
-		name = "黑方舟技能-特殊鱼雷机Lv8",
-		base = 65841,
-		id = 65848,
-		hp_growth = 2991,
+	[65568] = {
+		max_hp = 97,
+		name = "威悉技能轰炸机Lv8",
+		base = 65561,
+		id = 65568,
+		hp_growth = 3175,
 		weapon_ID = {
-			65858
+			65588
 		}
 	},
-	[65849] = {
-		max_hp = 83,
-		name = "黑方舟技能-特殊鱼雷机Lv9",
-		base = 65841,
-		id = 65849,
-		hp_growth = 3210,
+	[65569] = {
+		max_hp = 103,
+		name = "威悉技能轰炸机Lv9",
+		base = 65561,
+		id = 65569,
+		hp_growth = 3407,
 		weapon_ID = {
-			65859
+			65589
 		}
 	},
-	[65850] = {
-		max_hp = 89,
-		name = "黑方舟技能-特殊鱼雷机Lv10",
-		base = 65841,
-		id = 65850,
-		hp_growth = 3429,
+	[65570] = {
+		max_hp = 110,
+		name = "威悉技能轰炸机Lv10",
+		base = 65561,
+		id = 65570,
+		hp_growth = 3640,
 		weapon_ID = {
-			65860
+			65590
 		}
 	},
-	[65911] = {
-		name = "天鹰技能G.50Lv1",
-		max_hp = 46,
+	[65571] = {
+		name = "威悉技能轰炸机PlusLv1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "g50",
+		model_ID = "JU87C",
 		ACC_growth = 0,
-		crash_DMG = 160,
-		dodge = 0.333,
+		crash_DMG = 156,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 9,
-		type = 1,
+		dodge_limit = 11,
+		type = 3,
 		AP_growth = 2000,
-		icon = "g50",
+		icon = "JU87C",
 		funnel_behavior = "",
-		nationality = 6,
-		hp_growth = 1785,
+		nationality = 4,
+		hp_growth = 1549,
 		speed = 50,
-		id = 65911,
+		id = 65571,
 		scale = 1,
 		weapon_ID = {
-			50041,
-			50541,
-			65921
+			65581
 		},
 		position_offset = {
 			0,
@@ -92,13 +90,13 @@ pg.aircraft_template_154 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -115,7 +113,7 @@ pg.aircraft_template_154 = {
 				0
 			},
 			{
-				0.27,
+				0,
 				0,
 				0
 			},
@@ -126,52 +124,44 @@ pg.aircraft_template_154 = {
 			}
 		}
 	},
-	[65912] = {
-		max_hp = 52,
-		name = "天鹰技能G.50Lv2",
-		base = 65911,
-		id = 65912,
-		hp_growth = 2018,
+	[65572] = {
+		max_hp = 57,
+		name = "威悉技能轰炸机PlusLv2",
+		base = 65561,
+		id = 65572,
+		hp_growth = 1781,
 		weapon_ID = {
-			50042,
-			50542,
-			65922
+			65582
 		}
 	},
-	[65913] = {
-		max_hp = 59,
-		name = "天鹰技能G.50Lv3",
-		base = 65911,
-		id = 65913,
-		hp_growth = 2251,
+	[65573] = {
+		max_hp = 64,
+		name = "威悉技能轰炸机PlusLv3",
+		base = 65561,
+		id = 65573,
+		hp_growth = 2013,
 		weapon_ID = {
-			50043,
-			50543,
-			65923
+			65583
 		}
 	},
-	[65914] = {
-		max_hp = 65,
-		name = "天鹰技能G.50Lv4",
-		base = 65911,
-		id = 65914,
-		hp_growth = 2484,
+	[65574] = {
+		max_hp = 70,
+		name = "威悉技能轰炸机PlusLv4",
+		base = 65561,
+		id = 65574,
+		hp_growth = 2246,
 		weapon_ID = {
-			50044,
-			50544,
-			65924
+			65584
 		}
 	},
-	[65915] = {
-		max_hp = 71,
-		name = "天鹰技能G.50Lv5",
-		base = 65911,
-		id = 65915,
-		hp_growth = 2717,
+	[65575] = {
+		max_hp = 77,
+		name = "威悉技能轰炸机PlusLv5",
+		base = 65561,
+		id = 65575,
+		hp_growth = 2478,
 		weapon_ID = {
-			50045,
-			50545,
-			65925
+			65585
 		}
 	}
 }

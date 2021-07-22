@@ -1,5 +1,102 @@
 pg = pg or {}
 pg.equip_data_statistics_355 = {
+	[85171] = {
+		anti_siren = 100,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85171,
+		weapon_id = {
+			85171
+		}
+	},
+	[85172] = {
+		anti_siren = 200,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85172,
+		weapon_id = {
+			85172
+		}
+	},
+	[85173] = {
+		anti_siren = 300,
+		damage = "16 x 6",
+		base = 85160,
+		id = 85173,
+		weapon_id = {
+			85173
+		}
+	},
+	[85180] = {
+		name = "37mm対空機関砲70-K",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "85180",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "9/回",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85180,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85180
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85181] = {
+		id = 85181,
+		damage = "11/回",
+		base = 85180,
+		weapon_id = {
+			85181
+		}
+	},
 	[85182] = {
 		id = 85182,
 		damage = "13/回",
@@ -202,46 +299,6 @@ pg.equip_data_statistics_355 = {
 		base = 85220,
 		weapon_id = {
 			85222
-		}
-	},
-	[85223] = {
-		id = 85223,
-		damage = "23/回",
-		base = 85220,
-		weapon_id = {
-			85223
-		}
-	},
-	[85224] = {
-		id = 85224,
-		damage = "26/回",
-		base = 85220,
-		weapon_id = {
-			85224
-		}
-	},
-	[85225] = {
-		id = 85225,
-		damage = "29/回",
-		base = 85220,
-		weapon_id = {
-			85225
-		}
-	},
-	[85226] = {
-		id = 85226,
-		damage = "32/回",
-		base = 85220,
-		weapon_id = {
-			85226
-		}
-	},
-	[85227] = {
-		id = 85227,
-		damage = "35/回",
-		base = 85220,
-		weapon_id = {
-			85227
 		}
 	}
 }

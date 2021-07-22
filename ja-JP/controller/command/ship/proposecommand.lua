@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if getProxy(BagProxy):getItemById(ITEM_ID_FOR_PROPOSE).count < 1 then
+	if getProxy(BagProxy):getItemCountById(slot5:getProposeType() == "imas" and ITEM_ID_FOR_PROPOSE_IMAS or ITEM_ID_FOR_PROPOSE) < 1 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
@@ -18,14 +18,14 @@ function slot0.execute(slot0, slot1)
 	}, 12033, function (slot0)
 		if slot0.result == 0 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_PROPOSE_SHIP, uv0.groupId)
-			uv1:removeItemById(ITEM_ID_FOR_PROPOSE, 1)
+			uv1:removeItemById(uv2, 1)
 
 			uv0.propose = true
 			uv0.proposeTime = pg.TimeMgr.GetInstance():GetServerTime()
 
-			uv2:updateShip(uv0)
+			uv3:updateShip(uv0)
 			getProxy(CollectionProxy).shipGroups[uv0.groupId]:updateMarriedFlag()
-			uv3:sendNotification(GAME.PROPOSE_SHIP_DONE, {
+			uv4:sendNotification(GAME.PROPOSE_SHIP_DONE, {
 				ship = uv0
 			})
 		else

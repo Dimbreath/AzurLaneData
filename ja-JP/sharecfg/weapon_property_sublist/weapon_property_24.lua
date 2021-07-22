@@ -2,6 +2,95 @@ pg = pg or {}
 pg.weapon_property_24 = {}
 
 function ()
+	uv0.weapon_property_24[19103] = {
+		reload_max = 2062,
+		damage = 174,
+		base = 19100,
+		id = 19103,
+		bullet_ID = {
+			19103
+		}
+	}
+	uv0.weapon_property_24[19120] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "SB2C地狱俯冲者T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 132,
+		corrected = 100,
+		min_range = 0,
+		id = 19120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2109,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19100
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_24[19121] = {
+		reload_max = 2081,
+		damage = 152,
+		base = 19120,
+		id = 19121,
+		bullet_ID = {
+			19101
+		}
+	}
+	uv0.weapon_property_24[19122] = {
+		reload_max = 2052,
+		damage = 172,
+		base = 19120,
+		id = 19122,
+		bullet_ID = {
+			19102
+		}
+	}
+	uv0.weapon_property_24[19123] = {
+		reload_max = 2024,
+		damage = 191,
+		base = 19120,
+		id = 19123,
+		bullet_ID = {
+			19103
+		}
+	}
+	uv0.weapon_property_24[19124] = {
+		reload_max = 1995,
+		damage = 211,
+		base = 19120,
+		id = 19124,
+		bullet_ID = {
+			19104
+		}
+	}
 	uv0.weapon_property_24[19125] = {
 		reload_max = 1967,
 		damage = 231,
@@ -635,87 +724,5 @@ function ()
 		bullet_ID = {
 			19210
 		}
-	}
-	uv0.weapon_property_24[19251] = {
-		reload_max = 1760,
-		damage = 420,
-		base = 19240,
-		id = 19251,
-		bullet_ID = {
-			19210
-		}
-	}
-	uv0.weapon_property_24[19252] = {
-		reload_max = 1760,
-		damage = 420,
-		base = 19240,
-		id = 19252,
-		bullet_ID = {
-			19210
-		}
-	}
-	uv0.weapon_property_24[19253] = {
-		reload_max = 1760,
-		damage = 420,
-		base = 19240,
-		id = 19253,
-		bullet_ID = {
-			19210
-		}
-	}
-	uv0.weapon_property_24[21000] = {
-		action_index = "attack",
-		range = 52,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "102mm单装炮(声望级)T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 3,
-		corrected = 125,
-		min_range = 0,
-		id = 21000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 146,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.2,
-		initial_over_heat = 0,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			1000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_24[21001] = {
-		id = 21001,
-		reload_max = 142,
-		base = 21000
-	}
-	uv0.weapon_property_24[21002] = {
-		id = 21002,
-		reload_max = 138,
-		damage = 4,
-		base = 21000
 	}
 end()

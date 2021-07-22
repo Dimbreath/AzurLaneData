@@ -2,6 +2,279 @@ pg = pg or {}
 pg.weapon_property_109 = {}
 
 function ()
+	uv0.weapon_property_109[61053] = {
+		action_index = "attack",
+		range = 100,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "百合根3段展示",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 12,
+		corrected = 165,
+		min_range = 0,
+		id = 61053,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19963,
+			19963
+		},
+		barrage_ID = {
+			80522,
+			80523
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61054] = {
+		action_index = "attack",
+		range = 100,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "百合根4段展示",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 50,
+		corrected = 300,
+		min_range = 0,
+		id = 61054,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19961
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61055] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "樫野6580用武器",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 52,
+		corrected = 105,
+		min_range = 50,
+		id = 61055,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 4990,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1510
+		},
+		barrage_ID = {
+			1301
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61501] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "轰炸机外观预览飞机",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 61501,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19000,
+			19200
+		},
+		barrage_ID = {
+			1511,
+			1511
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61503] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "鱼雷机外观预览飞机",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 61503,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			28000,
+			28000
+		},
+		barrage_ID = {
+			1511,
+			1511
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61504] = {
+		action_index = "",
+		range = 50,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "鱼雷机外观预览鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 17,
+		corrected = 100,
+		min_range = 0,
+		id = 61504,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4577,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			61504
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_109[61505] = {
 		action_index = "attack",
 		range = 90,
@@ -39,6 +312,272 @@ function ()
 		barrage_ID = {
 			1511,
 			1511
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61506] = {
+		action_index = "attack",
+		range = 200,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日服生放用-天海春香演示弹幕(粉色徽章+应援棒鱼雷)",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 61506,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19328,
+			19328,
+			19329
+		},
+		barrage_ID = {
+			81141,
+			81142,
+			81143
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61507] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日服生放用-三浦梓演示弹幕(转圈团子头)",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 61507,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19330
+		},
+		barrage_ID = {
+			81144
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61508] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日服生放用-秋月律子演示弹幕(双色类黛朵)",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 61508,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19331,
+			19331,
+			19331,
+			19332,
+			19332,
+			19332,
+			19331,
+			19331,
+			19331,
+			19332,
+			19332,
+			19332,
+			19331,
+			19331,
+			19331,
+			19332,
+			19332,
+			19332
+		},
+		barrage_ID = {
+			81145,
+			81146,
+			81147,
+			81148,
+			81149,
+			81150,
+			81151,
+			81152,
+			81153,
+			81154,
+			81155,
+			81156,
+			81157,
+			81158,
+			81159,
+			81160,
+			81161,
+			81162
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61509] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日服生放用-双海亚美演示弹幕(花朵鱼雷弹幕)",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 61509,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19333,
+			19333,
+			19333
+		},
+		barrage_ID = {
+			81163,
+			81165,
+			81166
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[61510] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "日服生放用-双海真美演示弹幕(口红鱼雷弹幕)",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 61510,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19334,
+			19334,
+			19334
+		},
+		barrage_ID = {
+			81164,
+			81165,
+			81167
 		},
 		oxy_type = {
 			1
@@ -631,111 +1170,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_109[64052] = {
-		id = 64052,
-		name = "小天城战列技能-LV2",
-		damage = 24,
-		base = 64051
-	}
-	uv0.weapon_property_109[64053] = {
-		id = 64053,
-		name = "小天城战列技能-LV3",
-		damage = 26,
-		base = 64051
-	}
-	uv0.weapon_property_109[64054] = {
-		id = 64054,
-		name = "小天城战列技能-LV4",
-		damage = 28,
-		base = 64051
-	}
-	uv0.weapon_property_109[64055] = {
-		id = 64055,
-		name = "小天城战列技能-LV5",
-		damage = 30,
-		base = 64051
-	}
-	uv0.weapon_property_109[64056] = {
-		id = 64056,
-		name = "小天城战列技能-LV6",
-		damage = 32,
-		base = 64051
-	}
-	uv0.weapon_property_109[64057] = {
-		id = 64057,
-		name = "小天城战列技能-LV7",
-		damage = 34,
-		base = 64051
-	}
-	uv0.weapon_property_109[64058] = {
-		id = 64058,
-		name = "小天城战列技能-LV8",
-		damage = 36,
-		base = 64051
-	}
-	uv0.weapon_property_109[64059] = {
-		id = 64059,
-		name = "小天城战列技能-LV9",
-		damage = 38,
-		base = 64051
-	}
-	uv0.weapon_property_109[64060] = {
-		id = 64060,
-		name = "小天城战列技能-LV10",
-		damage = 40,
-		base = 64051
-	}
-	uv0.weapon_property_109[64061] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "小天城战列技能-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 64061,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19286,
-			19286
-		},
-		barrage_ID = {
-			81057,
-			81059
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_109[64062] = {
-		id = 64062,
-		name = "小天城战列技能-LV2",
-		damage = 24,
-		base = 64061
 	}
 end()

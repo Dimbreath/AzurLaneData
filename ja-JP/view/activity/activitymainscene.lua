@@ -230,12 +230,20 @@ function slot0.flushTabs(slot0)
 							uv0:loadActivityPanel(slot0, uv1)
 						end, SFX_PANEL)
 					end
+
+					triggerToggle(slot2, false)
 				end
 			end
 		end)
 	end
 
+	setActive(slot0.tabs, false)
 	slot0.tabsList:align(#slot0.activities)
+	setActive(slot0.tabs, true)
+
+	if slot0.activity and slot0:getActivityIndex(slot0.activity.id) then
+		triggerToggle(slot0.tabs:GetChild(slot1 - 1), true)
+	end
 end
 
 function slot0.selectActivity(slot0, slot1)

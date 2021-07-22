@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_352 = {
+	[85006] = {
+		id = 85006,
+		damage = "7 x 6",
+		base = 85000,
+		weapon_id = {
+			85006
+		}
+	},
+	[85040] = {
+		name = "130mm連装砲B-2LM",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
+		value_2 = 35,
+		icon = "85000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1710
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1710
+			},
+			{
+				4,
+				1024
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[85041] = {
+		id = 85041,
+		damage = "6 x 6",
+		base = 85040,
+		weapon_id = {
+			85041
+		}
+	},
+	[85042] = {
+		id = 85042,
+		damage = "7 x 6",
+		base = 85040,
+		weapon_id = {
+			85042
+		}
+	},
+	[85043] = {
+		id = 85043,
+		damage = "8 x 6",
+		base = 85040,
+		weapon_id = {
+			85043
+		}
+	},
 	[85044] = {
 		id = 85044,
 		damage = "9 x 6",
@@ -151,46 +249,6 @@ pg.equip_data_statistics_352 = {
 		base = 85060,
 		weapon_id = {
 			85061
-		}
-	},
-	[85062] = {
-		id = 85062,
-		damage = "45/回",
-		base = 85060,
-		weapon_id = {
-			85062
-		}
-	},
-	[85063] = {
-		id = 85063,
-		damage = "51/回",
-		base = 85060,
-		weapon_id = {
-			85063
-		}
-	},
-	[85064] = {
-		id = 85064,
-		damage = "57/回",
-		base = 85060,
-		weapon_id = {
-			85064
-		}
-	},
-	[85065] = {
-		id = 85065,
-		damage = "63/回",
-		base = 85060,
-		weapon_id = {
-			85065
-		}
-	},
-	[85066] = {
-		id = 85066,
-		damage = "70/回",
-		base = 85060,
-		weapon_id = {
-			85066
 		}
 	}
 }

@@ -2,47 +2,141 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 function ()
-	uv0.weapon_property_145[67693] = {
-		id = 67693,
-		damage = 188,
-		base = 67691
+	uv0.weapon_property_145[67506] = {
+		id = 67506,
+		damage = 127,
+		base = 67500,
+		bullet_ID = {
+			67506
+		}
 	}
-	uv0.weapon_property_145[67694] = {
-		id = 67694,
-		damage = 207,
-		base = 67691
+	uv0.weapon_property_145[67507] = {
+		id = 67507,
+		damage = 138,
+		base = 67500,
+		bullet_ID = {
+			67507
+		}
 	}
-	uv0.weapon_property_145[67695] = {
-		id = 67695,
-		damage = 226,
-		base = 67691
+	uv0.weapon_property_145[67508] = {
+		id = 67508,
+		damage = 149,
+		base = 67500,
+		bullet_ID = {
+			67508
+		}
 	}
-	uv0.weapon_property_145[67696] = {
-		id = 67696,
-		damage = 245,
-		base = 67691
+	uv0.weapon_property_145[67509] = {
+		id = 67509,
+		damage = 160,
+		base = 67500,
+		bullet_ID = {
+			67509
+		}
 	}
-	uv0.weapon_property_145[67697] = {
-		id = 67697,
-		damage = 264,
-		base = 67691
+	uv0.weapon_property_145[67510] = {
+		id = 67510,
+		damage = 171,
+		base = 67500,
+		bullet_ID = {
+			67510
+		}
 	}
-	uv0.weapon_property_145[67698] = {
-		id = 67698,
-		damage = 283,
-		base = 67691
+	uv0.weapon_property_145[67520] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 13,
+		shakescreen = 0,
+		name = "1 x 2000lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 13,
+		charge_param = "",
+		damage = 116,
+		corrected = 100,
+		min_range = 0,
+		id = 67520,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2125
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_145[67699] = {
-		id = 67699,
-		damage = 302,
-		base = 67691
+	uv0.weapon_property_145[67521] = {
+		id = 67521,
+		damage = 133,
+		base = 67520
 	}
-	uv0.weapon_property_145[67700] = {
-		id = 67700,
-		damage = 322,
-		base = 67691
+	uv0.weapon_property_145[67522] = {
+		id = 67522,
+		damage = 150,
+		base = 67520
 	}
-	uv0.weapon_property_145[67701] = {
+	uv0.weapon_property_145[67523] = {
+		id = 67523,
+		damage = 167,
+		base = 67520
+	}
+	uv0.weapon_property_145[67524] = {
+		id = 67524,
+		damage = 184,
+		base = 67520
+	}
+	uv0.weapon_property_145[67525] = {
+		id = 67525,
+		damage = 203,
+		base = 67520
+	}
+	uv0.weapon_property_145[67526] = {
+		id = 67526,
+		damage = 220,
+		base = 67520
+	}
+	uv0.weapon_property_145[67527] = {
+		id = 67527,
+		damage = 238,
+		base = 67520
+	}
+	uv0.weapon_property_145[67528] = {
+		id = 67528,
+		damage = 256,
+		base = 67520
+	}
+	uv0.weapon_property_145[67529] = {
+		id = 67529,
+		damage = 274,
+		base = 67520
+	}
+	uv0.weapon_property_145[67530] = {
+		id = 67530,
+		damage = 291,
+		base = 67520
+	}
+	uv0.weapon_property_145[67540] = {
 		action_index = "",
 		range = 500,
 		type = 2,
@@ -56,14 +150,14 @@ function ()
 		expose = 0,
 		angle = 25,
 		charge_param = "",
-		damage = 70,
+		damage = 44,
 		corrected = 100,
 		min_range = 0,
-		id = 67701,
+		id = 67540,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 9500,
+		reload_max = 10000,
 		queue = 1,
 		search_type = 2,
 		effect_move = 0,
@@ -73,7 +167,7 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19968
+			2121
 		},
 		barrage_ID = {
 			2121
@@ -86,69 +180,74 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_145[67702] = {
-		id = 67702,
-		damage = 78,
-		base = 67701
+	uv0.weapon_property_145[67541] = {
+		id = 67541,
+		damage = 50,
+		base = 67540
 	}
-	uv0.weapon_property_145[67703] = {
-		id = 67703,
-		damage = 85,
-		base = 67701
+	uv0.weapon_property_145[67542] = {
+		id = 67542,
+		damage = 56,
+		base = 67540
 	}
-	uv0.weapon_property_145[67704] = {
-		id = 67704,
-		damage = 93,
-		base = 67701
+	uv0.weapon_property_145[67543] = {
+		id = 67543,
+		damage = 63,
+		base = 67540
 	}
-	uv0.weapon_property_145[67705] = {
-		id = 67705,
-		damage = 100,
-		base = 67701
+	uv0.weapon_property_145[67544] = {
+		id = 67544,
+		damage = 69,
+		base = 67540
 	}
-	uv0.weapon_property_145[67706] = {
-		id = 67706,
-		damage = 108,
-		base = 67701
+	uv0.weapon_property_145[67545] = {
+		id = 67545,
+		damage = 75,
+		base = 67540
 	}
-	uv0.weapon_property_145[67707] = {
-		id = 67707,
-		damage = 115,
-		base = 67701
+	uv0.weapon_property_145[67546] = {
+		id = 67546,
+		damage = 81,
+		base = 67540
 	}
-	uv0.weapon_property_145[67708] = {
-		id = 67708,
-		damage = 123,
-		base = 67701
+	uv0.weapon_property_145[67547] = {
+		id = 67547,
+		damage = 89,
+		base = 67540
 	}
-	uv0.weapon_property_145[67709] = {
-		id = 67709,
-		damage = 130,
-		base = 67701
+	uv0.weapon_property_145[67548] = {
+		id = 67548,
+		damage = 96,
+		base = 67540
 	}
-	uv0.weapon_property_145[67710] = {
-		id = 67710,
-		damage = 138,
-		base = 67701
+	uv0.weapon_property_145[67549] = {
+		id = 67549,
+		damage = 104,
+		base = 67540
 	}
-	uv0.weapon_property_145[67711] = {
-		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CAFire",
+	uv0.weapon_property_145[67550] = {
+		id = 67550,
+		damage = 111,
+		base = 67540
+	}
+	uv0.weapon_property_145[67560] = {
+		action_index = "",
+		range = 60,
+		type = 1,
+		fire_fx = "",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "加贺战列技能PVP-LV1",
-		aim_type = 1,
+		name = "圣地亚哥星之歌弹幕",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 96,
-		corrected = 110,
-		min_range = 35,
-		id = 67711,
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 67560,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -156,18 +255,18 @@ function ()
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19976,
-			19976
+			19956,
+			19956
 		},
 		barrage_ID = {
-			80506,
-			80507
+			80519,
+			80518
 		},
 		oxy_type = {
 			1
@@ -175,269 +274,69 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
+		precast_param = {}
 	}
-	uv0.weapon_property_145[67712] = {
-		id = 67712,
-		name = "加贺战列技能PVP-LV2",
-		damage = 103,
-		base = 67711
+	uv0.weapon_property_145[67561] = {
+		id = 67561,
+		name = "圣地亚哥星之歌弹幕LV1",
+		damage = 6,
+		base = 67560
 	}
-	uv0.weapon_property_145[67713] = {
-		id = 67713,
-		name = "加贺战列技能PVP-LV3",
-		damage = 111,
-		base = 67711
+	uv0.weapon_property_145[67562] = {
+		id = 67562,
+		name = "圣地亚哥星之歌弹幕LV2",
+		damage = 7,
+		base = 67560
 	}
-	uv0.weapon_property_145[67714] = {
-		id = 67714,
-		name = "加贺战列技能PVP-LV4",
-		damage = 120,
-		base = 67711
+	uv0.weapon_property_145[67563] = {
+		id = 67563,
+		name = "圣地亚哥星之歌弹幕LV3",
+		damage = 8,
+		base = 67560
 	}
-	uv0.weapon_property_145[67715] = {
-		name = "加贺战列技能PVP-LV5",
-		damage = 130,
-		base = 67711,
-		id = 67715,
-		barrage_ID = {
-			80504,
-			80505
-		}
+	uv0.weapon_property_145[67564] = {
+		id = 67564,
+		name = "圣地亚哥星之歌弹幕LV4",
+		damage = 9,
+		base = 67560
 	}
-	uv0.weapon_property_145[67716] = {
-		name = "加贺战列技能PVP-LV6",
-		damage = 141,
-		base = 67711,
-		id = 67716,
-		barrage_ID = {
-			80504,
-			80505
-		}
+	uv0.weapon_property_145[67565] = {
+		id = 67565,
+		name = "圣地亚哥星之歌弹幕LV5",
+		damage = 10,
+		base = 67560
 	}
-	uv0.weapon_property_145[67717] = {
-		name = "加贺战列技能PVP-LV7",
-		damage = 153,
-		base = 67711,
-		id = 67717,
-		barrage_ID = {
-			80504,
-			80505
-		}
+	uv0.weapon_property_145[67566] = {
+		id = 67566,
+		name = "圣地亚哥星之歌弹幕LV6",
+		damage = 12,
+		base = 67560
 	}
-	uv0.weapon_property_145[67718] = {
-		name = "加贺战列技能PVP-LV8",
-		damage = 166,
-		base = 67711,
-		id = 67718,
-		bullet_ID = {
-			19976,
-			19976,
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80504,
-			80505,
-			80506,
-			80507
-		}
+	uv0.weapon_property_145[67567] = {
+		id = 67567,
+		name = "圣地亚哥星之歌弹幕LV7",
+		damage = 14,
+		base = 67560
 	}
-	uv0.weapon_property_145[67719] = {
-		name = "加贺战列技能PVP-LV9",
-		damage = 180,
-		base = 67711,
-		id = 67719,
-		bullet_ID = {
-			19976,
-			19976,
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80504,
-			80505,
-			80506,
-			80507
-		}
+	uv0.weapon_property_145[67568] = {
+		id = 67568,
+		name = "圣地亚哥星之歌弹幕LV8",
+		damage = 17,
+		base = 67560
 	}
-	uv0.weapon_property_145[67720] = {
-		name = "加贺战列技能PVP-LV10",
-		damage = 195,
-		base = 67711,
-		id = 67720,
-		bullet_ID = {
-			19976,
-			19976,
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80504,
-			80505,
-			80506,
-			80507
-		}
+	uv0.weapon_property_145[67569] = {
+		id = 67569,
+		name = "圣地亚哥星之歌弹幕LV9",
+		damage = 20,
+		base = 67560
 	}
-	uv0.weapon_property_145[67721] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "加贺战列技能PVE-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 96,
-		corrected = 110,
-		min_range = 25,
-		id = 67721,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80506,
-			80507
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
+	uv0.weapon_property_145[67570] = {
+		id = 67570,
+		name = "圣地亚哥星之歌弹幕LV10",
+		damage = 24,
+		base = 67560
 	}
-	uv0.weapon_property_145[67722] = {
-		id = 67722,
-		name = "加贺战列技能PVE-LV2",
-		damage = 103,
-		base = 67721
-	}
-	uv0.weapon_property_145[67723] = {
-		id = 67723,
-		name = "加贺战列技能PVE-LV3",
-		damage = 111,
-		base = 67721
-	}
-	uv0.weapon_property_145[67724] = {
-		id = 67724,
-		name = "加贺战列技能PVE-LV4",
-		damage = 120,
-		base = 67721
-	}
-	uv0.weapon_property_145[67725] = {
-		name = "加贺战列技能PVE-LV5",
-		damage = 130,
-		base = 67721,
-		id = 67725,
-		barrage_ID = {
-			80504,
-			80505
-		}
-	}
-	uv0.weapon_property_145[67726] = {
-		name = "加贺战列技能PVE-LV6",
-		damage = 141,
-		base = 67721,
-		id = 67726,
-		barrage_ID = {
-			80504,
-			80505
-		}
-	}
-	uv0.weapon_property_145[67727] = {
-		name = "加贺战列技能PVE-LV7",
-		damage = 153,
-		base = 67721,
-		id = 67727,
-		barrage_ID = {
-			80504,
-			80505
-		}
-	}
-	uv0.weapon_property_145[67728] = {
-		name = "加贺战列技能PVE-LV8",
-		damage = 166,
-		base = 67721,
-		id = 67728,
-		bullet_ID = {
-			19976,
-			19976,
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80504,
-			80505,
-			80506,
-			80507
-		}
-	}
-	uv0.weapon_property_145[67729] = {
-		name = "加贺战列技能PVE-LV9",
-		damage = 180,
-		base = 67721,
-		id = 67729,
-		bullet_ID = {
-			19976,
-			19976,
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80504,
-			80505,
-			80506,
-			80507
-		}
-	}
-	uv0.weapon_property_145[67730] = {
-		name = "加贺战列技能PVE-LV10",
-		damage = 195,
-		base = 67721,
-		id = 67730,
-		bullet_ID = {
-			19976,
-			19976,
-			19976,
-			19976
-		},
-		barrage_ID = {
-			80504,
-			80505,
-			80506,
-			80507
-		}
-	}
-	uv0.weapon_property_145[67731] = {
+	uv0.weapon_property_145[67580] = {
 		action_index = "attack",
 		range = 50,
 		type = 1,
@@ -445,20 +344,164 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "战列加贺技能小子弹-LV1",
+		name = "圣地亚哥星之歌鱼雷LV0",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 120,
+		angle = 360,
 		charge_param = "",
-		damage = 13,
+		damage = 1,
 		corrected = 100,
 		min_range = 0,
-		id = 67731,
+		id = 67580,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 3000,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/raser",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19958,
+			19970
+		},
+		barrage_ID = {
+			1,
+			20
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67581] = {
+		action_index = "attack",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "圣地亚哥星之歌鱼雷LV1(LV7)",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 120,
+		charge_param = "",
+		damage = 68,
+		corrected = 245,
+		min_range = 0,
+		id = 67581,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19957
+		},
+		barrage_ID = {
+			80520
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67582] = {
+		id = 67582,
+		name = "圣地亚哥星之歌鱼雷LV2(LV8)",
+		damage = 80,
+		base = 67581
+	}
+	uv0.weapon_property_145[67583] = {
+		id = 67583,
+		name = "圣地亚哥星之歌鱼雷LV3(LV9)",
+		damage = 92,
+		base = 67581
+	}
+	uv0.weapon_property_145[67584] = {
+		id = 67584,
+		name = "圣地亚哥星之歌鱼雷LV4(LV10)",
+		damage = 104,
+		base = 67581
+	}
+	uv0.weapon_property_145[67585] = {
+		id = 67585,
+		name = "蜜月爆炸Lv5",
+		damage = 116,
+		base = 67581
+	}
+	uv0.weapon_property_145[67586] = {
+		id = 67586,
+		name = "蜜月爆炸Lv6",
+		damage = 128,
+		base = 67581
+	}
+	uv0.weapon_property_145[67587] = {
+		id = 67587,
+		name = "蜜月爆炸Lv7",
+		damage = 140,
+		base = 67581
+	}
+	uv0.weapon_property_145[67588] = {
+		id = 67588,
+		name = "蜜月爆炸Lv8",
+		damage = 152,
+		base = 67581
+	}
+	uv0.weapon_property_145[67589] = {
+		id = 67589,
+		name = "蜜月爆炸Lv9",
+		damage = 164,
+		base = 67581
+	}
+	uv0.weapon_property_145[67590] = {
+		id = 67590,
+		name = "蜜月爆炸Lv10",
+		damage = 176,
+		base = 67581
+	}
+	uv0.weapon_property_145[67601] = {
+		action_index = "attack",
+		range = 100,
+		type = 3,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "久远技能Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 2,
+		corrected = 265,
+		min_range = 0,
+		id = 67601,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 280,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -468,12 +511,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19971,
-			19971
+			19959
 		},
 		barrage_ID = {
-			80510,
-			80511
+			80521
 		},
 		oxy_type = {
 			1
@@ -483,199 +524,76 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_145[67732] = {
-		id = 67732,
-		name = "战列加贺技能小子弹-LV2",
-		damage = 14,
-		base = 67731
+	uv0.weapon_property_145[67602] = {
+		id = 67602,
+		name = "久远技能Lv2",
+		base = 67601
 	}
-	uv0.weapon_property_145[67733] = {
-		id = 67733,
-		name = "战列加贺技能小子弹-LV3",
-		damage = 15,
-		base = 67731
+	uv0.weapon_property_145[67603] = {
+		id = 67603,
+		name = "久远技能Lv3",
+		base = 67601
 	}
-	uv0.weapon_property_145[67734] = {
-		id = 67734,
-		name = "战列加贺技能小子弹-LV4",
-		damage = 16,
-		base = 67731
+	uv0.weapon_property_145[67604] = {
+		id = 67604,
+		name = "久远技能Lv4",
+		damage = 3,
+		base = 67601
 	}
-	uv0.weapon_property_145[67735] = {
-		id = 67735,
-		name = "战列加贺技能小子弹-LV5",
-		damage = 18,
-		base = 67731
+	uv0.weapon_property_145[67605] = {
+		id = 67605,
+		name = "久远技能Lv5",
+		damage = 3,
+		base = 67601
 	}
-	uv0.weapon_property_145[67736] = {
-		name = "战列加贺技能小子弹-LV6",
-		damage = 20,
-		base = 67731,
-		id = 67736,
-		barrage_ID = {
-			80512,
-			80513
-		}
+	uv0.weapon_property_145[67606] = {
+		id = 67606,
+		name = "久远技能Lv6",
+		damage = 4,
+		base = 67601
 	}
-	uv0.weapon_property_145[67737] = {
-		name = "战列加贺技能小子弹-LV7",
-		damage = 23,
-		base = 67731,
-		id = 67737,
-		barrage_ID = {
-			80512,
-			80513
-		}
+	uv0.weapon_property_145[67607] = {
+		id = 67607,
+		name = "久远技能Lv7",
+		damage = 4,
+		base = 67601
 	}
-	uv0.weapon_property_145[67738] = {
-		name = "战列加贺技能小子弹-LV8",
-		damage = 26,
-		base = 67731,
-		id = 67738,
-		barrage_ID = {
-			80512,
-			80513
-		}
+	uv0.weapon_property_145[67608] = {
+		id = 67608,
+		name = "久远技能Lv8",
+		damage = 5,
+		base = 67601
 	}
-	uv0.weapon_property_145[67739] = {
-		name = "战列加贺技能小子弹-LV9",
-		damage = 30,
-		base = 67731,
-		id = 67739,
-		barrage_ID = {
-			80512,
-			80513
-		}
+	uv0.weapon_property_145[67609] = {
+		id = 67609,
+		name = "久远技能Lv9",
+		damage = 6,
+		base = 67601
 	}
-	uv0.weapon_property_145[67740] = {
-		name = "战列加贺技能小子弹-LV10",
-		damage = 35,
-		base = 67731,
-		id = 67740,
-		barrage_ID = {
-			80512,
-			80513
-		}
+	uv0.weapon_property_145[67610] = {
+		id = 67610,
+		name = "久远技能Lv10",
+		damage = 7,
+		base = 67601
 	}
-	uv0.weapon_property_145[67741] = {
+	uv0.weapon_property_145[67611] = {
 		action_index = "attack",
-		range = 50,
-		type = 3,
+		range = 60,
+		type = 2,
 		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "加贺鱼雷LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 51,
-		corrected = 110,
-		min_range = 0,
-		id = 67741,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 5100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1807,
-			1807
-		},
-		barrage_ID = {
-			80508,
-			80509
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_145[67742] = {
-		id = 67742,
-		name = "加贺鱼雷LV2",
-		damage = 52,
-		base = 67741
-	}
-	uv0.weapon_property_145[67743] = {
-		id = 67743,
-		name = "加贺鱼雷LV3",
-		damage = 54,
-		base = 67741
-	}
-	uv0.weapon_property_145[67744] = {
-		id = 67744,
-		name = "加贺鱼雷LV4",
-		damage = 57,
-		base = 67741
-	}
-	uv0.weapon_property_145[67745] = {
-		id = 67745,
-		name = "加贺鱼雷LV5",
-		damage = 61,
-		base = 67741
-	}
-	uv0.weapon_property_145[67746] = {
-		id = 67746,
-		name = "加贺鱼雷LV6",
-		damage = 66,
-		base = 67741
-	}
-	uv0.weapon_property_145[67747] = {
-		id = 67747,
-		name = "加贺鱼雷LV7",
-		damage = 72,
-		base = 67741
-	}
-	uv0.weapon_property_145[67748] = {
-		id = 67748,
-		name = "加贺鱼雷LV8",
-		damage = 79,
-		base = 67741
-	}
-	uv0.weapon_property_145[67749] = {
-		id = 67749,
-		name = "加贺鱼雷LV9",
-		damage = 87,
-		base = 67741
-	}
-	uv0.weapon_property_145[67750] = {
-		id = 67750,
-		name = "加贺鱼雷LV10",
-		damage = 96,
-		base = 67741
-	}
-	uv0.weapon_property_145[67751] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "天城战列技能-LV1",
-		aim_type = 1,
+		name = "猫音技能Lv1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 120,
+		angle = 60,
 		charge_param = "",
-		damage = 75,
-		corrected = 100,
-		min_range = 25,
-		id = 67751,
+		damage = 11,
+		corrected = 118,
+		min_range = 0,
+		id = 67611,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -683,18 +601,16 @@ function ()
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19975,
-			19975
+			19960
 		},
 		barrage_ID = {
-			80514,
-			80515
+			2120
 		},
 		oxy_type = {
 			1
@@ -702,35 +618,24 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
+		precast_param = {}
 	}
-	uv0.weapon_property_145[67752] = {
-		id = 67752,
-		name = "天城战列技能-LV2",
-		damage = 80,
-		base = 67751
+	uv0.weapon_property_145[67612] = {
+		id = 67612,
+		name = "猫音技能Lv2",
+		damage = 13,
+		base = 67611
 	}
-	uv0.weapon_property_145[67753] = {
-		id = 67753,
-		name = "天城战列技能-LV3",
-		damage = 86,
-		base = 67751
+	uv0.weapon_property_145[67613] = {
+		id = 67613,
+		name = "猫音技能Lv3",
+		damage = 16,
+		base = 67611
 	}
-	uv0.weapon_property_145[67754] = {
-		id = 67754,
-		name = "天城战列技能-LV4",
-		damage = 93,
-		base = 67751
-	}
-	uv0.weapon_property_145[67755] = {
-		id = 67755,
-		name = "天城战列技能-LV5",
-		damage = 101,
-		base = 67751
+	uv0.weapon_property_145[67614] = {
+		id = 67614,
+		name = "猫音技能Lv4",
+		damage = 20,
+		base = 67611
 	}
 end()

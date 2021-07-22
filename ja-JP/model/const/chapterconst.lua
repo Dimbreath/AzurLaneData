@@ -236,6 +236,7 @@ slot0.DirtyBase = 128
 slot0.DirtyChampionPosition = 256
 slot0.DirtyFloatItems = 512
 slot0.DirtyMapItems = 1024
+slot0.DirtyStrategyComboPanel = 2048
 slot0.KizunaJammingEngage = 1
 slot0.KizunaJammingDodge = 2
 slot0.StatusDay = 3

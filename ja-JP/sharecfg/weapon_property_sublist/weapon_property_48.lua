@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_48 = {}
 
 function ()
+	uv0.weapon_property_48[34041] = {
+		id = 34041,
+		reload_max = 3225,
+		damage = 52,
+		base = 34040
+	}
+	uv0.weapon_property_48[34042] = {
+		id = 34042,
+		reload_max = 3160,
+		damage = 60,
+		base = 34040
+	}
+	uv0.weapon_property_48[34043] = {
+		id = 34043,
+		reload_max = 3094,
+		damage = 68,
+		base = 34040
+	}
+	uv0.weapon_property_48[34044] = {
+		id = 34044,
+		reload_max = 3028,
+		damage = 74,
+		base = 34040
+	}
+	uv0.weapon_property_48[34045] = {
+		id = 34045,
+		reload_max = 2963,
+		damage = 82,
+		base = 34040
+	}
+	uv0.weapon_property_48[34046] = {
+		id = 34046,
+		reload_max = 2897,
+		damage = 88,
+		base = 34040
+	}
 	uv0.weapon_property_48[34047] = {
 		reload_max = 2897,
 		damage = 88,
@@ -595,85 +631,5 @@ function ()
 		reload_max = 3630,
 		damage = 154,
 		base = 34180
-	}
-	uv0.weapon_property_48[34191] = {
-		reload_max = 3630,
-		damage = 154,
-		base = 34180,
-		id = 34191,
-		corrected = 109
-	}
-	uv0.weapon_property_48[34192] = {
-		reload_max = 3630,
-		damage = 154,
-		base = 34180,
-		id = 34192,
-		corrected = 116
-	}
-	uv0.weapon_property_48[34193] = {
-		reload_max = 3630,
-		damage = 154,
-		base = 34180,
-		id = 34193,
-		corrected = 124
-	}
-	uv0.weapon_property_48[34300] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "410mm连装炮改",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 60,
-		corrected = 110,
-		min_range = 50,
-		id = 34300,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3754,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1502
-		},
-		barrage_ID = {
-			1300
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_48[34301] = {
-		id = 34301,
-		reload_max = 3678,
-		damage = 70,
-		base = 34300
-	}
-	uv0.weapon_property_48[34302] = {
-		id = 34302,
-		reload_max = 3603,
-		damage = 80,
-		base = 34300
 	}
 end()

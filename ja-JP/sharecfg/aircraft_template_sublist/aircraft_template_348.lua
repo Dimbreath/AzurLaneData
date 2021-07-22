@@ -1,101 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_348 = {
-	[610022] = {
-		name = "【俾斯麦活动A2】战斗机",
-		max_hp = 86,
+	[607028] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 57,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 610022,
-		scale = 0.75,
-		weapon_ID = {
-			610024,
-			610025
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[610023] = {
-		name = "【俾斯麦活动A2】鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "jianyu",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "jianyu",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
+		nationality = 1,
+		hp_growth = 3136,
 		speed = 30,
-		id = 610023,
+		id = 607028,
 		scale = 0.75,
 		weapon_ID = {
-			610026
+			607032
 		},
 		position_offset = {
 			0,
@@ -115,13 +40,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-0.91,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.77,
-					1,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -138,7 +63,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},
@@ -149,27 +74,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[610030] = {
-		name = "【俾斯麦活动A3】鱼雷封锁",
-		max_hp = 200,
-		accuracy = 50,
-		model_ID = "jianyu810",
+	[607029] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 120,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu810",
+		icon = "tbd",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
+		nationality = 1,
+		hp_growth = 3632,
 		speed = 30,
-		id = 610030,
+		id = 607029,
 		scale = 0.75,
 		weapon_ID = {
-			610041
+			607033
 		},
 		position_offset = {
 			0,
@@ -189,13 +114,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -212,8 +137,8 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.64,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -223,28 +148,28 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[610036] = {
-		name = "【俾斯麦活动A3】战斗机",
-		max_hp = 86,
+	[607047] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 39,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "F4F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
+		nationality = 1,
+		hp_growth = 2686,
 		speed = 33,
-		id = 610036,
+		id = 607047,
 		scale = 0.75,
 		weapon_ID = {
-			610038,
-			610039
+			607050,
+			607051
 		},
 		position_offset = {
 			0,
@@ -287,7 +212,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.27,
+				0.32,
 				0,
 				0
 			},
@@ -298,27 +223,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[610037] = {
-		name = "【俾斯麦活动A3】鱼雷机",
-		max_hp = 96,
+	[607048] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 57,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
+		nationality = 1,
+		hp_growth = 3136,
 		speed = 30,
-		id = 610037,
+		id = 607048,
 		scale = 0.75,
 		weapon_ID = {
-			610040
+			607052
 		},
 		position_offset = {
 			0,
@@ -338,13 +263,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-0.91,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.77,
-					1,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -361,7 +286,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},
@@ -372,176 +297,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[610092] = {
-		name = "【俾斯麦活动C2】战斗机",
-		max_hp = 141,
+	[607049] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 79,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "haipenhuo",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 610092,
-		scale = 0.75,
-		weapon_ID = {
-			610094,
-			610095
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[610093] = {
-		name = "【俾斯麦活动C2】鱼雷机",
-		max_hp = 154,
-		accuracy = 23,
-		model_ID = "jianyu",
-		ACC_growth = 0,
-		crash_DMG = 114,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "jianyu",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2880,
-		speed = 30,
-		id = 610093,
-		scale = 0.75,
-		weapon_ID = {
-			610096
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[610100] = {
-		name = "【俾斯麦活动C3】鱼雷封锁",
-		max_hp = 600,
-		accuracy = 50,
-		model_ID = "jianyu810",
-		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu810",
+		icon = "tbd",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
+		nationality = 1,
+		hp_growth = 3632,
 		speed = 30,
-		id = 610100,
+		id = 607049,
 		scale = 0.75,
 		weapon_ID = {
-			610111
+			607053
 		},
 		position_offset = {
 			0,
@@ -561,13 +337,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -584,8 +360,8 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.64,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -595,28 +371,28 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[610106] = {
-		name = "【俾斯麦活动C3】战斗机",
-		max_hp = 141,
+	[607067] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 79,
+		crash_DMG = 39,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "F4F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2520,
+		nationality = 1,
+		hp_growth = 2686,
 		speed = 33,
-		id = 610106,
+		id = 607067,
 		scale = 0.75,
 		weapon_ID = {
-			610108,
-			610109
+			607070,
+			607071
 		},
 		position_offset = {
 			0,
@@ -659,7 +435,7 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.27,
+				0.32,
 				0,
 				0
 			},
@@ -670,27 +446,27 @@ pg.aircraft_template_348 = {
 			}
 		}
 	},
-	[610107] = {
-		name = "【俾斯麦活动C3】鱼雷机",
-		max_hp = 154,
+	[607068] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 114,
+		crash_DMG = 57,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2880,
+		nationality = 1,
+		hp_growth = 3136,
 		speed = 30,
-		id = 610107,
+		id = 607068,
 		scale = 0.75,
 		weapon_ID = {
-			610110
+			607072
 		},
 		position_offset = {
 			0,
@@ -710,13 +486,13 @@ pg.aircraft_template_348 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-0.91,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.77,
-					1,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -733,7 +509,230 @@ pg.aircraft_template_348 = {
 				0
 			},
 			{
-				0.51,
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607069] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607069,
+		scale = 0.75,
+		weapon_ID = {
+			607073
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607087] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607087,
+		scale = 0.75,
+		weapon_ID = {
+			607090,
+			607091
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607088] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607088,
+		scale = 0.75,
+		weapon_ID = {
+			607092
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			},

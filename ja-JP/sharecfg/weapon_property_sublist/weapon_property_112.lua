@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 function ()
+	uv0.weapon_property_112[64238] = {
+		id = 64238,
+		name = "霞光之绊·改弹幕LV8",
+		damage = 17,
+		base = 64231
+	}
+	uv0.weapon_property_112[64239] = {
+		id = 64239,
+		name = "霞光之绊·改弹幕LV9",
+		damage = 18,
+		base = 64231
+	}
+	uv0.weapon_property_112[64240] = {
+		id = 64240,
+		name = "霞光之绊·改弹幕LV10",
+		damage = 20,
+		base = 64231
+	}
+	uv0.weapon_property_112[64241] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "霞光之绊·改鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 64241,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19310,
+			19310
+		},
+		barrage_ID = {
+			81116,
+			81117
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_112[64242] = {
+		id = 64242,
+		name = "霞光之绊·改鱼雷LV2",
+		damage = 46,
+		base = 64241
+	}
+	uv0.weapon_property_112[64243] = {
+		id = 64243,
+		name = "霞光之绊·改鱼雷LV3",
+		damage = 57,
+		base = 64241
+	}
+	uv0.weapon_property_112[64244] = {
+		id = 64244,
+		name = "霞光之绊·改鱼雷LV4",
+		damage = 68,
+		base = 64241
+	}
+	uv0.weapon_property_112[64245] = {
+		id = 64245,
+		name = "霞光之绊·改鱼雷LV5",
+		damage = 79,
+		base = 64241
+	}
+	uv0.weapon_property_112[64246] = {
+		id = 64246,
+		name = "霞光之绊·改鱼雷LV6",
+		damage = 90,
+		base = 64241
+	}
+	uv0.weapon_property_112[64247] = {
+		id = 64247,
+		name = "霞光之绊·改鱼雷LV7",
+		damage = 101,
+		base = 64241
+	}
+	uv0.weapon_property_112[64248] = {
+		id = 64248,
+		name = "霞光之绊·改鱼雷LV8",
+		damage = 112,
+		base = 64241
+	}
 	uv0.weapon_property_112[64249] = {
 		id = 64249,
 		name = "霞光之绊·改鱼雷LV9",
@@ -514,174 +620,5 @@ function ()
 		name = "香槟独立射击大子弹天运强化LV10",
 		damage = 186,
 		base = 64291
-	}
-	uv0.weapon_property_112[64301] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "白龙天雷落雷飞机 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 5,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 64301,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			64301
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[64302] = {
-		name = "白龙天雷落雷飞机 Lv2",
-		damage = 1,
-		base = 64301,
-		id = 64302,
-		bullet_ID = {
-			64302
-		}
-	}
-	uv0.weapon_property_112[64303] = {
-		name = "白龙天雷落雷飞机 Lv3",
-		damage = 1,
-		base = 64301,
-		id = 64303,
-		bullet_ID = {
-			64303
-		}
-	}
-	uv0.weapon_property_112[64304] = {
-		name = "白龙天雷落雷飞机 Lv4-4级起2次",
-		damage = 1,
-		base = 64301,
-		id = 64304,
-		bullet_ID = {
-			64304
-		}
-	}
-	uv0.weapon_property_112[64305] = {
-		name = "白龙天雷落雷飞机 Lv5",
-		damage = 1,
-		base = 64301,
-		id = 64305,
-		bullet_ID = {
-			64305
-		}
-	}
-	uv0.weapon_property_112[64306] = {
-		name = "白龙天雷落雷飞机 Lv6",
-		damage = 1,
-		base = 64301,
-		id = 64306,
-		bullet_ID = {
-			64306
-		}
-	}
-	uv0.weapon_property_112[64307] = {
-		name = "白龙天雷落雷飞机 Lv7-7级起3次",
-		damage = 1,
-		base = 64301,
-		id = 64307,
-		bullet_ID = {
-			64307
-		}
-	}
-	uv0.weapon_property_112[64308] = {
-		name = "白龙天雷落雷飞机 Lv8",
-		damage = 1,
-		base = 64301,
-		id = 64308,
-		bullet_ID = {
-			64308
-		}
-	}
-	uv0.weapon_property_112[64309] = {
-		name = "白龙天雷落雷飞机 Lv9",
-		damage = 1,
-		base = 64301,
-		id = 64309,
-		bullet_ID = {
-			64309
-		}
-	}
-	uv0.weapon_property_112[64310] = {
-		name = "白龙天雷落雷飞机 Lv10",
-		damage = 1,
-		base = 64301,
-		id = 64310,
-		bullet_ID = {
-			64310
-		}
-	}
-	uv0.weapon_property_112[64311] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "白龙搭载彩云舰攻型 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 5,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 64311,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			64311
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

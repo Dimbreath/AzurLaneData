@@ -24,7 +24,9 @@ end
 
 function slot0.CheckInTime(slot0)
 	if slot0:getConfig("act_id") ~= nil then
-		return pg.TimeMgr.GetInstance():inTime(pg.activity_template[slot1].time)
+		if pg.activity_template[slot1] then
+			return pg.TimeMgr.GetInstance():inTime(slot2.time)
+		end
 	else
 		return true
 	end

@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
+	[85381] = {
+		id = 85381,
+		damage = "36/回",
+		base = 85380,
+		weapon_id = {
+			85381
+		}
+	},
+	[85382] = {
+		id = 85382,
+		damage = "41/回",
+		base = 85380,
+		weapon_id = {
+			85382
+		}
+	},
+	[85383] = {
+		id = 85383,
+		damage = "45/回",
+		base = 85380,
+		weapon_id = {
+			85383
+		}
+	},
+	[85384] = {
+		id = 85384,
+		damage = "51/回",
+		base = 85380,
+		weapon_id = {
+			85384
+		}
+	},
+	[85385] = {
+		id = 85385,
+		damage = "57/回",
+		base = 85380,
+		weapon_id = {
+			85385
+		}
+	},
 	[85386] = {
 		id = 85386,
 		damage = "64/回",
@@ -148,92 +188,6 @@ pg.equip_data_statistics_359 = {
 		base = 85400,
 		weapon_id = {
 			85410
-		}
-	},
-	[85411] = {
-		anti_siren = 100,
-		damage = "96/回",
-		base = 85400,
-		id = 85411,
-		weapon_id = {
-			85411
-		}
-	},
-	[85420] = {
-		name = "305mm三連装砲Model1907",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85420",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "54 x 3",
-		nationality = 7,
-		ammo = 2,
-		value_3 = 0,
-		id = 85420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85420
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"BB",
-			"MG",
-			"GangutMG"
-		}
-	},
-	[85421] = {
-		id = 85421,
-		damage = "59 x 3",
-		base = 85420,
-		weapon_id = {
-			85421
-		}
-	},
-	[85422] = {
-		id = 85422,
-		damage = "64 x 3",
-		base = 85420,
-		weapon_id = {
-			85422
-		}
-	},
-	[85423] = {
-		id = 85423,
-		damage = "70 x 3",
-		base = 85420,
-		weapon_id = {
-			85423
 		}
 	}
 }

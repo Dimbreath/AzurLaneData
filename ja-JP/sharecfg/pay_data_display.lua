@@ -2382,6 +2382,106 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	{
+		limit_arg = 1,
+		descrip_extra = "※購入されたパックはメールに送られます。ご注意ください",
+		type = 1,
+		name = "着任応援パック・Ⅳ",
+		descrip = "ダイヤ×1980、兵装開発専用①・選択装備箱×1などのアイテムを入手可能！",
+		subject = "着任応援パック・Ⅳ",
+		extra_service = 3,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support4",
+		id_str = "com.bilibili.blhx.zuanshi130",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 31,
+		airijp_id = "com.yostarjp.azurlane.diamond122",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				30121,
+				10
+			},
+			{
+				2,
+				30114,
+				35
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				14004,
+				25
+			},
+			{
+				2,
+				30203,
+				1
+			},
+			{
+				2,
+				42036,
+				5
+			},
+			{
+				2,
+				16003,
+				10
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				30114,
+				35
+			},
+			{
+				2,
+				30121,
+				10
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2412,6 +2512,7 @@ pg.pay_data_display = {
 		27,
 		28,
 		29,
-		30
+		30,
+		31
 	}
 }

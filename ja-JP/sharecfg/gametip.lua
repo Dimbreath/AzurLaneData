@@ -3069,7 +3069,7 @@ No.7 駆逐艦「鞍山」
 		tip = "前に発動したオーダーからの時間経過に応じて消費行動力が変化します"
 	},
 	world_instruction_submarine_9 = {
-		tip = "潜水支援は行動力消費が\n以下の場合、戦闘中自動で行います"
+		tip = "潜水支援は行動力消費が"
 	},
 	world_instruction_submarine_10 = {
 		tip = "以下の場合、戦闘中自動で\n行います"
@@ -3840,6 +3840,9 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 	word_shipNation_doa = {
 		tip = "DOAXVV"
 	},
+	word_shipNation_imas = {
+		tip = "アイドルマスター"
+	},
 	word_shipNation_link = {
 		tip = "コラボ"
 	},
@@ -4016,6 +4019,24 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 お互いを深く愛し、支え合い
 末永く運命を共にすることを、誓います
                                           $1]]
+	},
+	intimacy_desc_ring = {
+		tip = "「誓いの指輪」1個"
+	},
+	intimacy_desc_tiara = {
+		tip = "「絆のティアラ」1個"
+	},
+	intimacy_desc_day = {
+		tip = ""
+	},
+	word_propose_cost_tip1 = {
+		tip = "絆のティアラを<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>)\n\n絆のティアラを使用すると、性能が<color=#92fc63>3%</color>強化されます。※名前は変更できません"
+	},
+	word_propose_cost_tip2 = {
+		tip = "誓いの指輪<color=#92fc63>1</color>個を絆のティアラ<color=#ff5c5c>1</color>個に交換しますか？\n<color=#92fc63>※交換後、誓いの指輪に戻すことはできません\n</color>※このキャラの名前は変更できません"
+	},
+	word_propose_tiara_tip = {
+		tip = "大事な仲間に絆のティアラを――"
 	},
 	charge_title_getitem = {
 		tip = "下記のアイテムが手に入ります："
@@ -6608,7 +6629,7 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 		tip = "次の段階は目玉報酬を全部交換したことで開放されます"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>21.5.27-21.6.16</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+		tip = "*<color=#A1E400FF>21.7.22-21.8.4</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
 	},
 	twitter_link_title = {
 		tip = "連携中のツイッター：$1"
@@ -7617,7 +7638,7 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 		tip = "アビリティPtが不足しています"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、「龍鳳」、「駿河」、「風雲」 などの出現率UP！"
+		tip = "イベント期間、天海春香、如月千早、水瀬伊織など出現率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "「ビスマルク」「キング・ジョージ5世」などが常設実装！"
@@ -14539,6 +14560,22 @@ EN補給箱・小×45
 			}
 		}
 	},
+	handshake_game_help = {
+		tip = {
+			{
+				info = [[
+■概要
+「饅頭渡し会」とは、饅頭スタッフとなって、ファンのほしいグッズを渡しスコアを獲得するゲームになります。
+饅頭渡し会は7日間プレイする（最後まで進捗させる）と、兵装「輝きのブレスレット」を入手できます。
+
+■遊び方
+・画面右側の饅頭ファンの吹き出しに表示される3つのグッズアイコンを、画面左側のグッズアイコンの中から同じアイコンを素早く選んでタップします。
+・正しいアイコンを全部タップすると、饅頭ファンは会場から離れます。間違ったアイコンをタップすると、正しいアイコンが表示され、再度正しいアイコンをタップできます。
+・饅頭ファンの会場での待ち時間は15秒です。饅頭ファンが待っている間に正しいアイコンをタップしないと、饅頭ファンが会場から離れ、体力値が1失われます。
+・体力値が0になるか、もしくは残り時間が0になると、ゲーム終了になります。]]
+			}
+		}
+	},
 	MeixiV4_help = {
 		tip = {
 			{
@@ -14607,6 +14644,93 @@ EN補給箱・小×45
 	},
 	activity_permanent_finished = {
 		tip = "完了"
+	},
+	idolmaster_main = {
+		tip = {
+			{
+				info = [[
+■概要
+キャンペーン「裏山会場」は下記の内容で構成されます。
+・コラボイベント「海に響くアイドルの歌」海域への移動ボタン
+・ミニゲーム
+・記念章
+
+■コラボイベント
+・7.22-8.5の間、コラボイベント限定海域が開放され、「コラボPt」を入手できます。
+・「コラボPt」は累計入手数報酬のほか、ショップにて様々な報酬と交換できます。
+・また、7.22-8.4の間に毎日1個特殊委託が開放されます。委託を完成させると、特殊報酬を入手できます。
+　※特殊委託の報酬受領期限は8.11まで
+
+■ミニゲームについて
+・ミニゲーム「饅頭渡し会」は7.28まで毎日新しい進捗が開放されます。
+・ミニゲームを7日間プレイし、最後まで進捗させると、兵装「輝きのブレスレット」を入手できます。
+
+■記念章について
+・記念章ページの各種実績を達成すると、コラボキャラのプロフィール紹介が開放されます。
+・プロフォールを全14個開放（全実績達成）すると、記念家具「765記念章」を入手できます。
+]]
+			}
+		}
+	},
+	idolmaster_game_tip1 = {
+		tip = "ゲームを再開しますか？"
+	},
+	idolmaster_game_tip2 = {
+		tip = "ゲームを終了しますか？"
+	},
+	idolmaster_game_tip3 = {
+		tip = "今回得点"
+	},
+	idolmaster_game_tip4 = {
+		tip = "最高記録"
+	},
+	idolmaster_game_tip5 = {
+		tip = "得点"
+	},
+	idolmaster_collection = {
+		tip = {
+			{
+				info = "イベント期間：<color=#92fc63>7.22-8.5</color>\n1.コラボイベント「海に響くアイドルの歌」に参加し、アイドルプロフィールを<color=#92fc63>14</color>個開放すると、記念家具<color=#92fc63>「765記念章」</color>を入手できます"
+			},
+			{
+				info = [[
+2.アイドルプロフィールは下記の方法で開放できます：
+①イベントステージをクリア
+②イベント任務をクリア
+③「コラボpt」を集める
+④ミニゲーム「饅頭渡し会」をプレイする]]
+			},
+			{
+				info = "3.記念アイテムの入手期限は、8月11日23時59分までとなります"
+			}
+		}
+	},
+	idolmaster_voice_name_feeling1 = {
+		tip = "失望"
+	},
+	idolmaster_voice_name_feeling2 = {
+		tip = "普通"
+	},
+	idolmaster_voice_name_feeling3 = {
+		tip = "友好"
+	},
+	idolmaster_voice_name_feeling4 = {
+		tip = "協力"
+	},
+	idolmaster_voice_name_feeling5 = {
+		tip = "応援"
+	},
+	idolmaster_voice_name_propose = {
+		tip = "団結"
+	},
+	cartoon_notall = {
+		tip = "未読"
+	},
+	cartoon_haveno = {
+		tip = "読める1コママンガが存在しません"
+	},
+	res_cartoon_new_tip = {
+		tip = "新たに1コママンガが$1個追加されました！"
 	},
 	memory_actiivty_ex = {
 		tip = "イベント"

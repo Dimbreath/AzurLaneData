@@ -2,6 +2,130 @@ pg = pg or {}
 pg.weapon_property_20 = {}
 
 function ()
+	uv0.weapon_property_20[17151] = {
+		reload_max = 1587,
+		damage = 62,
+		base = 17140,
+		id = 17151,
+		bullet_ID = {
+			17110
+		}
+	}
+	uv0.weapon_property_20[17200] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "F4U海盗T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 17200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1962,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_20[17201] = {
+		reload_max = 1938,
+		damage = 26,
+		base = 17200,
+		id = 17201,
+		bullet_ID = {
+			17201
+		}
+	}
+	uv0.weapon_property_20[17202] = {
+		reload_max = 1915,
+		damage = 28,
+		base = 17200,
+		id = 17202,
+		bullet_ID = {
+			17202
+		}
+	}
+	uv0.weapon_property_20[17203] = {
+		reload_max = 1891,
+		damage = 31,
+		base = 17200,
+		id = 17203,
+		bullet_ID = {
+			17203
+		}
+	}
+	uv0.weapon_property_20[17220] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "F4U海盗T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 24,
+		corrected = 100,
+		min_range = 0,
+		id = 17220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1924,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_20[17221] = {
 		reload_max = 1900,
 		damage = 28,
@@ -688,60 +812,6 @@ function ()
 		id = 17346,
 		bullet_ID = {
 			17306
-		}
-	}
-	uv0.weapon_property_20[17347] = {
-		reload_max = 1711,
-		damage = 71,
-		base = 17340,
-		id = 17347,
-		bullet_ID = {
-			17307
-		}
-	}
-	uv0.weapon_property_20[17348] = {
-		reload_max = 1687,
-		damage = 75,
-		base = 17340,
-		id = 17348,
-		bullet_ID = {
-			17308
-		}
-	}
-	uv0.weapon_property_20[17349] = {
-		reload_max = 1663,
-		damage = 81,
-		base = 17340,
-		id = 17349,
-		bullet_ID = {
-			17309
-		}
-	}
-	uv0.weapon_property_20[17350] = {
-		reload_max = 1639,
-		damage = 86,
-		base = 17340,
-		id = 17350,
-		bullet_ID = {
-			17310
-		}
-	}
-	uv0.weapon_property_20[17351] = {
-		reload_max = 1639,
-		damage = 86,
-		base = 17340,
-		id = 17351,
-		bullet_ID = {
-			17310
-		}
-	}
-	uv0.weapon_property_20[17352] = {
-		reload_max = 1639,
-		damage = 86,
-		base = 17340,
-		id = 17352,
-		bullet_ID = {
-			17310
 		}
 	}
 end()

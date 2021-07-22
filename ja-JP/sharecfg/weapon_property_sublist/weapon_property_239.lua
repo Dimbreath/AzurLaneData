@@ -2,7 +2,407 @@ pg = pg or {}
 pg.weapon_property_239 = {}
 
 function ()
-	uv0.weapon_property_239[473133] = {
+	uv0.weapon_property_239[472107] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z20-Q版驱逐单发瞄准x4随机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 125,
+		min_range = 0,
+		id = 472107,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472108] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z20-Q版四联装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 472108,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472109] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z21-Q版驱逐单发瞄准x4随机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 125,
+		min_range = 0,
+		id = 472109,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472110] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z21-Q版四联装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 472110,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472111] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z46-专用武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 472111,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20005,
+			20005
+		},
+		barrage_ID = {
+			200034,
+			200035
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472112] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z46-专用武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 472112,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20005,
+			20005
+		},
+		barrage_ID = {
+			200034,
+			200035
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472113] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z46-鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 472113,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			10007
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472114] = {
+		action_index = "attack",
+		range = 25,
+		type = 4,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】Z46-防空炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 472114,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30055
+		},
+		barrage_ID = {
+			14001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472121] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】柯尼斯堡-驱逐弹幕",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 472121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			400801
+		},
+		barrage_ID = {
+			400801
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472122] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -10,16 +410,531 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】莱比锡-Q版穿透弹三横追踪弹",
+		name = "【异色格C】【人型】柯尼斯堡-Q版穿透弹散射6连",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 16,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 473133,
+		id = 472122,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300103
+		},
+		barrage_ID = {
+			300103
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_239[472123] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】柯尼斯堡-Q版分裂散弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 472123,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300601
+		},
+		barrage_ID = {
+			300601
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472124] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】柯尼斯堡-Q版延迟散型4连鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 472124,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300504,
+			300505
+		},
+		barrage_ID = {
+			300504,
+			300505
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472125] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】科隆-Q版穿透弹延迟散射4连",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 472125,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300101
+		},
+		barrage_ID = {
+			300101
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_239[472126] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】科隆-Q版穿透弹延迟散射4连",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 472126,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300102
+		},
+		barrage_ID = {
+			300102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_239[472127] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】科隆-Q版旋转子弹散射8连",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 472127,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300202
+		},
+		barrage_ID = {
+			300202
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472128] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】科隆-Q版散型3发快速鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 472128,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300506
+		},
+		barrage_ID = {
+			300506
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472129] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】卡尔斯鲁厄-Q版穿透弹延迟散射4连",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 472129,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300102
+		},
+		barrage_ID = {
+			300102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_239[472130] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】卡尔斯鲁厄-Q版穿透弹交叉三横射",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 472130,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300112,
+			300113,
+			300114
+		},
+		barrage_ID = {
+			300112,
+			300113,
+			300114
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_239[472131] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】卡尔斯鲁厄-Q版旋转子弹散射8连循环3次",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 472131,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300203
+		},
+		barrage_ID = {
+			300203
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472132] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】卡尔斯鲁厄-Q版散型3发快速鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 472132,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300506
+		},
+		barrage_ID = {
+			300506
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472133] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【人型】莱比锡-Q版穿透弹三横追踪弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 472133,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -55,7 +970,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473134] = {
+	uv0.weapon_property_239[472134] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -63,16 +978,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】莱比锡-Q版旋转子弹散射8连",
+		name = "【异色格C】【人型】莱比锡-Q版旋转子弹散射8连",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 473134,
+		id = 472134,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -99,7 +1014,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473135] = {
+	uv0.weapon_property_239[472135] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -107,16 +1022,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】莱比锡-Q版分裂散弹",
+		name = "【异色格C】【人型】莱比锡-Q版分裂散弹",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 473135,
+		id = 472135,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -143,7 +1058,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473136] = {
+	uv0.weapon_property_239[472136] = {
 		action_index = "",
 		range = 72,
 		type = 3,
@@ -151,16 +1066,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】莱比锡-Q版散型3发快速鱼雷",
+		name = "【异色格C】【人型】莱比锡-Q版散型3发快速鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 54,
+		damage = 43,
 		corrected = 100,
 		min_range = 0,
-		id = 473136,
+		id = 472136,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -187,7 +1102,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473141] = {
+	uv0.weapon_property_239[472141] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -195,16 +1110,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】希佩尔-Q版近程自卫火炮II",
+		name = "【异色格C】【人型】希佩尔-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473141,
+		id = 472141,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -231,7 +1146,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473142] = {
+	uv0.weapon_property_239[472142] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -239,16 +1154,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】希佩尔-Q版重巡单发主炮x4-瞄准II",
+		name = "【异色格C】【人型】希佩尔-Q版重巡单发主炮x4-瞄准II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473142,
+		id = 472142,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -275,7 +1190,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473143] = {
+	uv0.weapon_property_239[472143] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -283,16 +1198,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】希佩尔-Q版双联装鱼雷II",
+		name = "【异色格C】【人型】希佩尔-Q版双联装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 43,
 		corrected = 100,
 		min_range = 0,
-		id = 473143,
+		id = 472143,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -319,7 +1234,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473144] = {
+	uv0.weapon_property_239[472144] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -327,16 +1242,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】德意志-Q版近程自卫火炮II",
+		name = "【异色格C】【人型】德意志-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473144,
+		id = 472144,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -363,7 +1278,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473145] = {
+	uv0.weapon_property_239[472145] = {
 		action_index = "attack",
 		range = 100,
 		type = 1,
@@ -371,16 +1286,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】德意志-Q版重巡联装主炮x6-散射II",
+		name = "【异色格C】【人型】德意志-Q版重巡联装主炮x6-散射II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473145,
+		id = 472145,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -407,7 +1322,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473146] = {
+	uv0.weapon_property_239[472146] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -415,16 +1330,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】德意志-Q版三联装鱼雷II",
+		name = "【异色格C】【人型】德意志-Q版三联装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 43,
 		corrected = 100,
 		min_range = 0,
-		id = 473146,
+		id = 472146,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -451,7 +1366,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473147] = {
+	uv0.weapon_property_239[472147] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -459,16 +1374,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】欧根亲王-专用武器",
+		name = "【异色格C】【人型】欧根亲王-专用武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 473147,
+		id = 472147,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -497,7 +1412,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473148] = {
+	uv0.weapon_property_239[472148] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -505,16 +1420,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】欧根亲王-专用武器",
+		name = "【异色格C】【人型】欧根亲王-专用武器",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473148,
+		id = 472148,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -541,7 +1456,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473149] = {
+	uv0.weapon_property_239[472149] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -549,16 +1464,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】欧根亲王-专用武器",
+		name = "【异色格C】【人型】欧根亲王-专用武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 473149,
+		id = 472149,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -587,7 +1502,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473150] = {
+	uv0.weapon_property_239[472150] = {
 		action_index = "",
 		range = 72,
 		type = 3,
@@ -595,16 +1510,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】欧根亲王-Q版散型3发快速鱼雷",
+		name = "【异色格C】【人型】欧根亲王-Q版散型3发快速鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 54,
+		damage = 43,
 		corrected = 100,
 		min_range = 0,
-		id = 473150,
+		id = 472150,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -631,7 +1546,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473151] = {
+	uv0.weapon_property_239[472151] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -639,16 +1554,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】沙恩霍斯特-Q版近程自卫火炮II",
+		name = "【异色格C】【人型】沙恩霍斯特-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473151,
+		id = 472151,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -675,7 +1590,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473152] = {
+	uv0.weapon_property_239[472152] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -683,16 +1598,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】沙恩霍斯特-Q版重巡联装主炮x6-轮射II",
+		name = "【异色格C】【人型】沙恩霍斯特-Q版重巡联装主炮x6-轮射II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473152,
+		id = 472152,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -719,7 +1634,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473153] = {
+	uv0.weapon_property_239[472153] = {
 		action_index = "attack",
 		range = 70,
 		type = 19,
@@ -727,16 +1642,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】沙恩霍斯特-平射",
+		name = "【异色格C】【人型】沙恩霍斯特-平射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 48,
+		damage = 45,
 		corrected = 100,
 		min_range = 0,
-		id = 473153,
+		id = 472153,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -768,7 +1683,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473154] = {
+	uv0.weapon_property_239[472154] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -776,16 +1691,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】沙恩霍斯特-战列跨射攻击后排武器3x2轮-简单",
+		name = "【异色格C】【人型】沙恩霍斯特-战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 68,
+		damage = 58,
 		corrected = 100,
 		min_range = 75,
-		id = 473154,
+		id = 472154,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -817,7 +1732,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473155] = {
+	uv0.weapon_property_239[472155] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -825,16 +1740,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】格奈森瑙-Q版近程自卫火炮II",
+		name = "【异色格C】【人型】格奈森瑙-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473155,
+		id = 472155,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -861,7 +1776,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473156] = {
+	uv0.weapon_property_239[472156] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -869,16 +1784,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】格奈森瑙-Q版重巡单发主炮x4-瞄准II",
+		name = "【异色格C】【人型】格奈森瑙-Q版重巡单发主炮x4-瞄准II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473156,
+		id = 472156,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -905,7 +1820,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473157] = {
+	uv0.weapon_property_239[472157] = {
 		action_index = "attack",
 		range = 70,
 		type = 19,
@@ -913,16 +1828,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】格奈森瑙-平射",
+		name = "【异色格C】【人型】格奈森瑙-平射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 48,
+		damage = 45,
 		corrected = 100,
 		min_range = 0,
-		id = 473157,
+		id = 472157,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -954,7 +1869,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473158] = {
+	uv0.weapon_property_239[472158] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -962,16 +1877,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】格奈森瑙-战列跨射攻击后排武器3x2轮-简单",
+		name = "【异色格C】【人型】格奈森瑙-战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 68,
+		damage = 58,
 		corrected = 100,
 		min_range = 75,
-		id = 473158,
+		id = 472158,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1003,7 +1918,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473159] = {
+	uv0.weapon_property_239[472159] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1011,16 +1926,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】提尔比茨-Q版近程自卫火炮II",
+		name = "【异色格C】【人型】提尔比茨-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473159,
+		id = 472159,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1047,7 +1962,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473160] = {
+	uv0.weapon_property_239[472160] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1055,16 +1970,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】提尔比茨-Q版重巡联装主炮x6-轮射II",
+		name = "【异色格C】【人型】提尔比茨-Q版重巡联装主炮x6-轮射II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473160,
+		id = 472160,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1091,7 +2006,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473161] = {
+	uv0.weapon_property_239[472161] = {
 		action_index = "attack",
 		range = 70,
 		type = 19,
@@ -1099,16 +2014,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】提尔比茨-平射",
+		name = "【异色格C】【人型】提尔比茨-平射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 48,
+		damage = 45,
 		corrected = 100,
 		min_range = 0,
-		id = 473161,
+		id = 472161,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1140,7 +2055,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473162] = {
+	uv0.weapon_property_239[472162] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -1148,16 +2063,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】提尔比茨-战列跨射攻击后排武器2x3轮-困难",
+		name = "【异色格C】【人型】提尔比茨-战列跨射攻击后排武器2x3轮-困难",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 68,
+		damage = 58,
 		corrected = 100,
 		min_range = 80,
-		id = 473162,
+		id = 472162,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1189,7 +2104,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473171] = {
+	uv0.weapon_property_239[472171] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1197,16 +2112,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】齐柏林-Q版近程自卫火炮II",
+		name = "【异色格C】【人型】齐柏林-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473171,
+		id = 472171,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1233,7 +2148,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473172] = {
+	uv0.weapon_property_239[472172] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -1241,16 +2156,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】齐柏林-Q版单发x6随机II",
+		name = "【异色格C】【人型】齐柏林-Q版单发x6随机II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 14,
+		damage = 12,
 		corrected = 125,
 		min_range = 0,
-		id = 473172,
+		id = 472172,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1277,7 +2192,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473173] = {
+	uv0.weapon_property_239[472173] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -1285,16 +2200,16 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】齐柏林-鱼雷机T1",
+		name = "【异色格C】【人型】齐柏林-鱼雷机T1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 48,
+		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 473173,
+		id = 472173,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1321,7 +2236,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473174] = {
+	uv0.weapon_property_239[472174] = {
 		action_index = "attack",
 		range = 120,
 		type = 11,
@@ -1329,16 +2244,16 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】齐柏林-BF109T",
+		name = "【异色格C】【人型】齐柏林-BF109T",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 36,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 473174,
+		id = 472174,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1365,7 +2280,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473175] = {
+	uv0.weapon_property_239[472175] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -1373,16 +2288,16 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】齐柏林-JU87C",
+		name = "【异色格C】【人型】齐柏林-JU87C",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 60,
+		damage = 50,
 		corrected = 100,
 		min_range = 0,
-		id = 473175,
+		id = 472175,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1409,7 +2324,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473176] = {
+	uv0.weapon_property_239[472176] = {
 		action_index = "attack",
 		range = 120,
 		type = 11,
@@ -1417,16 +2332,16 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】齐柏林-Me155A",
+		name = "【异色格C】【人型】齐柏林-Me155A",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 42,
+		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 473176,
+		id = 472176,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1453,241 +2368,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473201] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】Z46-Q版驱逐单发瞄准x4随机II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 125,
-		min_range = 0,
-		id = 473201,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473202] = {
-		action_index = "attack",
-		range = 52,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】Z46-磁性鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 0,
-		id = 473202,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			399986,
-			399985,
-			399984,
-			399983
-		},
-		barrage_ID = {
-			399986,
-			399985,
-			399984,
-			399983
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473203] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】Z46-炮击一型",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 473203,
-		attack_attribute_ratio = 90,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			399982
-		},
-		barrage_ID = {
-			399982
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473204] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】Z46-特殊武器",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 473204,
-		attack_attribute_ratio = 90,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1250,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			60101,
-			60101,
-			60101,
-			60101
-		},
-		barrage_ID = {
-			60101,
-			60102,
-			60103,
-			60104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473205] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】Z46-专用武器",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 473205,
-		attack_attribute_ratio = 90,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20005,
-			20005
-		},
-		barrage_ID = {
-			200034,
-			200035
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473301] = {
+	uv0.weapon_property_239[472201] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1695,282 +2376,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【BOSS】齐柏林-Q版近程自卫火炮IIII",
+		name = "【异色格C】【BOSS】德意志-Q版近程自卫火炮III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 473301,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			14
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473302] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】齐柏林-炮击一型",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 473302,
-		attack_attribute_ratio = 90,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			399981
-		},
-		barrage_ID = {
-			399981
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473303] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】齐柏林-炮击二型",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 473303,
-		attack_attribute_ratio = 90,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			399980,
-			399979
-		},
-		barrage_ID = {
-			399980,
-			399979
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473304] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "zhupao",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】齐柏林-BF109T",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 473304,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473305] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】齐柏林-JU87C",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 473305,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473306] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "zhupao",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】齐柏林-Me155A",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 473306,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473401] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】提尔比茨-Q版近程自卫火炮III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 473401,
+		id = 472201,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1997,28 +2412,28 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473402] = {
+	uv0.weapon_property_239[472202] = {
 		action_index = "attack",
-		range = 90,
+		range = 100,
 		type = 1,
 		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【BOSS】提尔比茨-Q版重巡联装主炮x6-轮射II",
+		name = "【异色格C】【BOSS】德意志-Q版重巡联装主炮x6-散射II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473402,
+		id = 472202,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2400,
+		reload_max = 2000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -2031,7 +2446,7 @@ function ()
 			1403
 		},
 		barrage_ID = {
-			1203
+			200102
 		},
 		oxy_type = {
 			1
@@ -2041,7 +2456,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473403] = {
+	uv0.weapon_property_239[472203] = {
 		action_index = "attack",
 		range = 52,
 		type = 3,
@@ -2049,33 +2464,35 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【BOSS】提尔比茨-6联装533mm磁性鱼雷",
-		aim_type = 1,
+		name = "【异色格C】【BOSS】德意志-磁性鱼雷",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 60,
+		damage = 52,
 		corrected = 100,
 		min_range = 0,
-		id = 473403,
+		id = 472203,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 3830,
+		reload_max = 3850,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 1,
 		bullet_ID = {
+			1803,
 			1803
 		},
 		barrage_ID = {
-			1410
+			399978,
+			399977
 		},
 		oxy_type = {
 			1
@@ -2085,210 +2502,24 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473404] = {
+	uv0.weapon_property_239[472204] = {
 		action_index = "attack",
-		range = 90,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】提尔比茨-每10秒跨射攻击buff武器",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 10,
-		id = 473404,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			399988
-		},
-		barrage_ID = {
-			399988
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_239[473405] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】提尔比茨-战列跨射攻击后排武器2x4轮-困难",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 85,
-		id = 473405,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1531
-		},
-		barrage_ID = {
-			20017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_239[473501] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "zhupao",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】测试者β型-浮游炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 35,
-		corrected = 100,
-		min_range = 0,
-		id = 473501,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12019
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473502] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】测试者β型-Q版近程自卫火炮IIII",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 473502,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 700,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			14
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473503] = {
-		action_index = "attack",
-		range = 90,
+		range = 100,
 		type = 1,
 		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【BOSS】测试者β型-炮击一型",
+		name = "【异色格C】【BOSS】德意志-专用武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 473503,
+		id = 472204,
 		attack_attribute_ratio = 90,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2302,20 +2533,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			399999,
-			399998,
-			399997,
-			399996,
-			399995,
-			399994
+			20003
 		},
 		barrage_ID = {
-			399999,
-			399998,
-			399997,
-			399996,
-			399995,
-			399994
+			200102
 		},
 		oxy_type = {
 			1
@@ -2325,97 +2546,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473504] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】测试者β型-炮击二型",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 473504,
-		attack_attribute_ratio = 90,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			399993,
-			399992
-		},
-		barrage_ID = {
-			399993,
-			399992
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473505] = {
-		action_index = "attack",
-		range = 52,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【BOSS】测试者β型-8联装533mm磁性鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 0,
-		id = 473505,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			399987
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473506] = {
+	uv0.weapon_property_239[472205] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -2423,16 +2554,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【BOSS】测试者β型-战列跨射攻击后排武器3x2轮-简单",
+		name = "【异色格C】【BOSS】德意志-战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 58,
+		damage = 54,
 		corrected = 100,
 		min_range = 75,
-		id = 473506,
+		id = 472205,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2446,7 +2577,7 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1530
+			30063
 		},
 		barrage_ID = {
 			20018
@@ -2464,41 +2595,41 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_239[473901] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
+	uv0.weapon_property_239[472206] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【飞机】空袭轰炸机武器",
+		name = "【异色格C】【BOSS】德意志-炮击一型",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 54,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 473901,
-		attack_attribute_ratio = 100,
+		id = 472206,
+		attack_attribute_ratio = 90,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
+		attack_attribute = 1,
+		reload_max = 1250,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			399970
 		},
 		barrage_ID = {
-			10001
+			399970
 		},
 		oxy_type = {
 			1
@@ -2508,91 +2639,41 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473902] = {
-		action_index = "",
-		range = 40,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
+	uv0.weapon_property_239[472301] = {
+		action_index = "attack",
+		range = 38,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【飞机】空袭鱼雷机武器",
+		name = "【异色格C】【BOSS】希佩尔-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 35,
-		charge_param = "",
-		damage = 43,
-		corrected = 100,
-		min_range = 22,
-		id = 473902,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 11954,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			12001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473903] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【飞机】空袭战斗机弹幕武器",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
+		angle = 360,
 		charge_param = "",
 		damage = 10,
-		corrected = 100,
+		corrected = 125,
 		min_range = 0,
-		id = 473903,
+		id = 472301,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
+		attack_attribute = 1,
+		reload_max = 600,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 1,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
+			999
 		},
 		barrage_ID = {
-			101,
-			102,
-			103,
-			104
+			12
 		},
 		oxy_type = {
 			1
@@ -2602,41 +2683,41 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473904] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
+	uv0.weapon_property_239[472302] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【飞机】空袭战斗机空中武器",
+		name = "【异色格C】【BOSS】希佩尔-炮击一型",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 34,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 473904,
-		attack_attribute_ratio = 100,
+		id = 472302,
+		attack_attribute_ratio = 90,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
+		attack_attribute = 1,
+		reload_max = 750,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10004
+			399967
 		},
 		barrage_ID = {
-			5
+			399967
 		},
 		oxy_type = {
 			1
@@ -2646,179 +2727,87 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473911] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
+	uv0.weapon_property_239[472303] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【飞机】塞壬航母蛋船轰炸机武器T1",
+		name = "【异色格C】【BOSS】希佩尔-Q版重巡单发主炮x4-瞄准II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 472303,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1403
+		},
+		barrage_ID = {
+			200091
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_239[472304] = {
+		action_index = "attack",
+		range = 52,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格C】【BOSS】希佩尔-三联装533mm磁性鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 52,
 		corrected = 100,
 		min_range = 0,
-		id = 473911,
+		id = 472304,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
+		attack_attribute = 2,
+		reload_max = 3850,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473912] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【飞机】塞壬航母蛋船战斗机弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 473912,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473913] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【飞机】塞壬航母蛋船战斗机空中",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 34,
-		corrected = 100,
-		min_range = 0,
-		id = 473913,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_239[473921] = {
-		action_index = "",
-		range = 40,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格D】【飞机】齐柏林鱼雷机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 35,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 22,
-		id = 473921,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 11954,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			10031
+			1803,
+			1803
 		},
 		barrage_ID = {
-			12001
+			399976,
+			399975
 		},
 		oxy_type = {
 			1
@@ -2828,47 +2817,43 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_239[473922] = {
-		action_index = "",
-		range = 85,
+	uv0.weapon_property_239[472305] = {
+		action_index = "attack",
+		range = 100,
 		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【飞机】齐柏林BF109T战斗机弹幕",
-		aim_type = 1,
+		name = "【异色格C】【BOSS】希佩尔-特殊武器",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 473922,
-		attack_attribute_ratio = 100,
+		id = 472305,
+		attack_attribute_ratio = 90,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
+		attack_attribute = 1,
+		reload_max = 2500,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
+		effect_move = 0,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
+			60202,
+			60203
 		},
 		barrage_ID = {
-			101,
-			102,
-			103,
-			104
+			60206,
+			60207
 		},
 		oxy_type = {
 			1

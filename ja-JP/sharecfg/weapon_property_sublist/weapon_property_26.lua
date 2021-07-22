@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_26 = {}
 
 function ()
+	uv0.weapon_property_26[21245] = {
+		id = 21245,
+		reload_max = 455,
+		damage = 5,
+		base = 21240
+	}
+	uv0.weapon_property_26[21246] = {
+		id = 21246,
+		reload_max = 450,
+		damage = 8,
+		base = 21240
+	}
+	uv0.weapon_property_26[21247] = {
+		id = 21247,
+		reload_max = 445,
+		damage = 8,
+		base = 21240
+	}
+	uv0.weapon_property_26[21248] = {
+		id = 21248,
+		reload_max = 440,
+		damage = 9,
+		base = 21240
+	}
+	uv0.weapon_property_26[21249] = {
+		id = 21249,
+		reload_max = 435,
+		damage = 9,
+		base = 21240
+	}
+	uv0.weapon_property_26[21250] = {
+		id = 21250,
+		reload_max = 430,
+		damage = 10,
+		base = 21240
+	}
 	uv0.weapon_property_26[21251] = {
 		reload_max = 430,
 		damage = 10,
@@ -646,78 +682,5 @@ function ()
 		reload_max = 253,
 		damage = 6,
 		base = 21500
-	}
-	uv0.weapon_property_26[21503] = {
-		id = 21503,
-		reload_max = 248,
-		damage = 6,
-		base = 21500
-	}
-	uv0.weapon_property_26[21520] = {
-		action_index = "attack",
-		range = 62,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装134mm高炮T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 110,
-		min_range = 0,
-		id = 21520,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 252,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1103
-		},
-		barrage_ID = {
-			1011
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_26[21521] = {
-		id = 21521,
-		reload_max = 246,
-		base = 21520
-	}
-	uv0.weapon_property_26[21522] = {
-		id = 21522,
-		reload_max = 241,
-		damage = 6,
-		base = 21520
-	}
-	uv0.weapon_property_26[21523] = {
-		id = 21523,
-		reload_max = 236,
-		damage = 6,
-		base = 21520
-	}
-	uv0.weapon_property_26[21524] = {
-		id = 21524,
-		reload_max = 231,
-		damage = 7,
-		base = 21520
 	}
 end()

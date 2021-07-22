@@ -35,43 +35,50 @@ function slot2.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot2.onBulletHitFunc(slot0, slot1, slot2)
-	slot3 = slot0:GetBulletData()
+	slot3 = uv0.GetDataProxy()
+	slot4 = slot0:GetBulletData()
+	slot5 = slot4:GetCurrentState()
+	slot6 = slot4:GetTemplate()
+	slot7 = slot6.extra_param.shrapnel
 
-	if slot3:GetCurrentState() ~= slot3.STATE_SPLIT then
-		if slot4 == slot3.STATE_SPIN then
+	if slot6.extra_param.fragile and slot1 then
+		uv1.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
+
+		return
+	end
+
+	if slot5 ~= slot4.STATE_SPLIT then
+		if slot5 == slot4.STATE_SPIN then
 			-- Nothing
-		elseif slot4 == slot3.STATE_FINAL_SPLIT then
+		elseif slot5 == slot4.STATE_FINAL_SPLIT then
 			return
-		elseif slot3:GetPierceCount() > 0 then
-			uv0.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
+		elseif slot4:GetPierceCount() > 0 then
+			uv1.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
 
 			return
 		end
 	end
-
-	slot5 = uv1.GetDataProxy()
-	slot6 = slot3:GetTemplate()
 
 	if slot1 ~= nil and slot2 ~= nil then
-		slot7 = nil
+		slot9 = nil
 
-		if slot2 == uv0.Battle.BattleConst.UnitType.AIRCRAFT_UNIT then
-			slot7 = uv1.GetSceneMediator():GetAircraft(slot1)
-		elseif slot2 == uv0.Battle.BattleConst.UnitType.PLAYER_UNIT then
-			slot7 = uv1.GetSceneMediator():GetCharacter(slot1)
-		elseif slot2 == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT then
-			slot7 = uv1.GetSceneMediator():GetCharacter(slot1)
+		if slot2 == uv1.Battle.BattleConst.UnitType.AIRCRAFT_UNIT then
+			slot9 = uv0.GetSceneMediator():GetAircraft(slot1)
+		elseif slot2 == uv1.Battle.BattleConst.UnitType.PLAYER_UNIT then
+			slot9 = uv0.GetSceneMediator():GetCharacter(slot1)
+		elseif slot2 == uv1.Battle.BattleConst.UnitType.ENEMY_UNIT then
+			slot9 = uv0.GetSceneMediator():GetCharacter(slot1)
 		end
 
-		if slot7:GetUnitData():GetIFF() == slot5:GetFoeCode() then
-			slot10 = slot7:AddFX(slot0:GetFXID()).transform
-			slot11 = slot10.localRotation
-			slot10.localRotation = Vector3(slot11.x, 180, slot11.z)
+		if slot9:GetUnitData():GetIFF() == slot3:GetFoeCode() then
+			slot12 = slot9:AddFX(slot0:GetFXID()).transform
+			slot13 = slot12.localRotation
+			slot12.localRotation = Vector3(slot13.x, 180, slot13.z)
 		end
 	end
 
-	uv0.Battle.PlayBattleSFX(slot6.hit_sfx)
-	uv1.bulletSplit(slot0, true)
+	uv1.Battle.PlayBattleSFX(slot6.hit_sfx)
+	uv0.bulletSplit(slot0, true)
 end
 
 function slot2.bulletSplit(slot0, slot1)

@@ -1,36 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_189 = {
-	[68810] = {
-		max_hp = 98,
-		name = "赤城μ技能舰攻Lv10",
-		base = 68801,
-		id = 68810,
-		hp_growth = 3678,
+	[68660] = {
+		max_hp = 91,
+		name = "可畏技能鱼雷机Lv10",
+		base = 68651,
+		id = 68660,
+		hp_growth = 3511,
 		weapon_ID = {
-			68820
+			68670
 		}
 	},
-	[68861] = {
-		name = "大神澪技能鱼雷机Lv1",
+	[68771] = {
+		name = "赤城μ技能舰爆Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "feiji_vtuber2",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_vtuber2",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 1692,
 		speed = 48,
-		id = 68861,
+		id = 68771,
 		scale = 1,
 		weapon_ID = {
-			68871
+			68781,
+			68791
 		},
 		position_offset = {
 			0,
@@ -50,13 +51,13 @@ pg.aircraft_template_189 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -73,7 +74,7 @@ pg.aircraft_template_189 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -84,84 +85,92 @@ pg.aircraft_template_189 = {
 			}
 		}
 	},
-	[68862] = {
+	[68772] = {
 		max_hp = 48,
-		name = "大神澪技能鱼雷机Lv2",
-		base = 68861,
-		id = 68862,
+		name = "赤城μ技能舰爆Lv2",
+		base = 68771,
+		id = 68772,
 		hp_growth = 1913,
 		weapon_ID = {
-			68872
+			68782,
+			68792
 		}
 	},
-	[68863] = {
+	[68773] = {
 		max_hp = 54,
-		name = "大神澪技能鱼雷机Lv3",
-		base = 68861,
-		id = 68863,
+		name = "赤城μ技能舰爆Lv3",
+		base = 68771,
+		id = 68773,
 		hp_growth = 2133,
 		weapon_ID = {
-			68873
+			68783,
+			68793
 		}
 	},
-	[68864] = {
+	[68774] = {
 		max_hp = 61,
-		name = "大神澪技能鱼雷机Lv4",
-		base = 68861,
-		id = 68864,
+		name = "赤城μ技能舰爆Lv4",
+		base = 68771,
+		id = 68774,
 		hp_growth = 2354,
 		weapon_ID = {
-			68874
+			68784,
+			68794
 		}
 	},
-	[68865] = {
+	[68775] = {
 		max_hp = 67,
-		name = "大神澪技能鱼雷机Lv5",
-		base = 68861,
-		id = 68865,
+		name = "赤城μ技能舰爆Lv5",
+		base = 68771,
+		id = 68775,
 		hp_growth = 2575,
 		weapon_ID = {
-			68875
+			68785,
+			68795
 		}
 	},
-	[68866] = {
+	[68776] = {
 		max_hp = 73,
-		name = "大神澪技能鱼雷机Lv6",
-		base = 68861,
-		id = 68866,
+		name = "赤城μ技能舰爆Lv6",
+		base = 68771,
+		id = 68776,
 		hp_growth = 2796,
 		weapon_ID = {
-			68876
+			68786,
+			68796
 		}
 	},
-	[68867] = {
+	[68777] = {
 		max_hp = 79,
-		name = "大神澪技能鱼雷机Lv7",
-		base = 68861,
-		id = 68867,
+		name = "赤城μ技能舰爆Lv7",
+		base = 68771,
+		id = 68777,
 		hp_growth = 3016,
 		weapon_ID = {
-			68877
+			68787,
+			68797
 		}
 	},
-	[68868] = {
+	[68778] = {
 		max_hp = 86,
-		name = "大神澪技能鱼雷机Lv8",
-		base = 68861,
-		id = 68868,
+		name = "赤城μ技能舰爆Lv8",
+		base = 68771,
+		id = 68778,
 		hp_growth = 3237,
 		weapon_ID = {
-			68878
+			68788,
+			68798
 		}
 	},
-	[68869] = {
+	[68779] = {
 		max_hp = 92,
-		name = "大神澪技能鱼雷机Lv9",
-		base = 68861,
-		id = 68869,
+		name = "赤城μ技能舰爆Lv9",
+		base = 68771,
+		id = 68779,
 		hp_growth = 3458,
 		weapon_ID = {
-			68879
+			68789,
+			68799
 		}
 	}
 }

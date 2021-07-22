@@ -2,6 +2,83 @@ pg = pg or {}
 pg.weapon_property_30 = {}
 
 function ()
+	uv0.weapon_property_30[24006] = {
+		id = 24006,
+		reload_max = 5128,
+		damage = 70,
+		base = 24000
+	}
+	uv0.weapon_property_30[24020] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "四联装356mm主炮T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 44,
+		corrected = 100,
+		min_range = 50,
+		id = 24020,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 5280,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1522
+		},
+		barrage_ID = {
+			1302
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 4
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_30[24021] = {
+		id = 24021,
+		reload_max = 5214,
+		damage = 50,
+		base = 24020
+	}
+	uv0.weapon_property_30[24022] = {
+		id = 24022,
+		reload_max = 5148,
+		damage = 55,
+		base = 24020
+	}
+	uv0.weapon_property_30[24023] = {
+		id = 24023,
+		reload_max = 5082,
+		damage = 61,
+		base = 24020
+	}
+	uv0.weapon_property_30[24024] = {
+		id = 24024,
+		reload_max = 5016,
+		damage = 66,
+		base = 24020
+	}
 	uv0.weapon_property_30[24025] = {
 		id = 24025,
 		reload_max = 4950,
@@ -593,42 +670,6 @@ function ()
 		id = 24161,
 		reload_max = 4236,
 		damage = 64,
-		base = 24160
-	}
-	uv0.weapon_property_30[24162] = {
-		id = 24162,
-		reload_max = 4152,
-		damage = 72,
-		base = 24160
-	}
-	uv0.weapon_property_30[24163] = {
-		id = 24163,
-		reload_max = 4068,
-		damage = 80,
-		base = 24160
-	}
-	uv0.weapon_property_30[24164] = {
-		id = 24164,
-		reload_max = 3984,
-		damage = 88,
-		base = 24160
-	}
-	uv0.weapon_property_30[24165] = {
-		id = 24165,
-		reload_max = 3900,
-		damage = 97,
-		base = 24160
-	}
-	uv0.weapon_property_30[24166] = {
-		id = 24166,
-		reload_max = 3816,
-		damage = 106,
-		base = 24160
-	}
-	uv0.weapon_property_30[24167] = {
-		id = 24167,
-		reload_max = 3732,
-		damage = 115,
 		base = 24160
 	}
 end()

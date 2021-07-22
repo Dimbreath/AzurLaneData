@@ -93,6 +93,15 @@ function slot0.initBtn(slot0)
 		activity = function (slot0)
 			onButton(uv0, slot0, function ()
 			end)
+		end,
+		mountain = function (slot0)
+			onButton(uv0, slot0, function ()
+			end)
+		end,
+		skinshop = function (slot0)
+			onButton(uv0, slot0, function ()
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+			end)
 		end
 	}
 

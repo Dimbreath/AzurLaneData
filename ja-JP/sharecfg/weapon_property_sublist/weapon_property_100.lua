@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_100 = {}
 
 function ()
+	uv0.weapon_property_100[59303] = {
+		id = 59303,
+		reload_max = 73,
+		damage = 18,
+		base = 59300
+	}
+	uv0.weapon_property_100[59304] = {
+		id = 59304,
+		reload_max = 72,
+		damage = 19,
+		base = 59300
+	}
+	uv0.weapon_property_100[59305] = {
+		id = 59305,
+		reload_max = 70,
+		damage = 20,
+		base = 59300
+	}
+	uv0.weapon_property_100[59306] = {
+		id = 59306,
+		reload_max = 68,
+		damage = 21,
+		base = 59300
+	}
+	uv0.weapon_property_100[59307] = {
+		id = 59307,
+		reload_max = 66,
+		damage = 22,
+		base = 59300
+	}
+	uv0.weapon_property_100[59308] = {
+		id = 59308,
+		reload_max = 64,
+		damage = 23,
+		base = 59300
+	}
 	uv0.weapon_property_100[59309] = {
 		id = 59309,
 		reload_max = 62,
@@ -495,79 +531,5 @@ function ()
 		reload_max = 51,
 		damage = 20,
 		base = 59420
-	}
-	uv0.weapon_property_100[59430] = {
-		id = 59430,
-		reload_max = 49,
-		damage = 22,
-		base = 59420
-	}
-	uv0.weapon_property_100[59431] = {
-		id = 59431,
-		reload_max = 49,
-		damage = 23,
-		base = 59420
-	}
-	uv0.weapon_property_100[59432] = {
-		id = 59432,
-		reload_max = 49,
-		damage = 24,
-		base = 59420
-	}
-	uv0.weapon_property_100[59433] = {
-		id = 59433,
-		reload_max = 49,
-		damage = 26,
-		base = 59420
-	}
-	uv0.weapon_property_100[59440] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 7.92mm MG17機銃",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 13,
-		corrected = 100,
-		min_range = 0,
-		id = 59440,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 60,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_100[59441] = {
-		id = 59441,
-		reload_max = 59,
-		damage = 14,
-		base = 59440
 	}
 end()

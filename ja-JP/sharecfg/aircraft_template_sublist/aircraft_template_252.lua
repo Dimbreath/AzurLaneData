@@ -1,233 +1,103 @@
 pg = pg or {}
 pg.aircraft_template_252 = {
-	[83449] = {
-		id = 83449,
-		base = 83440,
-		max_hp = 88,
-		hp_growth = 3367,
+	[83421] = {
+		id = 83421,
+		base = 83420,
+		max_hp = 42,
+		hp_growth = 1615,
+		weapon_ID = {
+			50041,
+			50541
+		}
+	},
+	[83422] = {
+		id = 83422,
+		base = 83420,
+		max_hp = 47,
+		hp_growth = 1826,
+		weapon_ID = {
+			50042,
+			50542
+		}
+	},
+	[83423] = {
+		id = 83423,
+		base = 83420,
+		max_hp = 53,
+		hp_growth = 2036,
+		weapon_ID = {
+			50043,
+			50543
+		}
+	},
+	[83424] = {
+		id = 83424,
+		base = 83420,
+		max_hp = 58,
+		hp_growth = 2247,
+		weapon_ID = {
+			50044,
+			50544
+		}
+	},
+	[83425] = {
+		id = 83425,
+		base = 83420,
+		max_hp = 64,
+		hp_growth = 2458,
+		weapon_ID = {
+			50045,
+			50545
+		}
+	},
+	[83426] = {
+		id = 83426,
+		base = 83420,
+		max_hp = 69,
+		hp_growth = 2669,
+		weapon_ID = {
+			50046,
+			50546
+		}
+	},
+	[83427] = {
+		id = 83427,
+		base = 83420,
+		max_hp = 75,
+		hp_growth = 2879,
+		weapon_ID = {
+			50047,
+			50547
+		}
+	},
+	[83428] = {
+		id = 83428,
+		base = 83420,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			50048,
+			50548
+		}
+	},
+	[83429] = {
+		id = 83429,
+		base = 83420,
+		max_hp = 86,
+		hp_growth = 3301,
 		weapon_ID = {
 			50049,
-			50569
+			50549
 		}
 	},
-	[83450] = {
-		id = 83450,
-		base = 83440,
-		max_hp = 93,
-		hp_growth = 3581,
+	[83430] = {
+		id = 83430,
+		base = 83420,
+		max_hp = 91,
+		hp_growth = 3511,
 		weapon_ID = {
 			50050,
-			50570
-		}
-	},
-	[83451] = {
-		id = 83451,
-		base = 83440,
-		max_hp = 99,
-		hp_growth = 3796,
-		weapon_ID = {
-			50051,
-			50571
-		}
-	},
-	[84000] = {
-		name = "BF-109T舰载战斗机T1",
-		max_hp = 31,
-		accuracy = 23,
-		model_ID = "BF109T",
-		ACC_growth = 0,
-		crash_DMG = 42,
-		dodge = 0.357,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 1,
-		AP_growth = 2000,
-		icon = "BF109T",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1210,
-		speed = 50,
-		id = 84000,
-		scale = 1,
-		weapon_ID = {
-			59000,
-			59400
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[84001] = {
-		id = 84001,
-		base = 84000,
-		max_hp = 36,
-		hp_growth = 1391,
-		weapon_ID = {
-			59001,
-			59401
-		}
-	},
-	[84002] = {
-		id = 84002,
-		base = 84000,
-		max_hp = 41,
-		hp_growth = 1572,
-		weapon_ID = {
-			59002,
-			59402
-		}
-	},
-	[84003] = {
-		id = 84003,
-		base = 84000,
-		max_hp = 46,
-		hp_growth = 1754,
-		weapon_ID = {
-			59003,
-			59403
-		}
-	},
-	[84020] = {
-		name = "BF-109T舰载战斗机T2",
-		max_hp = 35,
-		accuracy = 23,
-		model_ID = "BF109T",
-		ACC_growth = 0,
-		crash_DMG = 42,
-		dodge = 0.345,
-		attack_power = 2,
-		dodge_limit = 8.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "BF109T",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1344,
-		speed = 50,
-		id = 84020,
-		scale = 1,
-		weapon_ID = {
-			59020,
-			59420
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[84021] = {
-		id = 84021,
-		base = 84020,
-		max_hp = 40,
-		hp_growth = 1546,
-		weapon_ID = {
-			59021,
-			59421
-		}
-	},
-	[84022] = {
-		id = 84022,
-		base = 84020,
-		max_hp = 45,
-		hp_growth = 1747,
-		weapon_ID = {
-			59022,
-			59422
+			50550
 		}
 	}
 }

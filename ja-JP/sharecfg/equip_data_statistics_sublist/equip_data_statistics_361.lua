@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.equip_data_statistics_361 = {
+	[85460] = {
+		name = "180mm三連装砲B-1-P Model1932",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
+		value_2 = 12,
+		icon = "85460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "16 x 3",
+		nationality = 7,
+		ammo = 1,
+		value_3 = 0,
+		id = 85460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1712
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1712
+			},
+			{
+				4,
+				1108
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85460
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[85461] = {
+		id = 85461,
+		base = 85460,
+		weapon_id = {
+			85461
+		}
+	},
+	[85462] = {
+		id = 85462,
+		damage = "17 x 3",
+		base = 85460,
+		weapon_id = {
+			85462
+		}
+	},
+	[85463] = {
+		id = 85463,
+		damage = "18 x 3",
+		base = 85460,
+		weapon_id = {
+			85463
+		}
+	},
+	[85464] = {
+		id = 85464,
+		damage = "19 x 3",
+		base = 85460,
+		weapon_id = {
+			85464
+		}
+	},
 	[85465] = {
 		id = 85465,
 		damage = "20 x 3",
@@ -101,66 +192,5 @@ pg.equip_data_statistics_361 = {
 		value_2 = 14,
 		value_1 = "24",
 		base = 89000
-	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
-		base = 89000
-	},
-	[89011] = {
-		id = 89011,
-		anti_siren = 100,
-		base = 89000,
-		value_2 = 16,
-		value_1 = "26"
-	},
-	[89012] = {
-		id = 89012,
-		anti_siren = 200,
-		base = 89000,
-		value_2 = 17,
-		value_1 = "27"
-	},
-	[89013] = {
-		id = 89013,
-		anti_siren = 300,
-		base = 89000,
-		value_2 = 18,
-		value_1 = "28"
-	},
-	[89020] = {
-		name = "ぴょこぴょこ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89020,
-		value_2 = 1,
-		icon = "89020",
-		value_1 = "200",
-		attribute_2 = "luck",
-		rarity = 5,
-		descrip = "キズナアイのトレードマーク。ぴょこぴょこが本体という説も未だ根強く、ぴょこぴょこを取ると何が起こるのか……そもそもこれ、取れるんですか？",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6390
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

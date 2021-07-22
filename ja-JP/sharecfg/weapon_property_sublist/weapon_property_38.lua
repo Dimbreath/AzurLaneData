@@ -2,6 +2,36 @@ pg = pg or {}
 pg.weapon_property_38 = {}
 
 function ()
+	uv0.weapon_property_38[27062] = {
+		id = 27062,
+		reload_max = 1905,
+		base = 27060
+	}
+	uv0.weapon_property_38[27063] = {
+		id = 27063,
+		reload_max = 1867,
+		base = 27060
+	}
+	uv0.weapon_property_38[27064] = {
+		id = 27064,
+		reload_max = 1829,
+		base = 27060
+	}
+	uv0.weapon_property_38[27065] = {
+		id = 27065,
+		reload_max = 1791,
+		base = 27060
+	}
+	uv0.weapon_property_38[27066] = {
+		id = 27066,
+		reload_max = 1753,
+		base = 27060
+	}
+	uv0.weapon_property_38[27067] = {
+		id = 27067,
+		reload_max = 1715,
+		base = 27060
+	}
 	uv0.weapon_property_38[27068] = {
 		id = 27068,
 		reload_max = 1677,
@@ -725,72 +755,5 @@ function ()
 		id = 27262,
 		reload_max = 1672,
 		base = 27260
-	}
-	uv0.weapon_property_38[27263] = {
-		id = 27263,
-		reload_max = 1649,
-		base = 27260
-	}
-	uv0.weapon_property_38[27264] = {
-		id = 27264,
-		reload_max = 1626,
-		base = 27260
-	}
-	uv0.weapon_property_38[27265] = {
-		id = 27265,
-		reload_max = 1603,
-		base = 27260
-	}
-	uv0.weapon_property_38[27266] = {
-		id = 27266,
-		reload_max = 1580,
-		base = 27260
-	}
-	uv0.weapon_property_38[27267] = {
-		id = 27267,
-		reload_max = 1580,
-		base = 27260
-	}
-	uv0.weapon_property_38[27300] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "海怒T0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 36,
-		corrected = 100,
-		min_range = 0,
-		id = 27300,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1981,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

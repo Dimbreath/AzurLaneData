@@ -1,5 +1,138 @@
 pg = pg or {}
 pg.equip_data_statistics_348 = {
+	[79441] = {
+		name = "专属弹幕-棘鳍I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79441,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79441
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79442] = {
+		id = 79442,
+		name = "专属弹幕-棘鳍II",
+		base = 79441,
+		weapon_id = {
+			79442
+		}
+	},
+	[79451] = {
+		name = "全弹发射-克利夫兰μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79451,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79451
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79452] = {
+		id = 79452,
+		name = "全弹发射-克利夫兰μII",
+		base = 79451,
+		weapon_id = {
+			79452
+		}
+	},
+	[79461] = {
+		name = "全弹发射-南安普顿μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79461
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79462] = {
 		id = 79462,
 		name = "全弹发射-南安普顿μII",
@@ -281,106 +414,5 @@ pg.equip_data_statistics_348 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[79522] = {
-		id = 79522,
-		name = "专属弹幕-里诺II",
-		base = 79521,
-		weapon_id = {
-			79522
-		}
-	},
-	[79541] = {
-		name = "专属弹幕-圣女贞德I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79541,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60501
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79542] = {
-		id = 79542,
-		name = "专属弹幕-圣女贞德II",
-		base = 79541,
-		weapon_id = {
-			60502
-		}
-	},
-	[79551] = {
-		name = "专属弹幕-柴郡I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		descrip = "スキル弾幕",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79551,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79551
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79552] = {
-		id = 79552,
-		name = "专属弹幕-柴郡II",
-		base = 79551,
-		weapon_id = {
-			79552
-		}
 	}
 }

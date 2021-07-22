@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_104 = {}
 
 function ()
+	uv0.weapon_property_104[59743] = {
+		id = 59743,
+		reload_max = 145,
+		damage = 39,
+		base = 59740
+	}
+	uv0.weapon_property_104[59744] = {
+		id = 59744,
+		reload_max = 141,
+		damage = 45,
+		base = 59740
+	}
+	uv0.weapon_property_104[59745] = {
+		id = 59745,
+		reload_max = 138,
+		damage = 48,
+		base = 59740
+	}
+	uv0.weapon_property_104[59746] = {
+		id = 59746,
+		reload_max = 135,
+		damage = 51,
+		base = 59740
+	}
+	uv0.weapon_property_104[59747] = {
+		id = 59747,
+		reload_max = 132,
+		damage = 57,
+		base = 59740
+	}
+	uv0.weapon_property_104[59748] = {
+		id = 59748,
+		reload_max = 129,
+		damage = 60,
+		base = 59740
+	}
 	uv0.weapon_property_104[59749] = {
 		id = 59749,
 		reload_max = 126,
@@ -495,78 +531,5 @@ function ()
 		reload_max = 125,
 		damage = 19,
 		base = 59820
-	}
-	uv0.weapon_property_104[59830] = {
-		id = 59830,
-		reload_max = 123,
-		damage = 20,
-		base = 59820
-	}
-	uv0.weapon_property_104[59831] = {
-		id = 59831,
-		reload_max = 123,
-		damage = 21,
-		base = 59820
-	}
-	uv0.weapon_property_104[59832] = {
-		id = 59832,
-		reload_max = 123,
-		damage = 22,
-		base = 59820
-	}
-	uv0.weapon_property_104[59833] = {
-		id = 59833,
-		reload_max = 123,
-		damage = 24,
-		base = 59820
-	}
-	uv0.weapon_property_104[59840] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x APロケット",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 45,
-		charge_param = "",
-		damage = 110,
-		corrected = 100,
-		min_range = 0,
-		id = 59840,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2131
-		},
-		barrage_ID = {
-			2221
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_104[59841] = {
-		id = 59841,
-		damage = 115,
-		base = 59840
 	}
 end()

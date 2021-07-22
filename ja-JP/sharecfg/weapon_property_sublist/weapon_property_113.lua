@@ -2,6 +2,175 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 function ()
+	uv0.weapon_property_113[64301] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "白龙天雷落雷飞机 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 5,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 64301,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			64301
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_113[64302] = {
+		name = "白龙天雷落雷飞机 Lv2",
+		damage = 1,
+		base = 64301,
+		id = 64302,
+		bullet_ID = {
+			64302
+		}
+	}
+	uv0.weapon_property_113[64303] = {
+		name = "白龙天雷落雷飞机 Lv3",
+		damage = 1,
+		base = 64301,
+		id = 64303,
+		bullet_ID = {
+			64303
+		}
+	}
+	uv0.weapon_property_113[64304] = {
+		name = "白龙天雷落雷飞机 Lv4-4级起2次",
+		damage = 1,
+		base = 64301,
+		id = 64304,
+		bullet_ID = {
+			64304
+		}
+	}
+	uv0.weapon_property_113[64305] = {
+		name = "白龙天雷落雷飞机 Lv5",
+		damage = 1,
+		base = 64301,
+		id = 64305,
+		bullet_ID = {
+			64305
+		}
+	}
+	uv0.weapon_property_113[64306] = {
+		name = "白龙天雷落雷飞机 Lv6",
+		damage = 1,
+		base = 64301,
+		id = 64306,
+		bullet_ID = {
+			64306
+		}
+	}
+	uv0.weapon_property_113[64307] = {
+		name = "白龙天雷落雷飞机 Lv7-7级起3次",
+		damage = 1,
+		base = 64301,
+		id = 64307,
+		bullet_ID = {
+			64307
+		}
+	}
+	uv0.weapon_property_113[64308] = {
+		name = "白龙天雷落雷飞机 Lv8",
+		damage = 1,
+		base = 64301,
+		id = 64308,
+		bullet_ID = {
+			64308
+		}
+	}
+	uv0.weapon_property_113[64309] = {
+		name = "白龙天雷落雷飞机 Lv9",
+		damage = 1,
+		base = 64301,
+		id = 64309,
+		bullet_ID = {
+			64309
+		}
+	}
+	uv0.weapon_property_113[64310] = {
+		name = "白龙天雷落雷飞机 Lv10",
+		damage = 1,
+		base = 64301,
+		id = 64310,
+		bullet_ID = {
+			64310
+		}
+	}
+	uv0.weapon_property_113[64311] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "白龙搭载彩云舰攻型 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 5,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 64311,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			64311
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_113[64312] = {
 		name = "白龙搭载彩云舰攻型 Lv2",
 		damage = 1,
@@ -559,114 +728,5 @@ function ()
 		name = "白龙斩击技能Lv3",
 		damage = 36,
 		base = 64361
-	}
-	uv0.weapon_property_113[64364] = {
-		id = 64364,
-		name = "白龙斩击技能Lv4",
-		damage = 43,
-		base = 64361
-	}
-	uv0.weapon_property_113[64365] = {
-		id = 64365,
-		name = "白龙斩击技能Lv5",
-		damage = 50,
-		base = 64361
-	}
-	uv0.weapon_property_113[64366] = {
-		id = 64366,
-		name = "白龙斩击技能Lv6",
-		damage = 57,
-		base = 64361
-	}
-	uv0.weapon_property_113[64367] = {
-		id = 64367,
-		name = "白龙斩击技能Lv7",
-		damage = 64,
-		base = 64361
-	}
-	uv0.weapon_property_113[64368] = {
-		id = 64368,
-		name = "白龙斩击技能Lv8",
-		damage = 71,
-		base = 64361
-	}
-	uv0.weapon_property_113[64369] = {
-		id = 64369,
-		name = "白龙斩击技能Lv9",
-		damage = 78,
-		base = 64361
-	}
-	uv0.weapon_property_113[64370] = {
-		id = 64370,
-		name = "白龙斩击技能Lv10",
-		damage = 85,
-		base = 64361
-	}
-	uv0.weapon_property_113[64371] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 1,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "白龙缠绕光弹+火焰式神技能LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 360,
-		damage = 12,
-		corrected = 100,
-		min_range = 35,
-		id = 64371,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19319,
-			19320
-		},
-		barrage_ID = {
-			81136,
-			81137
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_113[64372] = {
-		id = 64372,
-		name = "白龙缠绕光弹+火焰式神技能LV2",
-		damage = 24,
-		base = 64371
-	}
-	uv0.weapon_property_113[64373] = {
-		id = 64373,
-		name = "白龙缠绕光弹+火焰式神技能LV3",
-		damage = 36,
-		base = 64371
-	}
-	uv0.weapon_property_113[64374] = {
-		id = 64374,
-		name = "白龙缠绕光弹+火焰式神技能LV4",
-		damage = 43,
-		base = 64371
 	}
 end()

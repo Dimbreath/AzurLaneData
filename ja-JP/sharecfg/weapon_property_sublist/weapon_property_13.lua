@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_13 = {}
 
 function ()
+	uv0.weapon_property_13[14221] = {
+		id = 14221,
+		reload_max = 3760,
+		damage = 62,
+		base = 14220
+	}
+	uv0.weapon_property_13[14222] = {
+		id = 14222,
+		reload_max = 3700,
+		damage = 70,
+		base = 14220
+	}
+	uv0.weapon_property_13[14223] = {
+		id = 14223,
+		reload_max = 3640,
+		damage = 79,
+		base = 14220
+	}
+	uv0.weapon_property_13[14224] = {
+		id = 14224,
+		reload_max = 3580,
+		damage = 88,
+		base = 14220
+	}
+	uv0.weapon_property_13[14225] = {
+		id = 14225,
+		reload_max = 3520,
+		damage = 97,
+		base = 14220
+	}
+	uv0.weapon_property_13[14226] = {
+		id = 14226,
+		reload_max = 3460,
+		damage = 106,
+		base = 14220
+	}
 	uv0.weapon_property_13[14240] = {
 		action_index = "attack_main",
 		range = 200,
@@ -592,85 +628,5 @@ function ()
 		reload_max = 3730,
 		damage = 144,
 		base = 14360
-	}
-	uv0.weapon_property_13[14370] = {
-		id = 14370,
-		reload_max = 3640,
-		damage = 154,
-		base = 14360
-	}
-	uv0.weapon_property_13[14371] = {
-		reload_max = 3640,
-		damage = 154,
-		base = 14360,
-		id = 14371,
-		corrected = 109
-	}
-	uv0.weapon_property_13[14372] = {
-		reload_max = 3640,
-		damage = 154,
-		base = 14360,
-		id = 14372,
-		corrected = 116
-	}
-	uv0.weapon_property_13[14373] = {
-		reload_max = 3640,
-		damage = 154,
-		base = 14360,
-		id = 14373,
-		corrected = 124
-	}
-	uv0.weapon_property_13[14380] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联装406mm主炮Mk2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 60,
-		corrected = 105,
-		min_range = 50,
-		id = 14380,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5140,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1510
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_13[14381] = {
-		id = 14381,
-		reload_max = 5058,
-		damage = 70,
-		base = 14380
 	}
 end()

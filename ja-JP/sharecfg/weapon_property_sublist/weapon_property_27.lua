@@ -2,6 +2,79 @@ pg = pg or {}
 pg.weapon_property_27 = {}
 
 function ()
+	uv0.weapon_property_27[21503] = {
+		id = 21503,
+		reload_max = 248,
+		damage = 6,
+		base = 21500
+	}
+	uv0.weapon_property_27[21520] = {
+		action_index = "attack",
+		range = 62,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双联装134mm高炮T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 4,
+		corrected = 110,
+		min_range = 0,
+		id = 21520,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 252,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.3,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1103
+		},
+		barrage_ID = {
+			1011
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_27[21521] = {
+		id = 21521,
+		reload_max = 246,
+		base = 21520
+	}
+	uv0.weapon_property_27[21522] = {
+		id = 21522,
+		reload_max = 241,
+		damage = 6,
+		base = 21520
+	}
+	uv0.weapon_property_27[21523] = {
+		id = 21523,
+		reload_max = 236,
+		damage = 6,
+		base = 21520
+	}
+	uv0.weapon_property_27[21524] = {
+		id = 21524,
+		reload_max = 231,
+		damage = 7,
+		base = 21520
+	}
 	uv0.weapon_property_27[21525] = {
 		id = 21525,
 		reload_max = 226,
@@ -651,41 +724,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_27[22121] = {
-		id = 22121,
-		reload_max = 608,
-		damage = 10,
-		base = 22120
-	}
-	uv0.weapon_property_27[22122] = {
-		id = 22122,
-		reload_max = 600,
-		damage = 11,
-		base = 22120
-	}
-	uv0.weapon_property_27[22123] = {
-		id = 22123,
-		reload_max = 592,
-		damage = 12,
-		base = 22120
-	}
-	uv0.weapon_property_27[22124] = {
-		id = 22124,
-		reload_max = 584,
-		damage = 13,
-		base = 22120
-	}
-	uv0.weapon_property_27[22125] = {
-		id = 22125,
-		reload_max = 576,
-		damage = 14,
-		base = 22120
-	}
-	uv0.weapon_property_27[22126] = {
-		id = 22126,
-		reload_max = 568,
-		damage = 15,
-		base = 22120
 	}
 end()

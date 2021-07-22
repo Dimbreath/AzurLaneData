@@ -1,250 +1,231 @@
 pg = pg or {}
 pg.equip_data_statistics_388 = {
-	[95045] = {
-		id = 95045,
-		damage = "100 x 3",
-		base = 95040,
+	[95004] = {
+		id = 95004,
+		damage = "74 x 3",
+		base = 95000,
 		weapon_id = {
-			95045
+			95004
 		}
 	},
-	[95046] = {
-		id = 95046,
-		damage = "110 x 3",
-		base = 95040,
+	[95005] = {
+		id = 95005,
+		damage = "82 x 3",
+		base = 95000,
 		weapon_id = {
-			95046
+			95005
 		}
 	},
-	[95047] = {
-		id = 95047,
-		damage = "118 x 3",
-		base = 95040,
+	[95006] = {
+		id = 95006,
+		damage = "90 x 3",
+		base = 95000,
 		weapon_id = {
-			95047
+			95006
 		}
 	},
-	[95048] = {
-		id = 95048,
-		damage = "128 x 3",
-		base = 95040,
-		weapon_id = {
-			95048
-		}
-	},
-	[95049] = {
-		id = 95049,
-		damage = "138 x 3",
-		base = 95040,
-		weapon_id = {
-			95049
-		}
-	},
-	[95050] = {
-		id = 95050,
-		damage = "148 x 3",
-		base = 95040,
-		weapon_id = {
-			95050
-		}
-	},
-	[95051] = {
-		anti_siren = 100,
-		damage = "148 x 3",
-		base = 95040,
-		id = 95051,
-		weapon_id = {
-			95051
-		}
-	},
-	[95052] = {
-		anti_siren = 200,
-		damage = "148 x 3",
-		base = 95040,
-		id = 95052,
-		weapon_id = {
-			95052
-		}
-	},
-	[95053] = {
-		anti_siren = 300,
-		damage = "148 x 3",
-		base = 95040,
-		id = 95053,
-		weapon_id = {
-			95053
-		}
-	},
-	[95100] = {
-		name = "90mm単装高角砲Model1939",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "0",
-		value_2 = 12,
-		icon = "55100",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "34/回",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			95100
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"ST",
-			"AA"
-		}
-	},
-	[95101] = {
-		id = 95101,
-		damage = "38/回",
-		base = 95100,
-		weapon_id = {
-			95101
-		}
-	},
-	[95102] = {
-		id = 95102,
-		damage = "42/回",
-		base = 95100,
-		weapon_id = {
-			95102
-		}
-	},
-	[95103] = {
-		id = 95103,
-		damage = "46/回",
-		base = 95100,
-		weapon_id = {
-			95103
-		}
-	},
-	[95104] = {
-		id = 95104,
-		damage = "51/回",
-		base = 95100,
-		weapon_id = {
-			95104
-		}
-	},
-	[95105] = {
-		id = 95105,
-		damage = "56/回",
-		base = 95100,
-		weapon_id = {
-			95105
-		}
-	},
-	[95106] = {
-		id = 95106,
-		damage = "61/回",
-		base = 95100,
-		weapon_id = {
-			95106
-		}
-	},
-	[95120] = {
-		name = "90mm単装高角砲Model1939",
-		speciality = "対空",
-		type = 6,
+	[95020] = {
+		name = "381mm三連装砲Model1934",
+		speciality = "投射",
+		type = 4,
 		tech = 2,
-		descrip = "0",
+		descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
 		value_2 = 25,
-		icon = "55100",
-		attribute_2 = "antiaircraft",
+		icon = "55000",
+		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "35/回",
+		damage = "47 x 3",
 		nationality = 6,
-		ammo = 5,
+		ammo = 1,
 		value_3 = 0,
-		id = 95120,
+		id = 95020,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1561
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			95120
+			95020
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"ST",
-			"AA"
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[95021] = {
+		id = 95021,
+		damage = "56 x 3",
+		base = 95020,
+		weapon_id = {
+			95021
+		}
+	},
+	[95022] = {
+		id = 95022,
+		damage = "64 x 3",
+		base = 95020,
+		weapon_id = {
+			95022
+		}
+	},
+	[95023] = {
+		id = 95023,
+		damage = "73 x 3",
+		base = 95020,
+		weapon_id = {
+			95023
+		}
+	},
+	[95024] = {
+		id = 95024,
+		damage = "82 x 3",
+		base = 95020,
+		weapon_id = {
+			95024
+		}
+	},
+	[95025] = {
+		id = 95025,
+		damage = "91 x 3",
+		base = 95020,
+		weapon_id = {
+			95025
+		}
+	},
+	[95026] = {
+		id = 95026,
+		damage = "100 x 3",
+		base = 95020,
+		weapon_id = {
+			95026
+		}
+	},
+	[95027] = {
+		id = 95027,
+		damage = "108 x 3",
+		base = 95020,
+		weapon_id = {
+			95027
+		}
+	},
+	[95028] = {
+		id = 95028,
+		damage = "117 x 3",
+		base = 95020,
+		weapon_id = {
+			95028
+		}
+	},
+	[95029] = {
+		id = 95029,
+		damage = "126 x 3",
+		base = 95020,
+		weapon_id = {
+			95029
+		}
+	},
+	[95030] = {
+		id = 95030,
+		damage = "135 x 3",
+		base = 95020,
+		weapon_id = {
+			95030
+		}
+	},
+	[95040] = {
+		name = "381mm三連装砲Model1934",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+		value_2 = 45,
+		icon = "55000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "52 x 3",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1563
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95040
+		},
+		skill_id = {
+			6450
+		},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[95041] = {
+		id = 95041,
+		damage = "62 x 3",
+		base = 95040,
+		weapon_id = {
+			95041
+		}
+	},
+	[95042] = {
+		id = 95042,
+		damage = "70 x 3",
+		base = 95040,
+		weapon_id = {
+			95042
 		}
 	}
 }

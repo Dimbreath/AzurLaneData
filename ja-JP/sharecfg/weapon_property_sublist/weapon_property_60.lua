@@ -2,6 +2,60 @@ pg = pg or {}
 pg.weapon_property_60 = {}
 
 function ()
+	uv0.weapon_property_60[39121] = {
+		reload_max = 1898,
+		damage = 152,
+		base = 39120,
+		id = 39121,
+		bullet_ID = {
+			39101
+		}
+	}
+	uv0.weapon_property_60[39122] = {
+		reload_max = 1866,
+		damage = 172,
+		base = 39120,
+		id = 39122,
+		bullet_ID = {
+			39102
+		}
+	}
+	uv0.weapon_property_60[39123] = {
+		reload_max = 1834,
+		damage = 191,
+		base = 39120,
+		id = 39123,
+		bullet_ID = {
+			39103
+		}
+	}
+	uv0.weapon_property_60[39124] = {
+		reload_max = 1802,
+		damage = 211,
+		base = 39120,
+		id = 39124,
+		bullet_ID = {
+			39104
+		}
+	}
+	uv0.weapon_property_60[39125] = {
+		reload_max = 1770,
+		damage = 231,
+		base = 39120,
+		id = 39125,
+		bullet_ID = {
+			39105
+		}
+	}
+	uv0.weapon_property_60[39126] = {
+		reload_max = 1738,
+		damage = 251,
+		base = 39120,
+		id = 39126,
+		bullet_ID = {
+			39106
+		}
+	}
 	uv0.weapon_property_60[39127] = {
 		reload_max = 1706,
 		damage = 271,
@@ -669,60 +723,6 @@ function ()
 		id = 39301,
 		bullet_ID = {
 			39301
-		}
-	}
-	uv0.weapon_property_60[39302] = {
-		reload_max = 2510,
-		damage = 221,
-		base = 39300,
-		id = 39302,
-		bullet_ID = {
-			39302
-		}
-	}
-	uv0.weapon_property_60[39303] = {
-		reload_max = 2465,
-		damage = 247,
-		base = 39300,
-		id = 39303,
-		bullet_ID = {
-			39303
-		}
-	}
-	uv0.weapon_property_60[39304] = {
-		reload_max = 2420,
-		damage = 273,
-		base = 39300,
-		id = 39304,
-		bullet_ID = {
-			39304
-		}
-	}
-	uv0.weapon_property_60[39305] = {
-		reload_max = 2375,
-		damage = 299,
-		base = 39300,
-		id = 39305,
-		bullet_ID = {
-			39305
-		}
-	}
-	uv0.weapon_property_60[39306] = {
-		reload_max = 2330,
-		damage = 325,
-		base = 39300,
-		id = 39306,
-		bullet_ID = {
-			39306
-		}
-	}
-	uv0.weapon_property_60[39307] = {
-		reload_max = 2285,
-		damage = 321,
-		base = 39300,
-		id = 39307,
-		bullet_ID = {
-			39307
 		}
 	}
 end()

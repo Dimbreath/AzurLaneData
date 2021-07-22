@@ -28,7 +28,7 @@ pg.activity_ins_ship_group_template = {
 	[10209] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
-		sculpture = "kelifulan_idol"
+		sculpture = "kelifulan"
 	},
 	[30705] = {
 		ship_group = 30705,
@@ -153,7 +153,7 @@ pg.activity_ins_ship_group_template = {
 	[30110] = {
 		ship_group = 30110,
 		name = "HibikiChannel",
-		sculpture = "xiang_2"
+		sculpture = "xiang"
 	},
 	[30109] = {
 		ship_group = 30109,
@@ -858,7 +858,7 @@ pg.activity_ins_ship_group_template = {
 	[20123] = {
 		ship_group = 20123,
 		name = "Vampire ",
-		sculpture = "xixuegui_5"
+		sculpture = "xixuegui"
 	},
 	[40808] = {
 		ship_group = 40808,
@@ -1375,6 +1375,46 @@ pg.activity_ins_ship_group_template = {
 		name = "FlugzeugträgerB ",
 		sculpture = "shitelasai"
 	},
+	[1070001] = {
+		ship_group = 1070001,
+		name = "Haruka_Amami",
+		sculpture = "chunxiang"
+	},
+	[1070002] = {
+		ship_group = 1070002,
+		name = "Chihaya_Kisaragi",
+		sculpture = "qianzao"
+	},
+	[11201] = {
+		ship_group = 11201,
+		name = "Vestal",
+		sculpture = "zaoshen"
+	},
+	[1070003] = {
+		ship_group = 1070003,
+		name = "Iori_Minase",
+		sculpture = "yizhi"
+	},
+	[1070004] = {
+		ship_group = 1070004,
+		name = "Azusa_Miura",
+		sculpture = "zi"
+	},
+	[1070005] = {
+		ship_group = 1070005,
+		name = "Ritsuko_Akizuki",
+		sculpture = "lvzi"
+	},
+	[1070006] = {
+		ship_group = 1070006,
+		name = "Ami_Futami",
+		sculpture = "yamei"
+	},
+	[1070007] = {
+		ship_group = 1070007,
+		name = "Mami_Futami",
+		sculpture = "zhenmei"
+	},
 	all = {
 		30701,
 		30702,
@@ -1650,6 +1690,14 @@ pg.activity_ins_ship_group_template = {
 		10115,
 		10141,
 		10145,
-		40703
+		40703,
+		1070001,
+		1070002,
+		11201,
+		1070003,
+		1070004,
+		1070005,
+		1070006,
+		1070007
 	}
 }

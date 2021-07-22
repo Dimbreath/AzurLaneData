@@ -25,7 +25,7 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	BackYardScene = {
-		bgm = "backyard"
+		bgm = "idom-Town"
 	},
 	BattleScene = {
 		bgm = "battle-1"
@@ -46,7 +46,7 @@ pg.voice_bgm = {
 		bgm = "backyard"
 	},
 	LoginScene = {
-		bgm = "login"
+		bgm = "idom-THEIDOLM@STER"
 	},
 	NewPlayerScene = {
 		bgm = "main"
@@ -128,5 +128,11 @@ pg.voice_bgm = {
 	},
 	NewMeixiV4Scene = {
 		bgm = "level02"
+	},
+	IdolMasterStageScene = {
+		bgm = "idom-GOMYWAY"
+	},
+	ChargeScene = {
+		bgm = "main"
 	}
 }

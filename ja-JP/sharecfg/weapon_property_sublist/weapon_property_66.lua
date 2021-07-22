@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_66 = {}
 
 function ()
+	uv0.weapon_property_66[44122] = {
+		id = 44122,
+		reload_max = 3504,
+		damage = 67,
+		base = 44120
+	}
+	uv0.weapon_property_66[44123] = {
+		id = 44123,
+		reload_max = 3430,
+		damage = 74,
+		base = 44120
+	}
+	uv0.weapon_property_66[44124] = {
+		id = 44124,
+		reload_max = 3356,
+		damage = 80,
+		base = 44120
+	}
+	uv0.weapon_property_66[44125] = {
+		id = 44125,
+		reload_max = 3282,
+		damage = 87,
+		base = 44120
+	}
+	uv0.weapon_property_66[44126] = {
+		id = 44126,
+		reload_max = 3208,
+		damage = 93,
+		base = 44120
+	}
+	uv0.weapon_property_66[44127] = {
+		id = 44127,
+		reload_max = 3133,
+		damage = 100,
+		base = 44120
+	}
 	uv0.weapon_property_66[44128] = {
 		id = 44128,
 		reload_max = 3060,
@@ -524,81 +560,5 @@ function ()
 		base = 44400,
 		id = 44411,
 		corrected = 114
-	}
-	uv0.weapon_property_66[44412] = {
-		reload_max = 1350,
-		damage = 105,
-		base = 44400,
-		id = 44412,
-		corrected = 121
-	}
-	uv0.weapon_property_66[44413] = {
-		reload_max = 1350,
-		damage = 105,
-		base = 44400,
-		id = 44413,
-		corrected = 130
-	}
-	uv0.weapon_property_66[45000] = {
-		action_index = "attack",
-		range = 52,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "三联装533mm磁性鱼雷T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 45000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 4580,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_66[45001] = {
-		id = 45001,
-		reload_max = 4500,
-		damage = 69,
-		base = 45000
-	}
-	uv0.weapon_property_66[45002] = {
-		id = 45002,
-		reload_max = 4420,
-		damage = 75,
-		base = 45000
-	}
-	uv0.weapon_property_66[45003] = {
-		id = 45003,
-		reload_max = 4340,
-		damage = 81,
-		base = 45000
 	}
 end()

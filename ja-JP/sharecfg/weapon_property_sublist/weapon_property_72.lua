@@ -2,6 +2,91 @@ pg = pg or {}
 pg.weapon_property_72 = {}
 
 function ()
+	uv0.weapon_property_72[47091] = {
+		id = 47091,
+		reload_max = 1710,
+		base = 47080
+	}
+	uv0.weapon_property_72[47100] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "Me-155A舰载战斗机T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 0,
+		id = 47100,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1720,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			47100
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_72[47101] = {
+		reload_max = 1695,
+		damage = 36,
+		base = 47100,
+		id = 47101,
+		bullet_ID = {
+			47101
+		}
+	}
+	uv0.weapon_property_72[47102] = {
+		reload_max = 1670,
+		damage = 40,
+		base = 47100,
+		id = 47102,
+		bullet_ID = {
+			47102
+		}
+	}
+	uv0.weapon_property_72[47103] = {
+		reload_max = 1645,
+		damage = 45,
+		base = 47100,
+		id = 47103,
+		bullet_ID = {
+			47103
+		}
+	}
+	uv0.weapon_property_72[47104] = {
+		reload_max = 1620,
+		damage = 49,
+		base = 47100,
+		id = 47104,
+		bullet_ID = {
+			47104
+		}
+	}
 	uv0.weapon_property_72[47105] = {
 		reload_max = 1595,
 		damage = 53,
@@ -616,72 +701,5 @@ function ()
 		id = 48027,
 		reload_max = 1810,
 		base = 48020
-	}
-	uv0.weapon_property_72[48028] = {
-		id = 48028,
-		reload_max = 1780,
-		base = 48020
-	}
-	uv0.weapon_property_72[48029] = {
-		id = 48029,
-		reload_max = 1750,
-		base = 48020
-	}
-	uv0.weapon_property_72[48030] = {
-		id = 48030,
-		reload_max = 1720,
-		base = 48020
-	}
-	uv0.weapon_property_72[48031] = {
-		id = 48031,
-		reload_max = 1720,
-		base = 48020
-	}
-	uv0.weapon_property_72[48040] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Ju-87 D-4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 48040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2040,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_72[48041] = {
-		id = 48041,
-		reload_max = 2005,
-		base = 48040
 	}
 end()
