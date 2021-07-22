@@ -17,10 +17,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				buff_id = 8524,
-				hpOutInterval = true,
-				target = "TargetSelf",
-				hpLowerBound = 0.01
+				buff_id = 8527,
+				hpUpperBound = 0.01,
+				target = "TargetSelf"
 			}
 		},
 		{
