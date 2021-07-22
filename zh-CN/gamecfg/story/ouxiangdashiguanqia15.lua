@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（只是为指挥官而唱的话，还不够）",
+			say = "（要解决这个问题的话，只是光想着为指挥官而唱的话看来不够呢……）",
 			flashout = {
 				dur = 0.5,
 				black = true,
