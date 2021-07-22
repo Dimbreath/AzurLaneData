@@ -3066,3 +3066,31 @@ function getLoginConfig()
 
 	return slot4, slot4 and slot3 or (pg.login[slot1].login_static ~= "" and slot2 or "login"), pg.login[slot1].bgm
 end
+
+function setIntimacyIcon(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = nil
+
+	if slot0.childCount > 0 then
+		slot4 = slot0:GetChild(0)
+	else
+		setParent(LoadAndInstantiateSync("template", "intimacytpl").transform, slot0)
+	end
+
+	setImageAlpha(slot4, slot2 and 0 or 1)
+	eachChild(slot4, function (slot0)
+		setActive(slot0, false)
+	end)
+
+	if slot2 then
+		if not slot4:Find(slot2 .. "(Clone)") then
+			setParent(LoadAndInstantiateSync("ui", slot2), slot4)
+		end
+
+		setActive(slot5, true)
+	elseif slot1 then
+		setImageSprite(slot4, GetSpriteFromAtlas("energy", slot1), true)
+	end
+
+	return slot4
+end

@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_142 = {}
 
 function ()
-	uv0.weapon_property_142[67122] = {
-		id = 67122,
-		name = "敦刻尔克技能小子弹LV2",
-		damage = 14,
-		base = 67120
-	}
-	uv0.weapon_property_142[67123] = {
-		id = 67123,
-		name = "敦刻尔克技能小子弹LV3",
-		damage = 16,
-		base = 67120
-	}
-	uv0.weapon_property_142[67124] = {
-		id = 67124,
-		name = "敦刻尔克技能小子弹LV4",
-		damage = 18,
-		base = 67120
-	}
-	uv0.weapon_property_142[67125] = {
-		id = 67125,
-		name = "敦刻尔克技能小子弹LV5",
-		damage = 20,
-		base = 67120
-	}
-	uv0.weapon_property_142[67126] = {
-		id = 67126,
-		name = "敦刻尔克技能小子弹LV6",
-		damage = 22,
-		base = 67120
-	}
 	uv0.weapon_property_142[67127] = {
 		id = 67127,
 		name = "敦刻尔克技能小子弹LV7",
@@ -683,5 +653,91 @@ function ()
 		name = "日向改技能LV9",
 		damage = 93,
 		base = 67220
+	}
+	uv0.weapon_property_142[67230] = {
+		id = 67230,
+		name = "日向改技能LV10",
+		damage = 100,
+		base = 67220
+	}
+	uv0.weapon_property_142[67240] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "伊势技能轰炸机Lv0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 144,
+		corrected = 100,
+		min_range = 0,
+		id = 67240,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			67240
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_142[67241] = {
+		name = "伊势技能轰炸机Lv1",
+		damage = 166,
+		base = 67240,
+		id = 67241,
+		bullet_ID = {
+			67241
+		}
+	}
+	uv0.weapon_property_142[67242] = {
+		name = "伊势技能轰炸机Lv2",
+		damage = 188,
+		base = 67240,
+		id = 67242,
+		bullet_ID = {
+			67242
+		}
+	}
+	uv0.weapon_property_142[67243] = {
+		name = "伊势技能轰炸机Lv3",
+		damage = 208,
+		base = 67240,
+		id = 67243,
+		bullet_ID = {
+			67243
+		}
+	}
+	uv0.weapon_property_142[67244] = {
+		name = "伊势技能轰炸机Lv4",
+		damage = 230,
+		base = 67240,
+		id = 67244,
+		bullet_ID = {
+			67244
+		}
 	}
 end()

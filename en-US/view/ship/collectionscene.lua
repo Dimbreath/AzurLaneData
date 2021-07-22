@@ -26,6 +26,9 @@ slot0.ShipIndex = {
 		IndexConst.ExtraAll
 	})
 }
+slot0.MANGA_INDEX = 4
+slot0.GALLERY_INDEX = 5
+slot0.MUSIC_INDEX = 6
 
 function slot0.getUIName(slot0)
 	return "CollectionUI"
@@ -70,6 +73,7 @@ function slot0.init(slot0)
 		slot0:findTF("frame/tagRoot/card", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/display", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/trans", slot0.leftPanel),
+		slot0:findTF("frame/tagRoot/manga", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/gallery", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/music", slot0.leftPanel)
 	}
@@ -77,6 +81,7 @@ function slot0.init(slot0)
 		"initCardPanel",
 		"initDisplayPanel",
 		"initCardPanel",
+		"initMangaPanel",
 		"initGalleryPanel",
 		"initMusicPanel"
 	}
@@ -159,6 +164,7 @@ function slot0.init(slot0)
 	}
 	slot0.galleryPanelContainer = slot0:findTF("main/GalleryContainer")
 	slot0.musicPanelContainer = slot0:findTF("main/MusicContainer")
+	slot0.mangaPanelContainer = slot0:findTF("main/MangaContainer")
 end
 
 function slot0.didEnter(slot0)
@@ -216,19 +222,19 @@ function slot0.didEnter(slot0)
 						slot1:SetCollectionHelpFlag(true)
 					end
 
-					if uv1 ~= 5 then
+					if uv1 ~= uv2.MUSIC_INDEX then
 						if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
 							uv0.musicView:tryPauseMusic()
 							uv0.musicView:closeSongListPanel()
 						end
 
 						pg.CriMgr.GetInstance():ResumeLastNormalBGM()
-					elseif uv1 == 5 and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+					elseif uv1 == uv2.MUSIC_INDEX and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
 						pg.CriMgr.GetInstance():StopBGM()
 						uv0.musicView:tryPlayMusic()
 					end
 
-					if uv1 ~= 4 and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
+					if uv1 ~= uv2.GALLERY_INDEX and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
 						uv0.galleryView:closePicPanel()
 					end
 				end
@@ -294,8 +300,9 @@ end
 
 function slot0.updateCollectNotices(slot0, slot1)
 	setActive(slot0.tip, slot1)
-	setActive(slot0:findTF("tip", slot0.toggles[4]), getProxy(AppreciateProxy):isGalleryHaveNewRes())
-	setActive(slot0:findTF("tip", slot0.toggles[5]), getProxy(AppreciateProxy):isMusicHaveNewRes())
+	setActive(slot0:findTF("tip", slot0.toggles[uv0.GALLERY_INDEX]), getProxy(AppreciateProxy):isGalleryHaveNewRes())
+	setActive(slot0:findTF("tip", slot0.toggles[uv0.MUSIC_INDEX]), getProxy(AppreciateProxy):isMusicHaveNewRes())
+	setActive(slot0:findTF("tip", slot0.toggles[uv0.MANGA_INDEX]), getProxy(AppreciateProxy):isMangaHaveNewRes())
 end
 
 function slot0.calFavoriteRate(slot0)
@@ -834,6 +841,12 @@ function slot0.willExit(slot0)
 
 		slot0.musicView = nil
 	end
+
+	if slot0.mangaView then
+		slot0.mangaView:Destroy()
+
+		slot0.mangaView = nil
+	end
 end
 
 function slot0.initGalleryPanel(slot0)
@@ -852,6 +865,15 @@ function slot0.initMusicPanel(slot0)
 		slot0.musicView:Reset()
 		slot0.musicView:Load()
 		pg.CriMgr.GetInstance():StopBGM()
+	end
+end
+
+function slot0.initMangaPanel(slot0)
+	if not slot0.mangaView then
+		slot0.mangaView = MangaView.New(slot0.mangaPanelContainer, slot0.event, slot0.contextData)
+
+		slot0.mangaView:Reset()
+		slot0.mangaView:Load()
 	end
 end
 
@@ -888,6 +910,16 @@ function slot0.onBackPressed(slot0)
 			slot0.musicView:Destroy()
 
 			slot0.musicView = nil
+		else
+			return
+		end
+	end
+
+	if slot0.mangaView then
+		if slot0.mangaView:onBackPressed() == true then
+			slot0.mangaView:Destroy()
+
+			slot0.mangaView = nil
 		else
 			return
 		end

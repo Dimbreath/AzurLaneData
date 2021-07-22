@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"One day, with Polaris...\n\n<size=45>One day, at a dress rehearsal...</size>",
+					"Azur Anthem - Side Story\n\n<size=45>4 Lessons</size>",
 					1
 				}
 			}

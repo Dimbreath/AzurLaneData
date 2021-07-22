@@ -1,113 +1,235 @@
 pg = pg or {}
 pg.aircraft_template_268 = {
-	[95761] = {
-		id = 95761,
-		base = 95760,
-		max_hp = 46,
-		hp_growth = 1785,
+	[90840] = {
+		name = "PL.7舰载鱼雷机T0",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "PL7",
+		ACC_growth = 0,
+		crash_DMG = 286,
+		dodge = 1.16,
+		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "PL7",
+		funnel_behavior = "",
+		nationality = 8,
+		hp_growth = 1338,
+		speed = 38,
+		id = 90840,
+		scale = 1,
 		weapon_ID = {
-			50041,
-			50541,
-			52141
+			50020,
+			51560
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[95762] = {
-		id = 95762,
-		base = 95760,
-		max_hp = 52,
-		hp_growth = 2018,
+	[90841] = {
+		id = 90841,
+		base = 90840,
+		max_hp = 40,
+		hp_growth = 1538,
 		weapon_ID = {
-			50042,
-			50542,
-			52142
+			50021,
+			51561
 		}
 	},
-	[95763] = {
-		id = 95763,
-		base = 95760,
-		max_hp = 59,
-		hp_growth = 2251,
+	[90842] = {
+		id = 90842,
+		base = 90840,
+		max_hp = 45,
+		hp_growth = 1739,
 		weapon_ID = {
-			50043,
-			50543,
-			52143
+			50022,
+			51562
 		}
 	},
-	[95764] = {
-		id = 95764,
-		base = 95760,
-		max_hp = 65,
-		hp_growth = 2484,
+	[90843] = {
+		id = 90843,
+		base = 90840,
+		max_hp = 50,
+		hp_growth = 1940,
 		weapon_ID = {
-			50044,
-			50544,
-			52144
+			50023,
+			51563
 		}
 	},
-	[95765] = {
-		id = 95765,
-		base = 95760,
+	[90844] = {
+		id = 90844,
+		base = 90840,
+		max_hp = 56,
+		hp_growth = 2140,
+		weapon_ID = {
+			50024,
+			51564
+		}
+	},
+	[90845] = {
+		id = 90845,
+		base = 90840,
+		max_hp = 61,
+		hp_growth = 2341,
+		weapon_ID = {
+			50025,
+			51565
+		}
+	},
+	[90846] = {
+		id = 90846,
+		base = 90840,
+		max_hp = 66,
+		hp_growth = 2541,
+		weapon_ID = {
+			50026,
+			51566
+		}
+	},
+	[90847] = {
+		id = 90847,
+		base = 90840,
 		max_hp = 71,
-		hp_growth = 2717,
+		hp_growth = 2742,
 		weapon_ID = {
-			50045,
-			50545,
-			52145
+			50027,
+			51567
 		}
 	},
-	[95766] = {
-		id = 95766,
-		base = 95760,
-		max_hp = 77,
-		hp_growth = 2949,
+	[95720] = {
+		name = "G.50箭式战斗机T1",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "g50",
+		ACC_growth = 0,
+		crash_DMG = 160,
+		dodge = 0.357,
+		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
+		AP_growth = 2000,
+		icon = "g50",
+		funnel_behavior = "",
+		nationality = 6,
+		hp_growth = 1270,
+		speed = 50,
+		id = 95720,
+		scale = 1,
 		weapon_ID = {
-			50046,
-			50546,
-			52146
+			50000,
+			50500,
+			52100
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[95767] = {
-		id = 95767,
-		base = 95760,
-		max_hp = 83,
-		hp_growth = 3182,
+	[95721] = {
+		id = 95721,
+		base = 95720,
+		max_hp = 38,
+		hp_growth = 1461,
 		weapon_ID = {
-			50047,
-			50547,
-			52147
-		}
-	},
-	[95768] = {
-		id = 95768,
-		base = 95760,
-		max_hp = 89,
-		hp_growth = 3415,
-		weapon_ID = {
-			50048,
-			50548,
-			52148
-		}
-	},
-	[95769] = {
-		id = 95769,
-		base = 95760,
-		max_hp = 95,
-		hp_growth = 3648,
-		weapon_ID = {
-			50049,
-			50549,
-			52149
-		}
-	},
-	[95770] = {
-		id = 95770,
-		base = 95760,
-		max_hp = 101,
-		hp_growth = 3881,
-		weapon_ID = {
-			50050,
-			50550,
-			52150
+			50001,
+			50501,
+			52101
 		}
 	}
 }

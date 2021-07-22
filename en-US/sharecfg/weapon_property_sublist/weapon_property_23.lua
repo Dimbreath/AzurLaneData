@@ -2,185 +2,6 @@ pg = pg or {}
 pg.weapon_property_23 = {}
 
 function ()
-	uv0.weapon_property_23[18046] = {
-		reload_max = 2120,
-		damage = 141,
-		base = 18040,
-		id = 18046,
-		bullet_ID = {
-			18006
-		}
-	}
-	uv0.weapon_property_23[18047] = {
-		reload_max = 2120,
-		damage = 141,
-		base = 18040,
-		id = 18047,
-		bullet_ID = {
-			18006
-		}
-	}
-	uv0.weapon_property_23[18060] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "TBD蹂躏者(VT-8中队)",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 116,
-		corrected = 100,
-		min_range = 0,
-		id = 18060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2110,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			18060
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_23[18061] = {
-		reload_max = 2080,
-		damage = 134,
-		base = 18060,
-		id = 18061,
-		bullet_ID = {
-			18061
-		}
-	}
-	uv0.weapon_property_23[18062] = {
-		reload_max = 2050,
-		damage = 152,
-		base = 18060,
-		id = 18062,
-		bullet_ID = {
-			18062
-		}
-	}
-	uv0.weapon_property_23[18063] = {
-		reload_max = 2020,
-		damage = 170,
-		base = 18060,
-		id = 18063,
-		bullet_ID = {
-			18063
-		}
-	}
-	uv0.weapon_property_23[18064] = {
-		reload_max = 1990,
-		damage = 188,
-		base = 18060,
-		id = 18064,
-		bullet_ID = {
-			18064
-		}
-	}
-	uv0.weapon_property_23[18065] = {
-		reload_max = 1960,
-		damage = 206,
-		base = 18060,
-		id = 18065,
-		bullet_ID = {
-			18065
-		}
-	}
-	uv0.weapon_property_23[18066] = {
-		reload_max = 1930,
-		damage = 224,
-		base = 18060,
-		id = 18066,
-		bullet_ID = {
-			18066
-		}
-	}
-	uv0.weapon_property_23[18067] = {
-		reload_max = 1900,
-		damage = 242,
-		base = 18060,
-		id = 18067,
-		bullet_ID = {
-			18067
-		}
-	}
-	uv0.weapon_property_23[18068] = {
-		reload_max = 1870,
-		damage = 260,
-		base = 18060,
-		id = 18068,
-		bullet_ID = {
-			18068
-		}
-	}
-	uv0.weapon_property_23[18069] = {
-		reload_max = 1840,
-		damage = 278,
-		base = 18060,
-		id = 18069,
-		bullet_ID = {
-			18069
-		}
-	}
-	uv0.weapon_property_23[18070] = {
-		reload_max = 1810,
-		damage = 296,
-		base = 18060,
-		id = 18070,
-		bullet_ID = {
-			18070
-		}
-	}
-	uv0.weapon_property_23[18071] = {
-		reload_max = 1810,
-		damage = 296,
-		base = 18060,
-		id = 18071,
-		bullet_ID = {
-			18070
-		}
-	}
-	uv0.weapon_property_23[18072] = {
-		reload_max = 1810,
-		damage = 296,
-		base = 18060,
-		id = 18072,
-		bullet_ID = {
-			18070
-		}
-	}
-	uv0.weapon_property_23[18073] = {
-		reload_max = 1810,
-		damage = 296,
-		base = 18060,
-		id = 18073,
-		bullet_ID = {
-			18070
-		}
-	}
 	uv0.weapon_property_23[18100] = {
 		action_index = "attack",
 		range = 90,
@@ -717,6 +538,194 @@ function ()
 		id = 18189,
 		bullet_ID = {
 			18189
+		}
+	}
+	uv0.weapon_property_23[18190] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18180,
+		id = 18190,
+		bullet_ID = {
+			18190
+		}
+	}
+	uv0.weapon_property_23[18191] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18180,
+		id = 18191,
+		bullet_ID = {
+			18190
+		}
+	}
+	uv0.weapon_property_23[18192] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18180,
+		id = 18192,
+		bullet_ID = {
+			18190
+		}
+	}
+	uv0.weapon_property_23[18193] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18180,
+		id = 18193,
+		bullet_ID = {
+			18190
+		}
+	}
+	uv0.weapon_property_23[18200] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "TBM复仇者(VT-18中队)",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 127,
+		corrected = 100,
+		min_range = 0,
+		id = 18200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2110,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			18180
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_23[18201] = {
+		reload_max = 2080,
+		damage = 148,
+		base = 18200,
+		id = 18201,
+		bullet_ID = {
+			18181
+		}
+	}
+	uv0.weapon_property_23[18202] = {
+		reload_max = 2050,
+		damage = 169,
+		base = 18200,
+		id = 18202,
+		bullet_ID = {
+			18182
+		}
+	}
+	uv0.weapon_property_23[18203] = {
+		reload_max = 2020,
+		damage = 190,
+		base = 18200,
+		id = 18203,
+		bullet_ID = {
+			18183
+		}
+	}
+	uv0.weapon_property_23[18204] = {
+		reload_max = 1990,
+		damage = 211,
+		base = 18200,
+		id = 18204,
+		bullet_ID = {
+			18184
+		}
+	}
+	uv0.weapon_property_23[18205] = {
+		reload_max = 1960,
+		damage = 232,
+		base = 18200,
+		id = 18205,
+		bullet_ID = {
+			18185
+		}
+	}
+	uv0.weapon_property_23[18206] = {
+		reload_max = 1930,
+		damage = 253,
+		base = 18200,
+		id = 18206,
+		bullet_ID = {
+			18186
+		}
+	}
+	uv0.weapon_property_23[18207] = {
+		reload_max = 1900,
+		damage = 274,
+		base = 18200,
+		id = 18207,
+		bullet_ID = {
+			18187
+		}
+	}
+	uv0.weapon_property_23[18208] = {
+		reload_max = 1870,
+		damage = 295,
+		base = 18200,
+		id = 18208,
+		bullet_ID = {
+			18188
+		}
+	}
+	uv0.weapon_property_23[18209] = {
+		reload_max = 1840,
+		damage = 316,
+		base = 18200,
+		id = 18209,
+		bullet_ID = {
+			18189
+		}
+	}
+	uv0.weapon_property_23[18210] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18200,
+		id = 18210,
+		bullet_ID = {
+			18190
+		}
+	}
+	uv0.weapon_property_23[18211] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18200,
+		id = 18211,
+		bullet_ID = {
+			18190
+		}
+	}
+	uv0.weapon_property_23[18212] = {
+		reload_max = 1810,
+		damage = 337,
+		base = 18200,
+		id = 18212,
+		bullet_ID = {
+			18190
 		}
 	}
 end()

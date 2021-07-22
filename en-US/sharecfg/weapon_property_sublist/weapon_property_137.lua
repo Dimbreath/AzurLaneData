@@ -701,4 +701,13 @@ function ()
 			80022
 		}
 	}
+	uv0.weapon_property_137[66663] = {
+		name = "拉菲技能弹幕LV3",
+		damage = 15,
+		base = 66660,
+		id = 66663,
+		barrage_ID = {
+			80023
+		}
+	}
 end()

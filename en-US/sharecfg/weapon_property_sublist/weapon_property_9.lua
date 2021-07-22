@@ -2,57 +2,6 @@ pg = pg or {}
 pg.weapon_property_9 = {}
 
 function ()
-	uv0.weapon_property_9[11047] = {
-		reload_max = 100,
-		damage = 7,
-		base = 11040,
-		id = 11047,
-		corrected = 130
-	}
-	uv0.weapon_property_9[11060] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "127mm单装炮早期型",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 3,
-		corrected = 125,
-		min_range = 0,
-		id = 11060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 240,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.2,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1000
-		},
-		barrage_ID = {
-			1007
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_9[11061] = {
 		id = 11061,
 		reload_max = 234,
@@ -680,5 +629,22 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_9[11241] = {
+		id = 11241,
+		reload_max = 275,
+		base = 11240
+	}
+	uv0.weapon_property_9[11242] = {
+		id = 11242,
+		reload_max = 270,
+		damage = 7,
+		base = 11240
+	}
+	uv0.weapon_property_9[11243] = {
+		id = 11243,
+		reload_max = 265,
+		damage = 8,
+		base = 11240
 	}
 end()

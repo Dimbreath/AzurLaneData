@@ -2,6 +2,116 @@ pg = pg or {}
 pg.weapon_property_128 = {}
 
 function ()
+	uv0.weapon_property_128[65719] = {
+		name = "贝拉罗斯冰锥5-110-LV9",
+		damage = 152,
+		base = 65711,
+		id = 65719,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_128[65720] = {
+		name = "贝拉罗斯冰锥5-110-LV10",
+		damage = 164,
+		base = 65711,
+		id = 65720,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_128[65721] = {
+		action_index = "",
+		range = 50,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "贝拉罗斯PVP冰锥1-50-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 70,
+		charge_param = "",
+		damage = 56,
+		corrected = 100,
+		min_range = 0,
+		id = 65721,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9500,
+		queue = 4,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19264
+		},
+		barrage_ID = {
+			81025
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_128[65722] = {
+		id = 65722,
+		name = "贝拉罗斯PVP冰锥1-50-LV2",
+		damage = 68,
+		base = 65721
+	}
+	uv0.weapon_property_128[65723] = {
+		id = 65723,
+		name = "贝拉罗斯PVP冰锥1-50-LV3",
+		damage = 80,
+		base = 65721
+	}
+	uv0.weapon_property_128[65724] = {
+		name = "贝拉罗斯PVP冰锥1-50-LV4",
+		damage = 92,
+		base = 65721,
+		id = 65724,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_128[65725] = {
+		name = "贝拉罗斯PVP冰锥1-50-LV5",
+		damage = 104,
+		base = 65721,
+		id = 65725,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_128[65726] = {
+		name = "贝拉罗斯PVP冰锥1-50-LV6",
+		damage = 118,
+		base = 65721,
+		id = 65726,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_128[65727] = {
+		name = "贝拉罗斯PVP冰锥1-50-LV7",
+		damage = 128,
+		base = 65721,
+		id = 65727,
+		barrage_ID = {
+			81026
+		}
+	}
 	uv0.weapon_property_128[65728] = {
 		name = "贝拉罗斯PVP冰锥1-50-LV8",
 		damage = 140,
@@ -646,85 +756,5 @@ function ()
 		name = "塔林破盾反击弹幕LV2",
 		damage = 13,
 		base = 65781
-	}
-	uv0.weapon_property_128[65783] = {
-		id = 65783,
-		name = "塔林破盾反击弹幕LV3",
-		damage = 14,
-		base = 65781
-	}
-	uv0.weapon_property_128[65784] = {
-		id = 65784,
-		name = "塔林破盾反击弹幕LV4",
-		damage = 15,
-		base = 65781
-	}
-	uv0.weapon_property_128[65785] = {
-		id = 65785,
-		name = "塔林破盾反击弹幕LV5",
-		damage = 16,
-		base = 65781
-	}
-	uv0.weapon_property_128[65786] = {
-		id = 65786,
-		name = "塔林破盾反击弹幕LV6",
-		damage = 17,
-		base = 65781
-	}
-	uv0.weapon_property_128[65787] = {
-		name = "塔林破盾反击弹幕LV7",
-		damage = 18,
-		base = 65781,
-		id = 65787,
-		bullet_ID = {
-			19269,
-			19269
-		},
-		barrage_ID = {
-			81027,
-			81028
-		}
-	}
-	uv0.weapon_property_128[65788] = {
-		name = "塔林破盾反击弹幕LV8",
-		damage = 19,
-		base = 65781,
-		id = 65788,
-		bullet_ID = {
-			19269,
-			19269
-		},
-		barrage_ID = {
-			81027,
-			81028
-		}
-	}
-	uv0.weapon_property_128[65789] = {
-		name = "塔林破盾反击弹幕LV9",
-		damage = 20,
-		base = 65781,
-		id = 65789,
-		bullet_ID = {
-			19269,
-			19269
-		},
-		barrage_ID = {
-			81027,
-			81028
-		}
-	}
-	uv0.weapon_property_128[65790] = {
-		name = "塔林破盾反击弹幕LV10",
-		damage = 22,
-		base = 65781,
-		id = 65790,
-		bullet_ID = {
-			19269,
-			19269
-		},
-		barrage_ID = {
-			81027,
-			81028
-		}
 	}
 end()

@@ -829,6 +829,19 @@ pg.mini_game = {
 		hub_id = 18,
 		request_data = 1
 	},
+	{
+		name = "啾啾握手会",
+		view_name = "IdolMasterView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 24,
+		hub_id = 19,
+		request_data = 0
+	},
 	all = {
 		1,
 		2,
@@ -852,6 +865,7 @@ pg.mini_game = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24
 	}
 }

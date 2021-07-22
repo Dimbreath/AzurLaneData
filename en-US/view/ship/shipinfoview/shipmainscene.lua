@@ -280,7 +280,7 @@ function slot0.initPages(slot0)
 	}
 
 	onButton(slot0, slot0.shipName, function ()
-		if uv0.shipVO.propose then
+		if uv0.shipVO.propose and not uv0.shipVO:IsXIdol() then
 			if not pg.PushNotificationMgr.GetInstance():isEnableShipName() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("word_rename_switch_tip"))
 
@@ -503,7 +503,7 @@ end
 function slot0.updatePreference(slot0, slot1)
 	setScrollText(slot0.shipName:Find("nameRect/name_mask/Text"), slot0.shipVO:getName())
 	setText(slot0:findTF("english_name", slot0.shipName), slot1:getConfigTable().english_name)
-	setActive(slot0.nameEditFlag, slot1.propose)
+	setActive(slot0.nameEditFlag, slot1.propose and not slot1:IsXIdol())
 
 	if not GetSpriteFromAtlas("energy", slot1:getEnergyPrint()) then
 		warning("找不到疲劳")

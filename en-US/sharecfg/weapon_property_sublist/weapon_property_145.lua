@@ -2,85 +2,6 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 function ()
-	uv0.weapon_property_145[67464] = {
-		id = 67464,
-		damage = 128,
-		base = 67460
-	}
-	uv0.weapon_property_145[67465] = {
-		id = 67465,
-		damage = 143,
-		base = 67460
-	}
-	uv0.weapon_property_145[67466] = {
-		id = 67466,
-		damage = 158,
-		base = 67460
-	}
-	uv0.weapon_property_145[67467] = {
-		id = 67467,
-		damage = 174,
-		base = 67460
-	}
-	uv0.weapon_property_145[67468] = {
-		id = 67468,
-		damage = 190,
-		base = 67460
-	}
-	uv0.weapon_property_145[67469] = {
-		id = 67469,
-		damage = 206,
-		base = 67460
-	}
-	uv0.weapon_property_145[67470] = {
-		id = 67470,
-		damage = 222,
-		base = 67460
-	}
-	uv0.weapon_property_145[67480] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大黄蜂技能专用武器-固定位置",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 67480,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19954
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_145[67481] = {
 		id = 67481,
 		damage = 83,
@@ -594,5 +515,97 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_145[67581] = {
+		action_index = "attack",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "蜜月爆炸Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 120,
+		charge_param = "",
+		damage = 68,
+		corrected = 245,
+		min_range = 0,
+		id = 67581,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19957
+		},
+		barrage_ID = {
+			80520
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67582] = {
+		id = 67582,
+		name = "蜜月爆炸Lv2",
+		damage = 80,
+		base = 67581
+	}
+	uv0.weapon_property_145[67583] = {
+		id = 67583,
+		name = "蜜月爆炸Lv3",
+		damage = 92,
+		base = 67581
+	}
+	uv0.weapon_property_145[67584] = {
+		id = 67584,
+		name = "蜜月爆炸Lv4",
+		damage = 104,
+		base = 67581
+	}
+	uv0.weapon_property_145[67585] = {
+		id = 67585,
+		name = "蜜月爆炸Lv5",
+		damage = 116,
+		base = 67581
+	}
+	uv0.weapon_property_145[67586] = {
+		id = 67586,
+		name = "蜜月爆炸Lv6",
+		damage = 128,
+		base = 67581
+	}
+	uv0.weapon_property_145[67587] = {
+		id = 67587,
+		name = "蜜月爆炸Lv7",
+		damage = 140,
+		base = 67581
+	}
+	uv0.weapon_property_145[67588] = {
+		id = 67588,
+		name = "蜜月爆炸Lv8",
+		damage = 152,
+		base = 67581
+	}
+	uv0.weapon_property_145[67589] = {
+		id = 67589,
+		name = "蜜月爆炸Lv9",
+		damage = 164,
+		base = 67581
 	}
 end()

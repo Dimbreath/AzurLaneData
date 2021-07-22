@@ -6168,6 +6168,134 @@ pg.skill_data_display = {
 		id = 106141,
 		name = "Hanakagura"
 	},
+	[107010] = {
+		id = 107010,
+		name = "Cutesy Clumsy?"
+	},
+	[107020] = {
+		id = 107020,
+		name = "An Idol's Ambitions"
+	},
+	[107021] = {
+		id = 107021,
+		name = "An Idol's Ambitions"
+	},
+	[107030] = {
+		id = 107030,
+		name = "Positivity Burst!"
+	},
+	[107040] = {
+		id = 107040,
+		name = "Cerulean Song"
+	},
+	[107041] = {
+		id = 107041,
+		name = "Cerulean Song"
+	},
+	[107050] = {
+		id = 107050,
+		name = "The Fruits of Labor"
+	},
+	[107051] = {
+		id = 107051,
+		name = "The Fruits of Labor"
+	},
+	[107060] = {
+		id = 107060,
+		name = "Alongside the Ocean's Wings"
+	},
+	[107070] = {
+		id = 107070,
+		name = "Iori Strike!"
+	},
+	[107071] = {
+		id = 107071,
+		name = "Iori Strike!"
+	},
+	[107080] = {
+		id = 107080,
+		name = "Iori Defense!"
+	},
+	[107081] = {
+		id = 107081,
+		name = "Iori Defense!"
+	},
+	[107090] = {
+		id = 107090,
+		name = "Feigned Innocence?"
+	},
+	[107100] = {
+		id = 107100,
+		name = "Healing Augury"
+	},
+	[107101] = {
+		id = 107101,
+		name = "Healing Augury"
+	},
+	[107102] = {
+		id = 107102,
+		name = "Healing Augury"
+	},
+	[107103] = {
+		id = 107103,
+		name = "Healing Augury"
+	},
+	[107104] = {
+		id = 107104,
+		name = "Healing Augury"
+	},
+	[107110] = {
+		id = 107110,
+		name = "Directionally Challenged"
+	},
+	[107111] = {
+		id = 107111,
+		name = "Directionally Challenged"
+	},
+	[107112] = {
+		id = 107112,
+		name = "Directionally Challenged"
+	},
+	[107120] = {
+		id = 107120,
+		name = "Fleet Course Management"
+	},
+	[107121] = {
+		id = 107121,
+		name = "Fleet Course Management"
+	},
+	[107122] = {
+		id = 107122,
+		name = "Fleet Course Management"
+	},
+	[107123] = {
+		id = 107123,
+		name = "Fleet Course Management"
+	},
+	[107124] = {
+		id = 107124,
+		name = "Fleet Course Management"
+	},
+	[107130] = {
+		id = 107130,
+		name = "Logistics Buddy"
+	},
+	[107140] = {
+		id = 107140,
+		name = "Prankster's Cheer - Ami"
+	},
+	[107150] = {
+		id = 107150,
+		name = "Double Trouble - Ami"
+	},
+	[107160] = {
+		id = 107160,
+		name = "Prankster's Cheer - Mami"
+	},
+	[107170] = {
+		id = 107170,
+		name = "Double Trouble - Mami"
+	},
 	[800010] = {
 		id = 800010,
 		name = "Shadowflame Torch"
@@ -7835,6 +7963,38 @@ pg.skill_data_display = {
 		106131,
 		106140,
 		106141,
+		107010,
+		107020,
+		107021,
+		107030,
+		107040,
+		107041,
+		107050,
+		107051,
+		107060,
+		107070,
+		107071,
+		107080,
+		107081,
+		107090,
+		107100,
+		107101,
+		107102,
+		107103,
+		107104,
+		107110,
+		107111,
+		107112,
+		107120,
+		107121,
+		107122,
+		107123,
+		107124,
+		107130,
+		107140,
+		107150,
+		107160,
+		107170,
 		800010,
 		800020,
 		800021,

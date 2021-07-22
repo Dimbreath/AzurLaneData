@@ -94,13 +94,9 @@ function slot0.flush(slot0)
 			setActive(slot0.iconStatus, false)
 		end
 
-		slot7, slot8, slot9 = slot1:getIntimacyDetail()
+		slot7, slot8 = slot1:getIntimacyIcon()
 
-		if slot8 <= slot9 and not slot1.propose and not slot4 then
-			setActive(slot0.proposeTF, true)
-		else
-			setActive(slot0.proposeTF, false)
-		end
+		setActive(slot0.proposeTF, tobool(slot8 and not slot4))
 	end
 
 	slot0.content:SetActive(slot2)

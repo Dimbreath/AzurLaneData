@@ -9,9 +9,8 @@ slot6 = class("BattleUnitDetailView")
 slot0.Battle.BattleUnitDetailView = slot6
 slot6.__name = "BattleUnitDetailView"
 slot6.DefaultActive = {
-	"panel_container",
-	"panel_container/weapon_panels",
-	"panel_container/skill_panel"
+	"attr_panels",
+	"attr_panels/buff"
 }
 slot6.PrimalAttr = {
 	"cannonPower",
@@ -224,7 +223,7 @@ function slot6.updateBuffList(slot0)
 
 	for slot5, slot6 in pairs(slot1) do
 		if not slot0._buffList[slot5] then
-			slot0:addBuff(slot5)
+			slot0:addBuff(slot5, slot6)
 		end
 	end
 
@@ -349,14 +348,21 @@ function slot6.updateBulletAttrBuff(slot0, slot1)
 	end
 end
 
-function slot6.addBuff(slot0, slot1)
-	slot2 = cloneTplTo(slot0._buffTpl, slot0._buffContainer)
-
+function slot6.addBuff(slot0, slot1, slot2)
 	Canvas.ForceUpdateCanvases()
-	setText(slot2:Find("buff_id"), "buff_" .. slot1)
-	setActive(slot2, true)
+	setText(cloneTplTo(slot0._buffTpl, slot0._buffContainer):Find("buff_id"), "buff_" .. slot1)
 
-	slot0._buffList[slot1] = slot2
+	if slot2._tempData.high_light then
+		slot4 = slot3:Find("high_light")
+
+		setActive(slot4, true)
+
+		slot4:GetComponent(typeof(Image)).color = slot2._tempData.high_light
+	end
+
+	setActive(slot3, true)
+
+	slot0._buffList[slot1] = slot3
 end
 
 function slot6.addSkillCaster(slot0, slot1)

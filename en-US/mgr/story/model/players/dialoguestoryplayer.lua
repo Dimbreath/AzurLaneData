@@ -183,6 +183,10 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 			slot3 = slot3 .. "_n"
 		end
 
+		if slot1:IsShowWJZPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3 .. "_wjz")) then
+			slot3 = slot3 .. "_wjz"
+		end
+
 		setPaintingPrefab(slot4, slot3, "duihua")
 
 		slot8 = slot1:GetPaintingDir()

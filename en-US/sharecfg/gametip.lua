@@ -3894,6 +3894,9 @@ Are you sure you want to cancel the item retrieval?
 	word_shipNation_doa = {
 		tip = "Venus Vacation "
 	},
+	word_shipNation_imas = {
+		tip = "The Idolmaster "
+	},
 	word_shipNation_link = {
 		tip = "Collab "
 	},
@@ -4070,6 +4073,24 @@ We share our smile, our words unspoken.
 Our love will be one of respect, trust, and confidence forever.
 From this day forth, our fates are bound together.
 Promise date: $1]]
+	},
+	intimacy_desc_ring = {
+		tip = "1 Promise Ring"
+	},
+	intimacy_desc_tiara = {
+		tip = "1 Unity Tiara"
+	},
+	intimacy_desc_day = {
+		tip = "誓约日"
+	},
+	word_propose_cost_tip1 = {
+		tip = "Would you like to use <color=#92fc63>1</color> Unity Tiara? (Held: <color=#92fc63>$1</color>)\nAfter using this item, your ship's Affinity stat bonus will be increased by <color=#92fc63>3%</color>.\n*You will not be able to change this character's name. "
+	},
+	word_propose_cost_tip2 = {
+		tip = "Are you sure you want to convert <color=#92fc63>1</color> Promise Ring into <color=#92fc63>1</color> Unity Tiara?\nYou cannot convert the Unity Tiara back into a Promise Ring.\n*You will not be able to change this character's name. "
+	},
+	word_propose_tiara_tip = {
+		tip = "A tiara that symbolizes the deep bond you share with your friends."
 	},
 	charge_title_getitem = {
 		tip = "May receive the following items: "
@@ -6670,7 +6691,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>5.27-6.16</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>7.22-8.4</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7670,7 +7691,7 @@ Combat Encounters
 		tip = "You cannot buy any more than this."
 	},
 	commander_build_pool_tip = {
-		tip = "即将消耗$2个$1开始指挥喵训练，是否继续？ "
+		tip = "Do you wish to use $2 $1(s) to train this Meowfficer? "
 	},
 	commander_select_matiral_erro = {
 		tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
@@ -7691,7 +7712,7 @@ Combat Encounters
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate UP for Ryuuhou, Suruga, Kazagumo, and more!"
+		tip = "Rate UP for Haruka Amami, Chihaya Kisaragi, Iori Minase, and more!"
 	},
 	buildship_heavy_tip = {
 		tip = "Nagato and Suzuya are added to standard build pool! "
@@ -11722,23 +11743,11 @@ Instructions:
 	tec_target_catchup_none_2 = {
 		tip = "PR2 / Not Selected"
 	},
-	tec_target_catchup_none_3 = {
-		tip = "PR3 / Not Selected"
-	},
-	tec_target_catchup_none_4 = {
-		tip = "PR4 / Not Selected"
-	},
 	tec_target_catchup_selected_1 = {
 		tip = "PR1 / Selected"
 	},
 	tec_target_catchup_selected_2 = {
 		tip = "PR2 / Selected"
-	},
-	tec_target_catchup_selected_3 = {
-		tip = "PR3 / Selected"
-	},
-	tec_target_catchup_selected_4 = {
-		tip = "PR4 / Selected"
 	},
 	tec_target_catchup_finish_1 = {
 		tip = "PR1 / Complete"
@@ -14228,6 +14237,22 @@ How to Play
 			}
 		}
 	},
+	handshake_game_help = {
+		tip = {
+			{
+				info = [[
+- Manjuu Meet n' Greet -
+· In this minigame, you play as Manjuu staff members trying to bring fans the goods they ask for.
+· Finishing each round of this minigame (rounds unlock over 7 days) will allow you to earn the collab-limited "Shining Bracelet" gear.
+
+- Minigame Instructions -
+1. A fan on the right side of the screen will list 3 items they want. Tap the corresponding items on the left side of the screen to select them.
+2. Select all the correct items and the fan will be satisfied and leave. If you pick an item wrong, the right item will be highlighted and you can try again.
+3. A fan will wait 15 seconds for you to bring the items they want. If you take too long, the fan will leave, and you will lose 1 stamina.
+4. The minigame ends when you run out of stamina or when the timer reaches 0.]]
+			}
+		}
+	},
 	MeixiV4_help = {
 		tip = {
 			{
@@ -14295,6 +14320,97 @@ The Mini-Event Gallery lets you choose and replay old mini-events.
 	},
 	activity_permanent_finished = {
 		tip = "Completed"
+	},
+	idolmaster_main = {
+		tip = {
+			{
+				info = [[
+- Concert Venue -
+The Concert Venue is host to the following things:
+1. A button that takes you to the Azur Anthem event stages
+2. The Manjuu Meet n' Greet minigame
+3. Your progress toward the 765 Production Trophy
+
+- Azur Anthem Collab Info -
+· This event is available from 7/22 to 8/4.
+· You can earn Collab Points during this event and spend the points on items in the dedicated event store.
+· 1 special commission will unlock every day from 7/22 to 8/4. Completing these commissions will earn you unique rewards.
+· You have until 8/11 to collect these rewards.
+
+- Manjuu Meet n' Greet Minigame -
+· One round will unlock every day until 7/28.
+· Playing all 7 rounds will allow you to earn the exclusive collab gear, "Shining Bracelet."
+· For more details on the minigame itself, please tap the Rules button on the minigame menu.
+
+- 765 Production Trophy -
+· Completing milestones on the Trophy page will award you with bios for each of the collab characters.
+· There are 14 bios all in all. Once you've acquired them all, you will be awarded with the 765 Production Trophy.]]
+			}
+		}
+	},
+	idolmaster_game_tip1 = {
+		tip = "Would you like to resume the game?"
+	},
+	idolmaster_game_tip2 = {
+		tip = "Would you like to quit the game?"
+	},
+	idolmaster_game_tip3 = {
+		tip = "Current Score"
+	},
+	idolmaster_game_tip4 = {
+		tip = "High Score"
+	},
+	idolmaster_game_tip5 = {
+		tip = "Score"
+	},
+	idolmaster_collection = {
+		tip = {
+			{
+				info = "- Event Period: <color=#92fc63>7/22 – 8/4</color>\n· During this \"Azur Anthem\" event, you can gather a total of <color=#92fc63>14</color> Idol Profiles to receive the special <color=#92fc63>765 Production Trophy</color> furniture.\n"
+			},
+			{
+				info = [[
+· Idol Profiles can be obtained through the following ways:
+1. Completing event stages
+2. Completing event missions
+3. Collecting Collab Points
+4. Playing the Manjuu Meet n' Greet minigame
+]]
+			},
+			{
+				info = "· You have up until 23:59 on August 11th to claim the trophy."
+			}
+		}
+	},
+	idolmaster_voice_name_feeling1 = {
+		tip = "Disappointed "
+	},
+	idolmaster_voice_name_feeling2 = {
+		tip = "Stranger"
+	},
+	idolmaster_voice_name_feeling3 = {
+		tip = "Friend "
+	},
+	idolmaster_voice_name_feeling4 = {
+		tip = "Colleague "
+	},
+	idolmaster_voice_name_feeling5 = {
+		tip = "Partner "
+	},
+	idolmaster_voice_name_propose = {
+		tip = "Oath "
+	},
+	cartoon_all = {
+		tip = "All"
+	},
+	cartoon_notall = {
+		tip = "Unread"
+	},
+	cartoon_haveno = {
+		tip = "You have not unlocked any comics."
+	},
+	res_cartoon_new_tip = {
+		tip = "A new page has been added to the Comics tab!"
 	},
 	memory_actiivty_ex = {
 		tip = "Event"
@@ -14384,7 +14500,7 @@ The Mini-Event Gallery lets you choose and replay old mini-events.
 		tip = "— Cannot use the selected skin —"
 	},
 	equipskin_typewrong = {
-		tip = "— This skin cannot be used with the selected gear —"
+		tip = "— Cannot use the selected skin —"
 	},
 	equipskin_typewrong_en = {
 		tip = "Gear Skin Unavailable "

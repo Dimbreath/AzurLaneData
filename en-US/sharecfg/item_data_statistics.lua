@@ -5555,6 +5555,57 @@ Prototype Triple 406mm/50 Main Gun T0 Design]],
 		price = {},
 		index = {}
 	},
+	[14004] = {
+		drop_gold_max = 0,
+		name = "Prototype Weapon Blueprint - Series 4",
+		display = [[
+Can be converted to one of the following SR gear blueprints:
+Prototype BF-109 T0 Design
+Prototype Twin 90mm Model 1939 High Angle Gun T0 Design
+Prototype Triple 406mm Model 1940 Main Gun T0 Design
+Prototype Saiun Kai T0 Design
+Prototype Tenrai T0 Design]],
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/14004",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 14004,
+		display_icon = {
+			{
+				2,
+				13025,
+				1
+			},
+			{
+				2,
+				13026,
+				1
+			},
+			{
+				2,
+				13027,
+				1
+			},
+			{
+				2,
+				13028,
+				1
+			},
+			{
+				2,
+				13029,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		drop_gold_max = 0,
 		name = "Medal of Honor",
@@ -5722,6 +5773,25 @@ Prototype Triple 406mm/50 Main Gun T0 Design]],
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 15010,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[15011] = {
+		drop_gold_max = 0,
+		name = "Unity Tiara ",
+		display = "Used to deepen your relations with The Idolmaster collab characters. This item remains in your inventory even after the Azur Anthem event ends. This item does not let you rename a The Idolmaster collab character. ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/tiara",
+		rarity = 5,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 15011,
 		display_icon = {},
 		price = {},
 		index = {}
@@ -8006,6 +8076,51 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[30114] = {
+		drop_gold_max = 0,
+		name = "Universal T4 Plate",
+		display = "Can be used to obtain a T4 Plate of your choosing.",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/30114",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 30114,
+		display_icon = {
+			{
+				2,
+				17004,
+				1
+			},
+			{
+				2,
+				17014,
+				1
+			},
+			{
+				2,
+				17024,
+				1
+			},
+			{
+				2,
+				17034,
+				1
+			},
+			{
+				2,
+				17044,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[30121] = {
 		drop_gold_max = 0,
 		name = "Oil Reserve Supply (1000) ",
@@ -8155,6 +8270,61 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				3,
 				47140,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[30203] = {
+		drop_gold_max = 0,
+		name = "Gear Lab Development Pack ",
+		display = "Can be used to obtain <color=#ffde38>1 of the following pieces of R&D Gear</color> of your choosing. ",
+		type = 16,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/30203",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 30203,
+		display_icon = {
+			{
+				3,
+				16080,
+				1
+			},
+			{
+				3,
+				17380,
+				1
+			},
+			{
+				3,
+				18220,
+				1
+			},
+			{
+				3,
+				28220,
+				1
+			},
+			{
+				3,
+				25040,
+				1
+			},
+			{
+				3,
+				41160,
+				1
+			},
+			{
+				3,
+				48040,
 				1
 			}
 		},
@@ -10787,6 +10957,119 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		},
 		index = {}
 	},
+	[30327] = {
+		drop_gold_max = 0,
+		name = "Gear Skin Box (The Idolmaster) ",
+		display = "Contains a random gear skin.",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/appearanceboxidolmaster",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 30327,
+		display_icon = {
+			{
+				9,
+				420,
+				1
+			},
+			{
+				9,
+				421,
+				1
+			},
+			{
+				9,
+				422,
+				1
+			},
+			{
+				9,
+				423,
+				1
+			},
+			{
+				9,
+				424,
+				1
+			},
+			{
+				9,
+				425,
+				1
+			},
+			{
+				9,
+				426,
+				1
+			},
+			{
+				9,
+				427,
+				1
+			},
+			{
+				9,
+				428,
+				1
+			},
+			{
+				9,
+				429,
+				1
+			},
+			{
+				9,
+				430,
+				1
+			},
+			{
+				9,
+				431,
+				1
+			},
+			{
+				9,
+				432,
+				1
+			},
+			{
+				9,
+				433,
+				1
+			},
+			{
+				9,
+				434,
+				1
+			},
+			{
+				9,
+				435,
+				1
+			},
+			{
+				9,
+				436,
+				1
+			},
+			{
+				9,
+				437,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[30900] = {
 		drop_gold_max = 0,
 		name = "定向部件T4",
@@ -11567,6 +11850,86 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 				2,
 				30112,
 				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40015] = {
+		drop_gold_max = 0,
+		name = "New Commanders Support Pack IV ",
+		display = "This pack contains a large amount of resources to help kick-start your career. ",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/support4",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40015,
+		display_icon = {
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				30121,
+				10
+			},
+			{
+				2,
+				30114,
+				35
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				16003,
+				10
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				42036,
+				5
+			},
+			{
+				2,
+				15008,
+				500
+			},
+			{
+				2,
+				30203,
+				1
+			},
+			{
+				2,
+				14004,
+				25
+			},
+			{
+				4,
+				100011,
+				1
 			}
 		},
 		price = {},
@@ -124775,6 +125138,1216 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[58240] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58240,
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			},
+			{
+				2,
+				25,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58241] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58241,
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				8,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58242] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58242,
+		display_icon = {
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10066,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58243] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58243,
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58244] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58244,
+		display_icon = {
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58245] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58245,
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			},
+			{
+				2,
+				25,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58246] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58246,
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				8,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58247] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58247,
+		display_icon = {
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10066,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58248] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58248,
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58249] = {
+		drop_gold_max = 0,
+		name = "Mystery Design",
+		display = "Chance to receive following designs",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/55000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58249,
+		display_icon = {
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58250] = {
+		drop_gold_max = 0,
+		name = "Mystery Ship",
+		display = "Chance to receive following ships from this stage",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/54000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58250,
+		display_icon = {
+			{
+				4,
+				205031,
+				1
+			},
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58251] = {
+		drop_gold_max = 0,
+		name = "Mystery Ship",
+		display = "Chance to receive following ships from this stage",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/54000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58251,
+		display_icon = {
+			{
+				4,
+				103071,
+				1
+			},
+			{
+				4,
+				103051,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58252] = {
+		drop_gold_max = 0,
+		name = "Mystery Ship",
+		display = "Chance to receive following ships from this stage",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/54000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58252,
+		display_icon = {
+			{
+				4,
+				308031,
+				1
+			},
+			{
+				4,
+				107031,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58253] = {
+		drop_gold_max = 0,
+		name = "Mystery Ship",
+		display = "Chance to receive following ships from this stage",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/54000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58253,
+		display_icon = {
+			{
+				4,
+				10700041,
+				1
+			},
+			{
+				4,
+				408031,
+				1
+			},
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58254] = {
+		drop_gold_max = 0,
+		name = "Mystery Ship",
+		display = "Chance to receive following ships from this stage",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/54000",
+		rarity = 1,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58254,
+		display_icon = {
+			{
+				4,
+				10700041,
+				1
+			},
+			{
+				4,
+				307041,
+				1
+			},
+			{
+				4,
+				307031,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58255] = {
+		drop_gold_max = 0,
+		name = "Gear Skin Box (Idolmaster)",
+		display = "Contains one random gear skin.",
+		type = 99,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/appearanceboxidolmaster",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 58255,
+		display_icon = {
+			{
+				9,
+				420,
+				1
+			},
+			{
+				9,
+				421,
+				1
+			},
+			{
+				9,
+				422,
+				1
+			},
+			{
+				9,
+				423,
+				1
+			},
+			{
+				9,
+				424,
+				1
+			},
+			{
+				9,
+				425,
+				1
+			},
+			{
+				9,
+				426,
+				1
+			},
+			{
+				9,
+				427,
+				1
+			},
+			{
+				9,
+				428,
+				1
+			},
+			{
+				9,
+				429,
+				1
+			},
+			{
+				9,
+				430,
+				1
+			},
+			{
+				9,
+				431,
+				1
+			},
+			{
+				9,
+				432,
+				1
+			},
+			{
+				9,
+				433,
+				1
+			},
+			{
+				9,
+				434,
+				1
+			},
+			{
+				9,
+				435,
+				1
+			},
+			{
+				9,
+				436,
+				1
+			},
+			{
+				9,
+				437,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		drop_gold_max = 0,
 		name = "Ship EXP",
@@ -127070,6 +128643,44 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 59222,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59230] = {
+		drop_gold_max = 0,
+		name = "Collab Points ",
+		display = "Used in the \"Azur Anthem\" event. Will disappear after the exchange period ends. ",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/idolm_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59230,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59231] = {
+		drop_gold_max = 0,
+		name = "Rental Outfit Voucher ",
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+		type = 98,
+		is_world = 0,
+		shop_id = 1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59231,
 		display_icon = {},
 		price = {},
 		index = {}
@@ -136642,6 +138253,272 @@ The available outfits and their rarities are as follows:
 		price = {},
 		index = {}
 	},
+	[70079] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Haruka Amami)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70079,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70080] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Haruka Amami)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70080,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70081] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Chihaya Kisaragi)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70081,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70082] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Chihaya Kisaragi)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70082,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70083] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Iori Minase)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70083,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70084] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Iori Minase)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70084,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70085] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Azusa Miura)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70085,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70086] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Azusa Miura)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70086,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70087] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Ritsuko Akizuki)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70087,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70088] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Ritsuko Akizuki)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70088,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70089] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Ami Futami)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70089,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70090] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Ami Futami)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70090,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70091] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 1 (Mami Futami)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolphotos",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70091,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70092] = {
+		drop_gold_max = 0,
+		name = "Idol Profile 2 (Mami Futami)",
+		display = "Collectible item from the Azur Anthem collab event. Obtain all 14 Idol Profiles to receive a unique piece of furniture.",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 4058,
+		icon = "Props/idolarchives",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		id = 70092,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[100000] = {
 		drop_gold_max = 0,
 		name = "META Coordinates",
@@ -137205,6 +139082,7 @@ The available outfits and their rarities are as follows:
 		14001,
 		14002,
 		14003,
+		14004,
 		15001,
 		15002,
 		15003,
@@ -137214,6 +139092,7 @@ The available outfits and their rarities are as follows:
 		15008,
 		15009,
 		15010,
+		15011,
 		16001,
 		16002,
 		16003,
@@ -137326,8 +139205,10 @@ The available outfits and their rarities are as follows:
 		30103,
 		30112,
 		30113,
+		30114,
 		30121,
 		30202,
+		30203,
 		30301,
 		30302,
 		30303,
@@ -137352,6 +139233,7 @@ The available outfits and their rarities are as follows:
 		30324,
 		30325,
 		30326,
+		30327,
 		30900,
 		30911,
 		30912,
@@ -137367,6 +139249,7 @@ The available outfits and their rarities are as follows:
 		40012,
 		40013,
 		40014,
+		40015,
 		40100,
 		40102,
 		40103,
@@ -139754,6 +141637,22 @@ The available outfits and their rarities are as follows:
 		58236,
 		58237,
 		58238,
+		58240,
+		58241,
+		58242,
+		58243,
+		58244,
+		58245,
+		58246,
+		58247,
+		58248,
+		58249,
+		58250,
+		58251,
+		58252,
+		58253,
+		58254,
+		58255,
 		59000,
 		59001,
 		59002,
@@ -139875,6 +141774,8 @@ The available outfits and their rarities are as follows:
 		59220,
 		59221,
 		59222,
+		59230,
+		59231,
 		59223,
 		59224,
 		59225,
@@ -140312,6 +142213,20 @@ The available outfits and their rarities are as follows:
 		70076,
 		70077,
 		70078,
+		70079,
+		70080,
+		70081,
+		70082,
+		70083,
+		70084,
+		70085,
+		70086,
+		70087,
+		70088,
+		70089,
+		70090,
+		70091,
+		70092,
 		100000,
 		100001,
 		110000,

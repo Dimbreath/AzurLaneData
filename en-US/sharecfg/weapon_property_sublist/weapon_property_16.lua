@@ -2,100 +2,6 @@ pg = pg or {}
 pg.weapon_property_16 = {}
 
 function ()
-	uv0.weapon_property_16[15046] = {
-		id = 15046,
-		reload_max = 4260,
-		damage = 99,
-		base = 15040
-	}
-	uv0.weapon_property_16[15047] = {
-		id = 15047,
-		reload_max = 4170,
-		damage = 107,
-		base = 15040
-	}
-	uv0.weapon_property_16[15048] = {
-		id = 15048,
-		reload_max = 4080,
-		damage = 115,
-		base = 15040
-	}
-	uv0.weapon_property_16[15049] = {
-		id = 15049,
-		reload_max = 3990,
-		damage = 123,
-		base = 15040
-	}
-	uv0.weapon_property_16[15050] = {
-		id = 15050,
-		reload_max = 3900,
-		damage = 131,
-		base = 15040
-	}
-	uv0.weapon_property_16[15051] = {
-		reload_max = 3900,
-		damage = 131,
-		base = 15040,
-		id = 15051,
-		corrected = 104
-	}
-	uv0.weapon_property_16[15060] = {
-		action_index = "attack",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "潜艇用Mark18鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 6,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 41,
-		corrected = 100,
-		min_range = 0,
-		id = 15060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2791,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0.5,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1832
-		},
-		barrage_ID = {
-			1601
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_16[15061] = {
-		id = 15061,
-		reload_max = 2716,
-		damage = 48,
-		base = 15060
-	}
-	uv0.weapon_property_16[15062] = {
-		id = 15062,
-		reload_max = 2641,
-		damage = 56,
-		base = 15060
-	}
 	uv0.weapon_property_16[15063] = {
 		id = 15063,
 		reload_max = 2566,
@@ -581,5 +487,143 @@ function ()
 		base = 15160,
 		id = 15172,
 		corrected = 110
+	}
+	uv0.weapon_property_16[15173] = {
+		reload_max = 1882,
+		damage = 149,
+		base = 15160,
+		id = 15173,
+		corrected = 118
+	}
+	uv0.weapon_property_16[15200] = {
+		action_index = "attack",
+		range = 50,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "三联装533mm鱼雷Mk17",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 15200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3672,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_16[15201] = {
+		id = 15201,
+		reload_max = 3597,
+		damage = 70,
+		base = 15200
+	}
+	uv0.weapon_property_16[15202] = {
+		id = 15202,
+		reload_max = 3522,
+		damage = 80,
+		base = 15200
+	}
+	uv0.weapon_property_16[15203] = {
+		id = 15203,
+		reload_max = 3447,
+		damage = 90,
+		base = 15200
+	}
+	uv0.weapon_property_16[15204] = {
+		id = 15204,
+		reload_max = 3373,
+		damage = 100,
+		base = 15200
+	}
+	uv0.weapon_property_16[15205] = {
+		id = 15205,
+		reload_max = 3298,
+		damage = 110,
+		base = 15200
+	}
+	uv0.weapon_property_16[15206] = {
+		id = 15206,
+		reload_max = 3224,
+		damage = 120,
+		base = 15200
+	}
+	uv0.weapon_property_16[15207] = {
+		reload_max = 3224,
+		damage = 120,
+		base = 15200,
+		id = 15207,
+		corrected = 104
+	}
+	uv0.weapon_property_16[15220] = {
+		action_index = "attack",
+		range = 50,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联装533mm鱼雷Mk17",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 15220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4319,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

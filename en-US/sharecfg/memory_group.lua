@@ -1959,6 +1959,44 @@ pg.memory_group = {
 			1713
 		}
 	},
+	[199] = {
+		title = "Azur Anthem - Side Story",
+		subtype = 2,
+		type = 2,
+		id = 199,
+		icon = "title_event",
+		memories = {
+			1746,
+			1747,
+			1748,
+			1749
+		}
+	},
+	[200] = {
+		title = "Azur Anthem",
+		subtype = 2,
+		type = 2,
+		id = 200,
+		icon = "title_event",
+		memories = {
+			1751,
+			1752,
+			1753,
+			1754,
+			1755,
+			1756,
+			1757,
+			1758,
+			1759,
+			1760,
+			1761,
+			1762,
+			1763,
+			1764,
+			1765,
+			1766
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		subtype = 0,
@@ -3059,6 +3097,8 @@ pg.memory_group = {
 		196,
 		197,
 		198,
+		199,
+		200,
 		501,
 		502,
 		503,

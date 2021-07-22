@@ -168,21 +168,21 @@ function slot0.flush(slot0)
 			return
 		end
 
-		slot7, slot8, slot9 = slot1:getIntimacyDetail()
+		slot7, slot8 = slot1:getIntimacyIcon()
 
-		if slot8 <= slot9 and not slot1.propose and not slot4 then
+		if slot8 and not slot4 then
 			if slot0.proposeTF.childCount == 0 then
 				slot0.proposeModel = LoadAndInstantiateSync("UI", "heartShipCard")
 				slot0.sg = GetComponent(slot0.proposeModel, "SkeletonGraphic")
 
 				slot0.proposeModel.transform:SetParent(slot0.proposeTF, false)
 
-				slot11 = GetComponent(slot0.proposeModel, typeof(RectTransform))
-				slot11.localScale = Vector3(0.5, 0.5, 0.5)
-				slot11.rect.height = 40
-				slot11.rect.width = 40
-				slot11.localPosition = Vector3(0, 0, 0)
-				slot11.localRotation = Vector3(0, 0, 0)
+				slot10 = GetComponent(slot0.proposeModel, typeof(RectTransform))
+				slot10.localScale = Vector3(0.5, 0.5, 0.5)
+				slot10.rect.height = 40
+				slot10.rect.width = 40
+				slot10.localPosition = Vector3(0, 0, 0)
+				slot10.localRotation = Vector3(0, 0, 0)
 			end
 
 			slot0.sg.enabled = true
@@ -295,9 +295,9 @@ function slot0.flushDetail(slot0)
 
 			if slot0.detailType == uv0.DetailType1 then
 				if slot11 == 6 then
-					slot17, slot18, slot19 = slot0.shipVO:getIntimacyDetail()
+					slot17, slot18 = slot0.shipVO:getIntimacyDetail()
 					slot14.text = AttributeType.Type2Name(slot4[slot0.detailType][slot11])
-					slot15.text = setColorStr(slot19, slot18 <= slot19 and COLOR_GREEN or COLOR_WHITE)
+					slot15.text = setColorStr(slot18, slot17 <= slot18 and COLOR_GREEN or COLOR_WHITE)
 				else
 					slot14.text = AttributeType.Type2Name(slot16)
 					slot15.text = setColorStr(tostring(math.floor(slot3[slot16])), slot0:canModAttr(slot1, slot16, slot3) and COLOR_GREEN or COLOR_WHITE)

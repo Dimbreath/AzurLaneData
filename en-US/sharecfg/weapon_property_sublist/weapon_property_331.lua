@@ -2,741 +2,409 @@ pg = pg or {}
 pg.weapon_property_331 = {}
 
 function ()
-	uv0.weapon_property_331[741109] = {
-		base = 1000,
-		range = 120,
+	uv0.weapon_property_331[750113] = {
+		action_index = "attack",
+		range = 60,
 		type = 2,
-		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散自机狙 左",
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 741109,
-		bullet_ID = {
-			800024
-		},
-		barrage_ID = {
-			810054
-		}
-	}
-	uv0.weapon_property_331[741110] = {
-		base = 1000,
-		range = 120,
-		type = 2,
-		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散自机狙 右",
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 741110,
-		bullet_ID = {
-			800025
-		},
-		barrage_ID = {
-			810054
-		}
-	}
-	uv0.weapon_property_331[741111] = {
-		base = 1000,
-		range = 120,
-		type = 2,
-		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散圆形弹幕 左",
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 741111,
-		bullet_ID = {
-			800027
-		},
-		barrage_ID = {
-			810059
-		}
-	}
-	uv0.weapon_property_331[741112] = {
-		base = 1000,
-		range = 120,
-		type = 2,
-		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散圆形弹幕 右",
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 741112,
-		bullet_ID = {
-			800029
-		},
-		barrage_ID = {
-			810059
-		}
-	}
-	uv0.weapon_property_331[742001] = {
-		name = "【DOA联动SP3】精英人形海咲 大范围鱼雷",
-		damage = 30,
-		base = 1001,
-		action_index = "",
-		suppress = 1,
-		reload_max = 2800,
-		id = 742001,
-		bullet_ID = {
-			110605,
-			110606
-		},
-		barrage_ID = {
-			110608,
-			110609
-		}
-	}
-	uv0.weapon_property_331[742002] = {
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】塞壬CA 近程自卫火炮III",
 		aim_type = 1,
-		range = 120,
-		base = 1000,
-		name = "【DOA联动SP3】精英人形海咲 大范围旋转弹幕",
-		initial_over_heat = 1,
-		suppress = 1,
-		action_index = "",
-		reload_max = 1200,
-		queue = 3,
-		id = 742002,
-		bullet_ID = {
-			740016
-		},
-		barrage_ID = {
-			810003
-		}
-	}
-	uv0.weapon_property_331[742003] = {
-		aim_type = 1,
-		range = 120,
-		damage = 18,
-		base = 1000,
-		name = "【DOA联动SP3】精英人形霞 大范围主炮",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 742003,
-		bullet_ID = {
-			800003,
-			800004,
-			800002,
-			800002,
-			800002
-		},
-		barrage_ID = {
-			730088,
-			730089,
-			730090,
-			730091,
-			730092
-		}
-	}
-	uv0.weapon_property_331[742004] = {
-		aim_type = 0,
-		name = "【DOA联动SP3】精英人形霞 鱼雷弹幕",
-		damage = 30,
-		base = 1001,
-		initial_over_heat = 1,
-		reload_max = 1200,
-		queue = 1,
-		id = 742004,
-		bullet_ID = {
-			1801,
-			1801,
-			1801
-		},
-		barrage_ID = {
-			810004,
-			810005,
-			810006
-		}
-	}
-	uv0.weapon_property_331[742101] = {
-		aim_type = 1,
-		range = 38,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
 		damage = 7,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 通用近程自卫火炮",
-		type = 2,
+		corrected = 125,
+		min_range = 0,
+		id = 750113,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
 		suppress = 1,
-		reload_max = 500,
-		queue = 5,
-		id = 742101,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			999
+			801
 		},
 		barrage_ID = {
 			13
-		}
-	}
-	uv0.weapon_property_331[742102] = {
-		aim_type = 1,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 玛莉萝丝 前方扫射弹幕",
-		type = 2,
-		suppress = 1,
-		reload_max = 900,
-		initial_over_heat = 1,
-		queue = 2,
-		id = 742102,
-		bullet_ID = {
-			800001,
-			800001,
-			800001,
-			800001,
-			800001,
-			800001,
-			800001,
-			800001
 		},
-		barrage_ID = {
-			720001,
-			720002,
-			720003,
-			720004,
-			720005,
-			720006,
-			720007,
-			720008
-		}
-	}
-	uv0.weapon_property_331[742103] = {
-		aim_type = 1,
-		range = 120,
-		damage = 7,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 玛莉萝丝 螺旋穿透弹",
-		suppress = 1,
-		reload_max = 450,
-		fire_sfx = "",
-		queue = 3,
-		id = 742103,
-		bullet_ID = {
-			720001,
-			720002
+		oxy_type = {
+			1
 		},
-		barrage_ID = {
-			810001,
-			810002
-		}
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[742104] = {
-		suppress = 1,
-		name = "【DOA联动SP3】BOSS 穗香 前排跨射",
-		type = 19,
-		aim_type = 1,
+	uv0.weapon_property_331[750114] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
 		fire_fx = "CAFire",
-		recover_time = 4,
-		action_index = "",
-		reload_max = 1500,
-		queue = 1,
-		range = 75,
-		damage = 20,
-		base = 1000,
-		fire_sfx = "battle/cannon-main",
-		id = 742104,
-		bullet_ID = {
-			800007
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_331[742105] = {
-		aim_type = 1,
-		min_range = 75,
-		type = 19,
-		name = "【DOA联动SP3】BOSS 穗香 后排跨射",
-		fire_fx = "CAFire",
-		recover_time = 4,
-		reload_max = 2400,
-		action_index = "",
-		queue = 1,
-		angle = 40,
-		range = 150,
-		damage = 30,
-		base = 1000,
-		suppress = 1,
-		fire_sfx = "battle/cannon-main",
-		id = 742105,
-		bullet_ID = {
-			800006
-		},
-		barrage_ID = {
-			20018
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_331[742106] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 穗香 主炮弹幕1",
-		initial_over_heat = 1,
-		reload_max = 1500,
-		queue = 2,
-		id = 742106,
-		bullet_ID = {
-			800031,
-			800032
-		},
-		barrage_ID = {
-			810080,
-			810081
-		}
-	}
-	uv0.weapon_property_331[742107] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 穗香 主炮弹幕2",
-		initial_over_heat = 1,
-		reload_max = 1500,
-		queue = 3,
-		id = 742107,
-		bullet_ID = {
-			800030
-		},
-		barrage_ID = {
-			730124
-		}
-	}
-	uv0.weapon_property_331[742108] = {
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 通用 fever 链状弹幕",
-		fire_fx = "CAFire",
-		type = 2,
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 742108,
-		bullet_ID = {
-			700006,
-			700006,
-			700006,
-			700006,
-			700006,
-			700006,
-			700006,
-			700006
-		},
-		barrage_ID = {
-			810070,
-			810071,
-			810072,
-			810073,
-			810074,
-			810075,
-			810076,
-			810077
-		}
-	}
-	uv0.weapon_property_331[742109] = {
-		aim_type = 1,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【DOA联动SP3】BOSS 玛莉萝丝 fever 3way螺旋穿透弹",
-		suppress = 1,
-		reload_max = 6000,
-		fire_sfx = "",
-		queue = 2,
-		id = 742109,
-		bullet_ID = {
-			720001,
-			720002
-		},
-		barrage_ID = {
-			810078,
-			810079
-		}
-	}
-	uv0.weapon_property_331[742110] = {
-		suppress = 1,
-		name = "【DOA联动SP3】BOSS 穗香 fever 前排跨射",
-		type = 19,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		recover_time = 4,
-		action_index = "",
-		reload_max = 6000,
-		queue = 1,
-		range = 75,
-		damage = 24,
-		base = 1000,
-		fire_sfx = "battle/cannon-main",
-		id = 742110,
-		bullet_ID = {
-			800033
-		},
-		barrage_ID = {
-			810082
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_331[742111] = {
-		aim_type = 1,
-		name = "【DOA联动SP3】BOSS 穗香 fever 后排跨射1",
-		axis_angle = 30,
-		type = 19,
-		min_range = 75,
-		fire_fx = "CAFire",
-		recover_time = 4,
-		reload_max = 300,
-		action_index = "",
-		queue = 2,
-		angle = 40,
-		range = 150,
-		damage = 32,
-		base = 1000,
-		suppress = 1,
-		fire_sfx = "battle/cannon-main",
-		id = 742111,
-		bullet_ID = {
-			800006
-		},
-		barrage_ID = {
-			20018
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_331[742112] = {
-		aim_type = 1,
-		min_range = 75,
-		type = 19,
-		name = "【DOA联动SP3】BOSS 穗香 fever 后排跨射2",
-		fire_fx = "CAFire",
-		recover_time = 4,
-		reload_max = 300,
-		action_index = "",
-		queue = 3,
-		angle = 40,
-		range = 150,
-		damage = 32,
-		base = 1000,
-		suppress = 1,
-		fire_sfx = "battle/cannon-main",
-		id = 742112,
-		bullet_ID = {
-			800006
-		},
-		barrage_ID = {
-			20018
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_331[742113] = {
-		aim_type = 1,
-		name = "【DOA联动SP3】BOSS 穗香 fever 后排跨射3",
-		axis_angle = -30,
-		type = 19,
-		min_range = 75,
-		fire_fx = "CAFire",
-		recover_time = 4,
-		reload_max = 300,
-		action_index = "",
-		angle = 40,
-		range = 150,
-		damage = 32,
-		base = 1000,
-		suppress = 1,
-		fire_sfx = "battle/cannon-main",
-		id = 742113,
-		bullet_ID = {
-			800006
-		},
-		barrage_ID = {
-			20018
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_331[743001] = {
-		name = "【DOA联动SP4】精英人形海咲 大范围鱼雷",
-		damage = 40,
-		base = 1001,
-		action_index = "",
-		suppress = 1,
-		reload_max = 2800,
-		id = 743001,
-		bullet_ID = {
-			110605,
-			110606
-		},
-		barrage_ID = {
-			110608,
-			110609
-		}
-	}
-	uv0.weapon_property_331[743002] = {
-		aim_type = 1,
-		range = 120,
-		damage = 15,
-		base = 1000,
-		name = "【DOA联动SP4】精英人形海咲 大范围旋转弹幕",
-		suppress = 1,
-		initial_over_heat = 1,
-		reload_max = 1200,
-		action_index = "",
-		queue = 3,
-		id = 743002,
-		bullet_ID = {
-			740016
-		},
-		barrage_ID = {
-			810003
-		}
-	}
-	uv0.weapon_property_331[743003] = {
-		aim_type = 1,
-		range = 120,
-		damage = 24,
-		base = 1000,
-		name = "【DOA联动SP4】精英人形霞 大范围主炮",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 743003,
-		bullet_ID = {
-			800003,
-			800004,
-			800002,
-			800002,
-			800002
-		},
-		barrage_ID = {
-			730088,
-			730089,
-			730090,
-			730091,
-			730092
-		}
-	}
-	uv0.weapon_property_331[743004] = {
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】塞壬CA 主炮1",
 		aim_type = 0,
-		name = "【DOA联动SP4】精英人形霞 鱼雷弹幕",
-		damage = 40,
-		base = 1001,
-		initial_over_heat = 1,
-		reload_max = 1200,
-		queue = 1,
-		id = 743004,
-		bullet_ID = {
-			1801,
-			1801,
-			1801
-		},
-		barrage_ID = {
-			810004,
-			810005,
-			810006
-		}
-	}
-	uv0.weapon_property_331[743005] = {
-		initial_over_heat = 1,
-		suppress = 1,
-		type = 19,
-		name = "【DOA联动SP4】精英人形凪咲 前排跨射",
-		fire_fx = "CAFire",
-		action_index = "",
-		aim_type = 1,
-		reload_max = 1800,
-		queue = 1,
-		range = 75,
-		damage = 28,
-		base = 1000,
-		fire_sfx = "battle/cannon-main",
-		id = 743005,
-		bullet_ID = {
-			800005
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_331[743006] = {
-		range = 120,
-		name = "【DOA联动SP4】精英人形凪咲 主炮弹幕",
-		damage = 32,
-		base = 1000,
-		fire_fx = "CAFire",
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 750114,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
 		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
 		queue = 1,
-		id = 743006,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
 			20003,
 			20003
 		},
 		barrage_ID = {
-			950195,
-			950196
-		}
+			200140,
+			200141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[743101] = {
+	uv0.weapon_property_331[750115] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】塞壬CA 主炮2",
 		aim_type = 1,
-		range = 38,
-		damage = 8,
-		base = 1000,
-		name = "【DOA联动SP4】BOSS 通用近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		action_index = "",
-		queue = 5,
-		id = 743101,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 750115,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			999
+			1403
 		},
 		barrage_ID = {
-			13
-		}
+			200101
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[743102] = {
+	uv0.weapon_property_331[750116] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】塞壬CA 三联装鱼雷II",
 		aim_type = 1,
-		range = 120,
-		damage = 18,
-		base = 1000,
-		name = "【DOA联动SP4】BOSS 女天狗 变向弹幕",
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 750116,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
 		suppress = 1,
-		reload_max = 800,
+		spawn_bound = "torpedo",
 		fire_sfx = "",
-		queue = 2,
-		id = 743102,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			770022,
-			770023
+			30067
 		},
 		barrage_ID = {
-			990241,
-			990242
-		}
+			1402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[743103] = {
+	uv0.weapon_property_331[750117] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 武器1",
 		aim_type = 1,
-		range = 120,
-		damage = 18,
-		base = 1000,
-		name = "【DOA联动SP4】BOSS 女天狗 变向弹幕",
-		suppress = 1,
-		reload_max = 800,
-		fire_sfx = "",
-		queue = 3,
-		id = 743103,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 750117,
+		attack_attribute_ratio = 90,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
-			770020,
-			770021
+			801
 		},
 		barrage_ID = {
-			990001,
-			990002
-		}
+			399981
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[743104] = {
-		range = 80,
-		damage = 32,
-		base = 1001,
+	uv0.weapon_property_331[750118] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 武器2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 750118,
+		attack_attribute_ratio = 90,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801,
+			801,
+			801
+		},
+		barrage_ID = {
+			7220,
+			7221,
+			7222
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750119] = {
+		action_index = "attack",
+		range = 120,
 		type = 11,
-		fire_fx = "zhupao",
+		fire_fx = "CAFire",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 浮游炮机体",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 750119,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1500,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		reload_max = 700,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载战斗机",
 		fire_sfx = "battle/air-atk",
-		queue = 1,
-		id = 743104,
-		action_index = "",
-		attack_attribute = 4,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
 			30013
 		},
 		barrage_ID = {
-			12015
-		}
-	}
-	uv0.weapon_property_331[743105] = {
-		range = 110,
-		damage = 46,
-		base = 1001,
-		type = 11,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机",
-		suppress = 1,
-		spawn_bound = "plane",
-		reload_max = 700,
-		action_index = "",
-		attack_attribute = 4,
-		queue = 1,
-		id = 743105,
-		bullet_ID = {
-			30014
+			12019
 		},
-		barrage_ID = {
-			12015
-		}
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[743106] = {
+	uv0.weapon_property_331[750120] = {
+		action_index = "attack",
 		range = 100,
-		damage = 58,
-		base = 1001,
 		type = 11,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载轰炸机",
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 轰炸机T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 144,
+		corrected = 100,
+		min_range = 0,
+		id = 750120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2650,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		reload_max = 700,
-		action_index = "",
-		attack_attribute = 4,
-		queue = 1,
-		id = 743106,
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
 		bullet_ID = {
 			30019
 		},
 		barrage_ID = {
-			12015
-		}
+			12016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
-	uv0.weapon_property_331[743107] = {
+	uv0.weapon_property_331[750121] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 鱼雷机T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 112,
+		corrected = 100,
+		min_range = 0,
+		id = 750121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2100,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750122] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -744,16 +412,510 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载战斗机武器 弹幕",
+		name = "【商路护航困难】执棋者I型精英 浮游炮武器1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 750122,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1050,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			9062
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750123] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 轰炸机武器T1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 144,
+		corrected = 100,
+		min_range = 0,
+		id = 750123,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750124] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】执棋者I型精英 鱼雷机武器T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 112,
+		corrected = 100,
+		min_range = 22,
+		id = 750124,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750125] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】破局者I型精英 武器1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 750125,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801,
+			801
+		},
+		barrage_ID = {
+			399960,
+			399959
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750126] = {
+		action_index = "attack",
+		range = 50,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】破局者I型精英 6颗炮弹一轮攻击前排",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 24,
+		corrected = 100,
+		min_range = 20,
+		id = 750126,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399914
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_331[750127] = {
+		action_index = "attack",
+		range = 150,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】破局者I型精英 2颗炮弹一轮攻击后排",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 80,
+		corrected = 100,
+		min_range = 75,
+		id = 750127,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon3",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_331[750128] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】破局者I型精英 专用武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 750128,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			400802
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750129] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】破局者I型精英 特殊武器2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 0,
+		id = 750129,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8041
+		},
+		barrage_ID = {
+			8041
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750130] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航】鱼雷艇鱼雷3连",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 750130,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			350105
+		},
+		barrage_ID = {
+			350102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750131] = {
+		action_index = "attack",
+		range = 8,
+		type = 18,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航】自爆船武器",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 60,
+		corrected = 100,
+		min_range = 0,
+		id = 750131,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 700,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			80001
+		},
+		barrage_ID = {},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750132] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航】潜艇鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 116,
+		corrected = 100,
+		min_range = 0,
+		id = 750132,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 420,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1400
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750133] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】BF109T战斗机弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 32,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 743107,
+		id = 750133,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -786,7 +948,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_331[743108] = {
+	uv0.weapon_property_331[750134] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -794,16 +956,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载战斗机武器 对空",
+		name = "【商路护航简单】BF109T战斗机空中",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 32,
+		damage = 25,
 		corrected = 100,
 		min_range = 0,
-		id = 743108,
+		id = 750134,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -830,41 +992,47 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_331[743109] = {
+	uv0.weapon_property_331[750135] = {
 		action_index = "",
-		range = 60,
-		type = 3,
-		fire_fx = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机武器",
+		name = "【商路护航简单】Me155A战斗机弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 35,
+		angle = 180,
 		charge_param = "",
-		damage = 46,
+		damage = 50,
 		corrected = 100,
-		min_range = 15,
-		id = 743109,
+		min_range = 0,
+		id = 750135,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 8000,
+		reload_max = 1650,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10031
+			20001,
+			20001,
+			20001,
+			20001
 		},
 		barrage_ID = {
-			12001
+			101,
+			102,
+			103,
+			104
 		},
 		oxy_type = {
 			1
@@ -874,7 +1042,51 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_331[743110] = {
+	uv0.weapon_property_331[750136] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】Me155A战斗机空中",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 750136,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750137] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -882,16 +1094,1280 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【DOA联动SP4】BOSS 女天狗 舰载轰炸机武器",
+		name = "【商路护航简单】JU87C轰炸机",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 58,
+		damage = 150,
 		corrected = 100,
 		min_range = 0,
-		id = 743110,
+		id = 750137,
+		attack_attribute_ratio = 85,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750138] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】BF109T战斗机弹幕",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 750138,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750139] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】BF109T战斗机空中",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 750139,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750140] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】Me155A战斗机弹幕",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 50,
+		corrected = 100,
+		min_range = 0,
+		id = 750140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750141] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】Me155A战斗机空中",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 750141,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750142] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】JU87C轰炸机",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 150,
+		corrected = 100,
+		min_range = 0,
+		id = 750142,
+		attack_attribute_ratio = 85,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750143] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】BF109T战斗机弹幕",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 750143,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750144] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】BF109T战斗机空中",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 750144,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750145] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】Me155A战斗机弹幕",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 50,
+		corrected = 100,
+		min_range = 0,
+		id = 750145,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750146] = {
+		action_index = "",
+		range = 200,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】Me155A战斗机空中",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 750146,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 48,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750147] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】JU87C轰炸机",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 150,
+		corrected = 100,
+		min_range = 0,
+		id = 750147,
+		attack_attribute_ratio = 85,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750148] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】驱逐「Pawn」量产型塞壬驱逐单发瞄准x4随机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 5,
+		corrected = 125,
+		min_range = 0,
+		id = 750148,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			1005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750149] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】驱逐「Pawn」塞壬单装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 750149,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			1400
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750150] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】驱逐「Pawn」驱逐旋转子弹3发武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 750150,
+		attack_attribute_ratio = 30,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			41003
+		},
+		barrage_ID = {
+			10003
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750151] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】轻巡「Knight」舰船旋转子弹延迟3连弹——轻巡",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 750151,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300109,
+			300110,
+			300111
+		},
+		barrage_ID = {
+			300109,
+			300110,
+			300111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750152] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航简单】轻巡「Knight」量产型塞壬轻巡联装炮x6散射III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 15,
+		corrected = 105,
+		min_range = 0,
+		id = 750152,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			802
+		},
+		barrage_ID = {
+			1102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750153] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】驱逐「Pawn」量产型塞壬驱逐单发瞄准x4随机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 5,
+		corrected = 125,
+		min_range = 0,
+		id = 750153,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			1005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750154] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】驱逐「Pawn」塞壬单装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 750154,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			1400
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750155] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】驱逐「Pawn」驱逐旋转子弹3发武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 750155,
+		attack_attribute_ratio = 30,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			41003
+		},
+		barrage_ID = {
+			10003
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750156] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】轻巡「Knight」舰船旋转子弹延迟3连弹——轻巡",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 750156,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300109,
+			300110,
+			300111
+		},
+		barrage_ID = {
+			300109,
+			300110,
+			300111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750157] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航普通】轻巡「Knight」量产型塞壬轻巡联装炮x6散射III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 15,
+		corrected = 105,
+		min_range = 0,
+		id = 750157,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			802
+		},
+		barrage_ID = {
+			1102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750158] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】驱逐「Pawn」量产型塞壬驱逐单发瞄准x4随机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 5,
+		corrected = 125,
+		min_range = 0,
+		id = 750158,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			1005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750159] = {
+		action_index = "",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】驱逐「Pawn」塞壬单装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 750159,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			1400
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750160] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】驱逐「Pawn」驱逐旋转子弹3发武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 750160,
+		attack_attribute_ratio = 30,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			41003
+		},
+		barrage_ID = {
+			10003
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750161] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】轻巡「Knight」舰船旋转子弹延迟3连弹——轻巡",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 750161,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300109,
+			300110,
+			300111
+		},
+		barrage_ID = {
+			300109,
+			300110,
+			300111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[750162] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【商路护航困难】轻巡「Knight」量产型塞壬轻巡联装炮x6散射III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 15,
+		corrected = 105,
+		min_range = 0,
+		id = 750162,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			802
+		},
+		barrage_ID = {
+			1102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[760001] = {
+		action_index = "attack",
+		range = 100,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020德系活动A1】BOSS BOSS 塞壬执棋者I型 轰炸机",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 760001,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			12030
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[760002] = {
+		action_index = "attack",
+		range = 110,
+		type = 11,
+		fire_fx = "",
+		recover_time = 5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 浮游炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 760002,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			690109
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_331[760003] = {
+		action_index = "",
+		range = 10,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 轰炸机武器",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 760003,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -918,162 +2394,43 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_331[743113] = {
-		range = 120,
-		damage = 18,
-		base = 1000,
-		name = "【DOA联动SP4】BOSS 女天狗 fever 黑色羽毛反弹封锁弹",
-		type = 2,
-		reload_max = 1200,
-		fire_sfx = "",
-		queue = 1,
-		id = 743113,
-		bullet_ID = {
-			800042,
-			800043,
-			800042,
-			800043,
-			800045,
-			800046,
-			800045,
-			800046
-		},
-		barrage_ID = {
-			810088,
-			810089,
-			810090,
-			810091,
-			810094,
-			810095,
-			810096,
-			810097
-		}
-	}
-	uv0.weapon_property_331[743114] = {
-		aim_type = 1,
-		range = 120,
-		damage = 22,
-		base = 1000,
-		name = "【DOA联动SP4】BOSS 女天狗 fever 缓慢紫色子弹",
-		type = 2,
-		suppress = 1,
-		reload_max = 600,
-		initial_over_heat = 1,
-		queue = 2,
-		id = 743114,
-		bullet_ID = {
-			800049
-		},
-		barrage_ID = {
-			810098
-		}
-	}
-	uv0.weapon_property_331[743115] = {
-		range = 120,
-		name = "【DOA联动SP4】BOSS 女天狗 fever 变形红色自机狙",
-		damage = 18,
-		base = 1000,
-		reload_max = 6000,
-		queue = 2,
-		id = 743115,
-		bullet_ID = {
-			780074,
-			780075
-		},
-		barrage_ID = {
-			810099,
-			810100
-		}
-	}
-	uv0.weapon_property_331[743116] = {
+	uv0.weapon_property_331[760004] = {
 		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【DOA联动SP4】BOSS 女天狗 fever 轰炸机",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 743116,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 400,
-		queue = 3,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			340141
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_331[743117] = {
-		action_index = "",
-		range = 1,
+		range = 70,
 		type = 2,
-		fire_fx = "",
+		fire_fx = "fangkongpaohuoshe2",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【DOA联动SP4】BOSS 女天狗 fever 轰炸机武器",
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 浮游炮武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 25,
+		angle = 360,
 		charge_param = "",
-		damage = 68,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 743117,
+		id = 760004,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 9500,
+		reload_max = 500,
 		queue = 4,
-		search_type = 2,
-		effect_move = 0,
+		search_type = 1,
+		effect_move = 1,
 		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			800050,
-			800051,
-			800052,
-			800053,
-			800054,
-			800055
+			690105,
+			690106
 		},
 		barrage_ID = {
-			130991,
-			130991,
-			130991,
-			130991,
-			130991,
-			130991
+			690113,
+			690114
 		},
 		oxy_type = {
 			1
@@ -1083,246 +2440,57 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_331[744001] = {
+	uv0.weapon_property_331[760005] = {
 		aim_type = 1,
-		range = 120,
-		damage = 24,
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 变向弹幕",
 		base = 1000,
-		name = "【DOA联动VSP】精英人形霞 大范围主炮",
-		fire_fx = "CAFire",
 		suppress = 1,
-		reload_max = 1500,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 744001,
+		reload_max = 600,
+		queue = 5,
+		id = 760005,
 		bullet_ID = {
-			800003,
-			800004,
-			800002,
-			800002,
-			800002
-		},
-		barrage_ID = {
-			730088,
-			730089,
-			730090,
-			730091,
-			730092
-		}
-	}
-	uv0.weapon_property_331[744002] = {
-		aim_type = 0,
-		name = "【DOA联动VSP】精英人形霞 鱼雷弹幕",
-		damage = 26,
-		base = 1001,
-		initial_over_heat = 1,
-		reload_max = 1200,
-		queue = 1,
-		id = 744002,
-		bullet_ID = {
-			1801,
-			1801,
-			1801
-		},
-		barrage_ID = {
-			810004,
-			810005,
-			810006
-		}
-	}
-	uv0.weapon_property_331[744003] = {
-		initial_over_heat = 1,
-		suppress = 1,
-		type = 19,
-		name = "【DOA联动VSP】精英人形凪咲 前排跨射",
-		fire_fx = "CAFire",
-		action_index = "",
-		aim_type = 1,
-		reload_max = 1800,
-		queue = 1,
-		range = 75,
-		damage = 30,
-		base = 1000,
-		fire_sfx = "battle/cannon-main",
-		id = 744003,
-		bullet_ID = {
-			800005
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_331[744004] = {
-		range = 120,
-		name = "【DOA联动VSP】精英人形凪咲 主炮弹幕",
-		damage = 34,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 1200,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 744004,
-		bullet_ID = {
-			20003,
-			20003
-		},
-		barrage_ID = {
-			950195,
-			950196
-		}
-	}
-	uv0.weapon_property_331[744005] = {
-		aim_type = 1,
-		range = 120,
-		damage = 21,
-		base = 1000,
-		name = "【DOA联动VSP】精英人形女天狗 变向弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		fire_sfx = "",
-		queue = 2,
-		id = 744005,
-		bullet_ID = {
-			770022,
-			770023
-		},
-		barrage_ID = {
-			990241,
-			990242
-		}
-	}
-	uv0.weapon_property_331[744006] = {
-		aim_type = 1,
-		range = 120,
-		damage = 21,
-		base = 1000,
-		name = "【DOA联动VSP】精英人形女天狗 变向弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		fire_sfx = "",
-		queue = 3,
-		id = 744006,
-		bullet_ID = {
-			770020,
-			770021
+			690107,
+			690108
 		},
 		barrage_ID = {
 			990001,
 			990002
 		}
 	}
-	uv0.weapon_property_331[744101] = {
+	uv0.weapon_property_331[760006] = {
 		aim_type = 1,
-		range = 38,
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 变向弹幕",
 		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 近程自卫火炮",
-		type = 2,
 		suppress = 1,
-		action_index = "",
-		reload_max = 500,
-		queue = 5,
-		id = 744101,
+		reload_max = 600,
+		queue = 6,
+		id = 760006,
 		bullet_ID = {
-			999
+			690109,
+			690110
 		},
 		barrage_ID = {
-			13
+			990241,
+			990242
 		}
 	}
-	uv0.weapon_property_331[744102] = {
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 fever 四方向子母弹 第二波",
-		type = 2,
-		reload_max = 6000,
-		queue = 1,
-		id = 744102,
-		bullet_ID = {
-			800060
-		},
-		barrage_ID = {
-			810106
-		}
-	}
-	uv0.weapon_property_331[744103] = {
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 fever 旋转发射弹幕 第二波",
-		type = 2,
-		reload_max = 6000,
-		queue = 2,
-		id = 744103,
-		bullet_ID = {
-			800061
-		},
-		barrage_ID = {
-			810106
-		}
-	}
-	uv0.weapon_property_331[744104] = {
-		aim_type = 1,
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 fever 红色自机狙 第二波",
-		type = 2,
-		suppress = 1,
-		reload_max = 6000,
-		queue = 3,
-		id = 744104,
-		bullet_ID = {
-			800063,
-			800064,
-			800065,
-			800066,
-			800067,
-			800068,
-			800069
-		},
-		barrage_ID = {
-			810111,
-			810111,
-			810111,
-			810111,
-			810111,
-			810111,
-			810111
-		}
-	}
-	uv0.weapon_property_331[744105] = {
-		name = "【DOA联动VSP】BOSS 莫妮卡 fever 扫射纸牌弹幕 第一波",
-		damage = 20,
+	uv0.weapon_property_331[760007] = {
+		name = "【2020德系活动A1】BOSS 塞壬执棋者I型 扫射弹幕",
+		damage = 8,
 		base = 1000,
 		fire_fx = "CAFire",
-		reload_max = 6000,
+		reload_max = 1000,
 		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 744105,
+		queue = 7,
+		id = 760007,
 		bullet_ID = {
-			800070,
-			800070,
-			800070,
-			800070,
-			800070,
-			800071,
-			800071,
-			800071,
-			800071,
-			800071
+			811,
+			811,
+			811,
+			811,
+			811
 		},
 		barrage_ID = {
-			690134,
-			690135,
-			690136,
-			690137,
-			690138,
 			690134,
 			690135,
 			690136,
@@ -1330,236 +2498,152 @@ function ()
 			690138
 		}
 	}
-	uv0.weapon_property_331[744106] = {
+	uv0.weapon_property_331[760101] = {
 		aim_type = 1,
-		range = 120,
-		damage = 20,
+		range = 38,
+		damage = 7,
 		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 纸牌弹幕",
+		name = "【2020德系活动A2】BOSS 英王乔治五世 近身自卫火炮",
+		type = 2,
 		suppress = 1,
-		initial_over_heat = 1,
 		reload_max = 600,
-		queue = 1,
-		id = 744106,
+		id = 760101,
 		bullet_ID = {
-			800041
+			999
 		},
 		barrage_ID = {
-			810085
+			13
 		}
 	}
-	uv0.weapon_property_331[744107] = {
-		aim_type = 0,
-		damage = 58,
-		base = 1001,
-		name = "【DOA联动VSP】BOSS 莫妮卡 鱼雷弹幕",
-		action_index = "",
-		suppress = 1,
-		reload_max = 600,
+	uv0.weapon_property_331[760102] = {
+		base = 1000,
+		range = 100,
+		type = 2,
+		name = "【2020德系活动A2】BOSS 英王乔治五世 <型弹幕",
+		reload_max = 1350,
 		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 744107,
+		queue = 1,
+		id = 760102,
 		bullet_ID = {
-			140005,
-			140006,
-			140007,
-			140008
+			810002,
+			810002
 		},
 		barrage_ID = {
-			140005,
-			140006,
-			140007,
-			140008
+			820002,
+			820003
 		}
 	}
-	uv0.weapon_property_331[744108] = {
+	uv0.weapon_property_331[760103] = {
 		aim_type = 1,
-		range = 120,
+		range = 100,
+		damage = 22,
+		base = 1000,
+		name = "【2020德系活动A2】BOSS 英王乔治五世 4连主炮3轮跨射",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1800,
+		type = 19,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 760103,
+		initial_over_heat = 1,
+		bullet_ID = {
+			810001
+		},
+		barrage_ID = {
+			820001
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_331[760104] = {
+		aim_type = 1,
+		range = 100,
 		damage = 16,
 		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 广域射击",
+		name = "【2020德系活动A2】BOSS 英王乔治五世 2连快速火炮",
 		type = 2,
 		suppress = 1,
-		reload_max = 600,
+		reload_max = 1000,
+		fire_sfx = "battle/cannon-main",
 		queue = 1,
-		id = 744108,
+		id = 760104,
 		bullet_ID = {
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206
+			810003
 		},
 		barrage_ID = {
-			740039,
-			740040,
-			740041,
-			740042,
-			740043,
-			740044,
-			740045,
-			740046
+			820004
 		}
 	}
-	uv0.weapon_property_331[745001] = {
+	uv0.weapon_property_331[760105] = {
 		aim_type = 1,
-		range = 120,
-		damage = 25,
+		range = 100,
 		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第一波 横向自机狙",
+		name = "【2020德系活动A2】BOSS 英王乔治五世 子母弹",
 		type = 2,
 		suppress = 1,
-		reload_max = 6000,
-		action_index = "",
-		queue = 1,
-		id = 745001,
-		bullet_ID = {
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072
-		},
-		barrage_ID = {
-			810112,
-			810113,
-			810114,
-			810115,
-			810116,
-			810117,
-			810118,
-			810119,
-			810120,
-			810121,
-			810124,
-			810125
-		}
-	}
-	uv0.weapon_property_331[745002] = {
-		aim_type = 1,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第一波 扇形自机狙",
-		type = 2,
-		suppress = 1,
-		reload_max = 300,
-		action_index = "",
+		initial_over_heat = 1,
+		reload_max = 1500,
+		fire_sfx = "battle/cannon-main",
 		queue = 2,
-		id = 745002,
+		id = 760105,
 		bullet_ID = {
-			800073,
-			800074,
-			800073,
-			800074
+			810004
 		},
 		barrage_ID = {
-			810122,
-			810122,
-			810123,
-			810123
+			820005
 		}
 	}
-	uv0.weapon_property_331[745003] = {
-		base = 1001,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-		type = 11,
-		spawn_bound = "plane",
-		fire_fx = "zhupao",
+	uv0.weapon_property_331[760106] = {
+		aim_type = 1,
+		min_range = 75,
+		type = 19,
+		name = "【2020德系活动A2】BOSS 英王乔治五世 后排跨射",
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 2100,
+		queue = 1,
+		angle = 40,
+		range = 150,
+		damage = 22,
+		base = 1000,
 		suppress = 1,
-		attack_attribute = 4,
-		reload_max = 600,
-		fire_sfx = "battle/air-atk",
-		queue = 3,
-		id = 745003,
-		bullet_ID = {},
+		fire_sfx = "battle/cannon-main",
+		id = 760106,
+		bullet_ID = {
+			810006
+		},
 		barrage_ID = {
-			700143
+			20018
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
 		}
 	}
-	uv0.weapon_property_331[745004] = {
-		base = 1001,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-		type = 11,
-		spawn_bound = "plane",
-		fire_fx = "zhupao",
+	uv0.weapon_property_331[760201] = {
+		aim_type = 1,
+		range = 38,
+		damage = 6,
+		base = 1000,
+		name = "【2020德系活动A3】BOSS 通用近程自卫火炮",
+		type = 2,
 		suppress = 1,
-		attack_attribute = 4,
-		reload_max = 600,
-		fire_sfx = "battle/air-atk",
-		queue = 4,
-		id = 745004,
-		bullet_ID = {},
-		barrage_ID = {
-			700143
-		}
-	}
-	uv0.weapon_property_331[745005] = {
-		base = 1001,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-		type = 11,
-		spawn_bound = "plane",
-		fire_fx = "zhupao",
-		suppress = 1,
-		attack_attribute = 4,
-		reload_max = 600,
-		fire_sfx = "battle/air-atk",
+		reload_max = 500,
+		initial_over_heat = 1,
 		queue = 5,
-		id = 745005,
-		bullet_ID = {},
-		barrage_ID = {
-			700143
-		}
-	}
-	uv0.weapon_property_331[745006] = {
-		range = 85,
-		damage = 400,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 6000,
-		fire_sfx = "battle/air-atk",
-		queue = 1,
-		id = 745006,
-		angle = 180,
+		id = 760201,
 		bullet_ID = {
-			800075
+			999
 		},
 		barrage_ID = {
-			810126
-		}
-	}
-	uv0.weapon_property_331[745007] = {
-		range = 120,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
-		damage = 250,
-		base = 1000,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 6000,
-		fire_sfx = "battle/air-atk",
-		queue = 2,
-		id = 745007,
-		bullet_ID = {
-			800076,
-			800076
-		},
-		barrage_ID = {
-			810127,
-			810128
+			12
 		}
 	}
 end()

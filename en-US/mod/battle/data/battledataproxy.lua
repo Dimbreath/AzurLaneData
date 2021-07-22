@@ -639,7 +639,7 @@ function slot8.updateLoop(slot0, slot1)
 		else
 			slot11:Update(slot1)
 
-			if slot11.GetCurrentState and slot11:GetCurrentState() == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT then
+			if slot11.GetCurrentState and slot11:GetCurrentState() == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:GetTemplate().extra_param.fragile then
 				-- Nothing
 			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
 				if slot11:GetExist() then
@@ -1790,29 +1790,31 @@ function slot8.JamManualCast(slot0, slot1)
 end
 
 function slot8.SubmarineStrike(slot0, slot1)
-	if slot0:GetFleetByIFF(slot1):GetWeaponBlock() then
+	slot2 = slot0:GetFleetByIFF(slot1)
+
+	if slot2:GetWeaponBlock() or slot2:GetSubAidVO():GetCurrent() < 1 then
 		return
 	end
 
-	for slot7, slot8 in ipairs(slot2:GetSubUnitData()) do
-		slot0:InitAidUnitStatistics(slot0:SpawnSub(slot8, slot1))
+	for slot8, slot9 in ipairs(slot2:GetSubUnitData()) do
+		slot0:InitAidUnitStatistics(slot0:SpawnSub(slot9, slot1))
 	end
 
 	slot2:SubWarcry()
 
-	for slot8, slot9 in ipairs(slot2:GetSubList()) do
-		if slot8 == 1 then
-			slot9:TriggerBuff(uv0.BuffEffectType.ON_SUB_LEADER)
-		elseif slot8 == 2 then
-			slot9:TriggerBuff(uv0.BuffEffectType.ON_UPPER_SUB_CONSORT)
-		elseif slot8 == 3 then
-			slot9:TriggerBuff(uv0.BuffEffectType.ON_LOWER_SUB_CONSORT)
+	for slot9, slot10 in ipairs(slot2:GetSubList()) do
+		if slot9 == 1 then
+			slot10:TriggerBuff(uv0.BuffEffectType.ON_SUB_LEADER)
+		elseif slot9 == 2 then
+			slot10:TriggerBuff(uv0.BuffEffectType.ON_UPPER_SUB_CONSORT)
+		elseif slot9 == 3 then
+			slot10:TriggerBuff(uv0.BuffEffectType.ON_LOWER_SUB_CONSORT)
 		end
 	end
 
-	slot5 = slot4[1]
+	slot6 = slot5[1]
 
-	slot2:GetSubAidVO():Cast()
+	slot3:Cast()
 end
 
 function slot8.GetWaveFlags(slot0)

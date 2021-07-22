@@ -5,7 +5,7 @@ SCENE = {
 	EQUIPMENT_TRANSFORM = "equip transform",
 	COMMANDERINFO = "scene commander info",
 	NEWGUILD = "scene newguild",
-	GUILD = "scene guild",
+	IMAS_STAGE = "IdolMaster Stage",
 	COMBATLOAD = "scene combat load",
 	NAVALTACTICS = "naval tactics",
 	RESOLVEEQUIP = "scene resolve equip",
@@ -72,7 +72,9 @@ SCENE = {
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	WORLD_FLEET_SELECT = "world fleet select",
 	AMUSEMENT_PARK = "amusement park",
+	GUILD = "scene guild",
 	COLORING = "scene coloring",
+	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	PUBLIC_GUILD = "public guild",
 	ACT_BOSS_BATTLE = "act boss battle",
 	CHUANWU = "scene shipyard",
@@ -366,6 +368,12 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.NEWMEIXIV4_SKIRMISH then
 		slot0.mediator = NewMeixiV4Mediator
 		slot0.viewComponent = NewMeixiV4Scene
+	elseif slot1 == SCENE.IMAS_STAGE then
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = IdolMasterStageScene
+	elseif slot1 == SCENE.IDOLMASTER_MEDAL_COLLECTION_SCENE then
+		slot0.mediator = IdolMedalCollectionMediator
+		slot0.viewComponent = IdolMasterMedalCollectionView
 	end
 
 	slot0.scene = slot1

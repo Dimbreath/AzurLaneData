@@ -2567,6 +2567,30 @@ pg.shop_template = {
 			30044
 		}
 	},
+	[31974] = {
+		group_type = 0,
+		resource_num = 7000,
+		desc = "7000物资兑换1个偶像大师外观装备箱",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 1,
+		id = 31974,
+		genre = "shopping_street",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			30327
+		}
+	},
 	[31975] = {
 		group_type = 0,
 		resource_num = 7000,
@@ -9366,6 +9390,168 @@ pg.shop_template = {
 					2021,
 					6,
 					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60260] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给（偶像大师）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60260,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60261] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给（偶像大师）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60261,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60262] = {
+		group_type = 0,
+		resource_num = 500,
+		desc = "500钻石购买家具币礼包（偶像大师）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60262,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40106
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
 				},
 				{
 					23,
@@ -32619,6 +32805,496 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70572] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:春香浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70572,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700011
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70573] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:千早浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70573,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700021
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70574] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:伊织浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70574,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700031
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70575] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:三浦梓浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70575,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700041
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70576] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:律子浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70576,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700051
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70577] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:亚美浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70577,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700061
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70578] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:真美浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70578,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700071
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70579] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:Z2浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70579,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			401022
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70580] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:夕暮浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70580,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301264
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70581] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:荒潮浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8557,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70581,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301661
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -35915,6 +36591,153 @@ pg.shop_template = {
 			}
 		}
 	},
+	[90094] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：春香制服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 216,
+		id = 90094,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700011
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90095] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：千早制服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 216,
+		id = 90095,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700021
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90096] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：伊织制服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 216,
+		id = 90096,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10700031
+		},
+		time = {
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[99000] = {
 		group_type = 0,
 		resource_num = 980,
@@ -38645,6 +39468,7 @@ pg.shop_template = {
 		31142,
 		31143,
 		31144,
+		31974,
 		31975,
 		31976,
 		31977,
@@ -38805,6 +39629,9 @@ pg.shop_template = {
 		60251,
 		60252,
 		60253,
+		60260,
+		60261,
+		60262,
 		60254,
 		60255,
 		60256,
@@ -39361,6 +40188,16 @@ pg.shop_template = {
 		70569,
 		70570,
 		70571,
+		70572,
+		70573,
+		70574,
+		70575,
+		70576,
+		70577,
+		70578,
+		70579,
+		70580,
+		70581,
 		90001,
 		90002,
 		90003,
@@ -39440,6 +40277,9 @@ pg.shop_template = {
 		90091,
 		90092,
 		90093,
+		90094,
+		90095,
+		90096,
 		99000,
 		99001,
 		99002,

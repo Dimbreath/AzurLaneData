@@ -1119,5 +1119,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Misawa Sachika",
 		code = 280
+	},
+	{
+		actor_name = "Wakabayashi Naomi ",
+		code = 281
 	}
 }

@@ -8784,6 +8784,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6880] = {
+		desc_get = "",
+		name = "Shining Bracelet",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a The Idolmaster collab ship: at the start of the battle, for 76s, decreases said ship's DMG taken by 5%. ",
+		id = 6880,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -67776,6 +67790,1627 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	},
+	[107010] = {
+		desc_get = "",
+		name = "Cutesy Clumsy?",
+		type = 1,
+		max_level = 10,
+		desc = "Each second in combat, this ship has a 10.0% chance of dealing 43 DMG to herself; if this effect activates: after 3s, heals this ship and the lowest HP% ship in the fleet for $1 HP (this effect can only activate 2 times per battle).",
+		id = 107010,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[107020] = {
+		desc_get = "",
+		name = "An Idol's Ambitions",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her #$1 wave of Torpedoes in a battle: increases all enemies' DMG taken by $2 for 5s. After this effect activates, when this ship fires her Torpedoes: decreases this ship's DMG taken by $3 until the end of the battle (can be stacked 2 times).",
+		id = 107020,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3",
+				"2"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[107030] = {
+		desc_get = "",
+		name = "Positivity Burst!",
+		type = 1,
+		max_level = 10,
+		desc = "Every 15s: fires a $1 special barrage (DMG is based on the skill's level).",
+		id = 107030,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[107040] = {
+		desc_get = "",
+		name = "Cerulean Song",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches her first Airstrike in a battle: $1 chance (100.0% on subsequent Airstrikes) to launch a $2 special airstrike (DMG is based on the skill's level). At the start of the battle, if there is another The Idolmaster collab ship in your fleet: increases the first activation chance to 100.0%.",
+		id = 107040,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[107050] = {
+		desc_get = "",
+		name = "The Fruits of Labor",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship sinks an enemy: increases this ship's AVI and RLD by $1 until the end of the battle (can be stacked up to 3 times). At the start of the battle, if there is another The Idolmaster collab ship in your fleet: adds 3 stacks of this buff.",
+		id = 107050,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[107060] = {
+		desc_get = "",
+		name = "Alongside the Ocean's Wings",
+		type = 2,
+		max_level = 10,
+		desc = "Decreases the loading time of this ship's first Airstrike by $1. Decreases DMG taken by $2 for all The Idolmaster collab ships in your fleet.",
+		id = 107060,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[107070] = {
+		desc_get = "",
+		name = "Iori Strike!",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt to Heavy Armor enemies by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level).",
+		id = 107070,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[107080] = {
+		desc_get = "",
+		name = "Iori Defense!",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of the battle: randomly chooses 1 other ship in your fleet and decreases her DMG taken by $2 for 30s. Once this effect wears off: heals that ship for $2 HP.",
+		id = 107080,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[107090] = {
+		desc_get = "",
+		name = "Feigned Innocence?",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to increase this ship's Main Gun DMG by 50.0% for 3s and AA by $2 for 5s. This effect may only activate once every 5s.",
+		id = 107090,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[107100] = {
+		desc_get = "",
+		name = "Healing Augury",
+		type = 2,
+		max_level = 10,
+		desc = "As long as this ship is afloat: decreases your Main Fleet's DMG taken by $1. At the start of the battle: tells a fortune and receives one of the following effects: 1) Increases this ship's EVA by $2; 2) Increases this ship's Accuracy by $3; 3) Increases this ship's FP by $4; 4) Heals this ship for $5 HP.",
+		id = 107100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[107110] = {
+		desc_get = "",
+		name = "Directionally Challenged",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s after the battle starts: fires a $1 special barrage (DMG is based on the skill's level). If your Vanguard consists of only this ship when this barrage activates: this ship becomes lost and stops in place (Speed drops to 0) for 2s.",
+		id = 107110,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[107120] = {
+		desc_get = "",
+		name = "Fleet Course Management",
+		type = 2,
+		max_level = 10,
+		desc = "5s after the battle starts, as well as every 20s: fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 more DMG from The Idolmaster collab ships for 5s. At the start of the battle, if there are no more than 3 The Idolmaster collab ships in your fleet: increases this ship's FP by 100.0% and improves this barrage.",
+		id = 107120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[107130] = {
+		desc_get = "",
+		name = "Logistics Buddy",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship has Cargo equipped: decreases the time this ship Burns by 3s and decreases your Flagship's Burn DMG taken by $1, but also decreases this ship's Speed by 3.",
+		id = 107130,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[107140] = {
+		desc_get = "",
+		name = "Prankster's Cheer - Ami",
+		type = 3,
+		max_level = 10,
+		desc = "When this boat enters the battle: decreases the Speed of a random ship in your Vanguard by 1 for 1s, then heals said ship for 100 HP and increases her EVA by $1 for 20s.",
+		id = 107140,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[107150] = {
+		desc_get = "",
+		name = "Double Trouble - Ami",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of the battle: fires a $1 special barrage (DMG is based on the skill's level).",
+		id = 107150,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[107160] = {
+		desc_get = "",
+		name = "Prankster's Cheer - Mami",
+		type = 3,
+		max_level = 10,
+		desc = "When this boat enters the battle: decreases the Speed of a random ship in your Main Fleet by 1 for 1s, then heals said ship for 100 HP and increases her Accuracy by $1 for 20s.",
+		id = 107160,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[107170] = {
+		desc_get = "",
+		name = "Double Trouble - Mami",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of the battle: fires a $1 special barrage (DMG is based on the skill's level).",
+		id = 107170,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[800010] = {
 		desc_get = "",
 		name = "Shadowflame Torch",
@@ -69195,6 +70830,7 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		6871,
 		6872,
 		6873,
+		6880,
 		7000,
 		9010,
 		9020,
@@ -70146,6 +71782,23 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		106120,
 		106130,
 		106140,
+		107010,
+		107020,
+		107030,
+		107040,
+		107050,
+		107060,
+		107070,
+		107080,
+		107090,
+		107100,
+		107110,
+		107120,
+		107130,
+		107140,
+		107150,
+		107160,
+		107170,
 		800010,
 		800020,
 		800030,

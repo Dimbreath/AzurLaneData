@@ -6412,6 +6412,97 @@ pg.activity_ins_template = {
 			2060
 		}
 	},
+	{
+		ship_group = 1070004,
+		name = "Azusa_Miura",
+		sculpture = "zi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 235,
+		group_id = 235,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1070001,
+		name = "Haruka_Amami",
+		sculpture = "chunxiang",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 236,
+		group_id = 236,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1070002,
+		name = "Chihaya_Kisaragi",
+		sculpture = "qianzao",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 237,
+		group_id = 237,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1070003,
+		name = "Iori_Minase",
+		sculpture = "yizhi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 238,
+		group_id = 238,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1070005,
+		name = "Ritsuko_Akizuki",
+		sculpture = "lvzi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 239,
+		group_id = 239,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1070006,
+		name = "Ami_Futami",
+		sculpture = "yamei",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 240,
+		group_id = 240,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1070007,
+		name = "Mami_Futami",
+		sculpture = "zhenmei",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 241,
+		group_id = 241,
+		order = 18,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6646,6 +6737,13 @@ pg.activity_ins_template = {
 		231,
 		232,
 		233,
-		234
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241
 	}
 }

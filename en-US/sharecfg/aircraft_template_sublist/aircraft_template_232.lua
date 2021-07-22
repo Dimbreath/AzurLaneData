@@ -1,26 +1,62 @@
 pg = pg or {}
 pg.aircraft_template_232 = {
-	[82260] = {
-		name = "海飓风",
-		max_hp = 35,
+	[82150] = {
+		id = 82150,
+		base = 82140,
+		max_hp = 105,
+		hp_growth = 4032,
+		weapon_ID = {
+			50650
+		}
+	},
+	[82151] = {
+		id = 82151,
+		base = 82140,
+		max_hp = 111,
+		hp_growth = 4274,
+		weapon_ID = {
+			50651
+		}
+	},
+	[82152] = {
+		id = 82152,
+		base = 82140,
+		max_hp = 117,
+		hp_growth = 4516,
+		weapon_ID = {
+			50652
+		}
+	},
+	[82153] = {
+		id = 82153,
+		base = 82140,
+		max_hp = 124,
+		hp_growth = 4758,
+		weapon_ID = {
+			50653
+		}
+	},
+	[82200] = {
+		name = "海斗士",
+		max_hp = 28,
 		accuracy = 23,
-		model_ID = "haijufeng",
+		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		dodge = 0.351,
+		dodge = 0.375,
 		attack_power = 2,
-		dodge_limit = 9,
+		dodge_limit = 8,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haijufeng",
+		icon = "haidoushi",
 		funnel_behavior = "",
 		nationality = 2,
-		hp_growth = 1344,
+		hp_growth = 1075,
 		speed = 47,
-		id = 82260,
+		id = 82200,
 		scale = 1,
 		weapon_ID = {
-			50160
+			50100
 		},
 		position_offset = {
 			0,
@@ -74,90 +110,54 @@ pg.aircraft_template_232 = {
 			}
 		}
 	},
-	[82261] = {
-		id = 82261,
-		base = 82260,
-		max_hp = 40,
-		hp_growth = 1546,
+	[82201] = {
+		id = 82201,
+		base = 82200,
+		max_hp = 32,
+		hp_growth = 1236,
 		weapon_ID = {
-			50161
+			50101
 		}
 	},
-	[82262] = {
-		id = 82262,
-		base = 82260,
-		max_hp = 45,
-		hp_growth = 1747,
+	[82202] = {
+		id = 82202,
+		base = 82200,
+		max_hp = 36,
+		hp_growth = 1398,
 		weapon_ID = {
-			50162
+			50102
 		}
 	},
-	[82263] = {
-		id = 82263,
-		base = 82260,
-		max_hp = 51,
-		hp_growth = 1949,
+	[82203] = {
+		id = 82203,
+		base = 82200,
+		max_hp = 41,
+		hp_growth = 1559,
 		weapon_ID = {
-			50163
+			50103
 		}
 	},
-	[82264] = {
-		id = 82264,
-		base = 82260,
-		max_hp = 56,
-		hp_growth = 2150,
-		weapon_ID = {
-			50164
-		}
-	},
-	[82265] = {
-		id = 82265,
-		base = 82260,
-		max_hp = 61,
-		hp_growth = 2352,
-		weapon_ID = {
-			50165
-		}
-	},
-	[82266] = {
-		id = 82266,
-		base = 82260,
-		max_hp = 66,
-		hp_growth = 2554,
-		weapon_ID = {
-			50166
-		}
-	},
-	[82267] = {
-		id = 82267,
-		base = 82260,
-		max_hp = 72,
-		hp_growth = 2755,
-		weapon_ID = {
-			50167
-		}
-	},
-	[82300] = {
-		name = "海怒",
-		max_hp = 43,
-		accuracy = 24,
-		model_ID = "hainu",
+	[82220] = {
+		name = "海斗士",
+		max_hp = 31,
+		accuracy = 23,
+		model_ID = "haidoushi",
 		ACC_growth = 0,
-		crash_DMG = 160,
-		dodge = 0.315,
+		crash_DMG = 76,
+		dodge = 0.363,
 		attack_power = 2,
-		dodge_limit = 10,
+		dodge_limit = 8.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "hainu",
+		icon = "haidoushi",
 		funnel_behavior = "",
 		nationality = 2,
-		hp_growth = 1645,
-		speed = 52,
-		id = 82300,
+		hp_growth = 1210,
+		speed = 47,
+		id = 82220,
 		scale = 1,
 		weapon_ID = {
-			50660
+			50120
 		},
 		position_offset = {
 			0,
@@ -200,8 +200,8 @@ pg.aircraft_template_232 = {
 				0
 			},
 			{
-				0.86,
-				-0.12,
+				0.62,
+				0,
 				0
 			},
 			{
@@ -211,13 +211,13 @@ pg.aircraft_template_232 = {
 			}
 		}
 	},
-	[82301] = {
-		id = 82301,
-		base = 82300,
-		max_hp = 49,
-		hp_growth = 1892,
+	[82221] = {
+		id = 82221,
+		base = 82220,
+		max_hp = 36,
+		hp_growth = 1391,
 		weapon_ID = {
-			50661
+			50121
 		}
 	}
 }

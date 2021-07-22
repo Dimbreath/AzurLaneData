@@ -840,4 +840,10 @@ function ()
 		},
 		precast_param = {}
 	}
+	uv0.weapon_property_7[7221] = {
+		id = 7221,
+		reload_max = 244,
+		damage = 6,
+		base = 7220
+	}
 end()

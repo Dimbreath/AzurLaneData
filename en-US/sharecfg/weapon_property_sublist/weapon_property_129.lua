@@ -2,6 +2,86 @@ pg = pg or {}
 pg.weapon_property_129 = {}
 
 function ()
+	uv0.weapon_property_129[65783] = {
+		id = 65783,
+		name = "塔林破盾反击弹幕LV3",
+		damage = 14,
+		base = 65781
+	}
+	uv0.weapon_property_129[65784] = {
+		id = 65784,
+		name = "塔林破盾反击弹幕LV4",
+		damage = 15,
+		base = 65781
+	}
+	uv0.weapon_property_129[65785] = {
+		id = 65785,
+		name = "塔林破盾反击弹幕LV5",
+		damage = 16,
+		base = 65781
+	}
+	uv0.weapon_property_129[65786] = {
+		id = 65786,
+		name = "塔林破盾反击弹幕LV6",
+		damage = 17,
+		base = 65781
+	}
+	uv0.weapon_property_129[65787] = {
+		name = "塔林破盾反击弹幕LV7",
+		damage = 18,
+		base = 65781,
+		id = 65787,
+		bullet_ID = {
+			19269,
+			19269
+		},
+		barrage_ID = {
+			81027,
+			81028
+		}
+	}
+	uv0.weapon_property_129[65788] = {
+		name = "塔林破盾反击弹幕LV8",
+		damage = 19,
+		base = 65781,
+		id = 65788,
+		bullet_ID = {
+			19269,
+			19269
+		},
+		barrage_ID = {
+			81027,
+			81028
+		}
+	}
+	uv0.weapon_property_129[65789] = {
+		name = "塔林破盾反击弹幕LV9",
+		damage = 20,
+		base = 65781,
+		id = 65789,
+		bullet_ID = {
+			19269,
+			19269
+		},
+		barrage_ID = {
+			81027,
+			81028
+		}
+	}
+	uv0.weapon_property_129[65790] = {
+		name = "塔林破盾反击弹幕LV10",
+		damage = 22,
+		base = 65781,
+		id = 65790,
+		bullet_ID = {
+			19269,
+			19269
+		},
+		barrage_ID = {
+			81027,
+			81028
+		}
+	}
 	uv0.weapon_property_129[65791] = {
 		action_index = "",
 		range = 80,
@@ -740,98 +820,6 @@ function ()
 		base = 65841,
 		bullet_ID = {
 			65846
-		}
-	}
-	uv0.weapon_property_129[65847] = {
-		id = 65847,
-		name = "黑方舟技能-特殊鱼雷机Lv7",
-		base = 65841,
-		bullet_ID = {
-			65847
-		}
-	}
-	uv0.weapon_property_129[65848] = {
-		id = 65848,
-		name = "黑方舟技能-特殊鱼雷机Lv8",
-		base = 65841,
-		bullet_ID = {
-			65848
-		}
-	}
-	uv0.weapon_property_129[65849] = {
-		id = 65849,
-		name = "黑方舟技能-特殊鱼雷机Lv9",
-		base = 65841,
-		bullet_ID = {
-			65849
-		}
-	}
-	uv0.weapon_property_129[65850] = {
-		id = 65850,
-		name = "黑方舟技能-特殊鱼雷机Lv10",
-		base = 65841,
-		bullet_ID = {
-			65850
-		}
-	}
-	uv0.weapon_property_129[65851] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "机载鱼雷 – 特殊 3-5枚",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 62,
-		corrected = 100,
-		min_range = 0,
-		id = 65851,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19277
-		},
-		barrage_ID = {
-			2142
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_129[65852] = {
-		id = 65852,
-		damage = 74,
-		base = 65851,
-		barrage_ID = {
-			2142
-		}
-	}
-	uv0.weapon_property_129[65853] = {
-		id = 65853,
-		damage = 86,
-		base = 65851,
-		barrage_ID = {
-			2142
 		}
 	}
 end()

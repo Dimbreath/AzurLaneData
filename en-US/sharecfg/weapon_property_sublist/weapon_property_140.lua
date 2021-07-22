@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_140 = {}
 
 function ()
-	uv0.weapon_property_140[66888] = {
-		name = "罗伯茨级技能偏转穿透LV8",
-		damage = 88,
-		base = 66880,
-		id = 66888,
-		barrage_ID = {
-			80093,
-			80097
-		}
-	}
-	uv0.weapon_property_140[66889] = {
-		name = "罗伯茨级技能偏转穿透LV9",
-		damage = 98,
-		base = 66880,
-		id = 66889,
-		barrage_ID = {
-			80093,
-			80097
-		}
-	}
-	uv0.weapon_property_140[66890] = {
-		name = "罗伯茨级技能偏转穿透LV10",
-		damage = 108,
-		base = 66880,
-		id = 66890,
-		barrage_ID = {
-			80094,
-			80098
-		}
-	}
 	uv0.weapon_property_140[66900] = {
 		action_index = "",
 		range = 90,
@@ -749,6 +719,26 @@ function ()
 	uv0.weapon_property_140[67004] = {
 		id = 67004,
 		damage = 204,
+		base = 67000
+	}
+	uv0.weapon_property_140[67005] = {
+		id = 67005,
+		damage = 226,
+		base = 67000
+	}
+	uv0.weapon_property_140[67006] = {
+		id = 67006,
+		damage = 248,
+		base = 67000
+	}
+	uv0.weapon_property_140[67007] = {
+		id = 67007,
+		damage = 270,
+		base = 67000
+	}
+	uv0.weapon_property_140[67008] = {
+		id = 67008,
+		damage = 292,
 		base = 67000
 	}
 end()

@@ -782,7 +782,7 @@ function slot0.initCharacters(slot0)
 end
 
 function slot0.getCardAttrProps(slot0, slot1)
-	slot3, slot4, slot5 = slot1:getIntimacyDetail()
+	slot3, slot4 = slot1:getIntimacyDetail()
 
 	return {
 		{
@@ -791,7 +791,7 @@ function slot0.getCardAttrProps(slot0, slot1)
 		},
 		{
 			i18n("attribute_intimacy"),
-			slot5
+			slot4
 		},
 		{
 			i18n("word_synthesize_power"),

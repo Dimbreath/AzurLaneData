@@ -2,172 +2,6 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
-	uv0.weapon_property_149[67780] = {
-		id = 67780,
-		name = "天城鱼雷LV10",
-		damage = 124,
-		base = 67771
-	}
-	uv0.weapon_property_149[67781] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双龙改轰炸 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 67781,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67781
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[67782] = {
-		id = 67782,
-		name = "双龙改轰炸 Lv2",
-		base = 67781,
-		bullet_ID = {
-			67782
-		}
-	}
-	uv0.weapon_property_149[67783] = {
-		id = 67783,
-		name = "双龙改轰炸 Lv3",
-		base = 67781,
-		bullet_ID = {
-			67783
-		}
-	}
-	uv0.weapon_property_149[67784] = {
-		id = 67784,
-		name = "双龙改轰炸 Lv4",
-		base = 67781,
-		bullet_ID = {
-			67784
-		}
-	}
-	uv0.weapon_property_149[67785] = {
-		id = 67785,
-		name = "双龙改轰炸 Lv5",
-		base = 67781,
-		bullet_ID = {
-			67785
-		}
-	}
-	uv0.weapon_property_149[67786] = {
-		id = 67786,
-		name = "双龙改轰炸 Lv6",
-		base = 67781,
-		bullet_ID = {
-			67786
-		}
-	}
-	uv0.weapon_property_149[67787] = {
-		id = 67787,
-		name = "双龙改轰炸 Lv7",
-		base = 67781,
-		bullet_ID = {
-			67787
-		}
-	}
-	uv0.weapon_property_149[67788] = {
-		id = 67788,
-		name = "双龙改轰炸 Lv8",
-		base = 67781,
-		bullet_ID = {
-			67788
-		}
-	}
-	uv0.weapon_property_149[67789] = {
-		id = 67789,
-		name = "双龙改轰炸 Lv9",
-		base = 67781,
-		bullet_ID = {
-			67789
-		}
-	}
-	uv0.weapon_property_149[67790] = {
-		id = 67790,
-		name = "双龙改轰炸 Lv10",
-		base = 67781,
-		bullet_ID = {
-			67790
-		}
-	}
-	uv0.weapon_property_149[67791] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双龙改雷1 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 67791,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67791
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_149[67792] = {
 		id = 67792,
 		name = "双龙改雷1 Lv2",
@@ -657,5 +491,128 @@ function ()
 		name = "天城跨射弹幕LV2",
 		damage = 134,
 		base = 67871
+	}
+	uv0.weapon_property_149[67873] = {
+		id = 67873,
+		name = "天城跨射弹幕LV3",
+		damage = 142,
+		base = 67871
+	}
+	uv0.weapon_property_149[67874] = {
+		id = 67874,
+		name = "天城跨射弹幕LV4",
+		damage = 151,
+		base = 67871
+	}
+	uv0.weapon_property_149[67875] = {
+		id = 67875,
+		name = "天城跨射弹幕LV5",
+		damage = 161,
+		base = 67871
+	}
+	uv0.weapon_property_149[67876] = {
+		id = 67876,
+		name = "天城跨射弹幕LV6",
+		damage = 172,
+		base = 67871
+	}
+	uv0.weapon_property_149[67877] = {
+		id = 67877,
+		name = "天城跨射弹幕LV7",
+		damage = 184,
+		base = 67871
+	}
+	uv0.weapon_property_149[67878] = {
+		id = 67878,
+		name = "天城跨射弹幕LV8",
+		damage = 197,
+		base = 67871
+	}
+	uv0.weapon_property_149[67879] = {
+		id = 67879,
+		name = "天城跨射弹幕LV9",
+		damage = 211,
+		base = 67871
+	}
+	uv0.weapon_property_149[67880] = {
+		id = 67880,
+		name = "天城跨射弹幕LV10",
+		damage = 226,
+		base = 67871
+	}
+	uv0.weapon_property_149[67881] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "厌战改技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 84,
+		corrected = 110,
+		min_range = 35,
+		id = 67881,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3366,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19981
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[67882] = {
+		reload_max = 3231,
+		name = "厌战改技能LV2",
+		damage = 93,
+		base = 67881,
+		id = 67882
+	}
+	uv0.weapon_property_149[67883] = {
+		reload_max = 3164,
+		name = "厌战改技能LV3",
+		damage = 101,
+		base = 67881,
+		id = 67883
+	}
+	uv0.weapon_property_149[67884] = {
+		reload_max = 3096,
+		name = "厌战改技能LV4",
+		damage = 110,
+		base = 67881,
+		id = 67884
+	}
+	uv0.weapon_property_149[67885] = {
+		reload_max = 3029,
+		name = "厌战改技能LV5",
+		damage = 118,
+		base = 67881,
+		id = 67885
 	}
 end()

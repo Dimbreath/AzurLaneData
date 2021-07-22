@@ -1,26 +1,28 @@
 pg = pg or {}
 pg.aircraft_template_357 = {
-	[650010] = {
-		name = "【2020法系活动A2】精英贝亚恩级量产型 战斗机",
-		max_hp = 86,
+	[620125] = {
+		name = "【2020美系活动B3】塞壬构建者 第二波浮游炮",
+		max_hp = 3000,
 		accuracy = 23,
-		model_ID = "GL2",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 86,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "GL2",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 650010,
+		hp_growth = 3680,
+		speed = 120,
+		id = 620125,
 		scale = 0.75,
+		funnel_behavior = {
+			AI = 70082
+		},
 		weapon_ID = {
-			650013
+			620129
 		},
 		position_offset = {
 			0,
@@ -40,13 +42,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -74,27 +76,29 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[650011] = {
-		name = "【2020法系活动A2】精英贝亚恩级量产型 鱼雷机",
-		max_hp = 96,
+	[620126] = {
+		name = "【2020美系活动B3】塞壬构建者 第二波浮游炮",
+		max_hp = 3000,
 		accuracy = 23,
-		model_ID = "PL7",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 86,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "PL7",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 650011,
+		hp_growth = 3680,
+		speed = 120,
+		id = 620126,
 		scale = 0.75,
+		funnel_behavior = {
+			AI = 70083
+		},
 		weapon_ID = {
-			650014
+			620129
 		},
 		position_offset = {
 			0,
@@ -114,13 +118,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -137,7 +141,7 @@ pg.aircraft_template_357 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -148,27 +152,179 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[650012] = {
-		name = "【2020法系活动A2】精英贝亚恩级量产型 轰炸机",
-		max_hp = 104,
+	[620127] = {
+		name = "【2020美系活动B3】塞壬构建者 第二波浮游炮",
+		max_hp = 3000,
 		accuracy = 23,
-		model_ID = "v156f",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 74,
+		crash_DMG = 86,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 120,
+		id = 620127,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70084
+		},
+		weapon_ID = {
+			620130
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[620128] = {
+		name = "【2020美系活动B3】塞壬构建者 第二波浮游炮",
+		max_hp = 3000,
+		accuracy = 23,
+		model_ID = "fuyoupao2",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 120,
+		id = 620128,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70085
+		},
+		weapon_ID = {
+			620130
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[620307] = {
+		name = "【2020美系活动D2】塞壬执棋者III型 轰炸机",
+		max_hp = 202,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 160,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "v156f",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2580,
+		hp_growth = 2980,
 		speed = 30,
-		id = 650012,
+		id = 620307,
 		scale = 0.75,
 		weapon_ID = {
-			650015
+			620311
 		},
 		position_offset = {
 			0,
@@ -222,27 +378,27 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[650210] = {
-		name = "【2020法系活动C2】精英贝亚恩级量产型 战斗机",
-		max_hp = 141,
+	[620308] = {
+		name = "【2020美系活动D2】塞壬执棋者III型 鱼雷机",
+		max_hp = 174,
 		accuracy = 23,
-		model_ID = "GL2",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 79,
+		crash_DMG = 120,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "GL2",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2520,
+		hp_growth = 2740,
 		speed = 33,
-		id = 650210,
+		id = 620308,
 		scale = 0.75,
 		weapon_ID = {
-			650213
+			620312
 		},
 		position_offset = {
 			0,
@@ -296,27 +452,30 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[650211] = {
-		name = "【2020法系活动C2】精英贝亚恩级量产型 鱼雷机",
-		max_hp = 154,
+	[620309] = {
+		name = "【2020美系活动D2】塞壬执棋者III型 浮游炮1",
+		max_hp = 750,
 		accuracy = 23,
-		model_ID = "PL7",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 114,
+		crash_DMG = 210,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "PL7",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 2880,
-		speed = 30,
-		id = 650211,
+		hp_growth = 3680,
+		speed = 70,
+		id = 620309,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
 		weapon_ID = {
-			650214
+			620313
 		},
 		position_offset = {
 			0,
@@ -336,13 +495,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -359,7 +518,7 @@ pg.aircraft_template_357 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -370,27 +529,30 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[650212] = {
-		name = "【2020法系活动C2】精英贝亚恩级量产型 轰炸机",
-		max_hp = 162,
+	[620310] = {
+		name = "【2020美系活动D2】塞壬执棋者III型 浮游炮2",
+		max_hp = 750,
 		accuracy = 23,
-		model_ID = "v156f",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 126,
+		crash_DMG = 210,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "v156f",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 3060,
-		speed = 30,
-		id = 650212,
+		hp_growth = 3680,
+		speed = 70,
+		id = 620310,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
 		weapon_ID = {
-			650215
+			620314
 		},
 		position_offset = {
 			0,
@@ -410,13 +572,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -444,27 +606,30 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[670012] = {
-		name = "【2020埃塞克斯世界BOSS E难度】 鱼雷机*5",
-		max_hp = 81,
+	[620318] = {
+		name = "【2020美系活动D3】塞壬构建者 第一波浮游炮",
+		max_hp = 8000,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 57,
+		crash_DMG = 240,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "tbf",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2240,
-		speed = 30,
-		id = 670012,
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 120,
+		id = 620318,
 		scale = 0.75,
+		funnel_behavior = {
+			AI = 70078
+		},
 		weapon_ID = {
-			670014
+			620322,
+			620323
 		},
 		position_offset = {
 			0,
@@ -484,13 +649,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.24,
-					-1.34,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					1.43,
-					1.6,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -518,27 +683,30 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[670013] = {
-		name = "【2020埃塞克斯世界BOSS E难度】 轰炸机*5",
-		max_hp = 96,
+	[620319] = {
+		name = "【2020美系活动D3】塞壬构建者 第一波浮游炮",
+		max_hp = 8000,
 		accuracy = 23,
-		model_ID = "BTD",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 240,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "BTD",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2380,
-		speed = 30,
-		id = 670013,
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 120,
+		id = 620319,
 		scale = 0.75,
+		funnel_behavior = {
+			AI = 70079
+		},
 		weapon_ID = {
-			670015
+			620322,
+			620323
 		},
 		position_offset = {
 			0,
@@ -558,87 +726,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					-1.12,
-					-1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[670112] = {
-		name = "【2020埃塞克斯世界BOSS N难度】 鱼雷机*7",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbf",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "tbf",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2380,
-		speed = 30,
-		id = 670112,
-		scale = 0.75,
-		weapon_ID = {
-			670115
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.24,
-					-1.34,
-					0
-				},
-				{
-					1.43,
-					1.6,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -657,80 +751,6 @@ pg.aircraft_template_357 = {
 			{
 				0,
 				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[670113] = {
-		name = "【2020埃塞克斯世界BOSS N难度】 轰炸机*7",
-		max_hp = 110,
-		accuracy = 23,
-		model_ID = "BTD",
-		ACC_growth = 0,
-		crash_DMG = 85,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "BTD",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2660,
-		speed = 30,
-		id = 670113,
-		scale = 0.75,
-		weapon_ID = {
-			670116
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.28,
-					1.62,
-					0
-				},
-				{
-					-1.12,
-					-1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
 				0
 			},
 			{

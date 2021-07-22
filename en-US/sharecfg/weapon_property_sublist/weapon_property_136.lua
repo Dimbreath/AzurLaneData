@@ -2,6 +2,15 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 function ()
+	uv0.weapon_property_136[66428] = {
+		name = "胡蜂技能LV8",
+		damage = 40,
+		base = 66420,
+		id = 66428,
+		bullet_ID = {
+			27008
+		}
+	}
 	uv0.weapon_property_136[66429] = {
 		name = "胡蜂技能LV9",
 		damage = 44,

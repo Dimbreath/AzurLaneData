@@ -7492,6 +7492,790 @@ pg.collection_template = {
 		},
 		special_drop = {}
 	},
+	[50015] = {
+		ship_num = 2,
+		time = 0,
+		type = 0,
+		collect_time = 1800,
+		title = "Outfit Store Inventory Check",
+		drop_gold_max = 40,
+		drop_oil_max = 0,
+		exp = 60,
+		oil = 0,
+		id = 50015,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "60",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "20~40",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "0~1",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50016] = {
+		ship_num = 3,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "Contracting a Manjuu DJ",
+		drop_gold_max = 85,
+		drop_oil_max = 0,
+		exp = 120,
+		oil = 0,
+		id = 50016,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50017] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "Monitor Feed Checking",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50017,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50018] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "Adjusting Stage Lights",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50018,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50019] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 10800,
+		title = "Dance Rehearsal",
+		drop_gold_max = 0,
+		drop_oil_max = 130,
+		exp = 360,
+		oil = 0,
+		id = 50019,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~130",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "3~5",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50020] = {
+		ship_num = 5,
+		time = 0,
+		type = 0,
+		collect_time = 14400,
+		title = "Prop Arrangement",
+		drop_gold_max = 0,
+		drop_oil_max = 180,
+		exp = 480,
+		oil = 0,
+		id = 50020,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "480",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~180",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50021] = {
+		ship_num = 2,
+		time = 0,
+		type = 0,
+		collect_time = 1800,
+		title = "Outfit Store Inventory Check",
+		drop_gold_max = 40,
+		drop_oil_max = 0,
+		exp = 60,
+		oil = 0,
+		id = 50021,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "60",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "20~40",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "0~1",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50022] = {
+		ship_num = 3,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "Contracting a Manjuu DJ",
+		drop_gold_max = 85,
+		drop_oil_max = 0,
+		exp = 120,
+		oil = 0,
+		id = 50022,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50023] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "Monitor Feed Checking",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50023,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50024] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "Adjusting Stage Lights",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50024,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50025] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 10800,
+		title = "Dance Rehearsal",
+		drop_gold_max = 0,
+		drop_oil_max = 130,
+		exp = 360,
+		oil = 0,
+		id = 50025,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~130",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "3~5",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50026] = {
+		ship_num = 5,
+		time = 0,
+		type = 0,
+		collect_time = 14400,
+		title = "Prop Arrangement",
+		drop_gold_max = 0,
+		drop_oil_max = 180,
+		exp = 480,
+		oil = 0,
+		id = 50026,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "480",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~180",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50027] = {
+		ship_num = 3,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "Contracting a Manjuu DJ",
+		drop_gold_max = 85,
+		drop_oil_max = 0,
+		exp = 120,
+		oil = 0,
+		id = 50027,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50028] = {
+		ship_num = 4,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "Adjusting Stage Lights",
+		drop_gold_max = 190,
+		drop_oil_max = 0,
+		exp = 240,
+		oil = 0,
+		id = 50028,
+		icon = "Collecthaixiao",
+		lv = 1,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
 	all = {
 		101,
 		102,
@@ -7651,6 +8435,20 @@ pg.collection_template = {
 		50011,
 		50012,
 		50013,
-		50014
+		50014,
+		50015,
+		50016,
+		50017,
+		50018,
+		50019,
+		50020,
+		50021,
+		50022,
+		50023,
+		50024,
+		50025,
+		50026,
+		50027,
+		50028
 	}
 }

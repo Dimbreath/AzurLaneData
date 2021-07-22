@@ -45,27 +45,27 @@ pg.aircraft_template_143 = {
 			64360
 		}
 	},
-	[65061] = {
-		name = "普林斯顿技能鱼雷机Lv1",
-		max_hp = 42,
+	[64531] = {
+		name = "如月千早空艇Lv1",
+		max_hp = 48,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "feiji_ouxiangfeiting",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "feiji_ouxiangfeiting",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1615,
-		speed = 48,
-		id = 65061,
+		nationality = 107,
+		hp_growth = 1846,
+		speed = 20,
+		id = 64531,
 		scale = 1,
 		weapon_ID = {
-			65071
+			64541
 		},
 		position_offset = {
 			0,
@@ -85,13 +85,13 @@ pg.aircraft_template_143 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -108,7 +108,7 @@ pg.aircraft_template_143 = {
 				0
 			},
 			{
-				0.52,
+				0.64,
 				0,
 				0
 			},
@@ -119,44 +119,44 @@ pg.aircraft_template_143 = {
 			}
 		}
 	},
-	[65062] = {
-		max_hp = 47,
-		name = "普林斯顿技能鱼雷机Lv2",
-		base = 65061,
-		id = 65062,
-		hp_growth = 1826,
+	[64532] = {
+		max_hp = 54,
+		name = "如月千早空艇Lv2",
+		base = 64531,
+		id = 64532,
+		hp_growth = 2087,
 		weapon_ID = {
-			65072
+			64542
 		}
 	},
-	[65063] = {
-		max_hp = 53,
-		name = "普林斯顿技能鱼雷机Lv3",
-		base = 65061,
-		id = 65063,
-		hp_growth = 2036,
+	[64533] = {
+		max_hp = 61,
+		name = "如月千早空艇Lv3",
+		base = 64531,
+		id = 64533,
+		hp_growth = 2327,
 		weapon_ID = {
-			65073
+			64543
 		}
 	},
-	[65064] = {
-		max_hp = 58,
-		name = "普林斯顿技能鱼雷机Lv4",
-		base = 65061,
-		id = 65064,
-		hp_growth = 2247,
+	[64534] = {
+		max_hp = 67,
+		name = "如月千早空艇Lv4",
+		base = 64531,
+		id = 64534,
+		hp_growth = 2568,
 		weapon_ID = {
-			65074
+			64544
 		}
 	},
-	[65065] = {
-		max_hp = 64,
-		name = "普林斯顿技能鱼雷机Lv5",
-		base = 65061,
-		id = 65065,
-		hp_growth = 2458,
+	[64535] = {
+		max_hp = 73,
+		name = "如月千早空艇Lv5",
+		base = 64531,
+		id = 64535,
+		hp_growth = 2809,
 		weapon_ID = {
-			65075
+			64545
 		}
 	}
 }

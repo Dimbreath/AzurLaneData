@@ -2,26 +2,6 @@ pg = pg or {}
 pg.weapon_property_141 = {}
 
 function ()
-	uv0.weapon_property_141[67005] = {
-		id = 67005,
-		damage = 226,
-		base = 67000
-	}
-	uv0.weapon_property_141[67006] = {
-		id = 67006,
-		damage = 248,
-		base = 67000
-	}
-	uv0.weapon_property_141[67007] = {
-		id = 67007,
-		damage = 270,
-		base = 67000
-	}
-	uv0.weapon_property_141[67008] = {
-		id = 67008,
-		damage = 292,
-		base = 67000
-	}
 	uv0.weapon_property_141[67009] = {
 		id = 67009,
 		damage = 314,
@@ -748,6 +728,36 @@ function ()
 		id = 67121,
 		name = "敦刻尔克技能小子弹LV1",
 		damage = 12,
+		base = 67120
+	}
+	uv0.weapon_property_141[67122] = {
+		id = 67122,
+		name = "敦刻尔克技能小子弹LV2",
+		damage = 14,
+		base = 67120
+	}
+	uv0.weapon_property_141[67123] = {
+		id = 67123,
+		name = "敦刻尔克技能小子弹LV3",
+		damage = 16,
+		base = 67120
+	}
+	uv0.weapon_property_141[67124] = {
+		id = 67124,
+		name = "敦刻尔克技能小子弹LV4",
+		damage = 18,
+		base = 67120
+	}
+	uv0.weapon_property_141[67125] = {
+		id = 67125,
+		name = "敦刻尔克技能小子弹LV5",
+		damage = 20,
+		base = 67120
+	}
+	uv0.weapon_property_141[67126] = {
+		id = 67126,
+		name = "敦刻尔克技能小子弹LV6",
+		damage = 22,
 		base = 67120
 	}
 end()

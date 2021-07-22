@@ -2,6 +2,60 @@ pg = pg or {}
 pg.weapon_property_133 = {}
 
 function ()
+	uv0.weapon_property_133[66083] = {
+		id = 66083,
+		name = "宾夕法尼亚技能LV3-PVP",
+		damage = 64,
+		base = 66080
+	}
+	uv0.weapon_property_133[66084] = {
+		name = "宾夕法尼亚技能LV4-PVP",
+		damage = 72,
+		base = 66080,
+		id = 66084,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402
+		}
+	}
+	uv0.weapon_property_133[66085] = {
+		name = "宾夕法尼亚技能LV5-PVP",
+		damage = 80,
+		base = 66080,
+		id = 66085,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402
+		}
+	}
+	uv0.weapon_property_133[66086] = {
+		name = "宾夕法尼亚技能LV6-PVP",
+		damage = 88,
+		base = 66080,
+		id = 66086,
+		bullet_ID = {
+			10014,
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199400,
+			199401,
+			199402
+		}
+	}
 	uv0.weapon_property_133[66087] = {
 		name = "宾夕法尼亚技能LV7-PVP",
 		damage = 96,
@@ -803,23 +857,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_133[66201] = {
-		id = 66201,
-		name = "提尔比茨技能磁性鱼雷Lv1",
-		damage = 63,
-		base = 66200
-	}
-	uv0.weapon_property_133[66202] = {
-		id = 66202,
-		name = "提尔比茨技能磁性鱼雷Lv2",
-		damage = 71,
-		base = 66200
-	}
-	uv0.weapon_property_133[66203] = {
-		id = 66203,
-		name = "提尔比茨技能磁性鱼雷Lv3",
-		damage = 79,
-		base = 66200
 	}
 end()

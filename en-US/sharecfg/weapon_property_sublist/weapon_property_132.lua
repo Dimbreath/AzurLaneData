@@ -2,6 +2,36 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 function ()
+	uv0.weapon_property_132[65975] = {
+		id = 65975,
+		name = "新泽西定点生成小弹幕-Lv5",
+		damage = 15,
+		base = 65971
+	}
+	uv0.weapon_property_132[65976] = {
+		id = 65976,
+		name = "新泽西定点生成小弹幕-Lv6",
+		damage = 16,
+		base = 65971
+	}
+	uv0.weapon_property_132[65977] = {
+		id = 65977,
+		name = "新泽西定点生成小弹幕-Lv7",
+		damage = 17,
+		base = 65971
+	}
+	uv0.weapon_property_132[65978] = {
+		id = 65978,
+		name = "新泽西定点生成小弹幕-Lv8",
+		damage = 18,
+		base = 65971
+	}
+	uv0.weapon_property_132[65979] = {
+		id = 65979,
+		name = "新泽西定点生成小弹幕-Lv9",
+		damage = 19,
+		base = 65971
+	}
 	uv0.weapon_property_132[65980] = {
 		id = 65980,
 		name = "新泽西定点生成小弹幕-Lv10",
@@ -797,59 +827,5 @@ function ()
 		name = "宾夕法尼亚技能LV2-PVP",
 		damage = 56,
 		base = 66080
-	}
-	uv0.weapon_property_132[66083] = {
-		id = 66083,
-		name = "宾夕法尼亚技能LV3-PVP",
-		damage = 64,
-		base = 66080
-	}
-	uv0.weapon_property_132[66084] = {
-		name = "宾夕法尼亚技能LV4-PVP",
-		damage = 72,
-		base = 66080,
-		id = 66084,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_132[66085] = {
-		name = "宾夕法尼亚技能LV5-PVP",
-		damage = 80,
-		base = 66080,
-		id = 66085,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_132[66086] = {
-		name = "宾夕法尼亚技能LV6-PVP",
-		damage = 88,
-		base = 66080,
-		id = 66086,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
 	}
 end()

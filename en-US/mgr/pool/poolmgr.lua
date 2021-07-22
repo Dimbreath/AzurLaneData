@@ -156,6 +156,8 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 				slot0:SetActive(false)
 				tf(slot0):SetParent(uv0.root, false)
 
+				slot1 = slot0:GetComponent("SkeletonGraphic")
+				slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
 				uv0.pools_plural[uv1] = uv3.New(slot0, 1)
 			end
 

@@ -119,10 +119,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
 	slot0.rmb = slot1.rmb or 0
 	slot0.identityFlag = slot1.gm_flag
+	slot3 = getProxy(AppreciateProxy)
 
 	if slot1.appreciation then
 		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do
-			getProxy(AppreciateProxy):addPicIDToUnlockList(slot8)
+			slot3:addPicIDToUnlockList(slot8)
 		end
 
 		for slot7, slot8 in ipairs(slot1.appreciation.musics or {}) do
@@ -146,24 +147,32 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
+	if slot1.cartoon_read_mark then
+		slot3:initMangaReadIDList(slot1.cartoon_read_mark)
+	end
+
+	if slot1.cartoon_collect_mark then
+		slot3:initMangaLikeIDList(slot1.cartoon_collect_mark)
+	end
+
 	slot0.cdList = {}
 
-	for slot6, slot7 in ipairs(slot1.cd_list or {}) do
-		slot0.cdList[slot7.key] = slot7.timestamp
+	for slot7, slot8 in ipairs(slot1.cd_list or {}) do
+		slot0.cdList[slot8.key] = slot8.timestamp
 	end
 
 	slot0.commonFlagList = {}
 
-	for slot6, slot7 in ipairs(slot1.flag_list or {}) do
-		slot0.commonFlagList[slot7] = true
+	for slot7, slot8 in ipairs(slot1.flag_list or {}) do
+		slot0.commonFlagList[slot8] = true
 	end
 
 	slot0.registerTime = slot1.register_time
 	slot0.vipCards = {}
 
-	for slot6, slot7 in ipairs(slot1.card_list or {}) do
-		slot8 = VipCard.New(slot7)
-		slot0.vipCards[slot8.id] = slot8
+	for slot7, slot8 in ipairs(slot1.card_list or {}) do
+		slot9 = VipCard.New(slot8)
+		slot0.vipCards[slot9.id] = slot9
 	end
 
 	slot0:updateResources(slot1.resource_list)

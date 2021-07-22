@@ -8623,6 +8623,323 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[90033] = {
+		id = 90033,
+		name = "偶像大师潜艇AI合并版",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = 11,
+					X1 = -40,
+					X2 = -25
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = 19.5,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = 2,
+					X1 = -40,
+					X2 = -25
+				}
+			}
+		}
+	},
+	[90034] = {
+		id = 90034,
+		name = "偶像大师天海春香AI合并版",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 2.5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = 7,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					duration = 1,
+					z = 55,
+					x = -15
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 1.2
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 2,
+				param = {
+					duration = 1,
+					z = 15,
+					x = 0
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 2,
+				param = {
+					duration = 1,
+					z = -30,
+					x = 0
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 2,
+				param = {
+					duration = 1,
+					z = 15,
+					x = 0
+				}
+			},
+			{
+				index = 8,
+				to = 9,
+				type = 2,
+				param = {
+					duration = 1,
+					z = 15,
+					x = 0
+				}
+			},
+			{
+				index = 9,
+				to = 10,
+				type = 2,
+				param = {
+					duration = 1,
+					z = -30,
+					x = 0
+				}
+			},
+			{
+				index = 10,
+				to = 11,
+				type = 1,
+				param = {
+					duration = 2,
+					z = 55,
+					x = -15
+				}
+			},
+			{
+				index = 11,
+				to = 12,
+				type = 0,
+				param = {
+					duration = 12
+				}
+			},
+			{
+				index = 12,
+				to = 13,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = 3,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 13,
+				to = 14,
+				type = 1,
+				param = {
+					duration = 2,
+					z = 55,
+					x = -15
+				}
+			},
+			{
+				index = 14,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 19
+				}
+			}
+		}
+	},
+	[90035] = {
+		id = 90035,
+		name = "偶像大师BOSS移动到位置2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1.5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = 5,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					duration = 5,
+					z = 55,
+					x = -10
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					duration = 5,
+					z = 70,
+					x = -20
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					duration = 5,
+					z = 40,
+					x = -15
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 1,
+				param = {
+					duration = 2,
+					z = 55,
+					x = -25
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 0,
+				param = {
+					duration = 4
+				}
+			},
+			{
+				index = 8,
+				to = 9,
+				type = 1,
+				param = {
+					duration = 6,
+					z = 45,
+					x = -15
+				}
+			},
+			{
+				index = 9,
+				to = 10,
+				type = 1,
+				param = {
+					duration = 8,
+					z = 65,
+					x = -10
+				}
+			},
+			{
+				index = 10,
+				to = 11,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 65,
+					moveCount = 240,
+					Z1 = 45,
+					duration = 4,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 11,
+				to = 2,
+				type = 1,
+				param = {
+					duration = 2,
+					z = 55,
+					x = -15
+				}
+			}
+		}
+	},
 	[99990] = {
 		id = 99990,
 		name = "13章后撤释放地毯空袭",

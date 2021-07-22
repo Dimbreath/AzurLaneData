@@ -16,6 +16,8 @@ function slot0.initData(slot0)
 	slot0.musicUnLockIDLIst = {}
 	slot0.musicExistStateTable = {}
 	slot0.musicLikeIDList = {}
+	slot0.mangaReadIDList = {}
+	slot0.mangaLikeIDList = {}
 	slot0.galleryRunData = {
 		middleIndex = 1,
 		dateValue = GalleryConst.Data_All_Value,
@@ -210,10 +212,108 @@ end
 
 function slot0.addMusicIDToUnlockList(slot0, slot1)
 	if table.contains(slot0.musicUnLockIDLIst, slot1) then
-		print("already exist picID:" .. slot1)
+		print("already exist musicID:" .. slot1)
 	else
 		slot0.musicUnLockIDLIst[#slot0.musicUnLockIDLIst + 1] = slot1
 	end
+end
+
+function slot0.addMangaIDToReadList(slot0, slot1)
+	if table.contains(slot0.mangaReadIDList, slot1) then
+		print("already exist mangaID:" .. slot1)
+	else
+		table.insert(slot0.mangaReadIDList, slot1)
+	end
+
+	if Application.isEditor then
+		for slot6, slot7 in ipairs(slot0.mangaReadIDList) do
+			slot2 = "" .. slot7 .. " ,"
+		end
+
+		print("After Add Manga Read ID List", slot2)
+	end
+end
+
+function slot0.initMangaReadIDList(slot0, slot1)
+	if Application.isEditor then
+		for slot6, slot7 in ipairs(slot1) do
+			slot2 = "" .. slot7 .. " ,"
+		end
+
+		print("Server Manga Read ID List", slot2)
+	end
+
+	slot0.mangaReadIDList = {}
+
+	for slot5, slot6 in ipairs(slot1) do
+		for slot10 = 1, 32 do
+			if bit.band(slot6, bit.lshift(1, slot10 - 1)) ~= 0 then
+				slot0:addMangaIDToReadList((slot5 - 1) * 32 + slot10)
+			end
+		end
+	end
+
+	MangaConst.setVersionAndNewCount()
+end
+
+function slot0.getMangaReadIDList(slot0)
+	return slot0.mangaReadIDList
+end
+
+function slot0.addMangaIDToLikeList(slot0, slot1)
+	if table.contains(slot0.mangaLikeIDList, slot1) then
+		print("already exist mangaID:" .. slot1)
+	else
+		table.insert(slot0.mangaLikeIDList, slot1)
+	end
+
+	if Application.isEditor then
+		for slot6, slot7 in ipairs(slot0.mangaLikeIDList) do
+			slot2 = "" .. slot7 .. " ,"
+		end
+
+		print("After Add Manga Like ID List", slot2)
+	end
+end
+
+function slot0.removeMangaIDFromLikeList(slot0, slot1)
+	if table.contains(slot0.mangaLikeIDList, slot1) then
+		table.removebyvalue(slot0.mangaLikeIDList, slot1, true)
+	else
+		print("not exist mangaID:" .. slot1)
+	end
+
+	if Application.isEditor then
+		for slot6, slot7 in ipairs(slot0.mangaLikeIDList) do
+			slot2 = "" .. slot7 .. " ,"
+		end
+
+		print("After Remove Manga Like ID List", slot2)
+	end
+end
+
+function slot0.initMangaLikeIDList(slot0, slot1)
+	if Application.isEditor then
+		for slot6, slot7 in ipairs(slot1) do
+			slot2 = "" .. slot7 .. " ,"
+		end
+
+		print("Server Manga Like ID List", slot2)
+	end
+
+	slot0.mangaLikeIDList = {}
+
+	for slot5, slot6 in ipairs(slot1) do
+		for slot10 = 1, 32 do
+			if bit.band(slot6, bit.lshift(1, slot10 - 1)) ~= 0 then
+				slot0:addMangaIDToLikeList((slot5 - 1) * 32 + slot10)
+			end
+		end
+	end
+end
+
+function slot0.getMangaLikeIDList(slot0)
+	return slot0.mangaLikeIDList
 end
 
 function slot0.isPicUnlockedByID(slot0, slot1)
@@ -320,6 +420,14 @@ end
 
 function slot0.isMusicHaveNewRes(slot0)
 	if PlayerPrefs.GetInt("musicVersion", 0) < MusicCollectionConst.Version then
+		return true
+	else
+		return false
+	end
+end
+
+function slot0.isMangaHaveNewRes(slot0)
+	if PlayerPrefs.GetInt("mangaVersion", 0) < MangaConst.Version then
 		return true
 	else
 		return false

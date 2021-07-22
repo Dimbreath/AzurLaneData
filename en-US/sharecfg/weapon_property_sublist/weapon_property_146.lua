@@ -2,98 +2,6 @@ pg = pg or {}
 pg.weapon_property_146 = {}
 
 function ()
-	uv0.weapon_property_146[67581] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "蜜月爆炸Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 120,
-		charge_param = "",
-		damage = 68,
-		corrected = 245,
-		min_range = 0,
-		id = 67581,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19957
-		},
-		barrage_ID = {
-			80520
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_146[67582] = {
-		id = 67582,
-		name = "蜜月爆炸Lv2",
-		damage = 80,
-		base = 67581
-	}
-	uv0.weapon_property_146[67583] = {
-		id = 67583,
-		name = "蜜月爆炸Lv3",
-		damage = 92,
-		base = 67581
-	}
-	uv0.weapon_property_146[67584] = {
-		id = 67584,
-		name = "蜜月爆炸Lv4",
-		damage = 104,
-		base = 67581
-	}
-	uv0.weapon_property_146[67585] = {
-		id = 67585,
-		name = "蜜月爆炸Lv5",
-		damage = 116,
-		base = 67581
-	}
-	uv0.weapon_property_146[67586] = {
-		id = 67586,
-		name = "蜜月爆炸Lv6",
-		damage = 128,
-		base = 67581
-	}
-	uv0.weapon_property_146[67587] = {
-		id = 67587,
-		name = "蜜月爆炸Lv7",
-		damage = 140,
-		base = 67581
-	}
-	uv0.weapon_property_146[67588] = {
-		id = 67588,
-		name = "蜜月爆炸Lv8",
-		damage = 152,
-		base = 67581
-	}
-	uv0.weapon_property_146[67589] = {
-		id = 67589,
-		name = "蜜月爆炸Lv9",
-		damage = 164,
-		base = 67581
-	}
 	uv0.weapon_property_146[67590] = {
 		id = 67590,
 		name = "蜜月爆炸Lv10",
@@ -647,5 +555,103 @@ function ()
 		name = "露露缇耶技能鱼雷3段Lv3",
 		damage = 20,
 		base = 67651
+	}
+	uv0.weapon_property_146[67654] = {
+		id = 67654,
+		name = "露露缇耶技能鱼雷3段Lv4",
+		damage = 24,
+		base = 67651
+	}
+	uv0.weapon_property_146[67655] = {
+		id = 67655,
+		name = "露露缇耶技能鱼雷3段Lv5",
+		damage = 27,
+		base = 67651
+	}
+	uv0.weapon_property_146[67656] = {
+		id = 67656,
+		name = "露露缇耶技能鱼雷3段Lv6",
+		damage = 30,
+		base = 67651
+	}
+	uv0.weapon_property_146[67657] = {
+		id = 67657,
+		name = "露露缇耶技能鱼雷3段Lv7",
+		damage = 33,
+		base = 67651
+	}
+	uv0.weapon_property_146[67658] = {
+		id = 67658,
+		name = "露露缇耶技能鱼雷3段Lv8",
+		damage = 36,
+		base = 67651
+	}
+	uv0.weapon_property_146[67659] = {
+		id = 67659,
+		name = "露露缇耶技能鱼雷3段Lv9",
+		damage = 38,
+		base = 67651
+	}
+	uv0.weapon_property_146[67660] = {
+		id = 67660,
+		name = "露露缇耶技能鱼雷3段Lv10",
+		damage = 40,
+		base = 67651
+	}
+	uv0.weapon_property_146[67661] = {
+		action_index = "attack",
+		range = 200,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双影无双爆炸BLv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 360,
+		charge_param = "",
+		damage = 86,
+		corrected = 200,
+		min_range = 0,
+		id = 67661,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19966
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_146[67662] = {
+		id = 67662,
+		name = "双影无双爆炸BLv2",
+		damage = 101,
+		base = 67661
+	}
+	uv0.weapon_property_146[67663] = {
+		id = 67663,
+		name = "双影无双爆炸BLv3",
+		damage = 116,
+		base = 67661
 	}
 end()

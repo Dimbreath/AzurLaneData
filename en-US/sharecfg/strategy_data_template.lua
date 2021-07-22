@@ -535,6 +535,33 @@ pg.strategy_data_template = {
 		desc = "Your fleet is in Fever Mode, and will restore 2% Max HP at the beginning of battle.",
 		arg = {}
 	},
+	[10031] = {
+		buff_id = 8765,
+		name = "Eyes on Me!",
+		type = 1000,
+		id = 10031,
+		icon = "10031",
+		desc = "At the start of the battle, your ships heal for 2.0% of their max HP.",
+		arg = {}
+	},
+	[10032] = {
+		buff_id = 8767,
+		name = "Eyes on Me!",
+		type = 1000,
+		id = 10032,
+		icon = "10032",
+		desc = "Your ships deal 5.0% more DMG to enemies.",
+		arg = {}
+	},
+	[10033] = {
+		buff_id = 8769,
+		name = "Eyes on Me!",
+		type = 1000,
+		id = 10033,
+		icon = "10033",
+		desc = "Your ships take 5.0% less DMG from enemies.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -592,6 +619,9 @@ pg.strategy_data_template = {
 		10013,
 		10014,
 		10015,
-		10021
+		10021,
+		10031,
+		10032,
+		10033
 	}
 }

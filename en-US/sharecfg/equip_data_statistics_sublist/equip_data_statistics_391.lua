@@ -1,5 +1,231 @@
 pg = pg or {}
 pg.equip_data_statistics_391 = {
+	[90447] = {
+		id = 90447,
+		damage = "97 x 4",
+		base = 90440,
+		weapon_id = {
+			90447
+		}
+	},
+	[90448] = {
+		id = 90448,
+		damage = "104 x 4",
+		base = 90440,
+		weapon_id = {
+			90448
+		}
+	},
+	[90449] = {
+		id = 90449,
+		damage = "112 x 4",
+		base = 90440,
+		weapon_id = {
+			90449
+		}
+	},
+	[90450] = {
+		id = 90450,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90450
+		}
+	},
+	[90451] = {
+		anti_siren = 100,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90451,
+		weapon_id = {
+			90451
+		}
+	},
+	[90452] = {
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
+		weapon_id = {
+			90452
+		}
+	},
+	[90453] = {
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
+		weapon_id = {
+			90453
+		}
+	},
+	[90500] = {
+		name = "Twin 130mm Mle 1935 Main Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "50500",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "9 x 2",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1011
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90500
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90501] = {
+		id = 90501,
+		base = 90500,
+		weapon_id = {
+			90501
+		}
+	},
+	[90502] = {
+		id = 90502,
+		damage = "10 x 2",
+		base = 90500,
+		weapon_id = {
+			90502
+		}
+	},
+	[90503] = {
+		id = 90503,
+		damage = "10 x 2",
+		base = 90500,
+		weapon_id = {
+			90503
+		}
+	},
+	[90600] = {
+		name = "Twin 37mm Mle 1936 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "50600",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "38/wave",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			90600
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		}
+	},
+	[90601] = {
+		id = 90601,
+		damage = "42/wave",
+		base = 90600,
+		weapon_id = {
+			90601
+		}
+	},
+	[90602] = {
+		id = 90602,
+		damage = "46/wave",
+		base = 90600,
+		weapon_id = {
+			90602
+		}
+	},
 	[90603] = {
 		id = 90603,
 		damage = "50/wave",
@@ -22,236 +248,6 @@ pg.equip_data_statistics_391 = {
 		base = 90600,
 		weapon_id = {
 			90605
-		}
-	},
-	[90606] = {
-		id = 90606,
-		damage = "62/wave",
-		base = 90600,
-		weapon_id = {
-			90606
-		}
-	},
-	[90607] = {
-		id = 90607,
-		damage = "66/wave",
-		base = 90600,
-		weapon_id = {
-			90607
-		}
-	},
-	[90608] = {
-		id = 90608,
-		damage = "70/wave",
-		base = 90600,
-		weapon_id = {
-			90608
-		}
-	},
-	[90609] = {
-		id = 90609,
-		damage = "74/wave",
-		base = 90600,
-		weapon_id = {
-			90609
-		}
-	},
-	[90610] = {
-		id = 90610,
-		damage = "78/wave",
-		base = 90600,
-		weapon_id = {
-			90610
-		}
-	},
-	[90611] = {
-		anti_siren = 100,
-		damage = "78/wave",
-		base = 90600,
-		id = 90611,
-		weapon_id = {
-			90611
-		}
-	},
-	[90612] = {
-		anti_siren = 200,
-		damage = "78/wave",
-		base = 90600,
-		id = 90612,
-		weapon_id = {
-			90612
-		}
-	},
-	[90613] = {
-		anti_siren = 300,
-		damage = "78/wave",
-		base = 90600,
-		id = 90613,
-		weapon_id = {
-			90613
-		}
-	},
-	[90700] = {
-		name = "Single 138.6mm Mle 1927 Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "50700",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "4 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90700,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90700
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90701] = {
-		id = 90701,
-		base = 90700,
-		weapon_id = {
-			90701
-		}
-	},
-	[90702] = {
-		id = 90702,
-		damage = "5 x 4",
-		base = 90700,
-		weapon_id = {
-			90702
-		}
-	},
-	[90703] = {
-		id = 90703,
-		damage = "6 x 4",
-		base = 90700,
-		weapon_id = {
-			90703
-		}
-	},
-	[90720] = {
-		name = "Single 138.6mm Mle 1927 Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "50700",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90720,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90720
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90721] = {
-		id = 90721,
-		damage = "7 x 4",
-		base = 90720,
-		weapon_id = {
-			90721
 		}
 	}
 }

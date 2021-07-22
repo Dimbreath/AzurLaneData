@@ -58211,6 +58211,39 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14678] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91198,
+		type = 6,
+		name = "『限界挑战9』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14678,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				209,
+				1
+			}
+		}
+	},
 	[14730] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -111554,6 +111587,687 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16818] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95741,
+		type = 36,
+		name = "『偶像大师』日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16818,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				300
+			}
+		}
+	},
+	[16819] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95742,
+		type = 36,
+		name = "『偶像大师』日常出击",
+		count_inherit = 0,
+		desc = "Claim victory 15 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16819,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				300
+			}
+		}
+	},
+	[16820] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95743,
+		type = 36,
+		name = "『偶像大师』日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16820,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				100
+			}
+		}
+	},
+	[16821] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95744,
+		type = 6,
+		name = "『偶像大师』完成「活动特殊委托」1次",
+		count_inherit = 0,
+		desc = "Take on 1 event commission.",
+		target_id_2 = "",
+		sub_type = 82,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16821,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			50015,
+			50016,
+			50017,
+			50018,
+			50019,
+			50020,
+			50021,
+			50022,
+			50023,
+			50024,
+			50025,
+			50026,
+			50027,
+			50028
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				200
+			},
+			{
+				8,
+				70081,
+				1
+			}
+		},
+		scene = {
+			"EVENT"
+		}
+	},
+	[16822] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95745,
+		type = 6,
+		name = "『偶像大师』累计建造10次",
+		count_inherit = 0,
+		desc = "Build 10 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16822,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				500
+			},
+			{
+				8,
+				70080,
+				1
+			}
+		}
+	},
+	[16823] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95746,
+		type = 6,
+		name = "『偶像大师』关卡特殊演出状态下获得60次胜利",
+		count_inherit = 0,
+		desc = "Win 60 battles while in \"Eyes on Me!\" Mode.",
+		target_id_2 = "",
+		sub_type = 13,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16823,
+		target_num = 60,
+		fix_task = 0,
+		target_id = {
+			8765,
+			8767,
+			8769
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				300
+			},
+			{
+				8,
+				70087,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16824] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95747,
+		type = 6,
+		name = "『偶像大师』通关SP1",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16825",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540001,
+		id = 16824,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70083,
+				1
+			}
+		}
+	},
+	[16825] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95748,
+		type = 6,
+		name = "『偶像大师』通关SP2",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16826",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540002,
+		id = 16825,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				400
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70085,
+				1
+			}
+		}
+	},
+	[16826] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95749,
+		type = 6,
+		name = "『偶像大师』通关SP3",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16827",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540003,
+		id = 16826,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70079,
+				1
+			}
+		}
+	},
+	[16827] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95750,
+		type = 6,
+		name = "『偶像大师』通关SP4",
+		count_inherit = 0,
+		desc = "Clear SP4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16828",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540004,
+		id = 16827,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				800
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				70089,
+				1
+			}
+		}
+	},
+	[16828] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95751,
+		type = 6,
+		name = "『偶像大师』通关VSP",
+		count_inherit = 0,
+		desc = "Clear VSP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540041,
+		id = 16828,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				70091,
+				1
+			}
+		}
+	},
+	[16829] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95752,
+		type = 6,
+		name = "『偶像大师』SP1三星",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16830",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540001,
+		id = 16829,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70084,
+				1
+			}
+		}
+	},
+	[16830] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95753,
+		type = 6,
+		name = "『偶像大师』SP2三星",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16831",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540002,
+		id = 16830,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70088,
+				1
+			}
+		}
+	},
+	[16831] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95754,
+		type = 6,
+		name = "『偶像大师』SP3三星",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16832",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540003,
+		id = 16831,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70082,
+				1
+			}
+		}
+	},
+	[16832] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95755,
+		type = 6,
+		name = "『偶像大师』SP4三星",
+		count_inherit = 0,
+		desc = "Complete SP4 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1540004,
+		id = 16832,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1540004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70090,
+				1
+			}
+		}
+	},
+	[16833] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95796,
+		type = 6,
+		name = "『偶像大师』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in once.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16833,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				216,
+				2
+			}
+		}
+	},
 	[16770] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -130281,6 +130995,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		14675,
 		14676,
 		14677,
+		14678,
 		14730,
 		14731,
 		14732,
@@ -131713,6 +132428,22 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16765,
 		16766,
 		16767,
+		16818,
+		16819,
+		16820,
+		16821,
+		16822,
+		16823,
+		16824,
+		16825,
+		16826,
+		16827,
+		16828,
+		16829,
+		16830,
+		16831,
+		16832,
+		16833,
 		16770,
 		16771,
 		16772,

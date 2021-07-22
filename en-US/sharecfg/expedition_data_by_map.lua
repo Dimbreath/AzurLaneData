@@ -9063,6 +9063,132 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1540001] = {
+		map = 1540001,
+		name = "Azur Anthem|| ||CHAPTER EX||E.X.",
+		bgm = "Idom-Appeal",
+		type = 4,
+		on_activity = 4050,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "OUXIANGDASHIGUANQIA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1430001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1430001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1540002] = {
+		map = 1540002,
+		name = "Azur Anthem - SP|| ||CHAPTER EX||E.X.",
+		bgm = "Idom-Appeal",
+		type = 8,
+		on_activity = 4050,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1430001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1430001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1540001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1540003] = {
+		map = 1540003,
+		name = "Azur Anthem - EX|| ||CHAPTER EX||E.X.",
+		bgm = "Idom-Appeal",
+		type = 8,
+		on_activity = 4050,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1430001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1430001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1540001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -10477,6 +10603,9 @@ pg.expedition_data_by_map = {
 		1530012,
 		1530025,
 		1530026,
+		1540001,
+		1540002,
+		1540003,
 		2100000,
 		2100001,
 		2100010,

@@ -400,20 +400,33 @@ function slot0.getCVIntimacy(slot0)
 	return slot0:getIntimacy() / 100 + (slot0.propose and 1000 or 0)
 end
 
-function slot0.getIntimacyDetail(slot0)
-	if slot0:isMetaShip() then
-		slot2 = pg.intimacy_template[slot0:getIntimacyLevel()].icon .. "_meta"
-	end
-
-	return slot2, slot0:getIntimacyMax(), math.floor(slot0:getIntimacy() / 100)
-end
-
 function slot0.getIntimacyMax(slot0)
 	if slot0.propose then
 		return 200
+	else
+		return 100
+	end
+end
+
+function slot0.getIntimacyIcon(slot0)
+	slot1 = pg.intimacy_template[slot0:getIntimacyLevel()]
+	slot2 = ""
+
+	if slot0:isMetaShip() then
+		slot2 = "_meta"
+	elseif slot0:IsXIdol() then
+		slot2 = "_imas"
 	end
 
-	return 100
+	if not slot0.propose and slot0:getIntimacyMax() <= math.floor(slot0:getIntimacy() / 100) then
+		return slot1.icon .. slot2, "heart" .. slot2
+	else
+		return slot1.icon .. slot2
+	end
+end
+
+function slot0.getIntimacyDetail(slot0)
+	return slot0:getIntimacyMax(), math.floor(slot0:getIntimacy() / 100)
 end
 
 function slot0.getInitmacyInfo(slot0)
@@ -2134,6 +2147,20 @@ end
 
 function slot0.getReMetaSpecialItemVO(slot0, slot1)
 	return slot0.reMetaSpecialItemVO
+end
+
+function slot0.getProposeType(slot0)
+	if slot0:isMetaShip() then
+		return "meta"
+	elseif slot0:IsXIdol() then
+		return "imas"
+	else
+		return "default"
+	end
+end
+
+function slot0.IsXIdol(slot0)
+	return slot0:getNation() == Nation.IDOL_LINK
 end
 
 return slot0
