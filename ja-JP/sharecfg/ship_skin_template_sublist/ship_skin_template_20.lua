@@ -1035,7 +1035,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
@@ -1259,7 +1260,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
@@ -1483,7 +1485,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
@@ -1707,7 +1710,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
@@ -1931,7 +1935,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
@@ -2155,7 +2160,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
@@ -2379,7 +2385,8 @@ pg.ship_skin_template_20 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			2,
+			5
 		},
 		live2d_offset = {
 			0,
