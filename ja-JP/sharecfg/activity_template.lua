@@ -3398,7 +3398,6 @@ pg.activity_template = {
 	[4029] = {
 		mark = 20210708,
 		page_info = "",
-		time = "stop",
 		type = 52,
 		login_pop = 0,
 		config_id = 5,
@@ -3406,6 +3405,33 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 4029,
 		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		config_client = {
 			story = {
 				{
@@ -3447,7 +3473,6 @@ pg.activity_template = {
 	[4031] = {
 		mark = 20210708,
 		page_info = "",
-		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4031,
@@ -3455,7 +3480,34 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 4031,
-		config_data = {}
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[4032] = {
 		mark = 20210708,
