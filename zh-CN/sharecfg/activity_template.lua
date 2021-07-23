@@ -3367,7 +3367,6 @@ pg.activity_template = {
 	[4029] = {
 		mark = 20210708,
 		page_info = "",
-		time = "stop",
 		type = 52,
 		login_pop = 0,
 		config_id = 5,
@@ -3375,6 +3374,33 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 4029,
 		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		config_client = {
 			story = {
 				{
@@ -3416,7 +3442,6 @@ pg.activity_template = {
 	[4031] = {
 		mark = 20210708,
 		page_info = "",
-		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4031,
@@ -3424,7 +3449,34 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 4031,
-		config_data = {}
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[4032] = {
 		mark = 20210708,
@@ -3666,6 +3718,7 @@ pg.activity_template = {
 	[4054] = {
 		mark = 20210722,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -3680,33 +3733,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4055] = {
@@ -4193,6 +4219,52 @@ pg.activity_template = {
 					2021,
 					8,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4066] = {
+		mark = 20210722,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4066,
+		config_data = {
+			1545001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					7,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					14
 				},
 				{
 					23,
@@ -5669,6 +5741,7 @@ pg.activity_template = {
 		4063,
 		4064,
 		4065,
+		4066,
 		2001,
 		2002,
 		2003,

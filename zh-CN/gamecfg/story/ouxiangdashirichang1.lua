@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "这是萨拉托加给大家给来的惊喜~！有没有吓一跳呀~？",
+			say = "这是萨拉托加给大家带来的惊喜~！有没有吓一跳呀~？",
 			effects = {
 				{
 					active = false,
@@ -730,7 +730,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也、也是会会有这种形式的偶像演出的嘛，啊哈哈哈…",
+			say = "也、也是会有这种形式的偶像演出的嘛，啊哈哈哈…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

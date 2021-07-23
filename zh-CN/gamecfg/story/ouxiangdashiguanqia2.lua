@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 202250,
 			nameColor = "#a9f548",
-			say = "我们没必要隐瞒什么，跟她们好好说说明一下吧。",
+			say = "我们没必要隐瞒什么，跟她们好好说明一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

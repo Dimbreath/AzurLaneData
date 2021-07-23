@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			say = "我们次啊不会输给冒牌货呢！真美，上浮！",
+			say = "我们才不会输给冒牌货呢！真美，上浮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

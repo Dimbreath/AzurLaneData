@@ -308,7 +308,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			say = "没有传达出”为了谁而歌唱“的心…",
+			say = "没有传达出“为了谁而歌唱”的心…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

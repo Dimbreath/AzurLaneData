@@ -59,7 +59,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10700040,
 			nameColor = "#a9f548",
-			say = "虽然看不太清，可是跟跟伊织酱长得好像…",
+			say = "虽然看不太清，可是跟伊织酱长得好像…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

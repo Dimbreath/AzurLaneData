@@ -22,6 +22,14 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffCease",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {}
+		},
+		{
 			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach",

@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			actor = 102240,
 			nameColor = "#a9f548",
-			say = "…虽然为各位制作了舰装，但你们其实不用勉强自己”战斗“的。",
+			say = "…虽然为各位制作了舰装，但你们其实不用勉强自己“战斗”的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

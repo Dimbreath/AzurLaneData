@@ -470,7 +470,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们愿意”一起战斗“真是太好了，不过千万别太勉强哦。",
+			say = "你们愿意“一起战斗”真是太好了，不过千万别太勉强哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			actor = 103250,
 			nameColor = "#a9f548",
-			say = "刚才看到{namecode:6}、亚美和真美一起冲出去支援的时候，真是吓了一跳啊。别忘了是大家要”互相帮助“的哦？",
+			say = "刚才看到{namecode:6}、亚美和真美一起冲出去支援的时候，真是吓了一跳啊。别忘了是大家要“互相帮助”的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
