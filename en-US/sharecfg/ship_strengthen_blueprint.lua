@@ -7226,7 +7226,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[815] = {
 		effect_breakout = 0,
-		effect_desc = "HP +711|AA +39|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +711|AA +39|Anti-Air Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8372,7 +8372,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
-			"Anti-Air Gun efficiency 10%"
+			"Anti-Air Gun efficiency +10%"
 		}
 	},
 	[921] = {
@@ -8638,7 +8638,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
-			"All weapons' efficiency 5%"
+			"All weapons' efficiency +5%"
 		}
 	},
 	[931] = {
@@ -9177,7 +9177,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1015] = {
 		effect_breakout = 0,
-		effect_desc = "HP +629|AA +21|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +629|AA +21|Anti-Air Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9345,7 +9345,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅱ",
-			"Secondary gun efficiency 10%"
+			"Secondary gun efficiency +10%"
 		}
 	},
 	[1021] = {
@@ -10000,7 +10000,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1115] = {
 		effect_breakout = 0,
-		effect_desc = "HP +797|AA +22|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +797|AA +22|Anti-Air Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10820,7 +10820,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1215] = {
 		effect_breakout = 0,
-		effect_desc = "HP +651|AA +22|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +651|AA +22|Anti-Air Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11694,7 +11694,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Learn All Out Assault Ⅰ",
-			"Main Gun efficiency ++5%"
+			"Main Gun efficiency +5%"
 		}
 	},
 	[1311] = {
@@ -11799,7 +11799,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1315] = {
 		effect_breakout = 0,
-		effect_desc = "HP +433|AA +39|Main Gun efficiency ++10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
+		effect_desc = "HP +433|AA +39|Main Gun efficiency +10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16970,7 +16970,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
-			"All weapons' efficiency 5%"
+			"All weapons' efficiency +5%"
 		}
 	},
 	[1901] = {
@@ -17528,7 +17528,7 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"Upgrades Siren Killer",
+			"Learn Siren Killer II",
 			"Hangar capacity +1",
 			"Dive Bomber efficiency +10%"
 		}
@@ -17801,7 +17801,7 @@ pg.ship_strengthen_blueprint = {
 			175
 		},
 		extra_desc = {
-			"Improves Siren Killer",
+			"Learn Siren Killer III",
 			"Aircraft efficiency +5%",
 			"Becomes able to equip Dive Bombers in Torpedo Bomber slot"
 		}
@@ -19191,7 +19191,7 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"Upgrades Siren Killer",
+			"Learn Siren Killer II",
 			"Hangar capacity +1",
 			"Torpedo Bomber efficiency +10%"
 		}
@@ -19465,7 +19465,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
-			"Aircraft efficiency5%"
+			"Aircraft efficiency +5%"
 		}
 	},
 	[2201] = {
