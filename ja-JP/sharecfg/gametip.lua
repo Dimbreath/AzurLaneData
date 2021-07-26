@@ -6906,6 +6906,9 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 	ship_profile_voice_locked_propose = {
 		tip = "ケッコンで開放"
 	},
+	ship_profile_voice_locked_propose_imas = {
+		tip = "団結で開放"
+	},
 	ship_profile_voice_locked_design = {
 		tip = "強化レベル$1で開放"
 	},

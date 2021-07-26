@@ -577,15 +577,25 @@ function slot0.getLastMapForActivity(slot0)
 	end)
 
 	slot4 = {}
-	slot4 = _.all(slot3, function (slot0)
+
+	if _.all(slot3, function (slot0)
 		return slot0:getConfig("type") == Map.EVENT
-	end) and slot3 or (not _.any(slot3, function (slot0)
-		return slot0:getConfig("type") == Map.ACTIVITY_EASY and not slot0:isClearForActivity()
-	end) or underscore.filter(slot3, function (slot0)
-		return slot0:getMapType() == Map.ACTIVITY_EASY
-	end)) and underscore.filter(slot3, function (slot0)
-		return slot0:getMapType() == Map.ACTIVITY_HARD
-	end)
+	end) then
+		slot4 = slot3
+	else
+		for slot8, slot9 in ipairs({
+			Map.ACTIVITY_EASY,
+			Map.ACTIVITY_HARD
+		}) do
+			if #underscore.filter(slot3, function (slot0)
+				return slot0:getMapType() == uv0
+			end) > 0 and underscore.any(slot10, function (slot0)
+				return not slot0:isClearForActivity()
+			end) then
+				break
+			end
+		end
+	end
 
 	for slot8 = #slot4, 1, -1 do
 		if slot4[slot8]:isUnlock() then

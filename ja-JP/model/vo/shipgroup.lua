@@ -267,7 +267,7 @@ function slot0.VoiceReplayCodition(slot0, slot1)
 		end
 	elseif slot1.unlock_condition[1] == uv0.CONDITION_MARRIED and slot0.married == 0 then
 		slot2 = false
-		slot3 = i18n("ship_profile_voice_locked_propose")
+		slot3 = (not slot0:IsXIdol() or i18n("ship_profile_voice_locked_propose_imas")) and i18n("ship_profile_voice_locked_propose")
 	end
 
 	return slot2, slot3
