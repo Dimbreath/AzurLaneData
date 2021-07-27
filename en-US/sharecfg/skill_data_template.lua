@@ -68995,7 +68995,7 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	[107120] = {
 		desc_get = "",
 		name = "Fleet Course Management",
-		type = 2,
+		type = 3,
 		max_level = 10,
 		desc = "5s after the battle starts, as well as every 20s: fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 more DMG from The Idolmaster collab ships for 5s. At the start of the battle, if there are no more than 3 The Idolmaster collab ships in your fleet: increases this ship's FP by 100.0% and improves this barrage.",
 		id = 107120,
@@ -69101,7 +69101,7 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	[107130] = {
 		desc_get = "",
 		name = "Logistics Buddy",
-		type = 3,
+		type = 2,
 		max_level = 10,
 		desc = "When this ship has Cargo equipped: decreases the time this ship Burns by 3s and decreases your Flagship's Burn DMG taken by $1, but also decreases this ship's Speed by 3.",
 		id = 107130,

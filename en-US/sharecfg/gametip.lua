@@ -6988,6 +6988,9 @@ Setting an active Catch-Up ship is done through the Research Focus menu.]]
 	ship_profile_voice_locked_propose = {
 		tip = "Coming Soon"
 	},
+	ship_profile_voice_locked_propose_imas = {
+		tip = "Coming Soon"
+	},
 	ship_profile_voice_locked_design = {
 		tip = "Coming Soon"
 	},
