@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "的确，没有这三方面的才能，就不能被成为偶像了呢。",
+			say = "的确，没有这三方面的才能，就不能成为偶像了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			blackBg = true,
 			actor = 201010,
 			nameColor = "#a9f548",
-			say = "就是啊！为什么要在两个月后要安排演出？完全没有那样的计划吧？！",
+			say = "就是啊！为什么要在两个月后安排演出？完全没有那样的计划吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

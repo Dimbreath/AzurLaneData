@@ -6975,6 +6975,9 @@ $3]]
 	ship_profile_voice_locked_propose = {
 		tip = "誓约后解锁"
 	},
+	ship_profile_voice_locked_propose_imas = {
+		tip = "誓约后解锁"
+	},
 	ship_profile_voice_locked_design = {
 		tip = "开发等级达到$1级后解锁"
 	},
