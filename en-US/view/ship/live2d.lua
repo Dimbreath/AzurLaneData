@@ -57,14 +57,10 @@ function slot3(slot0)
 end
 
 function slot4(slot0, slot1, slot2)
-	if not slot0.live2dAction or slot2 then
-		slot3 = uv0.action2Id[slot1]
-
+	if (not slot0.live2dAction or slot2) and uv0.action2Id[slot1] then
 		slot0.liveCom:SetAction(slot3)
 
-		if slot3 then
-			slot0.live2dAction = true
-		end
+		slot0.live2dAction = true
 	end
 end
 

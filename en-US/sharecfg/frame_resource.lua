@@ -1,6 +1,6 @@
 pg = pg or {}
 pg.frame_resource = {
-	meta_4 = {
+	["14"] = {
 		param = {
 			-14,
 			-5.5,
@@ -8,7 +8,7 @@ pg.frame_resource = {
 			-4.5
 		}
 	},
-	bmeta_4 = {
+	b14 = {
 		param = {
 			-6,
 			0,
@@ -16,7 +16,7 @@ pg.frame_resource = {
 			-5
 		}
 	},
-	propmeta_4 = {
+	prop14 = {
 		param = {
 			-4,
 			-4,
@@ -24,7 +24,7 @@ pg.frame_resource = {
 			4
 		}
 	},
-	bpropmeta_4 = {
+	bprop14 = {
 		param = {
 			-2,
 			-3,

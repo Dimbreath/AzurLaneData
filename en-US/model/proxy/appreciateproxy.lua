@@ -7,8 +7,8 @@ function slot0.register(slot0)
 end
 
 function slot0.initData(slot0)
-	slot0.picManager = PicUpdateMgr.Inst
-	slot0.musicManager = MusicUpdateMgr.Inst
+	slot0.picManager = BundleWizard.Inst:GetGroupMgr("GALLERY_PIC")
+	slot0.musicManager = BundleWizard.Inst:GetGroupMgr("GALLERY_BGM")
 	slot0.reForVer = PathMgr.MD5Result
 	slot0.galleryPicUnLockIDLIst = {}
 	slot0.galleryPicExistStateTable = {}

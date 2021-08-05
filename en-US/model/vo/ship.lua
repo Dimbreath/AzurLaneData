@@ -65,11 +65,15 @@ function shipRarity2bgPrint(slot0, slot1, slot2, slot3)
 		return slot5
 	end
 
-	if slot3 then
-		return "meta_" .. ShipRarity.Rarity2Print(slot0)
+	slot4 = ""
+
+	if slot2 then
+		slot4 = "0"
+	elseif slot3 then
+		slot4 = "1"
 	end
 
-	return (slot2 and "0" or "") .. ShipRarity.Rarity2Print(slot0)
+	return slot4 .. ShipRarity.Rarity2Print(slot0)
 end
 
 function shipRarity2FrameColor(slot0)
@@ -77,27 +81,11 @@ function shipRarity2FrameColor(slot0)
 end
 
 function slot0.rarity2bgPrint(slot0)
-	slot1 = slot0:getRarity()
-
-	if slot0:isMetaShip() then
-		return "meta_" .. ShipRarity.Rarity2Print(slot1)
-	end
-
-	return (slot0:isBluePrintShip() and "0" or "") .. ShipRarity.Rarity2Print(slot1)
+	return shipRarity2bgPrint(slot0:getRarity(), nil, slot0:isBluePrintShip(), slot0:isMetaShip())
 end
 
 function slot0.rarity2bgPrintForGet(slot0)
-	if pg.ship_skin_template[slot0.skinId].rarity_bg and slot2 ~= "" then
-		return slot2
-	end
-
-	slot3 = slot0:getRarity()
-
-	if slot0:isMetaShip() then
-		return "meta_" .. ShipRarity.Rarity2Print(slot3)
-	end
-
-	return (slot0:isBluePrintShip() and "0" or "") .. ShipRarity.Rarity2Print(slot3)
+	return shipRarity2bgPrint(slot0:getRarity(), slot0.skinId, slot0:isBluePrintShip(), slot0:isMetaShip())
 end
 
 function slot0.getShipBgPrint(slot0, slot1)

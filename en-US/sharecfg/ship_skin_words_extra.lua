@@ -4917,6 +4917,62 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[207052] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 207052,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Hehe~ I've waited for you all this time, Commander. I would've preferred it if you'd come a little sooner, though. Hehehe~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, are you still busy? I'm afraid I can't be of much assistance, but I can give you a wink to keep your spirits up. Best of luck ♪"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Would you please describe how gorgeous my dress is? Yes, and kindly don't stop until I feel I've heard enough ♪"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Has my hair gotten entangled? How?! I'm always going to such lengths to prevent it! What if Sirius is trying to– Oh, it's all right now? Th-thank you.|Come here for a moment, Commander! Let's straighten out your uniform... There! Perfect!|Commander, I'm sure my sisters all have splendrous dresses, but do not forget about your dear Formidable."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You'd like a dance? Certainly. Allow me to be your first, and hopefully, your favourite partner."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander! I urge you to pat my head at once! Or else I will ignore you for the rest of the party!"
+			}
+		}
+	},
 	[301860] = {
 		feeling3 = "",
 		win_mvp = "",
@@ -5614,6 +5670,7 @@ pg.ship_skin_words_extra = {
 		107140,
 		105170,
 		107990,
+		207052,
 		301860,
 		399050,
 		10700010,

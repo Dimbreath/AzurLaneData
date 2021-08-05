@@ -3948,6 +3948,10 @@ pg.skill_data_display = {
 		id = 14641,
 		name = "Freedom Through Firepower"
 	},
+	[14642] = {
+		id = 14642,
+		name = "Freedom Through Firepower"
+	},
 	[14651] = {
 		id = 14651,
 		name = "Strike Orders Received!"
@@ -7408,6 +7412,7 @@ pg.skill_data_display = {
 		14623,
 		14630,
 		14641,
+		14642,
 		14651,
 		14660,
 		14661,

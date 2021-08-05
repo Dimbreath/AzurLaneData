@@ -210,7 +210,7 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 				slot0.transform.localScale = Vector3(0.5, 0.5, 1)
 
 				slot0.transform:SetParent(uv0.character, false)
-				slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", true)
+				slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", 0)
 			end
 		end)
 	end

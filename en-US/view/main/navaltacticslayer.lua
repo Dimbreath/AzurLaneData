@@ -582,8 +582,6 @@ function slot0.showSkillSel(slot0, slot1, slot2)
 
 	setActive(slot0.skillsMask, true)
 
-	slot5 = 0
-
 	for slot9, slot10 in pairs(slot0.shipVOs[slot1.shipId]:getSkillList()) do
 		if slot3.skills[slot10] then
 			slot0:updateSkill(slot9, slot0.skillContent:GetChild(slot9 - 1), {
@@ -595,17 +593,9 @@ function slot0.showSkillSel(slot0, slot1, slot2)
 				level = slot3.skills[slot10].level,
 				exp = slot3.skills[slot10].exp
 			})
-		else
-			slot0:updateSkill(slot9, slot11, {
-				isLearn = false,
-				id = slot10,
-				name = getSkillName(slot10),
-				icon = slot12.icon,
-				desc = getSkillDesc(slot10, slot3.skills[slot10].level)
-			})
-		end
 
-		slot5 = slot5 + 1
+			slot5 = 0 + 1
+		end
 	end
 
 	for slot9 = slot5, 2 do

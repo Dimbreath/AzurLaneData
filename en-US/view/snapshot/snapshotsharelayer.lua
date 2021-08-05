@@ -36,7 +36,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.confirmBtnTrans, function ()
 		slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 
-		NativeGallery.SaveImageToGallery(uv0.bytes, "Camera", "azur" .. slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec .. ".png")
+		YARecorder.Inst:WritePictureToAlbum("azur" .. slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec .. ".png", uv0.bytes)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
 		uv0:closeView()
 	end)

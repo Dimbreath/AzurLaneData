@@ -1,9 +1,9 @@
 ys = {}
-pg = {
-	_weak = setmetatable({}, {
-		__mode = "k"
-	})
-}
+pg = {}
+cs = {}
+pg._weak = setmetatable({}, {
+	__mode = "k"
+})
 PLATFORM_CH = 1
 PLATFORM_JP = 2
 PLATFORM_KR = 3
@@ -18,7 +18,7 @@ math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
 
-print("C# Ver. " .. CSharpVersion)
+print("C# Ver.... " .. CSharpVersion)
 
 PLATFORM = LuaHelper.GetPlatformInt()
 SDK_EXIT_CODE = 99
@@ -236,6 +236,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.UserAgreementMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.BrightnessMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

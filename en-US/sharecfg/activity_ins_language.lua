@@ -8095,226 +8095,226 @@ pg.activity_ins_language = {
 		value = "Likewise, it was a deliciously reinvigorating experience for me."
 	},
 	ins_235 = {
-		value = ""
+		value = "My, oh my. Where are we?"
 	},
 	ins_discuss_235_1 = {
-		value = ""
+		value = "What are you two up to? Having a look around the port?"
 	},
 	ins_reply_235_1_1 = {
-		value = ""
+		value = "I offered to give her a tour, and we both wound up getting lost..."
 	},
 	ins_reply_235_1_2 = {
-		value = ""
+		value = "It's strange, but I felt we had something in common when I first met her! Turns out, it was our sense of direction."
 	},
 	ins_reply_235_1_3 = {
-		value = ""
+		value = "I see! So this is what they mean by Stand users being drawn to each other!"
 	},
 	ins_discuss_235_2 = {
-		value = ""
+		value = "No worries, everyone. Inazuma and I went out and picked em up."
 	},
 	ins_reply_235_2_1 = {
-		value = ""
+		value = "You're a lifesaver, Hibiki... Thanks."
 	},
 	ins_reply_235_2_2 = {
-		value = ""
+		value = "Yes! Thank you for the assist. Despite us getting lost, it was an enlightening experience."
 	},
 	ins_op_235_1_1 = {
-		value = ""
+		value = "I can give you a proper tour around if you want."
 	},
 	op_reply_235_1_1 = {
-		value = ""
+		value = "Oh, you'd do that for me? You're so kind, Commander."
 	},
 	op_reply_235_1_2 = {
-		value = ""
+		value = "Finally, someone reliable who can do the job!"
 	},
 	ins_236 = {
-		value = ""
+		value = "Tripped again... Luckily Vestal was there to give me a bandaid."
 	},
 	ins_discuss_236_1 = {
-		value = ""
+		value = "Wait, are you all right, Haruka?"
 	},
 	ins_reply_236_1_1 = {
-		value = ""
+		value = "Right as rain after Vestal helped! Thanks for asking, Chihaya!"
 	},
 	ins_reply_236_1_2 = {
-		value = ""
+		value = "Phew... Good."
 	},
 	ins_discuss_236_2 = {
-		value = ""
+		value = "I'm impressed you got off with just a scratch! But next time, try to be more careful, okay?"
 	},
 	ins_reply_236_2_1 = {
-		value = ""
+		value = "I'll try. Thanks again, Vestal!"
 	},
 	ins_discuss_236_3 = {
-		value = ""
+		value = "Are you plagued by bad luck too, Haruka?"
 	},
 	ins_reply_236_3_1 = {
-		value = ""
+		value = "Not really, I just trip a lot. I'm not particularly unlucky as a whole."
 	},
 	ins_reply_236_3_2 = {
-		value = ""
+		value = "I suppose clumsiness and misfortune are not one and the same."
 	},
 	ins_op_236_1_1 = {
-		value = ""
+		value = "What happened? Untied shoelaces? Stray stone?"
 	},
 	op_reply_236_1_1 = {
-		value = ""
+		value = "Hmm good question... I don't think I stepped on anything, I simply tripped, just like that..."
 	},
 	ins_op_236_1_2 = {
-		value = ""
+		value = "You're not hurt, are you?"
 	},
 	op_reply_236_1_2 = {
-		value = ""
+		value = "Nope, I'm fine! Sorry if I made you worry, Commander!"
 	},
 	ins_237 = {
-		value = ""
+		value = "The girls here are all such good singers."
 	},
 	ins_discuss_237_1 = {
-		value = ""
+		value = "You're a great singer chihaya! It's fun to sing along with you"
 	},
 	ins_reply_237_1_1 = {
-		value = ""
+		value = "Thank you. I'm just happy I got to teach you."
 	},
 	ins_discuss_237_2 = {
-		value = ""
+		value = "I liked the pictures in the book you showed"
 	},
 	ins_reply_237_2_1 = {
-		value = ""
+		value = "I'm glad you did. It's a cute little picture book for teaching children songs."
 	},
 	ins_discuss_237_3 = {
-		value = ""
+		value = "Sure sounds like fun! Can I join you for the next singalong?"
 	},
 	ins_reply_237_3_1 = {
-		value = ""
+		value = "Of course. As soon we all have time, let's do it."
 	},
 	ins_reply_237_3_2 = {
-		value = ""
+		value = "Woohoo! ^^b"
 	},
 	ins_discuss_237_4 = {
-		value = ""
+		value = "The little ones should all have good teachers like you. Hahaha."
 	},
 	ins_reply_237_4_1 = {
-		value = ""
+		value = "I wouldn't say I'm the greatest teacher, but... I'm happy to have helped."
 	},
 	ins_op_237_1_1 = {
-		value = ""
+		value = "Aww, how cute."
 	},
 	op_reply_237_1_1 = {
-		value = ""
+		value = "You think I'm cute...? Well, thank you, Commander."
 	},
 	ins_238 = {
-		value = ""
+		value = "I may have stirred a little too much..."
 	},
 	ins_discuss_238_1 = {
-		value = ""
+		value = "It takes more than a slight overstirring to make food start to smoke like that!"
 	},
 	ins_reply_238_1_1 = {
-		value = ""
+		value = "It is incredible in a way how thou even managed to flub so magnificently..."
 	},
 	ins_reply_238_1_2 = {
-		value = ""
+		value = "Look, nobody's perfect! Everyone messes up sometimes!"
 	},
 	ins_discuss_238_2 = {
-		value = ""
+		value = "Contrary to my expectations, Miss Iori's dish actually proved quite delectable."
 	},
 	ins_reply_238_2_1 = {
-		value = ""
+		value = "Of course it was! Why WOULDN'T my cooking be delectable?"
 	},
 	ins_reply_238_2_2 = {
-		value = ""
+		value = "Yeah. It tasted great, even though it looked like you-know-what."
 	},
 	ins_reply_238_2_3 = {
-		value = ""
+		value = "No, I don't know what. Explain!"
 	},
 	ins_op_238_1_1 = {
-		value = ""
+		value = "Thanks for the grub!"
 	},
 	op_reply_238_1_1 = {
-		value = ""
+		value = "You're welcome. Maybe I'll cook it again for you if you ask nicely."
 	},
 	ins_239 = {
-		value = ""
+		value = "You know what they say: two heads are always better than one!"
 	},
 	ins_discuss_239_1 = {
-		value = ""
+		value = "I felt much more productive while working with you, Ritsuko. Let's team up again sometime in the future."
 	},
 	ins_reply_239_1_1 = {
-		value = ""
+		value = "Absolutely! If there's one thing this taught me, it's that paperwork is tough, whether you work at for agency or the navy."
 	},
 	ins_reply_239_1_2 = {
-		value = ""
+		value = "It sure is. I'm glad to have someone as experienced as you helping with it."
 	},
 	ins_discuss_239_2 = {
-		value = ""
+		value = "If only I had a pair of glasses, then maybe I could be as smart as you two..."
 	},
 	ins_reply_239_2_1 = {
-		value = ""
+		value = "I don't think glasses have anything to do with smarts..."
 	},
 	ins_discuss_239_3 = {
-		value = ""
+		value = "You know what else they say? Four eyes are smarter than two!"
 	},
 	ins_reply_239_3_1 = {
-		value = ""
+		value = "That's just a stereotype! Glasses don't make you smart!"
 	},
 	ins_op_239_1_1 = {
-		value = ""
+		value = "In any case, you were a great help. Thanks!"
 	},
 	op_reply_239_1_1 = {
-		value = ""
+		value = "I'm glad to have been of assistance!"
 	},
 	ins_240 = {
-		value = ""
+		value = "Check out my Proto Bulin cosplay! Ahem... bulin!"
 	},
 	ins_discuss_240_1 = {
-		value = ""
+		value = "I wanna cosplay too! Brb while I go ask around for a wrench to borrow!"
 	},
 	ins_reply_240_1_1 = {
-		value = ""
+		value = "Right on, pardner! Lessee whose tool is the best: the purple wrench, or the golden drill!"
 	},
 	ins_reply_240_1_2 = {
-		value = ""
+		value = "You're on! See you at noon, cowgirl!"
 	},
 	ins_discuss_240_2 = {
-		value = ""
+		value = "New Bulin just dropped."
 	},
 	ins_reply_240_2_1 = {
-		value = ""
+		value = "Don't go around causing trouble with that costume, okay, Ami?"
 	},
 	ins_reply_240_2_2 = {
-		value = ""
+		value = "I know, duh! Get off my case!"
 	},
 	ins_op_240_1_1 = {
-		value = ""
+		value = "This is getting out of hand! Now there are 2 of them!"
 	},
 	op_reply_240_1_1 = {
-		value = ""
+		value = "Pretty on-point cosplay, right? Buliiiin!"
 	},
 	ins_241 = {
-		value = ""
+		value = "Wow, Cleve! You're into growing bonsai too? That's awesome!"
 	},
 	ins_discuss_241_1 = {
-		value = ""
+		value = "Never thought I'd meet a fellow bonsai fan! :D Was so fun talking to you!"
 	},
 	ins_reply_241_1_1 = {
-		value = ""
+		value = "You wanna meet up tomorrow and gimme some protips on how to trim the leaves?"
 	},
 	ins_reply_241_1_2 = {
-		value = ""
+		value = "DO I? Heck yeah I do!"
 	},
 	ins_discuss_241_2 = {
-		value = ""
+		value = "You can find friends in the strangest of places, I suppose."
 	},
 	ins_reply_241_2_1 = {
-		value = ""
+		value = "Oh btw Iori, you wanna give bonsai-growing a try too? It'll be fun, I promise! ^^"
 	},
 	ins_reply_241_2_2 = {
-		value = ""
+		value = "Thanks, but I'll pass. Not my thing."
 	},
 	ins_op_241_1_1 = {
-		value = ""
+		value = "Cultivating friendships and plants at once. How nice!"
 	},
 	op_reply_241_1_1 = {
-		value = ""
+		value = "Yeah! We should totally throw a bonsai festival! You'd better be there too, Commander!"
 	},
 	all = {
 		ins_op_1_1_1,

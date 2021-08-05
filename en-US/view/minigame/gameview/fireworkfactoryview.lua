@@ -389,6 +389,22 @@ function slot0.ShowResult(slot0)
 	setActive(slot0.resultWindow, false)
 end
 
+function slot0.OnGetAwardDone(slot0, slot1)
+	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and (slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime) then
+		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
+			hubid = slot2.id,
+			cmd = MiniGameOPCommand.CMD_ULTIMATE,
+			args1 = {}
+		})
+	elseif slot1.cmd == MiniGameOPCommand.CMD_ULTIMATE then
+		pg.NewStoryMgr.GetInstance():Play("TIANHOUYUYI2", function ()
+			uv0:AfterResult()
+		end)
+	else
+		slot0:AfterResult()
+	end
+end
+
 function slot0.AfterResult(slot0)
 	slot1 = slot0:GetMGData()
 	slot3 = Clone(slot0.ballSelectStatus)
@@ -398,6 +414,18 @@ function slot0.AfterResult(slot0)
 	onNextTick(function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
+end
+
+function slot0.reset(slot0)
+	slot0:ExitDispenseView()
+
+	slot0.flagStart = false
+	slot0.flagDispense = false
+	slot0.progressDispense = 0
+	slot0.result_digits = {}
+
+	slot0:ResetView()
+	slot0:UpdateNextBtn()
 end
 
 function slot0.GetReward(slot0)

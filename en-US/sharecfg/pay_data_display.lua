@@ -950,7 +950,7 @@ pg.pay_data_display = {
 	},
 	[31] = {
 		limit_arg = 1,
-		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox.",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
 		name = "New Commanders Support Pack IV ",
 		descrip = "Contains 1980 x Gems, 35x Universal T4 Plate, 1x Gear Lab Development Pack, and other rewards ",

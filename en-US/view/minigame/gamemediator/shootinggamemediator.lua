@@ -11,6 +11,10 @@ function slot0.handleNotification(slot0, slot1)
 				else
 					slot0()
 				end
+			end,
+			function (slot0)
+				uv0.viewComponent:OnGetAwardDone(uv1)
+				slot0()
 			end
 		}
 

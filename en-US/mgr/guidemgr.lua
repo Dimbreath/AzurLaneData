@@ -518,6 +518,15 @@ function slot0.findUI(slot0, slot1, slot2)
 			})
 		end,
 		function (slot0)
+			if not uv0.spriteui then
+				slot0()
+
+				return
+			end
+
+			uv1:CheckSprite(uv0.spriteui, slot0, uv2)
+		end,
+		function (slot0)
 			if not uv0.ui then
 				slot0()
 
@@ -552,6 +561,59 @@ function slot0.findUI(slot0, slot1, slot2)
 	}, function ()
 		uv0:updateUIStyle(uv1, uv2, uv3)
 	end)
+end
+
+function slot0.CheckSprite(slot0, slot1, slot2, slot3)
+	slot4, slot5 = nil
+	slot6 = 0
+	slot7 = 10
+
+	function slot4()
+		uv0 = uv0 + 1
+
+		uv1:RemoveCheckSpriteTimer()
+
+		if IsNil(uv2:GetComponent(typeof(Image)).sprite) or uv3.defaultName and slot0.sprite.name == uv3.defaultName then
+			if uv4 <= uv0 then
+				uv5()
+
+				return
+			end
+
+			uv1.srpiteTimer = Timer.New(uv6, 0.5, 1)
+
+			uv1.srpiteTimer:Start()
+		else
+			uv5()
+		end
+	end
+
+	slot0.finder:Search({
+		path = slot1.path,
+		delay = slot1.delay,
+		pathIndex = slot1.pathIndex,
+		conditionData = slot1.conditionData,
+		found = function (slot0)
+			if uv0.childPath then
+				uv1 = slot0:Find(uv0.childPath)
+			else
+				uv1 = slot0
+			end
+
+			uv2()
+		end,
+		notFound = function ()
+			uv0:endGuider(uv1)
+		end
+	})
+end
+
+function slot0.RemoveCheckSpriteTimer(slot0)
+	if slot0.srpiteTimer then
+		slot0.srpiteTimer:Stop()
+
+		slot0.srpiteTimer = nil
+	end
 end
 
 function slot0.SetHighLightLine(slot0, slot1)
@@ -1010,6 +1072,7 @@ end
 
 function slot7(slot0)
 	slot0:clearDelegateInfo()
+	slot0:RemoveCheckSpriteTimer()
 
 	if slot0.delayTimer then
 		slot0.delayTimer:Stop()

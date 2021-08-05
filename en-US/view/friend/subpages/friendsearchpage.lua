@@ -64,10 +64,6 @@ function slot0.UpdateData(slot0, slot1)
 	else
 		slot0:sortSearchResult()
 	end
-
-	if not slot0:isShowing() then
-		slot0:Show()
-	end
 end
 
 function slot0.sortSearchResult(slot0)

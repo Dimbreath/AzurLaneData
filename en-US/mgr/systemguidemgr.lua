@@ -65,6 +65,10 @@ function slot0.Play(slot0, slot1, slot2)
 		return
 	end
 
+	if slot1.exited then
+		return
+	end
+
 	if not uv0[slot1.__cname] then
 		uv1(slot2)
 

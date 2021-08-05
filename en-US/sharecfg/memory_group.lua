@@ -3002,6 +3002,22 @@ pg.memory_group = {
 			1742
 		}
 	},
+	[565] = {
+		title = "As Cool As A Demon",
+		subtype = 0,
+		type = 3,
+		id = 565,
+		icon = "title_chara_guinu",
+		memories = {
+			1771,
+			1772,
+			1773,
+			1774,
+			1775,
+			1776,
+			1777
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3160,6 +3176,7 @@ pg.memory_group = {
 		561,
 		562,
 		563,
-		564
+		564,
+		565
 	}
 }

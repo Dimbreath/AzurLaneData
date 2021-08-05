@@ -28,12 +28,6 @@ function slot0.execute(slot0, slot1)
 			print("disconnect from gateway...")
 			pg.ConnectionMgr.GetInstance():Disconnect()
 
-			if slot0.device ~= 0 and slot0.device ~= PLATFORM then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("login_failed"))
-
-				return
-			end
-
 			if slot0.result == 0 then
 				uv0.id = slot0.account_id
 				uv0.uid = slot0.account_id

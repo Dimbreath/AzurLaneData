@@ -62,10 +62,20 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 
 		if uv0._criUsm then
 			uv0._criUsm.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
+			uv0._criUsm.player:SetShaderDispatchCallback(function (slot0, slot1)
+				uv0:checkBgmStop(slot0)
+
+				return nil
+			end)
 		end
 
 		if uv0._criCpk then
 			uv0._criCpk.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
+			uv0._criCpk.player:SetShaderDispatchCallback(function (slot0, slot1)
+				uv0:checkBgmStop(slot0)
+
+				return nil
+			end)
 		end
 
 		slot0 = uv0._mainTF:GetComponent("DftAniEvent")
@@ -113,6 +123,14 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 		end)
 	else
 		slot9()
+	end
+end
+
+function this.checkBgmStop(slot0, slot1)
+	if slot0._onPlaying and slot1.numAudioStreams and slot2 > 0 then
+		pg.CriMgr.GetInstance():StopBGM()
+
+		slot0._stopGameBGM = true
 	end
 end
 

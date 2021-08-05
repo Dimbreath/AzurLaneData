@@ -214,8 +214,11 @@ function slot9.HandleDamageToDeath(slot0)
 end
 
 function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-	slot10 = slot1
-	slot11 = slot0:IsAlive()
+	if not slot0:IsAlive() then
+		return
+	end
+
+	slot11 = slot1
 
 	if not slot2.isHeal then
 		slot12 = {
@@ -240,12 +243,12 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	else
 		slot12 = {
 			damage = slot1,
-			isHeal = slot7
+			isHeal = slot8
 		}
 
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot12)
 
-		slot7 = slot12.isHeal
+		slot8 = slot12.isHeal
 		slot1 = slot12.damage
 	end
 
@@ -261,17 +264,17 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:UpdateHPAction({
-		preShieldHP = slot10,
+		preShieldHP = slot11,
 		dHP = slot1,
 		validDHP = slot12 - slot0._currentHP,
-		isMiss = slot5,
-		isCri = slot6,
-		isHeal = slot7,
+		isMiss = slot6,
+		isCri = slot7,
+		isHeal = slot8,
 		font = slot4,
 		posOffset = slot15 - slot19
 	})
 
-	if not slot0:IsAlive() and slot11 then
+	if not slot0:IsAlive() and slot5 then
 		slot0:SetDeathReason(slot2.damageReason)
 		slot0:DeadAction()
 	end

@@ -50,7 +50,7 @@ function slot0.didEnter(slot0)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 24)
 	end)
 
-	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
+	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.IDOL_MASTER_PT_ID)
 
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "leijijiangli", function ()
 		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.ACTIVITY, {
@@ -72,7 +72,7 @@ function slot0.UpdateView(slot0)
 	slot5 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id"))
 
 	setActive(slot0.upper_jiujiuwoshouhui:Find("tip"), slot5 and slot5.count > 0 or slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
-	setActive(slot0.upper_leijijiangli:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and slot7:readyToAchieve())
+	setActive(slot0.upper_leijijiangli:Find("tip"), slot1:getActivityById(ActivityConst.IDOL_MASTER_PT_ID) and slot7:readyToAchieve())
 	setActive(slot0.upper_jinianzhang:Find("tip"), IdolMasterMedalCollectionMediator.isHaveActivableMedal())
 end
 

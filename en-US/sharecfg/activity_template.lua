@@ -2727,6 +2727,7 @@ pg.activity_template = {
 	},
 	[4050] = {
 		mark = 20210722,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -2741,33 +2742,6 @@ pg.activity_template = {
 			1540041,
 			1540051
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "IDOLMMainPage",
 			ui_name = "IDOLMMainPage"
@@ -2779,6 +2753,7 @@ pg.activity_template = {
 	[4051] = {
 		mark = 20210722,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -2802,33 +2777,6 @@ pg.activity_template = {
 			16830,
 			16831,
 			16832
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4052] = {
@@ -3033,6 +2981,7 @@ pg.activity_template = {
 	[4056] = {
 		mark = 20210527,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3042,33 +2991,6 @@ pg.activity_template = {
 		id = 4056,
 		config_data = {
 			16833
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4057] = {
@@ -3182,6 +3104,7 @@ pg.activity_template = {
 	[4059] = {
 		mark = 20210722,
 		page_info = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 19,
@@ -3189,33 +3112,6 @@ pg.activity_template = {
 		config_data = "0",
 		title_res_tag = "",
 		id = 4059,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"chunxiang",
@@ -3231,6 +3127,7 @@ pg.activity_template = {
 	[4060] = {
 		mark = 20210722,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -3238,38 +3135,12 @@ pg.activity_template = {
 		config_data = "[{31974,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 4060,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 4060
 	},
 	[4064] = {
 		mark = 20210722,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -3285,38 +3156,12 @@ pg.activity_template = {
 			239,
 			240,
 			241
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4065] = {
 		mark = 20210722,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -3324,14 +3169,25 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 4065,
+		config_data = {}
+	},
+	[4067] = {
+		mark = 20210805,
+		type = 57,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 15,
+		config_client = "",
+		title_res_tag = "tianhou_skin",
+		id = 4067,
 		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					7,
-					22
+					8,
+					5
 				},
 				{
 					0,
@@ -3343,7 +3199,7 @@ pg.activity_template = {
 				{
 					2021,
 					8,
-					4
+					18
 				},
 				{
 					23,
@@ -3351,6 +3207,10 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "TianHouSkinPage",
+			ui_name = "TianHouSkinPage"
 		}
 	},
 	[1011] = {
@@ -3965,6 +3825,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2062,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2063] = {
+		mark = 20210805,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5671,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2063,
 		config_data = {
 			0,
 			{}
@@ -20196,6 +20072,7 @@ pg.activity_template = {
 		4060,
 		4064,
 		4065,
+		4067,
 		1011,
 		1012,
 		1013,
@@ -20235,6 +20112,7 @@ pg.activity_template = {
 		2060,
 		2061,
 		2062,
+		2063,
 		6000,
 		6001,
 		6002,

@@ -18,7 +18,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if uv0 < slot2 then
+	if uv0 < slot2 or slot2 < 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("main_notificationLayer_roomId_invaild"))
 
 		return

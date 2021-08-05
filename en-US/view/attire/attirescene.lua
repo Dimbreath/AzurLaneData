@@ -53,32 +53,19 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.switchPage(slot0, slot1)
-	slot2 = slot0.panels[slot1]
-
 	if slot0.page then
 		slot0.panels[slot0.page]:ActionInvoke("Hide")
 	end
 
 	slot0.page = slot1
 
-	slot0:updateCurrPage(function ()
-		uv0:ActionInvoke("Show")
-	end)
+	slot0.panels[slot0.page]:Load()
+	slot0.panels[slot0.page]:ActionInvoke("Show")
+	slot0:updateCurrPage()
 end
 
-function slot0.updateCurrPage(slot0, slot1)
-	if not slot0.panels[slot0.page]:GetLoaded() then
-		slot2:Load()
-		slot2:CallbackInvoke(function ()
-			uv0:ActionInvoke("Update", uv1.rawAttireVOs, uv1.playerVO)
-
-			if uv2 then
-				uv2()
-			end
-		end)
-	else
-		slot3()
-	end
+function slot0.updateCurrPage(slot0)
+	slot0.panels[slot0.page]:ActionInvoke("Update", slot0.rawAttireVOs, slot0.playerVO)
 end
 
 function slot0.updateTips(slot0, slot1)

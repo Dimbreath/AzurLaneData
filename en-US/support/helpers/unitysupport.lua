@@ -224,7 +224,7 @@ end
 function triggerToggle(slot0, slot1)
 	uv0 = false
 
-	if GetComponent(slot0, typeof(Toggle)).isOn ~= slot1 then
+	if GetComponent(slot0, typeof(Toggle)).isOn ~= tobool(slot1) then
 		slot2.isOn = slot1
 	else
 		slot2.onValueChanged:Invoke(slot1)

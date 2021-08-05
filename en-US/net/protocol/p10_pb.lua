@@ -76,7 +76,15 @@ slot1 = {
 	SC_10801_VERSION_FIELD = slot0.FieldDescriptor(),
 	SC_10801_PROXY_IP_FIELD = slot0.FieldDescriptor(),
 	SC_10801_PROXY_PORT_FIELD = slot0.FieldDescriptor(),
-	SC_10801_IS_TS_FIELD = slot0.FieldDescriptor()
+	SC_10801_IS_TS_FIELD = slot0.FieldDescriptor(),
+	SC_10801_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	CS_10802_STATE_FIELD = slot0.FieldDescriptor(),
+	CS_10802_PLATFORM_FIELD = slot0.FieldDescriptor(),
+	SC_10803_GATEWAY_IP_FIELD = slot0.FieldDescriptor(),
+	SC_10803_GATEWAY_PORT_FIELD = slot0.FieldDescriptor(),
+	SC_10803_PROXY_IP_FIELD = slot0.FieldDescriptor(),
+	SC_10803_PROXY_PORT_FIELD = slot0.FieldDescriptor()
 }
 CS_10001 = slot0.Descriptor()
 SC_10002 = slot0.Descriptor()
@@ -100,6 +108,8 @@ SC_10998 = slot0.Descriptor()
 SC_10999 = slot0.Descriptor()
 CS_10800 = slot0.Descriptor()
 SC_10801 = slot0.Descriptor()
+CS_10802 = slot0.Descriptor()
+SC_10803 = slot0.Descriptor()
 slot1.CS_10001_ACCOUNT_FIELD.name = "account"
 slot1.CS_10001_ACCOUNT_FIELD.full_name = "p10.cs_10001.account"
 slot1.CS_10001_ACCOUNT_FIELD.number = 1
@@ -1003,6 +1013,24 @@ slot1.SC_10801_IS_TS_FIELD.has_default_value = false
 slot1.SC_10801_IS_TS_FIELD.default_value = 0
 slot1.SC_10801_IS_TS_FIELD.type = 13
 slot1.SC_10801_IS_TS_FIELD.cpp_type = 3
+slot1.SC_10801_TIMESTAMP_FIELD.name = "timestamp"
+slot1.SC_10801_TIMESTAMP_FIELD.full_name = "p10.sc_10801.timestamp"
+slot1.SC_10801_TIMESTAMP_FIELD.number = 8
+slot1.SC_10801_TIMESTAMP_FIELD.index = 7
+slot1.SC_10801_TIMESTAMP_FIELD.label = 2
+slot1.SC_10801_TIMESTAMP_FIELD.has_default_value = false
+slot1.SC_10801_TIMESTAMP_FIELD.default_value = 0
+slot1.SC_10801_TIMESTAMP_FIELD.type = 13
+slot1.SC_10801_TIMESTAMP_FIELD.cpp_type = 3
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.name = "monday_0oclock_timestamp"
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.full_name = "p10.sc_10801.monday_0oclock_timestamp"
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.number = 9
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.index = 8
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.label = 2
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.has_default_value = false
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.default_value = 0
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.type = 13
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.cpp_type = 3
 SC_10801.name = "sc_10801"
 SC_10801.full_name = "p10.sc_10801"
 SC_10801.nested_types = {}
@@ -1014,7 +1042,9 @@ SC_10801.fields = {
 	slot1.SC_10801_VERSION_FIELD,
 	slot1.SC_10801_PROXY_IP_FIELD,
 	slot1.SC_10801_PROXY_PORT_FIELD,
-	slot1.SC_10801_IS_TS_FIELD
+	slot1.SC_10801_IS_TS_FIELD,
+	slot1.SC_10801_TIMESTAMP_FIELD,
+	slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD
 }
 SC_10801.is_extendable = false
 SC_10801.extensions = {}

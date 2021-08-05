@@ -609,17 +609,19 @@ function slot0.setPaintingPrefab(slot0, slot1, slot2, slot3, slot4)
 		slot2 = slot2 .. "_n"
 	end
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetPainting(slot2, true, function (slot0)
-		pg.UIMgr.GetInstance():LoadingOff()
-		setParent(slot0, uv0, false)
+	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2)) then
+		pg.UIMgr.GetInstance():LoadingOn()
+		PoolMgr.GetInstance():GetPainting(slot2, true, function (slot0)
+			pg.UIMgr.GetInstance():LoadingOff()
+			setParent(slot0, uv0, false)
 
-		if not IsNil(findTF(slot0, "Touch")) then
-			setActive(slot1, false)
-		end
+			if not IsNil(findTF(slot0, "Touch")) then
+				setActive(slot1, false)
+			end
 
-		ShipExpressionHelper.SetExpression(uv0:GetChild(0), uv1)
-	end)
+			ShipExpressionHelper.SetExpression(uv0:GetChild(0), uv1)
+		end)
+	end
 end
 
 function slot0.recyclePainting(slot0)
@@ -837,7 +839,12 @@ function slot0.updateShipRect(slot0, slot1)
 			end
 		end)
 		setActive(slot0.mainPanel, false)
-		slot0.shipRect:SetTotalCount(#slot0.displays, slot1)
+
+		if slot1 then
+			slot0.shipRect:SetTotalCount(#slot0.displays, slot1)
+		else
+			slot0.shipRect:SetTotalCount(#slot0.displays)
+		end
 	end
 end
 

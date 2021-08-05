@@ -21381,6 +21381,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5671] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5485,
+		type = 5,
+		name = "Freeze!",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "guinu",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5672",
+		visibility = 1,
+		story_id = "GUINU1",
+		target_id_for_client = 50003,
+		id = 5671,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5672] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5486,
+		type = 5,
+		name = "Differences in Skill",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "guinu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5673",
+		visibility = 1,
+		story_id = "GUINU2",
+		target_id_for_client = 0,
+		id = 5672,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5673] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5487,
+		type = 5,
+		name = "Demons and Men",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Kinu in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "guinu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5674",
+		visibility = 1,
+		story_id = "GUINU3",
+		target_id_for_client = 30208,
+		id = 5673,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5674] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5488,
+		type = 5,
+		name = "One of a Kind",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Kinu in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "guinu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5675",
+		visibility = 1,
+		story_id = "GUINU4",
+		target_id_for_client = 30208,
+		id = 5674,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5675] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5489,
+		type = 5,
+		name = "Ghosts & Demons",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Kinu.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "guinu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5676",
+		visibility = 1,
+		story_id = "GUINU5",
+		target_id_for_client = 30208,
+		id = 5675,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5676] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5490,
+		type = 5,
+		name = "Her Pokerface",
+		count_inherit = 0,
+		desc = "Fully Limit Break Kinu.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "guinu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5677",
+		visibility = 1,
+		story_id = "GUINU6",
+		target_id_for_client = 302084,
+		id = 5676,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "302084",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5677] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5491,
+		type = 5,
+		name = "The Element of Surprise",
+		count_inherit = 0,
+		desc = "Get Kinu to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "guinu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "GUINU7",
+		target_id_for_client = 30208,
+		id = 5677,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -129951,6 +130214,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5665,
 		5666,
 		5667,
+		5671,
+		5672,
+		5673,
+		5674,
+		5675,
+		5676,
+		5677,
 		6001,
 		6002,
 		6003,
