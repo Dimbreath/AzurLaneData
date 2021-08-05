@@ -31,6 +31,10 @@ end
 
 function slot0.ShowOrHide(slot0, slot1)
 	SetActive(slot0._go, slot1)
+
+	if not slot1 then
+		slot0:OnHideFlush()
+	end
 end
 
 function slot0.OnInit(slot0)
@@ -45,7 +49,7 @@ end
 function slot0.OnUpdateFlush(slot0)
 end
 
-function slot0.OnHideFulsh(slot0)
+function slot0.OnHideFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)

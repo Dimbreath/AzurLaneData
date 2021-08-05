@@ -30,10 +30,6 @@ function slot0.UpdateData(slot0, slot1)
 
 		slot0:sortBlackList()
 	end
-
-	if not slot0:isShowing() then
-		slot0:Show()
-	end
 end
 
 function slot0.initBlackList(slot0)

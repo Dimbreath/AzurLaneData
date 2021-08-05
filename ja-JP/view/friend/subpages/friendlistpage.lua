@@ -46,10 +46,6 @@ function slot0.UpdateData(slot0, slot1)
 	end
 
 	slot0:updateFriendCount()
-
-	if not slot0:isShowing() then
-		slot0:Show()
-	end
 end
 
 function slot0.initFriendsPage(slot0)

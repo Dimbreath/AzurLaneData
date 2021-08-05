@@ -204,7 +204,7 @@ function slot10.SetTemplateData(slot0, slot1)
 		__index = slot1
 	})
 
-	slot0:SetModleID(slot1.modle_ID)
+	slot0:SetModleID(slot1.modle_ID, uv0.ORIGNAL_RES)
 	slot0:ResetVelocity()
 
 	slot0._pierceCount = slot1.pierce_count
@@ -227,15 +227,18 @@ function slot10.SetTemplateData(slot0, slot1)
 end
 
 function slot10.GetModleID(slot0)
-	if slot0:GetTemplate().extra_param.mirror == true and slot0._IFF == uv0.FOE_CODE then
-		return slot0._modleID .. uv1.MIRROR_RES
-	else
-		return slot0._modleID
-	end
+	slot2 = nil
+
+	return (slot0._IFF ~= uv0.FOE_CODE or slot0._mirrorSkin == uv1.MIRROR_SKIN_RES and slot0._modleID .. uv1.MIRROR_RES or slot0._mirrorSkin == uv1.ORIGNAL_RES and slot0:GetTemplate().extra_param.mirror == true and slot0._modleID .. uv1.MIRROR_RES or slot0._modleID) and slot0._modleID
 end
 
-function slot10.SetModleID(slot0, slot1)
+slot10.ORIGNAL_RES = -1
+slot10.SKIN_RES = 0
+slot10.MIRROR_SKIN_RES = 1
+
+function slot10.SetModleID(slot0, slot1, slot2)
 	slot0._modleID = slot1
+	slot0._mirrorSkin = slot2
 end
 
 function slot10.SetShiftInfo(slot0, slot1, slot2)

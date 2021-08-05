@@ -92,7 +92,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	slot0.live2DDownloadTimer:Start()
 	slot0:updateLive2DDownloadState()
 
-	if Live2DUpdateMgr.Inst.state == DownloadState.None then
+	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None then
 		slot5:CheckD()
 	end
 
@@ -100,7 +100,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		if uv0.state == DownloadState.CheckFailure then
 			uv0:CheckD()
 		elseif slot0 == DownloadState.CheckToUpdate or slot0 == DownloadState.UpdateFailure then
-			uv0:UpdateD(true)
+			VersionMgr.Inst:RequestUIForUpdateD("L2D", true)
 		end
 	end, SFX_PANEL)
 
@@ -116,7 +116,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.soundDownloadProgress, 0, 1, 0)
 	setActive(slot0.soundDownloadDot, false)
 	setActive(slot0.soundDownloadLoading, false)
-	CVUpdateMgr.Inst:CheckD()
+	BundleWizard.Inst:GetGroupMgr("CV"):CheckD()
 
 	slot0.soundDownloadTimer = Timer.New(function ()
 		uv0:updateSoundDownloadState()
@@ -128,7 +128,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		if uv0.state == DownloadState.CheckFailure then
 			uv0:CheckD()
 		elseif uv0.state == DownloadState.CheckToUpdate or uv0.state == DownloadState.UpdateFailure then
-			uv0:UpdateD(true)
+			VersionMgr.Inst:RequestUIForUpdateD("CV", true)
 		end
 	end, SFX_PANEL)
 
@@ -144,7 +144,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.galleryDownloadProgress, 0, 1, 0)
 	setActive(slot0.galleryDownloadDot, false)
 	setActive(slot0.galleryDownloadLoading, false)
-	PicUpdateMgr.Inst:CheckD()
+	BundleWizard.Inst:GetGroupMgr("GALLERY_PIC"):CheckD()
 
 	slot0.galleryDownloadTimer = Timer.New(function ()
 		uv0:updateGalleryDownloadState()
@@ -156,7 +156,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		if uv0.state == DownloadState.CheckFailure then
 			uv0:CheckD()
 		elseif uv0.state == DownloadState.CheckToUpdate or uv0.state == DownloadState.UpdateFailure then
-			uv0:UpdateD(true)
+			VersionMgr.Inst:RequestUIForUpdateD("GALLERY_PIC", true)
 		end
 	end, SFX_PANEL)
 
@@ -172,7 +172,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.musicDownloadProgress, 0, 1, 0)
 	setActive(slot0.musicDownloadDot, false)
 	setActive(slot0.musicDownloadLoading, false)
-	MusicUpdateMgr.Inst:CheckD()
+	BundleWizard.Inst:GetGroupMgr("GALLERY_BGM"):CheckD()
 
 	slot0.musicDownloadTimer = Timer.New(function ()
 		uv0:updateMusicDownloadState()
@@ -184,7 +184,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		if uv0.state == DownloadState.CheckFailure then
 			uv0:CheckD()
 		elseif uv0.state == DownloadState.CheckToUpdate or uv0.state == DownloadState.UpdateFailure then
-			uv0:UpdateD(true)
+			VersionMgr.Inst:RequestUIForUpdateD("GALLERY_BGM", true)
 		end
 	end, SFX_PANEL)
 end
@@ -371,6 +371,22 @@ slot2 = {
 		desc = i18n("option_desc11")
 	}
 }
+
+if not LOCK_BATTERY_SAVEMODE then
+	table.insert(slot2, {
+		default = 0,
+		title = i18n("words_autoFight_battery_savemode"),
+		name = AUTOFIGHT_BATTERY_SAVEMODE,
+		desc = i18n("words_autoFight_battery_savemode_des")
+	})
+	table.insert(slot2, {
+		default = 0,
+		title = i18n("words_autoFIght_down_frame"),
+		name = AUTOFIGHT_DOWN_FRAME,
+		desc = i18n("words_autoFIght_down_frame_des")
+	})
+end
+
 slot3 = {
 	{
 		default = 1,
@@ -452,18 +468,56 @@ function slot0.initOptionsPanel(slot0, slot1)
 		else
 			slot0[slot14.name] = PlayerPrefs.GetInt(slot14.name, slot14.default or 0) > 0
 
-			onToggle(slot0, slot15:Find("on"), function (slot0)
-				if uv0[uv1.name] ~= slot0 then
-					PlayerPrefs.SetInt(uv1.name, slot0 and 1 or 0)
-					PlayerPrefs.Save()
+			if slot14.name == AUTOFIGHT_BATTERY_SAVEMODE then
+				onToggle(slot0, slot15:Find("on"), function (slot0)
+					if uv0[uv1.name] ~= slot0 then
+						PlayerPrefs.SetInt(uv1.name, slot0 and 1 or 0)
+						PlayerPrefs.Save()
 
-					uv0[uv1.name] = slot0
-				end
+						uv0[uv1.name] = slot0
 
-				if uv1.name == SHOW_TOUCH_EFFECT and pg.UIMgr.GetInstance().OverlayEffect then
-					setActive(slot1, slot0)
-				end
-			end, SFX_UI_TAG, SFX_UI_CANCEL)
+						if uv1.name == AUTOFIGHT_BATTERY_SAVEMODE and table.indexof(uv2, _.detect(uv2, function (slot0)
+							return slot0.name == AUTOFIGHT_DOWN_FRAME
+						end)) then
+							slot3 = uv3:GetChild(slot2)
+
+							triggerToggle(slot3:Find(slot0 and "on" or "off"), true)
+							uv4.SetGrayAndUninteractable(slot3, slot0)
+						end
+					end
+				end, SFX_UI_TAG, SFX_UI_CANCEL)
+			elseif slot14.name == AUTOFIGHT_DOWN_FRAME then
+				onToggle(slot0, slot15:Find("on"), function (slot0)
+					if not uv0[AUTOFIGHT_BATTERY_SAVEMODE] and slot0 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("words_autoFight_tips"))
+						triggerToggle(uv1:Find("off"), true)
+
+						return
+					end
+
+					if uv0[uv2.name] ~= slot0 then
+						PlayerPrefs.SetInt(uv2.name, slot0 and 1 or 0)
+						PlayerPrefs.Save()
+
+						uv0[uv2.name] = slot0
+					end
+				end, SFX_UI_TAG, SFX_UI_CANCEL)
+				uv1.SetGrayAndUninteractable(slot15, slot0[AUTOFIGHT_BATTERY_SAVEMODE])
+			else
+				onToggle(slot0, slot15:Find("on"), function (slot0)
+					if uv0[uv1.name] ~= slot0 then
+						PlayerPrefs.SetInt(uv1.name, slot0 and 1 or 0)
+						PlayerPrefs.Save()
+
+						uv0[uv1.name] = slot0
+					end
+
+					if uv1.name == SHOW_TOUCH_EFFECT and pg.UIMgr.GetInstance().OverlayEffect then
+						setActive(slot1, slot0)
+					end
+				end, SFX_UI_TAG, SFX_UI_CANCEL)
+			end
+
 			triggerToggle(slot15:Find("on"), slot0[slot14.name])
 			triggerToggle(slot15:Find("off"), not slot0[slot14.name])
 		end
@@ -482,6 +536,11 @@ function slot0.initOptionsPanel(slot0, slot1)
 
 	slot0:InitStorySpeedPanel(slot1)
 	slot0:InitStoryAutoPlayPanel(slot1)
+end
+
+function slot0.SetGrayAndUninteractable(slot0, slot1)
+	setGray(slot0:Find("on"), not slot1)
+	setGray(slot0:Find("off"), not slot1)
 end
 
 function slot0.InitStorySpeedPanel(slot0, slot1)
@@ -872,7 +931,7 @@ function slot0.updateSoundDownloadState(slot0)
 	slot3, slot4, slot5, slot6, slot7 = nil
 	slot8 = false
 
-	if CVUpdateMgr.Inst.state == DownloadState.None then
+	if BundleWizard.Inst:GetGroupMgr("CV").state == DownloadState.None then
 		slot3 = i18n("word_soundfiles_download_title")
 		slot4 = i18n("word_soundfiles_download")
 		slot5 = "DOWNLOAD"
@@ -893,7 +952,7 @@ function slot0.updateSoundDownloadState(slot0)
 	elseif slot2 == DownloadState.CheckOver then
 		slot3 = i18n("word_soundfiles_checkend_title")
 		slot4 = i18n("word_soundfiles_noneedupdate")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.CheckFailure then
@@ -912,7 +971,7 @@ function slot0.updateSoundDownloadState(slot0)
 	elseif slot2 == DownloadState.UpdateSuccess then
 		slot3 = i18n("word_soundfiles_update_end_title")
 		slot4 = i18n("word_soundfiles_update_end")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.UpdateFailure then
@@ -943,7 +1002,7 @@ function slot0.updateLive2DDownloadState(slot0)
 	slot3, slot4, slot5, slot6, slot7 = nil
 	slot8 = false
 
-	if Live2DUpdateMgr.Inst.state == DownloadState.None then
+	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None then
 		slot3 = i18n("word_live2dfiles_download_title")
 		slot4 = i18n("word_live2dfiles_download")
 		slot5 = "DOWNLOAD"
@@ -972,7 +1031,7 @@ function slot0.updateLive2DDownloadState(slot0)
 	elseif slot2 == DownloadState.CheckOver then
 		slot3 = i18n("word_live2dfiles_checkend_title")
 		slot4 = i18n("word_live2dfiles_noneedupdate")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.CheckFailure then
@@ -991,7 +1050,7 @@ function slot0.updateLive2DDownloadState(slot0)
 	elseif slot2 == DownloadState.UpdateSuccess then
 		slot3 = i18n("word_live2dfiles_update_end_title")
 		slot4 = i18n("word_live2dfiles_update_end")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.UpdateFailure then
@@ -1022,7 +1081,7 @@ function slot0.updateGalleryDownloadState(slot0)
 	slot3, slot4, slot5, slot6, slot7 = nil
 	slot8 = false
 
-	if PicUpdateMgr.Inst.state == DownloadState.None then
+	if BundleWizard.Inst:GetGroupMgr("GALLERY_PIC").state == DownloadState.None then
 		slot3 = i18n("word_soundfiles_download_title")
 		slot4 = i18n("word_soundfiles_download")
 		slot5 = "DOWNLOAD"
@@ -1043,7 +1102,7 @@ function slot0.updateGalleryDownloadState(slot0)
 	elseif slot2 == DownloadState.CheckOver then
 		slot3 = i18n("word_soundfiles_checkend_title")
 		slot4 = i18n("word_soundfiles_noneedupdate")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.CheckFailure then
@@ -1062,7 +1121,7 @@ function slot0.updateGalleryDownloadState(slot0)
 	elseif slot2 == DownloadState.UpdateSuccess then
 		slot3 = i18n("word_soundfiles_update_end_title")
 		slot4 = i18n("word_soundfiles_update_end")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.UpdateFailure then
@@ -1093,7 +1152,7 @@ function slot0.updateMusicDownloadState(slot0)
 	slot3, slot4, slot5, slot6, slot7 = nil
 	slot8 = false
 
-	if MusicUpdateMgr.Inst.state == DownloadState.None then
+	if BundleWizard.Inst:GetGroupMgr("GALLERY_BGM").state == DownloadState.None then
 		slot3 = i18n("word_soundfiles_download_title")
 		slot4 = i18n("word_soundfiles_download")
 		slot5 = "DOWNLOAD"
@@ -1114,7 +1173,7 @@ function slot0.updateMusicDownloadState(slot0)
 	elseif slot2 == DownloadState.CheckOver then
 		slot3 = i18n("word_soundfiles_checkend_title")
 		slot4 = i18n("word_soundfiles_noneedupdate")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.CheckFailure then
@@ -1133,7 +1192,7 @@ function slot0.updateMusicDownloadState(slot0)
 	elseif slot2 == DownloadState.UpdateSuccess then
 		slot3 = i18n("word_soundfiles_update_end_title")
 		slot4 = i18n("word_soundfiles_update_end")
-		slot5 = "V." .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.CurrentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.UpdateFailure then

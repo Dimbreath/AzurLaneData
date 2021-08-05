@@ -462,7 +462,7 @@ function slot0.LoadModel(slot0, slot1)
 		slot0.transform.localScale = Vector3(0.8, 0.8, 1)
 
 		slot0.transform:SetParent(uv0.modelContainer, false)
-		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", true)
+		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", 0)
 
 		uv0.characterModel = slot0
 		uv0.modelName = uv1

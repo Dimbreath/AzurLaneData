@@ -138,8 +138,8 @@ function slot0.updateToggleList(slot0)
 		slot8, slot9, slot10 = nowWorld:BuildFormationIds()
 
 		setActive(slot0.fleetToggleList:GetChild(slot5 - 1), slot5 <= slot10)
-		setToggleEnabled(slot6, slot7)
-		setActive(slot6:Find("lock"), not slot7)
+		setToggleEnabled(slot6, tobool(slot7))
+		setActive(slot6:Find("lock"), not tobool(slot7))
 
 		if slot7 then
 			onToggle(slot0, slot6, function (slot0)

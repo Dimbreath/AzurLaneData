@@ -4,7 +4,7 @@ return {
 	cd = 0,
 	picture = "0",
 	desc = "",
-	painting = 0,
+	painting = "xinzexi",
 	id = 14642,
 	castCV = "",
 	aniEffect = {

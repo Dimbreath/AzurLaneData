@@ -11,19 +11,19 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if UpdateMgr.Inst.currentVersion.Major > 0 and (not slot3.lastRequestVersionTime or Time.realtimeSinceStartup - slot3.lastRequestVersionTime > 1800) then
+	if BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion.Major > 0 and (not slot3.lastRequestVersionTime or Time.realtimeSinceStartup - slot3.lastRequestVersionTime > 1800) then
 		slot3.lastRequestVersionTime = Time.realtimeSinceStartup
 
 		pg.UIMgr.GetInstance():LoadingOn()
 
-		slot4 = true
+		slot5 = true
 
 		VersionMgr.Inst:FetchVersion(function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0 = false
 
-			if UpdateMgr.Inst.currentVersion.Build < slot0.Build then
+			if uv1.CurrentVersion.Major < slot0.Major or slot0.Major == uv1.CurrentVersion.Major and uv1.CurrentVersion.Minor < slot0.Minor or slot0.Major == uv1.CurrentVersion.Major and slot0.Minor == uv1.CurrentVersion.Minor and uv1.CurrentVersion.Build < slot0.Build then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					locked = true,

@@ -49,8 +49,10 @@ function slot0.loginProcessHandler(slot0)
 			uv0.viewComponent:switchToAiriLogin()
 		end
 
-		uv0:CheckMaintain()
-		coroutine.yield()
+		if not Application.isEditor then
+			uv0:CheckMaintain()
+			coroutine.yield()
+		end
 
 		if uv0.contextData.code then
 			if uv0.contextData.code ~= 0 then
@@ -145,7 +147,8 @@ function slot0.listNotificationInterests(slot0)
 		ServerProxy.SERVERS_UPDATED,
 		GAME.PLATFORM_LOGIN_DONE,
 		GAME.SERVER_LOGIN_WAIT,
-		GAME.BEGIN_STAGE_DONE
+		GAME.BEGIN_STAGE_DONE,
+		GAME.SERVER_LOGIN_FAILED_USER_BANNED
 	}
 end
 
@@ -172,6 +175,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:fillterRefundServer()
 			slot0.viewComponent:setLastLoginServer(nil)
 		end
+
+		slot0.viewComponent.switchGatewayBtn:Flush()
 	elseif slot2 == GAME.USER_REGISTER_SUCCESS then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
@@ -255,6 +260,18 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.USER_LOGIN, slot3.user)
 	elseif slot2 == GAME.SERVER_LOGIN_WAIT then
 		slot0.viewComponent:SwitchToWaitPanel(slot3)
+	elseif slot2 == GAME.SERVER_LOGIN_FAILED_USER_BANNED then
+		if slot3 == 0 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("user_is_forever_banned")
+			})
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("user_is_banned", pg.TimeMgr.GetInstance():STimeDescS(slot3, "%Y-%m-%d %H:%M"))
+			})
+		end
 	end
 end
 

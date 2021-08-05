@@ -322,6 +322,20 @@ function slot0.updateAfterFinish(slot0)
 	})
 end
 
+function slot0.OnGetAwardDone(slot0, slot1)
+	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE then
+		if slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
+			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
+				hubid = slot2.id,
+				cmd = MiniGameOPCommand.CMD_ULTIMATE,
+				args1 = {}
+			})
+		end
+	elseif slot1.cmd == MiniGameOPCommand.CMD_ULTIMATE then
+		pg.NewStoryMgr.GetInstance():Play("TIANHOUYUYI2")
+	end
+end
+
 function slot0.OnSendMiniGameOPDone(slot0, slot1)
 	slot0:updateCount()
 end

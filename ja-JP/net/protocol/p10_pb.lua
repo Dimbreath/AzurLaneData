@@ -76,7 +76,15 @@ slot1 = {
 	SC_10801_VERSION_FIELD = slot0.FieldDescriptor(),
 	SC_10801_PROXY_IP_FIELD = slot0.FieldDescriptor(),
 	SC_10801_PROXY_PORT_FIELD = slot0.FieldDescriptor(),
-	SC_10801_IS_TS_FIELD = slot0.FieldDescriptor()
+	SC_10801_IS_TS_FIELD = slot0.FieldDescriptor(),
+	SC_10801_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	CS_10802_STATE_FIELD = slot0.FieldDescriptor(),
+	CS_10802_PLATFORM_FIELD = slot0.FieldDescriptor(),
+	SC_10803_GATEWAY_IP_FIELD = slot0.FieldDescriptor(),
+	SC_10803_GATEWAY_PORT_FIELD = slot0.FieldDescriptor(),
+	SC_10803_PROXY_IP_FIELD = slot0.FieldDescriptor(),
+	SC_10803_PROXY_PORT_FIELD = slot0.FieldDescriptor()
 }
 CS_10001 = slot0.Descriptor()
 SC_10002 = slot0.Descriptor()
@@ -100,6 +108,8 @@ SC_10998 = slot0.Descriptor()
 SC_10999 = slot0.Descriptor()
 CS_10800 = slot0.Descriptor()
 SC_10801 = slot0.Descriptor()
+CS_10802 = slot0.Descriptor()
+SC_10803 = slot0.Descriptor()
 slot1.CS_10001_ACCOUNT_FIELD.name = "account"
 slot1.CS_10001_ACCOUNT_FIELD.full_name = "p10.cs_10001.account"
 slot1.CS_10001_ACCOUNT_FIELD.number = 1
@@ -1003,6 +1013,24 @@ slot1.SC_10801_IS_TS_FIELD.has_default_value = false
 slot1.SC_10801_IS_TS_FIELD.default_value = 0
 slot1.SC_10801_IS_TS_FIELD.type = 13
 slot1.SC_10801_IS_TS_FIELD.cpp_type = 3
+slot1.SC_10801_TIMESTAMP_FIELD.name = "timestamp"
+slot1.SC_10801_TIMESTAMP_FIELD.full_name = "p10.sc_10801.timestamp"
+slot1.SC_10801_TIMESTAMP_FIELD.number = 8
+slot1.SC_10801_TIMESTAMP_FIELD.index = 7
+slot1.SC_10801_TIMESTAMP_FIELD.label = 2
+slot1.SC_10801_TIMESTAMP_FIELD.has_default_value = false
+slot1.SC_10801_TIMESTAMP_FIELD.default_value = 0
+slot1.SC_10801_TIMESTAMP_FIELD.type = 13
+slot1.SC_10801_TIMESTAMP_FIELD.cpp_type = 3
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.name = "monday_0oclock_timestamp"
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.full_name = "p10.sc_10801.monday_0oclock_timestamp"
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.number = 9
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.index = 8
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.label = 2
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.has_default_value = false
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.default_value = 0
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.type = 13
+slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.cpp_type = 3
 SC_10801.name = "sc_10801"
 SC_10801.full_name = "p10.sc_10801"
 SC_10801.nested_types = {}
@@ -1014,10 +1042,88 @@ SC_10801.fields = {
 	slot1.SC_10801_VERSION_FIELD,
 	slot1.SC_10801_PROXY_IP_FIELD,
 	slot1.SC_10801_PROXY_PORT_FIELD,
-	slot1.SC_10801_IS_TS_FIELD
+	slot1.SC_10801_IS_TS_FIELD,
+	slot1.SC_10801_TIMESTAMP_FIELD,
+	slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD
 }
 SC_10801.is_extendable = false
 SC_10801.extensions = {}
+slot1.CS_10802_STATE_FIELD.name = "state"
+slot1.CS_10802_STATE_FIELD.full_name = "p10.cs_10802.state"
+slot1.CS_10802_STATE_FIELD.number = 1
+slot1.CS_10802_STATE_FIELD.index = 0
+slot1.CS_10802_STATE_FIELD.label = 2
+slot1.CS_10802_STATE_FIELD.has_default_value = false
+slot1.CS_10802_STATE_FIELD.default_value = 0
+slot1.CS_10802_STATE_FIELD.type = 13
+slot1.CS_10802_STATE_FIELD.cpp_type = 3
+slot1.CS_10802_PLATFORM_FIELD.name = "platform"
+slot1.CS_10802_PLATFORM_FIELD.full_name = "p10.cs_10802.platform"
+slot1.CS_10802_PLATFORM_FIELD.number = 2
+slot1.CS_10802_PLATFORM_FIELD.index = 1
+slot1.CS_10802_PLATFORM_FIELD.label = 2
+slot1.CS_10802_PLATFORM_FIELD.has_default_value = false
+slot1.CS_10802_PLATFORM_FIELD.default_value = 0
+slot1.CS_10802_PLATFORM_FIELD.type = 13
+slot1.CS_10802_PLATFORM_FIELD.cpp_type = 3
+CS_10802.name = "cs_10802"
+CS_10802.full_name = "p10.cs_10802"
+CS_10802.nested_types = {}
+CS_10802.enum_types = {}
+CS_10802.fields = {
+	slot1.CS_10802_STATE_FIELD,
+	slot1.CS_10802_PLATFORM_FIELD
+}
+CS_10802.is_extendable = false
+CS_10802.extensions = {}
+slot1.SC_10803_GATEWAY_IP_FIELD.name = "gateway_ip"
+slot1.SC_10803_GATEWAY_IP_FIELD.full_name = "p10.sc_10803.gateway_ip"
+slot1.SC_10803_GATEWAY_IP_FIELD.number = 1
+slot1.SC_10803_GATEWAY_IP_FIELD.index = 0
+slot1.SC_10803_GATEWAY_IP_FIELD.label = 2
+slot1.SC_10803_GATEWAY_IP_FIELD.has_default_value = false
+slot1.SC_10803_GATEWAY_IP_FIELD.default_value = ""
+slot1.SC_10803_GATEWAY_IP_FIELD.type = 9
+slot1.SC_10803_GATEWAY_IP_FIELD.cpp_type = 9
+slot1.SC_10803_GATEWAY_PORT_FIELD.name = "gateway_port"
+slot1.SC_10803_GATEWAY_PORT_FIELD.full_name = "p10.sc_10803.gateway_port"
+slot1.SC_10803_GATEWAY_PORT_FIELD.number = 2
+slot1.SC_10803_GATEWAY_PORT_FIELD.index = 1
+slot1.SC_10803_GATEWAY_PORT_FIELD.label = 2
+slot1.SC_10803_GATEWAY_PORT_FIELD.has_default_value = false
+slot1.SC_10803_GATEWAY_PORT_FIELD.default_value = 0
+slot1.SC_10803_GATEWAY_PORT_FIELD.type = 13
+slot1.SC_10803_GATEWAY_PORT_FIELD.cpp_type = 3
+slot1.SC_10803_PROXY_IP_FIELD.name = "proxy_ip"
+slot1.SC_10803_PROXY_IP_FIELD.full_name = "p10.sc_10803.proxy_ip"
+slot1.SC_10803_PROXY_IP_FIELD.number = 3
+slot1.SC_10803_PROXY_IP_FIELD.index = 2
+slot1.SC_10803_PROXY_IP_FIELD.label = 1
+slot1.SC_10803_PROXY_IP_FIELD.has_default_value = false
+slot1.SC_10803_PROXY_IP_FIELD.default_value = ""
+slot1.SC_10803_PROXY_IP_FIELD.type = 9
+slot1.SC_10803_PROXY_IP_FIELD.cpp_type = 9
+slot1.SC_10803_PROXY_PORT_FIELD.name = "proxy_port"
+slot1.SC_10803_PROXY_PORT_FIELD.full_name = "p10.sc_10803.proxy_port"
+slot1.SC_10803_PROXY_PORT_FIELD.number = 4
+slot1.SC_10803_PROXY_PORT_FIELD.index = 3
+slot1.SC_10803_PROXY_PORT_FIELD.label = 1
+slot1.SC_10803_PROXY_PORT_FIELD.has_default_value = false
+slot1.SC_10803_PROXY_PORT_FIELD.default_value = 0
+slot1.SC_10803_PROXY_PORT_FIELD.type = 13
+slot1.SC_10803_PROXY_PORT_FIELD.cpp_type = 3
+SC_10803.name = "sc_10803"
+SC_10803.full_name = "p10.sc_10803"
+SC_10803.nested_types = {}
+SC_10803.enum_types = {}
+SC_10803.fields = {
+	slot1.SC_10803_GATEWAY_IP_FIELD,
+	slot1.SC_10803_GATEWAY_PORT_FIELD,
+	slot1.SC_10803_PROXY_IP_FIELD,
+	slot1.SC_10803_PROXY_PORT_FIELD
+}
+SC_10803.is_extendable = false
+SC_10803.extensions = {}
 cs_10001 = slot0.Message(CS_10001)
 cs_10020 = slot0.Message(CS_10020)
 cs_10022 = slot0.Message(CS_10022)
@@ -1025,6 +1131,7 @@ cs_10024 = slot0.Message(CS_10024)
 cs_10026 = slot0.Message(CS_10026)
 cs_10100 = slot0.Message(CS_10100)
 cs_10800 = slot0.Message(CS_10800)
+cs_10802 = slot0.Message(CS_10802)
 cs_10994 = slot0.Message(CS_10994)
 cs_10996 = slot0.Message(CS_10996)
 noticeinfo = slot0.Message(NOTICEINFO)
@@ -1035,6 +1142,7 @@ sc_10025 = slot0.Message(SC_10025)
 sc_10027 = slot0.Message(SC_10027)
 sc_10101 = slot0.Message(SC_10101)
 sc_10801 = slot0.Message(SC_10801)
+sc_10803 = slot0.Message(SC_10803)
 sc_10995 = slot0.Message(SC_10995)
 sc_10997 = slot0.Message(SC_10997)
 sc_10998 = slot0.Message(SC_10998)

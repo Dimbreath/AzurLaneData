@@ -8095,226 +8095,226 @@ pg.activity_ins_language = {
 		value = "私も…十分に満たされたわ。ふふふ"
 	},
 	ins_235 = {
-		value = ""
+		value = "あら～、一体ここはどこかしら～？"
 	},
 	ins_discuss_235_1 = {
-		value = ""
+		value = "あら、二人とも。この辺りの観光でもしていたんですか？"
 	},
 	ins_reply_235_1_1 = {
-		value = ""
+		value = "それがしが案内を買って出たのに、迷子になったのでござる…"
 	},
 	ins_reply_235_1_2 = {
-		value = ""
+		value = "そうなんです、私たち道に迷ってしまって……"
 	},
 	ins_reply_235_1_3 = {
-		value = ""
+		value = "なるほどね！これがいわゆる「ぞくせいかぶり」ね！"
 	},
 	ins_discuss_235_2 = {
-		value = ""
+		value = "二人は響と電ちゃんが救出したから心配いらないよー"
 	},
 	ins_reply_235_2_1 = {
-		value = ""
+		value = "助かったよ…響、ありがとう！"
 	},
 	ins_reply_235_2_2 = {
-		value = ""
+		value = "皆さんありがとうございました。おかげで母港のことをたくさん知ることができました～♪"
 	},
 	ins_op_235_1_1 = {
-		value = ""
+		value = "次は自分が案内しよう"
 	},
 	op_reply_235_1_1 = {
-		value = ""
+		value = "指揮官さん、ありがとうございます～♪"
 	},
 	op_reply_235_1_2 = {
-		value = ""
+		value = "助かるー＞＜"
 	},
 	ins_236 = {
-		value = ""
+		value = "うう……また転んじゃいました……ありがとうございますヴェスタルさん！"
 	},
 	ins_discuss_236_1 = {
-		value = ""
+		value = "春香、大丈夫？"
 	},
 	ins_reply_236_1_1 = {
-		value = ""
+		value = "うん、ヴェスタルさんが助けてくれたから大丈夫！ありがとう、千早ちゃん！"
 	},
 	ins_reply_236_1_2 = {
-		value = ""
+		value = "よかった…"
 	},
 	ins_discuss_236_2 = {
-		value = ""
+		value = "春香さんは体がとても丈夫ですね～。でも次からは気をつけてくださいね、ふふ"
 	},
 	ins_reply_236_2_1 = {
-		value = ""
+		value = "えへへ、ありがとうございます！"
 	},
 	ins_discuss_236_3 = {
-		value = ""
+		value = "春香さんも悪運に悩んだりしていますか？"
 	},
 	ins_reply_236_3_1 = {
-		value = ""
+		value = "私よく転んじゃいますけど、運勢は悪く無いと思いますよ♪"
 	},
 	ins_reply_236_3_2 = {
-		value = ""
+		value = "悪運…とは関係ないんじゃないかしら"
 	},
 	ins_op_236_1_1 = {
-		value = ""
+		value = "なにかにつまづいたのか？"
 	},
 	op_reply_236_1_1 = {
-		value = ""
+		value = "い、いえ。何もないところで転んじゃって……うう……"
 	},
 	ins_op_236_1_2 = {
-		value = ""
+		value = "怪我はないか？"
 	},
 	op_reply_236_1_2 = {
-		value = ""
+		value = "大丈夫です！ありがとうございます、指揮官さん♪"
 	},
 	ins_237 = {
-		value = ""
+		value = "皆、とても上手に歌えているわ"
 	},
 	ins_discuss_237_1 = {
-		value = ""
+		value = "千早ねえちゃんといっしょにうたをうたうの、たのしかった！"
 	},
 	ins_reply_237_1_1 = {
-		value = ""
+		value = "私も皆と一緒に歌えてとても楽しかったわ"
 	},
 	ins_discuss_237_2 = {
-		value = ""
+		value = "ほんのえも、おもしろかった！"
 	},
 	ins_reply_237_2_1 = {
-		value = ""
+		value = "ふふ、楽しい絵本だったわね"
 	},
 	ins_discuss_237_3 = {
-		value = ""
+		value = "千早ちゃん、私も一緒に歌いたいな♪"
 	},
 	ins_reply_237_3_1 = {
-		value = ""
+		value = "えぇ、春香も一緒に歌いましょう"
 	},
 	ins_reply_237_3_2 = {
-		value = ""
+		value = "ふふ、嬉しいな～。"
 	},
 	ins_discuss_237_4 = {
-		value = ""
+		value = "小さい子たちが世話になったな。ははは"
 	},
 	ins_reply_237_4_1 = {
-		value = ""
+		value = "いえ、皆とても良い子たちですね"
 	},
 	ins_op_237_1_1 = {
-		value = ""
+		value = "なんか微笑ましいな"
 	},
 	op_reply_237_1_1 = {
-		value = ""
+		value = "そうですか……？ふふ、ありがとうございます"
 	},
 	ins_238 = {
-		value = ""
+		value = "ちょっとかき混ぜすぎたかしら……"
 	},
 	ins_discuss_238_1 = {
-		value = ""
+		value = "かき混ぜすぎってだけじゃありませんわよ！"
 	},
 	ins_reply_238_1_1 = {
-		value = ""
+		value = "料理するだけであんなのができるのはある意味すごいわね…"
 	},
 	ins_reply_238_1_2 = {
-		value = ""
+		value = "う、うまくいかないことだってあるわよ！"
 	},
 	ins_discuss_238_2 = {
-		value = ""
+		value = "調理について心配していましたが、味の方は申し分ないですね。さすが伊織さまです"
 	},
 	ins_reply_238_2_1 = {
-		value = ""
+		value = "ふふん、伊織ちゃんが作ったんだもの、当然じゃない♪"
 	},
 	ins_reply_238_2_2 = {
-		value = ""
+		value = "あんな見た目なのに意外と美味しかったですね……"
 	},
 	ins_reply_238_2_3 = {
-		value = ""
+		value = "あんな見た目って何よ！"
 	},
 	ins_op_238_1_1 = {
-		value = ""
+		value = "ごちそうさまでした！"
 	},
 	op_reply_238_1_1 = {
-		value = ""
+		value = "ふふん、また作ってあげてもいいわよ？"
 	},
 	ins_239 = {
-		value = ""
+		value = "ふふっ、蒼龍さんと一緒だと仕事がはかどります♪"
 	},
 	ins_discuss_239_1 = {
-		value = ""
+		value = "ええ、色々と捗った気がします。律子さんとはまた一緒にお仕事したいですね"
 	},
 	ins_reply_239_1_1 = {
-		value = ""
+		value = "私からも是非お願いします！それにしても、事務事情ってどこも大変なんですね。ウチの事務所と似てて、なんだか懐かしくなりました。"
 	},
 	ins_reply_239_1_2 = {
-		value = ""
+		value = "おかげさまで色々勉強させていただきました"
 	},
 	ins_discuss_239_2 = {
-		value = ""
+		value = "ぼくもメガネをかければ姉さまや律子さんみたいになれるのでしょうか…"
 	},
 	ins_reply_239_2_1 = {
-		value = ""
+		value = "いやいや、メガネは関係ないと思いますよ！？"
 	},
 	ins_discuss_239_3 = {
-		value = ""
+		value = "んっふっふ～♪最強メガネコンビ、結成ですな～♪"
 	},
 	ins_reply_239_3_1 = {
-		value = ""
+		value = "だからメガネは関係ないって！"
 	},
 	ins_op_239_1_1 = {
-		value = ""
+		value = "二人のおかげで色々助かった！"
 	},
 	op_reply_239_1_1 = {
-		value = ""
+		value = "ふふっ、それは良かったです♪"
 	},
 	ins_240 = {
-		value = ""
+		value = "じゃじゃ～ん！亜美大変身プリン！"
 	},
 	ins_discuss_240_1 = {
-		value = ""
+		value = "あ！真美もやる～！あとでブリっちからレンチ貸してもらおーっと！"
 	},
 	ins_reply_240_1_1 = {
-		value = ""
+		value = "んっふっふ～♪最強ブリっちモノマネ決定戦の開幕じゃ～！"
 	},
 	ins_reply_240_1_2 = {
-		value = ""
+		value = "開幕じゃ～！"
 	},
 	ins_discuss_240_2 = {
-		value = ""
+		value = "母港のブリが増えたです？"
 	},
 	ins_reply_240_2_1 = {
-		value = ""
+		value = "亜美、変なことして迷惑をかけちゃダメじゃない！"
 	},
 	ins_reply_240_2_2 = {
-		value = ""
+		value = "うあうあ！律っちゃんが怒った～！"
 	},
 	ins_op_240_1_1 = {
-		value = ""
+		value = "凄まじい再現度だ…！"
 	},
 	op_reply_240_1_1 = {
-		value = ""
+		value = "んっふっふ～♪亜美のモノマネ力、なめてもらっちゃ困りますなぁ～。"
 	},
 	ins_241 = {
-		value = ""
+		value = "えー！クリーブランドお姉ちゃんも、ぼんさい育ててるの！？"
 	},
 	ins_discuss_241_1 = {
-		value = ""
+		value = "こっちも同じ趣味の仲間がいるとは思わなかったよ！はは、色々話せて楽しかった！"
 	},
 	ins_reply_241_1_1 = {
-		value = ""
+		value = "ぼんさいを育てるコツ、また今度教えてね♪"
 	},
 	ins_reply_241_1_2 = {
-		value = ""
+		value = "へへ、もちろん！"
 	},
 	ins_discuss_241_2 = {
-		value = ""
+		value = "人は見かけによらないというか……"
 	},
 	ins_reply_241_2_1 = {
-		value = ""
+		value = "伊織さんも盆栽を育ってみないか？いい気分転換になるぞ"
 	},
 	ins_reply_241_2_2 = {
-		value = ""
+		value = "私は遠慮しとくわ。"
 	},
 	ins_op_241_1_1 = {
-		value = ""
+		value = "同じ趣味の仲間がいるのは良いことだ"
 	},
 	op_reply_241_1_1 = {
-		value = ""
+		value = "今こそぼんさい愛好会を立ち上げる時だね！指揮官ちゃんもどう？"
 	},
 	all = {
 		ins_op_1_1_1,

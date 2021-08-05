@@ -499,10 +499,6 @@ function slot0.didEnter(slot0)
 		triggerToggle(slot0.materialToggle, true)
 	elseif slot0.warp == StoreHouseConst.WARP_TO_WEAPON then
 		triggerToggle(slot0.weaponToggle, true)
-
-		slot0.equipmentRect.isStart = true
-
-		slot0.equipmentRect:EndLayout()
 	end
 
 	onButton(slot0, slot0.BatchDisposeBtn, function ()

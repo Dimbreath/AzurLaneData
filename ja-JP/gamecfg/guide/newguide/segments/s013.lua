@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			alpha = 0.547,
 			waitScene = "StoreHouseScene",
+			alpha = 0.547,
 			style = {
 				text = "<color=#ff7d36>装備箱</color>を選んでね",
 				mode = 2,
@@ -32,17 +32,16 @@ return {
 				posY = 191.3,
 				posX = -93.8
 			},
+			spriteui = {
+				pathIndex = "#",
+				childPath = "bg/icon_bg/icon",
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid"
+			},
 			ui = {
 				pathIndex = "#",
 				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid",
 				triggerType = {
 					1
-				},
-				image = {
-					source = "bg/icon_bg/icon",
-					isChild = true,
-					target = "bg/icon_bg/icon",
-					isRelative = true
 				},
 				fingerPos = {
 					posY = -44.21,

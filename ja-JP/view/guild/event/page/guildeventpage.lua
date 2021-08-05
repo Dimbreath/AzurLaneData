@@ -147,7 +147,7 @@ function slot0.UpdateEvent(slot0, slot1, slot2)
 	slot6 = slot3 and slot2 and slot3.id == slot2.id
 
 	setActive(slot1:Find("state"), slot6)
-	setActive(slot1:Find("consume"), not slot6)
+	setActive(slot1:Find("consume"), slot2 and not slot6)
 	setActive(slot1:Find("timer"), slot6)
 
 	if slot6 then

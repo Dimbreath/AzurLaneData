@@ -94,10 +94,4 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	setText(slot1:Find("progress/Text"), slot6 and "" or slot8 .. "/" .. slot9)
 end
 
-function slot0.OnHideFulsh(slot0, slot1)
-	slot0.activity = slot1
-
-	slot0:OnUpdateFlush()
-end
-
 return slot0

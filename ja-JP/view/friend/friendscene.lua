@@ -119,6 +119,7 @@ function slot0.switchPage(slot0, slot1)
 	slot2 = slot0.pages[slot1]
 	slot3 = slot0:wrapData()
 
+	slot2:ExecuteAction("Show")
 	slot2:ExecuteAction("UpdateData", slot3)
 
 	slot0.page = slot2

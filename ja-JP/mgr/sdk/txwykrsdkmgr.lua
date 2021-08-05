@@ -100,7 +100,7 @@ return {
 			slot1 = slot0:getData().name
 		end
 
-		uv0:UserCenter(slot1, UpdateMgr.Inst.currentVersion:ToString(), "1")
+		uv0:UserCenter(slot1, BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString(), "1")
 	end,
 	BugReport = function ()
 		slot3 = getProxy(ServerProxy):getLastServer(getProxy(UserProxy):getData().uid)
@@ -110,7 +110,7 @@ return {
 			slot5 = slot4:getData().name
 		end
 
-		uv0:BugReport(slot5, UpdateMgr.Inst.currentVersion:ToString(), slot3.id)
+		uv0:BugReport(slot5, BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString(), slot3.id)
 	end,
 	StoreReview = function ()
 		uv0:StoreReview()

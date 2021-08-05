@@ -1725,7 +1725,7 @@ end
 
 function slot0.updateFleetSelect(slot0)
 	if slot0.levelFleetView:isShowing() then
-		slot0.levelFleetView:ActionInvoke("set", slot0.levelFleetView.chapter, slot0.fleets, slot0.levelFleetView.selects)
+		slot0.levelFleetView:ActionInvoke("set", slot0.levelFleetView.chapter, slot0.fleets, slot0.levelFleetView:getSelectIds())
 
 		if slot0.levelCMDFormationView:isShowing() and slot0.fleets[slot0.levelCMDFormationView.fleet.id] then
 			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot2)

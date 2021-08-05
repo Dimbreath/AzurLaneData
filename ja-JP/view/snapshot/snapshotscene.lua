@@ -363,8 +363,6 @@ function slot0.checkSkin(slot0, slot1)
 			}
 		end
 
-		slot0.animContainer:SetTotalCount(#slot0.l2dAnims, 0)
-
 		slot3 = true
 	end
 
@@ -568,6 +566,10 @@ end
 function slot0.updateLive2dAnimationPanel(slot0)
 	SetActive(slot0.l2dAnimations, slot0.isShowL2dAnims)
 	SetActive(slot0.l2dAnimationBtnGo, not slot0.isShowL2dAnims)
+
+	if slot0.isShowL2dAnims and #slot0.l2dAnims > 1 then
+		slot0.animContainer:SetTotalCount(#slot0.l2dAnims, 0)
+	end
 end
 
 function slot0.setLive2dAnimsPanelState(slot0, slot1)

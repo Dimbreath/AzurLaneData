@@ -68,7 +68,7 @@ function slot0.flush(slot0)
 		setShipCardFrame(slot0.shipFrameImg, slot4)
 	end
 
-	slot0.content:SetActive(slot1)
+	slot0.content:SetActive(tobool(slot1))
 	slot0.imageUnknown.gameObject:SetActive(not slot1)
 
 	slot0.btn.targetGraphic = slot1 and slot0.imageFrame or slot0.imageUnknown

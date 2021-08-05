@@ -65,7 +65,7 @@ function slot0.initData(slot0)
 
 	slot0.resLoader = AutoLoader.New()
 	slot0.criMgr = pg.CriMgr.GetInstance()
-	slot0.manager = MusicUpdateMgr.Inst
+	slot0.manager = BundleWizard.Inst:GetGroupMgr("GALLERY_BGM")
 	slot0.downloadCheckIDList = {}
 	slot0.downloadCheckTimer = nil
 	slot0.musicForShowConfigList = {}
@@ -182,7 +182,7 @@ function slot0.addListener(slot0)
 					text = i18n("msgbox_repair"),
 					onCallback = function ()
 						if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-bgm.csv") then
-							PicUpdateMgr.Inst:StartVerify()
+							BundleWizard.Inst:GetGroupMgr("GALLERY_BGM"):StartVerifyForLua()
 						else
 							pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
 						end
@@ -350,6 +350,7 @@ function slot0.initPlateListPanel(slot0)
 		slot2 = slot0 + 1
 
 		uv0:stopMusic()
+		uv0:checkUpdateSongTF()
 
 		uv0.curMidddleIndex = slot0 + 1
 
@@ -458,13 +459,13 @@ function slot0.updatePlateTF(slot0, slot1, slot2)
 								setActive(uv3, false)
 								setActive(uv4, false)
 								setActive(uv5, true)
-								uv6.manager:UpdateF(uv7, false)
+								VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv6, false)
 
-								if not table.contains(uv6.downloadCheckIDList, uv8) then
-									table.insert(uv6.downloadCheckIDList, uv8)
+								if not table.contains(uv7.downloadCheckIDList, uv8) then
+									table.insert(uv7.downloadCheckIDList, uv8)
 								end
 
-								uv6:tryStartDownloadCheckTimer()
+								uv7:tryStartDownloadCheckTimer()
 							end
 						})
 					else
@@ -664,16 +665,16 @@ function slot0.updateSongTF(slot0, slot1, slot2)
 							setActive(uv0, false)
 							setActive(uv1, true)
 							setActive(uv2, false)
-							uv3.manager:UpdateF(uv4, false)
+							VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv3, false)
 
-							if not table.contains(uv3.downloadCheckIDList, uv5) then
-								table.insert(uv3.downloadCheckIDList, uv5)
+							if not table.contains(uv4.downloadCheckIDList, uv5) then
+								table.insert(uv4.downloadCheckIDList, uv5)
 							end
 
-							uv3:tryStartDownloadCheckTimer()
-							uv3:setAniState(true)
-							uv3:closePlateAni(uv3.plateTFList[uv3.curMidddleIndex])
-							uv3.lScrollPageSC:MoveToItemID(uv6 - 1)
+							uv4:tryStartDownloadCheckTimer()
+							uv4:setAniState(true)
+							uv4:closePlateAni(uv4.plateTFList[uv4.curMidddleIndex])
+							uv4.lScrollPageSC:MoveToItemID(uv6 - 1)
 						end
 					})
 				else
@@ -803,6 +804,7 @@ function slot0.sortAndUpdate(slot0, slot1)
 	slot0.musicForShowConfigList = slot0:filteMusicConfigByLike()
 
 	slot0:stopMusic()
+	slot0:checkUpdateSongTF()
 	slot0:updatePlateListPanel()
 	slot0:updateSongListPanel()
 	slot0:updatePlayPanel()
@@ -821,6 +823,7 @@ function slot0.initTimer(slot0)
 
 			if uv0.playbackInfo.playback:GetStatus():ToInt() == 3 then
 				uv0:stopMusic()
+				uv0:checkUpdateSongTF()
 				SetActive(uv0.pauseBtn, false)
 				SetActive(uv0.playBtn, true)
 				uv0:tryPlayMusic()
@@ -956,7 +959,9 @@ function slot0.stopMusic(slot0)
 	setActive(slot0.staicImg, true)
 	slot0.playSliderSC:SetValueWithoutEvent(0)
 	setText(slot0.nowTimeText, slot0:descTime(0))
+end
 
+function slot0.checkUpdateSongTF(slot0)
 	if #slot0.songTFList > 0 then
 		slot0:updateSongTF(slot0.songTFList[slot0.curMidddleIndex], slot0.curMidddleIndex)
 	end

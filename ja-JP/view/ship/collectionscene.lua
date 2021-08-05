@@ -419,9 +419,13 @@ function slot0.onUpdateCard(slot0, slot1, slot2)
 		slot3 = slot0.cardItems[slot2]
 	end
 
+	if not slot0.codeShips[slot1 + 1] then
+		return
+	end
+
 	slot6 = false
 
-	if slot0.codeShips[slot1 + 1].group then
+	if slot5.group then
 		slot6 = slot0.proposeList[slot5.group.id]
 	end
 
