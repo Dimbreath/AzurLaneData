@@ -34,7 +34,7 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "2 x APロケット",
+		name = "4 x APロケット",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,

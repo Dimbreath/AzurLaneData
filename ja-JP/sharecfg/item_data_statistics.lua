@@ -11162,6 +11162,119 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30328] = {
+		drop_gold_max = 0,
+		name = "装備外装箱（ウェスタン）",
+		display = "ランダムの装備外装を入手可能",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/appearanceboxniuzai",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 30328,
+		display_icon = {
+			{
+				9,
+				440,
+				1
+			},
+			{
+				9,
+				441,
+				1
+			},
+			{
+				9,
+				442,
+				1
+			},
+			{
+				9,
+				443,
+				1
+			},
+			{
+				9,
+				444,
+				1
+			},
+			{
+				9,
+				445,
+				1
+			},
+			{
+				9,
+				446,
+				1
+			},
+			{
+				9,
+				447,
+				1
+			},
+			{
+				9,
+				448,
+				1
+			},
+			{
+				9,
+				449,
+				1
+			},
+			{
+				9,
+				450,
+				1
+			},
+			{
+				9,
+				451,
+				1
+			},
+			{
+				9,
+				452,
+				1
+			},
+			{
+				9,
+				453,
+				1
+			},
+			{
+				9,
+				454,
+				1
+			},
+			{
+				9,
+				455,
+				1
+			},
+			{
+				9,
+				456,
+				1
+			},
+			{
+				9,
+				457,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[30900] = {
 		drop_gold_max = 0,
 		name = "指向性強化パーツT4",
@@ -41696,14 +41809,14 @@ pg.item_data_statistics = {
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "ミルキィ饅頭",
-		display = "最近流行りの飲み物（らしい）<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		name = "海軍カレー",
+		display = "甘口？辛口？好みは人それぞれ…<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/zhenzhunaicha",
+		icon = "Props/haijungali",
 		rarity = 2,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -136144,6 +136257,44 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59232] = {
+		drop_gold_max = 0,
+		name = "訓練Pt",
+		display = "「闇靄接近」報酬交換用アイテム。イベント終了後に削除される。",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu_m",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59232,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59233] = {
+		drop_gold_max = 0,
+		name = "試着貸出チケット（2021.9.1まで）",
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2021.9.1メンテナンスまで）で削除されます",
+		type = 98,
+		is_world = 0,
+		shop_id = 1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59233,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "江風モデル",
@@ -146674,6 +146825,7 @@ pg.item_data_statistics = {
 		30325,
 		30326,
 		30327,
+		30328,
 		30900,
 		30911,
 		30912,
@@ -149427,6 +149579,8 @@ pg.item_data_statistics = {
 		59225,
 		59226,
 		59227,
+		59232,
+		59233,
 		59601,
 		59602,
 		59603,

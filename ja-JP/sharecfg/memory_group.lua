@@ -3191,6 +3191,22 @@ pg.memory_group = {
 			1777
 		}
 	},
+	[566] = {
+		title = "サンシャイン・デュエル！",
+		subtype = 0,
+		type = 3,
+		id = 566,
+		icon = "title_chara_dahuangfeng",
+		memories = {
+			1781,
+			1782,
+			1783,
+			1784,
+			1785,
+			1786,
+			1787
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3359,6 +3375,7 @@ pg.memory_group = {
 		562,
 		563,
 		564,
-		565
+		565,
+		566
 	}
 }

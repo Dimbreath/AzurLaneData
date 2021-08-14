@@ -2,6 +2,309 @@ pg = pg or {}
 pg.weapon_property_154 = {}
 
 function ()
+	uv0.weapon_property_154[68126] = {
+		id = 68126,
+		damage = 165,
+		base = 68121
+	}
+	uv0.weapon_property_154[68127] = {
+		id = 68127,
+		damage = 180,
+		base = 68121
+	}
+	uv0.weapon_property_154[68128] = {
+		id = 68128,
+		damage = 197,
+		base = 68121
+	}
+	uv0.weapon_property_154[68129] = {
+		id = 68129,
+		damage = 215,
+		base = 68121
+	}
+	uv0.weapon_property_154[68130] = {
+		id = 68130,
+		damage = 239,
+		base = 68121
+	}
+	uv0.weapon_property_154[68131] = {
+		action_index = "attack",
+		range = 55,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "佐治亚技能·小子弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 13,
+		corrected = 100,
+		min_range = 0,
+		id = 68131,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19998,
+			19998
+		},
+		barrage_ID = {
+			80559,
+			80560
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68132] = {
+		id = 68132,
+		name = "佐治亚技能·小子弹LV2",
+		damage = 14,
+		base = 68131
+	}
+	uv0.weapon_property_154[68133] = {
+		id = 68133,
+		name = "佐治亚技能·小子弹LV3",
+		damage = 15,
+		base = 68131
+	}
+	uv0.weapon_property_154[68134] = {
+		id = 68134,
+		name = "佐治亚技能·小子弹LV4",
+		damage = 16,
+		base = 68131
+	}
+	uv0.weapon_property_154[68135] = {
+		id = 68135,
+		name = "佐治亚技能·小子弹LV5",
+		damage = 18,
+		base = 68131
+	}
+	uv0.weapon_property_154[68136] = {
+		id = 68136,
+		name = "佐治亚技能·小子弹LV6",
+		damage = 20,
+		base = 68131
+	}
+	uv0.weapon_property_154[68137] = {
+		id = 68137,
+		name = "佐治亚技能·小子弹LV7",
+		damage = 23,
+		base = 68131
+	}
+	uv0.weapon_property_154[68138] = {
+		id = 68138,
+		name = "佐治亚技能·小子弹LV8",
+		damage = 26,
+		base = 68131
+	}
+	uv0.weapon_property_154[68139] = {
+		id = 68139,
+		name = "佐治亚技能·小子弹LV9",
+		damage = 30,
+		base = 68131
+	}
+	uv0.weapon_property_154[68140] = {
+		id = 68140,
+		name = "佐治亚技能·小子弹LV10",
+		damage = 35,
+		base = 68131
+	}
+	uv0.weapon_property_154[68141] = {
+		action_index = "attack",
+		range = 95,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "佐治亚技能·小子弹LV1PVP",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 13,
+		corrected = 100,
+		min_range = 0,
+		id = 68141,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19998,
+			19998
+		},
+		barrage_ID = {
+			80559,
+			80560
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68142] = {
+		id = 68142,
+		name = "佐治亚技能·小子弹LV2PVP",
+		damage = 14,
+		base = 68141
+	}
+	uv0.weapon_property_154[68143] = {
+		id = 68143,
+		name = "佐治亚技能·小子弹LV3PVP",
+		damage = 15,
+		base = 68141
+	}
+	uv0.weapon_property_154[68144] = {
+		id = 68144,
+		name = "佐治亚技能·小子弹LV4PVP",
+		damage = 16,
+		base = 68141
+	}
+	uv0.weapon_property_154[68145] = {
+		id = 68145,
+		name = "佐治亚技能·小子弹LV5PVP",
+		damage = 18,
+		base = 68141
+	}
+	uv0.weapon_property_154[68146] = {
+		id = 68146,
+		name = "佐治亚技能·小子弹LV6PVP",
+		damage = 20,
+		base = 68141
+	}
+	uv0.weapon_property_154[68147] = {
+		id = 68147,
+		name = "佐治亚技能·小子弹LV7PVP",
+		damage = 23,
+		base = 68141
+	}
+	uv0.weapon_property_154[68148] = {
+		id = 68148,
+		name = "佐治亚技能·小子弹LV8PVP",
+		damage = 26,
+		base = 68141
+	}
+	uv0.weapon_property_154[68149] = {
+		id = 68149,
+		name = "佐治亚技能·小子弹LV9PVP",
+		damage = 30,
+		base = 68141
+	}
+	uv0.weapon_property_154[68150] = {
+		id = 68150,
+		name = "佐治亚技能·小子弹LV10PVP",
+		damage = 35,
+		base = 68141
+	}
+	uv0.weapon_property_154[68151] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "加斯科涅技能·箭型国旗LV1红",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 35,
+		id = 68151,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19847,
+			19847
+		},
+		barrage_ID = {
+			80561,
+			80562
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68152] = {
+		id = 68152,
+		name = "加斯科涅技能·箭型国旗LV2红",
+		damage = 22,
+		base = 68151
+	}
+	uv0.weapon_property_154[68153] = {
+		id = 68153,
+		name = "加斯科涅技能·箭型国旗LV3红",
+		damage = 25,
+		base = 68151
+	}
+	uv0.weapon_property_154[68154] = {
+		name = "加斯科涅技能·箭型国旗LV4红",
+		damage = 28,
+		base = 68151,
+		id = 68154,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_154[68155] = {
+		name = "加斯科涅技能·箭型国旗LV5红",
+		damage = 31,
+		base = 68151,
+		id = 68155,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
 	uv0.weapon_property_154[68156] = {
 		name = "加斯科涅技能·箭型国旗LV6红",
 		damage = 34,
@@ -388,395 +691,5 @@ function ()
 		id = 68188,
 		damage = 63,
 		base = 68181
-	}
-	uv0.weapon_property_154[68189] = {
-		id = 68189,
-		damage = 67,
-		base = 68181
-	}
-	uv0.weapon_property_154[68190] = {
-		id = 68190,
-		damage = 72,
-		base = 68181
-	}
-	uv0.weapon_property_154[68191] = {
-		action_index = "attack",
-		range = 95,
-		type = 2,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "腓特烈弹幕技能LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 100,
-		corrected = 100,
-		min_range = 0,
-		id = 68191,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19860
-		},
-		barrage_ID = {
-			80593
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68192] = {
-		id = 68192,
-		name = "腓特烈弹幕技能LV2",
-		damage = 105,
-		base = 68191
-	}
-	uv0.weapon_property_154[68193] = {
-		id = 68193,
-		name = "腓特烈弹幕技能LV3",
-		damage = 111,
-		base = 68191
-	}
-	uv0.weapon_property_154[68194] = {
-		id = 68194,
-		name = "腓特烈弹幕技能LV4",
-		damage = 118,
-		base = 68191
-	}
-	uv0.weapon_property_154[68195] = {
-		id = 68195,
-		name = "腓特烈弹幕技能LV5",
-		damage = 126,
-		base = 68191
-	}
-	uv0.weapon_property_154[68196] = {
-		id = 68196,
-		name = "腓特烈弹幕技能LV6",
-		damage = 137,
-		base = 68191
-	}
-	uv0.weapon_property_154[68197] = {
-		name = "腓特烈弹幕技能LV7",
-		damage = 145,
-		base = 68191,
-		id = 68197,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_154[68198] = {
-		name = "腓特烈弹幕技能LV8",
-		damage = 156,
-		base = 68191,
-		id = 68198,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_154[68199] = {
-		name = "腓特烈弹幕技能LV9",
-		damage = 168,
-		base = 68191,
-		id = 68199,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_154[68200] = {
-		name = "腓特烈弹幕技能LV10",
-		damage = 181,
-		base = 68191,
-		id = 68200,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_154[68221] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "腓特烈弹幕小子弹LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 13,
-		corrected = 100,
-		min_range = 0,
-		id = 68221,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19861,
-			19861,
-			19861
-		},
-		barrage_ID = {
-			80590,
-			80591,
-			80592
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68222] = {
-		id = 68222,
-		name = "腓特烈弹幕小子弹LV2",
-		damage = 16,
-		base = 68221
-	}
-	uv0.weapon_property_154[68223] = {
-		id = 68223,
-		name = "腓特烈弹幕小子弹LV3",
-		damage = 19,
-		base = 68221
-	}
-	uv0.weapon_property_154[68224] = {
-		id = 68224,
-		name = "腓特烈弹幕小子弹LV4",
-		damage = 22,
-		base = 68221
-	}
-	uv0.weapon_property_154[68225] = {
-		id = 68225,
-		name = "腓特烈弹幕小子弹LV5",
-		damage = 25,
-		base = 68221
-	}
-	uv0.weapon_property_154[68226] = {
-		id = 68226,
-		name = "腓特烈弹幕小子弹LV6",
-		damage = 29,
-		base = 68221
-	}
-	uv0.weapon_property_154[68227] = {
-		id = 68227,
-		name = "腓特烈弹幕小子弹LV7",
-		damage = 34,
-		base = 68221
-	}
-	uv0.weapon_property_154[68228] = {
-		id = 68228,
-		name = "腓特烈弹幕小子弹LV8",
-		damage = 38,
-		base = 68221
-	}
-	uv0.weapon_property_154[68229] = {
-		id = 68229,
-		name = "腓特烈弹幕小子弹LV9",
-		damage = 42,
-		base = 68221
-	}
-	uv0.weapon_property_154[68230] = {
-		id = 68230,
-		name = "腓特烈弹幕小子弹LV10",
-		damage = 46,
-		base = 68221
-	}
-	uv0.weapon_property_154[68201] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "腓特烈弹幕小子弹LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 68201,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68202] = {
-		id = 68202,
-		name = "腓特烈弹幕小子弹LV2",
-		damage = 38,
-		base = 68201
-	}
-	uv0.weapon_property_154[68203] = {
-		id = 68203,
-		name = "腓特烈弹幕小子弹LV3",
-		damage = 46,
-		base = 68201
-	}
-	uv0.weapon_property_154[68204] = {
-		name = "腓特烈弹幕小子弹LV4",
-		damage = 54,
-		base = 68201,
-		id = 68204,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_154[68205] = {
-		name = "腓特烈弹幕小子弹LV5",
-		damage = 62,
-		base = 68201,
-		id = 68205,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_154[68206] = {
-		name = "腓特烈弹幕小子弹LV6",
-		damage = 70,
-		base = 68201,
-		id = 68206,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_154[68207] = {
-		name = "腓特烈弹幕小子弹LV7",
-		damage = 78,
-		base = 68201,
-		id = 68207,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_154[68208] = {
-		name = "腓特烈弹幕小子弹LV8",
-		damage = 86,
-		base = 68201,
-		id = 68208,
-		bullet_ID = {
-			19871,
-			19871,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80571,
-			80572,
-			80053,
-			80057
-		}
 	}
 end()

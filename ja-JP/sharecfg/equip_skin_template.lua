@@ -10072,6 +10072,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[440] = {
+		icon = "93111",
+		bullet_name = "zidan_xunzhang",
+		name = "バッジ弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "逮捕しちゃうピョ",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 440,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[441] = {
+		icon = "93112",
+		bullet_name = "zidan_niunaiping",
+		name = "ミルク瓶弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "指揮官さん、お風呂上がりに一本いかがですか？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 441,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[442] = {
+		icon = "93113",
+		bullet_name = "zidan_matitie",
+		name = "蹄鉄弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "金属の破壊力をナメるんじゃないぜ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 442,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[443] = {
+		icon = "93114",
+		bullet_name = "paodan_niuzaimao",
+		name = "カウキャップ砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「お馬さんは好きね。そう、こう手綱を引いて…そら！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 443,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[444] = {
+		icon = "93115",
+		bullet_name = "paodan_niuzaixue",
+		name = "カウブーツ砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「チャパエフ、大丈夫かしら…」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 444,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[445] = {
+		icon = "93116",
+		bullet_name = "paodan_zuolunqiang",
+		name = "リボルバー砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "弾が切れたらぶん投げる！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 445,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[446] = {
+		icon = "93121",
+		bullet_name = "yulei_xueqia",
+		name = "葉巻魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "お代を払う覚悟ができてるかい？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 446,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[447] = {
+		icon = "93122",
+		bullet_name = "yulei_feibiao",
+		name = "ダーツ魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ダーツも銃も百発百中さ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 447,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[448] = {
+		icon = "93123",
+		bullet_name = "yulei_xianrenzhang",
+		name = "サボテン魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "花が…咲いている…",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 448,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[449] = {
+		icon = "93131",
+		bullet_name = "feiji_huoche",
+		name = "ウェスタン列車饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "次はあんたが石炭を入れる番だピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 449,
+		derivate_torpedo = "yulei_xueqia",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[450] = {
+		icon = "93131",
+		bullet_name = "feiji_huoche",
+		name = "ウェスタン列車饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "次はあんたが石炭を入れる番だピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xunzhang",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 450,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[451] = {
+		icon = "93131",
+		bullet_name = "feiji_huoche",
+		name = "ウェスタン列車饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "次はあんたが石炭を入れる番だピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xunzhang",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 451,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[452] = {
+		icon = "93132",
+		bullet_name = "feiji_jiuba",
+		name = "スカイバー饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "麦ウィスキージョッキでくれピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 452,
+		derivate_torpedo = "yulei_feibiao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[453] = {
+		icon = "93132",
+		bullet_name = "feiji_jiuba",
+		name = "スカイバー饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "麦ウィスキージョッキでくれピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_niunaiping",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 453,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[454] = {
+		icon = "93132",
+		bullet_name = "feiji_jiuba",
+		name = "スカイバー饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "麦ウィスキージョッキでくれピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_niunaiping",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 454,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[455] = {
+		icon = "93133",
+		bullet_name = "feiji_qima",
+		name = "カウ饅頭ボーイ（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ウェスタン饅頭タウンに異常なしピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 455,
+		derivate_torpedo = "yulei_xianrenzhang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[456] = {
+		icon = "93133",
+		bullet_name = "feiji_qima",
+		name = "カウ饅頭ボーイ（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ウェスタン饅頭タウンに異常なしピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_matitie",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 456,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[457] = {
+		icon = "93133",
+		bullet_name = "feiji_qima",
+		name = "カウ饅頭ボーイ（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ウェスタン饅頭タウンに異常なしピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_matitie",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 457,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -11887,6 +12388,24 @@ pg.equip_skin_template = {
 		435,
 		436,
 		437,
+		440,
+		441,
+		442,
+		443,
+		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455,
+		456,
+		457,
 		1001,
 		1002,
 		1003,

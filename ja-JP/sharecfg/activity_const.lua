@@ -517,7 +517,7 @@ pg.activity_const = {
 		act_id = 534
 	},
 	OUTPOST_TASK = {
-		act_id = 536
+		act_id = 4073
 	},
 	AMERICAN_MAIN = {
 		act_id = 541
@@ -776,5 +776,8 @@ pg.activity_const = {
 	},
 	TIANHOU_SKIN_ACT_ID = {
 		act_id = 4067
+	},
+	ROP_COW_ID = {
+		act_id = 4078
 	}
 }

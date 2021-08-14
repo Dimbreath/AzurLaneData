@@ -273,7 +273,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（別に指揮官と話すのが楽しいからついつい長話になるとか、そいういうわけでは……）",
+			say = "（別に指揮官と話すのが楽しいからついつい長話になるとか、そういうわけでは……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -863,6 +863,136 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[102263] = {
+		ship_group = 10226,
+		name = "バニーリノ！",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "指揮官、いらっしゃいませ～。時にはバニーガール、時には正義のヒーローの仲間として、ヴィランに立ち向かう美少女――バニーリノ！なんて♪これ、設定的に結構面白いと思わない？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "linuo_3",
+		air_bullet_skin = "",
+		shop_type_id = 16,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		spine_offset = "",
+		special_effects = "",
+		bg = "145",
+		skin_type = 0,
+		id = 102263,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "linuo_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70582,
+		voice_actor = 231,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-47,
+			-61,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.227,
+					1.065,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.348,
+					1.092,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.368,
+					1.152,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
 	[102270] = {
 		ship_group = 10227,
 		name = "マーブルヘッド",
@@ -6994,6 +7124,129 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105121] = {
+		ship_group = 10512,
+		name = "内なる力と正義",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "あっ。指揮官、これはその着替えというか練習というか…ええと、そう言えば指揮官は確か「バニーガールが好き」でしたよね？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "beikaluolaina_2",
+		air_bullet_skin = "",
+		shop_type_id = 16,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		spine_offset = "",
+		special_effects = "",
+		bg = "145",
+		skin_type = 0,
+		id = 105121,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beikaluolaina_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70583,
+		voice_actor = 39,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			60,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.619,
+					1.222,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.619,
+					1.132,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.619,
+					1.24,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.534,
+							2.375,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
 	[105130] = {
 		ship_group = 10513,
 		name = "ワシントン",
@@ -7686,230 +7939,6 @@ pg.ship_skin_template_3 = {
 						"smoke",
 						{
 							-0.45,
-							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105191] = {
-		ship_group = 10519,
-		name = "ドレッシービューティー",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "ほーい。…この服、ヘン？姉貴のとそう違わないけど…なんで固まっている？ちょっとわからないな",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "masazhusai_2",
-		air_bullet_skin = "",
-		shop_type_id = 7,
-		hand_id = 3,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "135",
-		skin_type = 0,
-		id = 105191,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "masazhusai_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70371,
-		voice_actor = 131,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.388,
-					1.075,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.358,
-					1.155,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.007,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.399,
-					1.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105200] = {
-		ship_group = 10520,
-		name = "アラバマ",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "サウスダコタ級戦艦・アラバマ（BB-60)",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "alabama",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 3,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 105200,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "alabama",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 190,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.32,
-					1.339,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.37,
-					1.356,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.144,
-					0.875,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.522,
 							2.16,
 							0
 						}

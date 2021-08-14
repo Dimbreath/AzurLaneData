@@ -1,86 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_170 = {
-	[67325] = {
-		max_hp = 73,
-		name = "大凤技能鱼雷机Lv5",
-		base = 67320,
-		id = 67325,
-		hp_growth = 2809,
-		weapon_ID = {
-			67405
-		}
-	},
-	[67326] = {
+	[67306] = {
 		max_hp = 79,
-		name = "大凤技能鱼雷机Lv6",
-		base = 67320,
-		id = 67326,
+		name = "大凤技能轰炸机Lv6",
+		base = 67300,
+		id = 67306,
 		hp_growth = 3050,
 		weapon_ID = {
-			67406
+			67386
 		}
 	},
-	[67327] = {
+	[67307] = {
 		max_hp = 86,
-		name = "大凤技能鱼雷机Lv7",
-		base = 67320,
-		id = 67327,
+		name = "大凤技能轰炸机Lv7",
+		base = 67300,
+		id = 67307,
 		hp_growth = 3290,
 		weapon_ID = {
-			67407
+			67387
 		}
 	},
-	[67328] = {
+	[67308] = {
 		max_hp = 92,
-		name = "大凤技能鱼雷机Lv8",
-		base = 67320,
-		id = 67328,
+		name = "大凤技能轰炸机Lv8",
+		base = 67300,
+		id = 67308,
 		hp_growth = 3531,
 		weapon_ID = {
-			67408
+			67388
 		}
 	},
-	[67329] = {
+	[67309] = {
 		max_hp = 98,
-		name = "大凤技能鱼雷机Lv9",
-		base = 67320,
-		id = 67329,
+		name = "大凤技能轰炸机Lv9",
+		base = 67300,
+		id = 67309,
 		hp_growth = 3772,
 		weapon_ID = {
-			67409
+			67389
 		}
 	},
-	[67330] = {
+	[67310] = {
 		max_hp = 104,
-		name = "大凤技能鱼雷机Lv10",
-		base = 67320,
-		id = 67330,
+		name = "大凤技能轰炸机Lv10",
+		base = 67300,
+		id = 67310,
 		hp_growth = 4013,
 		weapon_ID = {
-			67410
+			67390
 		}
 	},
-	[67340] = {
-		name = "埃塞克斯技能鱼雷机Lv0",
-		max_hp = 37,
+	[67320] = {
+		name = "大凤技能鱼雷机Lv0",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "liuxing",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 188,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "liuxing",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1404,
-		speed = 48,
-		id = 67340,
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 52,
+		id = 67320,
 		scale = 1,
 		weapon_ID = {
-			67440
+			67400
 		},
 		position_offset = {
 			0,
@@ -123,8 +113,8 @@ pg.aircraft_template_170 = {
 				0
 			},
 			{
-				0.15,
-				-0.08,
+				0.26,
+				0,
 				0
 			},
 			{
@@ -134,34 +124,44 @@ pg.aircraft_template_170 = {
 			}
 		}
 	},
-	[67341] = {
-		max_hp = 42,
-		name = "埃塞克斯技能鱼雷机Lv1",
-		base = 67340,
-		id = 67341,
-		hp_growth = 1615,
+	[67321] = {
+		max_hp = 48,
+		name = "大凤技能鱼雷机Lv1",
+		base = 67320,
+		id = 67321,
+		hp_growth = 1846,
 		weapon_ID = {
-			67441
+			67401
 		}
 	},
-	[67342] = {
-		max_hp = 47,
-		name = "埃塞克斯技能鱼雷机Lv2",
-		base = 67340,
-		id = 67342,
-		hp_growth = 1826,
+	[67322] = {
+		max_hp = 54,
+		name = "大凤技能鱼雷机Lv2",
+		base = 67320,
+		id = 67322,
+		hp_growth = 2087,
 		weapon_ID = {
-			67442
+			67402
 		}
 	},
-	[67343] = {
-		max_hp = 53,
-		name = "埃塞克斯技能鱼雷机Lv3",
-		base = 67340,
-		id = 67343,
-		hp_growth = 2036,
+	[67323] = {
+		max_hp = 61,
+		name = "大凤技能鱼雷机Lv3",
+		base = 67320,
+		id = 67323,
+		hp_growth = 2327,
 		weapon_ID = {
-			67443
+			67403
+		}
+	},
+	[67324] = {
+		max_hp = 67,
+		name = "大凤技能鱼雷机Lv4",
+		base = 67320,
+		id = 67324,
+		hp_growth = 2568,
+		weapon_ID = {
+			67404
 		}
 	}
 }

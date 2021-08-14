@@ -1,35 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_249 = {
-	[83330] = {
-		id = 83330,
-		base = 83320,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			59530
-		}
-	},
-	[83340] = {
+	[83320] = {
 		name = "烈风",
-		max_hp = 40,
+		max_hp = 37,
 		accuracy = 23,
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		dodge = 0.297,
+		dodge = 0.309,
 		attack_power = 2,
-		dodge_limit = 10,
+		dodge_limit = 9.5,
 		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1532,
+		hp_growth = 1404,
 		speed = 60,
-		id = 83340,
+		id = 83320,
 		scale = 1,
 		weapon_ID = {
-			59540
+			59520
 		},
 		position_offset = {
 			0,
@@ -83,76 +74,85 @@ pg.aircraft_template_249 = {
 			}
 		}
 	},
-	[83341] = {
-		id = 83341,
-		base = 83340,
-		max_hp = 46,
-		hp_growth = 1762,
+	[83321] = {
+		id = 83321,
+		base = 83320,
+		max_hp = 42,
+		hp_growth = 1615,
 		weapon_ID = {
-			59541
+			59521
 		}
 	},
-	[83342] = {
-		id = 83342,
-		base = 83340,
-		max_hp = 52,
-		hp_growth = 1992,
+	[83322] = {
+		id = 83322,
+		base = 83320,
+		max_hp = 47,
+		hp_growth = 1826,
 		weapon_ID = {
-			59542
+			59522
 		}
 	},
-	[83343] = {
-		id = 83343,
-		base = 83340,
+	[83323] = {
+		id = 83323,
+		base = 83320,
+		max_hp = 53,
+		hp_growth = 2036,
+		weapon_ID = {
+			59523
+		}
+	},
+	[83324] = {
+		id = 83324,
+		base = 83320,
 		max_hp = 58,
-		hp_growth = 2222,
+		hp_growth = 2247,
 		weapon_ID = {
-			59543
+			59524
 		}
 	},
-	[83344] = {
-		id = 83344,
-		base = 83340,
+	[83325] = {
+		id = 83325,
+		base = 83320,
 		max_hp = 64,
-		hp_growth = 2451,
+		hp_growth = 2458,
 		weapon_ID = {
-			59544
+			59525
 		}
 	},
-	[83345] = {
-		id = 83345,
-		base = 83340,
-		max_hp = 70,
-		hp_growth = 2681,
+	[83326] = {
+		id = 83326,
+		base = 83320,
+		max_hp = 69,
+		hp_growth = 2669,
 		weapon_ID = {
-			59545
+			59526
 		}
 	},
-	[83346] = {
-		id = 83346,
-		base = 83340,
-		max_hp = 76,
-		hp_growth = 2911,
+	[83327] = {
+		id = 83327,
+		base = 83320,
+		max_hp = 75,
+		hp_growth = 2879,
 		weapon_ID = {
-			59546
+			59527
 		}
 	},
-	[83347] = {
-		id = 83347,
-		base = 83340,
-		max_hp = 82,
-		hp_growth = 3141,
+	[83328] = {
+		id = 83328,
+		base = 83320,
+		max_hp = 80,
+		hp_growth = 3090,
 		weapon_ID = {
-			59547
+			59528
 		}
 	},
-	[83348] = {
-		id = 83348,
-		base = 83340,
-		max_hp = 88,
-		hp_growth = 3371,
+	[83329] = {
+		id = 83329,
+		base = 83320,
+		max_hp = 86,
+		hp_growth = 3301,
 		weapon_ID = {
-			59548
+			59529
 		}
 	}
 }

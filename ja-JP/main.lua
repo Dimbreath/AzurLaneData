@@ -14,6 +14,7 @@ PLATFORM_CODE = PLATFORM_JP
 require("Include")
 require("tolua.reflection")
 tolua.loadassembly("Assembly-CSharp")
+tolua.loadassembly("UnityEngine.UI")
 math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
