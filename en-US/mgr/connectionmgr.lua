@@ -145,7 +145,7 @@ function slot1.Reconnect(slot0, slot1)
 			else
 				print("reconnect failed: " .. slot0.result)
 				uv6.m02:sendNotification(GAME.LOGOUT, {
-					code = 99,
+					code = 199,
 					tip = slot0.result
 				})
 			end

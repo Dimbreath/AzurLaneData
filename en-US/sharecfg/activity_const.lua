@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4000
+		act_id = 30828
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 4031
@@ -235,7 +235,7 @@ pg.activity_const = {
 		act_id = 30472
 	},
 	ACTIVITY_TYPE_RETURN_AWARD_ID4 = {
-		act_id = 990
+		act_id = 30827
 	},
 	BISMARCK_CHAPTER_ID = {
 		act_id = 30146
@@ -601,10 +601,10 @@ pg.activity_const = {
 		act_id = 30360
 	},
 	OUTPOST_PT = {
-		act_id = 30364
+		act_id = 534
 	},
 	OUTPOST_TASK = {
-		act_id = 30366
+		act_id = 4073
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 30378
@@ -788,5 +788,8 @@ pg.activity_const = {
 	},
 	TIANHOU_SKIN_ACT_ID = {
 		act_id = 4067
+	},
+	ROP_COW_ID = {
+		act_id = 4078
 	}
 }

@@ -665,97 +665,41 @@ function ()
 		damage = 240,
 		base = 64581
 	}
-	uv0.weapon_property_117[65000] = {
-		action_index = "",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "汉克喵技能弹幕1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 65000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1006,
-			1006
-		},
-		barrage_ID = {
-			65000,
-			65001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_117[65001] = {
-		name = "汉克喵技能弹幕2",
-		damage = 28,
-		base = 65000,
-		id = 65001,
-		barrage_ID = {
-			65002,
-			65003
-		}
-	}
-	uv0.weapon_property_117[65010] = {
-		action_index = "",
-		range = 60,
+	uv0.weapon_property_117[64591] = {
+		action_index = "attack",
+		range = 50,
 		type = 1,
-		fire_fx = "",
-		recover_time = 0,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "伯克喵大世界地图打击替换战斗内技能弹幕1",
-		aim_type = 0,
+		name = "皇家方舟改造紫色枪弹 LV1",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 120,
 		charge_param = "",
-		damage = 18,
+		damage = 34,
 		corrected = 100,
 		min_range = 0,
-		id = 65010,
+		id = 64591,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
+		attack_attribute = 4,
+		reload_max = 500,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
+		suppress = 1,
 		spawn_bound = "cannon",
-		fire_sfx = "",
+		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1006
+			19344
 		},
 		barrage_ID = {
-			65010
+			81173
 		},
 		oxy_type = {
 			1
@@ -765,13 +709,22 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_117[65011] = {
-		name = "伯克喵大世界地图打击替换战斗内技能弹幕2",
-		damage = 28,
-		base = 65010,
-		id = 65011,
-		barrage_ID = {
-			65011
-		}
+	uv0.weapon_property_117[64592] = {
+		id = 64592,
+		name = "皇家方舟改造紫色枪弹 LV2",
+		damage = 43,
+		base = 64591
+	}
+	uv0.weapon_property_117[64593] = {
+		id = 64593,
+		name = "皇家方舟改造紫色枪弹 LV3",
+		damage = 53,
+		base = 64591
+	}
+	uv0.weapon_property_117[64594] = {
+		id = 64594,
+		name = "皇家方舟改造紫色枪弹 LV4",
+		damage = 62,
+		base = 64591
 	}
 end()

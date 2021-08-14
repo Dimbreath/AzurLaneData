@@ -3996,6 +3996,18 @@ pg.skill_data_display = {
 		id = 14703,
 		name = "Foo and Friends and Kasumi Too"
 	},
+	[14710] = {
+		id = 14710,
+		name = "Destruction Bolt "
+	},
+	[14711] = {
+		id = 14711,
+		name = "Destruction Bolt "
+	},
+	[14712] = {
+		id = 14712,
+		name = "Destruction Bolt "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -7424,6 +7436,9 @@ pg.skill_data_display = {
 		14701,
 		14702,
 		14703,
+		14710,
+		14711,
+		14712,
 		18010,
 		18040,
 		18041,

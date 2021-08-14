@@ -21644,6 +21644,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5681] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5492,
+		type = 5,
+		name = "Bright and Bubbly",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5682",
+		visibility = 1,
+		story_id = "DAHUANGFENG1",
+		target_id_for_client = 50003,
+		id = 5681,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5682] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5493,
+		type = 5,
+		name = "Silent Friend",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5683",
+		visibility = 1,
+		story_id = "DAHUANGFENG2",
+		target_id_for_client = 0,
+		id = 5682,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5683] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5494,
+		type = 5,
+		name = "The Topic of Sisters",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Hornet in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5684",
+		visibility = 1,
+		story_id = "DAHUANGFENG3",
+		target_id_for_client = 10707,
+		id = 5683,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10707",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5684] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5495,
+		type = 5,
+		name = "The Appearance of a Rival?!",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Hornet in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5685",
+		visibility = 1,
+		story_id = "DAHUANGFENG4",
+		target_id_for_client = 10707,
+		id = 5684,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10707",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5685] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5496,
+		type = 5,
+		name = "Enty's Sister",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Hornet.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5686",
+		visibility = 1,
+		story_id = "DAHUANGFENG5",
+		target_id_for_client = 10707,
+		id = 5685,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10707",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5686] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5497,
+		type = 5,
+		name = "Be Yourself",
+		count_inherit = 0,
+		desc = "Fully Limit Break Hornet.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5687",
+		visibility = 1,
+		story_id = "DAHUANGFENG6",
+		target_id_for_client = 107074,
+		id = 5686,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107074",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5687] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5498,
+		type = 5,
+		name = "I Love You!",
+		count_inherit = 0,
+		desc = "Get Hornet to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "dahuangfeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "DAHUANGFENG7",
+		target_id_for_client = 10707,
+		id = 5687,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10707",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -108292,7 +108555,7 @@ pg.task_data_template = {
 		award_display = {
 			{
 				2,
-				42020,
+				42030,
 				2
 			}
 		}
@@ -108958,7 +109221,7 @@ pg.task_data_template = {
 		award_display = {
 			{
 				2,
-				42020,
+				42030,
 				3
 			}
 		}
@@ -109258,7 +109521,7 @@ pg.task_data_template = {
 		award_display = {
 			{
 				2,
-				42020,
+				42030,
 				5
 			}
 		}
@@ -109513,7 +109776,7 @@ pg.task_data_template = {
 		award_display = {
 			{
 				2,
-				42020,
+				42030,
 				2
 			}
 		}
@@ -113431,6 +113694,633 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACT_BOSS_BATTLE"
+		}
+	},
+	[16851] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92812,
+		type = 26,
+		name = "『美系V3复刻』前哨站zero1",
+		count_inherit = 16852,
+		desc = "Sortie and obtain 5 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16851,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16852] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92813,
+		type = 26,
+		name = "『美系V3复刻』前哨站zero2",
+		count_inherit = 16853,
+		desc = "Sortie and obtain 10 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16852,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	[16853] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92814,
+		type = 26,
+		name = "『美系V3复刻』前哨站zero3",
+		count_inherit = 16854,
+		desc = "Sortie and obtain 15 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16853,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				200
+			}
+		}
+	},
+	[16854] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92815,
+		type = 26,
+		name = "『美系V3复刻』前哨站zero4",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16854,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[16855] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95851,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16855,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[16856] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95852,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK2",
+		count_inherit = 0,
+		desc = "Log in once.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16856,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16857] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95853,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK3",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16857,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[16858] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95854,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK4",
+		count_inherit = 0,
+		desc = "Retire 2 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16858,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16859] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95855,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK5",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16859,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54032,
+				3
+			}
+		}
+	},
+	[16860] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95856,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK6",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16860,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16861] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95857,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK7",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16861,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[16862] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95858,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK8",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16862,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16863] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95859,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK9",
+		count_inherit = 0,
+		desc = "Open a Tech Box.",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16863,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				1
+			}
+		}
+	},
+	[16864] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95860,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK10",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16864,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16865] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95861,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK11",
+		count_inherit = 0,
+		desc = "Complete 2 Commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16865,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[16866] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95862,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK12",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16866,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16867] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95863,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK13",
+		count_inherit = 0,
+		desc = "Enhance gear 2 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16867,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				1
+			}
+		}
+	},
+	[16868] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95864,
+		type = 26,
+		name = "『美系V3复刻』送矶风JK14",
+		count_inherit = 0,
+		desc = "Sortie and obtain 10 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16868,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				301602,
+				1
+			}
+		}
+	},
+	[16869] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95865,
+		type = 6,
+		name = "『美系V3复刻』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16869,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				218,
+				2
+			}
 		}
 	},
 	[31013] = {
@@ -130221,6 +131111,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5675,
 		5676,
 		5677,
+		5681,
+		5682,
+		5683,
+		5684,
+		5685,
+		5686,
+		5687,
 		6001,
 		6002,
 		6003,
@@ -132737,6 +133634,25 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16802,
 		16803,
 		16804,
+		16851,
+		16852,
+		16853,
+		16854,
+		16855,
+		16856,
+		16857,
+		16858,
+		16859,
+		16860,
+		16861,
+		16862,
+		16863,
+		16864,
+		16865,
+		16866,
+		16867,
+		16868,
+		16869,
 		31013,
 		31014,
 		31015,

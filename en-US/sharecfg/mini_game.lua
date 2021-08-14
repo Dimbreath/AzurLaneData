@@ -928,6 +928,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "啾啾牛仔",
+		view_name = "RopingCowGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 28,
+		hub_id = 21,
+		request_data = 0
+	},
 	all = {
 		1,
 		2,
@@ -955,6 +968,7 @@ pg.mini_game = {
 		24,
 		25,
 		26,
-		27
+		27,
+		28
 	}
 }

@@ -10072,6 +10072,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[440] = {
+		icon = "93111",
+		bullet_name = "zidan_xunzhang",
+		name = "Sheriff's Badge Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Used for both deputizing and arresting.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 440,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[441] = {
+		icon = "93112",
+		bullet_name = "zidan_niunaiping",
+		name = "Milk Bottle Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Don't cry if it spills.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 441,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[442] = {
+		icon = "93113",
+		bullet_name = "zidan_matitie",
+		name = "Horseshoe Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Put those neigh-sayers in their place.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 442,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[443] = {
+		icon = "93114",
+		bullet_name = "paodan_niuzaimao",
+		name = "Cowboy Hat Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Yeehaw, pardner.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 443,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[444] = {
+		icon = "93115",
+		bullet_name = "paodan_niuzaixue",
+		name = "Cowboy Boot Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "♪ I've got spurs that jingle, jangle, jingle ♪",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 444,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[445] = {
+		icon = "93116",
+		bullet_name = "paodan_zuolunqiang",
+		name = "Revolver Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Taking pistol-whipping to the extreme.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 445,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[446] = {
+		icon = "93121",
+		bullet_name = "yulei_xueqia",
+		name = "Cigar Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "A lot more destructive than your average prank cigar.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 446,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[447] = {
+		icon = "93122",
+		bullet_name = "yulei_feibiao",
+		name = "Dart Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Bullseye.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 447,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[448] = {
+		icon = "93123",
+		bullet_name = "yulei_xianrenzhang",
+		name = "Cactus Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This one's going to sting a bit.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 448,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[449] = {
+		icon = "93131",
+		bullet_name = "feiji_huoche",
+		name = "Steam Locomotive(Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's absolutely off the rails.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 449,
+		derivate_torpedo = "yulei_xueqia",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[450] = {
+		icon = "93131",
+		bullet_name = "feiji_huoche",
+		name = "Steam Locomotive(Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's absolutely off the rails.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xunzhang",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 450,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[451] = {
+		icon = "93131",
+		bullet_name = "feiji_huoche",
+		name = "Steam Locomotive(Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's absolutely off the rails.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_xunzhang",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 451,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[452] = {
+		icon = "93132",
+		bullet_name = "feiji_jiuba",
+		name = "Soaring Saloon(Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "That's ONE way to pack up and relocate.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 452,
+		derivate_torpedo = "yulei_feibiao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[453] = {
+		icon = "93132",
+		bullet_name = "feiji_jiuba",
+		name = "Soaring Saloon(Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "That's ONE way to pack up and relocate.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_niunaiping",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 453,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[454] = {
+		icon = "93132",
+		bullet_name = "feiji_jiuba",
+		name = "Soaring Saloon(Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "That's ONE way to pack up and relocate.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_niunaiping",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 454,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[455] = {
+		icon = "93133",
+		bullet_name = "feiji_qima",
+		name = "Horseback Manjuu(Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Those aren't bombs it's dropping...",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 455,
+		derivate_torpedo = "yulei_xianrenzhang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[456] = {
+		icon = "93133",
+		bullet_name = "feiji_qima",
+		name = "Horseback Manjuu(Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Those aren't bombs it's dropping...",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_matitie",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 456,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[457] = {
+		icon = "93133",
+		bullet_name = "feiji_qima",
+		name = "Horseback Manjuu(Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Those aren't bombs it's dropping...",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_matitie",
+		themeid = 28,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 457,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -11386,6 +11887,24 @@ pg.equip_skin_template = {
 		435,
 		436,
 		437,
+		440,
+		441,
+		442,
+		443,
+		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455,
+		456,
+		457,
 		1001,
 		1002,
 		1003,

@@ -11069,6 +11069,119 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		},
 		index = {}
 	},
+	[30328] = {
+		drop_gold_max = 0,
+		name = "Gear Skin Box (Cowboy Essentials) ",
+		display = "Contains a random gear skin. ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/appearanceboxniuzai",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 30328,
+		display_icon = {
+			{
+				9,
+				440,
+				1
+			},
+			{
+				9,
+				441,
+				1
+			},
+			{
+				9,
+				442,
+				1
+			},
+			{
+				9,
+				443,
+				1
+			},
+			{
+				9,
+				444,
+				1
+			},
+			{
+				9,
+				445,
+				1
+			},
+			{
+				9,
+				446,
+				1
+			},
+			{
+				9,
+				447,
+				1
+			},
+			{
+				9,
+				448,
+				1
+			},
+			{
+				9,
+				449,
+				1
+			},
+			{
+				9,
+				450,
+				1
+			},
+			{
+				9,
+				451,
+				1
+			},
+			{
+				9,
+				452,
+				1
+			},
+			{
+				9,
+				453,
+				1
+			},
+			{
+				9,
+				454,
+				1
+			},
+			{
+				9,
+				455,
+				1
+			},
+			{
+				9,
+				456,
+				1
+			},
+			{
+				9,
+				457,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[30900] = {
 		drop_gold_max = 0,
 		name = "定向部件T4",
@@ -35513,14 +35626,14 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "Festival Food(?) ",
-		display = "This kind of food(?) is all the rage these days. <color=#A9F548>（Increase EXP by 5% for 60 minutes）</color>",
+		name = "Naval Curry",
+		display = "Sweet Curry or Hot Curry that is the question<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/zhenzhunaicha",
+		icon = "Props/haijungali",
 		rarity = 2,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -128779,6 +128892,44 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59232] = {
+		drop_gold_max = 0,
+		name = "Training Pt",
+		display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu_m",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59232,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59233] = {
+		drop_gold_max = 0,
+		name = "Rental Outfit Voucher ",
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+		type = 98,
+		is_world = 0,
+		shop_id = 1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59233,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "Kawakaze Ship Model",
@@ -130552,8 +130703,8 @@ let us celebrate."]],
 	},
 	[59798] = {
 		drop_gold_max = 0,
-		name = "二周年纪念币(不应该看到)",
-		display = "三周年活动「啾啾历险记」的完成感谢纪念",
+		name = "2nd Anniv Commemorative Coin",
+		display = "A commemorative item earned by completing the 3rd anniversary event \"Juju Wrangler\"",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -130571,8 +130722,8 @@ let us celebrate."]],
 	},
 	[59799] = {
 		drop_gold_max = 0,
-		name = "三周年纪念币(不应该看到)",
-		display = "三周年活动「啾啾历险记」的完成感谢纪念——还能，继续冒险啾！",
+		name = "3rd Anniv Commemorative Coin",
+		display = "A commemorative item earned by completing the 3rd anniversary event \"Juju Wrangler\". The adventure continues!",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -135931,6 +136082,512 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[60166] = {
+		drop_gold_max = 0,
+		name = "3rd Anniversary Invitation",
+		display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+		type = 13,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60166,
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				4,
+				901111,
+				1
+			},
+			{
+				4,
+				202201,
+				1
+			},
+			{
+				4,
+				105121,
+				1
+			},
+			{
+				4,
+				105131,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60167] = {
+		drop_gold_max = 0,
+		name = "Belfast's Letter",
+		display = "BelfastA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60167,
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				60176,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60168] = {
+		drop_gold_max = 0,
+		name = "Warspite's Letter",
+		display = "WarspiteA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60168,
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				60177,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60169] = {
+		drop_gold_max = 0,
+		name = "Hood's Letter",
+		display = "HoodA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60169,
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				60178,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60170] = {
+		drop_gold_max = 0,
+		name = "Enterprise's Letter",
+		display = "EnterpriseA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60170,
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				60179,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60171] = {
+		drop_gold_max = 0,
+		name = "Illustrious's Letter",
+		display = "IllustriousA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60171,
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				60180,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60172] = {
+		drop_gold_max = 0,
+		name = "Le Malin's Letter",
+		display = "Le MalinA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60172,
+		display_icon = {
+			{
+				4,
+				901111,
+				1
+			},
+			{
+				2,
+				60181,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60173] = {
+		drop_gold_max = 0,
+		name = "Sirius's Letter",
+		display = "SiriusA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60173,
+		display_icon = {
+			{
+				4,
+				202201,
+				1
+			},
+			{
+				2,
+				60182,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60174] = {
+		drop_gold_max = 0,
+		name = "North Carolina's Letter",
+		display = "North CarolinaA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60174,
+		display_icon = {
+			{
+				4,
+				105121,
+				1
+			},
+			{
+				2,
+				60183,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60175] = {
+		drop_gold_max = 0,
+		name = "Washington's Letter",
+		display = "WashingtonA letter from ",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60175,
+		display_icon = {
+			{
+				4,
+				105131,
+				1
+			},
+			{
+				2,
+				60184,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60176] = {
+		drop_gold_max = 0,
+		name = "BelfastGift from ",
+		display = "BelfastA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60176,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60177] = {
+		drop_gold_max = 0,
+		name = "WarspiteGift from ",
+		display = "WarspiteA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60177,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60178] = {
+		drop_gold_max = 0,
+		name = "HoodGift from ",
+		display = "HoodA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60178,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60179] = {
+		drop_gold_max = 0,
+		name = "EnterpriseGift from ",
+		display = "EnterpriseA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60179,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60180] = {
+		drop_gold_max = 0,
+		name = "IllustriousGift from ",
+		display = "IllustriousA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60180,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60181] = {
+		drop_gold_max = 0,
+		name = "Le MalinGift from ",
+		display = "Le MalinA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60181,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60182] = {
+		drop_gold_max = 0,
+		name = "SiriusGift from ",
+		display = "SiriusA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60182,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60183] = {
+		drop_gold_max = 0,
+		name = "North CarolinaGift from ",
+		display = "North CarolinaA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60183,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60184] = {
+		drop_gold_max = 0,
+		name = "WashingtonGift from ",
+		display = "WashingtonA thank-you gift from ",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/yaoqinghan",
+		rarity = 9,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 60184,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69000] = {
 		drop_gold_max = 0,
 		name = "Damage Rating ",
@@ -139252,6 +139909,7 @@ The available outfits and their rarities are as follows:
 		30325,
 		30326,
 		30327,
+		30328,
 		30900,
 		30911,
 		30912,
@@ -141799,6 +142457,8 @@ The available outfits and their rarities are as follows:
 		59225,
 		59226,
 		59227,
+		59232,
+		59233,
 		59601,
 		59602,
 		59603,
@@ -142127,6 +142787,25 @@ The available outfits and their rarities are as follows:
 		60163,
 		60164,
 		60165,
+		60166,
+		60167,
+		60168,
+		60169,
+		60170,
+		60171,
+		60172,
+		60173,
+		60174,
+		60175,
+		60176,
+		60177,
+		60178,
+		60179,
+		60180,
+		60181,
+		60182,
+		60183,
+		60184,
 		69000,
 		69903,
 		69904,

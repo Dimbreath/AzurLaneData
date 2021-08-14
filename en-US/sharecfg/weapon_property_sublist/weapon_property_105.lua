@@ -382,7 +382,7 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "2x AP Rocket",
+		name = "4x AP Rocket",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,

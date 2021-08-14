@@ -2875,6 +2875,45 @@ pg.backyard_theme_template = {
 			81306
 		}
 	},
+	[82] = {
+		Cfg_1 = 5,
+		name = "Manjuu Frontier Town",
+		desc = "Be rootin', be tootin', and by god be shootin' in this town.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 83,
+		id = 82,
+		icon = "nzthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			82001,
+			82002,
+			82101,
+			82105,
+			82106,
+			82107,
+			82108,
+			82109,
+			82110,
+			82111,
+			82112,
+			82113,
+			82114,
+			82115,
+			82116,
+			82117,
+			82118,
+			82119,
+			82120,
+			82122,
+			82123
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2938,6 +2977,7 @@ pg.backyard_theme_template = {
 		78,
 		79,
 		80,
-		81
+		81,
+		82
 	}
 }

@@ -2627,7 +2627,7 @@ Page 7: An Shan-class destroyer – An Shan]]
 				info = "About Maritime Escort:"
 			},
 			{
-				info = "1.  This game mode will be available from May 6th to May 19th"
+				info = "1.  This game mode will be available from Aug 12th to Aug 18th"
 			},
 			{
 				info = "2. In this game mode, you'll play on a map where your goal is to neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination."
@@ -4081,7 +4081,7 @@ Promise date: $1]]
 		tip = "1 Unity Tiara"
 	},
 	intimacy_desc_day = {
-		tip = "誓约日"
+		tip = ""
 	},
 	word_propose_cost_tip1 = {
 		tip = "Would you like to use <color=#92fc63>1</color> Unity Tiara? (Held: <color=#92fc63>$1</color>)\nAfter using this item, your ship's Affinity stat bonus will be increased by <color=#92fc63>3%</color>.\n*You will not be able to change this character's name. "
@@ -6152,7 +6152,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 		tip = "J Talisman total: "
 	},
 	pt_count = {
-		tip = "Target $1 :"
+		tip = "Target $1:"
 	},
 	pt_total_count = {
 		tip = "In possession $1"
@@ -6528,6 +6528,9 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 	destroy_high_intensify_tip = {
 		tip = "<color=#92fc63>$1 enhanced</color>"
 	},
+	destroy_inHardFormation_tip = {
+		tip = "<color=#92fc63>In Hard Mode</color>"
+	},
 	ship_quick_change_noequip = {
 		tip = "Unable to find usable gear."
 	},
@@ -6645,6 +6648,9 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 	word_status_world = {
 		tip = "Operation Siren "
 	},
+	word_status_inHardFormation = {
+		tip = "In Hard Mode"
+	},
 	challenge_rule = {
 		tip = "gametips:challenge_rule"
 	},
@@ -6709,7 +6715,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>7.22-8.4</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>8.12-9.1</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7739,7 +7745,7 @@ Combat Encounters
 		tip = "Nagato and Suzuya are added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Kawakaze, Yoizuki and others are added to standard build pool! "
+		tip = "{namecode:147} is added to standard build pool! "
 	},
 	buildship_special_tip = {
 		tip = "I-13 is added to standard build pool! "
@@ -9233,7 +9239,7 @@ Event Information:
  a. Active Commander 
  b. Returning or new Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between May 27th, 2021 and before the maintenance on June 17th, 2021.
+- Logged in at least once at any point between August 12th, 2021, 2021 and before the maintenance on September 1st, 2021.
 3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
@@ -9680,7 +9686,7 @@ First-tier Prize: Coins x150, Festival Food(?) x1
 Second-tier Prize: Coins x130, Festival Food(?) x1
 Third-tier Prize: Coins x110
 Booby Prize: Coins x100
-Playing minigames without Game Tickets will not award prizes, stamps.]]
+Playing minigames without Game Tickets will not award prizes or stamps.]]
 			}
 		}
 	},
@@ -14595,5 +14601,25 @@ The Concert Venue is host to the following things:
 	},
 	user_is_forever_banned = {
 		tip = "This account has been banned. "
+	},
+	cowboy_tips = {
+		tip = {
+			{
+				info = [[
+Minigame Rules:
+- In this minigame, you control a Manjuu Cowboy, and you'll earn points by lassoing Cowjuus.
+
+How to Play:
+- When the game starts, Cowjuus will appear on the right side of the screen and start moving to the left.
+- Tap on the "Lasso" button on the right side of the screen to throw the lasso at the Cowjuu. You'll earn points when you successfully lasso a Cowjuu.
+- You'll earn points depending on the type of Cowjuu you lasso:
+Cowjuu: 50 points
+Angusjuu: 100 points
+Cape Bufflejuu: 200 points
+Bisonjuu: 300 points
+
+The game ends when the timer reaches 0 or when you tap the End Game button.]]
+			}
+		}
 	}
 }

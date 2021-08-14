@@ -8,10 +8,7 @@ slot5 = slot0.Battle.BattleConst.EquipmentType
 slot6 = class("BattleUnitDetailView")
 slot0.Battle.BattleUnitDetailView = slot6
 slot6.__name = "BattleUnitDetailView"
-slot6.DefaultActive = {
-	"attr_panels",
-	"attr_panels/buff"
-}
+slot6.DefaultActive = {}
 slot6.PrimalAttr = {
 	"cannonPower",
 	"torpedoPower",

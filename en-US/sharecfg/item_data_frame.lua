@@ -19,12 +19,12 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[102] = {
-		name = "Second Anniversary",
+		name = "2nd Anniversary",
 		gain_by = "",
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
-		desc = "Granted to all Commanders who have defended the port for two years.\n (earned by participating in the Second Anniversary limited event)",
+		desc = "Granted to all Commanders who have defended the port for two years.\n (earned by participating in the 2nd Anniversary limited event)",
 		scene = {}
 	},
 	[103] = {
@@ -34,6 +34,24 @@ pg.item_data_frame = {
 		id = 103,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>May our next thousand days together be just as memorable!</color>\nA special chat frame awarded for Azur Lane's 1,000-day launch celebration.",
+		scene = {}
+	},
+	[104] = {
+		name = "3rd Anniversary",
+		gain_by = "",
+		time_second = 0,
+		id = 104,
+		time_limit_type = 0,
+		desc = "Granted to all Commanders who have defended the port for three years.\n (earned by participating in the 3rd Anniversary limited event)",
+		scene = {}
+	},
+	[106] = {
+		name = "Gunslinger's Glory",
+		gain_by = "",
+		time_second = 0,
+		id = 106,
+		time_limit_type = 0,
+		desc = "Buckle up, Buckaroo! There's a new sheriff in town!",
 		scene = {}
 	},
 	[201] = {
@@ -275,6 +293,8 @@ pg.item_data_frame = {
 		101,
 		102,
 		103,
+		104,
+		106,
 		201,
 		202,
 		203,

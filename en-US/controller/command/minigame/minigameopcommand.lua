@@ -31,7 +31,7 @@ function slot0.execute(slot0, slot1)
 				MiniGameDataCreator.DataCreateFunc(uv0, uv1, slot0.data.datas, slot0.data.date1_key_value_list)
 			end
 
-			slot2 = PlayerConst.addTranDrop(slot0.award_list)
+			print(PlayerConst.addTranDrop(slot0.award_list))
 
 			if uv0 == uv2.CMD_COMPLETE and slot1:GetHubByHubId(uv3):getConfig("reward_target") ~= "" and slot4 ~= 0 then
 				table.insert(slot2, {

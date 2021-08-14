@@ -49864,6 +49864,7 @@ pg.furniture_data_template = {
 		is_3d_obj = 0,
 		tag = 1,
 		icon = "shuguidhicon",
+		spine_extra = "",
 		level = 1,
 		effect = "",
 		themeId = 49,
@@ -49884,19 +49885,6 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
-		},
-		spine_extra = {
-			{
-				{},
-				{
-					0,
-					0
-				},
-				{
-					1,
-					1
-				}
-			}
 		},
 		interAction_group = {}
 	},
@@ -81400,6 +81388,942 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[82001] = {
+		can_rotate = 0,
+		name = "Frontier Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibannzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/dibannz",
+		canputon = 0,
+		count = 1,
+		describe = "Dusty, dry, and drab. What were you expecting?",
+		advice = 0,
+		deblocking = 1,
+		id = 82001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82002] = {
+		can_rotate = 0,
+		name = "Frontier Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbinzicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/qiangbinz",
+		canputon = 0,
+		count = 1,
+		describe = "Besides this town, all there's out here is a whole buncha mother nature.",
+		advice = 0,
+		deblocking = 1,
+		id = 82002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82101] = {
+		can_rotate = 0,
+		name = "Frontier Grass Patch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "caonzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/caonz",
+		canputon = 0,
+		count = 4,
+		describe = "It's parched. Won't you spare a drop of water?",
+		advice = 0,
+		deblocking = 1,
+		id = 82101,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82105] = {
+		can_rotate = 0,
+		name = "Frontier Hanging Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "biaoshipainzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/biaoshipainz",
+		canputon = 0,
+		count = 1,
+		describe = "Welcome to the town with no name.",
+		advice = 0,
+		deblocking = 1,
+		id = 82105,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82106] = {
+		can_rotate = 0,
+		name = "Frontier Cart",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "banchenzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/banchenz",
+		canputon = 0,
+		count = 1,
+		describe = "All loaded up with the essentials.",
+		advice = 0,
+		deblocking = 1,
+		id = 82106,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82107] = {
+		can_rotate = 0,
+		name = "Frontier Caravan",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "dapengchenzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/dapengchenz",
+		canputon = 0,
+		count = 1,
+		describe = "Your go-to vehicle for journeys down the Oregon trail.",
+		advice = 0,
+		deblocking = 1,
+		id = 82107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82108] = {
+		can_rotate = 0,
+		name = "Frontier Hay",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "gancaonzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "nz/gancaonz",
+		canputon = 0,
+		themeId = 82,
+		count = 1,
+		describe = "♪ I said hay, what's goin' on ♪",
+		advice = 0,
+		id = 82108,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-9,
+					33
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82109] = {
+		can_rotate = 0,
+		name = "Frontier Sheriff's Office",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jingchajunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/jingchajunz",
+		canputon = 0,
+		count = 1,
+		describe = "Home to the town's Manjuudge, Manjuury, and... Manjuuxecutioner?",
+		advice = 0,
+		deblocking = 1,
+		id = 82109,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82110] = {
+		can_rotate = 0,
+		name = "Sheriff Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jingzhangjiunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/jingzhangjiunz",
+		canputon = 0,
+		count = 1,
+		describe = "He's the law 'round these parts.",
+		advice = 0,
+		deblocking = 1,
+		id = 82110,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82111] = {
+		can_rotate = 0,
+		name = "Cowboy Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jinzhangjiunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/jinzhangjiunz",
+		canputon = 0,
+		count = 1,
+		describe = "This fella's shaking in his boots. Do Manjuus even have feet?",
+		advice = 0,
+		deblocking = 1,
+		id = 82111,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82112] = {
+		can_rotate = 0,
+		name = "Horseback Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "juedoujiunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/juedoujiunz",
+		canputon = 0,
+		count = 1,
+		describe = "There's blindfiring, and then there's whatever ridiculousness this is.",
+		advice = 0,
+		deblocking = 1,
+		id = 82112,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82113] = {
+		can_rotate = 0,
+		name = "Gunslinger Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "juedoujiu2nzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/juedoujiu2nz",
+		canputon = 0,
+		count = 1,
+		describe = "\"BANG! You're dead.\"",
+		advice = 0,
+		deblocking = 1,
+		id = 82113,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82114] = {
+		can_rotate = 0,
+		name = "Withered Frontier Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "kushunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/kushunz",
+		canputon = 0,
+		count = 1,
+		describe = "It's seen better days.",
+		advice = 0,
+		deblocking = 1,
+		id = 82114,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82115] = {
+		can_rotate = 0,
+		name = "Frontier Fence",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "langannzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/langannz",
+		canputon = 0,
+		count = 1,
+		describe = "Just as flimsy as it looks.",
+		advice = 0,
+		deblocking = 1,
+		id = 82115,
+		comfortable = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82116] = {
+		can_rotate = 0,
+		name = "Frontier Stable",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "majiunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/majiunz",
+		canputon = 0,
+		count = 1,
+		describe = "Horse's gotta eat and drink too, you know.",
+		advice = 0,
+		deblocking = 1,
+		id = 82116,
+		comfortable = 3,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82117] = {
+		can_rotate = 0,
+		name = "Frontier Ox",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "niunzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/niunz",
+		canputon = 0,
+		count = 1,
+		describe = "Do oxen dream of bikini-clad cows?",
+		advice = 0,
+		deblocking = 1,
+		id = 82117,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82118] = {
+		can_rotate = 0,
+		name = "Frontier Boulder",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shitounzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/shitounz",
+		canputon = 0,
+		count = 1,
+		describe = "Lotta townsfolk say it's a big boulder the size of a small boulder.",
+		advice = 0,
+		deblocking = 1,
+		id = 82118,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82119] = {
+		can_rotate = 0,
+		name = "Frontier Water Barrel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shuitongnzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/shuitongnz",
+		canputon = 0,
+		count = 1,
+		describe = "This stuff's worth its weight in gold out here.",
+		advice = 0,
+		deblocking = 1,
+		id = 82119,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82120] = {
+		can_rotate = 0,
+		name = "Frontier Cactus",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xianrenzhangnzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/xianrenzhangnz",
+		canputon = 0,
+		count = 2,
+		describe = "Play a funky tune and it'll dance.",
+		advice = 0,
+		deblocking = 1,
+		id = 82120,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82122] = {
+		can_rotate = 0,
+		name = "Frontier Campfire",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yinghuonzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/yinghuonz",
+		canputon = 0,
+		count = 1,
+		describe = "Gather 'round and sing a rowdy song.",
+		advice = 0,
+		deblocking = 1,
+		id = 82122,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82123] = {
+		can_rotate = 1,
+		name = "Frontier Bank",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yinhangnzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 82,
+		spine_action_replace = "",
+		picture = "nz/yinhangnz",
+		canputon = 0,
+		count = 1,
+		describe = "Robbing it won't be as easy as Westerns make it out to be.",
+		advice = 0,
+		deblocking = 1,
+		id = 82123,
+		comfortable = 3,
+		size = {
+			8,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82124] = {
+		can_rotate = 0,
+		name = "Sharpshooter Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 82,
+		icon = "dabanzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "He's the sharpest shot in town. Nobody'll get hurt, we promise.",
+		advice = 0,
+		id = 82124,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daba",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[82125] = {
+		can_rotate = 0,
+		name = "Frontier Saloon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 82,
+		icon = "jiubanzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "If you're fixing for a fight, take it outside.",
+		advice = 0,
+		id = 82125,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiubaB",
+				"normal"
+			},
+			{
+				"jiubaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"action",
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -83245,6 +84169,29 @@ pg.furniture_data_template = {
 		81301,
 		81304,
 		81305,
-		81306
+		81306,
+		82001,
+		82002,
+		82101,
+		82105,
+		82106,
+		82107,
+		82108,
+		82109,
+		82110,
+		82111,
+		82112,
+		82113,
+		82114,
+		82115,
+		82116,
+		82117,
+		82118,
+		82119,
+		82120,
+		82122,
+		82123,
+		82124,
+		82125
 	}
 }

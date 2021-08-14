@@ -35346,7 +35346,8 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10330,
-			3011
+			3011,
+			14710
 		},
 		hide_buff_list = {
 			340
@@ -35391,7 +35392,8 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10330,
-			3011
+			3011,
+			14710
 		},
 		hide_buff_list = {
 			340
@@ -35437,7 +35439,8 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10330,
-			3011
+			3011,
+			14710
 		},
 		hide_buff_list = {
 			340
@@ -35483,7 +35486,8 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10330,
-			3011
+			3011,
+			14710
 		},
 		hide_buff_list = {
 			340
