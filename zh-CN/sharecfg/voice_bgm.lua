@@ -25,7 +25,7 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	BackYardScene = {
-		bgm = "idom-Town"
+		bgm = "backyard"
 	},
 	BattleScene = {
 		bgm = "battle-1"
@@ -46,7 +46,7 @@ pg.voice_bgm = {
 		bgm = "backyard"
 	},
 	LoginScene = {
-		bgm = "idom-THEIDOLM@STER"
+		bgm = "login"
 	},
 	NewPlayerScene = {
 		bgm = "main"

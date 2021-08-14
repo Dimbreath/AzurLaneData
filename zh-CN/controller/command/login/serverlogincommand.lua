@@ -40,6 +40,7 @@ function slot0.execute(slot0, slot1)
 							uv1.server = uv0.id
 
 							uv2:setLastLogin(uv1)
+							uv2:SaveCacheGatewayFlag(uv1.arg2)
 							getProxy(ServerProxy):setLastServer(uv0.id, uv1.uid)
 							uv3:sendNotification(GAME.SERVER_LOGIN_SUCCESS, {
 								uid = slot0.user_id
@@ -55,7 +56,7 @@ function slot0.execute(slot0, slot1)
 					elseif slot0.result == 15 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_rigister_full"))
 					elseif slot0.result == 17 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_banned"))
+						uv3:sendNotification(GAME.SERVER_LOGIN_FAILED_USER_BANNED, slot0.user_id)
 					elseif slot0.result == 6 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_login_full"))
 					elseif slot0.result == 18 then

@@ -898,7 +898,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都撒谎给你{namecode:6}的尊严，一决胜负…的说。这次绝对不会输的说。",
+			say = "赌上{namecode:6}的尊严，一决胜负…的说。这次绝对不会输的说。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

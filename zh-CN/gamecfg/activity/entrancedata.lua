@@ -337,7 +337,7 @@ return {
 
 			if pg.activity_event_worldboss[slot0:getConfig("config_id")] then
 				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
-				slot2 = slot5 and slot5 <= pg.TimeMgr.GetInstance():GetServerTime()
+				slot2 = not (slot5 and pg.TimeMgr.GetInstance():GetServerTime() <= slot5)
 			end
 
 			if not slot2 then

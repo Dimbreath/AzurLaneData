@@ -8972,7 +8972,7 @@ pg.ship_data_group = {
 	},
 	[144] = {
 		type = 7,
-		trans_skin = 0,
+		trans_skin = 207029,
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -8989,8 +8989,17 @@ pg.ship_data_group = {
 			"B",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"A"
+		},
+		trans_skill = {
+			14710
+		},
 		description = {}
 	},
 	[145] = {

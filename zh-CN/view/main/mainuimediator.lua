@@ -914,7 +914,7 @@ function slot0.checkCV(slot0)
 
 	uv0.CVChecked = true
 
-	CVUpdateMgr.Inst:CheckD()
+	BundleWizard.Inst:GetGroupMgr("CV"):CheckD()
 
 	slot2 = nil
 

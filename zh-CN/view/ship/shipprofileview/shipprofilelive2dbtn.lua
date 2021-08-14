@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.live2dState = slot0.live2dBtn:Find("state")
 	slot0.live2dOn = slot0.live2dToggle:Find("on")
 	slot0.live2dOff = slot0.live2dToggle:Find("off")
-	slot0.manager = Live2DUpdateMgr.Inst
+	slot0.manager = BundleWizard.Inst:GetGroupMgr("L2D")
 end
 
 function slot0.Update(slot0, slot1, slot2)
@@ -59,7 +59,7 @@ function slot0.OnCheckToUpdate(slot0, slot1)
 	setActive(slot0.live2dOn, false)
 	setActive(slot0.live2dOff, true)
 	onButton(slot0, slot0.live2dBtn, function ()
-		uv0.manager:UpdateF(uv1, true)
+		VersionMgr.Inst:RequestUIForUpdateF("L2D", uv0, true)
 	end, SFX_PANEL)
 end
 

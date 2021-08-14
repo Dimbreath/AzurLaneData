@@ -122,3 +122,5 @@ BoxCollider2D = UnityEngine.BoxCollider2D
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType
+BundleWizard = YongShi.BundleWizardRuntime.BundleWizard
+DownloadState = YongShi.BundleWizardRuntime.DownloadState

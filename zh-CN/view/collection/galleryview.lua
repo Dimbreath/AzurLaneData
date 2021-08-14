@@ -60,7 +60,7 @@ function slot0.initData(slot0)
 	slot0.appreciateProxy:checkPicFileState()
 
 	slot0.resLoader = AutoLoader.New()
-	slot0.manager = PicUpdateMgr.Inst
+	slot0.manager = BundleWizard.Inst:GetGroupMgr("GALLERY_PIC")
 	slot0.picForShowConfigList = {}
 	slot0.cardTFList = {}
 	slot0.curPicLikeValue = GalleryConst.Filte_Normal_Value
@@ -175,7 +175,7 @@ function slot0.addListener(slot0)
 					text = i18n("msgbox_repair"),
 					onCallback = function ()
 						if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-pic.csv") then
-							PicUpdateMgr.Inst:StartVerify()
+							BundleWizard.Inst:GetGroupMgr("GALLERY_PIC"):StartVerifyForLua()
 						else
 							pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
 						end
@@ -593,13 +593,13 @@ function slot0.cardUpdate(slot0, slot1, slot2)
 								setActive(uv3, false)
 								setActive(uv4, false)
 								setActive(uv5, true)
-								uv6.manager:UpdateF(uv7, false)
+								VersionMgr.Inst:RequestUIForUpdateF("GALLERY_PIC", uv6, false)
 
-								if not table.contains(uv6.downloadCheckIDList, uv8) then
-									table.insert(uv6.downloadCheckIDList, uv8)
+								if not table.contains(uv7.downloadCheckIDList, uv8) then
+									table.insert(uv7.downloadCheckIDList, uv8)
 								end
 
-								uv6:tryStartDownloadCheckTimer()
+								uv7:tryStartDownloadCheckTimer()
 							end
 						})
 					else

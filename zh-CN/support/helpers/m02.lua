@@ -453,7 +453,7 @@ slot4 = {
 		-8,
 		-8
 	},
-	frame_meta_4 = {
+	frame14 = {
 		-8,
 		-8.5,
 		-8,
@@ -505,13 +505,13 @@ function setFrame(slot0, slot1, slot2)
 	slot3 = findTF(slot0, "specialFrame")
 
 	if slot2 or #slot1 > 1 or #slot1 == 1 and tonumber(slot1) > 5 then
-		setImageColor(slot0, Color(1, 1, 1, 1))
+		setImageColor(slot0, Color.white)
 
 		if not slot3 then
 			removeAllChildren(cloneTplTo(slot0, slot0, "specialFrame"))
 		end
 
-		slot2 = string.sub(slot1, 1, 4) == "meta" and (slot2 or "frame_" .. slot1) or slot2 or "frame" .. slot1
+		slot2 = slot2 or "frame" .. slot1
 
 		uv0(slot3, uv1[slot2] or uv1.other)
 		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
@@ -2198,6 +2198,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene7
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene8
 		}
 	})[slot0]
 end
@@ -2530,7 +2534,7 @@ function showRepairMsgbox()
 				text = i18n("msgbox_repair_l2d"),
 				onCallback = function ()
 					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-live2d.csv") then
-						Live2DUpdateMgr.Inst:StartVerify()
+						BundleWizard.Inst:GetGroupMgr("L2D"):StartVerifyForLua()
 					else
 						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
 					end
@@ -2540,7 +2544,7 @@ function showRepairMsgbox()
 				text = i18n("msgbox_repair"),
 				onCallback = function ()
 					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes.csv") then
-						UpdateMgr.Inst:StartVerify()
+						BundleWizard.Inst:GetGroupMgr("DEFAULT_RES"):StartVerifyForLua()
 					else
 						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
 					end
@@ -2552,7 +2556,7 @@ end
 
 function resourceVerify(slot0, slot1)
 	if CSharpVersion > 35 then
-		UpdateMgr.Inst:StartVerify()
+		BundleWizard.Inst:GetGroupMgr("DEFAULT_RES"):StartVerifyForLua()
 
 		return
 	end

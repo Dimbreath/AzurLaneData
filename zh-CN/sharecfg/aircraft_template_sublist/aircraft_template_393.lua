@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_393 = {
-	[1001070] = {
-		name = "量产型塞壬航母II型轰炸机T1 (飞机 V",
-		max_hp = 210,
+	[1000849] = {
+		name = "塞壬空袭-鱼雷机 V",
+		max_hp = 180,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 136,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3800,
-		speed = 30,
-		id = 1001070,
+		hp_growth = 3400,
+		speed = 33,
+		id = 1000849,
 		scale = 0.75,
 		weapon_ID = {
-			1001080
+			1000849
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_393 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -63,7 +63,7 @@ pg.aircraft_template_393 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -74,13 +74,13 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001071] = {
-		name = "量产型塞壬航母II型战斗机T1 (飞机 I",
-		max_hp = 74,
+	[1000850] = {
+		name = "塞壬空袭-战斗机 I",
+		max_hp = 64,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 41,
+		crash_DMG = 36,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -91,11 +91,11 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 1680,
 		speed = 33,
-		id = 1001071,
+		id = 1000850,
 		scale = 0.75,
 		weapon_ID = {
-			1001081,
-			1001086
+			1000850,
+			1000855
 		},
 		position_offset = {
 			0,
@@ -149,13 +149,13 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001072] = {
-		name = "量产型塞壬航母II型战斗机T1 (飞机 II",
-		max_hp = 98,
+	[1000851] = {
+		name = "塞壬空袭-战斗机 II",
+		max_hp = 88,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 53,
+		crash_DMG = 48,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -166,11 +166,11 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 1960,
 		speed = 33,
-		id = 1001072,
+		id = 1000851,
 		scale = 0.75,
 		weapon_ID = {
-			1001082,
-			1001087
+			1000851,
+			1000856
 		},
 		position_offset = {
 			0,
@@ -224,13 +224,13 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001073] = {
-		name = "量产型塞壬航母II型战斗机T1 (飞机 III",
-		max_hp = 122,
+	[1000852] = {
+		name = "塞壬空袭-战斗机 III",
+		max_hp = 112,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 67,
+		crash_DMG = 62,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -241,11 +241,11 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 2240,
 		speed = 33,
-		id = 1001073,
+		id = 1000852,
 		scale = 0.75,
 		weapon_ID = {
-			1001083,
-			1001088
+			1000852,
+			1000857
 		},
 		position_offset = {
 			0,
@@ -299,13 +299,13 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001074] = {
-		name = "量产型塞壬航母II型战斗机T1 (飞机 IV",
-		max_hp = 146,
+	[1000853] = {
+		name = "塞壬空袭-战斗机 IV",
+		max_hp = 136,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 83,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -316,11 +316,11 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 2520,
 		speed = 33,
-		id = 1001074,
+		id = 1000853,
 		scale = 0.75,
 		weapon_ID = {
-			1001084,
-			1001089
+			1000853,
+			1000858
 		},
 		position_offset = {
 			0,
@@ -374,13 +374,13 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001075] = {
-		name = "量产型塞壬航母II型战斗机T1 (飞机 V",
-		max_hp = 170,
+	[1000854] = {
+		name = "塞壬空袭-战斗机 V",
+		max_hp = 160,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 103,
+		crash_DMG = 98,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -391,11 +391,11 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 2800,
 		speed = 33,
-		id = 1001075,
+		id = 1000854,
 		scale = 0.75,
 		weapon_ID = {
-			1001085,
-			1001090
+			1000854,
+			1000859
 		},
 		position_offset = {
 			0,
@@ -449,8 +449,8 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001186] = {
-		name = "【精英】执棋者II型 轰炸机T3 I",
+	[1001066] = {
+		name = "量产型塞壬航母II型轰炸机T1 (飞机 I",
 		max_hp = 90,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
@@ -466,10 +466,10 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 2280,
 		speed = 30,
-		id = 1001186,
+		id = 1001066,
 		scale = 0.75,
 		weapon_ID = {
-			1001221
+			1001076
 		},
 		position_offset = {
 			0,
@@ -523,8 +523,8 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001187] = {
-		name = "【精英】执棋者II型 轰炸机T3 II",
+	[1001067] = {
+		name = "量产型塞壬航母II型轰炸机T1 (飞机 II",
 		max_hp = 120,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
@@ -540,10 +540,10 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 2660,
 		speed = 30,
-		id = 1001187,
+		id = 1001067,
 		scale = 0.75,
 		weapon_ID = {
-			1001222
+			1001077
 		},
 		position_offset = {
 			0,
@@ -597,8 +597,8 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001188] = {
-		name = "【精英】执棋者II型 轰炸机T3 III",
+	[1001068] = {
+		name = "量产型塞壬航母II型轰炸机T1 (飞机 III",
 		max_hp = 150,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
@@ -614,10 +614,10 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 3040,
 		speed = 30,
-		id = 1001188,
+		id = 1001068,
 		scale = 0.75,
 		weapon_ID = {
-			1001223
+			1001078
 		},
 		position_offset = {
 			0,
@@ -671,8 +671,8 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[1001189] = {
-		name = "【精英】执棋者II型 轰炸机T3 IV",
+	[1001069] = {
+		name = "量产型塞壬航母II型轰炸机T1 (飞机 IV",
 		max_hp = 180,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
@@ -688,10 +688,10 @@ pg.aircraft_template_393 = {
 		nationality = 3,
 		hp_growth = 3420,
 		speed = 30,
-		id = 1001189,
+		id = 1001069,
 		scale = 0.75,
 		weapon_ID = {
-			1001224
+			1001079
 		},
 		position_offset = {
 			0,

@@ -20,7 +20,8 @@ function slot0.execute(slot0, slot1)
 
 	pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_CLICK, slot3)
 	pg.ConnectionMgr.GetInstance():Send(11501, {
-		shop_id = slot3
+		shop_id = slot3,
+		device = PLATFORM
 	}, 11502, function (slot0)
 		if slot0.result == 0 then
 			if uv0.tradeNoPrev ~= slot0.pay_id then

@@ -11479,6 +11479,119 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30328] = {
+		drop_gold_max = 0,
+		name = "外观装备箱(牛仔)",
+		display = "可以获得一件随机的牛仔风格外观装备",
+		type = 11,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/appearanceboxniuzai",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 30328,
+		display_icon = {
+			{
+				9,
+				440,
+				1
+			},
+			{
+				9,
+				441,
+				1
+			},
+			{
+				9,
+				442,
+				1
+			},
+			{
+				9,
+				443,
+				1
+			},
+			{
+				9,
+				444,
+				1
+			},
+			{
+				9,
+				445,
+				1
+			},
+			{
+				9,
+				446,
+				1
+			},
+			{
+				9,
+				447,
+				1
+			},
+			{
+				9,
+				448,
+				1
+			},
+			{
+				9,
+				449,
+				1
+			},
+			{
+				9,
+				450,
+				1
+			},
+			{
+				9,
+				451,
+				1
+			},
+			{
+				9,
+				452,
+				1
+			},
+			{
+				9,
+				453,
+				1
+			},
+			{
+				9,
+				454,
+				1
+			},
+			{
+				9,
+				455,
+				1
+			},
+			{
+				9,
+				456,
+				1
+			},
+			{
+				9,
+				457,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[30900] = {
 		drop_gold_max = 0,
 		name = "定向部件T4",
@@ -137183,6 +137296,63 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59227] = {
+		drop_gold_max = 0,
+		name = "夏日祭典印花",
+		display = "完成祭典小游戏可以获得的印花，收集印花并在印花册盖章，可以获得特别奖励哦！",
+		type = 0,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "props/summer_stamp",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59227,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59232] = {
+		drop_gold_max = 0,
+		name = "训练点数",
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu_m",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59232,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59233] = {
+		drop_gold_max = 0,
+		name = "换装体验券",
+		display = "用于『限时体验商店』兑换角色限时换装",
+		type = 98,
+		is_world = 0,
+		shop_id = 1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59233,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "船模-茳",
@@ -147804,6 +147974,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		30325,
 		30326,
 		30327,
+		30328,
 		30900,
 		30911,
 		30912,
@@ -150581,6 +150752,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59224,
 		59225,
 		59226,
+		59227,
+		59232,
+		59233,
 		59601,
 		59602,
 		59603,

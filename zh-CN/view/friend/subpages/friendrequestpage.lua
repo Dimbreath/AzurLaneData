@@ -28,10 +28,6 @@ function slot0.UpdateData(slot0, slot1)
 	else
 		slot0:sortRequest()
 	end
-
-	if not slot0:isShowing() then
-		slot0:Show()
-	end
 end
 
 function slot0.isInitRequestPage(slot0)

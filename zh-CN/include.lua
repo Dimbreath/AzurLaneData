@@ -1,5 +1,21 @@
 pg = pg or {}
 ys = ys or {}
+cs = cs or {}
+confMT = confMT or {
+	__index = function (slot0, slot1)
+		if cs[slot0.__name][slot1] then
+			LuaHelper.SetConfVal(slot0.__name, slot2[1], slot2[2])
+
+			if rawget(slot0[slot1], "base") ~= nil then
+				setmetatable(slot3, {
+					__index = slot0[slot4]
+				})
+			end
+
+			return slot0[slot1]
+		end
+	end
+}
 
 require("localConfig")
 require("const")

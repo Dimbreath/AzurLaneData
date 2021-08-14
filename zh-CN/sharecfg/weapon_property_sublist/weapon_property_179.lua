@@ -2,6 +2,357 @@ pg = pg or {}
 pg.weapon_property_179 = {}
 
 function ()
+	uv0.weapon_property_179[69776] = {
+		id = 69776,
+		damage = 216,
+		base = 69771
+	}
+	uv0.weapon_property_179[69777] = {
+		id = 69777,
+		damage = 234,
+		base = 69771
+	}
+	uv0.weapon_property_179[69778] = {
+		id = 69778,
+		damage = 252,
+		base = 69771
+	}
+	uv0.weapon_property_179[69779] = {
+		id = 69779,
+		damage = 270,
+		base = 69771
+	}
+	uv0.weapon_property_179[69780] = {
+		id = 69780,
+		damage = 288,
+		base = 69771
+	}
+	uv0.weapon_property_179[69781] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "英勇穿甲技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 46,
+		corrected = 110,
+		min_range = 35,
+		id = 69781,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3298,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19159
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_179[69782] = {
+		reload_max = 3231,
+		name = "英勇穿甲技能LV2",
+		damage = 52,
+		base = 69781,
+		id = 69782
+	}
+	uv0.weapon_property_179[69783] = {
+		reload_max = 3164,
+		name = "英勇穿甲技能LV3",
+		damage = 59,
+		base = 69781,
+		id = 69783
+	}
+	uv0.weapon_property_179[69784] = {
+		reload_max = 3096,
+		name = "英勇穿甲技能LV4",
+		damage = 66,
+		base = 69781,
+		id = 69784
+	}
+	uv0.weapon_property_179[69785] = {
+		reload_max = 3029,
+		name = "英勇穿甲技能LV5",
+		damage = 73,
+		base = 69781,
+		id = 69785
+	}
+	uv0.weapon_property_179[69786] = {
+		reload_max = 2962,
+		name = "英勇穿甲技能LV6",
+		damage = 80,
+		base = 69781,
+		id = 69786
+	}
+	uv0.weapon_property_179[69787] = {
+		reload_max = 2894,
+		name = "英勇穿甲技能LV7",
+		damage = 87,
+		base = 69781,
+		id = 69787
+	}
+	uv0.weapon_property_179[69788] = {
+		reload_max = 2827,
+		name = "英勇穿甲技能LV8",
+		damage = 94,
+		base = 69781,
+		id = 69788
+	}
+	uv0.weapon_property_179[69789] = {
+		reload_max = 2760,
+		name = "英勇穿甲技能LV9",
+		damage = 101,
+		base = 69781,
+		id = 69789
+	}
+	uv0.weapon_property_179[69790] = {
+		reload_max = 2692,
+		name = "英勇穿甲技能LV10",
+		damage = 108,
+		base = 69781,
+		id = 69790
+	}
+	uv0.weapon_property_179[69791] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英勇弹幕技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 69791,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19160
+		},
+		barrage_ID = {
+			80918
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_179[69792] = {
+		id = 69792,
+		name = "英勇弹幕技能LV2",
+		damage = 52,
+		base = 69791
+	}
+	uv0.weapon_property_179[69793] = {
+		id = 69793,
+		name = "英勇弹幕技能LV3",
+		damage = 59,
+		base = 69791
+	}
+	uv0.weapon_property_179[69794] = {
+		id = 69794,
+		name = "英勇弹幕技能LV4",
+		damage = 66,
+		base = 69791
+	}
+	uv0.weapon_property_179[69795] = {
+		name = "英勇弹幕技能LV5",
+		damage = 73,
+		base = 69791,
+		id = 69795,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_179[69796] = {
+		name = "英勇弹幕技能LV6",
+		damage = 80,
+		base = 69791,
+		id = 69796,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_179[69797] = {
+		name = "英勇弹幕技能LV7",
+		damage = 87,
+		base = 69791,
+		id = 69797,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_179[69798] = {
+		name = "英勇弹幕技能LV8",
+		damage = 94,
+		base = 69791,
+		id = 69798,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_179[69799] = {
+		name = "英勇弹幕技能LV9",
+		damage = 101,
+		base = 69791,
+		id = 69799,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_179[69800] = {
+		name = "英勇弹幕技能LV10",
+		damage = 108,
+		base = 69791,
+		id = 69800,
+		bullet_ID = {
+			19160,
+			19160
+		},
+		barrage_ID = {
+			80918,
+			80919
+		}
+	}
+	uv0.weapon_property_179[69801] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英勇弹幕技能小子弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 69801,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19173,
+			19173
+		},
+		barrage_ID = {
+			80851,
+			80853
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_179[69802] = {
+		id = 69802,
+		name = "英勇弹幕技能小子弹LV2",
+		damage = 11,
+		base = 69801
+	}
+	uv0.weapon_property_179[69803] = {
+		id = 69803,
+		name = "英勇弹幕技能小子弹LV3",
+		damage = 12,
+		base = 69801
+	}
+	uv0.weapon_property_179[69804] = {
+		id = 69804,
+		name = "英勇弹幕技能小子弹LV4",
+		damage = 13,
+		base = 69801
+	}
+	uv0.weapon_property_179[69805] = {
+		id = 69805,
+		name = "英勇弹幕技能小子弹LV5",
+		damage = 14,
+		base = 69801
+	}
 	uv0.weapon_property_179[69806] = {
 		id = 69806,
 		name = "英勇弹幕技能小子弹LV6",
@@ -377,343 +728,5 @@ function ()
 		name = "赫敏-平射对舰弹LV9",
 		damage = 18,
 		base = 69831
-	}
-	uv0.weapon_property_179[69840] = {
-		id = 69840,
-		name = "赫敏-平射对舰弹LV10",
-		damage = 20,
-		base = 69831
-	}
-	uv0.weapon_property_179[69841] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "豪技能LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 75,
-		corrected = 110,
-		min_range = 35,
-		id = 69841,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19177
-		},
-		barrage_ID = {
-			1302
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 4
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_179[69842] = {
-		id = 69842,
-		name = "豪技能LV2",
-		damage = 80,
-		base = 69841
-	}
-	uv0.weapon_property_179[69843] = {
-		id = 69843,
-		name = "豪技能LV3",
-		damage = 86,
-		base = 69841
-	}
-	uv0.weapon_property_179[69844] = {
-		id = 69844,
-		name = "豪技能LV4",
-		damage = 93,
-		base = 69841
-	}
-	uv0.weapon_property_179[69845] = {
-		id = 69845,
-		name = "豪技能LV5",
-		damage = 101,
-		base = 69841
-	}
-	uv0.weapon_property_179[69846] = {
-		id = 69846,
-		name = "豪技能LV6",
-		damage = 110,
-		base = 69841
-	}
-	uv0.weapon_property_179[69847] = {
-		id = 69847,
-		name = "豪技能LV7",
-		damage = 120,
-		base = 69841
-	}
-	uv0.weapon_property_179[69848] = {
-		id = 69848,
-		name = "豪技能LV8",
-		damage = 131,
-		base = 69841
-	}
-	uv0.weapon_property_179[69849] = {
-		id = 69849,
-		name = "豪技能LV9",
-		damage = 143,
-		base = 69841
-	}
-	uv0.weapon_property_179[69850] = {
-		id = 69850,
-		name = "豪技能LV10",
-		damage = 156,
-		base = 69841
-	}
-	uv0.weapon_property_179[69851] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "U-96技能鱼雷弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 19,
-		corrected = 100,
-		min_range = 0,
-		id = 69851,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19178,
-			19178,
-			19178
-		},
-		barrage_ID = {
-			80927,
-			80928,
-			80929
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_179[69852] = {
-		id = 69852,
-		name = "U-96技能鱼雷弹幕LV2",
-		damage = 21,
-		base = 69851
-	}
-	uv0.weapon_property_179[69853] = {
-		id = 69853,
-		name = "U-96技能鱼雷弹幕LV3",
-		damage = 23,
-		base = 69851
-	}
-	uv0.weapon_property_179[69854] = {
-		name = "U-96技能鱼雷弹幕LV4",
-		damage = 25,
-		base = 69851,
-		id = 69854,
-		barrage_ID = {
-			80930,
-			80931,
-			80929
-		}
-	}
-	uv0.weapon_property_179[69855] = {
-		name = "U-96技能鱼雷弹幕LV5",
-		damage = 27,
-		base = 69851,
-		id = 69855,
-		barrage_ID = {
-			80930,
-			80931,
-			80929
-		}
-	}
-	uv0.weapon_property_179[69856] = {
-		name = "U-96技能鱼雷弹幕LV6",
-		damage = 29,
-		base = 69851,
-		id = 69856,
-		barrage_ID = {
-			80930,
-			80931,
-			80929
-		}
-	}
-	uv0.weapon_property_179[69857] = {
-		name = "U-96技能鱼雷弹幕LV7",
-		damage = 31,
-		base = 69851,
-		id = 69857,
-		barrage_ID = {
-			80930,
-			80931,
-			80932
-		}
-	}
-	uv0.weapon_property_179[69858] = {
-		name = "U-96技能鱼雷弹幕LV8",
-		damage = 33,
-		base = 69851,
-		id = 69858,
-		barrage_ID = {
-			80930,
-			80931,
-			80932
-		}
-	}
-	uv0.weapon_property_179[69859] = {
-		name = "U-96技能鱼雷弹幕LV9",
-		damage = 35,
-		base = 69851,
-		id = 69859,
-		barrage_ID = {
-			80930,
-			80931,
-			80932
-		}
-	}
-	uv0.weapon_property_179[69860] = {
-		name = "U-96技能鱼雷弹幕LV10",
-		damage = 40,
-		base = 69851,
-		id = 69860,
-		barrage_ID = {
-			80930,
-			80931,
-			80932
-		}
-	}
-	uv0.weapon_property_179[69861] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Z26ATF破盾反击鱼雷LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 69861,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19179,
-			19179
-		},
-		barrage_ID = {
-			80933,
-			80934
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_179[69862] = {
-		id = 69862,
-		name = "Z26ATF破盾反击鱼雷LV2",
-		damage = 25,
-		base = 69861
-	}
-	uv0.weapon_property_179[69863] = {
-		id = 69863,
-		name = "Z26ATF破盾反击鱼雷LV3",
-		damage = 30,
-		base = 69861
-	}
-	uv0.weapon_property_179[69864] = {
-		id = 69864,
-		name = "Z26ATF破盾反击鱼雷LV4",
-		damage = 38,
-		base = 69861
-	}
-	uv0.weapon_property_179[69865] = {
-		id = 69865,
-		name = "Z26ATF破盾反击鱼雷LV5",
-		damage = 46,
-		base = 69861
-	}
-	uv0.weapon_property_179[69866] = {
-		id = 69866,
-		name = "Z26ATF破盾反击鱼雷LV6",
-		damage = 54,
-		base = 69861
-	}
-	uv0.weapon_property_179[69867] = {
-		id = 69867,
-		name = "Z26ATF破盾反击鱼雷LV7",
-		damage = 62,
-		base = 69861
-	}
-	uv0.weapon_property_179[69868] = {
-		id = 69868,
-		name = "Z26ATF破盾反击鱼雷LV8",
-		damage = 70,
-		base = 69861
-	}
-	uv0.weapon_property_179[69869] = {
-		id = 69869,
-		name = "Z26ATF破盾反击鱼雷LV9",
-		damage = 78,
-		base = 69861
 	}
 end()

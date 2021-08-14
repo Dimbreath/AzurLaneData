@@ -269,6 +269,39 @@ pg.mini_game_hub = {
 			1
 		}
 	},
+	{
+		reward = 95570,
+		reward_need = 14,
+		reborn_times = 2,
+		reward_target = 59227,
+		id = 20,
+		act_id = 4067,
+		signet_reward = {
+			95566,
+			95567,
+			95568,
+			95569
+		},
+		reward_display = {
+			7,
+			201221,
+			1
+		}
+	},
+	{
+		reward = 95872,
+		reward_need = 7,
+		reborn_times = 1,
+		reward_target = 0,
+		id = 21,
+		act_id = 4078,
+		signet_reward = {},
+		reward_display = {
+			2,
+			20012,
+			2
+		}
+	},
 	all = {
 		1,
 		2,
@@ -288,6 +321,8 @@ pg.mini_game_hub = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	}
 }

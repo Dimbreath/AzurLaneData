@@ -233,6 +233,10 @@ function slot0.updateHouseArea(slot0, slot1)
 	end
 
 	onButton(slot0, slot0.warn, function ()
+		if uv0:IsVisitMode() then
+			return
+		end
+
 		triggerButton(go(uv0.road))
 	end, SFX_PANEL)
 	onButton(slot0, go(slot0.road), function ()

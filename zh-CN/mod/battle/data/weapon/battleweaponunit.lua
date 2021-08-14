@@ -182,7 +182,13 @@ function slot8.setBulletSkin(slot0, slot1, slot2)
 			slot1:SetModleID(slot0._derivateBullet)
 		end
 	elseif slot0._modelID then
-		slot1:SetModleID(slot0._modelID)
+		slot3 = 0
+
+		if slot0._skinID then
+			slot3 = uv0.GetEquipSkinDataFromID(slot0._skinID).mirror
+		end
+
+		slot1:SetModleID(slot0._modelID, slot3)
 	end
 end
 

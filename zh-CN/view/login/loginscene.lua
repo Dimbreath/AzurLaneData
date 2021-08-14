@@ -50,7 +50,7 @@ function slot0.init(slot0)
 	slot0:setBg()
 
 	slot0.version = slot0:findTF("version")
-	slot0.version:GetComponent("Text").text = "ver " .. UpdateMgr.Inst.currentVersion:ToString()
+	slot0.version:GetComponent("Text").text = "ver " .. BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString()
 	slot0.bgLay = slot0:findTF("bg_lay")
 	slot0.accountBtn = slot0:findTF("bg_lay/buttons/account_button")
 	slot0.repairBtn = slot0:findTF("repair_button")
@@ -78,6 +78,7 @@ function slot0.init(slot0)
 	slot0.closeUserAgreenTF = slot0.userAgreenTF:Find("window/close_btn")
 	slot0.userAgreenConfirmTF = slot0:findTF("UserAgreement/window/accept_btn")
 	slot0.userDisagreeConfirmTF = slot0:findTF("UserAgreement/window/disagree_btn")
+	slot0.switchGatewayBtn = SwitchGatewayBtn.New(slot0:findTF("servers/panel/switch_platform"))
 
 	setActive(slot0.userAgreenTF, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
@@ -485,7 +486,6 @@ function slot0.didEnter(slot0)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
 		end
 	end)
-	slot0:checkVersion()
 
 	if PLAY_OPENING then
 		onButton(slot0, slot0.opBtn, function ()
@@ -509,17 +509,6 @@ function slot0.didEnter(slot0)
 	slot0:playExtraVoice()
 
 	slot0.initFinished = true
-end
-
-function slot0.checkVersion(slot0)
-	if PathMgr.FileExists(PathMgr.getStreamAssetsPath() .. "/" .. "version.txt") and PathMgr.FileExists(PathMgr.getStreamAssetsPath() .. "/" .. "hashes.csv") and System.Version.New(PathMgr.ReadAllText(PathMgr.getStreamingAsset("version.txt"))):CompareTo(UpdateMgr.Inst.serverVersion) < 0 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = "当前游戏不是最新版本，请重启游戏进行更新",
-			onYes = function ()
-				Application.Quit()
-			end
-		})
-	end
 end
 
 function slot0.playExtraVoice(slot0)
@@ -775,6 +764,7 @@ function slot0.willExit(slot0)
 	slot0.airiLoginPanelView:Destroy()
 	slot0.transcodeAlertView:Destroy()
 	slot0.yostarAlertView:Destroy()
+	slot0.switchGatewayBtn:Dispose()
 end
 
 function slot0.playOpening(slot0, slot1)

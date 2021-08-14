@@ -8095,226 +8095,226 @@ pg.activity_ins_language = {
 		value = "我也…得到了充分的满足呢，呼呼…"
 	},
 	ins_235 = {
-		value = ""
+		value = "哎呀~这里到底是哪里呢～"
 	},
 	ins_discuss_235_1 = {
-		value = ""
+		value = "嗯？两位是到这边欣赏风景了吗？"
 	},
 	ins_reply_235_1_1 = {
-		value = ""
+		value = "抱歉！明明是在下自告奋勇当港区向导的，结果却一起迷了路…"
 	},
 	ins_reply_235_1_2 = {
-		value = ""
+		value = "没错，我们好像是迷路了呢…"
 	},
 	ins_reply_235_1_3 = {
-		value = ""
+		value = "原来如此，这就是所谓的“属性相似”吧！"
 	},
 	ins_discuss_235_2 = {
-		value = ""
+		value = "大家不用担心，我和{namecode:14}已经找到三浦小姐和{namecode:12}姐姐了！"
 	},
 	ins_reply_235_2_1 = {
-		value = ""
+		value = "得救了…谢谢你啊，{namecode:12}！"
 	},
 	ins_reply_235_2_2 = {
-		value = ""
+		value = "非常感谢~感觉对这个港区又更熟悉一点了呢~"
 	},
 	ins_op_235_1_1 = {
-		value = ""
+		value = "下次带你们再熟悉下港区吧，三浦小姐、{namecode:12}。"
 	},
 	op_reply_235_1_1 = {
-		value = ""
+		value = "那就谢谢指挥官了呢~"
 	},
 	op_reply_235_1_2 = {
-		value = ""
+		value = "太不好意思了>_<"
 	},
 	ins_236 = {
-		value = ""
+		value = "啊哈哈,又摔倒了…感谢女灶神的帮助！"
 	},
 	ins_discuss_236_1 = {
-		value = ""
+		value = "没事吧春香？"
 	},
 	ins_reply_236_1_1 = {
-		value = ""
+		value = "嗯嗯~正好遇到了女灶神帮忙，没什么大事谢谢千早！"
 	},
 	ins_reply_236_1_2 = {
-		value = ""
+		value = "那就好…"
 	},
 	ins_discuss_236_2 = {
-		value = ""
+		value = "天海小姐身体挺结实的呢~下次要小心哦，呵呵~"
 	},
 	ins_reply_236_2_1 = {
-		value = ""
+		value = "诶嘿嘿，谢谢啦！"
 	},
 	ins_discuss_236_3 = {
-		value = ""
+		value = "难道春香殿下也被厄运困扰着？"
 	},
 	ins_reply_236_3_1 = {
-		value = ""
+		value = "我虽然经常会摔跤，但应该和运气没什么关系哦♪"
 	},
 	ins_reply_236_3_2 = {
-		value = ""
+		value = "确实…应该没什么关系呢。"
 	},
 	ins_op_236_1_1 = {
-		value = ""
+		value = "被什么东西绊倒了吗？"
 	},
 	op_reply_236_1_1 = {
-		value = ""
+		value = "好像…也没有，说起来我自己也不知道怎么摔的呢…呜呜…"
 	},
 	ins_op_236_1_2 = {
-		value = ""
+		value = "没伤到哪里吧？！"
 	},
 	op_reply_236_1_2 = {
-		value = ""
+		value = "嗯嗯，没什么大事，让指挥官担心啦！"
 	},
 	ins_237 = {
-		value = ""
+		value = "大家的歌声都很棒。"
 	},
 	ins_discuss_237_1 = {
-		value = ""
+		value = "和千早姐姐一起唱歌很开心！"
 	},
 	ins_reply_237_1_1 = {
-		value = ""
+		value = "嗯，和你们一起唱歌我也很开心哦。"
 	},
 	ins_discuss_237_2 = {
-		value = ""
+		value = "音乐书上的图画也很好看！"
 	},
 	ins_reply_237_2_1 = {
-		value = ""
+		value = "嗯嗯，是一本很有趣的绘本呢。"
 	},
 	ins_discuss_237_3 = {
-		value = ""
+		value = "真好呀，千早~我也想和大家一起唱歌♪"
 	},
 	ins_reply_237_3_1 = {
-		value = ""
+		value = "嗯，下次春香也一起来吧"
 	},
 	ins_reply_237_3_2 = {
-		value = ""
+		value = "真的吗？太好啦~"
 	},
 	ins_discuss_237_4 = {
-		value = ""
+		value = "孩子们给你添麻烦了啊，哈哈哈"
 	},
 	ins_reply_237_4_1 = {
-		value = ""
+		value = "不会，大家都是好孩子哦"
 	},
 	ins_op_237_1_1 = {
-		value = ""
+		value = "很温馨的场面呢"
 	},
 	op_reply_237_1_1 = {
-		value = ""
+		value = "是吗…？谢谢您"
 	},
 	ins_238 = {
-		value = ""
+		value = "搅拌的时候是不是有点用力过猛了…"
 	},
 	ins_discuss_238_1 = {
-		value = ""
+		value = "这已经不只是有点用力过猛了吧？！"
 	},
 	ins_reply_238_1_1 = {
-		value = ""
+		value = "做个饭都能这么热闹，还真是厉害呀~"
 	},
 	ins_reply_238_1_2 = {
-		value = ""
+		value = "人、人总有不那么顺利的时候嘛！"
 	},
 	ins_discuss_238_2 = {
-		value = ""
+		value = "虽然做的时候确实捏了把冷汗，不过成品口味还挺不错的，不亏是水濑小姐呢。"
 	},
 	ins_reply_238_2_1 = {
-		value = ""
+		value = "嘿嘿，这可是伊织亲手制作的料理，好吃是当然的♪"
 	},
 	ins_reply_238_2_2 = {
-		value = ""
+		value = "没想到看起来那样…结果竟然还挺好吃的…"
 	},
 	ins_reply_238_2_3 = {
-		value = ""
+		value = "什么叫“看起来那样”啊！"
 	},
 	ins_op_238_1_1 = {
-		value = ""
+		value = "东西很好吃，多谢款待！"
 	},
 	op_reply_238_1_1 = {
-		value = ""
+		value = "哼哼，还想吃的话下次再给你做吧？"
 	},
 	ins_239 = {
-		value = ""
+		value = "跟{namecode:93}小姐一起工作，合作还挺愉快的~"
 	},
 	ins_discuss_239_1 = {
-		value = ""
+		value = "同感，有种事半功倍的感觉，希望下次还有机会一起做事呢，律子小姐。"
 	},
 	ins_reply_239_1_1 = {
-		value = ""
+		value = "我也是！下次有机会请务必！不过说起来，港区的后勤事务还真是挺麻烦的呢，和事务所的事务挺像的，感觉挺怀念的。"
 	},
 	ins_reply_239_1_2 = {
-		value = ""
+		value = "我也学习到了不少经验，十分感谢！"
 	},
 	ins_discuss_239_2 = {
-		value = ""
+		value = "真好呀，我要是也戴个眼镜，是不是在事务处理上就能像姐姐和律子小姐这么靠谱了呢…"
 	},
 	ins_reply_239_2_1 = {
-		value = ""
+		value = "不不…这跟眼镜应该没什么关系吧！？"
 	},
 	ins_discuss_239_3 = {
-		value = ""
+		value = "嗯哼哼，最强眼镜组合出现了！"
 	},
 	ins_reply_239_3_1 = {
-		value = ""
+		value = "所以说这跟眼镜有什么关系啦！"
 	},
 	ins_op_239_1_1 = {
-		value = ""
+		value = "感谢二位，帮大忙了。"
 	},
 	op_reply_239_1_1 = {
-		value = ""
+		value = "嘿嘿，能帮上忙就好♪"
 	},
 	ins_240 = {
-		value = ""
+		value = "锵锵！亚美大变身purin！"
 	},
 	ins_discuss_240_1 = {
-		value = ""
+		value = "啊！真美也要来玩！等我去跟布里酱借个扳手来玩！"
 	},
 	ins_reply_240_1_1 = {
-		value = ""
+		value = "嗯哼哼~最强布里决定战开幕purin!"
 	},
 	ins_reply_240_1_2 = {
-		value = ""
+		value = "开幕了~！"
 	},
 	ins_discuss_240_2 = {
-		value = ""
+		value = "奇怪的布里增加了…？"
 	},
 	ins_reply_240_2_1 = {
-		value = ""
+		value = "亚美，别干奇怪的事情给人家添麻烦！"
 	},
 	ins_reply_240_2_2 = {
-		value = ""
+		value = "哇哇！律子生气了！"
 	},
 	ins_op_240_1_1 = {
-		value = ""
+		value = "还原度真高！"
 	},
 	op_reply_240_1_1 = {
-		value = ""
+		value = "嗯哼哼~♪小瞧亚美的模仿力可是要吃苦头的哦~"
 	},
 	ins_241 = {
-		value = ""
+		value = "诶！克利夫兰姐姐也在种盆栽吗！？"
 	},
 	ins_discuss_241_1 = {
-		value = ""
+		value = "没想到能遇到对盆栽有同样热情的伙伴~嘿嘿，聊得很开心~"
 	},
 	ins_reply_241_1_1 = {
-		value = ""
+		value = "下次再多教我一点种盆栽的心得吧♪"
 	},
 	ins_reply_241_1_2 = {
-		value = ""
+		value = "嘿嘿，那必须的！"
 	},
 	ins_discuss_241_2 = {
-		value = ""
+		value = "该说人不可貌相还是什么的呢…"
 	},
 	ins_reply_241_2_1 = {
-		value = ""
+		value = "哈哈，伊织小姐要不要也试着养一盆植物什么的？可以陶冶情操的哦！"
 	},
 	ins_reply_241_2_2 = {
-		value = ""
+		value = "我就算了…"
 	},
 	ins_op_241_1_1 = {
-		value = ""
+		value = "能遇到同好真是太好了呢。"
 	},
 	op_reply_241_1_1 = {
-		value = ""
+		value = "是时候成立一个“盆栽同好会”了！指挥官要不要也一起加入？"
 	},
 	all = {
 		ins_op_1_1_1,

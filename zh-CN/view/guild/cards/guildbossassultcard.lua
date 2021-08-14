@@ -39,19 +39,12 @@ function slot0.Flush(slot0, slot1, slot2)
 
 	slot6 = false
 
-	if slot2:rarity2bgPrint() == "04" then
-		slot5 = 4
-	elseif slot5 == "05" then
-		slot5 = 5
-	elseif slot5 == "meta_3" then
-		slot5 = 7
-		slot6 = true
-	elseif slot5 == "meta_4" then
-		slot5 = 6
-		slot6 = true
-	elseif slot5 == "meta_5" then
-		slot5 = 8
-		slot6 = true
+	if #slot2:rarity2bgPrint() > 1 then
+		if string.sub(slot5, 1, 1) == "1" then
+			slot6 = true
+		else
+			slot5 = string.sub(slot5, 2, 1)
+		end
 	end
 
 	slot0:LoadMetaEffect(slot6)

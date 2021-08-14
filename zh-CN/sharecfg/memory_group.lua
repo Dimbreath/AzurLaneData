@@ -3185,6 +3185,38 @@ pg.memory_group = {
 			1742
 		}
 	},
+	[565] = {
+		title = "凛冽如恶鬼",
+		subtype = 0,
+		type = 3,
+		id = 565,
+		icon = "title_chara_guinu",
+		memories = {
+			1771,
+			1772,
+			1773,
+			1774,
+			1775,
+			1776,
+			1777
+		}
+	},
+	[566] = {
+		title = "像牛仔一样!",
+		subtype = 0,
+		type = 3,
+		id = 566,
+		icon = "title_chara_dahuangfeng",
+		memories = {
+			1781,
+			1782,
+			1783,
+			1784,
+			1785,
+			1786,
+			1787
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3353,6 +3385,8 @@ pg.memory_group = {
 		561,
 		562,
 		563,
-		564
+		564,
+		565,
+		566
 	}
 }

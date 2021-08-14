@@ -2,15 +2,20 @@ return {
 	id = "S012",
 	events = {
 		{
-			alpha = 0,
 			waitScene = "AwardInfoLayer",
-			delay = 1,
+			alpha = 0,
 			style = {
 				text = "关闭奖励界面",
 				mode = 2,
 				dir = -1,
 				posY = -341,
 				posX = 431
+			},
+			spriteui = {
+				defaultName = "white_dot",
+				pathIndex = "#",
+				childPath = "bg/icon_bg/icon",
+				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items"
 			},
 			ui = {
 				pathIndex = -1,

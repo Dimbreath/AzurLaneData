@@ -63,6 +63,8 @@ function slot0.Reset(slot0)
 	slot0:resetActivityLayerIndex()
 
 	slot0.isStopBuildSpeedupReamind = false
+
+	slot0:RestoreFrameRate()
 end
 
 function slot0.GetDockYardLockBtnFlag(slot0)
@@ -441,6 +443,19 @@ function slot0.SaveMainSceneWordFlag(slot0, slot1)
 
 		PlayerPrefs.SetInt("main_scene_word_toggle", slot1 and 1 or 0)
 		PlayerPrefs.Save()
+	end
+end
+
+function slot0.RecordFrameRate(slot0)
+	if not slot0.originalFrameRate then
+		slot0.originalFrameRate = Application.targetFrameRate
+	end
+end
+
+function slot0.RestoreFrameRate(slot0)
+	if slot0.originalFrameRate then
+		Application.targetFrameRate = slot0.originalFrameRate
+		slot0.originalFrameRate = nil
 	end
 end
 

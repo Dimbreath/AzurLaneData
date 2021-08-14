@@ -40,6 +40,7 @@ function slot0.execute(slot0, slot1)
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
 
+	pg.BrightnessMgr.GetInstance():ExitManualMode()
 	pg.SeriesGuideMgr.GetInstance():dispose()
 	pg.GuideMgr.GetInstance():endGuider()
 	PoolMgr.GetInstance():DestroyAllPrefab()

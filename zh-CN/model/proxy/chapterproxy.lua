@@ -1022,6 +1022,24 @@ function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
 		end
 
 		getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
+		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(true)
+
+		if not LOCK_BATTERY_SAVEMODE and PlayerPrefs.GetInt(AUTOFIGHT_BATTERY_SAVEMODE, 0) == 1 then
+			pg.BrightnessMgr.GetInstance():EnterManualMode()
+
+			if PlayerPrefs.GetInt(AUTOFIGHT_DOWN_FRAME, 0) == 1 then
+				getProxy(SettingsProxy):RecordFrameRate()
+
+				Application.targetFrameRate = 30
+			end
+		end
+	else
+		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(false)
+
+		if not LOCK_BATTERY_SAVEMODE then
+			pg.BrightnessMgr.GetInstance():ExitManualMode()
+			getProxy(SettingsProxy):RestoreFrameRate()
+		end
 	end
 
 	slot0.facade:sendNotification(uv0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED, slot2 and 1 or 0)

@@ -67,7 +67,7 @@ return {
 
 				if pg.activity_event_worldboss[slot2:getConfig("config_id")] then
 					slot8 = slot7.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7.time[2])
-					slot5 = slot8 and slot8 <= pg.TimeMgr.GetInstance():GetServerTime()
+					slot5 = not (slot8 and pg.TimeMgr.GetInstance():GetServerTime() <= slot8)
 				end
 
 				if not slot5 then
@@ -392,16 +392,16 @@ return {
 		Tag = "MiniGameHub",
 		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot3:isEnd()
+			slot4 = getProxy(ActivityProxy):getActivityById(pg.activity_const.IDOL_MASTER_CHAPTER_ID.act_id) and not slot3:isEnd()
 
 			setActive(slot1, slot4)
 
 			if slot4 then
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IMAS_STAGE)
+					pg.m02:sendNotification(GAME.GO_MINI_GAME, 28)
 				end, SFX_PANEL)
 				setActive(slot1:Find("Tip"), function ()
-					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
+					return uv0:getActivityById(ActivityConst.IDOL_MASTER_PT_ID) and not slot0:isEnd() and slot0:readyToAchieve()
 				end() or IdolMasterMedalCollectionMediator.isHaveActivableMedal() or function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
@@ -423,6 +423,31 @@ return {
 			end
 		end
 	},
+	{
+		Image = "event_minigame",
+		ButtonName = "activity_rop_game",
+		Tag = "MiniGameHub",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot4 = getProxy(ActivityProxy):getActivityById(pg.activity_const.ROP_COW_ID.act_id) and not slot3:isEnd()
+
+			setActive(slot1, slot4)
+
+			if slot4 then
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_MINI_GAME, 28)
+				end, SFX_PANEL)
+
+				slot6 = getProxy(MiniGameProxy):GetHubByGameId(28).count and slot5.count > 0 or false
+
+				if slot5.ultimate == 0 and slot5.usedtime == slot5:getConfig("reward_need") then
+					slot6 = true
+				end
+
+				setActive(slot1:Find("Tip"), slot6)
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -439,6 +464,7 @@ return {
 		2,
 		4,
 		6,
-		17
+		17,
+		18
 	}
 }

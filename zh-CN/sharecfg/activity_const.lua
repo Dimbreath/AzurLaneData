@@ -604,7 +604,7 @@ pg.activity_const = {
 		act_id = 534
 	},
 	OUTPOST_TASK = {
-		act_id = 536
+		act_id = 4073
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 549
@@ -782,5 +782,14 @@ pg.activity_const = {
 	},
 	IDOL_MASTER_MEDAL_ID = {
 		act_id = 4058
+	},
+	IDOL_MASTER_CHAPTER_ID = {
+		act_id = 4050
+	},
+	TIANHOU_SKIN_ACT_ID = {
+		act_id = 4067
+	},
+	ROP_COW_ID = {
+		act_id = 4078
 	}
 }

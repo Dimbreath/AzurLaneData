@@ -424,7 +424,7 @@ function slot0.updateLive2DState(slot0)
 	slot1 = HXSet.autoHxShiftPath("live2d/" .. string.lower(slot0.flagShip:getPainting()), nil, true)
 	slot3 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_L2D)
 
-	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot5 == DownloadState.CheckFailure then
+	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None or slot5 == DownloadState.CheckFailure then
 		slot4:CheckD()
 	end
 
@@ -435,7 +435,7 @@ function slot0.updateLive2DState(slot0)
 		setActive(slot0.live2dToggle:Find("on"), false)
 		setActive(slot0.live2dToggle:Find("off"), true)
 		onButton(slot0, slot0.live2dBtn, function ()
-			uv0:UpdateF(uv1, true)
+			VersionMgr.Inst:RequestUIForUpdateF("L2D", uv0, true)
 		end, SFX_PANEL)
 	elseif slot6 == DownloadState.Updating then
 		setActive(slot0.live2dBtn, true)
@@ -633,7 +633,7 @@ function slot0.updateLive2DBtn(slot0, slot1, slot2)
 	slot3 = slot2:Find("state")
 	slot4 = HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()), nil, true)
 
-	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot6 == DownloadState.CheckFailure then
+	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None or slot6 == DownloadState.CheckFailure then
 		slot5:CheckD()
 	end
 
@@ -647,7 +647,7 @@ function slot0.updateLive2DBtn(slot0, slot1, slot2)
 			setActive(uv0:Find("off"), not slot0)
 
 			if slot0 then
-				uv1:UpdateF(uv2, true)
+				VersionMgr.Inst:RequestUIForUpdateF("L2D", uv1, true)
 			end
 		end, SFX_PANEL)
 		triggerToggle(slot2, false)
