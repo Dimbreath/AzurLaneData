@@ -4760,5 +4760,57 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	yingwuluo = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "yingwuluo",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|2|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		}
 	}
 }

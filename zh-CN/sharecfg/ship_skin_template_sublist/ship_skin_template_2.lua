@@ -1,109 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101370] = {
-		ship_group = 10137,
-		name = "科尔克",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "本森级驱逐舰—科尔克，舷号DD-611",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "keerke",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 101370,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "keerke",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 151,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.23,
-					0.95,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.21,
-					0.89,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101371] = {
 		ship_group = 10137,
 		name = "学园的雪之妖精",
@@ -2366,6 +2262,216 @@ pg.ship_skin_template_2 = {
 						{
 							-0.521,
 							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101480] = {
+		ship_group = 10148,
+		name = "英格拉罕",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "艾伦·萨姆纳级驱逐舰—英格拉罕，舷号DD-694",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yinggelahan",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 101480,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yinggelahan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 282,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.058,
+					1.048,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.069,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							0.004,
+							1.783,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101481] = {
+		ship_group = 10148,
+		name = "饮品研究员？",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "嗯…可以再加强点甜味…然后再来点这个…——唔？你来了？好，现在开始你就是试喝员一号了，为了做出创造性的饮料，让我们一起努力吧！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yinggelahan_2",
+		air_bullet_skin = "",
+		shop_type_id = 16,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "145",
+		skin_type = 4,
+		id = 101481,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yinggelahan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70586,
+		voice_actor = 282,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.112,
+					0.89,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.076,
+					1.081,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.117,
+							2.402,
 							0
 						}
 					}

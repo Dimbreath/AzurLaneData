@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_354 = {
+	[78032] = {
+		id = 78032,
+		name = "全弹发射-沃克兰级II",
+		base = 78031,
+		weapon_id = {
+			78032
+		}
+	},
+	[78111] = {
+		name = "全弹发射-埃米尔·贝尔汀I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 78111,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			78111
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[78112] = {
 		id = 78112,
 		name = "全弹发射-埃米尔·贝尔汀II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_354 = {
 		base = 79051,
 		weapon_id = {
 			79052
-		}
-	},
-	[79061] = {
-		name = "专属弹幕-萤火虫I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "技能弹幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79061,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79061
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79062] = {
-		id = 79062,
-		name = "专属弹幕-萤火虫II",
-		base = 79061,
-		weapon_id = {
-			79062
 		}
 	}
 }

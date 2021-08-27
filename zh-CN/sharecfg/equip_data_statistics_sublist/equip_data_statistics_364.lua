@@ -1,5 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_364 = {
+	[85048] = {
+		id = 85048,
+		damage = "13 x 6",
+		base = 85040,
+		weapon_id = {
+			85048
+		}
+	},
+	[85049] = {
+		id = 85049,
+		damage = "14 x 6",
+		base = 85040,
+		weapon_id = {
+			85049
+		}
+	},
+	[85050] = {
+		id = 85050,
+		damage = "15 x 6",
+		base = 85040,
+		weapon_id = {
+			85050
+		}
+	},
+	[85051] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85051,
+		weapon_id = {
+			85051
+		}
+	},
 	[85052] = {
 		anti_siren = 200,
 		damage = "15 x 6",
@@ -208,90 +241,6 @@ pg.equip_data_statistics_364 = {
 		base = 85120,
 		weapon_id = {
 			85123
-		}
-	},
-	[85124] = {
-		id = 85124,
-		damage = "8 x 6",
-		base = 85120,
-		weapon_id = {
-			85124
-		}
-	},
-	[85125] = {
-		id = 85125,
-		damage = "9 x 6",
-		base = 85120,
-		weapon_id = {
-			85125
-		}
-	},
-	[85126] = {
-		id = 85126,
-		damage = "10 x 6",
-		base = 85120,
-		weapon_id = {
-			85126
-		}
-	},
-	[85140] = {
-		name = "B-38 三联装152mm主炮Mk5",
-		speciality = "锁定",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 2,
-		value_3 = 0,
-		id = 85140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"HE"
 		}
 	}
 }

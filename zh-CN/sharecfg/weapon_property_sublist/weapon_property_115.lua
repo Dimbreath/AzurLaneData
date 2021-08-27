@@ -2,6 +2,33 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
+	uv0.weapon_property_115[64394] = {
+		id = 64394,
+		name = "埃吉尔技能跨射子弹Lv4",
+		damage = 42,
+		base = 64391
+	}
+	uv0.weapon_property_115[64395] = {
+		id = 64395,
+		name = "埃吉尔技能跨射子弹Lv5",
+		damage = 46,
+		base = 64391
+	}
+	uv0.weapon_property_115[64396] = {
+		id = 64396,
+		name = "埃吉尔技能跨射子弹Lv6",
+		damage = 48,
+		base = 64391
+	}
+	uv0.weapon_property_115[64397] = {
+		name = "埃吉尔技能跨射子弹Lv7",
+		damage = 50,
+		base = 64391,
+		id = 64397,
+		barrage_ID = {
+			81127
+		}
+	}
 	uv0.weapon_property_115[64398] = {
 		name = "埃吉尔技能跨射子弹Lv8",
 		damage = 52,
@@ -663,93 +690,5 @@ function ()
 			81134,
 			81135
 		}
-	}
-	uv0.weapon_property_115[64458] = {
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV8",
-		damage = 22,
-		base = 64451,
-		id = 64458,
-		bullet_ID = {
-			19325,
-			19325
-		},
-		barrage_ID = {
-			81134,
-			81135
-		}
-	}
-	uv0.weapon_property_115[64459] = {
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV9",
-		damage = 23,
-		base = 64451,
-		id = 64459,
-		bullet_ID = {
-			19325,
-			19325
-		},
-		barrage_ID = {
-			81134,
-			81135
-		}
-	}
-	uv0.weapon_property_115[64460] = {
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV10",
-		damage = 25,
-		base = 64451,
-		id = 64460,
-		bullet_ID = {
-			19325,
-			19325
-		},
-		barrage_ID = {
-			81134,
-			81135
-		}
-	}
-	uv0.weapon_property_115[64461] = {
-		action_index = "attack",
-		range = 200,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "春香弹幕粉色imas徽章LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 64461,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19328,
-			19328
-		},
-		barrage_ID = {
-			81141,
-			81142
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

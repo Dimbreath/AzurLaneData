@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.equip_data_statistics_380 = {
+	[89169] = {
+		id = 89169,
+		value_2 = 28,
+		value_1 = "32",
+		base = 89160
+	},
+	[89170] = {
+		id = 89170,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89160
+	},
+	[89171] = {
+		id = 89171,
+		anti_siren = 100,
+		base = 89160,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89172] = {
+		id = 89172,
+		anti_siren = 200,
+		base = 89160,
+		value_2 = 34,
+		value_1 = "41"
+	},
 	[89173] = {
 		id = 89173,
 		anti_siren = 300,
@@ -107,58 +133,5 @@ pg.equip_data_statistics_380 = {
 		base = 89180,
 		value_2 = 32,
 		value_1 = "38"
-	},
-	[89192] = {
-		id = 89192,
-		anti_siren = 200,
-		base = 89180,
-		value_2 = 34,
-		value_1 = "41"
-	},
-	[89193] = {
-		id = 89193,
-		anti_siren = 300,
-		base = 89180,
-		value_2 = 36,
-		value_1 = "44"
-	},
-	[89200] = {
-		name = "引力舞鞋",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89200,
-		value_2 = 1,
-		icon = "89200",
-		value_1 = "13",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "引人瞩目的舞鞋，穿上以后似乎能够成为……偶像？",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6690
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89201] = {
-		id = 89201,
-		value_1 = "14",
-		base = 89200
 	}
 }

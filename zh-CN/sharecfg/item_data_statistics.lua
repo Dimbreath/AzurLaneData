@@ -13197,6 +13197,31 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40119] = {
+		drop_gold_max = 0,
+		name = "心智单元礼包",
+		display = "购买礼包可获得心智单元*1000",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "ChargeIcon/boxChips",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40119,
+		display_icon = {
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40901] = {
 		drop_gold_max = 0,
 		name = "新年福袋",
@@ -137315,6 +137340,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59229] = {
+		drop_gold_max = 0,
+		name = "银翼之徽",
+		display = "用于『微层混合』复刻活动兑换，活动结束后将会消失",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/meixiv3_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59229,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59232] = {
 		drop_gold_max = 0,
 		name = "训练点数",
@@ -148013,6 +148057,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		40116,
 		40117,
 		40118,
+		40119,
 		40901,
 		40902,
 		40903,
@@ -150753,6 +150798,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59225,
 		59226,
 		59227,
+		59229,
 		59232,
 		59233,
 		59601,
