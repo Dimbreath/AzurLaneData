@@ -2,6 +2,68 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 function ()
+	uv0.weapon_property_113[64271] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "奥丁Gungnir雷电投枪天运强化LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 64271,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19313
+		},
+		barrage_ID = {
+			81122
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_113[64272] = {
+		id = 64272,
+		name = "奥丁Gungnir雷电投枪天运强化LV2",
+		damage = 86,
+		base = 64271
+	}
+	uv0.weapon_property_113[64273] = {
+		id = 64273,
+		name = "奥丁Gungnir雷电投枪天运强化LV3",
+		damage = 106,
+		base = 64271
+	}
+	uv0.weapon_property_113[64274] = {
+		id = 64274,
+		name = "奥丁Gungnir雷电投枪天运强化LV4",
+		damage = 124,
+		base = 64271
+	}
 	uv0.weapon_property_113[64275] = {
 		id = 64275,
 		name = "奥丁Gungnir雷电投枪天运强化LV5",
@@ -649,26 +711,6 @@ function ()
 	uv0.weapon_property_113[64334] = {
 		id = 64334,
 		damage = 113,
-		base = 64331
-	}
-	uv0.weapon_property_113[64335] = {
-		id = 64335,
-		damage = 134,
-		base = 64331
-	}
-	uv0.weapon_property_113[64336] = {
-		id = 64336,
-		damage = 155,
-		base = 64331
-	}
-	uv0.weapon_property_113[64337] = {
-		id = 64337,
-		damage = 176,
-		base = 64331
-	}
-	uv0.weapon_property_113[64338] = {
-		id = 64338,
-		damage = 197,
 		base = 64331
 	}
 end()

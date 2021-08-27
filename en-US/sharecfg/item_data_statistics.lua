@@ -12422,6 +12422,31 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40119] = {
+		drop_gold_max = 0,
+		name = "Cognitive Chip Pack ",
+		display = "Gives 1,000 Cognitive Chips when purchased.",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "ChargeIcon/boxChips",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40119,
+		display_icon = {
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40903] = {
 		drop_gold_max = 0,
 		name = "Shougatsu Lucky Bag (2019) ",
@@ -14141,6 +14166,61 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				2,
 				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40975] = {
+		drop_gold_max = 0,
+		name = "Microlayer Medley Lucky Box 2021",
+		display = "Contains 1 Random Outfit, 2021 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 4, 10 Quick Finishers, and 100 Furniture Coins ",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/fudai71",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40975,
+		display_icon = {
+			{
+				2,
+				69970,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
 				2
 			},
 			{
@@ -128892,6 +128972,25 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59229] = {
+		drop_gold_max = 0,
+		name = "Silver Wing Badge ",
+		display = "Used in the \"Microlayer Medley\" Event Exchange. Expires after the event exchange period ends. ",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/meixiv3_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59229,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59232] = {
 		drop_gold_max = 0,
 		name = "Training Pt",
@@ -136419,8 +136518,8 @@ let us celebrate."]],
 	},
 	[60176] = {
 		drop_gold_max = 0,
-		name = "BelfastGift from ",
-		display = "BelfastA thank-you gift from ",
+		name = "Gift from Belfast",
+		display = "A thank-you gift from Belfast",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136438,8 +136537,8 @@ let us celebrate."]],
 	},
 	[60177] = {
 		drop_gold_max = 0,
-		name = "WarspiteGift from ",
-		display = "WarspiteA thank-you gift from ",
+		name = "Gift from Warspite",
+		display = "A thank-you gift from Warspite",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136457,8 +136556,8 @@ let us celebrate."]],
 	},
 	[60178] = {
 		drop_gold_max = 0,
-		name = "HoodGift from ",
-		display = "HoodA thank-you gift from ",
+		name = "Gift from Hood",
+		display = "A thank-you gift from Hood",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136476,8 +136575,8 @@ let us celebrate."]],
 	},
 	[60179] = {
 		drop_gold_max = 0,
-		name = "EnterpriseGift from ",
-		display = "EnterpriseA thank-you gift from ",
+		name = "Gift from Enterprise",
+		display = "A thank-you gift from Enterprise",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136495,8 +136594,8 @@ let us celebrate."]],
 	},
 	[60180] = {
 		drop_gold_max = 0,
-		name = "IllustriousGift from ",
-		display = "IllustriousA thank-you gift from ",
+		name = "Gift from Illustrious",
+		display = "A thank-you gift from Illustrious",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136514,8 +136613,8 @@ let us celebrate."]],
 	},
 	[60181] = {
 		drop_gold_max = 0,
-		name = "Le MalinGift from ",
-		display = "Le MalinA thank-you gift from ",
+		name = "Gift from Le Malin",
+		display = "A thank-you gift from Le Malin",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136533,8 +136632,8 @@ let us celebrate."]],
 	},
 	[60182] = {
 		drop_gold_max = 0,
-		name = "SiriusGift from ",
-		display = "SiriusA thank-you gift from ",
+		name = "Gift from Sirius",
+		display = "A thank-you gift from Sirius",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136552,8 +136651,8 @@ let us celebrate."]],
 	},
 	[60183] = {
 		drop_gold_max = 0,
-		name = "North CarolinaGift from ",
-		display = "North CarolinaA thank-you gift from ",
+		name = "Gift from North Carolina",
+		display = "A thank-you gift from North Carolina",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -136571,8 +136670,8 @@ let us celebrate."]],
 	},
 	[60184] = {
 		drop_gold_max = 0,
-		name = "WashingtonGift from ",
-		display = "WashingtonA thank-you gift from ",
+		name = "Gift from Washington",
+		display = "A thank-you gift from Washington",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -137518,6 +137617,42 @@ The available outfits and their rarities are as follows:
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 69969,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69970] = {
+		drop_gold_max = 0,
+		name = "Random Ship skin ",
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>7.2%</color>）Abercrombie - Mischief on the Rocks<color=#92fc63> Live2D</color>;
+（<color=#92fc64>7.2%</color>）Ingraham - Fixin' for a Mixin' ；
+（<color=#92fc65>5.5%</color>）Nautilus - Afternoon Stretches ；
+（<color=#92fc66>7.5%</color>）Z46 - Girls' Relay<color=#92fc63> Live2D</color>;
+（<color=#92fc67>7.3%</color>）Cooper - Blazing Tennis Battle<color=#92fc63> Live2D</color>;
+（<color=#92fc68>5.6%</color>）Cygnet - Royal Fanfare ；
+（<color=#92fc69>7.6%</color>）Minneapolis - eXtreme Games ；
+（<color=#92fc70>7.2%</color>）Bremerton - Scorching-Hot Training ；
+（<color=#92fc71>7.6%</color>）Baltimore - Black Ace ；
+（<color=#92fc72>7.6%</color>）Intrepid - One Intrepid Pitch ；
+（<color=#92fc73>7.6%</color>）Reno - Biggest Little Cheerleader ；
+（<color=#92fc74>5.9%</color>）Bluegill - Up-And-Coming Infielder ；
+（<color=#92fc75>4.4%</color>）Marblehead - Boxing Girl! ；
+（<color=#92fc76>5.9%</color>）Casablanca - Cheer Squad on Break ；
+（<color=#92fc77>5.9%</color>）Bache - Showy Sports Star ]],
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/clothIcon",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 69970,
 		display_icon = {},
 		price = {},
 		index = {}
@@ -139939,6 +140074,7 @@ The available outfits and their rarities are as follows:
 		40114,
 		40117,
 		40118,
+		40119,
 		40903,
 		40904,
 		40905,
@@ -139974,6 +140110,7 @@ The available outfits and their rarities are as follows:
 		40972,
 		40973,
 		40974,
+		40975,
 		41201,
 		41202,
 		41203,
@@ -142457,6 +142594,7 @@ The available outfits and their rarities are as follows:
 		59225,
 		59226,
 		59227,
+		59229,
 		59232,
 		59233,
 		59601,
@@ -142837,6 +142975,7 @@ The available outfits and their rarities are as follows:
 		69967,
 		69968,
 		69969,
+		69970,
 		70000,
 		70001,
 		70002,

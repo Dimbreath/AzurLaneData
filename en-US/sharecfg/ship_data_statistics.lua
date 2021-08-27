@@ -18708,6 +18708,502 @@ pg.ship_data_statistics = {
 			"Fletcher-Class"
 		}
 	},
+	[101481] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Ingraham",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101481,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Ingraham",
+		oxy_cost = 0,
+		skin_id = 101480,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			387,
+			25,
+			72,
+			43,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			75,
+			55
+		},
+		attrs_growth = {
+			9435,
+			250,
+			708,
+			844,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101482] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Ingraham",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101482,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Ingraham",
+		oxy_cost = 0,
+		skin_id = 101480,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			481,
+			31,
+			90,
+			54,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			75,
+			69
+		},
+		attrs_growth = {
+			9435,
+			250,
+			708,
+			844,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.27,
+			1.72
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101483] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Ingraham",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101483,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Ingraham",
+		oxy_cost = 0,
+		skin_id = 101480,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			670,
+			44,
+			125,
+			75,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			75,
+			96
+		},
+		attrs_growth = {
+			9435,
+			250,
+			708,
+			844,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			1.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101484] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Ingraham",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101484,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Ingraham",
+		oxy_cost = 0,
+		skin_id = 101480,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			953,
+			63,
+			178,
+			106,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			75,
+			136
+		},
+		attrs_growth = {
+			9435,
+			250,
+			708,
+			844,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			9435,
+			590,
+			1210,
+			574,
+			0,
+			992,
+			0,
+			-661,
+			287,
+			0,
+			0,
+			440
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			1.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
 	[102011] = {
 		oxy_max = 0,
 		type = 2,
@@ -63631,6 +64127,922 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Balao-Class"
+		}
+	},
+	[108071] = {
+		oxy_max = 263,
+		type = 8,
+		name = "Nautilus ",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 108071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Nautilus ",
+		oxy_cost = 10,
+		skin_id = 108070,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			396,
+			21,
+			96,
+			0,
+			0,
+			34,
+			0,
+			66,
+			7,
+			13.9,
+			69,
+			0
+		},
+		attrs_growth = {
+			9665,
+			206,
+			950,
+			0,
+			0,
+			168,
+			0,
+			978,
+			102,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"Narwhal-Class"
+		}
+	},
+	[108072] = {
+		oxy_max = 263,
+		type = 8,
+		name = "Nautilus ",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 108072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Nautilus ",
+		oxy_cost = 10,
+		skin_id = 108070,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			493,
+			26,
+			120,
+			0,
+			0,
+			34,
+			0,
+			66,
+			7,
+			13.9,
+			69,
+			0
+		},
+		attrs_growth = {
+			9665,
+			206,
+			950,
+			0,
+			0,
+			168,
+			0,
+			978,
+			102,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"Narwhal-Class"
+		}
+	},
+	[108073] = {
+		oxy_max = 263,
+		type = 8,
+		name = "Nautilus ",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 108073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Nautilus ",
+		oxy_cost = 10,
+		skin_id = 108070,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			686,
+			36,
+			167,
+			0,
+			0,
+			34,
+			0,
+			66,
+			7,
+			13.9,
+			69,
+			0
+		},
+		attrs_growth = {
+			9665,
+			206,
+			950,
+			0,
+			0,
+			168,
+			0,
+			978,
+			102,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"Narwhal-Class"
+		}
+	},
+	[108074] = {
+		oxy_max = 263,
+		type = 8,
+		name = "Nautilus ",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 108074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Nautilus ",
+		oxy_cost = 10,
+		skin_id = 108070,
+		attack_duration = 5,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			976,
+			52,
+			239,
+			0,
+			0,
+			34,
+			0,
+			66,
+			7,
+			13.9,
+			69,
+			0
+		},
+		attrs_growth = {
+			9665,
+			206,
+			950,
+			0,
+			0,
+			168,
+			0,
+			978,
+			102,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9655,
+			492,
+			1190,
+			0,
+			0,
+			395,
+			0,
+			0,
+			783,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"Narwhal-Class"
 		}
 	},
 	[112011] = {
@@ -290343,6 +291755,10 @@ pg.ship_data_statistics = {
 		101472,
 		101473,
 		101474,
+		101481,
+		101482,
+		101483,
+		101484,
 		102011,
 		102012,
 		102013,
@@ -290682,6 +292098,10 @@ pg.ship_data_statistics = {
 		108062,
 		108063,
 		108064,
+		108071,
+		108072,
+		108073,
+		108074,
 		112011,
 		112012,
 		112013,

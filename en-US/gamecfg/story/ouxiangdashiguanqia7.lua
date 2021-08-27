@@ -393,11 +393,10 @@ return {
 		},
 		{
 			actor = 10700030,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "Of course! If we don't win, we won't be able to move forwards or backwards, isn't that right?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

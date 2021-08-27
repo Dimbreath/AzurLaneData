@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_358 = {
+	[79382] = {
+		id = 79382,
+		name = "专属弹幕-北风II",
+		base = 79381,
+		weapon_id = {
+			79382
+		}
+	},
+	[79383] = {
+		name = "专属弹幕鱼雷-北风I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79383,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79383
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79384] = {
 		id = 79384,
 		name = "专属弹幕鱼雷-北风II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_358 = {
 		base = 79451,
 		weapon_id = {
 			79452
-		}
-	},
-	[79461] = {
-		name = "全弹发射-南安普顿μI",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79461,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79461
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79462] = {
-		id = 79462,
-		name = "全弹发射-南安普顿μII",
-		base = 79461,
-		weapon_id = {
-			79462
 		}
 	}
 }

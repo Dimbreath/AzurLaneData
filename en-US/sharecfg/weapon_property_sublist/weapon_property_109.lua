@@ -70,6 +70,135 @@ function ()
 			1512
 		}
 	}
+	uv0.weapon_property_109[60691] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英格拉罕弹幕展示I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 125,
+		min_range = 0,
+		id = 60691,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79761,
+			79761,
+			79763
+		},
+		barrage_ID = {
+			79761,
+			79762,
+			79765
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[60692] = {
+		name = "英格拉罕弹幕展示II",
+		damage = 1,
+		base = 60691,
+		id = 60692,
+		bullet_ID = {
+			79762,
+			79762,
+			79763
+		},
+		barrage_ID = {
+			79763,
+			79764,
+			79765
+		}
+	}
+	uv0.weapon_property_109[60701] = {
+		action_index = "attack",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "全弹发射展示-独角鲸级I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 60701,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			70311,
+			70312
+		},
+		barrage_ID = {
+			70321,
+			70324
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_109[60702] = {
+		name = "全弹发射展示-独角鲸级II",
+		damage = 1,
+		base = 60701,
+		id = 60702,
+		bullet_ID = {
+			70311,
+			70311,
+			70311,
+			70312,
+			70312
+		},
+		barrage_ID = {
+			70321,
+			70322,
+			70323,
+			70325
+		}
+	}
 	uv0.weapon_property_109[61000] = {
 		action_index = "",
 		range = 100,
@@ -1813,69 +1942,5 @@ function ()
 		name = "托里拆利技能鱼雷弹幕LV8",
 		damage = 33,
 		base = 64011
-	}
-	uv0.weapon_property_109[64019] = {
-		id = 64019,
-		name = "托里拆利技能鱼雷弹幕LV9",
-		damage = 35,
-		base = 64011
-	}
-	uv0.weapon_property_109[64020] = {
-		id = 64020,
-		name = "托里拆利技能鱼雷弹幕LV10",
-		damage = 40,
-		base = 64011
-	}
-	uv0.weapon_property_109[64021] = {
-		action_index = "attack",
-		range = 120,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "托里拆利技能子弹弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 64021,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19284,
-			19284
-		},
-		barrage_ID = {
-			81055,
-			81056
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_109[64022] = {
-		id = 64022,
-		name = "托里拆利技能子弹弹幕LV2",
-		damage = 12,
-		base = 64021
 	}
 end()

@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
+	[79461] = {
+		name = "全弹发射-南安普顿μI",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79461,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79461
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79462] = {
+		id = 79462,
+		name = "全弹发射-南安普顿μII",
+		base = 79461,
+		weapon_id = {
+			79462
+		}
+	},
 	[79471] = {
 		name = "全弹发射-希佩尔海军上将μI",
 		tech = 1,
@@ -349,52 +396,6 @@ pg.equip_data_statistics_359 = {
 		equip_info = {},
 		weapon_id = {
 			79551
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79552] = {
-		id = 79552,
-		name = "专属弹幕-柴郡II",
-		base = 79551,
-		weapon_id = {
-			79552
-		}
-	},
-	[79561] = {
-		name = "专属弹幕-德雷克I",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		descrip = "Barrage",
-		value_2 = 0,
-		icon = "1",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79561,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79561
 		},
 		skill_id = {},
 		part_main = {

@@ -2,6 +2,26 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
+	uv0.weapon_property_114[64335] = {
+		id = 64335,
+		damage = 134,
+		base = 64331
+	}
+	uv0.weapon_property_114[64336] = {
+		id = 64336,
+		damage = 155,
+		base = 64331
+	}
+	uv0.weapon_property_114[64337] = {
+		id = 64337,
+		damage = 176,
+		base = 64331
+	}
+	uv0.weapon_property_114[64338] = {
+		id = 64338,
+		damage = 197,
+		base = 64331
+	}
 	uv0.weapon_property_114[64339] = {
 		id = 64339,
 		damage = 218,
@@ -640,75 +660,5 @@ function ()
 		barrage_ID = {
 			81127
 		}
-	}
-	uv0.weapon_property_114[64399] = {
-		name = "埃吉尔技能跨射子弹Lv9",
-		damage = 54,
-		base = 64391,
-		id = 64399,
-		barrage_ID = {
-			81127
-		}
-	}
-	uv0.weapon_property_114[64400] = {
-		name = "埃吉尔技能跨射子弹Lv10",
-		damage = 56,
-		base = 64391,
-		id = 64400,
-		barrage_ID = {
-			81127
-		}
-	}
-	uv0.weapon_property_114[64401] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "安克雷奇技能弹幕-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 26,
-		corrected = 100,
-		min_range = 0,
-		id = 64401,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 412,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19323,
-			19323
-		},
-		barrage_ID = {
-			81128,
-			81129
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_114[64402] = {
-		id = 64402,
-		name = "安克雷奇技能弹幕-LV2",
-		damage = 27,
-		base = 64401
 	}
 end()

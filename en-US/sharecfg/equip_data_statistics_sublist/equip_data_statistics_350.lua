@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_350 = {
+	[73012] = {
+		id = 73012,
+		name = "0",
+		base = 73011,
+		weapon_id = {
+			73012
+		}
+	},
+	[73031] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 73031,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			73031
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[73032] = {
 		id = 73032,
 		name = "0",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_350 = {
 		base = 73231,
 		weapon_id = {
 			73232
-		}
-	},
-	[73311] = {
-		name = "全弹发射-Type VIIC型I",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 73311,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			73311
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73312] = {
-		id = 73312,
-		name = "全弹发射-Type VIIC型II",
-		base = 73311,
-		weapon_id = {
-			73312
 		}
 	}
 }
