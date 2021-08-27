@@ -2,6 +2,71 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 function ()
+	uv0.weapon_property_117[64549] = {
+		id = 64549,
+		name = "如月千早飞艇地毯轰炸Lv9",
+		damage = 180,
+		base = 64541
+	}
+	uv0.weapon_property_117[64550] = {
+		id = 64550,
+		name = "如月千早飞艇地毯轰炸Lv10",
+		damage = 200,
+		base = 64541
+	}
+	uv0.weapon_property_117[64551] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "水濑伊织技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 50,
+		corrected = 110,
+		min_range = 35,
+		id = 64551,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19341
+		},
+		barrage_ID = {
+			81171
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_117[64552] = {
+		id = 64552,
+		name = "水濑伊织技能LV2",
+		damage = 60,
+		base = 64551
+	}
 	uv0.weapon_property_117[64553] = {
 		id = 64553,
 		name = "水濑伊织技能LV3",
@@ -652,25 +717,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_117[64612] = {
-		id = 64612,
-		damage = 90,
-		base = 64611
-	}
-	uv0.weapon_property_117[64613] = {
-		id = 64613,
-		damage = 100,
-		base = 64611
-	}
-	uv0.weapon_property_117[64614] = {
-		id = 64614,
-		damage = 120,
-		base = 64611
-	}
-	uv0.weapon_property_117[64615] = {
-		id = 64615,
-		damage = 140,
-		base = 64611
 	}
 end()

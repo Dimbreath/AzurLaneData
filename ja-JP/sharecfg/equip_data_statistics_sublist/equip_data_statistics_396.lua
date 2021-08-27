@@ -1,5 +1,95 @@
 pg = pg or {}
 pg.equip_data_statistics_396 = {
+	[95403] = {
+		id = 95403,
+		damage = "8 x 4",
+		base = 95400,
+		weapon_id = {
+			95403
+		}
+	},
+	[95420] = {
+		name = "120mm連装砲Model1936",
+		speciality = "追尾",
+		type = 1,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "55400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "6 x 4",
+		nationality = 6,
+		ammo = 3,
+		value_3 = 0,
+		id = 95420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2300
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2300
+			},
+			{
+				4,
+				1022
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95420
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[95421] = {
+		id = 95421,
+		base = 95420,
+		weapon_id = {
+			95421
+		}
+	},
+	[95422] = {
+		id = 95422,
+		damage = "7 x 4",
+		base = 95420,
+		weapon_id = {
+			95422
+		}
+	},
 	[95423] = {
 		id = 95423,
 		damage = "8 x 4",
@@ -161,97 +251,6 @@ pg.equip_data_statistics_396 = {
 		base = 95440,
 		weapon_id = {
 			95448
-		}
-	},
-	[95449] = {
-		id = 95449,
-		damage = "15 x 4",
-		base = 95440,
-		weapon_id = {
-			95449
-		}
-	},
-	[95450] = {
-		id = 95450,
-		damage = "17 x 4",
-		base = 95440,
-		weapon_id = {
-			95450
-		}
-	},
-	[95451] = {
-		anti_siren = 100,
-		damage = "17 x 4",
-		base = 95440,
-		id = 95451,
-		weapon_id = {
-			95451
-		}
-	},
-	[95460] = {
-		name = "120mm連装砲Model1933",
-		speciality = "追尾",
-		type = 1,
-		tech = 0,
-		descrip = "0",
-		value_2 = 12,
-		icon = "55460",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 4",
-		nationality = 6,
-		ammo = 2,
-		value_3 = 0,
-		id = 95460,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				2306
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2306
-			},
-			{
-				4,
-				1022
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95460
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"DD",
-			"MG"
 		}
 	}
 }

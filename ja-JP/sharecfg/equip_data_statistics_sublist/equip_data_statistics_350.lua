@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_350 = {
+	[79611] = {
+		name = "专属弹幕-罗恩μI",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79611,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79611
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79612] = {
+		id = 79612,
+		name = "专属弹幕-罗恩μII",
+		base = 79611,
+		weapon_id = {
+			79612
+		}
+	},
 	[79621] = {
 		name = "专属弹幕-恶毒μI",
 		tech = 1,
@@ -349,53 +396,6 @@ pg.equip_data_statistics_350 = {
 		equip_info = {},
 		weapon_id = {
 			60621
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79692] = {
-		id = 79692,
-		name = "专属弹幕-艾伦萨姆纳II",
-		base = 79691,
-		weapon_id = {
-			60622
-		}
-	},
-	[79701] = {
-		name = "专属弹幕-阿布鲁齐公爵I",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 79701,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60631
 		},
 		skill_id = {},
 		part_main = {

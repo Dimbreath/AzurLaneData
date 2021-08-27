@@ -1,5 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
+	[90911] = {
+		anti_siren = 100,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90911,
+		weapon_id = {
+			90911
+		}
+	},
+	[90912] = {
+		anti_siren = 200,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90912,
+		weapon_id = {
+			90912
+		}
+	},
+	[90913] = {
+		anti_siren = 300,
+		damage = "52 x 4",
+		base = 90900,
+		id = 90913,
+		weapon_id = {
+			90913
+		}
+	},
+	[91000] = {
+		name = "試作型406mm/50三連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "51000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "54 x 3",
+		nationality = 8,
+		ammo = 1,
+		value_3 = 0,
+		id = 91000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1580
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			91000
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
 	[91001] = {
 		id = 91001,
 		damage = "64 x 3",
@@ -105,82 +185,6 @@ pg.equip_data_statistics_387 = {
 		id = 91013,
 		weapon_id = {
 			91013
-		}
-	},
-	[95000] = {
-		name = "381mm三連装砲Model1934",
-		speciality = "投射",
-		type = 4,
-		tech = 1,
-		descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
-		value_2 = 12,
-		icon = "55000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "42 x 3",
-		nationality = 6,
-		ammo = 3,
-		value_3 = 0,
-		id = 95000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1560
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"BB",
-			"MG"
-		}
-	},
-	[95001] = {
-		id = 95001,
-		damage = "50 x 3",
-		base = 95000,
-		weapon_id = {
-			95001
-		}
-	},
-	[95002] = {
-		id = 95002,
-		damage = "58 x 3",
-		base = 95000,
-		weapon_id = {
-			95002
-		}
-	},
-	[95003] = {
-		id = 95003,
-		damage = "66 x 3",
-		base = 95000,
-		weapon_id = {
-			95003
 		}
 	}
 }

@@ -2,6 +2,461 @@ pg = pg or {}
 pg.weapon_property_130 = {}
 
 function ()
+	uv0.weapon_property_130[65792] = {
+		id = 65792,
+		name = "摩尔曼斯克技能高爆弹Lv2",
+		damage = 10,
+		base = 65791
+	}
+	uv0.weapon_property_130[65793] = {
+		id = 65793,
+		name = "摩尔曼斯克技能高爆弹Lv3",
+		damage = 12,
+		base = 65791
+	}
+	uv0.weapon_property_130[65794] = {
+		id = 65794,
+		name = "摩尔曼斯克技能高爆弹Lv4",
+		damage = 14,
+		base = 65791
+	}
+	uv0.weapon_property_130[65795] = {
+		id = 65795,
+		name = "摩尔曼斯克技能高爆弹Lv5",
+		damage = 17,
+		base = 65791
+	}
+	uv0.weapon_property_130[65796] = {
+		id = 65796,
+		name = "摩尔曼斯克技能高爆弹Lv6",
+		damage = 20,
+		base = 65791
+	}
+	uv0.weapon_property_130[65797] = {
+		id = 65797,
+		name = "摩尔曼斯克技能高爆弹Lv7",
+		damage = 22,
+		base = 65791
+	}
+	uv0.weapon_property_130[65798] = {
+		id = 65798,
+		name = "摩尔曼斯克技能高爆弹Lv8",
+		damage = 24,
+		base = 65791
+	}
+	uv0.weapon_property_130[65799] = {
+		id = 65799,
+		name = "摩尔曼斯克技能高爆弹Lv9",
+		damage = 26,
+		base = 65791
+	}
+	uv0.weapon_property_130[65800] = {
+		id = 65800,
+		name = "摩尔曼斯克技能高爆弹Lv10",
+		damage = 28,
+		base = 65791
+	}
+	uv0.weapon_property_130[65801] = {
+		action_index = "",
+		range = 100,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "水星纪念改造技能弹幕Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 17,
+		corrected = 100,
+		min_range = 0,
+		id = 65801,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_130[65802] = {
+		name = "水星纪念改造技能弹幕Lv2",
+		damage = 19,
+		base = 65801,
+		id = 65802,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65803] = {
+		name = "水星纪念改造技能弹幕Lv3",
+		damage = 21,
+		base = 65801,
+		id = 65803,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65804] = {
+		name = "水星纪念改造技能弹幕Lv4",
+		damage = 23,
+		base = 65801,
+		id = 65804,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65805] = {
+		name = "水星纪念改造技能弹幕Lv5",
+		damage = 25,
+		base = 65801,
+		id = 65805,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65806] = {
+		name = "水星纪念改造技能弹幕Lv6",
+		damage = 27,
+		base = 65801,
+		id = 65806,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65807] = {
+		name = "水星纪念改造技能弹幕Lv7",
+		damage = 29,
+		base = 65801,
+		id = 65807,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65808] = {
+		name = "水星纪念改造技能弹幕Lv8",
+		damage = 31,
+		base = 65801,
+		id = 65808,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65809] = {
+		name = "水星纪念改造技能弹幕Lv9",
+		damage = 33,
+		base = 65801,
+		id = 65809,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65810] = {
+		name = "水星纪念改造技能弹幕Lv10",
+		damage = 35,
+		base = 65801,
+		id = 65810,
+		bullet_ID = {
+			19271,
+			19271,
+			19271,
+			19271,
+			19271
+		},
+		barrage_ID = {
+			81031,
+			81032,
+			81033,
+			81034,
+			81035
+		}
+	}
+	uv0.weapon_property_130[65811] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "基洛夫技能-无易伤点燃效果Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 22,
+		corrected = 118,
+		min_range = 0,
+		id = 65811,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19272
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_130[65812] = {
+		id = 65812,
+		name = "基洛夫技能-无易伤点燃效果Lv2",
+		damage = 29,
+		base = 65811
+	}
+	uv0.weapon_property_130[65813] = {
+		id = 65813,
+		name = "基洛夫技能-无易伤点燃效果Lv3",
+		damage = 36,
+		base = 65811
+	}
+	uv0.weapon_property_130[65814] = {
+		id = 65814,
+		name = "基洛夫技能-无易伤点燃效果Lv4",
+		damage = 43,
+		base = 65811
+	}
+	uv0.weapon_property_130[65815] = {
+		id = 65815,
+		name = "基洛夫技能-无易伤点燃效果Lv5",
+		damage = 50,
+		base = 65811
+	}
+	uv0.weapon_property_130[65816] = {
+		id = 65816,
+		name = "基洛夫技能-无易伤点燃效果Lv6",
+		damage = 57,
+		base = 65811
+	}
+	uv0.weapon_property_130[65817] = {
+		id = 65817,
+		name = "基洛夫技能-无易伤点燃效果Lv7",
+		damage = 64,
+		base = 65811
+	}
+	uv0.weapon_property_130[65818] = {
+		id = 65818,
+		name = "基洛夫技能-无易伤点燃效果Lv8",
+		damage = 71,
+		base = 65811
+	}
+	uv0.weapon_property_130[65819] = {
+		id = 65819,
+		name = "基洛夫技能-无易伤点燃效果Lv9",
+		damage = 78,
+		base = 65811
+	}
+	uv0.weapon_property_130[65820] = {
+		id = 65820,
+		name = "基洛夫技能-无易伤点燃效果Lv10",
+		damage = 85,
+		base = 65811
+	}
+	uv0.weapon_property_130[65821] = {
+		action_index = "attack",
+		range = 150,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "黑方舟技能-红蓝枪焰-枪Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 65821,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19278
+		},
+		barrage_ID = {
+			81045
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_130[65822] = {
+		id = 65822,
+		name = "黑方舟技能-红蓝枪焰-枪Lv2",
+		damage = 7,
+		base = 65821
+	}
+	uv0.weapon_property_130[65823] = {
+		id = 65823,
+		name = "黑方舟技能-红蓝枪焰-枪Lv3",
+		damage = 8,
+		base = 65821
+	}
+	uv0.weapon_property_130[65824] = {
+		id = 65824,
+		name = "黑方舟技能-红蓝枪焰-枪Lv4",
+		damage = 9,
+		base = 65821
+	}
+	uv0.weapon_property_130[65825] = {
+		name = "黑方舟技能-红蓝枪焰-枪Lv5",
+		damage = 10,
+		base = 65821,
+		id = 65825,
+		barrage_ID = {
+			81046
+		}
+	}
 	uv0.weapon_property_130[65826] = {
 		name = "黑方舟技能-红蓝枪焰-枪Lv6",
 		damage = 11,
@@ -340,339 +795,5 @@ function ()
 		barrage_ID = {
 			2143
 		}
-	}
-	uv0.weapon_property_130[65855] = {
-		id = 65855,
-		damage = 110,
-		base = 65851,
-		barrage_ID = {
-			2143
-		}
-	}
-	uv0.weapon_property_130[65856] = {
-		id = 65856,
-		damage = 122,
-		base = 65851,
-		barrage_ID = {
-			2143
-		}
-	}
-	uv0.weapon_property_130[65857] = {
-		id = 65857,
-		damage = 134,
-		base = 65851,
-		barrage_ID = {
-			81044
-		}
-	}
-	uv0.weapon_property_130[65858] = {
-		id = 65858,
-		damage = 146,
-		base = 65851,
-		barrage_ID = {
-			81044
-		}
-	}
-	uv0.weapon_property_130[65859] = {
-		id = 65859,
-		damage = 158,
-		base = 65851,
-		barrage_ID = {
-			81044
-		}
-	}
-	uv0.weapon_property_130[65860] = {
-		id = 65860,
-		damage = 174,
-		base = 65851,
-		barrage_ID = {
-			81044
-		}
-	}
-	uv0.weapon_property_130[65861] = {
-		action_index = "attack",
-		range = 30,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 65,
-		corrected = 100,
-		min_range = 0,
-		id = 65861,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 156,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_130[65862] = {
-		id = 65862,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv2",
-		damage = 73,
-		base = 65861
-	}
-	uv0.weapon_property_130[65863] = {
-		id = 65863,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv3",
-		damage = 81,
-		base = 65861
-	}
-	uv0.weapon_property_130[65864] = {
-		id = 65864,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv4",
-		damage = 90,
-		base = 65861
-	}
-	uv0.weapon_property_130[65865] = {
-		id = 65865,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv5",
-		damage = 98,
-		base = 65861
-	}
-	uv0.weapon_property_130[65866] = {
-		id = 65866,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv6",
-		damage = 106,
-		base = 65861
-	}
-	uv0.weapon_property_130[65867] = {
-		id = 65867,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv7",
-		damage = 115,
-		base = 65861
-	}
-	uv0.weapon_property_130[65868] = {
-		id = 65868,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv8",
-		damage = 123,
-		base = 65861
-	}
-	uv0.weapon_property_130[65869] = {
-		id = 65869,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv9",
-		damage = 132,
-		base = 65861
-	}
-	uv0.weapon_property_130[65870] = {
-		id = 65870,
-		name = "艾伦萨姆纳专属特殊额外防空炮Lv10",
-		damage = 142,
-		base = 65861
-	}
-	uv0.weapon_property_130[65871] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "艾伦萨姆纳技能弹幕Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 65871,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19279,
-			19279,
-			19279
-		},
-		barrage_ID = {
-			81047,
-			81048,
-			81049
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_130[65872] = {
-		id = 65872,
-		name = "艾伦萨姆纳技能弹幕Lv2",
-		damage = 15,
-		base = 65871
-	}
-	uv0.weapon_property_130[65873] = {
-		id = 65873,
-		name = "艾伦萨姆纳技能弹幕Lv3",
-		damage = 16,
-		base = 65871
-	}
-	uv0.weapon_property_130[65874] = {
-		id = 65874,
-		name = "艾伦萨姆纳技能弹幕Lv4",
-		damage = 17,
-		base = 65871
-	}
-	uv0.weapon_property_130[65875] = {
-		id = 65875,
-		name = "艾伦萨姆纳技能弹幕Lv5",
-		damage = 18,
-		base = 65871
-	}
-	uv0.weapon_property_130[65876] = {
-		id = 65876,
-		name = "艾伦萨姆纳技能弹幕Lv6",
-		damage = 20,
-		base = 65871
-	}
-	uv0.weapon_property_130[65877] = {
-		id = 65877,
-		name = "艾伦萨姆纳技能弹幕Lv7",
-		damage = 22,
-		base = 65871
-	}
-	uv0.weapon_property_130[65878] = {
-		id = 65878,
-		name = "艾伦萨姆纳技能弹幕Lv8",
-		damage = 24,
-		base = 65871
-	}
-	uv0.weapon_property_130[65879] = {
-		id = 65879,
-		name = "艾伦萨姆纳技能弹幕Lv9",
-		damage = 26,
-		base = 65871
-	}
-	uv0.weapon_property_130[65880] = {
-		id = 65880,
-		name = "艾伦萨姆纳技能弹幕Lv10",
-		damage = 30,
-		base = 65871
-	}
-	uv0.weapon_property_130[65881] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 35,
-		corrected = 100,
-		min_range = 0,
-		id = 65881,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19280
-		},
-		barrage_ID = {
-			81050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_130[65882] = {
-		id = 65882,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv2",
-		damage = 46,
-		base = 65881
-	}
-	uv0.weapon_property_130[65883] = {
-		id = 65883,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv3",
-		damage = 52,
-		base = 65881
-	}
-	uv0.weapon_property_130[65884] = {
-		id = 65884,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv4",
-		damage = 59,
-		base = 65881
-	}
-	uv0.weapon_property_130[65885] = {
-		id = 65885,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv5",
-		damage = 66,
-		base = 65881
-	}
-	uv0.weapon_property_130[65886] = {
-		id = 65886,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv6",
-		damage = 73,
-		base = 65881
-	}
-	uv0.weapon_property_130[65887] = {
-		id = 65887,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv7",
-		damage = 80,
-		base = 65881
-	}
-	uv0.weapon_property_130[65888] = {
-		id = 65888,
-		name = "艾伦萨姆纳技能弹幕鱼雷Lv8",
-		damage = 87,
-		base = 65881
 	}
 end()

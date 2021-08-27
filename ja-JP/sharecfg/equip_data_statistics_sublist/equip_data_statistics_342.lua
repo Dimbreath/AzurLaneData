@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_342 = {
+	[75211] = {
+		name = "全弹发射-特伦托级I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 75211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75211
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75212] = {
+		id = 75212,
+		name = "全弹发射-特伦托级II",
+		base = 75211,
+		weapon_id = {
+			75212
+		}
+	},
 	[75221] = {
 		name = "全弹发射-扎拉级I",
 		tech = 1,
@@ -348,53 +395,6 @@ pg.equip_data_statistics_342 = {
 		equip_info = {},
 		weapon_id = {
 			78031
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[78032] = {
-		id = 78032,
-		name = "全弹发射-沃克兰级II",
-		base = 78031,
-		weapon_id = {
-			78032
-		}
-	},
-	[78111] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 78111,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			78111
 		},
 		skill_id = {},
 		part_main = {

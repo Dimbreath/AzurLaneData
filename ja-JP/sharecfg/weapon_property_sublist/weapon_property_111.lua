@@ -2,6 +2,70 @@ pg = pg or {}
 pg.weapon_property_111 = {}
 
 function ()
+	uv0.weapon_property_111[64111] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "博伊西技能子弹弹幕LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 64111,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19301,
+			19301
+		},
+		barrage_ID = {
+			81097,
+			81098
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_111[64112] = {
+		id = 64112,
+		name = "博伊西技能子弹弹幕LV2",
+		damage = 5,
+		base = 64111
+	}
+	uv0.weapon_property_111[64113] = {
+		id = 64113,
+		name = "博伊西技能子弹弹幕LV3",
+		damage = 6,
+		base = 64111
+	}
+	uv0.weapon_property_111[64114] = {
+		id = 64114,
+		name = "博伊西技能子弹弹幕LV4",
+		damage = 6,
+		base = 64111
+	}
 	uv0.weapon_property_111[64115] = {
 		id = 64115,
 		name = "博伊西技能子弹弹幕LV5",
@@ -629,30 +693,6 @@ function ()
 		id = 64233,
 		name = "霞光之绊·改弹幕LV3",
 		damage = 12,
-		base = 64231
-	}
-	uv0.weapon_property_111[64234] = {
-		id = 64234,
-		name = "霞光之绊·改弹幕LV4",
-		damage = 13,
-		base = 64231
-	}
-	uv0.weapon_property_111[64235] = {
-		id = 64235,
-		name = "霞光之绊·改弹幕LV5",
-		damage = 14,
-		base = 64231
-	}
-	uv0.weapon_property_111[64236] = {
-		id = 64236,
-		name = "霞光之绊·改弹幕LV6",
-		damage = 15,
-		base = 64231
-	}
-	uv0.weapon_property_111[64237] = {
-		id = 64237,
-		name = "霞光之绊·改弹幕LV7",
-		damage = 16,
 		base = 64231
 	}
 end()

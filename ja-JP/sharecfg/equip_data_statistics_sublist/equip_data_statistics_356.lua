@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_356 = {
+	[85206] = {
+		id = 85206,
+		damage = "28/回",
+		base = 85200,
+		weapon_id = {
+			85206
+		}
+	},
+	[85220] = {
+		name = "37mm対空機関砲70-K",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "85180",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "14/回",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85221] = {
+		id = 85221,
+		damage = "17/回",
+		base = 85220,
+		weapon_id = {
+			85221
+		}
+	},
+	[85222] = {
+		id = 85222,
+		damage = "20/回",
+		base = 85220,
+		weapon_id = {
+			85222
+		}
+	},
 	[85223] = {
 		id = 85223,
 		damage = "23/回",
@@ -157,92 +243,6 @@ pg.equip_data_statistics_356 = {
 		base = 85260,
 		weapon_id = {
 			85263
-		}
-	},
-	[85264] = {
-		id = 85264,
-		damage = "59/回",
-		base = 85260,
-		weapon_id = {
-			85264
-		}
-	},
-	[85265] = {
-		id = 85265,
-		damage = "66/回",
-		base = 85260,
-		weapon_id = {
-			85265
-		}
-	},
-	[85266] = {
-		id = 85266,
-		damage = "73/回",
-		base = 85260,
-		weapon_id = {
-			85266
-		}
-	},
-	[85280] = {
-		name = "100mm連装高角砲B-54",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "85240",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "43/回",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85280,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85280
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
 		}
 	}
 }

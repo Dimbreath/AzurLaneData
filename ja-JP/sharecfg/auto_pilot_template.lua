@@ -257,6 +257,66 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15003] = {
+		id = 15003,
+		name = "角色用/技能用AI - 鹦鹉螺向前进随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 33,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
+	[15004] = {
+		id = 15004,
+		name = "角色用/技能用AI - 鹦鹉螺撤后随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -33,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",

@@ -12790,6 +12790,31 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40119] = {
+		drop_gold_max = 0,
+		name = "メンタルユニットパック",
+		display = "購入するとメンタルユニット×1000を入手できます",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "ChargeIcon/boxChips",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40119,
+		display_icon = {
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40901] = {
 		drop_gold_max = 0,
 		name = "福袋",
@@ -136257,6 +136282,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59229] = {
+		drop_gold_max = 0,
+		name = "銀翼バッジ",
+		display = "イベント「闇靄払う銀翼」報酬交換用アイテム。イベント終了後に削除される。",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/meixiv3_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59229,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59232] = {
 		drop_gold_max = 0,
 		name = "訓練Pt",
@@ -146863,6 +146907,7 @@ pg.item_data_statistics = {
 		40116,
 		40117,
 		40118,
+		40119,
 		40901,
 		40902,
 		40903,
@@ -149579,6 +149624,7 @@ pg.item_data_statistics = {
 		59225,
 		59226,
 		59227,
+		59229,
 		59232,
 		59233,
 		59601,

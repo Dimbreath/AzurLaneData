@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
+	[95449] = {
+		id = 95449,
+		damage = "15 x 4",
+		base = 95440,
+		weapon_id = {
+			95449
+		}
+	},
+	[95450] = {
+		id = 95450,
+		damage = "17 x 4",
+		base = 95440,
+		weapon_id = {
+			95450
+		}
+	},
+	[95451] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 95440,
+		id = 95451,
+		weapon_id = {
+			95451
+		}
+	},
+	[95460] = {
+		name = "120mm連装砲Model1933",
+		speciality = "追尾",
+		type = 1,
+		tech = 0,
+		descrip = "0",
+		value_2 = 12,
+		icon = "55460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 4",
+		nationality = 6,
+		ammo = 2,
+		value_3 = 0,
+		id = 95460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				2306
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2306
+			},
+			{
+				4,
+				1022
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95460
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"DD",
+			"MG"
+		}
+	},
 	[95461] = {
 		id = 95461,
 		base = 95460,
@@ -146,92 +237,6 @@ pg.equip_data_statistics_397 = {
 		base = 95480,
 		weapon_id = {
 			95485
-		}
-	},
-	[95486] = {
-		id = 95486,
-		damage = "80 x 3",
-		base = 95480,
-		weapon_id = {
-			95486
-		}
-	},
-	[95487] = {
-		id = 95487,
-		damage = "80 x 3",
-		base = 95480,
-		weapon_id = {
-			95487
-		}
-	},
-	[95500] = {
-		name = "37mm連装機銃Model1932",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "37mm連装機銃。対空兵装として使用可能",
-		value_2 = 5,
-		icon = "55500",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "15/回",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95500,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			95500
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"ST",
-			"AA"
-		}
-	},
-	[95501] = {
-		id = 95501,
-		damage = "17/回",
-		base = 95500,
-		weapon_id = {
-			95501
 		}
 	}
 }
