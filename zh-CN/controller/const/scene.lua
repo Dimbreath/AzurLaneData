@@ -26,55 +26,54 @@ SCENE = {
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
 	WORLDBOSS = "scene worldboss",
-	ITEM_ORIGIN_PAGE = "item special page",
+	SHOP = "scene shop",
 	NEWYEAR_SQUARE = "newyear square",
 	HOLOLIVE_MEDAL = "hololive medal",
 	MUSIC_FESTIVAL = "music festival",
-	SHOP = "scene shop",
-	DAILYLEVEL = "scene dailylevel",
 	SPRING_TOWN = "springfestival town",
-	SHIP_PROFILE = "ship profile",
+	DAILYLEVEL = "scene dailylevel",
 	ACT_BOSS_SPF = "act boss spf",
+	SHIP_PROFILE = "ship profile",
 	BACKYARD_THEME_TEMPLATE = "backyard theme template",
+	JIUJIU_EXPEDITION = "jiujiu expedition ",
 	TECHNOLOGY = "technology",
 	TRAININGCAMP = "trainingcamp",
-	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	ANSWER = "answer",
 	LINK_LINK = "link link",
 	EQUIPSYNTHESIS = "scene equip synthesis",
-	ANSWER = "answer",
+	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
 	EVENT = "scene event",
 	REFLUX = "reflux",
 	FRIEND = "scene friend",
-	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
+	WORLD_COLLECTION = "world collection",
 	CLASS = "scene class",
 	PROPINFO = "scene prop info",
-	WORLD_COLLECTION = "world collection",
+	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	PHYSICS2D_TEST = "physics2d test",
 	MAINUI = "scene mainUI",
 	MUSIC_FESTIVAL2 = "music festival 2",
-	ATTIRE = "scene attire",
+	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
-	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
+	DOALINK_ISLAND = "scene DOALink Island",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene back yard",
-	DOALINK_ISLAND = "scene DOALink Island",
 	REDPACKEY = "scene RED PACKEY",
-	BIANDUI = "scene biandui",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
-	TECHNOLOGY_TREE_SCENE = "technology tree scene",
-	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
+	BIANDUI = "scene biandui",
+	ATTIRE = "scene attire",
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
-	WORLD_FLEET_SELECT = "world fleet select",
+	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	AMUSEMENT_PARK = "amusement park",
+	WORLD_FLEET_SELECT = "world fleet select",
 	GUILD = "scene guild",
-	COLORING = "scene coloring",
 	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
+	COLORING = "scene coloring",
 	PUBLIC_GUILD = "public guild",
 	ACT_BOSS_BATTLE = "act boss battle",
 	CHUANWU = "scene shipyard",
@@ -86,6 +85,7 @@ SCENE = {
 	CREATE_PLAYER = "scene create player",
 	SNAPSHOT = "snapshot",
 	SELTECHNOLOGY = "seltechnology",
+	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
 	RESOLVESHIPS = "scene resolve ships",
 	EQUIPSCENE = "scene equip",
@@ -280,8 +280,8 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.WORLDBOSS then
 		slot0.mediator = WorldBossMediator
 		slot0.viewComponent = WorldBossScene
-	elseif slot1 == SCENE.ITEM_ORIGIN_PAGE then
-		slot2 = getSpecialItemPage(slot0.data.open_ui)
+	elseif slot1 == SCENE.INVITATION then
+		slot2 = SCENE.GetInvitationPage(slot0.data.itemVO)
 		slot0.mediator = slot2.mediator
 		slot0.viewComponent = slot2.viewComponent
 	elseif slot1 == SCENE.SUMMER_FEAST then
@@ -377,4 +377,57 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	end
 
 	slot0.scene = slot1
+end
+
+slot0 = {
+	login_santa = "AssignedShipUI2",
+	login_year = "AssignedShipUI",
+	shrine_year = "AssignedShipUI3",
+	greeting_year = "AssignedShipUI6"
+}
+
+function SCENE.GetInvitationPage(slot0)
+	slot1 = slot0:getTempCfgTable().open_ui[1]
+	slot2 = uv0[slot1]
+
+	class("TempAssignedShipScene", import("view.activity.AssignedShipScene")).getUIName = function (slot0)
+		return uv0
+	end
+
+	if slot1 == "greeting_year" then
+		function slot3.init(slot0)
+			uv0.super.init(slot0)
+
+			slot1 = slot0._tf
+			slot0.backBtn = slot1:Find("layer/top/back")
+			slot1 = slot0._tf
+			slot0.rtTitle = slot1:Find("layer/top/title")
+			slot1 = slot0.itemList
+
+			slot1:make(function (slot0, slot1, slot2)
+				slot3 = uv0.shipIdList[slot1 + 1]
+
+				if slot0 == UIItemList.EventUpdate then
+					GetImageSpriteFromAtlasAsync("extra_page/" .. uv0.style .. "/i_" .. slot3, "", slot2:Find("unselected/icon"))
+					GetImageSpriteFromAtlasAsync("extra_page/" .. uv0.style .. "/i_" .. slot3, "", slot2:Find("selected/icon"))
+					onToggle(uv0, slot2, function (slot0)
+						if slot0 and uv0.selectTarget ~= uv1 then
+							LeanTween.cancel(uv0.print)
+
+							if uv0.rtName then
+								LeanTween.cancel(uv0.rtName)
+							end
+
+							uv0:setSelectTarget(uv1)
+						end
+					end, SFX_PANEL)
+				end
+			end)
+		end
+	end
+
+	return {
+		mediator = AssignedShipMediator,
+		viewComponent = slot3
+	}
 end

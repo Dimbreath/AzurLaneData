@@ -5017,6 +5017,118 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[205] = {
+		can_rotate = 1,
+		describe = "嗯…水温正好！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/beimian",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "杯面浴桶",
+		advice = 0,
+		id = 205,
+		icon = "beimianicon",
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					21,
+					-47
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/beimian_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[206] = {
+		can_rotate = 1,
+		describe = "三分钟到啦！可以开动了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/beimianzhuo",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "用餐圆桌",
+		advice = 0,
+		id = 206,
+		icon = "beimianzhuoicon",
+		comfortable = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					111.4,
+					-61.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-92,
+					-65
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -65375,7 +65487,7 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-106.8,
+					-92.6,
 					-51.9
 				},
 				{
@@ -98794,6 +98906,8 @@ pg.furniture_data_template = {
 		199,
 		200,
 		203,
+		205,
+		206,
 		100001,
 		100002,
 		100003,

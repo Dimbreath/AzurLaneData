@@ -1,5 +1,112 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
+	[10600021] = {
+		ship_group = 1060002,
+		name = "礁石边的盛夏天使",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "嗯~…真是片美丽的海滩~完全不输维纳斯群岛啊~欸嘿嘿，夏日的炎炎热浪，都被这凉凉的海水驱散了呢~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "suixiang_2_doa",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 14,
+		bgm = "doa_huanzhuang",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "106",
+		skin_type = 4,
+		id = 10600021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "suixiang_2_doa",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70447,
+		voice_actor = 251,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.627,
+					1.036,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.619,
+					1.074,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10600030] = {
 		ship_group = 1060003,
 		name = "霞",

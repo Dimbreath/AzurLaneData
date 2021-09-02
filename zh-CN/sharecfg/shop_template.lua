@@ -1,38992 +1,7 @@
 pg = pg or {}
-pg.shop_template = {
-	{
-		group_type = 0,
-		resource_num = 100,
-		desc = "100钻石扩展装备容量+20",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "equip_bag_size",
-		group = 0,
-		num = 20,
-		discount = 0,
-		resource_type = 14,
-		id = 1,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石扩展船坞容量+10（船坞数量在0~1999时）",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "ship_bag_size",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 14,
-		id = 2,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			"count",
-			0,
-			1999
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石扩展后宅休息床位+1",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_exp_pos",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 3,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			{
-				"number",
-				2,
-				2
-			}
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石扩展后宅休息床位+1",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_exp_pos",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 4,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			{
-				"number",
-				3,
-				3
-			}
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 100,
-		desc = "扩展食物容量,前10次扩展每次消耗100钻石",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_food_max",
-		group = 0,
-		num = 2000,
-		discount = 0,
-		resource_type = 14,
-		id = 5,
-		genre = "backyard_food_extend",
-		discount_time = {},
-		limit_args = {
-			"count",
-			0,
-			9
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 200,
-		desc = "扩展食物容量,第11次以后扩展消耗200钻石",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_food_max",
-		group = 0,
-		num = 2000,
-		discount = 0,
-		resource_type = 14,
-		id = 6,
-		genre = "backyard_food_extend",
-		discount_time = {},
-		limit_args = {
-			"count",
-			10,
-			30
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = -1,
-		desc = "升级贸易港",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "tradingport_level",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 7,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = -1,
-		desc = "升级炼油厂",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "oilfield_level",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 8,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = -1,
-		desc = "商业街升级",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "shop_street_level",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 9,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = 50,
-		desc = "刷新商业街",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "shop_street_flash",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 10,
-		genre = "shop_street_upgrade",
-		discount_time = {},
-		limit_args = {
-			"count",
-			0,
-			3
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 100,
-		desc = "刷新商业街",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "shop_street_flash",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 11,
-		genre = "shop_street_upgrade",
-		discount_time = {},
-		limit_args = {
-			"count",
-			4,
-			9
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 100,
-		desc = "花费100钻石购买3000物资",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 3000,
-		discount = 0,
-		resource_type = 14,
-		id = 12,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			1
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 50,
-		desc = "花费50钻石购买500石油",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = -1,
-		discount = 0,
-		resource_type = 14,
-		id = 13,
-		genre = "buy_oil",
-		discount_time = {},
-		limit_args = {
-			"count",
-			0,
-			1
-		},
-		effect_args = {
-			2
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 100,
-		desc = "花费100钻石购买500石油",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = -1,
-		discount = 0,
-		resource_type = 14,
-		id = 14,
-		genre = "buy_oil",
-		discount_time = {},
-		limit_args = {
-			"count",
-			2,
-			5
-		},
-		effect_args = {
-			2
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 200,
-		desc = "花费200钻石购买500石油",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = -1,
-		discount = 0,
-		resource_type = 14,
-		id = 15,
-		genre = "buy_oil",
-		discount_time = {},
-		limit_args = {
-			"count",
-			6,
-			9
-		},
-		effect_args = {
-			2
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 400,
-		desc = "花费400钻石购买500石油",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = -1,
-		discount = 0,
-		resource_type = 14,
-		id = 16,
-		genre = "buy_oil",
-		discount_time = {},
-		limit_args = {
-			"count",
-			10,
-			15
-		},
-		effect_args = {
-			2
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石扩展后宅休息栏位+1",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_fix_pos",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 17,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = 800,
-		desc = "800钻石扩展后宅休息床位+1",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_exp_pos",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 18,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			{
-				"number",
-				4,
-				4
-			}
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买扩展后宅二层家具",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_floor",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 19,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			{
-				"count",
-				1,
-				1
-			},
-			{
-				"level",
-				3
-			}
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = -1,
-		desc = "升级大讲堂",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "class_room_level",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 20,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石开启战术学院第三技能学习栏位",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "skill_room_pos",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 21,
-		genre = "skill_room_upgrade",
-		discount_time = {
-			{
-				{
-					2018,
-					9,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {
-			{
-				"number",
-				2,
-				2
-			}
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 600,
-		desc = "1000钻石战术学院栏位+1",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "skill_room_pos",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 22,
-		genre = "skill_room_upgrade",
-		discount_time = {},
-		limit_args = {
-			{
-				"number",
-				3,
-				3
-			}
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石扩展指挥喵容量+10",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "commander_bag_size",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 14,
-		id = 23,
-		genre = "",
-		discount_time = {},
-		limit_args = {}
-	},
-	{
-		group_type = 0,
-		resource_num = 450,
-		desc = "花费450钻石购买15000物资",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 15000,
-		discount = 0,
-		resource_type = 14,
-		id = 24,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			1
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石扩展船坞容量+10（船坞数量在2000~2999时）",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "ship_bag_size",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 14,
-		id = 25,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			"count",
-			2000,
-			2999
-		}
-	},
-	{
-		group_type = 0,
-		resource_num = 1200,
-		desc = "1200钻石扩展后宅休息床位+1",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		effect_args = "dorm_exp_pos",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 26,
-		genre = "",
-		discount_time = {},
-		limit_args = {
-			{
-				"number",
-				5,
-				5
-			}
-		}
-	},
-	[21001] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买1个快速完成工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21001,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15003
-		}
-	},
-	[21002] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600物资购买1个舰艇攻击教材T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21002,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16001
-		}
-	},
-	[21003] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600物资购买1个舰艇防御教材T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21003,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16011
-		}
-	},
-	[21004] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600物资购买1个舰艇辅助教材T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21004,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16021
-		}
-	},
-	[21005] = {
-		group_type = 0,
-		resource_num = 750,
-		desc = "750物资购买1个通用部件T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21005,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17001
-		}
-	},
-	[21006] = {
-		group_type = 0,
-		resource_num = 750,
-		desc = "750物资购买1个主炮部件T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21006,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17011
-		}
-	},
-	[21007] = {
-		group_type = 0,
-		resource_num = 750,
-		desc = "750物资购买1个鱼雷部件T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21007,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17021
-		}
-	},
-	[21008] = {
-		group_type = 0,
-		resource_num = 750,
-		desc = "750物资购买1个防空炮部件T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21008,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17031
-		}
-	},
-	[21009] = {
-		group_type = 0,
-		resource_num = 750,
-		desc = "750物资购买1个舰载机部件T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21009,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17041
-		}
-	},
-	[21010] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "1200物资购买1个舰艇攻击教材T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21010,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16002
-		}
-	},
-	[21011] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "1200物资购买1个舰艇防御教材T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21011,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16012
-		}
-	},
-	[21012] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "1200物资购买1个舰艇辅助教材T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21012,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16022
-		}
-	},
-	[21013] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买1个通用部件T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21013,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17002
-		}
-	},
-	[21014] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买1个主炮部件T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21014,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17012
-		}
-	},
-	[21015] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买1个鱼雷部件T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21015,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17022
-		}
-	},
-	[21016] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买1个防空炮部件T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21016,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17032
-		}
-	},
-	[21017] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买1个舰载机部件T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21017,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17042
-		}
-	},
-	[21018] = {
-		group_type = 0,
-		resource_num = 2400,
-		desc = "2400物资购买1个舰艇攻击教材T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21018,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16003
-		}
-	},
-	[21019] = {
-		group_type = 0,
-		resource_num = 2400,
-		desc = "2400物资购买1个舰艇防御教材T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21019,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16013
-		}
-	},
-	[21020] = {
-		group_type = 0,
-		resource_num = 2400,
-		desc = "2400物资购买1个舰艇辅助教材T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21020,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16023
-		}
-	},
-	[21021] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000物资购买1个通用部件T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21021,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17003
-		}
-	},
-	[21022] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000物资购买1个主炮部件T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21022,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17013
-		}
-	},
-	[21023] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000物资购买1个鱼雷部件T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21023,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17023
-		}
-	},
-	[21024] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000物资购买1个防空炮部件T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21024,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17033
-		}
-	},
-	[21025] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000物资购买1个舰载机部件T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 21025,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			17043
-		}
-	},
-	[21026] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资购买1个心智模型",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 21026,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			20001
-		}
-	},
-	[21027] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300物资购买10个酸素可乐",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 1,
-		id = 21027,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50001
-		}
-	},
-	[21028] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "900物资购买10个秘制冷却水",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 1,
-		id = 21028,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50002
-		}
-	},
-	[21029] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500物资购买10个鱼雷天妇罗",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 1,
-		id = 21029,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50003
-		}
-	},
-	[21030] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000物资购买10个西瓜",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 1,
-		id = 21030,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50004
-		}
-	},
-	[21031] = {
-		group_type = 0,
-		resource_num = 6000,
-		desc = "6000物资购买10个皇家料理",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 1,
-		id = 21031,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50005
-		}
-	},
-	[21032] = {
-		group_type = 0,
-		resource_num = 12000,
-		desc = "12000物资购买10个满汉全席",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 1,
-		id = 21032,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50006
-		}
-	},
-	[23001] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000功勋兑换1个心智模型",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 23001,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			20001
-		}
-	},
-	[24001] = {
-		group_type = 0,
-		resource_num = 20,
-		desc = "20钻石购买1个快速完成工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24001,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15003
-		}
-	},
-	[24002] = {
-		group_type = 0,
-		resource_num = 40,
-		desc = "40钻石购买2个快速完成工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 2,
-		discount = 0,
-		resource_type = 14,
-		id = 24002,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15003
-		}
-	},
-	[24003] = {
-		group_type = 0,
-		resource_num = 30,
-		desc = "30钻石购买1个心智模型",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24003,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			20001
-		}
-	},
-	[24004] = {
-		group_type = 0,
-		resource_num = 60,
-		desc = "60钻石购买2个心智模型",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 2,
-		discount = 0,
-		resource_type = 14,
-		id = 24004,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			20001
-		}
-	},
-	[24005] = {
-		group_type = 0,
-		resource_num = 20,
-		desc = "20钻石购买1个舰艇攻击教材T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24005,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16001
-		}
-	},
-	[24006] = {
-		group_type = 0,
-		resource_num = 20,
-		desc = "20钻石购买1个舰艇防御教材T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24006,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16011
-		}
-	},
-	[24007] = {
-		group_type = 0,
-		resource_num = 20,
-		desc = "20钻石购买1个舰艇辅助教材T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24007,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16021
-		}
-	},
-	[24008] = {
-		group_type = 0,
-		resource_num = 40,
-		desc = "40钻石购买1个舰艇攻击教材T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24008,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16002
-		}
-	},
-	[24009] = {
-		group_type = 0,
-		resource_num = 40,
-		desc = "40钻石购买1个舰艇防御教材T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24009,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16012
-		}
-	},
-	[24010] = {
-		group_type = 0,
-		resource_num = 40,
-		desc = "40钻石购买1个舰艇辅助教材T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24010,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16022
-		}
-	},
-	[24011] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80钻石购买1个舰艇攻击教材T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24011,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16003
-		}
-	},
-	[24012] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80钻石购买1个舰艇防御教材T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24012,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16013
-		}
-	},
-	[24013] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80钻石购买1个舰艇辅助教材T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 24013,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			16023
-		}
-	},
-	[31011] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80物资兑换1个克洛希德科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31011,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30011
-		}
-	},
-	[31012] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换1个克洛希德科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31012,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30012
-		}
-	},
-	[31013] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换1个克洛希德科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31013,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30013
-		}
-	},
-	[31014] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000物资兑换1个克洛希德科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31014,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30014
-		}
-	},
-	[31111] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换5个克洛希德科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31111,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30011
-		}
-	},
-	[31112] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换5个克洛希德科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31112,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30012
-		}
-	},
-	[31113] = {
-		group_type = 0,
-		resource_num = 10000,
-		desc = "10000物资兑换5个克洛希德科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31113,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30013
-		}
-	},
-	[31114] = {
-		group_type = 0,
-		resource_num = 25000,
-		desc = "25000物资兑换5个克洛希德科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31114,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30014
-		}
-	},
-	[31021] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80物资兑换1个威斯克科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31021,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30021
-		}
-	},
-	[31022] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换1个威斯克科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31022,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30022
-		}
-	},
-	[31023] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换1个威斯克科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31023,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30023
-		}
-	},
-	[31024] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000物资兑换1个威斯克科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31024,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30024
-		}
-	},
-	[31121] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换5个威斯克科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31121,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30021
-		}
-	},
-	[31122] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换5个威斯克科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31122,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30022
-		}
-	},
-	[31123] = {
-		group_type = 0,
-		resource_num = 10000,
-		desc = "10000物资兑换5个威斯克科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31123,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30023
-		}
-	},
-	[31124] = {
-		group_type = 0,
-		resource_num = 25000,
-		desc = "25000物资兑换5个威斯克科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31124,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30024
-		}
-	},
-	[31031] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80物资兑换1个藏王重工科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31031,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30031
-		}
-	},
-	[31032] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换1个藏王重工科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31032,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30032
-		}
-	},
-	[31033] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换1个藏王重工科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31033,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30033
-		}
-	},
-	[31034] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000物资兑换1个藏王重工科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31034,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30034
-		}
-	},
-	[31131] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换5个藏王重工科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31131,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30031
-		}
-	},
-	[31132] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换5个藏王重工科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31132,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30032
-		}
-	},
-	[31133] = {
-		group_type = 0,
-		resource_num = 10000,
-		desc = "10000物资兑换5个藏王重工科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31133,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30033
-		}
-	},
-	[31134] = {
-		group_type = 0,
-		resource_num = 25000,
-		desc = "25000物资兑换5个藏王重工科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31134,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30034
-		}
-	},
-	[31041] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80物资兑换1个伯鲁克科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31041,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30041
-		}
-	},
-	[31042] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换1个伯鲁克科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31042,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30042
-		}
-	},
-	[31043] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换1个伯鲁克科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31043,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30043
-		}
-	},
-	[31044] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000物资兑换1个伯鲁克科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31044,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30044
-		}
-	},
-	[31141] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "400物资兑换5个伯鲁克科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31141,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30041
-		}
-	},
-	[31142] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000物资兑换5个伯鲁克科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31142,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30042
-		}
-	},
-	[31143] = {
-		group_type = 0,
-		resource_num = 10000,
-		desc = "10000物资兑换5个伯鲁克科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31143,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30043
-		}
-	},
-	[31144] = {
-		group_type = 0,
-		resource_num = 25000,
-		desc = "25000物资兑换5个伯鲁克科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 1,
-		id = 31144,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30044
-		}
-	},
-	[31973] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个牛仔外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31973,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30328
-		}
-	},
-	[31974] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个偶像大师外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31974,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30327
-		}
-	},
-	[31975] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个游乐园外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31975,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30326
-		}
-	},
-	[31976] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个春节外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31976,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30325
-		}
-	},
-	[31977] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个铁血外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31977,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30324
-		}
-	},
-	[31978] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个DOA外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31978,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30323
-		}
-	},
-	[31979] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个激唱外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31979,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30322
-		}
-	},
-	[31980] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个信浓外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31980,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30321
-		}
-	},
-	[31981] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个英系v2外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31981,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30320
-		}
-	},
-	[31982] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个法系v2外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31982,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30319
-		}
-	},
-	[31983] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个白鹰联动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31983,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30318
-		}
-	},
-	[31984] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个苏联联动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31984,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30317
-		}
-	},
-	[31985] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个hololive联动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31985,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30316
-		}
-	},
-	[31986] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个偶像活动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31986,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30315
-		}
-	},
-	[31987] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个意大利联动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31987,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30314
-		}
-	},
-	[31988] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个绊爱联动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31988,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30313
-		}
-	},
-	[31989] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31989,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30312
-		}
-	},
-	[31990] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31990,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30311
-		}
-	},
-	[31991] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31991,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30310
-		}
-	},
-	[31992] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31992,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30309
-		}
-	},
-	[31993] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31993,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30308
-		}
-	},
-	[31994] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31994,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30307
-		}
-	},
-	[31995] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31995,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30306
-		}
-	},
-	[31996] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31996,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30305
-		}
-	},
-	[31997] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31997,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30304
-		}
-	},
-	[31998] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个海王星联动外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31998,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30303
-		}
-	},
-	[31999] = {
-		group_type = 0,
-		resource_num = 7000,
-		desc = "7000物资兑换1个外观装备箱",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 1,
-		id = 31999,
-		genre = "shopping_street",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30302
-		}
-	},
-	[33011] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "100功勋兑换1个克洛希德科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33011,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30011
-		}
-	},
-	[33012] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300功勋兑换1个克洛希德科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33012,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30012
-		}
-	},
-	[33013] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600功勋兑换1个克洛希德科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33013,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30013
-		}
-	},
-	[33014] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500功勋兑换1个克洛希德科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33014,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30014
-		}
-	},
-	[33021] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "100功勋兑换1个威斯克科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33021,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30021
-		}
-	},
-	[33022] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300功勋兑换1个威斯克科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33022,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30022
-		}
-	},
-	[33023] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600功勋兑换1个威斯克科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33023,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30023
-		}
-	},
-	[33024] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500功勋兑换1个威斯克科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33024,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30024
-		}
-	},
-	[33031] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "100功勋兑换1个藏王重工科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33031,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30031
-		}
-	},
-	[33032] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300功勋兑换1个藏王重工科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33032,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30032
-		}
-	},
-	[33033] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600功勋兑换1个藏王重工科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33033,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30033
-		}
-	},
-	[33034] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500功勋兑换1个藏王重工科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33034,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30034
-		}
-	},
-	[33041] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "100功勋兑换1个伯鲁克科技箱T1",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33041,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30041
-		}
-	},
-	[33042] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300功勋兑换1个伯鲁克科技箱T2",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33042,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30042
-		}
-	},
-	[33043] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600功勋兑换1个伯鲁克科技箱T3",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33043,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30043
-		}
-	},
-	[33044] = {
-		group_type = 0,
-		resource_num = 1500,
-		desc = "1500功勋兑换1个伯鲁克科技箱T4",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 33044,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			30044
-		}
-	},
-	[43001] = {
-		group_type = 0,
-		resource_num = 20000,
-		desc = "20000功勋兑换埃尔德里奇",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43001,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101261
-		}
-	},
-	[43002] = {
-		group_type = 0,
-		resource_num = 20000,
-		desc = "20000功勋兑换南达科他",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43002,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			105141
-		}
-	},
-	[43003] = {
-		group_type = 0,
-		resource_num = 3000,
-		desc = "3000功勋兑换泛用型布里",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43003,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			100001
-		}
-	},
-	[43004] = {
-		group_type = 0,
-		resource_num = 15000,
-		desc = "15000功勋兑换试作型布里MKII",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43004,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			100011
-		}
-	},
-	[43005] = {
-		group_type = 0,
-		resource_num = 20000,
-		desc = "20000功勋兑换大青花鱼",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43005,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108021
-		}
-	},
-	[43006] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000功勋兑换黑潮",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43006,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301271
-		}
-	},
-	[43007] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000功勋兑换亲潮",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43007,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301281
-		}
-	},
-	[43008] = {
-		group_type = 0,
-		resource_num = 4000,
-		desc = "4000功勋兑换格伦维尔",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43008,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201131
-		}
-	},
-	[43009] = {
-		group_type = 0,
-		resource_num = 8000,
-		desc = "8000功勋兑换昆西",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43009,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103091
-		}
-	},
-	[43010] = {
-		group_type = 0,
-		resource_num = 8000,
-		desc = "8000功勋兑换文森斯",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43010,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103101
-		}
-	},
-	[43011] = {
-		group_type = 0,
-		resource_num = 20000,
-		desc = "20000功勋兑换英王乔治五世",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43011,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205051
-		}
-	},
-	[43012] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "5000功勋兑换回声",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43012,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201291
-		}
-	},
-	[43013] = {
-		group_type = 0,
-		resource_num = 8000,
-		desc = "8000功勋兑换Z26",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43013,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401261
-		}
-	},
-	[43014] = {
-		group_type = 0,
-		resource_num = 8000,
-		desc = "8000功勋兑换Z36",
-		type = 4,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3,
-		id = 43014,
-		genre = "arena_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401361
-		}
-	},
-	[50002] = {
-		group_type = 0,
-		resource_num = 50,
-		desc = "50钻石购买1个快速建造工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 50002,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15003
-		}
-	},
-	[50003] = {
-		group_type = 0,
-		resource_num = 50,
-		desc = "50钻石购买1个休息加速工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 50003,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15004
-		}
-	},
-	[50004] = {
-		group_type = 0,
-		resource_num = 10,
-		desc = "10石油购买1个酸素可乐",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 2,
-		id = 50004,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50001
-		}
-	},
-	[50005] = {
-		group_type = 0,
-		resource_num = 20,
-		desc = "20石油购买1个秘制冷却水",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 2,
-		id = 50005,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50002
-		}
-	},
-	[50006] = {
-		group_type = 0,
-		resource_num = 30,
-		desc = "30石油购买1个鱼雷天妇罗",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 2,
-		id = 50006,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50003
-		}
-	},
-	[50007] = {
-		group_type = 0,
-		resource_num = 50,
-		desc = "50石油购买1个西瓜",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 2,
-		id = 50007,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50004
-		}
-	},
-	[50008] = {
-		group_type = 0,
-		resource_num = 10,
-		desc = "10钻石购买1个皇家料理",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 50008,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50005
-		}
-	},
-	[50009] = {
-		group_type = 0,
-		resource_num = 20,
-		desc = "20钻石购买1个满汉全席",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 50009,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			50006
-		}
-	},
-	[50011] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "100家具币购买一个扩展证",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 6,
-		id = 50011,
-		genre = "backyard_upgrade",
-		discount_time = {},
-		limit_args = {
-			{
-				"count",
-				0,
-				0
-			}
-		},
-		effect_args = {
-			15005
-		}
-	},
-	[50012] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500家具币购买一个扩展证",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 6,
-		id = 50012,
-		genre = "backyard_upgrade",
-		discount_time = {},
-		limit_args = {
-			{
-				"count",
-				1,
-				1
-			}
-		},
-		effect_args = {
-			15005
-		}
-	},
-	[50013] = {
-		group_type = 0,
-		resource_num = 1000,
-		desc = "1000家具币购买一个扩展证",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 6,
-		id = 50013,
-		genre = "backyard_upgrade",
-		discount_time = {},
-		limit_args = {
-			{
-				"count",
-				2,
-				2
-			}
-		},
-		effect_args = {
-			15005
-		}
-	},
-	[60001] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石购买10级礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60001,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				10
-			},
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40005
-		}
-	},
-	[60002] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600钻石购买20级礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60002,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				20
-			},
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40006
-		}
-	},
-	[60003] = {
-		group_type = 0,
-		resource_num = 1000,
-		desc = "1000钻石购买30级礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60003,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				30
-			},
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40007
-		}
-	},
-	[60004] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000钻石购买50级礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60004,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				50
-			},
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40008
-		}
-	},
-	[60005] = {
-		group_type = 1,
-		resource_num = 400,
-		desc = "400钻石购买1个日常补给礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 1,
-		group_buy_count = 1,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 1,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60005,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			40009
-		}
-	},
-	[60006] = {
-		group_type = 1,
-		resource_num = 900,
-		desc = "900钻石购买1个高科技补给礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 1,
-		group_buy_count = 1,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 2,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60006,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		effect_args = {
-			40010
-		}
-	},
-	[60007] = {
-		group_type = 0,
-		resource_num = 2000,
-		desc = "2000钻石购买70级礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60007,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				70
-			},
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40011
-		}
-	},
-	[60101] = {
-		group_type = 1,
-		resource_num = 600,
-		desc = "600钻石购买限时建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 2,
-		group_buy_count = 1,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 3,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60101,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			40001
-		}
-	},
-	[60102] = {
-		group_type = 0,
-		resource_num = 233,
-		desc = "233钻石购买bilibili特别补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60102,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40002
-		}
-	},
-	[60103] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石购买夏日特别补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60103,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40003
-		},
-		time = {
-			{
-				{
-					2017,
-					7,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2017,
-					8,
-					22
-				},
-				{
-					13,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60104] = {
-		group_type = 1,
-		resource_num = 980,
-		desc = "980钻石购买夏日建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 2,
-		group_buy_count = 1,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 4,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60104,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			40004
-		},
-		time = {
-			{
-				{
-					2017,
-					7,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2017,
-					8,
-					22
-				},
-				{
-					13,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60105] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60105,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2017,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2017,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60106] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石购买红染攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60106,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40003
-		},
-		time = {
-			{
-				{
-					2017,
-					9,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2017,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60107] = {
-		group_type = 1,
-		resource_num = 980,
-		desc = "980钻石购买红染建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 2,
-		group_buy_count = 1,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 5,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60107,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			40004
-		},
-		time = {
-			{
-				{
-					2017,
-					9,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2017,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60108] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60108,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40101
-		},
-		time = {
-			{
-				{
-					2017,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60114] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "200钻石购买攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60114,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40105
-		},
-		time = {
-			{
-				{
-					2017,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60115] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60115,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40104
-		},
-		time = {
-			{
-				{
-					2017,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60117] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60117,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2017,
-					10,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60118] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60118,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		}
-	},
-	[60119] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60119,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40104
-		}
-	},
-	[60120] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "200钻石购买凛冬王冠攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60120,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40105
-		}
-	},
-	[60121] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买凛冬王冠建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60121,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40104
-		}
-	},
-	[60122] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "200钻石购买红染攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60122,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40105
-		}
-	},
-	[60123] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买红染建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60123,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40104
-		}
-	},
-	[60124] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60124,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40105
-		},
-		time = {
-			{
-				{
-					2018,
-					5,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					5,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60125] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石购买长门陆奥攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60125,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40107
-		},
-		time = {
-			{
-				{
-					2018,
-					6,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60126] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买长门陆奥建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60126,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40108
-		},
-		time = {
-			{
-				{
-					2018,
-					6,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60127] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60127,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2018,
-					6,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60128] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石购买异色格攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60128,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40109
-		},
-		time = {
-			{
-				{
-					2018,
-					6,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					7,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60129] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买异色格建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60129,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40110
-		},
-		time = {
-			{
-				{
-					2018,
-					6,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					7,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60130] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60130,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40105
-		},
-		time = {
-			{
-				{
-					2018,
-					7,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					7,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60131] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买法系攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60131,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40111
-		}
-	},
-	[60132] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买法系建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60132,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40112
-		}
-	},
-	[60133] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60133,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2018,
-					9,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60134] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买周年庆攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60134,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40105
-		},
-		time = {
-			{
-				{
-					2018,
-					9,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60135] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买坠落之翼攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60135,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40113
-		},
-		time = {
-			{
-				{
-					2018,
-					10,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					11,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60136] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买坠落之翼建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60136,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40114
-		},
-		time = {
-			{
-				{
-					2018,
-					10,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					11,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60137] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买梦幻的交汇攻略补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60137,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40115
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60138] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买梦幻的交汇建造补给",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60138,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40116
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60139] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（传颂之物）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60139,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60140] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（斯佩二次复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60140,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60141] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（斯佩二次复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60141,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60142] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（龙骧）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60142,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60143] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（龙骧）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60143,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60144] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（天城活动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60144,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60145] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（天城活动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60145,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60146] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（天城活动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60146,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60147] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（天城活动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60147,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60148] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（英系复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60148,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60149] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（英系复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60149,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60150] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（2019春节）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60150,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60151] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（情人节）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60151,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60152] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（埃塞克斯世界BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60152,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60153] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（埃塞克斯世界BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60153,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60154] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（纳尔维克）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60154,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60155] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（13章）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60155,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60156] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（长门复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60156,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60157] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（长门复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60157,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60158] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（爱酱联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60158,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60159] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（爱酱联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60159,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60160] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（国服二周年俾斯麦）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60160,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					5,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60161] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（国服二周年俾斯麦）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60161,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					5,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60162] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（国服二周年俾斯麦）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60162,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2019,
-					5,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60163] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（国服二周年V3）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60163,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2019,
-					5,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60164] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（法系复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60164,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60165] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（法系复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60165,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60166] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（新美系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60166,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60167] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（新美系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60167,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60168] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（日服周年骏河BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60168,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					9,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					9,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60169] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（日服周年骏河BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60169,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					9,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					9,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60170] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（日服周年V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60170,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2019,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60171] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（U110）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60171,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60172] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（偶像一期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60172,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60173] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（偶像一期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60173,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60174] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（偶像一期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60174,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60175] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（hololive联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60175,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60176] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（hololive联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60176,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60177] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（hololive联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60177,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60178] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（日系新年能代龙凤）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60178,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60179] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（日系新年能代龙凤）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60179,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60180] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（日系新年能代龙凤）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60180,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60181] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（日系新年能代龙凤）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60181,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60182] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（黛朵世界BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60182,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60183] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（黛朵世界BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60183,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60184] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（黛朵世界BOSS）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60184,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60185] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（毛子一期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60185,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60186] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（毛子一期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60186,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60187] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（毛子一期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60187,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60188] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（龙骧复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60188,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60189] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（美系V3）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60189,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60190] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（美系V3）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60190,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60191] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（美系V3）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60191,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60192] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（天城复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60192,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60193] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（天城复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60193,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60194] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（法系SP）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60194,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60195] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（国服三周年法系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60195,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60196] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（国服三周年法系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60196,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60197] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（国服三周年法系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60197,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60198] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（国服周年V3英系SP）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60198,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60199] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（国服周年V3英系SP）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60199,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60200] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（埃塞克斯世界BOSS复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60200,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60201] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（埃塞克斯世界BOSS复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60201,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60202] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（英系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60202,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60203] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（英系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60203,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60204] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（英系V2）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60204,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60205] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（俾斯麦复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60205,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60206] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（俾斯麦复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60206,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60207] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（俾斯麦复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60207,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60208] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（日服三周年信浓）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60208,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60209] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（日服三周年信浓）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60209,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60210] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（日服三周年信浓）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60210,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60211] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（日服三周年V3）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60211,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60212] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（普林斯顿SP）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60212,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60213] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（偶像二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60213,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60214] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（偶像二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60214,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60215] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（偶像二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60215,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60216] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（纳尔维克复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60216,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					11,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60217] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（DOA联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60217,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60218] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（DOA联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60218,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60219] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（DOA联动）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60219,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					11,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60223] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（德系V3新年版本）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60223,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60224] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（德系V3新年版本）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60224,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60225] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（德系V3新年版本）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60225,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60226] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（德系V3新年版本）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60226,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				10
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60227] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（意大利复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60227,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60228] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（意大利复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60228,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60229] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（意大利复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60229,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60230] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（2021春节）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60230,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60231] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（2021春节）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60231,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60232] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（北联二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60232,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60233] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（北联二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60233,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60234] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（北联二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60234,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60235] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（箱庭疗法复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60235,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60236] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（箱庭疗法复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60236,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60237] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（意大利二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60237,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60238] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（意大利二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60238,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60239] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（意大利二期）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60239,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60250] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（新泽西）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60250,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60251] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（新泽西）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60251,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60252] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（新泽西）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60252,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60240] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（塔尔图SP复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60240,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60253] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（四周年第三弹）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60253,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60254] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（龙凤复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60254,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60255] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（龙凤复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60255,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60256] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（龙凤复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60256,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60257] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（骏河BOSS复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60257,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60258] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时礼包-比翼双飞（814七夕）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60258,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40100
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60260] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（偶像大师）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60260,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60261] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（偶像大师）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60261,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60262] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（偶像大师）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60262,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60265] = {
-		group_type = 0,
-		resource_num = 120,
-		desc = "120钻石购买限时攻略补给（微层混合复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60265,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				5
-			}
-		},
-		effect_args = {
-			40117
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60266] = {
-		group_type = 0,
-		resource_num = 980,
-		desc = "980钻石购买限时建造补给（微层混合复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60266,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40118
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60267] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包（微层混合复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60267,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[60268] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石购买心智单元礼包（微层混合复刻）",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 60268,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			40119
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[61001] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石扩展船坞容量+10（船坞数量在0~1999时）",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "always",
-		effect_args = "ship_bag_size",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 14,
-		id = 61001,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {
-			"count",
-			0,
-			1999
-		}
-	},
-	[61002] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "100钻石扩展装备容量+20",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		time = "always",
-		effect_args = "equip_bag_size",
-		group = 0,
-		num = 20,
-		discount = 0,
-		resource_type = 14,
-		id = 61002,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {}
-	},
-	[61003] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石购买11个心智魔方",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 11,
-		discount = 0,
-		resource_type = 14,
-		id = 61003,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			20001
-		}
-	},
-	[61004] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石购买11个快速完成工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 11,
-		discount = 0,
-		resource_type = 14,
-		id = 61004,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15003
-		}
-	},
-	[61005] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "花费100钻石购买3000物资",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		time = "always",
-		group = 0,
-		num = 3000,
-		discount = 0,
-		resource_type = 14,
-		id = 61005,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			1
-		}
-	},
-	[61006] = {
-		group_type = 0,
-		resource_num = 450,
-		desc = "花费450钻石购买15000物资",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		time = "always",
-		group = 0,
-		num = 15000,
-		discount = 0,
-		resource_type = 14,
-		id = 61006,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			1
-		}
-	},
-	[61007] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "600钻石购买1个誓约之戒",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 61007,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15006
-		}
-	},
-	[61008] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石购买11个心智魔方",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 11,
-		discount = 0,
-		resource_type = 14,
-		id = 61008,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			20001
-		}
-	},
-	[61009] = {
-		group_type = 0,
-		resource_num = 200,
-		desc = "200钻石购买11个快速完成工具",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 11,
-		discount = 0,
-		resource_type = 14,
-		id = 61009,
-		genre = "",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15003
-		}
-	},
-	[61010] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石购买1个改名卡",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 61010,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			15009
-		}
-	},
-	[61011] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "500钻石购买家具币礼包",
-		type = 2,
-		is_auto_use = 1,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 61011,
-		genre = "gift_package",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			40106
-		},
-		time = {
-			{
-				{
-					2018,
-					9,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[61012] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "80钻石扩展猫窝容量+5",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "always",
-		effect_args = "commander_bag_size",
-		group = 0,
-		num = 5,
-		discount = 0,
-		resource_type = 14,
-		id = 61012,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {
-			{
-				"level",
-				40
-			}
-		}
-	},
-	[61013] = {
-		group_type = 0,
-		resource_num = 300,
-		desc = "300钻石扩展船坞容量+10（船坞数量在2000~2999时）",
-		type = 0,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "always",
-		effect_args = "ship_bag_size",
-		group = 0,
-		num = 10,
-		discount = 0,
-		resource_type = 14,
-		id = 61013,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {
-			"count",
-			2000,
-			2999
-		}
-	},
-	[61014] = {
-		group_type = 3,
-		resource_num = 600,
-		desc = "60钻石购买100心智单元（1~5次）",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 15,
-		group_buy_count = 1,
-		tag = 0,
-		time_second = 0,
-		order = 11,
-		time = "always",
-		group = 6,
-		num = 300,
-		discount = 70,
-		resource_type = 14,
-		id = 61014,
-		genre = "gem_shop",
-		discount_time = "always",
-		limit_args = {},
-		limit_args2 = {
-			{
-				"purchase",
-				0,
-				5
-			}
-		},
-		effect_args = {
-			15008
-		}
-	},
-	[61015] = {
-		group_type = 3,
-		resource_num = 600,
-		desc = "120钻石购买100心智单元（6~10次）",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 15,
-		group_buy_count = 1,
-		tag = 0,
-		time_second = 0,
-		order = 11,
-		time = "always",
-		group = 6,
-		num = 300,
-		discount = 40,
-		resource_type = 14,
-		id = 61015,
-		genre = "gem_shop",
-		discount_time = "always",
-		limit_args = {},
-		limit_args2 = {
-			{
-				"purchase",
-				6,
-				10
-			}
-		},
-		effect_args = {
-			15008
-		}
-	},
-	[61016] = {
-		group_type = 3,
-		resource_num = 600,
-		desc = "200钻石购买100心智单元（11~15次）",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 15,
-		group_buy_count = 1,
-		tag = 0,
-		time_second = 0,
-		order = 11,
-		time = "always",
-		group = 6,
-		num = 300,
-		discount = 0,
-		resource_type = 14,
-		id = 61016,
-		genre = "gem_shop",
-		discount_time = {},
-		limit_args = {},
-		limit_args2 = {
-			{
-				"purchase",
-				11,
-				15
-			}
-		},
-		effect_args = {
-			15008
-		}
-	},
-	[70001] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:虚幻的幸福",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70001,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			213011
-		}
-	},
-	[70002] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:沙滩狂想曲",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70002,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			303112
-		}
-	},
-	[70003] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:乐园的彼岸花",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70003,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307011
-		}
-	},
-	[70004] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:常夏的杀生石",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70004,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307021
-		}
-	},
-	[70005] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:照耀太阳的淑女",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70005,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			204031
-		}
-	},
-	[70006] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "购买皮肤:进击，伊490！",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70006,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301151
-		}
-	},
-	[70007] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:七海的憩日",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70007,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			107031
-		}
-	},
-	[70008] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:未来的海滨上将",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70008,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			205041
-		}
-	},
-	[70009] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:盛夏进行曲",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70009,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			303121
-		}
-	},
-	[70010] = {
-		group_type = 0,
-		resource_num = 500,
-		desc = "购买皮肤:游兴之夏",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70010,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			502031
-		}
-	},
-	[70011] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:阳光照耀着温莎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70011,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			205061
-		}
-	},
-	[70012] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:小小的夏日战争",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70012,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			101251
-		}
-	},
-	[70013] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:月宫玉兔（2020.1.14国服下架）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70013,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					9,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					9,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			502022
-		}
-	},
-	[70014] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:桂花玉兔（2020.1.14国服下架）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70014,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					9,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					9,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			502032
-		}
-	},
-	[70017] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:万圣节·祥凤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70017,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			306051
-		}
-	},
-	[70018] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:万圣节·克利夫兰",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70018,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102091
-		}
-	},
-	[70019] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:万圣节·绫波",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70019,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301051
-		}
-	},
-	[70020] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:万圣节·阳炎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70020,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301171
-		}
-	},
-	[70021] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:下午茶光辉",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70021,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207031
-		}
-	},
-	[70022] = {
-		group_type = 0,
-		resource_num = 650,
-		desc = "购买皮肤:下午茶雷",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70022,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301111
-		}
-	},
-	[70023] = {
-		group_type = 0,
-		resource_num = 650,
-		desc = "购买皮肤:下午茶电",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70023,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301121
-		}
-	},
-	[70024] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:埃尔德里奇圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70024,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			101261
-		}
-	},
-	[70025] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:企业圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70025,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			107061
-		}
-	},
-	[70026] = {
-		group_type = 0,
-		resource_num = 680,
-		desc = "购买皮肤:山城圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70026,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			305022
-		}
-	},
-	[70027] = {
-		group_type = 0,
-		resource_num = 680,
-		desc = "购买皮肤:小天鹅圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70027,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			201102
-		}
-	},
-	[70028] = {
-		group_type = 0,
-		resource_num = 680,
-		desc = "购买皮肤:圣地亚哥圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70028,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102081
-		}
-	},
-	[70029] = {
-		group_type = 0,
-		resource_num = 600,
-		desc = "购买皮肤:睦月圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70029,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301321
-		}
-	},
-	[70030] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:爱宕春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70030,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			303122
-		}
-	},
-	[70031] = {
-		group_type = 0,
-		resource_num = 680,
-		desc = "购买皮肤:苍龙春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70031,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307031
-		}
-	},
-	[70032] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:赤城春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70032,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307012
-		}
-	},
-	[70033] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:加贺春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70033,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307022
-		}
-	},
-	[70034] = {
-		group_type = 0,
-		resource_num = 680,
-		desc = "购买皮肤:拉菲春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70034,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			101172
-		}
-	},
-	[70035] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:明石春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70035,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			312011
-		}
-	},
-	[70036] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:欧根春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70036,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403032
-		}
-	},
-	[70037] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:夕立春节皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70037,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301141
-		}
-	},
-	[70038] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:绀紫之心礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70038,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			10100051
-		}
-	},
-	[70039] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:圣黑之心礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70039,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			10100061
-		}
-	},
-	[70040] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:群白之心礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70040,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			10100071
-		}
-	},
-	[70041] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:翡绿之心礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70041,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					6,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			10100081
-		}
-	},
-	[70042] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:高雄旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70042,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			303113
-		}
-	},
-	[70043] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:欧若拉旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70043,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			202151
-		}
-	},
-	[70044] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:吸血鬼旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70044,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			201231
-		}
-	},
-	[70045] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:独角兽旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70045,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			206032
-		}
-	},
-	[70046] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:长春旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70046,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			501031
-		}
-	},
-	[70047] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:圣路易斯旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70047,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102131
-		}
-	},
-	[70048] = {
-		group_type = 0,
-		resource_num = 680,
-		desc = "购买皮肤:扶桑旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70048,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			305011
-		}
-	},
-	[70049] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:尼古拉斯护士服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70049,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101311
-		}
-	},
-	[70050] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:埃尔德里奇校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70050,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			101262
-		}
-	},
-	[70051] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:爱丁堡校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70051,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			202111
-		}
-	},
-	[70052] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:苍龙校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70052,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307032
-		}
-	},
-	[70053] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:飞龙校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70053,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307041
-		}
-	},
-	[70054] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:火奴鲁鲁校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70054,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102121
-		}
-	},
-	[70055] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:吹雪校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70055,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301011
-		}
-	},
-	[70056] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:Z1校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70056,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			401011
-		}
-	},
-	[70057] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:雪风皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70057,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301161
-		}
-	},
-	[70058] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:谷风皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70058,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301621
-		}
-	},
-	[70059] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:斯佩伯爵校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70059,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403051
-		}
-	},
-	[70060] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:雾岛校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70060,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304041
-		}
-	},
-	[70061] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:绫波私服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70061,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301053
-		}
-	},
-	[70062] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:白露女仆",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70062,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301131
-		}
-	},
-	[70063] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:夕暮女仆",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70063,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301261
-		}
-	},
-	[70064] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:卯月",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70064,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301351
-		}
-	},
-	[70065] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:光荣JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70065,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			207061
-		}
-	},
-	[70066] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:阿卡司塔皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70066,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			201021
-		}
-	},
-	[70067] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:朝潮校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70067,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301631
-		}
-	},
-	[70068] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:榛名校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70068,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304031
-		}
-	},
-	[70069] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:江风皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70069,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301491
-		}
-	},
-	[70070] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:文月睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70070,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301381
-		}
-	},
-	[70071] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:君主礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70071,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			299021
-		}
-	},
-	[70072] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:高雄JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70072,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303114
-		}
-	},
-	[70073] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:爱宕JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70073,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303123
-		}
-	},
-	[70074] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:伊19校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70074,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308011
-		}
-	},
-	[70075] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:伊26校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70075,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308021
-		}
-	},
-	[70076] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:Z46泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70076,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			401461
-		}
-	},
-	[70077] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:齐柏林泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70077,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			407011
-		}
-	},
-	[70078] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:提尔比茨皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70078,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			405021
-		}
-	},
-	[70079] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:U47皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70079,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			408021
-		}
-	},
-	[70080] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:德意志泳装（2020.1.14国服下架）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70080,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					9,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					9,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403042
-		}
-	},
-	[70081] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:Z25泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70081,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			401251
-		}
-	},
-	[70082] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:阿斯托利亚校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70082,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					1,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			103081
-		}
-	},
-	[70083] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:昆西泳装（2021.4.8版本其他服常驻国服未常驻）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70083,
-		genre = "skin_shop",
-		discount_time = "",
-		limit_args = {},
-		effect_args = {
-			103091
-		},
-		time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70084] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:文森斯睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70084,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					1,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			103101
-		}
-	},
-	[70085] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:埃米尔·贝尔汀-泳装 ",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70085,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			802011
-		}
-	},
-	[70086] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:敦刻尔克泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70086,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			904011
-		}
-	},
-	[70087] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:福尔班常服 ",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70087,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801021
-		}
-	},
-	[70088] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:标枪泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70088,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			201212
-		}
-	},
-	[70089] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:皇家方舟泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70089,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			207021
-		}
-	},
-	[70090] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:三笠皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70090,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305111
-		}
-	},
-	[70091] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:比叡睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70091,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304021
-		}
-	},
-	[70092] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:滨风校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70092,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301611
-		}
-	},
-	[70093] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:半人马泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70093,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					8,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					9,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			206041
-		}
-	},
-	[70095] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:女灶神泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70095,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					9,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					9,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			112011
-		}
-	},
-	[70096] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:吹雪礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70096,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301013
-		}
-	},
-	[70097] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:欧若拉礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70097,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			202152
-		}
-	},
-	[70098] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:伊丽莎白礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70098,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			205011
-		}
-	},
-	[70099] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:阿贾克斯礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70099,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			202031
-		}
-	},
-	[70100] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:明石礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70100,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			312012
-		}
-	},
-	[70101] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:克利夫兰礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70101,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102092
-		}
-	},
-	[70102] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:女将礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70102,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			201011
-		}
-	},
-	[70103] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:南达科他礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70103,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			105141
-		}
-	},
-	[70104] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:大凤礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70104,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307071
-		}
-	},
-	[70105] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:U81礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70105,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			408011
-		}
-	},
-	[70106] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:光辉礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70106,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			207032
-		}
-	},
-	[70107] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:纽卡斯尔皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70107,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202191
-		}
-	},
-	[70108] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:晓皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70108,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301091
-		}
-	},
-	[70109] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:火奴鲁鲁皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70109,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					10,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102122
-		}
-	},
-	[70110] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:神通皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70110,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2018,
-					10,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			302131
-		}
-	},
-	[70111] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:霍比皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70111,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101361
-		}
-	},
-	[70112] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:科尔克皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70112,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101371
-		}
-	},
-	[70113] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:明尼阿波利斯皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70113,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103131
-		}
-	},
-	[70114] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:五十铃皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70114,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302051
-		}
-	},
-	[70115] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:恐怖皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70115,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			213021
-		}
-	},
-	[70116] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:纳尔逊皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70116,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205031
-		}
-	},
-	[70117] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:康克德浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70117,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102181
-		}
-	},
-	[70118] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：久远皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70118,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10300011
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70119] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：喵音皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70119,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10300021
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70120] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：乌璐露皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70120,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10300041
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70121] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：萨拉娜皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70121,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10300051
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70122] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：露露缇耶皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70122,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10300031
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70123] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：芙米露露皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70123,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10300061
-		},
-		time = {
-			{
-				{
-					2018,
-					11,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70124] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：龙骧睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70124,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			306061
-		}
-	},
-	[70125] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：斯佩常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70125,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403052
-		}
-	},
-	[70126] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：圣诞尼古拉斯",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70126,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101312
-		}
-	},
-	[70127] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：圣诞厌战",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70127,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205021
-		}
-	},
-	[70128] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：圣诞浦风",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70128,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301591
-		}
-	},
-	[70129] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：圣诞火奴鲁鲁",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 16,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70129,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102123
-		}
-	},
-	[70130] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：埃尔德里奇浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70130,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101263
-		}
-	},
-	[70131] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：伊吹浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70131,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			399011
-		}
-	},
-	[70132] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：出云浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 15,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70132,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			399021
-		}
-	},
-	[70133] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：威尔士浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70133,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205062
-		}
-	},
-	[70134] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：圣路易斯浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 15,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70134,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102132
-		}
-	},
-	[70135] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：矶风新年",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 15,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70135,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301601
-		}
-	},
-	[70136] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：海伦娜浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70136,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102051
-		}
-	},
-	[70137] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：蒙彼利埃浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70137,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102141
-		}
-	},
-	[70138] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：足柄浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 15,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70138,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303091
-		}
-	},
-	[70139] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：初春冬装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 10,
-		resource_type = 14,
-		id = 70139,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2019,
-					8,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301211
-		}
-	},
-	[70140] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：文森斯JK-悠哉进行曲",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70140,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103102
-		}
-	},
-	[70141] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：胜利-常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70141,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207041
-		}
-	},
-	[70142] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：谢菲尔德-常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70142,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202081
-		}
-	},
-	[70143] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：约克公爵-晚礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70143,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			205072
-		}
-	},
-	[70144] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：牙买加-常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70144,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202171
-		}
-	},
-	[70145] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：天狼星-晚礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70145,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			202201
-		}
-	},
-	[70146] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：贝尔法斯特旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 10,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70146,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202121
-		}
-	},
-	[70147] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：拉菲春节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70147,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101173
-		}
-	},
-	[70148] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：太原-春节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70148,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			501041
-		}
-	},
-	[70149] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：企业-春节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70149,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107062
-		}
-	},
-	[70150] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：半人马-旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70150,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206042
-		}
-	},
-	[70151] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：君主旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70151,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299022
-		}
-	},
-	[70152] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：夕暮旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70152,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301262
-		}
-	},
-	[70153] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：绫波春节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70153,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301054
-		}
-	},
-	[70154] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：列克星敦旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70154,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107021
-		}
-	},
-	[70156] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：马拉尼旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70156,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101392
-		}
-	},
-	[70157] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：库拉索旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70157,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202211
-		}
-	},
-	[70158] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：杓鹬旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70158,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202221
-		}
-	},
-	[70159] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：追赶者春节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 11,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70159,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206051
-		}
-	},
-	[70160] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：扶桑人妻",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70160,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305012
-		}
-	},
-	[70161] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：独角兽JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70161,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206033
-		}
-	},
-	[70162] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：香格里拉皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70162,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107381
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70163] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：独立皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70163,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107221
-		}
-	},
-	[70164] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：波特兰JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70164,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103061
-		}
-	},
-	[70165] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：印第安纳波利斯JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70165,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103071
-		}
-	},
-	[70171] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：三笠春装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70171,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305112
-		}
-	},
-	[70172] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：小天鹅皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70172,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201104
-		}
-	},
-	[70166] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：长门睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70166,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305051
-		}
-	},
-	[70167] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：金刚浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70167,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304011
-		}
-	},
-	[70168] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：宵月运动服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70168,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301581
-		}
-	},
-	[70170] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：光辉韩服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70170,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207033
-		}
-	},
-	[70173] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：陆奥战国皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70173,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305061
-		}
-	},
-	[70174] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：绊爱浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70174,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10400011
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70175] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：拉菲coco",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70175,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101174
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70176] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：标枪coco",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70176,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201213
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70177] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：凌波coco",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70177,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301055
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70178] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：Z23coco",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70178,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401233
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70179] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：萨拉托加爱酱联动",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70179,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107033
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70180] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：鞍山海军",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70180,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			501011
-		}
-	},
-	[70181] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：孟菲斯常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70181,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102161
-		}
-	},
-	[70182] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：布什小画家",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70182,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101331
-		}
-	},
-	[70183] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：俾斯麦礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70183,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			405011
-		}
-	},
-	[70184] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：皇家方舟礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70184,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			207022
-		}
-	},
-	[70185] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：佐治亚礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70185,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			199021
-		}
-	},
-	[70186] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：乔治五世礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70186,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205051
-		}
-	},
-	[70187] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：Z23礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70187,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			401234
-		}
-	},
-	[70188] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：海妈礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70188,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			102052
-		}
-	},
-	[70189] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：大黄蜂礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70189,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			107071
-		}
-	},
-	[70190] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：约克城礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70190,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			107051
-		}
-	},
-	[70191] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：斯佩伯爵礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70191,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403053
-		}
-	},
-	[70192] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：时雨礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70192,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301152
-		}
-	},
-	[70193] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：天狼星泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70193,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202202
-		}
-	},
-	[70194] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：无敌皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70194,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201261
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70195] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：斐济常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70195,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202161
-		}
-	},
-	[70196] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：确捷",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70196,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202231
-		}
-	},
-	[70197] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：追赶者皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70197,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206052
-		}
-	},
-	[70198] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：恶毒常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70198,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			901111
-		}
-	},
-	[70199] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：敦刻尔克常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70199,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			904012
-		}
-	},
-	[70200] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：勒马尔jk",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70200,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			901012
-		}
-	},
-	[70201] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：福尔班jk",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70201,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801022
-		}
-	},
-	[70202] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：倔强泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70202,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801041
-		}
-	},
-	[70203] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：伊168浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70203,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308061
-		}
-	},
-	[70204] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：u101校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70204,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408061
-		}
-	},
-	[70205] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：伊25校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70205,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308041
-		}
-	},
-	[70206] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：棘鳍jk",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70206,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108031
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70207] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：巴尔的摩jk",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70207,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103161
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70208] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：艾尔温常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70208,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101401
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70209] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：伯明翰jk",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70209,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102231
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70210] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：巴丹睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70210,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107291
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70211] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：克利夫兰机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70211,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102093
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70212] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：杜威泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70212,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101021
-		}
-	},
-	[70213] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：加斯科涅泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70213,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			999011
-		}
-	},
-	[70214] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：佐治亚泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70214,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			199022
-		}
-	},
-	[70215] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：苏塞克斯泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70215,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			203091
-		}
-	},
-	[70216] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：火奴鲁鲁浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70216,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102124
-		}
-	},
-	[70217] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：企业机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70217,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107063
-		}
-	},
-	[70218] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：瑞鹤浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70218,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307061
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70219] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：北风浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70219,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			399031
-		}
-	},
-	[70220] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：雷浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70220,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301112
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70221] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：电浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70221,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301122
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70222] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：谢菲尔德浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70222,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202082
-		}
-	},
-	[70223] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：伊26浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70223,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308022
-		}
-	},
-	[70224] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：睦月浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70224,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301322
-		}
-	},
-	[70225] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：吸血鬼浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70225,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201233
-		}
-	},
-	[70226] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：黑太子泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70226,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202241
-		}
-	},
-	[70227] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：雾岛常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70227,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304042
-		}
-	},
-	[70228] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：利托里奥泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70228,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605021
-		}
-	},
-	[70229] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：扎拉泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70229,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			603021
-		}
-	},
-	[70230] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：可畏泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70230,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207051
-		}
-	},
-	[70231] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：特伦托皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70231,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			603011
-		}
-	},
-	[70232] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：龙骑兵常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70232,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			601021
-		}
-	},
-	[70233] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：凯撒运动服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70233,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605061
-		}
-	},
-	[70234] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：翔鹤礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70234,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			307051
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70235] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：U47礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70235,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			408022
-		}
-	},
-	[70236] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：欧根晚礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70236,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403033
-		}
-	},
-	[70237] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：提尔比茨礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70237,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			405022
-		}
-	},
-	[70238] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：伊吹礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70238,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			399012
-		}
-	},
-	[70239] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：德意志礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70239,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			403043
-		}
-	},
-	[70240] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：西雅图礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70240,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			199011
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70241] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：夕立礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70241,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			301143
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70242] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：贝尔法斯特礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70242,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			202123
-		}
-	},
-	[70243] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：让巴尔礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70243,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			905011
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70244] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：罗恩礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 20,
-		resource_type = 14,
-		id = 70244,
-		genre = "skin_shop",
-		discount_time = {
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		limit_args = {},
-		effect_args = {
-			499011
-		}
-	},
-	[70245] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：埃塞克斯机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70245,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107091
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70246] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：贝奇机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70246,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101351
-		}
-	},
-	[70248] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：晓机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70248,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301092
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70249] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：絮库夫机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70249,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			808011
-		}
-	},
-	[70250] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：约克JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70250,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			203071
-		}
-	},
-	[70251] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：山城JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70251,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305026
-		}
-	},
-	[70252] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：U110JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70252,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408081
-		}
-	},
-	[70253] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：格奈森瑙万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70253,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			404021
-		}
-	},
-	[70254] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：爱丁堡万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70254,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202112
-		}
-	},
-	[70255] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：黑暗界万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70255,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			213012
-		}
-	},
-	[70256] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：阿贝克隆比万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70256,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			213041
-		}
-	},
-	[70257] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：斯莫利万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70257,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101421
-		}
-	},
-	[70258] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：三日月万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70258,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301411
-		}
-	},
-	[70259] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤：埃尔德里奇偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70259,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101264
-		}
-	},
-	[70260] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤：斯佩伯爵偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70260,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			403054
-		}
-	},
-	[70261] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤：平海偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70261,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502033
-		}
-	},
-	[70262] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤：宁海偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70262,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502023
-		}
-	},
-	[70263] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：绫波偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70263,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301057
-		}
-	},
-	[70264] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：拉菲偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70264,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101176
-		}
-	},
-	[70265] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：Z23偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70265,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401236
-		}
-	},
-	[70267] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：白上吹雪皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70267,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500011
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70268] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：夏色祭皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70268,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500041
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70269] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：凑阿库娅皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70269,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500031
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70270] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：大神澪皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70270,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500071
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70271] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：百鬼绫目皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70271,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500051
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70272] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：时乃空皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70272,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500021
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70273] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：紫咲诗音皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70273,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10500061
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70274] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：格拉斯哥JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70274,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202261
-		}
-	},
-	[70276] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：海王星圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70276,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299011
-		}
-	},
-	[70277] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：西雅图圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70277,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			199012
-		}
-	},
-	[70278] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：清波圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70278,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301541
-		}
-	},
-	[70279] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：阿贺野圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70279,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302201
-		}
-	},
-	[70280] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：康克德圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70280,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102182
-		}
-	},
-	[70281] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：五十铃圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70281,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302052
-		}
-	},
-	[70282] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：杜威圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 19,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70282,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101022
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70283] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：能代新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70283,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302211
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70284] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：骏河新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70284,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305141
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70285] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：腓特烈大帝新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70285,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			499021
-		}
-	},
-	[70286] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：龙凤新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70286,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			306071
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70287] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：长门新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70287,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305052
-		}
-	},
-	[70288] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：平海日本旅游",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70288,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502034
-		}
-	},
-	[70289] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：宁海日本旅游",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70289,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502024
-		}
-	},
-	[70290] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：响和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70290,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301101
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70291] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：独角兽新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70291,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206034
-		}
-	},
-	[70292] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：Z35新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70292,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401351
-		}
-	},
-	[70293] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：雾岛新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70293,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304043
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70294] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：绫波新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70294,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			331050
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70295] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：南安普顿新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70295,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202071
-		}
-	},
-	[70296] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：克爹新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70296,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102094
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70297] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：霞新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70297,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301811
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70298] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：方舟新年和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70298,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207023
-		}
-	},
-	[70299] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：阿贺野常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70299,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302202
-		}
-	},
-	[70300] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤：吾妻旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70300,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			399041
-		}
-	},
-	[70301] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤：雪风旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70301,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301162
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70302] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤：大凤旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70302,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307072
-		}
-	},
-	[70303] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：天狼星旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70303,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202203
-		}
-	},
-	[70304] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：确捷旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70304,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202232
-		}
-	},
-	[70305] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：伊吹旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70305,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			399013
-		}
-	},
-	[70306] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：光辉旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70306,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207035
-		}
-	},
-	[70307] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：德意志旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70307,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			403044
-		}
-	},
-	[70308] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：黑太子旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70308,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202242
-		}
-	},
-	[70309] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：比叡旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70309,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304022
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70310] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：比洛克西旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70310,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102251
-		}
-	},
-	[70311] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：格罗斯特旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70311,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202101
-		}
-	},
-	[70312] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：沙恩霍斯特旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70312,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			404011
-		}
-	},
-	[70313] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：哈尔西中国衣服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70313,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101431
-		}
-	},
-	[70314] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤：欧若拉川剧皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70314,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202153
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70315] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：阿卡斯塔元宵节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70315,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201022
-		}
-	},
-	[70316] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：长月女仆",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70316,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301391
-		}
-	},
-	[70317] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：浦波滑雪服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70317,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301721
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70318] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：哥伦比亚情人节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70318,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102101
-		}
-	},
-	[70319] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：热心情人节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70319,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201031
-		}
-	},
-	[70320] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：苏维埃罗希娅皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70320,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			705051
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70321] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：恰巴耶夫皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70321,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702031
-		}
-	},
-	[70322] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：阿芙乐尔皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70322,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702011
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70323] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤：威严皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70323,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701021
-		}
-	},
-	[70324] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：明斯克皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70324,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701031
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70325] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：甘古特皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70325,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			705011
-		}
-	},
-	[70326] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：水星纪念皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70326,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702021
-		}
-	},
-	[70327] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：塔什干皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70327,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701041
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70328] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤：Z46布鲁马",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70328,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401462
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70329] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤：库珀皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70329,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101441
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70330] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：明尼运动少女",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70330,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103132
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70331] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤：布莱默顿运动少女",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70331,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103241
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70332] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：无畏皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70332,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107111
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70333] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：巴尔的摩网球服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70333,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103162
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70334] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤：里诺皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70334,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102261
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70335] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：蓝腮鱼皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70335,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108041
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70336] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤：马布尔黑德皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70336,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102271
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70337] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：卡萨布兰卡皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70337,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			106551
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70339] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤：小天鹅啦啦队",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70339,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201105
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70340] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤：贝奇网球",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70340,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101352
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70341] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:天城泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70341,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304051
-		}
-	},
-	[70342] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:土佐泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70342,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305081
-		}
-	},
-	[70343] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:足柄泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70343,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303092
-		}
-	},
-	[70344] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:比叡泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70344,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304023
-		}
-	},
-	[70345] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:那珂泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70345,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302141
-		}
-	},
-	[70346] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:花月皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70346,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301821
-		}
-	},
-	[70347] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:卷波泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70347,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301801
-		}
-	},
-	[70348] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:长波皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 25,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70348,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301831
-		}
-	},
-	[70349] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:塔尔图泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70349,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			901021
-		}
-	},
-	[70350] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:鲁莽泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70350,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801031
-		}
-	},
-	[70357] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:恶毒泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70357,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			901112
-		}
-	},
-	[70358] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:让巴尔泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70358,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			905012
-		}
-	},
-	[70359] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:黎塞留泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70359,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			805011
-		}
-	},
-	[70360] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:絮库夫泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70360,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			808012
-		}
-	},
-	[70361] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:埃米尔贝尔汀女仆",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70361,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			802012
-		}
-	},
-	[70362] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:圣女贞德泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70362,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			802021
-		}
-	},
-	[70363] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:阿尔及利亚泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70363,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			903021
-		}
-	},
-	[70364] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:贝尔法斯特必胜客",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70364,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202125
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70365] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:拉加利索尼埃泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70365,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			902011
-		}
-	},
-	[70366] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:贝亚恩泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70366,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			807011
-		}
-	},
-	[70367] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:沃克兰泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70367,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			901031
-		}
-	},
-	[70368] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:Z23泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70368,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401232
-		}
-	},
-	[70369] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:圣路易斯礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70369,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102133
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70370] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤:平海礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70370,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502035
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70371] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:马萨诸塞礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70371,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			105191
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70372] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:大青花鱼礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70372,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108021
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70373] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:利托里奥礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70373,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605022
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70374] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:黛朵礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70374,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202041
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70375] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:企业礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70375,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107065
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70376] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:比洛克西礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70376,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102252
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70377] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:阿贺野礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70377,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302203
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70378] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:宁海礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70378,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502025
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70379] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:苏塞克斯礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70379,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			203092
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70380] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:哈曼礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70380,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101252
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70381] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:福尔班礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70381,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801023
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70382] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:爱斯基摩人泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70382,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201321
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70383] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:大凤赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70383,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307073
-		}
-	},
-	[70384] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:高雄赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70384,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303115
-		}
-	},
-	[70385] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:爱宕赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70385,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303124
-		}
-	},
-	[70386] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:约克公爵赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70386,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205073
-		}
-	},
-	[70387] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:威尔士赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70387,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205064
-		}
-	},
-	[70388] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:翔鹤赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70388,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307052
-		}
-	},
-	[70389] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:瑞鹤赛车女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70389,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307062
-		}
-	},
-	[70390] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:香格里拉皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70390,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107382
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70391] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:伊19睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70391,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308012
-		}
-	},
-	[70392] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:西雅图泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70392,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			199013
-		}
-	},
-	[70393] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:豪常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70393,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205091
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70394] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:赫敏医院",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70394,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202271
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70395] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:英仙座医院",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70395,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206061
-		}
-	},
-	[70396] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:伊卡洛斯医院",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70396,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201331
-		}
-	},
-	[70397] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:英勇医院",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70397,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205101
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70398] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:金刚医院",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70398,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304012
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70399] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:鹰医院",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70399,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207011
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70400] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:独立礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70400,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107222
-		}
-	},
-	[70401] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:约克泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70401,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			203072
-		}
-	},
-	[70402] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:德雷克泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70402,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299041
-		}
-	},
-	[70403] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:柴郡泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70403,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299031
-		}
-	},
-	[70404] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:U96常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70404,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408091
-		}
-	},
-	[70405] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:Z26常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 99,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70405,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401261
-		}
-	},
-	[70406] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:樫野泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70406,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			319011
-		}
-	},
-	[70407] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:熊野泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70407,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303181
-		}
-	},
-	[70408] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:千岁泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70408,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			306081
-		}
-	},
-	[70409] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:千代田泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70409,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			306091
-		}
-	},
-	[70410] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:尼古拉斯泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70410,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101313
-		}
-	},
-	[70411] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:确捷泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70411,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202233
-		}
-	},
-	[70412] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:里诺泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70412,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102262
-		}
-	},
-	[70413] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:赫敏泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70413,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202272
-		}
-	},
-	[70414] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:伊卡洛斯泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70414,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201332
-		}
-	},
-	[70415] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:凉月泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70415,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301841
-		}
-	},
-	[70416] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:纪伊泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70416,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305121
-		}
-	},
-	[70417] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:路易九世礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70417,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			899011
-		}
-	},
-	[70418] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:巴尔的摩礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70418,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103163
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70419] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:埃塞克斯礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70419,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107092
-		}
-	},
-	[70420] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤:绫波礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70420,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			331051
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70421] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:信浓礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70421,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307081
-		}
-	},
-	[70422] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:能代礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70422,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302212
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70423] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:赤城礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70423,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307013
-		}
-	},
-	[70424] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:加贺礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70424,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307023
-		}
-	},
-	[70425] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:U110礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70425,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408082
-		}
-	},
-	[70426] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:榛名礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70426,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304032
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70427] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:威奇塔礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70427,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103111
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70428] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:谢菲尔德礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70428,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202083
-		}
-	},
-	[70429] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:初霜礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70429,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301242
-		}
-	},
-	[70430] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:有明礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70430,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301251
-		}
-	},
-	[70431] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:雷礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70431,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301113
-		}
-	},
-	[70432] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:电礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70432,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301123
-		}
-	},
-	[70433] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:普林斯顿泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70433,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107231
-		}
-	},
-	[70434] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:长岛万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70434,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			106013
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70435] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:威奇塔万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70435,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103112
-		}
-	},
-	[70436] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:Z46音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70436,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401463
-		}
-	},
-	[70437] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤:独角兽音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70437,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206035
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70438] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:厌战音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70438,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205022
-		}
-	},
-	[70439] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:伊丽莎白音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70439,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205012
-		}
-	},
-	[70440] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:吸血鬼音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70440,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201234
-		}
-	},
-	[70441] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:U110音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70441,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408083
-		}
-	},
-	[70442] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:哈曼音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70442,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101253
-		}
-	},
-	[70443] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:本森万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70443,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101161
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70444] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:Z2私服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70444,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401021
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70445] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:玛莉皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70445,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600011
-		}
-	},
-	[70446] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:霞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70446,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600031
-		}
-	},
-	[70447] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:穗香皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70447,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600021
-		}
-	},
-	[70448] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:海咲皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70448,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600041
-		}
-	},
-	[70449] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:凪咲皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70449,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600051
-		}
-	},
-	[70450] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:女天狗皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70450,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600061
-		}
-	},
-	[70451] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:莫妮卡皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70451,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600071
-		}
-	},
-	[70452] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:夕立圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70452,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301144
-		}
-	},
-	[70453] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:明尼阿波利斯圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70453,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103133
-		}
-	},
-	[70454] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:库珀圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70454,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101442
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70455] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:杰金斯圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70455,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101301
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70456] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:哈曼圣诞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70456,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101254
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70457] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:萨拉托加圣诞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70457,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107035
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70459] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:彼得·史特拉塞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70459,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			407031
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70460] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:让巴尔和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70460,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			905013
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70461] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:黎塞留和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70461,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			805012
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70462] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:奥丁和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70462,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			499041
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70463] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:提尔比茨和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70463,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			405023
-		}
-	},
-	[70465] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:贝爷和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70465,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202126
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70466] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:佐治亚和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70466,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			199023
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70467] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:凉月和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70467,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301842
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70468] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:P1：海因里希亲王皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70468,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			403091
-		}
-	},
-	[70469] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:U37皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70469,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408101
-		}
-	},
-	[70470] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:纽伦堡皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70470,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			402051
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70471] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:威悉皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70471,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			406011
-		}
-	},
-	[70472] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:Z24皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70472,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401241
-		}
-	},
-	[70473] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:榛名和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70473,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304033
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70474] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:比洛克西和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70474,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102253
-		}
-	},
-	[70475] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:朝潮和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70475,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301632
-		}
-	},
-	[70476] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:Z28皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70476,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401281
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70477] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:U110和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70477,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408084
-		}
-	},
-	[70478] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:香槟和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70478,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			899021
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70479] = {
-		group_type = 0,
-		resource_num = 700,
-		desc = "购买皮肤:大黄蜂必胜客",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70479,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107072
-		}
-	},
-	[70481] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:柴郡旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70481,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299032
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70482] = {
-		group_type = 0,
-		resource_num = 1200,
-		desc = "购买皮肤:布莱默顿旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70482,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103242
-		}
-	},
-	[70483] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:Z46春节(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70483,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401464
-		}
-	},
-	[70484] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:埃塞克斯春节(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70484,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107093
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70485] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:路易九世旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70485,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			899012
-		}
-	},
-	[70486] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:胜利旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70486,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207042
-		}
-	},
-	[70488] = {
-		group_type = 0,
-		resource_num = 900,
-		desc = "购买皮肤:能代旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70488,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302213
-		}
-	},
-	[70489] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤:拉-加利索尼耶旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70489,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			902012
-		}
-	},
-	[70490] = {
-		group_type = 0,
-		resource_num = 1100,
-		desc = "购买皮肤:光荣旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70490,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207062
-		}
-	},
-	[70491] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:大潮旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70491,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301643
-		}
-	},
-	[70492] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:伯明翰春节(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70492,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102232
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70494] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:萨拉托加旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70494,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107036
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70495] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:傻白旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70495,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205014
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70496] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:萤火虫旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70496,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201141
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70497] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:雾岛旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70497,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304044
-		}
-	},
-	[70498] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:伊25旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70498,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308042
-		}
-	},
-	[70499] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:肇和旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70499,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502051
-		}
-	},
-	[70500] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:佩内洛珀旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70500,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202291
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70501] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "购买皮肤:U410旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70501,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408111
-		}
-	},
-	[70502] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:阿贾克斯情人节（2021情人节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70502,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202032
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70503] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:普林斯顿情人节（2021情人节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70503,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107232
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70504] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:尼古拉斯情人节（2021情人节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 1,
-		limit_args2 = "",
-		time_second = 0,
-		order = 20,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70504,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101314
-		}
-	},
-	[70505] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:塔林睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70505,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			703011
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70506] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:苏维埃白俄罗斯睡衣 ",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70506,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			705041
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70507] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:基洛夫睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70507,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702041
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70508] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:雷鸣睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70508,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701071
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70509] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:摩尔曼斯克 睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70509,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702061
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70510] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:洪亮睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70510,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701081
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70511] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:甘古特睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70511,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			705012
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70513] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:水星纪念睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70513,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702022
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70514] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:恰巴耶夫睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70514,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702032
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70515] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:威严睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70515,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701022
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70516] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:神速睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70516,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701061
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70517] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:塔什干睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70517,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701042
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70518] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:独立COCO",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70518,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107223
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70520] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:三笠COCO",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70520,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305113
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70523] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:长门COCO",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70523,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305053
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70524] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:鲁莽COCO",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70524,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801032
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70525] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:巴尔的摩和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70525,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103164
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70526] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:邦克山常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70526,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107171
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70527] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:阿斯托里亚兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70527,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103082
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70528] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:波拉泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70528,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			603031
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70529] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:维内托泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70529,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605011
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70530] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:阿布鲁奇泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70530,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			602011
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70531] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:天鹰泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70531,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			607011
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70532] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:加贺友禅-加贺",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70532,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307024
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70533] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:加贺友禅-胡德",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70533,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			204032
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70534] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:托里拆利泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70534,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			608011
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70535] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:西南风泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70535,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			601051
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70536] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:西北风泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70536,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			601041
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70537] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:凯撒泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70537,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605062
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70538] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:加富尔伯爵泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70538,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605051
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70539] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:尼科洛索·达雷科皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70539,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			601061
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70540] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:追风泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70540,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301851
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70541] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:艾伦萨姆纳兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70541,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101451
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70542] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:博伊西兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70542,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102291
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70543] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:新泽西兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70543,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			105171
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70544] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:提康德罗加兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70544,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107141
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70545] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:射水鱼兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70545,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108061
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70546] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:旧金山兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70546,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103141
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70547] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:伊19兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70547,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			308013
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70548] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:史蒂芬波特兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70548,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101461
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70549] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:阿卡斯塔兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70549,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201023
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70550] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:鬼怒-荷官",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70550,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			302082
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70551] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:莫里森 兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70551,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101471
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70552] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:独角兽光明皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70552,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206036
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70553] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:威悉礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70553,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			406012
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70554] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:可畏礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70554,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207052
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70555] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:赫敏礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70555,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202273
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70556] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:蒙彼利埃礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70556,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102142
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70557] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:胡德礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70557,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			204033
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70558] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:黑太子礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70558,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202243
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70559] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:英勇礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70559,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205102
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70560] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:长波礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70560,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301832
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70561] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:风云制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70561,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301861
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70562] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:白雪制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70562,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301021
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70563] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:霞制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70563,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301812
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70565] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:浦风制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70565,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301592
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70566] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:龙骧JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70566,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			306062
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70568] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:孟菲斯制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70568,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102163
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70569] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:唐斯JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70569,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101041
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70570] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:卡辛JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70570,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101031
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70571] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:骏河JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70571,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305142
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70572] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:春香浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70572,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700011
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70573] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:千早浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70573,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700021
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70574] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:伊织浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70574,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700031
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70575] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:三浦梓浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70575,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700041
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70576] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:律子浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70576,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700051
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70577] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:亚美浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70577,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700061
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70578] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:真美浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70578,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700071
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70579] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:Z2浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70579,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401022
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70580] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:夕暮浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70580,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301264
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70581] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:荒潮浴衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70581,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301661
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70582] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:里诺兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70582,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102263
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70583] = {
-		group_type = 0,
-		resource_num = 1180,
-		desc = "购买皮肤:北卡兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70583,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			105121
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70584] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:热心兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70584,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201032
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70585] = {
-		group_type = 0,
-		resource_num = 1080,
-		desc = "购买皮肤:阿贝克隆比兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70585,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			213042
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70586] = {
-		group_type = 0,
-		resource_num = 880,
-		desc = "购买皮肤:英格拉罕兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70586,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101481
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[70587] = {
-		group_type = 0,
-		resource_num = 780,
-		desc = "购买皮肤:鹦鹉螺兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 2,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 14,
-		id = 70587,
-		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108071
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90001] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：光辉-永不落幕的茶会",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90001,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207031
-		}
-	},
-	[90002] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：夕暮-女仆练习生",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90002,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301261
-		}
-	},
-	[90003] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：卯月-贪睡的天使",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90003,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301351
-		}
-	},
-	[90004] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：雷-樱花茶",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90004,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301111
-		}
-	},
-	[90005] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：海伦娜-与君共舞",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90005,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102052
-		}
-	},
-	[90006] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：埃尔德里奇-空教室的不可思议",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90006,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101262
-		}
-	},
-	[90007] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：电女仆",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90007,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301121
-		}
-	},
-	[90008] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：确捷皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90008,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202231
-		}
-	},
-	[90009] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：埃尔德里奇常服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90009,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202081
-		}
-	},
-	[90010] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：欧若拉旗袍",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90010,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202151
-		},
-		time = {
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90011] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：福尔班jk",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90011,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			801022
-		},
-		time = {
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90012] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：苍龙校服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 125,
-		id = 90012,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307032
-		},
-		time = {
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90013] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：利托里奥泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90013,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605021
-		}
-	},
-	[90014] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：扎拉泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90014,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			603021
-		}
-	},
-	[90015] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：拉菲-雪兔与苹果糖",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90015,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101172
-		}
-	},
-	[90016] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：翔鹤礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90016,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307051
-		}
-	},
-	[90017] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：让巴尔礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90017,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			905011
-		}
-	},
-	[90018] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：夕立礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90018,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301143
-		}
-	},
-	[90019] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：埃塞克斯机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90019,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107091
-		}
-	},
-	[90020] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：克利夫兰机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90020,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102093
-		}
-	},
-	[90021] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：企业机车",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90021,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107063
-		}
-	},
-	[90022] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：约克JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90022,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			203071
-		}
-	},
-	[90023] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：山城JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90023,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305026
-		}
-	},
-	[90024] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：独角兽春之礼",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90024,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206032
-		}
-	},
-	[90025] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：U110JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 4,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90025,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			408081
-		}
-	},
-	[90026] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：光辉的舞会",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 5,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90026,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207032
-		}
-	},
-	[90027] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：乐队型鬼神",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 6,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90027,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301053
-		}
-	},
-	[90028] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：爱丁堡万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90028,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202112
-		}
-	},
-	[90029] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：绫波万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90029,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301051
-		}
-	},
-	[90030] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：克利夫兰万圣节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90030,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102091
-		}
-	},
-	[90031] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：绫波偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90031,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301057
-		}
-	},
-	[90032] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：拉菲偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90032,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101176
-		}
-	},
-	[90033] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：Z23偶像",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 136,
-		id = 90033,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401236
-		}
-	},
-	[90034] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：苏维埃罗西亚皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 144,
-		id = 90034,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			705051
-		},
-		time = {
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90035] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：明斯克皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 144,
-		id = 90035,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701031
-		},
-		time = {
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90036] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：威严皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 144,
-		id = 90036,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			701021
-		},
-		time = {
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90037] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：z46皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 150,
-		id = 90037,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401462
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90038] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：巴尔的摩皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 150,
-		id = 90038,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103162
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90039] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：无畏皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 150,
-		id = 90039,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107111
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90040] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：土佐泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 153,
-		id = 90040,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305081
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90041] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：比叡泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 153,
-		id = 90041,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304023
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90042] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：足柄泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 153,
-		id = 90042,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			303092
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90043] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：让巴尔泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 160,
-		id = 90043,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			905012
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90044] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：Z23泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 160,
-		id = 90044,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401232
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90045] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：黎塞留泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 160,
-		id = 90045,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			805011
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90046] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：利托里奥礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 160,
-		id = 90046,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605022
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90047] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：圣路易斯礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 160,
-		id = 90047,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102133
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90048] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：平海礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 160,
-		id = 90048,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502035
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[100000] = {
-		group_type = 0,
-		resource_num = 5000,
-		desc = "大型作战信息记录仪",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 0,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 2,
-		id = 100000,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			102
-		}
-	},
-	[100001] = {
-		group_type = 0,
-		resource_num = 100,
-		desc = "高效作战指令书",
-		type = 2,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 1,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100001,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				30
-			}
-		},
-		effect_args = {
-			61001
-		}
-	},
-	[100002] = {
-		group_type = 0,
-		resource_num = 250,
-		desc = "物资",
-		type = 1,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 2,
-		time = "always",
-		group = 0,
-		num = 1000,
-		discount = 0,
-		resource_type = 3002,
-		id = 100002,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				3
-			}
-		},
-		effect_args = {
-			1
-		}
-	},
-	[100003] = {
-		group_type = 0,
-		resource_num = 80,
-		desc = "混乱坐标仪LV5",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 3,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100003,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				3
-			}
-		},
-		effect_args = {
-			2005
-		}
-	},
-	[100004] = {
-		group_type = 0,
-		resource_num = 160,
-		desc = "混乱坐标仪LV6",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 4,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100004,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			2006
-		}
-	},
-	[100005] = {
-		group_type = 0,
-		resource_num = 400,
-		desc = "深渊坐标仪LV5",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 5,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100005,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				2
-			}
-		},
-		effect_args = {
-			2015
-		}
-	},
-	[100006] = {
-		group_type = 0,
-		resource_num = 800,
-		desc = "深渊坐标仪LV6",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 6,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100006,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				1
-			}
-		},
-		effect_args = {
-			2016
-		}
-	},
-	[100007] = {
-		group_type = 0,
-		resource_num = 50,
-		desc = "强力效能样本-攻击",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 7,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100007,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				6
-			}
-		},
-		effect_args = {
-			304
-		}
-	},
-	[100008] = {
-		group_type = 0,
-		resource_num = 50,
-		desc = "强力效能样本-耐久",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 8,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100008,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				6
-			}
-		},
-		effect_args = {
-			305
-		}
-	},
-	[100009] = {
-		group_type = 0,
-		resource_num = 50,
-		desc = "强力效能样本-恢复",
-		type = 12,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 0,
-		order = 9,
-		time = "always",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 3002,
-		id = 100009,
-		genre = "world",
-		discount_time = {},
-		limit_args = {
-			{
-				"time",
-				6
-			}
-		},
-		effect_args = {
-			306
-		}
-	},
-	[90049] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：豪",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 164,
-		id = 90049,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205091
-		},
-		time = {
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90050] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：赫敏",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 164,
-		id = 90050,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202271
-		},
-		time = {
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90051] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：鹰",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 164,
-		id = 90051,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207011
-		},
-		time = {
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90052] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：德雷克泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 167,
-		id = 90052,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299041
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90053] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：乔治五世礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 167,
-		id = 90053,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			205051
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90054] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：柴郡泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 167,
-		id = 90054,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299031
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90055] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：纪伊泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 170,
-		id = 90055,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305121
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90056] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：天城泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 170,
-		id = 90056,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304051
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90057] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：絮库夫泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 170,
-		id = 90057,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			808012
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90058] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：路易九世礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 170,
-		id = 90058,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			899011
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90059] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：信浓礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 170,
-		id = 90059,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			307081
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90060] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：巴尔的摩礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 170,
-		id = 90060,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103163
-		},
-		time = {
-			{
-				{
-					2020,
-					9,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90061] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：Z46音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 173,
-		id = 90061,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			401463
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90062] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：独角兽音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 173,
-		id = 90062,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			206035
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90063] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：吸血鬼音乐节",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 173,
-		id = 90063,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201234
-		},
-		time = {
-			{
-				{
-					2020,
-					10,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90064] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：玛莉皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 178,
-		id = 90064,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600011
-		}
-	},
-	[90065] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：霞皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 178,
-		id = 90065,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600031
-		}
-	},
-	[90066] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：穗香皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		time = "stop",
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 178,
-		id = 90066,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10600021
-		}
-	},
-	[90067] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：黎塞留和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 181,
-		id = 90067,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			805012
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90068] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：贝爷和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 181,
-		id = 90068,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202126
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90069] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：榛名和服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 181,
-		id = 90069,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304033
-		},
-		time = {
-			{
-				{
-					2020,
-					12,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					1,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90070] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：维托里奥·阿尔菲耶里皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 184,
-		id = 90070,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			305081
-		},
-		time = {
-			{
-				{
-					2021,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90071] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：扎拉-泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 184,
-		id = 90071,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			603021
-		},
-		time = {
-			{
-				{
-					2021,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90072] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：可畏-皮肤",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 184,
-		id = 90072,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207051
-		},
-		time = {
-			{
-				{
-					2021,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90073] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：柴郡旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 185,
-		id = 90073,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			299032
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90074] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：布莱默顿旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 185,
-		id = 90074,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103242
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90075] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：肇和旗袍(204春节）",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 185,
-		id = 90075,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			502051
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90076] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：贝拉罗斯睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 189,
-		id = 90076,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			705041
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90077] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：基洛夫睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 189,
-		id = 90077,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702041
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90078] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：恰巴耶夫睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 189,
-		id = 90078,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			702032
-		},
-		time = {
-			{
-				{
-					2021,
-					2,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90079] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：巴尔的摩-JK ",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 195,
-		id = 90079,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			103161
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90080] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：巴丹睡衣",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 195,
-		id = 90080,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107291
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90081] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：伯明翰-JK",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 195,
-		id = 90081,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102231
-		},
-		time = {
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90082] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：阿布鲁齐泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 197,
-		id = 90082,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			602011
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90083] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：天鹰泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 197,
-		id = 90083,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			607011
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90084] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：凯撒泳装",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 197,
-		id = 90084,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			605062
-		},
-		time = {
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90085] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：花园兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 202,
-		id = 90085,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			105171
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90086] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：卡莉永兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 202,
-		id = 90086,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			107141
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90087] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：树城兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 202,
-		id = 90087,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102291
-		},
-		time = {
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90088] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：可畏-礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 202,
-		id = 90088,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			207052
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90089] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：蒙彼利埃-礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 202,
-		id = 90089,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102142
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90090] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：赫敏-礼服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 202,
-		id = 90090,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			202273
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90091] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：风云制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 209,
-		id = 90091,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301861
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90092] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：卡辛制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 209,
-		id = 90092,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101031
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90093] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：霞制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 209,
-		id = 90093,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301812
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					7,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90094] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：春香制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 216,
-		id = 90094,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700011
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90095] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：千早制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 216,
-		id = 90095,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700021
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90096] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：伊织制服",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 216,
-		id = 90096,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			10700031
-		},
-		time = {
-			{
-				{
-					2021,
-					7,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90097] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：北卡兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 4,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 218,
-		id = 90097,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			105121
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90098] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：里诺兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 5,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 218,
-		id = 90098,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			102263
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90099] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：热心兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 6,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 218,
-		id = 90099,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			201032
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90100] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：英格拉罕兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 1,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 218,
-		id = 90100,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			101481
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90101] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：鹦鹉螺兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 2,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 218,
-		id = 90101,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			108071
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90102] = {
-		group_type = 0,
-		resource_num = 1,
-		desc = "限时皮肤体验：阿贝克隆比兔女郎",
-		type = 6,
-		is_auto_use = 0,
-		group_limit = 0,
-		group_buy_count = 0,
-		tag = 0,
-		limit_args2 = "",
-		time_second = 172800,
-		order = 3,
-		group = 0,
-		num = 1,
-		discount = 0,
-		resource_type = 218,
-		id = 90102,
-		genre = "skin_shop_timelimit",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			213042
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
+
+rawset(pg, "shop_template", rawget(pg, "shop_template") or {
+	__name = "shop_template",
 	all = {
 		1,
 		2,
@@ -39891,6 +906,7 @@ pg.shop_template = {
 		70585,
 		70586,
 		70587,
+		70588,
 		90001,
 		90002,
 		90003,
@@ -40003,5 +1019,5090 @@ pg.shop_template = {
 		90100,
 		90101,
 		90102
+	}
+})
+setmetatable(pg.shop_template, confMT)
+
+cs = cs or {}
+cs.shop_template = {
+	{
+		0,
+		347,
+		true
+	},
+	{
+		347,
+		392,
+		true
+	},
+	{
+		739,
+		374,
+		true
+	},
+	{
+		1113,
+		374,
+		true
+	},
+	{
+		1487,
+		405,
+		true
+	},
+	{
+		1892,
+		406,
+		true
+	},
+	{
+		2298,
+		339,
+		true
+	},
+	{
+		2637,
+		336,
+		true
+	},
+	{
+		2973,
+		339,
+		true
+	},
+	{
+		3312,
+		368,
+		true
+	},
+	{
+		3680,
+		368,
+		true
+	},
+	{
+		4048,
+		348,
+		true
+	},
+	{
+		4396,
+		370,
+		true
+	},
+	{
+		4766,
+		371,
+		true
+	},
+	{
+		5137,
+		372,
+		true
+	},
+	{
+		5509,
+		372,
+		true
+	},
+	{
+		5881,
+		351,
+		true
+	},
+	{
+		6232,
+		374,
+		true
+	},
+	{
+		6606,
+		395,
+		true
+	},
+	{
+		7001,
+		338,
+		true
+	},
+	{
+		7339,
+		500,
+		true
+	},
+	{
+		7839,
+		389,
+		true
+	},
+	{
+		8228,
+		355,
+		true
+	},
+	{
+		8583,
+		350,
+		true
+	},
+	{
+		8933,
+		396,
+		true
+	},
+	{
+		9329,
+		375,
+		true
+	},
+	[21001] = {
+		9704,
+		377,
+		true
+	},
+	[21002] = {
+		10081,
+		378,
+		true
+	},
+	[21003] = {
+		10459,
+		378,
+		true
+	},
+	[21004] = {
+		10837,
+		378,
+		true
+	},
+	[21005] = {
+		11215,
+		373,
+		true
+	},
+	[21006] = {
+		11588,
+		373,
+		true
+	},
+	[21007] = {
+		11961,
+		373,
+		true
+	},
+	[21008] = {
+		12334,
+		376,
+		true
+	},
+	[21009] = {
+		12710,
+		376,
+		true
+	},
+	[21010] = {
+		13086,
+		379,
+		true
+	},
+	[21011] = {
+		13465,
+		379,
+		true
+	},
+	[21012] = {
+		13844,
+		379,
+		true
+	},
+	[21013] = {
+		14223,
+		374,
+		true
+	},
+	[21014] = {
+		14597,
+		374,
+		true
+	},
+	[21015] = {
+		14971,
+		374,
+		true
+	},
+	[21016] = {
+		15345,
+		377,
+		true
+	},
+	[21017] = {
+		15722,
+		377,
+		true
+	},
+	[21018] = {
+		16099,
+		379,
+		true
+	},
+	[21019] = {
+		16478,
+		379,
+		true
+	},
+	[21020] = {
+		16857,
+		379,
+		true
+	},
+	[21021] = {
+		17236,
+		374,
+		true
+	},
+	[21022] = {
+		17610,
+		374,
+		true
+	},
+	[21023] = {
+		17984,
+		374,
+		true
+	},
+	[21024] = {
+		18358,
+		377,
+		true
+	},
+	[21025] = {
+		18735,
+		377,
+		true
+	},
+	[21026] = {
+		19112,
+		372,
+		true
+	},
+	[21027] = {
+		19484,
+		372,
+		true
+	},
+	[21028] = {
+		19856,
+		375,
+		true
+	},
+	[21029] = {
+		20231,
+		376,
+		true
+	},
+	[21030] = {
+		20607,
+		367,
+		true
+	},
+	[21031] = {
+		20974,
+		373,
+		true
+	},
+	[21032] = {
+		21347,
+		374,
+		true
+	},
+	[23001] = {
+		21721,
+		367,
+		true
+	},
+	[24001] = {
+		22088,
+		374,
+		true
+	},
+	[24002] = {
+		22462,
+		374,
+		true
+	},
+	[24003] = {
+		22836,
+		369,
+		true
+	},
+	[24004] = {
+		23205,
+		369,
+		true
+	},
+	[24005] = {
+		23574,
+		376,
+		true
+	},
+	[24006] = {
+		23950,
+		376,
+		true
+	},
+	[24007] = {
+		24326,
+		376,
+		true
+	},
+	[24008] = {
+		24702,
+		376,
+		true
+	},
+	[24009] = {
+		25078,
+		376,
+		true
+	},
+	[24010] = {
+		25454,
+		376,
+		true
+	},
+	[24011] = {
+		25830,
+		376,
+		true
+	},
+	[24012] = {
+		26206,
+		376,
+		true
+	},
+	[24013] = {
+		26582,
+		376,
+		true
+	},
+	[31011] = {
+		26958,
+		380,
+		true
+	},
+	[31012] = {
+		27338,
+		382,
+		true
+	},
+	[31013] = {
+		27720,
+		383,
+		true
+	},
+	[31014] = {
+		28103,
+		383,
+		true
+	},
+	[31111] = {
+		28486,
+		382,
+		true
+	},
+	[31112] = {
+		28868,
+		383,
+		true
+	},
+	[31113] = {
+		29251,
+		384,
+		true
+	},
+	[31114] = {
+		29635,
+		385,
+		true
+	},
+	[31021] = {
+		30020,
+		377,
+		true
+	},
+	[31022] = {
+		30397,
+		379,
+		true
+	},
+	[31023] = {
+		30776,
+		380,
+		true
+	},
+	[31024] = {
+		31156,
+		380,
+		true
+	},
+	[31121] = {
+		31536,
+		379,
+		true
+	},
+	[31122] = {
+		31915,
+		380,
+		true
+	},
+	[31123] = {
+		32295,
+		381,
+		true
+	},
+	[31124] = {
+		32676,
+		382,
+		true
+	},
+	[31031] = {
+		33058,
+		380,
+		true
+	},
+	[31032] = {
+		33438,
+		382,
+		true
+	},
+	[31033] = {
+		33820,
+		383,
+		true
+	},
+	[31034] = {
+		34203,
+		383,
+		true
+	},
+	[31131] = {
+		34586,
+		382,
+		true
+	},
+	[31132] = {
+		34968,
+		383,
+		true
+	},
+	[31133] = {
+		35351,
+		384,
+		true
+	},
+	[31134] = {
+		35735,
+		385,
+		true
+	},
+	[31041] = {
+		36120,
+		377,
+		true
+	},
+	[31042] = {
+		36497,
+		379,
+		true
+	},
+	[31043] = {
+		36876,
+		380,
+		true
+	},
+	[31044] = {
+		37256,
+		380,
+		true
+	},
+	[31141] = {
+		37636,
+		379,
+		true
+	},
+	[31142] = {
+		38015,
+		380,
+		true
+	},
+	[31143] = {
+		38395,
+		381,
+		true
+	},
+	[31144] = {
+		38776,
+		382,
+		true
+	},
+	[31973] = {
+		39158,
+		381,
+		true
+	},
+	[31974] = {
+		39539,
+		387,
+		true
+	},
+	[31975] = {
+		39926,
+		384,
+		true
+	},
+	[31976] = {
+		40310,
+		381,
+		true
+	},
+	[31977] = {
+		40691,
+		381,
+		true
+	},
+	[31978] = {
+		41072,
+		378,
+		true
+	},
+	[31979] = {
+		41450,
+		381,
+		true
+	},
+	[31980] = {
+		41831,
+		381,
+		true
+	},
+	[31981] = {
+		42212,
+		383,
+		true
+	},
+	[31982] = {
+		42595,
+		383,
+		true
+	},
+	[31983] = {
+		42978,
+		387,
+		true
+	},
+	[31984] = {
+		43365,
+		387,
+		true
+	},
+	[31985] = {
+		43752,
+		389,
+		true
+	},
+	[31986] = {
+		44141,
+		387,
+		true
+	},
+	[31987] = {
+		44528,
+		390,
+		true
+	},
+	[31988] = {
+		44918,
+		387,
+		true
+	},
+	[31989] = {
+		45305,
+		375,
+		true
+	},
+	[31990] = {
+		45680,
+		375,
+		true
+	},
+	[31991] = {
+		46055,
+		375,
+		true
+	},
+	[31992] = {
+		46430,
+		375,
+		true
+	},
+	[31993] = {
+		46805,
+		375,
+		true
+	},
+	[31994] = {
+		47180,
+		375,
+		true
+	},
+	[31995] = {
+		47555,
+		375,
+		true
+	},
+	[31996] = {
+		47930,
+		375,
+		true
+	},
+	[31997] = {
+		48305,
+		375,
+		true
+	},
+	[31998] = {
+		48680,
+		390,
+		true
+	},
+	[31999] = {
+		49070,
+		375,
+		true
+	},
+	[33011] = {
+		49445,
+		379,
+		true
+	},
+	[33012] = {
+		49824,
+		380,
+		true
+	},
+	[33013] = {
+		50204,
+		380,
+		true
+	},
+	[33014] = {
+		50584,
+		381,
+		true
+	},
+	[33021] = {
+		50965,
+		376,
+		true
+	},
+	[33022] = {
+		51341,
+		377,
+		true
+	},
+	[33023] = {
+		51718,
+		377,
+		true
+	},
+	[33024] = {
+		52095,
+		378,
+		true
+	},
+	[33031] = {
+		52473,
+		379,
+		true
+	},
+	[33032] = {
+		52852,
+		380,
+		true
+	},
+	[33033] = {
+		53232,
+		380,
+		true
+	},
+	[33034] = {
+		53612,
+		381,
+		true
+	},
+	[33041] = {
+		53993,
+		376,
+		true
+	},
+	[33042] = {
+		54369,
+		377,
+		true
+	},
+	[33043] = {
+		54746,
+		377,
+		true
+	},
+	[33044] = {
+		55123,
+		378,
+		true
+	},
+	[43001] = {
+		55501,
+		371,
+		true
+	},
+	[43002] = {
+		55872,
+		368,
+		true
+	},
+	[43003] = {
+		56240,
+		369,
+		true
+	},
+	[43004] = {
+		56609,
+		374,
+		true
+	},
+	[43005] = {
+		56983,
+		368,
+		true
+	},
+	[43006] = {
+		57351,
+		360,
+		true
+	},
+	[43007] = {
+		57711,
+		360,
+		true
+	},
+	[43008] = {
+		58071,
+		366,
+		true
+	},
+	[43009] = {
+		58437,
+		360,
+		true
+	},
+	[43010] = {
+		58797,
+		363,
+		true
+	},
+	[43011] = {
+		59160,
+		374,
+		true
+	},
+	[43012] = {
+		59534,
+		360,
+		true
+	},
+	[43013] = {
+		59894,
+		357,
+		true
+	},
+	[43014] = {
+		60251,
+		357,
+		true
+	},
+	[50002] = {
+		60608,
+		362,
+		true
+	},
+	[50003] = {
+		60970,
+		362,
+		true
+	},
+	[50004] = {
+		61332,
+		357,
+		true
+	},
+	[50005] = {
+		61689,
+		360,
+		true
+	},
+	[50006] = {
+		62049,
+		360,
+		true
+	},
+	[50007] = {
+		62409,
+		351,
+		true
+	},
+	[50008] = {
+		62760,
+		357,
+		true
+	},
+	[50009] = {
+		63117,
+		357,
+		true
+	},
+	[50011] = {
+		63474,
+		397,
+		true
+	},
+	[50012] = {
+		63871,
+		398,
+		true
+	},
+	[50013] = {
+		64269,
+		399,
+		true
+	},
+	[60001] = {
+		64668,
+		405,
+		true
+	},
+	[60002] = {
+		65073,
+		405,
+		true
+	},
+	[60003] = {
+		65478,
+		406,
+		true
+	},
+	[60004] = {
+		65884,
+		406,
+		true
+	},
+	[60005] = {
+		66290,
+		377,
+		true
+	},
+	[60006] = {
+		66667,
+		400,
+		true
+	},
+	[60007] = {
+		67067,
+		406,
+		true
+	},
+	[60101] = {
+		67473,
+		371,
+		true
+	},
+	[60102] = {
+		67844,
+		392,
+		true
+	},
+	[60103] = {
+		68236,
+		483,
+		true
+	},
+	[60104] = {
+		68719,
+		464,
+		true
+	},
+	[60105] = {
+		69183,
+		490,
+		true
+	},
+	[60106] = {
+		69673,
+		483,
+		true
+	},
+	[60107] = {
+		70156,
+		464,
+		true
+	},
+	[60108] = {
+		70620,
+		480,
+		true
+	},
+	[60114] = {
+		71100,
+		476,
+		true
+	},
+	[60115] = {
+		71576,
+		477,
+		true
+	},
+	[60117] = {
+		72053,
+		480,
+		true
+	},
+	[60118] = {
+		72533,
+		397,
+		true
+	},
+	[60119] = {
+		72930,
+		384,
+		true
+	},
+	[60120] = {
+		73314,
+		395,
+		true
+	},
+	[60121] = {
+		73709,
+		396,
+		true
+	},
+	[60122] = {
+		74105,
+		389,
+		true
+	},
+	[60123] = {
+		74494,
+		390,
+		true
+	},
+	[60124] = {
+		74884,
+		482,
+		true
+	},
+	[60125] = {
+		75366,
+		489,
+		true
+	},
+	[60126] = {
+		75855,
+		489,
+		true
+	},
+	[60127] = {
+		76344,
+		490,
+		true
+	},
+	[60128] = {
+		76834,
+		486,
+		true
+	},
+	[60129] = {
+		77320,
+		486,
+		true
+	},
+	[60130] = {
+		77806,
+		482,
+		true
+	},
+	[60131] = {
+		78288,
+		389,
+		true
+	},
+	[60132] = {
+		78677,
+		390,
+		true
+	},
+	[60133] = {
+		79067,
+		490,
+		true
+	},
+	[60134] = {
+		79557,
+		485,
+		true
+	},
+	[60135] = {
+		80042,
+		488,
+		true
+	},
+	[60136] = {
+		80530,
+		489,
+		true
+	},
+	[60137] = {
+		81019,
+		491,
+		true
+	},
+	[60138] = {
+		81510,
+		492,
+		true
+	},
+	[60139] = {
+		82002,
+		498,
+		true
+	},
+	[60140] = {
+		82500,
+		506,
+		true
+	},
+	[60141] = {
+		83006,
+		507,
+		true
+	},
+	[60142] = {
+		83513,
+		494,
+		true
+	},
+	[60143] = {
+		84007,
+		495,
+		true
+	},
+	[60144] = {
+		84502,
+		500,
+		true
+	},
+	[60145] = {
+		85002,
+		501,
+		true
+	},
+	[60146] = {
+		85503,
+		498,
+		true
+	},
+	[60147] = {
+		86001,
+		508,
+		true
+	},
+	[60148] = {
+		86509,
+		500,
+		true
+	},
+	[60149] = {
+		87009,
+		501,
+		true
+	},
+	[60150] = {
+		87510,
+		496,
+		true
+	},
+	[60151] = {
+		88006,
+		505,
+		true
+	},
+	[60152] = {
+		88511,
+		510,
+		true
+	},
+	[60153] = {
+		89021,
+		511,
+		true
+	},
+	[60154] = {
+		89532,
+		500,
+		true
+	},
+	[60155] = {
+		90032,
+		493,
+		true
+	},
+	[60156] = {
+		90525,
+		501,
+		true
+	},
+	[60157] = {
+		91026,
+		500,
+		true
+	},
+	[60158] = {
+		91526,
+		501,
+		true
+	},
+	[60159] = {
+		92027,
+		500,
+		true
+	},
+	[60160] = {
+		92527,
+		513,
+		true
+	},
+	[60161] = {
+		93040,
+		512,
+		true
+	},
+	[60162] = {
+		93552,
+		510,
+		true
+	},
+	[60163] = {
+		94062,
+		513,
+		true
+	},
+	[60164] = {
+		94575,
+		500,
+		true
+	},
+	[60165] = {
+		95075,
+		501,
+		true
+	},
+	[60166] = {
+		95576,
+		499,
+		true
+	},
+	[60167] = {
+		96075,
+		500,
+		true
+	},
+	[60168] = {
+		96575,
+		510,
+		true
+	},
+	[60169] = {
+		97085,
+		511,
+		true
+	},
+	[60170] = {
+		97596,
+		510,
+		true
+	},
+	[60171] = {
+		98106,
+		492,
+		true
+	},
+	[60172] = {
+		98598,
+		500,
+		true
+	},
+	[60173] = {
+		99098,
+		501,
+		true
+	},
+	[60174] = {
+		99599,
+		498,
+		true
+	},
+	[60175] = {
+		100097,
+		502,
+		true
+	},
+	[60176] = {
+		100599,
+		503,
+		true
+	},
+	[60177] = {
+		101102,
+		500,
+		true
+	},
+	[60178] = {
+		101602,
+		512,
+		true
+	},
+	[60179] = {
+		102114,
+		513,
+		true
+	},
+	[60180] = {
+		102627,
+		510,
+		true
+	},
+	[60181] = {
+		103137,
+		520,
+		true
+	},
+	[60182] = {
+		103657,
+		502,
+		true
+	},
+	[60183] = {
+		104159,
+		505,
+		true
+	},
+	[60184] = {
+		104664,
+		504,
+		true
+	},
+	[60185] = {
+		105168,
+		498,
+		true
+	},
+	[60186] = {
+		105666,
+		501,
+		true
+	},
+	[60187] = {
+		106167,
+		500,
+		true
+	},
+	[60188] = {
+		106667,
+		500,
+		true
+	},
+	[60189] = {
+		107167,
+		494,
+		true
+	},
+	[60190] = {
+		107661,
+		497,
+		true
+	},
+	[60191] = {
+		108158,
+		496,
+		true
+	},
+	[60192] = {
+		108654,
+		501,
+		true
+	},
+	[60193] = {
+		109155,
+		500,
+		true
+	},
+	[60194] = {
+		109655,
+		496,
+		true
+	},
+	[60195] = {
+		110151,
+		509,
+		true
+	},
+	[60196] = {
+		110660,
+		512,
+		true
+	},
+	[60197] = {
+		111172,
+		511,
+		true
+	},
+	[60198] = {
+		111683,
+		518,
+		true
+	},
+	[60199] = {
+		112201,
+		510,
+		true
+	},
+	[60200] = {
+		112711,
+		516,
+		true
+	},
+	[60201] = {
+		113227,
+		514,
+		true
+	},
+	[60202] = {
+		113741,
+		494,
+		true
+	},
+	[60203] = {
+		114235,
+		497,
+		true
+	},
+	[60204] = {
+		114732,
+		496,
+		true
+	},
+	[60205] = {
+		115228,
+		501,
+		true
+	},
+	[60206] = {
+		115729,
+		504,
+		true
+	},
+	[60207] = {
+		116233,
+		503,
+		true
+	},
+	[60208] = {
+		116736,
+		507,
+		true
+	},
+	[60209] = {
+		117243,
+		510,
+		true
+	},
+	[60210] = {
+		117753,
+		509,
+		true
+	},
+	[60211] = {
+		118262,
+		513,
+		true
+	},
+	[60212] = {
+		118775,
+		502,
+		true
+	},
+	[60213] = {
+		119277,
+		498,
+		true
+	},
+	[60214] = {
+		119775,
+		501,
+		true
+	},
+	[60215] = {
+		120276,
+		500,
+		true
+	},
+	[60216] = {
+		120776,
+		506,
+		true
+	},
+	[60217] = {
+		121282,
+		495,
+		true
+	},
+	[60218] = {
+		121777,
+		498,
+		true
+	},
+	[60219] = {
+		122275,
+		497,
+		true
+	},
+	[60223] = {
+		122772,
+		516,
+		true
+	},
+	[60224] = {
+		123288,
+		506,
+		true
+	},
+	[60225] = {
+		123794,
+		509,
+		true
+	},
+	[60226] = {
+		124303,
+		508,
+		true
+	},
+	[60227] = {
+		124811,
+		504,
+		true
+	},
+	[60228] = {
+		125315,
+		503,
+		true
+	},
+	[60229] = {
+		125818,
+		501,
+		true
+	},
+	[60230] = {
+		126319,
+		506,
+		true
+	},
+	[60231] = {
+		126825,
+		499,
+		true
+	},
+	[60232] = {
+		127324,
+		501,
+		true
+	},
+	[60233] = {
+		127825,
+		500,
+		true
+	},
+	[60234] = {
+		128325,
+		498,
+		true
+	},
+	[60235] = {
+		128823,
+		507,
+		true
+	},
+	[60236] = {
+		129330,
+		506,
+		true
+	},
+	[60237] = {
+		129836,
+		503,
+		true
+	},
+	[60238] = {
+		130339,
+		504,
+		true
+	},
+	[60239] = {
+		130843,
+		501,
+		true
+	},
+	[60250] = {
+		131344,
+		497,
+		true
+	},
+	[60251] = {
+		131841,
+		498,
+		true
+	},
+	[60252] = {
+		132339,
+		495,
+		true
+	},
+	[60240] = {
+		132834,
+		505,
+		true
+	},
+	[60253] = {
+		133339,
+		514,
+		true
+	},
+	[60254] = {
+		133853,
+		500,
+		true
+	},
+	[60255] = {
+		134353,
+		501,
+		true
+	},
+	[60256] = {
+		134854,
+		498,
+		true
+	},
+	[60257] = {
+		135352,
+		504,
+		true
+	},
+	[60258] = {
+		135856,
+		505,
+		true
+	},
+	[60260] = {
+		136361,
+		500,
+		true
+	},
+	[60261] = {
+		136861,
+		501,
+		true
+	},
+	[60262] = {
+		137362,
+		498,
+		true
+	},
+	[60265] = {
+		137860,
+		506,
+		true
+	},
+	[60266] = {
+		138366,
+		507,
+		true
+	},
+	[60267] = {
+		138873,
+		504,
+		true
+	},
+	[60268] = {
+		139377,
+		507,
+		true
+	},
+	[61001] = {
+		139884,
+		409,
+		true
+	},
+	[61002] = {
+		140293,
+		364,
+		true
+	},
+	[61003] = {
+		140657,
+		368,
+		true
+	},
+	[61004] = {
+		141025,
+		373,
+		true
+	},
+	[61005] = {
+		141398,
+		365,
+		true
+	},
+	[61006] = {
+		141763,
+		367,
+		true
+	},
+	[61007] = {
+		142130,
+		366,
+		true
+	},
+	[61008] = {
+		142496,
+		360,
+		true
+	},
+	[61009] = {
+		142856,
+		365,
+		true
+	},
+	[61010] = {
+		143221,
+		363,
+		true
+	},
+	[61011] = {
+		143584,
+		480,
+		true
+	},
+	[61012] = {
+		144064,
+		386,
+		true
+	},
+	[61013] = {
+		144450,
+		413,
+		true
+	},
+	[61014] = {
+		144863,
+		408,
+		true
+	},
+	[61015] = {
+		145271,
+		410,
+		true
+	},
+	[61016] = {
+		145681,
+		412,
+		true
+	},
+	[70001] = {
+		146093,
+		455,
+		true
+	},
+	[70002] = {
+		146548,
+		453,
+		true
+	},
+	[70003] = {
+		147001,
+		456,
+		true
+	},
+	[70004] = {
+		147457,
+		456,
+		true
+	},
+	[70005] = {
+		147913,
+		459,
+		true
+	},
+	[70006] = {
+		148372,
+		456,
+		true
+	},
+	[70007] = {
+		148828,
+		453,
+		true
+	},
+	[70008] = {
+		149281,
+		459,
+		true
+	},
+	[70009] = {
+		149740,
+		453,
+		true
+	},
+	[70010] = {
+		150193,
+		450,
+		true
+	},
+	[70011] = {
+		150643,
+		459,
+		true
+	},
+	[70012] = {
+		151102,
+		459,
+		true
+	},
+	[70013] = {
+		151561,
+		477,
+		true
+	},
+	[70014] = {
+		152038,
+		477,
+		true
+	},
+	[70017] = {
+		152515,
+		367,
+		true
+	},
+	[70018] = {
+		152882,
+		373,
+		true
+	},
+	[70019] = {
+		153255,
+		367,
+		true
+	},
+	[70020] = {
+		153622,
+		365,
+		true
+	},
+	[70021] = {
+		153987,
+		363,
+		true
+	},
+	[70022] = {
+		154350,
+		360,
+		true
+	},
+	[70023] = {
+		154710,
+		362,
+		true
+	},
+	[70024] = {
+		155072,
+		465,
+		true
+	},
+	[70025] = {
+		155537,
+		458,
+		true
+	},
+	[70026] = {
+		155995,
+		456,
+		true
+	},
+	[70027] = {
+		156451,
+		459,
+		true
+	},
+	[70028] = {
+		156910,
+		462,
+		true
+	},
+	[70029] = {
+		157372,
+		456,
+		true
+	},
+	[70030] = {
+		157828,
+		456,
+		true
+	},
+	[70031] = {
+		158284,
+		456,
+		true
+	},
+	[70032] = {
+		158740,
+		456,
+		true
+	},
+	[70033] = {
+		159196,
+		458,
+		true
+	},
+	[70034] = {
+		159654,
+		458,
+		true
+	},
+	[70035] = {
+		160112,
+		458,
+		true
+	},
+	[70036] = {
+		160570,
+		456,
+		true
+	},
+	[70037] = {
+		161026,
+		456,
+		true
+	},
+	[70038] = {
+		161482,
+		457,
+		true
+	},
+	[70039] = {
+		161939,
+		457,
+		true
+	},
+	[70040] = {
+		162396,
+		457,
+		true
+	},
+	[70041] = {
+		162853,
+		457,
+		true
+	},
+	[70042] = {
+		163310,
+		450,
+		true
+	},
+	[70043] = {
+		163760,
+		453,
+		true
+	},
+	[70044] = {
+		164213,
+		453,
+		true
+	},
+	[70045] = {
+		164666,
+		455,
+		true
+	},
+	[70046] = {
+		165121,
+		450,
+		true
+	},
+	[70047] = {
+		165571,
+		456,
+		true
+	},
+	[70048] = {
+		166027,
+		450,
+		true
+	},
+	[70049] = {
+		166477,
+		371,
+		true
+	},
+	[70050] = {
+		166848,
+		461,
+		true
+	},
+	[70051] = {
+		167309,
+		455,
+		true
+	},
+	[70052] = {
+		167764,
+		452,
+		true
+	},
+	[70053] = {
+		168216,
+		452,
+		true
+	},
+	[70054] = {
+		168668,
+		456,
+		true
+	},
+	[70055] = {
+		169124,
+		452,
+		true
+	},
+	[70056] = {
+		169576,
+		448,
+		true
+	},
+	[70057] = {
+		170024,
+		452,
+		true
+	},
+	[70058] = {
+		170476,
+		362,
+		true
+	},
+	[70059] = {
+		170838,
+		458,
+		true
+	},
+	[70060] = {
+		171296,
+		360,
+		true
+	},
+	[70061] = {
+		171656,
+		360,
+		true
+	},
+	[70062] = {
+		172016,
+		452,
+		true
+	},
+	[70063] = {
+		172468,
+		452,
+		true
+	},
+	[70064] = {
+		172920,
+		356,
+		true
+	},
+	[70065] = {
+		173276,
+		448,
+		true
+	},
+	[70066] = {
+		173724,
+		458,
+		true
+	},
+	[70067] = {
+		174182,
+		362,
+		true
+	},
+	[70068] = {
+		174544,
+		362,
+		true
+	},
+	[70069] = {
+		174906,
+		362,
+		true
+	},
+	[70070] = {
+		175268,
+		362,
+		true
+	},
+	[70071] = {
+		175630,
+		452,
+		true
+	},
+	[70072] = {
+		176082,
+		356,
+		true
+	},
+	[70073] = {
+		176438,
+		356,
+		true
+	},
+	[70074] = {
+		176794,
+		359,
+		true
+	},
+	[70075] = {
+		177153,
+		359,
+		true
+	},
+	[70076] = {
+		177512,
+		447,
+		true
+	},
+	[70077] = {
+		177959,
+		453,
+		true
+	},
+	[70078] = {
+		178412,
+		456,
+		true
+	},
+	[70079] = {
+		178868,
+		447,
+		true
+	},
+	[70080] = {
+		179315,
+		480,
+		true
+	},
+	[70081] = {
+		179795,
+		447,
+		true
+	},
+	[70082] = {
+		180242,
+		461,
+		true
+	},
+	[70083] = {
+		180703,
+		496,
+		true
+	},
+	[70084] = {
+		181199,
+		455,
+		true
+	},
+	[70085] = {
+		181654,
+		376,
+		true
+	},
+	[70086] = {
+		182030,
+		366,
+		true
+	},
+	[70087] = {
+		182396,
+		364,
+		true
+	},
+	[70088] = {
+		182760,
+		450,
+		true
+	},
+	[70089] = {
+		183210,
+		456,
+		true
+	},
+	[70090] = {
+		183666,
+		360,
+		true
+	},
+	[70091] = {
+		184026,
+		360,
+		true
+	},
+	[70092] = {
+		184386,
+		360,
+		true
+	},
+	[70093] = {
+		184746,
+		453,
+		true
+	},
+	[70095] = {
+		185199,
+		453,
+		true
+	},
+	[70096] = {
+		185652,
+		452,
+		true
+	},
+	[70097] = {
+		186104,
+		455,
+		true
+	},
+	[70098] = {
+		186559,
+		458,
+		true
+	},
+	[70099] = {
+		187017,
+		458,
+		true
+	},
+	[70100] = {
+		187475,
+		452,
+		true
+	},
+	[70101] = {
+		187927,
+		458,
+		true
+	},
+	[70102] = {
+		188385,
+		452,
+		true
+	},
+	[70103] = {
+		188837,
+		456,
+		true
+	},
+	[70104] = {
+		189293,
+		450,
+		true
+	},
+	[70105] = {
+		189743,
+		449,
+		true
+	},
+	[70106] = {
+		190192,
+		450,
+		true
+	},
+	[70107] = {
+		190642,
+		368,
+		true
+	},
+	[70108] = {
+		191010,
+		449,
+		true
+	},
+	[70109] = {
+		191459,
+		456,
+		true
+	},
+	[70110] = {
+		191915,
+		450,
+		true
+	},
+	[70111] = {
+		192365,
+		362,
+		true
+	},
+	[70112] = {
+		192727,
+		365,
+		true
+	},
+	[70113] = {
+		193092,
+		372,
+		true
+	},
+	[70114] = {
+		193464,
+		365,
+		true
+	},
+	[70115] = {
+		193829,
+		360,
+		true
+	},
+	[70116] = {
+		194189,
+		363,
+		true
+	},
+	[70117] = {
+		194552,
+		455,
+		true
+	},
+	[70118] = {
+		195007,
+		456,
+		true
+	},
+	[70119] = {
+		195463,
+		456,
+		true
+	},
+	[70120] = {
+		195919,
+		459,
+		true
+	},
+	[70121] = {
+		196378,
+		459,
+		true
+	},
+	[70122] = {
+		196837,
+		462,
+		true
+	},
+	[70123] = {
+		197299,
+		462,
+		true
+	},
+	[70124] = {
+		197761,
+		362,
+		true
+	},
+	[70125] = {
+		198123,
+		454,
+		true
+	},
+	[70126] = {
+		198577,
+		370,
+		true
+	},
+	[70127] = {
+		198947,
+		364,
+		true
+	},
+	[70128] = {
+		199311,
+		364,
+		true
+	},
+	[70129] = {
+		199675,
+		368,
+		true
+	},
+	[70130] = {
+		200043,
+		373,
+		true
+	},
+	[70131] = {
+		200416,
+		364,
+		true
+	},
+	[70132] = {
+		200780,
+		362,
+		true
+	},
+	[70133] = {
+		201142,
+		367,
+		true
+	},
+	[70134] = {
+		201509,
+		368,
+		true
+	},
+	[70135] = {
+		201877,
+		362,
+		true
+	},
+	[70136] = {
+		202239,
+		367,
+		true
+	},
+	[70137] = {
+		202606,
+		370,
+		true
+	},
+	[70138] = {
+		202976,
+		362,
+		true
+	},
+	[70139] = {
+		203338,
+		454,
+		true
+	},
+	[70140] = {
+		203792,
+		379,
+		true
+	},
+	[70141] = {
+		204171,
+		363,
+		true
+	},
+	[70142] = {
+		204534,
+		371,
+		true
+	},
+	[70143] = {
+		204905,
+		464,
+		true
+	},
+	[70144] = {
+		205369,
+		366,
+		true
+	},
+	[70145] = {
+		205735,
+		459,
+		true
+	},
+	[70146] = {
+		206194,
+		371,
+		true
+	},
+	[70147] = {
+		206565,
+		364,
+		true
+	},
+	[70148] = {
+		206929,
+		365,
+		true
+	},
+	[70149] = {
+		207294,
+		365,
+		true
+	},
+	[70150] = {
+		207659,
+		366,
+		true
+	},
+	[70151] = {
+		208025,
+		362,
+		true
+	},
+	[70152] = {
+		208387,
+		364,
+		true
+	},
+	[70153] = {
+		208751,
+		364,
+		true
+	},
+	[70154] = {
+		209115,
+		368,
+		true
+	},
+	[70156] = {
+		209483,
+		365,
+		true
+	},
+	[70157] = {
+		209848,
+		365,
+		true
+	},
+	[70158] = {
+		210213,
+		362,
+		true
+	},
+	[70159] = {
+		210575,
+		365,
+		true
+	},
+	[70160] = {
+		210940,
+		362,
+		true
+	},
+	[70161] = {
+		211302,
+		363,
+		true
+	},
+	[70162] = {
+		211665,
+		461,
+		true
+	},
+	[70163] = {
+		212126,
+		362,
+		true
+	},
+	[70164] = {
+		212488,
+		363,
+		true
+	},
+	[70165] = {
+		212851,
+		373,
+		true
+	},
+	[70171] = {
+		213224,
+		362,
+		true
+	},
+	[70172] = {
+		213586,
+		365,
+		true
+	},
+	[70166] = {
+		213951,
+		364,
+		true
+	},
+	[70167] = {
+		214315,
+		364,
+		true
+	},
+	[70168] = {
+		214679,
+		365,
+		true
+	},
+	[70170] = {
+		215044,
+		362,
+		true
+	},
+	[70173] = {
+		215406,
+		370,
+		true
+	},
+	[70174] = {
+		215776,
+		456,
+		true
+	},
+	[70175] = {
+		216232,
+		453,
+		true
+	},
+	[70176] = {
+		216685,
+		453,
+		true
+	},
+	[70177] = {
+		217138,
+		453,
+		true
+	},
+	[70178] = {
+		217591,
+		450,
+		true
+	},
+	[70179] = {
+		218041,
+		467,
+		true
+	},
+	[70180] = {
+		218508,
+		362,
+		true
+	},
+	[70181] = {
+		218870,
+		365,
+		true
+	},
+	[70182] = {
+		219235,
+		365,
+		true
+	},
+	[70183] = {
+		219600,
+		367,
+		true
+	},
+	[70184] = {
+		219967,
+		460,
+		true
+	},
+	[70185] = {
+		220427,
+		457,
+		true
+	},
+	[70186] = {
+		220884,
+		370,
+		true
+	},
+	[70187] = {
+		221254,
+		451,
+		true
+	},
+	[70188] = {
+		221705,
+		454,
+		true
+	},
+	[70189] = {
+		222159,
+		457,
+		true
+	},
+	[70190] = {
+		222616,
+		457,
+		true
+	},
+	[70191] = {
+		223073,
+		460,
+		true
+	},
+	[70192] = {
+		223533,
+		454,
+		true
+	},
+	[70193] = {
+		223987,
+		365,
+		true
+	},
+	[70194] = {
+		224352,
+		455,
+		true
+	},
+	[70195] = {
+		224807,
+		362,
+		true
+	},
+	[70196] = {
+		225169,
+		356,
+		true
+	},
+	[70197] = {
+		225525,
+		365,
+		true
+	},
+	[70198] = {
+		225890,
+		364,
+		true
+	},
+	[70199] = {
+		226254,
+		370,
+		true
+	},
+	[70200] = {
+		226624,
+		363,
+		true
+	},
+	[70201] = {
+		226987,
+		363,
+		true
+	},
+	[70202] = {
+		227350,
+		362,
+		true
+	},
+	[70203] = {
+		227712,
+		362,
+		true
+	},
+	[70204] = {
+		228074,
+		360,
+		true
+	},
+	[70205] = {
+		228434,
+		361,
+		true
+	},
+	[70206] = {
+		228795,
+		451,
+		true
+	},
+	[70207] = {
+		229246,
+		457,
+		true
+	},
+	[70208] = {
+		229703,
+		458,
+		true
+	},
+	[70209] = {
+		230161,
+		454,
+		true
+	},
+	[70210] = {
+		230615,
+		455,
+		true
+	},
+	[70211] = {
+		231070,
+		461,
+		true
+	},
+	[70212] = {
+		231531,
+		362,
+		true
+	},
+	[70213] = {
+		231893,
+		368,
+		true
+	},
+	[70214] = {
+		232261,
+		365,
+		true
+	},
+	[70215] = {
+		232626,
+		368,
+		true
+	},
+	[70216] = {
+		232994,
+		368,
+		true
+	},
+	[70217] = {
+		233362,
+		362,
+		true
+	},
+	[70218] = {
+		233724,
+		455,
+		true
+	},
+	[70219] = {
+		234179,
+		362,
+		true
+	},
+	[70220] = {
+		234541,
+		452,
+		true
+	},
+	[70221] = {
+		234993,
+		452,
+		true
+	},
+	[70222] = {
+		235445,
+		368,
+		true
+	},
+	[70223] = {
+		235813,
+		361,
+		true
+	},
+	[70224] = {
+		236174,
+		362,
+		true
+	},
+	[70225] = {
+		236536,
+		365,
+		true
+	},
+	[70226] = {
+		236901,
+		365,
+		true
+	},
+	[70227] = {
+		237266,
+		362,
+		true
+	},
+	[70228] = {
+		237628,
+		368,
+		true
+	},
+	[70229] = {
+		237996,
+		362,
+		true
+	},
+	[70230] = {
+		238358,
+		362,
+		true
+	},
+	[70231] = {
+		238720,
+		365,
+		true
+	},
+	[70232] = {
+		239085,
+		365,
+		true
+	},
+	[70233] = {
+		239450,
+		365,
+		true
+	},
+	[70234] = {
+		239815,
+		545,
+		true
+	},
+	[70235] = {
+		240360,
+		449,
+		true
+	},
+	[70236] = {
+		240809,
+		455,
+		true
+	},
+	[70237] = {
+		241264,
+		458,
+		true
+	},
+	[70238] = {
+		241722,
+		452,
+		true
+	},
+	[70239] = {
+		242174,
+		455,
+		true
+	},
+	[70240] = {
+		242629,
+		548,
+		true
+	},
+	[70241] = {
+		243177,
+		545,
+		true
+	},
+	[70242] = {
+		243722,
+		461,
+		true
+	},
+	[70243] = {
+		244183,
+		548,
+		true
+	},
+	[70244] = {
+		244731,
+		452,
+		true
+	},
+	[70245] = {
+		245183,
+		461,
+		true
+	},
+	[70246] = {
+		245644,
+		362,
+		true
+	},
+	[70248] = {
+		246006,
+		452,
+		true
+	},
+	[70249] = {
+		246458,
+		365,
+		true
+	},
+	[70250] = {
+		246823,
+		358,
+		true
+	},
+	[70251] = {
+		247181,
+		358,
+		true
+	},
+	[70252] = {
+		247539,
+		356,
+		true
+	},
+	[70253] = {
+		247895,
+		371,
+		true
+	},
+	[70254] = {
+		248266,
+		368,
+		true
+	},
+	[70255] = {
+		248634,
+		368,
+		true
+	},
+	[70256] = {
+		249002,
+		374,
+		true
+	},
+	[70257] = {
+		249376,
+		368,
+		true
+	},
+	[70258] = {
+		249744,
+		368,
+		true
+	},
+	[70259] = {
+		250112,
+		371,
+		true
+	},
+	[70260] = {
+		250483,
+		368,
+		true
+	},
+	[70261] = {
+		250851,
+		362,
+		true
+	},
+	[70262] = {
+		251213,
+		362,
+		true
+	},
+	[70263] = {
+		251575,
+		362,
+		true
+	},
+	[70264] = {
+		251937,
+		362,
+		true
+	},
+	[70265] = {
+		252299,
+		359,
+		true
+	},
+	[70267] = {
+		252658,
+		462,
+		true
+	},
+	[70268] = {
+		253120,
+		459,
+		true
+	},
+	[70269] = {
+		253579,
+		462,
+		true
+	},
+	[70270] = {
+		254041,
+		459,
+		true
+	},
+	[70271] = {
+		254500,
+		462,
+		true
+	},
+	[70272] = {
+		254962,
+		459,
+		true
+	},
+	[70273] = {
+		255421,
+		462,
+		true
+	},
+	[70274] = {
+		255883,
+		364,
+		true
+	},
+	[70276] = {
+		256247,
+		365,
+		true
+	},
+	[70277] = {
+		256612,
+		365,
+		true
+	},
+	[70278] = {
+		256977,
+		362,
+		true
+	},
+	[70279] = {
+		257339,
+		365,
+		true
+	},
+	[70280] = {
+		257704,
+		365,
+		true
+	},
+	[70281] = {
+		258069,
+		365,
+		true
+	},
+	[70282] = {
+		258434,
+		455,
+		true
+	},
+	[70283] = {
+		258889,
+		461,
+		true
+	},
+	[70284] = {
+		259350,
+		461,
+		true
+	},
+	[70285] = {
+		259811,
+		377,
+		true
+	},
+	[70286] = {
+		260188,
+		461,
+		true
+	},
+	[70287] = {
+		260649,
+		368,
+		true
+	},
+	[70288] = {
+		261017,
+		368,
+		true
+	},
+	[70289] = {
+		261385,
+		368,
+		true
+	},
+	[70290] = {
+		261753,
+		452,
+		true
+	},
+	[70291] = {
+		262205,
+		371,
+		true
+	},
+	[70292] = {
+		262576,
+		365,
+		true
+	},
+	[70293] = {
+		262941,
+		461,
+		true
+	},
+	[70294] = {
+		263402,
+		461,
+		true
+	},
+	[70295] = {
+		263863,
+		374,
+		true
+	},
+	[70296] = {
+		264237,
+		461,
+		true
+	},
+	[70297] = {
+		264698,
+		458,
+		true
+	},
+	[70298] = {
+		265156,
+		368,
+		true
+	},
+	[70299] = {
+		265524,
+		365,
+		true
+	},
+	[70300] = {
+		265889,
+		362,
+		true
+	},
+	[70301] = {
+		266251,
+		455,
+		true
+	},
+	[70302] = {
+		266706,
+		362,
+		true
+	},
+	[70303] = {
+		267068,
+		365,
+		true
+	},
+	[70304] = {
+		267433,
+		362,
+		true
+	},
+	[70305] = {
+		267795,
+		362,
+		true
+	},
+	[70306] = {
+		268157,
+		362,
+		true
+	},
+	[70307] = {
+		268519,
+		365,
+		true
+	},
+	[70308] = {
+		268884,
+		365,
+		true
+	},
+	[70309] = {
+		269249,
+		455,
+		true
+	},
+	[70310] = {
+		269704,
+		368,
+		true
+	},
+	[70311] = {
+		270072,
+		368,
+		true
+	},
+	[70312] = {
+		270440,
+		371,
+		true
+	},
+	[70313] = {
+		270811,
+		371,
+		true
+	},
+	[70314] = {
+		271182,
+		464,
+		true
+	},
+	[70315] = {
+		271646,
+		371,
+		true
+	},
+	[70316] = {
+		272017,
+		362,
+		true
+	},
+	[70317] = {
+		272379,
+		458,
+		true
+	},
+	[70318] = {
+		272837,
+		371,
+		true
+	},
+	[70319] = {
+		273208,
+		365,
+		true
+	},
+	[70320] = {
+		273573,
+		467,
+		true
+	},
+	[70321] = {
+		274040,
+		368,
+		true
+	},
+	[70322] = {
+		274408,
+		461,
+		true
+	},
+	[70323] = {
+		274869,
+		362,
+		true
+	},
+	[70324] = {
+		275231,
+		458,
+		true
+	},
+	[70325] = {
+		275689,
+		365,
+		true
+	},
+	[70326] = {
+		276054,
+		368,
+		true
+	},
+	[70327] = {
+		276422,
+		458,
+		true
+	},
+	[70328] = {
+		276880,
+		455,
+		true
+	},
+	[70329] = {
+		277335,
+		455,
+		true
+	},
+	[70330] = {
+		277790,
+		461,
+		true
+	},
+	[70331] = {
+		278251,
+		467,
+		true
+	},
+	[70332] = {
+		278718,
+		455,
+		true
+	},
+	[70333] = {
+		279173,
+		464,
+		true
+	},
+	[70334] = {
+		279637,
+		455,
+		true
+	},
+	[70335] = {
+		280092,
+		458,
+		true
+	},
+	[70336] = {
+		280550,
+		464,
+		true
+	},
+	[70337] = {
+		281014,
+		464,
+		true
+	},
+	[70339] = {
+		281478,
+		461,
+		true
+	},
+	[70340] = {
+		281939,
+		455,
+		true
+	},
+	[70341] = {
+		282394,
+		360,
+		true
+	},
+	[70342] = {
+		282754,
+		360,
+		true
+	},
+	[70343] = {
+		283114,
+		360,
+		true
+	},
+	[70344] = {
+		283474,
+		360,
+		true
+	},
+	[70345] = {
+		283834,
+		360,
+		true
+	},
+	[70346] = {
+		284194,
+		360,
+		true
+	},
+	[70347] = {
+		284554,
+		362,
+		true
+	},
+	[70348] = {
+		284916,
+		360,
+		true
+	},
+	[70349] = {
+		285276,
+		363,
+		true
+	},
+	[70350] = {
+		285639,
+		360,
+		true
+	},
+	[70357] = {
+		285999,
+		360,
+		true
+	},
+	[70358] = {
+		286359,
+		363,
+		true
+	},
+	[70359] = {
+		286722,
+		363,
+		true
+	},
+	[70360] = {
+		287085,
+		363,
+		true
+	},
+	[70361] = {
+		287448,
+		372,
+		true
+	},
+	[70362] = {
+		287820,
+		366,
+		true
+	},
+	[70363] = {
+		288186,
+		369,
+		true
+	},
+	[70364] = {
+		288555,
+		465,
+		true
+	},
+	[70365] = {
+		289020,
+		372,
+		true
+	},
+	[70366] = {
+		289392,
+		363,
+		true
+	},
+	[70367] = {
+		289755,
+		363,
+		true
+	},
+	[70368] = {
+		290118,
+		357,
+		true
+	},
+	[70369] = {
+		290475,
+		459,
+		true
+	},
+	[70370] = {
+		290934,
+		453,
+		true
+	},
+	[70371] = {
+		291387,
+		459,
+		true
+	},
+	[70372] = {
+		291846,
+		459,
+		true
+	},
+	[70373] = {
+		292305,
+		459,
+		true
+	},
+	[70374] = {
+		292764,
+		453,
+		true
+	},
+	[70375] = {
+		293217,
+		453,
+		true
+	},
+	[70376] = {
+		293670,
+		459,
+		true
+	},
+	[70377] = {
+		294129,
+		456,
+		true
+	},
+	[70378] = {
+		294585,
+		453,
+		true
+	},
+	[70379] = {
+		295038,
+		459,
+		true
+	},
+	[70380] = {
+		295497,
+		453,
+		true
+	},
+	[70381] = {
+		295950,
+		456,
+		true
+	},
+	[70382] = {
+		296406,
+		462,
+		true
+	},
+	[70383] = {
+		296868,
+		366,
+		true
+	},
+	[70384] = {
+		297234,
+		366,
+		true
+	},
+	[70385] = {
+		297600,
+		366,
+		true
+	},
+	[70386] = {
+		297966,
+		372,
+		true
+	},
+	[70387] = {
+		298338,
+		369,
+		true
+	},
+	[70388] = {
+		298707,
+		366,
+		true
+	},
+	[70389] = {
+		299073,
+		366,
+		true
+	},
+	[70390] = {
+		299439,
+		459,
+		true
+	},
+	[70391] = {
+		299898,
+		359,
+		true
+	},
+	[70392] = {
+		300257,
+		363,
+		true
+	},
+	[70393] = {
+		300620,
+		450,
+		true
+	},
+	[70394] = {
+		301070,
+		453,
+		true
+	},
+	[70395] = {
+		301523,
+		363,
+		true
+	},
+	[70396] = {
+		301886,
+		366,
+		true
+	},
+	[70397] = {
+		302252,
+		453,
+		true
+	},
+	[70398] = {
+		302705,
+		453,
+		true
+	},
+	[70399] = {
+		303158,
+		450,
+		true
+	},
+	[70400] = {
+		303608,
+		360,
+		true
+	},
+	[70401] = {
+		303968,
+		360,
+		true
+	},
+	[70402] = {
+		304328,
+		363,
+		true
+	},
+	[70403] = {
+		304691,
+		360,
+		true
+	},
+	[70404] = {
+		305051,
+		359,
+		true
+	},
+	[70405] = {
+		305410,
+		359,
+		true
+	},
+	[70406] = {
+		305769,
+		360,
+		true
+	},
+	[70407] = {
+		306129,
+		360,
+		true
+	},
+	[70408] = {
+		306489,
+		360,
+		true
+	},
+	[70409] = {
+		306849,
+		363,
+		true
+	},
+	[70410] = {
+		307212,
+		366,
+		true
+	},
+	[70411] = {
+		307578,
+		360,
+		true
+	},
+	[70412] = {
+		307938,
+		360,
+		true
+	},
+	[70413] = {
+		308298,
+		360,
+		true
+	},
+	[70414] = {
+		308658,
+		366,
+		true
+	},
+	[70415] = {
+		309024,
+		360,
+		true
+	},
+	[70416] = {
+		309384,
+		360,
+		true
+	},
+	[70417] = {
+		309744,
+		366,
+		true
+	},
+	[70418] = {
+		310110,
+		459,
+		true
+	},
+	[70419] = {
+		310569,
+		366,
+		true
+	},
+	[70420] = {
+		310935,
+		453,
+		true
+	},
+	[70421] = {
+		311388,
+		360,
+		true
+	},
+	[70422] = {
+		311748,
+		453,
+		true
+	},
+	[70423] = {
+		312201,
+		360,
+		true
+	},
+	[70424] = {
+		312561,
+		360,
+		true
+	},
+	[70425] = {
+		312921,
+		358,
+		true
+	},
+	[70426] = {
+		313279,
+		453,
+		true
+	},
+	[70427] = {
+		313732,
+		456,
+		true
+	},
+	[70428] = {
+		314188,
+		366,
+		true
+	},
+	[70429] = {
+		314554,
+		360,
+		true
+	},
+	[70430] = {
+		314914,
+		360,
+		true
+	},
+	[70431] = {
+		315274,
+		357,
+		true
+	},
+	[70432] = {
+		315631,
+		357,
+		true
+	},
+	[70433] = {
+		315988,
+		366,
+		true
+	},
+	[70434] = {
+		316354,
+		456,
+		true
+	},
+	[70435] = {
+		316810,
+		366,
+		true
+	},
+	[70436] = {
+		317176,
+		360,
+		true
+	},
+	[70437] = {
+		317536,
+		459,
+		true
+	},
+	[70438] = {
+		317995,
+		363,
+		true
+	},
+	[70439] = {
+		318358,
+		369,
+		true
+	},
+	[70440] = {
+		318727,
+		366,
+		true
+	},
+	[70441] = {
+		319093,
+		361,
+		true
+	},
+	[70442] = {
+		319454,
+		363,
+		true
+	},
+	[70443] = {
+		319817,
+		456,
+		true
+	},
+	[70444] = {
+		320273,
+		449,
+		true
+	},
+	[70445] = {
+		320722,
+		361,
+		true
+	},
+	[70446] = {
+		321083,
+		358,
+		true
+	},
+	[70447] = {
+		321441,
+		361,
+		true
+	},
+	[70448] = {
+		321802,
+		361,
+		true
+	},
+	[70449] = {
+		322163,
+		361,
+		true
+	},
+	[70450] = {
+		322524,
+		364,
+		true
+	},
+	[70451] = {
+		322888,
+		364,
+		true
+	},
+	[70452] = {
+		323252,
+		360,
+		true
+	},
+	[70453] = {
+		323612,
+		372,
+		true
+	},
+	[70454] = {
+		323984,
+		453,
+		true
+	},
+	[70455] = {
+		324437,
+		456,
+		true
+	},
+	[70456] = {
+		324893,
+		459,
+		true
+	},
+	[70457] = {
+		325352,
+		459,
+		true
+	},
+	[70459] = {
+		325811,
+		467,
+		true
+	},
+	[70460] = {
+		326278,
+		456,
+		true
+	},
+	[70461] = {
+		326734,
+		456,
+		true
+	},
+	[70462] = {
+		327190,
+		453,
+		true
+	},
+	[70463] = {
+		327643,
+		366,
+		true
+	},
+	[70465] = {
+		328009,
+		453,
+		true
+	},
+	[70466] = {
+		328462,
+		456,
+		true
+	},
+	[70467] = {
+		328918,
+		453,
+		true
+	},
+	[70468] = {
+		329371,
+		377,
+		true
+	},
+	[70469] = {
+		329748,
+		357,
+		true
+	},
+	[70470] = {
+		330105,
+		456,
+		true
+	},
+	[70471] = {
+		330561,
+		360,
+		true
+	},
+	[70472] = {
+		330921,
+		357,
+		true
+	},
+	[70473] = {
+		331278,
+		453,
+		true
+	},
+	[70474] = {
+		331731,
+		366,
+		true
+	},
+	[70475] = {
+		332097,
+		360,
+		true
+	},
+	[70476] = {
+		332457,
+		450,
+		true
+	},
+	[70477] = {
+		332907,
+		358,
+		true
+	},
+	[70478] = {
+		333265,
+		453,
+		true
+	},
+	[70479] = {
+		333718,
+		366,
+		true
+	},
+	[70481] = {
+		334084,
+		466,
+		true
+	},
+	[70482] = {
+		334550,
+		379,
+		true
+	},
+	[70483] = {
+		334929,
+		370,
+		true
+	},
+	[70484] = {
+		335299,
+		472,
+		true
+	},
+	[70485] = {
+		335771,
+		379,
+		true
+	},
+	[70486] = {
+		336150,
+		373,
+		true
+	},
+	[70488] = {
+		336523,
+		373,
+		true
+	},
+	[70489] = {
+		336896,
+		386,
+		true
+	},
+	[70490] = {
+		337282,
+		373,
+		true
+	},
+	[70491] = {
+		337655,
+		373,
+		true
+	},
+	[70492] = {
+		338028,
+		469,
+		true
+	},
+	[70494] = {
+		338497,
+		472,
+		true
+	},
+	[70495] = {
+		338969,
+		466,
+		true
+	},
+	[70496] = {
+		339435,
+		469,
+		true
+	},
+	[70497] = {
+		339904,
+		373,
+		true
+	},
+	[70498] = {
+		340277,
+		372,
+		true
+	},
+	[70499] = {
+		340649,
+		373,
+		true
+	},
+	[70500] = {
+		341022,
+		472,
+		true
+	},
+	[70501] = {
+		341494,
+		371,
+		true
+	},
+	[70502] = {
+		341865,
+		481,
+		true
+	},
+	[70503] = {
+		342346,
+		481,
+		true
+	},
+	[70504] = {
+		342827,
+		388,
+		true
+	},
+	[70505] = {
+		343215,
+		453,
+		true
+	},
+	[70506] = {
+		343668,
+		469,
+		true
+	},
+	[70507] = {
+		344137,
+		456,
+		true
+	},
+	[70508] = {
+		344593,
+		453,
+		true
+	},
+	[70509] = {
+		345046,
+		463,
+		true
+	},
+	[70510] = {
+		345509,
+		453,
+		true
+	},
+	[70511] = {
+		345962,
+		456,
+		true
+	},
+	[70513] = {
+		346418,
+		459,
+		true
+	},
+	[70514] = {
+		346877,
+		459,
+		true
+	},
+	[70515] = {
+		347336,
+		453,
+		true
+	},
+	[70516] = {
+		347789,
+		453,
+		true
+	},
+	[70517] = {
+		348242,
+		456,
+		true
+	},
+	[70518] = {
+		348698,
+		451,
+		true
+	},
+	[70520] = {
+		349149,
+		451,
+		true
+	},
+	[70523] = {
+		349600,
+		451,
+		true
+	},
+	[70524] = {
+		350051,
+		451,
+		true
+	},
+	[70525] = {
+		350502,
+		459,
+		true
+	},
+	[70526] = {
+		350961,
+		456,
+		true
+	},
+	[70527] = {
+		351417,
+		465,
+		true
+	},
+	[70528] = {
+		351882,
+		453,
+		true
+	},
+	[70529] = {
+		352335,
+		456,
+		true
+	},
+	[70530] = {
+		352791,
+		459,
+		true
+	},
+	[70531] = {
+		353250,
+		453,
+		true
+	},
+	[70532] = {
+		353703,
+		460,
+		true
+	},
+	[70533] = {
+		354163,
+		460,
+		true
+	},
+	[70534] = {
+		354623,
+		459,
+		true
+	},
+	[70535] = {
+		355082,
+		456,
+		true
+	},
+	[70536] = {
+		355538,
+		456,
+		true
+	},
+	[70537] = {
+		355994,
+		453,
+		true
+	},
+	[70538] = {
+		356447,
+		462,
+		true
+	},
+	[70539] = {
+		356909,
+		470,
+		true
+	},
+	[70540] = {
+		357379,
+		453,
+		true
+	},
+	[70541] = {
+		357832,
+		465,
+		true
+	},
+	[70542] = {
+		358297,
+		459,
+		true
+	},
+	[70543] = {
+		358756,
+		459,
+		true
+	},
+	[70544] = {
+		359215,
+		465,
+		true
+	},
+	[70545] = {
+		359680,
+		459,
+		true
+	},
+	[70546] = {
+		360139,
+		459,
+		true
+	},
+	[70547] = {
+		360598,
+		455,
+		true
+	},
+	[70548] = {
+		361053,
+		465,
+		true
+	},
+	[70549] = {
+		361518,
+		462,
+		true
+	},
+	[70550] = {
+		361980,
+		454,
+		true
+	},
+	[70551] = {
+		362434,
+		460,
+		true
+	},
+	[70552] = {
+		362894,
+		462,
+		true
+	},
+	[70553] = {
+		363356,
+		453,
+		true
+	},
+	[70554] = {
+		363809,
+		453,
+		true
+	},
+	[70555] = {
+		364262,
+		453,
+		true
+	},
+	[70556] = {
+		364715,
+		459,
+		true
+	},
+	[70557] = {
+		365174,
+		453,
+		true
+	},
+	[70558] = {
+		365627,
+		456,
+		true
+	},
+	[70559] = {
+		366083,
+		453,
+		true
+	},
+	[70560] = {
+		366536,
+		453,
+		true
+	},
+	[70561] = {
+		366989,
+		453,
+		true
+	},
+	[70562] = {
+		367442,
+		453,
+		true
+	},
+	[70563] = {
+		367895,
+		450,
+		true
+	},
+	[70565] = {
+		368345,
+		453,
+		true
+	},
+	[70566] = {
+		368798,
+		449,
+		true
+	},
+	[70568] = {
+		369247,
+		456,
+		true
+	},
+	[70569] = {
+		369703,
+		449,
+		true
+	},
+	[70570] = {
+		370152,
+		449,
+		true
+	},
+	[70571] = {
+		370601,
+		449,
+		true
+	},
+	[70572] = {
+		371050,
+		454,
+		true
+	},
+	[70573] = {
+		371504,
+		454,
+		true
+	},
+	[70574] = {
+		371958,
+		454,
+		true
+	},
+	[70575] = {
+		372412,
+		457,
+		true
+	},
+	[70576] = {
+		372869,
+		454,
+		true
+	},
+	[70577] = {
+		373323,
+		454,
+		true
+	},
+	[70578] = {
+		373777,
+		454,
+		true
+	},
+	[70579] = {
+		374231,
+		449,
+		true
+	},
+	[70580] = {
+		374680,
+		453,
+		true
+	},
+	[70581] = {
+		375133,
+		453,
+		true
+	},
+	[70582] = {
+		375586,
+		456,
+		true
+	},
+	[70583] = {
+		376042,
+		456,
+		true
+	},
+	[70584] = {
+		376498,
+		456,
+		true
+	},
+	[70585] = {
+		376954,
+		465,
+		true
+	},
+	[70586] = {
+		377419,
+		462,
+		true
+	},
+	[70587] = {
+		377881,
+		459,
+		true
+	},
+	[70588] = {
+		378340,
+		459,
+		true
+	},
+	[90001] = {
+		378799,
+		395,
+		true
+	},
+	[90002] = {
+		379194,
+		389,
+		true
+	},
+	[90003] = {
+		379583,
+		389,
+		true
+	},
+	[90004] = {
+		379972,
+		380,
+		true
+	},
+	[90005] = {
+		380352,
+		389,
+		true
+	},
+	[90006] = {
+		380741,
+		407,
+		true
+	},
+	[90007] = {
+		381148,
+		376,
+		true
+	},
+	[90008] = {
+		381524,
+		379,
+		true
+	},
+	[90009] = {
+		381903,
+		388,
+		true
+	},
+	[90010] = {
+		382291,
+		475,
+		true
+	},
+	[90011] = {
+		382766,
+		471,
+		true
+	},
+	[90012] = {
+		383237,
+		472,
+		true
+	},
+	[90013] = {
+		383709,
+		386,
+		true
+	},
+	[90014] = {
+		384095,
+		380,
+		true
+	},
+	[90015] = {
+		384475,
+		393,
+		true
+	},
+	[90016] = {
+		384868,
+		380,
+		true
+	},
+	[90017] = {
+		385248,
+		383,
+		true
+	},
+	[90018] = {
+		385631,
+		380,
+		true
+	},
+	[90019] = {
+		386011,
+		386,
+		true
+	},
+	[90020] = {
+		386397,
+		386,
+		true
+	},
+	[90021] = {
+		386783,
+		380,
+		true
+	},
+	[90022] = {
+		387163,
+		376,
+		true
+	},
+	[90023] = {
+		387539,
+		376,
+		true
+	},
+	[90024] = {
+		387915,
+		386,
+		true
+	},
+	[90025] = {
+		388301,
+		374,
+		true
+	},
+	[90026] = {
+		388675,
+		383,
+		true
+	},
+	[90027] = {
+		389058,
+		383,
+		true
+	},
+	[90028] = {
+		389441,
+		386,
+		true
+	},
+	[90029] = {
+		389827,
+		383,
+		true
+	},
+	[90030] = {
+		390210,
+		389,
+		true
+	},
+	[90031] = {
+		390599,
+		380,
+		true
+	},
+	[90032] = {
+		390979,
+		380,
+		true
+	},
+	[90033] = {
+		391359,
+		377,
+		true
+	},
+	[90034] = {
+		391736,
+		485,
+		true
+	},
+	[90035] = {
+		392221,
+		476,
+		true
+	},
+	[90036] = {
+		392697,
+		473,
+		true
+	},
+	[90037] = {
+		393170,
+		470,
+		true
+	},
+	[90038] = {
+		393640,
+		479,
+		true
+	},
+	[90039] = {
+		394119,
+		473,
+		true
+	},
+	[90040] = {
+		394592,
+		473,
+		true
+	},
+	[90041] = {
+		395065,
+		473,
+		true
+	},
+	[90042] = {
+		395538,
+		473,
+		true
+	},
+	[90043] = {
+		396011,
+		476,
+		true
+	},
+	[90044] = {
+		396487,
+		470,
+		true
+	},
+	[90045] = {
+		396957,
+		476,
+		true
+	},
+	[90046] = {
+		397433,
+		479,
+		true
+	},
+	[90047] = {
+		397912,
+		479,
+		true
+	},
+	[90048] = {
+		398391,
+		473,
+		true
+	},
+	[100000] = {
+		398864,
+		377,
+		true
+	},
+	[100001] = {
+		399241,
+		373,
+		true
+	},
+	[100002] = {
+		399614,
+		358,
+		true
+	},
+	[100003] = {
+		399972,
+		369,
+		true
+	},
+	[100004] = {
+		400341,
+		370,
+		true
+	},
+	[100005] = {
+		400711,
+		370,
+		true
+	},
+	[100006] = {
+		401081,
+		370,
+		true
+	},
+	[100007] = {
+		401451,
+		376,
+		true
+	},
+	[100008] = {
+		401827,
+		376,
+		true
+	},
+	[100009] = {
+		402203,
+		376,
+		true
+	},
+	[90049] = {
+		402579,
+		464,
+		true
+	},
+	[90050] = {
+		403043,
+		467,
+		true
+	},
+	[90051] = {
+		403510,
+		464,
+		true
+	},
+	[90052] = {
+		403974,
+		476,
+		true
+	},
+	[90053] = {
+		404450,
+		479,
+		true
+	},
+	[90054] = {
+		404929,
+		473,
+		true
+	},
+	[90055] = {
+		405402,
+		473,
+		true
+	},
+	[90056] = {
+		405875,
+		473,
+		true
+	},
+	[90057] = {
+		406348,
+		476,
+		true
+	},
+	[90058] = {
+		406824,
+		479,
+		true
+	},
+	[90059] = {
+		407303,
+		473,
+		true
+	},
+	[90060] = {
+		407776,
+		479,
+		true
+	},
+	[90061] = {
+		408255,
+		473,
+		true
+	},
+	[90062] = {
+		408728,
+		479,
+		true
+	},
+	[90063] = {
+		409207,
+		479,
+		true
+	},
+	[90064] = {
+		409686,
+		381,
+		true
+	},
+	[90065] = {
+		410067,
+		378,
+		true
+	},
+	[90066] = {
+		410445,
+		381,
+		true
+	},
+	[90067] = {
+		410826,
+		476,
+		true
+	},
+	[90068] = {
+		411302,
+		473,
+		true
+	},
+	[90069] = {
+		411775,
+		473,
+		true
+	},
+	[90070] = {
+		412248,
+		496,
+		true
+	},
+	[90071] = {
+		412744,
+		474,
+		true
+	},
+	[90072] = {
+		413218,
+		474,
+		true
+	},
+	[90073] = {
+		413692,
+		486,
+		true
+	},
+	[90074] = {
+		414178,
+		492,
+		true
+	},
+	[90075] = {
+		414670,
+		486,
+		true
+	},
+	[90076] = {
+		415156,
+		479,
+		true
+	},
+	[90077] = {
+		415635,
+		476,
+		true
+	},
+	[90078] = {
+		416111,
+		479,
+		true
+	},
+	[90079] = {
+		416590,
+		477,
+		true
+	},
+	[90080] = {
+		417067,
+		473,
+		true
+	},
+	[90081] = {
+		417540,
+		473,
+		true
+	},
+	[90082] = {
+		418013,
+		479,
+		true
+	},
+	[90083] = {
+		418492,
+		473,
+		true
+	},
+	[90084] = {
+		418965,
+		473,
+		true
+	},
+	[90085] = {
+		419438,
+		476,
+		true
+	},
+	[90086] = {
+		419914,
+		479,
+		true
+	},
+	[90087] = {
+		420393,
+		476,
+		true
+	},
+	[90088] = {
+		420869,
+		474,
+		true
+	},
+	[90089] = {
+		421343,
+		480,
+		true
+	},
+	[90090] = {
+		421823,
+		474,
+		true
+	},
+	[90091] = {
+		422297,
+		473,
+		true
+	},
+	[90092] = {
+		422770,
+		473,
+		true
+	},
+	[90093] = {
+		423243,
+		470,
+		true
+	},
+	[90094] = {
+		423713,
+		474,
+		true
+	},
+	[90095] = {
+		424187,
+		474,
+		true
+	},
+	[90096] = {
+		424661,
+		474,
+		true
+	},
+	[90097] = {
+		425135,
+		476,
+		true
+	},
+	[90098] = {
+		425611,
+		476,
+		true
+	},
+	[90099] = {
+		426087,
+		476,
+		true
+	},
+	[90100] = {
+		426563,
+		482,
+		true
+	},
+	[90101] = {
+		427045,
+		479,
+		true
+	},
+	[90102] = {
+		427524,
+		485,
+		true
 	}
 }

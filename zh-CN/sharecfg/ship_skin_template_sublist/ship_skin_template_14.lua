@@ -1,5 +1,116 @@
 pg = pg or {}
 pg.ship_skin_template_14 = {
+	[403052] = {
+		ship_group = 40305,
+		name = "平和的每一天",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "我从来没有想过，自己也可以像这样穿上普通的服装，过起和平的生活…谢谢你，指挥官…",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "sipeibojue_3",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = 4,
+		id = 403052,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sipeibojue_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70125,
+		voice_actor = 99,
+		air_bomb_skin = "",
+		illustrator = 31,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.24,
+					1.65,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					1.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					1.51,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[403053] = {
 		ship_group = 40305,
 		name = "未知的晚会",
@@ -7753,146 +7864,6 @@ pg.ship_skin_template_14 = {
 					}
 				}
 			}
-		}
-	},
-	[502035] = {
-		ship_group = 50203,
-		name = "甜蜜嫣红",
-		bg_sp = "",
-		group_index = 5,
-		illustrator2 = -1,
-		desc = "宴会上有好多好多好吃的啊！可是姐姐说要把蛋糕分完才能开始吃......二宝，一起加油吧！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "pinghai_6",
-		air_bullet_skin = "",
-		shop_type_id = 7,
-		hand_id = 15,
-		bgm = "",
-		lip_smoothing = 0,
-		spine_offset = "",
-		special_effects = "",
-		bg = "135",
-		skin_type = 4,
-		id = 502035,
-		voice_actor_2 = 43,
-		air_torpedo_skin = "",
-		prefab = "pinghai_6",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70370,
-		voice_actor = 11,
-		air_bomb_skin = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			18,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.229,
-					1.033,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.216,
-					1.092,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					-0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.249,
-					1.178,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.23,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			main_2 = 0,
-			login = 11.27,
-			main_1 = 0,
-			mission_complete = 0.5,
-			expendition = 0.5,
-			propose = 1,
-			home = 5.26,
-			mission = 0.5,
-			touch2 = 0,
-			mail = 0.5,
-			touch = 0,
-			main_3 = 0
 		}
 	}
 }

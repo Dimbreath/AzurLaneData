@@ -941,6 +941,19 @@ pg.mini_game = {
 		hub_id = 21,
 		request_data = 0
 	},
+	{
+		name = "猜叉子小游戏",
+		view_name = "GuessForkGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 29,
+		hub_id = 22,
+		request_data = 0
+	},
 	all = {
 		1,
 		2,
@@ -969,6 +982,7 @@ pg.mini_game = {
 		25,
 		26,
 		27,
-		28
+		28,
+		29
 	}
 }

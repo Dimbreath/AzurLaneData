@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102030,
+			actor = 102040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "{namecode:197}，就当是在尝试一件新鲜的事情！勇敢一点吧！",

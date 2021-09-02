@@ -9,11 +9,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -24,11 +20,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 2,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -39,11 +31,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 3,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -54,11 +42,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 4,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -69,11 +53,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 5,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -84,11 +64,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 6,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -99,11 +75,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 7,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -114,11 +86,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 8,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -129,11 +97,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 9,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -144,11 +108,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -159,11 +119,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -174,11 +130,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 12,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -189,11 +141,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -204,11 +152,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 14,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -219,11 +163,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -234,11 +174,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 16,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -249,11 +185,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -264,11 +196,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -279,11 +207,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 19,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -294,11 +218,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -309,11 +229,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -324,11 +240,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 22,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -339,11 +251,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 23,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -354,11 +262,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 24,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -369,11 +273,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 25,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -384,11 +284,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 26,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -399,11 +295,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 27,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -414,11 +306,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 28,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -429,11 +317,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 29,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -444,11 +328,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 30,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -459,11 +339,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 31,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -474,11 +350,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 32,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -489,11 +361,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 33,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -504,11 +372,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 34,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -519,11 +383,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 35,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -534,11 +394,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 36,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -549,11 +405,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 37,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -564,11 +416,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 38,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -579,11 +427,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 39,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -594,11 +438,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 40,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -609,11 +449,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -624,11 +460,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 42,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -639,11 +471,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -654,11 +482,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 44,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -669,11 +493,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 45,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -684,11 +504,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 46,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -699,11 +515,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 47,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -714,11 +526,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 48,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -729,11 +537,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 49,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -744,11 +548,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 50,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -759,11 +559,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 51,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -774,11 +570,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 52,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -789,11 +581,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 53,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -804,11 +592,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 54,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -819,11 +603,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 55,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -834,11 +614,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 56,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -849,11 +625,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 57,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -864,11 +636,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 58,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -879,11 +647,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -894,11 +658,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -909,11 +669,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 61,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -924,11 +680,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 62,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -939,11 +691,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 63,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -954,11 +702,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 64,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -969,11 +713,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 65,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -984,11 +724,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 66,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -999,11 +735,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 67,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	{
 		limit = "[]",
@@ -1014,11 +746,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 68,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[70] = {
 		limit = "[]",
@@ -1029,11 +757,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 70,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[71] = {
 		limit = "[]",
@@ -1044,11 +768,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 71,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[73] = {
 		limit = "[]",
@@ -1059,11 +779,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 73,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[74] = {
 		limit = "[]",
@@ -1074,11 +790,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 74,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[75] = {
 		limit = "[]",
@@ -1089,11 +801,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 75,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[76] = {
 		limit = "[]",
@@ -1104,11 +812,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 76,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[77] = {
 		limit = "[]",
@@ -1119,11 +823,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 77,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[78] = {
 		limit = "[]",
@@ -1134,11 +834,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 78,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[79] = {
 		limit = "[]",
@@ -1149,11 +845,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 79,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[80] = {
 		limit = "[]",
@@ -1164,11 +856,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 80,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[81] = {
 		limit = "[]",
@@ -1179,11 +867,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 81,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[82] = {
 		limit = "[]",
@@ -1194,11 +878,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 82,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[83] = {
 		limit = "[]",
@@ -1209,11 +889,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 83,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1001] = {
 		limit = "[]",
@@ -1224,11 +900,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1002] = {
 		limit = "[]",
@@ -1239,11 +911,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1004] = {
 		limit = "[]",
@@ -1254,11 +922,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1005] = {
 		limit = "[]",
@@ -1269,11 +933,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1007] = {
 		limit = "[]",
@@ -1284,11 +944,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1006] = {
 		limit = "[]",
@@ -1299,11 +955,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1008] = {
 		limit = "[]",
@@ -1314,11 +966,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1009] = {
 		limit = "[]",
@@ -1329,11 +977,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1010] = {
 		limit = "[]",
@@ -1344,11 +988,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1011] = {
 		limit = "[]",
@@ -1359,11 +999,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[1013] = {
 		limit = "[]",
@@ -1374,11 +1010,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 1013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10000] = {
 		limit = "[]",
@@ -1389,11 +1021,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10000,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10001] = {
 		limit = "[]",
@@ -1404,11 +1032,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10002] = {
 		limit = "[]",
@@ -1419,11 +1043,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10003] = {
 		limit = "[]",
@@ -1434,11 +1054,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10004] = {
 		limit = "[]",
@@ -1449,11 +1065,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10005] = {
 		limit = "[]",
@@ -1464,11 +1076,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10006] = {
 		limit = "[]",
@@ -1479,11 +1087,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10007] = {
 		limit = "[]",
@@ -1494,11 +1098,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10008] = {
 		limit = "[]",
@@ -1509,11 +1109,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10009] = {
 		limit = "[]",
@@ -1524,11 +1120,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10010] = {
 		limit = "[]",
@@ -1539,11 +1131,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10011] = {
 		limit = "[]",
@@ -1554,11 +1142,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10012] = {
 		limit = "[]",
@@ -1569,11 +1153,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10013] = {
 		limit = "[]",
@@ -1584,11 +1164,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10014] = {
 		limit = "[]",
@@ -1599,11 +1175,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10015] = {
 		limit = "[]",
@@ -1614,11 +1186,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10016] = {
 		limit = "[]",
@@ -1629,11 +1197,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10016,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10017] = {
 		limit = "[]",
@@ -1644,11 +1208,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10017,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10018] = {
 		limit = "[]",
@@ -1659,11 +1219,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10018,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10019] = {
 		limit = "[]",
@@ -1674,11 +1230,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10019,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10020] = {
 		limit = "[]",
@@ -1689,11 +1241,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10020,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10021] = {
 		limit = "[]",
@@ -1704,11 +1252,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10021,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10022] = {
 		limit = "[]",
@@ -1719,11 +1263,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10023] = {
 		limit = "[]",
@@ -1734,11 +1274,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10024] = {
 		limit = "[]",
@@ -1749,11 +1285,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10025] = {
 		limit = "[]",
@@ -1764,11 +1296,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10025,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10026] = {
 		limit = "[]",
@@ -1779,11 +1307,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10026,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10027] = {
 		limit = "[]",
@@ -1794,11 +1318,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10027,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10028] = {
 		limit = "[]",
@@ -1809,11 +1329,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10028,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10029] = {
 		limit = "[]",
@@ -1824,11 +1340,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10029,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10030] = {
 		limit = "[]",
@@ -1839,11 +1351,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10030,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10031] = {
 		limit = "[]",
@@ -1854,11 +1362,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10031,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10032] = {
 		limit = "[]",
@@ -1869,11 +1373,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10032,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10033] = {
 		limit = "[]",
@@ -1884,11 +1384,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10034] = {
 		limit = "[]",
@@ -1899,11 +1395,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10034,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10035] = {
 		limit = "[]",
@@ -1914,11 +1406,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10035,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10036] = {
 		limit = "[]",
@@ -1929,11 +1417,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10036,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10037] = {
 		limit = "[]",
@@ -1944,11 +1428,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10037,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10038] = {
 		limit = "[]",
@@ -1959,11 +1439,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10038,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10039] = {
 		limit = "[]",
@@ -1974,11 +1450,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10039,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10040] = {
 		limit = "[]",
@@ -1989,11 +1461,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10040,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10041] = {
 		limit = "[]",
@@ -2004,11 +1472,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10041,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10042] = {
 		limit = "[]",
@@ -2019,11 +1483,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10042,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10043] = {
 		limit = "[]",
@@ -2034,11 +1494,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10044] = {
 		limit = "[]",
@@ -2049,11 +1505,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10044,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10045] = {
 		limit = "[]",
@@ -2064,11 +1516,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10045,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10046] = {
 		limit = "[]",
@@ -2079,11 +1527,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10046,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10047] = {
 		limit = "[]",
@@ -2094,11 +1538,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10047,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10048] = {
 		limit = "[]",
@@ -2109,11 +1549,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10048,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10049] = {
 		limit = "[]",
@@ -2124,11 +1560,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10049,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10050] = {
 		limit = "[]",
@@ -2139,11 +1571,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10050,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10051] = {
 		limit = "[]",
@@ -2154,11 +1582,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10051,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10052] = {
 		limit = "[]",
@@ -2169,11 +1593,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10052,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10053] = {
 		limit = "[]",
@@ -2184,11 +1604,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10053,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10054] = {
 		limit = "[]",
@@ -2199,11 +1615,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10054,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10055] = {
 		limit = "[]",
@@ -2214,11 +1626,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10055,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10056] = {
 		limit = "[]",
@@ -2229,11 +1637,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10056,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10057] = {
 		limit = "[]",
@@ -2244,11 +1648,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10057,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10058] = {
 		limit = "[]",
@@ -2259,11 +1659,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10058,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10059] = {
 		limit = "[]",
@@ -2274,11 +1670,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10059,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10060] = {
 		limit = "[]",
@@ -2289,11 +1681,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10060,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10061] = {
 		limit = "[]",
@@ -2304,11 +1692,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10061,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10062] = {
 		limit = "[]",
@@ -2319,11 +1703,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10062,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10063] = {
 		limit = "[]",
@@ -2334,11 +1714,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10063,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10064] = {
 		limit = "[]",
@@ -2349,11 +1725,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10064,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10065] = {
 		limit = "[]",
@@ -2364,11 +1736,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10065,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10066] = {
 		limit = "[]",
@@ -2379,11 +1747,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10066,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10067] = {
 		limit = "[]",
@@ -2394,11 +1758,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10067,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10068] = {
 		limit = "[]",
@@ -2409,11 +1769,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10068,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10069] = {
 		limit = "[]",
@@ -2424,11 +1780,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10069,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10070] = {
 		limit = "[]",
@@ -2439,11 +1791,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10070,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10071] = {
 		limit = "[]",
@@ -2454,11 +1802,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10071,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10072] = {
 		limit = "[]",
@@ -2469,11 +1813,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10072,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10073] = {
 		limit = "[]",
@@ -2484,11 +1824,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10073,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10074] = {
 		limit = "[]",
@@ -2499,11 +1835,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10074,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10075] = {
 		limit = "[]",
@@ -2514,11 +1846,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10075,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10076] = {
 		limit = "[]",
@@ -2529,11 +1857,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10076,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10077] = {
 		limit = "[]",
@@ -2544,11 +1868,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10077,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10078] = {
 		limit = "[]",
@@ -2559,11 +1879,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10078,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10079] = {
 		limit = "[]",
@@ -2574,11 +1890,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10079,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10080] = {
 		limit = "[]",
@@ -2589,11 +1901,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10080,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10081] = {
 		limit = "[]",
@@ -2604,11 +1912,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10081,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10082] = {
 		limit = "[]",
@@ -2619,11 +1923,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10082,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10083] = {
 		limit = "[]",
@@ -2634,11 +1934,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10083,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10084] = {
 		limit = "[]",
@@ -2649,11 +1945,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10084,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10085] = {
 		limit = "[]",
@@ -2664,11 +1956,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10085,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10086] = {
 		limit = "[]",
@@ -2679,11 +1967,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10086,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10087] = {
 		limit = "[]",
@@ -2694,11 +1978,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10087,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10088] = {
 		limit = "[]",
@@ -2709,11 +1989,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10088,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10089] = {
 		limit = "[]",
@@ -2724,11 +2000,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10089,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10090] = {
 		limit = "[]",
@@ -2739,11 +2011,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10090,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10091] = {
 		limit = "[]",
@@ -2754,11 +2022,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10091,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10092] = {
 		limit = "[]",
@@ -2769,11 +2033,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10092,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10093] = {
 		limit = "[]",
@@ -2784,11 +2044,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10093,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10094] = {
 		limit = "[]",
@@ -2799,11 +2055,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10094,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10095] = {
 		limit = "[]",
@@ -2814,11 +2066,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10095,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10096] = {
 		limit = "[]",
@@ -2829,11 +2077,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10096,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10097] = {
 		limit = "[]",
@@ -2844,11 +2088,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10097,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10098] = {
 		limit = "[]",
@@ -2859,11 +2099,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10098,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10099] = {
 		limit = "[]",
@@ -2874,11 +2110,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10099,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10100] = {
 		limit = "[]",
@@ -2889,11 +2121,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10100,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10101] = {
 		limit = "[]",
@@ -2904,11 +2132,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10102] = {
 		limit = "[]",
@@ -2919,11 +2143,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10102,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10103] = {
 		limit = "[]",
@@ -2934,11 +2154,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10103,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10104] = {
 		limit = "[]",
@@ -2949,11 +2165,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10104,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10105] = {
 		limit = "[]",
@@ -2964,11 +2176,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10105,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10106] = {
 		limit = "[]",
@@ -2979,11 +2187,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10106,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10107] = {
 		limit = "[]",
@@ -2994,11 +2198,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10107,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10108] = {
 		limit = "[]",
@@ -3009,11 +2209,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10108,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10109] = {
 		limit = "[]",
@@ -3024,11 +2220,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10109,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10110] = {
 		limit = "[]",
@@ -3039,11 +2231,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10110,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10111] = {
 		limit = "[]",
@@ -3054,11 +2242,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10113] = {
 		limit = "[]",
@@ -3069,11 +2253,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10113,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10114] = {
 		limit = "[]",
@@ -3084,11 +2264,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10114,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10116] = {
 		limit = "[]",
@@ -3099,11 +2275,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10116,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10117] = {
 		limit = "[]",
@@ -3114,11 +2286,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10117,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10118] = {
 		limit = "[]",
@@ -3129,11 +2297,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10118,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10119] = {
 		limit = "[]",
@@ -3144,11 +2308,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10119,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10120] = {
 		limit = "[]",
@@ -3159,11 +2319,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10120,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10121] = {
 		limit = "[]",
@@ -3174,11 +2330,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10121,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10122] = {
 		limit = "[]",
@@ -3189,11 +2341,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10122,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10123] = {
 		limit = "[]",
@@ -3204,11 +2352,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10123,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[10124] = {
 		limit = "[]",
@@ -3219,11 +2363,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 10124,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11000] = {
 		limit = "[]",
@@ -3234,11 +2374,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11000,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11001] = {
 		limit = "[]",
@@ -3249,11 +2385,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11002] = {
 		limit = "[]",
@@ -3264,11 +2396,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11003] = {
 		limit = "[]",
@@ -3279,11 +2407,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11004] = {
 		limit = "[]",
@@ -3294,11 +2418,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11005] = {
 		limit = "[]",
@@ -3309,11 +2429,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11006] = {
 		limit = "[]",
@@ -3324,11 +2440,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11007] = {
 		limit = "[]",
@@ -3339,11 +2451,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11008] = {
 		limit = "[]",
@@ -3354,11 +2462,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11009] = {
 		limit = "[]",
@@ -3369,11 +2473,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11010] = {
 		limit = "[]",
@@ -3384,11 +2484,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11011] = {
 		limit = "[]",
@@ -3399,11 +2495,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11012] = {
 		limit = "[]",
@@ -3414,11 +2506,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11013] = {
 		limit = "[]",
@@ -3429,11 +2517,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11014] = {
 		limit = "[]",
@@ -3444,11 +2528,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11015] = {
 		limit = "[]",
@@ -3459,11 +2539,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11016] = {
 		limit = "[]",
@@ -3474,11 +2550,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11016,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11017] = {
 		limit = "[]",
@@ -3489,11 +2561,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11017,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11018] = {
 		limit = "[]",
@@ -3504,11 +2572,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11018,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11019] = {
 		limit = "[]",
@@ -3519,11 +2583,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11019,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11020] = {
 		limit = "[]",
@@ -3534,11 +2594,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11020,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11021] = {
 		limit = "[]",
@@ -3549,11 +2605,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11021,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11022] = {
 		limit = "[]",
@@ -3564,11 +2616,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11023] = {
 		limit = "[]",
@@ -3579,11 +2627,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11024] = {
 		limit = "[]",
@@ -3594,11 +2638,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11025] = {
 		limit = "[]",
@@ -3609,11 +2649,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11025,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11026] = {
 		limit = "[]",
@@ -3624,11 +2660,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11026,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11027] = {
 		limit = "[]",
@@ -3639,11 +2671,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11027,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11028] = {
 		limit = "[]",
@@ -3654,11 +2682,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11028,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11029] = {
 		limit = "[]",
@@ -3669,11 +2693,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11029,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11030] = {
 		limit = "[]",
@@ -3684,11 +2704,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11030,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11031] = {
 		limit = "[]",
@@ -3699,11 +2715,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11031,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11032] = {
 		limit = "[]",
@@ -3714,11 +2726,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11032,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11033] = {
 		limit = "[]",
@@ -3729,11 +2737,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11034] = {
 		limit = "[]",
@@ -3744,11 +2748,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11034,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11035] = {
 		limit = "[]",
@@ -3759,11 +2759,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11035,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11036] = {
 		limit = "[]",
@@ -3774,11 +2770,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11036,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11037] = {
 		limit = "[]",
@@ -3789,11 +2781,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11037,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11038] = {
 		limit = "[]",
@@ -3804,11 +2792,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11038,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11039] = {
 		limit = "[]",
@@ -3819,11 +2803,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11039,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11040] = {
 		limit = "[]",
@@ -3834,11 +2814,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11040,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11041] = {
 		limit = "[]",
@@ -3849,11 +2825,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11041,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11043] = {
 		limit = "[]",
@@ -3864,11 +2836,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11046] = {
 		limit = "[]",
@@ -3879,11 +2847,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11046,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11047] = {
 		limit = "[]",
@@ -3894,11 +2858,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11047,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[11048] = {
 		limit = "[]",
@@ -3909,11 +2869,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 11048,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[12000] = {
 		limit = "[]",
@@ -3924,11 +2880,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 12000,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[12001] = {
 		limit = "[]",
@@ -3939,11 +2891,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 12001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[12002] = {
 		limit = "[]",
@@ -3954,11 +2902,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 12002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[12003] = {
 		limit = "[]",
@@ -3969,11 +2913,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 12003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13000] = {
 		limit = "[]",
@@ -3984,11 +2924,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13000,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13001] = {
 		limit = "[]",
@@ -3999,11 +2935,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13002] = {
 		limit = "[]",
@@ -4014,11 +2946,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13003] = {
 		limit = "[]",
@@ -4029,11 +2957,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13004] = {
 		limit = "[]",
@@ -4044,11 +2968,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13005] = {
 		limit = "[]",
@@ -4059,11 +2979,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13006] = {
 		limit = "[]",
@@ -4074,11 +2990,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13007] = {
 		limit = "[]",
@@ -4089,11 +3001,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13008] = {
 		limit = "[]",
@@ -4104,11 +3012,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13009] = {
 		limit = "[]",
@@ -4119,11 +3023,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13010] = {
 		limit = "[]",
@@ -4134,11 +3034,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13011] = {
 		limit = "[]",
@@ -4149,11 +3045,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13012] = {
 		limit = "[]",
@@ -4164,11 +3056,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13013] = {
 		limit = "[]",
@@ -4179,11 +3067,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13014] = {
 		limit = "[]",
@@ -4194,11 +3078,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13015] = {
 		limit = "[]",
@@ -4209,11 +3089,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13016] = {
 		limit = "[]",
@@ -4224,11 +3100,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13016,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13017] = {
 		limit = "[]",
@@ -4239,11 +3111,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13017,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13018] = {
 		limit = "[]",
@@ -4254,11 +3122,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13018,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13019] = {
 		limit = "[]",
@@ -4269,11 +3133,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13019,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13020] = {
 		limit = "[]",
@@ -4284,11 +3144,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13020,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13021] = {
 		limit = "[]",
@@ -4299,11 +3155,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13021,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13022] = {
 		limit = "[]",
@@ -4314,11 +3166,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13023] = {
 		limit = "[]",
@@ -4329,11 +3177,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13024] = {
 		limit = "[]",
@@ -4344,11 +3188,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13025] = {
 		limit = "[]",
@@ -4359,11 +3199,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13025,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13026] = {
 		limit = "[]",
@@ -4374,11 +3210,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13026,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13027] = {
 		limit = "[]",
@@ -4389,11 +3221,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13027,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13028] = {
 		limit = "[]",
@@ -4404,11 +3232,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13028,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13029] = {
 		limit = "[]",
@@ -4419,11 +3243,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13029,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[13030] = {
 		limit = "[]",
@@ -4434,11 +3254,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 13030,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[14001] = {
 		limit = "[]",
@@ -4480,10 +3296,6 @@ pg.item_data_template = {
 				13008,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[14002] = {
@@ -4521,10 +3333,6 @@ pg.item_data_template = {
 				13017,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[14003] = {
@@ -4562,10 +3370,6 @@ pg.item_data_template = {
 				13023,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[14004] = {
@@ -4603,10 +3407,6 @@ pg.item_data_template = {
 				13029,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[15001] = {
@@ -4618,11 +3418,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15002] = {
 		limit = "[]",
@@ -4633,11 +3429,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15003] = {
 		limit = "[]",
@@ -4648,11 +3440,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15004] = {
 		limit = "[]",
@@ -4663,11 +3451,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15005] = {
 		limit = "[]",
@@ -4678,11 +3462,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15006] = {
 		limit = "[]",
@@ -4693,11 +3473,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15007] = {
 		limit = "[]",
@@ -4708,11 +3484,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15008] = {
 		limit = "[]",
@@ -4723,11 +3495,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15009] = {
 		limit = "[]",
@@ -4738,11 +3506,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15010] = {
 		limit = "[]",
@@ -4753,11 +3517,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[15011] = {
 		limit = "[]",
@@ -4768,11 +3528,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 15011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[16001] = {
 		limit = "[]",
@@ -4787,10 +3543,6 @@ pg.item_data_template = {
 			7200,
 			100,
 			1
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16002] = {
@@ -4806,10 +3558,6 @@ pg.item_data_template = {
 			14400,
 			300,
 			1
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16003] = {
@@ -4825,10 +3573,6 @@ pg.item_data_template = {
 			28800,
 			800,
 			1
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16011] = {
@@ -4844,10 +3588,6 @@ pg.item_data_template = {
 			7200,
 			100,
 			2
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16012] = {
@@ -4863,10 +3603,6 @@ pg.item_data_template = {
 			14400,
 			300,
 			2
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16013] = {
@@ -4882,10 +3618,6 @@ pg.item_data_template = {
 			28800,
 			800,
 			2
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16021] = {
@@ -4901,10 +3633,6 @@ pg.item_data_template = {
 			7200,
 			100,
 			3
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16022] = {
@@ -4920,10 +3648,6 @@ pg.item_data_template = {
 			14400,
 			300,
 			3
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[16023] = {
@@ -4939,10 +3663,6 @@ pg.item_data_template = {
 			28800,
 			800,
 			3
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[17001] = {
@@ -4954,11 +3674,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17002] = {
 		limit = "[]",
@@ -4969,11 +3685,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17003] = {
 		limit = "[]",
@@ -4984,11 +3696,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17004] = {
 		limit = "[]",
@@ -4999,11 +3707,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17011] = {
 		limit = "[]",
@@ -5014,11 +3718,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17012] = {
 		limit = "[]",
@@ -5029,11 +3729,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17013] = {
 		limit = "[]",
@@ -5044,11 +3740,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17014] = {
 		limit = "[]",
@@ -5059,11 +3751,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17021] = {
 		limit = "[]",
@@ -5074,11 +3762,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17021,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17022] = {
 		limit = "[]",
@@ -5089,11 +3773,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17023] = {
 		limit = "[]",
@@ -5104,11 +3784,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17024] = {
 		limit = "[]",
@@ -5119,11 +3795,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17031] = {
 		limit = "[]",
@@ -5134,11 +3806,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17031,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17032] = {
 		limit = "[]",
@@ -5149,11 +3817,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17032,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17033] = {
 		limit = "[]",
@@ -5164,11 +3828,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17034] = {
 		limit = "[]",
@@ -5179,11 +3839,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17034,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17041] = {
 		limit = "[]",
@@ -5194,11 +3850,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17041,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17042] = {
 		limit = "[]",
@@ -5209,11 +3861,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17042,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17043] = {
 		limit = "[]",
@@ -5224,11 +3872,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17044] = {
 		limit = "[]",
@@ -5239,11 +3883,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17044,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17990] = {
 		limit = "[]",
@@ -5254,11 +3894,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17990,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[17991] = {
 		limit = "[]",
@@ -5269,11 +3905,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 17991,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18000] = {
 		limit = "[]",
@@ -5284,11 +3916,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18000,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18001] = {
 		limit = "[]",
@@ -5299,11 +3927,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18001,
 		compose_number = 6,
-		target_id = 18002,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 18002
 	},
 	[18002] = {
 		limit = "[]",
@@ -5314,11 +3938,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18003] = {
 		limit = "[]",
@@ -5329,11 +3949,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18011] = {
 		limit = "[]",
@@ -5344,11 +3960,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18011,
 		compose_number = 6,
-		target_id = 18012,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 18012
 	},
 	[18012] = {
 		limit = "[]",
@@ -5359,11 +3971,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18013] = {
 		limit = "[]",
@@ -5374,11 +3982,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18021] = {
 		limit = "[]",
@@ -5389,11 +3993,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18021,
 		compose_number = 6,
-		target_id = 18022,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 18022
 	},
 	[18022] = {
 		limit = "[]",
@@ -5404,11 +4004,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18023] = {
 		limit = "[]",
@@ -5419,11 +4015,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18031] = {
 		limit = "[]",
@@ -5434,11 +4026,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18031,
 		compose_number = 6,
-		target_id = 18032,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 18032
 	},
 	[18032] = {
 		limit = "[]",
@@ -5449,11 +4037,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18032,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18033] = {
 		limit = "[]",
@@ -5464,11 +4048,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18101] = {
 		limit = "[]",
@@ -5479,11 +4059,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18102] = {
 		limit = "[]",
@@ -5494,11 +4070,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18102,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18103] = {
 		limit = "[]",
@@ -5509,11 +4081,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18103,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18104] = {
 		limit = "[]",
@@ -5524,11 +4092,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18104,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18105] = {
 		limit = "[]",
@@ -5539,11 +4103,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18105,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18106] = {
 		limit = "[]",
@@ -5554,11 +4114,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18106,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18107] = {
 		limit = "[]",
@@ -5569,11 +4125,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18107,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18108] = {
 		limit = "[]",
@@ -5584,11 +4136,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18108,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18109] = {
 		limit = "[]",
@@ -5599,11 +4147,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18109,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18110] = {
 		limit = "[]",
@@ -5614,11 +4158,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18110,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18111] = {
 		limit = "[]",
@@ -5629,11 +4169,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18112] = {
 		limit = "[]",
@@ -5644,11 +4180,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18112,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18113] = {
 		limit = "[]",
@@ -5659,11 +4191,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18113,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18114] = {
 		limit = "[]",
@@ -5674,11 +4202,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18114,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18115] = {
 		limit = "[]",
@@ -5689,11 +4213,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18115,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18116] = {
 		limit = "[]",
@@ -5704,11 +4224,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18116,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18117] = {
 		limit = "[]",
@@ -5719,11 +4235,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18117,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18118] = {
 		limit = "[]",
@@ -5734,11 +4246,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18118,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18119] = {
 		limit = "[]",
@@ -5749,11 +4257,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18119,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18120] = {
 		limit = "[]",
@@ -5764,11 +4268,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18120,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18121] = {
 		limit = "[]",
@@ -5779,11 +4279,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18121,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18122] = {
 		limit = "[]",
@@ -5794,11 +4290,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18122,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18123] = {
 		limit = "[]",
@@ -5809,11 +4301,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18123,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18124] = {
 		limit = "[]",
@@ -5824,11 +4312,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18124,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18125] = {
 		limit = "[]",
@@ -5839,11 +4323,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18125,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18126] = {
 		limit = "[]",
@@ -5854,11 +4334,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18126,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[18127] = {
 		limit = "[]",
@@ -5869,11 +4345,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 18127,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[20001] = {
 		limit = "[]",
@@ -5884,11 +4356,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[20010] = {
 		limit = "[]",
@@ -5901,10 +4369,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			1200
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[20011] = {
@@ -5916,11 +4380,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[20012] = {
 		limit = "[]",
@@ -5931,11 +4391,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[20013] = {
 		limit = "[]",
@@ -5946,11 +4402,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[20101] = {
 		limit = "[]",
@@ -5961,11 +4413,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[20102] = {
 		limit = "[]",
@@ -5976,11 +4424,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 20102,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21001] = {
 		limit = "[]",
@@ -5991,11 +4435,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21002] = {
 		limit = "[]",
@@ -6006,11 +4446,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21003] = {
 		limit = "[]",
@@ -6021,11 +4457,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21101] = {
 		limit = "[]",
@@ -6036,11 +4468,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21111] = {
 		limit = "[]",
@@ -6051,11 +4479,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21121] = {
 		limit = "[]",
@@ -6066,11 +4490,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21121,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21131] = {
 		limit = "[]",
@@ -6081,11 +4501,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21131,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21901] = {
 		limit = "[]",
@@ -6096,11 +4512,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21901,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21902] = {
 		limit = "[]",
@@ -6111,11 +4523,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21902,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[21903] = {
 		limit = "[]",
@@ -6126,11 +4534,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 21903,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30001] = {
 		limit = "[]",
@@ -6141,11 +4545,7 @@ pg.item_data_template = {
 		usage_arg = "30001",
 		id = 30001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30011] = {
 		limit = "[]",
@@ -6156,11 +4556,7 @@ pg.item_data_template = {
 		usage_arg = "30011",
 		id = 30011,
 		compose_number = 5,
-		target_id = 30012,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30012
 	},
 	[30012] = {
 		limit = "[]",
@@ -6171,11 +4567,7 @@ pg.item_data_template = {
 		usage_arg = "30012",
 		id = 30012,
 		compose_number = 5,
-		target_id = 30013,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30013
 	},
 	[30013] = {
 		limit = "[]",
@@ -6186,11 +4578,7 @@ pg.item_data_template = {
 		usage_arg = "30013",
 		id = 30013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30014] = {
 		limit = "[]",
@@ -6201,11 +4589,7 @@ pg.item_data_template = {
 		usage_arg = "30014",
 		id = 30014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30015] = {
 		limit = "[]",
@@ -6216,11 +4600,7 @@ pg.item_data_template = {
 		usage_arg = "30015",
 		id = 30015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30021] = {
 		limit = "[]",
@@ -6231,11 +4611,7 @@ pg.item_data_template = {
 		usage_arg = "30021",
 		id = 30021,
 		compose_number = 5,
-		target_id = 30022,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30022
 	},
 	[30022] = {
 		limit = "[]",
@@ -6246,11 +4622,7 @@ pg.item_data_template = {
 		usage_arg = "30022",
 		id = 30022,
 		compose_number = 5,
-		target_id = 30023,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30023
 	},
 	[30023] = {
 		limit = "[]",
@@ -6261,11 +4633,7 @@ pg.item_data_template = {
 		usage_arg = "30023",
 		id = 30023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30024] = {
 		limit = "[]",
@@ -6276,11 +4644,7 @@ pg.item_data_template = {
 		usage_arg = "30024",
 		id = 30024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30025] = {
 		limit = "[]",
@@ -6291,11 +4655,7 @@ pg.item_data_template = {
 		usage_arg = "30025",
 		id = 30025,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30031] = {
 		limit = "[]",
@@ -6306,11 +4666,7 @@ pg.item_data_template = {
 		usage_arg = "30031",
 		id = 30031,
 		compose_number = 5,
-		target_id = 30032,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30032
 	},
 	[30032] = {
 		limit = "[]",
@@ -6321,11 +4677,7 @@ pg.item_data_template = {
 		usage_arg = "30032",
 		id = 30032,
 		compose_number = 5,
-		target_id = 30033,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30033
 	},
 	[30033] = {
 		limit = "[]",
@@ -6336,11 +4688,7 @@ pg.item_data_template = {
 		usage_arg = "30033",
 		id = 30033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30034] = {
 		limit = "[]",
@@ -6351,11 +4699,7 @@ pg.item_data_template = {
 		usage_arg = "30034",
 		id = 30034,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30035] = {
 		limit = "[]",
@@ -6366,11 +4710,7 @@ pg.item_data_template = {
 		usage_arg = "30035",
 		id = 30035,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30041] = {
 		limit = "[]",
@@ -6381,11 +4721,7 @@ pg.item_data_template = {
 		usage_arg = "30041",
 		id = 30041,
 		compose_number = 5,
-		target_id = 30042,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30042
 	},
 	[30042] = {
 		limit = "[]",
@@ -6396,11 +4732,7 @@ pg.item_data_template = {
 		usage_arg = "30042",
 		id = 30042,
 		compose_number = 5,
-		target_id = 30043,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 30043
 	},
 	[30043] = {
 		limit = "[]",
@@ -6411,11 +4743,7 @@ pg.item_data_template = {
 		usage_arg = "30043",
 		id = 30043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30044] = {
 		limit = "[]",
@@ -6426,11 +4754,7 @@ pg.item_data_template = {
 		usage_arg = "30044",
 		id = 30044,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30045] = {
 		limit = "[]",
@@ -6441,11 +4765,7 @@ pg.item_data_template = {
 		usage_arg = "30045",
 		id = 30045,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30103] = {
 		limit = "[]",
@@ -6456,11 +4776,7 @@ pg.item_data_template = {
 		usage_arg = "30103",
 		id = 30103,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30112] = {
 		limit = "[]",
@@ -6497,10 +4813,6 @@ pg.item_data_template = {
 				17042,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30113] = {
@@ -6538,10 +4850,6 @@ pg.item_data_template = {
 				17043,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30114] = {
@@ -6579,10 +4887,6 @@ pg.item_data_template = {
 				17044,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30121] = {
@@ -6594,11 +4898,7 @@ pg.item_data_template = {
 		usage_arg = "30121",
 		id = 30121,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30201] = {
 		limit = "[]",
@@ -6609,11 +4909,7 @@ pg.item_data_template = {
 		usage_arg = "30201",
 		id = 30201,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30202] = {
 		limit = "[]",
@@ -6735,10 +5031,6 @@ pg.item_data_template = {
 				47140,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30203] = {
@@ -6786,10 +5078,6 @@ pg.item_data_template = {
 				48040,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30301] = {
@@ -6801,11 +5089,7 @@ pg.item_data_template = {
 		usage_arg = "30301",
 		id = 30301,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30302] = {
 		limit = "[]",
@@ -6816,11 +5100,7 @@ pg.item_data_template = {
 		usage_arg = "30302",
 		id = 30302,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30303] = {
 		limit = "[]",
@@ -6831,11 +5111,7 @@ pg.item_data_template = {
 		usage_arg = "30303",
 		id = 30303,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30304] = {
 		limit = "[]",
@@ -6846,11 +5122,7 @@ pg.item_data_template = {
 		usage_arg = "30304",
 		id = 30304,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30305] = {
 		limit = "[]",
@@ -6861,11 +5133,7 @@ pg.item_data_template = {
 		usage_arg = "30305",
 		id = 30305,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30306] = {
 		limit = "[]",
@@ -6876,11 +5144,7 @@ pg.item_data_template = {
 		usage_arg = "30306",
 		id = 30306,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30307] = {
 		limit = "[]",
@@ -6891,11 +5155,7 @@ pg.item_data_template = {
 		usage_arg = "30307",
 		id = 30307,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30308] = {
 		limit = "[]",
@@ -6906,11 +5166,7 @@ pg.item_data_template = {
 		usage_arg = "30308",
 		id = 30308,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30309] = {
 		limit = "[]",
@@ -6921,11 +5177,7 @@ pg.item_data_template = {
 		usage_arg = "30306",
 		id = 30309,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30310] = {
 		limit = "[]",
@@ -6936,11 +5188,7 @@ pg.item_data_template = {
 		usage_arg = "30310",
 		id = 30310,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30311] = {
 		limit = "[]",
@@ -6951,11 +5199,7 @@ pg.item_data_template = {
 		usage_arg = "30311",
 		id = 30311,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30312] = {
 		limit = "[]",
@@ -6966,11 +5210,7 @@ pg.item_data_template = {
 		usage_arg = "30312",
 		id = 30312,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30313] = {
 		limit = "[]",
@@ -6981,11 +5221,7 @@ pg.item_data_template = {
 		usage_arg = "30313",
 		id = 30313,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30314] = {
 		limit = "[]",
@@ -6996,11 +5232,7 @@ pg.item_data_template = {
 		usage_arg = "30314",
 		id = 30314,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30315] = {
 		limit = "[]",
@@ -7011,11 +5243,7 @@ pg.item_data_template = {
 		usage_arg = "30315",
 		id = 30315,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30316] = {
 		limit = "[]",
@@ -7026,11 +5254,7 @@ pg.item_data_template = {
 		usage_arg = "30316",
 		id = 30316,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30317] = {
 		limit = "[]",
@@ -7041,11 +5265,7 @@ pg.item_data_template = {
 		usage_arg = "30317",
 		id = 30317,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30318] = {
 		limit = "[]",
@@ -7056,11 +5276,7 @@ pg.item_data_template = {
 		usage_arg = "30318",
 		id = 30318,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30319] = {
 		limit = "[]",
@@ -7071,11 +5287,7 @@ pg.item_data_template = {
 		usage_arg = "30319",
 		id = 30319,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30320] = {
 		limit = "[]",
@@ -7086,11 +5298,7 @@ pg.item_data_template = {
 		usage_arg = "30320",
 		id = 30320,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30321] = {
 		limit = "[]",
@@ -7101,11 +5309,7 @@ pg.item_data_template = {
 		usage_arg = "30321",
 		id = 30321,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30322] = {
 		limit = "[]",
@@ -7116,11 +5320,7 @@ pg.item_data_template = {
 		usage_arg = "30322",
 		id = 30322,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30323] = {
 		limit = "[]",
@@ -7131,11 +5331,7 @@ pg.item_data_template = {
 		usage_arg = "30323",
 		id = 30323,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30324] = {
 		limit = "[]",
@@ -7146,11 +5342,7 @@ pg.item_data_template = {
 		usage_arg = "30324",
 		id = 30324,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30325] = {
 		limit = "[]",
@@ -7161,11 +5353,7 @@ pg.item_data_template = {
 		usage_arg = "30325",
 		id = 30325,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30326] = {
 		limit = "[]",
@@ -7176,11 +5364,7 @@ pg.item_data_template = {
 		usage_arg = "30326",
 		id = 30326,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30327] = {
 		limit = "[]",
@@ -7191,11 +5375,7 @@ pg.item_data_template = {
 		usage_arg = "30327",
 		id = 30327,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30328] = {
 		limit = "[]",
@@ -7206,11 +5386,7 @@ pg.item_data_template = {
 		usage_arg = "30328",
 		id = 30328,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[30900] = {
 		limit = "[]",
@@ -7247,10 +5423,6 @@ pg.item_data_template = {
 				17044,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30911] = {
@@ -7283,10 +5455,6 @@ pg.item_data_template = {
 				18110,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30912] = {
@@ -7329,10 +5497,6 @@ pg.item_data_template = {
 				18115,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30913] = {
@@ -7375,10 +5539,6 @@ pg.item_data_template = {
 				18116,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30914] = {
@@ -7411,10 +5571,6 @@ pg.item_data_template = {
 				18123,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[30915] = {
@@ -7447,10 +5603,6 @@ pg.item_data_template = {
 				18124,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[40001] = {
@@ -7462,11 +5614,7 @@ pg.item_data_template = {
 		usage_arg = "4001",
 		id = 40001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40002] = {
 		limit = "[]",
@@ -7477,11 +5625,7 @@ pg.item_data_template = {
 		usage_arg = "4002",
 		id = 40002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40003] = {
 		limit = "[]",
@@ -7492,11 +5636,7 @@ pg.item_data_template = {
 		usage_arg = "4003",
 		id = 40003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40004] = {
 		limit = "[]",
@@ -7507,11 +5647,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40005] = {
 		limit = "[]",
@@ -7522,11 +5658,7 @@ pg.item_data_template = {
 		usage_arg = "4005",
 		id = 40005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40006] = {
 		limit = "[]",
@@ -7537,11 +5669,7 @@ pg.item_data_template = {
 		usage_arg = "4006",
 		id = 40006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40007] = {
 		limit = "[]",
@@ -7552,11 +5680,7 @@ pg.item_data_template = {
 		usage_arg = "4007",
 		id = 40007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40008] = {
 		limit = "[]",
@@ -7567,11 +5691,7 @@ pg.item_data_template = {
 		usage_arg = "4008",
 		id = 40008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40009] = {
 		limit = "[]",
@@ -7582,11 +5702,7 @@ pg.item_data_template = {
 		usage_arg = "4009",
 		id = 40009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40010] = {
 		limit = "[]",
@@ -7597,11 +5713,7 @@ pg.item_data_template = {
 		usage_arg = "4010",
 		id = 40010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40011] = {
 		limit = "[]",
@@ -7612,11 +5724,7 @@ pg.item_data_template = {
 		usage_arg = "4011",
 		id = 40011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40012] = {
 		limit = "[]",
@@ -7627,11 +5735,7 @@ pg.item_data_template = {
 		usage_arg = "4012",
 		id = 40012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40013] = {
 		limit = "[]",
@@ -7642,11 +5746,7 @@ pg.item_data_template = {
 		usage_arg = "4013",
 		id = 40013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40014] = {
 		limit = "[]",
@@ -7657,11 +5757,7 @@ pg.item_data_template = {
 		usage_arg = "4014",
 		id = 40014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40015] = {
 		limit = "[]",
@@ -7672,11 +5768,7 @@ pg.item_data_template = {
 		usage_arg = "4015",
 		id = 40015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40100] = {
 		limit = "[]",
@@ -7687,11 +5779,7 @@ pg.item_data_template = {
 		usage_arg = "4100",
 		id = 40100,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40101] = {
 		limit = "[]",
@@ -7702,11 +5790,7 @@ pg.item_data_template = {
 		usage_arg = "4101",
 		id = 40101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40104] = {
 		limit = "[]",
@@ -7717,11 +5801,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40104,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40105] = {
 		limit = "[]",
@@ -7732,11 +5812,7 @@ pg.item_data_template = {
 		usage_arg = "4102",
 		id = 40105,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40106] = {
 		limit = "[]",
@@ -7747,11 +5823,7 @@ pg.item_data_template = {
 		usage_arg = "4106",
 		id = 40106,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40107] = {
 		limit = "[]",
@@ -7762,11 +5834,7 @@ pg.item_data_template = {
 		usage_arg = "4003",
 		id = 40107,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40108] = {
 		limit = "[]",
@@ -7777,11 +5845,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40108,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40109] = {
 		limit = "[]",
@@ -7792,11 +5856,7 @@ pg.item_data_template = {
 		usage_arg = "4003",
 		id = 40109,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40110] = {
 		limit = "[]",
@@ -7807,11 +5867,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40110,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40111] = {
 		limit = "[]",
@@ -7822,11 +5878,7 @@ pg.item_data_template = {
 		usage_arg = "4102",
 		id = 40111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40112] = {
 		limit = "[]",
@@ -7837,11 +5889,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40112,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40113] = {
 		limit = "[]",
@@ -7852,11 +5900,7 @@ pg.item_data_template = {
 		usage_arg = "4102",
 		id = 40113,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40114] = {
 		limit = "[]",
@@ -7867,11 +5911,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40114,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40115] = {
 		limit = "[]",
@@ -7882,11 +5922,7 @@ pg.item_data_template = {
 		usage_arg = "4102",
 		id = 40115,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40116] = {
 		limit = "[]",
@@ -7897,11 +5933,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40116,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40117] = {
 		limit = "[]",
@@ -7912,11 +5944,7 @@ pg.item_data_template = {
 		usage_arg = "4102",
 		id = 40117,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40118] = {
 		limit = "[]",
@@ -7927,11 +5955,7 @@ pg.item_data_template = {
 		usage_arg = "4004",
 		id = 40118,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40119] = {
 		limit = "[]",
@@ -7942,11 +5966,7 @@ pg.item_data_template = {
 		usage_arg = "4016",
 		id = 40119,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40901] = {
 		limit = "[]",
@@ -7957,11 +5977,7 @@ pg.item_data_template = {
 		usage_arg = "4901",
 		id = 40901,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40902] = {
 		limit = "[]",
@@ -7972,11 +5988,7 @@ pg.item_data_template = {
 		usage_arg = "4902",
 		id = 40902,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40903] = {
 		limit = "[]",
@@ -7987,11 +5999,7 @@ pg.item_data_template = {
 		usage_arg = "4903",
 		id = 40903,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40904] = {
 		limit = "[]",
@@ -8002,11 +6010,7 @@ pg.item_data_template = {
 		usage_arg = "4904",
 		id = 40904,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40905] = {
 		limit = "[]",
@@ -8017,11 +6021,7 @@ pg.item_data_template = {
 		usage_arg = "4905",
 		id = 40905,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40906] = {
 		limit = "[]",
@@ -8032,11 +6032,7 @@ pg.item_data_template = {
 		usage_arg = "4906",
 		id = 40906,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40908] = {
 		limit = "[]",
@@ -8047,11 +6043,7 @@ pg.item_data_template = {
 		usage_arg = "4908",
 		id = 40908,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40909] = {
 		limit = "[]",
@@ -8062,11 +6054,7 @@ pg.item_data_template = {
 		usage_arg = "4909",
 		id = 40909,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40910] = {
 		limit = "[]",
@@ -8077,11 +6065,7 @@ pg.item_data_template = {
 		usage_arg = "4910",
 		id = 40910,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40911] = {
 		limit = "[]",
@@ -8092,11 +6076,7 @@ pg.item_data_template = {
 		usage_arg = "4911",
 		id = 40911,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40912] = {
 		limit = "[]",
@@ -8107,11 +6087,7 @@ pg.item_data_template = {
 		usage_arg = "4912",
 		id = 40912,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40913] = {
 		limit = "[]",
@@ -8122,11 +6098,7 @@ pg.item_data_template = {
 		usage_arg = "4913",
 		id = 40913,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[40914] = {
 		limit = "[]",
@@ -8137,11 +6109,7 @@ pg.item_data_template = {
 		usage_arg = "4914",
 		id = 40914,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41001] = {
 		limit = "[]",
@@ -8152,11 +6120,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41002] = {
 		limit = "[]",
@@ -8167,11 +6131,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41003] = {
 		limit = "[]",
@@ -8182,11 +6142,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41004] = {
 		limit = "[]",
@@ -8197,11 +6153,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41005] = {
 		limit = "[]",
@@ -8212,11 +6164,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41006] = {
 		limit = "[]",
@@ -8227,11 +6175,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41007] = {
 		limit = "[]",
@@ -8242,11 +6186,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41008] = {
 		limit = "[]",
@@ -8257,11 +6197,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41009] = {
 		limit = "[]",
@@ -8272,11 +6208,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41010] = {
 		limit = "[]",
@@ -8287,11 +6219,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41011] = {
 		limit = "[]",
@@ -8302,11 +6230,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41012] = {
 		limit = "[]",
@@ -8317,11 +6241,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41013] = {
 		limit = "[]",
@@ -8332,11 +6252,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41014] = {
 		limit = "[]",
@@ -8347,11 +6263,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41015] = {
 		limit = "[]",
@@ -8362,11 +6274,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41016] = {
 		limit = "[]",
@@ -8377,11 +6285,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41016,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41017] = {
 		limit = "[]",
@@ -8392,11 +6296,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41017,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41018] = {
 		limit = "[]",
@@ -8407,11 +6307,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41018,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41019] = {
 		limit = "[]",
@@ -8422,11 +6318,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41019,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41020] = {
 		limit = "[]",
@@ -8437,11 +6329,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41020,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41021] = {
 		limit = "[]",
@@ -8452,11 +6340,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41021,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41022] = {
 		limit = "[]",
@@ -8467,11 +6351,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41023] = {
 		limit = "[]",
@@ -8482,11 +6362,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41024] = {
 		limit = "[]",
@@ -8497,11 +6373,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41025] = {
 		limit = "[]",
@@ -8512,11 +6384,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41025,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41026] = {
 		limit = "[]",
@@ -8527,11 +6395,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41026,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41027] = {
 		limit = "[]",
@@ -8542,11 +6406,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41027,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41028] = {
 		limit = "[]",
@@ -8557,11 +6417,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41028,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41029] = {
 		limit = "[]",
@@ -8572,11 +6428,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41029,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41030] = {
 		limit = "[]",
@@ -8587,11 +6439,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41030,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41031] = {
 		limit = "[]",
@@ -8602,11 +6450,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41031,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41032] = {
 		limit = "[]",
@@ -8617,11 +6461,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41032,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41033] = {
 		limit = "[]",
@@ -8632,11 +6472,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41034] = {
 		limit = "[]",
@@ -8647,11 +6483,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41034,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41035] = {
 		limit = "[]",
@@ -8662,11 +6494,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41035,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41036] = {
 		limit = "[]",
@@ -8677,11 +6505,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41036,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41037] = {
 		limit = "[]",
@@ -8692,11 +6516,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41037,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41038] = {
 		limit = "[]",
@@ -8707,11 +6527,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41038,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41039] = {
 		limit = "[]",
@@ -8722,11 +6538,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41039,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41040] = {
 		limit = "[]",
@@ -8737,11 +6549,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41040,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41041] = {
 		limit = "[]",
@@ -8752,11 +6560,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41041,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41042] = {
 		limit = "[]",
@@ -8767,11 +6571,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41042,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41043] = {
 		limit = "[]",
@@ -8782,11 +6582,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41044] = {
 		limit = "[]",
@@ -8797,11 +6593,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41044,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41045] = {
 		limit = "[]",
@@ -8812,11 +6604,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41045,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41046] = {
 		limit = "[]",
@@ -8827,11 +6615,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41046,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41047] = {
 		limit = "[]",
@@ -8842,11 +6626,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41047,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41048] = {
 		limit = "[]",
@@ -8857,11 +6637,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41048,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41049] = {
 		limit = "[]",
@@ -8872,11 +6648,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41049,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41050] = {
 		limit = "[]",
@@ -8887,11 +6659,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41050,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41051] = {
 		limit = "[]",
@@ -8902,11 +6670,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41051,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41052] = {
 		limit = "[]",
@@ -8917,11 +6681,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41052,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41053] = {
 		limit = "[]",
@@ -8932,11 +6692,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41053,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41054] = {
 		limit = "[]",
@@ -8947,11 +6703,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41054,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41055] = {
 		limit = "[]",
@@ -8962,11 +6714,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41055,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41056] = {
 		limit = "[]",
@@ -8977,11 +6725,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41056,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41057] = {
 		limit = "[]",
@@ -8992,11 +6736,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41057,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41058] = {
 		limit = "[]",
@@ -9007,11 +6747,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41058,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41059] = {
 		limit = "[]",
@@ -9022,11 +6758,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41059,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41060] = {
 		limit = "[]",
@@ -9037,11 +6769,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41060,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41061] = {
 		limit = "[]",
@@ -9052,11 +6780,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41061,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41062] = {
 		limit = "[]",
@@ -9067,11 +6791,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41062,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41063] = {
 		limit = "[]",
@@ -9082,11 +6802,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41063,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41064] = {
 		limit = "[]",
@@ -9097,11 +6813,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41064,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41065] = {
 		limit = "[]",
@@ -9112,11 +6824,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41065,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41066] = {
 		limit = "[]",
@@ -9127,11 +6835,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41066,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41067] = {
 		limit = "[]",
@@ -9142,11 +6846,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41067,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41068] = {
 		limit = "[]",
@@ -9157,11 +6857,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41068,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41069] = {
 		limit = "[]",
@@ -9172,11 +6868,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41069,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41070] = {
 		limit = "[]",
@@ -9187,11 +6879,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41070,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41071] = {
 		limit = "[]",
@@ -9202,11 +6890,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41071,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41072] = {
 		limit = "[]",
@@ -9217,11 +6901,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41072,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41073] = {
 		limit = "[]",
@@ -9232,11 +6912,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41073,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41074] = {
 		limit = "[]",
@@ -9247,11 +6923,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41074,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41075] = {
 		limit = "[]",
@@ -9262,11 +6934,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41075,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41076] = {
 		limit = "[]",
@@ -9277,11 +6945,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41076,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41077] = {
 		limit = "[]",
@@ -9292,11 +6956,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41077,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41078] = {
 		limit = "[]",
@@ -9307,11 +6967,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41078,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41079] = {
 		limit = "[]",
@@ -9322,11 +6978,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41079,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41080] = {
 		limit = "[]",
@@ -9337,11 +6989,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41080,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41081] = {
 		limit = "[]",
@@ -9352,11 +7000,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41081,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41082] = {
 		limit = "[]",
@@ -9367,11 +7011,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41082,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41083] = {
 		limit = "[]",
@@ -9382,11 +7022,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41083,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41084] = {
 		limit = "[]",
@@ -9397,11 +7033,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41084,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41085] = {
 		limit = "[]",
@@ -9412,11 +7044,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41085,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41086] = {
 		limit = "[]",
@@ -9427,11 +7055,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41086,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41087] = {
 		limit = "[]",
@@ -9442,11 +7066,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41087,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41088] = {
 		limit = "[]",
@@ -9457,11 +7077,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41088,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41089] = {
 		limit = "[]",
@@ -9472,11 +7088,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41089,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41090] = {
 		limit = "[]",
@@ -9487,11 +7099,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41090,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41091] = {
 		limit = "[]",
@@ -9502,11 +7110,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41091,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41092] = {
 		limit = "[]",
@@ -9517,11 +7121,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41092,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41093] = {
 		limit = "[]",
@@ -9532,11 +7132,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41093,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41094] = {
 		limit = "[]",
@@ -9547,11 +7143,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41094,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41095] = {
 		limit = "[]",
@@ -9562,11 +7154,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41095,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41096] = {
 		limit = "[]",
@@ -9577,11 +7165,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41096,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41097] = {
 		limit = "[]",
@@ -9592,11 +7176,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41097,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41098] = {
 		limit = "[]",
@@ -9607,11 +7187,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41098,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41099] = {
 		limit = "[]",
@@ -9622,11 +7198,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41099,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41100] = {
 		limit = "[]",
@@ -9637,11 +7209,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41100,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41101] = {
 		limit = "[]",
@@ -9652,11 +7220,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41102] = {
 		limit = "[]",
@@ -9667,11 +7231,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41102,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41103] = {
 		limit = "[]",
@@ -9682,11 +7242,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41103,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41104] = {
 		limit = "[]",
@@ -9697,11 +7253,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41104,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41105] = {
 		limit = "[]",
@@ -9712,11 +7264,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41105,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41106] = {
 		limit = "[]",
@@ -9727,11 +7275,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41106,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41107] = {
 		limit = "[]",
@@ -9742,11 +7286,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41107,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41108] = {
 		limit = "[]",
@@ -9757,11 +7297,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41108,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41109] = {
 		limit = "[]",
@@ -9772,11 +7308,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41109,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41110] = {
 		limit = "[]",
@@ -9787,11 +7319,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41110,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41111] = {
 		limit = "[]",
@@ -9802,11 +7330,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41112] = {
 		limit = "[]",
@@ -9817,11 +7341,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41112,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41113] = {
 		limit = "[]",
@@ -9832,11 +7352,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41113,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41114] = {
 		limit = "[]",
@@ -9847,11 +7363,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41114,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41115] = {
 		limit = "[]",
@@ -9862,11 +7374,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41115,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41116] = {
 		limit = "[]",
@@ -9877,11 +7385,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41116,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41117] = {
 		limit = "[]",
@@ -9892,11 +7396,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41117,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41118] = {
 		limit = "[]",
@@ -9907,11 +7407,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41118,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41119] = {
 		limit = "[]",
@@ -9922,11 +7418,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41119,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41120] = {
 		limit = "[]",
@@ -9937,11 +7429,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41120,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41121] = {
 		limit = "[]",
@@ -9952,11 +7440,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41121,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41122] = {
 		limit = "[]",
@@ -9967,11 +7451,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41122,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41123] = {
 		limit = "[]",
@@ -9982,11 +7462,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41123,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41124] = {
 		limit = "[]",
@@ -9997,11 +7473,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41124,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41125] = {
 		limit = "[]",
@@ -10012,11 +7484,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41125,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41126] = {
 		limit = "[]",
@@ -10027,11 +7495,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41126,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41127] = {
 		limit = "[]",
@@ -10042,11 +7506,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41127,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41128] = {
 		limit = "[]",
@@ -10057,11 +7517,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41128,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41129] = {
 		limit = "[]",
@@ -10072,11 +7528,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41129,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41130] = {
 		limit = "[]",
@@ -10087,11 +7539,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41130,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41131] = {
 		limit = "[]",
@@ -10102,11 +7550,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41131,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41132] = {
 		limit = "[]",
@@ -10117,11 +7561,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41132,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41133] = {
 		limit = "[]",
@@ -10132,11 +7572,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41133,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41134] = {
 		limit = "[]",
@@ -10147,11 +7583,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41134,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41135] = {
 		limit = "[]",
@@ -10162,11 +7594,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41135,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41136] = {
 		limit = "[]",
@@ -10177,11 +7605,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41136,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41137] = {
 		limit = "[]",
@@ -10192,11 +7616,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41137,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41138] = {
 		limit = "[]",
@@ -10207,11 +7627,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41138,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41139] = {
 		limit = "[]",
@@ -10222,11 +7638,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41139,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41140] = {
 		limit = "[]",
@@ -10237,11 +7649,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41140,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41141] = {
 		limit = "[]",
@@ -10252,11 +7660,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41141,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41142] = {
 		limit = "[]",
@@ -10267,11 +7671,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41142,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41143] = {
 		limit = "[]",
@@ -10282,11 +7682,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41143,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41144] = {
 		limit = "[]",
@@ -10297,11 +7693,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41144,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41145] = {
 		limit = "[]",
@@ -10312,11 +7704,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41145,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41146] = {
 		limit = "[]",
@@ -10327,11 +7715,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41146,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41147] = {
 		limit = "[]",
@@ -10342,11 +7726,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41147,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41148] = {
 		limit = "[]",
@@ -10357,11 +7737,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41148,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41149] = {
 		limit = "[]",
@@ -10372,11 +7748,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41149,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41150] = {
 		limit = "[]",
@@ -10387,11 +7759,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41150,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41151] = {
 		limit = "[]",
@@ -10402,11 +7770,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41151,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41152] = {
 		limit = "[]",
@@ -10417,11 +7781,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41152,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41153] = {
 		limit = "[]",
@@ -10432,11 +7792,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41153,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41154] = {
 		limit = "[]",
@@ -10447,11 +7803,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41154,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41155] = {
 		limit = "[]",
@@ -10462,11 +7814,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41155,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41156] = {
 		limit = "[]",
@@ -10477,11 +7825,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41156,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41157] = {
 		limit = "[]",
@@ -10492,11 +7836,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41157,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41158] = {
 		limit = "[]",
@@ -10507,11 +7847,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41158,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41159] = {
 		limit = "[]",
@@ -10522,11 +7858,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41159,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41160] = {
 		limit = "[]",
@@ -10537,11 +7869,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41160,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41161] = {
 		limit = "[]",
@@ -10552,11 +7880,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41161,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41162] = {
 		limit = "[]",
@@ -10567,11 +7891,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41162,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41163] = {
 		limit = "[]",
@@ -10582,11 +7902,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41163,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41164] = {
 		limit = "[]",
@@ -10597,11 +7913,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41164,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41165] = {
 		limit = "[]",
@@ -10612,11 +7924,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41165,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41166] = {
 		limit = "[]",
@@ -10627,11 +7935,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41166,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41167] = {
 		limit = "[]",
@@ -10642,11 +7946,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41167,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41168] = {
 		limit = "[]",
@@ -10657,11 +7957,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41168,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41169] = {
 		limit = "[]",
@@ -10672,11 +7968,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41169,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41170] = {
 		limit = "[]",
@@ -10687,11 +7979,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41170,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41171] = {
 		limit = "[]",
@@ -10702,11 +7990,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41171,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41172] = {
 		limit = "[]",
@@ -10717,11 +8001,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41172,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41173] = {
 		limit = "[]",
@@ -10732,11 +8012,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41173,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41174] = {
 		limit = "[]",
@@ -10747,11 +8023,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41174,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41175] = {
 		limit = "[]",
@@ -10762,11 +8034,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41175,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41176] = {
 		limit = "[]",
@@ -10777,11 +8045,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41176,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41177] = {
 		limit = "[]",
@@ -10792,11 +8056,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41177,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41178] = {
 		limit = "[]",
@@ -10807,11 +8067,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41178,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41179] = {
 		limit = "[]",
@@ -10822,11 +8078,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41179,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41180] = {
 		limit = "[]",
@@ -10837,11 +8089,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41180,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41181] = {
 		limit = "[]",
@@ -10852,11 +8100,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41181,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41182] = {
 		limit = "[]",
@@ -10867,11 +8111,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41182,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41183] = {
 		limit = "[]",
@@ -10882,11 +8122,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41183,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41184] = {
 		limit = "[]",
@@ -10897,11 +8133,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41184,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41185] = {
 		limit = "[]",
@@ -10912,11 +8144,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41185,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41186] = {
 		limit = "[]",
@@ -10927,11 +8155,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41186,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41187] = {
 		limit = "[]",
@@ -10942,11 +8166,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41187,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41188] = {
 		limit = "[]",
@@ -10957,11 +8177,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41188,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41189] = {
 		limit = "[]",
@@ -10972,11 +8188,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41189,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41190] = {
 		limit = "[]",
@@ -10987,11 +8199,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41190,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41191] = {
 		limit = "[]",
@@ -11002,11 +8210,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41191,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41192] = {
 		limit = "[]",
@@ -11017,11 +8221,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41192,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41193] = {
 		limit = "[]",
@@ -11032,11 +8232,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41193,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41194] = {
 		limit = "[]",
@@ -11047,11 +8243,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41194,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41195] = {
 		limit = "[]",
@@ -11062,11 +8254,7 @@ pg.item_data_template = {
 		usage_arg = "11000",
 		id = 41195,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41201] = {
 		limit = "[]",
@@ -11077,11 +8265,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41201,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41202] = {
 		limit = "[]",
@@ -11092,11 +8276,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41202,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41203] = {
 		limit = "[]",
@@ -11107,11 +8287,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41203,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41204] = {
 		limit = "[]",
@@ -11122,11 +8298,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41204,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41205] = {
 		limit = "[]",
@@ -11137,11 +8309,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41205,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41206] = {
 		limit = "[]",
@@ -11152,11 +8320,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41206,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41207] = {
 		limit = "[]",
@@ -11167,11 +8331,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41207,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41208] = {
 		limit = "[]",
@@ -11182,11 +8342,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41208,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41209] = {
 		limit = "[]",
@@ -11197,11 +8353,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41209,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41210] = {
 		limit = "[]",
@@ -11212,11 +8364,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41210,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41211] = {
 		limit = "[]",
@@ -11227,11 +8375,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41211,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41212] = {
 		limit = "[]",
@@ -11242,11 +8386,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41212,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41213] = {
 		limit = "[]",
@@ -11257,11 +8397,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41213,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41214] = {
 		limit = "[]",
@@ -11272,11 +8408,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41214,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41215] = {
 		limit = "[]",
@@ -11287,11 +8419,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41215,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41216] = {
 		limit = "[]",
@@ -11302,11 +8430,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41216,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41217] = {
 		limit = "[]",
@@ -11317,11 +8441,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41217,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41218] = {
 		limit = "[]",
@@ -11332,11 +8452,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41218,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41219] = {
 		limit = "[]",
@@ -11347,11 +8463,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41219,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41220] = {
 		limit = "[]",
@@ -11362,11 +8474,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41220,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41221] = {
 		limit = "[]",
@@ -11377,11 +8485,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41221,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41222] = {
 		limit = "[]",
@@ -11392,11 +8496,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41222,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41223] = {
 		limit = "[]",
@@ -11407,11 +8507,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41223,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41224] = {
 		limit = "[]",
@@ -11422,11 +8518,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41224,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41225] = {
 		limit = "[]",
@@ -11437,11 +8529,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41225,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41226] = {
 		limit = "[]",
@@ -11452,11 +8540,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41226,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41227] = {
 		limit = "[]",
@@ -11467,11 +8551,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41227,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41228] = {
 		limit = "[]",
@@ -11482,11 +8562,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41228,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41229] = {
 		limit = "[]",
@@ -11497,11 +8573,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41229,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41230] = {
 		limit = "[]",
@@ -11512,11 +8584,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41230,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41231] = {
 		limit = "[]",
@@ -11527,11 +8595,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41231,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41232] = {
 		limit = "[]",
@@ -11542,11 +8606,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41232,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41233] = {
 		limit = "[]",
@@ -11557,11 +8617,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41233,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41234] = {
 		limit = "[]",
@@ -11572,11 +8628,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41234,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41235] = {
 		limit = "[]",
@@ -11587,11 +8639,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41235,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41236] = {
 		limit = "[]",
@@ -11602,11 +8650,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41236,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41237] = {
 		limit = "[]",
@@ -11617,11 +8661,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41237,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41238] = {
 		limit = "[]",
@@ -11632,11 +8672,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41238,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41239] = {
 		limit = "[]",
@@ -11647,11 +8683,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41239,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41240] = {
 		limit = "[]",
@@ -11662,11 +8694,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41240,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41241] = {
 		limit = "[]",
@@ -11677,11 +8705,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41241,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41242] = {
 		limit = "[]",
@@ -11692,11 +8716,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41242,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41243] = {
 		limit = "[]",
@@ -11707,11 +8727,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41243,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41244] = {
 		limit = "[]",
@@ -11722,11 +8738,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41244,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41245] = {
 		limit = "[]",
@@ -11737,11 +8749,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41245,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41246] = {
 		limit = "[]",
@@ -11752,11 +8760,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41246,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41247] = {
 		limit = "[]",
@@ -11767,11 +8771,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41247,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41248] = {
 		limit = "[]",
@@ -11782,11 +8782,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41248,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41249] = {
 		limit = "[]",
@@ -11797,11 +8793,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41249,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41250] = {
 		limit = "[]",
@@ -11812,11 +8804,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41250,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41251] = {
 		limit = "[]",
@@ -11827,11 +8815,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41251,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41252] = {
 		limit = "[]",
@@ -11842,11 +8826,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41252,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41253] = {
 		limit = "[]",
@@ -11857,11 +8837,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41253,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41254] = {
 		limit = "[]",
@@ -11872,11 +8848,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41254,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41255] = {
 		limit = "[]",
@@ -11887,11 +8859,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41255,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41256] = {
 		limit = "[]",
@@ -11902,11 +8870,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41256,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41257] = {
 		limit = "[]",
@@ -11917,11 +8881,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41257,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41258] = {
 		limit = "[]",
@@ -11932,11 +8892,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41258,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41259] = {
 		limit = "[]",
@@ -11947,11 +8903,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41259,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41260] = {
 		limit = "[]",
@@ -11962,11 +8914,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41260,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41261] = {
 		limit = "[]",
@@ -11977,11 +8925,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41261,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41262] = {
 		limit = "[]",
@@ -11992,11 +8936,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41262,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41263] = {
 		limit = "[]",
@@ -12007,11 +8947,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41263,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41264] = {
 		limit = "[]",
@@ -12022,11 +8958,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41264,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41265] = {
 		limit = "[]",
@@ -12037,11 +8969,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41265,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41266] = {
 		limit = "[]",
@@ -12052,11 +8980,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41266,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41267] = {
 		limit = "[]",
@@ -12067,11 +8991,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41267,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41268] = {
 		limit = "[]",
@@ -12082,11 +9002,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41268,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41269] = {
 		limit = "[]",
@@ -12097,11 +9013,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41269,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41270] = {
 		limit = "[]",
@@ -12112,11 +9024,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41270,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41271] = {
 		limit = "[]",
@@ -12127,11 +9035,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41271,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41272] = {
 		limit = "[]",
@@ -12142,11 +9046,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41272,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41273] = {
 		limit = "[]",
@@ -12157,11 +9057,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41273,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41274] = {
 		limit = "[]",
@@ -12172,11 +9068,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41274,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41275] = {
 		limit = "[]",
@@ -12187,11 +9079,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41275,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41276] = {
 		limit = "[]",
@@ -12202,11 +9090,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41276,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41277] = {
 		limit = "[]",
@@ -12217,11 +9101,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41277,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41278] = {
 		limit = "[]",
@@ -12232,11 +9112,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41278,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41279] = {
 		limit = "[]",
@@ -12247,11 +9123,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41279,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41280] = {
 		limit = "[]",
@@ -12262,11 +9134,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41280,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41281] = {
 		limit = "[]",
@@ -12277,11 +9145,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41281,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41282] = {
 		limit = "[]",
@@ -12292,11 +9156,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41282,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41283] = {
 		limit = "[]",
@@ -12307,11 +9167,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41283,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41284] = {
 		limit = "[]",
@@ -12322,11 +9178,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41284,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41285] = {
 		limit = "[]",
@@ -12337,11 +9189,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41285,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41286] = {
 		limit = "[]",
@@ -12352,11 +9200,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41286,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41287] = {
 		limit = "[]",
@@ -12367,11 +9211,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41287,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41288] = {
 		limit = "[]",
@@ -12382,11 +9222,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41288,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41289] = {
 		limit = "[]",
@@ -12397,11 +9233,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41289,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41290] = {
 		limit = "[]",
@@ -12412,11 +9244,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41290,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41291] = {
 		limit = "[]",
@@ -12427,11 +9255,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41291,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41292] = {
 		limit = "[]",
@@ -12442,11 +9266,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41292,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41293] = {
 		limit = "[]",
@@ -12457,11 +9277,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41293,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41294] = {
 		limit = "[]",
@@ -12472,11 +9288,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41294,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41295] = {
 		limit = "[]",
@@ -12487,11 +9299,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41295,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41296] = {
 		limit = "[]",
@@ -12502,11 +9310,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41296,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41297] = {
 		limit = "[]",
@@ -12517,11 +9321,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41297,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41298] = {
 		limit = "[]",
@@ -12532,11 +9332,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41298,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41299] = {
 		limit = "[]",
@@ -12547,11 +9343,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41299,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41300] = {
 		limit = "[]",
@@ -12562,11 +9354,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41300,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41301] = {
 		limit = "[]",
@@ -12577,11 +9365,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41301,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41302] = {
 		limit = "[]",
@@ -12592,11 +9376,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41302,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41303] = {
 		limit = "[]",
@@ -12607,11 +9387,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41303,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41304] = {
 		limit = "[]",
@@ -12622,11 +9398,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41304,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41305] = {
 		limit = "[]",
@@ -12637,11 +9409,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41305,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41306] = {
 		limit = "[]",
@@ -12652,11 +9420,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41306,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41307] = {
 		limit = "[]",
@@ -12667,11 +9431,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41307,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41308] = {
 		limit = "[]",
@@ -12682,11 +9442,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41308,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41309] = {
 		limit = "[]",
@@ -12697,11 +9453,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41309,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41310] = {
 		limit = "[]",
@@ -12712,11 +9464,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41310,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41311] = {
 		limit = "[]",
@@ -12727,11 +9475,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41311,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41312] = {
 		limit = "[]",
@@ -12742,11 +9486,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41312,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41313] = {
 		limit = "[]",
@@ -12757,11 +9497,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41313,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41314] = {
 		limit = "[]",
@@ -12772,11 +9508,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41314,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41315] = {
 		limit = "[]",
@@ -12787,11 +9519,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41315,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41316] = {
 		limit = "[]",
@@ -12802,11 +9530,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41316,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41317] = {
 		limit = "[]",
@@ -12817,11 +9541,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41317,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41318] = {
 		limit = "[]",
@@ -12832,11 +9552,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41318,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41319] = {
 		limit = "[]",
@@ -12847,11 +9563,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41319,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41320] = {
 		limit = "[]",
@@ -12862,11 +9574,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41320,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41321] = {
 		limit = "[]",
@@ -12877,11 +9585,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41321,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41322] = {
 		limit = "[]",
@@ -12892,11 +9596,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41322,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41323] = {
 		limit = "[]",
@@ -12907,11 +9607,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41323,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41324] = {
 		limit = "[]",
@@ -12922,11 +9618,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41324,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41325] = {
 		limit = "[]",
@@ -12937,11 +9629,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41325,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41326] = {
 		limit = "[]",
@@ -12952,11 +9640,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41326,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41327] = {
 		limit = "[]",
@@ -12967,11 +9651,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41327,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41328] = {
 		limit = "[]",
@@ -12982,11 +9662,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41328,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41329] = {
 		limit = "[]",
@@ -12997,11 +9673,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41329,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41330] = {
 		limit = "[]",
@@ -13012,11 +9684,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41330,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41331] = {
 		limit = "[]",
@@ -13027,11 +9695,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41331,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41332] = {
 		limit = "[]",
@@ -13042,11 +9706,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41332,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41333] = {
 		limit = "[]",
@@ -13057,11 +9717,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41333,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41334] = {
 		limit = "[]",
@@ -13072,11 +9728,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41334,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41335] = {
 		limit = "[]",
@@ -13087,11 +9739,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41335,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41336] = {
 		limit = "[]",
@@ -13102,11 +9750,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41336,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41337] = {
 		limit = "[]",
@@ -13117,11 +9761,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41337,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41338] = {
 		limit = "[]",
@@ -13132,11 +9772,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41338,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41339] = {
 		limit = "[]",
@@ -13147,11 +9783,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41339,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41340] = {
 		limit = "[]",
@@ -13162,11 +9794,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41340,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41341] = {
 		limit = "[]",
@@ -13177,11 +9805,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41341,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41342] = {
 		limit = "[]",
@@ -13192,11 +9816,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41342,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41343] = {
 		limit = "[]",
@@ -13207,11 +9827,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41343,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41344] = {
 		limit = "[]",
@@ -13222,11 +9838,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41344,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41345] = {
 		limit = "[]",
@@ -13237,11 +9849,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41345,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41346] = {
 		limit = "[]",
@@ -13252,11 +9860,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41346,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41347] = {
 		limit = "[]",
@@ -13267,11 +9871,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41347,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41348] = {
 		limit = "[]",
@@ -13282,11 +9882,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41348,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41349] = {
 		limit = "[]",
@@ -13297,11 +9893,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41349,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41350] = {
 		limit = "[]",
@@ -13312,11 +9904,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41350,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41351] = {
 		limit = "[]",
@@ -13327,11 +9915,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41351,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41352] = {
 		limit = "[]",
@@ -13342,11 +9926,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41352,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41353] = {
 		limit = "[]",
@@ -13357,11 +9937,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41353,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41354] = {
 		limit = "[]",
@@ -13372,11 +9948,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41354,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41355] = {
 		limit = "[]",
@@ -13387,11 +9959,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41355,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41356] = {
 		limit = "[]",
@@ -13402,11 +9970,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41356,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41357] = {
 		limit = "[]",
@@ -13417,11 +9981,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41357,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41358] = {
 		limit = "[]",
@@ -13432,11 +9992,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41358,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41359] = {
 		limit = "[]",
@@ -13447,11 +10003,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41359,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41360] = {
 		limit = "[]",
@@ -13462,11 +10014,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41360,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41361] = {
 		limit = "[]",
@@ -13477,11 +10025,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41361,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41362] = {
 		limit = "[]",
@@ -13492,11 +10036,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41362,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41363] = {
 		limit = "[]",
@@ -13507,11 +10047,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41363,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41364] = {
 		limit = "[]",
@@ -13522,11 +10058,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41364,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41365] = {
 		limit = "[]",
@@ -13537,11 +10069,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41365,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41366] = {
 		limit = "[]",
@@ -13552,11 +10080,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41366,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41367] = {
 		limit = "[]",
@@ -13567,11 +10091,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41367,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41368] = {
 		limit = "[]",
@@ -13582,11 +10102,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41368,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41369] = {
 		limit = "[]",
@@ -13597,11 +10113,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41369,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41370] = {
 		limit = "[]",
@@ -13612,11 +10124,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41370,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41371] = {
 		limit = "[]",
@@ -13627,11 +10135,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41371,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41372] = {
 		limit = "[]",
@@ -13642,11 +10146,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41372,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41373] = {
 		limit = "[]",
@@ -13657,11 +10157,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41373,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41374] = {
 		limit = "[]",
@@ -13672,11 +10168,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41374,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41375] = {
 		limit = "[]",
@@ -13687,11 +10179,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41375,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41376] = {
 		limit = "[]",
@@ -13702,11 +10190,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41376,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41377] = {
 		limit = "[]",
@@ -13717,11 +10201,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41377,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41378] = {
 		limit = "[]",
@@ -13732,11 +10212,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41378,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41379] = {
 		limit = "[]",
@@ -13747,11 +10223,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41379,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41380] = {
 		limit = "[]",
@@ -13762,11 +10234,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41380,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41381] = {
 		limit = "[]",
@@ -13777,11 +10245,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41381,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41382] = {
 		limit = "[]",
@@ -13792,11 +10256,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41382,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41383] = {
 		limit = "[]",
@@ -13807,11 +10267,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41383,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41384] = {
 		limit = "[]",
@@ -13822,11 +10278,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41384,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41385] = {
 		limit = "[]",
@@ -13837,11 +10289,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41385,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41386] = {
 		limit = "[]",
@@ -13852,11 +10300,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41386,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41387] = {
 		limit = "[]",
@@ -13867,11 +10311,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41387,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41388] = {
 		limit = "[]",
@@ -13882,11 +10322,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41388,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41389] = {
 		limit = "[]",
@@ -13897,11 +10333,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41389,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41390] = {
 		limit = "[]",
@@ -13912,11 +10344,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41390,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41391] = {
 		limit = "[]",
@@ -13927,11 +10355,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41391,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41392] = {
 		limit = "[]",
@@ -13942,11 +10366,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41392,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41393] = {
 		limit = "[]",
@@ -13957,11 +10377,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41393,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41394] = {
 		limit = "[]",
@@ -13972,11 +10388,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41394,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41395] = {
 		limit = "[]",
@@ -13987,11 +10399,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41395,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41396] = {
 		limit = "[]",
@@ -14002,11 +10410,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41396,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41397] = {
 		limit = "[]",
@@ -14017,11 +10421,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41397,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41398] = {
 		limit = "[]",
@@ -14032,11 +10432,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41398,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41399] = {
 		limit = "[]",
@@ -14047,11 +10443,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41399,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41400] = {
 		limit = "[]",
@@ -14062,11 +10454,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41400,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41401] = {
 		limit = "[]",
@@ -14077,11 +10465,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41401,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41402] = {
 		limit = "[]",
@@ -14092,11 +10476,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41402,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41403] = {
 		limit = "[]",
@@ -14107,11 +10487,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41403,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41404] = {
 		limit = "[]",
@@ -14122,11 +10498,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41404,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41405] = {
 		limit = "[]",
@@ -14137,11 +10509,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41405,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41406] = {
 		limit = "[]",
@@ -14152,11 +10520,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41406,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41407] = {
 		limit = "[]",
@@ -14167,11 +10531,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41407,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41408] = {
 		limit = "[]",
@@ -14182,11 +10542,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41408,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41409] = {
 		limit = "[]",
@@ -14197,11 +10553,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41409,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41410] = {
 		limit = "[]",
@@ -14212,11 +10564,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41410,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41411] = {
 		limit = "[]",
@@ -14227,11 +10575,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41411,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41412] = {
 		limit = "[]",
@@ -14242,11 +10586,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41412,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41413] = {
 		limit = "[]",
@@ -14257,11 +10597,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41413,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41414] = {
 		limit = "[]",
@@ -14272,11 +10608,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41414,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41415] = {
 		limit = "[]",
@@ -14287,11 +10619,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41415,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41416] = {
 		limit = "[]",
@@ -14302,11 +10630,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41416,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41417] = {
 		limit = "[]",
@@ -14317,11 +10641,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41417,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41418] = {
 		limit = "[]",
@@ -14332,11 +10652,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41418,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41419] = {
 		limit = "[]",
@@ -14347,11 +10663,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41419,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41420] = {
 		limit = "[]",
@@ -14362,11 +10674,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41420,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41421] = {
 		limit = "[]",
@@ -14377,11 +10685,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41421,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41422] = {
 		limit = "[]",
@@ -14392,11 +10696,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41422,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41423] = {
 		limit = "[]",
@@ -14407,11 +10707,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41423,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41424] = {
 		limit = "[]",
@@ -14422,11 +10718,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41424,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41425] = {
 		limit = "[]",
@@ -14437,11 +10729,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41425,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41426] = {
 		limit = "[]",
@@ -14452,11 +10740,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41426,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41427] = {
 		limit = "[]",
@@ -14467,11 +10751,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41427,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41428] = {
 		limit = "[]",
@@ -14482,11 +10762,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41428,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41429] = {
 		limit = "[]",
@@ -14497,11 +10773,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41429,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41430] = {
 		limit = "[]",
@@ -14512,11 +10784,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41430,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41431] = {
 		limit = "[]",
@@ -14527,11 +10795,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41431,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41432] = {
 		limit = "[]",
@@ -14542,11 +10806,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41432,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41433] = {
 		limit = "[]",
@@ -14557,11 +10817,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41433,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41434] = {
 		limit = "[]",
@@ -14572,11 +10828,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41434,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41435] = {
 		limit = "[]",
@@ -14587,11 +10839,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41435,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41436] = {
 		limit = "[]",
@@ -14602,11 +10850,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41436,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41437] = {
 		limit = "[]",
@@ -14617,11 +10861,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41437,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41438] = {
 		limit = "[]",
@@ -14632,11 +10872,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41438,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41439] = {
 		limit = "[]",
@@ -14647,11 +10883,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41439,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41440] = {
 		limit = "[]",
@@ -14662,11 +10894,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41440,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41441] = {
 		limit = "[]",
@@ -14677,11 +10905,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41441,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41442] = {
 		limit = "[]",
@@ -14692,11 +10916,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41442,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41443] = {
 		limit = "[]",
@@ -14707,11 +10927,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41443,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41444] = {
 		limit = "[]",
@@ -14722,11 +10938,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41444,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41445] = {
 		limit = "[]",
@@ -14737,11 +10949,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41445,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41446] = {
 		limit = "[]",
@@ -14752,11 +10960,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41446,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41447] = {
 		limit = "[]",
@@ -14767,11 +10971,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41447,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41448] = {
 		limit = "[]",
@@ -14782,11 +10982,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41448,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41449] = {
 		limit = "[]",
@@ -14797,11 +10993,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41449,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41450] = {
 		limit = "[]",
@@ -14812,11 +11004,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41450,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41451] = {
 		limit = "[]",
@@ -14827,11 +11015,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41451,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41452] = {
 		limit = "[]",
@@ -14842,11 +11026,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41452,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41453] = {
 		limit = "[]",
@@ -14857,11 +11037,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41453,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41454] = {
 		limit = "[]",
@@ -14872,11 +11048,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41454,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41455] = {
 		limit = "[]",
@@ -14887,11 +11059,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41455,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41456] = {
 		limit = "[]",
@@ -14902,11 +11070,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41456,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41457] = {
 		limit = "[]",
@@ -14917,11 +11081,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41457,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41458] = {
 		limit = "[]",
@@ -14932,11 +11092,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41458,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41459] = {
 		limit = "[]",
@@ -14947,11 +11103,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41459,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41460] = {
 		limit = "[]",
@@ -14962,11 +11114,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41460,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41461] = {
 		limit = "[]",
@@ -14977,11 +11125,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41461,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41462] = {
 		limit = "[]",
@@ -14992,11 +11136,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41462,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41463] = {
 		limit = "[]",
@@ -15007,11 +11147,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41463,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41464] = {
 		limit = "[]",
@@ -15022,11 +11158,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41464,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41465] = {
 		limit = "[]",
@@ -15037,11 +11169,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41465,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41466] = {
 		limit = "[]",
@@ -15052,11 +11180,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41466,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41467] = {
 		limit = "[]",
@@ -15067,11 +11191,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41467,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41468] = {
 		limit = "[]",
@@ -15082,11 +11202,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41468,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41469] = {
 		limit = "[]",
@@ -15097,11 +11213,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41469,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41470] = {
 		limit = "[]",
@@ -15112,11 +11224,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41470,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41471] = {
 		limit = "[]",
@@ -15127,11 +11235,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41471,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41472] = {
 		limit = "[]",
@@ -15142,11 +11246,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41472,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41473] = {
 		limit = "[]",
@@ -15157,11 +11257,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41473,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41474] = {
 		limit = "[]",
@@ -15172,11 +11268,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41474,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41475] = {
 		limit = "[]",
@@ -15187,11 +11279,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41475,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41476] = {
 		limit = "[]",
@@ -15202,11 +11290,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41476,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41477] = {
 		limit = "[]",
@@ -15217,11 +11301,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41477,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41478] = {
 		limit = "[]",
@@ -15232,11 +11312,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41478,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41479] = {
 		limit = "[]",
@@ -15247,11 +11323,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41479,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41480] = {
 		limit = "[]",
@@ -15262,11 +11334,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41480,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41481] = {
 		limit = "[]",
@@ -15277,11 +11345,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41481,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41498] = {
 		limit = "[]",
@@ -15292,11 +11356,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41498,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41499] = {
 		limit = "[]",
@@ -15307,11 +11367,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41499,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41500] = {
 		limit = "[]",
@@ -15322,11 +11378,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41500,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41501] = {
 		limit = "[]",
@@ -15337,11 +11389,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41501,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41502] = {
 		limit = "[]",
@@ -15352,11 +11400,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41502,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41503] = {
 		limit = "[]",
@@ -15367,11 +11411,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41503,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41601] = {
 		limit = "[]",
@@ -15382,11 +11422,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41601,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41602] = {
 		limit = "[]",
@@ -15397,11 +11433,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41602,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41603] = {
 		limit = "[]",
@@ -15412,11 +11444,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41603,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41604] = {
 		limit = "[]",
@@ -15427,11 +11455,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41604,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41605] = {
 		limit = "[]",
@@ -15442,11 +11466,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41605,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41606] = {
 		limit = "[]",
@@ -15457,11 +11477,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41606,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41607] = {
 		limit = "[]",
@@ -15472,11 +11488,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41607,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41608] = {
 		limit = "[]",
@@ -15487,11 +11499,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41608,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41609] = {
 		limit = "[]",
@@ -15502,11 +11510,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41609,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41610] = {
 		limit = "[]",
@@ -15517,11 +11521,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41610,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41611] = {
 		limit = "[]",
@@ -15532,11 +11532,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41611,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41612] = {
 		limit = "[]",
@@ -15547,11 +11543,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41612,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41613] = {
 		limit = "[]",
@@ -15562,11 +11554,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41613,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41614] = {
 		limit = "[]",
@@ -15577,11 +11565,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41614,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41615] = {
 		limit = "[]",
@@ -15592,11 +11576,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41615,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41616] = {
 		limit = "[]",
@@ -15607,11 +11587,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41616,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41617] = {
 		limit = "[]",
@@ -15622,11 +11598,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41617,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41618] = {
 		limit = "[]",
@@ -15637,11 +11609,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41618,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41619] = {
 		limit = "[]",
@@ -15652,11 +11620,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41619,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41620] = {
 		limit = "[]",
@@ -15667,11 +11631,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41620,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41621] = {
 		limit = "[]",
@@ -15682,11 +11642,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41621,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41622] = {
 		limit = "[]",
@@ -15697,11 +11653,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41622,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41623] = {
 		limit = "[]",
@@ -15712,11 +11664,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41623,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41624] = {
 		limit = "[]",
@@ -15727,11 +11675,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41624,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41625] = {
 		limit = "[]",
@@ -15742,11 +11686,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41625,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41626] = {
 		limit = "[]",
@@ -15757,11 +11697,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41626,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41627] = {
 		limit = "[]",
@@ -15772,11 +11708,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41627,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41628] = {
 		limit = "[]",
@@ -15787,11 +11719,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41628,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41629] = {
 		limit = "[]",
@@ -15802,11 +11730,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41629,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41630] = {
 		limit = "[]",
@@ -15817,11 +11741,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41630,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41631] = {
 		limit = "[]",
@@ -15832,11 +11752,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41631,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41632] = {
 		limit = "[]",
@@ -15847,11 +11763,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41632,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41633] = {
 		limit = "[]",
@@ -15862,11 +11774,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41633,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41634] = {
 		limit = "[]",
@@ -15877,11 +11785,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41634,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41635] = {
 		limit = "[]",
@@ -15892,11 +11796,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41635,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41636] = {
 		limit = "[]",
@@ -15907,11 +11807,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41636,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41637] = {
 		limit = "[]",
@@ -15922,11 +11818,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41637,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41638] = {
 		limit = "[]",
@@ -15937,11 +11829,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41638,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41639] = {
 		limit = "[]",
@@ -15952,11 +11840,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41639,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41640] = {
 		limit = "[]",
@@ -15967,11 +11851,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41640,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41641] = {
 		limit = "[]",
@@ -15982,11 +11862,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41641,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41642] = {
 		limit = "[]",
@@ -15997,11 +11873,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41642,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41643] = {
 		limit = "[]",
@@ -16012,11 +11884,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41643,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41644] = {
 		limit = "[]",
@@ -16027,11 +11895,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41644,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41645] = {
 		limit = "[]",
@@ -16042,11 +11906,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41645,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41646] = {
 		limit = "[]",
@@ -16057,11 +11917,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41646,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41647] = {
 		limit = "[]",
@@ -16072,11 +11928,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41647,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41648] = {
 		limit = "[]",
@@ -16087,11 +11939,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41648,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41649] = {
 		limit = "[]",
@@ -16102,11 +11950,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41649,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41650] = {
 		limit = "[]",
@@ -16117,11 +11961,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41650,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41651] = {
 		limit = "[]",
@@ -16132,11 +11972,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41651,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41652] = {
 		limit = "[]",
@@ -16147,11 +11983,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41652,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41653] = {
 		limit = "[]",
@@ -16162,11 +11994,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41653,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41654] = {
 		limit = "[]",
@@ -16177,11 +12005,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41654,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41655] = {
 		limit = "[]",
@@ -16192,11 +12016,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41655,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41656] = {
 		limit = "[]",
@@ -16207,11 +12027,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41656,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41657] = {
 		limit = "[]",
@@ -16222,11 +12038,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41657,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41658] = {
 		limit = "[]",
@@ -16237,11 +12049,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41658,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41659] = {
 		limit = "[]",
@@ -16252,11 +12060,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41659,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41660] = {
 		limit = "[]",
@@ -16267,11 +12071,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41660,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41661] = {
 		limit = "[]",
@@ -16282,11 +12082,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41661,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41662] = {
 		limit = "[]",
@@ -16297,11 +12093,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41662,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41663] = {
 		limit = "[]",
@@ -16312,11 +12104,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41663,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41664] = {
 		limit = "[]",
@@ -16327,11 +12115,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41664,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41665] = {
 		limit = "[]",
@@ -16342,11 +12126,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41665,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41666] = {
 		limit = "[]",
@@ -16357,11 +12137,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41666,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41667] = {
 		limit = "[]",
@@ -16372,11 +12148,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41667,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41668] = {
 		limit = "[]",
@@ -16387,11 +12159,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41668,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41669] = {
 		limit = "[]",
@@ -16402,11 +12170,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41669,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41670] = {
 		limit = "[]",
@@ -16417,11 +12181,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41670,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41671] = {
 		limit = "[]",
@@ -16432,11 +12192,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41671,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41672] = {
 		limit = "[]",
@@ -16447,11 +12203,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41672,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41673] = {
 		limit = "[]",
@@ -16462,11 +12214,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41673,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41674] = {
 		limit = "[]",
@@ -16477,11 +12225,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41674,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41675] = {
 		limit = "[]",
@@ -16492,11 +12236,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41675,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41676] = {
 		limit = "[]",
@@ -16507,11 +12247,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41676,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41677] = {
 		limit = "[]",
@@ -16522,11 +12258,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41677,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41678] = {
 		limit = "[]",
@@ -16537,11 +12269,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41678,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41679] = {
 		limit = "[]",
@@ -16552,11 +12280,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41679,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41680] = {
 		limit = "[]",
@@ -16567,11 +12291,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41680,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41681] = {
 		limit = "[]",
@@ -16582,11 +12302,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41681,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41682] = {
 		limit = "[]",
@@ -16597,11 +12313,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41682,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41683] = {
 		limit = "[]",
@@ -16612,11 +12324,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41683,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41684] = {
 		limit = "[]",
@@ -16627,11 +12335,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41684,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41685] = {
 		limit = "[]",
@@ -16642,11 +12346,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41685,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41686] = {
 		limit = "[]",
@@ -16657,11 +12357,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41686,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41687] = {
 		limit = "[]",
@@ -16672,11 +12368,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41687,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41688] = {
 		limit = "[]",
@@ -16687,11 +12379,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41688,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41689] = {
 		limit = "[]",
@@ -16702,11 +12390,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41689,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41690] = {
 		limit = "[]",
@@ -16717,11 +12401,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41690,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41691] = {
 		limit = "[]",
@@ -16732,11 +12412,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41691,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41692] = {
 		limit = "[]",
@@ -16747,11 +12423,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41692,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41693] = {
 		limit = "[]",
@@ -16762,11 +12434,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41693,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41694] = {
 		limit = "[]",
@@ -16777,11 +12445,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41694,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41695] = {
 		limit = "[]",
@@ -16792,11 +12456,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41695,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41696] = {
 		limit = "[]",
@@ -16807,11 +12467,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41696,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41697] = {
 		limit = "[]",
@@ -16822,11 +12478,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41697,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41698] = {
 		limit = "[]",
@@ -16837,11 +12489,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41698,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41699] = {
 		limit = "[]",
@@ -16852,11 +12500,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41699,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41700] = {
 		limit = "[]",
@@ -16867,11 +12511,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41700,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41701] = {
 		limit = "[]",
@@ -16882,11 +12522,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41701,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41702] = {
 		limit = "[]",
@@ -16897,11 +12533,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41702,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41703] = {
 		limit = "[]",
@@ -16912,11 +12544,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41703,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41704] = {
 		limit = "[]",
@@ -16927,11 +12555,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41704,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41705] = {
 		limit = "[]",
@@ -16942,11 +12566,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41705,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41706] = {
 		limit = "[]",
@@ -16957,11 +12577,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41706,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41707] = {
 		limit = "[]",
@@ -16972,11 +12588,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41707,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41708] = {
 		limit = "[]",
@@ -16987,11 +12599,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41708,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41709] = {
 		limit = "[]",
@@ -17002,11 +12610,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41709,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41710] = {
 		limit = "[]",
@@ -17017,11 +12621,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41710,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41711] = {
 		limit = "[]",
@@ -17032,11 +12632,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41711,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41712] = {
 		limit = "[]",
@@ -17047,11 +12643,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41712,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41713] = {
 		limit = "[]",
@@ -17062,11 +12654,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41713,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41714] = {
 		limit = "[]",
@@ -17077,11 +12665,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41714,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41715] = {
 		limit = "[]",
@@ -17092,11 +12676,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41715,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41716] = {
 		limit = "[]",
@@ -17107,11 +12687,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41716,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41717] = {
 		limit = "[]",
@@ -17122,11 +12698,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41717,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41718] = {
 		limit = "[]",
@@ -17137,11 +12709,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41718,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41719] = {
 		limit = "[]",
@@ -17152,11 +12720,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41719,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41720] = {
 		limit = "[]",
@@ -17167,11 +12731,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41720,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41721] = {
 		limit = "[]",
@@ -17182,11 +12742,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41721,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41722] = {
 		limit = "[]",
@@ -17197,11 +12753,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41722,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41723] = {
 		limit = "[]",
@@ -17212,11 +12764,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41723,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41724] = {
 		limit = "[]",
@@ -17227,11 +12775,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41724,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41725] = {
 		limit = "[]",
@@ -17242,11 +12786,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41725,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41726] = {
 		limit = "[]",
@@ -17257,11 +12797,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41726,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41727] = {
 		limit = "[]",
@@ -17272,11 +12808,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41727,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41728] = {
 		limit = "[]",
@@ -17287,11 +12819,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41728,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41729] = {
 		limit = "[]",
@@ -17302,11 +12830,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41729,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41730] = {
 		limit = "[]",
@@ -17317,11 +12841,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41730,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41731] = {
 		limit = "[]",
@@ -17332,11 +12852,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41731,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41732] = {
 		limit = "[]",
@@ -17347,11 +12863,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41732,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41733] = {
 		limit = "[]",
@@ -17362,11 +12874,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41733,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41734] = {
 		limit = "[]",
@@ -17377,11 +12885,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41734,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41735] = {
 		limit = "[]",
@@ -17392,11 +12896,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41735,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41736] = {
 		limit = "[]",
@@ -17407,11 +12907,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41736,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41737] = {
 		limit = "[]",
@@ -17422,11 +12918,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41737,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41738] = {
 		limit = "[]",
@@ -17437,11 +12929,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41738,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41739] = {
 		limit = "[]",
@@ -17452,11 +12940,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41739,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41740] = {
 		limit = "[]",
@@ -17467,11 +12951,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41740,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41741] = {
 		limit = "[]",
@@ -17482,11 +12962,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41741,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41742] = {
 		limit = "[]",
@@ -17497,11 +12973,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41742,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41743] = {
 		limit = "[]",
@@ -17512,11 +12984,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41743,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41744] = {
 		limit = "[]",
@@ -17527,11 +12995,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41744,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41745] = {
 		limit = "[]",
@@ -17542,11 +13006,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41745,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41746] = {
 		limit = "[]",
@@ -17557,11 +13017,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41746,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41747] = {
 		limit = "[]",
@@ -17572,11 +13028,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41747,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41748] = {
 		limit = "[]",
@@ -17587,11 +13039,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41748,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41749] = {
 		limit = "[]",
@@ -17602,11 +13050,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41749,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41750] = {
 		limit = "[]",
@@ -17617,11 +13061,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41750,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41751] = {
 		limit = "[]",
@@ -17632,11 +13072,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41751,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41752] = {
 		limit = "[]",
@@ -17647,11 +13083,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41752,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41753] = {
 		limit = "[]",
@@ -17662,11 +13094,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41753,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41754] = {
 		limit = "[]",
@@ -17677,11 +13105,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41754,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41755] = {
 		limit = "[]",
@@ -17692,11 +13116,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41755,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41756] = {
 		limit = "[]",
@@ -17707,11 +13127,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41756,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41757] = {
 		limit = "[]",
@@ -17722,11 +13138,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41757,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41758] = {
 		limit = "[]",
@@ -17737,11 +13149,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41758,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41759] = {
 		limit = "[]",
@@ -17752,11 +13160,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41759,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41760] = {
 		limit = "[]",
@@ -17767,11 +13171,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41760,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41761] = {
 		limit = "[]",
@@ -17782,11 +13182,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41761,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41762] = {
 		limit = "[]",
@@ -17797,11 +13193,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41762,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41763] = {
 		limit = "[]",
@@ -17812,11 +13204,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41763,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41764] = {
 		limit = "[]",
@@ -17827,11 +13215,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41764,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41765] = {
 		limit = "[]",
@@ -17842,11 +13226,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41765,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41766] = {
 		limit = "[]",
@@ -17857,11 +13237,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41766,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41767] = {
 		limit = "[]",
@@ -17872,11 +13248,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41767,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41768] = {
 		limit = "[]",
@@ -17887,11 +13259,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41768,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41769] = {
 		limit = "[]",
@@ -17902,11 +13270,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41769,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41770] = {
 		limit = "[]",
@@ -17917,11 +13281,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41770,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41771] = {
 		limit = "[]",
@@ -17932,11 +13292,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41771,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41772] = {
 		limit = "[]",
@@ -17947,11 +13303,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41772,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41773] = {
 		limit = "[]",
@@ -17962,11 +13314,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41773,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41774] = {
 		limit = "[]",
@@ -17977,11 +13325,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41774,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41775] = {
 		limit = "[]",
@@ -17992,11 +13336,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41775,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41776] = {
 		limit = "[]",
@@ -18007,11 +13347,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41776,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41777] = {
 		limit = "[]",
@@ -18022,11 +13358,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41777,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41778] = {
 		limit = "[]",
@@ -18037,11 +13369,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41778,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41779] = {
 		limit = "[]",
@@ -18052,11 +13380,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41779,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41780] = {
 		limit = "[]",
@@ -18067,11 +13391,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41780,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41781] = {
 		limit = "[]",
@@ -18082,11 +13402,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41781,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41782] = {
 		limit = "[]",
@@ -18097,11 +13413,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41782,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41783] = {
 		limit = "[]",
@@ -18112,11 +13424,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41783,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41784] = {
 		limit = "[]",
@@ -18127,11 +13435,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41784,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41785] = {
 		limit = "[]",
@@ -18142,11 +13446,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41785,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41786] = {
 		limit = "[]",
@@ -18157,11 +13457,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41786,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41787] = {
 		limit = "[]",
@@ -18172,11 +13468,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41787,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41788] = {
 		limit = "[]",
@@ -18187,11 +13479,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41788,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41789] = {
 		limit = "[]",
@@ -18202,11 +13490,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41789,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41790] = {
 		limit = "[]",
@@ -18217,11 +13501,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41790,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41791] = {
 		limit = "[]",
@@ -18232,11 +13512,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41791,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41792] = {
 		limit = "[]",
@@ -18247,11 +13523,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41792,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41793] = {
 		limit = "[]",
@@ -18262,11 +13534,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41793,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41794] = {
 		limit = "[]",
@@ -18277,11 +13545,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41794,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41795] = {
 		limit = "[]",
@@ -18292,11 +13556,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41795,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41796] = {
 		limit = "[]",
@@ -18307,11 +13567,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41796,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41797] = {
 		limit = "[]",
@@ -18322,11 +13578,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41797,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41798] = {
 		limit = "[]",
@@ -18337,11 +13589,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41798,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41799] = {
 		limit = "[]",
@@ -18352,11 +13600,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41799,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41800] = {
 		limit = "[]",
@@ -18367,11 +13611,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41800,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41801] = {
 		limit = "[]",
@@ -18382,11 +13622,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41801,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41802] = {
 		limit = "[]",
@@ -18397,11 +13633,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41802,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41803] = {
 		limit = "[]",
@@ -18412,11 +13644,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41803,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41804] = {
 		limit = "[]",
@@ -18427,11 +13655,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41804,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41805] = {
 		limit = "[]",
@@ -18442,11 +13666,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41805,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41806] = {
 		limit = "[]",
@@ -18457,11 +13677,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41806,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41807] = {
 		limit = "[]",
@@ -18472,11 +13688,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41807,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41808] = {
 		limit = "[]",
@@ -18487,11 +13699,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41808,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41809] = {
 		limit = "[]",
@@ -18502,11 +13710,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41809,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41810] = {
 		limit = "[]",
@@ -18517,11 +13721,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41810,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41811] = {
 		limit = "[]",
@@ -18532,11 +13732,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41811,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41812] = {
 		limit = "[]",
@@ -18547,11 +13743,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41812,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41813] = {
 		limit = "[]",
@@ -18562,11 +13754,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41813,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41814] = {
 		limit = "[]",
@@ -18577,11 +13765,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41814,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41815] = {
 		limit = "[]",
@@ -18592,11 +13776,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41815,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41816] = {
 		limit = "[]",
@@ -18607,11 +13787,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41816,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41817] = {
 		limit = "[]",
@@ -18622,11 +13798,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41817,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41818] = {
 		limit = "[]",
@@ -18637,11 +13809,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41818,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41819] = {
 		limit = "[]",
@@ -18652,11 +13820,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41819,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41820] = {
 		limit = "[]",
@@ -18667,11 +13831,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41820,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41821] = {
 		limit = "[]",
@@ -18682,11 +13842,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41821,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41822] = {
 		limit = "[]",
@@ -18697,11 +13853,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41822,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41823] = {
 		limit = "[]",
@@ -18712,11 +13864,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41823,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41824] = {
 		limit = "[]",
@@ -18727,11 +13875,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41824,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41825] = {
 		limit = "[]",
@@ -18742,11 +13886,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41825,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41826] = {
 		limit = "[]",
@@ -18757,11 +13897,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41826,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41827] = {
 		limit = "[]",
@@ -18772,11 +13908,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41827,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41828] = {
 		limit = "[]",
@@ -18787,11 +13919,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41828,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41829] = {
 		limit = "[]",
@@ -18802,11 +13930,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41829,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41830] = {
 		limit = "[]",
@@ -18817,11 +13941,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41830,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41831] = {
 		limit = "[]",
@@ -18832,11 +13952,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41831,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41832] = {
 		limit = "[]",
@@ -18847,11 +13963,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41832,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41833] = {
 		limit = "[]",
@@ -18862,11 +13974,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41833,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41834] = {
 		limit = "[]",
@@ -18877,11 +13985,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41834,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41835] = {
 		limit = "[]",
@@ -18892,11 +13996,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41835,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41836] = {
 		limit = "[]",
@@ -18907,11 +14007,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41836,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41837] = {
 		limit = "[]",
@@ -18922,11 +14018,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41837,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41838] = {
 		limit = "[]",
@@ -18937,11 +14029,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41838,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41839] = {
 		limit = "[]",
@@ -18952,11 +14040,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41839,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41840] = {
 		limit = "[]",
@@ -18967,11 +14051,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41840,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41841] = {
 		limit = "[]",
@@ -18982,11 +14062,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41841,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41842] = {
 		limit = "[]",
@@ -18997,11 +14073,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41842,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41843] = {
 		limit = "[]",
@@ -19012,11 +14084,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41843,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41844] = {
 		limit = "[]",
@@ -19027,11 +14095,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41844,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41845] = {
 		limit = "[]",
@@ -19042,11 +14106,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41845,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41846] = {
 		limit = "[]",
@@ -19057,11 +14117,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41846,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41847] = {
 		limit = "[]",
@@ -19072,11 +14128,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41847,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41848] = {
 		limit = "[]",
@@ -19087,11 +14139,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41848,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41849] = {
 		limit = "[]",
@@ -19102,11 +14150,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41849,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41850] = {
 		limit = "[]",
@@ -19117,11 +14161,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41850,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41851] = {
 		limit = "[]",
@@ -19132,11 +14172,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41851,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41852] = {
 		limit = "[]",
@@ -19147,11 +14183,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41852,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41853] = {
 		limit = "[]",
@@ -19162,11 +14194,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41853,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41854] = {
 		limit = "[]",
@@ -19177,11 +14205,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41854,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41855] = {
 		limit = "[]",
@@ -19192,11 +14216,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41855,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41856] = {
 		limit = "[]",
@@ -19207,11 +14227,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41856,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41857] = {
 		limit = "[]",
@@ -19222,11 +14238,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41857,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41858] = {
 		limit = "[]",
@@ -19237,11 +14249,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41858,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41859] = {
 		limit = "[]",
@@ -19252,11 +14260,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41859,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41860] = {
 		limit = "[]",
@@ -19267,11 +14271,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41860,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41861] = {
 		limit = "[]",
@@ -19282,11 +14282,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41861,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41862] = {
 		limit = "[]",
@@ -19297,11 +14293,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41862,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41863] = {
 		limit = "[]",
@@ -19312,11 +14304,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41863,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41864] = {
 		limit = "[]",
@@ -19327,11 +14315,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41864,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41865] = {
 		limit = "[]",
@@ -19342,11 +14326,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41865,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41866] = {
 		limit = "[]",
@@ -19357,11 +14337,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41866,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41867] = {
 		limit = "[]",
@@ -19372,11 +14348,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41867,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41868] = {
 		limit = "[]",
@@ -19387,11 +14359,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41868,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41869] = {
 		limit = "[]",
@@ -19402,11 +14370,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41869,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41870] = {
 		limit = "[]",
@@ -19417,11 +14381,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41870,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41871] = {
 		limit = "[]",
@@ -19432,11 +14392,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41871,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41872] = {
 		limit = "[]",
@@ -19447,11 +14403,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41872,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41873] = {
 		limit = "[]",
@@ -19462,11 +14414,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41873,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41874] = {
 		limit = "[]",
@@ -19477,11 +14425,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41874,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41875] = {
 		limit = "[]",
@@ -19492,11 +14436,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41875,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41876] = {
 		limit = "[]",
@@ -19507,11 +14447,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41876,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41877] = {
 		limit = "[]",
@@ -19522,11 +14458,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41877,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41878] = {
 		limit = "[]",
@@ -19537,11 +14469,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41878,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41879] = {
 		limit = "[]",
@@ -19552,11 +14480,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41879,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41880] = {
 		limit = "[]",
@@ -19567,11 +14491,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41880,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41881] = {
 		limit = "[]",
@@ -19582,11 +14502,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41881,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41882] = {
 		limit = "[]",
@@ -19597,11 +14513,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41882,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41883] = {
 		limit = "[]",
@@ -19612,11 +14524,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41883,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41884] = {
 		limit = "[]",
@@ -19627,11 +14535,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41884,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41885] = {
 		limit = "[]",
@@ -19642,11 +14546,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41885,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41886] = {
 		limit = "[]",
@@ -19657,11 +14557,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41886,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41887] = {
 		limit = "[]",
@@ -19672,11 +14568,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41887,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41888] = {
 		limit = "[]",
@@ -19687,11 +14579,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41888,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41889] = {
 		limit = "[]",
@@ -19702,11 +14590,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41889,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41890] = {
 		limit = "[]",
@@ -19717,11 +14601,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41890,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41891] = {
 		limit = "[]",
@@ -19732,11 +14612,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41891,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41892] = {
 		limit = "[]",
@@ -19747,11 +14623,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41892,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41893] = {
 		limit = "[]",
@@ -19762,11 +14634,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41893,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41894] = {
 		limit = "[]",
@@ -19777,11 +14645,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41894,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41895] = {
 		limit = "[]",
@@ -19792,11 +14656,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41895,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41896] = {
 		limit = "[]",
@@ -19807,11 +14667,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41896,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41897] = {
 		limit = "[]",
@@ -19822,11 +14678,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41897,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41898] = {
 		limit = "[]",
@@ -19837,11 +14689,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41898,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41899] = {
 		limit = "[]",
@@ -19852,11 +14700,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41899,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41900] = {
 		limit = "[]",
@@ -19867,11 +14711,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41900,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41901] = {
 		limit = "[]",
@@ -19882,11 +14722,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41901,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41902] = {
 		limit = "[]",
@@ -19897,11 +14733,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41902,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41903] = {
 		limit = "[]",
@@ -19912,11 +14744,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41903,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41904] = {
 		limit = "[]",
@@ -19927,11 +14755,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41904,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41905] = {
 		limit = "[]",
@@ -19942,11 +14766,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41905,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41906] = {
 		limit = "[]",
@@ -19957,11 +14777,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41906,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41907] = {
 		limit = "[]",
@@ -19972,11 +14788,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41907,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41908] = {
 		limit = "[]",
@@ -19987,11 +14799,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41908,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41909] = {
 		limit = "[]",
@@ -20002,11 +14810,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41909,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41910] = {
 		limit = "[]",
@@ -20017,11 +14821,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41910,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41911] = {
 		limit = "[]",
@@ -20032,11 +14832,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41911,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41912] = {
 		limit = "[]",
@@ -20047,11 +14843,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41912,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41913] = {
 		limit = "[]",
@@ -20062,11 +14854,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41913,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41914] = {
 		limit = "[]",
@@ -20077,11 +14865,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41914,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41915] = {
 		limit = "[]",
@@ -20092,11 +14876,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41915,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41916] = {
 		limit = "[]",
@@ -20107,11 +14887,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41916,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41917] = {
 		limit = "[]",
@@ -20122,11 +14898,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41917,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41918] = {
 		limit = "[]",
@@ -20137,11 +14909,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41918,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41919] = {
 		limit = "[]",
@@ -20152,11 +14920,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41919,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41921] = {
 		limit = "[]",
@@ -20167,11 +14931,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41921,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41922] = {
 		limit = "[]",
@@ -20182,11 +14942,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41922,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41923] = {
 		limit = "[]",
@@ -20197,11 +14953,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41923,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41924] = {
 		limit = "[]",
@@ -20212,11 +14964,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41924,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41925] = {
 		limit = "[]",
@@ -20227,11 +14975,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41925,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41926] = {
 		limit = "[]",
@@ -20242,11 +14986,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41926,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41927] = {
 		limit = "[]",
@@ -20257,11 +14997,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41927,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41928] = {
 		limit = "[]",
@@ -20272,11 +15008,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41928,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41929] = {
 		limit = "[]",
@@ -20287,11 +15019,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41929,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41930] = {
 		limit = "[]",
@@ -20302,11 +15030,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41930,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41931] = {
 		limit = "[]",
@@ -20317,11 +15041,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41931,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41932] = {
 		limit = "[]",
@@ -20332,11 +15052,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41932,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41933] = {
 		limit = "[]",
@@ -20347,11 +15063,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41933,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41934] = {
 		limit = "[]",
@@ -20362,11 +15074,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41934,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41935] = {
 		limit = "[]",
@@ -20377,11 +15085,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41935,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41936] = {
 		limit = "[]",
@@ -20392,11 +15096,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41936,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41937] = {
 		limit = "[]",
@@ -20407,11 +15107,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41937,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41938] = {
 		limit = "[]",
@@ -20422,11 +15118,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41938,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41939] = {
 		limit = "[]",
@@ -20437,11 +15129,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41939,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41940] = {
 		limit = "[]",
@@ -20452,11 +15140,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41940,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41941] = {
 		limit = "[]",
@@ -20467,11 +15151,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41941,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41942] = {
 		limit = "[]",
@@ -20482,11 +15162,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41942,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41943] = {
 		limit = "[]",
@@ -20497,11 +15173,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41943,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41944] = {
 		limit = "[]",
@@ -20512,11 +15184,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41944,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41945] = {
 		limit = "[]",
@@ -20527,11 +15195,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41945,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41946] = {
 		limit = "[]",
@@ -20542,11 +15206,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41946,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41947] = {
 		limit = "[]",
@@ -20557,11 +15217,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41947,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41948] = {
 		limit = "[]",
@@ -20572,11 +15228,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41948,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41949] = {
 		limit = "[]",
@@ -20587,11 +15239,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41949,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41950] = {
 		limit = "[]",
@@ -20602,11 +15250,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41950,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41951] = {
 		limit = "[]",
@@ -20617,11 +15261,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41951,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41952] = {
 		limit = "[]",
@@ -20632,11 +15272,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41952,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41953] = {
 		limit = "[]",
@@ -20647,11 +15283,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41953,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41954] = {
 		limit = "[]",
@@ -20662,11 +15294,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41954,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41955] = {
 		limit = "[]",
@@ -20677,11 +15305,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41955,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41956] = {
 		limit = "[]",
@@ -20692,11 +15316,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41956,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41957] = {
 		limit = "[]",
@@ -20707,11 +15327,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41957,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41958] = {
 		limit = "[]",
@@ -20722,11 +15338,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41958,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41959] = {
 		limit = "[]",
@@ -20737,11 +15349,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41959,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41960] = {
 		limit = "[]",
@@ -20752,11 +15360,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41960,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[41961] = {
 		limit = "[]",
@@ -20767,11 +15371,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 41961,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[42000] = {
 		limit = "[]",
@@ -20813,10 +15413,6 @@ pg.item_data_template = {
 				42006,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42001] = {
@@ -20830,10 +15426,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42002] = {
@@ -20847,10 +15439,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42003] = {
@@ -20864,10 +15452,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42004] = {
@@ -20881,10 +15465,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42005] = {
@@ -20898,10 +15478,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42006] = {
@@ -20915,10 +15491,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42010] = {
@@ -20981,10 +15553,6 @@ pg.item_data_template = {
 				42006,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42011] = {
@@ -20998,10 +15566,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42012] = {
@@ -21015,10 +15579,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42013] = {
@@ -21032,10 +15592,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42014] = {
@@ -21049,10 +15605,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42015] = {
@@ -21066,10 +15618,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42016] = {
@@ -21083,10 +15631,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42017] = {
@@ -21109,10 +15653,6 @@ pg.item_data_template = {
 				42015,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42020] = {
@@ -21195,10 +15735,6 @@ pg.item_data_template = {
 				42006,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42021] = {
@@ -21212,10 +15748,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42022] = {
@@ -21229,10 +15761,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42023] = {
@@ -21246,10 +15774,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42024] = {
@@ -21263,10 +15787,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42025] = {
@@ -21280,10 +15800,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42026] = {
@@ -21311,10 +15827,6 @@ pg.item_data_template = {
 				42015,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42030] = {
@@ -21412,10 +15924,6 @@ pg.item_data_template = {
 				42006,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42031] = {
@@ -21429,10 +15937,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42032] = {
@@ -21446,10 +15950,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42033] = {
@@ -21463,10 +15963,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42034] = {
@@ -21480,10 +15976,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42035] = {
@@ -21497,10 +15989,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			10
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[42036] = {
@@ -21538,10 +16026,6 @@ pg.item_data_template = {
 				42015,
 				1
 			}
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[43001] = {
@@ -21553,11 +16037,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43002] = {
 		limit = "[]",
@@ -21568,11 +16048,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43003] = {
 		limit = "[]",
@@ -21583,11 +16059,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43004] = {
 		limit = "[]",
@@ -21598,11 +16070,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43004,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43005] = {
 		limit = "[]",
@@ -21613,11 +16081,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43005,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43006] = {
 		limit = "[]",
@@ -21628,11 +16092,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43006,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43007] = {
 		limit = "[]",
@@ -21643,11 +16103,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43007,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43008] = {
 		limit = "[]",
@@ -21658,11 +16114,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43008,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43009] = {
 		limit = "[]",
@@ -21673,11 +16125,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43009,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43010] = {
 		limit = "[]",
@@ -21688,11 +16136,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43011] = {
 		limit = "[]",
@@ -21703,11 +16147,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43011,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43012] = {
 		limit = "[]",
@@ -21718,11 +16158,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43012,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43013] = {
 		limit = "[]",
@@ -21733,11 +16169,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43013,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43014] = {
 		limit = "[]",
@@ -21748,11 +16180,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43014,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43015] = {
 		limit = "[]",
@@ -21763,11 +16191,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43015,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43016] = {
 		limit = "[]",
@@ -21778,11 +16202,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43016,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43017] = {
 		limit = "[]",
@@ -21793,11 +16213,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43017,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43018] = {
 		limit = "[]",
@@ -21808,11 +16224,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43018,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43019] = {
 		limit = "[]",
@@ -21823,11 +16235,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43019,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43020] = {
 		limit = "[]",
@@ -21838,11 +16246,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43020,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43021] = {
 		limit = "[]",
@@ -21853,11 +16257,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43021,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43022] = {
 		limit = "[]",
@@ -21868,11 +16268,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43022,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43023] = {
 		limit = "[]",
@@ -21883,11 +16279,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43023,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43024] = {
 		limit = "[]",
@@ -21898,11 +16290,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43024,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43025] = {
 		limit = "[]",
@@ -21913,11 +16301,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43025,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43026] = {
 		limit = "[]",
@@ -21928,11 +16312,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43026,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43027] = {
 		limit = "[]",
@@ -21943,11 +16323,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43027,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43028] = {
 		limit = "[]",
@@ -21958,11 +16334,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43028,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43029] = {
 		limit = "[]",
@@ -21973,11 +16345,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43029,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43030] = {
 		limit = "[]",
@@ -21988,11 +16356,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43030,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43031] = {
 		limit = "[]",
@@ -22003,11 +16367,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43031,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43032] = {
 		limit = "[]",
@@ -22018,11 +16378,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43032,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43033] = {
 		limit = "[]",
@@ -22033,11 +16389,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43033,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43034] = {
 		limit = "[]",
@@ -22048,11 +16400,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43034,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43035] = {
 		limit = "[]",
@@ -22063,11 +16411,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43035,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43036] = {
 		limit = "[]",
@@ -22078,11 +16422,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43036,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43037] = {
 		limit = "[]",
@@ -22093,11 +16433,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43037,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43038] = {
 		limit = "[]",
@@ -22108,11 +16444,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43038,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43039] = {
 		limit = "[]",
@@ -22123,11 +16455,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43039,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43040] = {
 		limit = "[]",
@@ -22138,11 +16466,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43040,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43041] = {
 		limit = "[]",
@@ -22153,11 +16477,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43041,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43042] = {
 		limit = "[]",
@@ -22168,11 +16488,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43042,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43043] = {
 		limit = "[]",
@@ -22183,11 +16499,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43044] = {
 		limit = "[]",
@@ -22198,11 +16510,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43044,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43045] = {
 		limit = "[]",
@@ -22213,11 +16521,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43045,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43046] = {
 		limit = "[]",
@@ -22228,11 +16532,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43046,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43047] = {
 		limit = "[]",
@@ -22243,11 +16543,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43047,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43048] = {
 		limit = "[]",
@@ -22258,11 +16554,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43048,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43049] = {
 		limit = "[]",
@@ -22273,11 +16565,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43049,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43050] = {
 		limit = "[]",
@@ -22288,11 +16576,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43050,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43051] = {
 		limit = "[]",
@@ -22303,11 +16587,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43051,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43052] = {
 		limit = "[]",
@@ -22318,11 +16598,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43052,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43053] = {
 		limit = "[]",
@@ -22333,11 +16609,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43053,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43054] = {
 		limit = "[]",
@@ -22348,11 +16620,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43054,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43055] = {
 		limit = "[]",
@@ -22363,11 +16631,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43055,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43056] = {
 		limit = "[]",
@@ -22378,11 +16642,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43056,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43057] = {
 		limit = "[]",
@@ -22393,11 +16653,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43057,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43058] = {
 		limit = "[]",
@@ -22408,11 +16664,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43058,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43059] = {
 		limit = "[]",
@@ -22423,11 +16675,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43059,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43060] = {
 		limit = "[]",
@@ -22438,11 +16686,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43060,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43061] = {
 		limit = "[]",
@@ -22453,11 +16697,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43061,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43062] = {
 		limit = "[]",
@@ -22468,11 +16708,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43062,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43063] = {
 		limit = "[]",
@@ -22483,11 +16719,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43063,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43064] = {
 		limit = "[]",
@@ -22498,11 +16730,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43064,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43065] = {
 		limit = "[]",
@@ -22513,11 +16741,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43065,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43066] = {
 		limit = "[]",
@@ -22528,11 +16752,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43066,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43067] = {
 		limit = "[]",
@@ -22543,11 +16763,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43067,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43068] = {
 		limit = "[]",
@@ -22558,11 +16774,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43068,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43069] = {
 		limit = "[]",
@@ -22573,11 +16785,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43069,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43070] = {
 		limit = "[]",
@@ -22588,11 +16796,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43070,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43071] = {
 		limit = "[]",
@@ -22603,11 +16807,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43071,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43072] = {
 		limit = "[]",
@@ -22618,11 +16818,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43072,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43073] = {
 		limit = "[]",
@@ -22633,11 +16829,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43073,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43074] = {
 		limit = "[]",
@@ -22648,11 +16840,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43074,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43075] = {
 		limit = "[]",
@@ -22663,11 +16851,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43075,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43076] = {
 		limit = "[]",
@@ -22678,11 +16862,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43076,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43077] = {
 		limit = "[]",
@@ -22693,11 +16873,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43077,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43078] = {
 		limit = "[]",
@@ -22708,11 +16884,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43078,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43079] = {
 		limit = "[]",
@@ -22723,11 +16895,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43079,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43080] = {
 		limit = "[]",
@@ -22738,11 +16906,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43080,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43081] = {
 		limit = "[]",
@@ -22753,11 +16917,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43081,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43082] = {
 		limit = "[]",
@@ -22768,11 +16928,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43082,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43083] = {
 		limit = "[]",
@@ -22783,11 +16939,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43083,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43084] = {
 		limit = "[]",
@@ -22798,11 +16950,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43084,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43085] = {
 		limit = "[]",
@@ -22813,11 +16961,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43085,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43086] = {
 		limit = "[]",
@@ -22828,11 +16972,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43086,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43087] = {
 		limit = "[]",
@@ -22843,11 +16983,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43087,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43088] = {
 		limit = "[]",
@@ -22858,11 +16994,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43088,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43089] = {
 		limit = "[]",
@@ -22873,11 +17005,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43089,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43090] = {
 		limit = "[]",
@@ -22888,11 +17016,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43090,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43091] = {
 		limit = "[]",
@@ -22903,11 +17027,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43091,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43092] = {
 		limit = "[]",
@@ -22918,11 +17038,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43092,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43093] = {
 		limit = "[]",
@@ -22933,11 +17049,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43093,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43094] = {
 		limit = "[]",
@@ -22948,11 +17060,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43094,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43095] = {
 		limit = "[]",
@@ -22963,11 +17071,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43095,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43096] = {
 		limit = "[]",
@@ -22978,11 +17082,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43096,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43097] = {
 		limit = "[]",
@@ -22993,11 +17093,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43097,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43098] = {
 		limit = "[]",
@@ -23008,11 +17104,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43098,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43099] = {
 		limit = "[]",
@@ -23023,11 +17115,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43099,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43100] = {
 		limit = "[]",
@@ -23038,11 +17126,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43100,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43101] = {
 		limit = "[]",
@@ -23053,11 +17137,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43101,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43102] = {
 		limit = "[]",
@@ -23068,11 +17148,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43102,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43103] = {
 		limit = "[]",
@@ -23083,11 +17159,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43103,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43104] = {
 		limit = "[]",
@@ -23098,11 +17170,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43104,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43105] = {
 		limit = "[]",
@@ -23113,11 +17181,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43105,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43106] = {
 		limit = "[]",
@@ -23128,11 +17192,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43106,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43107] = {
 		limit = "[]",
@@ -23143,11 +17203,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43107,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43108] = {
 		limit = "[]",
@@ -23158,11 +17214,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43108,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43109] = {
 		limit = "[]",
@@ -23173,11 +17225,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43109,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43110] = {
 		limit = "[]",
@@ -23188,11 +17236,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43110,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43111] = {
 		limit = "[]",
@@ -23203,11 +17247,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43112] = {
 		limit = "[]",
@@ -23218,11 +17258,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43112,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43113] = {
 		limit = "[]",
@@ -23233,11 +17269,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43113,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43114] = {
 		limit = "[]",
@@ -23248,11 +17280,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43114,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43115] = {
 		limit = "[]",
@@ -23263,11 +17291,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43115,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43116] = {
 		limit = "[]",
@@ -23278,11 +17302,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43116,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43117] = {
 		limit = "[]",
@@ -23293,11 +17313,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43117,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43118] = {
 		limit = "[]",
@@ -23308,11 +17324,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43118,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43119] = {
 		limit = "[]",
@@ -23323,11 +17335,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43119,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43120] = {
 		limit = "[]",
@@ -23338,11 +17346,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43120,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43121] = {
 		limit = "[]",
@@ -23353,11 +17357,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43121,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43122] = {
 		limit = "[]",
@@ -23368,11 +17368,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43122,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43123] = {
 		limit = "[]",
@@ -23383,11 +17379,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43123,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43124] = {
 		limit = "[]",
@@ -23398,11 +17390,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43124,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43125] = {
 		limit = "[]",
@@ -23413,11 +17401,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43125,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43126] = {
 		limit = "[]",
@@ -23428,11 +17412,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43126,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43127] = {
 		limit = "[]",
@@ -23443,11 +17423,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43127,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43128] = {
 		limit = "[]",
@@ -23458,11 +17434,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43128,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43129] = {
 		limit = "[]",
@@ -23473,11 +17445,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43129,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43130] = {
 		limit = "[]",
@@ -23488,11 +17456,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43130,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43131] = {
 		limit = "[]",
@@ -23503,11 +17467,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43131,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43132] = {
 		limit = "[]",
@@ -23518,11 +17478,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43132,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43133] = {
 		limit = "[]",
@@ -23533,11 +17489,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43133,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43134] = {
 		limit = "[]",
@@ -23548,11 +17500,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43134,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43135] = {
 		limit = "[]",
@@ -23563,11 +17511,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43135,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43136] = {
 		limit = "[]",
@@ -23578,11 +17522,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43136,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43137] = {
 		limit = "[]",
@@ -23593,11 +17533,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43137,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43138] = {
 		limit = "[]",
@@ -23608,11 +17544,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43138,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43139] = {
 		limit = "[]",
@@ -23623,11 +17555,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43139,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43140] = {
 		limit = "[]",
@@ -23638,11 +17566,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43140,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43141] = {
 		limit = "[]",
@@ -23653,11 +17577,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43141,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43142] = {
 		limit = "[]",
@@ -23668,11 +17588,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43142,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43143] = {
 		limit = "[]",
@@ -23683,11 +17599,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43143,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43144] = {
 		limit = "[]",
@@ -23698,11 +17610,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43144,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43145] = {
 		limit = "[]",
@@ -23713,11 +17621,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43145,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43146] = {
 		limit = "[]",
@@ -23728,11 +17632,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43146,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43147] = {
 		limit = "[]",
@@ -23743,11 +17643,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43147,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43148] = {
 		limit = "[]",
@@ -23758,11 +17654,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43148,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43149] = {
 		limit = "[]",
@@ -23773,11 +17665,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43149,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43150] = {
 		limit = "[]",
@@ -23788,11 +17676,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43150,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43151] = {
 		limit = "[]",
@@ -23803,11 +17687,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43151,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43152] = {
 		limit = "[]",
@@ -23818,11 +17698,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43152,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43153] = {
 		limit = "[]",
@@ -23833,11 +17709,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43153,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43154] = {
 		limit = "[]",
@@ -23848,11 +17720,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43154,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43155] = {
 		limit = "[]",
@@ -23863,11 +17731,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43155,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43156] = {
 		limit = "[]",
@@ -23878,11 +17742,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43156,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43157] = {
 		limit = "[]",
@@ -23893,11 +17753,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43157,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43158] = {
 		limit = "[]",
@@ -23908,11 +17764,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43158,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43159] = {
 		limit = "[]",
@@ -23923,11 +17775,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43159,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43160] = {
 		limit = "[]",
@@ -23938,11 +17786,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43160,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43161] = {
 		limit = "[]",
@@ -23953,11 +17797,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43161,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43162] = {
 		limit = "[]",
@@ -23968,11 +17808,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43162,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43163] = {
 		limit = "[]",
@@ -23983,11 +17819,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43163,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43164] = {
 		limit = "[]",
@@ -23998,11 +17830,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43164,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43165] = {
 		limit = "[]",
@@ -24013,11 +17841,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43165,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43166] = {
 		limit = "[]",
@@ -24028,11 +17852,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43166,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43167] = {
 		limit = "[]",
@@ -24043,11 +17863,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43167,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43168] = {
 		limit = "[]",
@@ -24058,11 +17874,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43168,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43169] = {
 		limit = "[]",
@@ -24073,11 +17885,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43169,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43170] = {
 		limit = "[]",
@@ -24088,11 +17896,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43170,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43171] = {
 		limit = "[]",
@@ -24103,11 +17907,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43171,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43172] = {
 		limit = "[]",
@@ -24118,11 +17918,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43172,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43173] = {
 		limit = "[]",
@@ -24133,11 +17929,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43173,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43174] = {
 		limit = "[]",
@@ -24148,11 +17940,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43174,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43175] = {
 		limit = "[]",
@@ -24163,11 +17951,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43175,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43176] = {
 		limit = "[]",
@@ -24178,11 +17962,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43176,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43177] = {
 		limit = "[]",
@@ -24193,11 +17973,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43177,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43178] = {
 		limit = "[]",
@@ -24208,11 +17984,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43178,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43179] = {
 		limit = "[]",
@@ -24223,11 +17995,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43179,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43180] = {
 		limit = "[]",
@@ -24238,11 +18006,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43180,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43181] = {
 		limit = "[]",
@@ -24253,11 +18017,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43181,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43182] = {
 		limit = "[]",
@@ -24268,11 +18028,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43182,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43183] = {
 		limit = "[]",
@@ -24283,11 +18039,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43183,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43184] = {
 		limit = "[]",
@@ -24298,11 +18050,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43184,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43185] = {
 		limit = "[]",
@@ -24313,11 +18061,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43185,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43186] = {
 		limit = "[]",
@@ -24328,11 +18072,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43186,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43187] = {
 		limit = "[]",
@@ -24343,11 +18083,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43187,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43188] = {
 		limit = "[]",
@@ -24358,11 +18094,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43188,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43189] = {
 		limit = "[]",
@@ -24373,11 +18105,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43189,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43190] = {
 		limit = "[]",
@@ -24388,11 +18116,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43190,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43191] = {
 		limit = "[]",
@@ -24403,11 +18127,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43191,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43192] = {
 		limit = "[]",
@@ -24418,11 +18138,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43192,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43193] = {
 		limit = "[]",
@@ -24433,11 +18149,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43193,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43194] = {
 		limit = "[]",
@@ -24448,11 +18160,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43194,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43195] = {
 		limit = "[]",
@@ -24463,11 +18171,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43195,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43196] = {
 		limit = "[]",
@@ -24478,11 +18182,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43196,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43197] = {
 		limit = "[]",
@@ -24493,11 +18193,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43197,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43198] = {
 		limit = "[]",
@@ -24508,11 +18204,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43198,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43199] = {
 		limit = "[]",
@@ -24523,11 +18215,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43199,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43200] = {
 		limit = "[]",
@@ -24538,11 +18226,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43200,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43201] = {
 		limit = "[]",
@@ -24553,11 +18237,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43201,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43202] = {
 		limit = "[]",
@@ -24568,11 +18248,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43202,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43203] = {
 		limit = "[]",
@@ -24583,11 +18259,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43203,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43204] = {
 		limit = "[]",
@@ -24598,11 +18270,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43204,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43205] = {
 		limit = "[]",
@@ -24613,11 +18281,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43205,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43206] = {
 		limit = "[]",
@@ -24628,11 +18292,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43206,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43207] = {
 		limit = "[]",
@@ -24643,11 +18303,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43207,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43208] = {
 		limit = "[]",
@@ -24658,11 +18314,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43208,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43209] = {
 		limit = "[]",
@@ -24673,11 +18325,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43209,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43210] = {
 		limit = "[]",
@@ -24688,11 +18336,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43210,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43211] = {
 		limit = "[]",
@@ -24703,11 +18347,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43211,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43212] = {
 		limit = "[]",
@@ -24718,11 +18358,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43212,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43213] = {
 		limit = "[]",
@@ -24733,11 +18369,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43213,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43214] = {
 		limit = "[]",
@@ -24748,11 +18380,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43214,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43215] = {
 		limit = "[]",
@@ -24763,11 +18391,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43215,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43216] = {
 		limit = "[]",
@@ -24778,11 +18402,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43216,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43217] = {
 		limit = "[]",
@@ -24793,11 +18413,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43217,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43218] = {
 		limit = "[]",
@@ -24808,11 +18424,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43218,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43219] = {
 		limit = "[]",
@@ -24823,11 +18435,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43219,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43220] = {
 		limit = "[]",
@@ -24838,11 +18446,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43220,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43221] = {
 		limit = "[]",
@@ -24853,11 +18457,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43221,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43222] = {
 		limit = "[]",
@@ -24868,11 +18468,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43222,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43223] = {
 		limit = "[]",
@@ -24883,11 +18479,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43223,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43224] = {
 		limit = "[]",
@@ -24898,11 +18490,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43224,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43225] = {
 		limit = "[]",
@@ -24913,11 +18501,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43225,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43226] = {
 		limit = "[]",
@@ -24928,11 +18512,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43226,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43227] = {
 		limit = "[]",
@@ -24943,11 +18523,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43227,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43228] = {
 		limit = "[]",
@@ -24958,11 +18534,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43228,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43229] = {
 		limit = "[]",
@@ -24973,11 +18545,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43229,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43230] = {
 		limit = "[]",
@@ -24988,11 +18556,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43230,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43231] = {
 		limit = "[]",
@@ -25003,11 +18567,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43231,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43232] = {
 		limit = "[]",
@@ -25018,11 +18578,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43232,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43233] = {
 		limit = "[]",
@@ -25033,11 +18589,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43233,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43234] = {
 		limit = "[]",
@@ -25048,11 +18600,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43234,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43235] = {
 		limit = "[]",
@@ -25063,11 +18611,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43235,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43236] = {
 		limit = "[]",
@@ -25078,11 +18622,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43236,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43237] = {
 		limit = "[]",
@@ -25093,11 +18633,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43237,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43238] = {
 		limit = "[]",
@@ -25108,11 +18644,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43238,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43239] = {
 		limit = "[]",
@@ -25123,11 +18655,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43239,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43240] = {
 		limit = "[]",
@@ -25138,11 +18666,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43240,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43241] = {
 		limit = "[]",
@@ -25153,11 +18677,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43241,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43242] = {
 		limit = "[]",
@@ -25168,11 +18688,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43242,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43243] = {
 		limit = "[]",
@@ -25183,11 +18699,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43243,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43244] = {
 		limit = "[]",
@@ -25198,11 +18710,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43244,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43245] = {
 		limit = "[]",
@@ -25213,11 +18721,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43245,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43246] = {
 		limit = "[]",
@@ -25228,11 +18732,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43246,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43247] = {
 		limit = "[]",
@@ -25243,11 +18743,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43247,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43248] = {
 		limit = "[]",
@@ -25258,11 +18754,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43248,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43249] = {
 		limit = "[]",
@@ -25273,11 +18765,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43249,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43250] = {
 		limit = "[]",
@@ -25288,11 +18776,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43250,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43251] = {
 		limit = "[]",
@@ -25303,11 +18787,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43251,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43252] = {
 		limit = "[]",
@@ -25318,11 +18798,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43252,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43253] = {
 		limit = "[]",
@@ -25333,11 +18809,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43253,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43254] = {
 		limit = "[]",
@@ -25348,11 +18820,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43254,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43255] = {
 		limit = "[]",
@@ -25363,11 +18831,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43255,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43256] = {
 		limit = "[]",
@@ -25378,11 +18842,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43256,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43257] = {
 		limit = "[]",
@@ -25393,11 +18853,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43257,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43258] = {
 		limit = "[]",
@@ -25408,11 +18864,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43258,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43259] = {
 		limit = "[]",
@@ -25423,11 +18875,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43259,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43260] = {
 		limit = "[]",
@@ -25438,11 +18886,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43260,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43261] = {
 		limit = "[]",
@@ -25453,11 +18897,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43261,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43262] = {
 		limit = "[]",
@@ -25468,11 +18908,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43262,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43263] = {
 		limit = "[]",
@@ -25483,11 +18919,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43263,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43264] = {
 		limit = "[]",
@@ -25498,11 +18930,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43264,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43265] = {
 		limit = "[]",
@@ -25513,11 +18941,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43265,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43266] = {
 		limit = "[]",
@@ -25528,11 +18952,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43266,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43267] = {
 		limit = "[]",
@@ -25543,11 +18963,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43267,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43268] = {
 		limit = "[]",
@@ -25558,11 +18974,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43268,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43269] = {
 		limit = "[]",
@@ -25573,11 +18985,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43269,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43270] = {
 		limit = "[]",
@@ -25588,11 +18996,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43270,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43271] = {
 		limit = "[]",
@@ -25603,11 +19007,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43271,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43272] = {
 		limit = "[]",
@@ -25618,11 +19018,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43272,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43273] = {
 		limit = "[]",
@@ -25633,11 +19029,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43273,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43274] = {
 		limit = "[]",
@@ -25648,11 +19040,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43274,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43275] = {
 		limit = "[]",
@@ -25663,11 +19051,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43275,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43276] = {
 		limit = "[]",
@@ -25678,11 +19062,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43276,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43277] = {
 		limit = "[]",
@@ -25693,11 +19073,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43277,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43278] = {
 		limit = "[]",
@@ -25708,11 +19084,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43278,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43279] = {
 		limit = "[]",
@@ -25723,11 +19095,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43279,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43280] = {
 		limit = "[]",
@@ -25738,11 +19106,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43280,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43281] = {
 		limit = "[]",
@@ -25753,11 +19117,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43281,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43282] = {
 		limit = "[]",
@@ -25768,11 +19128,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43282,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43283] = {
 		limit = "[]",
@@ -25783,11 +19139,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43283,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43284] = {
 		limit = "[]",
@@ -25798,11 +19150,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43284,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43285] = {
 		limit = "[]",
@@ -25813,11 +19161,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43285,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43286] = {
 		limit = "[]",
@@ -25828,11 +19172,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43286,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43287] = {
 		limit = "[]",
@@ -25843,11 +19183,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43287,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43288] = {
 		limit = "[]",
@@ -25858,11 +19194,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43288,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43289] = {
 		limit = "[]",
@@ -25873,11 +19205,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43289,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43290] = {
 		limit = "[]",
@@ -25888,11 +19216,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43290,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43291] = {
 		limit = "[]",
@@ -25903,11 +19227,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43291,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43292] = {
 		limit = "[]",
@@ -25918,11 +19238,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43292,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43293] = {
 		limit = "[]",
@@ -25933,11 +19249,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43293,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43294] = {
 		limit = "[]",
@@ -25948,11 +19260,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43294,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43295] = {
 		limit = "[]",
@@ -25963,11 +19271,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43295,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43296] = {
 		limit = "[]",
@@ -25978,11 +19282,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43296,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43297] = {
 		limit = "[]",
@@ -25993,11 +19293,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43297,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43298] = {
 		limit = "[]",
@@ -26008,11 +19304,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43298,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43299] = {
 		limit = "[]",
@@ -26023,11 +19315,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43299,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43300] = {
 		limit = "[]",
@@ -26038,11 +19326,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43300,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43301] = {
 		limit = "[]",
@@ -26053,11 +19337,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43301,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43302] = {
 		limit = "[]",
@@ -26068,11 +19348,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43302,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43303] = {
 		limit = "[]",
@@ -26083,11 +19359,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43303,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43304] = {
 		limit = "[]",
@@ -26098,11 +19370,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43304,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43305] = {
 		limit = "[]",
@@ -26113,11 +19381,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43305,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43306] = {
 		limit = "[]",
@@ -26128,11 +19392,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43306,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43307] = {
 		limit = "[]",
@@ -26143,11 +19403,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43307,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43308] = {
 		limit = "[]",
@@ -26158,11 +19414,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43308,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43309] = {
 		limit = "[]",
@@ -26173,11 +19425,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43309,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43310] = {
 		limit = "[]",
@@ -26188,11 +19436,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43310,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43311] = {
 		limit = "[]",
@@ -26203,11 +19447,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43311,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43312] = {
 		limit = "[]",
@@ -26218,11 +19458,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43312,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43313] = {
 		limit = "[]",
@@ -26233,11 +19469,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43313,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43314] = {
 		limit = "[]",
@@ -26248,11 +19480,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43314,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43315] = {
 		limit = "[]",
@@ -26263,11 +19491,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43315,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43316] = {
 		limit = "[]",
@@ -26278,11 +19502,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43316,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43317] = {
 		limit = "[]",
@@ -26293,11 +19513,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43317,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43318] = {
 		limit = "[]",
@@ -26308,11 +19524,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43318,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43319] = {
 		limit = "[]",
@@ -26323,11 +19535,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43319,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43320] = {
 		limit = "[]",
@@ -26338,11 +19546,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43320,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43321] = {
 		limit = "[]",
@@ -26353,11 +19557,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43321,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43322] = {
 		limit = "[]",
@@ -26368,11 +19568,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43322,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43323] = {
 		limit = "[]",
@@ -26383,11 +19579,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43323,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43324] = {
 		limit = "[]",
@@ -26398,11 +19590,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43324,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43325] = {
 		limit = "[]",
@@ -26413,11 +19601,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43325,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43326] = {
 		limit = "[]",
@@ -26428,11 +19612,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43326,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43327] = {
 		limit = "[]",
@@ -26443,11 +19623,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43327,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43328] = {
 		limit = "[]",
@@ -26458,11 +19634,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43328,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43329] = {
 		limit = "[]",
@@ -26473,11 +19645,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43329,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43330] = {
 		limit = "[]",
@@ -26488,11 +19656,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43330,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43331] = {
 		limit = "[]",
@@ -26503,11 +19667,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43331,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43332] = {
 		limit = "[]",
@@ -26518,11 +19678,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43332,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43333] = {
 		limit = "[]",
@@ -26533,11 +19689,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43333,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43334] = {
 		limit = "[]",
@@ -26548,11 +19700,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43334,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43335] = {
 		limit = "[]",
@@ -26563,11 +19711,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43335,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43336] = {
 		limit = "[]",
@@ -26578,11 +19722,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43336,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43337] = {
 		limit = "[]",
@@ -26593,11 +19733,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43337,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43338] = {
 		limit = "[]",
@@ -26608,11 +19744,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43338,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43339] = {
 		limit = "[]",
@@ -26623,11 +19755,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43339,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43340] = {
 		limit = "[]",
@@ -26638,11 +19766,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43340,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43341] = {
 		limit = "[]",
@@ -26653,11 +19777,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43341,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43342] = {
 		limit = "[]",
@@ -26668,11 +19788,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43342,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43343] = {
 		limit = "[]",
@@ -26683,11 +19799,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43343,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43344] = {
 		limit = "[]",
@@ -26698,11 +19810,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43344,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43345] = {
 		limit = "[]",
@@ -26713,11 +19821,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43345,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43346] = {
 		limit = "[]",
@@ -26728,11 +19832,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43346,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43347] = {
 		limit = "[]",
@@ -26743,11 +19843,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43347,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43348] = {
 		limit = "[]",
@@ -26758,11 +19854,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43348,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43349] = {
 		limit = "[]",
@@ -26773,11 +19865,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43349,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43350] = {
 		limit = "[]",
@@ -26788,11 +19876,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43350,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43351] = {
 		limit = "[]",
@@ -26803,11 +19887,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43351,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43352] = {
 		limit = "[]",
@@ -26818,11 +19898,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43352,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43353] = {
 		limit = "[]",
@@ -26833,11 +19909,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43353,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43354] = {
 		limit = "[]",
@@ -26848,11 +19920,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43354,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43355] = {
 		limit = "[]",
@@ -26863,11 +19931,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43355,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43356] = {
 		limit = "[]",
@@ -26878,11 +19942,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43356,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43357] = {
 		limit = "[]",
@@ -26893,11 +19953,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43357,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43358] = {
 		limit = "[]",
@@ -26908,11 +19964,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43358,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43359] = {
 		limit = "[]",
@@ -26923,11 +19975,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43359,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43360] = {
 		limit = "[]",
@@ -26938,11 +19986,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43360,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43361] = {
 		limit = "[]",
@@ -26953,11 +19997,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43361,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43362] = {
 		limit = "[]",
@@ -26968,11 +20008,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43362,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43363] = {
 		limit = "[]",
@@ -26983,11 +20019,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43363,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43364] = {
 		limit = "[]",
@@ -26998,11 +20030,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43364,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43365] = {
 		limit = "[]",
@@ -27013,11 +20041,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43365,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43366] = {
 		limit = "[]",
@@ -27028,11 +20052,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43366,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43367] = {
 		limit = "[]",
@@ -27043,11 +20063,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43367,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43368] = {
 		limit = "[]",
@@ -27058,11 +20074,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43368,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43369] = {
 		limit = "[]",
@@ -27073,11 +20085,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43369,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43370] = {
 		limit = "[]",
@@ -27088,11 +20096,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43370,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43371] = {
 		limit = "[]",
@@ -27103,11 +20107,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43371,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43372] = {
 		limit = "[]",
@@ -27118,11 +20118,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43372,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43373] = {
 		limit = "[]",
@@ -27133,11 +20129,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43373,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43374] = {
 		limit = "[]",
@@ -27148,11 +20140,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43374,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43375] = {
 		limit = "[]",
@@ -27163,11 +20151,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43375,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43376] = {
 		limit = "[]",
@@ -27178,11 +20162,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43376,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43377] = {
 		limit = "[]",
@@ -27193,11 +20173,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43377,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43378] = {
 		limit = "[]",
@@ -27208,11 +20184,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43378,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43379] = {
 		limit = "[]",
@@ -27223,11 +20195,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43379,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43380] = {
 		limit = "[]",
@@ -27238,11 +20206,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43380,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43381] = {
 		limit = "[]",
@@ -27253,11 +20217,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43381,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43382] = {
 		limit = "[]",
@@ -27268,11 +20228,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43382,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43383] = {
 		limit = "[]",
@@ -27283,11 +20239,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43383,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43384] = {
 		limit = "[]",
@@ -27298,11 +20250,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43384,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43385] = {
 		limit = "[]",
@@ -27313,11 +20261,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43385,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43386] = {
 		limit = "[]",
@@ -27328,11 +20272,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43386,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43387] = {
 		limit = "[]",
@@ -27343,11 +20283,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43387,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43388] = {
 		limit = "[]",
@@ -27358,11 +20294,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43388,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43389] = {
 		limit = "[]",
@@ -27373,11 +20305,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43389,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43390] = {
 		limit = "[]",
@@ -27388,11 +20316,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43390,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43391] = {
 		limit = "[]",
@@ -27403,11 +20327,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43391,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43392] = {
 		limit = "[]",
@@ -27418,11 +20338,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43392,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43393] = {
 		limit = "[]",
@@ -27433,11 +20349,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43393,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43394] = {
 		limit = "[]",
@@ -27448,11 +20360,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43394,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43395] = {
 		limit = "[]",
@@ -27463,11 +20371,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43395,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43396] = {
 		limit = "[]",
@@ -27478,11 +20382,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43396,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43397] = {
 		limit = "[]",
@@ -27493,11 +20393,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43397,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43398] = {
 		limit = "[]",
@@ -27508,11 +20404,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43398,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43399] = {
 		limit = "[]",
@@ -27523,11 +20415,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43399,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43400] = {
 		limit = "[]",
@@ -27538,11 +20426,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43400,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43401] = {
 		limit = "[]",
@@ -27553,11 +20437,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43401,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43402] = {
 		limit = "[]",
@@ -27568,11 +20448,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43402,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43403] = {
 		limit = "[]",
@@ -27583,11 +20459,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43403,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43404] = {
 		limit = "[]",
@@ -27598,11 +20470,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43404,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43405] = {
 		limit = "[]",
@@ -27613,11 +20481,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43405,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43406] = {
 		limit = "[]",
@@ -27628,11 +20492,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43406,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43407] = {
 		limit = "[]",
@@ -27643,11 +20503,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43407,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43408] = {
 		limit = "[]",
@@ -27658,11 +20514,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43408,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43409] = {
 		limit = "[]",
@@ -27673,11 +20525,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43409,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43410] = {
 		limit = "[]",
@@ -27688,11 +20536,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43410,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43411] = {
 		limit = "[]",
@@ -27703,11 +20547,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43411,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43412] = {
 		limit = "[]",
@@ -27718,11 +20558,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43412,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43413] = {
 		limit = "[]",
@@ -27733,11 +20569,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43413,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43414] = {
 		limit = "[]",
@@ -27748,11 +20580,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43414,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43415] = {
 		limit = "[]",
@@ -27763,11 +20591,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43415,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43416] = {
 		limit = "[]",
@@ -27778,11 +20602,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43416,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43417] = {
 		limit = "[]",
@@ -27793,11 +20613,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43417,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43418] = {
 		limit = "[]",
@@ -27808,11 +20624,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43418,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43419] = {
 		limit = "[]",
@@ -27823,11 +20635,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43419,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43420] = {
 		limit = "[]",
@@ -27838,11 +20646,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43420,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43421] = {
 		limit = "[]",
@@ -27853,11 +20657,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43421,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43422] = {
 		limit = "[]",
@@ -27868,11 +20668,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43422,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43423] = {
 		limit = "[]",
@@ -27883,11 +20679,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43423,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43424] = {
 		limit = "[]",
@@ -27898,11 +20690,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43424,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43425] = {
 		limit = "[]",
@@ -27913,11 +20701,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43425,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43426] = {
 		limit = "[]",
@@ -27928,11 +20712,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43426,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43427] = {
 		limit = "[]",
@@ -27943,11 +20723,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43427,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43428] = {
 		limit = "[]",
@@ -27958,11 +20734,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43428,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43429] = {
 		limit = "[]",
@@ -27973,11 +20745,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43429,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43430] = {
 		limit = "[]",
@@ -27988,11 +20756,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43430,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[43431] = {
 		limit = "[]",
@@ -28003,11 +20767,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 43431,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[50001] = {
 		limit = "[]",
@@ -28020,10 +20780,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			1000
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[50002] = {
@@ -28037,10 +20793,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			2000
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[50003] = {
@@ -28054,10 +20806,6 @@ pg.item_data_template = {
 		target_id = 0,
 		usage_arg = {
 			3000
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[50004] = {
@@ -28073,10 +20821,6 @@ pg.item_data_template = {
 			5000,
 			1,
 			3600
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[50005] = {
@@ -28092,10 +20836,6 @@ pg.item_data_template = {
 			10000,
 			2,
 			10800
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[50006] = {
@@ -28111,10 +20851,6 @@ pg.item_data_template = {
 			20000,
 			3,
 			21600
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[59010] = {
@@ -28126,11 +20862,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59010,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59710] = {
 		limit = "[]",
@@ -28141,11 +20873,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59710,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59711] = {
 		limit = "[]",
@@ -28156,71 +20884,31 @@ pg.item_data_template = {
 		usage_arg = "90913",
 		id = 59711,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59720] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 59720,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				59739,
-				1
-			},
-			{
-				2,
-				59740,
-				1
-			},
-			{
-				2,
-				59741,
-				1
-			},
-			{
-				2,
-				59742,
-				1
-			},
-			{
-				2,
-				59743,
-				1
-			},
-			{
-				2,
-				59744,
-				1
-			},
-			{
-				2,
-				59745,
-				1
-			},
-			{
-				2,
-				59746,
-				1
-			},
-			{
-				2,
-				59747,
-				1
-			}
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109
 		},
 		open_ui = {
-			1,
-			1
+			"login_year",
+			"t_first"
 		}
 	},
 	[59721] = {
@@ -28232,11 +20920,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59721,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59722] = {
 		limit = "[]",
@@ -28247,11 +20931,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59722,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59723] = {
 		limit = "[]",
@@ -28262,11 +20942,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59723,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59724] = {
 		limit = "[]",
@@ -28277,11 +20953,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59724,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59725] = {
 		limit = "[]",
@@ -28292,11 +20964,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59725,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59726] = {
 		limit = "[]",
@@ -28307,11 +20975,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59726,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59727] = {
 		limit = "[]",
@@ -28322,11 +20986,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59727,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59728] = {
 		limit = "[]",
@@ -28337,11 +20997,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59728,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59729] = {
 		limit = "[]",
@@ -28352,11 +21008,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59729,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59730] = {
 		limit = "[]",
@@ -28367,11 +21019,7 @@ pg.item_data_template = {
 		usage_arg = "8872",
 		id = 59730,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59731] = {
 		limit = "[]",
@@ -28382,11 +21030,7 @@ pg.item_data_template = {
 		usage_arg = "8873",
 		id = 59731,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59732] = {
 		limit = "[]",
@@ -28397,11 +21041,7 @@ pg.item_data_template = {
 		usage_arg = "8874",
 		id = 59732,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59733] = {
 		limit = "[]",
@@ -28412,11 +21052,7 @@ pg.item_data_template = {
 		usage_arg = "8875",
 		id = 59733,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59734] = {
 		limit = "[]",
@@ -28427,11 +21063,7 @@ pg.item_data_template = {
 		usage_arg = "8876",
 		id = 59734,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59735] = {
 		limit = "[]",
@@ -28442,11 +21074,7 @@ pg.item_data_template = {
 		usage_arg = "8877",
 		id = 59735,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59736] = {
 		limit = "[]",
@@ -28457,11 +21085,7 @@ pg.item_data_template = {
 		usage_arg = "8878",
 		id = 59736,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59737] = {
 		limit = "[]",
@@ -28472,11 +21096,7 @@ pg.item_data_template = {
 		usage_arg = "8879",
 		id = 59737,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59738] = {
 		limit = "[]",
@@ -28487,11 +21107,7 @@ pg.item_data_template = {
 		usage_arg = "8880",
 		id = 59738,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59739] = {
 		limit = "[]",
@@ -28502,11 +21118,7 @@ pg.item_data_template = {
 		usage_arg = "8872",
 		id = 59739,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59740] = {
 		limit = "[]",
@@ -28517,11 +21129,7 @@ pg.item_data_template = {
 		usage_arg = "8873",
 		id = 59740,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59741] = {
 		limit = "[]",
@@ -28532,11 +21140,7 @@ pg.item_data_template = {
 		usage_arg = "8874",
 		id = 59741,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59742] = {
 		limit = "[]",
@@ -28547,11 +21151,7 @@ pg.item_data_template = {
 		usage_arg = "8875",
 		id = 59742,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59743] = {
 		limit = "[]",
@@ -28562,11 +21162,7 @@ pg.item_data_template = {
 		usage_arg = "8876",
 		id = 59743,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59744] = {
 		limit = "[]",
@@ -28577,11 +21173,7 @@ pg.item_data_template = {
 		usage_arg = "8877",
 		id = 59744,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59745] = {
 		limit = "[]",
@@ -28592,11 +21184,7 @@ pg.item_data_template = {
 		usage_arg = "8878",
 		id = 59745,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59746] = {
 		limit = "[]",
@@ -28607,11 +21195,7 @@ pg.item_data_template = {
 		usage_arg = "8879",
 		id = 59746,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59747] = {
 		limit = "[]",
@@ -28622,11 +21206,7 @@ pg.item_data_template = {
 		usage_arg = "8880",
 		id = 59747,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59749] = {
 		limit = "[]",
@@ -28637,51 +21217,27 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59749,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59750] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 59750,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				59756,
-				1
-			},
-			{
-				2,
-				59757,
-				1
-			},
-			{
-				2,
-				59758,
-				1
-			},
-			{
-				2,
-				59759,
-				1
-			},
-			{
-				2,
-				59760,
-				1
-			}
+			201,
+			202,
+			203,
+			204,
+			205
 		},
 		open_ui = {
-			2,
-			1
+			"login_santa",
+			"t_santa"
 		}
 	},
 	[59751] = {
@@ -28693,11 +21249,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59751,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59752] = {
 		limit = "[]",
@@ -28708,11 +21260,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59752,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59753] = {
 		limit = "[]",
@@ -28723,11 +21271,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59753,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59754] = {
 		limit = "[]",
@@ -28738,11 +21282,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59754,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59755] = {
 		limit = "[]",
@@ -28753,11 +21293,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59755,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59756] = {
 		limit = "[]",
@@ -28768,11 +21304,7 @@ pg.item_data_template = {
 		usage_arg = "90370",
 		id = 59756,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59757] = {
 		limit = "[]",
@@ -28783,11 +21315,7 @@ pg.item_data_template = {
 		usage_arg = "90371",
 		id = 59757,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59758] = {
 		limit = "[]",
@@ -28798,11 +21326,7 @@ pg.item_data_template = {
 		usage_arg = "90372",
 		id = 59758,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59759] = {
 		limit = "[]",
@@ -28813,11 +21337,7 @@ pg.item_data_template = {
 		usage_arg = "90373",
 		id = 59759,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59760] = {
 		limit = "[]",
@@ -28828,11 +21348,7 @@ pg.item_data_template = {
 		usage_arg = "90374",
 		id = 59760,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59762] = {
 		limit = "[]",
@@ -28843,11 +21359,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59762,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59773] = {
 		limit = "[]",
@@ -28858,11 +21370,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59773,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59774] = {
 		limit = "[]",
@@ -28873,11 +21381,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59774,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59789] = {
 		limit = "[]",
@@ -28888,11 +21392,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59789,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59790] = {
 		limit = "[]",
@@ -28903,11 +21403,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59790,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59798] = {
 		limit = "[]",
@@ -28918,11 +21414,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59798,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59799] = {
 		limit = "[]",
@@ -28933,11 +21425,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59799,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59823] = {
 		limit = "[]",
@@ -28948,11 +21436,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59823,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59840] = {
 		limit = "[]",
@@ -28963,11 +21447,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59840,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59900] = {
 		limit = "[]",
@@ -28978,11 +21458,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59900,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59901] = {
 		limit = "[]",
@@ -28993,11 +21469,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59901,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59902] = {
 		limit = "[]",
@@ -29008,71 +21480,31 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59902,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59906] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 59906,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				59907,
-				1
-			},
-			{
-				2,
-				59908,
-				1
-			},
-			{
-				2,
-				59909,
-				1
-			},
-			{
-				2,
-				59910,
-				1
-			},
-			{
-				2,
-				59911,
-				1
-			},
-			{
-				2,
-				59912,
-				1
-			},
-			{
-				2,
-				59913,
-				1
-			},
-			{
-				2,
-				59914,
-				1
-			},
-			{
-				2,
-				59915,
-				1
-			}
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309
 		},
 		open_ui = {
-			1,
-			1
+			"login_year",
+			"t_second"
 		}
 	},
 	[59907] = {
@@ -29084,11 +21516,7 @@ pg.item_data_template = {
 		usage_arg = "91680",
 		id = 59907,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59908] = {
 		limit = "[]",
@@ -29099,11 +21527,7 @@ pg.item_data_template = {
 		usage_arg = "91681",
 		id = 59908,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59909] = {
 		limit = "[]",
@@ -29114,11 +21538,7 @@ pg.item_data_template = {
 		usage_arg = "91682",
 		id = 59909,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59910] = {
 		limit = "[]",
@@ -29129,11 +21549,7 @@ pg.item_data_template = {
 		usage_arg = "91683",
 		id = 59910,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59911] = {
 		limit = "[]",
@@ -29144,11 +21560,7 @@ pg.item_data_template = {
 		usage_arg = "91684",
 		id = 59911,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59912] = {
 		limit = "[]",
@@ -29159,11 +21571,7 @@ pg.item_data_template = {
 		usage_arg = "91685",
 		id = 59912,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59913] = {
 		limit = "[]",
@@ -29174,11 +21582,7 @@ pg.item_data_template = {
 		usage_arg = "91686",
 		id = 59913,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59914] = {
 		limit = "[]",
@@ -29189,11 +21593,7 @@ pg.item_data_template = {
 		usage_arg = "91687",
 		id = 59914,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59915] = {
 		limit = "[]",
@@ -29204,11 +21604,7 @@ pg.item_data_template = {
 		usage_arg = "91688",
 		id = 59915,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59916] = {
 		limit = "[]",
@@ -29219,11 +21615,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59916,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59917] = {
 		limit = "[]",
@@ -29234,11 +21626,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59917,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59918] = {
 		limit = "[]",
@@ -29249,11 +21637,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59918,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59919] = {
 		limit = "[]",
@@ -29264,11 +21648,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59919,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59920] = {
 		limit = "[]",
@@ -29279,11 +21659,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59920,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59921] = {
 		limit = "[]",
@@ -29294,11 +21670,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59921,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59922] = {
 		limit = "[]",
@@ -29309,11 +21681,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59922,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59923] = {
 		limit = "[]",
@@ -29324,11 +21692,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59923,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59924] = {
 		limit = "[]",
@@ -29339,11 +21703,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59924,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59939] = {
 		limit = "[]",
@@ -29354,61 +21714,29 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59939,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59940] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 59940,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				59941,
-				1
-			},
-			{
-				2,
-				59942,
-				1
-			},
-			{
-				2,
-				59943,
-				1
-			},
-			{
-				2,
-				59944,
-				1
-			},
-			{
-				2,
-				59945,
-				1
-			},
-			{
-				2,
-				59946,
-				1
-			},
-			{
-				2,
-				59947,
-				1
-			}
+			401,
+			402,
+			403,
+			404,
+			405,
+			406,
+			407
 		},
 		open_ui = {
-			3,
-			1
+			"shrine_year",
+			"t_shrine"
 		}
 	},
 	[59941] = {
@@ -29420,11 +21748,7 @@ pg.item_data_template = {
 		usage_arg = "92337",
 		id = 59941,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59942] = {
 		limit = "[]",
@@ -29435,11 +21759,7 @@ pg.item_data_template = {
 		usage_arg = "92338",
 		id = 59942,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59943] = {
 		limit = "[]",
@@ -29450,11 +21770,7 @@ pg.item_data_template = {
 		usage_arg = "92339",
 		id = 59943,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59944] = {
 		limit = "[]",
@@ -29465,11 +21781,7 @@ pg.item_data_template = {
 		usage_arg = "92340",
 		id = 59944,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59945] = {
 		limit = "[]",
@@ -29480,11 +21792,7 @@ pg.item_data_template = {
 		usage_arg = "92341",
 		id = 59945,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59946] = {
 		limit = "[]",
@@ -29495,11 +21803,7 @@ pg.item_data_template = {
 		usage_arg = "92342",
 		id = 59946,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59947] = {
 		limit = "[]",
@@ -29510,11 +21814,7 @@ pg.item_data_template = {
 		usage_arg = "92343",
 		id = 59947,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59948] = {
 		limit = "[]",
@@ -29525,11 +21825,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59948,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59949] = {
 		limit = "[]",
@@ -29540,11 +21836,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59949,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59950] = {
 		limit = "[]",
@@ -29555,11 +21847,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59950,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59951] = {
 		limit = "[]",
@@ -29570,11 +21858,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59951,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59952] = {
 		limit = "[]",
@@ -29585,11 +21869,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59952,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59953] = {
 		limit = "[]",
@@ -29600,11 +21880,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59953,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59954] = {
 		limit = "[]",
@@ -29615,71 +21891,31 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 59954,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[59955] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 59955,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				60039,
-				1
-			},
-			{
-				2,
-				60040,
-				1
-			},
-			{
-				2,
-				60041,
-				1
-			},
-			{
-				2,
-				60042,
-				1
-			},
-			{
-				2,
-				60043,
-				1
-			},
-			{
-				2,
-				60044,
-				1
-			},
-			{
-				2,
-				60045,
-				1
-			},
-			{
-				2,
-				60046,
-				1
-			},
-			{
-				2,
-				60047,
-				1
-			}
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509
 		},
 		open_ui = {
-			4,
-			1
+			"login_year",
+			"t_third"
 		}
 	},
 	[60001] = {
@@ -29691,11 +21927,7 @@ pg.item_data_template = {
 		usage_arg = "100",
 		id = 60001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60002] = {
 		limit = "[]",
@@ -29706,11 +21938,7 @@ pg.item_data_template = {
 		usage_arg = "[{1,100},{2,100}]",
 		id = 60002,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60003] = {
 		limit = "[]",
@@ -29721,11 +21949,7 @@ pg.item_data_template = {
 		usage_arg = "101031",
 		id = 60003,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60011] = {
 		limit = "[]",
@@ -29740,10 +21964,6 @@ pg.item_data_template = {
 			10,
 			1,
 			1
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[60012] = {
@@ -29759,10 +21979,6 @@ pg.item_data_template = {
 			10,
 			10000,
 			1
-		},
-		open_ui = {
-			0,
-			0
 		}
 	},
 	[60039] = {
@@ -29774,11 +21990,7 @@ pg.item_data_template = {
 		usage_arg = "93185",
 		id = 60039,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60040] = {
 		limit = "[]",
@@ -29789,11 +22001,7 @@ pg.item_data_template = {
 		usage_arg = "93178",
 		id = 60040,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60041] = {
 		limit = "[]",
@@ -29804,11 +22012,7 @@ pg.item_data_template = {
 		usage_arg = "93183",
 		id = 60041,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60042] = {
 		limit = "[]",
@@ -29819,11 +22023,7 @@ pg.item_data_template = {
 		usage_arg = "93181",
 		id = 60042,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60043] = {
 		limit = "[]",
@@ -29834,11 +22034,7 @@ pg.item_data_template = {
 		usage_arg = "93182",
 		id = 60043,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60044] = {
 		limit = "[]",
@@ -29849,11 +22045,7 @@ pg.item_data_template = {
 		usage_arg = "93179",
 		id = 60044,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60045] = {
 		limit = "[]",
@@ -29864,11 +22056,7 @@ pg.item_data_template = {
 		usage_arg = "93177",
 		id = 60045,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60046] = {
 		limit = "[]",
@@ -29879,11 +22067,7 @@ pg.item_data_template = {
 		usage_arg = "93184",
 		id = 60046,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60047] = {
 		limit = "[]",
@@ -29894,11 +22078,7 @@ pg.item_data_template = {
 		usage_arg = "93180",
 		id = 60047,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60048] = {
 		limit = "[]",
@@ -29909,11 +22089,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60048,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60049] = {
 		limit = "[]",
@@ -29924,11 +22100,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60049,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60050] = {
 		limit = "[]",
@@ -29939,11 +22111,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60050,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60051] = {
 		limit = "[]",
@@ -29954,11 +22122,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60051,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60052] = {
 		limit = "[]",
@@ -29969,11 +22133,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60052,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60053] = {
 		limit = "[]",
@@ -29984,11 +22144,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60053,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60054] = {
 		limit = "[]",
@@ -29999,11 +22155,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60054,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60055] = {
 		limit = "[]",
@@ -30014,11 +22166,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60055,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60056] = {
 		limit = "[]",
@@ -30029,11 +22177,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60056,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60079] = {
 		limit = "[]",
@@ -30044,11 +22188,7 @@ pg.item_data_template = {
 		usage_arg = "93772",
 		id = 60079,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60080] = {
 		limit = "[]",
@@ -30059,11 +22199,7 @@ pg.item_data_template = {
 		usage_arg = "93773",
 		id = 60080,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60081] = {
 		limit = "[]",
@@ -30074,11 +22210,7 @@ pg.item_data_template = {
 		usage_arg = "93774",
 		id = 60081,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60082] = {
 		limit = "[]",
@@ -30089,11 +22221,7 @@ pg.item_data_template = {
 		usage_arg = "93775",
 		id = 60082,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60083] = {
 		limit = "[]",
@@ -30104,11 +22232,7 @@ pg.item_data_template = {
 		usage_arg = "93776",
 		id = 60083,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60084] = {
 		limit = "[]",
@@ -30119,11 +22243,7 @@ pg.item_data_template = {
 		usage_arg = "93777",
 		id = 60084,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60085] = {
 		limit = "[]",
@@ -30134,11 +22254,7 @@ pg.item_data_template = {
 		usage_arg = "93778",
 		id = 60085,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60086] = {
 		limit = "[]",
@@ -30149,11 +22265,7 @@ pg.item_data_template = {
 		usage_arg = "93779",
 		id = 60086,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60087] = {
 		limit = "[]",
@@ -30164,11 +22276,7 @@ pg.item_data_template = {
 		usage_arg = "93780",
 		id = 60087,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60088] = {
 		limit = "[]",
@@ -30179,11 +22287,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60088,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60089] = {
 		limit = "[]",
@@ -30194,11 +22298,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60089,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60090] = {
 		limit = "[]",
@@ -30209,11 +22309,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60090,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60091] = {
 		limit = "[]",
@@ -30224,11 +22320,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60091,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60092] = {
 		limit = "[]",
@@ -30239,11 +22331,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60092,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60093] = {
 		limit = "[]",
@@ -30254,11 +22342,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60093,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60094] = {
 		limit = "[]",
@@ -30269,11 +22353,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60094,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60095] = {
 		limit = "[]",
@@ -30284,11 +22364,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60095,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60096] = {
 		limit = "[]",
@@ -30299,122 +22375,54 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60096,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60097] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 60097,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				60079,
-				1
-			},
-			{
-				2,
-				60080,
-				1
-			},
-			{
-				2,
-				60081,
-				1
-			},
-			{
-				2,
-				60082,
-				1
-			},
-			{
-				2,
-				60083,
-				1
-			},
-			{
-				2,
-				60084,
-				1
-			},
-			{
-				2,
-				60085,
-				1
-			},
-			{
-				2,
-				60086,
-				1
-			},
-			{
-				2,
-				60087,
-				1
-			}
+			701,
+			702,
+			703,
+			704,
+			705,
+			706,
+			707,
+			708,
+			709
 		},
 		open_ui = {
-			5,
-			1
+			"login_year",
+			"t_third_jp"
 		}
 	},
 	[60105] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 60105,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				60106,
-				1
-			},
-			{
-				2,
-				60107,
-				1
-			},
-			{
-				2,
-				60108,
-				1
-			},
-			{
-				2,
-				60109,
-				1
-			},
-			{
-				2,
-				60110,
-				1
-			},
-			{
-				2,
-				60111,
-				1
-			},
-			{
-				2,
-				60112,
-				1
-			}
+			801,
+			802,
+			803,
+			804,
+			805,
+			806,
+			807
 		},
 		open_ui = {
-			3,
-			1
+			"shrine_year",
+			"t_shrine"
 		}
 	},
 	[60106] = {
@@ -30426,11 +22434,7 @@ pg.item_data_template = {
 		usage_arg = "94205",
 		id = 60106,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60107] = {
 		limit = "[]",
@@ -30441,11 +22445,7 @@ pg.item_data_template = {
 		usage_arg = "94206",
 		id = 60107,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60108] = {
 		limit = "[]",
@@ -30456,11 +22456,7 @@ pg.item_data_template = {
 		usage_arg = "94207",
 		id = 60108,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60109] = {
 		limit = "[]",
@@ -30471,11 +22467,7 @@ pg.item_data_template = {
 		usage_arg = "94208",
 		id = 60109,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60110] = {
 		limit = "[]",
@@ -30486,11 +22478,7 @@ pg.item_data_template = {
 		usage_arg = "94209",
 		id = 60110,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60111] = {
 		limit = "[]",
@@ -30501,11 +22489,7 @@ pg.item_data_template = {
 		usage_arg = "94210",
 		id = 60111,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60112] = {
 		limit = "[]",
@@ -30516,11 +22500,7 @@ pg.item_data_template = {
 		usage_arg = "94211",
 		id = 60112,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60113] = {
 		limit = "[]",
@@ -30531,11 +22511,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60113,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60114] = {
 		limit = "[]",
@@ -30546,11 +22522,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60114,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60115] = {
 		limit = "[]",
@@ -30561,11 +22533,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60115,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60116] = {
 		limit = "[]",
@@ -30576,11 +22544,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60116,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60117] = {
 		limit = "[]",
@@ -30591,11 +22555,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60117,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60118] = {
 		limit = "[]",
@@ -30606,11 +22566,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60118,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60119] = {
 		limit = "[]",
@@ -30621,51 +22577,27 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60119,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60129] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 60129,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				60130,
-				1
-			},
-			{
-				2,
-				60131,
-				1
-			},
-			{
-				2,
-				60132,
-				1
-			},
-			{
-				2,
-				60133,
-				1
-			},
-			{
-				2,
-				60134,
-				1
-			}
+			901,
+			902,
+			903,
+			904,
+			905
 		},
 		open_ui = {
-			6,
-			1
+			"greeting_year",
+			"t_greeting"
 		}
 	},
 	[60130] = {
@@ -30677,11 +22609,7 @@ pg.item_data_template = {
 		usage_arg = "94619",
 		id = 60130,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60131] = {
 		limit = "[]",
@@ -30692,11 +22620,7 @@ pg.item_data_template = {
 		usage_arg = "94620",
 		id = 60131,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60132] = {
 		limit = "[]",
@@ -30707,11 +22631,7 @@ pg.item_data_template = {
 		usage_arg = "94621",
 		id = 60132,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60133] = {
 		limit = "[]",
@@ -30722,11 +22642,7 @@ pg.item_data_template = {
 		usage_arg = "94622",
 		id = 60133,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60134] = {
 		limit = "[]",
@@ -30737,11 +22653,7 @@ pg.item_data_template = {
 		usage_arg = "94623",
 		id = 60134,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60135] = {
 		limit = "[]",
@@ -30752,11 +22664,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60135,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60136] = {
 		limit = "[]",
@@ -30767,11 +22675,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60136,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60137] = {
 		limit = "[]",
@@ -30782,11 +22686,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60137,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60138] = {
 		limit = "[]",
@@ -30797,11 +22697,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60138,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60139] = {
 		limit = "[]",
@@ -30812,66 +22708,30 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60139,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60149] = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_drop_appointed",
+		usage = "usage_invitation",
 		other_item_cost = "[]",
 		id = 60149,
 		compose_number = 0,
 		target_id = 0,
 		usage_arg = {
-			{
-				2,
-				60150,
-				1
-			},
-			{
-				2,
-				60151,
-				1
-			},
-			{
-				2,
-				60152,
-				1
-			},
-			{
-				2,
-				60153,
-				1
-			},
-			{
-				2,
-				60154,
-				1
-			},
-			{
-				2,
-				60155,
-				1
-			},
-			{
-				2,
-				60156,
-				1
-			},
-			{
-				2,
-				60157,
-				1
-			}
+			1001,
+			1002,
+			1003,
+			1004,
+			1005,
+			1006,
+			1007,
+			1008
 		},
 		open_ui = {
-			7,
-			1
+			"login_year",
+			"t_fourth"
 		}
 	},
 	[60150] = {
@@ -30883,11 +22743,7 @@ pg.item_data_template = {
 		usage_arg = "95352",
 		id = 60150,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60151] = {
 		limit = "[]",
@@ -30898,11 +22754,7 @@ pg.item_data_template = {
 		usage_arg = "95353",
 		id = 60151,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60152] = {
 		limit = "[]",
@@ -30913,11 +22765,7 @@ pg.item_data_template = {
 		usage_arg = "95354",
 		id = 60152,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60153] = {
 		limit = "[]",
@@ -30928,11 +22776,7 @@ pg.item_data_template = {
 		usage_arg = "95355",
 		id = 60153,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60154] = {
 		limit = "[]",
@@ -30943,11 +22787,7 @@ pg.item_data_template = {
 		usage_arg = "95356",
 		id = 60154,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60155] = {
 		limit = "[]",
@@ -30958,11 +22798,7 @@ pg.item_data_template = {
 		usage_arg = "95357",
 		id = 60155,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60156] = {
 		limit = "[]",
@@ -30973,11 +22809,7 @@ pg.item_data_template = {
 		usage_arg = "95358",
 		id = 60156,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60157] = {
 		limit = "[]",
@@ -30988,11 +22820,7 @@ pg.item_data_template = {
 		usage_arg = "95359",
 		id = 60157,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60158] = {
 		limit = "[]",
@@ -31003,11 +22831,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60158,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60159] = {
 		limit = "[]",
@@ -31018,11 +22842,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60159,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60160] = {
 		limit = "[]",
@@ -31033,11 +22853,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60160,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60161] = {
 		limit = "[]",
@@ -31048,11 +22864,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60161,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60162] = {
 		limit = "[]",
@@ -31063,11 +22875,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60162,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60163] = {
 		limit = "[]",
@@ -31078,11 +22886,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60163,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60164] = {
 		limit = "[]",
@@ -31093,11 +22897,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60164,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[60165] = {
 		limit = "[]",
@@ -31108,11 +22908,7 @@ pg.item_data_template = {
 		usage_arg = "[]",
 		id = 60165,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	[61001] = {
 		limit = "[]",
@@ -31123,11 +22919,7 @@ pg.item_data_template = {
 		usage_arg = "[5,8,9,47,48]",
 		id = 61001,
 		compose_number = 0,
-		target_id = 0,
-		open_ui = {
-			0,
-			0
-		}
+		target_id = 0
 	},
 	all = {
 		1,
