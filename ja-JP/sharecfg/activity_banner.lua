@@ -1,16 +1,19 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4079",
-		type = 3,
+		type = 2,
 		id = 1,
 		pic = "temp1",
+		param = {
+			"scene skinshop",
+			{}
+		},
 		time = {
 			{
 				{
 					2021,
-					8,
-					19
+					9,
+					2
 				},
 				{
 					0,
@@ -22,7 +25,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					2
+					15
 				},
 				{
 					23,
@@ -33,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "4093",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new"
-			}
-		},
 		time = {
 			{
 				{
 					2021,
-					8,
-					19
+					9,
+					2
 				},
 				{
 					0,
@@ -59,7 +57,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					2
+					16
 				},
 				{
 					23,
@@ -212,73 +210,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "4076",
-		type = 3,
-		id = 7,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 7,
-		id = 8,
-		pic = "temp8",
-		param = {
-			28
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[9] = {
 		param = "",
 		type = 9,
 		id = 9,
@@ -287,8 +219,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					19
+					9,
+					2
 				},
 				{
 					0,
@@ -300,7 +232,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					1
+					15
 				},
 				{
 					23,
@@ -310,17 +242,17 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "海軍カレー|甘口？辛口？好みは人それぞれ…<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+	[10] = {
+		param = "饅頭ヌードル|お湯を注いで少し待つだけ！<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		type = 10,
 		id = 10,
-		pic = "haijungali",
+		pic = "paomian",
 		time = {
 			{
 				{
 					2021,
-					8,
-					5
+					9,
+					2
 				},
 				{
 					0,
@@ -331,8 +263,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					19
+					9,
+					17
 				},
 				{
 					23,
@@ -349,8 +281,6 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		7,
-		8,
 		9,
 		10
 	}

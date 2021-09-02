@@ -521,7 +521,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "star_level_bg_103",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10700020,
