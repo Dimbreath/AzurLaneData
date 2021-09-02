@@ -5174,7 +5174,7 @@ pg.task_data_template = {
 		}
 	},
 	[5031] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5031,
 		type = 5,
@@ -5572,7 +5572,7 @@ pg.task_data_template = {
 		}
 	},
 	[5051] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5051,
 		type = 5,
@@ -5835,7 +5835,7 @@ pg.task_data_template = {
 		}
 	},
 	[5061] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5058,
 		type = 5,
@@ -6098,7 +6098,7 @@ pg.task_data_template = {
 		}
 	},
 	[5071] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5065,
 		type = 5,
@@ -6361,7 +6361,7 @@ pg.task_data_template = {
 		}
 	},
 	[5081] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5072,
 		type = 5,
@@ -6624,7 +6624,7 @@ pg.task_data_template = {
 		}
 	},
 	[5091] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5079,
 		type = 5,
@@ -6887,7 +6887,7 @@ pg.task_data_template = {
 		}
 	},
 	[5101] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5086,
 		type = 5,
@@ -7150,7 +7150,7 @@ pg.task_data_template = {
 		}
 	},
 	[5111] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5093,
 		type = 5,
@@ -7413,7 +7413,7 @@ pg.task_data_template = {
 		}
 	},
 	[5121] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5100,
 		type = 5,
@@ -7676,7 +7676,7 @@ pg.task_data_template = {
 		}
 	},
 	[5131] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5107,
 		type = 5,
@@ -7939,7 +7939,7 @@ pg.task_data_template = {
 		}
 	},
 	[5141] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5114,
 		type = 5,
@@ -8202,7 +8202,7 @@ pg.task_data_template = {
 		}
 	},
 	[5151] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5121,
 		type = 5,
@@ -8465,7 +8465,7 @@ pg.task_data_template = {
 		}
 	},
 	[5171] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5135,
 		type = 5,
@@ -8728,7 +8728,7 @@ pg.task_data_template = {
 		}
 	},
 	[5181] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5142,
 		type = 5,
@@ -8991,7 +8991,7 @@ pg.task_data_template = {
 		}
 	},
 	[5191] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5149,
 		type = 5,
@@ -9263,7 +9263,7 @@ pg.task_data_template = {
 		}
 	},
 	[5201] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5156,
 		type = 5,
@@ -9526,7 +9526,7 @@ pg.task_data_template = {
 		}
 	},
 	[5211] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5163,
 		type = 5,
@@ -9789,7 +9789,7 @@ pg.task_data_template = {
 		}
 	},
 	[5221] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5170,
 		type = 5,
@@ -10052,7 +10052,7 @@ pg.task_data_template = {
 		}
 	},
 	[5231] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5177,
 		type = 5,
@@ -10315,7 +10315,7 @@ pg.task_data_template = {
 		}
 	},
 	[5241] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5184,
 		type = 5,
@@ -10587,7 +10587,7 @@ pg.task_data_template = {
 		}
 	},
 	[5251] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5191,
 		type = 5,
@@ -10850,7 +10850,7 @@ pg.task_data_template = {
 		}
 	},
 	[5261] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5198,
 		type = 5,
@@ -11113,7 +11113,7 @@ pg.task_data_template = {
 		}
 	},
 	[5271] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5205,
 		type = 5,
@@ -11376,7 +11376,7 @@ pg.task_data_template = {
 		}
 	},
 	[5281] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5212,
 		type = 5,
@@ -11639,7 +11639,7 @@ pg.task_data_template = {
 		}
 	},
 	[5291] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5219,
 		type = 5,
@@ -11902,7 +11902,7 @@ pg.task_data_template = {
 		}
 	},
 	[5301] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5226,
 		type = 5,
@@ -12165,7 +12165,7 @@ pg.task_data_template = {
 		}
 	},
 	[5311] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5233,
 		type = 5,
@@ -12428,7 +12428,7 @@ pg.task_data_template = {
 		}
 	},
 	[5321] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5240,
 		type = 5,
@@ -12691,7 +12691,7 @@ pg.task_data_template = {
 		}
 	},
 	[5331] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5247,
 		type = 5,
@@ -12954,7 +12954,7 @@ pg.task_data_template = {
 		}
 	},
 	[5341] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5254,
 		type = 5,
@@ -13217,7 +13217,7 @@ pg.task_data_template = {
 		}
 	},
 	[5351] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5261,
 		type = 5,
@@ -13480,7 +13480,7 @@ pg.task_data_template = {
 		}
 	},
 	[5361] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5268,
 		type = 5,
@@ -13743,7 +13743,7 @@ pg.task_data_template = {
 		}
 	},
 	[5371] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5275,
 		type = 5,
@@ -14006,7 +14006,7 @@ pg.task_data_template = {
 		}
 	},
 	[5381] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5282,
 		type = 5,
@@ -14269,7 +14269,7 @@ pg.task_data_template = {
 		}
 	},
 	[5391] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5289,
 		type = 5,
@@ -14532,7 +14532,7 @@ pg.task_data_template = {
 		}
 	},
 	[5401] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5296,
 		type = 5,
@@ -14795,7 +14795,7 @@ pg.task_data_template = {
 		}
 	},
 	[5411] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5303,
 		type = 5,
@@ -15058,7 +15058,7 @@ pg.task_data_template = {
 		}
 	},
 	[5421] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5310,
 		type = 5,
@@ -15321,7 +15321,7 @@ pg.task_data_template = {
 		}
 	},
 	[5441] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5324,
 		type = 5,
@@ -15584,7 +15584,7 @@ pg.task_data_template = {
 		}
 	},
 	[5451] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5331,
 		type = 5,
@@ -15845,7 +15845,7 @@ pg.task_data_template = {
 		}
 	},
 	[5461] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5338,
 		type = 5,
@@ -16106,7 +16106,7 @@ pg.task_data_template = {
 		}
 	},
 	[5471] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5345,
 		type = 5,
@@ -16378,7 +16378,7 @@ pg.task_data_template = {
 		}
 	},
 	[5481] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5352,
 		type = 5,
@@ -16641,7 +16641,7 @@ pg.task_data_template = {
 		}
 	},
 	[5491] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5359,
 		type = 5,
@@ -16904,7 +16904,7 @@ pg.task_data_template = {
 		}
 	},
 	[5501] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5366,
 		type = 5,
@@ -17167,7 +17167,7 @@ pg.task_data_template = {
 		}
 	},
 	[5511] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5373,
 		type = 5,
@@ -17430,7 +17430,7 @@ pg.task_data_template = {
 		}
 	},
 	[5521] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5380,
 		type = 5,
@@ -17693,7 +17693,7 @@ pg.task_data_template = {
 		}
 	},
 	[5531] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5387,
 		type = 5,
@@ -17956,7 +17956,7 @@ pg.task_data_template = {
 		}
 	},
 	[5541] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5394,
 		type = 5,
@@ -18219,7 +18219,7 @@ pg.task_data_template = {
 		}
 	},
 	[5551] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5401,
 		type = 5,
@@ -18482,7 +18482,7 @@ pg.task_data_template = {
 		}
 	},
 	[5561] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5408,
 		type = 5,
@@ -18745,7 +18745,7 @@ pg.task_data_template = {
 		}
 	},
 	[5571] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5415,
 		type = 5,
@@ -19008,7 +19008,7 @@ pg.task_data_template = {
 		}
 	},
 	[5581] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5422,
 		type = 5,
@@ -19271,7 +19271,7 @@ pg.task_data_template = {
 		}
 	},
 	[5591] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5429,
 		type = 5,
@@ -19534,7 +19534,7 @@ pg.task_data_template = {
 		}
 	},
 	[5601] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5436,
 		type = 5,
@@ -19797,7 +19797,7 @@ pg.task_data_template = {
 		}
 	},
 	[5611] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5443,
 		type = 5,
@@ -20060,7 +20060,7 @@ pg.task_data_template = {
 		}
 	},
 	[5621] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5450,
 		type = 5,
@@ -20323,7 +20323,7 @@ pg.task_data_template = {
 		}
 	},
 	[5631] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5457,
 		type = 5,
@@ -20593,7 +20593,7 @@ pg.task_data_template = {
 		}
 	},
 	[5641] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5464,
 		type = 5,
@@ -20856,7 +20856,7 @@ pg.task_data_template = {
 		}
 	},
 	[5651] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5471,
 		type = 5,
@@ -21119,7 +21119,7 @@ pg.task_data_template = {
 		}
 	},
 	[5661] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5478,
 		type = 5,
@@ -21382,7 +21382,7 @@ pg.task_data_template = {
 		}
 	},
 	[5671] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5485,
 		type = 5,
@@ -21645,7 +21645,7 @@ pg.task_data_template = {
 		}
 	},
 	[5681] = {
-		is_head = 0,
+		is_head = 1,
 		guild_coin_award = 0,
 		award = 5492,
 		type = 5,
@@ -21888,6 +21888,269 @@ pg.task_data_template = {
 		target_num = 100,
 		fix_task = 0,
 		target_id = "10707",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
+	[5691] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 5499,
+		type = 5,
+		name = "Touching Fingertips",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5692",
+		visibility = 1,
+		story_id = "KASABULANKA1",
+		target_id_for_client = 50003,
+		id = 5691,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5692] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5500,
+		type = 5,
+		name = "Too Many Appointments",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5693",
+		visibility = 1,
+		story_id = "KASABULANKA2",
+		target_id_for_client = 0,
+		id = 5692,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5693] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5501,
+		type = 5,
+		name = "Her Serious Side",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Casablanca in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5694",
+		visibility = 1,
+		story_id = "KASABULANKA3",
+		target_id_for_client = 10655,
+		id = 5693,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10655",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5694] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5502,
+		type = 5,
+		name = "Hard to Explain",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Casablanca in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5695",
+		visibility = 1,
+		story_id = "KASABULANKA4",
+		target_id_for_client = 10655,
+		id = 5694,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10655",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5695] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5503,
+		type = 5,
+		name = "Advice From Friends",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Casablanca.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5696",
+		visibility = 1,
+		story_id = "KASABULANKA5",
+		target_id_for_client = 10655,
+		id = 5695,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10655",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5696] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5504,
+		type = 5,
+		name = "Passionate Thoughts",
+		count_inherit = 0,
+		desc = "Fully Limit Break Casablanca.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5697",
+		visibility = 1,
+		story_id = "KASABULANKA6",
+		target_id_for_client = 106554,
+		id = 5696,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "106554",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5697] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5505,
+		type = 5,
+		name = "Premonitions of Romance",
+		count_inherit = 0,
+		desc = "Get Casablanca to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "kasabulanka",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "KASABULANKA7",
+		target_id_for_client = 10655,
+		id = 5697,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10655",
 		open_need = {},
 		award_display = {
 			{
@@ -132234,6 +132497,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5685,
 		5686,
 		5687,
+		5691,
+		5692,
+		5693,
+		5694,
+		5695,
+		5696,
+		5697,
 		6001,
 		6002,
 		6003,

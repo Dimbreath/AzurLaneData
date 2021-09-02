@@ -41,7 +41,7 @@ return {
 			alpha = 0.375,
 			waitScene = "TaskScene",
 			style = {
-				text = "Collect your <color=#ff7d36>mission rewards.</color>.",
+				text = "Collect your <color=#ff7d36>mission rewards.</color>",
 				mode = 2,
 				dir = 1,
 				posY = 183,
@@ -50,7 +50,7 @@ return {
 			ui = {
 				pathIndex = -1,
 				delay = 1,
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage/right_panel/mask/content/0/frame/get_btn",
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/0/frame/get_btn",
 				triggerType = {
 					1
 				},

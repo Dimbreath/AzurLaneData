@@ -4103,6 +4103,118 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[205] = {
+		can_rotate = 1,
+		name = "Cup Ramen Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "beimianicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "chuanmo/beimian",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Let the umami soak into you.",
+		advice = 0,
+		id = 205,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					21,
+					-47
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/beimian_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[206] = {
+		can_rotate = 1,
+		name = "Ramen Enjoyer's Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "beimianzhuoicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "chuanmo/beimianzhuo",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Three minutes are up! It's time to dig in!",
+		advice = 0,
+		id = 206,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					111.4,
+					-61.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-92,
+					-65
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -48386,7 +48498,7 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-106.8,
+					-92.6,
 					-51.9
 				},
 				{
@@ -82486,6 +82598,8 @@ pg.furniture_data_template = {
 		199,
 		200,
 		203,
+		205,
+		206,
 		100002,
 		100003,
 		100004,

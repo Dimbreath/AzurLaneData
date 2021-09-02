@@ -1,708 +1,524 @@
 pg = pg or {}
 pg.task_data_trigger = {
 	{
-		group_id = 0,
+		task_id = 5001,
+		activity_id = 21,
+		count = 30,
+		type = 1,
 		id = 1,
+		group_id = 0
+	},
+	{
+		task_id = 5031,
 		activity_id = 0,
-		args = {
-			{
-				30,
-				5001
-			}
-		}
-	},
-	{
-		group_id = 10601,
+		count = 1,
+		type = 2,
 		id = 2,
-		activity_id = 30011,
-		args = {
-			{
-				1,
-				5031
-			}
-		}
+		group_id = 10601
 	},
 	{
-		group_id = 30706,
+		task_id = 5051,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 3,
-		activity_id = 30509,
-		args = {
-			{
-				1,
-				5051
-			}
-		}
+		group_id = 30706
 	},
 	{
-		group_id = 30116,
+		task_id = 5061,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 4,
-		activity_id = 30510,
-		args = {
-			{
-				1,
-				5061
-			}
-		}
+		group_id = 30116
 	},
 	{
-		group_id = 20203,
+		task_id = 5071,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 5,
-		activity_id = 30537,
-		args = {
-			{
-				1,
-				5071
-			}
-		}
+		group_id = 20203
 	},
 	{
-		group_id = 10125,
+		task_id = 5081,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 6,
-		activity_id = 30538,
-		args = {
-			{
-				1,
-				5081
-			}
-		}
+		group_id = 10125
 	},
-	[8] = {
-		group_id = 30701,
+	{
+		task_id = 5091,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 7,
+		group_id = 30701
+	},
+	{
+		task_id = 5101,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 8,
-		activity_id = 30517,
-		args = {
-			{
-				1,
-				5091
-			}
-		}
+		group_id = 10209
 	},
-	[9] = {
-		group_id = 10209,
+	{
+		task_id = 5111,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 9,
-		activity_id = 30518,
-		args = {
-			{
-				1,
-				5101
-			}
-		}
+		group_id = 30502
 	},
-	[10] = {
-		group_id = 30502,
+	{
+		task_id = 5121,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 10,
-		activity_id = 30521,
-		args = {
-			{
-				1,
-				5111
-			}
-		}
+		group_id = 20706
 	},
-	[11] = {
-		group_id = 20706,
+	{
+		task_id = 5131,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 11,
-		activity_id = 30522,
-		args = {
-			{
-				1,
-				5121
-			}
-		}
+		group_id = 10703
 	},
-	[12] = {
-		group_id = 10703,
+	{
+		task_id = 5141,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 12,
-		activity_id = 30514,
-		args = {
-			{
-				1,
-				5131
-			}
-		}
+		group_id = 30312
 	},
-	[13] = {
-		group_id = 30312,
+	{
+		task_id = 5151,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 13,
-		activity_id = 30516,
-		args = {
-			{
-				1,
-				5141
-			}
-		}
+		group_id = 40146
 	},
-	[14] = {
-		group_id = 40146,
-		id = 14,
-		activity_id = 30503,
-		args = {
-			{
-				1,
-				5151
-			}
-		}
+	[15] = {
+		task_id = 5171,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 15,
+		group_id = 80101
 	},
 	[16] = {
-		group_id = 80101,
+		task_id = 5181,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 16,
-		activity_id = 30523,
-		args = {
-			{
-				1,
-				5171
-			}
-		}
+		group_id = 80201
 	},
 	[17] = {
-		group_id = 80201,
+		task_id = 5191,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 17,
-		activity_id = 30524,
-		args = {
-			{
-				1,
-				5181
-			}
-		}
+		group_id = 80801
 	},
 	[18] = {
-		group_id = 80801,
+		task_id = 5201,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 18,
-		activity_id = 30525,
-		args = {
-			{
-				1,
-				5191
-			}
-		}
+		group_id = 40502
 	},
 	[19] = {
-		group_id = 40502,
+		task_id = 5211,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 19,
-		activity_id = 30534,
-		args = {
-			{
-				1,
-				5201
-			}
-		}
+		group_id = 20604
 	},
 	[20] = {
-		group_id = 20604,
+		task_id = 5221,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 20,
-		activity_id = 30526,
-		args = {
-			{
-				1,
-				5211
-			}
-		}
+		group_id = 30402
 	},
 	[21] = {
-		group_id = 30402,
+		task_id = 5231,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 21,
-		activity_id = 30533,
-		args = {
-			{
-				1,
-				5221
-			}
-		}
+		group_id = 40304
 	},
 	[22] = {
-		group_id = 40304,
+		task_id = 5241,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 22,
-		activity_id = 30535,
-		args = {
-			{
-				1,
-				5231
-			}
-		}
+		group_id = 10802
 	},
 	[23] = {
-		group_id = 10802,
+		task_id = 5251,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 23,
-		activity_id = 30528,
-		args = {
-			{
-				1,
-				5241
-			}
-		}
+		group_id = 30707
 	},
 	[24] = {
-		group_id = 30707,
+		task_id = 5261,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 24,
-		activity_id = 30529,
-		args = {
-			{
-				1,
-				5251
-			}
-		}
+		group_id = 10709
 	},
 	[25] = {
-		group_id = 10709,
+		task_id = 5271,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 25,
-		activity_id = 30530,
-		args = {
-			{
-				1,
-				5261
-			}
-		}
+		group_id = 30109
 	},
 	[26] = {
-		group_id = 30109,
+		task_id = 5281,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 26,
-		activity_id = 30515,
-		args = {
-			{
-				1,
-				5271
-			}
-		}
+		group_id = 20219
 	},
 	[27] = {
-		group_id = 20219,
+		task_id = 5291,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 27,
-		activity_id = 30539,
-		args = {
-			{
-				1,
-				5281
-			}
-		}
+		group_id = 10212
 	},
 	[28] = {
-		group_id = 10212,
+		task_id = 5301,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 28,
-		activity_id = 30513,
-		args = {
-			{
-				1,
-				5291
-			}
-		}
+		group_id = 10127
 	},
 	[29] = {
-		group_id = 10127,
+		task_id = 5311,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 29,
-		activity_id = 30500,
-		args = {
-			{
-				1,
-				5301
-			}
-		}
+		group_id = 30118
 	},
 	[30] = {
-		group_id = 30118,
+		task_id = 5321,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 30,
-		activity_id = 30501,
-		args = {
-			{
-				1,
-				5311
-			}
-		}
+		group_id = 10218
 	},
 	[31] = {
-		group_id = 10218,
+		task_id = 5331,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 31,
-		activity_id = 30502,
-		args = {
-			{
-				1,
-				5321
-			}
-		}
+		group_id = 30606
 	},
 	[32] = {
-		group_id = 30606,
+		task_id = 5341,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 32,
-		activity_id = 30504,
-		args = {
-			{
-				1,
-				5331
-			}
-		}
+		group_id = 30164
 	},
 	[33] = {
-		group_id = 30164,
+		task_id = 5351,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 33,
-		activity_id = 30505,
-		args = {
-			{
-				1,
-				5341
-			}
-		}
+		group_id = 30309
 	},
 	[34] = {
-		group_id = 30309,
+		task_id = 5361,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 34,
-		activity_id = 30506,
-		args = {
-			{
-				1,
-				5351
-			}
-		}
+		group_id = 30703
 	},
 	[35] = {
-		group_id = 30703,
+		task_id = 5371,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 35,
-		activity_id = 30532,
-		args = {
-			{
-				1,
-				5361
-			}
-		}
+		group_id = 30121
 	},
 	[36] = {
-		group_id = 30121,
+		task_id = 5381,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 36,
-		activity_id = 30511,
-		args = {
-			{
-				1,
-				5371
-			}
-		}
+		group_id = 10310
 	},
 	[37] = {
-		group_id = 10310,
+		task_id = 5391,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 37,
-		activity_id = 30512,
-		args = {
-			{
-				1,
-				5381
-			}
-		}
+		group_id = 20208
 	},
 	[38] = {
-		group_id = 20208,
+		task_id = 5401,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 38,
-		activity_id = 30507,
-		args = {
-			{
-				1,
-				5391
-			}
-		}
+		group_id = 20220
 	},
 	[39] = {
-		group_id = 20220,
+		task_id = 5411,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 39,
-		activity_id = 30508,
-		args = {
-			{
-				1,
-				5401
-			}
-		}
+		group_id = 20502
 	},
 	[40] = {
-		group_id = 20502,
+		task_id = 5421,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 40,
-		activity_id = 30536,
-		args = {
-			{
-				1,
-				5411
-			}
-		}
+		group_id = 10738
 	},
-	[41] = {
-		group_id = 10738,
-		id = 41,
-		activity_id = 30543,
-		args = {
-			{
-				1,
-				5421
-			}
-		}
+	[42] = {
+		task_id = 5441,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 42,
+		group_id = 40305
 	},
 	[43] = {
-		group_id = 40305,
+		task_id = 5451,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 43,
-		activity_id = 30542,
-		args = {
-			{
-				1,
-				5441
-			}
-		}
+		group_id = 20505
 	},
 	[44] = {
-		group_id = 20505,
+		task_id = 5461,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 44,
-		activity_id = 30519,
-		args = {
-			{
-				1,
-				5451
-			}
-		}
+		group_id = 40804
 	},
 	[45] = {
-		group_id = 40804,
+		task_id = 5471,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 45,
-		activity_id = 30520,
-		args = {
-			{
-				1,
-				5461
-			}
-		}
+		group_id = 10803
 	},
 	[46] = {
-		group_id = 10803,
+		task_id = 5481,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 46,
-		activity_id = 30527,
-		args = {
-			{
-				1,
-				5471
-			}
-		}
+		group_id = 60302
 	},
 	[47] = {
-		group_id = 60302,
+		task_id = 5491,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 47,
-		activity_id = 30531,
-		args = {
-			{
-				1,
-				5481
-			}
-		}
+		group_id = 70201
 	},
 	[48] = {
-		group_id = 70201,
+		task_id = 5501,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 48,
-		activity_id = 30540,
-		args = {
-			{
-				1,
-				5491
-			}
-		}
+		group_id = 30180
 	},
 	[49] = {
-		group_id = 30180,
+		task_id = 5511,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 49,
-		activity_id = 30541,
-		args = {
-			{
-				1,
-				5501
-			}
-		}
+		group_id = 10306
 	},
 	[50] = {
-		group_id = 10306,
+		task_id = 5521,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 50,
-		activity_id = 30544,
-		args = {
-			{
-				1,
-				5511
-			}
-		}
+		group_id = 20703
 	},
 	[51] = {
-		group_id = 20703,
+		task_id = 5531,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 51,
-		activity_id = 30545,
-		args = {
-			{
-				1,
-				5521
-			}
-		}
+		group_id = 20402
 	},
 	[52] = {
-		group_id = 20402,
+		task_id = 5541,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 52,
-		activity_id = 30546,
-		args = {
-			{
-				1,
-				5531
-			}
-		}
+		group_id = 40301
 	},
 	[53] = {
-		group_id = 40301,
+		task_id = 5551,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 53,
-		activity_id = 30547,
-		args = {
-			{
-				1,
-				5541
-			}
-		}
+		group_id = 20303
 	},
 	[54] = {
-		group_id = 20303,
+		task_id = 5561,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 54,
-		activity_id = 2051,
-		args = {
-			{
-				1,
-				5551
-			}
-		}
+		group_id = 20605
 	},
 	[55] = {
-		group_id = 20605,
+		task_id = 5571,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 55,
-		activity_id = 2052,
-		args = {
-			{
-				1,
-				5561
-			}
-		}
+		group_id = 20226
 	},
 	[56] = {
-		group_id = 20226,
+		task_id = 5581,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 56,
-		activity_id = 2053,
-		args = {
-			{
-				1,
-				5571
-			}
-		}
+		group_id = 70504
 	},
 	[57] = {
-		group_id = 70504,
+		task_id = 5591,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 57,
-		activity_id = 2054,
-		args = {
-			{
-				1,
-				5581
-			}
-		}
+		group_id = 10215
 	},
 	[58] = {
-		group_id = 10215,
+		task_id = 5601,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 58,
-		activity_id = 2055,
-		args = {
-			{
-				1,
-				5591
-			}
-		}
+		group_id = 10145
 	},
 	[59] = {
-		group_id = 10145,
+		task_id = 5611,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 59,
-		activity_id = 2056,
-		args = {
-			{
-				1,
-				5601
-			}
-		}
+		group_id = 30115
 	},
 	[60] = {
-		group_id = 30115,
+		task_id = 5621,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 60,
-		activity_id = 2057,
-		args = {
-			{
-				1,
-				5611
-			}
-		}
+		group_id = 60701
 	},
 	[61] = {
-		group_id = 60701,
+		task_id = 5631,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 61,
-		activity_id = 2058,
-		args = {
-			{
-				1,
-				5621
-			}
-		}
+		group_id = 40802
 	},
 	[62] = {
-		group_id = 40802,
+		task_id = 5641,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 62,
-		activity_id = 2059,
-		args = {
-			{
-				1,
-				5631
-			}
-		}
+		group_id = 20503
 	},
 	[63] = {
-		group_id = 20503,
+		task_id = 5651,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 63,
-		activity_id = 2060,
-		args = {
-			{
-				1,
-				5641
-			}
-		}
+		group_id = 10229
 	},
 	[64] = {
-		group_id = 10229,
+		task_id = 5661,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 64,
-		activity_id = 2061,
-		args = {
-			{
-				1,
-				5651
-			}
-		}
+		group_id = 30501
 	},
 	[65] = {
-		group_id = 30501,
+		task_id = 5671,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 65,
-		activity_id = 2062,
-		args = {
-			{
-				1,
-				5661
-			}
-		}
+		group_id = 30208
 	},
 	[66] = {
-		group_id = 30208,
+		task_id = 5681,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 66,
-		activity_id = 2063,
-		args = {
-			{
-				1,
-				5671
-			}
-		}
+		group_id = 10707
 	},
 	[67] = {
-		group_id = 10707,
+		task_id = 5691,
+		activity_id = 0,
+		count = 1,
+		type = 2,
 		id = 67,
-		activity_id = 2064,
-		args = {
-			{
-				1,
-				5681
-			}
-		}
+		group_id = 10655
 	},
 	all = {
 		1,
@@ -711,13 +527,14 @@ pg.task_data_trigger = {
 		4,
 		5,
 		6,
+		7,
 		8,
 		9,
 		10,
 		11,
 		12,
 		13,
-		14,
+		15,
 		16,
 		17,
 		18,
@@ -743,7 +560,7 @@ pg.task_data_trigger = {
 		38,
 		39,
 		40,
-		41,
+		42,
 		43,
 		44,
 		45,

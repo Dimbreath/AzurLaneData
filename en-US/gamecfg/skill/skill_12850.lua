@@ -20,7 +20,7 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetPlayerVanguardFleet",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 12851
 			}
