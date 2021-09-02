@@ -50,7 +50,7 @@ return {
 			ui = {
 				pathIndex = -1,
 				delay = 1,
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage/right_panel/mask/content/0/frame/get_btn",
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/0/frame/get_btn",
 				triggerType = {
 					1
 				},
