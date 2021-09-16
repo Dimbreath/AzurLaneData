@@ -15,7 +15,7 @@ return {
 				defaultName = "white_dot",
 				pathIndex = "#",
 				childPath = "bg/icon_bg/icon",
-				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items"
+				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content"
 			},
 			ui = {
 				pathIndex = -1,

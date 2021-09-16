@@ -176,6 +176,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "ヘレナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[116] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970703",
+		id = 116,
+		target_num = 1,
+		desc = "蒼龍(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[117] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970703",
+		id = 117,
+		target_num = 1,
+		desc = "蒼龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[118] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970703",
+		id = 118,
+		target_num = 1,
+		desc = "蒼龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[119] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970703",
+		id = 119,
+		target_num = 1,
+		desc = "蒼龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[120] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970703",
+		id = 120,
+		target_num = 1,
+		desc = "蒼龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200] = {
 		target_id = "0",
 		sub_type = 302,
@@ -272,6 +312,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
+	[212] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970703",
+		id = 212,
+		target_num = 1,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊で1回勝利する"
+	},
+	[213] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970703",
+		id = 213,
+		target_num = 1,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[214] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970703",
+		id = 214,
+		target_num = 1,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[215] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970703",
+		id = 215,
+		target_num = 1,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv100+の敵を撃破 "
+	},
 	[301] = {
 		target_id = "0",
 		sub_type = 305,
@@ -311,6 +383,11 @@ pg.task_meta_data_template = {
 		113,
 		114,
 		115,
+		116,
+		117,
+		118,
+		119,
+		120,
 		200,
 		201,
 		202,
@@ -323,6 +400,10 @@ pg.task_meta_data_template = {
 		209,
 		210,
 		211,
+		212,
+		213,
+		214,
+		215,
 		301,
 		302
 	}

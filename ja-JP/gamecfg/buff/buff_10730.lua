@@ -77,7 +77,7 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				rant = 500,
+				rant = 10000,
 				skill_id = 10730,
 				target = "TargetSelf",
 				time = 5

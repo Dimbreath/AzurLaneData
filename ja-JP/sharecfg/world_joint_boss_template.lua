@@ -24,9 +24,18 @@ pg.world_joint_boss_template = {
 		id = 3,
 		meta_id = 970201
 	},
+	{
+		name = "蒼龍(META)",
+		item_id = 100000,
+		painting = "canglong",
+		boss_level_id = 46,
+		id = 4,
+		meta_id = 970703
+	},
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }
