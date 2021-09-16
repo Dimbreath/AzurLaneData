@@ -2700,6 +2700,7 @@ pg.activity_template = {
 	[4008] = {
 		mark = 20210610,
 		page_info = "",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4008,
@@ -2707,38 +2708,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 4008,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4009] = {
 		mark = 20210610,
 		page_info = "",
+		time = "stop",
 		type = 34,
 		login_pop = 0,
 		config_id = 0,
@@ -2747,33 +2722,6 @@ pg.activity_template = {
 		id = 4009,
 		config_data = {
 			3
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			id = 970201
@@ -4685,7 +4633,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 22,
-		is_show = 13,
+		is_show = 11,
 		config_data = "0",
 		title_res_tag = "NissinFood",
 		id = 4093,
@@ -4756,6 +4704,281 @@ pg.activity_template = {
 				206,
 				1
 			}
+		}
+	},
+	[4095] = {
+		mark = 20210909,
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "Wuqitianyun",
+		id = 4095,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WuQiFittingDisplayPage",
+			ui_name = "WuQiFittingDisplayPage"
+		}
+	},
+	[4096] = {
+		mark = 20210909,
+		type = 69,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 13,
+		title_res_tag = "Neptune_catchup",
+		id = 4096,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AzumaTecCatchupPage",
+			ui_name = "AzumaTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42014
+		}
+	},
+	[4097] = {
+		mark = 20210909,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 14,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4097,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4098] = {
+		mark = 20210909,
+		type = 74,
+		login_pop = 0,
+		config_id = 4098,
+		is_show = 12,
+		title_res_tag = "JapanV2_frame",
+		id = 4098,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV2framePage",
+			ui_name = "JapanV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4100] = {
+		mark = 20210909,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 4100,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4100,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4101] = {
+		mark = 20210909,
+		page_info = "",
+		type = 34,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 4101,
+		config_data = {
+			4
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 970703
 		}
 	},
 	[2001] = {
@@ -6321,6 +6544,12 @@ pg.activity_template = {
 		4088,
 		4089,
 		4093,
+		4095,
+		4096,
+		4097,
+		4098,
+		4100,
+		4101,
 		2001,
 		2002,
 		2003,
