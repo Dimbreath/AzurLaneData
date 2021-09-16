@@ -3869,6 +3869,118 @@ pg.ship_skin_template_19 = {
 			}
 		}
 	},
+	[9707030] = {
+		name = "Souryuu META",
+		ship_group = 970703,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "I am Souryuu of the Sakura Empire's 2nd CarDiv. Let's skip the formalities and get to work right away.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "canglong_alter",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 9707030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "canglong_alter",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 15,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.07,
+					1.53,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.1,
+					1.55,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					-0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.01,
+					1.56,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		name = "Neptune",
 		ship_group = 1010001,
@@ -7696,114 +7808,6 @@ pg.ship_skin_template_19 = {
 						{
 							-0.625,
 							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[10600031] = {
-		name = "Springside Mist",
-		ship_group = 1060003,
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "I was amazed to see the port had such a scenic place as this... Truly, you can't go without taking this view in. Right, Commander?",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xia_2_DOA",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "1102",
-		shop_type_id = 6,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "doa_huanzhuang",
-		spine_offset = "",
-		bg = "142",
-		special_effects = "",
-		skin_type = 0,
-		id = 10600031,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xia_2_DOA",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70446,
-		voice_actor = 250,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.554,
-					1.084,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.473,
-					1.041,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.004,
-					0.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.429,
-							2.543,
 							0.14
 						}
 					}
