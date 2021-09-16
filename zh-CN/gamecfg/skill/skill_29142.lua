@@ -7,7 +7,17 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 79142,
+					weapon_id = 79772,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 79774,
 					emitter = "BattleBulletEmitter"
 				}
 			}
@@ -35,7 +45,17 @@ return {
 			type = "BattleSkillFire",
 			target_choise = "TargetNil",
 			arg_list = {
-				weapon_id = 79142,
+				weapon_id = 79772,
+				emitter = "BattleBulletEmitter"
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
+			arg_list = {
+				weapon_id = 79774,
 				emitter = "BattleBulletEmitter"
 			}
 		}

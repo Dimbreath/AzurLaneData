@@ -11,7 +11,7 @@ return {
 	desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:18}II",
 	stack = 1,
 	color = "red",
-	icon = 29000,
+	icon = 29140,
 	last_effect = "",
 	effect_list = {
 		{
@@ -20,6 +20,7 @@ return {
 				"onFire"
 			},
 			arg_list = {
+				gunnerBonus = true,
 				countTarget = 10,
 				countType = 29140,
 				index = {

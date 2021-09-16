@@ -1131,5 +1131,25 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "凉本秋穗",
 		code = 283
+	},
+	{
+		actor_name = "早见沙织",
+		code = 284
+	},
+	{
+		actor_name = "河井晴菜",
+		code = 285
+	},
+	{
+		actor_name = "户田惠",
+		code = 286
+	},
+	{
+		actor_name = "野口瑠璃子",
+		code = 287
+	},
+	{
+		actor_name = "芹泽优",
+		code = 288
 	}
 }

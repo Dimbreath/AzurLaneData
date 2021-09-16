@@ -22,7 +22,39 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4104",
+		type = 3,
+		id = 2,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2021,
+					9,
 					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					3
 				},
 				{
 					23,
@@ -34,12 +66,12 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
-		pic = "temp2",
+		id = 3,
+		pic = "temp3",
 		param = {
-			"metacharacter",
+			"scene get boat",
 			{
-				autoOpenShipConfigID = 9707030
+				projectName = "new"
 			}
 		},
 		time = {
@@ -47,7 +79,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					9
+					16
 				},
 				{
 					0,
@@ -58,8 +90,114 @@ pg.activity_banner = {
 			{
 				{
 					2021,
+					10,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
 					9,
 					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					3
 				},
 				{
 					23,
@@ -72,8 +210,8 @@ pg.activity_banner = {
 	{
 		param = "4096",
 		type = 3,
-		id = 3,
-		pic = "temp3",
+		id = 7,
+		pic = "temp7",
 		time = {
 			{
 				{
@@ -104,8 +242,8 @@ pg.activity_banner = {
 	{
 		param = "4098",
 		type = 3,
-		id = 4,
-		pic = "temp4",
+		id = 8,
+		pic = "temp8",
 		time = {
 			{
 				{
@@ -134,19 +272,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
-		param = {
-			"scene skinshop",
-			{}
-		},
+		param = "",
+		type = 9,
+		id = 9,
+		pic = "temp99",
 		time = {
 			{
 				{
 					2021,
 					9,
-					2
+					16
 				},
 				{
 					0,
@@ -157,8 +292,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					9,
-					15
+					10,
+					13
 				},
 				{
 					23,
@@ -169,80 +304,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4093",
-		type = 3,
-		id = 6,
-		pic = "temp6",
+		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		type = 10,
+		id = 10,
+		pic = "guihuagao",
 		time = {
-			{
-				{
-					2021,
-					9,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2021,
 					9,
 					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[9] = {
-		param = "",
-		type = 9,
-		id = 9,
-		pic = "temp99",
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[10] = {
-		param = "泡面|倒入热水等待五分钟，美味的泡面就完成啦！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		type = 10,
-		id = 10,
-		pic = "paomian",
-		time = {
-			{
-				{
-					2021,
-					9,
-					9
 				},
 				{
 					0,
@@ -253,8 +324,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					9,
-					16
+					10,
+					3
 				},
 				{
 					23,
@@ -271,6 +342,8 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
+		7,
+		8,
 		9,
 		10
 	}

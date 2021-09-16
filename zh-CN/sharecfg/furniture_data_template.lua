@@ -5129,6 +5129,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[208] = {
+		can_rotate = 0,
+		describe = "仿照“龙宫城”主殿制作的微缩模型，给人以庄严而神秘的印象。——授予在「碧海光粼」行动中获得杰出成就者的纪念章",
+		gain_by = "碧海光粼",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/dfxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "龙宫纪念章",
+		advice = 0,
+		icon = "dfxunzhangicon",
+		id = 208,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -67039,7 +67076,6 @@ pg.furniture_data_template = {
 		effect = "",
 		is_3d_obj = 0,
 		tag = 1,
-		spine_extra = "",
 		level = 1,
 		rarity = 4,
 		themeId = 49,
@@ -67060,6 +67096,19 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -98799,6 +98848,696 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[83001] = {
+		can_rotate = 0,
+		describe = "祭典时间~让夜晚热闹起来啾！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/dibanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "祭典之夜地板",
+		advice = 0,
+		icon = "dibanxrjicon",
+		id = 83001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83002] = {
+		can_rotate = 0,
+		describe = "祭典时间~让夜晚热闹起来啾！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/qiangbixrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "祭典之夜墙纸",
+		advice = 0,
+		icon = "qiangbixrjicon",
+		id = 83002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83101] = {
+		can_rotate = 0,
+		describe = "灯笼上并没有印着赞助商的图标。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/denglongzuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭典灯笼(夜)",
+		advice = 0,
+		icon = "denglongzuxrjicon",
+		id = 83101,
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83102] = {
+		can_rotate = 0,
+		describe = "咚咚咚，天下无双大花灯啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/huadengxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾花灯",
+		advice = 0,
+		icon = "huadengxrjicon",
+		id = 83102,
+		comfortable = 3,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83103] = {
+		can_rotate = 0,
+		describe = "快来挑战一把捞金鱼啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/jinyutanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 83,
+		count = 1,
+		name = "啾啾金鱼摊",
+		advice = 0,
+		id = 83103,
+		icon = "jinyutanxrjicon",
+		comfortable = 2,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71,
+					45.2
+				},
+				{
+					1,
+					1
+				},
+				"xrj/jinyutanxrj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83104] = {
+		can_rotate = 0,
+		describe = "没有找不到，只有想不到啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/mianjutanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾面具摊",
+		advice = 0,
+		icon = "mianjutanxrjicon",
+		id = 83104,
+		comfortable = 2,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83105] = {
+		can_rotate = 0,
+		describe = "纷繁夜色中的一丝宁静。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/niaojuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鸟居(夜)",
+		advice = 0,
+		icon = "niaojuxrjicon",
+		id = 83105,
+		comfortable = 3,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83106] = {
+		can_rotate = 0,
+		describe = "为祭典氛围添加几分美好。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shanduixrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭典伞堆",
+		advice = 0,
+		icon = "shanduixrjicon",
+		id = 83106,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83107] = {
+		can_rotate = 0,
+		describe = "要绑许愿纸条请往那边走啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shensheshuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "神社大树(夜)",
+		advice = 0,
+		icon = "shensheshuxrjicon",
+		id = 83107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83109] = {
+		can_rotate = 1,
+		describe = "心诚则灵，心诚则灵！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shenshexrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾神社",
+		advice = 0,
+		icon = "shenshexrjicon",
+		id = 83109,
+		comfortable = 3,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83110] = {
+		can_rotate = 0,
+		describe = "有、有点重啾…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shenyuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭典神轿",
+		advice = 0,
+		icon = "shenyuxrjicon",
+		id = 83110,
+		comfortable = 2,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83111] = {
+		can_rotate = 0,
+		describe = "悠悠然散发着微光。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shidengxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "祭典石灯",
+		advice = 0,
+		icon = "shidengxrjicon",
+		id = 83111,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83114] = {
+		can_rotate = 0,
+		describe = "纷繁夜色中的一丝宁静。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/songshuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "神社松树(夜)",
+		advice = 0,
+		icon = "songshuxrjicon",
+		id = 83114,
+		comfortable = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83116] = {
+		can_rotate = 0,
+		describe = "最多可以选3种啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/xiaochitanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭典小吃摊",
+		advice = 0,
+		icon = "xiaochitanxrjicon",
+		id = 83116,
+		comfortable = 2,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83117] = {
+		can_rotate = 0,
+		describe = "不要随便丢硬币啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/xiaochizixrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭典水池",
+		advice = 0,
+		icon = "xiaochizixrjicon",
+		id = 83117,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83118] = {
+		can_rotate = 0,
+		describe = "跳起来啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 83,
+		icon = "wutaixrjicon",
+		count = 1,
+		name = "祭典大舞台",
+		id = 83118,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			10,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AxrjB",
+				"normal"
+			},
+			{
+				"AxrjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"AxrjCharControl",
+				"AxrjCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[83119] = {
+		can_rotate = 0,
+		describe = "约上那个她一起去看烟花吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 83,
+		count = 1,
+		name = "祭典烟花",
+		advice = 0,
+		id = 83119,
+		icon = "yanhuaxrjicon",
+		comfortable = 4,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bxrj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -98908,6 +99647,7 @@ pg.furniture_data_template = {
 		203,
 		205,
 		206,
+		208,
 		100001,
 		100002,
 		100003,
@@ -101027,6 +101767,23 @@ pg.furniture_data_template = {
 		82122,
 		82123,
 		82124,
-		82125
+		82125,
+		83001,
+		83002,
+		83101,
+		83102,
+		83103,
+		83104,
+		83105,
+		83106,
+		83107,
+		83109,
+		83110,
+		83111,
+		83114,
+		83116,
+		83117,
+		83118,
+		83119
 	}
 }

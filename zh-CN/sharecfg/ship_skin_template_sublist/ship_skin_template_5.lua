@@ -1,5 +1,201 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[108032] = {
+		ship_group = 10803,
+		name = "五彩斑斓的宴会",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "五颜六色的气球、五颜六色的花，还有五颜六色的好吃的东西！嘿嘿，晚会真棒啊！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "jiqi_3",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "135",
+		skin_type = 4,
+		id = 108032,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jiqi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 199,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.265,
+					1.146,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.433,
+							2.442,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[108040] = {
+		ship_group = 10804,
+		name = "蓝鳃鱼",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "猫鲨级潜艇蓝鳃鱼，舷号SS-242",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lansaiyu",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 7,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 108040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lansaiyu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 227,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.734,
+					1.063,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.004,
+					-0.037,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.497,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[108041] = {
 		ship_group = 10804,
 		name = "见习王牌守备！",
@@ -7825,230 +8021,6 @@ pg.ship_skin_template_5 = {
 						{
 							-0.32,
 							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201331] = {
-		ship_group = 20133,
-		name = "港区医院体验周?",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "虽然说是配合港区医院进行的特别演习…还是感觉有些奇怪…啊哈哈…比起被人照顾，感觉我应该更适合当照顾人的那边呢……",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "yikaluosi_3",
-		air_bullet_skin = "",
-		shop_type_id = 15,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "1101",
-		skin_type = 4,
-		id = 201331,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "yikaluosi_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70396,
-		voice_actor = 18,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.163,
-					1.072,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					1.096,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.019,
-					0.003,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.238,
-					1.108,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.404,
-							2.417,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201332] = {
-		ship_group = 20133,
-		name = "海底探险摄影会",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "「今天的海底探险就要开始咯，会不会发现什么特别的东西呢~？」——呵呵，是这种主题的摄影吗，指挥官？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "yikaluosi_2",
-		air_bullet_skin = "",
-		shop_type_id = 6,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "134",
-		skin_type = 4,
-		id = 201332,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "yikaluosi_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70414,
-		voice_actor = 18,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.163,
-					1.072,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					1.096,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.019,
-					0.003,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.238,
-					1.108,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.404,
-							2.417,
 							0
 						}
 					}
