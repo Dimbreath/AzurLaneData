@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
