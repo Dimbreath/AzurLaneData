@@ -95,7 +95,8 @@ SCENE = {
 	AIRFORCE_DRAGONEMPERY = "scene AirForceOfDragonEmpery",
 	BILLBOARD = "scene billboard",
 	METACHARACTER = "metacharacter",
-	MILITARYEXERCISE = "scene militaryexercise"
+	MILITARYEXERCISE = "scene militaryexercise",
+	AMUSEMENT_PARK2 = "amusement park 2"
 }
 
 function SCENE.SetSceneInfo(slot0, slot1)
@@ -359,6 +360,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.AMUSEMENT_PARK then
 		slot0.mediator = AmusementParkMediator
 		slot0.viewComponent = AmusementParkScene
+	elseif slot1 == SCENE.AMUSEMENT_PARK2 then
+		slot0.mediator = AmusementParkMediator
+		slot0.viewComponent = AmusementParkScene2
 	elseif slot1 == SCENE.REDPACKEY then
 		slot0.mediator = RedPacketMediator
 		slot0.viewComponent = RedPacketLayer

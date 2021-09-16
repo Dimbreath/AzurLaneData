@@ -281,11 +281,11 @@ pg.item_data_frame = {
 	},
 	[316] = {
 		name = "Ryugu's Acknowledgment",
-		gain_by = "",
+		gain_by = "碧海光粼",
 		time_second = 0,
 		id = 316,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\" Given to commanders who participated in the \"Upon the Shimmering Blue\" event.</color>",
 		scene = {}
 	},
 	[501] = {

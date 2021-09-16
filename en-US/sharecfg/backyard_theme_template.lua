@@ -2914,6 +2914,39 @@ pg.backyard_theme_template = {
 			82123
 		}
 	},
+	[83] = {
+		Cfg_1 = 5,
+		name = "Manjuu Summer Festival ",
+		desc = "Come experience the food and culture under the summer moonlight. ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 84,
+		id = 83,
+		icon = "xrjthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			83001,
+			83002,
+			83101,
+			83102,
+			83103,
+			83104,
+			83105,
+			83106,
+			83107,
+			83109,
+			83110,
+			83111,
+			83114,
+			83116,
+			83117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2978,6 +3011,7 @@ pg.backyard_theme_template = {
 		79,
 		80,
 		81,
-		82
+		82,
+		83
 	}
 }

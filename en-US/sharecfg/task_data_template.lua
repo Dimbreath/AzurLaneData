@@ -22170,6 +22170,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5701] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 5506,
+		type = 5,
+		name = "Guess Who!",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5702",
+		visibility = 1,
+		story_id = "MABUERHEIDE1",
+		target_id_for_client = 50003,
+		id = 5701,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5702] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5507,
+		type = 5,
+		name = "Smile for the Camera",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5703",
+		visibility = 1,
+		story_id = "MABUERHEIDE2",
+		target_id_for_client = 0,
+		id = 5702,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5703] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5508,
+		type = 5,
+		name = "Girl Talk",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Marblehead in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5704",
+		visibility = 1,
+		story_id = "MABUERHEIDE3",
+		target_id_for_client = 10227,
+		id = 5703,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10227",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5704] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5509,
+		type = 5,
+		name = "Sweet Tooth",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Marblehead in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5705",
+		visibility = 1,
+		story_id = "MABUERHEIDE4",
+		target_id_for_client = 10227,
+		id = 5704,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10227",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5705] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5510,
+		type = 5,
+		name = "Seashells by the Seashore",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Marblehead.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5706",
+		visibility = 1,
+		story_id = "MABUERHEIDE5",
+		target_id_for_client = 10227,
+		id = 5705,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10227",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5706] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5511,
+		type = 5,
+		name = "Sunlit Backstory",
+		count_inherit = 0,
+		desc = "Fully Limit Break Marblehead.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5707",
+		visibility = 1,
+		story_id = "MABUERHEIDE6",
+		target_id_for_client = 102274,
+		id = 5706,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102274",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5707] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5512,
+		type = 5,
+		name = "Toward a New Tomorrow",
+		count_inherit = 0,
+		desc = "Get Marblehead to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "mabuerheide",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "MABUERHEIDE7",
+		target_id_for_client = 10227,
+		id = 5707,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10227",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -115702,6 +115965,1654 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16888] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95953,
+		type = 6,
+		name = "『日系V2』角色收集：岛风",
+		count_inherit = 0,
+		desc = "Obtain the destroyer Shimakaze. ",
+		target_id_2 = "",
+		sub_type = 1014,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16888,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			30129
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				800
+			}
+		}
+	},
+	[16889] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95954,
+		type = 6,
+		name = "『日系V2』角色收集：葛城",
+		count_inherit = 0,
+		desc = "Fully Limit Break {namecode:208}",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 307124,
+		id = 16889,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "307124",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				600
+			}
+		}
+	},
+	[16890] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95955,
+		type = 6,
+		name = "『日系V2』角色收集：筑摩",
+		count_inherit = 0,
+		desc = "Fully Limit Break {namecode:62}",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 303064,
+		id = 16890,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "303064",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				600
+			}
+		}
+	},
+	[16891] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95956,
+		type = 6,
+		name = "『日系V2』角色收集：由良",
+		count_inherit = 0,
+		desc = "Fully Limit Break {namecode:206}",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 302074,
+		id = 16891,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "302074",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				400
+			}
+		}
+	},
+	[16892] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95957,
+		type = 6,
+		name = "『日系V2』角色收集：海风",
+		count_inherit = 0,
+		desc = "Fully Limit Break {namecode:150}",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301474,
+		id = 16892,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301474",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				400
+			}
+		}
+	},
+	[16893] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95958,
+		type = 6,
+		name = "『日系V2』角色收集：山风",
+		count_inherit = 0,
+		desc = "Fully Limit Break {namecode:207}",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301484,
+		id = 16893,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301484",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				400
+			}
+		}
+	},
+	[16894] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95959,
+		type = 6,
+		name = "『日系V2』角色刷关：电",
+		count_inherit = 0,
+		desc = "Clear A2 or C2 10 times with {namecode:14} at max Limit Break in your fleet. {namecode:14} must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16894,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1560113,
+			1562113
+		},
+		target_id_2 = {
+			301124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16895] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95960,
+		type = 6,
+		name = "『日系V2』角色刷关：雷",
+		count_inherit = 0,
+		desc = "Clear A3 or C3 10 times with {namecode:13} at max Limit Break in your fleet. {namecode:13} must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16895,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1560213,
+			1562213
+		},
+		target_id_2 = {
+			301114
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16896] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95961,
+		type = 6,
+		name = "『日系V2』角色刷关：神通",
+		count_inherit = 0,
+		desc = "Clear B2 or D2 10 times with {namecode:39} at max Limit Break in your fleet. {namecode:39} must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16896,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1561113,
+			1563113
+		},
+		target_id_2 = {
+			302134
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16897] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95962,
+		type = 6,
+		name = "『日系V2』角色刷关：土佐",
+		count_inherit = 0,
+		desc = "Clear B3 or D3 10 times with Nagato at max Limit Break in your fleet. Nagato must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16897,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1561213,
+			1563213
+		},
+		target_id_2 = {
+			305054
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59234,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16969] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95999,
+		type = 6,
+		name = "『岛风活动』通关EX",
+		count_inherit = 0,
+		desc = "Clear E.X.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1560051,
+		id = 16969,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1560051",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16970] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96000,
+		type = 36,
+		name = "『岛风活动』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16970,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59235,
+				300
+			}
+		}
+	},
+	[16971] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96001,
+		type = 36,
+		name = "『岛风活动』-日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16971,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59235,
+				300
+			}
+		}
+	},
+	[16972] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96002,
+		type = 36,
+		name = "『岛风活动』-日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 182,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16972,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59235,
+				150
+			}
+		}
+	},
+	[16973] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96003,
+		type = 6,
+		name = "『岛风活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16974",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16973,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560001,
+			1560021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59235,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16974] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96004,
+		type = 6,
+		name = "『岛风活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16975",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16974,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560002,
+			1560022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59235,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16975] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96005,
+		type = 6,
+		name = "『岛风活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16976",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16975,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560003,
+			1560023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59235,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16976] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96006,
+		type = 6,
+		name = "『岛风活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16977",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16976,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560004,
+			1560024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59235,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16977] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96007,
+		type = 6,
+		name = "『岛风活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16978",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16977,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560005,
+			1560025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59235,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16978] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96008,
+		type = 6,
+		name = "『岛风活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16979",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16978,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560006,
+			1560026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59235,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16979] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96009,
+		type = 6,
+		name = "『岛风活动』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1560041,
+		id = 16979,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1560041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16980] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96010,
+		type = 6,
+		name = "『岛风活动』通关D3",
+		count_inherit = 0,
+		desc = "Clear D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1560026,
+		id = 16980,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1560026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				208,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16981] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96011,
+		type = 6,
+		name = "『岛风活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16982",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16981,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560001,
+			1560021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16982] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96012,
+		type = 6,
+		name = "『岛风活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16983",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16982,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560002,
+			1560022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16983] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96013,
+		type = 6,
+		name = "『岛风活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16984",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16983,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560003,
+			1560023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16984] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96014,
+		type = 6,
+		name = "『岛风活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16985",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16984,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560004,
+			1560024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16985] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96015,
+		type = 6,
+		name = "『岛风活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16986",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16985,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560005,
+			1560025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16986] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96016,
+		type = 6,
+		name = "『岛风活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16986,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1560006,
+			1560026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16987] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96056,
+		type = 26,
+		name = "日服四周年后山活动1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16987,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			},
+			{
+				8,
+				59237,
+				15
+			}
+		}
+	},
+	[16988] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96057,
+		type = 26,
+		name = "日服四周年后山活动2",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16988,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			},
+			{
+				8,
+				59237,
+				15
+			}
+		}
+	},
+	[16989] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96058,
+		type = 26,
+		name = "日服四周年后山活动3",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16989,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50005,
+				3
+			},
+			{
+				8,
+				59237,
+				15
+			}
+		}
+	},
+	[16990] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96059,
+		type = 26,
+		name = "日服四周年后山活动4",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16990,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				8,
+				59237,
+				15
+			}
+		}
+	},
+	[16991] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96060,
+		type = 26,
+		name = "日服四周年后山活动5",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16991,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			},
+			{
+				8,
+				59237,
+				15
+			}
+		}
+	},
+	[16992] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96061,
+		type = 26,
+		name = "日服四周年后山活动6",
+		count_inherit = 0,
+		desc = "Complete 2 Commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16992,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				2
+			},
+			{
+				8,
+				59237,
+				15
+			}
+		}
+	},
+	[16993] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 96062,
+		type = 26,
+		name = "日服四周年后山活动7",
+		count_inherit = 0,
+		desc = "Enhance gear 2 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16993,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50006,
+				3
+			},
+			{
+				8,
+				59237,
+				10
+			}
+		}
+	},
+	[17037] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券1",
+		count_inherit = 0,
+		desc = "Destroy a total of 50 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17037,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17038] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券2",
+		count_inherit = 0,
+		desc = "Destroy a total of 100 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17038,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17039] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券3",
+		count_inherit = 0,
+		desc = "Destroy a total of 150 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17039,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17040] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券4",
+		count_inherit = 0,
+		desc = "Destroy a total of 200 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17040,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17041] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券5",
+		count_inherit = 0,
+		desc = "Destroy a total of 250 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17041,
+		target_num = 250,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17042] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券6",
+		count_inherit = 0,
+		desc = "Destroy a total of 300 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17042,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17043] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96143,
+		type = 6,
+		name = "『日服四周年』击沉敌舰送摇摇券7",
+		count_inherit = 0,
+		desc = "Destroy a total of 350 enemy ships",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17043,
+		target_num = 350,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59239,
+				2
+			}
+		}
+	},
+	[17044] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96150,
+		type = 6,
+		name = "『岛风活动』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in once.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17044,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				221,
+				2
+			}
+		}
+	},
+	[17045] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 96161,
+		type = 6,
+		name = "『岛风活动』60级送彩布里",
+		count_inherit = 0,
+		desc = "Commander level has reached 60 (Until 11/11, 23：59）",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 17045,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100021,
+				1
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -132504,6 +134415,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5695,
 		5696,
 		5697,
+		5701,
+		5702,
+		5703,
+		5704,
+		5705,
+		5706,
+		5707,
 		6001,
 		6002,
 		6003,
@@ -135068,6 +136986,50 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16885,
 		16886,
 		16887,
+		16888,
+		16889,
+		16890,
+		16891,
+		16892,
+		16893,
+		16894,
+		16895,
+		16896,
+		16897,
+		16969,
+		16970,
+		16971,
+		16972,
+		16973,
+		16974,
+		16975,
+		16976,
+		16977,
+		16978,
+		16979,
+		16980,
+		16981,
+		16982,
+		16983,
+		16984,
+		16985,
+		16986,
+		16987,
+		16988,
+		16989,
+		16990,
+		16991,
+		16992,
+		16993,
+		17037,
+		17038,
+		17039,
+		17040,
+		17041,
+		17042,
+		17043,
+		17044,
+		17045,
 		31013,
 		31014,
 		31015,
