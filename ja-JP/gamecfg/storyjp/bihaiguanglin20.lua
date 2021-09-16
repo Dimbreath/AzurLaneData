@@ -1,7 +1,6 @@
 return {
-	fadeOut = 1.5,
+	fadeType = 1,
 	mode = 2,
-	fadeType = 2,
 	once = true,
 	id = "BIHAIGUANGLIN20",
 	fadein = 1.5,
@@ -10,20 +9,10 @@ return {
 			expression = 3,
 			side = 2,
 			dir = 1,
-			bgmDelay = 1,
 			bgm = "battle-boss-longgong",
 			actor = 303060,
 			nameColor = "#a9f548",
 			say = "島風の話によると、先に進むには仕掛けを破壊するか解くかするしかないようです",
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +57,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "そう…効率悪いわね",
 			typewriter = {
@@ -98,7 +87,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "なくはないわ。あの建物に閉じ込められたときから、どうすればあの仕掛けを破壊できるか考えていたの",
 			typewriter = {
@@ -113,7 +102,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "助けられた恩もあるし、ここは特別に披露してあげようかしら",
 			typewriter = {
@@ -154,7 +143,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "説明するより直接見せたほうがいいわね~",
 			typewriter = {
@@ -169,7 +158,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "はい、ここからあの仕掛けまで一直線に届くよう進路を空けて～",
 			typewriter = {
@@ -184,7 +173,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "まだ足りないわ。もっと、もっとよ～~",
 			typewriter = {
@@ -215,7 +204,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "もう少し空けて。そうそう、駿河のようにすればいいわよ",
 			typewriter = {
@@ -225,16 +214,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					y = 45,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -271,7 +250,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "もうちょっと待ってて。んーそろそろいいかな？",
 			typewriter = {
@@ -286,7 +265,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "ううん、安全のためにもうちょっと遠く離れたほうがいいかしら",
 			typewriter = {
@@ -296,16 +275,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					y = 45,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		}
 	}

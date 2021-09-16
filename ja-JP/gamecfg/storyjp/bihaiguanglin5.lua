@@ -44,7 +44,7 @@ return {
 			paintingNoise = true,
 			dir = 1,
 			actor = 307080,
-			nameColor = "#ffff4d",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "……妾の想いを理解してくれる、大事な存在であり、そして…",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			paintingNoise = true,
 			dir = 1,
 			actor = 307080,
-			nameColor = "#ffff4d",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "妾の「夢」がもう限界と言ふか……",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			paintingNoise = true,
 			dir = 1,
 			actor = 307080,
-			nameColor = "#ffff4d",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "……短い夢なれど、このカケラはずっと大切に……ご健勝を",
 			typewriter = {
@@ -290,22 +290,23 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_nepu2",
+			side = 2,
 			dir = 1,
+			bgmDelay = 2,
 			bgm = "battle-pacific",
 			nameColor = "#a9f548",
 			say = "重桜艦隊、信濃の輿",
 			flashout = {
-				dur = 0.15,
+				dur = 1,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.2,
-				dur = 0.2,
+				delay = 1,
+				dur = 1,
 				alpha = {
 					1,
 					0
@@ -354,7 +355,7 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -471,12 +472,11 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 303060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			dir = 1,
-			actor = 303060,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "山風によると「竜宮城」のような施設だそうです",
 			typewriter = {
 				speed = 0.05,
@@ -587,7 +587,7 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,

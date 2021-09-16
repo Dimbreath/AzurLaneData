@@ -346,7 +346,7 @@ return {
 			nameColor = "#a9f548",
 			say = "重桜本島・信濃のお屋敷",
 			flashout = {
-				dur = 0.5,
+				dur = 1,
 				black = true,
 				alpha = {
 					0,
@@ -354,8 +354,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
-				dur = 0.5,
+				delay = 1,
+				dur = 1,
 				black = true,
 				alpha = {
 					1,
@@ -538,7 +538,7 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
@@ -724,7 +724,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			bgmDelay = 1,
+			bgmDelay = 0.5,
 			bgName = "bg_story_tiancheng7",
 			bgm = "cw-story",
 			actor = 301290,
@@ -849,7 +849,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			actor = 307080,
-			actorName = "???",
+			actorName = "？？？",
 			say = "…………ふぅ……",
 			typewriter = {
 				speed = 0.05,
@@ -894,7 +894,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			actor = 307080,
-			actorName = "???",
+			actorName = "？？？",
 			say = "汝は…なにゆえ藪の中に……？",
 			typewriter = {
 				speed = 0.05,
@@ -924,7 +924,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
@@ -947,7 +947,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			actor = 307080,
-			actorName = "???",
+			actorName = "？？？",
 			say = "信濃を…見たことは…？",
 			typewriter = {
 				speed = 0.05,
@@ -1000,7 +1000,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			actor = 307080,
-			actorName = "???",
+			actorName = "？？？",
 			say = "汝は…島風であろう？",
 			typewriter = {
 				speed = 0.05,
@@ -1045,7 +1045,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			actor = 307080,
-			actorName = "???",
+			actorName = "？？？",
 			say = "駿河とは…仲が良い…？",
 			typewriter = {
 				speed = 0.05,
@@ -1074,7 +1074,7 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
@@ -1109,7 +1109,7 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			expression = 5,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
@@ -1353,7 +1353,7 @@ return {
 				{
 					y = -2500,
 					type = "move",
-					delay = 1.2,
+					delay = 0.8,
 					dur = 1,
 					x = 0
 				}

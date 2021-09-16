@@ -121,6 +121,7 @@ return {
 			dir = 1,
 			actor = 301480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "信濃様のお屋敷の裏庭に迷い込んで、そこで信濃様と会ったと聞いたよ！",
 			typewriter = {
 				speed = 0.05,
@@ -138,6 +139,7 @@ return {
 			dir = 1,
 			actor = 301480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "島風、すごい！",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +179,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -195,11 +197,12 @@ return {
 			}
 		},
 		{
-			actor = 301470,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それに、畏れ多いことに信濃様の前で気を失ったなんて…",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +231,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -246,6 +249,7 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -290,7 +294,7 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -314,6 +318,7 @@ return {
 			dir = 1,
 			actor = 301480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうだね…敵がいないね…",
 			typewriter = {
 				speed = 0.05,
@@ -331,6 +336,7 @@ return {
 			dir = 1,
 			actor = 301470,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "でも今日はいい天気ですよ。空は快晴、波も風も気持ちよく、それにカモメも――",
 			typewriter = {
 				speed = 0.05,
@@ -437,7 +443,7 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
