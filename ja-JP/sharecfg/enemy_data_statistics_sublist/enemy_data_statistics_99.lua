@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.enemy_data_statistics_99 = {
+	[111040] = {
+		cannon = 180,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		base = 80,
+		dodge = 0,
+		torpedo_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 2,
+		hit = 208,
+		antisub_growth = 0,
+		rarity = 1,
+		luck_growth = 0,
+		torpedo = 450,
+		durability = 450,
+		armor_growth = 0,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		speed = 30,
+		luck = 0,
+		hit_growth = 0,
+		battle_unit_type = 15,
+		id = 111040,
+		antiaircraft_growth = 0,
+		armor = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			330013
+		}
+	},
+	[111041] = {
+		cannon = 320,
+		name = "强化自爆船",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 80,
+		durability = 1800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 30,
+		luck = 0,
+		id = 111041,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 208,
+		torpedo = 600,
+		durability_growth = 2550,
+		luck_growth = 0,
+		battle_unit_type = 15,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			330013
+		}
+	},
 	[111043] = {
 		cannon = 320,
 		air = 0,
@@ -517,92 +594,6 @@ pg.enemy_data_statistics_99 = {
 			100201,
 			100531,
 			100421
-		}
-	},
-	[100005] = {
-		cannon = 100,
-		name = "コンゴウ",
-		air = 0,
-		cannon_growth = 1800,
-		antisub = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 3,
-		torpedo = 0,
-		antiaircraft_growth = 3744,
-		reload_growth = 0,
-		dodge_growth = 66,
-		hit_growth = 210,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 5,
-		speed_growth = 0,
-		base = 219,
-		durability = 1200,
-		armor_growth = 0,
-		durability_growth = 76000,
-		antiaircraft = 45,
-		speed = 18,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 100005,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		equipment_list = {
-			100201,
-			100541,
-			313072
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[100006] = {
-		cannon = 100,
-		name = "ハルナ",
-		air = 0,
-		cannon_growth = 1800,
-		antisub = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 3,
-		torpedo = 0,
-		antiaircraft_growth = 3744,
-		reload_growth = 0,
-		dodge_growth = 66,
-		hit_growth = 210,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 5,
-		speed_growth = 0,
-		base = 221,
-		durability = 1200,
-		armor_growth = 0,
-		durability_growth = 72000,
-		antiaircraft = 45,
-		speed = 18,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 100006,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		equipment_list = {
-			100201,
-			100541,
-			313072
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
 		}
 	}
 }

@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.enemy_data_statistics_52 = {
+	[605300] = {
+		name = "キリシマ",
+		rarity = 4,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 0,
+		armor = 0,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		antiaircraft = 280,
+		cannon = 390,
+		dodge_growth = 0,
+		star = 5,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 222,
+		durability = 22080,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 605300,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 28,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					-0.96,
+					0.87,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100202,
+			100352,
+			316061,
+			316055,
+			316056,
+			316057,
+			316058
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
+	[605400] = {
+		cannon = 300,
+		name = "ユウダチ",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 5,
+		antiaircraft = 252,
+		dodge_growth = 0,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 167,
+		durability = 25680,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 37,
+		luck = 0,
+		id = 605400,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 52,
+		reload_growth = 0,
+		hit = 28,
+		torpedo = 656,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100242,
+			100342,
+			316504,
+			316505,
+			316506
+		}
+	},
 	[7001] = {
 		cannon = 3,
 		name = "量産型カゲロウ級",
@@ -586,83 +691,6 @@ pg.enemy_data_statistics_52 = {
 		equipment_list = {
 			317031,
 			100432
-		}
-	},
-	[7015] = {
-		cannon = 60,
-		name = "アカツキ",
-		air = 0,
-		cannon_growth = 500,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 18,
-		torpedo = 100,
-		antiaircraft_growth = 2200,
-		reload_growth = 0,
-		dodge_growth = 360,
-		hit_growth = 210,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		speed_growth = 0,
-		base = 161,
-		durability = 2600,
-		armor_growth = 0,
-		durability_growth = 36000,
-		antiaircraft = 24,
-		speed = 33,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 7015,
-		battle_unit_type = 50,
-		torpedo_growth = 5000,
-		antisub = 0,
-		equipment_list = {
-			100222,
-			100432
-		}
-	},
-	[7016] = {
-		cannon = 7,
-		name = "量産型センダイ級",
-		hit_growth = 120,
-		speed_growth = 0,
-		antiaircraft_growth = 1584,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 19,
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 110,
-		durability = 600,
-		armor_growth = 0,
-		torpedo_growth = 1422,
-		speed = 15,
-		luck = 0,
-		id = 7016,
-		cannon_growth = 594,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 17,
-		durability_growth = 15428,
-		luck_growth = 0,
-		battle_unit_type = 25,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			317028,
-			317038
 		}
 	}
 }

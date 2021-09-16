@@ -34,6 +34,11 @@ slot0.AllShipType = {
 	12,
 	19
 }
+slot0.SpecificTypeTable = {
+	torpedo = "TORP",
+	auxiliary = "AUX",
+	gunner = "GNR"
+}
 
 function slot0.Type2Name(slot0)
 	return pg.ship_data_by_type[slot0].type_name

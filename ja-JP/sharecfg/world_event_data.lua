@@ -67211,7 +67211,7 @@ pg.world_event_data = {
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
-		event_sight = -1,
+		event_sight = 50,
 		icon = "dengta_liang",
 		special_enemy = 0,
 		infection_value = 0,
@@ -67224,7 +67224,6 @@ pg.world_event_data = {
 		id = 1000007,
 		event_op = {},
 		effect = {
-			10000054,
 			10000055
 		},
 		grid = {

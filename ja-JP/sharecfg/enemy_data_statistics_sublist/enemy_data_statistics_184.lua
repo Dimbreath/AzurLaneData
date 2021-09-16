@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.enemy_data_statistics_184 = {
+	[11800444] = {
+		cannon = 47,
+		prefab = "srBB2",
+		air = 0,
+		cannon_growth = 2200,
+		armor = 0,
+		reload = 150,
+		base = 126,
+		dodge = 0,
+		torpedo_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 2,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 5270,
+		armor_growth = 0,
+		durability_growth = 70400,
+		antiaircraft = 135,
+		speed = 15,
+		luck = 0,
+		hit_growth = 144,
+		battle_unit_type = 60,
+		id = 11800444,
+		antisub = 0,
+		antiaircraft_growth = 1400,
+		equipment_list = {
+			1000633,
+			1000637,
+			1000643
+		}
+	},
+	[11800445] = {
+		cannon = 0,
+		prefab = "srCV2",
+		air = 55,
+		cannon_growth = 0,
+		armor = 0,
+		reload = 150,
+		base = 127,
+		dodge = 0,
+		torpedo_growth = 0,
+		air_growth = 2000,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 2,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 4680,
+		armor_growth = 0,
+		durability_growth = 65600,
+		antiaircraft = 150,
+		speed = 15,
+		luck = 0,
+		hit_growth = 144,
+		battle_unit_type = 65,
+		id = 11800445,
+		antisub = 0,
+		antiaircraft_growth = 1800,
+		bound_bone = {
+			cannon = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.07,
+					0.24,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1000647,
+			1000653,
+			1000658,
+			1000663
+		}
+	},
 	[11800446] = {
 		cannon = 45,
 		antisub = 0,
@@ -504,84 +609,6 @@ pg.enemy_data_statistics_184 = {
 		battle_unit_type = 95,
 		id = 11800502,
 		armor = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		}
-	},
-	[11900101] = {
-		cannon = 100,
-		name = "エセックス（手加減）",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 100,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		id = 11900101,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 284,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 200,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 210,
-		base = 339,
-		durability = 1000000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 520,
-		speed = 30,
-		luck = 0,
-		battle_unit_type = 95,
-		antisub = 0,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		}
-	},
-	[11900102] = {
-		cannon = 100,
-		name = "エセックス（集中）",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 100,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		id = 11900102,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 284,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 200,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 210,
-		base = 339,
-		durability = 1000000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 520,
-		speed = 30,
-		luck = 0,
-		battle_unit_type = 95,
-		antisub = 0,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
 		appear_fx = {
 			"bossguangxiao",
 			"appearQ"

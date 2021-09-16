@@ -232,7 +232,6 @@ pg.share_template = {
 		description = "#アズールレーン#",
 		name = "玩家历程MarkII界面分享",
 		deck = 0,
-		hidden_comps = "",
 		move_comps = "",
 		camera = "UICamera",
 		show_comps = "",
@@ -240,6 +239,11 @@ pg.share_template = {
 		qrcode_location = {
 			-50,
 			-269
+		},
+		hidden_comps = {
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/share",
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/foots",
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/back_btn"
 		}
 	},
 	{

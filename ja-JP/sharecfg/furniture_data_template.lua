@@ -4658,6 +4658,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[208] = {
+		can_rotate = 0,
+		describe = "「竜宮のお宝はこれのことですか？…子供だましでひどいですよ駿河殿！」――イベント「駆けよ 碧海の吹き風」に参加した指揮官に贈る",
+		gain_by = "駆けよ 碧海の吹き風",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/dfxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ミクロサイズ竜宮",
+		advice = 0,
+		icon = "dfxunzhangicon",
+		id = 208,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -59775,7 +59812,6 @@ pg.furniture_data_template = {
 		effect = "",
 		is_3d_obj = 0,
 		tag = 1,
-		spine_extra = "",
 		level = 1,
 		rarity = 4,
 		themeId = 49,
@@ -59796,6 +59832,19 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -91466,6 +91515,696 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[83001] = {
+		can_rotate = 0,
+		describe = "母港っ子饅頭のお祭りだピョ！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/dibanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "祭りの床",
+		advice = 0,
+		icon = "dibanxrjicon",
+		id = 83001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83002] = {
+		can_rotate = 0,
+		describe = "母港っ子饅頭のお祭りだピョ！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/qiangbixrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "祭りの壁",
+		advice = 0,
+		icon = "qiangbixrjicon",
+		id = 83002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83101] = {
+		can_rotate = 0,
+		describe = "協賛企業の名前が書いて…いない",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/denglongzuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "お祭り提灯（夜）",
+		advice = 0,
+		icon = "denglongzuxrjicon",
+		id = 83101,
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83102] = {
+		can_rotate = 0,
+		describe = "指揮官御覧の天下饅頭祭りだピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/huadengxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "天下饅頭",
+		advice = 0,
+		icon = "huadengxrjicon",
+		id = 83102,
+		comfortable = 3,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83103] = {
+		can_rotate = 0,
+		describe = "網の薄さが厳しい…む、無実だピョ！？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/jinyutanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 83,
+		count = 1,
+		name = "金魚すくい饅頭",
+		advice = 0,
+		id = 83103,
+		icon = "jinyutanxrjicon",
+		comfortable = 2,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71,
+					45.2
+				},
+				{
+					1,
+					1
+				},
+				"xrj/jinyutanxrj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83104] = {
+		can_rotate = 0,
+		describe = "明石のお面も販売中だにゃ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/mianjutanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "お面屋饅頭",
+		advice = 0,
+		icon = "mianjutanxrjicon",
+		id = 83104,
+		comfortable = 2,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83105] = {
+		can_rotate = 0,
+		describe = "くぐれば、お祭りの境地",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/niaojuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鳥居（夜）",
+		advice = 0,
+		icon = "niaojuxrjicon",
+		id = 83105,
+		comfortable = 3,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83106] = {
+		can_rotate = 0,
+		describe = "かざせば、お祭りの空間",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shanduixrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭りの傘",
+		advice = 0,
+		icon = "shanduixrjicon",
+		id = 83106,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83107] = {
+		can_rotate = 0,
+		describe = "「おみくじを結ぶのはあっちでおねがいしますー」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shensheshuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "お社の木（夜）",
+		advice = 0,
+		icon = "shensheshuxrjicon",
+		id = 83107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83109] = {
+		can_rotate = 1,
+		describe = "ご利益がいっぱいだピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shenshexrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭御社",
+		advice = 0,
+		icon = "shenshexrjicon",
+		id = 83109,
+		comfortable = 3,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83110] = {
+		can_rotate = 0,
+		describe = "お、重いピョ……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shenyuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭神輿",
+		advice = 0,
+		icon = "shenyuxrjicon",
+		id = 83110,
+		comfortable = 2,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83111] = {
+		can_rotate = 0,
+		describe = "「妾が見守ってしんぜよう…ふふふ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/shidengxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "祭りの灯籠",
+		advice = 0,
+		icon = "shidengxrjicon",
+		id = 83111,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83114] = {
+		can_rotate = 0,
+		describe = "「騒がしいのが苦手です。ええ、レーベくんも」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/songshuxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "お社の松（夜）",
+		advice = 0,
+		icon = "songshuxrjicon",
+		id = 83114,
+		comfortable = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83116] = {
+		can_rotate = 0,
+		describe = "食べ物は3つまで選べるピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/xiaochitanxrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭グルメ屋台",
+		advice = 0,
+		icon = "xiaochitanxrjicon",
+		id = 83116,
+		comfortable = 2,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83117] = {
+		can_rotate = 0,
+		describe = "「コインを投げ入れるんじゃないよ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/xiaochizixrj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 83,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "祭りの池",
+		advice = 0,
+		icon = "xiaochizixrjicon",
+		id = 83117,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83118] = {
+		can_rotate = 0,
+		describe = "わっしょいわっしょい！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 83,
+		icon = "wutaixrjicon",
+		count = 1,
+		name = "饅頭祭舞台",
+		id = 83118,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			10,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AxrjB",
+				"normal"
+			},
+			{
+				"AxrjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"AxrjCharControl",
+				"AxrjCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[83119] = {
+		can_rotate = 0,
+		describe = "「花火を見たいというから誘って…な、何でもないわ！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 83,
+		count = 1,
+		name = "夏の花火",
+		advice = 0,
+		id = 83119,
+		icon = "yanhuaxrjicon",
+		comfortable = 4,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bxrj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -91564,6 +92303,7 @@ pg.furniture_data_template = {
 		203,
 		205,
 		206,
+		208,
 		100002,
 		100003,
 		100004,
@@ -93526,6 +94266,23 @@ pg.furniture_data_template = {
 		82122,
 		82123,
 		82124,
-		82125
+		82125,
+		83001,
+		83002,
+		83101,
+		83102,
+		83103,
+		83104,
+		83105,
+		83106,
+		83107,
+		83109,
+		83110,
+		83111,
+		83114,
+		83116,
+		83117,
+		83118,
+		83119
 	}
 }

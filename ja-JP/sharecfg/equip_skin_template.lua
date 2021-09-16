@@ -10573,6 +10573,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[460] = {
+		icon = "93211",
+		bullet_name = "zidan_fangshaishuang",
+		name = "オイル弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "今日は暑いね……",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 460,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[461] = {
+		icon = "93212",
+		bullet_name = "zidan_shatanqiu",
+		name = "水ボール弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「ハンデに30点譲ってやるわ！ウォースパイト！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 461,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[462] = {
+		icon = "93213",
+		bullet_name = "zidan_haixing",
+		name = "ヒトデ弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「やだ…こいつしつこいわ…っ！？」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 462,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[463] = {
+		icon = "93214",
+		bullet_name = "paodan_dahuangjiu",
+		name = "饅頭風船砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "曳光弾ならぬ饅頭風船弾ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 463,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[464] = {
+		icon = "93215",
+		bullet_name = "paodan_jingyu",
+		name = "クジラ風船砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "弾の大きさもクジラのように大きく見える",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 464,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[465] = {
+		icon = "93216",
+		bullet_name = "paodan_zhangyu",
+		name = "タコ風船砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「仕返しよ！ルイス！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 465,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[466] = {
+		icon = "93221",
+		bullet_name = "yulei_qieqiqiu",
+		name = "ペンギン魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ペンギンの翼の構造を取り入れなかった魚雷",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 466,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[467] = {
+		icon = "93222",
+		bullet_name = "yulei_hailuo",
+		name = "ネジガイ魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "海の音より、爆発の音を聞かせよう――",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 467,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[468] = {
+		icon = "93223",
+		bullet_name = "yulei_zishuipao",
+		name = "逆ホース魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "味方に清涼を、敵に炎熱を",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 468,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[469] = {
+		icon = "93231",
+		bullet_name = "feiji_xiangjiaochuan",
+		name = "風船バナナ饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "プールでなく大空に浮かぶ風船饅頭。そんな浮力一体どこから…？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 469,
+		derivate_torpedo = "yulei_zishuipao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[470] = {
+		icon = "93231",
+		bullet_name = "feiji_xiangjiaochuan",
+		name = "風船バナナ饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "プールでなく大空に浮かぶ風船饅頭。そんな浮力一体どこから…？",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shatanqiu",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 470,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[471] = {
+		icon = "93231",
+		bullet_name = "feiji_xiangjiaochuan",
+		name = "風船バナナ饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "プールでなく大空に浮かぶ風船饅頭。そんな浮力一体どこから…？",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shatanqiu",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 471,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[472] = {
+		icon = "93232",
+		bullet_name = "feiji_chonglang",
+		name = "サーファー饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "波でなく大空をサーフィングするサーファー饅頭。Orz",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 472,
+		derivate_torpedo = "yulei_qieqiqiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[473] = {
+		icon = "93232",
+		bullet_name = "feiji_chonglang",
+		name = "サーファー饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "波でなく大空をサーフィングするサーファー饅頭。Orz",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_fangshaishuang",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 473,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[474] = {
+		icon = "93232",
+		bullet_name = "feiji_chonglang",
+		name = "サーファー饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "波でなく大空をサーフィングするサーファー饅頭。Orz",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_fangshaishuang",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 474,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[475] = {
+		icon = "93233",
+		bullet_name = "feiji_qianshui",
+		name = "潜航浮き輪饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "水面でなく大空を浮揚する浮き輪饅頭。爆弾投下ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 475,
+		derivate_torpedo = "yulei_hailuo",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[476] = {
+		icon = "93233",
+		bullet_name = "feiji_qianshui",
+		name = "潜航浮き輪饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "水面でなく大空を浮揚する浮き輪饅頭。爆弾投下ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_haixing",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 476,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[477] = {
+		icon = "93233",
+		bullet_name = "feiji_qianshui",
+		name = "潜航浮き輪饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "水面でなく大空を浮揚する浮き輪饅頭。爆弾投下ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_haixing",
+		themeid = 29,
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 477,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -12406,6 +12907,24 @@ pg.equip_skin_template = {
 		455,
 		456,
 		457,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465,
+		466,
+		467,
+		468,
+		469,
+		470,
+		471,
+		472,
+		473,
+		474,
+		475,
+		476,
+		477,
 		1001,
 		1002,
 		1003,

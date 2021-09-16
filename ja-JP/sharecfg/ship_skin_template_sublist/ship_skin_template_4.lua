@@ -1,118 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
-	[105171] = {
-		ship_group = 10517,
-		name = "リッピング・ステッピング！",
-		bg_sp = "1102",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "ワンツージャンプ！おっ、今回はいい感じ♪というわけで、今のあたしに何点つける？もちろん100点なんだよね～だってこういうの、好きなんでしょ？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xinzexi_2",
-		air_bullet_skin = "",
-		shop_type_id = 16,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "145",
-		skin_type = 0,
-		id = 105171,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xinzexi_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70543,
-		voice_actor = 273,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.248,
-					1.41,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.255,
-					1.288,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.246,
-					1.348,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.591,
-							2.488,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[105190] = {
 		ship_group = 10519,
 		name = "マサチューセッツ",
@@ -7366,6 +7253,202 @@ pg.ship_skin_template_4 = {
 						{
 							-0.5,
 							2.497,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[108041] = {
+		ship_group = 10804,
+		name = "見習いエースフィルダー",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "イントレピッドさん、ブルーギルによる超安定防御力を見ろ！――指揮官、えへへ、ブルーギルの特訓の成果を見ていってよ？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lansaiyu_2",
+		air_bullet_skin = "",
+		shop_type_id = 13,
+		hand_id = 7,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "132",
+		skin_type = 0,
+		id = 108041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lansaiyu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70335,
+		voice_actor = 227,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.83,
+					1.127,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.002,
+					-0.009,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[108050] = {
+		ship_group = 10805,
+		name = "アルバコア(μ兵装)",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "アイドルアルバコア、メイクアアーッップ！なんて、ノリでやってみただけだよぉん！お、指揮官まさか別のアイデアを持ってたりするの？教えて教えて～",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "daqinghuayu_idol",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "140",
+		skin_type = -1,
+		id = 108050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "daqinghuayu_idol",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 146,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.284,
+					0.819,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
 							0
 						}
 					}
