@@ -433,7 +433,7 @@ pg.character_voice = {
 		}
 	},
 	link7 = {
-		voice_name = "战场互动7",
+		voice_name = "掛け合い7",
 		key = "link7",
 		resource_key = "link7",
 		spine_action = "attcak",
