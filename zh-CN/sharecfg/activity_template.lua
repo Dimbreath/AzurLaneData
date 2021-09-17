@@ -5143,6 +5143,7 @@ pg.activity_template = {
 	[4107] = {
 		mark = 20210916,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -5152,6 +5153,25 @@ pg.activity_template = {
 		id = 4107,
 		config_data = {
 			1565001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		}
+	},
+	[4119] = {
+		mark = 20210916,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4119,
+		config_data = {
+			1565002,
 			5000,
 			50,
 			0.36,
@@ -7587,6 +7607,7 @@ pg.activity_template = {
 		4105,
 		4106,
 		4107,
+		4119,
 		4108,
 		4109,
 		4110,

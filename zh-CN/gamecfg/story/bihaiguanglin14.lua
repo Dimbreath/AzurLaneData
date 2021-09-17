@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "battle-longgong",
 			nameColor = "#a9f548",
-			say = "众人在{namecode:62}选择的航线上穿行着，最初十分顺利绕开了战斗力低下但防御力奇高的敌舰。",
+			say = "众人在{namecode:62}选择的航线上穿行着，最初十分顺利地绕开了战斗力低下但防御力奇高的敌舰。",
 			flashin = {
 				delay = 1,
 				dur = 1,

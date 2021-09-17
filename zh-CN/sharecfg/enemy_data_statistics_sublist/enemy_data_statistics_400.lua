@@ -1,5 +1,40 @@
 pg = pg or {}
 pg.enemy_data_statistics_400 = {
+	[295039] = {
+		cannon = 207,
+		name = "海伦娜·META(Tier.9)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 292,
+		reload = 150,
+		armor = 0,
+		dodge = 27,
+		id = 295039,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 541,
+		durability = 350000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 306,
+		speed = 60,
+		luck = 14,
+		antisub = 0,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295040] = {
 		cannon = 221,
 		name = "海伦娜·META(Tier.10)",
