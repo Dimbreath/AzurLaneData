@@ -431,5 +431,17 @@ pg.character_voice = {
 			-1,
 			0
 		}
+	},
+	link7 = {
+		voice_name = "战场互动7",
+		key = "link7",
+		resource_key = "link7",
+		spine_action = "attcak",
+		profile_index = 37,
+		l2d_action = "",
+		unlock_condition = {
+			-1,
+			0
+		}
 	}
 }

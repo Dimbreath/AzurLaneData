@@ -20,6 +20,7 @@ slot0.CVBattleKey = {
 	link2 = "link2",
 	link4 = "link4",
 	link5 = "link5",
+	link7 = "link7",
 	link3 = "link3",
 	link6 = "link6",
 	skill = "skill",
