@@ -13,8 +13,8 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
-			actorName = "谜之音",
-			say = "「这就是最后的问题了」",
+			actorName = "Mysterious Voice",
+			say = "\"Answer me this final question...\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「提问——」",
+			say = "\"...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「倘若战争结束，和平降临，作为兵器的舰船将会如何？」",
+			say = "\"Supposing the war comes to an end, what comes next for the world's shipgirls?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，我还从来没想过这个问题呢。",
+			say = "Huh? That depends on what you mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果和平到来的话，也许会去开一间道馆之类的？我对于这方面还是很有兴趣的哦~！",
+			say = "I can only speak for myself, but I'd like to travel all around the world... Or maybe start a dojo and teach the Shimakaze fighting style!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「……不是问你个人，而是如果没有战斗了，舰船这一存在将会如何？」",
+			say = "\"The question is not about you specifically, it is about what will become of all shipgirls.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……就算是在战争期间，战斗也不是我们生活的全部啊。",
+			say = "Hmm... Well, I don't think we exist solely to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果不用再继续战斗的话，空出来的时间正好可以去做些别的事…",
+			say = "When we're not fighting, we all have fun hobbies to pursue. If there wasn't any more fighting for us to do, couldn't we just enjoy a life of peace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么会引起困扰的事情么…？",
+			say = "As for \"what will become of us,\" I'm afraid I don't know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「……这次真是来了个好目标」",
+			say = "\"That is... a pleasant idea. Yes.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「算了，我的任务完成，接下来是欧根去要去头疼的问题了」",
+			say = "\"I have no more questions for you. The rest of this all is Eugen's problem now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？谜之音小姐你说什么，欧根亲王阁下要有什么困扰了么？！",
+			say = "What was that? It's \"Eugen's problem now\"? What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,12 +210,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「（糟了……）咳、{namecode:18}哟！」",
+			say = "\"Err, I meant... Listen closely, O brave one!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在、在！",
+			say = "I-I'm all ears!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「至此，怒涛、烈焰、坚石、生机四秘宝均已献上」",
+			say = "\"You have acquired every treasure the Dragon Palace has to give.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			side = 2,
 			bgName = "bg_daofeng_6",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ffff4d",
-			say = "「汝之同伴激战正酣，速速返回，向着未来前进吧！」",
+			say = "\"Now go. Return to your friends and use the treasures' power to save them!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
