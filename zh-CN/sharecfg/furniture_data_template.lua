@@ -5129,6 +5129,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[207] = {
+		can_rotate = 1,
+		describe = "纪念的无人机组 2000万！向指挥官致以无上的感谢！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "纪念的无人机组",
+		advice = 0,
+		id = 207,
+		icon = "wurenjiicon",
+		comfortable = 5,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wurenji",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[208] = {
 		can_rotate = 0,
 		describe = "仿照“龙宫城”主殿制作的微缩模型，给人以庄严而神秘的印象。——授予在「碧海光粼」行动中获得杰出成就者的纪念章",
@@ -99647,6 +99698,7 @@ pg.furniture_data_template = {
 		203,
 		205,
 		206,
+		207,
 		208,
 		100001,
 		100002,

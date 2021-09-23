@@ -323,7 +323,13 @@ function slot0.updateMainView(slot0, slot1)
 
 		setActive(slot0, slot2)
 	end)
-	slot0:setBg(slot3, slot2, slot6)
+
+	if not slot6 and slot2.bg_sp ~= "" then
+		slot0:setBg(slot3, slot2, true)
+	else
+		slot0:setBg(slot3, slot2, slot6)
+	end
+
 	slot0:updatePrice(slot1.goodsVO)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)

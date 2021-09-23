@@ -12,7 +12,7 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
-	id = 14850,
+	id = 14855,
 	time = 0,
 	picture = "",
 	desc = "",
@@ -22,22 +22,23 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCleanse",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				buff_id = 14854,
-				target = "TargetSelf"
+				buff_id_list = {
+					14854
+				}
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onTorpedoWeaponFire"
 			},
 			arg_list = {
-				buff_id = 14851,
+				skill_id = 14851,
 				target = "TargetSelf"
 			}
 		}
