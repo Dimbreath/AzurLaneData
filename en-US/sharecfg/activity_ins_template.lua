@@ -6683,6 +6683,84 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	{
+		ship_group = 30114,
+		name = "NikuSuki",
+		sculpture = "xili",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 248,
+		group_id = 248,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30707,
+		name = "OutrangeTH",
+		sculpture = "dafeng",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 249,
+		group_id = 249,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 80201,
+		name = "DancerEmile",
+		sculpture = "aimierbeierding",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 250,
+		group_id = 250,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30165,
+		name = "Michishio ",
+		sculpture = "manchao",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 251,
+		group_id = 251,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20112,
+		name = "Fortune",
+		sculpture = "mingyunnvshen",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 252,
+		group_id = 252,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 90111,
+		name = "VivaLaze",
+		sculpture = "edu",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 253,
+		group_id = 253,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6930,6 +7008,12 @@ pg.activity_ins_template = {
 		244,
 		245,
 		246,
-		247
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253
 	}
 }

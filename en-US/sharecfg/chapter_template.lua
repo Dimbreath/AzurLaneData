@@ -369559,7 +369559,7 @@ function ()
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "When Priorities Clash",
-		chapter_name = "EXTRA",
+		chapter_name = "EXTRA-I",
 		type = 2,
 		act_id = 4105,
 		enter_story = "",

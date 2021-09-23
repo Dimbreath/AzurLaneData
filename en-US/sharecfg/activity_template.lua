@@ -3184,7 +3184,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 10,
-		is_show = 11,
+		is_show = 9,
 		title_res_tag = "Neptune_catchup",
 		id = 4096,
 		config_data = {},
@@ -3267,7 +3267,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4098,
-		is_show = 10,
+		is_show = 8,
 		title_res_tag = "JapanV2_frame",
 		id = 4098,
 		config_data = {},
@@ -3467,7 +3467,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 16,
+		is_show = 14,
 		title_res_tag = "daofeng_main",
 		id = 4104,
 		config_data = {
@@ -3864,7 +3864,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4114,
-		is_show = 15,
+		is_show = 13,
 		config_client = "",
 		title_res_tag = "daofeng_pt",
 		id = 4114,
@@ -4055,7 +4055,7 @@ pg.activity_template = {
 		type = 78,
 		login_pop = 0,
 		config_id = 59239,
-		is_show = 14,
+		is_show = 12,
 		title_res_tag = "jiujiuyoyo",
 		id = 4120,
 		config_data = {
@@ -4293,7 +4293,13 @@ pg.activity_template = {
 			244,
 			245,
 			246,
-			247
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253
 		},
 		time = {
 			timer,
@@ -4355,6 +4361,160 @@ pg.activity_template = {
 					2021,
 					11,
 					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4130] = {
+		mark = 20210923,
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 16,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		id = 4130,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FourthJpPage",
+			ui_name = "FourthJpPage"
+		}
+	},
+	[4131] = {
+		mark = 20210923,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 15,
+		config_client = "",
+		title_res_tag = "manchao_skin",
+		id = 4131,
+		config_data = {
+			{
+				17046,
+				17047
+			},
+			{
+				17048,
+				17049
+			},
+			{
+				17050,
+				17051
+			},
+			{
+				17052,
+				17053
+			},
+			{
+				17054,
+				17055
+			},
+			{
+				17056,
+				17057
+			},
+			{
+				17058,
+				17059
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPage"
+		}
+	},
+	[4132] = {
+		mark = 20210923,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4132,
+		config_data = {
+			17060
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
 				},
 				{
 					23,
@@ -5313,6 +5473,136 @@ pg.activity_template = {
 				},
 				{
 					"XIAOTIANE7"
+				}
+			}
+		}
+	},
+	[6004] = {
+		mark = 20210923,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "dachaolifu_permanent",
+		id = 6004,
+		config_data = {
+			{
+				35054,
+				35055
+			},
+			{
+				35056,
+				35057
+			},
+			{
+				35058,
+				35059
+			},
+			{
+				35060,
+				35061
+			},
+			{
+				35062,
+				35063
+			},
+			{
+				35064,
+				35065
+			},
+			{
+				35066,
+				35067
+			}
+		},
+		page_info = {
+			class_name = "DachaolifuSkinPage",
+			ui_name = "dachaolifuskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOLIFU1"
+				},
+				{},
+				{
+					"DACHAOLIFU2"
+				},
+				{},
+				{
+					"DACHAOLIFU3"
+				},
+				{},
+				{
+					"DACHAOLIFU4"
+				}
+			}
+		}
+	},
+	[6005] = {
+		mark = 20210923,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "shanchenglifu_permanent",
+		id = 6005,
+		config_data = {
+			{
+				35068,
+				35069
+			},
+			{
+				35070,
+				35071
+			},
+			{
+				35072,
+				35073
+			},
+			{
+				35074,
+				35075
+			},
+			{
+				35076,
+				35077
+			},
+			{
+				35078,
+				35079
+			},
+			{
+				35080,
+				35081
+			}
+		},
+		page_info = {
+			class_name = "YamashiroSkinPage",
+			ui_name = "yamashiroskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHANCHENGLIFU1"
+				},
+				{
+					"SHANCHENGLIFU2"
+				},
+				{
+					"SHANCHENGLIFU3"
+				},
+				{},
+				{
+					"SHANCHENGLIFU4"
+				},
+				{
+					"SHANCHENGLIFU5"
+				},
+				{
+					"SHANCHENGLIFU6"
 				}
 			}
 		}
@@ -21435,6 +21725,9 @@ pg.activity_template = {
 		4123,
 		4125,
 		4126,
+		4130,
+		4131,
+		4132,
 		1011,
 		1012,
 		1013,
@@ -21481,6 +21774,8 @@ pg.activity_template = {
 		6001,
 		6002,
 		6003,
+		6004,
+		6005,
 		100001,
 		30001,
 		30002,
