@@ -7,7 +7,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 3
+				wrap = 4
 			}
 		},
 		time = {
@@ -15,7 +15,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					16
+					23
 				},
 				{
 					0,
@@ -27,7 +27,74 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					14
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp2",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4131",
+		type = 3,
+		id = 3,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					7
 				},
 				{
 					23,
@@ -40,8 +107,8 @@ pg.activity_banner = {
 	{
 		param = "4104",
 		type = 3,
-		id = 2,
-		pic = "temp2",
+		id = 4,
+		pic = "temp4",
 		time = {
 			{
 				{
@@ -71,8 +138,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
-		pic = "temp3",
+		id = 5,
+		pic = "temp5",
 		param = {
 			"scene get boat",
 			{
@@ -108,43 +175,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2021,
-					9,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
+		id = 6,
+		pic = "temp6",
 		param = {
 			"scene charge",
 			{
@@ -180,8 +212,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
-		pic = "temp6",
+		id = 7,
+		pic = "temp7",
 		param = {
 			"scene back yard"
 		},
@@ -203,38 +235,6 @@ pg.activity_banner = {
 					2021,
 					10,
 					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4096",
-		type = 3,
-		id = 7,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					9
 				},
 				{
 					23,
@@ -286,7 +286,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					16
+					23
 				},
 				{
 					0,
@@ -309,16 +309,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "桂花糯|「桂花糯…もぐもぐ～中秋節、良い祝日！」<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		param = "海軍カレー|甘口？辛口？好みは人それぞれ…<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		type = 10,
 		id = 10,
-		pic = "guihuagao",
+		pic = "haijungali",
 		time = {
 			{
 				{
 					2021,
 					9,
-					16
+					23
 				},
 				{
 					0,
@@ -329,13 +329,13 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					10,
-					3
+					9,
+					16
 				},
 				{
-					23,
-					59,
-					59
+					0,
+					0,
+					0
 				}
 			}
 		}

@@ -362188,7 +362188,7 @@ function ()
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "決戦！決戦計画！",
-		chapter_name = "EXTRA",
+		chapter_name = "EXTRA-I",
 		type = 2,
 		act_id = 4105,
 		enter_story = "",
