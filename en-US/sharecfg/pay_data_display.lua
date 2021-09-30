@@ -7,6 +7,7 @@ pg.pay_data_display = {
 		name = "Trade License (30 days)",
 		descrip = "Receive $1 Gems immediately and resources every day for \n30 days.",
 		subject = "Trade License",
+		subject_extra = "",
 		extra_service = 2,
 		money = 799,
 		tag = 2,
@@ -53,6 +54,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -62,6 +64,7 @@ pg.pay_data_display = {
 		name = "Novice sailing supplies",
 		descrip = "Three Supplies",
 		subject = "Novice sailing supplies",
+		subject_extra = "",
 		extra_service = 3,
 		money = 99,
 		tag = 1,
@@ -108,6 +111,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -117,9 +121,10 @@ pg.pay_data_display = {
 		name = "Handful of Gems",
 		descrip = "Get $1 Gems as bonus",
 		subject = "60 Gems",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 99,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 60,
 		limit_type = 99,
@@ -131,6 +136,7 @@ pg.pay_data_display = {
 		id = 3,
 		airijp_id = "com.yostaren.azurlane.diamond1",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -140,9 +146,10 @@ pg.pay_data_display = {
 		name = "Pile of Gems",
 		descrip = "Get $1 Gems as bonus",
 		subject = "300 Gems",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 499,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 300,
 		limit_type = 99,
@@ -154,6 +161,7 @@ pg.pay_data_display = {
 		id = 4,
 		airijp_id = "com.yostaren.azurlane.diamond2",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -163,9 +171,10 @@ pg.pay_data_display = {
 		name = "Sack of Gems",
 		descrip = "Get $1 Gems as bonus",
 		subject = "980 Gems",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 999,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 600,
 		limit_type = 0,
@@ -177,6 +186,7 @@ pg.pay_data_display = {
 		id = 5,
 		airijp_id = "com.yostaren.azurlane.diamond3",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -186,9 +196,10 @@ pg.pay_data_display = {
 		name = "Box of Gems",
 		descrip = "Get $1 Gems as bonus",
 		subject = "1980 Gems",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 1999,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 1200,
 		limit_type = 0,
@@ -200,6 +211,7 @@ pg.pay_data_display = {
 		id = 6,
 		airijp_id = "com.yostaren.azurlane.diamond4",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -209,9 +221,10 @@ pg.pay_data_display = {
 		name = "Chest of Gems",
 		descrip = "Get $1 Gems as bonus",
 		subject = "3280 Gems",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 3999,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 2400,
 		limit_type = 0,
@@ -223,6 +236,7 @@ pg.pay_data_display = {
 		id = 7,
 		airijp_id = "com.yostaren.azurlane.diamond5",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -232,9 +246,10 @@ pg.pay_data_display = {
 		name = "Ship of Gems",
 		descrip = "Get $1 Gems as bonus",
 		subject = "6480 Gems",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 7999,
+		extra_service_item = "0",
 		tag = 1,
 		gem = 4900,
 		limit_type = 0,
@@ -246,6 +261,7 @@ pg.pay_data_display = {
 		id = 8,
 		airijp_id = "com.yostaren.azurlane.diamond6",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[24] = {
@@ -255,6 +271,7 @@ pg.pay_data_display = {
 		name = "2020 Party Dress Lucky Bag",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "2020 Party Dress Lucky Bag",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -346,6 +363,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[25] = {
@@ -355,6 +373,7 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag 2021 ",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Shougatsu Lucky Bag 2021",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -446,6 +465,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[26] = {
@@ -455,6 +475,7 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag 2020 ",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "Shougatsu Lucky Bag 2020",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -546,6 +567,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[27] = {
@@ -555,6 +577,7 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2021)",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Lunar New Year Lucky Bag (2021)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -646,6 +669,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[28] = {
@@ -655,6 +679,7 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2020)",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "Lunar New Year Lucky Bag (2020)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -746,6 +771,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[29] = {
@@ -755,6 +781,7 @@ pg.pay_data_display = {
 		name = "Exquisite Lucky Box 2021 ",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Exquisite Lucky Box 2021 ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -846,6 +873,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[30] = {
@@ -855,6 +883,7 @@ pg.pay_data_display = {
 		name = "Exquisite Lucky Bag 2020 ",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "Exquisite Lucky Bag 2020 ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -946,6 +975,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[31] = {
@@ -955,6 +985,7 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack IV ",
 		descrip = "Contains 1980 x Gems, 35x Universal T4 Plate, 1x Gear Lab Development Pack, and other rewards ",
 		subject = "New Commanders Support Pack IV ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -1046,6 +1077,7 @@ pg.pay_data_display = {
 				10
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[32] = {
@@ -1055,6 +1087,7 @@ pg.pay_data_display = {
 		name = "2021 Party Dress Lucky Box",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "2021 Party Dress Lucky Box",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -1146,6 +1179,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[33] = {
@@ -1155,6 +1189,7 @@ pg.pay_data_display = {
 		name = "2020 Party Dress Lucky Box",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "2020 Party Dress Lucky Box",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -1246,6 +1281,77 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[1000] = {
+		limit_arg = 1,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		type = 0,
+		name = "Fair Winds Cruise Pass",
+		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
+		subject = "Fair Winds Cruise Pass",
+		subject_extra = "(2021.10.1-11.30)",
+		extra_service = 4,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.yostaren.azurlane.passport2",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 1000,
+		airijp_id = "com.yostaren.azurlane.passport2",
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
 		ignorePlatform = {}
 	},
 	[100] = {
@@ -1255,6 +1361,7 @@ pg.pay_data_display = {
 		name = "Nep's Lucky Bag ",
 		descrip = "Contains 1 x Nep Ship skin, 3 x Nep Gear skins, and other rewards.",
 		subject = "Nep's Lucky Bag",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -1341,6 +1448,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[101] = {
@@ -1350,6 +1458,7 @@ pg.pay_data_display = {
 		name = "Black Friday Lucky Bag ",
 		descrip = "Contains 1 x School Girl Ship skin, 3 x School Gear skins, and other rewards.",
 		subject = "Black Friday Lucky Bag",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -1446,6 +1555,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[102] = {
@@ -1455,6 +1565,7 @@ pg.pay_data_display = {
 		name = "Christmas Lucky Bag ",
 		descrip = "Contains 1 x Christmas Ship skin, 3 x Christmas Gear skins, and other rewards. ",
 		subject = "Christmas Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -1541,6 +1652,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[103] = {
@@ -1550,6 +1662,7 @@ pg.pay_data_display = {
 		name = "Heartthrob Pack",
 		descrip = "Contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
 		subject = "Heartthrob Pack",
+		subject_extra = "",
 		extra_service = 3,
 		money = 999,
 		tag = 2,
@@ -1626,6 +1739,7 @@ pg.pay_data_display = {
 				5
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[104] = {
@@ -1635,6 +1749,7 @@ pg.pay_data_display = {
 		name = "Santa's Lucky Sack (Daily)",
 		descrip = "Contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
 		subject = "Santa's Lucky Sack (Daily)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 499,
 		tag = 2,
@@ -1716,6 +1831,7 @@ pg.pay_data_display = {
 				3000
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[105] = {
@@ -1725,6 +1841,7 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag (2019)",
 		descrip = "Contains 1 x Kimono Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Shogatsu Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -1811,6 +1928,7 @@ pg.pay_data_display = {
 				20
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[106] = {
@@ -1820,6 +1938,7 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2019)",
 		descrip = "Contains 1 x Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -1911,6 +2030,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[107] = {
@@ -1920,6 +2040,7 @@ pg.pay_data_display = {
 		name = "Glacier Blast ",
 		descrip = "Contains 1 x random Ship skin (Winter‘s Crown), 3 x random Gear skins (Winter's Crown), and other rewards ",
 		subject = "Glacier Blast ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -2006,6 +2127,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[108] = {
@@ -2015,6 +2137,7 @@ pg.pay_data_display = {
 		name = "Hanami Lucky Bag ",
 		descrip = "Contains 1 x random Ship skin (Hanami), 100 x Cognitive Chips, and other rewards",
 		subject = "Hanami Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -2101,6 +2224,7 @@ pg.pay_data_display = {
 				100
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[109] = {
@@ -2110,6 +2234,7 @@ pg.pay_data_display = {
 		name = "Research Supply (daily) ",
 		descrip = "Contains 1 x Random Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
 		subject = "Research Supply (daily) ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 499,
 		tag = 2,
@@ -2191,6 +2316,7 @@ pg.pay_data_display = {
 				6
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[110] = {
@@ -2200,6 +2326,7 @@ pg.pay_data_display = {
 		name = "Scherzo Lucky Box ",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Scherzo Lucky Box ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -2286,6 +2413,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[111] = {
@@ -2295,6 +2423,7 @@ pg.pay_data_display = {
 		name = "1st Anniversary Lucky Bag ",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "1st Anniversary Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -2381,6 +2510,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[112] = {
@@ -2390,6 +2520,7 @@ pg.pay_data_display = {
 		name = "Yukata Lucky Bag",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Yukata Lucky Bag",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -2476,6 +2607,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[113] = {
@@ -2485,6 +2617,7 @@ pg.pay_data_display = {
 		name = "Full Dress Lucky Bag ",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Full Dress Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -2571,6 +2704,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[114] = {
@@ -2580,6 +2714,7 @@ pg.pay_data_display = {
 		name = "Black Friday Lucky Box ",
 		descrip = "Contains 1 x random Ship skin, 2450 x Gems, and other rewards ",
 		subject = "Black Friday Lucky Box ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -2671,6 +2806,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[115] = {
@@ -2680,6 +2816,7 @@ pg.pay_data_display = {
 		name = "Christmas Lucky Bag ",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Christmas Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -2766,6 +2903,7 @@ pg.pay_data_display = {
 				2000
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[116] = {
@@ -2775,6 +2913,7 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag (2020)",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Shougatsu Lucky Bag (2020)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -2866,6 +3005,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[117] = {
@@ -2875,6 +3015,7 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag (2019)",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Shougatsu Lucky Bag (2019)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -2961,6 +3102,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[118] = {
@@ -2970,6 +3112,7 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2020)",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag (2020)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -3061,6 +3204,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[119] = {
@@ -3070,6 +3214,7 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2019)",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag (2019)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -3156,6 +3301,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[120] = {
@@ -3165,6 +3311,7 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack I",
 		descrip = "Contains 180 Gems, 2x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack I",
+		subject_extra = "",
 		extra_service = 3,
 		money = 299,
 		tag = 1,
@@ -3236,6 +3383,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[121] = {
@@ -3245,6 +3393,7 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack II",
 		descrip = "Contains 780 Gems, 2x T4 Gear Development Packs, 4x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack II",
+		subject_extra = "",
 		extra_service = 3,
 		money = 1199,
 		tag = 1,
@@ -3341,6 +3490,7 @@ pg.pay_data_display = {
 				4
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[122] = {
@@ -3350,6 +3500,7 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack III",
 		descrip = "Contains 1680 Gems, 4x T4 Gear Development Packs, 8x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack III",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2599,
 		tag = 1,
@@ -3451,6 +3602,7 @@ pg.pay_data_display = {
 				8
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[123] = {
@@ -3460,6 +3612,7 @@ pg.pay_data_display = {
 		name = "Crimson Echoes' Lucky Bag",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Crimson Echoes' Lucky Bag",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -3546,6 +3699,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[124] = {
@@ -3555,6 +3709,7 @@ pg.pay_data_display = {
 		name = "Night Out Lucky Bag ",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Night Out Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
@@ -3646,6 +3801,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[125] = {
@@ -3655,6 +3811,7 @@ pg.pay_data_display = {
 		name = "Skybound Oratorio Lucky Bag",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Skybound Oratorio Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -3741,6 +3898,7 @@ pg.pay_data_display = {
 				20
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[126] = {
@@ -3750,6 +3908,7 @@ pg.pay_data_display = {
 		name = "Aurora Noctis Lucky Bag ",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Aurora Noctis Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -3836,6 +3995,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[127] = {
@@ -3845,6 +4005,7 @@ pg.pay_data_display = {
 		name = "Summer Scherzo Lucky Bag ",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Summer Scherzo Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -3931,6 +4092,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[128] = {
@@ -3940,6 +4102,7 @@ pg.pay_data_display = {
 		name = "Shining Star Lucky Bag ",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Shining Star Lucky Bag ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -4031,6 +4194,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[129] = {
@@ -4040,6 +4204,7 @@ pg.pay_data_display = {
 		name = "Azur Black Friday Lucky Box ",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Azur Black Friday Lucky Box ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -4131,6 +4296,7 @@ pg.pay_data_display = {
 				34
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[130] = {
@@ -4140,6 +4306,7 @@ pg.pay_data_display = {
 		name = "Crimson Black Friday Lucky Box ",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Crimson Black Friday Lucky Box ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -4231,6 +4398,7 @@ pg.pay_data_display = {
 				34
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[131] = {
@@ -4240,6 +4408,7 @@ pg.pay_data_display = {
 		name = "Dawn's Rime Lucky Pack",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Dawn's Rime Lucky Pack",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -4331,6 +4500,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[132] = {
@@ -4340,6 +4510,7 @@ pg.pay_data_display = {
 		name = "Daedalian Hymn's Lucky Bag",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Daedalian Hymn's Lucky Bag",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -4431,6 +4602,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[133] = {
@@ -4440,6 +4612,7 @@ pg.pay_data_display = {
 		name = "Microlayer Medley Lucky Box 2021",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Microlayer Medley Lucky Box 2021",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2999,
 		tag = 2,
@@ -4531,6 +4704,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	all = {
@@ -4552,6 +4726,7 @@ pg.pay_data_display = {
 		31,
 		32,
 		33,
+		1000,
 		100,
 		101,
 		102,

@@ -1632,6 +1632,146 @@ end
 
 slot0.CaclulateDOTDamageEnhanceRate = slot15
 
+function slot15(slot0)
+	slot1 = uv0
+	slot1 = slot1.AIM_BIAS_FLEET_RANGE_MOD
+	slot2 = nil
+	slot3 = #slot0
+
+	if slot3 == 1 then
+		slot3 = slot0[1]
+		slot4 = uv1
+		slot4 = slot4.GetCurrent
+		slot5 = slot0[1]
+		slot6 = "dodgeRate"
+		slot4 = slot4(slot5, slot6)
+		slot2 = slot4 * slot1
+	else
+		slot3 = {}
+		slot4 = ipairs
+		slot5 = slot0
+		slot4, slot5, slot6 = slot4(slot5)
+
+		for slot7, slot8 in slot4, slot5, slot6 do
+			slot9 = table
+			slot9 = slot9.insert
+			slot10 = slot3
+			slot11 = uv1
+			slot11 = slot11.GetCurrent
+			slot12 = slot8
+			slot13 = "dodgeRate"
+
+			slot9(slot10, slot11(slot12, slot13))
+		end
+
+		slot4 = table
+		slot4 = slot4.sort
+		slot5 = slot3
+
+		function slot6(slot0, slot1)
+			if slot1 >= slot0 then
+				slot2 = false
+			else
+				slot2 = true
+			end
+
+			return slot2
+		end
+
+		slot4(slot5, slot6)
+
+		slot4 = slot3[1]
+		slot5 = slot3[2]
+		slot5 = slot5 * 0.6
+		slot4 = slot4 + slot5
+		slot5 = slot3[3]
+
+		if not slot5 then
+			slot5 = 0
+		end
+
+		slot5 = slot5 * 0.3
+		slot4 = slot4 + slot5
+		slot5 = #slot3
+		slot4 = slot4 / slot5
+		slot2 = slot4 * slot1
+	end
+
+	return slot2
+end
+
+slot0.CalculateMaxAimBiasRange = slot15
+
+function slot15(slot0)
+	slot1 = uv0
+	slot1 = slot1.GetCurrent
+	slot2 = slot0[1]
+	slot3 = "dodgeRate"
+	slot1 = slot1(slot2, slot3)
+	slot2 = uv1
+	slot2 = slot2.AIM_BIAS_SUB_RANGE_MOD
+	slot2 = slot1 * slot2
+
+	return slot2
+end
+
+slot0.CalculateMaxAimBiasRangeSub = slot15
+
+function slot15(slot0)
+	slot1 = uv0
+	slot1 = slot1.GetCurrent
+	slot2 = slot0[1]
+	slot3 = "dodgeRate"
+	slot1 = slot1(slot2, slot3)
+	slot2 = uv1
+	slot2 = slot2.AIM_BIAS_MONSTER_RANGE_MOD
+	slot2 = slot1 * slot2
+
+	return slot2
+end
+
+slot0.CalculateMaxAimBiasRangeMonster = slot15
+
+function slot15(slot0)
+	slot1 = uv0
+	slot1 = slot1.AIM_BIAS_DECAY_MOD_MONSTER
+	slot1 = slot0 * slot1
+
+	return slot1
+end
+
+slot0.CalculateBiasDecay = slot15
+
+function slot15(slot0)
+	slot1 = uv0
+	slot1 = slot1.AIM_BIAS_DECAY_MOD
+	slot1 = slot0 * slot1
+	slot2 = uv0
+	slot2 = slot2.AIM_BIAS_DECAY_BASE
+	slot1 = slot1 + slot2
+
+	return slot1
+end
+
+slot0.CalculateBiasDecayMonster = slot15
+
+function slot15(slot0)
+	slot1 = math
+	slot1 = slot1.max
+	slot2 = 0
+	slot3 = uv0
+	slot3 = slot3.AIM_BIAS_DECAY_SUB_CONST
+	slot3 = slot0 - slot3
+	slot1 = slot1(slot2, slot3)
+	slot2 = uv0
+	slot2 = slot2.AIM_BIAS_DECAY_MOD
+	slot2 = slot1 * slot2
+
+	return slot2
+end
+
+slot0.CalculateBiasDecayDiving = slot15
+
 function slot15(slot0, slot1)
 	slot2 = uv0
 	slot2 = slot2.WORLD_ENEMY_ENHANCEMENT_CONST_C

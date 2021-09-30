@@ -24,7 +24,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.157291667",
 		pop_pic = "",
@@ -39,6 +38,7 @@ function ()
 		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -262,7 +262,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[102] = {
 		collection_team = 2,
@@ -285,7 +286,6 @@ function ()
 		pre_chapter = 101,
 		formation = 1,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.347916667",
 		pop_pic = "",
@@ -300,6 +300,7 @@ function ()
 		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -632,7 +633,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[103] = {
 		collection_team = 2,
@@ -655,7 +657,6 @@ function ()
 		pre_chapter = 102,
 		formation = 1,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		pop_pic = "",
@@ -670,6 +671,7 @@ function ()
 		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -1036,7 +1038,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[104] = {
 		collection_team = 2,
@@ -1059,7 +1062,6 @@ function ()
 		pre_chapter = 103,
 		formation = 1,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.446875",
 		pop_pic = "",
@@ -1074,6 +1076,7 @@ function ()
 		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -1527,7 +1530,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[201] = {
 		collection_team = 2,
@@ -1550,7 +1554,6 @@ function ()
 		pre_chapter = 104,
 		formation = 2,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.15625",
 		pop_pic = "",
@@ -1565,6 +1568,7 @@ function ()
 		is_ai = 0,
 		map = 2,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -2113,7 +2117,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[202] = {
 		collection_team = 2,
@@ -2136,7 +2141,6 @@ function ()
 		pre_chapter = 201,
 		formation = 2,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		pop_pic = "",
@@ -2151,6 +2155,7 @@ function ()
 		is_ai = 0,
 		map = 2,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -2752,7 +2757,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[203] = {
 		collection_team = 2,
@@ -2775,7 +2781,6 @@ function ()
 		pre_chapter = 202,
 		formation = 2,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35",
 		pop_pic = "",
@@ -2788,6 +2793,7 @@ function ()
 		is_ai = 0,
 		map = 2,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -3368,7 +3374,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[204] = {
 		collection_team = 3,
@@ -3391,7 +3398,6 @@ function ()
 		pre_chapter = 203,
 		formation = 2,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.0625",
 		pop_pic = "",
@@ -3406,6 +3412,7 @@ function ()
 		is_ai = 0,
 		map = 2,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -3954,7 +3961,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[301] = {
 		collection_team = 3,
@@ -3977,7 +3985,6 @@ function ()
 		pre_chapter = 204,
 		formation = 3,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.403125",
 		pop_pic = "",
@@ -3992,6 +3999,7 @@ function ()
 		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -4561,7 +4569,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[302] = {
 		collection_team = 3,
@@ -4584,7 +4593,6 @@ function ()
 		pre_chapter = 301,
 		formation = 3,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -4599,6 +4607,7 @@ function ()
 		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -5192,7 +5201,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[303] = {
 		collection_team = 3,
@@ -5215,7 +5225,6 @@ function ()
 		pre_chapter = 302,
 		formation = 3,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.491666667",
 		pop_pic = "",
@@ -5230,6 +5239,7 @@ function ()
 		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -5818,7 +5828,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[304] = {
 		collection_team = 4,
@@ -5841,7 +5852,6 @@ function ()
 		pre_chapter = 303,
 		formation = 3,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -5856,6 +5866,7 @@ function ()
 		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -6430,7 +6441,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[305] = {
 		collection_team = 4,
@@ -6453,7 +6465,6 @@ function ()
 		pre_chapter = 0,
 		formation = 3,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.091666667",
 		pop_pic = "",
@@ -6468,6 +6479,7 @@ function ()
 		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -7114,7 +7126,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[401] = {
 		collection_team = 4,
@@ -7137,7 +7150,6 @@ function ()
 		pre_chapter = 304,
 		formation = 4,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		pop_pic = "",
@@ -7152,6 +7164,7 @@ function ()
 		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -7638,7 +7651,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[402] = {
 		collection_team = 4,
@@ -7661,7 +7675,6 @@ function ()
 		pre_chapter = 401,
 		formation = 4,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.140625",
 		pop_pic = "",
@@ -7676,6 +7689,7 @@ function ()
 		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -8155,7 +8169,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[403] = {
 		collection_team = 4,
@@ -8178,7 +8193,6 @@ function ()
 		pre_chapter = 402,
 		formation = 4,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.061458333",
 		pop_pic = "",
@@ -8193,6 +8207,7 @@ function ()
 		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -8617,7 +8632,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[404] = {
 		collection_team = 4,
@@ -8640,7 +8656,6 @@ function ()
 		pre_chapter = 403,
 		formation = 4,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.328125",
 		pop_pic = "",
@@ -8655,6 +8670,7 @@ function ()
 		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -9216,7 +9232,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[405] = {
 		collection_team = 4,
@@ -9239,7 +9256,6 @@ function ()
 		pre_chapter = 0,
 		formation = 4,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.458333333",
 		pop_pic = "",
@@ -9254,6 +9270,7 @@ function ()
 		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -9866,7 +9883,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[501] = {
 		collection_team = 4,
@@ -9889,7 +9907,6 @@ function ()
 		pre_chapter = 404,
 		formation = 5,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.25",
 		pop_pic = "",
@@ -9904,6 +9921,7 @@ function ()
 		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -10470,7 +10488,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[502] = {
 		collection_team = 4,
@@ -10493,7 +10512,6 @@ function ()
 		pre_chapter = 501,
 		formation = 5,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.071875",
 		pop_pic = "",
@@ -10508,6 +10526,7 @@ function ()
 		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -11012,7 +11031,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[503] = {
 		collection_team = 4,
@@ -11035,7 +11055,6 @@ function ()
 		pre_chapter = 502,
 		formation = 5,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.25",
 		pop_pic = "",
@@ -11050,6 +11069,7 @@ function ()
 		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -11524,7 +11544,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[504] = {
 		collection_team = 4,
@@ -11547,7 +11568,6 @@ function ()
 		pre_chapter = 503,
 		formation = 5,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.408333333",
 		pop_pic = "",
@@ -11562,6 +11582,7 @@ function ()
 		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -12061,7 +12082,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[505] = {
 		collection_team = 4,
@@ -12084,7 +12106,6 @@ function ()
 		pre_chapter = 0,
 		formation = 5,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.071875",
 		pop_pic = "",
@@ -12099,6 +12120,7 @@ function ()
 		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -12649,7 +12671,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[601] = {
 		collection_team = 4,
@@ -12672,7 +12695,6 @@ function ()
 		pre_chapter = 504,
 		formation = 6,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.113541667",
 		pop_pic = "",
@@ -12687,6 +12709,7 @@ function ()
 		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -13224,7 +13247,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[602] = {
 		collection_team = 4,
@@ -13247,7 +13271,6 @@ function ()
 		pre_chapter = 601,
 		formation = 6,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.273958333",
 		pop_pic = "",
@@ -13262,6 +13285,7 @@ function ()
 		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -13855,7 +13879,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[603] = {
 		collection_team = 4,
@@ -13878,7 +13903,6 @@ function ()
 		pre_chapter = 602,
 		formation = 6,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.40625",
 		pop_pic = "",
@@ -13893,6 +13917,7 @@ function ()
 		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -14410,7 +14435,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[604] = {
 		collection_team = 4,
@@ -14433,7 +14459,6 @@ function ()
 		pre_chapter = 603,
 		formation = 6,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.186458333",
 		pop_pic = "",
@@ -14448,6 +14473,7 @@ function ()
 		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -15009,7 +15035,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[605] = {
 		collection_team = 4,
@@ -15032,7 +15059,6 @@ function ()
 		pre_chapter = 0,
 		formation = 6,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.470833333",
 		pop_pic = "",
@@ -15047,6 +15073,7 @@ function ()
 		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -15607,7 +15634,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[701] = {
 		collection_team = 4,
@@ -15630,7 +15658,6 @@ function ()
 		pre_chapter = 604,
 		formation = 7,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.130208333",
 		pop_pic = "",
@@ -15645,6 +15672,7 @@ function ()
 		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -16029,7 +16057,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[702] = {
 		collection_team = 4,
@@ -16052,7 +16081,6 @@ function ()
 		pre_chapter = 701,
 		formation = 7,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.442708333",
 		pop_pic = "",
@@ -16067,6 +16095,7 @@ function ()
 		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -16554,7 +16583,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[703] = {
 		collection_team = 4,
@@ -16577,7 +16607,6 @@ function ()
 		pre_chapter = 702,
 		formation = 7,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.335416667",
 		pop_pic = "",
@@ -16592,6 +16621,7 @@ function ()
 		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -17150,7 +17180,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[704] = {
 		collection_team = 4,
@@ -17173,7 +17204,6 @@ function ()
 		pre_chapter = 703,
 		formation = 7,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.163541667",
 		pop_pic = "",
@@ -17188,6 +17218,7 @@ function ()
 		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -17730,7 +17761,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[705] = {
 		collection_team = 4,
@@ -17753,7 +17785,6 @@ function ()
 		pre_chapter = 0,
 		formation = 7,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.291666667",
 		pop_pic = "",
@@ -17768,6 +17799,7 @@ function ()
 		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -18313,7 +18345,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[801] = {
 		collection_team = 4,
@@ -18336,7 +18369,6 @@ function ()
 		pre_chapter = 704,
 		formation = 8,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		pop_pic = "",
@@ -18351,6 +18383,7 @@ function ()
 		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -18757,7 +18790,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[802] = {
 		collection_team = 4,
@@ -18780,7 +18814,6 @@ function ()
 		pre_chapter = 801,
 		formation = 8,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -18795,6 +18828,7 @@ function ()
 		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -19287,7 +19321,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[803] = {
 		collection_team = 4,
@@ -19310,7 +19345,6 @@ function ()
 		pre_chapter = 802,
 		formation = 8,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -19325,6 +19359,7 @@ function ()
 		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -19880,7 +19915,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[804] = {
 		collection_team = 4,
@@ -19903,7 +19939,6 @@ function ()
 		pre_chapter = 803,
 		formation = 8,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -19918,6 +19953,7 @@ function ()
 		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -20536,7 +20572,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[805] = {
 		collection_team = 4,
@@ -20559,7 +20596,6 @@ function ()
 		pre_chapter = 0,
 		formation = 8,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.338541667",
 		pop_pic = "",
@@ -20574,6 +20610,7 @@ function ()
 		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -21181,7 +21218,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[901] = {
 		collection_team = 4,
@@ -21204,7 +21242,6 @@ function ()
 		pre_chapter = 804,
 		formation = 9,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -21219,6 +21256,7 @@ function ()
 		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -21719,7 +21757,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[902] = {
 		collection_team = 4,
@@ -21742,7 +21781,6 @@ function ()
 		pre_chapter = 901,
 		formation = 9,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -21757,6 +21795,7 @@ function ()
 		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -22295,7 +22334,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[903] = {
 		collection_team = 4,
@@ -22318,7 +22358,6 @@ function ()
 		pre_chapter = 902,
 		formation = 9,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -22333,6 +22372,7 @@ function ()
 		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -22895,7 +22935,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[904] = {
 		collection_team = 4,
@@ -22918,7 +22959,6 @@ function ()
 		pre_chapter = 903,
 		formation = 9,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		pop_pic = "",
@@ -22933,6 +22973,7 @@ function ()
 		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -23517,7 +23558,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[905] = {
 		collection_team = 4,
@@ -23540,7 +23582,6 @@ function ()
 		pre_chapter = 0,
 		formation = 9,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.238541667",
 		pop_pic = "",
@@ -23555,6 +23596,7 @@ function ()
 		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -24149,7 +24191,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1001] = {
 		collection_team = 4,
@@ -24172,7 +24215,6 @@ function ()
 		pre_chapter = 904,
 		formation = 10,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -24187,6 +24229,7 @@ function ()
 		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -24706,7 +24749,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1002] = {
 		collection_team = 4,
@@ -24729,7 +24773,6 @@ function ()
 		pre_chapter = 1001,
 		formation = 10,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.234375",
 		pop_pic = "",
@@ -24744,6 +24787,7 @@ function ()
 		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -25319,7 +25363,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1003] = {
 		collection_team = 4,
@@ -25342,7 +25387,6 @@ function ()
 		pre_chapter = 1002,
 		formation = 10,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -25357,6 +25401,7 @@ function ()
 		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -25949,7 +25994,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1004] = {
 		collection_team = 4,
@@ -25972,7 +26018,6 @@ function ()
 		pre_chapter = 1003,
 		formation = 10,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.378125",
 		pop_pic = "",
@@ -25987,6 +26032,7 @@ function ()
 		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -26593,7 +26639,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1005] = {
 		collection_team = 4,
@@ -26616,7 +26663,6 @@ function ()
 		pre_chapter = 0,
 		formation = 10,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.196875",
 		pop_pic = "",
@@ -26631,6 +26677,7 @@ function ()
 		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -27226,7 +27273,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1101] = {
 		collection_team = 4,
@@ -27249,7 +27297,6 @@ function ()
 		pre_chapter = 1004,
 		formation = 11,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.388541667",
 		pop_pic = "",
@@ -27264,6 +27311,7 @@ function ()
 		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -27832,7 +27880,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1102] = {
 		collection_team = 4,
@@ -27855,7 +27904,6 @@ function ()
 		pre_chapter = 1101,
 		formation = 11,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.091666667",
 		pop_pic = "",
@@ -27870,6 +27918,7 @@ function ()
 		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -28553,7 +28602,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1103] = {
 		collection_team = 4,
@@ -28576,7 +28626,6 @@ function ()
 		pre_chapter = 1102,
 		formation = 11,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.453125",
 		pop_pic = "",
@@ -28591,6 +28640,7 @@ function ()
 		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -29244,7 +29294,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1104] = {
 		collection_team = 4,
@@ -29267,7 +29318,6 @@ function ()
 		pre_chapter = 1103,
 		formation = 11,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.167708333",
 		pop_pic = "",
@@ -29282,6 +29332,7 @@ function ()
 		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -30044,7 +30095,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1201] = {
 		collection_team = 4,
@@ -30067,7 +30119,6 @@ function ()
 		pre_chapter = 1104,
 		formation = 12,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -30082,6 +30133,7 @@ function ()
 		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -30628,7 +30680,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1202] = {
 		collection_team = 4,
@@ -30651,7 +30704,6 @@ function ()
 		pre_chapter = 1201,
 		formation = 12,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -30666,6 +30718,7 @@ function ()
 		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -31325,7 +31378,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1203] = {
 		collection_team = 4,
@@ -31348,7 +31402,6 @@ function ()
 		pre_chapter = 1202,
 		formation = 12,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -31363,6 +31416,7 @@ function ()
 		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -32058,7 +32112,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1204] = {
 		collection_team = 4,
@@ -32081,7 +32136,6 @@ function ()
 		pre_chapter = 1203,
 		formation = 12,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		pop_pic = "",
@@ -32096,6 +32150,7 @@ function ()
 		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -32907,7 +32962,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1301] = {
 		collection_team = 4,
@@ -32930,7 +32986,6 @@ function ()
 		pre_chapter = 1204,
 		formation = 13,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -32944,6 +32999,7 @@ function ()
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -33499,7 +33555,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1302] = {
 		collection_team = 4,
@@ -33522,7 +33579,6 @@ function ()
 		pre_chapter = 1301,
 		formation = 13,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -33536,6 +33592,7 @@ function ()
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -34196,7 +34253,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1303] = {
 		collection_team = 4,
@@ -34219,7 +34277,6 @@ function ()
 		pre_chapter = 1302,
 		formation = 13,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -34233,6 +34290,7 @@ function ()
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -34937,7 +34995,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1304] = {
 		collection_team = 4,
@@ -34960,7 +35019,6 @@ function ()
 		pre_chapter = 1303,
 		formation = 13,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		pop_pic = "",
@@ -34974,6 +35032,7 @@ function ()
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -35787,7 +35846,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10000] = {
 		collection_team = 0,
@@ -35810,7 +35870,6 @@ function ()
 		pre_chapter = 0,
 		formation = 10000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.43125",
 		pop_pic = "",
@@ -35825,6 +35884,7 @@ function ()
 		is_ai = 0,
 		map = 10000,
 		unlocklevel = 15,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -36193,7 +36253,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10001] = {
 		collection_team = 0,
@@ -36216,7 +36277,6 @@ function ()
 		pre_chapter = 10000,
 		formation = 10000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.294791667",
 		pop_pic = "",
@@ -36231,6 +36291,7 @@ function ()
 		is_ai = 0,
 		map = 10000,
 		unlocklevel = 15,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -36663,7 +36724,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10002] = {
 		collection_team = 0,
@@ -36686,7 +36748,6 @@ function ()
 		pre_chapter = 10001,
 		formation = 10000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		pop_pic = "",
@@ -36701,6 +36762,7 @@ function ()
 		is_ai = 0,
 		map = 10000,
 		unlocklevel = 15,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -37163,7 +37225,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10101] = {
 		collection_team = 0,
@@ -37186,7 +37249,6 @@ function ()
 		pre_chapter = 0,
 		formation = 201,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.157291667",
 		pop_pic = "",
@@ -37201,6 +37263,7 @@ function ()
 		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -37460,7 +37523,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10102] = {
 		collection_team = 0,
@@ -37483,7 +37547,6 @@ function ()
 		pre_chapter = 0,
 		formation = 201,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.347916667",
 		pop_pic = "",
@@ -37498,6 +37561,7 @@ function ()
 		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -37864,7 +37928,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10103] = {
 		collection_team = 0,
@@ -37887,7 +37952,6 @@ function ()
 		pre_chapter = 0,
 		formation = 201,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		pop_pic = "",
@@ -37902,6 +37966,7 @@ function ()
 		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -38304,7 +38369,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10104] = {
 		collection_team = 0,
@@ -38327,7 +38393,6 @@ function ()
 		pre_chapter = 0,
 		formation = 201,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.446875",
 		pop_pic = "",
@@ -38342,6 +38407,7 @@ function ()
 		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -38827,7 +38893,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10201] = {
 		collection_team = 0,
@@ -38850,7 +38917,6 @@ function ()
 		pre_chapter = 0,
 		formation = 202,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.15625",
 		pop_pic = "",
@@ -38865,6 +38931,7 @@ function ()
 		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -39450,7 +39517,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10202] = {
 		collection_team = 0,
@@ -39473,7 +39541,6 @@ function ()
 		pre_chapter = 0,
 		formation = 202,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		pop_pic = "",
@@ -39488,6 +39555,7 @@ function ()
 		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -40126,7 +40194,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10203] = {
 		collection_team = 0,
@@ -40149,7 +40218,6 @@ function ()
 		pre_chapter = 0,
 		formation = 202,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35",
 		pop_pic = "",
@@ -40164,6 +40232,7 @@ function ()
 		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -40779,7 +40848,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10204] = {
 		collection_team = 0,
@@ -40802,7 +40872,6 @@ function ()
 		pre_chapter = 0,
 		formation = 202,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.0625",
 		pop_pic = "",
@@ -40817,6 +40886,7 @@ function ()
 		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -41402,7 +41472,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10301] = {
 		collection_team = 0,
@@ -41425,7 +41496,6 @@ function ()
 		pre_chapter = 0,
 		formation = 203,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.403125",
 		pop_pic = "",
@@ -41440,6 +41510,7 @@ function ()
 		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -42046,7 +42117,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10302] = {
 		collection_team = 0,
@@ -42069,7 +42141,6 @@ function ()
 		pre_chapter = 0,
 		formation = 203,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -42084,6 +42155,7 @@ function ()
 		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -42714,7 +42786,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10303] = {
 		collection_team = 0,
@@ -42737,7 +42810,6 @@ function ()
 		pre_chapter = 0,
 		formation = 203,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.491666667",
 		pop_pic = "",
@@ -42752,6 +42824,7 @@ function ()
 		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -43377,7 +43450,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10304] = {
 		collection_team = 0,
@@ -43400,7 +43474,6 @@ function ()
 		pre_chapter = 0,
 		formation = 203,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -43415,6 +43488,7 @@ function ()
 		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -44026,7 +44100,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10401] = {
 		collection_team = 0,
@@ -44049,7 +44124,6 @@ function ()
 		pre_chapter = 0,
 		formation = 204,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		pop_pic = "",
@@ -44064,6 +44138,7 @@ function ()
 		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -44592,7 +44667,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10402] = {
 		collection_team = 0,
@@ -44615,7 +44691,6 @@ function ()
 		pre_chapter = 0,
 		formation = 204,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.140625",
 		pop_pic = "",
@@ -44630,6 +44705,7 @@ function ()
 		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -45151,7 +45227,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10403] = {
 		collection_team = 0,
@@ -45174,7 +45251,6 @@ function ()
 		pre_chapter = 0,
 		formation = 204,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.061458333",
 		pop_pic = "",
@@ -45189,6 +45265,7 @@ function ()
 		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -45655,7 +45732,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10404] = {
 		collection_team = 0,
@@ -45678,7 +45756,6 @@ function ()
 		pre_chapter = 0,
 		formation = 204,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.328125",
 		pop_pic = "",
@@ -45693,6 +45770,7 @@ function ()
 		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -46296,7 +46374,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10501] = {
 		collection_team = 0,
@@ -46319,7 +46398,6 @@ function ()
 		pre_chapter = 0,
 		formation = 205,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.25",
 		pop_pic = "",
@@ -46334,6 +46412,7 @@ function ()
 		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -46942,7 +47021,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10502] = {
 		collection_team = 0,
@@ -46965,7 +47045,6 @@ function ()
 		pre_chapter = 0,
 		formation = 205,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.071875",
 		pop_pic = "",
@@ -46980,6 +47059,7 @@ function ()
 		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -47526,7 +47606,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10503] = {
 		collection_team = 0,
@@ -47549,7 +47630,6 @@ function ()
 		pre_chapter = 0,
 		formation = 205,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.25",
 		pop_pic = "",
@@ -47564,6 +47644,7 @@ function ()
 		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -48080,7 +48161,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10504] = {
 		collection_team = 0,
@@ -48103,7 +48185,6 @@ function ()
 		pre_chapter = 0,
 		formation = 205,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.408333333",
 		pop_pic = "",
@@ -48118,6 +48199,7 @@ function ()
 		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -48659,7 +48741,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10601] = {
 		collection_team = 0,
@@ -48682,7 +48765,6 @@ function ()
 		pre_chapter = 0,
 		formation = 206,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.113541667",
 		pop_pic = "",
@@ -48697,6 +48779,7 @@ function ()
 		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -49277,7 +49360,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10602] = {
 		collection_team = 0,
@@ -49300,7 +49384,6 @@ function ()
 		pre_chapter = 0,
 		formation = 206,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.273958333",
 		pop_pic = "",
@@ -49315,6 +49398,7 @@ function ()
 		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -49951,7 +50035,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10603] = {
 		collection_team = 0,
@@ -49974,7 +50059,6 @@ function ()
 		pre_chapter = 0,
 		formation = 206,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.40625",
 		pop_pic = "",
@@ -49989,6 +50073,7 @@ function ()
 		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -50549,7 +50634,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10604] = {
 		collection_team = 0,
@@ -50572,7 +50658,6 @@ function ()
 		pre_chapter = 0,
 		formation = 206,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.186458333",
 		pop_pic = "",
@@ -50587,6 +50672,7 @@ function ()
 		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -51191,7 +51277,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10701] = {
 		collection_team = 0,
@@ -51214,7 +51301,6 @@ function ()
 		pre_chapter = 0,
 		formation = 207,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.130208333",
 		pop_pic = "",
@@ -51229,6 +51315,7 @@ function ()
 		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -51658,7 +51745,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10702] = {
 		collection_team = 0,
@@ -51681,7 +51769,6 @@ function ()
 		pre_chapter = 0,
 		formation = 207,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.442708333",
 		pop_pic = "",
@@ -51696,6 +51783,7 @@ function ()
 		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -52228,7 +52316,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10703] = {
 		collection_team = 0,
@@ -52251,7 +52340,6 @@ function ()
 		pre_chapter = 0,
 		formation = 207,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.335416667",
 		pop_pic = "",
@@ -52266,6 +52354,7 @@ function ()
 		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -52869,7 +52958,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10704] = {
 		collection_team = 0,
@@ -52892,7 +52982,6 @@ function ()
 		pre_chapter = 0,
 		formation = 207,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.163541667",
 		pop_pic = "",
@@ -52907,6 +52996,7 @@ function ()
 		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -53494,7 +53584,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10801] = {
 		collection_team = 0,
@@ -53517,7 +53608,6 @@ function ()
 		pre_chapter = 0,
 		formation = 208,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		pop_pic = "",
@@ -53532,6 +53622,7 @@ function ()
 		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -53983,7 +54074,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10802] = {
 		collection_team = 0,
@@ -54006,7 +54098,6 @@ function ()
 		pre_chapter = 0,
 		formation = 208,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -54021,6 +54112,7 @@ function ()
 		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -54558,7 +54650,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10803] = {
 		collection_team = 0,
@@ -54581,7 +54674,6 @@ function ()
 		pre_chapter = 0,
 		formation = 208,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -54596,6 +54688,7 @@ function ()
 		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -55196,7 +55289,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10804] = {
 		collection_team = 0,
@@ -55219,7 +55313,6 @@ function ()
 		pre_chapter = 0,
 		formation = 208,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -55234,6 +55327,7 @@ function ()
 		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -55897,7 +55991,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10901] = {
 		collection_team = 0,
@@ -55920,7 +56015,6 @@ function ()
 		pre_chapter = 0,
 		formation = 209,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -55935,6 +56029,7 @@ function ()
 		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -56480,7 +56575,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10902] = {
 		collection_team = 0,
@@ -56503,7 +56599,6 @@ function ()
 		pre_chapter = 0,
 		formation = 209,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -56518,6 +56613,7 @@ function ()
 		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -57101,7 +57197,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10903] = {
 		collection_team = 0,
@@ -57124,7 +57221,6 @@ function ()
 		pre_chapter = 0,
 		formation = 209,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -57139,6 +57235,7 @@ function ()
 		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -57746,7 +57843,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10904] = {
 		collection_team = 0,
@@ -57769,7 +57867,6 @@ function ()
 		pre_chapter = 0,
 		formation = 209,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		pop_pic = "",
@@ -57784,6 +57881,7 @@ function ()
 		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -58413,7 +58511,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11001] = {
 		collection_team = 4,
@@ -58436,7 +58535,6 @@ function ()
 		pre_chapter = 0,
 		formation = 210,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -58451,6 +58549,7 @@ function ()
 		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -59015,7 +59114,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end()
 function ()
@@ -59040,7 +59140,6 @@ function ()
 		pre_chapter = 0,
 		formation = 210,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.234375",
 		pop_pic = "",
@@ -59055,6 +59154,7 @@ function ()
 		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -59675,7 +59775,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11003] = {
 		collection_team = 4,
@@ -59698,7 +59799,6 @@ function ()
 		pre_chapter = 0,
 		formation = 210,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -59713,6 +59813,7 @@ function ()
 		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -60350,7 +60451,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11004] = {
 		collection_team = 4,
@@ -60373,7 +60475,6 @@ function ()
 		pre_chapter = 0,
 		formation = 210,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.378125",
 		pop_pic = "",
@@ -60388,6 +60489,7 @@ function ()
 		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -61039,7 +61141,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11101] = {
 		collection_team = 4,
@@ -61062,7 +61165,6 @@ function ()
 		pre_chapter = 0,
 		formation = 211,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.388541667",
 		pop_pic = "",
@@ -61077,6 +61179,7 @@ function ()
 		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -61690,7 +61793,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11102] = {
 		collection_team = 4,
@@ -61713,7 +61817,6 @@ function ()
 		pre_chapter = 0,
 		formation = 211,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.091666667",
 		pop_pic = "",
@@ -61728,6 +61831,7 @@ function ()
 		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -62456,7 +62560,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11103] = {
 		collection_team = 4,
@@ -62479,7 +62584,6 @@ function ()
 		pre_chapter = 0,
 		formation = 211,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.453125",
 		pop_pic = "",
@@ -62494,6 +62598,7 @@ function ()
 		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -63192,7 +63297,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11104] = {
 		collection_team = 4,
@@ -63215,7 +63321,6 @@ function ()
 		pre_chapter = 0,
 		formation = 211,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.167708333",
 		pop_pic = "",
@@ -63230,6 +63335,7 @@ function ()
 		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
 		ItemTransformPattern = "",
@@ -64037,7 +64143,3055 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[11201] = {
+		collection_team = 4,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		pos_x = "0.14609375",
+		special_operation_list = "",
+		air_dominance = 2740,
+		best_air_dominance = 3560,
+		id = 11201,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 212,
+		bgm = "",
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 35,
+		wall_prefab = "",
+		num_2 = 30,
+		ammo_submarine = 0,
+		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
+		map = 212,
+		unlocklevel = 80,
+		chapter_tag = 0,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
+		name = "Information Warfare",
+		chapter_name = "12–1",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Our submarines say the enemy is preparing a large-scale counterattack. We must make use of this information, stage an attack, and surprise the enemy!",
+		difficulty = 6,
+		avoid_ratio = 20,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		avoid_require = 150,
+		scale = {
+			0.35,
+			0.35,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					6,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				104
+			},
+			{
+				"torpedo",
+				1,
+				2100
+			},
+			{
+				"antiaircraft",
+				1,
+				3400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11201010,
+				5,
+				0
+			},
+			{
+				11201020,
+				30,
+				0
+			},
+			{
+				11201030,
+				38,
+				0
+			},
+			{
+				11201040,
+				6,
+				0
+			},
+			{
+				11201050,
+				36,
+				0
+			},
+			{
+				11201060,
+				26,
+				0
+			},
+			{
+				11201100,
+				2,
+				0
+			},
+			{
+				11201110,
+				4,
+				0
+			},
+			{
+				11201120,
+				2,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11201210,
+			11201211,
+			11201212
+		},
+		guarder_expedition_list = {
+			11201100,
+			11201110,
+			11201120
+		},
+		elite_expedition_list = {
+			11201050,
+			11201080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11201000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"miaogao"
+		},
+		awards = {
+			{
+				2,
+				54045
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56045
+			},
+			{
+				2,
+				55045
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				4
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				8
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x2NormalIsland_2",
+				3,
+				-36
+			},
+			{
+				6,
+				2,
+				"2x1NormalIsland_1",
+				43,
+				0
+			},
+			{
+				4,
+				4,
+				"2x2NormalIsland_3",
+				38,
+				35
+			},
+			{
+				3,
+				1,
+				"1x2NormalIsland_1",
+				0,
+				-31
+			},
+			{
+				2,
+				8,
+				"2x1NormalIsland_1",
+				-55,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-250,
+			31,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[11202] = {
+		collection_team = 4,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		pos_x = "0.28671875",
+		special_operation_list = "",
+		air_dominance = 2810,
+		best_air_dominance = 3650,
+		id = 11202,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 212,
+		bgm = "",
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 35,
+		wall_prefab = "",
+		num_2 = 35,
+		ammo_submarine = 0,
+		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
+		map = 212,
+		unlocklevel = 80,
+		chapter_tag = 0,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
+		name = "Ambush",
+		chapter_name = "12–2",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "The Mobile Fleet is being protected by a Destroyer Fleet as they practice! This is a superb opportunity to launch an all-out attack!",
+		difficulty = 7,
+		avoid_ratio = 21,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		avoid_require = 150,
+		scale = {
+			0.66,
+			0.62,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					6,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				106
+			},
+			{
+				"torpedo",
+				1,
+				2200
+			},
+			{
+				"antiaircraft",
+				1,
+				3500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11202010,
+				4,
+				0
+			},
+			{
+				11202020,
+				30,
+				0
+			},
+			{
+				11202030,
+				40,
+				0
+			},
+			{
+				11202040,
+				5,
+				0
+			},
+			{
+				11202050,
+				36,
+				0
+			},
+			{
+				11202060,
+				28,
+				0
+			},
+			{
+				11202100,
+				2,
+				0
+			},
+			{
+				11202110,
+				4,
+				0
+			},
+			{
+				11202120,
+				2,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11202210,
+			11202211,
+			11202212
+		},
+		guarder_expedition_list = {
+			11202100,
+			11202110,
+			11202120
+		},
+		elite_expedition_list = {
+			11202050,
+			11202080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11202000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"gufeng",
+			"qinchao"
+		},
+		awards = {
+			{
+				2,
+				54046
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56046
+			},
+			{
+				2,
+				55046
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				4
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				16
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"2x1NormalIsland_1",
+				-54,
+				0
+			},
+			{
+				7,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				1,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"2x1NormalIsland_1",
+				52,
+				0
+			},
+			{
+				4,
+				3,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				9,
+				"1x2NormalIsland_2",
+				4,
+				-35
+			},
+			{
+				2,
+				5,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				2,
+				1,
+				"1x2NormalIsland_1",
+				0,
+				-31
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-300,
+			82,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[11203] = {
+		collection_team = 4,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		pos_x = "0.6046875",
+		special_operation_list = "",
+		air_dominance = 2960,
+		best_air_dominance = 3850,
+		id = 11203,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 212,
+		bgm = "",
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 36,
+		wall_prefab = "",
+		num_2 = 40,
+		ammo_submarine = 0,
+		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
+		map = 212,
+		unlocklevel = 80,
+		chapter_tag = 0,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
+		name = "Carrier Showdown",
+		chapter_name = "12–3",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "We've detected incoming large squadrons of enemy aircraft! Scramble your fighters and pull back the curtains on this decisive battle in the skies!",
+		difficulty = 8,
+		avoid_ratio = 21,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		avoid_require = 154,
+		scale = {
+			0.66,
+			0.38,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					6,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				108
+			},
+			{
+				"torpedo",
+				1,
+				2300
+			},
+			{
+				"antiaircraft",
+				1,
+				3600
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11203010,
+				3,
+				0
+			},
+			{
+				11203020,
+				28,
+				0
+			},
+			{
+				11203030,
+				42,
+				0
+			},
+			{
+				11203040,
+				5,
+				0
+			},
+			{
+				11203050,
+				36,
+				0
+			},
+			{
+				11203060,
+				30,
+				0
+			},
+			{
+				11203100,
+				2,
+				0
+			},
+			{
+				11203110,
+				4,
+				0
+			},
+			{
+				11203120,
+				2,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11203210,
+			11203211,
+			11203212
+		},
+		guarder_expedition_list = {
+			11203100,
+			11203110,
+			11203120
+		},
+		elite_expedition_list = {
+			11203050,
+			11203060,
+			11203080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11203000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"feiying",
+			"sunying"
+		},
+		awards = {
+			{
+				2,
+				54047
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56047
+			},
+			{
+				2,
+				55047
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				6
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				1
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				16
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				16
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				10,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				7,
+				1,
+				"1x2NormalIsland_2",
+				0,
+				-36
+			},
+			{
+				6,
+				10,
+				"1x2NormalIsland_1",
+				-1,
+				-33
+			},
+			{
+				4,
+				9,
+				"2x2NormalIsland_4",
+				-25,
+				34
+			},
+			{
+				4,
+				8,
+				"1x1NormalIsland_1",
+				-16,
+				0
+			},
+			{
+				4,
+				4,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				2,
+				3,
+				"1x3NormalIsland_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-380,
+			115,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[11204] = {
+		collection_team = 4,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		pos_x = "0.70703125",
+		special_operation_list = "",
+		air_dominance = 3150,
+		best_air_dominance = 4095,
+		id = 11204,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 212,
+		bgm = "",
+		star_require_1 = 1,
+		pos_y = "0.09375",
+		pop_pic = "",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 37,
+		wall_prefab = "",
+		num_2 = 45,
+		ammo_submarine = 0,
+		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
+		map = 212,
+		unlocklevel = 80,
+		chapter_tag = 0,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
+		name = "Task Force",
+		chapter_name = "12–4",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "War has changed. Victory favors those who have gained air superiority. Launch your planes and seize control of the Mariana skies!",
+		difficulty = 9,
+		avoid_ratio = 22,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		avoid_require = 158,
+		scale = {
+			0.66,
+			0.34,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					6,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			},
+			{
+				"torpedo",
+				1,
+				2400
+			},
+			{
+				"antiaircraft",
+				1,
+				3700
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11204010,
+				2,
+				0
+			},
+			{
+				11204020,
+				26,
+				0
+			},
+			{
+				11204030,
+				44,
+				0
+			},
+			{
+				11204040,
+				5,
+				0
+			},
+			{
+				11204050,
+				36,
+				0
+			},
+			{
+				11204060,
+				30,
+				0
+			},
+			{
+				11204100,
+				2,
+				0
+			},
+			{
+				11204110,
+				4,
+				0
+			},
+			{
+				11204120,
+				2,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11204210,
+			11204211,
+			11204212
+		},
+		guarder_expedition_list = {
+			11204100,
+			11204110,
+			11204120
+		},
+		elite_expedition_list = {
+			11204050,
+			11204060,
+			11204080,
+			11204090
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11204000
+		},
+		enemy_refresh = {
+			0,
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			2,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"niaohai",
+			"moye"
+		},
+		awards = {
+			{
+				2,
+				54048
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56048
+			},
+			{
+				2,
+				55048
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				11,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				6
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				1
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				11,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				6
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				4
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				11,
+				true,
+				6
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				16
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				16
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				4
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				11,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				4
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				3
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				11,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				true,
+				8
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"1x3NormalIsland_1",
+				96,
+				0
+			},
+			{
+				6,
+				8,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				10,
+				"2x2NormalIsland_1",
+				-43,
+				35
+			},
+			{
+				4,
+				5,
+				"2x1NormalIsland_1",
+				-53,
+				0
+			},
+			{
+				4,
+				1,
+				"3x1NormalIsland_1",
+				-3,
+				-77
+			},
+			{
+				2,
+				7,
+				"2x3NormalIsland_1",
+				-7,
+				43
+			},
+			{
+				2,
+				2,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				1,
+				11,
+				"1x2NormalIsland_1",
+				0,
+				-36
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-380,
+			127,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20001] = {
 		collection_team = 0,
@@ -64060,7 +67214,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -64075,6 +67228,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -64520,7 +67674,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20002] = {
 		collection_team = 0,
@@ -64543,7 +67698,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -64558,6 +67712,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -65055,7 +68210,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20003] = {
 		collection_team = 0,
@@ -65078,7 +68234,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -65093,6 +68248,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -65682,7 +68838,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20004] = {
 		collection_team = 0,
@@ -65705,7 +68862,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -65719,6 +68875,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -66159,7 +69316,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20005] = {
 		collection_team = 0,
@@ -66182,7 +69340,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -66196,6 +69353,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -66681,7 +69839,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20006] = {
 		collection_team = 0,
@@ -66704,7 +69863,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -66718,6 +69876,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -67295,7 +70454,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20007] = {
 		collection_team = 0,
@@ -67318,7 +70478,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -67332,6 +70491,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -67771,7 +70931,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20008] = {
 		collection_team = 0,
@@ -67794,7 +70955,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -67808,6 +70968,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -68298,7 +71459,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20009] = {
 		collection_team = 0,
@@ -68321,7 +71483,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -68335,6 +71496,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -68862,7 +72024,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20010] = {
 		collection_team = 0,
@@ -68885,7 +72048,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -68898,6 +72060,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -69366,7 +72529,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20011] = {
 		collection_team = 0,
@@ -69389,7 +72553,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -69402,6 +72565,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -69914,7 +73078,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20012] = {
 		collection_team = 0,
@@ -69937,7 +73102,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -69950,6 +73114,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -70506,7 +73671,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20013] = {
 		collection_team = 0,
@@ -70529,7 +73695,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		pop_pic = "",
@@ -70542,6 +73707,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -71010,7 +74176,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20014] = {
 		collection_team = 0,
@@ -71033,7 +74200,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		pop_pic = "",
@@ -71046,6 +74212,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -71558,7 +74725,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20015] = {
 		collection_team = 0,
@@ -71581,7 +74749,6 @@ function ()
 		pre_chapter = 0,
 		formation = 70000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		pop_pic = "",
@@ -71594,6 +74761,7 @@ function ()
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -72150,7 +75318,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040001] = {
 		collection_team = 0,
@@ -72173,7 +75342,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1040000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		pop_pic = "",
@@ -72188,6 +75356,7 @@ function ()
 		is_ai = 0,
 		map = 1040000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -72681,7 +75850,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040002] = {
 		collection_team = 0,
@@ -72704,7 +75874,6 @@ function ()
 		pre_chapter = 1040001,
 		formation = 1040000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		pop_pic = "",
@@ -72719,6 +75888,7 @@ function ()
 		is_ai = 0,
 		map = 1040000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -73267,7 +76437,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040003] = {
 		collection_team = 0,
@@ -73290,7 +76461,6 @@ function ()
 		pre_chapter = 1040002,
 		formation = 1040000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		pop_pic = "",
@@ -73305,6 +76475,7 @@ function ()
 		is_ai = 0,
 		map = 1040000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -73922,7 +77093,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040004] = {
 		collection_team = 0,
@@ -73945,7 +77117,6 @@ function ()
 		pre_chapter = 1040003,
 		formation = 1040001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		pop_pic = "",
@@ -73960,6 +77131,7 @@ function ()
 		is_ai = 0,
 		map = 1040001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -74527,7 +77699,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040005] = {
 		collection_team = 0,
@@ -74550,7 +77723,6 @@ function ()
 		pre_chapter = 1040004,
 		formation = 1040001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -74565,6 +77737,7 @@ function ()
 		is_ai = 0,
 		map = 1040001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -75231,7 +78404,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040006] = {
 		collection_team = 0,
@@ -75254,7 +78428,6 @@ function ()
 		pre_chapter = 1040005,
 		formation = 1040001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.4",
 		pop_pic = "",
@@ -75269,6 +78442,7 @@ function ()
 		is_ai = 0,
 		map = 1040001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -75932,7 +79106,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040011] = {
 		collection_team = 0,
@@ -75955,7 +79130,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1040010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		pop_pic = "",
@@ -75970,6 +79144,7 @@ function ()
 		is_ai = 0,
 		map = 1040010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -76504,7 +79679,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040012] = {
 		collection_team = 0,
@@ -76527,7 +79703,6 @@ function ()
 		pre_chapter = 1040011,
 		formation = 1040010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		pop_pic = "",
@@ -76542,6 +79717,7 @@ function ()
 		is_ai = 0,
 		map = 1040010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -77131,7 +80307,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040013] = {
 		collection_team = 0,
@@ -77154,7 +80331,6 @@ function ()
 		pre_chapter = 1040012,
 		formation = 1040010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		pop_pic = "",
@@ -77169,6 +80345,7 @@ function ()
 		is_ai = 0,
 		map = 1040010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -77828,7 +81005,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040014] = {
 		collection_team = 0,
@@ -77851,7 +81029,6 @@ function ()
 		pre_chapter = 1040013,
 		formation = 1040011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		pop_pic = "",
@@ -77866,6 +81043,7 @@ function ()
 		is_ai = 0,
 		map = 1040011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -78475,7 +81653,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040015] = {
 		collection_team = 0,
@@ -78498,7 +81677,6 @@ function ()
 		pre_chapter = 1040014,
 		formation = 1040011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -78513,6 +81691,7 @@ function ()
 		is_ai = 0,
 		map = 1040011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -79221,7 +82400,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1040016] = {
 		collection_team = 0,
@@ -79244,7 +82424,6 @@ function ()
 		pre_chapter = 1040015,
 		formation = 1040011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.4",
 		pop_pic = "",
@@ -79259,6 +82438,7 @@ function ()
 		is_ai = 0,
 		map = 1040011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -79963,7 +83143,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050001] = {
 		collection_team = 0,
@@ -79986,7 +83167,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1050000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -80001,6 +83181,7 @@ function ()
 		is_ai = 0,
 		map = 1050000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -80549,7 +83730,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050002] = {
 		collection_team = 0,
@@ -80572,7 +83754,6 @@ function ()
 		pre_chapter = 1050001,
 		formation = 1050000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -80587,6 +83768,7 @@ function ()
 		is_ai = 0,
 		map = 1050000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -81137,7 +84319,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050003] = {
 		collection_team = 0,
@@ -81160,7 +84343,6 @@ function ()
 		pre_chapter = 1050002,
 		formation = 1050000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -81175,6 +84357,7 @@ function ()
 		is_ai = 0,
 		map = 1050000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -81848,7 +85031,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050011] = {
 		collection_team = 0,
@@ -81871,7 +85055,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1050010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -81886,6 +85069,7 @@ function ()
 		is_ai = 0,
 		map = 1050010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -82434,7 +85618,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050012] = {
 		collection_team = 0,
@@ -82457,7 +85642,6 @@ function ()
 		pre_chapter = 1050011,
 		formation = 1050010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -82472,6 +85656,7 @@ function ()
 		is_ai = 0,
 		map = 1050010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -83022,7 +86207,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050013] = {
 		collection_team = 0,
@@ -83045,7 +86231,6 @@ function ()
 		pre_chapter = 1050012,
 		formation = 1050010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -83060,6 +86245,7 @@ function ()
 		is_ai = 0,
 		map = 1050010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -83733,7 +86919,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070101] = {
 		collection_team = 0,
@@ -83756,7 +86943,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1070100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		pop_pic = "",
@@ -83771,6 +86957,7 @@ function ()
 		is_ai = 0,
 		map = 1070100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -84320,7 +87507,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070102] = {
 		collection_team = 0,
@@ -84343,7 +87531,6 @@ function ()
 		pre_chapter = 1070101,
 		formation = 1070100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		pop_pic = "",
@@ -84358,6 +87545,7 @@ function ()
 		is_ai = 0,
 		map = 1070100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -85006,7 +88194,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070103] = {
 		collection_team = 0,
@@ -85029,7 +88218,6 @@ function ()
 		pre_chapter = 1070102,
 		formation = 1070100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		pop_pic = "",
@@ -85044,6 +88232,7 @@ function ()
 		is_ai = 0,
 		map = 1070100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -85750,7 +88939,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070201] = {
 		collection_team = 0,
@@ -85773,7 +88963,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1070200,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		pop_pic = "",
@@ -85788,6 +88977,7 @@ function ()
 		is_ai = 0,
 		map = 1070200,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -86336,7 +89526,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070202] = {
 		collection_team = 0,
@@ -86359,7 +89550,6 @@ function ()
 		pre_chapter = 1070201,
 		formation = 1070200,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		pop_pic = "",
@@ -86374,6 +89564,7 @@ function ()
 		is_ai = 0,
 		map = 1070200,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -87021,7 +90212,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070203] = {
 		collection_team = 0,
@@ -87044,7 +90236,6 @@ function ()
 		pre_chapter = 1070202,
 		formation = 1070200,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		pop_pic = "",
@@ -87059,6 +90250,7 @@ function ()
 		is_ai = 0,
 		map = 1070200,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -87764,7 +90956,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1080001] = {
 		collection_team = 0,
@@ -87787,7 +90980,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1080000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.394725",
 		pop_pic = "",
@@ -87802,6 +90994,7 @@ function ()
 		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -88283,7 +91476,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1080002] = {
 		collection_team = 0,
@@ -88306,7 +91500,6 @@ function ()
 		pre_chapter = 1080001,
 		formation = 1080000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.43335",
 		pop_pic = "",
@@ -88321,6 +91514,7 @@ function ()
 		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -88907,7 +92101,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1080003] = {
 		collection_team = 0,
@@ -88930,7 +92125,6 @@ function ()
 		pre_chapter = 1080002,
 		formation = 1080000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.03125",
 		pop_pic = "",
@@ -88945,6 +92139,7 @@ function ()
 		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -89524,7 +92719,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1080004] = {
 		collection_team = 0,
@@ -89547,7 +92743,6 @@ function ()
 		pre_chapter = 1080003,
 		formation = 1080000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.11565",
 		pop_pic = "",
@@ -89562,6 +92757,7 @@ function ()
 		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -90254,7 +93450,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1080005] = {
 		collection_team = 0,
@@ -90277,7 +93474,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1080010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1635417",
 		pop_pic = "",
@@ -90292,6 +93488,7 @@ function ()
 		is_ai = 0,
 		map = 1080010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -91031,7 +94228,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100001] = {
 		collection_team = 0,
@@ -91054,7 +94252,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1100000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		pop_pic = "",
@@ -91069,6 +94266,7 @@ function ()
 		is_ai = 0,
 		map = 1100000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -91581,7 +94779,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100002] = {
 		collection_team = 0,
@@ -91604,7 +94803,6 @@ function ()
 		pre_chapter = 1100001,
 		formation = 1100000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		pop_pic = "",
@@ -91619,6 +94817,7 @@ function ()
 		is_ai = 0,
 		map = 1100000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -92187,7 +95386,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100003] = {
 		collection_team = 0,
@@ -92210,7 +95410,6 @@ function ()
 		pre_chapter = 1100002,
 		formation = 1100000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		pop_pic = "",
@@ -92225,6 +95424,7 @@ function ()
 		is_ai = 0,
 		map = 1100000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -92862,7 +96062,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100004] = {
 		collection_team = 0,
@@ -92885,7 +96086,6 @@ function ()
 		pre_chapter = 1100003,
 		formation = 1100001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		pop_pic = "",
@@ -92900,6 +96100,7 @@ function ()
 		is_ai = 0,
 		map = 1100001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -93488,7 +96689,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100005] = {
 		collection_team = 0,
@@ -93511,7 +96713,6 @@ function ()
 		pre_chapter = 1100004,
 		formation = 1100001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -93526,6 +96727,7 @@ function ()
 		is_ai = 0,
 		map = 1100001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -94213,7 +97415,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100006] = {
 		collection_team = 0,
@@ -94236,7 +97439,6 @@ function ()
 		pre_chapter = 1100005,
 		formation = 1100001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.4",
 		pop_pic = "",
@@ -94251,6 +97453,7 @@ function ()
 		is_ai = 0,
 		map = 1100001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -94935,7 +98138,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100011] = {
 		collection_team = 0,
@@ -94958,7 +98162,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1100010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		pop_pic = "",
@@ -94973,6 +98176,7 @@ function ()
 		is_ai = 0,
 		map = 1100010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -95528,7 +98732,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100012] = {
 		collection_team = 0,
@@ -95551,7 +98756,6 @@ function ()
 		pre_chapter = 1100011,
 		formation = 1100010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		pop_pic = "",
@@ -95566,6 +98770,7 @@ function ()
 		is_ai = 0,
 		map = 1100010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -96176,7 +99381,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100013] = {
 		collection_team = 0,
@@ -96199,7 +99405,6 @@ function ()
 		pre_chapter = 1100012,
 		formation = 1100010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		pop_pic = "",
@@ -96214,6 +99419,7 @@ function ()
 		is_ai = 0,
 		map = 1100010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -96894,7 +100100,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100014] = {
 		collection_team = 0,
@@ -96917,7 +100124,6 @@ function ()
 		pre_chapter = 1100013,
 		formation = 1100011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		pop_pic = "",
@@ -96932,6 +100138,7 @@ function ()
 		is_ai = 0,
 		map = 1100011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -97562,7 +100769,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100015] = {
 		collection_team = 0,
@@ -97585,7 +100793,6 @@ function ()
 		pre_chapter = 1100014,
 		formation = 1100011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -97600,6 +100807,7 @@ function ()
 		is_ai = 0,
 		map = 1100011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -98329,7 +101537,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100016] = {
 		collection_team = 0,
@@ -98352,7 +101561,6 @@ function ()
 		pre_chapter = 1100015,
 		formation = 1100011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.4",
 		pop_pic = "",
@@ -98367,6 +101575,7 @@ function ()
 		is_ai = 0,
 		map = 1100011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -99092,7 +102301,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100020] = {
 		collection_team = 0,
@@ -99115,7 +102325,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1100013,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.277083333",
 		pop_pic = "",
@@ -99130,6 +102339,7 @@ function ()
 		is_ai = 0,
 		map = 1100013,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -99844,7 +103054,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110001] = {
 		collection_team = 0,
@@ -99867,7 +103078,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1110001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
 		pop_pic = "",
@@ -99882,6 +103092,7 @@ function ()
 		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -100447,7 +103658,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110002] = {
 		collection_team = 0,
@@ -100470,7 +103682,6 @@ function ()
 		pre_chapter = 1110001,
 		formation = 1110001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		pop_pic = "",
@@ -100485,6 +103696,7 @@ function ()
 		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -100973,7 +104185,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110003] = {
 		collection_team = 0,
@@ -100996,7 +104209,6 @@ function ()
 		pre_chapter = 1110002,
 		formation = 1110001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		pop_pic = "",
@@ -101011,6 +104223,7 @@ function ()
 		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -101549,7 +104762,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110004] = {
 		collection_team = 0,
@@ -101572,7 +104786,6 @@ function ()
 		pre_chapter = 1110003,
 		formation = 1110001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		pop_pic = "",
@@ -101587,6 +104800,7 @@ function ()
 		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -102213,7 +105427,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110005] = {
 		collection_team = 0,
@@ -102236,7 +105451,6 @@ function ()
 		pre_chapter = 1110004,
 		formation = 1110002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.175",
 		pop_pic = "",
@@ -102251,6 +105465,7 @@ function ()
 		is_ai = 1,
 		map = 1110002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -102928,7 +106143,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110006] = {
 		collection_team = 0,
@@ -102951,7 +106167,6 @@ function ()
 		pre_chapter = 1110005,
 		formation = 1110002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		pop_pic = "",
@@ -102966,6 +106181,7 @@ function ()
 		is_ai = 1,
 		map = 1110002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -103594,7 +106810,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110011] = {
 		collection_team = 0,
@@ -103617,7 +106834,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1110011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
 		pop_pic = "",
@@ -103632,6 +106848,7 @@ function ()
 		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -104239,7 +107456,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110012] = {
 		collection_team = 0,
@@ -104262,7 +107480,6 @@ function ()
 		pre_chapter = 1110011,
 		formation = 1110011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		pop_pic = "",
@@ -104277,6 +107494,7 @@ function ()
 		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -104807,7 +108025,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110013] = {
 		collection_team = 0,
@@ -104830,7 +108049,6 @@ function ()
 		pre_chapter = 1110012,
 		formation = 1110011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		pop_pic = "",
@@ -104845,6 +108063,7 @@ function ()
 		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -105467,7 +108686,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110014] = {
 		collection_team = 0,
@@ -105490,7 +108710,6 @@ function ()
 		pre_chapter = 1110013,
 		formation = 1110011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		pop_pic = "",
@@ -105505,6 +108724,7 @@ function ()
 		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -106173,7 +109393,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110015] = {
 		collection_team = 0,
@@ -106196,7 +109417,6 @@ function ()
 		pre_chapter = 1110014,
 		formation = 1110012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.175",
 		pop_pic = "",
@@ -106211,6 +109431,7 @@ function ()
 		is_ai = 1,
 		map = 1110012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -106932,7 +110153,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110016] = {
 		collection_team = 0,
@@ -106955,7 +110177,6 @@ function ()
 		pre_chapter = 1110015,
 		formation = 1110012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		pop_pic = "",
@@ -106970,6 +110191,7 @@ function ()
 		is_ai = 1,
 		map = 1110012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -107642,7 +110864,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1110021] = {
 		collection_team = 0,
@@ -107665,7 +110888,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1110021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.277083333",
 		pop_pic = "",
@@ -107680,6 +110902,7 @@ function ()
 		is_ai = 0,
 		map = 1110021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -108053,7 +111276,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120001] = {
 		collection_team = 0,
@@ -108076,7 +111300,6 @@ function ()
 		pre_chapter = 201,
 		formation = 1120001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -108091,6 +111314,7 @@ function ()
 		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -108613,7 +111837,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120002] = {
 		collection_team = 0,
@@ -108636,7 +111861,6 @@ function ()
 		pre_chapter = 1120001,
 		formation = 1120001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -108651,6 +111875,7 @@ function ()
 		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -109313,7 +112538,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120003] = {
 		collection_team = 0,
@@ -109336,7 +112562,6 @@ function ()
 		pre_chapter = 1120002,
 		formation = 1120001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -109351,6 +112576,7 @@ function ()
 		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -109980,7 +113206,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120004] = {
 		collection_team = 0,
@@ -110003,7 +113230,6 @@ function ()
 		pre_chapter = 1120003,
 		formation = 1120001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -110018,6 +113244,7 @@ function ()
 		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -110765,7 +113992,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120005] = {
 		collection_team = 0,
@@ -110788,7 +114016,6 @@ function ()
 		pre_chapter = 1120004,
 		formation = 1120002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -110803,6 +114030,7 @@ function ()
 		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -111345,7 +114573,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120006] = {
 		collection_team = 0,
@@ -111368,7 +114597,6 @@ function ()
 		pre_chapter = 1120005,
 		formation = 1120002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		pop_pic = "",
@@ -111383,6 +114611,7 @@ function ()
 		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -111933,7 +115162,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120007] = {
 		collection_team = 0,
@@ -111956,7 +115186,6 @@ function ()
 		pre_chapter = 1120006,
 		formation = 1120002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -111971,6 +115200,7 @@ function ()
 		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -112576,7 +115806,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120008] = {
 		collection_team = 0,
@@ -112599,7 +115830,6 @@ function ()
 		pre_chapter = 1120007,
 		formation = 1120002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -112614,6 +115844,7 @@ function ()
 		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -113375,7 +116606,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120011] = {
 		collection_team = 0,
@@ -113398,7 +116630,6 @@ function ()
 		pre_chapter = 201,
 		formation = 1120011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -113413,6 +116644,7 @@ function ()
 		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -113976,7 +117208,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120012] = {
 		collection_team = 0,
@@ -113999,7 +117232,6 @@ function ()
 		pre_chapter = 1120011,
 		formation = 1120011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -114014,6 +117246,7 @@ function ()
 		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -114719,7 +117952,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120013] = {
 		collection_team = 0,
@@ -114742,7 +117976,6 @@ function ()
 		pre_chapter = 1120012,
 		formation = 1120011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -114757,6 +117990,7 @@ function ()
 		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -115427,7 +118661,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120014] = {
 		collection_team = 0,
@@ -115450,7 +118685,6 @@ function ()
 		pre_chapter = 1120013,
 		formation = 1120011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -115465,6 +118699,7 @@ function ()
 		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -116253,7 +119488,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120015] = {
 		collection_team = 0,
@@ -116276,7 +119512,6 @@ function ()
 		pre_chapter = 1120014,
 		formation = 1120012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -116291,6 +119526,7 @@ function ()
 		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -116874,7 +120110,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120016] = {
 		collection_team = 0,
@@ -116897,7 +120134,6 @@ function ()
 		pre_chapter = 1120015,
 		formation = 1120012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		pop_pic = "",
@@ -116912,6 +120148,7 @@ function ()
 		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -117503,7 +120740,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120017] = {
 		collection_team = 0,
@@ -117526,7 +120764,6 @@ function ()
 		pre_chapter = 1120016,
 		formation = 1120012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -117541,6 +120778,7 @@ function ()
 		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -118187,7 +121425,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120018] = {
 		collection_team = 0,
@@ -118210,7 +121449,6 @@ function ()
 		pre_chapter = 1120017,
 		formation = 1120012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -118225,6 +121463,7 @@ function ()
 		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -119027,7 +122266,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120021] = {
 		collection_team = 0,
@@ -119050,7 +122290,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1120021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -119065,6 +122304,7 @@ function ()
 		is_ai = 0,
 		map = 1120021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -119457,7 +122697,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130001] = {
 		collection_team = 0,
@@ -119480,7 +122721,6 @@ function ()
 		pre_chapter = 201,
 		formation = 1130000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -119495,6 +122735,7 @@ function ()
 		is_ai = 0,
 		map = 1130000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -119953,7 +123194,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130002] = {
 		collection_team = 0,
@@ -119976,7 +123218,6 @@ function ()
 		pre_chapter = 1130001,
 		formation = 1130000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -119991,6 +123232,7 @@ function ()
 		is_ai = 0,
 		map = 1130000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -120510,8 +123752,11 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
+end()
+function ()
 	uv0.chapter_template[1130003] = {
 		collection_team = 0,
 		progress_boss = 22,
@@ -120533,7 +123778,6 @@ function ()
 		pre_chapter = 1130002,
 		formation = 1130000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -120548,6 +123792,7 @@ function ()
 		is_ai = 0,
 		map = 1130000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -121105,7 +124350,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130101] = {
 		collection_team = 0,
@@ -121128,7 +124374,6 @@ function ()
 		pre_chapter = 201,
 		formation = 1130100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -121143,6 +124388,7 @@ function ()
 		is_ai = 0,
 		map = 1130100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -121601,7 +124847,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130102] = {
 		collection_team = 0,
@@ -121624,7 +124871,6 @@ function ()
 		pre_chapter = 1130101,
 		formation = 1130100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -121639,6 +124885,7 @@ function ()
 		is_ai = 0,
 		map = 1130100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -122158,7 +125405,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130103] = {
 		collection_team = 0,
@@ -122181,7 +125429,6 @@ function ()
 		pre_chapter = 1130102,
 		formation = 1130100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -122196,6 +125443,7 @@ function ()
 		is_ai = 0,
 		map = 1130100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -122753,10 +126001,9 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
-end()
-function ()
 	uv0.chapter_template[1140001] = {
 		collection_team = 0,
 		progress_boss = 50,
@@ -122778,7 +126025,6 @@ function ()
 		pre_chapter = 201,
 		formation = 1140001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -122793,6 +126039,7 @@ function ()
 		is_ai = 1,
 		map = 1140001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -123303,7 +126550,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140003] = {
 		collection_team = 0,
@@ -123326,7 +126574,6 @@ function ()
 		pre_chapter = 1140001,
 		formation = 1140001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -123341,6 +126588,7 @@ function ()
 		is_ai = 1,
 		map = 1140001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -123957,7 +127205,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140004] = {
 		collection_team = 0,
@@ -123980,7 +127229,6 @@ function ()
 		pre_chapter = 1140003,
 		formation = 1140001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		pop_pic = "",
@@ -123995,6 +127243,7 @@ function ()
 		is_ai = 1,
 		map = 1140001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -124723,7 +127972,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140005] = {
 		collection_team = 0,
@@ -124746,7 +127996,6 @@ function ()
 		pre_chapter = 1140004,
 		formation = 1140002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -124761,6 +128010,7 @@ function ()
 		is_ai = 1,
 		map = 1140002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -125284,7 +128534,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140007] = {
 		collection_team = 0,
@@ -125307,7 +128558,6 @@ function ()
 		pre_chapter = 1140005,
 		formation = 1140002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -125322,6 +128572,7 @@ function ()
 		is_ai = 1,
 		map = 1140002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -125950,7 +129201,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140008] = {
 		collection_team = 0,
@@ -125973,7 +129225,6 @@ function ()
 		pre_chapter = 1140007,
 		formation = 1140002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -125988,6 +129239,7 @@ function ()
 		is_ai = 1,
 		map = 1140002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -126749,7 +130001,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140011] = {
 		collection_team = 0,
@@ -126772,7 +130025,6 @@ function ()
 		pre_chapter = 201,
 		formation = 1140011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -126787,6 +130039,7 @@ function ()
 		is_ai = 1,
 		map = 1140011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -127338,7 +130591,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140013] = {
 		collection_team = 0,
@@ -127361,7 +130615,6 @@ function ()
 		pre_chapter = 1140011,
 		formation = 1140011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -127376,6 +130629,7 @@ function ()
 		is_ai = 1,
 		map = 1140011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -128033,7 +131287,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140014] = {
 		collection_team = 0,
@@ -128056,7 +131311,6 @@ function ()
 		pre_chapter = 1140013,
 		formation = 1140011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		pop_pic = "",
@@ -128071,6 +131325,7 @@ function ()
 		is_ai = 1,
 		map = 1140011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -128840,7 +132095,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140015] = {
 		collection_team = 0,
@@ -128863,7 +132119,6 @@ function ()
 		pre_chapter = 1140014,
 		formation = 1140012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -128878,6 +132133,7 @@ function ()
 		is_ai = 1,
 		map = 1140012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -129444,7 +132700,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140017] = {
 		collection_team = 0,
@@ -129467,7 +132724,6 @@ function ()
 		pre_chapter = 1140015,
 		formation = 1140012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -129482,6 +132738,7 @@ function ()
 		is_ai = 1,
 		map = 1140012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -130153,7 +133410,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140018] = {
 		collection_team = 0,
@@ -130176,7 +133434,6 @@ function ()
 		pre_chapter = 1140017,
 		formation = 1140012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -130191,6 +133448,7 @@ function ()
 		is_ai = 1,
 		map = 1140012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -130988,7 +134246,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1140021] = {
 		collection_team = 0,
@@ -131011,7 +134270,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1140021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -131026,6 +134284,7 @@ function ()
 		is_ai = 0,
 		map = 1140021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -131376,7 +134635,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150001] = {
 		collection_team = 0,
@@ -131399,7 +134659,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1150001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -131414,6 +134673,7 @@ function ()
 		is_ai = 1,
 		map = 1150001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -131964,7 +135224,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150002] = {
 		collection_team = 0,
@@ -131987,7 +135248,6 @@ function ()
 		pre_chapter = 1150001,
 		formation = 1150001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -132002,6 +135262,7 @@ function ()
 		is_ai = 1,
 		map = 1150001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -132613,7 +135874,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150003] = {
 		collection_team = 0,
@@ -132636,7 +135898,6 @@ function ()
 		pre_chapter = 1150002,
 		formation = 1150001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -132651,6 +135912,7 @@ function ()
 		is_ai = 1,
 		map = 1150001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -133353,7 +136615,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150004] = {
 		collection_team = 0,
@@ -133376,7 +136639,6 @@ function ()
 		pre_chapter = 1150003,
 		formation = 1150002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -133391,6 +136653,7 @@ function ()
 		is_ai = 1,
 		map = 1150002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -134031,7 +137294,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150005] = {
 		collection_team = 0,
@@ -134054,7 +137318,6 @@ function ()
 		pre_chapter = 1150004,
 		formation = 1150002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -134069,6 +137332,7 @@ function ()
 		is_ai = 1,
 		map = 1150002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -134850,7 +138114,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150006] = {
 		collection_team = 0,
@@ -134873,7 +138138,6 @@ function ()
 		pre_chapter = 1150005,
 		formation = 1150002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -134888,6 +138152,7 @@ function ()
 		is_ai = 1,
 		map = 1150002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -135848,7 +139113,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150011] = {
 		collection_team = 0,
@@ -135871,7 +139137,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1150011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -135886,6 +139151,7 @@ function ()
 		is_ai = 1,
 		map = 1150011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -136477,7 +139743,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150012] = {
 		collection_team = 0,
@@ -136500,7 +139767,6 @@ function ()
 		pre_chapter = 1150011,
 		formation = 1150011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -136515,6 +139781,7 @@ function ()
 		is_ai = 1,
 		map = 1150011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -137167,7 +140434,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150013] = {
 		collection_team = 0,
@@ -137190,7 +140458,6 @@ function ()
 		pre_chapter = 1150012,
 		formation = 1150011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -137205,6 +140472,7 @@ function ()
 		is_ai = 1,
 		map = 1150011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -137948,7 +141216,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150014] = {
 		collection_team = 0,
@@ -137971,7 +141240,6 @@ function ()
 		pre_chapter = 1150013,
 		formation = 1150012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -137986,6 +141254,7 @@ function ()
 		is_ai = 1,
 		map = 1150012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -138667,7 +141936,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150015] = {
 		collection_team = 0,
@@ -138690,7 +141960,6 @@ function ()
 		pre_chapter = 1150014,
 		formation = 1150012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -138705,6 +141974,7 @@ function ()
 		is_ai = 1,
 		map = 1150012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -139527,7 +142797,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150016] = {
 		collection_team = 0,
@@ -139550,7 +142821,6 @@ function ()
 		pre_chapter = 1150015,
 		formation = 1150012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -139565,6 +142835,7 @@ function ()
 		is_ai = 1,
 		map = 1150012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -140566,7 +143837,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150021] = {
 		collection_team = 0,
@@ -140589,7 +143861,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1150021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -140604,6 +143875,7 @@ function ()
 		is_ai = 0,
 		map = 1150021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -141083,7 +144355,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1170001] = {
 		collection_team = 0,
@@ -141106,7 +144379,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1170001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -141121,6 +144393,7 @@ function ()
 		is_ai = 0,
 		map = 1170001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -141621,7 +144894,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1170002] = {
 		collection_team = 0,
@@ -141644,7 +144918,6 @@ function ()
 		pre_chapter = 1170001,
 		formation = 1170001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -141659,6 +144932,7 @@ function ()
 		is_ai = 0,
 		map = 1170001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -142217,7 +145491,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1170003] = {
 		collection_team = 0,
@@ -142240,7 +145515,6 @@ function ()
 		pre_chapter = 1170002,
 		formation = 1170001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -142255,6 +145529,7 @@ function ()
 		is_ai = 0,
 		map = 1170001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -142852,7 +146127,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180001] = {
 		collection_team = 0,
@@ -142875,7 +146151,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1180001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -142890,6 +146165,7 @@ function ()
 		is_ai = 1,
 		map = 1180001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -143455,7 +146731,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180002] = {
 		collection_team = 0,
@@ -143478,7 +146755,6 @@ function ()
 		pre_chapter = 1180001,
 		formation = 1180001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -143493,6 +146769,7 @@ function ()
 		is_ai = 1,
 		map = 1180001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -144029,7 +147306,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180003] = {
 		collection_team = 0,
@@ -144052,7 +147330,6 @@ function ()
 		pre_chapter = 1180002,
 		formation = 1180001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -144067,6 +147344,7 @@ function ()
 		is_ai = 1,
 		map = 1180001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -144699,7 +147977,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180004] = {
 		collection_team = 0,
@@ -144722,7 +148001,6 @@ function ()
 		pre_chapter = 1180003,
 		formation = 1180002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -144737,6 +148015,7 @@ function ()
 		is_ai = 1,
 		map = 1180002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -145370,7 +148649,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180005] = {
 		collection_team = 0,
@@ -145393,7 +148673,6 @@ function ()
 		pre_chapter = 1180004,
 		formation = 1180002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -145408,6 +148687,7 @@ function ()
 		is_ai = 1,
 		map = 1180002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -146084,7 +149364,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180006] = {
 		collection_team = 0,
@@ -146107,7 +149388,6 @@ function ()
 		pre_chapter = 1180005,
 		formation = 1180002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -146122,6 +149402,7 @@ function ()
 		is_ai = 1,
 		map = 1180002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -146772,7 +150053,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180011] = {
 		collection_team = 0,
@@ -146795,7 +150077,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1180011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -146810,6 +150091,7 @@ function ()
 		is_ai = 1,
 		map = 1180011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -147417,7 +150699,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180012] = {
 		collection_team = 0,
@@ -147440,7 +150723,6 @@ function ()
 		pre_chapter = 1180011,
 		formation = 1180011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -147455,6 +150737,7 @@ function ()
 		is_ai = 1,
 		map = 1180011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -148033,7 +151316,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180013] = {
 		collection_team = 0,
@@ -148056,7 +151340,6 @@ function ()
 		pre_chapter = 1180012,
 		formation = 1180011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -148071,6 +151354,7 @@ function ()
 		is_ai = 1,
 		map = 1180011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -148745,7 +152029,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180014] = {
 		collection_team = 0,
@@ -148768,7 +152053,6 @@ function ()
 		pre_chapter = 1180013,
 		formation = 1180012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -148783,6 +152067,7 @@ function ()
 		is_ai = 1,
 		map = 1180012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -149458,7 +152743,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180015] = {
 		collection_team = 0,
@@ -149481,7 +152767,6 @@ function ()
 		pre_chapter = 1180014,
 		formation = 1180012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -149496,6 +152781,7 @@ function ()
 		is_ai = 1,
 		map = 1180012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -150216,7 +153502,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180016] = {
 		collection_team = 0,
@@ -150239,7 +153526,6 @@ function ()
 		pre_chapter = 1180015,
 		formation = 1180012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -150254,6 +153540,7 @@ function ()
 		is_ai = 1,
 		map = 1180012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -150948,7 +154235,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180021] = {
 		collection_team = 0,
@@ -150971,7 +154259,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1180021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -150986,6 +154273,7 @@ function ()
 		is_ai = 0,
 		map = 1180021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -151359,7 +154647,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200001] = {
 		collection_team = 0,
@@ -151382,7 +154671,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1200100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -151396,6 +154684,7 @@ function ()
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -151950,7 +155239,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200002] = {
 		collection_team = 0,
@@ -151973,7 +155263,6 @@ function ()
 		pre_chapter = 1200001,
 		formation = 1200100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -151987,6 +155276,7 @@ function ()
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -152690,7 +155980,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200003] = {
 		collection_team = 0,
@@ -152713,7 +156004,6 @@ function ()
 		pre_chapter = 1200002,
 		formation = 1200100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -152727,6 +156017,7 @@ function ()
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -153446,7 +156737,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200004] = {
 		collection_team = 0,
@@ -153469,7 +156761,6 @@ function ()
 		pre_chapter = 1200003,
 		formation = 1200100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -153483,6 +156774,7 @@ function ()
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -154194,7 +157486,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210001] = {
 		collection_team = 0,
@@ -154217,7 +157510,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1210001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
 		pop_pic = "",
@@ -154232,6 +157524,7 @@ function ()
 		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -154797,7 +158090,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210002] = {
 		collection_team = 0,
@@ -154820,7 +158114,6 @@ function ()
 		pre_chapter = 1210001,
 		formation = 1210001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		pop_pic = "",
@@ -154835,6 +158128,7 @@ function ()
 		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -155365,7 +158659,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210003] = {
 		collection_team = 0,
@@ -155388,7 +158683,6 @@ function ()
 		pre_chapter = 1210002,
 		formation = 1210001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		pop_pic = "",
@@ -155403,6 +158697,7 @@ function ()
 		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -156031,7 +159326,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210004] = {
 		collection_team = 0,
@@ -156054,7 +159350,6 @@ function ()
 		pre_chapter = 1210003,
 		formation = 1210001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		pop_pic = "",
@@ -156069,6 +159364,7 @@ function ()
 		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -156695,7 +159991,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210005] = {
 		collection_team = 0,
@@ -156718,7 +160015,6 @@ function ()
 		pre_chapter = 1210004,
 		formation = 1210002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.175",
 		pop_pic = "",
@@ -156733,6 +160029,7 @@ function ()
 		is_ai = 1,
 		map = 1210002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -157410,7 +160707,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210006] = {
 		collection_team = 0,
@@ -157433,7 +160731,6 @@ function ()
 		pre_chapter = 1210005,
 		formation = 1210002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		pop_pic = "",
@@ -157448,6 +160745,7 @@ function ()
 		is_ai = 1,
 		map = 1210002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -158185,7 +161483,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210011] = {
 		collection_team = 0,
@@ -158208,7 +161507,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1210011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
 		pop_pic = "",
@@ -158222,6 +161520,7 @@ function ()
 		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -158830,7 +162129,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210012] = {
 		collection_team = 0,
@@ -158853,7 +162153,6 @@ function ()
 		pre_chapter = 1210011,
 		formation = 1210011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		pop_pic = "",
@@ -158868,6 +162167,7 @@ function ()
 		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -159440,7 +162740,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210013] = {
 		collection_team = 0,
@@ -159463,7 +162764,6 @@ function ()
 		pre_chapter = 1210012,
 		formation = 1210011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		pop_pic = "",
@@ -159478,6 +162778,7 @@ function ()
 		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -160148,7 +163449,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210014] = {
 		collection_team = 0,
@@ -160171,7 +163473,6 @@ function ()
 		pre_chapter = 1210013,
 		formation = 1210011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		pop_pic = "",
@@ -160186,6 +163487,7 @@ function ()
 		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -160854,7 +164156,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210015] = {
 		collection_team = 0,
@@ -160877,7 +164180,6 @@ function ()
 		pre_chapter = 1210014,
 		formation = 1210012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.175",
 		pop_pic = "",
@@ -160892,6 +164194,7 @@ function ()
 		is_ai = 1,
 		map = 1210012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -161613,7 +164916,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210016] = {
 		collection_team = 0,
@@ -161636,7 +164940,6 @@ function ()
 		pre_chapter = 1210015,
 		formation = 1210012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		pop_pic = "",
@@ -161651,6 +164954,7 @@ function ()
 		is_ai = 1,
 		map = 1210012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -162432,7 +165736,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210021] = {
 		collection_team = 0,
@@ -162455,7 +165760,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1210021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.277083333",
 		pop_pic = "",
@@ -162470,6 +165774,7 @@ function ()
 		is_ai = 0,
 		map = 1210021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -162847,7 +166152,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240001] = {
 		collection_team = 0,
@@ -162870,7 +166176,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1240001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -162885,6 +166190,7 @@ function ()
 		is_ai = 1,
 		map = 1240001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -163395,7 +166701,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240003] = {
 		collection_team = 0,
@@ -163418,7 +166725,6 @@ function ()
 		pre_chapter = 1240001,
 		formation = 1240001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -163433,6 +166739,7 @@ function ()
 		is_ai = 1,
 		map = 1240001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -164049,7 +167356,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240004] = {
 		collection_team = 0,
@@ -164072,7 +167380,6 @@ function ()
 		pre_chapter = 1240003,
 		formation = 1240001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		pop_pic = "",
@@ -164087,6 +167394,7 @@ function ()
 		is_ai = 0,
 		map = 1240001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -164815,7 +168123,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240005] = {
 		collection_team = 0,
@@ -164838,7 +168147,6 @@ function ()
 		pre_chapter = 1240004,
 		formation = 1240002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -164853,6 +168161,7 @@ function ()
 		is_ai = 1,
 		map = 1240002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -165376,7 +168685,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240007] = {
 		collection_team = 0,
@@ -165399,7 +168709,6 @@ function ()
 		pre_chapter = 1240005,
 		formation = 1240002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -165414,6 +168723,7 @@ function ()
 		is_ai = 1,
 		map = 1240002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -166042,7 +169352,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240008] = {
 		collection_team = 0,
@@ -166065,7 +169376,6 @@ function ()
 		pre_chapter = 1240007,
 		formation = 1240002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -166079,6 +169389,7 @@ function ()
 		is_ai = 1,
 		map = 1240002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -166835,7 +170146,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240011] = {
 		collection_team = 0,
@@ -166858,7 +170170,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1240011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -166873,6 +170184,7 @@ function ()
 		is_ai = 1,
 		map = 1240011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -167424,7 +170736,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240013] = {
 		collection_team = 0,
@@ -167447,7 +170760,6 @@ function ()
 		pre_chapter = 1240011,
 		formation = 1240011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -167462,6 +170774,7 @@ function ()
 		is_ai = 1,
 		map = 1240011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -168119,7 +171432,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240014] = {
 		collection_team = 0,
@@ -168142,7 +171456,6 @@ function ()
 		pre_chapter = 1240013,
 		formation = 1240011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		pop_pic = "",
@@ -168157,6 +171470,7 @@ function ()
 		is_ai = 1,
 		map = 1240011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -168926,7 +172240,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240015] = {
 		collection_team = 0,
@@ -168949,7 +172264,6 @@ function ()
 		pre_chapter = 1240014,
 		formation = 1240012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -168964,6 +172278,7 @@ function ()
 		is_ai = 1,
 		map = 1240012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -169530,7 +172845,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240017] = {
 		collection_team = 0,
@@ -169553,7 +172869,6 @@ function ()
 		pre_chapter = 1240015,
 		formation = 1240012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -169568,6 +172883,7 @@ function ()
 		is_ai = 1,
 		map = 1240012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -170239,7 +173555,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240018] = {
 		collection_team = 0,
@@ -170262,7 +173579,6 @@ function ()
 		pre_chapter = 1240017,
 		formation = 1240012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -170277,6 +173593,7 @@ function ()
 		is_ai = 1,
 		map = 1240012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -171074,7 +174391,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240019] = {
 		collection_team = 0,
@@ -171097,7 +174415,6 @@ function ()
 		pre_chapter = 1240018,
 		formation = 1240020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -171111,6 +174428,7 @@ function ()
 		is_ai = 1,
 		map = 1240020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -171758,7 +175076,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1240021] = {
 		collection_team = 0,
@@ -171781,7 +175100,6 @@ function ()
 		pre_chapter = 1240018,
 		formation = 1240021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -171796,6 +175114,7 @@ function ()
 		is_ai = 0,
 		map = 1240021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -172146,7 +175465,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250031] = {
 		collection_team = 0,
@@ -172169,7 +175489,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1250022,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0",
 		pop_pic = "",
@@ -172183,6 +175502,7 @@ function ()
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -172718,7 +176038,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250032] = {
 		collection_team = 0,
@@ -172741,7 +176062,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1250022,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0",
 		pop_pic = "",
@@ -172755,6 +176075,7 @@ function ()
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -173259,7 +176580,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250033] = {
 		collection_team = 0,
@@ -173282,7 +176604,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1250022,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0",
 		pop_pic = "",
@@ -173296,6 +176617,7 @@ function ()
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -173807,7 +177129,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250034] = {
 		collection_team = 0,
@@ -173830,7 +177153,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1250022,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0",
 		pop_pic = "",
@@ -173844,6 +177166,7 @@ function ()
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -174443,7 +177766,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310001] = {
 		collection_team = 0,
@@ -174466,7 +177790,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1310001,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -174480,6 +177803,7 @@ function ()
 		is_ai = 1,
 		map = 1310001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -175031,7 +178355,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310002] = {
 		collection_team = 0,
@@ -175054,7 +178379,6 @@ function ()
 		pre_chapter = 1310001,
 		formation = 1310001,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -175068,6 +178392,7 @@ function ()
 		is_ai = 1,
 		map = 1310001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -175604,7 +178929,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310003] = {
 		collection_team = 0,
@@ -175627,7 +178953,6 @@ function ()
 		pre_chapter = 1310002,
 		formation = 1310001,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -175641,6 +178966,7 @@ function ()
 		is_ai = 1,
 		map = 1310001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -176222,7 +179548,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310004] = {
 		collection_team = 0,
@@ -176245,7 +179572,6 @@ function ()
 		pre_chapter = 1310003,
 		formation = 1310002,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -176259,6 +179585,7 @@ function ()
 		is_ai = 1,
 		map = 1310002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -176853,7 +180180,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310005] = {
 		collection_team = 0,
@@ -176876,7 +180204,6 @@ function ()
 		pre_chapter = 1310004,
 		formation = 1310002,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -176890,6 +180217,7 @@ function ()
 		is_ai = 1,
 		map = 1310002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -177432,7 +180760,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310006] = {
 		collection_team = 0,
@@ -177455,7 +180784,6 @@ function ()
 		pre_chapter = 1310005,
 		formation = 1310002,
 		bgm = "bgm-cccp",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -177469,6 +180797,7 @@ function ()
 		is_ai = 1,
 		map = 1310002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -178074,7 +181403,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310021] = {
 		collection_team = 0,
@@ -178097,7 +181427,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1310011,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -178111,6 +181440,7 @@ function ()
 		is_ai = 1,
 		map = 1310011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -178705,7 +182035,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310022] = {
 		collection_team = 0,
@@ -178728,7 +182059,6 @@ function ()
 		pre_chapter = 1310021,
 		formation = 1310011,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -178742,6 +182072,7 @@ function ()
 		is_ai = 1,
 		map = 1310011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -179321,7 +182652,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310023] = {
 		collection_team = 0,
@@ -179344,7 +182676,6 @@ function ()
 		pre_chapter = 1310022,
 		formation = 1310011,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -179358,6 +182689,7 @@ function ()
 		is_ai = 1,
 		map = 1310011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -179981,7 +183313,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310024] = {
 		collection_team = 0,
@@ -180004,7 +183337,6 @@ function ()
 		pre_chapter = 1310023,
 		formation = 1310012,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -180018,6 +183350,7 @@ function ()
 		is_ai = 1,
 		map = 1310012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -180654,7 +183987,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310025] = {
 		collection_team = 0,
@@ -180677,7 +184011,6 @@ function ()
 		pre_chapter = 1310024,
 		formation = 1310012,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -180691,6 +184024,7 @@ function ()
 		is_ai = 1,
 		map = 1310012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -181277,7 +184611,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310026] = {
 		collection_team = 0,
@@ -181300,7 +184635,6 @@ function ()
 		pre_chapter = 1310025,
 		formation = 1310012,
 		bgm = "bgm-cccp",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -181314,6 +184648,7 @@ function ()
 		is_ai = 1,
 		map = 1310012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -181963,7 +185298,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310041] = {
 		collection_team = 0,
@@ -181986,7 +185322,6 @@ function ()
 		pre_chapter = 1310026,
 		formation = 1310025,
 		bgm = "bgm-cccp3",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -182000,6 +185335,7 @@ function ()
 		is_ai = 1,
 		map = 1310025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -182642,7 +185978,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310051] = {
 		collection_team = 0,
@@ -182665,7 +186002,6 @@ function ()
 		pre_chapter = 1310026,
 		formation = 1310026,
 		bgm = "bgm-cccp",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -182679,6 +186015,7 @@ function ()
 		is_ai = 0,
 		map = 1310026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -183072,7 +186409,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1320001] = {
 		collection_team = 0,
@@ -183095,7 +186433,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1320001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -183110,6 +186447,7 @@ function ()
 		is_ai = 0,
 		map = 1320001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -183606,7 +186944,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1320002] = {
 		collection_team = 0,
@@ -183629,7 +186968,6 @@ function ()
 		pre_chapter = 1320001,
 		formation = 1320001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -183644,6 +186982,7 @@ function ()
 		is_ai = 0,
 		map = 1320001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -184198,7 +187537,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1320003] = {
 		collection_team = 0,
@@ -184221,7 +187561,6 @@ function ()
 		pre_chapter = 1320002,
 		formation = 1320001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -184236,6 +187575,7 @@ function ()
 		is_ai = 0,
 		map = 1320001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -184829,7 +188169,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330001] = {
 		collection_team = 0,
@@ -184852,7 +188193,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1330001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "SeaFogPermeates",
@@ -184866,6 +188206,7 @@ function ()
 		is_ai = 1,
 		map = 1330001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Rescue Fleet",
@@ -185380,7 +188721,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330002] = {
 		collection_team = 0,
@@ -185403,7 +188745,6 @@ function ()
 		pre_chapter = 1330001,
 		formation = 1330001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "SeaFogPermeates",
@@ -185417,6 +188758,7 @@ function ()
 		is_ai = 1,
 		map = 1330001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Under the Mist",
@@ -185959,8 +189301,11 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
+end()
+function ()
 	uv0.chapter_template[1330003] = {
 		collection_team = 0,
 		progress_boss = 34,
@@ -185982,7 +189327,6 @@ function ()
 		pre_chapter = 1330002,
 		formation = 1330001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "SeaFogPermeates",
@@ -185996,6 +189340,7 @@ function ()
 		is_ai = 1,
 		map = 1330001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "From the Abyss",
@@ -186558,7 +189903,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330004] = {
 		collection_team = 0,
@@ -186581,7 +189927,6 @@ function ()
 		pre_chapter = 1330003,
 		formation = 1330002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "SeaFogPermeates",
@@ -186595,6 +189940,7 @@ function ()
 		is_ai = 1,
 		map = 1330002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Return",
@@ -187194,7 +190540,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330005] = {
 		collection_team = 0,
@@ -187217,7 +190564,6 @@ function ()
 		pre_chapter = 1330004,
 		formation = 1330002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "SeaFogPermeates",
@@ -187231,6 +190577,7 @@ function ()
 		is_ai = 1,
 		map = 1330002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Hero's Party",
@@ -187820,7 +191167,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330006] = {
 		collection_team = 0,
@@ -187843,7 +191191,6 @@ function ()
 		pre_chapter = 1330005,
 		formation = 1330002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "SeaFogPermeates",
@@ -187857,6 +191204,7 @@ function ()
 		is_ai = 1,
 		map = 1330002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "The Mist Clears",
@@ -188518,10 +191866,9 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
-end()
-function ()
 	uv0.chapter_template[1330021] = {
 		collection_team = 0,
 		progress_boss = 34,
@@ -188543,7 +191890,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1330011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "SeaFogPermeates",
@@ -188557,6 +191903,7 @@ function ()
 		is_ai = 1,
 		map = 1330011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Rescue Fleet",
@@ -189113,7 +192460,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330022] = {
 		collection_team = 0,
@@ -189136,7 +192484,6 @@ function ()
 		pre_chapter = 1330021,
 		formation = 1330011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "SeaFogPermeates",
@@ -189150,6 +192497,7 @@ function ()
 		is_ai = 1,
 		map = 1330011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Under the Mist",
@@ -189734,7 +193082,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330023] = {
 		collection_team = 0,
@@ -189757,7 +193106,6 @@ function ()
 		pre_chapter = 1330022,
 		formation = 1330011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "SeaFogPermeates",
@@ -189771,6 +193119,7 @@ function ()
 		is_ai = 1,
 		map = 1330011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "From the Abyss",
@@ -190376,7 +193725,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330024] = {
 		collection_team = 0,
@@ -190399,7 +193749,6 @@ function ()
 		pre_chapter = 1330023,
 		formation = 1330012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "SeaFogPermeates",
@@ -190413,6 +193762,7 @@ function ()
 		is_ai = 1,
 		map = 1330012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Return",
@@ -191054,7 +194404,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330025] = {
 		collection_team = 0,
@@ -191077,7 +194428,6 @@ function ()
 		pre_chapter = 1330024,
 		formation = 1330012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "SeaFogPermeates",
@@ -191091,6 +194441,7 @@ function ()
 		is_ai = 1,
 		map = 1330012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Hero's Party",
@@ -191724,7 +195075,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330026] = {
 		collection_team = 0,
@@ -191747,7 +195099,6 @@ function ()
 		pre_chapter = 1330025,
 		formation = 1330012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "SeaFogPermeates",
@@ -191761,6 +195112,7 @@ function ()
 		is_ai = 1,
 		map = 1330012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "The Mist Clears",
@@ -192466,7 +195818,8 @@ function ()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330041] = {
 		collection_team = 0,
@@ -192489,7 +195842,6 @@ function ()
 		pre_chapter = 1330026,
 		formation = 1330025,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -192503,6 +195855,7 @@ function ()
 		is_ai = 1,
 		map = 1330025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Stars in the Firmament",
@@ -193069,7 +196422,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330051] = {
 		collection_team = 0,
@@ -193092,7 +196446,6 @@ function ()
 		pre_chapter = 1330026,
 		formation = 1330026,
 		bgm = "hunhe-battle",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -193106,6 +196459,7 @@ function ()
 		is_ai = 0,
 		map = 1330026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Microlayer Medley",
@@ -193507,7 +196861,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340001] = {
 		collection_team = 0,
@@ -193530,7 +196885,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1340001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -193545,6 +196899,7 @@ function ()
 		is_ai = 1,
 		map = 1340001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -194105,7 +197460,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340002] = {
 		collection_team = 0,
@@ -194128,7 +197484,6 @@ function ()
 		pre_chapter = 1340001,
 		formation = 1340001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -194143,6 +197498,7 @@ function ()
 		is_ai = 1,
 		map = 1340001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -194674,7 +198030,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340003] = {
 		collection_team = 0,
@@ -194697,7 +198054,6 @@ function ()
 		pre_chapter = 1340002,
 		formation = 1340001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -194712,6 +198068,7 @@ function ()
 		is_ai = 1,
 		map = 1340001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -195339,7 +198696,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340004] = {
 		collection_team = 0,
@@ -195362,7 +198720,6 @@ function ()
 		pre_chapter = 1340003,
 		formation = 1340002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -195377,6 +198734,7 @@ function ()
 		is_ai = 1,
 		map = 1340002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -196006,7 +199364,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340005] = {
 		collection_team = 0,
@@ -196029,7 +199388,6 @@ function ()
 		pre_chapter = 1340004,
 		formation = 1340002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -196044,6 +199402,7 @@ function ()
 		is_ai = 1,
 		map = 1340002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -196716,7 +200075,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340006] = {
 		collection_team = 0,
@@ -196739,7 +200099,6 @@ function ()
 		pre_chapter = 1340005,
 		formation = 1340002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -196754,6 +200113,7 @@ function ()
 		is_ai = 1,
 		map = 1340002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -197400,7 +200760,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340011] = {
 		collection_team = 0,
@@ -197423,7 +200784,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1340011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -197438,6 +200798,7 @@ function ()
 		is_ai = 1,
 		map = 1340011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -198040,7 +201401,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340012] = {
 		collection_team = 0,
@@ -198063,7 +201425,6 @@ function ()
 		pre_chapter = 1340011,
 		formation = 1340011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -198078,6 +201439,7 @@ function ()
 		is_ai = 1,
 		map = 1340011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -198651,7 +202013,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340013] = {
 		collection_team = 0,
@@ -198674,7 +202037,6 @@ function ()
 		pre_chapter = 1340012,
 		formation = 1340011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -198689,6 +202051,7 @@ function ()
 		is_ai = 1,
 		map = 1340011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -199358,7 +202721,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340014] = {
 		collection_team = 0,
@@ -199381,7 +202745,6 @@ function ()
 		pre_chapter = 1340013,
 		formation = 1340012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -199396,6 +202759,7 @@ function ()
 		is_ai = 1,
 		map = 1340012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -200067,7 +203431,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340015] = {
 		collection_team = 0,
@@ -200090,7 +203455,6 @@ function ()
 		pre_chapter = 1340014,
 		formation = 1340012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -200105,6 +203469,7 @@ function ()
 		is_ai = 1,
 		map = 1340012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -200821,7 +204186,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340016] = {
 		collection_team = 0,
@@ -200844,7 +204210,6 @@ function ()
 		pre_chapter = 1340015,
 		formation = 1340012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -200859,6 +204224,7 @@ function ()
 		is_ai = 1,
 		map = 1340012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -201549,7 +204915,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1340021] = {
 		collection_team = 0,
@@ -201572,7 +204939,6 @@ function ()
 		pre_chapter = 1340016,
 		formation = 1340021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -201587,6 +204953,7 @@ function ()
 		is_ai = 1,
 		map = 1340021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -201960,7 +205327,8 @@ function ()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1350001] = {
 		collection_team = 0,
@@ -201983,7 +205351,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1350001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -201997,6 +205364,7 @@ function ()
 		is_ai = 0,
 		map = 1350001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -202573,7 +205941,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1350002] = {
 		collection_team = 0,
@@ -202596,7 +205965,6 @@ function ()
 		pre_chapter = 1350001,
 		formation = 1350001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09083333",
 		pop_pic = "",
@@ -202610,6 +205978,7 @@ function ()
 		is_ai = 0,
 		map = 1350001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -203246,7 +206615,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1350003] = {
 		collection_team = 0,
@@ -203269,7 +206639,6 @@ function ()
 		pre_chapter = 1350002,
 		formation = 1350001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -203283,6 +206652,7 @@ function ()
 		is_ai = 0,
 		map = 1350001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -203916,7 +207286,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360001] = {
 		collection_team = 0,
@@ -203939,7 +207310,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1360001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -203952,6 +207322,7 @@ function ()
 		is_ai = 1,
 		map = 1360001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -204498,7 +207869,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360002] = {
 		collection_team = 0,
@@ -204521,7 +207893,6 @@ function ()
 		pre_chapter = 1360001,
 		formation = 1360001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -204534,6 +207905,7 @@ function ()
 		is_ai = 1,
 		map = 1360001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -205111,7 +208483,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360003] = {
 		collection_team = 0,
@@ -205134,7 +208507,6 @@ function ()
 		pre_chapter = 1360002,
 		formation = 1360001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -205147,6 +208519,7 @@ function ()
 		is_ai = 1,
 		map = 1360001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -205817,7 +209190,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360004] = {
 		collection_team = 0,
@@ -205840,7 +209214,6 @@ function ()
 		pre_chapter = 1360003,
 		formation = 1360002,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -205853,6 +209226,7 @@ function ()
 		is_ai = 1,
 		map = 1360002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -206513,7 +209887,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360005] = {
 		collection_team = 0,
@@ -206536,7 +209911,6 @@ function ()
 		pre_chapter = 1360004,
 		formation = 1360002,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -206549,6 +209923,7 @@ function ()
 		is_ai = 1,
 		map = 1360002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -207527,7 +210902,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360006] = {
 		collection_team = 0,
@@ -207550,7 +210926,6 @@ function ()
 		pre_chapter = 1360005,
 		formation = 1360002,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -207563,6 +210938,7 @@ function ()
 		is_ai = 1,
 		map = 1360002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -209293,7 +212669,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360021] = {
 		collection_team = 0,
@@ -209316,7 +212693,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1360011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -209329,6 +212705,7 @@ function ()
 		is_ai = 1,
 		map = 1360011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -209917,7 +213294,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360022] = {
 		collection_team = 0,
@@ -209940,7 +213318,6 @@ function ()
 		pre_chapter = 1360021,
 		formation = 1360011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -209953,6 +213330,7 @@ function ()
 		is_ai = 1,
 		map = 1360011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -210572,7 +213950,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360023] = {
 		collection_team = 0,
@@ -210595,7 +213974,6 @@ function ()
 		pre_chapter = 1360022,
 		formation = 1360011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -210608,6 +213986,7 @@ function ()
 		is_ai = 1,
 		map = 1360011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -211321,7 +214700,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360024] = {
 		collection_team = 0,
@@ -211344,7 +214724,6 @@ function ()
 		pre_chapter = 1360023,
 		formation = 1360012,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -211357,6 +214736,7 @@ function ()
 		is_ai = 1,
 		map = 1360012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -212058,7 +215438,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360025] = {
 		collection_team = 0,
@@ -212081,7 +215462,6 @@ function ()
 		pre_chapter = 1360024,
 		formation = 1360012,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -212094,6 +215474,7 @@ function ()
 		is_ai = 1,
 		map = 1360012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -213115,7 +216496,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360026] = {
 		collection_team = 0,
@@ -213138,7 +216520,6 @@ function ()
 		pre_chapter = 1360025,
 		formation = 1360012,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -213151,6 +216532,7 @@ function ()
 		is_ai = 1,
 		map = 1360012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -214924,7 +218306,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360041] = {
 		collection_team = 0,
@@ -214947,7 +218330,6 @@ function ()
 		pre_chapter = 1360026,
 		formation = 1360025,
 		bgm = "Bsm-3",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -214960,6 +218342,7 @@ function ()
 		is_ai = 1,
 		map = 1360025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -216233,7 +219616,8 @@ function ()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360051] = {
 		collection_team = 0,
@@ -216256,7 +219640,6 @@ function ()
 		pre_chapter = 1360026,
 		formation = 1360026,
 		bgm = "Bsm-3",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -216269,6 +219652,7 @@ function ()
 		is_ai = 0,
 		map = 1360026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -216658,7 +220042,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1370001] = {
 		collection_team = 0,
@@ -216681,7 +220066,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1370001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -216694,6 +220078,7 @@ function ()
 		is_ai = 1,
 		map = 1370001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -217404,7 +220789,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1370002] = {
 		collection_team = 0,
@@ -217427,7 +220813,6 @@ function ()
 		pre_chapter = 1370001,
 		formation = 1370001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -217440,6 +220825,7 @@ function ()
 		is_ai = 1,
 		map = 1370001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -218157,7 +221543,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1370003] = {
 		collection_team = 0,
@@ -218180,7 +221567,6 @@ function ()
 		pre_chapter = 1370002,
 		formation = 1370001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -218193,6 +221579,7 @@ function ()
 		is_ai = 1,
 		map = 1370001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -218907,7 +222294,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380001] = {
 		collection_team = 0,
@@ -218930,7 +222318,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1380001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -218943,6 +222330,7 @@ function ()
 		is_ai = 1,
 		map = 1380001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -219590,7 +222978,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380002] = {
 		collection_team = 0,
@@ -219613,7 +223002,6 @@ function ()
 		pre_chapter = 1380001,
 		formation = 1380001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -219626,6 +223014,7 @@ function ()
 		is_ai = 1,
 		map = 1380001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -220258,7 +223647,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380003] = {
 		collection_team = 0,
@@ -220281,7 +223671,6 @@ function ()
 		pre_chapter = 1380002,
 		formation = 1380001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -220294,6 +223683,7 @@ function ()
 		is_ai = 1,
 		map = 1380001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -220944,7 +224334,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380004] = {
 		collection_team = 0,
@@ -220967,7 +224358,6 @@ function ()
 		pre_chapter = 1380003,
 		formation = 1380002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -220980,6 +224370,7 @@ function ()
 		is_ai = 1,
 		map = 1380002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -221689,7 +225080,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380005] = {
 		collection_team = 0,
@@ -221712,7 +225104,6 @@ function ()
 		pre_chapter = 1380004,
 		formation = 1380002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -221725,6 +225116,7 @@ function ()
 		is_ai = 1,
 		map = 1380002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -222459,7 +225851,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380006] = {
 		collection_team = 0,
@@ -222482,7 +225875,6 @@ function ()
 		pre_chapter = 1380005,
 		formation = 1380002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -222495,6 +225887,7 @@ function ()
 		is_ai = 1,
 		map = 1380002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -223326,7 +226719,8 @@ function ()
 			9508
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380021] = {
 		collection_team = 0,
@@ -223349,7 +226743,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1380011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -223362,6 +226755,7 @@ function ()
 		is_ai = 1,
 		map = 1380011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -224048,7 +227442,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380022] = {
 		collection_team = 0,
@@ -224071,7 +227466,6 @@ function ()
 		pre_chapter = 1380021,
 		formation = 1380011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -224084,6 +227478,7 @@ function ()
 		is_ai = 1,
 		map = 1380011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -224755,7 +228150,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380023] = {
 		collection_team = 0,
@@ -224778,7 +228174,6 @@ function ()
 		pre_chapter = 1380022,
 		formation = 1380011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -224791,6 +228186,7 @@ function ()
 		is_ai = 1,
 		map = 1380011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -225480,7 +228876,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380024] = {
 		collection_team = 0,
@@ -225503,7 +228900,6 @@ function ()
 		pre_chapter = 1380023,
 		formation = 1380012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -225516,6 +228912,7 @@ function ()
 		is_ai = 1,
 		map = 1380012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -226265,7 +229662,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380025] = {
 		collection_team = 0,
@@ -226288,7 +229686,6 @@ function ()
 		pre_chapter = 1380024,
 		formation = 1380012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -226301,6 +229698,7 @@ function ()
 		is_ai = 1,
 		map = 1380012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -227077,7 +230475,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380026] = {
 		collection_team = 0,
@@ -227100,7 +230499,6 @@ function ()
 		pre_chapter = 1380025,
 		formation = 1380012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -227113,6 +230511,7 @@ function ()
 		is_ai = 1,
 		map = 1380012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -227987,7 +231386,8 @@ function ()
 			9508
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380041] = {
 		collection_team = 0,
@@ -228010,7 +231410,6 @@ function ()
 		pre_chapter = 1380026,
 		formation = 1380025,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -228023,6 +231422,7 @@ function ()
 		is_ai = 1,
 		map = 1380025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -229133,7 +232533,8 @@ function ()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380051] = {
 		collection_team = 0,
@@ -229156,7 +232557,6 @@ function ()
 		pre_chapter = 1380026,
 		formation = 1380026,
 		bgm = "bsm-3",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -229169,6 +232569,7 @@ function ()
 		is_ai = 0,
 		map = 1380026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -229572,7 +232973,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1390001] = {
 		collection_team = 0,
@@ -229595,7 +232997,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1390001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		pop_pic = "",
@@ -229609,6 +233010,7 @@ function ()
 		is_ai = 1,
 		map = 1390001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -230145,7 +233547,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1390002] = {
 		collection_team = 0,
@@ -230168,7 +233571,6 @@ function ()
 		pre_chapter = 1390001,
 		formation = 1390001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		pop_pic = "",
@@ -230182,6 +233584,7 @@ function ()
 		is_ai = 1,
 		map = 1390001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -230819,7 +234222,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1390003] = {
 		collection_team = 0,
@@ -230842,7 +234246,6 @@ function ()
 		pre_chapter = 1390002,
 		formation = 1390001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		pop_pic = "",
@@ -230856,6 +234259,7 @@ function ()
 		is_ai = 1,
 		map = 1390001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -231459,7 +234863,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400001] = {
 		collection_team = 0,
@@ -231482,7 +234887,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1400001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -231495,6 +234899,7 @@ function ()
 		is_ai = 1,
 		map = 1400001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -232027,7 +235432,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400002] = {
 		collection_team = 0,
@@ -232050,7 +235456,6 @@ function ()
 		pre_chapter = 1400001,
 		formation = 1400001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -232063,6 +235468,7 @@ function ()
 		is_ai = 1,
 		map = 1400001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -232597,7 +236003,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400003] = {
 		collection_team = 0,
@@ -232620,7 +236027,6 @@ function ()
 		pre_chapter = 1400002,
 		formation = 1400001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -232633,6 +236039,7 @@ function ()
 		is_ai = 1,
 		map = 1400001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -233252,7 +236659,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400004] = {
 		collection_team = 0,
@@ -233275,7 +236683,6 @@ function ()
 		pre_chapter = 1400003,
 		formation = 1400002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -233288,6 +236695,7 @@ function ()
 		is_ai = 1,
 		map = 1400002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -233917,7 +237325,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400005] = {
 		collection_team = 0,
@@ -233940,7 +237349,6 @@ function ()
 		pre_chapter = 1400004,
 		formation = 1400002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -233953,6 +237361,7 @@ function ()
 		is_ai = 1,
 		map = 1400002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -234625,7 +238034,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400006] = {
 		collection_team = 0,
@@ -234648,7 +238058,6 @@ function ()
 		pre_chapter = 1400005,
 		formation = 1400002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -234661,6 +238070,7 @@ function ()
 		is_ai = 1,
 		map = 1400002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -235305,7 +238715,8 @@ function ()
 			9500
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400011] = {
 		collection_team = 0,
@@ -235328,7 +238739,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1400011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -235341,6 +238751,7 @@ function ()
 		is_ai = 1,
 		map = 1400011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -235915,7 +239326,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400012] = {
 		collection_team = 0,
@@ -235938,7 +239350,6 @@ function ()
 		pre_chapter = 1400011,
 		formation = 1400011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -235951,6 +239362,7 @@ function ()
 		is_ai = 1,
 		map = 1400011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -236527,7 +239939,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400013] = {
 		collection_team = 0,
@@ -236550,7 +239963,6 @@ function ()
 		pre_chapter = 1400012,
 		formation = 1400011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -236563,6 +239975,7 @@ function ()
 		is_ai = 1,
 		map = 1400011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -237224,7 +240637,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400014] = {
 		collection_team = 0,
@@ -237247,7 +240661,6 @@ function ()
 		pre_chapter = 1400013,
 		formation = 1400012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -237260,6 +240673,7 @@ function ()
 		is_ai = 1,
 		map = 1400012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -237931,7 +241345,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400015] = {
 		collection_team = 0,
@@ -237954,7 +241369,6 @@ function ()
 		pre_chapter = 1400014,
 		formation = 1400012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -237967,6 +241381,7 @@ function ()
 		is_ai = 1,
 		map = 1400012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -238683,7 +242098,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400016] = {
 		collection_team = 0,
@@ -238706,7 +242122,6 @@ function ()
 		pre_chapter = 1400015,
 		formation = 1400012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -238719,6 +242134,7 @@ function ()
 		is_ai = 1,
 		map = 1400012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -239407,7 +242823,8 @@ function ()
 			9500
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400017] = {
 		collection_team = 0,
@@ -239430,7 +242847,6 @@ function ()
 		pre_chapter = 1400016,
 		formation = 1400020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -239443,6 +242859,7 @@ function ()
 		is_ai = 1,
 		map = 1400020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -240079,7 +243496,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1400021] = {
 		collection_team = 0,
@@ -240102,7 +243520,6 @@ function ()
 		pre_chapter = 1400016,
 		formation = 1400021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -240115,6 +243532,7 @@ function ()
 		is_ai = 1,
 		map = 1400021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -240483,7 +243901,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410001] = {
 		collection_team = 0,
@@ -240506,7 +243925,6 @@ function ()
 		pre_chapter = 1410007,
 		formation = 1410001,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.26",
 		pop_pic = "",
@@ -240519,6 +243937,7 @@ function ()
 		is_ai = 1,
 		map = 1410001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -241270,7 +244689,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410002] = {
 		collection_team = 0,
@@ -241293,7 +244713,6 @@ function ()
 		pre_chapter = 1410001,
 		formation = 1410001,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -241306,6 +244725,7 @@ function ()
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -241939,7 +245359,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410003] = {
 		collection_team = 0,
@@ -241962,7 +245383,6 @@ function ()
 		pre_chapter = 1410002,
 		formation = 1410001,
 		bgm = "bsm-1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -241975,6 +245395,7 @@ function ()
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -242788,7 +246209,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410004] = {
 		collection_team = 0,
@@ -242811,7 +246233,6 @@ function ()
 		pre_chapter = 1410003,
 		formation = 1410002,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -242824,6 +246245,7 @@ function ()
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -243794,7 +247216,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410005] = {
 		collection_team = 0,
@@ -243817,7 +247240,6 @@ function ()
 		pre_chapter = 1410008,
 		formation = 1410002,
 		bgm = "level02",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -243830,6 +247252,7 @@ function ()
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -244704,7 +248127,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410006] = {
 		collection_team = 0,
@@ -244727,7 +248151,6 @@ function ()
 		pre_chapter = 1410005,
 		formation = 1410002,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.26",
 		pop_pic = "",
@@ -244740,6 +248163,7 @@ function ()
 		is_ai = 1,
 		map = 1410001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -245726,7 +249150,8 @@ function ()
 			8744
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410007] = {
 		collection_team = 0,
@@ -245749,7 +249174,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1410001,
 		bgm = "story-4",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.26",
 		pop_pic = "",
@@ -245762,6 +249186,7 @@ function ()
 		is_ai = 1,
 		map = 1410001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -246251,7 +249676,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410008] = {
 		collection_team = 0,
@@ -246274,7 +249700,6 @@ function ()
 		pre_chapter = 1410004,
 		formation = 1410002,
 		bgm = "story-1",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -246287,6 +249712,7 @@ function ()
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -246898,7 +250324,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410021] = {
 		collection_team = 0,
@@ -246921,7 +250348,6 @@ function ()
 		pre_chapter = 1410027,
 		formation = 1410011,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.26",
 		pop_pic = "",
@@ -246934,6 +250360,7 @@ function ()
 		is_ai = 1,
 		map = 1410011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -247726,7 +251153,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410022] = {
 		collection_team = 0,
@@ -247749,7 +251177,6 @@ function ()
 		pre_chapter = 1410021,
 		formation = 1410011,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -247762,6 +251189,7 @@ function ()
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -248437,7 +251865,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410023] = {
 		collection_team = 0,
@@ -248460,7 +251889,6 @@ function ()
 		pre_chapter = 1410022,
 		formation = 1410011,
 		bgm = "bsm-1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -248473,6 +251901,7 @@ function ()
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -249328,7 +252757,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410024] = {
 		collection_team = 0,
@@ -249351,7 +252781,6 @@ function ()
 		pre_chapter = 1410023,
 		formation = 1410012,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -249364,6 +252793,7 @@ function ()
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -250375,7 +253805,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410025] = {
 		collection_team = 0,
@@ -250398,7 +253829,6 @@ function ()
 		pre_chapter = 1410028,
 		formation = 1410012,
 		bgm = "level02",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -250411,6 +253841,7 @@ function ()
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -251328,7 +254759,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410026] = {
 		collection_team = 0,
@@ -251351,7 +254783,6 @@ function ()
 		pre_chapter = 1410025,
 		formation = 1410012,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.26",
 		pop_pic = "",
@@ -251364,6 +254795,7 @@ function ()
 		is_ai = 1,
 		map = 1410011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -252394,7 +255826,8 @@ function ()
 			8746
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410027] = {
 		collection_team = 0,
@@ -252417,7 +255850,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1410001,
 		bgm = "story-4",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.26",
 		pop_pic = "",
@@ -252430,6 +255862,7 @@ function ()
 		is_ai = 1,
 		map = 1410011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -252919,7 +256352,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410028] = {
 		collection_team = 0,
@@ -252942,7 +256376,6 @@ function ()
 		pre_chapter = 1410024,
 		formation = 1410002,
 		bgm = "story-1",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -252955,6 +256388,7 @@ function ()
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -253566,7 +257000,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410041] = {
 		collection_team = 0,
@@ -253589,7 +257024,6 @@ function ()
 		pre_chapter = 1410026,
 		formation = 1410020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -253602,6 +257036,7 @@ function ()
 		is_ai = 1,
 		map = 1410020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -254590,7 +258025,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410051] = {
 		collection_team = 0,
@@ -254613,7 +258049,6 @@ function ()
 		pre_chapter = 1410026,
 		formation = 1410021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -254626,6 +258061,7 @@ function ()
 		is_ai = 0,
 		map = 1410021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -255031,7 +258467,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1420001] = {
 		collection_team = 0,
@@ -255054,7 +258491,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1420001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -255067,6 +258503,7 @@ function ()
 		is_ai = 0,
 		map = 1420001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -255635,7 +259072,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1420002] = {
 		collection_team = 0,
@@ -255658,7 +259096,6 @@ function ()
 		pre_chapter = 1420001,
 		formation = 1420001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -255671,6 +259108,7 @@ function ()
 		is_ai = 0,
 		map = 1420001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -256251,7 +259689,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1420003] = {
 		collection_team = 0,
@@ -256274,7 +259713,6 @@ function ()
 		pre_chapter = 1420002,
 		formation = 1420001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -256287,6 +259725,7 @@ function ()
 		is_ai = 0,
 		map = 1420001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -256864,7 +260303,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1430001] = {
 		collection_team = 0,
@@ -256887,7 +260327,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1430001,
 		bgm = "idol-BlueSpirit-inst",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.410208333",
 		pop_pic = "LiveStart",
@@ -256900,6 +260339,7 @@ function ()
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Amassing Starlight",
@@ -257455,7 +260895,8 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1430002] = {
 		collection_team = 0,
@@ -257478,7 +260919,6 @@ function ()
 		pre_chapter = 1430001,
 		formation = 1430001,
 		bgm = "idol-BlueSpirit-inst",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "LiveStart",
@@ -257491,6 +260931,7 @@ function ()
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Rehearsing Astrum",
@@ -258131,7 +261572,8 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1430003] = {
 		collection_team = 0,
@@ -258154,7 +261596,6 @@ function ()
 		pre_chapter = 1430002,
 		formation = 1430001,
 		bgm = "idol-inorinouta-inst",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.081166667",
 		pop_pic = "LiveStart",
@@ -258167,6 +261608,7 @@ function ()
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Glamorous Lumière",
@@ -258814,8 +262256,11 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
+end()
+function ()
 	uv0.chapter_template[1430004] = {
 		collection_team = 0,
 		progress_boss = 25,
@@ -258837,7 +262282,6 @@ function ()
 		pre_chapter = 1430003,
 		formation = 1430001,
 		bgm = "azumaster-ins",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		pop_pic = "LiveStart",
@@ -258850,6 +262294,7 @@ function ()
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Guiding Polaris",
@@ -259512,7 +262957,8 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1430005] = {
 		collection_team = 0,
@@ -259535,7 +262981,6 @@ function ()
 		pre_chapter = 1430004,
 		formation = 1430001,
 		bgm = "idol-kannjouLOYALTY-inst",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2579",
 		pop_pic = "LiveStart",
@@ -259548,6 +262993,7 @@ function ()
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Ardent Verheerender",
@@ -260424,7 +263870,8 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1430041] = {
 		collection_team = 0,
@@ -260447,7 +263894,6 @@ function ()
 		pre_chapter = 1430005,
 		formation = 1430002,
 		bgm = "idol-WISHNESS-inst",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -260460,6 +263906,7 @@ function ()
 		is_ai = 0,
 		map = 1430002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -261081,7 +264528,8 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1430051] = {
 		collection_team = 0,
@@ -261104,7 +264552,6 @@ function ()
 		pre_chapter = 1430005,
 		formation = 1430003,
 		bgm = "idol-WISHNESS-inst",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -261117,6 +264564,7 @@ function ()
 		is_ai = 0,
 		map = 1430003,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -261482,10 +264930,9 @@ function ()
 			8750
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
-end()
-function ()
 	uv0.chapter_template[1440001] = {
 		collection_team = 0,
 		progress_boss = 100,
@@ -261507,7 +264954,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1440001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -261521,6 +264967,7 @@ function ()
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -262075,7 +265522,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1440002] = {
 		collection_team = 0,
@@ -262098,7 +265546,6 @@ function ()
 		pre_chapter = 1440001,
 		formation = 1440001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -262112,6 +265559,7 @@ function ()
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -262815,7 +266263,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1440003] = {
 		collection_team = 0,
@@ -262838,7 +266287,6 @@ function ()
 		pre_chapter = 1440002,
 		formation = 1440001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -262852,6 +266300,7 @@ function ()
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -263571,7 +267020,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1440004] = {
 		collection_team = 0,
@@ -263594,7 +267044,6 @@ function ()
 		pre_chapter = 1440003,
 		formation = 1440001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -263608,6 +267057,7 @@ function ()
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -264319,7 +267769,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450001] = {
 		collection_team = 0,
@@ -264342,7 +267793,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1450001,
 		bgm = "doa_daozhong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -264355,6 +267805,7 @@ function ()
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -264939,7 +268390,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450002] = {
 		collection_team = 0,
@@ -264962,7 +268414,6 @@ function ()
 		pre_chapter = 1450001,
 		formation = 1450001,
 		bgm = "doa_daozhong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.116041667",
 		pop_pic = "",
@@ -264975,6 +268426,7 @@ function ()
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -265613,7 +269065,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450003] = {
 		collection_team = 0,
@@ -265636,7 +269089,6 @@ function ()
 		pre_chapter = 1450002,
 		formation = 1450001,
 		bgm = "doa_daozhong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.116041667",
 		pop_pic = "",
@@ -265649,6 +269101,7 @@ function ()
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -266288,7 +269741,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450004] = {
 		collection_team = 0,
@@ -266311,7 +269765,6 @@ function ()
 		pre_chapter = 1450003,
 		formation = 1450001,
 		bgm = "doa_daozhong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -266324,6 +269777,7 @@ function ()
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -267046,7 +270500,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450041] = {
 		collection_team = 0,
@@ -267069,7 +270524,6 @@ function ()
 		pre_chapter = 1450004,
 		formation = 1450002,
 		bgm = "doa_daozhong",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -267082,6 +270536,7 @@ function ()
 		is_ai = 0,
 		map = 1450002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -267696,7 +271151,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450051] = {
 		collection_team = 0,
@@ -267719,7 +271175,6 @@ function ()
 		pre_chapter = 1450004,
 		formation = 1450003,
 		bgm = "doa_daozhong",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -267732,6 +271187,7 @@ function ()
 		is_ai = 0,
 		map = 1450003,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -268151,7 +271607,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460001] = {
 		collection_team = 0,
@@ -268174,7 +271631,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1460001,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -268187,6 +271643,7 @@ function ()
 		is_ai = 1,
 		map = 1460001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -268827,7 +272284,8 @@ function ()
 			8803
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460002] = {
 		collection_team = 0,
@@ -268850,7 +272308,6 @@ function ()
 		pre_chapter = 1460001,
 		formation = 1460001,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -268863,6 +272320,7 @@ function ()
 		is_ai = 1,
 		map = 1460001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -269489,7 +272947,8 @@ function ()
 			8803
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460003] = {
 		collection_team = 0,
@@ -269512,7 +272971,6 @@ function ()
 		pre_chapter = 1460002,
 		formation = 1460001,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -269525,6 +272983,7 @@ function ()
 		is_ai = 1,
 		map = 1460001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -270147,7 +273606,8 @@ function ()
 			8803
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460004] = {
 		collection_team = 0,
@@ -270170,7 +273630,6 @@ function ()
 		pre_chapter = 1460003,
 		formation = 1460002,
 		bgm = "battle-executor-type1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -270183,6 +273642,7 @@ function ()
 		is_ai = 1,
 		map = 1460002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -270896,7 +274356,8 @@ function ()
 			8806
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460005] = {
 		collection_team = 0,
@@ -270919,7 +274380,6 @@ function ()
 		pre_chapter = 1460004,
 		formation = 1460002,
 		bgm = "battle-executor-type1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -270932,6 +274392,7 @@ function ()
 		is_ai = 1,
 		map = 1460002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -271692,7 +275153,8 @@ function ()
 			8806
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460006] = {
 		collection_team = 0,
@@ -271715,7 +275177,6 @@ function ()
 		pre_chapter = 1460005,
 		formation = 1460002,
 		bgm = "battle-executor-type1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -271728,6 +275189,7 @@ function ()
 		is_ai = 1,
 		map = 1460002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -272663,7 +276125,8 @@ function ()
 			8806
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460021] = {
 		collection_team = 0,
@@ -272686,7 +276149,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1460011,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -272699,6 +276161,7 @@ function ()
 		is_ai = 1,
 		map = 1460011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -273380,7 +276843,8 @@ function ()
 			8809
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460022] = {
 		collection_team = 0,
@@ -273403,7 +276867,6 @@ function ()
 		pre_chapter = 1460021,
 		formation = 1460011,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -273416,6 +276879,7 @@ function ()
 		is_ai = 1,
 		map = 1460011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -274083,7 +277547,8 @@ function ()
 			8809
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460023] = {
 		collection_team = 0,
@@ -274106,7 +277571,6 @@ function ()
 		pre_chapter = 1460022,
 		formation = 1460011,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -274119,6 +277583,7 @@ function ()
 		is_ai = 1,
 		map = 1460011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -274784,7 +278249,8 @@ function ()
 			8809
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460024] = {
 		collection_team = 0,
@@ -274807,7 +278273,6 @@ function ()
 		pre_chapter = 1460023,
 		formation = 1460012,
 		bgm = "battle-executor-type1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -274820,6 +278285,7 @@ function ()
 		is_ai = 1,
 		map = 1460012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -275574,7 +279040,8 @@ function ()
 			8812
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460025] = {
 		collection_team = 0,
@@ -275597,7 +279064,6 @@ function ()
 		pre_chapter = 1460024,
 		formation = 1460012,
 		bgm = "battle-executor-type1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -275610,6 +279076,7 @@ function ()
 		is_ai = 1,
 		map = 1460012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -276413,7 +279880,8 @@ function ()
 			8812
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460026] = {
 		collection_team = 0,
@@ -276436,7 +279904,6 @@ function ()
 		pre_chapter = 1460025,
 		formation = 1460012,
 		bgm = "battle-executor-type1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -276449,6 +279916,7 @@ function ()
 		is_ai = 1,
 		map = 1460012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -277427,7 +280895,8 @@ function ()
 			8812
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460041] = {
 		collection_team = 0,
@@ -277450,7 +280919,6 @@ function ()
 		pre_chapter = 1460026,
 		formation = 1460025,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -277463,6 +280931,7 @@ function ()
 		is_ai = 1,
 		map = 1460025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -278571,7 +282040,8 @@ function ()
 			8815
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1460051] = {
 		collection_team = 0,
@@ -278594,7 +282064,6 @@ function ()
 		pre_chapter = 1460026,
 		formation = 1460026,
 		bgm = "xinnong-3",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -278607,6 +282076,7 @@ function ()
 		is_ai = 0,
 		map = 1460026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -279015,7 +282485,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470001] = {
 		collection_team = 0,
@@ -279038,7 +282509,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1470001,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -279051,6 +282521,7 @@ function ()
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -279590,7 +283061,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470002] = {
 		collection_team = 0,
@@ -279613,7 +283085,6 @@ function ()
 		pre_chapter = 1470004,
 		formation = 1470001,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -279626,6 +283097,7 @@ function ()
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -280185,7 +283657,8 @@ function ()
 		},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470003] = {
 		collection_team = 0,
@@ -280208,7 +283681,6 @@ function ()
 		pre_chapter = 1470005,
 		formation = 1470001,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -280221,6 +283693,7 @@ function ()
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -280874,7 +284347,8 @@ function ()
 		},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470004] = {
 		collection_team = 0,
@@ -280897,7 +284371,6 @@ function ()
 		pre_chapter = 1470001,
 		formation = 1470001,
 		bgm = "Battle-italy",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -280910,6 +284383,7 @@ function ()
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -281413,7 +284887,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470005] = {
 		collection_team = 0,
@@ -281436,7 +284911,6 @@ function ()
 		pre_chapter = 1470002,
 		formation = 1470001,
 		bgm = "Battle-italy",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -281449,6 +284923,7 @@ function ()
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -282007,7 +285482,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470006] = {
 		collection_team = 0,
@@ -282030,7 +285506,6 @@ function ()
 		pre_chapter = 1470003,
 		formation = 1470002,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -282043,6 +285518,7 @@ function ()
 		is_ai = 1,
 		map = 1470002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -282612,7 +286088,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470007] = {
 		collection_team = 0,
@@ -282635,7 +286112,6 @@ function ()
 		pre_chapter = 1470006,
 		formation = 1470002,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -282648,6 +286124,7 @@ function ()
 		is_ai = 1,
 		map = 1470002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -283259,7 +286736,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470008] = {
 		collection_team = 0,
@@ -283282,7 +286760,6 @@ function ()
 		pre_chapter = 1470007,
 		formation = 1470002,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -283295,6 +286772,7 @@ function ()
 		is_ai = 1,
 		map = 1470002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -283872,7 +287350,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470021] = {
 		collection_team = 0,
@@ -283895,7 +287374,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1470011,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -283909,6 +287387,7 @@ function ()
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -284489,7 +287968,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470022] = {
 		collection_team = 0,
@@ -284512,7 +287992,6 @@ function ()
 		pre_chapter = 1470024,
 		formation = 1470011,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -284526,6 +288005,7 @@ function ()
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -285124,7 +288604,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470023] = {
 		collection_team = 0,
@@ -285147,7 +288628,6 @@ function ()
 		pre_chapter = 1470025,
 		formation = 1470011,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -285161,6 +288641,7 @@ function ()
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -285854,7 +289335,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470024] = {
 		collection_team = 0,
@@ -285877,7 +289359,6 @@ function ()
 		pre_chapter = 1470021,
 		formation = 1470011,
 		bgm = "Battle-italy",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -285891,6 +289372,7 @@ function ()
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -286435,7 +289917,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470025] = {
 		collection_team = 0,
@@ -286458,7 +289941,6 @@ function ()
 		pre_chapter = 1470022,
 		formation = 1470011,
 		bgm = "Battle-italy",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -286472,6 +289954,7 @@ function ()
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -287072,7 +290555,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470026] = {
 		collection_team = 0,
@@ -287095,7 +290579,6 @@ function ()
 		pre_chapter = 1470023,
 		formation = 1470012,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -287109,6 +290592,7 @@ function ()
 		is_ai = 1,
 		map = 1470012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -287718,7 +291202,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470027] = {
 		collection_team = 0,
@@ -287741,7 +291226,6 @@ function ()
 		pre_chapter = 1470026,
 		formation = 1470012,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -287755,6 +291239,7 @@ function ()
 		is_ai = 1,
 		map = 1470012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -288409,7 +291894,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470028] = {
 		collection_team = 0,
@@ -288432,7 +291918,6 @@ function ()
 		pre_chapter = 1470027,
 		formation = 1470012,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -288445,6 +291930,7 @@ function ()
 		is_ai = 1,
 		map = 1470012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -289065,7 +292551,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470031] = {
 		collection_team = 0,
@@ -289088,7 +292575,6 @@ function ()
 		pre_chapter = 1470028,
 		formation = 1470025,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -289101,6 +292587,7 @@ function ()
 		is_ai = 1,
 		map = 1470025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -289737,7 +293224,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1470041] = {
 		collection_team = 0,
@@ -289760,7 +293248,6 @@ function ()
 		pre_chapter = 1470028,
 		formation = 1470026,
 		bgm = "Battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -289773,6 +293260,7 @@ function ()
 		is_ai = 0,
 		map = 1470026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -290142,7 +293630,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480001] = {
 		collection_team = 0,
@@ -290165,7 +293654,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1480001,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -290178,6 +293666,7 @@ function ()
 		is_ai = 1,
 		map = 1480001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -290816,7 +294305,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480002] = {
 		collection_team = 0,
@@ -290839,7 +294329,6 @@ function ()
 		pre_chapter = 1480001,
 		formation = 1480001,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -290852,6 +294341,7 @@ function ()
 		is_ai = 1,
 		map = 1480001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -291506,7 +294996,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480003] = {
 		collection_team = 0,
@@ -291529,7 +295020,6 @@ function ()
 		pre_chapter = 1480002,
 		formation = 1480001,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -291542,6 +295032,7 @@ function ()
 		is_ai = 1,
 		map = 1480001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -292409,7 +295900,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480004] = {
 		collection_team = 0,
@@ -292432,7 +295924,6 @@ function ()
 		pre_chapter = 1480003,
 		formation = 1480002,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -292445,6 +295936,7 @@ function ()
 		is_ai = 1,
 		map = 1480002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "City of Light",
@@ -293195,7 +296687,8 @@ function ()
 			8846
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480005] = {
 		collection_team = 0,
@@ -293218,7 +296711,6 @@ function ()
 		pre_chapter = 1480004,
 		formation = 1480002,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -293231,6 +296723,7 @@ function ()
 		is_ai = 1,
 		map = 1480002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Strings of Time",
@@ -294006,7 +297499,8 @@ function ()
 			8846
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480006] = {
 		collection_team = 0,
@@ -294029,7 +297523,6 @@ function ()
 		pre_chapter = 1480005,
 		formation = 1480002,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -294042,6 +297535,7 @@ function ()
 		is_ai = 1,
 		map = 1480002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Vox ex Machina",
@@ -294927,7 +298421,8 @@ function ()
 			8846
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480021] = {
 		collection_team = 0,
@@ -294950,7 +298445,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1480011,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -294963,6 +298457,7 @@ function ()
 		is_ai = 1,
 		map = 1480011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -295643,7 +299138,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480022] = {
 		collection_team = 0,
@@ -295666,7 +299162,6 @@ function ()
 		pre_chapter = 1480021,
 		formation = 1480011,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -295679,6 +299174,7 @@ function ()
 		is_ai = 1,
 		map = 1480011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -296375,7 +299871,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480023] = {
 		collection_team = 0,
@@ -296398,7 +299895,6 @@ function ()
 		pre_chapter = 1480022,
 		formation = 1480011,
 		bgm = "bgm-cccp2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -296411,6 +299907,7 @@ function ()
 		is_ai = 1,
 		map = 1480011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -297321,7 +300818,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480024] = {
 		collection_team = 0,
@@ -297344,7 +300842,6 @@ function ()
 		pre_chapter = 1480023,
 		formation = 1480012,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -297357,6 +300854,7 @@ function ()
 		is_ai = 1,
 		map = 1480012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "City of Light",
@@ -298148,7 +301646,8 @@ function ()
 			8852
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480025] = {
 		collection_team = 0,
@@ -298171,7 +301670,6 @@ function ()
 		pre_chapter = 1480024,
 		formation = 1480012,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -298184,6 +301682,7 @@ function ()
 		is_ai = 1,
 		map = 1480012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Strings of Time",
@@ -299002,7 +302501,8 @@ function ()
 			8852
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480026] = {
 		collection_team = 0,
@@ -299025,7 +302525,6 @@ function ()
 		pre_chapter = 1480025,
 		formation = 1480012,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -299038,6 +302537,7 @@ function ()
 		is_ai = 1,
 		map = 1480012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Vox ex Machina",
@@ -299966,7 +303466,8 @@ function ()
 			8852
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480041] = {
 		collection_team = 0,
@@ -299989,7 +303490,6 @@ function ()
 		pre_chapter = 1480026,
 		formation = 1480025,
 		bgm = "bgm-cccp",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -300002,6 +303502,7 @@ function ()
 		is_ai = 1,
 		map = 1480025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -300768,7 +304269,8 @@ function ()
 			8858
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1480051] = {
 		collection_team = 0,
@@ -300791,7 +304293,6 @@ function ()
 		pre_chapter = 1480026,
 		formation = 1480026,
 		bgm = "bgm-cccp",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -300804,6 +304305,7 @@ function ()
 		is_ai = 0,
 		map = 1480026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -301202,7 +304704,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490001] = {
 		collection_team = 0,
@@ -301225,7 +304728,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1490001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -301239,6 +304741,7 @@ function ()
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -301788,7 +305291,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490002] = {
 		collection_team = 0,
@@ -301811,7 +305315,6 @@ function ()
 		pre_chapter = 1490007,
 		formation = 1490001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -301825,6 +305328,7 @@ function ()
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -302422,7 +305926,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490003] = {
 		collection_team = 0,
@@ -302445,7 +305950,6 @@ function ()
 		pre_chapter = 1490008,
 		formation = 1490001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -302459,6 +305963,7 @@ function ()
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -303153,7 +306658,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490004] = {
 		collection_team = 0,
@@ -303176,7 +306682,6 @@ function ()
 		pre_chapter = 1490003,
 		formation = 1490002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -303190,6 +306695,7 @@ function ()
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -303777,7 +307283,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490005] = {
 		collection_team = 0,
@@ -303800,7 +307307,6 @@ function ()
 		pre_chapter = 1490009,
 		formation = 1490002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -303814,6 +307320,7 @@ function ()
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -304444,7 +307951,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490006] = {
 		collection_team = 0,
@@ -304467,7 +307975,6 @@ function ()
 		pre_chapter = 1490010,
 		formation = 1490002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -304481,6 +307988,7 @@ function ()
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -305083,7 +308591,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490007] = {
 		collection_team = 0,
@@ -305106,7 +308615,6 @@ function ()
 		pre_chapter = 1490001,
 		formation = 1490001,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -305120,6 +308628,7 @@ function ()
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -305622,7 +309131,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490008] = {
 		collection_team = 0,
@@ -305645,7 +309155,6 @@ function ()
 		pre_chapter = 1490002,
 		formation = 1490001,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -305659,6 +309168,7 @@ function ()
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -306217,7 +309727,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490009] = {
 		collection_team = 0,
@@ -306240,7 +309751,6 @@ function ()
 		pre_chapter = 1490004,
 		formation = 1490002,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -306254,6 +309764,7 @@ function ()
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -306805,7 +310316,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490010] = {
 		collection_team = 0,
@@ -306828,7 +310340,6 @@ function ()
 		pre_chapter = 1490005,
 		formation = 1490002,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -306842,6 +310353,7 @@ function ()
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -307450,7 +310962,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490011] = {
 		collection_team = 0,
@@ -307473,7 +310986,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1490011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -307487,6 +310999,7 @@ function ()
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -308078,7 +311591,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490012] = {
 		collection_team = 0,
@@ -308101,7 +311615,6 @@ function ()
 		pre_chapter = 1490022,
 		formation = 1490011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -308115,6 +311628,7 @@ function ()
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -308754,7 +312268,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490013] = {
 		collection_team = 0,
@@ -308777,7 +312292,6 @@ function ()
 		pre_chapter = 1490023,
 		formation = 1490011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -308791,6 +312305,7 @@ function ()
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -309522,7 +313037,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490014] = {
 		collection_team = 0,
@@ -309545,7 +313061,6 @@ function ()
 		pre_chapter = 1490013,
 		formation = 1490012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -309559,6 +313074,7 @@ function ()
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -310188,7 +313704,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490015] = {
 		collection_team = 0,
@@ -310211,7 +313728,6 @@ function ()
 		pre_chapter = 1490024,
 		formation = 1490012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -310225,6 +313741,7 @@ function ()
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -310899,7 +314416,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490016] = {
 		collection_team = 0,
@@ -310922,7 +314440,6 @@ function ()
 		pre_chapter = 1490025,
 		formation = 1490012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -310936,6 +314453,7 @@ function ()
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -311582,7 +315100,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490017] = {
 		collection_team = 0,
@@ -311605,7 +315124,6 @@ function ()
 		pre_chapter = 1490016,
 		formation = 1490025,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 2,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -311619,6 +315137,7 @@ function ()
 		is_ai = 1,
 		map = 1490025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -312447,7 +315966,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490021] = {
 		collection_team = 0,
@@ -312470,7 +315990,6 @@ function ()
 		pre_chapter = 1490017,
 		formation = 1490026,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -312484,6 +316003,7 @@ function ()
 		is_ai = 0,
 		map = 1490026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -312854,7 +316374,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490022] = {
 		collection_team = 0,
@@ -312877,7 +316398,6 @@ function ()
 		pre_chapter = 1490011,
 		formation = 1490011,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -312891,6 +316411,7 @@ function ()
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -313435,7 +316956,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490023] = {
 		collection_team = 0,
@@ -313458,7 +316980,6 @@ function ()
 		pre_chapter = 1490012,
 		formation = 1490011,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -313472,6 +316993,7 @@ function ()
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -314072,7 +317594,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490024] = {
 		collection_team = 0,
@@ -314095,7 +317618,6 @@ function ()
 		pre_chapter = 1490014,
 		formation = 1490012,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -314109,6 +317631,7 @@ function ()
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -314702,7 +318225,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1490025] = {
 		collection_team = 0,
@@ -314725,7 +318249,6 @@ function ()
 		pre_chapter = 1490015,
 		formation = 1490012,
 		bgm = "",
-		chapter_tag = 1,
 		star_require_1 = 0,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -314739,6 +318262,7 @@ function ()
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
+		chapter_tag = 1,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -315391,7 +318915,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500001] = {
 		collection_team = 0,
@@ -315414,7 +318939,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1500001,
 		bgm = "story-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -315427,6 +318951,7 @@ function ()
 		is_ai = 1,
 		map = 1500001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -316060,7 +319585,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500002] = {
 		collection_team = 0,
@@ -316083,7 +319609,6 @@ function ()
 		pre_chapter = 1500001,
 		formation = 1500001,
 		bgm = "story-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -316096,6 +319621,7 @@ function ()
 		is_ai = 1,
 		map = 1500001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -316748,7 +320274,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500003] = {
 		collection_team = 0,
@@ -316771,7 +320298,6 @@ function ()
 		pre_chapter = 1500002,
 		formation = 1500001,
 		bgm = "story-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -316784,6 +320310,7 @@ function ()
 		is_ai = 1,
 		map = 1500001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -317549,7 +321076,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500004] = {
 		collection_team = 0,
@@ -317572,7 +321100,6 @@ function ()
 		pre_chapter = 1500003,
 		formation = 1500002,
 		bgm = "battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -317585,6 +321112,7 @@ function ()
 		is_ai = 1,
 		map = 1500002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Mark of the Empire",
@@ -318454,7 +321982,8 @@ function ()
 			8863
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500005] = {
 		collection_team = 0,
@@ -318477,7 +322006,6 @@ function ()
 		pre_chapter = 1500004,
 		formation = 1500002,
 		bgm = "battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -318490,6 +322018,7 @@ function ()
 		is_ai = 1,
 		map = 1500002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Shifting Quagmire",
@@ -319378,7 +322907,8 @@ function ()
 			8863
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500006] = {
 		collection_team = 0,
@@ -319401,7 +322931,6 @@ function ()
 		pre_chapter = 1500005,
 		formation = 1500002,
 		bgm = "battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -319414,6 +322943,7 @@ function ()
 		is_ai = 1,
 		map = 1500002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Heart of the Labyrinth",
@@ -320318,7 +323848,8 @@ function ()
 			8865
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500021] = {
 		collection_team = 0,
@@ -320341,7 +323872,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1500011,
 		bgm = "story-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -320354,6 +323884,7 @@ function ()
 		is_ai = 1,
 		map = 1500011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -321029,7 +324560,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500022] = {
 		collection_team = 0,
@@ -321052,7 +324584,6 @@ function ()
 		pre_chapter = 1500021,
 		formation = 1500011,
 		bgm = "story-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -321065,6 +324596,7 @@ function ()
 		is_ai = 1,
 		map = 1500011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -321759,7 +325291,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500023] = {
 		collection_team = 0,
@@ -321782,7 +325315,6 @@ function ()
 		pre_chapter = 1500022,
 		formation = 1500011,
 		bgm = "story-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -321795,6 +325327,7 @@ function ()
 		is_ai = 1,
 		map = 1500011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -322603,7 +326136,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500024] = {
 		collection_team = 0,
@@ -322626,7 +326160,6 @@ function ()
 		pre_chapter = 1500023,
 		formation = 1500012,
 		bgm = "battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -322639,6 +326172,7 @@ function ()
 		is_ai = 1,
 		map = 1500012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Mark of the Empire",
@@ -323550,7 +327084,8 @@ function ()
 			8863
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500025] = {
 		collection_team = 0,
@@ -323573,7 +327108,6 @@ function ()
 		pre_chapter = 1500024,
 		formation = 1500012,
 		bgm = "battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -323586,6 +327120,7 @@ function ()
 		is_ai = 1,
 		map = 1500012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Shifting Quagmire",
@@ -324518,7 +328053,8 @@ function ()
 			8863
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500026] = {
 		collection_team = 0,
@@ -324541,7 +328077,6 @@ function ()
 		pre_chapter = 1500025,
 		formation = 1500012,
 		bgm = "battle-italy",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -324554,6 +328089,7 @@ function ()
 		is_ai = 1,
 		map = 1500012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Heart of the Labyrinth",
@@ -325501,7 +329037,8 @@ function ()
 			8867
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500041] = {
 		collection_team = 0,
@@ -325524,7 +329061,6 @@ function ()
 		pre_chapter = 1500026,
 		formation = 1500025,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -325537,6 +329073,7 @@ function ()
 		is_ai = 0,
 		map = 1500025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		name = "Tea Party in the Labyrinth",
@@ -326371,7 +329908,8 @@ function ()
 			8869
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1500051] = {
 		collection_team = 0,
@@ -326394,7 +329932,6 @@ function ()
 		pre_chapter = 1500041,
 		formation = 1500026,
 		bgm = "story-6",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -326407,6 +329944,7 @@ function ()
 		is_ai = 0,
 		map = 1500026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -326819,7 +330357,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520001] = {
 		collection_team = 0,
@@ -326842,7 +330381,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1520001,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -326855,6 +330393,7 @@ function ()
 		is_ai = 1,
 		map = 1520001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -327507,7 +331046,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520002] = {
 		collection_team = 0,
@@ -327530,7 +331070,6 @@ function ()
 		pre_chapter = 1520001,
 		formation = 1520001,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -327543,6 +331082,7 @@ function ()
 		is_ai = 1,
 		map = 1520001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -328215,7 +331755,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520003] = {
 		collection_team = 0,
@@ -328238,7 +331779,6 @@ function ()
 		pre_chapter = 1520002,
 		formation = 1520001,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -328251,6 +331791,7 @@ function ()
 		is_ai = 1,
 		map = 1520001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -329038,7 +332579,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520004] = {
 		collection_team = 0,
@@ -329061,7 +332603,6 @@ function ()
 		pre_chapter = 1520003,
 		formation = 1520002,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -329074,6 +332615,7 @@ function ()
 		is_ai = 1,
 		map = 1520002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -329849,8 +333391,11 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
+end()
+function ()
 	uv0.chapter_template[1520005] = {
 		collection_team = 0,
 		progress_boss = 25,
@@ -329872,7 +333417,6 @@ function ()
 		pre_chapter = 1520004,
 		formation = 1520002,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -329885,6 +333429,7 @@ function ()
 		is_ai = 1,
 		map = 1520002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -330674,7 +334219,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520006] = {
 		collection_team = 0,
@@ -330697,7 +334243,6 @@ function ()
 		pre_chapter = 1520005,
 		formation = 1520002,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -330710,6 +334255,7 @@ function ()
 		is_ai = 1,
 		map = 1520002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -331506,7 +335052,8 @@ function ()
 			8880
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520021] = {
 		collection_team = 0,
@@ -331529,7 +335076,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1520011,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -331542,6 +335088,7 @@ function ()
 		is_ai = 1,
 		map = 1520011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -332236,7 +335783,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520022] = {
 		collection_team = 0,
@@ -332259,7 +335807,6 @@ function ()
 		pre_chapter = 1520021,
 		formation = 1520011,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -332272,6 +335819,7 @@ function ()
 		is_ai = 1,
 		map = 1520011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -332986,10 +336534,9 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
-end()
-function ()
 	uv0.chapter_template[1520023] = {
 		collection_team = 0,
 		progress_boss = 25,
@@ -333011,7 +336558,6 @@ function ()
 		pre_chapter = 1520022,
 		formation = 1520011,
 		bgm = "hunhe-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -333024,6 +336570,7 @@ function ()
 		is_ai = 1,
 		map = 1520011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -333854,7 +337401,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520024] = {
 		collection_team = 0,
@@ -333877,7 +337425,6 @@ function ()
 		pre_chapter = 1520023,
 		formation = 1520012,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -333890,6 +337437,7 @@ function ()
 		is_ai = 1,
 		map = 1520012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -334707,7 +338255,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520025] = {
 		collection_team = 0,
@@ -334730,7 +338279,6 @@ function ()
 		pre_chapter = 1520024,
 		formation = 1520012,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -334743,6 +338291,7 @@ function ()
 		is_ai = 1,
 		map = 1520012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -335576,7 +339125,8 @@ function ()
 			8877
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520026] = {
 		collection_team = 0,
@@ -335599,7 +339149,6 @@ function ()
 		pre_chapter = 1520025,
 		formation = 1520012,
 		bgm = "deepblue-image",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -335612,6 +339161,7 @@ function ()
 		is_ai = 1,
 		map = 1520012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -336451,7 +340001,8 @@ function ()
 			8882
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520041] = {
 		collection_team = 0,
@@ -336474,7 +340025,6 @@ function ()
 		pre_chapter = 1520026,
 		formation = 1520025,
 		bgm = "Beverly_short_eng",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -336487,6 +340037,7 @@ function ()
 		is_ai = 0,
 		map = 1520025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -337261,7 +340812,8 @@ function ()
 			8884
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1520051] = {
 		collection_team = 0,
@@ -337284,7 +340836,6 @@ function ()
 		pre_chapter = 1520041,
 		formation = 1520026,
 		bgm = "Beverly_short_eng",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -337297,6 +340848,7 @@ function ()
 		is_ai = 0,
 		map = 1520026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -337716,7 +341268,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530001] = {
 		collection_team = 0,
@@ -337739,7 +341292,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1530001,
 		bgm = "story-4",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -337752,6 +341304,7 @@ function ()
 		is_ai = 1,
 		map = 1530001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -338287,7 +341840,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530002] = {
 		collection_team = 0,
@@ -338310,7 +341864,6 @@ function ()
 		pre_chapter = 1530001,
 		formation = 1530001,
 		bgm = "nagato-map",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -338323,6 +341876,7 @@ function ()
 		is_ai = 1,
 		map = 1530001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -338875,7 +342429,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530003] = {
 		collection_team = 0,
@@ -338898,7 +342453,6 @@ function ()
 		pre_chapter = 1530002,
 		formation = 1530001,
 		bgm = "xinnong-1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -338911,6 +342465,7 @@ function ()
 		is_ai = 1,
 		map = 1530001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -339486,7 +343041,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530004] = {
 		collection_team = 0,
@@ -339509,7 +343065,6 @@ function ()
 		pre_chapter = 1530003,
 		formation = 1530002,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -339522,6 +343077,7 @@ function ()
 		is_ai = 1,
 		map = 1530002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -340113,7 +343669,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530005] = {
 		collection_team = 0,
@@ -340136,7 +343693,6 @@ function ()
 		pre_chapter = 1530004,
 		formation = 1530002,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -340149,6 +343705,7 @@ function ()
 		is_ai = 1,
 		map = 1530002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -340786,7 +344343,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530006] = {
 		collection_team = 0,
@@ -340809,7 +344367,6 @@ function ()
 		pre_chapter = 1530005,
 		formation = 1530002,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -340822,6 +344379,7 @@ function ()
 		is_ai = 1,
 		map = 1530002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -341422,7 +344980,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530021] = {
 		collection_team = 0,
@@ -341445,7 +345004,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1530011,
 		bgm = "story-4",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -341458,6 +345016,7 @@ function ()
 		is_ai = 1,
 		map = 1530011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -342035,7 +345594,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530022] = {
 		collection_team = 0,
@@ -342058,7 +345618,6 @@ function ()
 		pre_chapter = 1530021,
 		formation = 1530011,
 		bgm = "nagato-map",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -342071,6 +345630,7 @@ function ()
 		is_ai = 1,
 		map = 1530011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -342666,7 +346226,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530023] = {
 		collection_team = 0,
@@ -342689,7 +346250,6 @@ function ()
 		pre_chapter = 1530022,
 		formation = 1530011,
 		bgm = "xinnong-1",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -342702,6 +346262,7 @@ function ()
 		is_ai = 1,
 		map = 1530011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -343320,7 +346881,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530024] = {
 		collection_team = 0,
@@ -343343,7 +346905,6 @@ function ()
 		pre_chapter = 1530023,
 		formation = 1530012,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -343356,6 +346917,7 @@ function ()
 		is_ai = 1,
 		map = 1530012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -343989,7 +347551,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530025] = {
 		collection_team = 0,
@@ -344012,7 +347575,6 @@ function ()
 		pre_chapter = 1530024,
 		formation = 1530012,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -344025,6 +347587,7 @@ function ()
 		is_ai = 1,
 		map = 1530012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -344706,7 +348269,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530026] = {
 		collection_team = 0,
@@ -344729,7 +348293,6 @@ function ()
 		pre_chapter = 1530025,
 		formation = 1530012,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -344742,6 +348305,7 @@ function ()
 		is_ai = 1,
 		map = 1530012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -345386,7 +348950,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530041] = {
 		collection_team = 0,
@@ -345409,7 +348974,6 @@ function ()
 		pre_chapter = 1530026,
 		formation = 1530025,
 		bgm = "xinnong-1",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -345423,6 +348987,7 @@ function ()
 		is_ai = 1,
 		map = 1530025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -346080,7 +349645,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1530051] = {
 		collection_team = 0,
@@ -346103,7 +349669,6 @@ function ()
 		pre_chapter = 1530026,
 		formation = 1530026,
 		bgm = "xinnong-2",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -346116,6 +349681,7 @@ function ()
 		is_ai = 0,
 		map = 1530026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -346484,7 +350050,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540001] = {
 		collection_team = 0,
@@ -346507,7 +350074,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1540001,
 		bgm = "Idom-Thinking",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -346520,6 +350086,7 @@ function ()
 		is_ai = 1,
 		map = 1540001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -347113,7 +350680,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540002] = {
 		collection_team = 0,
@@ -347136,7 +350704,6 @@ function ()
 		pre_chapter = 1540001,
 		formation = 1540001,
 		bgm = "Idom-Thinking",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.116041667",
 		pop_pic = "",
@@ -347149,6 +350716,7 @@ function ()
 		is_ai = 1,
 		map = 1540001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -347797,7 +351365,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540003] = {
 		collection_team = 0,
@@ -347820,7 +351389,6 @@ function ()
 		pre_chapter = 1540002,
 		formation = 1540001,
 		bgm = "Idom-Thinking",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.116041667",
 		pop_pic = "",
@@ -347833,6 +351401,7 @@ function ()
 		is_ai = 1,
 		map = 1540001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -348486,7 +352055,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540004] = {
 		collection_team = 0,
@@ -348509,7 +352079,6 @@ function ()
 		pre_chapter = 1540003,
 		formation = 1540001,
 		bgm = "Idom-Thinking",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -348522,6 +352091,7 @@ function ()
 		is_ai = 1,
 		map = 1540001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -349250,7 +352820,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540041] = {
 		collection_team = 0,
@@ -349273,7 +352844,6 @@ function ()
 		pre_chapter = 1540004,
 		formation = 1540002,
 		bgm = "Idom-Thinking",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -349286,6 +352856,7 @@ function ()
 		is_ai = 0,
 		map = 1540002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -349934,7 +353505,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540051] = {
 		collection_team = 0,
@@ -349957,7 +353529,6 @@ function ()
 		pre_chapter = 1540041,
 		formation = 1540003,
 		bgm = "Idom-Thinking",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -349970,6 +353541,7 @@ function ()
 		is_ai = 0,
 		map = 1540003,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -350389,7 +353961,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550001] = {
 		collection_team = 0,
@@ -350412,7 +353985,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1550001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "SeaFogPermeates",
@@ -350425,6 +353997,7 @@ function ()
 		is_ai = 1,
 		map = 1550001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Rescue Fleet",
@@ -350940,7 +354513,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550002] = {
 		collection_team = 0,
@@ -350963,7 +354537,6 @@ function ()
 		pre_chapter = 1550001,
 		formation = 1550001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "SeaFogPermeates",
@@ -350976,6 +354549,7 @@ function ()
 		is_ai = 1,
 		map = 1550001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Under the Mist",
@@ -351519,7 +355093,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550003] = {
 		collection_team = 0,
@@ -351542,7 +355117,6 @@ function ()
 		pre_chapter = 1550002,
 		formation = 1550001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "SeaFogPermeates",
@@ -351555,6 +355129,7 @@ function ()
 		is_ai = 1,
 		map = 1550001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "From the Abyss",
@@ -352118,7 +355693,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550004] = {
 		collection_team = 0,
@@ -352141,7 +355717,6 @@ function ()
 		pre_chapter = 1550003,
 		formation = 1550002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "SeaFogPermeates",
@@ -352154,6 +355729,7 @@ function ()
 		is_ai = 1,
 		map = 1550002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Return",
@@ -352754,7 +356330,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550005] = {
 		collection_team = 0,
@@ -352777,7 +356354,6 @@ function ()
 		pre_chapter = 1550004,
 		formation = 1550002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "SeaFogPermeates",
@@ -352790,6 +356366,7 @@ function ()
 		is_ai = 1,
 		map = 1550002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Hero's Party",
@@ -353380,7 +356957,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550006] = {
 		collection_team = 0,
@@ -353403,7 +356981,6 @@ function ()
 		pre_chapter = 1550005,
 		formation = 1550002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "SeaFogPermeates",
@@ -353416,6 +356993,7 @@ function ()
 		is_ai = 1,
 		map = 1550002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "The Mist Clears",
@@ -354078,7 +357656,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550021] = {
 		collection_team = 0,
@@ -354101,7 +357680,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1550011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "SeaFogPermeates",
@@ -354114,6 +357692,7 @@ function ()
 		is_ai = 1,
 		map = 1550011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Rescue Fleet",
@@ -354671,7 +358250,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550022] = {
 		collection_team = 0,
@@ -354694,7 +358274,6 @@ function ()
 		pre_chapter = 1550021,
 		formation = 1550011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "SeaFogPermeates",
@@ -354707,6 +358286,7 @@ function ()
 		is_ai = 1,
 		map = 1550011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Under the Mist",
@@ -355292,7 +358872,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550023] = {
 		collection_team = 0,
@@ -355315,7 +358896,6 @@ function ()
 		pre_chapter = 1550022,
 		formation = 1550011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "SeaFogPermeates",
@@ -355328,6 +358908,7 @@ function ()
 		is_ai = 1,
 		map = 1550011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "From the Abyss",
@@ -355934,7 +359515,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550024] = {
 		collection_team = 0,
@@ -355957,7 +359539,6 @@ function ()
 		pre_chapter = 1550023,
 		formation = 1550012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "SeaFogPermeates",
@@ -355970,6 +359551,7 @@ function ()
 		is_ai = 1,
 		map = 1550012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Return",
@@ -356612,7 +360194,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550025] = {
 		collection_team = 0,
@@ -356635,7 +360218,6 @@ function ()
 		pre_chapter = 1550024,
 		formation = 1550012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "SeaFogPermeates",
@@ -356648,6 +360230,7 @@ function ()
 		is_ai = 1,
 		map = 1550012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Hero's Party",
@@ -357282,7 +360865,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550026] = {
 		collection_team = 0,
@@ -357305,7 +360889,6 @@ function ()
 		pre_chapter = 1550025,
 		formation = 1550012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "SeaFogPermeates",
@@ -357318,6 +360901,7 @@ function ()
 		is_ai = 1,
 		map = 1550012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "The Mist Clears",
@@ -358024,7 +361608,8 @@ function ()
 			9502
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550041] = {
 		collection_team = 0,
@@ -358047,7 +361632,6 @@ function ()
 		pre_chapter = 1550026,
 		formation = 1550025,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -358060,6 +361644,7 @@ function ()
 		is_ai = 1,
 		map = 1550025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Stars in the Firmament",
@@ -358627,7 +362212,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1550051] = {
 		collection_team = 0,
@@ -358650,7 +362236,6 @@ function ()
 		pre_chapter = 1550026,
 		formation = 1550026,
 		bgm = "hunhe-battle",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -358663,6 +362248,7 @@ function ()
 		is_ai = 0,
 		map = 1550026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		uifx = "",
 		ItemTransformPattern = "",
 		name = "Microlayer Medley",
@@ -359065,7 +362651,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560001] = {
 		collection_team = 0,
@@ -359088,7 +362675,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1560001,
 		bgm = "cw-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -359101,6 +362687,7 @@ function ()
 		is_ai = 1,
 		map = 1560001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -359699,7 +363286,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560002] = {
 		collection_team = 0,
@@ -359722,7 +363310,6 @@ function ()
 		pre_chapter = 1560001,
 		formation = 1560001,
 		bgm = "cw-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -359735,6 +363322,7 @@ function ()
 		is_ai = 1,
 		map = 1560001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -360388,7 +363976,8 @@ function ()
 			9213
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560003] = {
 		collection_team = 0,
@@ -360411,7 +364000,6 @@ function ()
 		pre_chapter = 1560002,
 		formation = 1560001,
 		bgm = "cw-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -360424,6 +364012,7 @@ function ()
 		is_ai = 1,
 		map = 1560001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -361230,7 +364819,8 @@ function ()
 			9233
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560004] = {
 		collection_team = 0,
@@ -361253,7 +364843,6 @@ function ()
 		pre_chapter = 1560003,
 		formation = 1560002,
 		bgm = "map-longgong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -361266,6 +364855,7 @@ function ()
 		is_ai = 1,
 		map = 1560002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -362040,7 +365630,8 @@ function ()
 			9256
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560005] = {
 		collection_team = 0,
@@ -362063,7 +365654,6 @@ function ()
 		pre_chapter = 1560004,
 		formation = 1560002,
 		bgm = "map-longgong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -362076,6 +365666,7 @@ function ()
 		is_ai = 1,
 		map = 1560002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -362871,7 +366462,8 @@ function ()
 			9276
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560006] = {
 		collection_team = 0,
@@ -362894,7 +366486,6 @@ function ()
 		pre_chapter = 1560005,
 		formation = 1560002,
 		bgm = "map-longgong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -362907,6 +366498,7 @@ function ()
 		is_ai = 1,
 		map = 1560002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -363786,7 +367378,8 @@ function ()
 			9276
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560021] = {
 		collection_team = 0,
@@ -363809,7 +367402,6 @@ function ()
 		pre_chapter = 0,
 		formation = 1560011,
 		bgm = "cw-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -363822,6 +367414,7 @@ function ()
 		is_ai = 1,
 		map = 1560011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -364462,7 +368055,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560022] = {
 		collection_team = 0,
@@ -364485,7 +368079,6 @@ function ()
 		pre_chapter = 1560021,
 		formation = 1560011,
 		bgm = "cw-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -364498,6 +368091,7 @@ function ()
 		is_ai = 1,
 		map = 1560011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -365193,7 +368787,8 @@ function ()
 			9219
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560023] = {
 		collection_team = 0,
@@ -365216,7 +368811,6 @@ function ()
 		pre_chapter = 1560022,
 		formation = 1560011,
 		bgm = "cw-level",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -365229,6 +368823,7 @@ function ()
 		is_ai = 1,
 		map = 1560011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -366078,7 +369673,8 @@ function ()
 			9239
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560024] = {
 		collection_team = 0,
@@ -366101,7 +369697,6 @@ function ()
 		pre_chapter = 1560023,
 		formation = 1560012,
 		bgm = "map-longgong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		pop_pic = "",
@@ -366114,6 +369709,7 @@ function ()
 		is_ai = 1,
 		map = 1560012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -366930,7 +370526,8 @@ function ()
 			9262
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560025] = {
 		collection_team = 0,
@@ -366953,7 +370550,6 @@ function ()
 		pre_chapter = 1560024,
 		formation = 1560012,
 		bgm = "map-longgong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		pop_pic = "",
@@ -366966,6 +370562,7 @@ function ()
 		is_ai = 1,
 		map = 1560012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -367805,7 +371402,8 @@ function ()
 			9282
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560026] = {
 		collection_team = 0,
@@ -367828,7 +371426,6 @@ function ()
 		pre_chapter = 1560025,
 		formation = 1560012,
 		bgm = "map-longgong",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		pop_pic = "",
@@ -367841,6 +371438,7 @@ function ()
 		is_ai = 1,
 		map = 1560012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -368763,7 +372361,8 @@ function ()
 			9282
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560041] = {
 		collection_team = 0,
@@ -368786,7 +372385,6 @@ function ()
 		pre_chapter = 1560026,
 		formation = 1560025,
 		bgm = "battle-longgong",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -368799,6 +372397,7 @@ function ()
 		is_ai = 0,
 		map = 1560025,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -369519,7 +373118,8 @@ function ()
 			9285
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1560051] = {
 		collection_team = 0,
@@ -369542,7 +373142,6 @@ function ()
 		pre_chapter = 1560041,
 		formation = 1560026,
 		bgm = "battle-longgong",
-		chapter_tag = 0,
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -369555,6 +373154,7 @@ function ()
 		is_ai = 0,
 		map = 1560026,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -369981,7 +373581,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100001] = {
 		collection_team = 0,
@@ -370004,7 +373605,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		pop_pic = "",
@@ -370019,6 +373619,7 @@ function ()
 		is_ai = 0,
 		map = 2100000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -370525,7 +374126,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100002] = {
 		collection_team = 0,
@@ -370548,7 +374150,6 @@ function ()
 		pre_chapter = 2100001,
 		formation = 2100000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		pop_pic = "",
@@ -370563,6 +374164,7 @@ function ()
 		is_ai = 0,
 		map = 2100000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -371126,7 +374728,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100003] = {
 		collection_team = 0,
@@ -371149,7 +374752,6 @@ function ()
 		pre_chapter = 2100002,
 		formation = 2100000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		pop_pic = "",
@@ -371164,6 +374766,7 @@ function ()
 		is_ai = 0,
 		map = 2100000,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -371794,7 +375397,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100004] = {
 		collection_team = 0,
@@ -371817,7 +375421,6 @@ function ()
 		pre_chapter = 2100003,
 		formation = 2100001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		pop_pic = "",
@@ -371832,6 +375435,7 @@ function ()
 		is_ai = 0,
 		map = 2100001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -372412,7 +376016,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100005] = {
 		collection_team = 0,
@@ -372435,7 +376040,6 @@ function ()
 		pre_chapter = 2100004,
 		formation = 2100001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -372450,6 +376054,7 @@ function ()
 		is_ai = 0,
 		map = 2100001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -373132,7 +376737,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100006] = {
 		collection_team = 0,
@@ -373155,7 +376761,6 @@ function ()
 		pre_chapter = 2100005,
 		formation = 2100001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.4",
 		pop_pic = "",
@@ -373170,6 +376775,7 @@ function ()
 		is_ai = 0,
 		map = 2100001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -373847,7 +377453,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100011] = {
 		collection_team = 0,
@@ -373870,7 +377477,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		pop_pic = "",
@@ -373885,6 +377491,7 @@ function ()
 		is_ai = 0,
 		map = 2100010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -374432,7 +378039,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100012] = {
 		collection_team = 0,
@@ -374455,7 +378063,6 @@ function ()
 		pre_chapter = 2100011,
 		formation = 2100010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		pop_pic = "",
@@ -374470,6 +378077,7 @@ function ()
 		is_ai = 0,
 		map = 2100010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -375074,7 +378682,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100013] = {
 		collection_team = 0,
@@ -375097,7 +378706,6 @@ function ()
 		pre_chapter = 2100012,
 		formation = 2100010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		pop_pic = "",
@@ -375112,6 +378720,7 @@ function ()
 		is_ai = 0,
 		map = 2100010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -375784,7 +379393,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100014] = {
 		collection_team = 0,
@@ -375807,7 +379417,6 @@ function ()
 		pre_chapter = 2100013,
 		formation = 2100011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		pop_pic = "",
@@ -375822,6 +379431,7 @@ function ()
 		is_ai = 0,
 		map = 2100011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -376444,7 +380054,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100015] = {
 		collection_team = 0,
@@ -376467,7 +380078,6 @@ function ()
 		pre_chapter = 2100014,
 		formation = 2100011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		pop_pic = "",
@@ -376482,6 +380092,7 @@ function ()
 		is_ai = 0,
 		map = 2100011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -377206,7 +380817,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100016] = {
 		collection_team = 0,
@@ -377229,7 +380841,6 @@ function ()
 		pre_chapter = 2100015,
 		formation = 2100011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.4",
 		pop_pic = "",
@@ -377244,6 +380855,7 @@ function ()
 		is_ai = 0,
 		map = 2100011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -377962,7 +381574,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100021] = {
 		collection_team = 0,
@@ -377985,7 +381598,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.361458333",
 		pop_pic = "",
@@ -377999,6 +381611,7 @@ function ()
 		is_ai = 1,
 		map = 2100020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -378457,7 +382070,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100022] = {
 		collection_team = 0,
@@ -378480,7 +382094,6 @@ function ()
 		pre_chapter = 2100021,
 		formation = 2100020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.111458333",
 		pop_pic = "",
@@ -378494,6 +382107,7 @@ function ()
 		is_ai = 1,
 		map = 2100020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -379014,7 +382628,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100023] = {
 		collection_team = 0,
@@ -379037,7 +382652,6 @@ function ()
 		pre_chapter = 2100022,
 		formation = 2100020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3446875",
 		pop_pic = "",
@@ -379051,6 +382665,7 @@ function ()
 		is_ai = 1,
 		map = 2100020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -379661,7 +383276,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100024] = {
 		collection_team = 0,
@@ -379684,7 +383300,6 @@ function ()
 		pre_chapter = 2100023,
 		formation = 2100021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.15",
 		pop_pic = "",
@@ -379698,6 +383313,7 @@ function ()
 		is_ai = 1,
 		map = 2100021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -380331,7 +383947,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100025] = {
 		collection_team = 0,
@@ -380354,7 +383971,6 @@ function ()
 		pre_chapter = 2100024,
 		formation = 2100021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.073958",
 		pop_pic = "",
@@ -380368,6 +383984,7 @@ function ()
 		is_ai = 1,
 		map = 2100021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -381019,7 +384636,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100026] = {
 		collection_team = 0,
@@ -381042,7 +384660,6 @@ function ()
 		pre_chapter = 2100025,
 		formation = 2100021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.347395833",
 		pop_pic = "",
@@ -381056,6 +384673,7 @@ function ()
 		is_ai = 1,
 		map = 2100021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -381882,7 +385500,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100031] = {
 		collection_team = 0,
@@ -381905,7 +385524,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100030,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.361458333",
 		pop_pic = "",
@@ -381919,6 +385537,7 @@ function ()
 		is_ai = 1,
 		map = 2100030,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -382418,7 +386037,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100032] = {
 		collection_team = 0,
@@ -382441,7 +386061,6 @@ function ()
 		pre_chapter = 2100031,
 		formation = 2100030,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.111458333",
 		pop_pic = "",
@@ -382455,6 +386074,7 @@ function ()
 		is_ai = 1,
 		map = 2100030,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -383016,7 +386636,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100033] = {
 		collection_team = 0,
@@ -383039,7 +386660,6 @@ function ()
 		pre_chapter = 2100032,
 		formation = 2100030,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3446875",
 		pop_pic = "",
@@ -383053,6 +386673,7 @@ function ()
 		is_ai = 1,
 		map = 2100030,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -383704,7 +387325,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100034] = {
 		collection_team = 0,
@@ -383727,7 +387349,6 @@ function ()
 		pre_chapter = 2100033,
 		formation = 2100031,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.15",
 		pop_pic = "",
@@ -383741,6 +387362,7 @@ function ()
 		is_ai = 1,
 		map = 2100031,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -384415,7 +388037,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100035] = {
 		collection_team = 0,
@@ -384438,7 +388061,6 @@ function ()
 		pre_chapter = 2100034,
 		formation = 2100031,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.073958",
 		pop_pic = "",
@@ -384452,6 +388074,7 @@ function ()
 		is_ai = 1,
 		map = 2100031,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -385144,7 +388767,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100036] = {
 		collection_team = 0,
@@ -385167,7 +388791,6 @@ function ()
 		pre_chapter = 2100035,
 		formation = 2100031,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.347395833",
 		pop_pic = "",
@@ -385181,6 +388804,7 @@ function ()
 		is_ai = 1,
 		map = 2100031,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -386048,7 +389672,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100041] = {
 		collection_team = 0,
@@ -386071,7 +389696,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100040,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -386086,6 +389710,7 @@ function ()
 		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -386604,7 +390229,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100042] = {
 		collection_team = 0,
@@ -386627,7 +390253,6 @@ function ()
 		pre_chapter = 2100041,
 		formation = 2100040,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -386642,6 +390267,7 @@ function ()
 		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -387300,7 +390926,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100043] = {
 		collection_team = 0,
@@ -387323,7 +390950,6 @@ function ()
 		pre_chapter = 2100042,
 		formation = 2100040,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -387338,6 +390964,7 @@ function ()
 		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -387963,7 +391590,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100044] = {
 		collection_team = 0,
@@ -387986,7 +391614,6 @@ function ()
 		pre_chapter = 2100043,
 		formation = 2100040,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -388001,6 +391628,7 @@ function ()
 		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -388744,7 +392372,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100045] = {
 		collection_team = 0,
@@ -388767,7 +392396,6 @@ function ()
 		pre_chapter = 2100044,
 		formation = 2100041,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -388782,6 +392410,7 @@ function ()
 		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -389320,7 +392949,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100046] = {
 		collection_team = 0,
@@ -389343,7 +392973,6 @@ function ()
 		pre_chapter = 2100045,
 		formation = 2100041,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		pop_pic = "",
@@ -389358,6 +392987,7 @@ function ()
 		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -389904,7 +393534,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100047] = {
 		collection_team = 0,
@@ -389927,7 +393558,6 @@ function ()
 		pre_chapter = 2100046,
 		formation = 2100041,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -389942,6 +393572,7 @@ function ()
 		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -390543,7 +394174,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100048] = {
 		collection_team = 0,
@@ -390566,7 +394198,6 @@ function ()
 		pre_chapter = 2100047,
 		formation = 2100041,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -390581,6 +394212,7 @@ function ()
 		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -391338,7 +394970,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100051] = {
 		collection_team = 0,
@@ -391361,7 +394994,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100050,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -391376,6 +395008,7 @@ function ()
 		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -391935,7 +395568,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100052] = {
 		collection_team = 0,
@@ -391958,7 +395592,6 @@ function ()
 		pre_chapter = 2100051,
 		formation = 2100050,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -391973,6 +395606,7 @@ function ()
 		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -392674,7 +396308,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100053] = {
 		collection_team = 0,
@@ -392697,7 +396332,6 @@ function ()
 		pre_chapter = 2100052,
 		formation = 2100050,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -392712,6 +396346,7 @@ function ()
 		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -393378,7 +397013,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100054] = {
 		collection_team = 0,
@@ -393401,7 +397037,6 @@ function ()
 		pre_chapter = 2100053,
 		formation = 2100050,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -393416,6 +397051,7 @@ function ()
 		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -394200,7 +397836,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100055] = {
 		collection_team = 0,
@@ -394223,7 +397860,6 @@ function ()
 		pre_chapter = 2100054,
 		formation = 2100051,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -394238,6 +397874,7 @@ function ()
 		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -394817,7 +398454,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100056] = {
 		collection_team = 0,
@@ -394840,7 +398478,6 @@ function ()
 		pre_chapter = 2100055,
 		formation = 2100051,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		pop_pic = "",
@@ -394855,6 +398492,7 @@ function ()
 		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -395442,7 +399080,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100057] = {
 		collection_team = 0,
@@ -395465,7 +399104,6 @@ function ()
 		pre_chapter = 2100056,
 		formation = 2100051,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -395480,6 +399118,7 @@ function ()
 		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -396122,7 +399761,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100058] = {
 		collection_team = 0,
@@ -396145,7 +399785,6 @@ function ()
 		pre_chapter = 2100057,
 		formation = 2100051,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -396160,6 +399799,7 @@ function ()
 		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -396958,7 +400598,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100061] = {
 		collection_team = 0,
@@ -396981,7 +400622,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100060,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -396996,6 +400636,7 @@ function ()
 		is_ai = 0,
 		map = 2100060,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -397545,7 +401186,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100062] = {
 		collection_team = 0,
@@ -397568,7 +401210,6 @@ function ()
 		pre_chapter = 2100061,
 		formation = 2100060,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -397583,6 +401224,7 @@ function ()
 		is_ai = 1,
 		map = 2100060,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -398190,8 +401832,11 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
+end()
+function ()
 	uv0.chapter_template[2100063] = {
 		collection_team = 0,
 		progress_boss = 34,
@@ -398213,7 +401858,6 @@ function ()
 		pre_chapter = 2100062,
 		formation = 2100060,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -398228,6 +401872,7 @@ function ()
 		is_ai = 1,
 		map = 2100060,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -398926,7 +402571,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100064] = {
 		collection_team = 0,
@@ -398949,7 +402595,6 @@ function ()
 		pre_chapter = 2100063,
 		formation = 2100061,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -398964,6 +402609,7 @@ function ()
 		is_ai = 1,
 		map = 2100061,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -399600,7 +403246,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100065] = {
 		collection_team = 0,
@@ -399623,7 +403270,6 @@ function ()
 		pre_chapter = 2100064,
 		formation = 2100061,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -399638,6 +403284,7 @@ function ()
 		is_ai = 1,
 		map = 2100061,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -400415,7 +404062,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100066] = {
 		collection_team = 0,
@@ -400438,7 +404086,6 @@ function ()
 		pre_chapter = 2100065,
 		formation = 2100061,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -400453,6 +404100,7 @@ function ()
 		is_ai = 1,
 		map = 2100061,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -401409,10 +405057,9 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
-end()
-function ()
 	uv0.chapter_template[2100071] = {
 		collection_team = 0,
 		progress_boss = 100,
@@ -401434,7 +405081,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100070,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		pop_pic = "",
@@ -401449,6 +405095,7 @@ function ()
 		is_ai = 0,
 		map = 2100070,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -402039,7 +405686,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100072] = {
 		collection_team = 0,
@@ -402062,7 +405710,6 @@ function ()
 		pre_chapter = 2100071,
 		formation = 2100070,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -402077,6 +405724,7 @@ function ()
 		is_ai = 1,
 		map = 2100070,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -402725,7 +406373,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100073] = {
 		collection_team = 0,
@@ -402748,7 +406397,6 @@ function ()
 		pre_chapter = 2100072,
 		formation = 2100070,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		pop_pic = "",
@@ -402763,6 +406411,7 @@ function ()
 		is_ai = 1,
 		map = 2100070,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -403502,7 +407151,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100074] = {
 		collection_team = 0,
@@ -403525,7 +407175,6 @@ function ()
 		pre_chapter = 2100073,
 		formation = 2100071,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		pop_pic = "",
@@ -403540,6 +407189,7 @@ function ()
 		is_ai = 1,
 		map = 2100071,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -404217,7 +407867,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100075] = {
 		collection_team = 0,
@@ -404240,7 +407891,6 @@ function ()
 		pre_chapter = 2100074,
 		formation = 2100071,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		pop_pic = "",
@@ -404255,6 +407905,7 @@ function ()
 		is_ai = 1,
 		map = 2100071,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -405073,7 +408724,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100076] = {
 		collection_team = 0,
@@ -405096,7 +408748,6 @@ function ()
 		pre_chapter = 2100075,
 		formation = 2100071,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		pop_pic = "",
@@ -405111,6 +408762,7 @@ function ()
 		is_ai = 1,
 		map = 2100071,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -406108,7 +409760,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100081] = {
 		collection_team = 0,
@@ -406131,7 +409784,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100080,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -406146,6 +409798,7 @@ function ()
 		is_ai = 1,
 		map = 2100080,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -406656,7 +410309,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100082] = {
 		collection_team = 0,
@@ -406679,7 +410333,6 @@ function ()
 		pre_chapter = 2100081,
 		formation = 2100080,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -406694,6 +410347,7 @@ function ()
 		is_ai = 1,
 		map = 2100080,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -407310,7 +410964,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100083] = {
 		collection_team = 0,
@@ -407333,7 +410988,6 @@ function ()
 		pre_chapter = 2100082,
 		formation = 2100080,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		pop_pic = "",
@@ -407348,6 +411002,7 @@ function ()
 		is_ai = 1,
 		map = 2100080,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -408076,7 +411731,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100084] = {
 		collection_team = 0,
@@ -408099,7 +411755,6 @@ function ()
 		pre_chapter = 2100083,
 		formation = 2100081,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -408114,6 +411769,7 @@ function ()
 		is_ai = 1,
 		map = 2100081,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -408637,7 +412293,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100085] = {
 		collection_team = 0,
@@ -408660,7 +412317,6 @@ function ()
 		pre_chapter = 2100084,
 		formation = 2100081,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -408675,6 +412331,7 @@ function ()
 		is_ai = 1,
 		map = 2100081,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -409303,7 +412960,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100086] = {
 		collection_team = 0,
@@ -409326,7 +412984,6 @@ function ()
 		pre_chapter = 2100085,
 		formation = 2100081,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -409340,6 +412997,7 @@ function ()
 		is_ai = 1,
 		map = 2100081,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -410095,7 +413753,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100091] = {
 		collection_team = 0,
@@ -410118,7 +413777,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100090,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -410133,6 +413791,7 @@ function ()
 		is_ai = 1,
 		map = 2100090,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -410684,7 +414343,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100092] = {
 		collection_team = 0,
@@ -410707,7 +414367,6 @@ function ()
 		pre_chapter = 2100091,
 		formation = 2100090,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -410722,6 +414381,7 @@ function ()
 		is_ai = 1,
 		map = 2100090,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -411379,7 +415039,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100093] = {
 		collection_team = 0,
@@ -411402,7 +415063,6 @@ function ()
 		pre_chapter = 2100092,
 		formation = 2100090,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		pop_pic = "",
@@ -411417,6 +415077,7 @@ function ()
 		is_ai = 1,
 		map = 2100090,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -412186,7 +415847,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100094] = {
 		collection_team = 0,
@@ -412209,7 +415871,6 @@ function ()
 		pre_chapter = 2100093,
 		formation = 2100091,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -412224,6 +415885,7 @@ function ()
 		is_ai = 1,
 		map = 2100091,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -412788,7 +416450,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100095] = {
 		collection_team = 0,
@@ -412811,7 +416474,6 @@ function ()
 		pre_chapter = 2100094,
 		formation = 2100091,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -412826,6 +416488,7 @@ function ()
 		is_ai = 1,
 		map = 2100091,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -413497,7 +417160,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100096] = {
 		collection_team = 0,
@@ -413520,7 +417184,6 @@ function ()
 		pre_chapter = 2100095,
 		formation = 2100091,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -413535,6 +417198,7 @@ function ()
 		is_ai = 1,
 		map = 2100091,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -414332,7 +417996,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100101] = {
 		collection_team = 0,
@@ -414355,7 +418020,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
 		pop_pic = "",
@@ -414368,6 +418032,7 @@ function ()
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -414935,7 +418600,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100102] = {
 		collection_team = 0,
@@ -414958,7 +418624,6 @@ function ()
 		pre_chapter = 2100101,
 		formation = 2100100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		pop_pic = "",
@@ -414971,6 +418636,7 @@ function ()
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -415503,7 +419169,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100103] = {
 		collection_team = 0,
@@ -415526,7 +419193,6 @@ function ()
 		pre_chapter = 2100102,
 		formation = 2100100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		pop_pic = "",
@@ -415539,6 +419205,7 @@ function ()
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -416169,7 +419836,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100104] = {
 		collection_team = 0,
@@ -416192,7 +419860,6 @@ function ()
 		pre_chapter = 2100103,
 		formation = 2100100,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		pop_pic = "",
@@ -416205,6 +419872,7 @@ function ()
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -416834,7 +420502,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100105] = {
 		collection_team = 0,
@@ -416857,7 +420526,6 @@ function ()
 		pre_chapter = 2100104,
 		formation = 2100101,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.175",
 		pop_pic = "",
@@ -416870,6 +420538,7 @@ function ()
 		is_ai = 1,
 		map = 2100101,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -417550,7 +421219,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100106] = {
 		collection_team = 0,
@@ -417573,7 +421243,6 @@ function ()
 		pre_chapter = 2100105,
 		formation = 2100101,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		pop_pic = "",
@@ -417586,6 +421255,7 @@ function ()
 		is_ai = 1,
 		map = 2100101,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -418326,7 +421996,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100111] = {
 		collection_team = 0,
@@ -418349,7 +422020,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2100110,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
 		pop_pic = "",
@@ -418363,6 +422033,7 @@ function ()
 		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -418971,7 +422642,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100112] = {
 		collection_team = 0,
@@ -418994,7 +422666,6 @@ function ()
 		pre_chapter = 2100111,
 		formation = 2100110,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		pop_pic = "",
@@ -419009,6 +422680,7 @@ function ()
 		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -419581,7 +423253,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100113] = {
 		collection_team = 0,
@@ -419604,7 +423277,6 @@ function ()
 		pre_chapter = 2100112,
 		formation = 2100110,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		pop_pic = "",
@@ -419619,6 +423291,7 @@ function ()
 		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -420289,7 +423962,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100114] = {
 		collection_team = 0,
@@ -420312,7 +423986,6 @@ function ()
 		pre_chapter = 2100113,
 		formation = 2100110,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		pop_pic = "",
@@ -420327,6 +424000,7 @@ function ()
 		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -420996,7 +424670,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100115] = {
 		collection_team = 0,
@@ -421019,7 +424694,6 @@ function ()
 		pre_chapter = 2100114,
 		formation = 2100111,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.175",
 		pop_pic = "",
@@ -421034,6 +424708,7 @@ function ()
 		is_ai = 1,
 		map = 2100111,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -421756,7 +425431,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100116] = {
 		collection_team = 0,
@@ -421779,7 +425455,6 @@ function ()
 		pre_chapter = 2100115,
 		formation = 2100111,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		pop_pic = "",
@@ -421794,6 +425469,7 @@ function ()
 		is_ai = 1,
 		map = 2100111,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -422576,7 +426252,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200001] = {
 		collection_team = 0,
@@ -422599,7 +426276,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2200000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.43125",
 		pop_pic = "",
@@ -422613,6 +426289,7 @@ function ()
 		is_ai = 0,
 		map = 2200000,
 		unlocklevel = 15,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -422988,7 +426665,8 @@ function ()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200002] = {
 		collection_team = 0,
@@ -423011,7 +426689,6 @@ function ()
 		pre_chapter = 2200001,
 		formation = 2200000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.294791667",
 		pop_pic = "",
@@ -423026,6 +426703,7 @@ function ()
 		is_ai = 0,
 		map = 2200000,
 		unlocklevel = 15,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -423475,7 +427153,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200003] = {
 		collection_team = 0,
@@ -423498,7 +427177,6 @@ function ()
 		pre_chapter = 2200002,
 		formation = 2200000,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		pop_pic = "",
@@ -423513,6 +427191,7 @@ function ()
 		is_ai = 0,
 		map = 2200000,
 		unlocklevel = 15,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -423992,7 +427671,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200011] = {
 		collection_team = 0,
@@ -424015,7 +427695,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2200010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		pop_pic = "",
@@ -424030,6 +427709,7 @@ function ()
 		is_ai = 0,
 		map = 2200010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -424578,7 +428258,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200012] = {
 		collection_team = 0,
@@ -424601,7 +428282,6 @@ function ()
 		pre_chapter = 2200011,
 		formation = 2200010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		pop_pic = "",
@@ -424616,6 +428296,7 @@ function ()
 		is_ai = 0,
 		map = 2200010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -425263,7 +428944,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200013] = {
 		collection_team = 0,
@@ -425286,7 +428968,6 @@ function ()
 		pre_chapter = 2200012,
 		formation = 2200010,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		pop_pic = "",
@@ -425301,6 +428982,7 @@ function ()
 		is_ai = 0,
 		map = 2200010,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -426006,7 +429688,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200021] = {
 		collection_team = 0,
@@ -426029,7 +429712,6 @@ function ()
 		pre_chapter = 0,
 		formation = 2200020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		pop_pic = "",
@@ -426042,6 +429724,7 @@ function ()
 		is_ai = 0,
 		map = 2200020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -426702,7 +430385,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200022] = {
 		collection_team = 0,
@@ -426725,7 +430409,6 @@ function ()
 		pre_chapter = 2200021,
 		formation = 2200020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		pop_pic = "",
@@ -426738,6 +430421,7 @@ function ()
 		is_ai = 0,
 		map = 2200020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -427411,7 +431095,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200023] = {
 		collection_team = 0,
@@ -427434,7 +431119,6 @@ function ()
 		pre_chapter = 2200022,
 		formation = 2200020,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		pop_pic = "",
@@ -427447,6 +431131,7 @@ function ()
 		is_ai = 0,
 		map = 2200020,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -428128,7 +431813,8 @@ function ()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920001] = {
 		collection_team = 0,
@@ -428151,7 +431837,6 @@ function ()
 		pre_chapter = 201,
 		formation = 9920001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -428166,6 +431851,7 @@ function ()
 		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -428684,7 +432370,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920002] = {
 		collection_team = 0,
@@ -428707,7 +432394,6 @@ function ()
 		pre_chapter = 9920001,
 		formation = 9920001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -428722,6 +432408,7 @@ function ()
 		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -429380,7 +433067,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920003] = {
 		collection_team = 0,
@@ -429403,7 +433091,6 @@ function ()
 		pre_chapter = 9920002,
 		formation = 9920001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -429418,6 +433105,7 @@ function ()
 		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -430043,7 +433731,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920004] = {
 		collection_team = 0,
@@ -430066,7 +433755,6 @@ function ()
 		pre_chapter = 9920003,
 		formation = 9920001,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -430081,6 +433769,7 @@ function ()
 		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -430824,7 +434513,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920005] = {
 		collection_team = 0,
@@ -430847,7 +434537,6 @@ function ()
 		pre_chapter = 9920004,
 		formation = 9920002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -430862,6 +434551,7 @@ function ()
 		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -431400,7 +435090,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920006] = {
 		collection_team = 0,
@@ -431423,7 +435114,6 @@ function ()
 		pre_chapter = 9920005,
 		formation = 9920002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		pop_pic = "",
@@ -431438,6 +435128,7 @@ function ()
 		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -431984,7 +435675,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920007] = {
 		collection_team = 0,
@@ -432007,7 +435699,6 @@ function ()
 		pre_chapter = 9920006,
 		formation = 9920002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -432022,6 +435713,7 @@ function ()
 		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -432623,7 +436315,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920008] = {
 		collection_team = 0,
@@ -432646,7 +436339,6 @@ function ()
 		pre_chapter = 9920007,
 		formation = 9920002,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -432661,6 +436353,7 @@ function ()
 		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -433418,7 +437111,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920011] = {
 		collection_team = 0,
@@ -433441,7 +437135,6 @@ function ()
 		pre_chapter = 201,
 		formation = 9920011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		pop_pic = "",
@@ -433456,6 +437149,7 @@ function ()
 		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -434015,7 +437709,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920012] = {
 		collection_team = 0,
@@ -434038,7 +437733,6 @@ function ()
 		pre_chapter = 9920011,
 		formation = 9920011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		pop_pic = "",
@@ -434053,6 +437747,7 @@ function ()
 		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -434754,7 +438449,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920013] = {
 		collection_team = 0,
@@ -434777,7 +438473,6 @@ function ()
 		pre_chapter = 9920012,
 		formation = 9920011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		pop_pic = "",
@@ -434792,6 +438487,7 @@ function ()
 		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -435458,7 +439154,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920014] = {
 		collection_team = 0,
@@ -435481,7 +439178,6 @@ function ()
 		pre_chapter = 9920013,
 		formation = 9920011,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		pop_pic = "",
@@ -435496,6 +439192,7 @@ function ()
 		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -436280,7 +439977,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920015] = {
 		collection_team = 0,
@@ -436303,7 +440001,6 @@ function ()
 		pre_chapter = 9920014,
 		formation = 9920012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		pop_pic = "",
@@ -436318,6 +440015,7 @@ function ()
 		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -436897,7 +440595,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920016] = {
 		collection_team = 0,
@@ -436920,7 +440619,6 @@ function ()
 		pre_chapter = 9920015,
 		formation = 9920012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		pop_pic = "",
@@ -436935,6 +440633,7 @@ function ()
 		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -437522,7 +441221,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920017] = {
 		collection_team = 0,
@@ -437545,7 +441245,6 @@ function ()
 		pre_chapter = 9920016,
 		formation = 9920012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		pop_pic = "",
@@ -437560,6 +441259,7 @@ function ()
 		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -438202,7 +441902,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920018] = {
 		collection_team = 0,
@@ -438225,7 +441926,6 @@ function ()
 		pre_chapter = 9920017,
 		formation = 9920012,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		pop_pic = "",
@@ -438240,6 +441940,7 @@ function ()
 		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -439038,7 +442739,8 @@ function ()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[9920021] = {
 		collection_team = 0,
@@ -439061,7 +442763,6 @@ function ()
 		pre_chapter = 9920017,
 		formation = 9920021,
 		bgm = "",
-		chapter_tag = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		pop_pic = "",
@@ -439075,6 +442776,7 @@ function ()
 		is_ai = 0,
 		map = 9920021,
 		unlocklevel = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		uifx = "",
 		ItemTransformPattern = "",
@@ -439469,7 +443171,8 @@ function ()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end()
 
@@ -439581,6 +443284,10 @@ slot0.chapter_template.all = {
 	11102,
 	11103,
 	11104,
+	11201,
+	11202,
+	11203,
+	11204,
 	20001,
 	20002,
 	20003,
