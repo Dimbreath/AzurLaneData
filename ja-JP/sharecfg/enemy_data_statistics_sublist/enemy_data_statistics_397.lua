@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_397 = {
+	[295053] = {
+		cannon = 165,
+		name = "蒼龍(META)-Tier.8",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 386,
+		reload = 150,
+		armor = 0,
+		dodge = 18,
+		id = 295053,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 536,
+		durability = 310000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 288,
+		speed = 30,
+		luck = 13,
+		fog_fx = "",
+		antisub = 0,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295054] = {
 		cannon = 175,
 		name = "蒼龍(META)-Tier.9",
@@ -506,38 +542,6 @@ pg.enemy_data_statistics_397 = {
 		hit_growth = 0,
 		speed_growth = 0,
 		id = 295908,
-		fog_fx = ""
-	},
-	[295909] = {
-		cannon = 207,
-		antisub = 0,
-		air = 292,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 535,
-		dodge = 0,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
-		hit = 70,
-		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 0,
-		durability = 99999,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 120,
-		luck = 0,
-		hit_growth = 0,
-		speed_growth = 0,
-		id = 295909,
 		fog_fx = ""
 	}
 }

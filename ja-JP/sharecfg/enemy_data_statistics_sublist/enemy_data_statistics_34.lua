@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_34 = {
+	[843] = {
+		cannon = 170,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 220,
+		battle_unit_type = 95,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 273,
+		durability = 20000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		id = 843,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20012,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 300,
+		durability_growth = 0,
+		antiaircraft = 50,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			300180,
+			300187,
+			300188,
+			300189,
+			300190,
+			300191
+		}
+	},
 	[844] = {
 		cannon = 0,
 		hit_growth = 0,
@@ -592,31 +637,6 @@ pg.enemy_data_statistics_34 = {
 			531002,
 			531003,
 			531004
-		}
-	},
-	[912] = {
-		cannon = 10,
-		name = "チェイサーⅠ型",
-		air = 0,
-		torpedo = 30,
-		id = 912,
-		reload = 150,
-		speed = 20,
-		dodge = 0,
-		armor = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 249,
-		durability = 4400,
-		antiaircraft = 250,
-		battle_unit_type = 52,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			531005,
-			531006,
-			531007,
-			531008
 		}
 	}
 }

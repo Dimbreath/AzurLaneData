@@ -245,7 +245,7 @@ return {
 	picture = "0",
 	desc = "支援炮击",
 	painting = "fusangmeta",
-	id = 800211,
+	id = 800210,
 	castCV = "",
 	aniEffect = {
 		effect = "jineng",
