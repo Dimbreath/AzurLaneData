@@ -1,5 +1,167 @@
 pg = pg or {}
 pg.enemy_data_statistics_6 = {
+	[181] = {
+		cannon = 0,
+		name = "Z46",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 4,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "Z46",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		friendly_cld = 0,
+		speed = 15,
+		armor = 0,
+		id = 181,
+		wave_fx = "movewave",
+		scale = 150,
+		prefab = "Z46",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		bubble_fx = "",
+		fog_fx = "",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.82,
+					0.4,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.82,
+					0.4,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.22,
+					0.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.82,
+					0.4,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							0.37,
+							-0.14
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.19,
+							1.94,
+							-1.05
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[182] = {
 		cannon = 0,
 		name = "罗利",
@@ -35,6 +197,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -189,6 +352,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -352,6 +516,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -515,6 +680,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -678,6 +844,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -828,6 +995,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -992,6 +1160,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1139,6 +1308,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1290,6 +1460,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1441,6 +1612,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1592,6 +1764,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1755,6 +1928,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1918,6 +2092,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2081,6 +2256,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2244,6 +2420,7 @@ pg.enemy_data_statistics_6 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2327,162 +2504,6 @@ pg.enemy_data_statistics_6 = {
 							0.293,
 							2.52,
 							-0.98
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[197] = {
-		cannon = 0,
-		name = "肯特",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 2,
-		icon_type = 3,
-		type = 3,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "kente",
-		star = 0,
-		battle_unit_type = 49,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		friendly_cld = 0,
-		speed = 18,
-		armor = 0,
-		id = 197,
-		wave_fx = "movewave",
-		scale = 150,
-		prefab = "kente",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		bubble_fx = "",
-		hit = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.281,
-					1.004,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.281,
-					1.004,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.212,
-					0.311,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.25,
-							0.89,
-							-0.34
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.68,
-							-0.09
 						}
 					}
 				}

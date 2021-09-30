@@ -48,32 +48,33 @@ SCENE = {
 	WORLD_COLLECTION = "world collection",
 	CLASS = "scene class",
 	PROPINFO = "scene prop info",
-	TECHNOLOGY_TREE_SCENE = "technology tree scene",
+	CRUSING = "crusing",
 	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	PHYSICS2D_TEST = "physics2d test",
 	MAINUI = "scene mainUI",
 	MUSIC_FESTIVAL2 = "music festival 2",
-	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
+	ATTIRE = "scene attire",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
-	DOALINK_ISLAND = "scene DOALink Island",
+	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene back yard",
+	DOALINK_ISLAND = "scene DOALink Island",
 	REDPACKEY = "scene RED PACKEY",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	BIANDUI = "scene biandui",
-	ATTIRE = "scene attire",
-	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	AMUSEMENT_PARK = "amusement park",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	WORLD_FLEET_SELECT = "world fleet select",
+	AMUSEMENT_PARK = "amusement park",
 	GUILD = "scene guild",
-	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	COLORING = "scene coloring",
+	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	PUBLIC_GUILD = "public guild",
 	ACT_BOSS_BATTLE = "act boss battle",
 	CHUANWU = "scene shipyard",
@@ -378,6 +379,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.IDOLMASTER_MEDAL_COLLECTION_SCENE then
 		slot0.mediator = IdolMedalCollectionMediator
 		slot0.viewComponent = IdolMasterMedalCollectionView
+	elseif slot1 == SCENE.CRUSING then
+		slot0.mediator = CrusingMediator
+		slot0.viewComponent = CrusingScene
 	end
 
 	slot0.scene = slot1

@@ -60,7 +60,7 @@ return {
 							reinforceDelay = 10,
 							delay = 1,
 							moveCast = true,
-							monsterTemplateID = 557,
+							monsterTemplateID = 752,
 							pilotAITemplateID = 10001,
 							corrdinate = {
 								-12,
@@ -96,7 +96,7 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -107,7 +107,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -118,7 +118,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -129,7 +129,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -144,7 +144,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							score = 0,
 							delay = 0,
 							moveCast = true,

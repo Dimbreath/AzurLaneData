@@ -1,5 +1,154 @@
 pg = pg or {}
 pg.enemy_data_statistics_22 = {
+	[438] = {
+		cannon = 0,
+		name = "构建者",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 99,
+		icon_type = 0,
+		type = 17,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "unknown5",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		friendly_cld = 0,
+		speed = 10,
+		armor = 0,
+		id = 438,
+		wave_fx = "movewave",
+		scale = 180,
+		prefab = "sairenboss11",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		fog_fx = "",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.17,
+					1.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					0.89,
+					0
+				}
+			},
+			plane = {
+				{
+					-1.02,
+					3.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							-0.62,
+							2.54,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {},
+		bubble_fx = {
+			"bubble",
+			20,
+			3
+		}
+	},
 	[439] = {
 		cannon = 0,
 		name = "潜艇「Assassin」",
@@ -34,6 +183,7 @@ pg.enemy_data_statistics_22 = {
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -180,6 +330,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -337,6 +488,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -500,6 +652,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -650,6 +803,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -793,6 +947,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -936,6 +1091,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1095,6 +1251,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1254,6 +1411,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1420,6 +1578,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1586,6 +1745,7 @@ pg.enemy_data_statistics_22 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1744,6 +1904,7 @@ pg.enemy_data_statistics_22 = {
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1882,6 +2043,7 @@ pg.enemy_data_statistics_22 = {
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2020,6 +2182,7 @@ pg.enemy_data_statistics_22 = {
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2158,6 +2321,7 @@ pg.enemy_data_statistics_22 = {
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2261,166 +2425,5 @@ pg.enemy_data_statistics_22 = {
 			20,
 			3
 		}
-	},
-	[454] = {
-		cannon = 0,
-		name = "Z36",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 4,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "Z36",
-		star = 0,
-		battle_unit_type = 49,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		friendly_cld = 0,
-		speed = 34,
-		armor = 0,
-		id = 454,
-		wave_fx = "movewave",
-		scale = 150,
-		prefab = "Z36",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		bubble_fx = "",
-		hit = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.787,
-					0.431,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.439,
-					0.673,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.787,
-					0.431,
-					0
-				},
-				{
-					0.802,
-					0.802,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.484,
-							0.465,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.476,
-							0.527,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
 	}
 }

@@ -177,6 +177,14 @@ end
 
 slot2.MakeBloodBar = slot3
 
+function slot3(slot0)
+	slot1 = nil
+
+	return slot1
+end
+
+slot2.MakeAimBiasBar = slot3
+
 function slot3(slot0, slot1, slot2, slot3)
 	slot5 = slot1
 	slot4 = slot1.GetUnitData

@@ -723,7 +723,7 @@ pg.expedition_data_by_map = {
 		bg = "Map_12",
 		destory_icon_suffix = "blue",
 		uifx = "",
-		bind_map = 0,
+		bind_map = 212,
 		clouds_pos = {
 			{
 				332,
@@ -1249,6 +1249,48 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "UIhuohua2",
 		bind_map = 11,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[212] = {
+		map = 212,
+		name = "马里亚纳风云上",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "12",
+		drop_by_map_display = "",
+		level_limit = 75,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		ui_type = 1,
+		bg = "Map_212",
+		destory_icon_suffix = "blue",
+		uifx = "UIhuohua2",
+		bind_map = 12,
 		clouds_pos = {
 			{
 				332,
@@ -12032,6 +12074,7 @@ pg.expedition_data_by_map = {
 		209,
 		210,
 		211,
+		212,
 		10000,
 		70000,
 		80000,

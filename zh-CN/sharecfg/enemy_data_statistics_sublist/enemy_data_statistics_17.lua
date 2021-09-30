@@ -1,5 +1,147 @@
 pg = pg or {}
 pg.enemy_data_statistics_17 = {
+	[357] = {
+		cannon = 0,
+		name = "绊爱（伪）",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 2,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		friendly_cld = 0,
+		speed = 15,
+		armor = 0,
+		id = 357,
+		wave_fx = "movewave",
+		scale = 150,
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		bubble_fx = "",
+		fog_fx = "",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[358] = {
 		cannon = 0,
 		name = "绊爱（伪）",
@@ -35,6 +177,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -176,6 +319,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -317,6 +461,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -458,6 +603,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -619,6 +765,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -783,6 +930,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -924,6 +1072,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1085,6 +1234,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1239,6 +1389,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1403,6 +1554,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1576,6 +1728,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1722,6 +1875,7 @@ pg.enemy_data_statistics_17 = {
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -1861,6 +2015,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2025,6 +2180,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2189,6 +2345,7 @@ pg.enemy_data_statistics_17 = {
 		dodge = 0,
 		reload_growth = 0,
 		bubble_fx = "",
+		fog_fx = "",
 		hit = 0,
 		torpedo = 0,
 		durability_growth = 0,
@@ -2271,154 +2428,6 @@ pg.enemy_data_statistics_17 = {
 						{
 							0.502,
 							0.433,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[373] = {
-		cannon = 0,
-		name = "扎拉",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 6,
-		icon_type = 3,
-		type = 3,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "zhala",
-		star = 0,
-		battle_unit_type = 49,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		friendly_cld = 0,
-		speed = 15,
-		armor = 0,
-		id = 373,
-		wave_fx = "movewave",
-		scale = 150,
-		prefab = "zhala",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		bubble_fx = "",
-		hit = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.08,
-					0.73,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.09,
-					0.73,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.13,
-					0.826,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.67,
-							2.13,
 							0
 						}
 					}

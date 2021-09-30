@@ -7,6 +7,7 @@ pg.pay_data_display = {
 		name = "贸易许可证（30日）",
 		descrip = "购买后立即获得$1钻,30日内每天获得资源",
 		subject = "贸易许可证",
+		subject_extra = "",
 		extra_service = 2,
 		money = 30,
 		tag = 2,
@@ -53,6 +54,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -62,6 +64,7 @@ pg.pay_data_display = {
 		name = "新手启航补给",
 		descrip = "购买礼包可获得建造及钻石资源",
 		subject = "新手起航补给",
+		subject_extra = "",
 		extra_service = 3,
 		money = 1,
 		tag = 1,
@@ -103,6 +106,7 @@ pg.pay_data_display = {
 				30
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -112,9 +116,10 @@ pg.pay_data_display = {
 		name = "几个钻石",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*60",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 6,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 60,
 		limit_type = 99,
@@ -126,6 +131,7 @@ pg.pay_data_display = {
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -135,9 +141,10 @@ pg.pay_data_display = {
 		name = "一小堆钻石",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*300",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 30,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 300,
 		limit_type = 99,
@@ -149,6 +156,7 @@ pg.pay_data_display = {
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -158,9 +166,10 @@ pg.pay_data_display = {
 		name = "一大袋钻石",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*980",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 98,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 980,
 		limit_type = 0,
@@ -172,6 +181,7 @@ pg.pay_data_display = {
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -181,9 +191,10 @@ pg.pay_data_display = {
 		name = "一小箱钻石",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*1980",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 198,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 1980,
 		limit_type = 0,
@@ -195,6 +206,7 @@ pg.pay_data_display = {
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -204,9 +216,10 @@ pg.pay_data_display = {
 		name = "一大箱钻石",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*3280",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 328,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 3280,
 		limit_type = 0,
@@ -218,6 +231,7 @@ pg.pay_data_display = {
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -227,9 +241,10 @@ pg.pay_data_display = {
 		name = "一整船钻石",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*6480",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 648,
+		extra_service_item = "0",
 		tag = 1,
 		gem = 6480,
 		limit_type = 0,
@@ -241,6 +256,7 @@ pg.pay_data_display = {
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -250,6 +266,7 @@ pg.pay_data_display = {
 		name = "新年福袋",
 		descrip = "可获得一件角色新年换装，3个外观装备箱，和大量其他奖励",
 		subject = "新年福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -336,6 +353,7 @@ pg.pay_data_display = {
 				2018
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[11] = {
@@ -345,6 +363,7 @@ pg.pay_data_display = {
 		name = "国庆福袋",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "国庆福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -431,6 +450,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[12] = {
@@ -440,6 +460,7 @@ pg.pay_data_display = {
 		name = "2019新年福袋",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "2019新年福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -526,6 +547,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[13] = {
@@ -535,6 +557,7 @@ pg.pay_data_display = {
 		name = "2019春节福袋",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "2019春节福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -621,6 +644,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[14] = {
@@ -630,6 +654,7 @@ pg.pay_data_display = {
 		name = "二周年礼盒",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "二周年礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -716,6 +741,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[15] = {
@@ -725,6 +751,7 @@ pg.pay_data_display = {
 		name = "2019国庆礼盒",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "2019国庆礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -811,6 +838,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[16] = {
@@ -820,6 +848,7 @@ pg.pay_data_display = {
 		name = "新年福袋2020",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "新年福袋2020",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -911,6 +940,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[17] = {
@@ -920,6 +950,7 @@ pg.pay_data_display = {
 		name = "新年福袋复刻(2019)",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "新年福袋复刻(2019)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -1006,6 +1037,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[18] = {
@@ -1015,6 +1047,7 @@ pg.pay_data_display = {
 		name = "春节福袋2020",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "春节福袋2020",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -1106,6 +1139,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[19] = {
@@ -1115,6 +1149,7 @@ pg.pay_data_display = {
 		name = "春节福袋复刻(2019)",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "春节福袋复刻(2019)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -1201,6 +1236,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[20] = {
@@ -1210,6 +1246,7 @@ pg.pay_data_display = {
 		name = "新晋指挥官支援包·I",
 		descrip = "可获得180钻，石油储备箱(1000)x2和其他奖励",
 		subject = "新晋指挥官支援包·I ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 18,
 		tag = 1,
@@ -1281,6 +1318,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[21] = {
@@ -1290,6 +1328,7 @@ pg.pay_data_display = {
 		name = "新晋指挥官支援包·II",
 		descrip = "可获得780钻，定向装备箱·超稀有x2，石油储备箱(1000)x4和其他奖励",
 		subject = "新晋指挥官支援包·II ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 78,
 		tag = 1,
@@ -1386,6 +1425,7 @@ pg.pay_data_display = {
 				4
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[22] = {
@@ -1395,6 +1435,7 @@ pg.pay_data_display = {
 		name = "新晋指挥官支援包·III",
 		descrip = "可获得1680钻，定向装备箱·超稀有x4，石油储备箱(1000)x8和其他奖励",
 		subject = "新晋指挥官支援包·III ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 168,
 		tag = 1,
@@ -1496,6 +1537,7 @@ pg.pay_data_display = {
 				8
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[23] = {
@@ -1505,6 +1547,7 @@ pg.pay_data_display = {
 		name = "三周年礼盒",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "三周年礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -1596,6 +1639,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[24] = {
@@ -1605,6 +1649,7 @@ pg.pay_data_display = {
 		name = "2020国庆礼盒",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "2020国庆礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -1696,6 +1741,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[25] = {
@@ -1705,6 +1751,7 @@ pg.pay_data_display = {
 		name = "新年福袋2021",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "新年福袋2021",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -1796,6 +1843,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[26] = {
@@ -1805,6 +1853,7 @@ pg.pay_data_display = {
 		name = "新年福袋复刻(2020)",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "新年福袋复刻(2020)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -1896,6 +1945,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[27] = {
@@ -1905,6 +1955,7 @@ pg.pay_data_display = {
 		name = "春节福袋2021",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "春节福袋2021",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -1996,6 +2047,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[28] = {
@@ -2005,6 +2057,7 @@ pg.pay_data_display = {
 		name = "春节福袋复刻(2020)",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "春节福袋复刻(2020)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -2096,6 +2149,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[29] = {
@@ -2105,6 +2159,7 @@ pg.pay_data_display = {
 		name = "四周年礼盒",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "四周年礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -2196,6 +2251,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[30] = {
@@ -2205,6 +2261,7 @@ pg.pay_data_display = {
 		name = "三周年礼盒复刻",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "三周年礼盒复刻",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -2296,6 +2353,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[31] = {
@@ -2305,6 +2363,7 @@ pg.pay_data_display = {
 		name = "大型作战攻略支援包",
 		descrip = "可获得1980钻，定向部件T4x35，定向装备箱·研发装备①x1和其他奖励",
 		subject = "大型作战攻略支援包",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -2396,6 +2455,7 @@ pg.pay_data_display = {
 				10
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[32] = {
@@ -2405,6 +2465,7 @@ pg.pay_data_display = {
 		name = "2021国庆礼盒",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "2021国庆礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -2496,6 +2557,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[33] = {
@@ -2505,6 +2567,7 @@ pg.pay_data_display = {
 		name = "国庆礼盒复刻（2020）",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "国庆礼盒复刻(2020)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 198,
 		tag = 2,
@@ -2596,6 +2659,77 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[1000] = {
+		limit_arg = 1,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		name = "特许巡游凭证",
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励：约克城限定换装和其他奖励",
+		subject = "特许巡游凭证",
+		subject_extra = "(2021.10.1-11.30)",
+		extra_service = 4,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass1",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 1000,
+		airijp_id = "com.yostarjp.azurlane.seasonpass1",
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
 		ignorePlatform = {}
 	},
 	all = {
@@ -2630,6 +2764,7 @@ pg.pay_data_display = {
 		30,
 		31,
 		32,
-		33
+		33,
+		1000
 	}
 }

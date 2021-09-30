@@ -3365,6 +3365,104 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107052] = {
+		ship_group = 10705,
+		name = "圣者之翼",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "相对的七层阶梯，山丘上的塔，王的安息之地…呵呵，指挥官，要和我一起前往理想乡吗？开玩笑的~很高兴能与你一起旅行~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yuekecheng_3",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = 4,
+		id = 107052,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yuekecheng_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 42,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.148,
+					1.234,
+					0
+				}
+			},
+			plane = {
+				{
+					1.161,
+					1.254,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.611,
+							2.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107060] = {
 		ship_group = 10706,
 		name = "企业",
@@ -7567,106 +7665,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.5,
 							2.497,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108041] = {
-		ship_group = 10804,
-		name = "见习王牌守备！",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "无畏小姐，看我的超稳定防守！——嘿嘿，指挥官，我最近在练习棒球哦！来看看我的练习成果吧！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "lansaiyu_2",
-		air_bullet_skin = "",
-		shop_type_id = 13,
-		l2d_ignore_drag = 0,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "132",
-		special_effects = "",
-		skin_type = 4,
-		id = 108041,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "lansaiyu_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70335,
-		voice_actor = 227,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					1.127,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					-0.009,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
 							0
 						}
 					}

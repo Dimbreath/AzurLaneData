@@ -1,5 +1,140 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[202010] = {
+		ship_group = 20201,
+		name = "利安得",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "利安得级轻巡洋舰—利安得，舷号75",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "liande",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 202010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "liande",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 66,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.53,
+					1.332,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.106,
+					0.916,
+					0
+				},
+				{
+					0.726,
+					0.325,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.651,
+					0.454,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.53,
+					1.332,
+					0
+				},
+				{
+					0.87,
+					0.242,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.647,
+							0.505,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.456,
+							0.279,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202019] = {
 		ship_group = 20201,
 		name = "利安得.改",
@@ -8348,120 +8483,6 @@ pg.ship_skin_template_6 = {
 						{
 							-0.44,
 							2.441,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202291] = {
-		ship_group = 20229,
-		name = "嫣红深闺",
-		bg_sp = "1102",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "欧若拉说，东煌的春节是喜庆的节日，而红色正是代表喜庆的颜色，所以帮我挑了这套衣服。您觉得如何呢？有没有很“喜庆”的感觉？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "peineiluopo_2",
-		air_bullet_skin = "",
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "144",
-		special_effects = "",
-		skin_type = 4,
-		id = 202291,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "peineiluopo_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70500,
-		voice_actor = 55,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.99,
-					1.01,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.988,
-					1.002,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.008,
-					-0.003,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.999,
-					0.991,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.512,
-							2.406,
 							0
 						}
 					}
