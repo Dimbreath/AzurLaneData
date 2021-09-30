@@ -14884,7 +14884,12 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		id = 16411,
 		icon = "mt_blue",
 		skill_id = 0,
-		descrip = "",
+		descrip = [[
+After modernization is complete:
+<color=#92fc63>Torpedo base -1</color>,
+<color=#92fc63>Main Gun base +1</color>,
+<color=#92fc63>Nightmare of Solomon</color> will change to <color=#92fc63>Nightmare of Solomon+</color>,
+<color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault III</color>.]],
 		condition_id = {
 			16409
 		},
