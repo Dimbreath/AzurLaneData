@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.ship_data_by_type = {
 	{
-		distory_resource_gold_ratio = 15,
+		distory_resource_gold_ratio = 12,
 		team_type = "vanguard",
 		type_name = "驱逐",
 		energy_recover_food_ratio = 0.09,
-		distory_resource_oil_ratio = 2,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1,
 		ship_type = 1,
 		team_limit = 3,
@@ -35,11 +35,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 35,
+		distory_resource_gold_ratio = 14,
 		team_type = "vanguard",
 		type_name = "轻巡",
 		energy_recover_food_ratio = 0.12,
-		distory_resource_oil_ratio = 3,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1.5,
 		ship_type = 2,
 		team_limit = 3,
@@ -69,11 +69,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 60,
+		distory_resource_gold_ratio = 18,
 		team_type = "vanguard",
 		type_name = "重巡",
 		energy_recover_food_ratio = 0.18,
-		distory_resource_oil_ratio = 5,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 2,
 		ship_type = 3,
 		team_limit = 3,
@@ -103,11 +103,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 70,
+		distory_resource_gold_ratio = 22,
 		team_type = "main",
 		type_name = "战巡",
 		energy_recover_food_ratio = 0.24,
-		distory_resource_oil_ratio = 8,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 2,
 		ship_type = 4,
 		team_limit = 3,
@@ -137,11 +137,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 85,
+		distory_resource_gold_ratio = 26,
 		team_type = "main",
 		type_name = "战列",
 		energy_recover_food_ratio = 0.3,
-		distory_resource_oil_ratio = 10,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 3,
 		ship_type = 5,
 		team_limit = 3,
@@ -171,11 +171,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 40,
+		distory_resource_gold_ratio = 16,
 		team_type = "main",
 		type_name = "轻航",
 		energy_recover_food_ratio = 0.18,
-		distory_resource_oil_ratio = 5,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1.5,
 		ship_type = 6,
 		team_limit = 3,
@@ -205,11 +205,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 65,
+		distory_resource_gold_ratio = 24,
 		team_type = "main",
 		type_name = "正航",
 		energy_recover_food_ratio = 0.27,
-		distory_resource_oil_ratio = 8,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 2.5,
 		ship_type = 7,
 		team_limit = 3,
@@ -243,7 +243,7 @@ pg.ship_data_by_type = {
 		team_type = "submarine",
 		type_name = "潜艇",
 		energy_recover_food_ratio = 0.06,
-		distory_resource_oil_ratio = 1,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 0.5,
 		ship_type = 8,
 		team_limit = 3,
@@ -271,11 +271,11 @@ pg.ship_data_by_type = {
 		arena_buff = {}
 	},
 	{
-		distory_resource_gold_ratio = 55,
+		distory_resource_gold_ratio = 18,
 		team_type = "vanguard",
 		type_name = "航巡",
 		energy_recover_food_ratio = 0.21,
-		distory_resource_oil_ratio = 6,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 2,
 		ship_type = 9,
 		team_limit = 3,
@@ -305,11 +305,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 75,
+		distory_resource_gold_ratio = 25,
 		team_type = "main",
 		type_name = "航战",
 		energy_recover_food_ratio = 0.27,
-		distory_resource_oil_ratio = 9,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 2.5,
 		ship_type = 10,
 		team_limit = 3,
@@ -339,11 +339,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 40,
+		distory_resource_gold_ratio = 15,
 		team_type = "vanguard",
 		type_name = "雷巡",
 		energy_recover_food_ratio = 0.12,
-		distory_resource_oil_ratio = 4,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1.5,
 		ship_type = 11,
 		team_limit = 3,
@@ -373,11 +373,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	{
-		distory_resource_gold_ratio = 15,
+		distory_resource_gold_ratio = 13,
 		team_type = "main",
 		type_name = "维修",
 		energy_recover_food_ratio = 0.15,
-		distory_resource_oil_ratio = 3,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1.5,
 		ship_type = 12,
 		team_limit = 3,
@@ -405,11 +405,11 @@ pg.ship_data_by_type = {
 		arena_buff = {}
 	},
 	{
-		distory_resource_gold_ratio = 30,
+		distory_resource_gold_ratio = 13,
 		team_type = "main",
 		type_name = "重炮",
 		energy_recover_food_ratio = 0.12,
-		distory_resource_oil_ratio = 3,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1.5,
 		ship_type = 13,
 		team_limit = 3,
@@ -441,7 +441,7 @@ pg.ship_data_by_type = {
 		team_type = "submarine",
 		type_name = "潜母",
 		energy_recover_food_ratio = 0.06,
-		distory_resource_oil_ratio = 1,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 0.5,
 		ship_type = 17,
 		team_limit = 3,
@@ -469,11 +469,11 @@ pg.ship_data_by_type = {
 		arena_buff = {}
 	},
 	[18] = {
-		distory_resource_gold_ratio = 60,
+		distory_resource_gold_ratio = 19,
 		team_type = "vanguard",
 		type_name = "超巡",
 		energy_recover_food_ratio = 0.18,
-		distory_resource_oil_ratio = 5,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 2,
 		ship_type = 18,
 		team_limit = 3,
@@ -503,11 +503,11 @@ pg.ship_data_by_type = {
 		}
 	},
 	[19] = {
-		distory_resource_gold_ratio = 15,
+		distory_resource_gold_ratio = 11,
 		team_type = "vanguard",
 		type_name = "运输",
 		energy_recover_food_ratio = 0.15,
-		distory_resource_oil_ratio = 3,
+		distory_resource_oil_ratio = 0,
 		energy_recover_time_ratio = 1.5,
 		ship_type = 19,
 		team_limit = 3,
