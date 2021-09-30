@@ -1,6 +1,6 @@
 return {
 	map_id = 10005,
-	id = 1000,
+	id = 2000,
 	stages = {
 		{
 			stageIndex = 1,
@@ -65,7 +65,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 550,
+							monsterTemplateID = 700,
 							score = 0,
 							delay = 4,
 							moveCast = true,
@@ -76,7 +76,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 550,
+							monsterTemplateID = 700,
 							score = 0,
 							delay = 1,
 							moveCast = true,
@@ -87,7 +87,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 550,
+							monsterTemplateID = 700,
 							score = 0,
 							delay = 3,
 							moveCast = true,
@@ -98,7 +98,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 550,
+							monsterTemplateID = 700,
 							score = 0,
 							delay = 2,
 							moveCast = true,

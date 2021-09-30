@@ -6653,6 +6653,73 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100029] = {
+		can_rotate = 0,
+		describe = "スリップストリームについてくるピョ！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yongchiicon",
+		count = 1,
+		name = "饅頭サーフィンプール",
+		advice = 0,
+		id = 100029,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchi",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -92331,6 +92398,7 @@ pg.furniture_data_template = {
 		100026,
 		100027,
 		100028,
+		100029,
 		1001,
 		1002,
 		1101,

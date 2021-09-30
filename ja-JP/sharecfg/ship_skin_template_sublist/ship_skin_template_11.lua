@@ -1,357 +1,15 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
-	[302201] = {
-		ship_group = 30220,
-		name = "聖夜のカラカイ",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "クリスマスには興味ありませんが、私が着替えることでドギマギしてる指揮官様をからかうことなら…ええ、興味ございますわ。ふふふ",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "aheye_3",
-		air_bullet_skin = "",
-		shop_type_id = 1,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "125",
-		special_effects = "",
-		skin_type = 0,
-		id = 302201,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "aheye_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70279,
-		voice_actor = 132,
-		air_bomb_skin = "",
-		illustrator = 41,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.2,
-					1.108,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.161,
-					1.107,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.003,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.13,
-					1.195,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[302202] = {
-		ship_group = 30220,
-		name = "デートゲーム？",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "「あら、あなたも散歩ですか？ふふ、私の名前は阿賀野、貴方は？」…もう、指揮官様、真面目にやりなさいな。このデートゲーム、私たち初めて出会ったばかりの設定ですわ",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "aheye_2",
-		air_bullet_skin = "",
-		shop_type_id = 9,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "113",
-		special_effects = "",
-		skin_type = 0,
-		id = 302202,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "aheye_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70299,
-		voice_actor = 132,
-		air_bomb_skin = "",
-		illustrator = 41,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.2,
-					1.07,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.14,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.99,
-					1.08,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[302203] = {
-		ship_group = 30220,
-		name = "蒼き告白モルフォ",
-		bg_sp = "",
-		group_index = 3,
-		illustrator2 = -1,
-		desc = "正攻法は私らしくありませんが、能代たちにいつまでも搦め手しか使えないと思われたままではいけませんね。……あら、指揮官様、今のはただの独り言ですわ。ふふ、今夜のパーティー、ご相伴させていただけないでしょうか？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "aheye_4",
-		air_bullet_skin = "",
-		shop_type_id = 7,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "135",
-		special_effects = "",
-		skin_type = 0,
-		id = 302203,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "aheye_4",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70377,
-		voice_actor = 132,
-		air_bomb_skin = "",
-		illustrator = 41,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.134,
-					1.07,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.14,
-					1.115,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.082,
-					1.08,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[302210] = {
+	[302218] = {
 		ship_group = 30221,
-		name = "能代",
+		name = "恋結御伽",
 		bg_sp = "",
-		group_index = 0,
+		group_index = 8,
 		illustrator2 = -1,
-		desc = "阿賀野型軽巡洋艦二番艦・能代",
+		desc = "皆に祝福されるというのは感慨深いものです。ふふ、今は何もかも忘れて、私たちの幸せを噛み締めましょう。あなたは傍観者ではなく、私と同じ当事者ですもの、ふふふ",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
-		painting = "nengdai",
+		painting = "nengdai_h",
 		air_bullet_skin = "",
 		shop_type_id = 0,
 		l2d_ignore_drag = 0,
@@ -362,11 +20,11 @@ pg.ship_skin_template_11 = {
 		spine_offset = "",
 		bg = "",
 		special_effects = "",
-		skin_type = -1,
-		id = 302210,
+		skin_type = 1,
+		id = 302218,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
-		prefab = "nengdai",
+		prefab = "nengdai_h",
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
@@ -411,394 +69,15 @@ pg.ship_skin_template_11 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.13,
-					0.7,
+					1.143,
+					1.034,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.13,
-					0.7,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.164,
-					0.102,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.13,
-					0.7,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[302211] = {
-		ship_group = 30221,
-		name = "祭りの秘境？",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "思っていたとおり、花火見物には絶好の場所ですね。あなたもそう思って来たのでしょう？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "nengdai_2",
-		air_bullet_skin = "",
-		shop_type_id = 2,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		bgm = "",
-		spine_offset = "",
-		bg = "126",
-		special_effects = "",
-		skin_type = 0,
-		id = 302211,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "nengdai_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70283,
-		voice_actor = 147,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			20,
-			50,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.13,
-					0.7,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					0.7,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.164,
-					0.102,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.13,
-					0.7,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 8,
-			touch_special = 2.5,
-			home = 8
-		}
-	},
-	[302212] = {
-		ship_group = 30221,
-		name = "夜饗の絶園",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "そこに突っ立っていてどうしたの？あなたも気分転換のために来たの？だったら、お互い――この場所に都合の悪いところなどなにもないはずよ",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "nengdai_4",
-		air_bullet_skin = "",
-		shop_type_id = 7,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		bgm = "",
-		spine_offset = "",
-		bg = "135",
-		special_effects = "",
-		skin_type = 0,
-		id = 302212,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "nengdai_4",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70422,
-		voice_actor = 147,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			20,
-			50,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.236,
-					0.978,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.276,
-					0.938,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					0.007,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.336,
-					0.931,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 8,
-			touch_special = 2.5,
-			home = 8
-		}
-	},
-	[302213] = {
-		ship_group = 30221,
-		name = "冬雪の薫香",
-		bg_sp = "1102",
-		group_index = 3,
-		illustrator2 = -1,
-		desc = "ふぅ……あっ…もしかして寒そうにしてるの？よければお茶でもどうぞ。おしゃべりなら付き合ってあげてもいいですよ",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "nengdai_6",
-		air_bullet_skin = "",
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "144",
-		special_effects = "",
-		skin_type = 0,
-		id = 302213,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "nengdai_6",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70488,
-		voice_actor = 147,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			20,
-			50,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					0.993,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.277,
-					0.99,
+					1.134,
+					0.935,
 					0
 				}
 			},
@@ -811,8 +90,8 @@ pg.ship_skin_template_11 = {
 			},
 			antiaircraft = {
 				{
-					1.303,
-					1.005,
+					1.208,
+					1.162,
 					0
 				}
 			}
@@ -824,8 +103,8 @@ pg.ship_skin_template_11 = {
 					{
 						"smoke",
 						{
-							-0.5,
-							2.524,
+							-0.575,
+							2.633,
 							0
 						}
 					}
@@ -8311,6 +7590,754 @@ pg.ship_skin_template_11 = {
 				{
 					0.78,
 					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305049] = {
+		ship_group = 30504,
+		name = "日向改",
+		bg_sp = "",
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "航空戦艦日向、新たな力とともに参上したぞ！指揮官、心配無用、今すぐ改造後の私の実力を見せてやる！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "rixiang_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = 2,
+		id = 305049,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rixiang_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 68,
+		air_bomb_skin = "",
+		illustrator = 20,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.26,
+					1.21,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.78,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305050] = {
+		ship_group = 30505,
+		name = "長門",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "長門型戦艦一番艦・長門",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changmen",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 305050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changmen",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 11,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.593,
+					0.988,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.571,
+					1.092,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.394,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305051] = {
+		ship_group = 30505,
+		name = "御狐の寝間着",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "今日は指揮官を招待するぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changmen_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "111",
+		special_effects = "",
+		skin_type = 0,
+		id = 305051,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changmen_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70166,
+		voice_actor = 11,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.593,
+					0.988,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.571,
+					0.711,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.394,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305052] = {
+		ship_group = 30505,
+		name = "御狐の輝振袖",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changmen_3",
+		air_bullet_skin = "",
+		shop_type_id = 2,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "126",
+		special_effects = "",
+		skin_type = 0,
+		id = 305052,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changmen_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70287,
+		voice_actor = 11,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.593,
+					0.988,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.571,
+					0.711,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.394,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305053] = {
+		ship_group = 30505,
+		name = "御狐の休暇日",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "お、お泊まり会とはどういったものなのだ？余は陸奥たちと寝所を共にした機会は多けれど、ほかの子も一緒だとはじめ……うっ、うぅ…なんだか緊張してきた…",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changmen_4",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "142",
+		special_effects = "",
+		skin_type = 0,
+		id = 305053,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changmen_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70523,
+		voice_actor = 11,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.479,
+					0.988,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.479,
+					0.995,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.394,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305058] = {
+		ship_group = 30505,
+		name = "御狐の白装束",
+		bg_sp = "",
+		group_index = 8,
+		illustrator2 = -1,
+		desc = "こうして大切な人を待つのも結構嬉しいものだぞ…ふ、ふふ……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changmen_h",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = 1,
+		id = 305058,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changmen_h",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 11,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.558,
+					1.444,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.145,
+					0.084,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.535,
+					1.375,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.394,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305060] = {
+		ship_group = 30506,
+		name = "陸奧",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "長門型戦艦二番艦・陸奧",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "luao",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 305060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "luao",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 19,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.733,
+					1.447,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.141,
+					0.085,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.78,
+					1.419,
 					0
 				}
 			}

@@ -4662,7 +4662,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 10,
-		is_show = 9,
+		is_show = 8,
 		title_res_tag = "Neptune_catchup",
 		id = 4096,
 		config_data = {},
@@ -4719,7 +4719,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4098,
-		is_show = 8,
+		is_show = 7,
 		title_res_tag = "JapanV2_frame",
 		id = 4098,
 		config_data = {},
@@ -5211,7 +5211,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 11,
+		is_show = 10,
 		title_res_tag = "zhaodaizhuang",
 		id = 4110,
 		config_data = {},
@@ -5255,7 +5255,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 10,
+		is_show = 9,
 		config_client = "",
 		title_res_tag = "huiliu",
 		id = 4111,
@@ -5635,7 +5635,7 @@ pg.activity_template = {
 		type = 78,
 		login_pop = 0,
 		config_id = 59239,
-		is_show = 12,
+		is_show = 11,
 		title_res_tag = "jiujiuyoyo",
 		id = 4120,
 		config_data = {
@@ -5922,7 +5922,10 @@ pg.activity_template = {
 			250,
 			251,
 			252,
-			253
+			253,
+			254,
+			255,
+			256
 		},
 		time = {
 			timer,
@@ -6145,6 +6148,156 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[4135] = {
+		mark = 20210930,
+		type = 57,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 18,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "eatFood",
+		id = 4135,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EatFoodPage",
+			ui_name = "EatFoodPage"
+		}
+	},
+	[4136] = {
+		mark = 20210930,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 12,
+		config_client = "",
+		title_res_tag = "LevelOpenAct",
+		id = 4136,
+		config_data = {
+			{
+				17100,
+				17101,
+				17102,
+				17103,
+				17104,
+				17105,
+				17106,
+				17107,
+				17108,
+				17109,
+				17110
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LevelOpenActPage",
+			ui_name = "LevelOpenActPage"
+		}
+	},
+	[7001] = {
+		mark = 20210930,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 17,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7001,
+		config_data = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage"
 		}
 	},
 	[10006] = {
@@ -8201,6 +8354,9 @@ pg.activity_template = {
 		4130,
 		4131,
 		4132,
+		4135,
+		4136,
+		7001,
 		10006,
 		10056,
 		10123,

@@ -57,7 +57,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
@@ -73,7 +73,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
@@ -94,11 +94,11 @@ return {
 							interval = 10,
 							onceNumber = 2,
 							formation = 10006,
-							templateID = 520107,
+							templateID = 300501,
 							delay = 0,
 							totalNumber = 2,
 							weaponID = {
-								520205
+								300523
 							},
 							attr = {
 								airPower = 40,
@@ -118,7 +118,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
@@ -134,7 +134,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 559,
+							monsterTemplateID = 754,
 							score = 0,
 							delay = 1,
 							moveCast = true,
@@ -145,7 +145,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
@@ -165,11 +165,11 @@ return {
 								interval = 10,
 								onceNumber = 2,
 								formation = 10006,
-								templateID = 520107,
+								templateID = 300501,
 								delay = 0,
 								totalNumber = 2,
 								weaponID = {
-									520205
+									300523
 								},
 								attr = {
 									airPower = 40,
@@ -190,7 +190,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 555,
+							monsterTemplateID = 750,
 							pilotAITemplateID = 40001,
 							delay = 1,
 							moveCast = true,
@@ -213,7 +213,7 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							pilotAITemplateID = 20005,
 							delay = 0,
 							moveCast = true,
@@ -229,7 +229,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							pilotAITemplateID = 20005,
 							delay = 0,
 							moveCast = true,
@@ -245,7 +245,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 559,
+							monsterTemplateID = 754,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -256,7 +256,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 559,
+							monsterTemplateID = 754,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -267,7 +267,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -282,7 +282,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -297,7 +297,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -317,11 +317,11 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							templateID = 520108,
+							templateID = 300502,
 							delay = 0,
 							totalNumber = 6,
 							weaponID = {
-								520204
+								300524
 							},
 							attr = {
 								airPower = 40,

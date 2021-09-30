@@ -1,301 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
-	[108050] = {
-		ship_group = 10805,
-		name = "アルバコア(μ兵装)",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "アイドルアルバコア、メイクアアーッップ！なんて、ノリでやってみただけだよぉん！お、指揮官まさか別のアイデアを持ってたりするの？教えて教えて～",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "daqinghuayu_idol",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "140",
-		special_effects = "",
-		skin_type = -1,
-		id = 108050,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "daqinghuayu_idol",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 146,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.284,
-					0.819,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108060] = {
-		ship_group = 10806,
-		name = "アーチャーフィッシュ",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "バラオ級潜水艦「アーチャーフィッシュ」・SS-311",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "sheshuiyu",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "",
-		special_effects = "",
-		skin_type = -1,
-		id = 108060,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "sheshuiyu",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 274,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.12,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.29,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108061] = {
-		ship_group = 10806,
-		name = "キャッツィバニィ！",
-		bg_sp = "1102",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "今日のラッキーゲストの指揮官～さぁさぁ、アーチャーフィッシュの特別試作…じゃなくてカクテルでもどうぞ♪大丈夫、なんも起きやしないから～多分？ははは",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "sheshuiyu_3",
-		air_bullet_skin = "",
-		shop_type_id = 16,
-		l2d_ignore_drag = 0,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "145",
-		special_effects = "",
-		skin_type = 0,
-		id = 108061,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "sheshuiyu_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70545,
-		voice_actor = 274,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.06,
-					1.11,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[108070] = {
 		ship_group = 10807,
 		name = "ノーチラス",
@@ -8146,6 +7850,480 @@ pg.ship_skin_template_5 = {
 						{
 							0.456,
 							0.279,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202019] = {
+		ship_group = 20201,
+		name = "リアンダー改",
+		bg_sp = "",
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "御機嫌よう。指揮官様。今後ともご指導のほどをお願いいたします。ーーうん？あらら……私、リアンダーですよ？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "liande_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = 2,
+		id = 202019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "liande_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 66,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.11,
+					1.12,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.11,
+					1.12,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.11,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202020] = {
+		ship_group = 20202,
+		name = "アキリーズ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "リアンダー級軽巡洋艦・アキリーズ（HMS Achilles）",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ajilisi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 202020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ajilisi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 61,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.348,
+					1.082,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.81,
+					0.756,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.552,
+					0.703,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.81,
+					0.756,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.575,
+							0.382,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.448,
+							0.577,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202029] = {
+		ship_group = 20202,
+		name = "アキリーズ改",
+		bg_sp = "",
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "キュートなアキリーズちゃんが超☆進☆化！腱の怪我もバッチリ回復OK！…まあもともと大したことなかったけどね、あははは～☆",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ajilisi_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = 2,
+		id = 202029,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ajilisi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 61,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.91,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.91,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.91,
+					1.08,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.29,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202030] = {
+		ship_group = 20203,
+		name = "エイジャックス",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "リアンダー級軽巡洋艦・エイジャックス（HMS Ajax）",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ajiakesi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 202030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ajiakesi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 34,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.401,
+					1.006,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.817,
+					0.552,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.325,
+					0.196,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.817,
+					0.552,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							0.29,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.431,
+							0.392,
 							0
 						}
 					}

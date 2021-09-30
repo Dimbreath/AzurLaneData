@@ -7,6 +7,7 @@ pg.pay_data_display = {
 		name = "貿易許可証（30日間）",
 		descrip = "ダイヤ$1個+30日間毎日資源が貰える",
 		subject = "貿易許可証（30日間）",
+		subject_extra = "",
 		extra_service = 2,
 		money = 980,
 		tag = 2,
@@ -37,6 +38,7 @@ pg.pay_data_display = {
 			}
 		},
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -46,6 +48,7 @@ pg.pay_data_display = {
 		name = "新規着任パック",
 		descrip = "ダイヤなどのアイテムを入手可能",
 		subject = "新規着任パック",
+		subject_extra = "",
 		extra_service = 3,
 		money = 120,
 		tag = 1,
@@ -92,6 +95,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -101,9 +105,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一摘み",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一摘み",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 120,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 60,
 		limit_type = 99,
@@ -115,6 +120,7 @@ pg.pay_data_display = {
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -124,9 +130,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一握り",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一握り",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 610,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 305,
 		limit_type = 99,
@@ -138,6 +145,7 @@ pg.pay_data_display = {
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -147,9 +155,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一袋",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一袋",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 1220,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 610,
 		limit_type = 0,
@@ -161,6 +170,7 @@ pg.pay_data_display = {
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -170,9 +180,10 @@ pg.pay_data_display = {
 		name = "ダイヤ小箱",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ小箱",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 2440,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 1220,
 		limit_type = 0,
@@ -184,6 +195,7 @@ pg.pay_data_display = {
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -193,9 +205,10 @@ pg.pay_data_display = {
 		name = "ダイヤ大箱",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ大箱",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 4900,
+		extra_service_item = "0",
 		tag = 0,
 		gem = 2450,
 		limit_type = 0,
@@ -207,6 +220,7 @@ pg.pay_data_display = {
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -216,9 +230,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一船",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一船",
+		subject_extra = "",
 		extra_service = 0,
-		extra_service_item = "0",
 		money = 10000,
+		extra_service_item = "0",
 		tag = 1,
 		gem = 5000,
 		limit_type = 0,
@@ -230,6 +245,7 @@ pg.pay_data_display = {
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -239,6 +255,7 @@ pg.pay_data_display = {
 		name = "福袋",
 		descrip = "アイテム・資源とランダムに正月シリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -325,6 +342,7 @@ pg.pay_data_display = {
 				2018
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -334,6 +352,7 @@ pg.pay_data_display = {
 		name = "新生活キャンペｰン",
 		descrip = "など6つのアイテム",
 		subject = "新生活キャンペｰン",
+		subject_extra = "",
 		extra_service = 3,
 		money = 1200,
 		tag = 1,
@@ -420,6 +439,7 @@ pg.pay_data_display = {
 				3000
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -429,6 +449,7 @@ pg.pay_data_display = {
 		name = "一周年福袋",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -515,6 +536,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -524,6 +546,7 @@ pg.pay_data_display = {
 		name = "福袋2019",
 		descrip = "アイテム・資源とランダムにお正月シリーズの着せ替え衣装を入手可能",
 		subject = "福袋2019",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -610,6 +633,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -619,6 +643,7 @@ pg.pay_data_display = {
 		name = "春節福袋",
 		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -705,6 +730,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -714,6 +740,7 @@ pg.pay_data_display = {
 		name = "福袋",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -800,6 +827,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -809,6 +837,7 @@ pg.pay_data_display = {
 		name = "二週年福袋",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "二週年福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -895,6 +924,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -904,6 +934,7 @@ pg.pay_data_display = {
 		name = "新年福袋2020",
 		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2020",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -995,6 +1026,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1004,6 +1036,7 @@ pg.pay_data_display = {
 		name = "新年福袋復刻(2019)",
 		descrip = "アイテム・資源とランダムにお正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋復刻(2019)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -1090,6 +1123,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1099,6 +1133,7 @@ pg.pay_data_display = {
 		name = "春節福袋2020",
 		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2020",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -1190,6 +1225,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1199,6 +1235,7 @@ pg.pay_data_display = {
 		name = "春節福袋復刻(2019)",
 		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋復刻(2019)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 1,
@@ -1285,6 +1322,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1294,6 +1332,7 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅰ",
 		descrip = "ダイヤ×180、燃料貯蔵箱(1000)×2などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅰ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 250,
 		tag = 1,
@@ -1365,6 +1404,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1374,6 +1414,7 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅱ",
 		descrip = "ダイヤ×780、SSR選択装備箱×2、燃料貯蔵箱(1000)×4などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅱ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 1480,
 		tag = 1,
@@ -1470,6 +1511,7 @@ pg.pay_data_display = {
 				4
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1479,6 +1521,7 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅲ",
 		descrip = "ダイヤ×1680、SSR選択装備箱×4、燃料貯蔵箱(1000)×8などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅲ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 2940,
 		tag = 1,
@@ -1580,6 +1623,7 @@ pg.pay_data_display = {
 				8
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1589,6 +1633,7 @@ pg.pay_data_display = {
 		name = "福袋（夏2020）",
 		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋（夏2020）",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -1680,6 +1725,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1689,6 +1735,7 @@ pg.pay_data_display = {
 		name = "三周年福袋",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "三周年福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -1780,6 +1827,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1789,6 +1837,7 @@ pg.pay_data_display = {
 		name = "新年福袋2021",
 		descrip = "アイテム・資源とランダムにお正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2021",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -1880,6 +1929,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1889,6 +1939,7 @@ pg.pay_data_display = {
 		name = "新年福袋2020(復刻)",
 		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2020(復刻)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -1980,6 +2031,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1989,6 +2041,7 @@ pg.pay_data_display = {
 		name = "春節福袋2021",
 		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2021",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2080,6 +2133,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2089,6 +2143,7 @@ pg.pay_data_display = {
 		name = "春節福袋2020(復刻)",
 		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2020(復刻)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2180,6 +2235,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2189,6 +2245,7 @@ pg.pay_data_display = {
 		name = "福袋(夏2021)",
 		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
 		subject = "四周年礼盒",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2280,6 +2337,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2289,6 +2347,7 @@ pg.pay_data_display = {
 		name = "福袋(夏2020) (復刻)",
 		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
 		subject = "三周年礼盒复刻",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2380,6 +2439,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2389,6 +2449,7 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅳ",
 		descrip = "ダイヤ×1980、兵装開発専用①・選択装備箱×1などのアイテムを入手可能！",
 		subject = "着任応援パック・Ⅳ",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2480,6 +2541,7 @@ pg.pay_data_display = {
 				10
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2489,6 +2551,7 @@ pg.pay_data_display = {
 		name = "四周年福袋",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "四周年福袋",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2580,6 +2643,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2589,6 +2653,7 @@ pg.pay_data_display = {
 		name = "三周年福袋 (復刻)",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "三周年福袋 (復刻)",
+		subject_extra = "",
 		extra_service = 3,
 		money = 3680,
 		tag = 2,
@@ -2680,6 +2745,77 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[1000] = {
+		limit_arg = 1,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		name = "クルーズパス",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		subject = "クルーズパス",
+		subject_extra = "(2021.10.1-11.30)",
+		extra_service = 4,
+		money = 1220,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass1",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 1000,
+		airijp_id = "com.yostarjp.azurlane.seasonpass1",
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
 		ignorePlatform = {}
 	},
 	all = {
@@ -2715,6 +2851,7 @@ pg.pay_data_display = {
 		30,
 		31,
 		32,
-		33
+		33,
+		1000
 	}
 }

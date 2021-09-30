@@ -1,5 +1,15 @@
 slot0 = class("LevelStageView", import("..base.BaseSubView"))
 
+function slot0.Ctor(slot0, ...)
+	uv0.super.Ctor(slot0, ...)
+	slot0:bind(LevelUIConst.ON_FROZEN, function ()
+		uv0.isFrozen = true
+	end)
+	slot0:bind(LevelUIConst.ON_UNFROZEN, function ()
+		uv0.isFrozen = nil
+	end)
+end
+
 function slot0.getUIName(slot0)
 	return "LevelStageView"
 end
@@ -8,20 +18,7 @@ function slot0.OnInit(slot0)
 	slot0:InitUI()
 	slot0:AddListener()
 
-	chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
-
-	if Application.isEditor then
-		function switch_chapter_skip_battle()
-			chapter_skip_battle = 1 - chapter_skip_battle
-
-			PlayerPrefs.SetInt("chapter_skip_battle", chapter_skip_battle)
-			PlayerPrefs.Save()
-			pg.TipsMgr.GetInstance():ShowTips((chapter_skip_battle == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
-		end
-	end
-
 	slot0.loader = AutoLoader.New()
-	slot0.isFrozen = nil
 
 	setActive(slot0._tf, true)
 end
@@ -58,6 +55,7 @@ function slot0.OnDestroy(slot0)
 	end
 
 	slot0:ClearSubViews()
+	slot0:DestroyAutoFightPanel()
 	slot0.loader:Clear()
 end
 
@@ -76,7 +74,6 @@ function slot0.InitUI(slot0)
 	slot0.funcBtn = slot0:findTF("func_button", slot0.normalRole)
 	slot0.retreatBtn = slot0:findTF("retreat_button", slot0.normalRole)
 	slot0.switchBtn = slot0:findTF("switch_button", slot0.normalRole)
-	slot0.resetBtn = slot0:findTF("reset_button", slot0.normalRole)
 	slot0.helpBtn = slot0:findTF("help_button", slot0.normalRole)
 	slot0.shengfuBtn = slot0:findTF("shengfu/shengfu_button", slot0.normalRole)
 	slot0.teleportSubRole = findTF(slot0.bottomStage, "teleportSub")
@@ -90,7 +87,7 @@ function slot0.InitUI(slot0)
 	})
 	setAnchoredPosition(slot0.teleportSubRole, {
 		x = 0,
-		y = slot0
+		y = uv0
 	})
 	setActive(slot0.teleportSubRole, false)
 
@@ -101,7 +98,7 @@ function slot0.InitUI(slot0)
 	slot0.rightStage = slot0:findTF("right_stage", slot0._tf)
 	slot0.bombPanel = slot0.rightStage:Find("bomb_panel")
 	slot0.panelBarrier = slot0:findTF("panel_barrier", slot0.rightStage)
-	slot0.shamShopBtn = slot0:findTF("btn_sham_shop", slot0.rightStage)
+	slot0.strategyPanelAnimator = slot0:findTF("event", slot0.rightStage):GetComponent(typeof(Animator))
 	slot0.autoBattleBtn = slot0:findTF("event/collapse/lock_fleet", slot0.rightStage)
 	slot0.showDetailBtn = slot0:findTF("event/detail/show_detail", slot0.rightStage)
 
@@ -127,256 +124,171 @@ function slot0.InitUI(slot0)
 end
 
 function slot0.AddListener(slot0)
+	slot0:bind(LevelUIConst.TRIGGER_ACTION, function ()
+		uv0:tryAutoTrigger()
+	end)
+	slot0:bind(LevelUIConst.STRATEGY_PANEL_AUTOFIGHT_ACTIVE, function (slot0, slot1)
+		uv0.strategyPanelAnimator:SetBool("IsActive", slot1)
+
+		uv0.bottomStageInactive = slot1
+
+		uv0:ShiftBottomStage(not slot1)
+	end)
 	onButton(slot0, slot0:findTF("option", slot0.topStage), function ()
-		slot0:emit(BaseUI.ON_HOME)
+		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("back_button", slot0.topStage), function ()
-		if slot0.contextData.chapterVO and slot0:getDataType() == ChapterConst.TypeGuild then
-			slot0:emit(slot1.ON_BACK)
-
-			return
-		end
-
-		slot0:emit(LevelUIConst.SWITCH_TO_MAP)
+		uv0:emit(LevelUIConst.SWITCH_TO_MAP)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.retreatBtn, function ()
-		slot1 = slot0.contextData.map
+		slot1 = uv0.contextData.map
 		slot2 = "levelScene_whether_to_retreat"
 		slot3 = nil
 
-		if slot0.contextData.chapterVO:existOni() then
+		if uv0.contextData.chapterVO:existOni() then
 			slot2 = "levelScene_oni_retreat"
-			slot3 = true
 		elseif slot0:isPlayingWithBombEnemy() then
 			slot2 = "levelScene_bomb_retreat"
-			slot3 = true
 		elseif slot0:getPlayType() == ChapterConst.TypeTransport and not slot1:isSkirmish() then
 			slot2 = "levelScene_escort_retreat"
+		elseif slot1:isRemaster() then
+			slot2 = "archives_whether_to_retreat"
 		end
 
-		slot0:HandleShowMsgBox({
+		uv0:HandleShowMsgBox({
 			content = i18n(slot2),
-			onYes = function ()
-				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpRetreat,
-					win = slot0
-				})
-			end
+			onYes = ChapterOpCommand.PrepareChapterRetreat
 		})
 	end, SFX_UI_WEIGHANCHOR_WITHDRAW)
 	onButton(slot0, slot0.switchBtn, function ()
-		if slot0.contextData.chapterVO.getDataType(slot0) == ChapterConst.TypeSham then
-			slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
-		elseif slot1 == ChapterConst.TypeNone then
-			if slot0:getNextValidIndex() > 0 then
-				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpSwitch,
-					id = slot0.fleets[slot2].id
-				})
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_failed"))
-			end
-		elseif slot1 == ChapterConst.TypeGuild then
-			slot0:emit(LevelMediator2.ON_OPEN_GUILD_PRE_COMABT)
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.resetBtn, function ()
-		if slot0.contextData.chapterVO:getDataType() == ChapterConst.TypeSham then
-			if ChapterConst.ShamResetCountLimit <= slot0.contextData.chapterVO.shamResetCount then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("sham_reset_err_limit"))
-
-				return
-			end
-
-			if slot0.contextData.chapterVO.active then
-				slot0:HandleShowMsgBox({
-					modal = true,
-					content = i18n("sham_reset_confirm"),
-					onYes = function ()
-						slot0:emit(LevelMediator2.ON_OP, {
-							type = ChapterConst.OpRetreat
-						})
-					end
-				})
-			else
-				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpRetreat
-				})
-			end
-		elseif slot0 == ChapterConst.TypeGuild and slot0.contextData.chapterVO.active then
-			slot0:HandleShowMsgBox({
-				modal = true,
-				content = i18n("sham_reset_confirm"),
-				onYes = function ()
-					slot0:emit(LevelMediator2.ON_OP, {
-						type = ChapterConst.OpRetreat
-					})
-				end
+		if uv0.contextData.chapterVO:getNextValidIndex() > 0 then
+			uv0:emit(LevelMediator2.ON_OP, {
+				type = ChapterConst.OpSwitch,
+				id = slot0.fleets[slot1].id
 			})
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_failed"))
 		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.shamShopBtn, function ()
-		slot0:emit(LevelUIConst.IS_FROZEN)
-
-		if slot0.emit.isFrozen then
-			return
-		end
-
-		slot0:emit(LevelMediator2.ON_OPEN_SHAM_SHOP)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.autoBattleBtn, function ()
-		slot0:emit(LevelUIConst.IS_FROZEN)
-
-		if slot0.emit.isFrozen then
-			return
-		end
-
 		slot0 = getProxy(ChapterProxy)
 
 		slot0:UpdateSkipPrecombat(not slot0:GetSkipPrecombat())
-		slot0:UpdateSkipPreCombatMark()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.showDetailBtn, function ()
-		slot0._showStrategyDetail = not slot0._showStrategyDetail and true
+		uv0._showStrategyDetail = not uv0._showStrategyDetail and true
 
-		slot0:updateStageStrategy()
+		uv0:updateStageStrategy()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.funcBtn, function ()
-		slot1 = slot0.contextData.chapterVO.getDataType(slot0)
-
-		if not slot0.contextData.chapterVO:inWartime() then
+		if not uv0.contextData.chapterVO:inWartime() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_time_out"))
 
 			return
 		end
 
-		slot4 = slot0:getChapterCell(slot0.fleet.line.row, slot0.fleet.line.column)
-		slot5 = false
+		slot2 = slot0.fleet.line
+		slot3 = slot0:getChapterCell(slot2.row, slot2.column)
+		slot4 = false
 
-		if slot0:existChampion(slot0.fleet.line.row, slot0.fleet.line.column) then
-			slot5 = true
+		if slot0:existChampion(slot2.row, slot2.column) then
+			slot4 = true
 
-			if chapter_skip_battle == 1 then
-				slot0:emit(LevelMediator2.ON_OP, {
+			if chapter_skip_battle == 1 and pg.SdkMgr.GetInstance():CheckPretest() then
+				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpSkipBattle,
-					id = slot2.id
+					id = slot1.id
 				})
 			elseif slot0:IsSkipPrecombat() then
-				slot0:emit(LevelMediator2.ON_START)
+				uv0:emit(LevelMediator2.ON_START)
 			else
-				slot0:emit(LevelMediator2.ON_STAGE)
+				uv0:emit(LevelMediator2.ON_STAGE)
 			end
-		elseif slot4.attachment == ChapterConst.AttachAmbush and slot4.flag == 2 then
-			slot6 = nil
+		elseif slot3.attachment == ChapterConst.AttachAmbush and slot3.flag == ChapterConst.CellFlagAmbush then
+			slot5 = nil
 
-
-			-- Decompilation error in this vicinity:
 			coroutine.wrap(function ()
-				slot0:emit(LevelUIConst.DO_AMBUSH_WARNING, slot0)
+				uv0:emit(LevelUIConst.DO_AMBUSH_WARNING, uv1)
 				coroutine.yield()
-				coroutine.yield:emit(LevelUIConst.DISPLAY_AMBUSH_INFO, coroutine.yield)
+				uv0:emit(LevelUIConst.DISPLAY_AMBUSH_INFO, uv1)
 				coroutine.yield()
 			end)()
 
-			slot5 = true
-		elseif slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachBoss then
-			if slot4.flag == 0 then
-				slot5 = true
+			slot4 = true
+		elseif slot3.attachment == ChapterConst.AttachEnemy or slot3.attachment == ChapterConst.AttachElite or slot3.attachment == ChapterConst.AttachAmbush or slot3.attachment == ChapterConst.AttachBoss then
+			if slot3.flag == ChapterConst.CellFlagActive then
+				slot4 = true
 
-				if chapter_skip_battle == 1 then
-					slot0:emit(LevelMediator2.ON_OP, {
+				if chapter_skip_battle == 1 and pg.SdkMgr.GetInstance():CheckPretest() then
+					uv0:emit(LevelMediator2.ON_OP, {
 						type = ChapterConst.OpSkipBattle,
-						id = slot2.id
+						id = slot1.id
 					})
 				elseif slot0:IsSkipPrecombat() then
-					slot0:emit(LevelMediator2.ON_START)
+					uv0:emit(LevelMediator2.ON_START)
 				else
-					slot0:emit(LevelMediator2.ON_STAGE)
+					uv0:emit(LevelMediator2.ON_STAGE)
 				end
 			end
-		elseif slot4.attachment == ChapterConst.AttachBox then
-			if slot4.flag == 0 then
-				slot5 = true
+		elseif slot3.attachment == ChapterConst.AttachBox then
+			if slot3.flag == ChapterConst.CellFlagActive then
+				slot4 = true
 
-				slot0:emit(LevelMediator2.ON_OP, {
+				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpBox,
-					id = slot2.id
+					id = slot1.id
 				})
 			end
-		elseif slot4.attachment == ChapterConst.AttachSupply and slot4.attachmentId > 0 then
-			slot5 = true
-			slot6, slot7 = slot0:getFleetAmmo(slot0.fleet)
+		elseif slot3.attachment == ChapterConst.AttachSupply and slot3.attachmentId > 0 then
+			slot4 = true
+			slot5, slot6 = slot0:getFleetAmmo(slot0.fleet)
 
-			if slot7 < slot6 then
-				slot0:emit(LevelMediator2.ON_OP, {
+			if slot6 < slot5 then
+				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpSupply,
-					id = slot2.id
+					id = slot1.id
 				})
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_enough"))
 			end
-		elseif slot4.attachment == ChapterConst.AttachStory then
-			slot5 = true
-			slot6 = pg.StoryMgr.GetInstance():GetStoryByName("index")
-			slot8 = pg.map_event_template[slot4.attachmentId].gametip
+		elseif slot3.attachment == ChapterConst.AttachStory then
+			slot4 = true
+			slot6 = pg.map_event_template[slot3.attachmentId].gametip
 
-			if pg.map_event_template[slot4.attachmentId].memory == 0 then
+			if pg.map_event_template[slot3.attachmentId].memory == 0 then
 				return
 			end
 
 			pg.ConnectionMgr.GetInstance():Send(11017, {
-				story_id = slot7
+				story_id = slot5
 			}, 11018, function (slot0)
-				return
 			end)
-			pg.StoryMgr.GetInstance():Play(slot6[slot7], function ()
-				slot1 = (pg.StoryMgr.GetInstance():getSelectedOptions() and (slot0[1] or 1)) or 1
-
-				if slot0.flag == 0 then
-					slot1:emit(LevelMediator2.ON_OP, {
+			pg.NewStoryMgr.GetInstance():Play(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot5), function (slot0, slot1)
+				if uv0.flag == ChapterConst.CellFlagActive then
+					uv1:emit(LevelMediator2.ON_OP, {
 						type = ChapterConst.OpStory,
-						id = slot2.id,
-						arg1 = slot1
+						id = uv2.id,
+						arg1 = slot1 or 1
 					})
 				end
 
-				if slot3 ~= "" then
-					slot2 = nil
+				if uv3 ~= "" then
+					slot4 = nil
 
-					for slot6, slot7 in pairs(pg.memory_template) do
-						if slot7.story == slot4 then
-							slot2 = slot7.title
+					for slot8, slot9 in pairs(pg.memory_template) do
+						if slot9.story == uv4 then
+							slot4 = slot9.title
 						end
 					end
 
-					pg.TipsMgr.GetInstance():ShowTips(i18n(pg.TipsMgr.GetInstance().ShowTips, slot2))
+					pg.TipsMgr.GetInstance():ShowTips(i18n(uv3, slot4))
 				end
 			end)
-		elseif slot4.attachment == ChapterConst.AttachRival then
-			if slot4.flag == 0 then
-				slot5 = true
-
-				if slot2:isValid() then
-					slot0:emit(LevelMediator2.ON_PVP, slot4.rival)
-				else
-					slot0:HandleShowMsgBox({
-						modal = true,
-						content = i18n("formation_reform_tip"),
-						onYes = function ()
-							slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
-						end
-					})
-				end
-			end
-		elseif slot4.attachment == ChapterConst.AttachAreaBoss and slot4.flag == 0 then
-			slot5 = true
-
-			slot0:emit(LevelMediator2.ON_OPEN_GUILD_PRE_COMABT)
 		end
 
-		if not slot5 then
+		if not slot4 then
 			if slot0:getRound() == ChapterConst.RoundEnemy then
-				slot0:emit(LevelMediator2.ON_OP, {
+				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpEnemyRound
 				})
 			else
@@ -385,71 +297,59 @@ function slot0.AddListener(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		if slot0.contextData.chapterVO then
-			if slot0:getDataType() == ChapterConst.TypeSham then
-				slot0:HandleShowMsgBox({
+		if uv0.contextData.chapterVO then
+			if slot0:existOni() then
+				uv0:HandleShowMsgBox({
 					type = MSGBOX_TYPE_HELP,
-					helps = i18n("sham_battle_help_tip")
+					helps = i18n("levelScene_sphunt_help_tip")
 				})
-			elseif slot1 == ChapterConst.TypeGuild then
-				slot0:HandleShowMsgBox({
+			elseif slot0:isTypeDefence() then
+				uv0:HandleShowMsgBox({
 					type = MSGBOX_TYPE_HELP,
-					helps = i18n("guild_battle_help_tip")
+					helps = i18n("help_battle_defense")
 				})
-			elseif slot1 == ChapterConst.TypeNone then
-				if slot0:existOni() then
-					slot0:HandleShowMsgBox({
-						type = MSGBOX_TYPE_HELP,
-						helps = i18n("levelScene_sphunt_help_tip")
-					})
-				elseif slot0:isTypeDefence() then
-					slot0:HandleShowMsgBox({
-						type = MSGBOX_TYPE_HELP,
-						helps = i18n("help_battle_defense")
-					})
-				elseif slot0:isPlayingWithBombEnemy() then
-					slot0:HandleShowMsgBox({
-						type = MSGBOX_TYPE_HELP,
-						helps = i18n("levelScene_bomb_help_tip")
-					})
-				elseif pg.map_event_list[slot0.id] and pg.map_event_list[slot0.id].help_pictures and next(pg.map_event_list[slot0.id].help_pictures) ~= nil then
-					slot2 = {
-						disableScroll = true,
-						pageMode = true,
-						defaultpage = 1,
-						ImageMode = true,
-						windowSize = {
-							x = 1263,
-							y = 873
-						},
-						windowPos = {
-							y = -70
-						},
-						helpSize = {
-							x = 1176,
-							y = 1024
-						}
+			elseif slot0:isPlayingWithBombEnemy() then
+				uv0:HandleShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = i18n("levelScene_bomb_help_tip")
+				})
+			elseif pg.map_event_list[slot0.id] and pg.map_event_list[slot0.id].help_pictures and next(pg.map_event_list[slot0.id].help_pictures) ~= nil then
+				slot1 = {
+					disableScroll = true,
+					pageMode = true,
+					defaultpage = 1,
+					ImageMode = true,
+					windowSize = {
+						x = 1263,
+						y = 873
+					},
+					windowPos = {
+						y = -70
+					},
+					helpSize = {
+						x = 1176,
+						y = 1024
 					}
+				}
 
-					for slot6, slot7 in pairs(pg.map_event_list[slot0.id].help_pictures) do
-						table.insert(slot2, {
-							icon = {
-								path = "",
-								atlas = slot7
-							}
-						})
-					end
-
-					slot0:HandleShowMsgBox({
-						type = MSGBOX_TYPE_HELP,
-						helps = slot2
-					})
-				else
-					slot0:HandleShowMsgBox({
-						type = MSGBOX_TYPE_HELP,
-						helps = pg.gametip.help_level_ui.tip
+				for slot5, slot6 in pairs(pg.map_event_list[slot0.id].help_pictures) do
+					table.insert(slot1, {
+						icon = {
+							path = "",
+							atlas = slot6
+						}
 					})
 				end
+
+				uv0:HandleShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = slot1
+				})
+			else
+				uv0:HandleShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = pg.gametip.help_level_ui.tip
+				})
 			end
 		end
 	end, SFX_PANEL)
@@ -460,34 +360,34 @@ function slot0.AddListener(slot0)
 		})
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.deployBtn, function ()
-		slot1, slot2 = slot0.contextData.chapterVO.GetSubmarineFleet(slot0)
+		slot1, slot2 = uv0.contextData.chapterVO:GetSubmarineFleet()
 		slot3 = slot1.startPos
 
-		if not slot0.grid.subTeleportTargetLine then
+		if not uv0.grid.subTeleportTargetLine then
 			return
 		end
 
 		slot5, slot6 = slot0:findPath(nil, slot3, slot4)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("tips_confirm_teleport_sub", slot0.grid:TransformLine2PlanePos(slot3), slot0.grid:TransformLine2PlanePos(slot4), slot5, math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot1:getShips(false) * slot5 - 1e-05)),
+			content = i18n("tips_confirm_teleport_sub", uv0.grid:TransformLine2PlanePos(slot3), uv0.grid:TransformLine2PlanePos(slot4), slot5, math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot1:getShips(false) * slot5 - 1e-05)),
 			onYes = function ()
-				slot0:emit(LevelMediator2.ON_OP, {
+				uv0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpSubTeleport,
-					id = slot1.id,
-					arg1 = slot2.row,
-					arg2 = slot2.column
+					id = uv1.id,
+					arg1 = uv2.row,
+					arg2 = uv2.column
 				})
 			end
 		})
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.undeployBtn, function ()
-		slot0:SwitchBottomStage(false)
-		slot0.SwitchBottomStage.grid:TurnOffSubTeleport()
-		slot0.SwitchBottomStage.grid.TurnOffSubTeleport.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+		uv0:SwitchBottomStage(false)
+		uv0.grid:TurnOffSubTeleport()
+		uv0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.shengfuBtn, function ()
-		slot0:DisplayWinConditionPanel()
+		uv0:DisplayWinConditionPanel()
 	end)
 end
 
@@ -504,66 +404,66 @@ function slot0.SetPlayer(slot0, slot1)
 end
 
 function slot0.SwitchToChapter(slot0, slot1)
-	slot5 = findTF(slot0.rightStage, "target")
-	slot6 = findTF(slot0.rightStage, "skip_events")
+	slot3 = findTF(slot0.rightStage, "target")
+	slot4 = findTF(slot0.rightStage, "skip_events")
 
-	setActive(slot3, slot1:existAmbush())
+	setActive(findTF(slot0.topStage, "msg_panel/ambush"), slot1:existAmbush())
 	setActive(slot0.airSupremacy, OPEN_AIR_DOMINANCE and slot1:getConfig("air_dominance") > 0)
-	setActive(findTF(slot0.topStage, "msg_panel/sham_progress"), slot1:getDataType() == ChapterConst.TypeSham)
-	setActive(slot0.shamShopBtn, slot1.getDataType() == ChapterConst.TypeSham)
 
-	if slot2 == ChapterConst.TypeSham then
-		setActive(slot0.shamShopBtn, getProxy(ShopsProxy):getShamShop() ~= nil)
-	end
+	slot5 = slot1:isLoop()
 
-	setActive(slot0.resetBtn, slot2 == ChapterConst.TypeSham or slot2 == ChapterConst.TypeGuild)
-	setImageColor(slot0.resetBtn, (slot2 == ChapterConst.TypeSham and ChapterConst.ShamResetCountLimit <= slot1.shamResetCount and Color(1, 1, 10, 0.5882352941176471)) or Color(1, 1, 1, 1))
-	setActive(slot0.autoBattleBtn, slot1:isLoop())
+	setActive(slot0.autoBattleBtn, slot5)
 
-	if slot1.isLoop() then
+	if slot5 then
 		slot0:UpdateSkipPreCombatMark()
+		slot0:UpdateAutoFightPanel()
+		slot0:UpdateAutoFightMark()
 	end
 
 	slot0.achieveOriginalY = -240
 
-	setText(slot6:Find("Label"), i18n("map_event_skip"))
+	setText(slot4:Find("Label"), i18n("map_event_skip"))
 
 	if slot1:getConfig("event_skip") == 1 then
 		if slot1.progress > 0 or slot1.defeatCount > 0 or slot1.passCount > 0 then
-			setActive(slot6, true)
+			setActive(slot4, true)
 
-			slot5.anchoredPosition = Vector2.New(slot5.anchoredPosition.x, slot0.achieveOriginalY - 40)
-			GetComponent(slot6, typeof(Toggle)).isOn = PlayerPrefs.GetInt("skip_events_on_" .. slot1.id, 1) == 1
+			slot3.anchoredPosition = Vector2.New(slot3.anchoredPosition.x, slot0.achieveOriginalY - 40)
+			GetComponent(slot4, typeof(Toggle)).isOn = PlayerPrefs.GetInt("skip_events_on_" .. slot1.id, 1) == 1
 
-			onToggle(slot0, slot6, function (slot0)
-				PlayerPrefs.SetInt(slot0, (slot0 and 1) or 0)
+			onToggle(slot0, slot4, function (slot0)
+				PlayerPrefs.SetInt(uv0, slot0 and 1 or 0)
 			end)
 		else
-			setActive(slot6, false)
+			setActive(slot4, false)
 
-			if not PlayerPrefs.HasKey(key) then
-				PlayerPrefs.SetInt(key, 0)
+			if not PlayerPrefs.HasKey(slot6) then
+				PlayerPrefs.SetInt(slot6, 0)
 			end
 		end
 	else
-		setActive(slot6, false)
+		setActive(slot4, false)
 
-		slot5.anchoredPosition = Vector2.New(slot5.anchoredPosition.x, slot0.achieveOriginalY)
+		slot3.anchoredPosition = Vector2.New(slot3.anchoredPosition.x, slot0.achieveOriginalY)
 	end
 
-	setActive(slot5, slot1:existAchieve())
-	setActive(slot0.retreatBtn, slot2 == ChapterConst.TypeNone)
+	setActive(slot3, slot1:existAchieve())
+	setActive(slot0.retreatBtn, true)
 	slot0.seriesOperation()
+end
+
+function slot0.SwitchToMap(slot0)
+	slot0:DestroyAutoFightPanel()
 end
 
 function slot0.UpdateSkipPreCombatMark(slot0)
 	slot0.loader:GetOffSpriteRequest(slot0.autoBattleBtn)
-	slot0.loader:GetSprite("ui/levelstageview_atlas", (getProxy(ChapterProxy):GetSkipPrecombat() and "auto_battle_on") or "auto_battle_off", slot0.autoBattleBtn, true)
+	slot0.loader:GetSprite("ui/levelstageview_atlas", getProxy(ChapterProxy):GetSkipPrecombat() and "auto_battle_on" or "auto_battle_off", slot0.autoBattleBtn, true)
 end
 
 function slot0.updateStageInfo(slot0)
-	slot2 = slot0.contextData.chapterVO.getDataType(slot1)
-	slot4 = findTF(slot0.topStage, "unlimit")
+	slot1 = slot0.contextData.chapterVO
+	slot3 = findTF(slot0.topStage, "unlimit")
 
 	setWidgetText(findTF(slot0.topStage, "timer"), "--:--:--")
 
@@ -572,18 +472,18 @@ function slot0.updateStageInfo(slot0)
 	end
 
 	if slot1:getConfig("time") < slot1:getRemainTime() or slot1:getConfig("time") >= 8640000 then
-		setActive(slot3, false)
-		setActive(slot4, true)
-	else
+		setActive(slot2, false)
 		setActive(slot3, true)
-		setActive(slot4, false)
+	else
+		setActive(slot2, true)
+		setActive(slot3, false)
 
 		slot0.stageTimer = Timer.New(function ()
-			if IsNil(IsNil) then
+			if IsNil(uv0) then
 				return
 			end
 
-			setWidgetText(slot1:getRemainTime(), pg.TimeMgr.GetInstance():DescCDTime(slot1.getRemainTime()))
+			setWidgetText(uv0, pg.TimeMgr.GetInstance():DescCDTime(uv1:getRemainTime()))
 		end, 1, -1)
 
 		slot0.stageTimer:Start()
@@ -592,4775 +492,1365 @@ function slot0.updateStageInfo(slot0)
 end
 
 function slot0.updateAmbushRate(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-21, warpins: 2 ---
 	if not slot0.contextData.chapterVO:existAmbush() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-8, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	slot5 = slot3.fleet.getInvestSums(slot4)
-	slot6 = slot3:getAmbushRate(slot3.fleet, slot1)
-	slot7 = ChapterConst.GetAmbushDisplay
-	slot8 = (not slot2 or not slot3:existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column)) and slot6
-	slot15, slot15 = slot7(slot8)
+	slot9 = findTF(slot0.topStage, "msg_panel/ambush/value2")
 
-	setText(slot9, i18n("level_scene_title_word_1"))
-	setText(slot10, i18n("level_scene_title_word_2"))
-	setText(slot11, math.floor(slot5))
-	setText(slot12, slot7)
-	setTextColor(findTF(slot0.topStage, "msg_panel/ambush/value2"), slot8)
+	setText(findTF(slot0.topStage, "msg_panel/ambush/label1"), i18n("level_scene_title_word_1"))
+	setText(findTF(slot0.topStage, "msg_panel/ambush/value1"), math.floor(slot3.fleet:getInvestSums()))
+	setText(findTF(slot0.topStage, "msg_panel/ambush/label2"), i18n("level_scene_title_word_2"))
 
-	return
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 22-30, warpins: 1 ---
-	if not slot3.existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 31-32, warpins: 2 ---
-		slot8 = slot6
-		--- END OF BLOCK #0 ---
-
-
-
+	if not slot3.activateAmbush then
+		setText(slot9, i18n("ambush_display_none"))
+		setTextColor(slot9, Color.New(0.4, 0.4, 0.4))
 	else
+		slot11, slot12 = ChapterConst.GetAmbushDisplay((not slot2 or not slot3:existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column)) and slot3:getAmbushRate(slot4, slot1))
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 33-34, warpins: 1 ---
-		slot8 = false
-
-		if false then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 35-35, warpins: 0 ---
-			slot8 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+		setText(slot9, slot11)
+		setTextColor(slot9, slot12)
 	end
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 36-80, warpins: 3 ---
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function slot0.updateStageAchieve(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	if not slot0.contextData.chapterVO:existAchieve() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-8, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-63, warpins: 1 ---
 	slot3 = findTF(slot0.rightStage, "target")
 
 	setActive(slot3, true)
 
 	slot4 = findTF(slot3, "detail")
 	slot7 = findTF(slot4, "click")
+	slot8 = findTF(slot3, "collapse")
 
-	setActive(slot5, false)
-	setActive(slot9, false)
-	removeAllChildren(slot6)
-	removeAllChildren(slot10)
+	setActive(findTF(slot4, "achieve"), false)
+	setActive(findTF(slot8, "star"), false)
+	removeAllChildren(findTF(slot4, "achieves"))
+	removeAllChildren(findTF(slot8, "stars"))
 
-	--- END OF BLOCK #1 ---
+	for slot14, slot15 in ipairs(slot1.achieves) do
+		slot16 = cloneTplTo(slot5, slot6)
+		slot17 = ChapterConst.IsAchieved(slot15)
 
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 64-114, warpins: 0 ---
-	for slot14, slot15 in ipairs(slot2) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 64-94, warpins: 1 ---
 		setActive(findTF(slot16, "star"), slot17)
+
+		slot18 = findTF(slot16, "desc")
+
 		setText(slot18, ChapterConst.GetAchieveDesc(slot15.type, slot1))
-
-		slot19 = setTextColor
-		slot20 = findTF(slot16, "desc")
-
-		if not ChapterConst.IsAchieved(slot15) or not Color.yellow then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 99-100, warpins: 2 ---
-			slot21 = Color.white
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 101-112, warpins: 2 ---
-		slot19(slot20, slot21)
+		setTextColor(slot18, slot17 and Color.yellow or Color.white)
 
 		cloneTplTo(slot9, slot10):GetComponent(typeof(Image)).enabled = slot17
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 113-114, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 115-129, warpins: 1 ---
 	onButton(slot0, slot7, function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-26, warpins: 1 ---
-		shiftPanel(shiftPanel, slot0.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-		shiftPanel(shiftPanel, 0, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+		shiftPanel(uv0, uv0.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+		shiftPanel(uv1, 0, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	end, SFX_PANEL)
 	onButton(slot0, slot8, function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-26, warpins: 1 ---
-		shiftPanel(shiftPanel, 30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-		shiftPanel(shiftPanel, slot1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+		shiftPanel(uv0, 30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+		shiftPanel(uv1, uv1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	end, SFX_PANEL)
 
 	if not slot0.isAchieveFirstInit then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 130-134, warpins: 1 ---
 		slot0.isAchieveFirstInit = true
 
 		triggerButton(slot7)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 135-136, warpins: 2 ---
-	return
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 137-137, warpins: 2 ---
-	--- END OF BLOCK #5 ---
-
-
-
 end
 
 function slot0.updateStageBarrier(slot0)
+	slot1 = slot0.contextData.chapterVO
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
-	setActive(slot0.panelBarrier, slot0.contextData.chapterVO:existOni())
+	setActive(slot0.panelBarrier, slot1:existOni())
 
-	if slot0.contextData.chapterVO:existOni() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-31, warpins: 1 ---
+	if slot1:existOni() then
 		slot2 = slot0.panelBarrier:Find("btn_barrier")
 
 		setText(slot2:Find("nums"), slot1.modelCount)
 		onButton(slot0, slot2, function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-10, warpins: 1 ---
-			slot0:emit(LevelUIConst.IS_FROZEN)
-
-			if slot0.emit.isFrozen then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 11-11, warpins: 1 ---
-				return
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 12-18, warpins: 1 ---
-			if slot0.grid.quadState == ChapterConst.QuadStateStrategy then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 19-26, warpins: 1 ---
-				slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+			if uv0.grid.quadState == ChapterConst.QuadStateStrategy then
+				uv0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 
 				return
-				--- END OF BLOCK #0 ---
-
-
-
 			end
 
-			--- END OF BLOCK #1 ---
+			slot0 = uv0.contextData.chapterVO
 
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 27-37, warpins: 1 ---
-			slot0:selectSquareBarrieredCell(1, function (slot0, slot1)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-8, warpins: 1 ---
-				if not slot0:existBarrier(slot0, slot1) and slot0.modelCount <= 0 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 14-14, warpins: 1 ---
+			uv0:selectSquareBarrieredCell(1, function (slot0, slot1)
+				if not uv0:existBarrier(slot0, slot1) and uv0.modelCount <= 0 then
 					return
-					--- END OF BLOCK #0 ---
-
-
-
 				end
 
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 15-31, warpins: 3 ---
-				slot1:emit(LevelMediator2.ON_OP, {
+				uv1:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpBarrier,
-					id = slot0.fleet.id,
+					id = uv0.fleet.id,
 					arg1 = slot0,
 					arg2 = slot1
 				})
-
-				return
-				--- END OF BLOCK #1 ---
-
-
-
 			end)
-
-			return
-			--- END OF BLOCK #2 ---
-
-			FLOW; TARGET BLOCK #3
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #3 38-38, warpins: 2 ---
-			--- END OF BLOCK #3 ---
-
-			FLOW; TARGET BLOCK #4
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #4 39-39, warpins: 2 ---
-			--- END OF BLOCK #4 ---
-
-
-
 		end, SFX_PANEL)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 32-33, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.updateBombPanel(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
-	setActive(slot0.bombPanel, slot0.contextData.chapterVO:isPlayingWithBombEnemy())
+	setActive(slot0.bombPanel, slot2:isPlayingWithBombEnemy())
 
-	if slot0.contextData.chapterVO:isPlayingWithBombEnemy() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-49, warpins: 1 ---
+	if slot2:isPlayingWithBombEnemy() then
 		setText(slot0.bombPanel:Find("tx_step"), slot2:getBombChapterInfo().action_times - math.floor(slot2.roundIndex / 2))
 
+		slot3 = slot0.bombPanel:Find("tx_score")
 		slot4 = tonumber(getText(slot3))
 		slot5 = slot2.modelCount
 
-		LeanTween.cancel(go(slot0.bombPanel:Find("tx_score")))
+		LeanTween.cancel(go(slot3))
 
 		if slot1 and slot4 ~= slot5 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 52-111, warpins: 1 ---
 			LeanTween.scale(go(slot3), Vector3(1.5, 1.5, 1), 0.2)
-			LeanTween.value(go(slot3), slot4, slot5, (slot5 - slot4) * 0.1):setOnUpdate(System.Action_float(function (slot0)
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-8, warpins: 1 ---
-				setText(slot0, math.floor(slot0))
+			slot6 = (slot5 - slot4) * 0.1
 
-				return
-				--- END OF BLOCK #0 ---
-
-
-
+			LeanTween.value(go(slot3), slot4, slot5, slot6):setOnUpdate(System.Action_float(function (slot0)
+				setText(uv0, math.floor(slot0))
 			end)):setOnComplete(System.Action(function ()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-5, warpins: 1 ---
-				setText(setText, )
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
+				setText(uv0, uv1)
 			end)):setEase(LeanTweenType.easeInOutSine):setDelay(0.2)
-			LeanTween.scale(go(slot3), Vector3.one, 0.3):setDelay(1 + (slot5 - slot4) * 0.1)
-			--- END OF BLOCK #0 ---
-
-
-
+			LeanTween.scale(go(slot3), Vector3.one, 0.3):setDelay(1 + slot6)
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 112-118, warpins: 2 ---
 			slot3.localScale = Vector3.one
 
 			setText(slot3, slot5)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 119-119, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 120-120, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.selectSquareBarrieredCell(slot0, slot1, slot2)
+	slot3 = slot0.contextData.chapterVO
+	slot5 = slot3.fleet.line
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-20, warpins: 1 ---
-	slot0.grid:updateQuadCells(ChapterConst.QuadStateStrategy, slot0.contextData.chapterVO.calcSquareBarrierCells(slot3, slot0.contextData.chapterVO.fleet.line.row, slot0.contextData.chapterVO.fleet.line.column, slot1), function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-2, warpins: 1 ---
-		if slot0 and _.any(slot0, function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-5, warpins: 1 ---
-			if slot0.row ~= slot0.row or slot0.column ~= slot0.column then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 11-12, warpins: 2 ---
-				slot1 = false
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 13-13, warpins: 1 ---
-				slot1 = true
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 14-14, warpins: 2 ---
-			return slot1
-			--- END OF BLOCK #1 ---
-
-
-
+	slot0.grid:updateQuadCells(ChapterConst.QuadStateStrategy, slot3:calcSquareBarrierCells(slot5.row, slot5.column, slot1), function (slot0)
+		if slot0 and _.any(uv0, function (slot0)
+			return slot0.row == uv0.row and slot0.column == uv0.column
 		end) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-14, warpins: 1 ---
-			slot1(slot0.row, slot0.column)
-			--- END OF BLOCK #0 ---
-
-
-
+			uv1(slot0.row, slot0.column)
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-21, warpins: 2 ---
-			slot2.grid:updateQuadCells(ChapterConst.QuadStateNormal)
-			--- END OF BLOCK #0 ---
-
-
-
+			uv2.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 22-23, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.updateFleetBuff(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
-	slot3 = Clone(slot0.contextData.chapterVO.getFleetStgIds(slot1, slot2))
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 16-31, warpins: 0 ---
-	for slot7, slot8 in ipairs(slot0.contextData.chapterVO.getExtraFlags(slot1)) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-24, warpins: 1 ---
-		if pg.strategy_data_template[ChapterConst.Status2StgBuff[slot8]].buff_id == 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 25-29, warpins: 1 ---
-			table.insert(slot3, slot9)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 30-31, warpins: 3 ---
-		--- END OF BLOCK #1 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 32-32, warpins: 1 ---
-	slot4 = #slot3
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 33-35, warpins: 2 ---
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 36-51, warpins: 0 ---
-	while slot4 > 0 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 36-36, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 37-43, warpins: 1 ---
-		if pg.strategy_data_template[slot3[slot4]].icon == "" then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 44-48, warpins: 1 ---
-			table.remove(slot3, slot4)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 49-50, warpins: 2 ---
-		slot4 = slot4 - 1
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 51-51, warpins: 2 ---
-		--- END OF BLOCK #3 ---
-
-
-
-	end
-
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 51-56, warpins: 1 ---
-	slot5 = {}
-
-	if slot1:GetSubmarineFleet() and _.filter(slot6:getStrategies(), function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-9, warpins: 1 ---
-		if pg.strategy_data_template[slot0.id].type ~= ChapterConst.StgTypePassive or slot0.count <= 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 14-15, warpins: 2 ---
-			slot2 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 16-16, warpins: 1 ---
-			slot2 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 17-17, warpins: 2 ---
-		return slot2
-		--- END OF BLOCK #1 ---
-
-
-
-	end) and #slot7 > 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 70-74, warpins: 1 ---
-		_.each(slot7, function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-10, warpins: 1 ---
-			table.insert(slot0, {
+	slot1 = slot0.contextData.chapterVO
+	slot2 = slot1.fleet
+	slot3 = slot1:GetShowingStartegies()
+	slot4 = {}
+
+	if slot1:GetSubmarineFleet() and _.filter(slot5:getStrategies(), function (slot0)
+		return pg.strategy_data_template[slot0.id].type == ChapterConst.StgTypePassive and slot0.count > 0
+	end) and #slot6 > 0 then
+		_.each(slot6, function (slot0)
+			table.insert(uv0, {
 				id = slot0.id,
 				count = slot0.count
 			})
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
 		end)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 75-81, warpins: 4 ---
-	slot7 = nil
-	slot8 = 0
+	slot6 = slot1:GetWeather()
+	slot7 = 0
 
 	if slot1:ExistDivingChampion() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 82-83, warpins: 1 ---
-		slot7 = {
-			icon = "submarine_approach"
-		}
-		slot8 = 1
-		--- END OF BLOCK #0 ---
-
-
-
+		slot7 = 1
 	end
 
-	--- END OF BLOCK #6 ---
+	slot10 = findTF(slot0.topStage, "buff_tpl")
 
-	FLOW; TARGET BLOCK #7
+	setActive(slot10, false)
 
+	slot11 = UIItemList.New(findTF(slot0.topStage, "fleet_buffs"), slot10)
 
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #7 84-126, warpins: 2 ---
-	setActive(slot11, false)
-
-	slot12 = UIItemList.New(slot10, slot11)
-
-	slot12:make(function (slot0, slot1, slot2)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-25, warpins: 1 ---
+	slot11:make(function (slot0, slot1, slot2)
 		setActive(findTF(slot2, "frame"), false)
 		setActive(findTF(slot2, "Text"), false)
 		setActive(findTF(slot2, "times"), false)
 
 		if slot0 == UIItemList.EventUpdate then
+			if slot1 + 1 <= #uv0 then
+				slot4 = pg.strategy_data_template[uv0[slot1 + 1]]
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-30, warpins: 1 ---
-			if slot1 + 1 <= #slot0 then
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. slot4.icon, "", slot2)
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 31-50, warpins: 1 ---
-				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot0[slot1 + 1]].icon, "", slot2)
-				onButton(slot1, slot2, function ()
+				slot5 = nil
 
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-17, warpins: 1 ---
-					slot0:HandleShowMsgBox({
+				if slot4.type == ChapterConst.StgTypeBindFleetPassive then
+					setActive(findTF(slot2, "times"), true)
+					setText(findTF(slot2, "times"), uv1:GetStrategyCount(slot3))
+				end
+
+				onButton(uv2, slot2, function ()
+					uv0:HandleShowMsgBox({
+						showOwned = true,
 						yesText = "text_confirm",
 						hideNo = true,
 						content = "",
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
 							type = DROP_TYPE_STRATEGY,
-							id = slot1.id,
-							cfg = slot0
+							id = uv1.id,
+							cfg = uv1,
+							strategyCount = uv2
 						}
 					})
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
 				end, SFX_PANEL)
 
 				return
-				--- END OF BLOCK #0 ---
-
-
-
 			end
 
-			--- END OF BLOCK #0 ---
+			if slot1 - #uv0 + 1 <= #uv3 then
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.weather_data_template[uv3[slot1 + 1]].buff_icon, "", slot2)
+				onButton(uv2, slot2, function ()
+					uv0:HandleShowMsgBox({
+						hideNo = true,
+						type = MSGBOX_TYPE_DROP_ITEM,
+						name = uv1.buff_name,
+						content = uv1.buff_desc,
+						iconPath = {
+							"strategyicon/" .. uv1.buff_icon
+						},
+						yesText = pg.MsgboxMgr.TEXT_CONFIRM
+					})
+				end, SFX_PANEL)
 
-			FLOW; TARGET BLOCK #1
+				return
+			end
 
+			if slot1 - #uv3 + 1 <= #uv4 then
+				slot3 = uv4[slot1 + 1]
 
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 51-58, warpins: 1 ---
-			if slot1 + 1 <= #slot0 + #slot2 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 59-96, warpins: 1 ---
-				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot2[(slot1 + 1) - #slot0].id].icon, "", slot2)
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot3.id].icon, "", slot2)
 				setActive(findTF(slot2, "times"), true)
-				setText(findTF(slot2, "times"), slot2[(slot1 + 1) - #slot0].count)
-				onButton(slot1, slot2, function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-26, warpins: 1 ---
-					slot0:HandleShowMsgBox({
+				setText(findTF(slot2, "times"), slot3.count)
+				onButton(uv2, slot2, function ()
+					uv0:HandleShowMsgBox({
 						yesText = "text_confirm",
 						hideNo = true,
 						content = "",
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
 							type = DROP_TYPE_STRATEGY,
-							id = slot1.id,
-							cfg = slot1
+							id = uv1.id,
+							cfg = uv1
 						},
-						extendDesc = string.format(i18n("word_rest_times"), slot2.count)
+						extendDesc = string.format(i18n("word_rest_times"), uv2.count)
 					})
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
 				end, SFX_PANEL)
-				--- END OF BLOCK #0 ---
 
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 97-106, warpins: 1 ---
-				if slot1 + 1 <= #slot0 + #slot2 + slot1 + 1 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 107-127, warpins: 1 ---
-					GetImageSpriteFromAtlasAsync("strategyicon/" .. slot4.icon, "", slot2)
-
-					slot3 = slot2:GetComponent(typeof(Image))
-
-					onButton(slot1, slot2, function ()
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 1-19, warpins: 1 ---
-						slot0:HandleShowMsgBox({
-							yesText = "text_confirm",
-							hideNo = true,
-							type = MSGBOX_TYPE_DROP_ITEM,
-							name = i18n("submarine_approach"),
-							content = i18n("submarine_approach_desc"),
-							sprite = slot1.sprite
-						})
-
-						return
-						--- END OF BLOCK #0 ---
-
-
-
-					end, SFX_PANEL)
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 128-181, warpins: 1 ---
-					GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot5[(slot1 + 1) - #slot0 - #slot2 - slot5].getConfig(slot3, "icon"), "", slot2)
-					setText(findTF(slot2, "Text"), "Lv." .. slot5[(slot1 + 1) - #slot0 - #slot2 - slot5].getConfig(slot3, "lv"))
-					setActive(findTF(slot2, "Text"), true)
-					setActive(findTF(slot2, "frame"), true)
-					onButton(slot1, slot2, function ()
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 1-8, warpins: 1 ---
-						slot0:emit(LevelMediator2.ON_COMMANDER_SKILL, slot0)
-
-						return
-						--- END OF BLOCK #0 ---
-
-
-
-					end, SFX_PANEL)
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+				return
 			end
-			--- END OF BLOCK #1 ---
 
+			if slot1 - #uv4 + 1 <= uv5 then
+				GetImageSpriteFromAtlasAsync("strategyicon/submarine_approach", "", slot2)
 
+				slot3 = slot2:GetComponent(typeof(Image))
 
+				onButton(uv2, slot2, function ()
+					uv0:HandleShowMsgBox({
+						yesText = "text_confirm",
+						hideNo = true,
+						type = MSGBOX_TYPE_DROP_ITEM,
+						name = i18n("submarine_approach"),
+						content = i18n("submarine_approach_desc"),
+						iconPath = {
+							"strategyicon/submarine_approach"
+						}
+					})
+				end, SFX_PANEL)
+
+				return
+			end
+
+			slot3 = uv6[slot1 - uv5 + 1]
+
+			GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3:getConfig("icon"), "", slot2)
+			setText(findTF(slot2, "Text"), "Lv." .. slot3:getConfig("lv"))
+			setActive(findTF(slot2, "Text"), true)
+			setActive(findTF(slot2, "frame"), true)
+			onButton(uv2, slot2, function ()
+				uv0:emit(LevelMediator2.ON_COMMANDER_SKILL, uv1)
+			end, SFX_PANEL)
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 182-182, warpins: 5 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
-	slot12:align(#slot3 + #slot5 + slot8 + #_.map(_.values(slot2:getCommanders()), function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
+	slot11:align(#slot3 + #slot4 + #slot6 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
 		return slot0:getSkills()[1]
-		--- END OF BLOCK #0 ---
-
-
-
 	end))
 
 	if OPEN_AIR_DOMINANCE and slot1:getConfig("air_dominance") > 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 134-136, warpins: 1 ---
 		slot0:updateAirDominance()
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #7 ---
-
-	FLOW; TARGET BLOCK #8
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #8 137-141, warpins: 3 ---
 	slot0:updateChapterBuff()
-
-	return
-	--- END OF BLOCK #8 ---
-
-
-
 end
 
 function slot0.updateChapterBuff(slot0)
+	slot3 = slot0.contextData.chapterVO:hasMitigation()
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
-	SetActive(findTF(slot0.topStage, "chapter_buff"), slot0.contextData.chapterVO.hasMitigation(slot1))
+	SetActive(findTF(slot0.topStage, "chapter_buff"), slot3)
 
-	if slot0.contextData.chapterVO.hasMitigation(slot1) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-31, warpins: 1 ---
-		GetImageSpriteFromAtlasAsync("passstate", slot4 .. "_icon", slot2)
+	if slot3 then
+		GetImageSpriteFromAtlasAsync("passstate", slot1:getRiskLevel() .. "_icon", slot2)
 		onButton(slot0, slot2, function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-6, warpins: 1 ---
-			if not slot0:hasMitigation() then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 7-7, warpins: 1 ---
+			if not uv0:hasMitigation() then
 				return
-				--- END OF BLOCK #0 ---
-
-
-
 			end
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 8-36, warpins: 2 ---
-			slot1:HandleShowMsgBox({
+			uv1:HandleShowMsgBox({
 				hideNo = true,
 				type = MSGBOX_TYPE_DROP_ITEM,
-				name = slot0:getChapterState(),
-				sprite = getImageSprite(slot2),
-				content = i18n("level_risk_level_mitigation_rate", slot0:getRemainPassCount(), slot0:getMitigationRate())
+				name = uv0:getChapterState(),
+				iconPath = {
+					"passstate",
+					uv2 .. "_icon"
+				},
+				content = i18n("level_risk_level_mitigation_rate", uv0:getRemainPassCount(), uv0:getMitigationRate())
 			})
-
-			return
-			--- END OF BLOCK #1 ---
-
-
-
 		end, SFX_PANEL)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 32-33, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.updateAirDominance(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	slot1, slot2, slot3 = slot0.contextData.chapterVO:getAirDominanceValue()
 
 	if not slot3 or slot3 ~= slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-23, warpins: 2 ---
 		slot0.contextData.chapterVO:setAirDominanceStatus(slot2)
 		getProxy(ChapterProxy):updateChapter(slot0.contextData.chapterVO)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
+	slot0.isChange = slot3 and (slot2 == 0 and 3 or slot2) - (slot3 == 0 and 3 or slot3)
 
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 24-25, warpins: 2 ---
-	if slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 26-27, warpins: 1 ---
-		if slot2 == 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 28-29, warpins: 1 ---
-			slot4 = 3
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 30-30, warpins: 1 ---
-			slot4 = slot2
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 31-32, warpins: 2 ---
-		if slot3 == 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 33-34, warpins: 1 ---
-			slot5 = 3
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 35-35, warpins: 1 ---
-			slot5 = slot3
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 36-36, warpins: 2 ---
-		slot4 = slot4 - slot5
-		--- END OF BLOCK #2 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 37-44, warpins: 2 ---
-	slot0.isChange = slot4
-	slot5 = slot0
-	slot4 = slot0.updateAirDominanceTitle
-	slot6 = slot1
-	slot7 = slot2
-
-	if not slot0.isChange then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 45-45, warpins: 1 ---
-		slot8 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 46-47, warpins: 2 ---
-	slot4(slot5, slot6, slot7, slot8)
-
-	return
-	--- END OF BLOCK #3 ---
-
-
-
+	slot0:updateAirDominanceTitle(slot1, slot2, slot0.isChange or 0)
 end
 
 function slot0.updateAirDominanceTitle(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-53, warpins: 1 ---
 	slot7 = findTF(slot0.airSupremacy, "value2")
 
-	setText(slot4, i18n("level_scene_title_word_3"))
-	setText(slot5, i18n("level_scene_title_word_4"))
-	setText(slot6, math.floor(slot1))
-	setActive(slot8, false)
+	setText(findTF(slot0.airSupremacy, "label1"), i18n("level_scene_title_word_3"))
+	setText(findTF(slot0.airSupremacy, "label2"), i18n("level_scene_title_word_4"))
+	setText(findTF(slot0.airSupremacy, "value1"), math.floor(slot1))
+	setActive(findTF(slot0.airSupremacy, "up"), false)
 	setActive(findTF(slot0.airSupremacy, "down"), false)
 
 	if slot3 ~= 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 54-61, warpins: 1 ---
 		if LeanTween.isTweening(go(slot7)) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 62-67, warpins: 1 ---
 			LeanTween.cancel(go(slot7))
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 68-116, warpins: 2 ---
 		LeanTween.value(go(slot7), 1, 0, 0.5):setOnUpdate(System.Action_float(function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-5, warpins: 1 ---
-			setTextAlpha(slot0, slot0)
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
+			setTextAlpha(uv0, slot0)
 		end)):setOnComplete(System.Action(function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-33, warpins: 1 ---
-			setText(setText, ChapterConst.AirDominance[setText].name)
-			setTextColor(setTextColor, ChapterConst.AirDominance[setTextColor].color)
-			LeanTween.value(go(slot0), 0, 1, 0.5):setOnUpdate(System.Action_float(function (slot0)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-5, warpins: 1 ---
-				setTextAlpha(slot0, slot0)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
+			setText(uv0, ChapterConst.AirDominance[uv1].name)
+			setTextColor(uv0, ChapterConst.AirDominance[uv1].color)
+			LeanTween.value(go(uv0), 0, 1, 0.5):setOnUpdate(System.Action_float(function (slot0)
+				setTextAlpha(uv0, slot0)
 			end))
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
 		end))
+
+		function slot10(slot0)
+			setActive(slot0, false)
+		end
+
 		slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(slot10)
 		slot9:GetComponent(typeof(DftAniEvent)):SetEndEvent(slot10)
-
-		slot11 = setActive
-		slot12 = slot8
-
-		if slot3 <= 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 117-118, warpins: 1 ---
-			slot13 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 119-119, warpins: 1 ---
-			slot13 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 120-125, warpins: 2 ---
-		slot11(slot12, slot13)
-
-		slot11 = setActive
-		slot12 = slot9
-
-		if slot3 >= 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 126-127, warpins: 1 ---
-			slot13 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 128-128, warpins: 1 ---
-			slot13 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 129-130, warpins: 2 ---
-		slot11(slot12, slot13)
-		--- END OF BLOCK #3 ---
-
-
-
+		setActive(slot8, slot3 > 0)
+		setActive(slot9, slot3 < 0)
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 131-144, warpins: 1 ---
 		setText(slot7, ChapterConst.AirDominance[slot2].name)
 		setTextColor(slot7, ChapterConst.AirDominance[slot2].color)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 145-146, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
-end
-
-function slot0.updateShamProgress(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
-	setText(findTF(slot0.topStage, "msg_panel/sham_progress/value"), slot0.contextData.chapterVO.progress .. " / " .. ChapterConst.ShamEnemyLimit)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.UpdateDefenseStatus(slot0)
+	slot2 = slot0.contextData.chapterVO:getPlayType() == ChapterConst.TypeDefence
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-9, warpins: 1 ---
-	if slot0.contextData.chapterVO.getPlayType(slot1) ~= ChapterConst.TypeDefence then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-11, warpins: 1 ---
-		slot2 = false
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-12, warpins: 1 ---
-		slot2 = true
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 13-22, warpins: 2 ---
 	setActive(findTF(slot0.bottomStage, "normal/shengfu"), slot2)
 
 	if not slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 23-23, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 24-49, warpins: 2 ---
 	findTF(slot3, "hp"):GetComponent(typeof(Text)).text = i18n("desc_base_hp", "<color=#92FC63>" .. tostring(slot1.BaseHP) .. "</color>", pg.chapter_defense[slot1.id].port_hp)
-
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.DisplayWinConditionPanel(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if IsNil(slot0.winCondPanel) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-19, warpins: 1 ---
 		slot0.winCondPanel = WinConditionDisplayPanel.New(slot0._tf.parent, slot0._event, slot0.contextData)
 		slot0.winCondPanel.ParentView = slot0
 
 		slot0.winCondPanel:Load()
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 20-27, warpins: 2 ---
 	slot0.winCondPanel:ActionInvoke("Enter", slot0.contextData.chapterVO)
-
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
-slot2 = Vector2(396, 128)
-slot3 = Vector2(128, 128)
+function slot0.UpdateComboPanel(slot0)
+	if pg.chapter_pop_template[slot0.contextData.chapterVO.id] and slot2.combo_on then
+		slot3, slot4 = slot0:GetSubView("LevelStageComboPanel")
 
-function slot0.updateStageStrategy(slot0)
+		if slot4 then
+			slot3:Load()
+			slot3.buffer:SetParent(slot0.leftStage, false)
+		end
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-28, warpins: 1 ---
-	slot2 = slot0.contextData.chapterVO.fleet
-	slot5 = findTF(slot4, "click")
-	slot7 = findTF(slot4, "items").GetComponent(slot6, typeof(GridLayoutGroup))
+		slot3.buffer:UpdateView(getProxy(ChapterProxy):GetComboHistory(slot1.id) or slot1)
+		slot3.buffer:UpdateViewAnimated(slot1)
+	end
+end
 
-	if not slot0._showStrategyDetail or not slot0 then
+slot2 = {
+	[4050.0] = "LevelStageIMasFeverPanel",
+	[777.0] = "LevelStageDOAFeverPanel"
+}
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 32-32, warpins: 2 ---
-		slot8 = slot1
-		--- END OF BLOCK #0 ---
-
-
-
+function slot0.UpdateDOALinkFeverPanel(slot0)
+	if slot0.contextData.chapterVO:getPlayType() ~= ChapterConst.TypeDOALink then
+		return
 	end
 
-	--- END OF BLOCK #0 ---
+	slot4, slot5 = slot0:GetSubView(uv0[slot1:getConfig("act_id")])
 
-	FLOW; TARGET BLOCK #1
+	if slot5 then
+		slot4:Load()
+		slot4.buffer:SetParent(slot0._tf, false)
+	end
 
+	slot4.buffer:UpdateView(slot1, getProxy(ChapterProxy):GetLastDefeatedEnemy(slot1.id))
+end
 
+slot3 = Vector2(396, 128)
+slot4 = Vector2(128, 128)
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 33-63, warpins: 2 ---
-	slot7.cellSize = slot8
-	slot9 = findTF(slot3, "collapse")
+function slot0.updateStageStrategy(slot0)
+	slot2 = slot0.contextData.chapterVO.fleet
+	slot4 = findTF(findTF(slot0.rightStage, "event"), "detail")
+	findTF(slot4, "items"):GetComponent(typeof(GridLayoutGroup)).cellSize = slot0._showStrategyDetail and uv0 or uv1
+	slot8 = findTF(slot6, "item")
 
 	setActive(slot8, false)
 
-	slot11 = {}
-	slot12 = {}
+	slot11 = nil
 
-	_.each(slot10, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-9, warpins: 1 ---
-		if pg.strategy_data_template[slot0.id].type == ChapterConst.StgTypeForm then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-15, warpins: 1 ---
-			table.insert(slot0, slot0.id)
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 16-20, warpins: 1 ---
-			table.insert(slot1, slot0)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 21-21, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
-	end)
-
-	if _.any(slot1.fleets, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-7, warpins: 1 ---
-		if slot0:getFleetType() ~= FleetType.Submarine then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 8-9, warpins: 1 ---
-			slot1 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-10, warpins: 1 ---
-			slot1 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 11-11, warpins: 2 ---
-		return slot1
-		--- END OF BLOCK #1 ---
-
-
-
-	end) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 64-90, warpins: 1 ---
-		table.insert(slot12, 2, {
-			id = ChapterConst.StrategySubTeleport
-		})
-		table.insert(slot12, 2, {
-			id = ChapterConst.StrategySubAutoAttack
-		})
-		table.insert(slot12, 2, {
-			id = ChapterConst.StrategyHuntingRange
-		})
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 91-95, warpins: 2 ---
-	if #slot1.strategies > 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 96-99, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 100-108, warpins: 0 ---
-		for slot16, slot17 in pairs(slot1.strategies) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 100-106, warpins: 1 ---
-			table.insert(slot12, {
-				id = slot16,
-				count = slot17
-			})
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 107-108, warpins: 2 ---
-			--- END OF BLOCK #1 ---
-
-
-
-		end
-		--- END OF BLOCK #1 ---
-
-
-
-	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 109-149, warpins: 2 ---
-	table.insert(slot12, 1, {
-		id = slot2:getFormationStg()
-	})
-
-	slot14 = UIItemList.New(slot6, slot8)
-
-	slot14:make(function (slot0, slot1, slot2)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-4, warpins: 1 ---
+	UIItemList.StaticAlign(slot6, slot8, #slot1:GetActiveStrategies(), function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 5-26, warpins: 1 ---
-			setActive(slot3, slot0._showStrategyDetail)
+			setActive(slot2:Find("detail"), uv0._showStrategyDetail)
 
 			slot4 = slot2:Find("icon")
 			slot6, slot7 = nil
 
-			if slot1[slot1 + 1].id == ChapterConst.StrategyHuntingRange then
+			if uv1[slot1 + 1].id == ChapterConst.StrategyHuntingRange then
+				slot6 = ChapterConst.StgTypeConst
+				slot7 = uv0.contextData.huntingRangeVisibility % 2 == 1 and "range_invisible" or "range_visible"
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 27-33, warpins: 1 ---
-				slot6 = 1
-
-				if slot0.contextData.huntingRangeVisibility % 2 == 1 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 34-35, warpins: 1 ---
-					slot7 = "range_invisible"
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 36-36, warpins: 1 ---
-					slot7 = "range_visible"
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 37-43, warpins: 2 ---
 				setText(slot3, i18n("help_sub_limits"))
-				--- END OF BLOCK #1 ---
+			elseif slot5.id == ChapterConst.StrategySubAutoAttack then
+				slot6 = ChapterConst.StgTypeConst
+				slot7 = uv2.subAutoAttack == 0 and "sub_dont_auto_attack" or "sub_auto_attack"
 
-
-
+				setText(slot3, i18n("help_sub_display"))
 			else
+				slot8 = pg.strategy_data_template[slot5.id]
+				slot6 = slot8.type
+				slot7 = slot8.icon
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 44-48, warpins: 1 ---
-				if slot5.id == ChapterConst.StrategySubAutoAttack then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 49-53, warpins: 1 ---
-					slot6 = 1
-
-					if slot2.subAutoAttack == 0 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 54-55, warpins: 1 ---
-						slot7 = "sub_dont_auto_attack"
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 56-56, warpins: 1 ---
-						slot7 = "sub_auto_attack"
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 57-63, warpins: 2 ---
-					setText(slot3, i18n("help_sub_display"))
-					--- END OF BLOCK #1 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 64-73, warpins: 1 ---
-					slot6 = pg.strategy_data_template[slot5.id].type
-					slot7 = pg.strategy_data_template[slot5.id].icon
-
-					setText(slot3, pg.strategy_data_template[slot5.id].desc)
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+				setText(slot3, slot8.desc)
 			end
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 74-93, warpins: 3 ---
 			GetImageSpriteFromAtlasAsync("strategyicon/" .. slot7, "", slot4:Find("icon"))
-			onButton(slot0, slot4, function ()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-7, warpins: 1 ---
-				if slot0.grid.quadState == ChapterConst.QuadStateStrategy and slot0.grid.quadClickProxy then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 13-17, warpins: 1 ---
-					slot0.grid.quadClickProxy()
+			onButton(uv0, slot4, function ()
+				if uv0.grid.quadState == ChapterConst.QuadStateStrategy and uv0.grid.quadClickProxy then
+					uv0.grid.quadClickProxy()
 
 					return
-					--- END OF BLOCK #0 ---
-
-
-
 				end
 
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 18-23, warpins: 2 ---
-				if slot1.id == ChapterConst.StrategyHuntingRange then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 24-35, warpins: 1 ---
-					slot0.grid:toggleHuntingRange()
-					slot2.callback(slot3, slot4, slot5)
-					--- END OF BLOCK #0 ---
-
-
-
+				if uv1.id == ChapterConst.StrategyHuntingRange then
+					uv0.grid:toggleHuntingRange()
+					uv2(uv3, uv4, uv5)
+				elseif uv1.id == ChapterConst.StrategySubAutoAttack then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ai_change_" .. 1 - uv6.subAutoAttack + 1))
+					uv0:emit(LevelMediator2.ON_OP, {
+						type = ChapterConst.OpSubState,
+						arg1 = 1 - uv6.subAutoAttack
+					})
 				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 36-41, warpins: 1 ---
-					if slot1.id == ChapterConst.StrategySubAutoAttack then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 42-71, warpins: 1 ---
-						pg.TipsMgr.GetInstance():ShowTips(i18n("ai_change_" .. 1 - slot6.subAutoAttack + 1))
-						pg.TipsMgr.GetInstance().ShowTips:emit(LevelMediator2.ON_OP, {
-							type = ChapterConst.OpSubState,
-							arg1 = 1 - slot6.subAutoAttack
-						})
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 72-77, warpins: 1 ---
-						if slot1.id == ChapterConst.StrategyExchange then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 78-86, warpins: 1 ---
-							if slot6:getNextValidIndex(slot6.findex) > 0 and slot1.count > 0 then
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 92-102, warpins: 1 ---
-								slot0:HandleShowMsgBox({
-									content = i18n("levelScene_who_to_exchange"),
-									onYes = function ()
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #0 1-23, warpins: 1 ---
-										slot0:emit(LevelMediator2.ON_OP, {
-											type = ChapterConst.OpStrategy,
-											id = slot1.id,
-											arg1 = ChapterConst.StrategyExchange,
-											arg2 = slot2.fleets[].id
-										})
-
-										return
-										--- END OF BLOCK #0 ---
-
-
-
-									end
-								})
-								--- END OF BLOCK #0 ---
-
-
-
-							end
-
-							--- END OF BLOCK #0 ---
-
-							FLOW; TARGET BLOCK #1
-
-
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #1 103-103, warpins: 3 ---
-							return
-							--- END OF BLOCK #1 ---
-
-
-
+					if uv1.id == ChapterConst.StrategyExchange then
+						if uv6:getNextValidIndex(uv6.findex) > 0 and uv1.count > 0 then
+							uv0:HandleShowMsgBox({
+								content = i18n("levelScene_who_to_exchange"),
+								onYes = function ()
+									uv0:emit(LevelMediator2.ON_OP, {
+										type = ChapterConst.OpStrategy,
+										id = uv1.id,
+										arg1 = ChapterConst.StrategyExchange,
+										arg2 = uv2.fleets[uv3].id
+									})
+								end
+							})
 						end
 
-						--- END OF BLOCK #0 ---
-
-						FLOW; TARGET BLOCK #1
-
-
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #1 104-109, warpins: 1 ---
-						if slot1.id == ChapterConst.StrategySubTeleport then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 110-136, warpins: 1 ---
-							slot0:SwitchBottomStage(true)
-							slot0.SwitchBottomStage.grid:ShowStaticHuntingRange()
-							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange:updateStageStrategy()
-							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange.updateStageStrategy.grid:PrepareSubTeleport()
-							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange.updateStageStrategy.grid.PrepareSubTeleport.grid:updateQuadCells(ChapterConst.QuadStateTeleportSub)
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 137-141, warpins: 1 ---
-							if slot8 == ChapterConst.StgTypeForm then
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 142-172, warpins: 1 ---
-								slot0:emit(LevelMediator2.ON_OP, {
-									type = ChapterConst.OpStrategy,
-									id = slot7:getNextStgUser(slot1.id),
-									arg1 = slot9[table.indexof(slot9, slot1.id) % #slot9 + 1]
-								})
-								--- END OF BLOCK #0 ---
-
-
-
-							else
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 173-179, warpins: 1 ---
-								slot0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, slot0)
-								--- END OF BLOCK #0 ---
-
-
-
-							end
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #1 ---
-
-
-
+						return
 					end
-					--- END OF BLOCK #0 ---
 
-
-
+					if uv1.id == ChapterConst.StrategySubTeleport then
+						uv0:SwitchBottomStage(true)
+						uv0.grid:ShowStaticHuntingRange()
+						uv0:updateStageStrategy()
+						uv0.grid:PrepareSubTeleport()
+						uv0.grid:updateQuadCells(ChapterConst.QuadStateTeleportSub)
+					elseif uv8 == ChapterConst.StgTypeForm then
+						uv0:emit(LevelMediator2.ON_OP, {
+							type = ChapterConst.OpStrategy,
+							id = uv7.id,
+							arg1 = ChapterConst.StrategyForms[table.indexof(ChapterConst.StrategyForms, uv1.id) % #ChapterConst.StrategyForms + 1]
+						})
+					else
+						uv0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, uv1)
+					end
 				end
-				--- END OF BLOCK #1 ---
-
-				FLOW; TARGET BLOCK #2
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #2 180-180, warpins: 6 ---
-				--- END OF BLOCK #2 ---
-
-				FLOW; TARGET BLOCK #3
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #3 181-181, warpins: 2 ---
-				--- END OF BLOCK #3 ---
-
-
-
 			end, SFX_PANEL)
 
-			if slot6 == ChapterConst.StgTypeForm or slot6 == ChapterConst.StgTypeConst then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 98-120, warpins: 2 ---
+			if slot6 == ChapterConst.StgTypeForm then
 				setText(slot4:Find("nums"), "")
 				setActive(slot4:Find("mask"), false)
-
-				slot8 = setActive
-				slot9 = slot4:Find("selected")
-
-				if slot6 ~= slot5.id then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 121-122, warpins: 1 ---
-					slot10 = false
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 123-123, warpins: 1 ---
-					slot10 = true
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 124-125, warpins: 2 ---
-				slot8(slot9, slot10)
-				--- END OF BLOCK #1 ---
-
-
-
+				setActive(slot4:Find("selected"), true)
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 126-140, warpins: 1 ---
-				setText(slot4:Find("nums"), slot5.count)
-
-				slot8 = setActive
-				slot9 = slot4:Find("mask")
-
-				if slot5.count ~= 0 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 141-142, warpins: 1 ---
-					slot10 = false
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 143-143, warpins: 1 ---
-					slot10 = true
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 144-151, warpins: 2 ---
-				slot8(slot9, slot10)
+				setText(slot4:Find("nums"), slot5.count or "")
+				setActive(slot4:Find("mask"), slot5.count == 0)
 				setActive(slot4:Find("selected"), false)
-				--- END OF BLOCK #1 ---
-
-
-
 			end
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 152-152, warpins: 2 ---
-			--- END OF BLOCK #2 ---
-
-
-
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 153-154, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
-	slot14:align(#slot12)
-	onButton(slot0, slot5, function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-26, warpins: 1 ---
-		shiftPanel(shiftPanel, slot0.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-		shiftPanel(shiftPanel, -30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+	onButton(slot0, findTF(slot4, "click"), function ()
+		shiftPanel(uv0, uv0.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+		shiftPanel(uv1, -30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	end, SFX_PANEL)
-	onButton(slot0, slot9, function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-26, warpins: 1 ---
-		shiftPanel(shiftPanel, 35, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-		shiftPanel(shiftPanel, slot1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+	onButton(slot0, findTF(slot3, "collapse"), function ()
+		shiftPanel(uv0, 35, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+		shiftPanel(uv1, uv1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	end, SFX_PANEL)
-
-	if pg.chapter_pop_template[slot1.id] and slot15.combo_on then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 153-158, warpins: 1 ---
-		slot16, slot17 = slot0:GetSubView("LevelStageComboPanel")
-
-		if slot17 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 159-166, warpins: 1 ---
-			slot16:Load()
-			slot16.buffer:AfterLoaded(function ()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-9, warpins: 1 ---
-				slot0._tf:SetParent(slot1.leftStage, false)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
-			end)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 167-174, warpins: 2 ---
-		if getProxy(ChapterProxy).comboHistoryBuffer[slot1.id] then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 175-184, warpins: 1 ---
-			slot16.buffer:UpdateView(slot19)
-
-			slot18.comboHistoryBuffer[slot1.id] = nil
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 185-189, warpins: 1 ---
-			slot16.buffer:UpdateView(slot1)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 190-195, warpins: 2 ---
-		slot16.buffer:UpdateViewAnimated(slot1)
-		--- END OF BLOCK #2 ---
-
-
-
-	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 196-197, warpins: 3 ---
-	return
-	--- END OF BLOCK #4 ---
-
-
-
-end
-
-function slot0.SwitchAnchorandShift(slot0, slot1, slot2, ...)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
-	rtf(slot1).anchorMin = slot2
-	rtf(slot1).anchorMax = slot2
-
-	shiftPanel(slot1, ...)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.GetSubView(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if slot0.attachSubViews[slot1] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-7, warpins: 1 ---
 		return slot0.attachSubViews[slot1]
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
+	slot2 = _G[slot1].New(slot0)
+	slot0.attachSubViews[slot1] = slot2
 
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-20, warpins: 2 ---
-	slot0.attachSubViews[slot1] = import("view.level." .. slot1).New(slot0)
-
-	return import("view.level." .. slot1).New(slot0), true
-	--- END OF BLOCK #1 ---
-
-
-
+	return slot2, true
 end
 
 function slot0.RemoveSubView(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if not slot0.attachSubViews[slot1] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-6, warpins: 1 ---
 		return false
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-16, warpins: 2 ---
 	slot0.attachSubViews[slot1]:Destroy()
 
 	slot0.attachSubViews[slot1] = nil
 
 	return true
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.ClearSubViews(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 5-9, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.attachSubViews) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-7, warpins: 1 ---
 		slot5:Destroy()
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 8-9, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 10-14, warpins: 1 ---
 	table.clear(slot0.attachSubViews)
-
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.updateStageFleet(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-57, warpins: 1 ---
+	slot1 = slot0.contextData.chapterVO
 	slot2 = findTF(slot0.leftStage, "fleet")
 
-	setActive(slot3, false)
-	setText(slot4, slot0.contextData.chapterVO.fleet.id)
-	slot5(slot2:Find("main"), slot0.contextData.chapterVO.fleet:getShipsByTeam(TeamType.Main, true))
-	slot5(slot2:Find("vanguard"), slot0.contextData.chapterVO.fleet:getShipsByTeam(TeamType.Vanguard, true))
-	slot0.contextData.chapterVO.fleet:clearShipHpChange()
+	setActive(findTF(slot2, "shiptpl"), false)
+	setText(slot0:findTF("msg_panel/fleet_info/number", slot0.topStage), slot1.fleet.id)
 
-	return
-	--- END OF BLOCK #0 ---
+	slot5 = slot1.fleet:getShips(true)
 
+	function slot6(slot0, slot1)
+		slot2 = UIItemList.New(slot0, uv0)
 
+		slot2:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				slot3 = uv0[slot1 + 1]
 
+				updateShip(slot2, slot3)
+
+				slot4 = slot3.hpRant
+				slot7 = slot3.hpChange or 0
+				slot7 = findTF(slot2, "HP_POP")
+
+				setActive(slot7, true)
+				setActive(findTF(slot7, "heal"), false)
+				setActive(findTF(slot7, "normal"), false)
+
+				if math.floor(slot7 / 10000 * slot3:getShipProperties()[AttributeType.Durability]) > 0 then
+					function (slot0, slot1)
+						setActive(slot0, true)
+						setText(findTF(slot0, "text"), slot1)
+						setTextAlpha(findTF(slot0, "text"), 0)
+						LeanTween.moveY(slot0, 60, 1)
+						LeanTween.textAlpha(findTF(slot0, "text"), 1, 0.3)
+						LeanTween.textAlpha(findTF(slot0, "text"), 0, 0.5):setDelay(0.7):setOnComplete(System.Action(function ()
+							uv0.localPosition = Vector3(0, 0, 0)
+						end))
+					end(findTF(slot7, "heal"), slot6)
+				elseif slot6 < 0 then
+					LeanTween.delayedCall(0.6, System.Action(function ()
+						LeanTween.moveX(uv0, uv0.transform.localPosition.x, 0.05):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(4)
+						LeanTween.alpha(findTF(uv0, "red"), 0.5, 0.4)
+						LeanTween.alpha(findTF(uv0, "red"), 0, 0.4):setDelay(0.4)
+						uv1(findTF(uv2, "normal"), uv3)
+					end))
+				end
+
+				slot9 = findTF(slot2, "blood")
+				slot10 = findTF(slot2, "blood/fillarea/green")
+				slot11 = findTF(slot2, "blood/fillarea/red")
+				slot12 = slot4 < ChapterConst.HpGreen
+
+				setActive(slot10, not slot12)
+				setActive(slot11, slot12)
+
+				slot9:GetComponent(typeof(Slider)).fillRect = slot12 and slot11 or slot10
+
+				setSlider(slot9, 0, 10000, slot4)
+				setActive(findTF(slot2, "repairmask"), slot12)
+				onButton(uv1, slot2:Find("repairmask"), function ()
+					uv0:emit(LevelUIConst.DISPLAY_REPAIR_WINDOW, uv1)
+				end, SFX_PANEL)
+
+				slot13 = findTF(slot2, "repairmask/icon").gameObject
+
+				if not slot12 then
+					LeanTween.cancel(slot13)
+					setImageAlpha(slot13, 1)
+				end
+
+				if slot12 and not LeanTween.isTweening(slot13) then
+					LeanTween.alpha(rtf(slot13), 0, 2):setLoopPingPong()
+				end
+
+				slot14 = GetOrAddComponent(slot2, "UILongPressTrigger").onLongPressed
+
+				pg.DelegateInfo.Add(uv1, slot14)
+				slot14:RemoveAllListeners()
+				slot14:AddListener(function ()
+					uv0:emit(LevelMediator2.ON_STAGE_SHIPINFO, {
+						shipId = uv1.id,
+						shipVOs = uv2
+					})
+				end)
+			end
+		end)
+		slot2:align(#slot1)
+	end
+
+	slot6(slot2:Find("main"), slot1.fleet:getShipsByTeam(TeamType.Main, true))
+	slot6(slot2:Find("vanguard"), slot1.fleet:getShipsByTeam(TeamType.Vanguard, true))
+	slot1.fleet:clearShipHpChange()
 end
 
 function slot0.ShiftStagePanelIn(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-46, warpins: 1 ---
 	shiftPanel(slot0.topStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine, slot1)
-	shiftPanel(slot0.bottomStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	slot0:ShiftBottomStage(true)
 	shiftPanel(slot0.leftStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.rightStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.ShiftStagePanelOut(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-58, warpins: 1 ---
 	shiftPanel(slot0.topStage, 0, slot0.topStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine, slot1)
-	shiftPanel(slot0.bottomStage, 0, -slot0.bottomStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	slot0:ShiftBottomStage(false)
 	shiftPanel(slot0.leftStage, -slot0.leftStage.rect.width - 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.rightStage, slot0.rightStage.rect.width + 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+end
 
-	return
-	--- END OF BLOCK #0 ---
-
-
-
+function slot0.ShiftBottomStage(slot0, slot1)
+	shiftPanel(slot0.bottomStage, 0, not slot0.bottomStageInactive and slot1 and 0 or -slot0.bottomStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 end
 
 function slot0.SwitchBottomStage(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
 	setActive(slot0.teleportSubRole, true)
 	setActive(slot0.normalRole, true)
-
-	slot2 = shiftPanel
-	slot3 = slot0.teleportSubRole
-	slot4 = 0
-
-	if slot1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-15, warpins: 1 ---
-		slot5 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-16, warpins: 1 ---
-		slot5 = slot0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 17-28, warpins: 2 ---
-	slot2(slot3, slot4, slot5, 0.3, 0, true, true, nil, function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-6, warpins: 1 ---
-		setActive(slot0.teleportSubRole, )
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+	shiftPanel(slot0.teleportSubRole, 0, slot1 and 0 or uv0, 0.3, 0, true, true, nil, function ()
+		setActive(uv0.teleportSubRole, uv1)
 	end)
-
-	slot2 = shiftPanel
-	slot3 = slot0.normalRole
-	slot4 = 0
-
-	if not slot1 or not slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 32-32, warpins: 2 ---
-		slot5 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 33-43, warpins: 2 ---
-	slot2(slot3, slot4, slot5, 0.3, 0, true, true, nil, function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-7, warpins: 1 ---
-		setActive(slot0.normalRole, not slot1)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+	shiftPanel(slot0.normalRole, 0, slot1 and uv0 or 0, 0.3, 0, true, true, nil, function ()
+		setActive(uv0.normalRole, not uv1)
 	end)
-
-	slot2 = shiftPanel
-	slot3 = slot0.leftStage
-
-	if not slot1 or not (-slot0.leftStage.rect.width - 200) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 51-51, warpins: 2 ---
-		slot4 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 52-60, warpins: 2 ---
-	slot2(slot3, slot4, 0, 0.3, 0, true)
-
-	slot2 = shiftPanel
-	slot3 = slot0.rightStage
-
-	if not slot1 or not (slot0.rightStage.rect.width + 200) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 67-67, warpins: 2 ---
-		slot4 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 68-74, warpins: 2 ---
-	slot2(slot3, slot4, 0, 0.3, 0, true)
-
-	return
-	--- END OF BLOCK #4 ---
-
-
-
+	shiftPanel(slot0.leftStage, slot1 and -slot0.leftStage.rect.width - 200 or 0, 0, 0.3, 0, true)
+	shiftPanel(slot0.rightStage, slot1 and slot0.rightStage.rect.width + 200 or 0, 0, 0.3, 0, true)
 end
 
 function slot0.clickGridCell(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-20, warpins: 1 ---
-	slot3 = slot0.contextData.chapterVO.getDataType(slot2)
-	slot5 = slot0.contextData.chapterVO.getChapterCell(slot2, slot0.contextData.chapterVO.fleet.line.row, slot0.contextData.chapterVO.fleet.line.column)
-
-	if _.detect(slot0.contextData.chapterVO.fleets, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-7, warpins: 1 ---
-		if slot0:getFleetType() ~= FleetType.Normal or slot0.line.row ~= slot0.row or slot0.line.column ~= slot0.column then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 20-21, warpins: 3 ---
-			slot1 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-22, warpins: 1 ---
-			slot1 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 23-23, warpins: 2 ---
-		return slot1
-		--- END OF BLOCK #1 ---
-
-
-
-	end) and slot3 == ChapterConst.TypeNone and slot6:isValid() and slot6.id ~= slot4.id then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 34-46, warpins: 1 ---
+	if _.detect(slot2.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Normal and slot0.line.row == uv0.row and slot0.line.column == uv0.column
+	end) and slot4:isValid() and slot4.id ~= slot2.fleet.id then
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpSwitch,
-			id = slot6.id
+			id = slot4.id
 		})
 
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 47-51, warpins: 5 ---
 	if slot2:checkAnyInteractive() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 52-55, warpins: 1 ---
 		triggerButton(slot0.funcBtn)
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 56-62, warpins: 1 ---
-		if slot2:getRound() == ChapterConst.RoundEnemy then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 63-72, warpins: 1 ---
-			slot0:emit(LevelMediator2.ON_OP, {
-				type = ChapterConst.OpEnemyRound
-			})
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 73-74, warpins: 1 ---
-			if slot6 and slot3 == ChapterConst.TypeSham then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 79-84, warpins: 1 ---
-				slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 85-89, warpins: 2 ---
-				if slot1.row ~= slot4.line.row or slot1.column ~= slot4.line.column then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 95-104, warpins: 2 ---
-					if slot2:getChapterCell(slot1.row, slot1.column).attachment == ChapterConst.AttachStory and slot8.data == ChapterConst.StoryObstacle and slot8.flag == 3 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 113-119, warpins: 1 ---
-						if slot2:getPlayType() ~= ChapterConst.TypeDefence then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 120-129, warpins: 1 ---
-							pg.TipsMgr.GetInstance():ShowTips(i18n("map_event_stop_tip"))
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-
-						--- END OF BLOCK #0 ---
-
-						FLOW; TARGET BLOCK #1
-
-
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #1 130-132, warpins: 2 ---
-						return
-						--- END OF BLOCK #1 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 133-141, warpins: 3 ---
-						if not slot2:considerAsStayPoint(ChapterConst.SubjectPlayer, slot1.row, slot1.column) then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 142-144, warpins: 1 ---
-							return
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 145-149, warpins: 1 ---
-							if slot2:existMoveLimit() and not _.any(slot2:calcWalkableCells(ChapterConst.SubjectPlayer, slot4.line.row, slot4.line.column, slot4:getSpeed()), function (slot0)
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 1-5, warpins: 1 ---
-								if slot0.row ~= slot0.row or slot0.column ~= slot0.column then
-
-									-- Decompilation error in this vicinity:
-									--- BLOCK #0 11-12, warpins: 2 ---
-									slot1 = false
-									--- END OF BLOCK #0 ---
-
-
-
-								else
-
-									-- Decompilation error in this vicinity:
-									--- BLOCK #0 13-13, warpins: 1 ---
-									slot1 = true
-									--- END OF BLOCK #0 ---
-
-
-
-								end
-
-								--- END OF BLOCK #0 ---
-
-								FLOW; TARGET BLOCK #1
-
-
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #1 14-14, warpins: 2 ---
-								return slot1
-								--- END OF BLOCK #1 ---
-
-
-
-							end) then
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 169-180, warpins: 1 ---
-								pg.TipsMgr.GetInstance():ShowTips(i18n("destination_not_in_range"))
-
-								return
-								--- END OF BLOCK #0 ---
-
-
-
-							end
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 181-195, warpins: 5 ---
-					if slot2:findPath(ChapterConst.SubjectPlayer, slot4.line, {
-						row = slot1.row,
-						column = slot1.column
-					}) < PathFinding.PrioObstacle then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 196-211, warpins: 1 ---
-						slot0:emit(LevelMediator2.ON_OP, {
-							type = ChapterConst.OpMove,
-							id = slot4.id,
-							arg1 = slot1.row,
-							arg2 = slot1.column
-						})
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 212-215, warpins: 1 ---
-						if slot9 < PathFinding.PrioForbidden then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 216-226, warpins: 1 ---
-							pg.TipsMgr.GetInstance():ShowTips(i18n("destination_can_not_reach"))
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 227-236, warpins: 1 ---
-							pg.TipsMgr.GetInstance():ShowTips(i18n("destination_can_not_reach"))
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #1 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+	elseif slot2:getRound() == ChapterConst.RoundEnemy then
+		slot0:emit(LevelMediator2.ON_OP, {
+			type = ChapterConst.OpEnemyRound
+		})
+	elseif slot2:IsAutoFight() then
+		slot0:TryAutoFight()
+	elseif slot1.row ~= slot3.line.row or slot1.column ~= slot3.line.column then
+		if slot2:getChapterCell(slot1.row, slot1.column).attachment == ChapterConst.AttachStory and slot6.data == ChapterConst.StoryObstacle and slot6.flag == ChapterConst.CellFlagTriggerActive then
+			if pg.map_event_template[slot6.attachmentId] and slot7.gametip and #slot7.gametip > 0 and slot2:getPlayType() ~= ChapterConst.TypeDefence then
+				pg.TipsMgr.GetInstance():ShowTips(i18n(slot7.gametip))
 			end
-			--- END OF BLOCK #0 ---
 
+			return
+		elseif not slot2:considerAsStayPoint(ChapterConst.SubjectPlayer, slot1.row, slot1.column) then
+			return
+		elseif slot2:existMoveLimit() and not _.any(slot2:calcWalkableCells(ChapterConst.SubjectPlayer, slot3.line.row, slot3.line.column, slot3:getSpeed()), function (slot0)
+			return slot0.row == uv0.row and slot0.column == uv0.column
+		end) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("destination_not_in_range"))
 
-
+			return
 		end
-		--- END OF BLOCK #0 ---
 
-
-
+		if slot2:findPath(ChapterConst.SubjectPlayer, slot3.line, {
+			row = slot1.row,
+			column = slot1.column
+		}) < PathFinding.PrioObstacle then
+			slot0:emit(LevelMediator2.ON_OP, {
+				type = ChapterConst.OpMove,
+				id = slot3.id,
+				arg1 = slot1.row,
+				arg2 = slot1.column
+			})
+		elseif slot7 < PathFinding.PrioForbidden then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("destination_can_not_reach"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("destination_can_not_reach"))
+		end
 	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 237-238, warpins: 7 ---
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.tryAutoAction(slot0, slot1)
+	if slot0.doingAutoAction then
+		return
+	end
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
+	slot0.doingAutoAction = true
+
 	if not slot0.contextData.chapterVO then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-6, warpins: 1 ---
 		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 7-8, warpins: 1 ---
 			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 9-9, warpins: 2 ---
 		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 10-14, warpins: 1 ---
 	if slot0:SafeCheck() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-16, warpins: 1 ---
 		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-18, warpins: 1 ---
 			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 19-19, warpins: 2 ---
 		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 20-25, warpins: 1 ---
 	slot4 = false
-	slot5 = false
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 26-34, warpins: 0 ---
-	for slot9, slot10 in pairs(slot2.cells) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 26-30, warpins: 1 ---
-		if slot10.trait == ChapterConst.TraitLurk then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 31-32, warpins: 1 ---
+	for slot8, slot9 in pairs(slot2.cells) do
+		if slot9.trait == ChapterConst.TraitLurk then
 			slot4 = true
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 33-33, warpins: 1 ---
 			break
-			--- END OF BLOCK #1 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 33-34, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 35-38, warpins: 2 ---
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 39-53, warpins: 0 ---
-	for slot9, slot10 in ipairs(slot2.champions) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 39-43, warpins: 1 ---
-		if slot10.trait == ChapterConst.TraitLurk then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 44-49, warpins: 1 ---
+	for slot8, slot9 in ipairs(slot2.champions) do
+		if slot9.trait == ChapterConst.TraitLurk then
 			slot4 = true
 
-			if slot10.attachment == ChapterConst.AttachOni then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 50-51, warpins: 1 ---
-				slot5 = slot10
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 52-52, warpins: 1 ---
-				break
-				--- END OF BLOCK #1 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+			break
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 52-53, warpins: 3 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 54-58, warpins: 2 ---
+	slot5 = slot2:existOni()
 	slot6 = slot2:isPlayingWithBombEnemy()
 
-	if slot4 then
+	seriesAsync({
+		function (slot0)
+			uv0:emit(LevelUIConst.FROZEN)
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 59-72, warpins: 1 ---
-		seriesAsync({
-			function (slot0)
+			if not uv1 then
+				slot0()
+			elseif uv2 or uv3 then
+				slot1 = nil
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-9, warpins: 1 ---
-				slot0:emit(LevelUIConst.FROZEN)
-
-				if slot0.emit or slot2 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 13-16, warpins: 2 ---
-					if nil then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 17-17, warpins: 1 ---
-						slot1 = "SpUnit"
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 18-20, warpins: 2 ---
-					if slot2 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 21-21, warpins: 1 ---
-						slot1 = "SpBomb"
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-
-					--- END OF BLOCK #1 ---
-
-					FLOW; TARGET BLOCK #2
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #2 22-23, warpins: 2 ---
-					if slot1 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 24-34, warpins: 1 ---
-						slot0:emit(LevelUIConst.DO_PLAY_ANIM, {
-							name = slot1,
-							callback = function (slot0)
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 1-7, warpins: 1 ---
-								setActive(slot0, false)
-								slot0()
-
-								return
-								--- END OF BLOCK #0 ---
-
-
-
-							end
-						})
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #2 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 35-41, warpins: 1 ---
-					slot0:emit(LevelUIConst.DO_TRACKING, slot0)
-					--- END OF BLOCK #0 ---
-
-
-
+				if uv2 then
+					slot1 = "SpUnit"
 				end
 
-				--- END OF BLOCK #0 ---
+				if uv3 then
+					slot1 = "SpBomb"
+				end
 
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 42-43, warpins: 3 ---
-				return
-				--- END OF BLOCK #1 ---
-
-
-
-			end,
-			function (slot0)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-3, warpins: 1 ---
-				if (slot0 or slot1) and slot2:getSpAppearStory() and #slot1 > 0 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 17-27, warpins: 1 ---
-					pg.StoryMgr.GetInstance():Play(slot1, function ()
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 1-6, warpins: 1 ---
-						if slot0:getSpAppearGuide() and #slot0 > 0 then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 11-21, warpins: 1 ---
-							pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot0, nil, function ()
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 1-4, warpins: 1 ---
-								onNextTick(onNextTick)
-
-								return
-								--- END OF BLOCK #0 ---
-
-
-
-							end)
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 22-24, warpins: 2 ---
-							onNextTick(onNextTick)
-							--- END OF BLOCK #0 ---
-
-
-
+				if slot1 then
+					uv0:emit(LevelUIConst.DO_PLAY_ANIM, {
+						name = slot1,
+						callback = function (slot0)
+							setActive(slot0, false)
+							uv0()
 						end
-
-						--- END OF BLOCK #0 ---
-
-						FLOW; TARGET BLOCK #1
-
-
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #1 25-25, warpins: 2 ---
-						return
-						--- END OF BLOCK #1 ---
-
-
-
-					end)
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
+					})
 				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 28-31, warpins: 4 ---
-				slot0()
-
-				return
-				--- END OF BLOCK #1 ---
-
-
-
-			end,
-			function (slot0)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-17, warpins: 1 ---
-				slot0.grid:PlaySpotLigthsEffect()
-				slot0:tryPlayChapterStory()
-
-				if slot0.tryPlayChapterStory:findChapterCell(ChapterConst.AttachBoss) and slot1.trait == ChapterConst.TraitLurk then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 23-30, warpins: 1 ---
-					slot0.grid:focusOnCell(slot1, slot0)
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 31-33, warpins: 3 ---
-				slot0()
-
-				return
-				--- END OF BLOCK #1 ---
-
-
-
-			end,
-			function (slot0)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-38, warpins: 1 ---
-				slot0:updateTrait(ChapterConst.TraitVirgin)
-				slot0.grid:updateAttachments()
-				slot0.grid:updateChampions()
-				slot0:updateTrait(ChapterConst.TraitNone)
-				slot0:emit(LevelMediator2.ON_OVERRIDE_CHAPTER)
-				Timer.New(slot0, 0.5, 1):Start()
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
-			end,
-			function (slot0)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-9, warpins: 1 ---
-				slot0:emit(LevelUIConst.UN_FROZEN)
-
-				if slot0.emit then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 10-11, warpins: 1 ---
-					slot1()
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 12-12, warpins: 2 ---
-				return
-				--- END OF BLOCK #1 ---
-
-
-
-			end
-		})
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 73-78, warpins: 1 ---
-		slot0.grid:PlaySpotLigthsEffect()
-
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 79-80, warpins: 1 ---
-			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #6 ---
-
-	FLOW; TARGET BLOCK #7
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #7 81-82, warpins: 3 ---
-	return
-	--- END OF BLOCK #7 ---
-
-	FLOW; TARGET BLOCK #8
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #8 83-83, warpins: 2 ---
-	--- END OF BLOCK #8 ---
-
-	FLOW; TARGET BLOCK #9
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #9 84-84, warpins: 2 ---
-	--- END OF BLOCK #9 ---
-
-
-
-end
-
-function slot0.tryPlayChapterStory(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-9, warpins: 1 ---
-	if slot0.contextData.chapterVO.getDataType(slot1) == ChapterConst.TypeNone then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-19, warpins: 1 ---
-		slot4 = slot1:getWaveCount()
-
-		function slot5()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-10, warpins: 1 ---
-			if PlayerPrefs.GetInt("help_displayed_on_" .. slot0.id, 0) == 0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 11-22, warpins: 1 ---
-				triggerButton(slot1.helpBtn)
-				PlayerPrefs.SetInt("help_displayed_on_" .. slot0.id, 1)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 23-23, warpins: 2 ---
-			return
-			--- END OF BLOCK #1 ---
-
-
-
-		end
-
-		if slot1:getConfig("story_refresh") and slot3[slot4] and slot3[slot4] ~= "" then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-27, warpins: 1 ---
-			if slot4 == 1 and pg.map_event_list[slot1.id] and pg.map_event_list[slot1.id].help_open == 1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 41-50, warpins: 1 ---
-				pg.StoryMgr.GetInstance():Play(slot3[slot4], slot5)
-				--- END OF BLOCK #0 ---
-
-
-
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 51-59, warpins: 3 ---
-				pg.StoryMgr.GetInstance():Play(slot3[slot4])
-				--- END OF BLOCK #0 ---
-
-
-
+				uv0:emit(LevelUIConst.DO_TRACKING, slot0)
 			end
-			--- END OF BLOCK #0 ---
+		end,
+		function (slot0)
+			if uv0 and (uv1 or uv2) and uv3:getSpAppearStory() and #slot1 > 0 then
+				pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
 
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 60-61, warpins: 3 ---
-			if slot4 == 1 and pg.map_event_list[slot1.id] and pg.map_event_list[slot1.id].help_open == 1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 75-76, warpins: 1 ---
-				slot5()
-				--- END OF BLOCK #0 ---
-
-
-
+				return
 			end
-			--- END OF BLOCK #0 ---
 
+			slot0()
+		end,
+		function (slot0)
+			if uv0 and (uv1 or uv2) and uv3:getSpAppearGuide() and #slot1 > 0 then
+				pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot1, nil, function ()
+					onNextTick(uv0)
+				end)
 
+				return
+			end
 
+			slot0()
+		end,
+		function (slot0)
+			if not uv0 then
+				return slot0()
+			end
+
+			parallelAsync({
+				function (slot0)
+					uv0:tryPlayChapterStory(slot0)
+				end,
+				function (slot0)
+					if uv0:findChapterCell(ChapterConst.AttachBoss) and slot1.trait == ChapterConst.TraitLurk then
+						uv1.grid:focusOnCell(slot1, slot0)
+
+						return
+					end
+
+					slot0()
+				end
+			}, slot0)
+		end,
+		function (slot0)
+			slot1, slot2 = uv0:GetAttachmentStories()
+
+			if slot1 then
+				table.eachAsync(slot1, function (slot0, slot1, slot2)
+					if slot0 <= uv0 and slot1 and #slot1 > 0 then
+						ChapterOpCommand.PlayChapterStory(pg.NewStoryMgr:StoryId2StoryName(tonumber(slot1)), slot2, uv1:IsAutoFight())
+					else
+						slot2()
+					end
+				end, slot0)
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
+			if uv0 then
+				uv1:updateTrait(ChapterConst.TraitVirgin)
+				uv1.grid:updateAttachments()
+				uv1.grid:updateChampions()
+				uv1:updateTrait(ChapterConst.TraitNone)
+				uv1:emit(LevelMediator2.ON_OVERRIDE_CHAPTER)
+			end
+
+			Timer.New(slot0, 0.5, 1):Start()
+		end,
+		function (slot0)
+			if uv0.exited then
+				return
+			end
+
+			uv0:emit(LevelUIConst.UN_FROZEN)
+			slot0()
+		end,
+		function (slot0)
+			if uv0.exited then
+				return
+			end
+
+			if uv1 then
+				uv1()
+			end
+
+			uv0.doingAutoAction = nil
+
+			if uv2 then
+				uv0:TryEnterChapterStoryStage()
+			end
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 77-82, warpins: 6 ---
-		if slot1:getConfig("story_refresh_boss") and slot6 ~= "" and slot1:bossRefreshed() then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 90-97, warpins: 1 ---
-			pg.StoryMgr.GetInstance():Play(slot6)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #1 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 98-107, warpins: 5 ---
-	pg.SystemGuideMgr.GetInstance():PlayChapter(slot1)
-
-	return
-	--- END OF BLOCK #1 ---
-
-
-
+	})
 end
 
-slot4 = {
+function slot0.tryPlayChapterStory(slot0, slot1)
+	slot3 = slot0.contextData.chapterVO:getWaveCount()
+
+	seriesAsync({
+		function (slot0)
+			pg.SystemGuideMgr.GetInstance():PlayChapter(uv0, slot0)
+		end,
+		function (slot0)
+			if uv0:getConfig("story_refresh") and slot1[uv1] and slot2 ~= "" and type(slot2) == "string" then
+				ChapterOpCommand.PlayChapterStory(slot2, slot0, uv0:IsAutoFight())
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
+			if uv0:getConfig("story_refresh_boss") and slot1 ~= "" and type(slot1) == "string" and uv0:bossRefreshed() then
+				ChapterOpCommand.PlayChapterStory(slot1, slot0, uv0:IsAutoFight())
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
+			if uv0 == 1 and pg.map_event_list[uv1.id] and pg.map_event_list[uv1.id].help_open == 1 and PlayerPrefs.GetInt("help_displayed_on_" .. uv1.id, 0) == 0 then
+				triggerButton(uv2.helpBtn)
+				PlayerPrefs.SetInt("help_displayed_on_" .. uv1.id, 1)
+			end
+
+			slot0()
+		end,
+		function ()
+			existCall(uv0)
+		end
+	})
+end
+
+function slot0.TryEnterChapterStoryStage(slot0)
+	slot2 = slot0.contextData.chapterVO:getWaveCount()
+
+	seriesAsync({
+		function (slot0)
+			slot2 = uv0:getConfig("story_refresh") and slot1[uv1]
+
+			if slot2 and type(slot2) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot2)) then
+				uv2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			slot1 = uv0:getConfig("story_refresh_boss")
+
+			if slot1 and slot1 ~= "" and type(slot1) == "number" and uv0:bossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot1)) then
+				uv1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, slot0)
+			else
+				slot0()
+			end
+		end
+	})
+end
+
+slot5 = {
 	[ChapterConst.KizunaJammingDodge] = "kizunaOperationSafe",
 	[ChapterConst.KizunaJammingEngage] = "kizunaOperationDanger",
 	[ChapterConst.StatusDay] = "HololiveDayBar",
-	[ChapterConst.StatusNight] = "HololiveNightBar"
+	[ChapterConst.StatusNight] = "HololiveNightBar",
+	[ChapterConst.StatusAirportUnderControl] = "AirportCaptureBar",
+	[ChapterConst.StatusSunset] = "SunsetBar",
+	[ChapterConst.StatusMaze1] = "MazeBar",
+	[ChapterConst.StatusMaze2] = "MazeBar",
+	[ChapterConst.StatusMaze3] = "MazeBar"
 }
 
-function slot0.PopBar(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
-	if getProxy(ChapterProxy).extraFlagUpdate then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 7-16, warpins: 1 ---
-		getProxy(ChapterProxy):extraFlagUpdated()
-
-		if #slot1 < 1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-17, warpins: 1 ---
-			return
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 18-26, warpins: 2 ---
-		slot4, slot5 = slot0:GetSubView(slot0[slot1[1]])
-
-		if slot5 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 27-29, warpins: 1 ---
-			slot4:Load()
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 30-33, warpins: 2 ---
-		slot4.buffer:PlayAnim()
-		--- END OF BLOCK #2 ---
-
-
-
+function slot0.PopBar(slot0)
+	if not getProxy(ChapterProxy):getUpdatedExtraFlags(slot0.contextData.chapterVO.id) then
+		return
 	end
 
-	--- END OF BLOCK #0 ---
+	getProxy(ChapterProxy):extraFlagUpdated(slot1)
 
-	FLOW; TARGET BLOCK #1
+	if #slot2 < 1 then
+		return
+	end
 
+	if not uv0[slot2[1]] then
+		return
+	end
 
+	slot5, slot6 = slot0:GetSubView(slot4)
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 34-34, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
+	if slot6 then
+		slot5:Load()
+	end
 
-
-
+	slot5.buffer:PlayAnim()
 end
 
 function slot0.updateTrait(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-14, warpins: 0 ---
 	for slot6, slot7 in pairs(slot0.contextData.chapterVO.cells) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 7-11, warpins: 1 ---
 		if slot7.trait ~= ChapterConst.TraitNone then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 12-12, warpins: 1 ---
 			slot7.trait = slot1
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 13-14, warpins: 3 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 15-18, warpins: 1 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 19-26, warpins: 0 ---
 	for slot6, slot7 in ipairs(slot2.champions) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 19-23, warpins: 1 ---
 		if slot7.trait ~= ChapterConst.TraitNone then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 24-24, warpins: 1 ---
 			slot7.trait = slot1
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 25-26, warpins: 3 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 27-27, warpins: 1 ---
-	return
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function slot0.CheckFleetChange(slot0)
+	slot1 = slot0.contextData.chapterVO
+	slot2 = slot1.fleet
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
-	slot2 = slot0.contextData.chapterVO.getDataType(slot1)
-	slot3 = slot0.contextData.chapterVO.fleet
-
-	if _.detect(slot0.contextData.chapterVO.fleets, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
+	if _.detect(slot1.fleets, function (slot0)
 		return not slot0:isValid()
-		--- END OF BLOCK #0 ---
-
-
-
 	end) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-24, warpins: 1 ---
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpRetreat,
-			id = slot4.id
+			id = slot3.id
 		})
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 25-29, warpins: 2 ---
-	if not slot3:isValid() and slot2 == ChapterConst.TypeNone then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 34-39, warpins: 1 ---
+	if not slot2:isValid() then
 		if slot1:getNextValidIndex() > 0 then
+			function slot6()
+				uv0:emit(LevelMediator2.ON_OP, {
+					type = ChapterConst.OpSwitch,
+					id = uv1.id
+				})
+			end
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 40-54, warpins: 1 ---
 			slot0:HandleShowMsgBox({
 				modal = true,
 				hideNo = true,
-				content = i18n("formation_switch_tip", slot1.fleets[slot5].name),
-				onYes = function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-14, warpins: 1 ---
-					slot0:emit(LevelMediator2.ON_OP, {
-						type = ChapterConst.OpSwitch,
-						id = slot1.id
-					})
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
-				end,
-				onNo = function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-14, warpins: 1 ---
-					slot0.emit(LevelMediator2.ON_OP, )
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
-				end
+				content = i18n("formation_switch_tip", slot1.fleets[slot4].name),
+				onYes = slot6,
+				onNo = slot6
 			})
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 55-57, warpins: 2 ---
 		return true
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 58-60, warpins: 3 ---
 	return false
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
-function slot0.tryAutoTrigger(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	slot1 = slot0.contextData.chapterVO
+function slot0.tryAutoTrigger(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
 
 	if slot0:DoBreakAction() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-9, warpins: 1 ---
 		return true
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 10-15, warpins: 2 ---
 	if not slot0:CheckFleetChange() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-20, warpins: 1 ---
-		if slot1:checkAnyInteractive() then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 21-24, warpins: 1 ---
-			triggerButton(slot0.funcBtn)
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 25-31, warpins: 1 ---
-			if slot1:getRound() == ChapterConst.RoundEnemy then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 32-41, warpins: 1 ---
-				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpEnemyRound
-				})
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 42-48, warpins: 1 ---
-				if slot1:getRound() == ChapterConst.RoundPlayer then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 49-54, warpins: 1 ---
-					slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+		if slot2:checkAnyInteractive() then
+			if not slot1 or slot2:IsAutoFight() then
+				triggerButton(slot0.funcBtn)
 			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 55-55, warpins: 5 ---
-	return slot2
-	--- END OF BLOCK #2 ---
-
-
-
-end
-
-function slot0.DoSafeCheckOnBegin(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	slot1 = slot0.contextData.chapterVO
-
-	if slot0:DoBreakAction() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-8, warpins: 1 ---
-		return
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-14, warpins: 2 ---
-	if not slot0:CheckFleetChange() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-21, warpins: 1 ---
-		if slot1:getRound() == ChapterConst.RoundEnemy then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-31, warpins: 1 ---
+		elseif slot2:getRound() == ChapterConst.RoundEnemy then
 			slot0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpEnemyRound
 			})
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 32-38, warpins: 1 ---
-			if slot1:getRound() == ChapterConst.RoundPlayer then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 39-44, warpins: 1 ---
-				slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+		elseif slot2:getRound() == ChapterConst.RoundPlayer then
+			slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+			slot0:TryAutoFight()
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 45-45, warpins: 4 ---
-	return
-	--- END OF BLOCK #2 ---
-
-
-
+	return slot3
 end
 
 function slot0.DoBreakAction(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	slot1 = slot0.contextData.chapterVO
 	slot2, slot3 = slot0:SafeCheck()
 
 	if slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-14, warpins: 1 ---
-		slot4 = slot1.fleet
-
-		function slot5(slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-18, warpins: 1 ---
-			slot2 = slot0:getConfig("defeat_story")
-
-			table.eachAsync(slot0:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-4, warpins: 1 ---
-				if slot0.defeatCount < slot1 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 5-7, warpins: 1 ---
-					slot2()
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 8-11, warpins: 2 ---
-				if slot1[slot0] and type(slot3) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot3) then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 27-44, warpins: 1 ---
-					pg.m02:sendNotification(GAME.STORY_UPDATE, {
-						storyId = slot3
-					})
-					slot2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot3, slot2)
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 45-46, warpins: 3 ---
-					if slot3 and type(slot3) == "string" then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 52-61, warpins: 1 ---
-						pg.StoryMgr.GetInstance():Play(slot3, slot2)
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 62-63, warpins: 2 ---
-						slot2()
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #1 ---
-
-				FLOW; TARGET BLOCK #2
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #2 64-64, warpins: 3 ---
-				return
-				--- END OF BLOCK #2 ---
-
-
-
-			end, slot0)
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		function slot6(slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-9, warpins: 1 ---
-			seriesAsync({
-				function (slot0)
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-3, warpins: 1 ---
-					if slot0 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 4-7, warpins: 1 ---
-						slot1(slot0)
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 8-9, warpins: 1 ---
-						slot0()
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 10-10, warpins: 2 ---
-					return
-					--- END OF BLOCK #1 ---
-
-
-
-				end,
-				function (slot0)
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-15, warpins: 1 ---
-					slot0:emit(LevelMediator2.ON_OP, {
-						type = ChapterConst.OpRetreat,
-						win = slot0.emit
-					})
-					slot0()
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-			})
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
-		end
+		slot4 = ChapterOpCommand.PrepareChapterRetreat
 
 		if slot3 == ChapterConst.ReasonVictory then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-21, warpins: 1 ---
 			seriesAsync({
-				slot5,
 				function (slot0)
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-8, warpins: 1 ---
-					if slot0:getPlayType() == ChapterConst.TypeTransport then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 9-19, warpins: 1 ---
-						pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_win"))
-						--- END OF BLOCK #0 ---
-
-
-
+					uv0(slot0)
+				end,
+				function (slot0)
+					if uv0:getConfig("win_condition_display") and #slot1 > 0 and slot1 .. "_tip" and pg.gametip[slot1] then
+						pg.TipsMgr.GetInstance():ShowTips(i18n(slot1))
 					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 20-29, warpins: 1 ---
 						pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_win"))
-						--- END OF BLOCK #0 ---
-
-
-
 					end
 
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 30-35, warpins: 2 ---
-					slot1(true)
 					slot0()
-
-					return
-					--- END OF BLOCK #1 ---
-
-
-
 				end
 			})
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-25, warpins: 1 ---
-			if slot3 == ChapterConst.ReasonDefeat then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 26-32, warpins: 1 ---
-				if slot1:getPlayType() == ChapterConst.TypeTransport then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 33-45, warpins: 1 ---
-					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_lose"))
-					slot6()
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 46-56, warpins: 1 ---
-					slot0:HandleShowMsgBox({
-						modal = true,
-						hideNo = true,
-						content = i18n("formation_invalide"),
-						onYes = slot6,
-						onClose = slot6
-					})
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+		elseif slot3 == ChapterConst.ReasonDefeat then
+			if slot1:getPlayType() == ChapterConst.TypeTransport then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_lose"))
+				slot4()
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 57-60, warpins: 1 ---
-				if slot3 == ChapterConst.ReasonDefeatDefense then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 61-71, warpins: 1 ---
-					slot0:HandleShowMsgBox({
-						modal = true,
-						hideNo = true,
-						content = i18n("harbour_bomb_tip"),
-						onYes = slot6,
-						onClose = slot6
-					})
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 72-75, warpins: 1 ---
-					if slot3 == ChapterConst.ReasonVictoryOni then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 76-79, warpins: 1 ---
-						slot6(true)
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 80-83, warpins: 1 ---
-						if slot3 == ChapterConst.ReasonDefeatOni then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 84-86, warpins: 1 ---
-							slot6()
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 87-90, warpins: 1 ---
-							if slot3 == ChapterConst.ReasonDefeatBomb then
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 91-94, warpins: 1 ---
-								slot6(true)
-								--- END OF BLOCK #0 ---
-
-
-
-							else
-
-								-- Decompilation error in this vicinity:
-								--- BLOCK #0 95-98, warpins: 1 ---
-								if slot3 == ChapterConst.ReasonVictorySham then
-
-									-- Decompilation error in this vicinity:
-									--- BLOCK #0 99-104, warpins: 1 ---
-									function slot7()
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #0 1-7, warpins: 1 ---
-										slot0:emit(LevelUIConst.SWITCH_TO_MAP)
-
-										return
-										--- END OF BLOCK #0 ---
-
-
-
-									end
-
-									if slot1.shamResetCount < ChapterConst.ShamResetCountLimit then
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #0 105-115, warpins: 1 ---
-										slot0:HandleShowMsgBox({
-											modal = true,
-											content = i18n("sham_count_reset"),
-											onYes = slot6,
-											onNo = slot7
-										})
-										--- END OF BLOCK #0 ---
-
-
-
-									else
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #0 116-126, warpins: 1 ---
-										slot0:HandleShowMsgBox({
-											modal = true,
-											hideNo = true,
-											content = i18n("sham_count_limit"),
-											onYes = slot7,
-											onNo = slot7
-										})
-										--- END OF BLOCK #0 ---
-
-
-
-									end
-									--- END OF BLOCK #0 ---
-
-
-
-								else
-
-									-- Decompilation error in this vicinity:
-									--- BLOCK #0 127-130, warpins: 1 ---
-									if slot3 == ChapterConst.ReasonDefeatSham then
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #0 131-139, warpins: 1 ---
-										if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
-
-											-- Decompilation error in this vicinity:
-											--- BLOCK #0 140-143, warpins: 1 ---
-											slot9 = slot8:getContextByMediator(ShamPreCombatMediator)
-											--- END OF BLOCK #0 ---
-
-
-
-										end
-
-										--- END OF BLOCK #0 ---
-
-										FLOW; TARGET BLOCK #1
-
-
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #1 144-145, warpins: 2 ---
-										if not slot9 then
-
-											-- Decompilation error in this vicinity:
-											--- BLOCK #0 146-156, warpins: 1 ---
-											slot0:HandleShowMsgBox({
-												modal = true,
-												content = i18n("formation_reform_tip"),
-												onYes = function ()
-
-													-- Decompilation error in this vicinity:
-													--- BLOCK #0 1-7, warpins: 1 ---
-													slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
-
-													return
-													--- END OF BLOCK #0 ---
-
-
-
-												end
-											})
-											--- END OF BLOCK #0 ---
-
-
-
-										end
-										--- END OF BLOCK #1 ---
-
-
-
-									else
-
-										-- Decompilation error in this vicinity:
-										--- BLOCK #0 157-160, warpins: 1 ---
-										if slot3 == ChapterConst.ReasonOutTime then
-
-											-- Decompilation error in this vicinity:
-											--- BLOCK #0 161-166, warpins: 1 ---
-											slot0:emit(LevelMediator2.ON_TIME_UP)
-											--- END OF BLOCK #0 ---
-
-
-
-										else
-
-											-- Decompilation error in this vicinity:
-											--- BLOCK #0 167-170, warpins: 1 ---
-											if slot3 == ChapterConst.ReasonActivityOutTime then
-
-												-- Decompilation error in this vicinity:
-												--- BLOCK #0 171-172, warpins: 1 ---
-												slot6()
-												--- END OF BLOCK #0 ---
-
-
-
-											end
-											--- END OF BLOCK #0 ---
-
-
-
-										end
-										--- END OF BLOCK #0 ---
-
-
-
-									end
-									--- END OF BLOCK #0 ---
-
-
-
-								end
-								--- END OF BLOCK #0 ---
-
-
-
-							end
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+				slot0:HandleShowMsgBox({
+					modal = true,
+					hideNo = true,
+					content = i18n("formation_invalide"),
+					onYes = slot4,
+					onClose = slot4
+				})
 			end
-			--- END OF BLOCK #0 ---
-
-
-
+		elseif slot3 == ChapterConst.ReasonDefeatDefense then
+			slot0:HandleShowMsgBox({
+				modal = true,
+				hideNo = true,
+				content = i18n("harbour_bomb_tip"),
+				onYes = slot4,
+				onClose = slot4
+			})
+		elseif slot3 == ChapterConst.ReasonVictoryOni then
+			slot4()
+		elseif slot3 == ChapterConst.ReasonDefeatOni then
+			slot4()
+		elseif slot3 == ChapterConst.ReasonDefeatBomb then
+			slot4()
+		elseif slot3 == ChapterConst.ReasonOutTime then
+			slot0:emit(LevelMediator2.ON_TIME_UP)
+		elseif slot3 == ChapterConst.ReasonActivityOutTime then
+			slot0:HandleShowMsgBox({
+				modal = true,
+				hideNo = true,
+				content = i18n("battle_preCombatMediator_activity_timeout"),
+				onYes = slot4,
+				onClose = slot4
+			})
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 173-176, warpins: 14 ---
 		return true
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 177-178, warpins: 2 ---
 	return slot2
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.SafeCheck(slot0)
+	slot1 = slot0.contextData.chapterVO
+	slot2 = slot1.fleet
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-11, warpins: 1 ---
-	slot2 = slot0.contextData.chapterVO.getDataType(slot1)
-	slot3 = slot0.contextData.chapterVO.fleet
-
-	if slot0.contextData.chapterVO:existOni() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-16, warpins: 1 ---
+	if slot1:existOni() then
 		if slot1:checkOniState() == 1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-21, warpins: 1 ---
 			return true, ChapterConst.ReasonVictoryOni
-			--- END OF BLOCK #0 ---
-
-
-
+		elseif slot3 == 2 then
+			return true, ChapterConst.ReasonDefeatOni
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-23, warpins: 1 ---
-			if slot4 == 2 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 24-28, warpins: 1 ---
-				return true, ChapterConst.ReasonDefeatOni
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 29-31, warpins: 1 ---
-				return false
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+			return false
 		end
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 32-36, warpins: 1 ---
-		if slot1:isPlayingWithBombEnemy() then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 37-44, warpins: 1 ---
-			if slot1:getBombChapterInfo().action_times * 2 <= slot1.roundIndex then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 45-49, warpins: 1 ---
-				return true, ChapterConst.ReasonDefeatBomb
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 50-51, warpins: 1 ---
-				return false
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 52-56, warpins: 6 ---
-	slot4, slot5 = slot1:CheckChapterWin()
-
-	if slot4 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 57-59, warpins: 1 ---
-		return true, slot5
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 60-64, warpins: 2 ---
-	slot6, slot7 = slot1:CheckChapterLose()
-
-	if slot6 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 65-67, warpins: 1 ---
-		return true, slot7
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 68-71, warpins: 2 ---
-	if slot2 == ChapterConst.TypeSham then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 72-76, warpins: 1 ---
-		if ChapterConst.ShamEnemyLimit <= slot1.progress then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 77-81, warpins: 1 ---
-			return true, ChapterConst.ReasonVictorySham
-			--- END OF BLOCK #0 ---
-
-
-
+	elseif slot1:isPlayingWithBombEnemy() then
+		if slot1:getBombChapterInfo().action_times * 2 <= slot1.roundIndex then
+			return true, ChapterConst.ReasonDefeatBomb
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 82-86, warpins: 1 ---
-			if not slot3:isValid() then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 87-90, warpins: 1 ---
-				return true, ChapterConst.ReasonDefeatSham
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+			return false
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
+	slot3, slot4 = slot1:CheckChapterWin()
 
-	FLOW; TARGET BLOCK #4
+	if slot3 then
+		return true, slot4
+	end
 
+	slot5, slot6 = slot1:CheckChapterLose()
 
+	if slot5 then
+		return true, slot6
+	end
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 91-95, warpins: 4 ---
 	if not slot1:inWartime() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 96-99, warpins: 1 ---
 		return true, ChapterConst.ReasonOutTime
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #4 ---
+	slot7 = slot1:getConfig("act_id")
 
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 100-110, warpins: 2 ---
-	slot8 = slot1:getConfig("act_id")
-
-	if not slot0.contextData.map:isRemaster() and slot8 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot8) or slot10:isEnd()) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 127-130, warpins: 2 ---
+	if not slot0.contextData.map:isRemaster() and slot7 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot7) or slot9:isEnd()) then
 		return true, ChapterConst.ReasonActivityOutTime
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 131-132, warpins: 4 ---
 	return false
-	--- END OF BLOCK #6 ---
+end
 
+function slot0.TryAutoFight(slot0)
+	if not slot0.contextData.chapterVO:IsAutoFight() then
+		return
+	end
 
+	if slot1:GetFleetofDuty(tobool(_.detect(slot1:GetAllEnemies(), function (slot0)
+		return slot0.attachment == ChapterConst.AttachBoss
+	end))) and slot4.id ~= slot1.fleet.id then
+		slot0:emit(LevelMediator2.ON_OP, {
+			type = ChapterConst.OpSwitch,
+			id = slot4.id
+		})
+		slot0:tryAutoTrigger()
 
+		return
+	end
+
+	if slot1:checkAnyInteractive() then
+		slot0:tryAutoTrigger()
+
+		return
+	end
+
+	if slot3 then
+		slot5, slot6 = slot1:FindBossPath(ChapterConst.SubjectPlayer, slot4.line, slot3)
+		slot7 = {}
+		slot8, slot9 = nil
+
+		for slot13, slot14 in ipairs(slot6) do
+			table.insert(slot7, slot14)
+
+			if slot1:existEnemy(ChapterConst.SubjectPlayer, slot14.row, slot14.column) then
+				slot5 = slot13
+				slot8 = slot14
+
+				break
+			end
+		end
+
+		slot2 = {
+			{
+				target = slot8 or slot3,
+				priority = slot5 or 0,
+				path = slot7
+			}
+		}
+	else
+		function slot5(slot0)
+			slot1 = slot0.target
+			slot2 = pg.expedition_data_template[slot1.attachmentId]
+
+			if slot1.flag == ChapterConst.CellFlagDisabled then
+				return 0
+			end
+
+			return ChapterConst.EnemyPreference[slot2.type]
+		end
+
+		slot6 = slot4.row
+		slot7 = slot4.column
+
+		table.sort(_.map(slot2, function (slot0)
+			slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
+
+			return {
+				target = slot0,
+				priority = slot1,
+				path = slot2
+			}
+		end), function (slot0, slot1)
+			if PathFinding.PrioObstacle <= slot0.priority ~= (PathFinding.PrioObstacle <= slot1.priority) then
+				return not slot2
+			end
+
+			if uv0(slot0) ~= uv0(slot1) then
+				return slot5 < slot4
+			end
+
+			return slot0.priority < slot1.priority
+		end)
+	end
+
+	if slot2[1] and slot5.priority < PathFinding.PrioObstacle then
+		slot6 = slot5.target
+
+		slot0:emit(LevelMediator2.ON_OP, {
+			type = ChapterConst.OpMove,
+			id = slot4.id,
+			arg1 = slot6.row,
+			arg2 = slot6.column
+		})
+	else
+		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_errors_tip"))
+		getProxy(ChapterProxy):SetChapterAutoFlag(slot1.id, false)
+	end
+end
+
+function slot0.popStageStrategy(slot0)
+	if slot0:findTF("event/collapse", slot0.rightStage).anchoredPosition.x <= 1 then
+		triggerButton(slot1)
+	end
+end
+
+function slot0.UpdateAutoFightPanel(slot0)
+	if slot0.contextData.chapterVO:CanActivateAutoFight() then
+		if not slot0.autoFightPanel then
+			slot0.autoFightPanel = LevelStageAutoFightPanel.New(slot0.rightStage:Find("event/collapse"), slot0.event, slot0.contextData)
+
+			slot0.autoFightPanel:Load()
+
+			slot0.autoFightPanel.isFrozen = slot0.isFrozen
+		end
+
+		slot0.autoFightPanel.buffer:Show()
+	elseif slot0.autoFightPanel then
+		slot0.autoFightPanel.buffer:Hide()
+	end
+end
+
+function slot0.UpdateAutoFightMark(slot0)
+	if not slot0.autoFightPanel then
+		return
+	end
+
+	slot0.autoFightPanel.buffer:UpdateAutoFightMark()
+end
+
+function slot0.DestroyAutoFightPanel(slot0)
+	if not slot0.autoFightPanel then
+		return
+	end
+
+	slot0.autoFightPanel:Destroy()
+
+	slot0.autoFightPanel = nil
 end
 
 function slot0.HandleShowMsgBox(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-11, warpins: 1 ---
 	slot1.blurLevelCamera = true
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 return slot0

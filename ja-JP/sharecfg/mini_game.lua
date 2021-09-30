@@ -1005,6 +1005,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "夕立改造小游戏",
+		view_name = "EatFoodGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 31,
+		hub_id = 24,
+		request_data = 0
+	},
 	all = {
 		1,
 		2,
@@ -1035,6 +1048,7 @@ pg.mini_game = {
 		27,
 		28,
 		29,
-		30
+		30,
+		31
 	}
 }
