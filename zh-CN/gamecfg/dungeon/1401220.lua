@@ -248,6 +248,20 @@ return {
 								8630,
 								9700
 							}
+						},
+						{
+							monsterTemplateID = 14005,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-15,
+								0,
+								75
+							},
+							buffList = {
+								9674
+							}
 						}
 					},
 					airFighter = {
@@ -346,6 +360,20 @@ return {
 							}
 						},
 						{
+							monsterTemplateID = 14005,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-15,
+								0,
+								40
+							},
+							buffList = {
+								9674
+							}
+						},
+						{
 							monsterTemplateID = 14019,
 							delay = 2,
 							moveCast = true,
@@ -371,7 +399,7 @@ return {
 				},
 				{
 					triggerType = 10,
-					waveIndex = 205,
+					waveIndex = 1000,
 					conditionType = 0,
 					preWaves = {
 						100
@@ -382,31 +410,51 @@ return {
 					},
 					spawn = {
 						{
-							delay = 5,
+							delay = 8,
 							prefab = "suligao_dengta_stg",
-							life_time = 200,
+							life_time = 5,
 							behaviours = 10024,
+							IFF = 1,
 							coordinate = {
-								0,
+								-15,
 								0,
 								55
 							},
 							cld_data = {
-								20
+								30,
+								60
 							}
 						},
 						{
-							delay = 10,
+							delay = 23,
 							prefab = "suligao_dengta_stg",
-							life_time = 200,
+							life_time = 5,
 							behaviours = 10024,
+							IFF = 1,
 							coordinate = {
-								0,
+								-15,
 								0,
 								55
 							},
 							cld_data = {
-								20
+								30,
+								60
+							}
+						},
+						{
+							delay = 38,
+							prefab = "suligao_dengta_stg",
+							life_time = 5,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
 							}
 						}
 					}

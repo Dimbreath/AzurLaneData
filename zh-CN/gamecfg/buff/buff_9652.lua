@@ -18,7 +18,7 @@ return {
 			arg_list = {
 				skill_id = 9652,
 				target = "TargetSelf",
-				time = 10
+				time = 5
 			}
 		},
 		{
@@ -28,7 +28,7 @@ return {
 			},
 			arg_list = {
 				count = 0,
-				delay = 11
+				delay = 6
 			}
 		}
 	}

@@ -1259,15 +1259,18 @@ pg.memory_group = {
 		}
 	},
 	[166] = {
-		title = "特别小故事",
-		subtype = 3,
-		type = 2,
+		title = "荣耀殿堂",
+		subtype = 0,
+		type = 3,
 		id = 166,
-		icon = "title_event",
+		icon = "title_chara_rongyaodiantang",
 		memories = {
 			891,
 			892,
-			893
+			893,
+			1868,
+			1869,
+			1870
 		}
 	},
 	[167] = {
@@ -3310,6 +3313,22 @@ pg.memory_group = {
 			1857
 		}
 	},
+	[570] = {
+		title = "从内到外魅力MAX！",
+		subtype = 0,
+		type = 3,
+		id = 570,
+		icon = "title_chara_junhe",
+		memories = {
+			1861,
+			1862,
+			1863,
+			1864,
+			1865,
+			1866,
+			1867
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3484,6 +3503,7 @@ pg.memory_group = {
 		566,
 		567,
 		568,
-		569
+		569,
+		570
 	}
 }

@@ -1,5 +1,5 @@
 return {
-	time = 0,
+	last_effect_bound_bone = "lamp",
 	name = "探照灯",
 	init_effect = "",
 	id = 9700,
@@ -7,6 +7,7 @@ return {
 	picture = "",
 	last_effect_cld_angle = true,
 	desc = "",
+	time = 0,
 	stack = 1,
 	color = "yellow",
 	icon = 9700,
@@ -22,9 +23,28 @@ return {
 				cld_data = {
 					angle = 60,
 					box = {
-						range = 80
+						range = 55
 					}
 				}
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 1,
+				attr = "aimBiasDecaySpeedRatio"
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				tag = "C14_highlight"
 			}
 		}
 	}

@@ -11400,6 +11400,18 @@ pg.activity_shop_template = {
 		resource_num = 100,
 		order = 7
 	},
+	[10063] = {
+		commodity_id = 201216,
+		resource_category = 2,
+		activity = 0,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 7,
+		resource_type = 59900,
+		id = 10063,
+		resource_num = 1200,
+		order = 2
+	},
 	[11001] = {
 		commodity_id = 42000,
 		resource_category = 1,
@@ -12495,6 +12507,7 @@ pg.activity_shop_template = {
 		10060,
 		10061,
 		10062,
+		10063,
 		11001,
 		11002,
 		11003,

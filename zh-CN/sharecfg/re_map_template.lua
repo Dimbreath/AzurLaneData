@@ -232,6 +232,21 @@ pg.re_map_template = {
 			2100156
 		}
 	},
+	[14] = {
+		bg = "temp_ouxiang",
+		name = "偶像一期常驻复刻",
+		memory_group = 172,
+		id = 14,
+		activity_type = 2,
+		order = 14,
+		config_data = {
+			2200041,
+			2200042,
+			2200043,
+			2200044,
+			2200045
+		}
+	},
 	all = {
 		1,
 		2,
@@ -244,6 +259,7 @@ pg.re_map_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

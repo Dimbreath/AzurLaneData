@@ -17,6 +17,7 @@ slot0.TYPES = {
 	SCHOOL = 13,
 	ACT_RETURN = 16,
 	GUILD = 5,
+	VOTE_OREDER = 18,
 	SERVER = 12,
 	BLUEPRINT = 14,
 	ACT_NEWBIE = 17,
@@ -105,6 +106,9 @@ function slot0.BindConditions(slot0)
 		slot2, slot3 = TrainingCampScene.isTecActOn()
 
 		return slot1 or slot3
+	end)
+	slot0:BindCondition(uv0.TYPES.VOTE_OREDER, function ()
+		return getProxy(VoteProxy):GetOrderBook()
 	end)
 end
 

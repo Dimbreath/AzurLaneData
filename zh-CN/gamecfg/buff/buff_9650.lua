@@ -8,7 +8,7 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 9650,
-	last_effect = "EVDdowm",
+	last_effect = "zhaomingdan_miaozhun",
 	blink = {
 		0.8,
 		0.8,
@@ -37,6 +37,16 @@ return {
 			arg_list = {
 				number = 1,
 				attr = "lockAimBias"
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "C14_highlight"
 			}
 		}
 	}
