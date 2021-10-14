@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别小故事\n\n<size=45>{namecode:6}、约会@home</size>",
+					"荣耀殿堂\n\n<size=45>{namecode:6}、约会@home</size>",
 					1
 				}
 			}
